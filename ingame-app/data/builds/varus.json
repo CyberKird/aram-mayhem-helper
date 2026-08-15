@@ -1,0 +1,43 @@
+{
+ "champion": "Varus",
+ "source": "https://u.gg/lol/champions/aram/varus-aram",
+ "summoners": [
+  "Flash",
+  "Ghost"
+ ],
+ "starting": [
+  "Dagger",
+  "Berserker's Greaves"
+ ],
+ "core": [
+  "Berserker's Greaves",
+  "Blade of The Ruined King",
+  "Guinsoo's Rageblade"
+ ],
+ "fourth": [
+  "Terminus",
+  "Serylda's Grudge"
+ ],
+ "fifth": [
+  "Runaan's Hurricane",
+  "Edge of Night",
+  "Wit's End"
+ ],
+ "sixth": [
+  "Runaan's Hurricane",
+  "Bloodthirster",
+  "Terminus"
+ ],
+ "pool": [
+  "Dagger",
+  "Berserker's Greaves",
+  "Blade of The Ruined King",
+  "Guinsoo's Rageblade",
+  "Terminus",
+  "Serylda's Grudge",
+  "Runaan's Hurricane",
+  "Edge of Night",
+  "Wit's End",
+  "Bloodthirster"
+ ]
+}

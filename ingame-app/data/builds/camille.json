@@ -1,0 +1,44 @@
+{
+ "champion": "Camille",
+ "source": "https://u.gg/lol/champions/aram/camille-aram",
+ "summoners": [
+  "Flash",
+  "Mark"
+ ],
+ "starting": [
+  "Boots",
+  "Phage"
+ ],
+ "core": [
+  "Trinity Force",
+  "Mercury's Treads",
+  "Sundered Sky"
+ ],
+ "fourth": [
+  "Death's Dance",
+  "Sterak's Gage"
+ ],
+ "fifth": [
+  "Sterak's Gage",
+  "Death's Dance",
+  "Maw of Malmortius"
+ ],
+ "sixth": [
+  "Spirit Visage",
+  "Eclipse",
+  "Spear of Shojin"
+ ],
+ "pool": [
+  "Boots",
+  "Phage",
+  "Trinity Force",
+  "Mercury's Treads",
+  "Sundered Sky",
+  "Death's Dance",
+  "Sterak's Gage",
+  "Maw of Malmortius",
+  "Spirit Visage",
+  "Eclipse",
+  "Spear of Shojin"
+ ]
+}

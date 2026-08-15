@@ -1,0 +1,45 @@
+{
+ "champion": "Sett",
+ "source": "https://u.gg/lol/champions/aram/sett-aram",
+ "summoners": [
+  "Flash",
+  "Mark"
+ ],
+ "starting": [
+  "Ruby Crystal",
+  "Refillable Potion",
+  "Crystalline Bracer"
+ ],
+ "core": [
+  "Heartsteel",
+  "Mercury's Treads",
+  "Overlord's Bloodmail"
+ ],
+ "fourth": [
+  "Sterak's Gage",
+  "Warmog's Armor"
+ ],
+ "fifth": [
+  "Warmog's Armor",
+  "Sterak's Gage",
+  "Stridebreaker"
+ ],
+ "sixth": [
+  "Spirit Visage",
+  "Thornmail",
+  "Sterak's Gage"
+ ],
+ "pool": [
+  "Ruby Crystal",
+  "Refillable Potion",
+  "Crystalline Bracer",
+  "Heartsteel",
+  "Mercury's Treads",
+  "Overlord's Bloodmail",
+  "Sterak's Gage",
+  "Warmog's Armor",
+  "Stridebreaker",
+  "Spirit Visage",
+  "Thornmail"
+ ]
+}

@@ -1,0 +1,42 @@
+{
+ "champion": "Viego",
+ "source": "https://u.gg/lol/champions/aram/viego-aram",
+ "summoners": [
+  "Flash",
+  "Mark"
+ ],
+ "starting": [
+  "Tunneler",
+  "Glowing Mote"
+ ],
+ "core": [
+  "Sundered Sky",
+  "Mercury's Treads",
+  "Death's Dance"
+ ],
+ "fourth": [
+  "Immortal Shieldbow",
+  "Lord Dominik's Regards"
+ ],
+ "fifth": [
+  "Infinity Edge",
+  "Immortal Shieldbow",
+  "Lord Dominik's Regards"
+ ],
+ "sixth": [
+  "Lord Dominik's Regards",
+  "Blade of The Ruined King",
+  "Immortal Shieldbow"
+ ],
+ "pool": [
+  "Tunneler",
+  "Glowing Mote",
+  "Sundered Sky",
+  "Mercury's Treads",
+  "Death's Dance",
+  "Immortal Shieldbow",
+  "Lord Dominik's Regards",
+  "Infinity Edge",
+  "Blade of The Ruined King"
+ ]
+}

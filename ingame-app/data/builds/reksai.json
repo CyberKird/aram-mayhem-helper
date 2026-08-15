@@ -1,0 +1,44 @@
+{
+ "champion": "Rek'Sai",
+ "source": "https://u.gg/lol/champions/aram/reksai-aram",
+ "summoners": [
+  "Flash",
+  "Mark"
+ ],
+ "starting": [
+  "Giant's Belt",
+  "Ruby Crystal"
+ ],
+ "core": [
+  "Heartsteel",
+  "Unending Despair",
+  "Spirit Visage"
+ ],
+ "fourth": [
+  "Hollow Radiance",
+  "Randuin's Omen"
+ ],
+ "fifth": [
+  "Hollow Radiance",
+  "Sundered Sky",
+  "Jak'Sho, The Protean"
+ ],
+ "sixth": [
+  "Sundered Sky",
+  "Thornmail",
+  "Iceborn Gauntlet"
+ ],
+ "pool": [
+  "Giant's Belt",
+  "Ruby Crystal",
+  "Heartsteel",
+  "Unending Despair",
+  "Spirit Visage",
+  "Hollow Radiance",
+  "Randuin's Omen",
+  "Sundered Sky",
+  "Jak'Sho, The Protean",
+  "Thornmail",
+  "Iceborn Gauntlet"
+ ]
+}

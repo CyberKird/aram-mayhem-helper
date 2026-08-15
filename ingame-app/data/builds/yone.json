@@ -1,0 +1,42 @@
+{
+ "champion": "Yone",
+ "source": "https://u.gg/lol/champions/aram/yone-aram",
+ "summoners": [
+  "Flash",
+  "Mark"
+ ],
+ "starting": [
+  "Dagger",
+  "Berserker's Greaves"
+ ],
+ "core": [
+  "Berserker's Greaves",
+  "Blade of The Ruined King",
+  "Immortal Shieldbow"
+ ],
+ "fourth": [
+  "Infinity Edge",
+  "Wit's End"
+ ],
+ "fifth": [
+  "Death's Dance",
+  "Wit's End",
+  "Bloodthirster"
+ ],
+ "sixth": [
+  "Death's Dance",
+  "Jak'Sho, The Protean",
+  "Bloodthirster"
+ ],
+ "pool": [
+  "Dagger",
+  "Berserker's Greaves",
+  "Blade of The Ruined King",
+  "Immortal Shieldbow",
+  "Infinity Edge",
+  "Wit's End",
+  "Death's Dance",
+  "Bloodthirster",
+  "Jak'Sho, The Protean"
+ ]
+}

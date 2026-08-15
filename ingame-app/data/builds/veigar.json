@@ -1,0 +1,43 @@
+{
+ "champion": "Veigar",
+ "source": "https://u.gg/lol/champions/aram/veigar-aram",
+ "summoners": [
+  "Flash",
+  "Barrier"
+ ],
+ "starting": [
+  "Refillable Potion",
+  "Lost Chapter"
+ ],
+ "core": [
+  "Luden's Echo",
+  "Sorcerer's Shoes",
+  "Stormsurge"
+ ],
+ "fourth": [
+  "Rabadon's Deathcap",
+  "Shadowflame"
+ ],
+ "fifth": [
+  "Shadowflame",
+  "Void Staff",
+  "Rabadon's Deathcap"
+ ],
+ "sixth": [
+  "Void Staff",
+  "Liandry's Torment",
+  "Malignance"
+ ],
+ "pool": [
+  "Refillable Potion",
+  "Lost Chapter",
+  "Luden's Echo",
+  "Sorcerer's Shoes",
+  "Stormsurge",
+  "Rabadon's Deathcap",
+  "Shadowflame",
+  "Void Staff",
+  "Liandry's Torment",
+  "Malignance"
+ ]
+}

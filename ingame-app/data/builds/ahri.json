@@ -1,0 +1,44 @@
+{
+ "champion": "Ahri",
+ "source": "https://u.gg/lol/champions/aram/ahri-aram",
+ "summoners": [
+  "Flash",
+  "Mark"
+ ],
+ "starting": [
+  "Refillable Potion",
+  "Lost Chapter"
+ ],
+ "core": [
+  "Luden's Echo",
+  "Sorcerer's Shoes",
+  "Stormsurge"
+ ],
+ "fourth": [
+  "Rabadon's Deathcap",
+  "Shadowflame"
+ ],
+ "fifth": [
+  "Rabadon's Deathcap",
+  "Void Staff",
+  "Shadowflame"
+ ],
+ "sixth": [
+  "Zhonya's Hourglass",
+  "Morellonomicon",
+  "Liandry's Torment"
+ ],
+ "pool": [
+  "Refillable Potion",
+  "Lost Chapter",
+  "Luden's Echo",
+  "Sorcerer's Shoes",
+  "Stormsurge",
+  "Rabadon's Deathcap",
+  "Shadowflame",
+  "Void Staff",
+  "Zhonya's Hourglass",
+  "Morellonomicon",
+  "Liandry's Torment"
+ ]
+}

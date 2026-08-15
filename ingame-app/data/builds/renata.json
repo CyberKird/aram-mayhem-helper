@@ -1,0 +1,46 @@
+{
+ "champion": "Renata Glasc",
+ "source": "https://u.gg/lol/champions/aram/renata-aram",
+ "summoners": [
+  "Flash",
+  "Clarity"
+ ],
+ "starting": [
+  "Health Potion",
+  "Tear of the Goddess",
+  "Bandleglass Mirror"
+ ],
+ "core": [
+  "Imperial Mandate",
+  "Ionian Boots of Lucidity",
+  "Archangel's Staff"
+ ],
+ "fourth": [
+  "Shurelya's Battlesong",
+  "Malignance"
+ ],
+ "fifth": [
+  "Redemption",
+  "Locket of the Iron Solari",
+  "Morellonomicon"
+ ],
+ "sixth": [
+  "Locket of the Iron Solari",
+  "Shurelya's Battlesong",
+  "Whispering Circlet"
+ ],
+ "pool": [
+  "Health Potion",
+  "Tear of the Goddess",
+  "Bandleglass Mirror",
+  "Imperial Mandate",
+  "Ionian Boots of Lucidity",
+  "Archangel's Staff",
+  "Shurelya's Battlesong",
+  "Malignance",
+  "Redemption",
+  "Locket of the Iron Solari",
+  "Morellonomicon",
+  "Whispering Circlet"
+ ]
+}

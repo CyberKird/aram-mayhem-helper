@@ -1,0 +1,43 @@
+{
+ "champion": "Kha'Zix",
+ "source": "https://u.gg/lol/champions/aram/khazix-aram",
+ "summoners": [
+  "Flash",
+  "Mark"
+ ],
+ "starting": [
+  "Long Sword",
+  "Health Potion",
+  "Serrated Dirk"
+ ],
+ "core": [
+  "Hubris",
+  "Ionian Boots of Lucidity",
+  "Manamune"
+ ],
+ "fourth": [
+  "Edge of Night",
+  "Serylda's Grudge"
+ ],
+ "fifth": [
+  "Edge of Night",
+  "Serylda's Grudge",
+  "Voltaic Cyclosword"
+ ],
+ "sixth": [
+  "Serylda's Grudge",
+  "Voltaic Cyclosword",
+  "Edge of Night"
+ ],
+ "pool": [
+  "Long Sword",
+  "Health Potion",
+  "Serrated Dirk",
+  "Hubris",
+  "Ionian Boots of Lucidity",
+  "Manamune",
+  "Edge of Night",
+  "Serylda's Grudge",
+  "Voltaic Cyclosword"
+ ]
+}

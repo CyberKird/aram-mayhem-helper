@@ -1,0 +1,46 @@
+{
+ "champion": "Ornn",
+ "source": "https://u.gg/lol/champions/aram/ornn-aram",
+ "summoners": [
+  "Flash",
+  "Mark"
+ ],
+ "starting": [
+  "Giant's Belt",
+  "Ruby Crystal",
+  "Health Potion"
+ ],
+ "core": [
+  "Heartsteel",
+  "Mercury's Treads",
+  "Warmog's Armor"
+ ],
+ "fourth": [
+  "Thornmail",
+  "Kaenic Rookern"
+ ],
+ "fifth": [
+  "Jak'Sho, The Protean",
+  "Thornmail",
+  "Unending Despair"
+ ],
+ "sixth": [
+  "Unending Despair",
+  "Protoplasm Harness",
+  "Sunfire Aegis"
+ ],
+ "pool": [
+  "Giant's Belt",
+  "Ruby Crystal",
+  "Health Potion",
+  "Heartsteel",
+  "Mercury's Treads",
+  "Warmog's Armor",
+  "Thornmail",
+  "Kaenic Rookern",
+  "Jak'Sho, The Protean",
+  "Unending Despair",
+  "Protoplasm Harness",
+  "Sunfire Aegis"
+ ]
+}

@@ -1,0 +1,44 @@
+{
+ "champion": "Vladimir",
+ "source": "https://u.gg/lol/champions/aram/vladimir-aram",
+ "summoners": [
+  "Flash",
+  "Ghost"
+ ],
+ "starting": [
+  "Amplifying Tome",
+  "Refillable Potion",
+  "Fiendish Codex"
+ ],
+ "core": [
+  "Riftmaker",
+  "Cosmic Drive",
+  "Sorcerer's Shoes"
+ ],
+ "fourth": [
+  "Rabadon's Deathcap",
+  "Spirit Visage"
+ ],
+ "fifth": [
+  "Zhonya's Hourglass",
+  "Spirit Visage",
+  "Rabadon's Deathcap"
+ ],
+ "sixth": [
+  "Spirit Visage",
+  "Rabadon's Deathcap",
+  "Morellonomicon"
+ ],
+ "pool": [
+  "Amplifying Tome",
+  "Refillable Potion",
+  "Fiendish Codex",
+  "Riftmaker",
+  "Cosmic Drive",
+  "Sorcerer's Shoes",
+  "Rabadon's Deathcap",
+  "Spirit Visage",
+  "Zhonya's Hourglass",
+  "Morellonomicon"
+ ]
+}

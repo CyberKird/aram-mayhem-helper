@@ -1,0 +1,45 @@
+{
+ "champion": "Udyr",
+ "source": "https://u.gg/lol/champions/aram/udyr-aram",
+ "summoners": [
+  "Flash",
+  "Mark"
+ ],
+ "starting": [
+  "Refillable Potion",
+  "Lost Chapter"
+ ],
+ "core": [
+  "Malignance",
+  "Liandry's Torment",
+  "Shadowflame"
+ ],
+ "fourth": [
+  "Rylai's Crystal Scepter",
+  "Spirit Visage"
+ ],
+ "fifth": [
+  "Rabadon's Deathcap",
+  "Riftmaker",
+  "Jak'Sho, The Protean"
+ ],
+ "sixth": [
+  "Void Staff",
+  "Rabadon's Deathcap",
+  "Thornmail"
+ ],
+ "pool": [
+  "Refillable Potion",
+  "Lost Chapter",
+  "Malignance",
+  "Liandry's Torment",
+  "Shadowflame",
+  "Rylai's Crystal Scepter",
+  "Spirit Visage",
+  "Rabadon's Deathcap",
+  "Riftmaker",
+  "Jak'Sho, The Protean",
+  "Void Staff",
+  "Thornmail"
+ ]
+}

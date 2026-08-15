@@ -1,0 +1,43 @@
+{
+ "champion": "Naafiri",
+ "source": "https://u.gg/lol/champions/aram/naafiri-aram",
+ "summoners": [
+  "Flash",
+  "Mark"
+ ],
+ "starting": [
+  "Long Sword",
+  "Serrated Dirk"
+ ],
+ "core": [
+  "Hubris",
+  "Mercury's Treads",
+  "Eclipse"
+ ],
+ "fourth": [
+  "Serylda's Grudge",
+  "Death's Dance"
+ ],
+ "fifth": [
+  "Serylda's Grudge",
+  "Death's Dance",
+  "Axiom Arc"
+ ],
+ "sixth": [
+  "Voltaic Cyclosword",
+  "Maw of Malmortius",
+  "Axiom Arc"
+ ],
+ "pool": [
+  "Long Sword",
+  "Serrated Dirk",
+  "Hubris",
+  "Mercury's Treads",
+  "Eclipse",
+  "Serylda's Grudge",
+  "Death's Dance",
+  "Axiom Arc",
+  "Voltaic Cyclosword",
+  "Maw of Malmortius"
+ ]
+}

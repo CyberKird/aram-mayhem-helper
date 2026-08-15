@@ -1,0 +1,45 @@
+{
+ "champion": "Milio",
+ "source": "https://u.gg/lol/champions/aram/milio-aram",
+ "summoners": [
+  "Exhaust",
+  "Flash"
+ ],
+ "starting": [
+  "Health Potion",
+  "Tear of the Goddess",
+  "Bandleglass Mirror"
+ ],
+ "core": [
+  "Moonstone Renewer",
+  "Whispering Circlet",
+  "Ionian Boots of Lucidity"
+ ],
+ "fourth": [
+  "Ardent Censer",
+  "Redemption"
+ ],
+ "fifth": [
+  "Dawncore",
+  "Ardent Censer",
+  "Redemption"
+ ],
+ "sixth": [
+  "Staff of Flowing Water",
+  "Dawncore",
+  "Luden's Echo"
+ ],
+ "pool": [
+  "Health Potion",
+  "Tear of the Goddess",
+  "Bandleglass Mirror",
+  "Moonstone Renewer",
+  "Whispering Circlet",
+  "Ionian Boots of Lucidity",
+  "Ardent Censer",
+  "Redemption",
+  "Dawncore",
+  "Staff of Flowing Water",
+  "Luden's Echo"
+ ]
+}

@@ -1,0 +1,46 @@
+{
+ "champion": "Sion",
+ "source": "https://u.gg/lol/champions/aram/sion-aram",
+ "summoners": [
+  "Flash",
+  "Mark"
+ ],
+ "starting": [
+  "Ruby Crystal",
+  "Refillable Potion",
+  "Crystalline Bracer"
+ ],
+ "core": [
+  "Heartsteel",
+  "Plated Steelcaps",
+  "Unending Despair"
+ ],
+ "fourth": [
+  "Warmog's Armor",
+  "Jak'Sho, The Protean"
+ ],
+ "fifth": [
+  "Warmog's Armor",
+  "Hollow Radiance",
+  "Kaenic Rookern"
+ ],
+ "sixth": [
+  "Overlord's Bloodmail",
+  "Hollow Radiance",
+  "Frozen Heart"
+ ],
+ "pool": [
+  "Ruby Crystal",
+  "Refillable Potion",
+  "Crystalline Bracer",
+  "Heartsteel",
+  "Plated Steelcaps",
+  "Unending Despair",
+  "Warmog's Armor",
+  "Jak'Sho, The Protean",
+  "Hollow Radiance",
+  "Kaenic Rookern",
+  "Overlord's Bloodmail",
+  "Frozen Heart"
+ ]
+}

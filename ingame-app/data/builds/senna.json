@@ -1,0 +1,43 @@
+{
+ "champion": "Senna",
+ "source": "https://u.gg/lol/champions/aram/senna-aram",
+ "summoners": [
+  "Flash",
+  "Ghost"
+ ],
+ "starting": [
+  "Pickaxe",
+  "Dagger"
+ ],
+ "core": [
+  "Statikk Shiv",
+  "Boots of Swiftness",
+  "Black Cleaver"
+ ],
+ "fourth": [
+  "Rapid Firecannon",
+  "Infinity Edge"
+ ],
+ "fifth": [
+  "Infinity Edge",
+  "Blade of The Ruined King",
+  "Lord Dominik's Regards"
+ ],
+ "sixth": [
+  "Blade of The Ruined King",
+  "Bloodthirster",
+  "Infinity Edge"
+ ],
+ "pool": [
+  "Pickaxe",
+  "Dagger",
+  "Statikk Shiv",
+  "Boots of Swiftness",
+  "Black Cleaver",
+  "Rapid Firecannon",
+  "Infinity Edge",
+  "Blade of The Ruined King",
+  "Lord Dominik's Regards",
+  "Bloodthirster"
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "champion": "Graves",
+ "source": "https://u.gg/lol/champions/aram/graves-aram",
+ "summoners": [
+  "Flash",
+  "Mark"
+ ],
+ "starting": [
+  "Long Sword",
+  "Serrated Dirk"
+ ],
+ "core": [
+  "The Collector",
+  "Infinity Edge",
+  "Mercury's Treads"
+ ],
+ "fourth": [
+  "Lord Dominik's Regards",
+  "Immortal Shieldbow"
+ ],
+ "fifth": [
+  "Lord Dominik's Regards",
+  "Bloodthirster",
+  "Immortal Shieldbow"
+ ],
+ "sixth": [
+  "Bloodthirster",
+  "Immortal Shieldbow",
+  "Lord Dominik's Regards"
+ ],
+ "pool": [
+  "Long Sword",
+  "Serrated Dirk",
+  "The Collector",
+  "Infinity Edge",
+  "Mercury's Treads",
+  "Lord Dominik's Regards",
+  "Immortal Shieldbow",
+  "Bloodthirster"
+ ]
+}

@@ -1,0 +1,45 @@
+{
+ "champion": "Zilean",
+ "source": "https://u.gg/lol/champions/aram/zilean-aram",
+ "summoners": [
+  "Flash",
+  "Ghost"
+ ],
+ "starting": [
+  "Refillable Potion",
+  "Lost Chapter"
+ ],
+ "core": [
+  "Archangel's Staff",
+  "Luden's Echo",
+  "Sorcerer's Shoes"
+ ],
+ "fourth": [
+  "Shadowflame",
+  "Liandry's Torment"
+ ],
+ "fifth": [
+  "Shadowflame",
+  "Stormsurge",
+  "Cryptbloom"
+ ],
+ "sixth": [
+  "Rabadon's Deathcap",
+  "Shurelya's Battlesong",
+  "Banshee's Veil"
+ ],
+ "pool": [
+  "Refillable Potion",
+  "Lost Chapter",
+  "Archangel's Staff",
+  "Luden's Echo",
+  "Sorcerer's Shoes",
+  "Shadowflame",
+  "Liandry's Torment",
+  "Stormsurge",
+  "Cryptbloom",
+  "Rabadon's Deathcap",
+  "Shurelya's Battlesong",
+  "Banshee's Veil"
+ ]
+}

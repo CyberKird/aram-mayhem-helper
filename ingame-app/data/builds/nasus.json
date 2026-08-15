@@ -1,0 +1,45 @@
+{
+ "champion": "Nasus",
+ "source": "https://u.gg/lol/champions/aram/nasus-aram",
+ "summoners": [
+  "Flash",
+  "Mark"
+ ],
+ "starting": [
+  "Boots",
+  "Refillable Potion",
+  "Sheen"
+ ],
+ "core": [
+  "Trinity Force",
+  "Mercury's Treads",
+  "Frozen Heart"
+ ],
+ "fourth": [
+  "Spirit Visage",
+  "Thornmail"
+ ],
+ "fifth": [
+  "Spirit Visage",
+  "Thornmail",
+  "Force of Nature"
+ ],
+ "sixth": [
+  "Sundered Sky",
+  "Jak'Sho, The Protean",
+  "Thornmail"
+ ],
+ "pool": [
+  "Boots",
+  "Refillable Potion",
+  "Sheen",
+  "Trinity Force",
+  "Mercury's Treads",
+  "Frozen Heart",
+  "Spirit Visage",
+  "Thornmail",
+  "Force of Nature",
+  "Sundered Sky",
+  "Jak'Sho, The Protean"
+ ]
+}

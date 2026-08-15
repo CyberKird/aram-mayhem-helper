@@ -1,0 +1,44 @@
+{
+ "champion": "Nilah",
+ "source": "https://u.gg/lol/champions/aram/nilah-aram",
+ "summoners": [
+  "Flash",
+  "Mark"
+ ],
+ "starting": [
+  "Boots",
+  "Health Potion",
+  "Serrated Dirk"
+ ],
+ "core": [
+  "The Collector",
+  "Berserker's Greaves",
+  "Infinity Edge"
+ ],
+ "fourth": [
+  "Immortal Shieldbow",
+  "Bloodthirster"
+ ],
+ "fifth": [
+  "Lord Dominik's Regards",
+  "Bloodthirster",
+  "Immortal Shieldbow"
+ ],
+ "sixth": [
+  "Bloodthirster",
+  "Mercurial Scimitar",
+  "Immortal Shieldbow"
+ ],
+ "pool": [
+  "Boots",
+  "Health Potion",
+  "Serrated Dirk",
+  "The Collector",
+  "Berserker's Greaves",
+  "Infinity Edge",
+  "Immortal Shieldbow",
+  "Bloodthirster",
+  "Lord Dominik's Regards",
+  "Mercurial Scimitar"
+ ]
+}

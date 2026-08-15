@@ -1,0 +1,44 @@
+{
+ "champion": "Gnar",
+ "source": "https://u.gg/lol/champions/aram/gnar-aram",
+ "summoners": [
+  "Flash",
+  "Mark"
+ ],
+ "starting": [
+  "Giant's Belt",
+  "Ruby Crystal",
+  "Health Potion"
+ ],
+ "core": [
+  "Heartsteel",
+  "Mercury's Treads",
+  "Trinity Force"
+ ],
+ "fourth": [
+  "Sterak's Gage",
+  "Wit's End"
+ ],
+ "fifth": [
+  "Sterak's Gage",
+  "Black Cleaver",
+  "Death's Dance"
+ ],
+ "sixth": [
+  "Sterak's Gage",
+  "Death's Dance",
+  "Wit's End"
+ ],
+ "pool": [
+  "Giant's Belt",
+  "Ruby Crystal",
+  "Health Potion",
+  "Heartsteel",
+  "Mercury's Treads",
+  "Trinity Force",
+  "Sterak's Gage",
+  "Wit's End",
+  "Black Cleaver",
+  "Death's Dance"
+ ]
+}

@@ -1,0 +1,42 @@
+{
+ "champion": "Wukong",
+ "source": "https://u.gg/lol/champions/aram/wukong-aram",
+ "summoners": [
+  "Flash",
+  "Mark"
+ ],
+ "starting": [
+  "Tunneler",
+  "Glowing Mote"
+ ],
+ "core": [
+  "Sundered Sky",
+  "Mercury's Treads",
+  "Trinity Force"
+ ],
+ "fourth": [
+  "Death's Dance",
+  "Black Cleaver"
+ ],
+ "fifth": [
+  "Black Cleaver",
+  "Death's Dance",
+  "Eclipse"
+ ],
+ "sixth": [
+  "Eclipse",
+  "Kaenic Rookern",
+  "Black Cleaver"
+ ],
+ "pool": [
+  "Tunneler",
+  "Glowing Mote",
+  "Sundered Sky",
+  "Mercury's Treads",
+  "Trinity Force",
+  "Death's Dance",
+  "Black Cleaver",
+  "Eclipse",
+  "Kaenic Rookern"
+ ]
+}

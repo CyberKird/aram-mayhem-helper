@@ -1,0 +1,45 @@
+{
+ "champion": "Janna",
+ "source": "https://u.gg/lol/champions/aram/janna-aram",
+ "summoners": [
+  "Flash",
+  "Clarity"
+ ],
+ "starting": [
+  "Health Potion",
+  "Tear of the Goddess",
+  "Bandleglass Mirror"
+ ],
+ "core": [
+  "Moonstone Renewer",
+  "Ionian Boots of Lucidity",
+  "Whispering Circlet"
+ ],
+ "fourth": [
+  "Ardent Censer",
+  "Redemption"
+ ],
+ "fifth": [
+  "Redemption",
+  "Ardent Censer",
+  "Imperial Mandate"
+ ],
+ "sixth": [
+  "Dawncore",
+  "Redemption",
+  "Staff of Flowing Water"
+ ],
+ "pool": [
+  "Health Potion",
+  "Tear of the Goddess",
+  "Bandleglass Mirror",
+  "Moonstone Renewer",
+  "Ionian Boots of Lucidity",
+  "Whispering Circlet",
+  "Ardent Censer",
+  "Redemption",
+  "Imperial Mandate",
+  "Dawncore",
+  "Staff of Flowing Water"
+ ]
+}

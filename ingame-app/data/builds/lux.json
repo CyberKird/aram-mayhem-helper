@@ -1,0 +1,43 @@
+{
+ "champion": "Lux",
+ "source": "https://u.gg/lol/champions/aram/lux-aram",
+ "summoners": [
+  "Flash",
+  "Heal"
+ ],
+ "starting": [
+  "Lost Chapter"
+ ],
+ "core": [
+  "Malignance",
+  "Sorcerer's Shoes",
+  "Rabadon's Deathcap"
+ ],
+ "fourth": [
+  "Stormsurge",
+  "Shadowflame"
+ ],
+ "fifth": [
+  "Shadowflame",
+  "Banshee's Veil",
+  "Horizon Focus"
+ ],
+ "sixth": [
+  "Liandry's Torment",
+  "Cryptbloom",
+  "Archangel's Staff"
+ ],
+ "pool": [
+  "Lost Chapter",
+  "Malignance",
+  "Sorcerer's Shoes",
+  "Rabadon's Deathcap",
+  "Stormsurge",
+  "Shadowflame",
+  "Banshee's Veil",
+  "Horizon Focus",
+  "Liandry's Torment",
+  "Cryptbloom",
+  "Archangel's Staff"
+ ]
+}

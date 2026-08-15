@@ -1,0 +1,43 @@
+{
+ "champion": "Ambessa",
+ "source": "https://u.gg/lol/champions/aram/ambessa-aram",
+ "summoners": [
+  "Flash",
+  "Mark"
+ ],
+ "starting": [
+  "Tunneler",
+  "Glowing Mote"
+ ],
+ "core": [
+  "Eclipse",
+  "Plated Steelcaps",
+  "Spear of Shojin"
+ ],
+ "fourth": [
+  "Death's Dance",
+  "Endless Hunger"
+ ],
+ "fifth": [
+  "Black Cleaver",
+  "Endless Hunger",
+  "Death's Dance"
+ ],
+ "sixth": [
+  "Voltaic Cyclosword",
+  "Maw of Malmortius",
+  "Death's Dance"
+ ],
+ "pool": [
+  "Tunneler",
+  "Glowing Mote",
+  "Eclipse",
+  "Plated Steelcaps",
+  "Spear of Shojin",
+  "Death's Dance",
+  "Endless Hunger",
+  "Black Cleaver",
+  "Voltaic Cyclosword",
+  "Maw of Malmortius"
+ ]
+}

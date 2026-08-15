@@ -1,0 +1,44 @@
+{
+ "champion": "Mordekaiser",
+ "source": "https://u.gg/lol/champions/aram/mordekaiser-aram",
+ "summoners": [
+  "Flash",
+  "Mark"
+ ],
+ "starting": [
+  "Health Potion",
+  "Haunting Guise"
+ ],
+ "core": [
+  "Rylai's Crystal Scepter",
+  "Mercury's Treads",
+  "Liandry's Torment"
+ ],
+ "fourth": [
+  "Spirit Visage",
+  "Riftmaker"
+ ],
+ "fifth": [
+  "Spirit Visage",
+  "Riftmaker",
+  "Dusk and Dawn"
+ ],
+ "sixth": [
+  "Jak'Sho, The Protean",
+  "Rabadon's Deathcap",
+  "Unending Despair"
+ ],
+ "pool": [
+  "Health Potion",
+  "Haunting Guise",
+  "Rylai's Crystal Scepter",
+  "Mercury's Treads",
+  "Liandry's Torment",
+  "Spirit Visage",
+  "Riftmaker",
+  "Dusk and Dawn",
+  "Jak'Sho, The Protean",
+  "Rabadon's Deathcap",
+  "Unending Despair"
+ ]
+}

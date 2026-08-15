@@ -1,0 +1,44 @@
+{
+ "champion": "Dr. Mundo",
+ "source": "https://u.gg/lol/champions/aram/drmundo-aram",
+ "summoners": [
+  "Flash",
+  "Ignite"
+ ],
+ "starting": [
+  "Giant's Belt",
+  "Ruby Crystal",
+  "Health Potion"
+ ],
+ "core": [
+  "Heartsteel",
+  "Mercury's Treads",
+  "Warmog's Armor"
+ ],
+ "fourth": [
+  "Spirit Visage",
+  "Thornmail"
+ ],
+ "fifth": [
+  "Spirit Visage",
+  "Unending Despair",
+  "Thornmail"
+ ],
+ "sixth": [
+  "Thornmail",
+  "Unending Despair",
+  "Titanic Hydra"
+ ],
+ "pool": [
+  "Giant's Belt",
+  "Ruby Crystal",
+  "Health Potion",
+  "Heartsteel",
+  "Mercury's Treads",
+  "Warmog's Armor",
+  "Spirit Visage",
+  "Thornmail",
+  "Unending Despair",
+  "Titanic Hydra"
+ ]
+}

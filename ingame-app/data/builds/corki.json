@@ -1,0 +1,42 @@
+{
+ "champion": "Corki",
+ "source": "https://u.gg/lol/champions/aram/corki-aram",
+ "summoners": [
+  "Flash",
+  "Barrier"
+ ],
+ "starting": [
+  "Sheen",
+  "Tear of the Goddess"
+ ],
+ "core": [
+  "Trinity Force",
+  "Mercury's Treads",
+  "Manamune"
+ ],
+ "fourth": [
+  "The Collector",
+  "Infinity Edge"
+ ],
+ "fifth": [
+  "Infinity Edge",
+  "Lord Dominik's Regards",
+  "Bloodthirster"
+ ],
+ "sixth": [
+  "Lord Dominik's Regards",
+  "Infinity Edge",
+  "Bloodthirster"
+ ],
+ "pool": [
+  "Sheen",
+  "Tear of the Goddess",
+  "Trinity Force",
+  "Mercury's Treads",
+  "Manamune",
+  "The Collector",
+  "Infinity Edge",
+  "Lord Dominik's Regards",
+  "Bloodthirster"
+ ]
+}

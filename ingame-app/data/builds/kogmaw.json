@@ -1,0 +1,47 @@
+{
+ "champion": "Kog'Maw",
+ "source": "https://u.gg/lol/champions/aram/kogmaw-aram",
+ "summoners": [
+  "Flash",
+  "Clarity"
+ ],
+ "starting": [
+  "Long Sword",
+  "Pickaxe",
+  "Refillable Potion"
+ ],
+ "core": [
+  "Berserker's Greaves",
+  "Blade of The Ruined King",
+  "Runaan's Hurricane"
+ ],
+ "fourth": [
+  "Liandry's Torment",
+  "Shadowflame"
+ ],
+ "fifth": [
+  "Rabadon's Deathcap",
+  "Terminus",
+  "Guinsoo's Rageblade"
+ ],
+ "sixth": [
+  "Guinsoo's Rageblade",
+  "Void Staff",
+  "Morellonomicon"
+ ],
+ "pool": [
+  "Long Sword",
+  "Pickaxe",
+  "Refillable Potion",
+  "Berserker's Greaves",
+  "Blade of The Ruined King",
+  "Runaan's Hurricane",
+  "Liandry's Torment",
+  "Shadowflame",
+  "Rabadon's Deathcap",
+  "Terminus",
+  "Guinsoo's Rageblade",
+  "Void Staff",
+  "Morellonomicon"
+ ]
+}

@@ -1,0 +1,45 @@
+{
+ "champion": "Rakan",
+ "source": "https://u.gg/lol/champions/aram/rakan-aram",
+ "summoners": [
+  "Flash",
+  "Mark"
+ ],
+ "starting": [
+  "Giant's Belt",
+  "Health Potion",
+  "Tear of the Goddess"
+ ],
+ "core": [
+  "Winter's Approach",
+  "Locket of the Iron Solari",
+  "Mercury's Treads"
+ ],
+ "fourth": [
+  "Warmog's Armor",
+  "Zeke's Convergence"
+ ],
+ "fifth": [
+  "Thornmail",
+  "Knight's Vow",
+  "Redemption"
+ ],
+ "sixth": [
+  "Redemption",
+  "Thornmail",
+  "Zeke's Convergence"
+ ],
+ "pool": [
+  "Giant's Belt",
+  "Health Potion",
+  "Tear of the Goddess",
+  "Winter's Approach",
+  "Locket of the Iron Solari",
+  "Mercury's Treads",
+  "Warmog's Armor",
+  "Zeke's Convergence",
+  "Thornmail",
+  "Knight's Vow",
+  "Redemption"
+ ]
+}

@@ -1,0 +1,42 @@
+{
+ "champion": "Akali",
+ "source": "https://u.gg/lol/champions/aram/akali-aram",
+ "summoners": [
+  "Flash",
+  "Ignite"
+ ],
+ "starting": [
+  "Hextech Alternator"
+ ],
+ "core": [
+  "Hextech Gunblade",
+  "Sorcerer's Shoes",
+  "Stormsurge"
+ ],
+ "fourth": [
+  "Rabadon's Deathcap",
+  "Shadowflame"
+ ],
+ "fifth": [
+  "Rabadon's Deathcap",
+  "Zhonya's Hourglass",
+  "Shadowflame"
+ ],
+ "sixth": [
+  "Void Staff",
+  "Lich Bane",
+  "Banshee's Veil"
+ ],
+ "pool": [
+  "Hextech Alternator",
+  "Hextech Gunblade",
+  "Sorcerer's Shoes",
+  "Stormsurge",
+  "Rabadon's Deathcap",
+  "Shadowflame",
+  "Zhonya's Hourglass",
+  "Void Staff",
+  "Lich Bane",
+  "Banshee's Veil"
+ ]
+}

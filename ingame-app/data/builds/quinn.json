@@ -1,0 +1,42 @@
+{
+ "champion": "Quinn",
+ "source": "https://u.gg/lol/champions/aram/quinn-aram",
+ "summoners": [
+  "Flash",
+  "Mark"
+ ],
+ "starting": [
+  "Boots",
+  "Serrated Dirk"
+ ],
+ "core": [
+  "Berserker's Greaves",
+  "The Collector",
+  "Infinity Edge"
+ ],
+ "fourth": [
+  "Blade of The Ruined King",
+  "Lord Dominik's Regards"
+ ],
+ "fifth": [
+  "Lord Dominik's Regards",
+  "Blade of The Ruined King",
+  "Kraken Slayer"
+ ],
+ "sixth": [
+  "Blade of The Ruined King",
+  "Voltaic Cyclosword",
+  "Lord Dominik's Regards"
+ ],
+ "pool": [
+  "Boots",
+  "Serrated Dirk",
+  "Berserker's Greaves",
+  "The Collector",
+  "Infinity Edge",
+  "Blade of The Ruined King",
+  "Lord Dominik's Regards",
+  "Kraken Slayer",
+  "Voltaic Cyclosword"
+ ]
+}

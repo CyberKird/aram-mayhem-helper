@@ -1,0 +1,43 @@
+{
+ "champion": "Ezreal",
+ "source": "https://u.gg/lol/champions/aram/ezreal-aram",
+ "summoners": [
+  "Flash",
+  "Barrier"
+ ],
+ "starting": [
+  "Sheen",
+  "Tear of the Goddess"
+ ],
+ "core": [
+  "Trinity Force",
+  "Manamune",
+  "Ionian Boots of Lucidity"
+ ],
+ "fourth": [
+  "Spear of Shojin",
+  "Endless Hunger"
+ ],
+ "fifth": [
+  "Serylda's Grudge",
+  "Spear of Shojin",
+  "Endless Hunger"
+ ],
+ "sixth": [
+  "Blade of The Ruined King",
+  "Endless Hunger",
+  "Infinity Edge"
+ ],
+ "pool": [
+  "Sheen",
+  "Tear of the Goddess",
+  "Trinity Force",
+  "Manamune",
+  "Ionian Boots of Lucidity",
+  "Spear of Shojin",
+  "Endless Hunger",
+  "Serylda's Grudge",
+  "Blade of The Ruined King",
+  "Infinity Edge"
+ ]
+}

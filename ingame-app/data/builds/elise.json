@@ -1,0 +1,44 @@
+{
+ "champion": "Elise",
+ "source": "https://u.gg/lol/champions/aram/elise-aram",
+ "summoners": [
+  "Flash",
+  "Heal"
+ ],
+ "starting": [
+  "Health Potion",
+  "Lost Chapter"
+ ],
+ "core": [
+  "Luden's Echo",
+  "Lich Bane",
+  "Sorcerer's Shoes"
+ ],
+ "fourth": [
+  "Shadowflame",
+  "Rabadon's Deathcap"
+ ],
+ "fifth": [
+  "Rabadon's Deathcap",
+  "Morellonomicon",
+  "Stormsurge"
+ ],
+ "sixth": [
+  "Stormsurge",
+  "Void Staff",
+  "Cosmic Drive"
+ ],
+ "pool": [
+  "Health Potion",
+  "Lost Chapter",
+  "Luden's Echo",
+  "Lich Bane",
+  "Sorcerer's Shoes",
+  "Shadowflame",
+  "Rabadon's Deathcap",
+  "Morellonomicon",
+  "Stormsurge",
+  "Void Staff",
+  "Cosmic Drive"
+ ]
+}

@@ -1,0 +1,44 @@
+{
+ "champion": "Hecarim",
+ "source": "https://u.gg/lol/champions/aram/hecarim-aram",
+ "summoners": [
+  "Ghost",
+  "Mark"
+ ],
+ "starting": [
+  "Boots",
+  "Caulfield's Warhammer"
+ ],
+ "core": [
+  "Eclipse",
+  "Mercury's Treads",
+  "Sundered Sky"
+ ],
+ "fourth": [
+  "Death's Dance",
+  "Manamune"
+ ],
+ "fifth": [
+  "Spirit Visage",
+  "Endless Hunger",
+  "Manamune"
+ ],
+ "sixth": [
+  "Endless Hunger",
+  "Spear of Shojin",
+  "Jak'Sho, The Protean"
+ ],
+ "pool": [
+  "Boots",
+  "Caulfield's Warhammer",
+  "Eclipse",
+  "Mercury's Treads",
+  "Sundered Sky",
+  "Death's Dance",
+  "Manamune",
+  "Spirit Visage",
+  "Endless Hunger",
+  "Spear of Shojin",
+  "Jak'Sho, The Protean"
+ ]
+}

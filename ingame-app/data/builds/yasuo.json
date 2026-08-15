@@ -1,0 +1,42 @@
+{
+ "champion": "Yasuo",
+ "source": "https://u.gg/lol/champions/aram/yasuo-aram",
+ "summoners": [
+  "Flash",
+  "Mark"
+ ],
+ "starting": [
+  "Refillable Potion",
+  "Berserker's Greaves"
+ ],
+ "core": [
+  "Berserker's Greaves",
+  "Kraken Slayer",
+  "Immortal Shieldbow"
+ ],
+ "fourth": [
+  "Infinity Edge",
+  "Bloodthirster"
+ ],
+ "fifth": [
+  "Death's Dance",
+  "Bloodthirster",
+  "Infinity Edge"
+ ],
+ "sixth": [
+  "Bloodthirster",
+  "Wit's End",
+  "Mortal Reminder"
+ ],
+ "pool": [
+  "Refillable Potion",
+  "Berserker's Greaves",
+  "Kraken Slayer",
+  "Immortal Shieldbow",
+  "Infinity Edge",
+  "Bloodthirster",
+  "Death's Dance",
+  "Wit's End",
+  "Mortal Reminder"
+ ]
+}

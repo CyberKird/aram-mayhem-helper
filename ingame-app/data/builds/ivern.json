@@ -1,0 +1,45 @@
+{
+ "champion": "Ivern",
+ "source": "https://u.gg/lol/champions/aram/ivern-aram",
+ "summoners": [
+  "Exhaust",
+  "Flash"
+ ],
+ "starting": [
+  "Health Potion",
+  "Tear of the Goddess",
+  "Bandleglass Mirror"
+ ],
+ "core": [
+  "Moonstone Renewer",
+  "Whispering Circlet",
+  "Ionian Boots of Lucidity"
+ ],
+ "fourth": [
+  "Ardent Censer",
+  "Liandry's Torment"
+ ],
+ "fifth": [
+  "Redemption",
+  "Staff of Flowing Water",
+  "Ardent Censer"
+ ],
+ "sixth": [
+  "Redemption",
+  "Ardent Censer",
+  "Dawncore"
+ ],
+ "pool": [
+  "Health Potion",
+  "Tear of the Goddess",
+  "Bandleglass Mirror",
+  "Moonstone Renewer",
+  "Whispering Circlet",
+  "Ionian Boots of Lucidity",
+  "Ardent Censer",
+  "Liandry's Torment",
+  "Redemption",
+  "Staff of Flowing Water",
+  "Dawncore"
+ ]
+}

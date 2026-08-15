@@ -1,0 +1,43 @@
+{
+ "champion": "Jarvan IV",
+ "source": "https://u.gg/lol/champions/aram/jarvaniv-aram",
+ "summoners": [
+  "Flash",
+  "Mark"
+ ],
+ "starting": [
+  "Tunneler",
+  "Glowing Mote"
+ ],
+ "core": [
+  "Sundered Sky",
+  "Mercury's Treads",
+  "Eclipse"
+ ],
+ "fourth": [
+  "Death's Dance",
+  "Sterak's Gage"
+ ],
+ "fifth": [
+  "Death's Dance",
+  "Kaenic Rookern",
+  "Maw of Malmortius"
+ ],
+ "sixth": [
+  "Death's Dance",
+  "Kaenic Rookern",
+  "Randuin's Omen"
+ ],
+ "pool": [
+  "Tunneler",
+  "Glowing Mote",
+  "Sundered Sky",
+  "Mercury's Treads",
+  "Eclipse",
+  "Death's Dance",
+  "Sterak's Gage",
+  "Kaenic Rookern",
+  "Maw of Malmortius",
+  "Randuin's Omen"
+ ]
+}

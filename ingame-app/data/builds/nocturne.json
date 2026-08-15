@@ -1,0 +1,47 @@
+{
+ "champion": "Nocturne",
+ "source": "https://u.gg/lol/champions/aram/nocturne-aram",
+ "summoners": [
+  "Flash",
+  "Ignite"
+ ],
+ "starting": [
+  "Long Sword",
+  "Health Potion",
+  "Serrated Dirk"
+ ],
+ "core": [
+  "The Collector",
+  "Mercury's Treads",
+  "Experimental Hexplate"
+ ],
+ "fourth": [
+  "Axiom Arc",
+  "Profane Hydra"
+ ],
+ "fifth": [
+  "Edge of Night",
+  "Serylda's Grudge",
+  "Profane Hydra"
+ ],
+ "sixth": [
+  "Hubris",
+  "Ravenous Hydra",
+  "Serpent's Fang"
+ ],
+ "pool": [
+  "Long Sword",
+  "Health Potion",
+  "Serrated Dirk",
+  "The Collector",
+  "Mercury's Treads",
+  "Experimental Hexplate",
+  "Axiom Arc",
+  "Profane Hydra",
+  "Edge of Night",
+  "Serylda's Grudge",
+  "Hubris",
+  "Ravenous Hydra",
+  "Serpent's Fang"
+ ]
+}

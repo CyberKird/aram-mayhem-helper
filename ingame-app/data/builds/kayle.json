@@ -1,0 +1,40 @@
+{
+ "champion": "Kayle",
+ "source": "https://u.gg/lol/champions/aram/kayle-aram",
+ "summoners": [
+  "Flash",
+  "Ghost"
+ ],
+ "starting": [
+  "Dagger",
+  "Berserker's Greaves"
+ ],
+ "core": [
+  "Berserker's Greaves",
+  "Blade of The Ruined King",
+  "Guinsoo's Rageblade"
+ ],
+ "fourth": [
+  "Terminus",
+  "Wit's End"
+ ],
+ "fifth": [
+  "Terminus",
+  "Wit's End",
+  "Dusk and Dawn"
+ ],
+ "sixth": [
+  "Terminus",
+  "Wit's End",
+  "Dusk and Dawn"
+ ],
+ "pool": [
+  "Dagger",
+  "Berserker's Greaves",
+  "Blade of The Ruined King",
+  "Guinsoo's Rageblade",
+  "Terminus",
+  "Wit's End",
+  "Dusk and Dawn"
+ ]
+}

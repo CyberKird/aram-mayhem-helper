@@ -1,0 +1,43 @@
+{
+ "champion": "Aurelion Sol",
+ "source": "https://u.gg/lol/champions/aram/aurelionsol-aram",
+ "summoners": [
+  "Flash",
+  "Heal"
+ ],
+ "starting": [
+  "Refillable Potion",
+  "Lost Chapter"
+ ],
+ "core": [
+  "Blackfire Torch",
+  "Sorcerer's Shoes",
+  "Rylai's Crystal Scepter"
+ ],
+ "fourth": [
+  "Liandry's Torment",
+  "Shadowflame"
+ ],
+ "fifth": [
+  "Shadowflame",
+  "Rabadon's Deathcap",
+  "Bloodletter's Curse"
+ ],
+ "sixth": [
+  "Rabadon's Deathcap",
+  "Shadowflame",
+  "Void Staff"
+ ],
+ "pool": [
+  "Refillable Potion",
+  "Lost Chapter",
+  "Blackfire Torch",
+  "Sorcerer's Shoes",
+  "Rylai's Crystal Scepter",
+  "Liandry's Torment",
+  "Shadowflame",
+  "Rabadon's Deathcap",
+  "Bloodletter's Curse",
+  "Void Staff"
+ ]
+}

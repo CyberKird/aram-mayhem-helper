@@ -1,0 +1,47 @@
+{
+ "champion": "Shyvana",
+ "source": "https://u.gg/lol/champions/aram/shyvana-aram",
+ "summoners": [
+  "Flash",
+  "Mark"
+ ],
+ "starting": [
+  "Ruby Crystal",
+  "Health Potion",
+  "Sheen"
+ ],
+ "core": [
+  "Heartsteel",
+  "Mercury's Treads",
+  "Dusk and Dawn"
+ ],
+ "fourth": [
+  "Riftmaker",
+  "Spear of Shojin"
+ ],
+ "fifth": [
+  "Death's Dance",
+  "Liandry's Torment",
+  "Riftmaker"
+ ],
+ "sixth": [
+  "Jak'Sho, The Protean",
+  "Shadowflame",
+  "Overlord's Bloodmail"
+ ],
+ "pool": [
+  "Ruby Crystal",
+  "Health Potion",
+  "Sheen",
+  "Heartsteel",
+  "Mercury's Treads",
+  "Dusk and Dawn",
+  "Riftmaker",
+  "Spear of Shojin",
+  "Death's Dance",
+  "Liandry's Torment",
+  "Jak'Sho, The Protean",
+  "Shadowflame",
+  "Overlord's Bloodmail"
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "champion": "Vayne",
+ "source": "https://u.gg/lol/champions/aram/vayne-aram",
+ "summoners": [
+  "Flash",
+  "Ghost"
+ ],
+ "starting": [
+  "Dagger",
+  "Berserker's Greaves"
+ ],
+ "core": [
+  "Berserker's Greaves",
+  "Blade of The Ruined King",
+  "Guinsoo's Rageblade"
+ ],
+ "fourth": [
+  "Wit's End",
+  "Terminus"
+ ],
+ "fifth": [
+  "Terminus",
+  "Jak'Sho, The Protean",
+  "Wit's End"
+ ],
+ "sixth": [
+  "Jak'Sho, The Protean",
+  "Terminus",
+  "Kraken Slayer"
+ ],
+ "pool": [
+  "Dagger",
+  "Berserker's Greaves",
+  "Blade of The Ruined King",
+  "Guinsoo's Rageblade",
+  "Wit's End",
+  "Terminus",
+  "Jak'Sho, The Protean",
+  "Kraken Slayer"
+ ]
+}

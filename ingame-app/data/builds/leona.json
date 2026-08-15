@@ -1,0 +1,47 @@
+{
+ "champion": "Leona",
+ "source": "https://u.gg/lol/champions/aram/leona-aram",
+ "summoners": [
+  "Flash",
+  "Mark"
+ ],
+ "starting": [
+  "Giant's Belt",
+  "Ruby Crystal",
+  "Health Potion"
+ ],
+ "core": [
+  "Heartsteel",
+  "Mercury's Treads",
+  "Unending Despair"
+ ],
+ "fourth": [
+  "Thornmail",
+  "Hollow Radiance"
+ ],
+ "fifth": [
+  "Jak'Sho, The Protean",
+  "Warmog's Armor",
+  "Sunfire Aegis"
+ ],
+ "sixth": [
+  "Force of Nature",
+  "Kaenic Rookern",
+  "Hollow Radiance"
+ ],
+ "pool": [
+  "Giant's Belt",
+  "Ruby Crystal",
+  "Health Potion",
+  "Heartsteel",
+  "Mercury's Treads",
+  "Unending Despair",
+  "Thornmail",
+  "Hollow Radiance",
+  "Jak'Sho, The Protean",
+  "Warmog's Armor",
+  "Sunfire Aegis",
+  "Force of Nature",
+  "Kaenic Rookern"
+ ]
+}

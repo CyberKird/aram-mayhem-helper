@@ -1,0 +1,46 @@
+{
+ "champion": "Blitzcrank",
+ "source": "https://u.gg/lol/champions/aram/blitzcrank-aram",
+ "summoners": [
+  "Flash",
+  "Mark"
+ ],
+ "starting": [
+  "Giant's Belt",
+  "Health Potion",
+  "Tear of the Goddess"
+ ],
+ "core": [
+  "Winter's Approach",
+  "Mercury's Treads",
+  "Kaenic Rookern"
+ ],
+ "fourth": [
+  "Warmog's Armor",
+  "Thornmail"
+ ],
+ "fifth": [
+  "Frozen Heart",
+  "Warmog's Armor",
+  "Rabadon's Deathcap"
+ ],
+ "sixth": [
+  "Warmog's Armor",
+  "Hollow Radiance",
+  "Abyssal Mask"
+ ],
+ "pool": [
+  "Giant's Belt",
+  "Health Potion",
+  "Tear of the Goddess",
+  "Winter's Approach",
+  "Mercury's Treads",
+  "Kaenic Rookern",
+  "Warmog's Armor",
+  "Thornmail",
+  "Frozen Heart",
+  "Rabadon's Deathcap",
+  "Hollow Radiance",
+  "Abyssal Mask"
+ ]
+}

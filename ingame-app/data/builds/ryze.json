@@ -1,0 +1,45 @@
+{
+ "champion": "Ryze",
+ "source": "https://u.gg/lol/champions/aram/ryze-aram",
+ "summoners": [
+  "Flash",
+  "Ghost"
+ ],
+ "starting": [
+  "Blasting Wand",
+  "Refillable Potion",
+  "Tear of the Goddess"
+ ],
+ "core": [
+  "Rod of Ages",
+  "Archangel's Staff",
+  "Mercury's Treads"
+ ],
+ "fourth": [
+  "Actualizer",
+  "Frozen Heart"
+ ],
+ "fifth": [
+  "Frozen Heart",
+  "Rabadon's Deathcap",
+  "Cosmic Drive"
+ ],
+ "sixth": [
+  "Rabadon's Deathcap",
+  "Cosmic Drive",
+  "Shadowflame"
+ ],
+ "pool": [
+  "Blasting Wand",
+  "Refillable Potion",
+  "Tear of the Goddess",
+  "Rod of Ages",
+  "Archangel's Staff",
+  "Mercury's Treads",
+  "Actualizer",
+  "Frozen Heart",
+  "Rabadon's Deathcap",
+  "Cosmic Drive",
+  "Shadowflame"
+ ]
+}

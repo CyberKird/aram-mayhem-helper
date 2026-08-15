@@ -1,0 +1,42 @@
+{
+ "champion": "Locke",
+ "source": "https://u.gg/lol/champions/aram/locke-aram",
+ "summoners": [
+  "Flash",
+  "Ghost"
+ ],
+ "starting": [
+  "Boots",
+  "Hextech Alternator"
+ ],
+ "core": [
+  "Lich Bane",
+  "Sorcerer's Shoes",
+  "Shadowflame"
+ ],
+ "fourth": [
+  "Stormsurge",
+  "Rabadon's Deathcap"
+ ],
+ "fifth": [
+  "Rabadon's Deathcap",
+  "Stormsurge",
+  "Zhonya's Hourglass"
+ ],
+ "sixth": [
+  "Rabadon's Deathcap",
+  "Void Staff",
+  "Zhonya's Hourglass"
+ ],
+ "pool": [
+  "Boots",
+  "Hextech Alternator",
+  "Lich Bane",
+  "Sorcerer's Shoes",
+  "Shadowflame",
+  "Stormsurge",
+  "Rabadon's Deathcap",
+  "Zhonya's Hourglass",
+  "Void Staff"
+ ]
+}

@@ -1,0 +1,43 @@
+{
+ "champion": "Aurora",
+ "source": "https://u.gg/lol/champions/aram/aurora-aram",
+ "summoners": [
+  "Flash",
+  "Ghost"
+ ],
+ "starting": [
+  "Refillable Potion",
+  "Lost Chapter"
+ ],
+ "core": [
+  "Luden's Echo",
+  "Stormsurge",
+  "Sorcerer's Shoes"
+ ],
+ "fourth": [
+  "Rabadon's Deathcap",
+  "Shadowflame"
+ ],
+ "fifth": [
+  "Rabadon's Deathcap",
+  "Void Staff",
+  "Shadowflame"
+ ],
+ "sixth": [
+  "Rabadon's Deathcap",
+  "Banshee's Veil",
+  "Malignance"
+ ],
+ "pool": [
+  "Refillable Potion",
+  "Lost Chapter",
+  "Luden's Echo",
+  "Stormsurge",
+  "Sorcerer's Shoes",
+  "Rabadon's Deathcap",
+  "Shadowflame",
+  "Void Staff",
+  "Banshee's Veil",
+  "Malignance"
+ ]
+}

@@ -1,0 +1,46 @@
+{
+ "champion": "Lulu",
+ "source": "https://u.gg/lol/champions/aram/lulu-aram",
+ "summoners": [
+  "Exhaust",
+  "Flash"
+ ],
+ "starting": [
+  "Health Potion",
+  "Tear of the Goddess",
+  "Bandleglass Mirror"
+ ],
+ "core": [
+  "Moonstone Renewer",
+  "Ionian Boots of Lucidity",
+  "Whispering Circlet"
+ ],
+ "fourth": [
+  "Ardent Censer",
+  "Redemption"
+ ],
+ "fifth": [
+  "Ardent Censer",
+  "Redemption",
+  "Staff of Flowing Water"
+ ],
+ "sixth": [
+  "Shurelya's Battlesong",
+  "Locket of the Iron Solari",
+  "Dawncore"
+ ],
+ "pool": [
+  "Health Potion",
+  "Tear of the Goddess",
+  "Bandleglass Mirror",
+  "Moonstone Renewer",
+  "Ionian Boots of Lucidity",
+  "Whispering Circlet",
+  "Ardent Censer",
+  "Redemption",
+  "Staff of Flowing Water",
+  "Shurelya's Battlesong",
+  "Locket of the Iron Solari",
+  "Dawncore"
+ ]
+}

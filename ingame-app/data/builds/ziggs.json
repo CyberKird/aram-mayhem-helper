@@ -1,0 +1,44 @@
+{
+ "champion": "Ziggs",
+ "source": "https://u.gg/lol/champions/aram/ziggs-aram",
+ "summoners": [
+  "Flash",
+  "Ghost"
+ ],
+ "starting": [
+  "Refillable Potion",
+  "Lost Chapter"
+ ],
+ "core": [
+  "Malignance",
+  "Liandry's Torment",
+  "Sorcerer's Shoes"
+ ],
+ "fourth": [
+  "Rabadon's Deathcap",
+  "Shadowflame"
+ ],
+ "fifth": [
+  "Luden's Echo",
+  "Morellonomicon",
+  "Shadowflame"
+ ],
+ "sixth": [
+  "Stormsurge",
+  "Morellonomicon",
+  "Cryptbloom"
+ ],
+ "pool": [
+  "Refillable Potion",
+  "Lost Chapter",
+  "Malignance",
+  "Liandry's Torment",
+  "Sorcerer's Shoes",
+  "Rabadon's Deathcap",
+  "Shadowflame",
+  "Luden's Echo",
+  "Morellonomicon",
+  "Stormsurge",
+  "Cryptbloom"
+ ]
+}

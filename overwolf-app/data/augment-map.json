@@ -1,0 +1,2614 @@
+{
+ "ADAPt": {
+  "name": "ADAPt",
+  "rarity": "silver"
+ },
+ "ARAM_ADAPt": {
+  "name": "ADAPt",
+  "rarity": "silver"
+ },
+ "ARAM_AllForYou": {
+  "name": "All For You",
+  "rarity": "gold"
+ },
+ "ARAM_ApexInventor": {
+  "name": "Apex Inventor",
+  "rarity": "gold"
+ },
+ "ARAM_Archmage": {
+  "name": "Archmage",
+  "rarity": "prismatic"
+ },
+ "ARAM_BacktoBasics": {
+  "name": "Back To Basics",
+  "rarity": "prismatic"
+ },
+ "ARAM_BangBang": {
+  "name": "From Downtown",
+  "rarity": "gold"
+ },
+ "ARAM_BigBrain": {
+  "name": "Big Brain",
+  "rarity": "gold"
+ },
+ "ARAM_BladeWaltz": {
+  "name": "Blade Waltz",
+  "rarity": "prismatic"
+ },
+ "ARAM_BluntForce": {
+  "name": "Blunt Force",
+  "rarity": "silver"
+ },
+ "ARAM_BreadAndButter": {
+  "name": "Bread And Butter",
+  "rarity": "gold"
+ },
+ "ARAM_BreadAndCheese": {
+  "name": "Bread and Cheese",
+  "rarity": "gold"
+ },
+ "ARAM_BreadAndJam": {
+  "name": "Bread And Jam",
+  "rarity": "gold"
+ },
+ "ARAM_BuffBuddies": {
+  "name": "Buff Buddies",
+  "rarity": "silver"
+ },
+ "ARAM_CantTouchThis": {
+  "name": "Can't Touch This",
+  "rarity": "prismatic"
+ },
+ "ARAM_CelestialBody": {
+  "name": "Celestial Body",
+  "rarity": "gold"
+ },
+ "ARAM_Cerberus": {
+  "name": "Cerberus",
+  "rarity": "prismatic"
+ },
+ "ARAM_CircleofDeath": {
+  "name": "Circle of Death",
+  "rarity": "prismatic"
+ },
+ "ARAM_ClownCollege": {
+  "name": "Clown College",
+  "rarity": "prismatic"
+ },
+ "ARAM_CourageoftheColossus": {
+  "name": "Courage of the Colossus",
+  "rarity": "prismatic"
+ },
+ "ARAM_CrackOpenThatEgg": {
+  "name": "Crack Open That Egg",
+  "rarity": "silver"
+ },
+ "ARAM_CriticalHealing": {
+  "name": "Critical Healing",
+  "rarity": "gold"
+ },
+ "ARAM_Cruelty": {
+  "name": "Cruelty",
+  "rarity": "prismatic"
+ },
+ "ARAM_Dashing": {
+  "name": "Dashing",
+  "rarity": "prismatic"
+ },
+ "ARAM_DawnbringersResolve": {
+  "name": "Dawnbringer's Resolve",
+  "rarity": "gold"
+ },
+ "ARAM_Deft": {
+  "name": "Deft",
+  "rarity": "silver"
+ },
+ "ARAM_DemonsDance": {
+  "name": "Demon's Dance",
+  "rarity": "gold"
+ },
+ "ARAM_DiveBomber": {
+  "name": "Dive Bomber",
+  "rarity": "silver"
+ },
+ "ARAM_DivineDomain": {
+  "name": "Rite of Ascension",
+  "rarity": "prismatic"
+ },
+ "ARAM_DivineIntervention": {
+  "name": "Divine Intervention",
+  "rarity": "gold"
+ },
+ "ARAM_DontBlink": {
+  "name": "Don't Blink",
+  "rarity": "silver"
+ },
+ "ARAM_DoubleTap": {
+  "name": "Double Tap",
+  "rarity": "gold"
+ },
+ "ARAM_DrawYourSword": {
+  "name": "Draw Your Sword",
+  "rarity": "prismatic"
+ },
+ "ARAM_DropBear": {
+  "name": "DropBear",
+  "rarity": "prismatic"
+ },
+ "ARAM_Dropkick": {
+  "name": "Dropkick",
+  "rarity": "prismatic"
+ },
+ "ARAM_DualWield": {
+  "name": "Dual Wield",
+  "rarity": "prismatic"
+ },
+ "ARAM_Earthwake": {
+  "name": "Earthwake",
+  "rarity": "prismatic"
+ },
+ "ARAM_EmpoweredByTheFaithful": {
+  "name": "Empowered By The Faithful",
+  "rarity": "prismatic"
+ },
+ "ARAM_EndlessHunt": {
+  "name": "En Passant",
+  "rarity": "prismatic"
+ },
+ "ARAM_Erosion": {
+  "name": "Erosion",
+  "rarity": "silver"
+ },
+ "ARAM_EtherealWeapon": {
+  "name": "Ethereal Weapon",
+  "rarity": "gold"
+ },
+ "ARAM_Eureka": {
+  "name": "Eureka",
+  "rarity": "prismatic"
+ },
+ "ARAM_Executioner": {
+  "name": "Executioner",
+  "rarity": "gold"
+ },
+ "ARAM_FanTheHammer": {
+  "name": "Fan The Hammer",
+  "rarity": "prismatic"
+ },
+ "ARAM_FeeltheBurn": {
+  "name": "Feel the Burn",
+  "rarity": "prismatic"
+ },
+ "ARAM_FeyMagic": {
+  "name": "Fey Magic",
+  "rarity": "prismatic"
+ },
+ "ARAM_Firebrand": {
+  "name": "Firebrand",
+  "rarity": "gold"
+ },
+ "ARAM_Firefox": {
+  "name": "FireFox",
+  "rarity": "silver"
+ },
+ "ARAM_FirstAidKit": {
+  "name": "First-Aid Kit",
+  "rarity": "silver"
+ },
+ "ARAM_Flashbang": {
+  "name": "Flashbang",
+  "rarity": "silver"
+ },
+ "ARAM_Flashy": {
+  "name": "Flashy",
+  "rarity": "gold"
+ },
+ "ARAM_FromBeginningToEnd": {
+  "name": "From Beginning To End",
+  "rarity": "gold"
+ },
+ "ARAM_FrostWraith": {
+  "name": "Frost Wraith",
+  "rarity": "silver"
+ },
+ "ARAM_GetExcited": {
+  "name": "Get Excited!",
+  "rarity": "gold"
+ },
+ "ARAM_GiantSlayer": {
+  "name": "Giant Slayer",
+  "rarity": "prismatic"
+ },
+ "ARAM_Goliath": {
+  "name": "Goliath",
+  "rarity": "prismatic"
+ },
+ "ARAM_Goredrink": {
+  "name": "Goredrink",
+  "rarity": "silver"
+ },
+ "ARAM_GuiltyPleasure": {
+  "name": "Guilty Pleasure",
+  "rarity": "silver"
+ },
+ "ARAM_HeavyHitter": {
+  "name": "Heavy Hitter",
+  "rarity": "silver"
+ },
+ "ARAM_Hellbent": {
+  "name": "Hellbent",
+  "rarity": "prismatic"
+ },
+ "ARAM_HighRoller": {
+  "name": "High Roller",
+  "rarity": "prismatic"
+ },
+ "ARAM_HolyFire": {
+  "name": "Holy Fire",
+  "rarity": "gold"
+ },
+ "ARAM_Homeguard": {
+  "name": "Homeguard",
+  "rarity": "silver"
+ },
+ "ARAM_IceCold": {
+  "name": "Ice Cold",
+  "rarity": "silver"
+ },
+ "ARAM_ImTheJuggernaut": {
+  "name": "Titan's Resolve",
+  "rarity": "prismatic"
+ },
+ "ARAM_Impassable": {
+  "name": "Impassable",
+  "rarity": "gold"
+ },
+ "ARAM_InfernalConduit": {
+  "name": "Infernal Conduit",
+  "rarity": "prismatic"
+ },
+ "ARAM_InfernalSoul": {
+  "name": "Infernal Soul",
+  "rarity": "silver"
+ },
+ "ARAM_InfernoTriggered": {
+  "name": "Triggered Inferno",
+  "rarity": "prismatic"
+ },
+ "ARAM_ItsCritical": {
+  "name": "It's Critical",
+  "rarity": "gold"
+ },
+ "ARAM_ItsKillingTime": {
+  "name": "It's Killing Time",
+  "rarity": "gold"
+ },
+ "ARAM_JeweledGauntlet": {
+  "name": "Jeweled Gauntlet",
+  "rarity": "prismatic"
+ },
+ "ARAM_Juiced": {
+  "name": "Juiced",
+  "rarity": "silver"
+ },
+ "ARAM_KeystoneConjurer": {
+  "name": "Keystone Conjurer",
+  "rarity": "gold"
+ },
+ "ARAM_LegDay": {
+  "name": "Leg Day",
+  "rarity": "silver"
+ },
+ "ARAM_LightemUp": {
+  "name": "Light 'Em Up!",
+  "rarity": "silver"
+ },
+ "ARAM_LightningStrikes": {
+  "name": "Lightning Strikes",
+  "rarity": "gold"
+ },
+ "ARAM_LittleDevil": {
+  "name": "Devil on Your Shoulder",
+  "rarity": "prismatic"
+ },
+ "ARAM_MadScientist": {
+  "name": "Mad Scientist",
+  "rarity": "prismatic"
+ },
+ "ARAM_MagicMissile": {
+  "name": "Magic Missile",
+  "rarity": "gold"
+ },
+ "ARAM_Marksmage": {
+  "name": "Marksmage",
+  "rarity": "gold"
+ },
+ "ARAM_MasterofDuality": {
+  "name": "Master of Duality",
+  "rarity": "prismatic"
+ },
+ "ARAM_MindtoMatter": {
+  "name": "Mind to Matter",
+  "rarity": "silver"
+ },
+ "ARAM_Minionmancer": {
+  "name": "Minionmancer",
+  "rarity": "gold"
+ },
+ "ARAM_MissingPingAugment": {
+  "name": "???",
+  "rarity": "prismatic"
+ },
+ "ARAM_MountainSoul": {
+  "name": "Mountain Soul",
+  "rarity": "silver"
+ },
+ "ARAM_Multishot": {
+  "name": "Multishot",
+  "rarity": "prismatic"
+ },
+ "ARAM_MysticPunch": {
+  "name": "Mystic Punch",
+  "rarity": "prismatic"
+ },
+ "ARAM_OceanSoul": {
+  "name": "Ocean Soul",
+  "rarity": "silver"
+ },
+ "ARAM_OkBoomerang": {
+  "name": "Ok Boomerang",
+  "rarity": "gold"
+ },
+ "ARAM_OmniSoul": {
+  "name": "Omni Soul",
+  "rarity": "prismatic"
+ },
+ "ARAM_OrbitalLaser_Active": {
+  "name": "Orbital Laser",
+  "rarity": "prismatic"
+ },
+ "ARAM_OutlawsGrit": {
+  "name": "Outlaw's Grit",
+  "rarity": "gold"
+ },
+ "ARAM_Overflow": {
+  "name": "Overflow",
+  "rarity": "gold"
+ },
+ "ARAM_PandorasBox": {
+  "name": "Pandora's Box",
+  "rarity": "prismatic"
+ },
+ "ARAM_Perseverance": {
+  "name": "Perseverance",
+  "rarity": "gold"
+ },
+ "ARAM_PhenomenalEvil": {
+  "name": "Phenomenal Evil",
+  "rarity": "gold"
+ },
+ "ARAM_PoroKing": {
+  "name": "Bounce of the Poro King",
+  "rarity": "prismatic"
+ },
+ "ARAM_Poro_Blast": {
+  "name": "Poro Blaster",
+  "rarity": "gold"
+ },
+ "ARAM_ProteinShake": {
+  "name": "Protein Shake",
+  "rarity": "prismatic"
+ },
+ "ARAM_Purist_Caster": {
+  "name": "Purist - Caster",
+  "rarity": "silver"
+ },
+ "ARAM_QuantumComputing": {
+  "name": "Quantum Computing",
+  "rarity": "prismatic"
+ },
+ "ARAM_Quest_SteelYourHeart": {
+  "name": "Steel Your Heart",
+  "rarity": "gold"
+ },
+ "ARAM_Quest_UrfsChampion": {
+  "name": "Urf's Champion",
+  "rarity": "prismatic"
+ },
+ "ARAM_Quest_VoidImmolation": {
+  "name": "Icathia's Fall",
+  "rarity": "prismatic"
+ },
+ "ARAM_Quest_WoogletsWitchcap": {
+  "name": "Wooglet's Witchcap",
+  "rarity": "prismatic"
+ },
+ "ARAM_Quickstep": {
+  "name": "Quickstep",
+  "rarity": "gold"
+ },
+ "ARAM_RabbleRousing": {
+  "name": "Rejuvenation",
+  "rarity": "gold"
+ },
+ "ARAM_Recall": {
+  "name": "Cheating",
+  "rarity": "gold"
+ },
+ "ARAM_Recursion": {
+  "name": "Recursion",
+  "rarity": "gold"
+ },
+ "ARAM_Repulsor": {
+  "name": "Repulsor",
+  "rarity": "silver"
+ },
+ "ARAM_RestlessRestoration": {
+  "name": "Restless Restoration",
+  "rarity": "gold"
+ },
+ "ARAM_ScopedWeapons": {
+  "name": "Scoped Weapons",
+  "rarity": "silver"
+ },
+ "ARAM_ScopierWeapons": {
+  "name": "Scopier Weapons",
+  "rarity": "gold"
+ },
+ "ARAM_ScopiestWeapons": {
+  "name": "Scopiest Weapons",
+  "rarity": "prismatic"
+ },
+ "ARAM_SearingDawn": {
+  "name": "Searing Dawn",
+  "rarity": "gold"
+ },
+ "ARAM_SelfDestruct": {
+  "name": "Self Destruct",
+  "rarity": "silver"
+ },
+ "ARAM_ShadowRunner": {
+  "name": "Shadow Runner",
+  "rarity": "silver"
+ },
+ "ARAM_ShrinkRay": {
+  "name": "Shrink Ray",
+  "rarity": "gold"
+ },
+ "ARAM_SkilledSniper": {
+  "name": "Skilled Sniper",
+  "rarity": "gold"
+ },
+ "ARAM_SlapAround": {
+  "name": "Slap Around",
+  "rarity": "silver"
+ },
+ "ARAM_SlowAndSteady": {
+  "name": "Slow And Steady",
+  "rarity": "gold"
+ },
+ "ARAM_SlowCooker": {
+  "name": "Slow Cooker",
+  "rarity": "prismatic"
+ },
+ "ARAM_Snowday": {
+  "name": "Snowday",
+  "rarity": "silver"
+ },
+ "ARAM_SonicBoom": {
+  "name": "Sonic Boom",
+  "rarity": "silver"
+ },
+ "ARAM_SoulSiphon": {
+  "name": "Soul Siphon",
+  "rarity": "gold"
+ },
+ "ARAM_SpecializedRecursion": {
+  "name": "Pursuit of Haste",
+  "rarity": "gold"
+ },
+ "ARAM_SpeedDemon": {
+  "name": "Speed Demon",
+  "rarity": "silver"
+ },
+ "ARAM_SpinToWin": {
+  "name": "Spin To Win",
+  "rarity": "silver"
+ },
+ "ARAM_SpiritBomb": {
+  "name": "Spirit Bomb",
+  "rarity": "prismatic"
+ },
+ "ARAM_SpiritualPurification": {
+  "name": "Spiritual Purification",
+  "rarity": "gold"
+ },
+ "ARAM_StackosaurusRex": {
+  "name": "Stackosaurus Rex",
+  "rarity": "silver"
+ },
+ "ARAM_Stats": {
+  "name": "Stats!",
+  "rarity": "silver"
+ },
+ "ARAM_StatsOnStats": {
+  "name": "Stats on Stats!",
+  "rarity": "gold"
+ },
+ "ARAM_StatsOnStatsOnStats": {
+  "name": "Stats on Stats on Stats!",
+  "rarity": "prismatic"
+ },
+ "ARAM_StuckInHereWithMe": {
+  "name": "Stuck In Here With Me",
+  "rarity": "prismatic"
+ },
+ "ARAM_SustainingStrike": {
+  "name": "Siphon",
+  "rarity": "silver"
+ },
+ "ARAM_SymphonyofWar": {
+  "name": "Symphony of War",
+  "rarity": "prismatic"
+ },
+ "ARAM_TankEngine": {
+  "name": "Tank Engine",
+  "rarity": "gold"
+ },
+ "ARAM_TankItOrLeaveIt": {
+  "name": "Tank It Or Leave It",
+  "rarity": "silver"
+ },
+ "ARAM_TapDancer": {
+  "name": "Tap Dancer",
+  "rarity": "prismatic"
+ },
+ "ARAM_Terror": {
+  "name": "Terror",
+  "rarity": "gold"
+ },
+ "ARAM_TheBrutalizer": {
+  "name": "The Brutalizer",
+  "rarity": "silver"
+ },
+ "ARAM_ThreadtheNeedle": {
+  "name": "Thread the Needle",
+  "rarity": "gold"
+ },
+ "ARAM_Tormentor": {
+  "name": "Tormentor",
+  "rarity": "silver"
+ },
+ "ARAM_TransmuteChaos": {
+  "name": "Transmute: Chaos",
+  "rarity": "prismatic"
+ },
+ "ARAM_TransmuteGold": {
+  "name": "Transmute: Gold",
+  "rarity": "silver"
+ },
+ "ARAM_TransmutePrismatic": {
+  "name": "Transmute: Prismatic",
+  "rarity": "gold"
+ },
+ "ARAM_TrueshotProdigy": {
+  "name": "Trueshot Prodigy",
+  "rarity": "prismatic"
+ },
+ "ARAM_TwiceThrice": {
+  "name": "Twice Thrice",
+  "rarity": "gold"
+ },
+ "ARAM_Typhoon": {
+  "name": "Typhoon",
+  "rarity": "silver"
+ },
+ "ARAM_UltimateRevolution": {
+  "name": "Ultimate Revolution",
+  "rarity": "prismatic"
+ },
+ "ARAM_UltimateUnstoppable": {
+  "name": "Ultimate Unstoppable",
+  "rarity": "silver"
+ },
+ "ARAM_Upgrade_Collector": {
+  "name": "Upgrade Collector",
+  "rarity": "silver"
+ },
+ "ARAM_Upgrade_Cutlass": {
+  "name": "Upgrade Cutlass",
+  "rarity": "silver"
+ },
+ "ARAM_Upgrade_Hubris": {
+  "name": "Upgrade Hubris",
+  "rarity": "gold"
+ },
+ "ARAM_Upgrade_IE": {
+  "name": "Upgrade Infinity Edge",
+  "rarity": "gold"
+ },
+ "ARAM_Upgrade_Immolate": {
+  "name": "Upgrade Immolate",
+  "rarity": "silver"
+ },
+ "ARAM_Upgrade_Sheen": {
+  "name": "Upgrade Sheen",
+  "rarity": "gold"
+ },
+ "ARAM_Upgrade_ZH": {
+  "name": "Upgrade Zhonya's",
+  "rarity": "silver"
+ },
+ "ARAM_VoidRift": {
+  "name": "Void Rift",
+  "rarity": "prismatic"
+ },
+ "ARAM_Vulnerability": {
+  "name": "Vulnerability",
+  "rarity": "gold"
+ },
+ "ARAM_WatchOutGrapefruit": {
+  "name": "Heads Up Cupcake!",
+  "rarity": "prismatic"
+ },
+ "ARAM_WeeWooWeeWoo": {
+  "name": "Wee Woo Wee Woo",
+  "rarity": "gold"
+ },
+ "ARAM_WeightedPopoffs": {
+  "name": "Weighted Popoffs",
+  "rarity": "silver"
+ },
+ "ARAM_WindspeakersBlessing": {
+  "name": "Windspeaker's Blessing",
+  "rarity": "prismatic"
+ },
+ "ARAM_WitchfulThinking": {
+  "name": "Witchful Thinking",
+  "rarity": "silver"
+ },
+ "ARAM_WithHaste": {
+  "name": "With Haste",
+  "rarity": "gold"
+ },
+ "ARAM_YowchMyCoins": {
+  "name": "Yowch, My Coins!",
+  "rarity": "gold"
+ },
+ "ARAM_Zealot": {
+  "name": "Zealot",
+  "rarity": "silver"
+ },
+ "ARAM_escAPADe": {
+  "name": "escAPADe",
+  "rarity": "silver"
+ },
+ "Ability_SelfAOE_DoubleCast": {
+  "name": "Echo Cast",
+  "rarity": "prismatic"
+ },
+ "AcceleratingSorcery": {
+  "name": "Accelerating Sorcery",
+  "rarity": "prismatic"
+ },
+ "Adamant": {
+  "name": "Adamant",
+  "rarity": "silver"
+ },
+ "AimForTheHead": {
+  "name": "Aim for the Head",
+  "rarity": "gold"
+ },
+ "AllForYou": {
+  "name": "All For You",
+  "rarity": "gold"
+ },
+ "AndMyAxe": {
+  "name": "And My Axe!",
+  "rarity": "gold"
+ },
+ "ApexInventor": {
+  "name": "Apex Inventor",
+  "rarity": "gold"
+ },
+ "Augment404": {
+  "name": "404 Augment Not Found",
+  "rarity": "silver"
+ },
+ "Augment405": {
+  "name": "Augment 405",
+  "rarity": "prismatic"
+ },
+ "AugmentedPower": {
+  "name": "Augmented Power",
+  "rarity": "silver"
+ },
+ "BabyKitty": {
+  "name": "I'm a Baby Kitty Where is Mama",
+  "rarity": "prismatic"
+ },
+ "BacktoBasics": {
+  "name": "Back To Basics",
+  "rarity": "prismatic"
+ },
+ "BannerofCommand": {
+  "name": "Banner of Command",
+  "rarity": "gold"
+ },
+ "BigBrain": {
+  "name": "Big Brain",
+  "rarity": "gold"
+ },
+ "BigDragonEnergy": {
+  "name": "Big Dragon Energy",
+  "rarity": "gold"
+ },
+ "BiggestSnowballEver": {
+  "name": "Biggest Snowball Ever",
+  "rarity": "prismatic"
+ },
+ "BladeWaltz": {
+  "name": "Blade Waltz",
+  "rarity": "prismatic"
+ },
+ "BloodBrother": {
+  "name": "Blood Brother",
+  "rarity": "gold"
+ },
+ "BloodMage": {
+  "name": "Blood Mage",
+  "rarity": "prismatic"
+ },
+ "BloodMoneyBurn": {
+  "name": "Combusting Interest",
+  "rarity": "gold"
+ },
+ "BluntForce": {
+  "name": "Blunt Force",
+  "rarity": "silver"
+ },
+ "Bodyguard": {
+  "name": "Bodyguard",
+  "rarity": "gold"
+ },
+ "Bonk": {
+  "name": "BONK!",
+  "rarity": "gold"
+ },
+ "BravestoftheBrave": {
+  "name": "Bravest of the Brave",
+  "rarity": "silver"
+ },
+ "BreadAndButter": {
+  "name": "Bread And Butter",
+  "rarity": "gold"
+ },
+ "BreadAndCheese": {
+  "name": "Bread And Cheese",
+  "rarity": "gold"
+ },
+ "BreadAndJam": {
+  "name": "Bread And Jam",
+  "rarity": "gold"
+ },
+ "BreadSandwich": {
+  "name": "Bread Sandwich",
+  "rarity": "prismatic"
+ },
+ "BrushPower": {
+  "name": "Hide on Bush",
+  "rarity": "gold"
+ },
+ "BuckleUp": {
+  "name": "Buckle Up",
+  "rarity": "silver"
+ },
+ "BuffBuddies": {
+  "name": "Buff Buddies",
+  "rarity": "silver"
+ },
+ "BulletHeaven": {
+  "name": "Bullet Heaven",
+  "rarity": "prismatic"
+ },
+ "BurstingTeeth": {
+  "name": "Tooth Fairy",
+  "rarity": "gold"
+ },
+ "CalculatedRisk": {
+  "name": "Calculated Risk",
+  "rarity": "silver"
+ },
+ "CannonFodder": {
+  "name": "Cannon Fodder",
+  "rarity": "silver"
+ },
+ "CantTouchThis": {
+  "name": "Can't Touch This",
+  "rarity": "prismatic"
+ },
+ "Castle": {
+  "name": "Castle",
+  "rarity": "silver"
+ },
+ "CelestialBody": {
+  "name": "Celestial Body",
+  "rarity": "gold"
+ },
+ "CenterOfTheUniverse": {
+  "name": "Center of the Universe",
+  "rarity": "prismatic"
+ },
+ "Cerberus": {
+  "name": "Cerberus",
+  "rarity": "prismatic"
+ },
+ "ChainLightning": {
+  "name": "Chain Lightning",
+  "rarity": "prismatic"
+ },
+ "ChainReaction": {
+  "name": "Chain Reaction",
+  "rarity": "prismatic"
+ },
+ "Chauffeur": {
+  "name": "Chauffeur",
+  "rarity": "prismatic"
+ },
+ "ChromaFlux": {
+  "name": "Chroma Flux",
+  "rarity": "prismatic"
+ },
+ "CircleofDeath": {
+  "name": "Circle of Death",
+  "rarity": "prismatic"
+ },
+ "Clothesline": {
+  "name": "Clothesline",
+  "rarity": "silver"
+ },
+ "ClownCollege": {
+  "name": "Clown College",
+  "rarity": "prismatic"
+ },
+ "CombinationFriedRice": {
+  "name": "Combination Fried Rice",
+  "rarity": "prismatic"
+ },
+ "ComboMaster": {
+  "name": "Combo Master",
+  "rarity": "gold"
+ },
+ "ContractKiller": {
+  "name": "Contract Killer",
+  "rarity": "silver"
+ },
+ "CourageoftheColossus": {
+  "name": "Courage of the Colossus",
+  "rarity": "prismatic"
+ },
+ "CraftingAugmentSlot": {
+  "name": "Gain an Augment slot",
+  "rarity": "unknown"
+ },
+ "CraftingPrisStatAnvil": {
+  "name": "Gain a Prismatic Stat Anvil",
+  "rarity": "unknown"
+ },
+ "CraftingSellAugment": {
+  "name": "Level Augments",
+  "rarity": "unknown"
+ },
+ "CritNCast": {
+  "name": "Crit 'n Cast",
+  "rarity": "silver"
+ },
+ "CriticalHealing": {
+  "name": "Critical Healing",
+  "rarity": "gold"
+ },
+ "CriticalMissile": {
+  "name": "Critical Missile",
+  "rarity": "gold"
+ },
+ "CriticalRhythm": {
+  "name": "Critical Rhythm",
+  "rarity": "gold"
+ },
+ "DarkBlessing": {
+  "name": "Dark Blessing",
+  "rarity": "gold"
+ },
+ "DarkWind": {
+  "name": "Ravenous Bind",
+  "rarity": "gold"
+ },
+ "Dashing": {
+  "name": "Dashing",
+  "rarity": "prismatic"
+ },
+ "DawnbringersResolve": {
+  "name": "Dawnbringer's Resolve",
+  "rarity": "gold"
+ },
+ "Deathtouch": {
+  "name": "Deathtouch",
+  "rarity": "gold"
+ },
+ "DefensiveManeuvers": {
+  "name": "Defensive Maneuvers",
+  "rarity": "gold"
+ },
+ "Deft": {
+  "name": "Deft",
+  "rarity": "silver"
+ },
+ "Dematerialize": {
+  "name": "Dematerialize",
+  "rarity": "silver"
+ },
+ "DemonicClasp": {
+  "name": "Demonic Clasp",
+  "rarity": "gold"
+ },
+ "DemonsDance": {
+  "name": "Demon's Dance",
+  "rarity": "gold"
+ },
+ "Desecrator": {
+  "name": "Desecrator",
+  "rarity": "silver"
+ },
+ "Despoil": {
+  "name": "Despoil",
+  "rarity": "silver"
+ },
+ "DieAnotherDay": {
+  "name": "Die Another Day",
+  "rarity": "gold"
+ },
+ "DimensionShift_Active": {
+  "name": "Dimension Shift",
+  "rarity": "prismatic"
+ },
+ "DipDiveDodge": {
+  "name": "Ragebait",
+  "rarity": "silver"
+ },
+ "DiveBomber": {
+  "name": "Dive Bomber",
+  "rarity": "silver"
+ },
+ "DivineIntervention": {
+  "name": "Divine Intervention",
+  "rarity": "gold"
+ },
+ "DoOrDie": {
+  "name": "Do or Die",
+  "rarity": "prismatic"
+ },
+ "Donation": {
+  "name": "Donation",
+  "rarity": "gold"
+ },
+ "DontBlink": {
+  "name": "Don't Blink",
+  "rarity": "silver"
+ },
+ "DontChangeTheChannel": {
+  "name": "Don't Change the Channel",
+  "rarity": "silver"
+ },
+ "DontChase": {
+  "name": "Don't Chase",
+  "rarity": "silver"
+ },
+ "DontStopCleavin": {
+  "name": "Don't Stop Cleavin'",
+  "rarity": "gold"
+ },
+ "Doomsayer": {
+  "name": "Doomsayer",
+  "rarity": "prismatic"
+ },
+ "DoransBiggestFan": {
+  "name": "Doran's Biggest Fan",
+  "rarity": "prismatic"
+ },
+ "DoubleDefense": {
+  "name": "Bolstered",
+  "rarity": "silver"
+ },
+ "DoubleStrike": {
+  "name": "Double Strike",
+  "rarity": "silver"
+ },
+ "DrawYourSword": {
+  "name": "Draw Your Sword",
+  "rarity": "prismatic"
+ },
+ "Dreadbringer": {
+  "name": "Dreadbringer",
+  "rarity": "prismatic"
+ },
+ "DrinkUp": {
+  "name": "Drink Up",
+  "rarity": "silver"
+ },
+ "Dropybara_Active": {
+  "name": "Droppybara",
+  "rarity": "prismatic"
+ },
+ "DualWield": {
+  "name": "Dual Wield",
+  "rarity": "prismatic"
+ },
+ "DustToDiamonds": {
+  "name": "Dust To Diamonds",
+  "rarity": "silver"
+ },
+ "Earthwake": {
+  "name": "Earthwake",
+  "rarity": "prismatic"
+ },
+ "EmpyreanPromise": {
+  "name": "Empyrean Promise",
+  "rarity": "prismatic"
+ },
+ "Endgame_Gold": {
+  "name": "Full Build! +25 Gold",
+  "rarity": "unknown"
+ },
+ "Endgame_Health": {
+  "name": "Full Build! Heal 25%",
+  "rarity": "unknown"
+ },
+ "EndlessDecimation": {
+  "name": "Endless Decimation",
+  "rarity": "gold"
+ },
+ "Energetic": {
+  "name": "Energetic",
+  "rarity": "silver"
+ },
+ "EnergeticCaster": {
+  "name": "Energetic Caster",
+  "rarity": "gold"
+ },
+ "Equilibrium": {
+  "name": "Our Healing",
+  "rarity": "gold"
+ },
+ "Erosion": {
+  "name": "Erosion",
+  "rarity": "silver"
+ },
+ "EscapePlan": {
+  "name": "Escape Plan",
+  "rarity": "silver"
+ },
+ "EtherealChains": {
+  "name": "Infernal Chains",
+  "rarity": "prismatic"
+ },
+ "EtherealWeapon": {
+  "name": "Ethereal Weapon",
+  "rarity": "gold"
+ },
+ "Eureka": {
+  "name": "Eureka",
+  "rarity": "prismatic"
+ },
+ "Evocation": {
+  "name": "Evocation",
+  "rarity": "silver"
+ },
+ "Executioner": {
+  "name": "Executioner",
+  "rarity": "silver"
+ },
+ "ExtendoArm": {
+  "name": "Extendo-Arm",
+  "rarity": "gold"
+ },
+ "FallenAegis": {
+  "name": "Fallen Aegis",
+  "rarity": "silver"
+ },
+ "FanTheHammer": {
+  "name": "Fan the Hammer",
+  "rarity": "prismatic"
+ },
+ "FeeltheBurn": {
+  "name": "Feel the Burn",
+  "rarity": "prismatic"
+ },
+ "FeyMagic": {
+  "name": "Fey Magic",
+  "rarity": "prismatic"
+ },
+ "FinalForm": {
+  "name": "Final Form",
+  "rarity": "prismatic"
+ },
+ "FireSale": {
+  "name": "Fire Sale",
+  "rarity": "silver"
+ },
+ "Firebrand": {
+  "name": "Firebrand",
+  "rarity": "gold"
+ },
+ "Firefox": {
+  "name": "Firefox",
+  "rarity": "silver"
+ },
+ "FirstAidKit": {
+  "name": "First-Aid Kit",
+  "rarity": "silver"
+ },
+ "FishBait": {
+  "name": "Shark Bait",
+  "rarity": "gold"
+ },
+ "Flash2": {
+  "name": "Flash 2",
+  "rarity": "silver"
+ },
+ "Flashbang": {
+  "name": "Flashbang",
+  "rarity": "silver"
+ },
+ "Flashy": {
+  "name": "Flashy",
+  "rarity": "gold"
+ },
+ "ForgedByTheMaster": {
+  "name": "Forged By The Master",
+  "rarity": "silver"
+ },
+ "FromBeginningToEnd": {
+  "name": "From Beginning to End",
+  "rarity": "gold"
+ },
+ "FrostWraith": {
+  "name": "Frost Wraith",
+  "rarity": "silver"
+ },
+ "FrozenFoundations": {
+  "name": "Frozen Foundations",
+  "rarity": "silver"
+ },
+ "FruitsOfYourLabor": {
+  "name": "Fruits of Your Labor",
+  "rarity": "silver"
+ },
+ "FullyAutomated": {
+  "name": "Fully Automated",
+  "rarity": "silver"
+ },
+ "FutureSightHeartsteel": {
+  "name": "Time Warp: Heartsteel",
+  "rarity": "gold"
+ },
+ "GainStatAnvil": {
+  "name": "Gain Stat Anvil",
+  "rarity": "unknown"
+ },
+ "GambaAnvil": {
+  "name": "Gamba Anvil",
+  "rarity": "prismatic"
+ },
+ "Gash": {
+  "name": "Gash",
+  "rarity": "prismatic"
+ },
+ "GiantSlayer": {
+  "name": "Giant Slayer",
+  "rarity": "prismatic"
+ },
+ "GlassCannon": {
+  "name": "Glass Cannon",
+  "rarity": "prismatic"
+ },
+ "GoHAbstainFromPower": {
+  "name": "Abstain From Power",
+  "rarity": "unknown"
+ },
+ "GoHAbstainFromRisk": {
+  "name": "Abstain From Risk",
+  "rarity": "unknown"
+ },
+ "GoHAbstainFromWealth": {
+  "name": "Abstain From Wealth",
+  "rarity": "unknown"
+ },
+ "GoHBloodrazor": {
+  "name": "Bloodrazor",
+  "rarity": "unknown"
+ },
+ "GoHChemtechPutrifier": {
+  "name": "Chemtech Putrifier",
+  "rarity": "unknown"
+ },
+ "GoHCompulsionForPower": {
+  "name": "Compulsion For Power",
+  "rarity": "unknown"
+ },
+ "GoHCompulsionForRisk": {
+  "name": "Compulsion For Risk",
+  "rarity": "unknown"
+ },
+ "GoHCompulsionForWealth": {
+  "name": "Compulsion For Wealth",
+  "rarity": "unknown"
+ },
+ "GoHCravingForPower": {
+  "name": "Craving For Power",
+  "rarity": "unknown"
+ },
+ "GoHCravingForRisk": {
+  "name": "Craving For Risk",
+  "rarity": "unknown"
+ },
+ "GoHCravingForWealth": {
+  "name": "Craving For Wealth",
+  "rarity": "unknown"
+ },
+ "GoHDematerializer": {
+  "name": "Dematerializer",
+  "rarity": "unknown"
+ },
+ "GoHEnchantedFlask": {
+  "name": "Enchanted Flask",
+  "rarity": "unknown"
+ },
+ "GoHFrozenMallet": {
+  "name": "Frozen Mallet",
+  "rarity": "unknown"
+ },
+ "GoHLamb": {
+  "name": "Lamb's Respite",
+  "rarity": "unknown"
+ },
+ "GoHRemnantOfTheWatchers": {
+  "name": "Remnant of the Watchers",
+  "rarity": "unknown"
+ },
+ "GoHSacrificeForGold": {
+  "name": "Sacrifice: For Gold",
+  "rarity": "gold"
+ },
+ "GoHSacrificeForPrismatic": {
+  "name": "Sacrifice: For Prismatic",
+  "rarity": "prismatic"
+ },
+ "GoHSacrificeForSilver": {
+  "name": "Sacrifice: For Silver",
+  "rarity": "silver"
+ },
+ "GoHSwindlersOrb": {
+  "name": "Swindler's Orb",
+  "rarity": "unknown"
+ },
+ "GoHVoteAllyDemon": {
+  "name": "Ally Demon",
+  "rarity": "unknown"
+ },
+ "GoHVoteAllyHunter": {
+  "name": "Ally Hunter",
+  "rarity": "unknown"
+ },
+ "GoHWolf": {
+  "name": "Wolf's Frenzy",
+  "rarity": "unknown"
+ },
+ "GoldenSnowball": {
+  "name": "Holy Snowball",
+  "rarity": "prismatic"
+ },
+ "Goldrend": {
+  "name": "Goldrend",
+  "rarity": "prismatic"
+ },
+ "Goliath": {
+  "name": "Goliath",
+  "rarity": "prismatic"
+ },
+ "Goredrink": {
+  "name": "Goredrink",
+  "rarity": "silver"
+ },
+ "GrandmasChiliOil": {
+  "name": "Grandma's Chili Oil",
+  "rarity": "gold"
+ },
+ "GrievousVenom": {
+  "name": "Grievous Venom",
+  "rarity": "silver"
+ },
+ "GrowthSpurt": {
+  "name": "Growth Spurt",
+  "rarity": "gold"
+ },
+ "GuiltyPleasure": {
+  "name": "Guilty Pleasure",
+  "rarity": "silver"
+ },
+ "Hallucinate": {
+  "name": "Hallucinate",
+  "rarity": "prismatic"
+ },
+ "HandOfBaron": {
+  "name": "Hand of Baron",
+  "rarity": "prismatic"
+ },
+ "HasteMakesWaste": {
+  "name": "Haste Makes Waste",
+  "rarity": "prismatic"
+ },
+ "HatOnAHat": {
+  "name": "Hat on a Hat",
+  "rarity": "silver"
+ },
+ "HatTrick": {
+  "name": "Hat Trick",
+  "rarity": "gold"
+ },
+ "HeavyHitter": {
+  "name": "Heavy Hitter",
+  "rarity": "silver"
+ },
+ "HexCore": {
+  "name": "The Hex Core",
+  "rarity": "prismatic"
+ },
+ "HextechSoul": {
+  "name": "Hextech Soul",
+  "rarity": "silver"
+ },
+ "HiveMind": {
+  "name": "Hive Mind",
+  "rarity": "prismatic"
+ },
+ "HoldVeryStill": {
+  "name": "Hold Very Still",
+  "rarity": "silver"
+ },
+ "HolyFire": {
+  "name": "Holy Fire",
+  "rarity": "gold"
+ },
+ "Homeguard": {
+  "name": "Homeguard",
+  "rarity": "silver"
+ },
+ "Hybrid": {
+  "name": "Hybrid",
+  "rarity": "gold"
+ },
+ "IceCold": {
+  "name": "Ice Cold",
+  "rarity": "silver"
+ },
+ "Impassable": {
+  "name": "Impassable",
+  "rarity": "gold"
+ },
+ "InfernalConduit": {
+  "name": "Infernal Conduit",
+  "rarity": "prismatic"
+ },
+ "InfernalSoul": {
+  "name": "Infernal Soul",
+  "rarity": "silver"
+ },
+ "InfiniteRecursion": {
+  "name": "Infinite Recursion",
+  "rarity": "prismatic"
+ },
+ "ItsCritical": {
+  "name": "It's Critical",
+  "rarity": "gold"
+ },
+ "ItsGoTime": {
+  "name": "It's Go Time",
+  "rarity": "silver"
+ },
+ "ItsKillingTime": {
+  "name": "It's Killing Time",
+  "rarity": "gold"
+ },
+ "JeweledGauntlet": {
+  "name": "Jeweled Gauntlet",
+  "rarity": "prismatic"
+ },
+ "JuiceBox": {
+  "name": "Juice Box",
+  "rarity": "silver"
+ },
+ "JuicePress": {
+  "name": "Juice Press",
+  "rarity": "silver"
+ },
+ "KeepGoing": {
+  "name": "Reload",
+  "rarity": "gold"
+ },
+ "KeystoneConjurer": {
+  "name": "Keystone Conjurer",
+  "rarity": "gold"
+ },
+ "KillSecured": {
+  "name": "Kill Secured",
+  "rarity": "silver"
+ },
+ "KingMe": {
+  "name": "King Me",
+  "rarity": "prismatic"
+ },
+ "LaserEyes": {
+  "name": "Laser Eyes",
+  "rarity": "prismatic"
+ },
+ "LaserHeal": {
+  "name": "Laser Heal",
+  "rarity": "prismatic"
+ },
+ "LegDay": {
+  "name": "Leg Day",
+  "rarity": "silver"
+ },
+ "LightWarden": {
+  "name": "Light Warden",
+  "rarity": "gold"
+ },
+ "LightemUp": {
+  "name": "Light 'em Up!",
+  "rarity": "silver"
+ },
+ "LightningStrikes": {
+  "name": "Lightning Strikes",
+  "rarity": "gold"
+ },
+ "LittleExtraHelp": {
+  "name": "Lil' Extra Help",
+  "rarity": "gold"
+ },
+ "MadScientist": {
+  "name": "Mad Scientist",
+  "rarity": "prismatic"
+ },
+ "MagicMissile": {
+  "name": "Magic Missile",
+  "rarity": "gold"
+ },
+ "MagicalGirl": {
+  "name": "Magical Girl",
+  "rarity": "prismatic"
+ },
+ "Marksmage": {
+  "name": "Marksmage",
+  "rarity": "gold"
+ },
+ "MasterofDuality": {
+  "name": "Master of Duality",
+  "rarity": "prismatic"
+ },
+ "Mercy": {
+  "name": "Mercy",
+  "rarity": "gold"
+ },
+ "MercysStrike": {
+  "name": "Mercy's Strike",
+  "rarity": "gold"
+ },
+ "MidnightExpress": {
+  "name": "Midnight Express",
+  "rarity": "silver"
+ },
+ "MightyShield": {
+  "name": "Mighty Shield",
+  "rarity": "silver"
+ },
+ "MindtoMatter": {
+  "name": "Mind to Matter",
+  "rarity": "silver"
+ },
+ "Minionmancer": {
+  "name": "Minionmancer",
+  "rarity": "gold"
+ },
+ "MirrorImage": {
+  "name": "Mirror Image",
+  "rarity": "silver"
+ },
+ "Missile_Split": {
+  "name": "Spell Split",
+  "rarity": "prismatic"
+ },
+ "MountainSoul": {
+  "name": "Mountain Soul",
+  "rarity": "silver"
+ },
+ "Multitool": {
+  "name": "Multitool",
+  "rarity": "gold"
+ },
+ "MysticPunch": {
+  "name": "Mystic Punch",
+  "rarity": "prismatic"
+ },
+ "Mythical": {
+  "name": "Mythical",
+  "rarity": "gold"
+ },
+ "NatureIsHealing": {
+  "name": "Nature is Healing",
+  "rarity": "gold"
+ },
+ "Necromancer": {
+  "name": "Necromancer",
+  "rarity": "prismatic"
+ },
+ "NestingDoll": {
+  "name": "Nesting Doll",
+  "rarity": "prismatic"
+ },
+ "Nightstalking": {
+  "name": "Nightstalking",
+  "rarity": "gold"
+ },
+ "NowYouSeeMe": {
+  "name": "Now You See Me",
+  "rarity": "silver"
+ },
+ "NullAugment": {
+  "name": "Null Augment",
+  "rarity": "silver"
+ },
+ "NumbToPain": {
+  "name": "Numb to Pain",
+  "rarity": "silver"
+ },
+ "Oathsworn": {
+  "name": "Oathsworn",
+  "rarity": "gold"
+ },
+ "OceanSoul": {
+  "name": "Ocean Soul",
+  "rarity": "silver"
+ },
+ "OkBoomerang": {
+  "name": "OK Boomerang",
+  "rarity": "gold"
+ },
+ "OminousPact": {
+  "name": "Ominous Pact",
+  "rarity": "prismatic"
+ },
+ "OmniSoul": {
+  "name": "Omni Soul",
+  "rarity": "prismatic"
+ },
+ "OrbitalLaser": {
+  "name": "Orbital Laser",
+  "rarity": "prismatic"
+ },
+ "OutlawsGrit": {
+  "name": "Outlaw's Grit",
+  "rarity": "gold"
+ },
+ "Overextender": {
+  "name": "Overextender",
+  "rarity": "gold"
+ },
+ "Overflow": {
+  "name": "Overflow",
+  "rarity": "gold"
+ },
+ "Overkill": {
+  "name": "Pin Cushion",
+  "rarity": "prismatic"
+ },
+ "Overloaded": {
+  "name": "Overloaded",
+  "rarity": "prismatic"
+ },
+ "PandorasBox": {
+  "name": "Pandora's Box",
+  "rarity": "prismatic"
+ },
+ "PanicRoom": {
+  "name": "Panic Room",
+  "rarity": "silver"
+ },
+ "ParasiticMutation": {
+  "name": "Parasitic Mutation",
+  "rarity": "silver"
+ },
+ "ParasiticRelationship": {
+  "name": "Parasitic Relationship",
+  "rarity": "gold"
+ },
+ "Parry": {
+  "name": "Parry",
+  "rarity": "silver"
+ },
+ "PatOnTheBack": {
+  "name": "Pat On The Back",
+  "rarity": "gold"
+ },
+ "Perseverance": {
+  "name": "Perseverance",
+  "rarity": "gold"
+ },
+ "PhenomenalEvil": {
+  "name": "Phenomenal Evil",
+  "rarity": "gold"
+ },
+ "PinCushion": {
+  "name": "Porcupine",
+  "rarity": "gold"
+ },
+ "PinballSnowball": {
+  "name": "Pinball",
+  "rarity": "gold"
+ },
+ "Poltergeist": {
+  "name": "Poltergeist",
+  "rarity": "silver"
+ },
+ "PoroCharge_Active": {
+  "name": "Poro Stampede",
+  "rarity": "prismatic"
+ },
+ "PressureCooker": {
+  "name": "Pressure Cooker",
+  "rarity": "gold"
+ },
+ "PrismaticEgg": {
+  "name": "Prismatic Egg",
+  "rarity": "prismatic"
+ },
+ "PromQueen": {
+  "name": "Prom Queen",
+  "rarity": "prismatic"
+ },
+ "QuantumComputing": {
+  "name": "Quantum Computing",
+  "rarity": "prismatic"
+ },
+ "Quest_AngelofRetribution": {
+  "name": "Quest: Angel of Retribution",
+  "rarity": "gold"
+ },
+ "Quest_MadHatter": {
+  "name": "Quest: Mad Hatter",
+  "rarity": "gold"
+ },
+ "Quest_RiteOfTheForgeGod": {
+  "name": "Quest: Rite Of The Forge God",
+  "rarity": "prismatic"
+ },
+ "Quest_Sneakerhead": {
+  "name": "Sneakerhead",
+  "rarity": "prismatic"
+ },
+ "Quest_SteelYourHeart": {
+  "name": "Quest: Steel Your Heart",
+  "rarity": "gold"
+ },
+ "Quest_ThreeSacredTreasures": {
+  "name": "Quest: Three Sacred Treasures",
+  "rarity": "gold"
+ },
+ "Quest_UrfsChampion": {
+  "name": "Quest: Urf's Champion",
+  "rarity": "gold"
+ },
+ "Quest_VoidImmolation": {
+  "name": "Icathia's Fall",
+  "rarity": "prismatic"
+ },
+ "Quest_WoogletsWitchcap": {
+  "name": "Quest: Wooglet's Witchcap",
+  "rarity": "prismatic"
+ },
+ "RabbleRousing": {
+  "name": "Rabble Rousing",
+  "rarity": "gold"
+ },
+ "RagsToRiches": {
+  "name": "Rags to Riches",
+  "rarity": "silver"
+ },
+ "RaidBoss": {
+  "name": "Raid Boss",
+  "rarity": "prismatic"
+ },
+ "ReEnergize": {
+  "name": "ReEnergize",
+  "rarity": "silver"
+ },
+ "Recursion": {
+  "name": "Recursion",
+  "rarity": "gold"
+ },
+ "RedEnvelopes": {
+  "name": "Red Envelopes",
+  "rarity": "gold"
+ },
+ "ReplaceAugment": {
+  "name": "Replace Augment",
+  "rarity": "unknown"
+ },
+ "Repulsor": {
+  "name": "Repulsor",
+  "rarity": "silver"
+ },
+ "Restart": {
+  "name": "Restart",
+  "rarity": "gold"
+ },
+ "RestlessRestoration": {
+  "name": "Restless Restoration",
+  "rarity": "gold"
+ },
+ "RiceAndChicken": {
+  "name": "Rice and Chicken",
+  "rarity": "gold"
+ },
+ "RiceAndFish": {
+  "name": "Rice and Fish",
+  "rarity": "gold"
+ },
+ "RiceAndPork": {
+  "name": "Rice and Pork",
+  "rarity": "gold"
+ },
+ "RighteousFury": {
+  "name": "Righteous Fury",
+  "rarity": "prismatic"
+ },
+ "Scavenger": {
+  "name": "Scavenger",
+  "rarity": "gold"
+ },
+ "ScopedWeapons": {
+  "name": "Scoped Weapons",
+  "rarity": "silver"
+ },
+ "ScopierWeapons": {
+  "name": "Scopier Weapons",
+  "rarity": "gold"
+ },
+ "ScopiestWeapons": {
+  "name": "Scopiest Weapons",
+  "rarity": "prismatic"
+ },
+ "SearingDawn": {
+  "name": "Searing Dawn",
+  "rarity": "gold"
+ },
+ "SelfDestruct": {
+  "name": "Self Destruct",
+  "rarity": "silver"
+ },
+ "ServeBeyondDeath": {
+  "name": "Serve Beyond Death",
+  "rarity": "silver"
+ },
+ "ShadowRunner": {
+  "name": "Shadow Runner",
+  "rarity": "silver"
+ },
+ "SharkTempest": {
+  "name": "Shark Tempest",
+  "rarity": "gold"
+ },
+ "ShrinkEngine": {
+  "name": "Shrink Engine",
+  "rarity": "gold"
+ },
+ "ShrinkRay": {
+  "name": "Shrink Ray",
+  "rarity": "gold"
+ },
+ "SilverSpoon": {
+  "name": "Silver Spoon",
+  "rarity": "silver"
+ },
+ "SkilledSniper": {
+  "name": "Skilled Sniper",
+  "rarity": "gold"
+ },
+ "SkipTheBasics": {
+  "name": "Ult Bot",
+  "rarity": "prismatic"
+ },
+ "SlapAround": {
+  "name": "Slap Around",
+  "rarity": "silver"
+ },
+ "SleepDart": {
+  "name": "Sleep Dart",
+  "rarity": "gold"
+ },
+ "SlimeTime": {
+  "name": "Slime Time",
+  "rarity": "silver"
+ },
+ "SlowAndSteady": {
+  "name": "Slow and Steady",
+  "rarity": "gold"
+ },
+ "SlowCooker": {
+  "name": "Slow Cooker",
+  "rarity": "prismatic"
+ },
+ "SnapBack": {
+  "name": "Snap Back",
+  "rarity": "gold"
+ },
+ "SnowballFight": {
+  "name": "Snowball Fight!",
+  "rarity": "silver"
+ },
+ "SnowballRoulette": {
+  "name": "Snowball Roulette",
+  "rarity": "gold"
+ },
+ "SnowballUpgrade": {
+  "name": "Snowball Upgrade",
+  "rarity": "gold"
+ },
+ "Snowbomb": {
+  "name": "Snowblast",
+  "rarity": "gold"
+ },
+ "Sonata": {
+  "name": "Sonata",
+  "rarity": "gold"
+ },
+ "SonicBoom": {
+  "name": "Sonic Boom",
+  "rarity": "silver"
+ },
+ "SoulEater": {
+  "name": "Soul Eater",
+  "rarity": "gold"
+ },
+ "SoulSiphon": {
+  "name": "Soul Siphon",
+  "rarity": "gold"
+ },
+ "Special_ArmorUp": {
+  "name": "Armor Up",
+  "rarity": "gold"
+ },
+ "Special_BiteSized": {
+  "name": "Bite Sized",
+  "rarity": "gold"
+ },
+ "Special_BulletMania": {
+  "name": "Bullet-Mania",
+  "rarity": "gold"
+ },
+ "Special_CardCollector": {
+  "name": "Card Collector",
+  "rarity": "gold"
+ },
+ "Special_Celebration": {
+  "name": "Celebration!",
+  "rarity": "gold"
+ },
+ "Special_CircleOfStats": {
+  "name": "Circle of Stats",
+  "rarity": "gold"
+ },
+ "Special_CriticalExpansion": {
+  "name": "Critical Expansion",
+  "rarity": "gold"
+ },
+ "Special_Death_and_Taxes": {
+  "name": "Death and Taxes",
+  "rarity": "gold"
+ },
+ "Special_DimensionScrambler": {
+  "name": "Size Scrambler",
+  "rarity": "gold"
+ },
+ "Special_EbbAndFlow": {
+  "name": "Ebb And Flow",
+  "rarity": "gold"
+ },
+ "Special_EliteBomber": {
+  "name": "Elite Bomber",
+  "rarity": "gold"
+ },
+ "Special_FastHealer": {
+  "name": "Regenerative Tissue",
+  "rarity": "gold"
+ },
+ "Special_GatheringSpeed": {
+  "name": "Gathering Speed",
+  "rarity": "gold"
+ },
+ "Special_GlassCannon": {
+  "name": "Glass Cannon",
+  "rarity": "gold"
+ },
+ "Special_HeavyHitter": {
+  "name": "Heavy Hitter",
+  "rarity": "gold"
+ },
+ "Special_Hoarder": {
+  "name": "Hoarder",
+  "rarity": "gold"
+ },
+ "Special_Juggernaut": {
+  "name": "Juggernaut",
+  "rarity": "gold"
+ },
+ "Special_LargerThanLife": {
+  "name": "Larger Than Life",
+  "rarity": "gold"
+ },
+ "Special_LongRange": {
+  "name": "Long Range",
+  "rarity": "gold"
+ },
+ "Special_LongRoad": {
+  "name": "Cross Country",
+  "rarity": "gold"
+ },
+ "Special_MetabolicOverdrive": {
+  "name": "Metabolic Overdrive",
+  "rarity": "gold"
+ },
+ "Special_NoCrit": {
+  "name": "Mission Critical",
+  "rarity": "gold"
+ },
+ "Special_PickMeUp": {
+  "name": "Pick-Me-Up",
+  "rarity": "gold"
+ },
+ "Special_PointBlank": {
+  "name": "Point Blank",
+  "rarity": "gold"
+ },
+ "Special_RageEngine": {
+  "name": "Immobile Immolation",
+  "rarity": "gold"
+ },
+ "Special_RammingSpeed": {
+  "name": "Ramming Runner",
+  "rarity": "gold"
+ },
+ "Special_SprayAndPray": {
+  "name": "Spray and Pray",
+  "rarity": "gold"
+ },
+ "Special_StealEssence": {
+  "name": "Pescatarian",
+  "rarity": "gold"
+ },
+ "Special_TimeNotDamage": {
+  "name": "Uptime Upgrade",
+  "rarity": "gold"
+ },
+ "Special_UltimateHaste": {
+  "name": "Ultimate Speed-Up",
+  "rarity": "gold"
+ },
+ "Special_WithHaste": {
+  "name": "With Haste",
+  "rarity": "gold"
+ },
+ "Special_XPFanatic": {
+  "name": "Experienced Fighter",
+  "rarity": "gold"
+ },
+ "Special_Zookeeper": {
+  "name": "Emotional Support Pet",
+  "rarity": "gold"
+ },
+ "SpecializedEmpowerment": {
+  "name": "Pursuit of Power",
+  "rarity": "gold"
+ },
+ "SpellVolley": {
+  "name": "Tripleshot",
+  "rarity": "prismatic"
+ },
+ "Spellcraft": {
+  "name": "Spellcraft",
+  "rarity": "prismatic"
+ },
+ "Spellwake": {
+  "name": "Spellwake",
+  "rarity": "prismatic"
+ },
+ "SpinToWin": {
+  "name": "Spin To Win",
+  "rarity": "silver"
+ },
+ "SpiritInfusion": {
+  "name": "Spirit Infusion",
+  "rarity": "silver"
+ },
+ "SpiritLink": {
+  "name": "Spirit Link",
+  "rarity": "prismatic"
+ },
+ "SpiritOfTheJungleMain": {
+  "name": "Spirit of the Jungle Main",
+  "rarity": "gold"
+ },
+ "SquishySlappyGrab": {
+  "name": "Squishy Slappy Grab",
+  "rarity": "prismatic"
+ },
+ "StabbyStabby": {
+  "name": "Stabby Stabby",
+  "rarity": "silver"
+ },
+ "StackosaurusRex": {
+  "name": "Stackosaurus Rex",
+  "rarity": "silver"
+ },
+ "Stat_AbilityHaste": {
+  "name": "Ability Haste",
+  "rarity": "unknown"
+ },
+ "Stat_AoeSize": {
+  "name": "Area Size",
+  "rarity": "unknown"
+ },
+ "Stat_Armor": {
+  "name": "Armor",
+  "rarity": "unknown"
+ },
+ "Stat_CritChance": {
+  "name": "Critical Chance",
+  "rarity": "unknown"
+ },
+ "Stat_DamagePercent": {
+  "name": "Damage",
+  "rarity": "unknown"
+ },
+ "Stat_Duration": {
+  "name": "Duration",
+  "rarity": "unknown"
+ },
+ "Stat_Exp": {
+  "name": "EXP",
+  "rarity": "unknown"
+ },
+ "Stat_HealthRegen": {
+  "name": "Health Regeneration",
+  "rarity": "unknown"
+ },
+ "Stat_MaxHealth": {
+  "name": "Max Health",
+  "rarity": "unknown"
+ },
+ "Stat_Movespeed": {
+  "name": "Movement Speed",
+  "rarity": "unknown"
+ },
+ "Stat_PickupRadius": {
+  "name": "Pickup Radius",
+  "rarity": "unknown"
+ },
+ "Stat_ProjectileCount": {
+  "name": "Projectile Count",
+  "rarity": "unknown"
+ },
+ "Stats": {
+  "name": "Stats!",
+  "rarity": "silver"
+ },
+ "StatsOnStats": {
+  "name": "Stats on Stats!",
+  "rarity": "gold"
+ },
+ "StatsOnStatsOnStats": {
+  "name": "Stats on Stats on Stats!",
+  "rarity": "prismatic"
+ },
+ "Strawberry_Aurora": {
+  "name": "Guiding Hex",
+  "rarity": "silver"
+ },
+ "Strawberry_Aurora_Evolve": {
+  "name": "Hopped-Up Hex",
+  "rarity": "prismatic"
+ },
+ "Strawberry_Briar": {
+  "name": "Pillory Swipe",
+  "rarity": "silver"
+ },
+ "Strawberry_Briar_Evolve": {
+  "name": "Savage Slice",
+  "rarity": "prismatic"
+ },
+ "Strawberry_Illaoi": {
+  "name": "Tentacle Slam",
+  "rarity": "silver"
+ },
+ "Strawberry_Illaoi_Evolve": {
+  "name": "Grizzly Smash",
+  "rarity": "prismatic"
+ },
+ "Strawberry_Jinx": {
+  "name": "Meow Meow",
+  "rarity": "silver"
+ },
+ "Strawberry_Jinx_Evolve": {
+  "name": "Battle Cat Barrage",
+  "rarity": "prismatic"
+ },
+ "Strawberry_Leona": {
+  "name": "Shield Slam",
+  "rarity": "silver"
+ },
+ "Strawberry_Leona_Evolve": {
+  "name": "Light of the Lion",
+  "rarity": "prismatic"
+ },
+ "Strawberry_Riven": {
+  "name": "Bunny Hop",
+  "rarity": "silver"
+ },
+ "Strawberry_Riven_Evolve": {
+  "name": "Carrot Crash",
+  "rarity": "prismatic"
+ },
+ "Strawberry_Seraphine": {
+  "name": "Sound Wave",
+  "rarity": "silver"
+ },
+ "Strawberry_Seraphine_Evolve": {
+  "name": "Anima Echo",
+  "rarity": "prismatic"
+ },
+ "Strawberry_Xayah": {
+  "name": "Winged Dagger",
+  "rarity": "silver"
+ },
+ "Strawberry_Xayah_Evolve": {
+  "name": "Lover's Ricochet",
+  "rarity": "prismatic"
+ },
+ "Strawberry_Yasuo": {
+  "name": "Steel Tempest",
+  "rarity": "silver"
+ },
+ "Strawberry_Yasuo_Evolve": {
+  "name": "Wandering Storms",
+  "rarity": "prismatic"
+ },
+ "SummonerRevolution": {
+  "name": "Summoner Revolution",
+  "rarity": "gold"
+ },
+ "SummonersRoulette": {
+  "name": "Summoner's Roulette",
+  "rarity": "prismatic"
+ },
+ "SummonersSafari": {
+  "name": "Summoner's Safari",
+  "rarity": "silver"
+ },
+ "SupportMain": {
+  "name": "Support Main",
+  "rarity": "silver"
+ },
+ "SurgeField": {
+  "name": "Surge Field",
+  "rarity": "prismatic"
+ },
+ "SwiftAndSafe": {
+  "name": "Swift and Safe",
+  "rarity": "silver"
+ },
+ "SymbioticMutation": {
+  "name": "Symbiotic Mutation",
+  "rarity": "gold"
+ },
+ "SymphonyofWar": {
+  "name": "Symphony of War",
+  "rarity": "prismatic"
+ },
+ "TankEngine": {
+  "name": "Tank Engine",
+  "rarity": "gold"
+ },
+ "TankItOrLeaveIt": {
+  "name": "Tank It Or Leave It",
+  "rarity": "silver"
+ },
+ "TapDancer": {
+  "name": "Tap Dancer",
+  "rarity": "prismatic"
+ },
+ "Terraind": {
+  "name": "Terrain'd",
+  "rarity": "gold"
+ },
+ "TheBrutalizer": {
+  "name": "The Brutalizer",
+  "rarity": "silver"
+ },
+ "ThiefsGloves": {
+  "name": "Thief's Gloves",
+  "rarity": "prismatic"
+ },
+ "ThreadtheNeedle": {
+  "name": "Thread the Needle",
+  "rarity": "gold"
+ },
+ "TitansPulse": {
+  "name": "Stay Resolute",
+  "rarity": "silver"
+ },
+ "Tormentor": {
+  "name": "Tormentor",
+  "rarity": "silver"
+ },
+ "Trailblazer": {
+  "name": "Trailblazer",
+  "rarity": "silver"
+ },
+ "TrainOfTheDead": {
+  "name": "Final City Transit",
+  "rarity": "gold"
+ },
+ "TransmuteChaos": {
+  "name": "Transmute: Chaos",
+  "rarity": "prismatic"
+ },
+ "TransmuteGold": {
+  "name": "Transmute: Gold",
+  "rarity": "silver"
+ },
+ "TransmutePrismatic": {
+  "name": "Transmute: Prismatic",
+  "rarity": "gold"
+ },
+ "TransmuteSilver": {
+  "name": "Transmute: Silver",
+  "rarity": "prismatic"
+ },
+ "TrashToTreasure": {
+  "name": "Trash To Treasure",
+  "rarity": "silver"
+ },
+ "TricksterDemon": {
+  "name": "Trickster Demon",
+  "rarity": "gold"
+ },
+ "TrueEternity": {
+  "name": "True Eternity",
+  "rarity": "prismatic"
+ },
+ "TrueshotProdigy": {
+  "name": "Trueshot Prodigy",
+  "rarity": "prismatic"
+ },
+ "TrustyWeapon": {
+  "name": "Trusty Weapon",
+  "rarity": "silver"
+ },
+ "TwiceThrice": {
+  "name": "Twice Thrice",
+  "rarity": "gold"
+ },
+ "Twinfire": {
+  "name": "Twin Fire",
+  "rarity": "silver"
+ },
+ "Typhoon": {
+  "name": "Typhoon",
+  "rarity": "silver"
+ },
+ "UltimateAwakening": {
+  "name": "Ultimate Awakening",
+  "rarity": "prismatic"
+ },
+ "UltimateRevolution": {
+  "name": "Ultimate Revolution",
+  "rarity": "prismatic"
+ },
+ "UltimateRoulette": {
+  "name": "Ultimate Roulette",
+  "rarity": "prismatic"
+ },
+ "UltimateUnstoppable": {
+  "name": "Ultimate Unstoppable",
+  "rarity": "silver"
+ },
+ "UndyingGuard": {
+  "name": "Undying Guard",
+  "rarity": "gold"
+ },
+ "Unshackled": {
+  "name": "Unshackled",
+  "rarity": "gold"
+ },
+ "UnstableTransmutation": {
+  "name": "Unstable Transmutation",
+  "rarity": "gold"
+ },
+ "Upgrade_DeathFireGrasp": {
+  "name": "Upgrade: Deathfire Grasp",
+  "rarity": "gold"
+ },
+ "Upgrade_InnervatingLocket": {
+  "name": "Upgrade: Innervating Locket",
+  "rarity": "gold"
+ },
+ "Upgrade_MikaelsBlessing": {
+  "name": "Upgrade Mikael's Blessing",
+  "rarity": "prismatic"
+ },
+ "Upgrade_SwordOfBlossom": {
+  "name": "Upgrade Sword of Blossoming Dawn",
+  "rarity": "prismatic"
+ },
+ "Upgrade_Thornmail": {
+  "name": "Upgrade Thornmail",
+  "rarity": "silver"
+ },
+ "Upgrade_ZzRotPortal": {
+  "name": "Upgrade: Zz'Rot Portal",
+  "rarity": "silver"
+ },
+ "Vampirism": {
+  "name": "Vampirism",
+  "rarity": "gold"
+ },
+ "Vanish": {
+  "name": "Vanish",
+  "rarity": "gold"
+ },
+ "VeilOfWarding": {
+  "name": "Veil of Warding",
+  "rarity": "silver"
+ },
+ "Vengeance": {
+  "name": "Vengeance",
+  "rarity": "gold"
+ },
+ "VirtuousCycle": {
+  "name": "Virtuous Cycle",
+  "rarity": "silver"
+ },
+ "VoidDash": {
+  "name": "Void Dash",
+  "rarity": "gold"
+ },
+ "Vulnerability": {
+  "name": "Vulnerability",
+  "rarity": "gold"
+ },
+ "WardingWeapon": {
+  "name": "Adaptive Ward",
+  "rarity": "silver"
+ },
+ "WarlockJuicebox": {
+  "name": "Warlock Juicebox",
+  "rarity": "gold"
+ },
+ "WarmupRoutine": {
+  "name": "Warmup Routine",
+  "rarity": "silver"
+ },
+ "Weapon_Boomerang": {
+  "name": "Blade-o-rang",
+  "rarity": "silver"
+ },
+ "Weapon_Boomerang_Evolve": {
+  "name": "Quad-o-rang",
+  "rarity": "prismatic"
+ },
+ "Weapon_CircleShot": {
+  "name": "Vortex Glove",
+  "rarity": "silver"
+ },
+ "Weapon_CircleShot_Evolve": {
+  "name": "Tempest's Gauntlet",
+  "rarity": "prismatic"
+ },
+ "Weapon_CorkiE": {
+  "name": "Gatling Bunny-Guns",
+  "rarity": "silver"
+ },
+ "Weapon_CorkiE_Evolve": {
+  "name": "Double Bun-Bun Barrage",
+  "rarity": "prismatic"
+ },
+ "Weapon_DianaQ": {
+  "name": "Lioness's Lament",
+  "rarity": "silver"
+ },
+ "Weapon_DianaQ_Evolve": {
+  "name": "Enveloping Light",
+  "rarity": "prismatic"
+ },
+ "Weapon_FireBomb": {
+  "name": "Anti-Shark Sea Mine",
+  "rarity": "silver"
+ },
+ "Weapon_FireBomb_Evolve": {
+  "name": "Neverending Mobstomper",
+  "rarity": "prismatic"
+ },
+ "Weapon_FireStrike": {
+  "name": "Searing Shortbow",
+  "rarity": "silver"
+ },
+ "Weapon_FireStrike_Evolve": {
+  "name": "Evolved Embershot",
+  "rarity": "prismatic"
+ },
+ "Weapon_FrostNova": {
+  "name": "Iceblast Armor",
+  "rarity": "silver"
+ },
+ "Weapon_FrostNova_Evolve": {
+  "name": "Deep Freeze",
+  "rarity": "prismatic"
+ },
+ "Weapon_HollowRadiance": {
+  "name": "Radiant Field",
+  "rarity": "silver"
+ },
+ "Weapon_HollowRadiance_Evolve": {
+  "name": "Explosive Embrace",
+  "rarity": "prismatic"
+ },
+ "Weapon_HolyBauble": {
+  "name": "Cyclonic Slicers",
+  "rarity": "silver"
+ },
+ "Weapon_HolyBauble_Evolve": {
+  "name": "Unceasing Cyclone",
+  "rarity": "prismatic"
+ },
+ "Weapon_Mine": {
+  "name": "Ani-Mines",
+  "rarity": "silver"
+ },
+ "Weapon_Mine_Evolve": {
+  "name": "Jinx's Tri-Namite ",
+  "rarity": "prismatic"
+ },
+ "Weapon_Nuke": {
+  "name": "The Annihilator",
+  "rarity": "silver"
+ },
+ "Weapon_Nuke_Evolve": {
+  "name": "Animapocalypse",
+  "rarity": "prismatic"
+ },
+ "Weapon_PierceShot": {
+  "name": "Battle Bunny Crossbow",
+  "rarity": "silver"
+ },
+ "Weapon_PierceShot_Evolve": {
+  "name": "Bunny Prime Ballista",
+  "rarity": "prismatic"
+ },
+ "Weapon_PoisonTrail": {
+  "name": "Paw Print Poisoner",
+  "rarity": "silver"
+ },
+ "Weapon_PoisonTrail_Evolve": {
+  "name": "Bearfoot Chem-Dispenser",
+  "rarity": "prismatic"
+ },
+ "Weapon_RapidShot": {
+  "name": "UwU Blaster",
+  "rarity": "silver"
+ },
+ "Weapon_RapidShot_Evolve": {
+  "name": "OwO Blaster",
+  "rarity": "prismatic"
+ },
+ "Weapon_ScatterArrows": {
+  "name": "Echoing Batblades",
+  "rarity": "silver"
+ },
+ "Weapon_ScatterArrows_Evolve": {
+  "name": "Vayne's Chromablades",
+  "rarity": "prismatic"
+ },
+ "Weapon_StarStrike": {
+  "name": "Bunny Mega-Blast",
+  "rarity": "silver"
+ },
+ "Weapon_StarStrike_Evolve": {
+  "name": "Rapid Rabbit Raindown",
+  "rarity": "prismatic"
+ },
+ "Weapon_StatikkShiv": {
+  "name": "Statikk Sword",
+  "rarity": "silver"
+ },
+ "Weapon_StatikkShiv_Evolve": {
+  "name": "Prumbis's Electrocarver",
+  "rarity": "prismatic"
+ },
+ "Weapon_Tibbers": {
+  "name": "T.I.B.B.E.R.S",
+  "rarity": "silver"
+ },
+ "Weapon_Tibbers_Evolve": {
+  "name": "T.I.B.B.E.R.S (B.E.E.G Edition)",
+  "rarity": "prismatic"
+ },
+ "Weapon_Train": {
+  "name": "Final City Transit",
+  "rarity": "silver"
+ },
+ "Weapon_Train_Evolve": {
+  "name": "FC Limited Express",
+  "rarity": "prismatic"
+ },
+ "Weapon_TwinShadows": {
+  "name": "YuumiBot",
+  "rarity": "silver"
+ },
+ "Weapon_TwinShadows_Evolve": {
+  "name": "YuumiBot_Final_FINAL ",
+  "rarity": "prismatic"
+ },
+ "WellBeRightBack": {
+  "name": "We'll Be Right Back",
+  "rarity": "gold"
+ },
+ "WildFire": {
+  "name": "Wild Fire",
+  "rarity": "prismatic"
+ },
+ "WillingSacrifice": {
+  "name": "Willing Sacrifice",
+  "rarity": "gold"
+ },
+ "WindBeneathBlade": {
+  "name": "Wind Beneath Blade",
+  "rarity": "silver"
+ },
+ "WindspeakersBlessing": {
+  "name": "Windspeaker's Blessing",
+  "rarity": "prismatic"
+ },
+ "WisdomofAges": {
+  "name": "Wisdom of Ages",
+  "rarity": "prismatic"
+ },
+ "WitchfulThinking": {
+  "name": "Witchful Thinking",
+  "rarity": "silver"
+ },
+ "WithHaste": {
+  "name": "With Haste",
+  "rarity": "gold"
+ },
+ "YouSpinMeRightRound": {
+  "name": "Spin Me Right Round",
+  "rarity": "silver"
+ },
+ "ZhonyasEpiphany": {
+  "name": "Zhonya's Epiphany",
+  "rarity": "prismatic"
+ },
+ "escAPADe": {
+  "name": "escAPADe",
+  "rarity": "silver"
+ }
+}

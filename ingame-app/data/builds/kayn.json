@@ -1,0 +1,43 @@
+{
+ "champion": "Kayn",
+ "source": "https://u.gg/lol/champions/aram/kayn-aram",
+ "summoners": [
+  "Flash",
+  "Mark"
+ ],
+ "starting": [
+  "Long Sword",
+  "Caulfield's Warhammer"
+ ],
+ "core": [
+  "Eclipse",
+  "Mercury's Treads",
+  "Spear of Shojin"
+ ],
+ "fourth": [
+  "Death's Dance",
+  "Spirit Visage"
+ ],
+ "fifth": [
+  "Death's Dance",
+  "Spirit Visage",
+  "Sundered Sky"
+ ],
+ "sixth": [
+  "Black Cleaver",
+  "Death's Dance",
+  "The Collector"
+ ],
+ "pool": [
+  "Long Sword",
+  "Caulfield's Warhammer",
+  "Eclipse",
+  "Mercury's Treads",
+  "Spear of Shojin",
+  "Death's Dance",
+  "Spirit Visage",
+  "Sundered Sky",
+  "Black Cleaver",
+  "The Collector"
+ ]
+}

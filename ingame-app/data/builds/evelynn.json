@@ -1,0 +1,41 @@
+{
+ "champion": "Evelynn",
+ "source": "https://u.gg/lol/champions/aram/evelynn-aram",
+ "summoners": [
+  "Flash",
+  "Mark"
+ ],
+ "starting": [
+  "Boots",
+  "Hextech Alternator"
+ ],
+ "core": [
+  "Stormsurge",
+  "Sorcerer's Shoes",
+  "Lich Bane"
+ ],
+ "fourth": [
+  "Rabadon's Deathcap",
+  "Shadowflame"
+ ],
+ "fifth": [
+  "Void Staff",
+  "Shadowflame",
+  "Rabadon's Deathcap"
+ ],
+ "sixth": [
+  "Rabadon's Deathcap",
+  "Void Staff",
+  "Shadowflame"
+ ],
+ "pool": [
+  "Boots",
+  "Hextech Alternator",
+  "Stormsurge",
+  "Sorcerer's Shoes",
+  "Lich Bane",
+  "Rabadon's Deathcap",
+  "Shadowflame",
+  "Void Staff"
+ ]
+}

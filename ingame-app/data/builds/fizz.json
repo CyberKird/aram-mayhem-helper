@@ -1,0 +1,43 @@
+{
+ "champion": "Fizz",
+ "source": "https://u.gg/lol/champions/aram/fizz-aram",
+ "summoners": [
+  "Flash",
+  "Mark"
+ ],
+ "starting": [
+  "Giant's Belt",
+  "Ruby Crystal"
+ ],
+ "core": [
+  "Heartsteel",
+  "Mercury's Treads",
+  "Hollow Radiance"
+ ],
+ "fourth": [
+  "Zhonya's Hourglass",
+  "Shadowflame"
+ ],
+ "fifth": [
+  "Zhonya's Hourglass",
+  "Rabadon's Deathcap",
+  "Shadowflame"
+ ],
+ "sixth": [
+  "Void Staff",
+  "Shadowflame",
+  "Luden's Echo"
+ ],
+ "pool": [
+  "Giant's Belt",
+  "Ruby Crystal",
+  "Heartsteel",
+  "Mercury's Treads",
+  "Hollow Radiance",
+  "Zhonya's Hourglass",
+  "Shadowflame",
+  "Rabadon's Deathcap",
+  "Void Staff",
+  "Luden's Echo"
+ ]
+}

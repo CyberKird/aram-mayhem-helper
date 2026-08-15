@@ -1,0 +1,43 @@
+{
+ "champion": "Thresh",
+ "source": "https://u.gg/lol/champions/aram/thresh-aram",
+ "summoners": [
+  "Flash",
+  "Mark"
+ ],
+ "starting": [
+  "Giant's Belt",
+  "Ruby Crystal"
+ ],
+ "core": [
+  "Heartsteel",
+  "Mercury's Treads",
+  "Warmog's Armor"
+ ],
+ "fourth": [
+  "Kaenic Rookern",
+  "Winter's Approach"
+ ],
+ "fifth": [
+  "Thornmail",
+  "Winter's Approach",
+  "Randuin's Omen"
+ ],
+ "sixth": [
+  "Kaenic Rookern",
+  "Randuin's Omen",
+  "Force of Nature"
+ ],
+ "pool": [
+  "Giant's Belt",
+  "Ruby Crystal",
+  "Heartsteel",
+  "Mercury's Treads",
+  "Warmog's Armor",
+  "Kaenic Rookern",
+  "Winter's Approach",
+  "Thornmail",
+  "Randuin's Omen",
+  "Force of Nature"
+ ]
+}

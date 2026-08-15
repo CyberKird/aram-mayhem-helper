@@ -1,0 +1,43 @@
+{
+ "champion": "Jayce",
+ "source": "https://u.gg/lol/champions/aram/jayce-aram",
+ "summoners": [
+  "Flash",
+  "Mark"
+ ],
+ "starting": [
+  "Tear of the Goddess",
+  "Serrated Dirk"
+ ],
+ "core": [
+  "Hubris",
+  "Manamune",
+  "Ionian Boots of Lucidity"
+ ],
+ "fourth": [
+  "Serylda's Grudge",
+  "Eclipse"
+ ],
+ "fifth": [
+  "Serylda's Grudge",
+  "Eclipse",
+  "Edge of Night"
+ ],
+ "sixth": [
+  "Spear of Shojin",
+  "Eclipse",
+  "Serpent's Fang"
+ ],
+ "pool": [
+  "Tear of the Goddess",
+  "Serrated Dirk",
+  "Hubris",
+  "Manamune",
+  "Ionian Boots of Lucidity",
+  "Serylda's Grudge",
+  "Eclipse",
+  "Edge of Night",
+  "Spear of Shojin",
+  "Serpent's Fang"
+ ]
+}

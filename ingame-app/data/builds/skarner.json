@@ -1,0 +1,43 @@
+{
+ "champion": "Skarner",
+ "source": "https://u.gg/lol/champions/aram/skarner-aram",
+ "summoners": [
+  "Flash",
+  "Mark"
+ ],
+ "starting": [
+  "Giant's Belt",
+  "Tear of the Goddess"
+ ],
+ "core": [
+  "Winter's Approach",
+  "Mercury's Treads",
+  "Unending Despair"
+ ],
+ "fourth": [
+  "Kaenic Rookern",
+  "Warmog's Armor"
+ ],
+ "fifth": [
+  "Thornmail",
+  "Kaenic Rookern",
+  "Spirit Visage"
+ ],
+ "sixth": [
+  "Spirit Visage",
+  "Warmog's Armor",
+  "Randuin's Omen"
+ ],
+ "pool": [
+  "Giant's Belt",
+  "Tear of the Goddess",
+  "Winter's Approach",
+  "Mercury's Treads",
+  "Unending Despair",
+  "Kaenic Rookern",
+  "Warmog's Armor",
+  "Thornmail",
+  "Spirit Visage",
+  "Randuin's Omen"
+ ]
+}

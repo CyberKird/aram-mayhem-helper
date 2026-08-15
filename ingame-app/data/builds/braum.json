@@ -1,0 +1,45 @@
+{
+ "champion": "Braum",
+ "source": "https://u.gg/lol/champions/aram/braum-aram",
+ "summoners": [
+  "Flash",
+  "Mark"
+ ],
+ "starting": [
+  "Giant's Belt",
+  "Ruby Crystal",
+  "Health Potion"
+ ],
+ "core": [
+  "Heartsteel",
+  "Mercury's Treads",
+  "Warmog's Armor"
+ ],
+ "fourth": [
+  "Thornmail",
+  "Kaenic Rookern"
+ ],
+ "fifth": [
+  "Thornmail",
+  "Unending Despair",
+  "Jak'Sho, The Protean"
+ ],
+ "sixth": [
+  "Unending Despair",
+  "Thornmail",
+  "Spirit Visage"
+ ],
+ "pool": [
+  "Giant's Belt",
+  "Ruby Crystal",
+  "Health Potion",
+  "Heartsteel",
+  "Mercury's Treads",
+  "Warmog's Armor",
+  "Thornmail",
+  "Kaenic Rookern",
+  "Unending Despair",
+  "Jak'Sho, The Protean",
+  "Spirit Visage"
+ ]
+}

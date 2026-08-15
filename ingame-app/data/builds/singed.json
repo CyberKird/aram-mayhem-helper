@@ -1,0 +1,43 @@
+{
+ "champion": "Singed",
+ "source": "https://u.gg/lol/champions/aram/singed-aram",
+ "summoners": [
+  "Ghost",
+  "Mark"
+ ],
+ "starting": [
+  "Health Potion",
+  "Catalyst of Aeons"
+ ],
+ "core": [
+  "Rod of Ages",
+  "Boots of Swiftness",
+  "Rylai's Crystal Scepter"
+ ],
+ "fourth": [
+  "Liandry's Torment",
+  "Force of Nature"
+ ],
+ "fifth": [
+  "Force of Nature",
+  "Dead Man's Plate",
+  "Liandry's Torment"
+ ],
+ "sixth": [
+  "Dead Man's Plate",
+  "Warmog's Armor",
+  "Jak'Sho, The Protean"
+ ],
+ "pool": [
+  "Health Potion",
+  "Catalyst of Aeons",
+  "Rod of Ages",
+  "Boots of Swiftness",
+  "Rylai's Crystal Scepter",
+  "Liandry's Torment",
+  "Force of Nature",
+  "Dead Man's Plate",
+  "Warmog's Armor",
+  "Jak'Sho, The Protean"
+ ]
+}

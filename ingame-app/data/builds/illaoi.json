@@ -1,0 +1,44 @@
+{
+ "champion": "Illaoi",
+ "source": "https://u.gg/lol/champions/aram/illaoi-aram",
+ "summoners": [
+  "Flash",
+  "Mark"
+ ],
+ "starting": [
+  "Boots",
+  "Chain Vest",
+  "Glowing Mote"
+ ],
+ "core": [
+  "Iceborn Gauntlet",
+  "Mercury's Treads",
+  "Spirit Visage"
+ ],
+ "fourth": [
+  "Death's Dance",
+  "Sterak's Gage"
+ ],
+ "fifth": [
+  "Death's Dance",
+  "Sterak's Gage",
+  "Sundered Sky"
+ ],
+ "sixth": [
+  "Sterak's Gage",
+  "Death's Dance",
+  "Jak'Sho, The Protean"
+ ],
+ "pool": [
+  "Boots",
+  "Chain Vest",
+  "Glowing Mote",
+  "Iceborn Gauntlet",
+  "Mercury's Treads",
+  "Spirit Visage",
+  "Death's Dance",
+  "Sterak's Gage",
+  "Sundered Sky",
+  "Jak'Sho, The Protean"
+ ]
+}

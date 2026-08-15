@@ -1,0 +1,42 @@
+{
+ "champion": "Heimerdinger",
+ "source": "https://u.gg/lol/champions/aram/heimerdinger-aram",
+ "summoners": [
+  "Flash",
+  "Barrier"
+ ],
+ "starting": [
+  "Refillable Potion",
+  "Lost Chapter"
+ ],
+ "core": [
+  "Blackfire Torch",
+  "Sorcerer's Shoes",
+  "Liandry's Torment"
+ ],
+ "fourth": [
+  "Rylai's Crystal Scepter",
+  "Rabadon's Deathcap"
+ ],
+ "fifth": [
+  "Rabadon's Deathcap",
+  "Rylai's Crystal Scepter",
+  "Zhonya's Hourglass"
+ ],
+ "sixth": [
+  "Rabadon's Deathcap",
+  "Morellonomicon",
+  "Zhonya's Hourglass"
+ ],
+ "pool": [
+  "Refillable Potion",
+  "Lost Chapter",
+  "Blackfire Torch",
+  "Sorcerer's Shoes",
+  "Liandry's Torment",
+  "Rylai's Crystal Scepter",
+  "Rabadon's Deathcap",
+  "Zhonya's Hourglass",
+  "Morellonomicon"
+ ]
+}

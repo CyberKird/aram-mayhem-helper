@@ -1,0 +1,43 @@
+{
+ "champion": "Mel",
+ "source": "https://u.gg/lol/champions/aram/mel-aram",
+ "summoners": [
+  "Flash",
+  "Barrier"
+ ],
+ "starting": [
+  "Refillable Potion",
+  "Lost Chapter"
+ ],
+ "core": [
+  "Luden's Echo",
+  "Sorcerer's Shoes",
+  "Rabadon's Deathcap"
+ ],
+ "fourth": [
+  "Shadowflame",
+  "Liandry's Torment"
+ ],
+ "fifth": [
+  "Void Staff",
+  "Stormsurge",
+  "Liandry's Torment"
+ ],
+ "sixth": [
+  "Stormsurge",
+  "Banshee's Veil",
+  "Void Staff"
+ ],
+ "pool": [
+  "Refillable Potion",
+  "Lost Chapter",
+  "Luden's Echo",
+  "Sorcerer's Shoes",
+  "Rabadon's Deathcap",
+  "Shadowflame",
+  "Liandry's Torment",
+  "Void Staff",
+  "Stormsurge",
+  "Banshee's Veil"
+ ]
+}

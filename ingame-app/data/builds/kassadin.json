@@ -1,0 +1,41 @@
+{
+ "champion": "Kassadin",
+ "source": "https://u.gg/lol/champions/aram/kassadin-aram",
+ "summoners": [
+  "Flash",
+  "Mark"
+ ],
+ "starting": [
+  "Catalyst of Aeons"
+ ],
+ "core": [
+  "Rod of Ages",
+  "Archangel's Staff",
+  "Sorcerer's Shoes"
+ ],
+ "fourth": [
+  "Malignance",
+  "Lich Bane"
+ ],
+ "fifth": [
+  "Zhonya's Hourglass",
+  "Malignance",
+  "Rabadon's Deathcap"
+ ],
+ "sixth": [
+  "Void Staff",
+  "Rabadon's Deathcap",
+  "Lich Bane"
+ ],
+ "pool": [
+  "Catalyst of Aeons",
+  "Rod of Ages",
+  "Archangel's Staff",
+  "Sorcerer's Shoes",
+  "Malignance",
+  "Lich Bane",
+  "Zhonya's Hourglass",
+  "Rabadon's Deathcap",
+  "Void Staff"
+ ]
+}

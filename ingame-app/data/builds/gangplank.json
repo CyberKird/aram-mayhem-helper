@@ -1,0 +1,44 @@
+{
+ "champion": "Gangplank",
+ "source": "https://u.gg/lol/champions/aram/gangplank-aram",
+ "summoners": [
+  "Flash",
+  "Mark"
+ ],
+ "starting": [
+  "Long Sword",
+  "Refillable Potion",
+  "Sheen"
+ ],
+ "core": [
+  "Essence Reaver",
+  "The Collector",
+  "Ionian Boots of Lucidity"
+ ],
+ "fourth": [
+  "Infinity Edge",
+  "Lord Dominik's Regards"
+ ],
+ "fifth": [
+  "Immortal Shieldbow",
+  "Lord Dominik's Regards",
+  "Infinity Edge"
+ ],
+ "sixth": [
+  "Axiom Arc",
+  "Lord Dominik's Regards",
+  "Infinity Edge"
+ ],
+ "pool": [
+  "Long Sword",
+  "Refillable Potion",
+  "Sheen",
+  "Essence Reaver",
+  "The Collector",
+  "Ionian Boots of Lucidity",
+  "Infinity Edge",
+  "Lord Dominik's Regards",
+  "Immortal Shieldbow",
+  "Axiom Arc"
+ ]
+}

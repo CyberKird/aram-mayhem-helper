@@ -1,0 +1,1250 @@
+{
+ "<rarityLegendary>Death's Daughter</rarityLegendary><br><subtitleLeft><silver>500 Silver Serpents</silver></subtitleLeft>": {
+  "consumable": true
+ },
+ "<rarityLegendary>Fire at Will</rarityLegendary><br><subtitleLeft><silver>500 Silver Serpents</silver></subtitleLeft>": {
+  "consumable": true
+ },
+ "<rarityLegendary>Raise Morale</rarityLegendary><br><subtitleLeft><silver>500 Silver Serpents</silver></subtitleLeft>": {
+  "consumable": true
+ },
+ "Abyssal Mask": {
+  "hp": 350,
+  "mr": 50
+ },
+ "Abyssal Scepter": {
+  "mr": 45
+ },
+ "Adaptive Helm": {
+  "armor": 50,
+  "hp": 800,
+  "mr": 100
+ },
+ "Aegis of the Legion": {
+  "armor": 30,
+  "mr": 30
+ },
+ "Aether Wisp": {
+  "component": true
+ },
+ "Amplifying Tome": {
+  "component": true
+ },
+ "Anathema's Chains": {
+  "hp": 650
+ },
+ "Anima Echo": {
+  "consumable": true
+ },
+ "Animapocalypse": {
+  "consumable": true
+ },
+ "Anvil Voucher": {
+  "consumable": true
+ },
+ "Arcane Sweeper": {
+  "consumable": true
+ },
+ "Archangel's Staff": {
+  "component": true
+ },
+ "Armored Advance": {
+  "armor": 35,
+  "boots": true
+ },
+ "Atma's Impaler": {
+  "armor": 45
+ },
+ "Atma's Reckoning": {
+  "hp": 700
+ },
+ "Augment Level": {
+  "consumable": true
+ },
+ "Avarice Blade": {
+  "component": true
+ },
+ "B. F. Sword": {
+  "component": true
+ },
+ "Bag of Tea": {
+  "consumable": true,
+  "heal": true
+ },
+ "Bami's Cinder": {
+  "component": true
+ },
+ "Bandle Juice of Haste": {
+  "consumable": true
+ },
+ "Bandle Juice of Power": {
+  "consumable": true
+ },
+ "Bandle Juice of Vitality": {
+  "consumable": true
+ },
+ "Bandleglass Mirror": {
+  "component": true
+ },
+ "Bandlepipes": {
+  "hp": 200
+ },
+ "Banner of Command": {
+  "armor": 30,
+  "heal": true
+ },
+ "Banshee's Veil": {
+  "mr": 40
+ },
+ "Battle Cat Barrage": {
+  "consumable": true
+ },
+ "Bearfoot Chem-Dispenser": {
+  "consumable": true
+ },
+ "Berserker's Greaves": {
+  "boots": true
+ },
+ "Bilgewater Cutlass": {
+  "component": true,
+  "heal": true
+ },
+ "Black Cleaver": {
+  "hp": 350
+ },
+ "Black Hole Gauntlet": {
+  "hp": 900
+ },
+ "Blade of The Ruined King": {
+  "heal": true
+ },
+ "Blasting Wand": {
+  "component": true
+ },
+ "Blighting Jewel": {
+  "component": true
+ },
+ "Bloodletter's Curse": {
+  "hp": 350
+ },
+ "Bloodsong": {
+  "heal": true,
+  "hp": 200
+ },
+ "Bloodthirster": {
+  "heal": true
+ },
+ "Boots": {
+  "boots": true,
+  "component": true
+ },
+ "Boots of Speed": {
+  "component": true
+ },
+ "Boots of Swiftness": {
+  "boots": true
+ },
+ "Bounty of Worlds": {
+  "component": true,
+  "hp": 200
+ },
+ "Bramble Vest": {
+  "armor": 30,
+  "component": true
+ },
+ "Bravery Voucher": {
+  "consumable": true
+ },
+ "Brawler's Gloves": {
+  "component": true
+ },
+ "Bulwark of the Mountain": {
+  "heal": true,
+  "hp": 250
+ },
+ "Bunny Prime Ballista": {
+  "consumable": true
+ },
+ "Candy Corn": {
+  "consumable": true,
+  "heal": true
+ },
+ "Cappa Juice": {
+  "consumable": true
+ },
+ "Carrot Crash": {
+  "consumable": true
+ },
+ "Catalyst of Aeons": {
+  "component": true,
+  "heal": true,
+  "hp": 300
+ },
+ "Catalyst the Protector": {
+  "component": true,
+  "hp": 200
+ },
+ "Caulfield's Warhammer": {
+  "component": true
+ },
+ "Celestial Opposition": {
+  "heal": true,
+  "hp": 200
+ },
+ "Chain Vest": {
+  "armor": 40,
+  "component": true
+ },
+ "Chainlaced Crushers": {
+  "boots": true
+ },
+ "Chalice of Blessing": {
+  "hp": 200
+ },
+ "Chalice of Harmony": {
+  "component": true
+ },
+ "Chempunk Chainsword": {
+  "hp": 450
+ },
+ "Cloak of Agility": {
+  "component": true
+ },
+ "Cloak of Starry Night": {
+  "hp": 300,
+  "mr": 100
+ },
+ "Cloth Armor": {
+  "component": true
+ },
+ "Control Ward": {
+  "consumable": true
+ },
+ "Corrupting Potion": {
+  "consumable": true,
+  "heal": true
+ },
+ "Cosmic Drive": {
+  "hp": 350
+ },
+ "Crimson Lucidity": {
+  "boots": true
+ },
+ "Crown of the Shattered Queen": {
+  "hp": 250
+ },
+ "Cruelty": {
+  "armor": 30,
+  "mr": 30
+ },
+ "Crystalline Bracer": {
+  "component": true,
+  "heal": true,
+  "hp": 200
+ },
+ "Crystalline Flask": {
+  "consumable": true,
+  "heal": true
+ },
+ "Dagger": {
+  "component": true
+ },
+ "Dark Seal": {
+  "component": true
+ },
+ "Darksteel Talons": {
+  "armor": 55
+ },
+ "Dead Man's Plate": {
+  "armor": 40,
+  "hp": 300
+ },
+ "Death's Dance": {
+  "armor": 45
+ },
+ "Deep Freeze": {
+  "consumable": true
+ },
+ "Demonic Embrace": {
+  "hp": 350
+ },
+ "Diadem of Songs": {
+  "hp": 200
+ },
+ "Divine Sunderer": {
+  "hp": 300
+ },
+ "Doran's Blade": {
+  "heal": true
+ },
+ "Doran's Bow": {
+  "heal": true
+ },
+ "Doran's Shield": {
+  "heal": true
+ },
+ "Double Bun-Bun Barrage": {
+  "consumable": true
+ },
+ "Dragonheart": {
+  "heal": true
+ },
+ "Dream Maker": {
+  "heal": true,
+  "hp": 200
+ },
+ "Dusk and Dawn": {
+  "hp": 300
+ },
+ "Echoes of Helia": {
+  "hp": 300
+ },
+ "Edge of Night": {
+  "hp": 375
+ },
+ "Eggnog": {
+  "consumable": true,
+  "heal": true
+ },
+ "Eleisa's Miracle": {
+  "armor": 50,
+  "mr": 50
+ },
+ "Elixir of Agility": {
+  "consumable": true
+ },
+ "Elixir of Avarice": {
+  "consumable": true
+ },
+ "Elixir of Brilliance": {
+  "consumable": true
+ },
+ "Elixir of Force": {
+  "consumable": true
+ },
+ "Elixir of Fortitude": {
+  "consumable": true
+ },
+ "Elixir of Iron": {
+  "consumable": true
+ },
+ "Elixir of Skill": {
+  "consumable": true
+ },
+ "Elixir of Sorcery": {
+  "consumable": true
+ },
+ "Elixir of Wrath": {
+  "consumable": true,
+  "heal": true
+ },
+ "Emberknife": {
+  "heal": true
+ },
+ "Emblem of Valor": {
+  "component": true
+ },
+ "Endless Hunger": {
+  "heal": true
+ },
+ "Enhanced Lucky Dice": {
+  "consumable": true
+ },
+ "Enveloping Light": {
+  "consumable": true
+ },
+ "Evenshroud": {
+  "armor": 30,
+  "hp": 200,
+  "mr": 30
+ },
+ "Everfrost": {
+  "hp": 250
+ },
+ "Evolved Embershot": {
+  "consumable": true
+ },
+ "Executioner's Calling": {
+  "component": true
+ },
+ "Experimental Hexplate": {
+  "hp": 450
+ },
+ "Explorer's Ward": {
+  "consumable": true
+ },
+ "Explosive Embrace": {
+  "consumable": true
+ },
+ "Eye of the Herald": {
+  "consumable": true
+ },
+ "FC Limited Express": {
+  "consumable": true
+ },
+ "Faerie Charm": {
+  "component": true
+ },
+ "Farsight Alteration": {
+  "consumable": true
+ },
+ "Fated Ashes": {
+  "component": true
+ },
+ "Feral Flare": {
+  "heal": true
+ },
+ "Fiendish Codex": {
+  "component": true
+ },
+ "Fimbulwinter": {
+  "hp": 400
+ },
+ "Flesheater": {
+  "hp": 500
+ },
+ "Forbidden Idol": {
+  "component": true
+ },
+ "Force Of Entropy": {
+  "hp": 900
+ },
+ "Force of Nature": {
+  "hp": 400,
+  "mr": 50
+ },
+ "Forever Forward": {
+  "boots": true
+ },
+ "Frozen Heart": {
+  "armor": 90
+ },
+ "Frozen Mallet": {
+  "hp": 600
+ },
+ "Gangplank Placeholder": {
+  "consumable": true
+ },
+ "Gargoyle Stoneplate": {
+  "armor": 60,
+  "mr": 60
+ },
+ "Ghostcrawlers": {
+  "boots": true
+ },
+ "Giant's Belt": {
+  "component": true,
+  "hp": 350
+ },
+ "Glacial Buckler": {
+  "component": true
+ },
+ "Glacial Shroud": {
+  "armor": 45,
+  "component": true
+ },
+ "Glowing Mote": {
+  "component": true
+ },
+ "Gluttonous Greaves": {
+  "boots": true,
+  "heal": true
+ },
+ "Gold Stat Anvil Voucher": {
+  "consumable": true
+ },
+ "Golden Spatula": {
+  "heal": true,
+  "hp": 200
+ },
+ "Goredrinker": {
+  "hp": 400
+ },
+ "Grizzly Smash": {
+  "consumable": true
+ },
+ "Guardian Angel": {
+  "armor": 45
+ },
+ "Guardian's Blade": {
+  "hp": 250
+ },
+ "Guardian's Hammer": {
+  "heal": true
+ },
+ "Guardian's Horn": {
+  "heal": true
+ },
+ "Guardian's Shroud": {
+  "hp": 300
+ },
+ "Guinsoo's Rageblade": {
+  "heal": true
+ },
+ "Gunmetal Greaves": {
+  "heal": true
+ },
+ "Hailblade": {
+  "heal": true
+ },
+ "Haunting Guise": {
+  "component": true,
+  "hp": 200
+ },
+ "Health Potion": {
+  "consumable": true,
+  "heal": true
+ },
+ "Healthbar Cleanup: Reset Color": {
+  "consumable": true,
+  "heal": true
+ },
+ "Healthbar Splash: Blue": {
+  "consumable": true,
+  "heal": true
+ },
+ "Healthbar Splash: Green": {
+  "consumable": true,
+  "heal": true
+ },
+ "Healthbar Splash: Orange": {
+  "consumable": true,
+  "heal": true
+ },
+ "Healthbar Splash: Pink": {
+  "consumable": true,
+  "heal": true
+ },
+ "Healthbar Splash: Rainbow": {
+  "consumable": true,
+  "heal": true
+ },
+ "Heart of Gold": {
+  "component": true,
+  "hp": 200
+ },
+ "Hearthbound Axe": {
+  "component": true
+ },
+ "Heartsteel": {
+  "hp": 700
+ },
+ "Hemomancer's Helm": {
+  "heal": true
+ },
+ "Hex Core mk-1": {
+  "component": true
+ },
+ "Hex Core mk-2": {
+  "component": true
+ },
+ "Hexdrinker": {
+  "component": true
+ },
+ "Hextech Alternator": {
+  "component": true
+ },
+ "Hextech Gunblade": {
+  "heal": true
+ },
+ "Hextech Revolver": {
+  "component": true,
+  "heal": true
+ },
+ "Hextech Rocketbelt": {
+  "hp": 400
+ },
+ "Hollow Radiance": {
+  "hp": 450,
+  "mr": 40
+ },
+ "Hopped-Up Hex": {
+  "consumable": true
+ },
+ "Hullbreaker": {
+  "hp": 500
+ },
+ "Hunter's Machete": {
+  "component": true
+ },
+ "Iceborn Gauntlet": {
+  "armor": 45,
+  "hp": 300
+ },
+ "Immortal Path": {
+  "boots": true,
+  "heal": true
+ },
+ "Innervating Locket": {
+  "hp": 400
+ },
+ "Ionian Boots of Lucidity": {
+  "boots": true
+ },
+ "Ionic Spark": {
+  "hp": 250
+ },
+ "Ironspike Whip": {
+  "component": true
+ },
+ "Jak'Sho, The Protean": {
+  "armor": 35,
+  "hp": 350,
+  "mr": 35
+ },
+ "Jarvan I's": {
+  "boots": true
+ },
+ "Jinx's Tri-Namite": {
+  "consumable": true
+ },
+ "Juice of Haste": {
+  "consumable": true
+ },
+ "Juice of Power": {
+  "consumable": true
+ },
+ "Juice of Vitality": {
+  "consumable": true
+ },
+ "Kaenic Rookern": {
+  "heal": true,
+  "hp": 350,
+  "mr": 80
+ },
+ "Kalista's Black Spear": {
+  "consumable": true
+ },
+ "Kindlegem": {
+  "hp": 200
+ },
+ "Kinkou Jitte": {
+  "hp": 400
+ },
+ "Knight's Vow": {
+  "armor": 50,
+  "hp": 400
+ },
+ "Last Whisper": {
+  "component": true
+ },
+ "Leeching Leer": {
+  "heal": true,
+  "hp": 250
+ },
+ "Legendary Assassin Item": {
+  "consumable": true
+ },
+ "Legendary Fighter Item": {
+  "consumable": true
+ },
+ "Legendary Mage Item": {
+  "consumable": true
+ },
+ "Legendary Marksman Item": {
+  "consumable": true
+ },
+ "Legendary Support Item": {
+  "consumable": true
+ },
+ "Legendary Tank Item": {
+  "consumable": true
+ },
+ "Liandry's Anguish": {
+  "hp": 250
+ },
+ "Liandry's Torment": {
+  "hp": 300
+ },
+ "Lifeline": {
+  "component": true
+ },
+ "Lifewell Pendant": {
+  "component": true
+ },
+ "Light of the Lion": {
+  "consumable": true
+ },
+ "Lightning Braid": {
+  "armor": 30,
+  "mr": 30
+ },
+ "Lightning Rod": {
+  "armor": 30,
+  "hp": 500,
+  "mr": 30
+ },
+ "Locket of the Iron Solari": {
+  "hp": 400,
+  "mr": 35
+ },
+ "Long Sword": {
+  "component": true
+ },
+ "Lost Chapter": {
+  "component": true
+ },
+ "Lover's Ricochet": {
+  "consumable": true
+ },
+ "Lucent Singularity": {
+  "consumable": true
+ },
+ "Lucky Dice": {
+  "consumable": true
+ },
+ "Lucky Pick": {
+  "component": true
+ },
+ "Madred's Razors": {
+  "component": true
+ },
+ "Mana Manipulator": {
+  "component": true
+ },
+ "Mana Potion": {
+  "consumable": true
+ },
+ "Maw of Malmortius": {
+  "heal": true,
+  "mr": 40
+ },
+ "Mercurial Scimitar": {
+  "heal": true,
+  "mr": 40
+ },
+ "Mercury's Treads": {
+  "boots": true,
+  "mr": 30
+ },
+ "Mikael's Blessing": {
+  "hp": 400
+ },
+ "Mikael's Crucible": {
+  "heal": true,
+  "mr": 40
+ },
+ "Minion Dematerializer": {
+  "consumable": true
+ },
+ "Mobility Boots": {
+  "boots": true
+ },
+ "Moonflair Spellblade": {
+  "hp": 400
+ },
+ "Moonstone Renewer": {
+  "hp": 200
+ },
+ "Morellonomicon": {
+  "hp": 250
+ },
+ "Needlessly Large Rod": {
+  "component": true
+ },
+ "Negatron Cloak": {
+  "component": true,
+  "mr": 45
+ },
+ "Neverending Mobstomper": {
+  "consumable": true
+ },
+ "Night Harvester": {
+  "hp": 300
+ },
+ "Noonquiver": {
+  "component": true
+ },
+ "Null-Magic Mantle": {
+  "component": true
+ },
+ "Oblivion Orb": {
+  "component": true
+ },
+ "Obsidian Cleaver": {
+  "hp": 700
+ },
+ "Obsidian Edge": {
+  "heal": true
+ },
+ "Ohmwrecker": {
+  "heal": true,
+  "hp": 350
+ },
+ "Oracle Lens": {
+  "consumable": true
+ },
+ "Oracle's Elixir": {
+  "consumable": true
+ },
+ "Overlord's Bloodmail": {
+  "hp": 550
+ },
+ "OwO Blaster": {
+  "consumable": true
+ },
+ "Party Favor": {
+  "consumable": true
+ },
+ "Pauldrons of Whiterock": {
+  "heal": true,
+  "hp": 250
+ },
+ "Penetrating Bullets": {
+  "heal": true
+ },
+ "Phage": {
+  "component": true,
+  "hp": 200
+ },
+ "Philosopher's Stone": {
+  "component": true,
+  "heal": true
+ },
+ "Pickaxe": {
+  "component": true
+ },
+ "Plated Steelcaps": {
+  "boots": true
+ },
+ "Poro-Snax": {
+  "consumable": true
+ },
+ "Prismatic Item": {
+  "consumable": true
+ },
+ "Prismatic Stat Voucher": {
+  "consumable": true
+ },
+ "Protoplasm Harness": {
+  "hp": 600
+ },
+ "Prototype Hex Core": {
+  "component": true
+ },
+ "Prumbis's Electrocarver": {
+  "consumable": true
+ },
+ "Pyromancer's Cloak": {
+  "heal": true,
+  "hp": 400
+ },
+ "Quad-o-rang": {
+  "consumable": true
+ },
+ "Quicksilver Sash": {
+  "component": true,
+  "mr": 30
+ },
+ "Radiant Virtue": {
+  "armor": 30,
+  "hp": 350,
+  "mr": 30
+ },
+ "Randuin's Omen": {
+  "armor": 75,
+  "hp": 300
+ },
+ "Rapid Rabbit Raindown": {
+  "consumable": true
+ },
+ "Ravenous Hydra": {
+  "heal": true
+ },
+ "Reality Fracture": {
+  "hp": 300
+ },
+ "Rectrix": {
+  "component": true
+ },
+ "Recurve Bow": {
+  "component": true
+ },
+ "Red Trinket": {
+  "consumable": true
+ },
+ "Redemption": {
+  "hp": 400
+ },
+ "Refillable Potion": {
+  "component": true,
+  "consumable": true,
+  "heal": true
+ },
+ "Rejuvenation Bead": {
+  "component": true,
+  "heal": true
+ },
+ "Relic Shield": {
+  "heal": true
+ },
+ "Reverberation": {
+  "armor": 35,
+  "mr": 35
+ },
+ "Riftmaker": {
+  "heal": true,
+  "hp": 350
+ },
+ "Rod of Ages": {
+  "heal": true,
+  "hp": 350
+ },
+ "Ruby Crystal": {
+  "component": true
+ },
+ "Ruby Sightstone": {
+  "consumable": true,
+  "hp": 380
+ },
+ "Runeglaive": {
+  "armor": 50,
+  "hp": 600
+ },
+ "Runesteel Spaulders": {
+  "heal": true
+ },
+ "Runic Bulwark": {
+  "heal": true,
+  "hp": 300,
+  "mr": 30
+ },
+ "Rylai's Crystal Scepter": {
+  "hp": 350
+ },
+ "Sanguine Blade": {
+  "heal": true
+ },
+ "Sanguine Gift": {
+  "heal": true
+ },
+ "Sapphire Crystal": {
+  "component": true
+ },
+ "Savage Slice": {
+  "consumable": true
+ },
+ "Scarecrow Effigy": {
+  "consumable": true
+ },
+ "Scout's Slingshot": {
+  "component": true
+ },
+ "Scouting Ahead": {
+  "consumable": true
+ },
+ "Seeker's Armguard": {
+  "component": true
+ },
+ "Serrated Dirk": {
+  "component": true
+ },
+ "Shattered Armguard": {
+  "component": true
+ },
+ "Sheen": {
+  "component": true
+ },
+ "Shield of Molten Stone": {
+  "armor": 100,
+  "hp": 300
+ },
+ "Shield of the Rakkor": {
+  "armor": 30
+ },
+ "Shurelya's Reverie": {
+  "heal": true,
+  "hp": 250
+ },
+ "Shushei's Mana Jug": {
+  "mr": 40
+ },
+ "Sight Ward": {
+  "consumable": true
+ },
+ "Sightstone": {
+  "component": true,
+  "consumable": true
+ },
+ "Silvermere Dawn": {
+  "hp": 300,
+  "mr": 40
+ },
+ "Sin Eater": {
+  "armor": 45,
+  "hp": 300,
+  "mr": 45
+ },
+ "Slightly Magical Footwear": {
+  "boots": true,
+  "component": true
+ },
+ "Small Party Favor": {
+  "consumable": true
+ },
+ "Solstice Sleigh": {
+  "heal": true,
+  "hp": 200
+ },
+ "Sorcerer's Shoes": {
+  "boots": true
+ },
+ "Soul Shroud": {
+  "hp": 520
+ },
+ "Spear of Shojin": {
+  "hp": 350
+ },
+ "Spectre's Cowl": {
+  "component": true,
+  "heal": true,
+  "hp": 200,
+  "mr": 35
+ },
+ "Spellslinger's Shoes": {
+  "boots": true
+ },
+ "Spirit Stone": {
+  "component": true,
+  "heal": true
+ },
+ "Spirit Visage": {
+  "heal": true,
+  "hp": 300,
+  "mr": 40
+ },
+ "Spirit of the Ancient Golem": {
+  "heal": true,
+  "hp": 500
+ },
+ "Spirit of the Elder Lizard": {
+  "heal": true
+ },
+ "Spirit of the Spectral Wraith": {
+  "heal": true
+ },
+ "Stack of Sunfire Capes": {
+  "armor": 45,
+  "hp": 450
+ },
+ "Stark's Fervor": {
+  "heal": true,
+  "hp": 250
+ },
+ "Stat Bonus": {
+  "consumable": true,
+  "heal": true
+ },
+ "Stealth Ward": {
+  "consumable": true
+ },
+ "Steel Shoulderguards": {
+  "heal": true
+ },
+ "Steel Sigil": {
+  "armor": 30,
+  "component": true
+ },
+ "Sterak's Gage": {
+  "hp": 300
+ },
+ "Stinger": {
+  "component": true
+ },
+ "Stirring Wardstone": {
+  "consumable": true
+ },
+ "Stridebreaker": {
+  "hp": 375
+ },
+ "Structure Bounty": {
+  "heal": true
+ },
+ "Sundered Sky": {
+  "hp": 400
+ },
+ "Sunfire Aegis": {
+  "armor": 40,
+  "hp": 350
+ },
+ "Sunfire Cape": {
+  "armor": 45,
+  "hp": 450
+ },
+ "Swiftmarch": {
+  "boots": true
+ },
+ "Sword of Blossoming Dawn": {
+  "hp": 200
+ },
+ "Symbiotic Soles": {
+  "boots": true,
+  "component": true
+ },
+ "Synchronized Souls": {
+  "boots": true,
+  "component": true
+ },
+ "T.I.B.B.E.R.S (B.E.E.G Edition)": {
+  "consumable": true
+ },
+ "Talisman Of Ascension": {
+  "heal": true
+ },
+ "Targon's Buckler": {
+  "heal": true
+ },
+ "Tear of the Goddess": {
+  "component": true
+ },
+ "Tempest's Gauntlet": {
+  "consumable": true
+ },
+ "The Black Cleaver": {
+  "hp": 200
+ },
+ "The Bloodthirster": {
+  "heal": true
+ },
+ "The Brutalizer": {
+  "component": true
+ },
+ "The Golden Spatula": {
+  "armor": 30,
+  "heal": true,
+  "hp": 250,
+  "mr": 30
+ },
+ "Thornmail": {
+  "armor": 60,
+  "hp": 300
+ },
+ "Tiamat": {
+  "component": true
+ },
+ "Titanic Hydra": {
+  "heal": true,
+  "hp": 400
+ },
+ "Total Biscuit of Everlasting Will": {
+  "consumable": true
+ },
+ "Total Biscuit of Rejuvenation": {
+  "consumable": true
+ },
+ "Trailblazer": {
+  "armor": 45,
+  "hp": 300
+ },
+ "Trinity Force": {
+  "hp": 375
+ },
+ "Tunneler": {
+  "component": true,
+  "hp": 250
+ },
+ "Turbo Chemtank": {
+  "hp": 600
+ },
+ "Twin Shadows": {
+  "mr": 40
+ },
+ "Unceasing Cyclone": {
+  "consumable": true
+ },
+ "Unending Despair": {
+  "armor": 50,
+  "hp": 350
+ },
+ "Vampiric Scepter": {
+  "component": true,
+  "heal": true
+ },
+ "Vayne's Chromablades": {
+  "consumable": true
+ },
+ "Verdant Barrier": {
+  "component": true
+ },
+ "Vigilant Wardstone": {
+  "hp": 250,
+  "mr": 30
+ },
+ "Vision Ward": {
+  "consumable": true
+ },
+ "Void Immolation": {
+  "armor": 100,
+  "heal": true,
+  "hp": 1000,
+  "mr": 80
+ },
+ "Wandering Storms": {
+  "consumable": true
+ },
+ "Warden's Eye": {
+  "heal": true
+ },
+ "Warden's Mail": {
+  "armor": 40,
+  "component": true
+ },
+ "Warmog's Armor": {
+  "heal": true,
+  "hp": 1000
+ },
+ "Watchful Wardstone": {
+  "component": true,
+  "consumable": true
+ },
+ "Whispering Circlet": {
+  "hp": 200
+ },
+ "Will of the Ancients": {
+  "heal": true
+ },
+ "Winged Moonplate": {
+  "component": true,
+  "hp": 200
+ },
+ "Winter's Approach": {
+  "hp": 400
+ },
+ "Wit's End": {
+  "mr": 45
+ },
+ "Wooglet's Witchcap": {
+  "armor": 50
+ },
+ "Wriggle's Lantern": {
+  "heal": true
+ },
+ "Yellow Trinket": {
+  "consumable": true
+ },
+ "Your Cut": {
+  "consumable": true
+ },
+ "YuumiBot_Final_FINAL": {
+  "consumable": true
+ },
+ "Zaz'Zak's Realmspike": {
+  "heal": true,
+  "hp": 200
+ },
+ "Zeal": {
+  "component": true
+ },
+ "Zeke's Convergence": {
+  "hp": 300,
+  "mr": 30
+ },
+ "Zhonya's Hourglass": {
+  "armor": 50
+ },
+ "Zz'Rot Portal": {
+  "armor": 50,
+  "heal": true,
+  "mr": 50
+ }
+}

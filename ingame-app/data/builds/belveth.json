@@ -1,0 +1,41 @@
+{
+ "champion": "Bel'Veth",
+ "source": "https://u.gg/lol/champions/aram/belveth-aram",
+ "summoners": [
+  "Flash",
+  "Mark"
+ ],
+ "starting": [
+  "Refillable Potion",
+  "Hearthbound Axe"
+ ],
+ "core": [
+  "Kraken Slayer",
+  "Mercury's Treads",
+  "Blade of The Ruined King"
+ ],
+ "fourth": [
+  "Wit's End",
+  "Death's Dance"
+ ],
+ "fifth": [
+  "Death's Dance",
+  "Wit's End",
+  "Immortal Shieldbow"
+ ],
+ "sixth": [
+  "Death's Dance",
+  "Wit's End",
+  "Immortal Shieldbow"
+ ],
+ "pool": [
+  "Refillable Potion",
+  "Hearthbound Axe",
+  "Kraken Slayer",
+  "Mercury's Treads",
+  "Blade of The Ruined King",
+  "Wit's End",
+  "Death's Dance",
+  "Immortal Shieldbow"
+ ]
+}

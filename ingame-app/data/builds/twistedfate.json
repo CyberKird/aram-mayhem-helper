@@ -1,0 +1,44 @@
+{
+ "champion": "Twisted Fate",
+ "source": "https://u.gg/lol/champions/aram/twistedfate-aram",
+ "summoners": [
+  "Flash",
+  "Ghost"
+ ],
+ "starting": [
+  "Refillable Potion",
+  "Lost Chapter"
+ ],
+ "core": [
+  "Luden's Echo",
+  "Sorcerer's Shoes",
+  "Lich Bane"
+ ],
+ "fourth": [
+  "Shadowflame",
+  "Rabadon's Deathcap"
+ ],
+ "fifth": [
+  "Rabadon's Deathcap",
+  "Stormsurge",
+  "Void Staff"
+ ],
+ "sixth": [
+  "Rabadon's Deathcap",
+  "Statikk Shiv",
+  "Guinsoo's Rageblade"
+ ],
+ "pool": [
+  "Refillable Potion",
+  "Lost Chapter",
+  "Luden's Echo",
+  "Sorcerer's Shoes",
+  "Lich Bane",
+  "Shadowflame",
+  "Rabadon's Deathcap",
+  "Stormsurge",
+  "Void Staff",
+  "Statikk Shiv",
+  "Guinsoo's Rageblade"
+ ]
+}

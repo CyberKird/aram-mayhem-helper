@@ -1,0 +1,44 @@
+{
+ "champion": "Irelia",
+ "source": "https://u.gg/lol/champions/aram/irelia-aram",
+ "summoners": [
+  "Flash",
+  "Ignite"
+ ],
+ "starting": [
+  "Long Sword",
+  "Pickaxe",
+  "Refillable Potion"
+ ],
+ "core": [
+  "Blade of The Ruined King",
+  "Mercury's Treads",
+  "Death's Dance"
+ ],
+ "fourth": [
+  "Sundered Sky",
+  "Sterak's Gage"
+ ],
+ "fifth": [
+  "Wit's End",
+  "Sundered Sky",
+  "Sterak's Gage"
+ ],
+ "sixth": [
+  "Sterak's Gage",
+  "Wit's End",
+  "Spirit Visage"
+ ],
+ "pool": [
+  "Long Sword",
+  "Pickaxe",
+  "Refillable Potion",
+  "Blade of The Ruined King",
+  "Mercury's Treads",
+  "Death's Dance",
+  "Sundered Sky",
+  "Sterak's Gage",
+  "Wit's End",
+  "Spirit Visage"
+ ]
+}

@@ -1,0 +1,43 @@
+{
+ "champion": "Vi",
+ "source": "https://u.gg/lol/champions/aram/vi-aram",
+ "summoners": [
+  "Flash",
+  "Mark"
+ ],
+ "starting": [
+  "Tunneler",
+  "Glowing Mote"
+ ],
+ "core": [
+  "Sundered Sky",
+  "Mercury's Treads",
+  "Eclipse"
+ ],
+ "fourth": [
+  "Death's Dance",
+  "Maw of Malmortius"
+ ],
+ "fifth": [
+  "Black Cleaver",
+  "Maw of Malmortius",
+  "Sterak's Gage"
+ ],
+ "sixth": [
+  "Black Cleaver",
+  "Infinity Edge",
+  "Death's Dance"
+ ],
+ "pool": [
+  "Tunneler",
+  "Glowing Mote",
+  "Sundered Sky",
+  "Mercury's Treads",
+  "Eclipse",
+  "Death's Dance",
+  "Maw of Malmortius",
+  "Black Cleaver",
+  "Sterak's Gage",
+  "Infinity Edge"
+ ]
+}

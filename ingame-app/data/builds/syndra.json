@@ -1,0 +1,42 @@
+{
+ "champion": "Syndra",
+ "source": "https://u.gg/lol/champions/aram/syndra-aram",
+ "summoners": [
+  "Flash",
+  "Ghost"
+ ],
+ "starting": [
+  "Lost Chapter"
+ ],
+ "core": [
+  "Luden's Echo",
+  "Stormsurge",
+  "Sorcerer's Shoes"
+ ],
+ "fourth": [
+  "Rabadon's Deathcap",
+  "Shadowflame"
+ ],
+ "fifth": [
+  "Void Staff",
+  "Rabadon's Deathcap",
+  "Shadowflame"
+ ],
+ "sixth": [
+  "Banshee's Veil",
+  "Zhonya's Hourglass",
+  "Cryptbloom"
+ ],
+ "pool": [
+  "Lost Chapter",
+  "Luden's Echo",
+  "Stormsurge",
+  "Sorcerer's Shoes",
+  "Rabadon's Deathcap",
+  "Shadowflame",
+  "Void Staff",
+  "Banshee's Veil",
+  "Zhonya's Hourglass",
+  "Cryptbloom"
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "champion": "Cassiopeia",
+ "source": "https://u.gg/lol/champions/aram/cassiopeia-aram",
+ "summoners": [
+  "Flash",
+  "Clarity"
+ ],
+ "starting": [
+  "Catalyst of Aeons"
+ ],
+ "core": [
+  "Rod of Ages",
+  "Archangel's Staff",
+  "Rylai's Crystal Scepter"
+ ],
+ "fourth": [
+  "Liandry's Torment",
+  "Morellonomicon"
+ ],
+ "fifth": [
+  "Liandry's Torment",
+  "Rabadon's Deathcap",
+  "Morellonomicon"
+ ],
+ "sixth": [
+  "Morellonomicon",
+  "Void Staff",
+  "Bloodletter's Curse"
+ ],
+ "pool": [
+  "Catalyst of Aeons",
+  "Rod of Ages",
+  "Archangel's Staff",
+  "Rylai's Crystal Scepter",
+  "Liandry's Torment",
+  "Morellonomicon",
+  "Rabadon's Deathcap",
+  "Void Staff",
+  "Bloodletter's Curse"
+ ]
+}

@@ -1,0 +1,6 @@
+.venv/
+__pycache__/
+*.pyc
+lcu-app/_champselect.json
+ingame-app/data/_last_offer.bmp
+ingame-app/data/_now.bmp

@@ -1,0 +1,41 @@
+{
+ "champion": "Briar",
+ "source": "https://u.gg/lol/champions/aram/briar-aram",
+ "summoners": [
+  "Flash",
+  "Mark"
+ ],
+ "starting": [
+  "Long Sword",
+  "Caulfield's Warhammer"
+ ],
+ "core": [
+  "Sundered Sky",
+  "Mercury's Treads",
+  "Eclipse"
+ ],
+ "fourth": [
+  "Death's Dance",
+  "Spirit Visage"
+ ],
+ "fifth": [
+  "Blade of The Ruined King",
+  "Death's Dance",
+  "Spirit Visage"
+ ],
+ "sixth": [
+  "Spirit Visage",
+  "Death's Dance",
+  "Blade of The Ruined King"
+ ],
+ "pool": [
+  "Long Sword",
+  "Caulfield's Warhammer",
+  "Sundered Sky",
+  "Mercury's Treads",
+  "Eclipse",
+  "Death's Dance",
+  "Spirit Visage",
+  "Blade of The Ruined King"
+ ]
+}

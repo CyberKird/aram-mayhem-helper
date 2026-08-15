@@ -1,0 +1,41 @@
+{
+ "champion": "Sylas",
+ "source": "https://u.gg/lol/champions/aram/sylas-aram",
+ "summoners": [
+  "Flash",
+  "Mark"
+ ],
+ "starting": [
+  "Catalyst of Aeons"
+ ],
+ "core": [
+  "Rod of Ages",
+  "Mercury's Treads",
+  "Spirit Visage"
+ ],
+ "fourth": [
+  "Zhonya's Hourglass",
+  "Riftmaker"
+ ],
+ "fifth": [
+  "Riftmaker",
+  "Cosmic Drive",
+  "Rabadon's Deathcap"
+ ],
+ "sixth": [
+  "Cosmic Drive",
+  "Riftmaker",
+  "Hextech Rocketbelt"
+ ],
+ "pool": [
+  "Catalyst of Aeons",
+  "Rod of Ages",
+  "Mercury's Treads",
+  "Spirit Visage",
+  "Zhonya's Hourglass",
+  "Riftmaker",
+  "Cosmic Drive",
+  "Rabadon's Deathcap",
+  "Hextech Rocketbelt"
+ ]
+}

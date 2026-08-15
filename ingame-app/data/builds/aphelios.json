@@ -1,0 +1,44 @@
+{
+ "champion": "Aphelios",
+ "source": "https://u.gg/lol/champions/aram/aphelios-aram",
+ "summoners": [
+  "Flash",
+  "Ghost"
+ ],
+ "starting": [
+  "Boots",
+  "Health Potion",
+  "Serrated Dirk"
+ ],
+ "core": [
+  "The Collector",
+  "Infinity Edge",
+  "Berserker's Greaves"
+ ],
+ "fourth": [
+  "Lord Dominik's Regards",
+  "Runaan's Hurricane"
+ ],
+ "fifth": [
+  "Lord Dominik's Regards",
+  "Bloodthirster",
+  "Runaan's Hurricane"
+ ],
+ "sixth": [
+  "Bloodthirster",
+  "Lord Dominik's Regards",
+  "Blade of The Ruined King"
+ ],
+ "pool": [
+  "Boots",
+  "Health Potion",
+  "Serrated Dirk",
+  "The Collector",
+  "Infinity Edge",
+  "Berserker's Greaves",
+  "Lord Dominik's Regards",
+  "Runaan's Hurricane",
+  "Bloodthirster",
+  "Blade of The Ruined King"
+ ]
+}

@@ -1,0 +1,42 @@
+{
+ "champion": "Samira",
+ "source": "https://u.gg/lol/champions/aram/samira-aram",
+ "summoners": [
+  "Flash",
+  "Mark"
+ ],
+ "starting": [
+  "Long Sword",
+  "Serrated Dirk"
+ ],
+ "core": [
+  "The Collector",
+  "Mercury's Treads",
+  "Bloodthirster"
+ ],
+ "fourth": [
+  "Infinity Edge",
+  "Lord Dominik's Regards"
+ ],
+ "fifth": [
+  "Lord Dominik's Regards",
+  "Infinity Edge",
+  "Immortal Shieldbow"
+ ],
+ "sixth": [
+  "Lord Dominik's Regards",
+  "Death's Dance",
+  "Immortal Shieldbow"
+ ],
+ "pool": [
+  "Long Sword",
+  "Serrated Dirk",
+  "The Collector",
+  "Mercury's Treads",
+  "Bloodthirster",
+  "Infinity Edge",
+  "Lord Dominik's Regards",
+  "Immortal Shieldbow",
+  "Death's Dance"
+ ]
+}

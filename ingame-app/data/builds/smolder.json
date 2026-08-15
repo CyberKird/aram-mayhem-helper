@@ -1,0 +1,43 @@
+{
+ "champion": "Smolder",
+ "source": "https://u.gg/lol/champions/aram/smolder-aram",
+ "summoners": [
+  "Flash",
+  "Barrier"
+ ],
+ "starting": [
+  "Long Sword",
+  "Refillable Potion",
+  "Sheen"
+ ],
+ "core": [
+  "Essence Reaver",
+  "Spear of Shojin",
+  "Rapid Firecannon"
+ ],
+ "fourth": [
+  "Infinity Edge",
+  "Lord Dominik's Regards"
+ ],
+ "fifth": [
+  "Infinity Edge",
+  "Lord Dominik's Regards",
+  "Bloodthirster"
+ ],
+ "sixth": [
+  "Lord Dominik's Regards",
+  "Infinity Edge",
+  "Bloodthirster"
+ ],
+ "pool": [
+  "Long Sword",
+  "Refillable Potion",
+  "Sheen",
+  "Essence Reaver",
+  "Spear of Shojin",
+  "Rapid Firecannon",
+  "Infinity Edge",
+  "Lord Dominik's Regards",
+  "Bloodthirster"
+ ]
+}

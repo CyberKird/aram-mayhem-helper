@@ -1,0 +1,43 @@
+{
+ "champion": "Kled",
+ "source": "https://u.gg/lol/champions/aram/kled-aram",
+ "summoners": [
+  "Flash",
+  "Ignite"
+ ],
+ "starting": [
+  "Tunneler"
+ ],
+ "core": [
+  "Heartsteel",
+  "Titanic Hydra",
+  "Mercury's Treads"
+ ],
+ "fourth": [
+  "Sterak's Gage",
+  "Death's Dance"
+ ],
+ "fifth": [
+  "Overlord's Bloodmail",
+  "Blade of The Ruined King",
+  "Randuin's Omen"
+ ],
+ "sixth": [
+  "Sundered Sky",
+  "Sterak's Gage",
+  "Spirit Visage"
+ ],
+ "pool": [
+  "Tunneler",
+  "Heartsteel",
+  "Titanic Hydra",
+  "Mercury's Treads",
+  "Sterak's Gage",
+  "Death's Dance",
+  "Overlord's Bloodmail",
+  "Blade of The Ruined King",
+  "Randuin's Omen",
+  "Sundered Sky",
+  "Spirit Visage"
+ ]
+}

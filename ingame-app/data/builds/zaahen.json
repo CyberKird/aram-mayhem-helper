@@ -1,0 +1,42 @@
+{
+ "champion": "Zaahen",
+ "source": "https://u.gg/lol/champions/aram/zaahen-aram",
+ "summoners": [
+  "Flash",
+  "Mark"
+ ],
+ "starting": [
+  "Boots",
+  "Caulfield's Warhammer"
+ ],
+ "core": [
+  "Trinity Force",
+  "Mercury's Treads",
+  "Sundered Sky"
+ ],
+ "fourth": [
+  "Death's Dance",
+  "Endless Hunger"
+ ],
+ "fifth": [
+  "Death's Dance",
+  "Spirit Visage",
+  "Endless Hunger"
+ ],
+ "sixth": [
+  "Spirit Visage",
+  "Mercurial Scimitar",
+  "Death's Dance"
+ ],
+ "pool": [
+  "Boots",
+  "Caulfield's Warhammer",
+  "Trinity Force",
+  "Mercury's Treads",
+  "Sundered Sky",
+  "Death's Dance",
+  "Endless Hunger",
+  "Spirit Visage",
+  "Mercurial Scimitar"
+ ]
+}

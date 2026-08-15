@@ -1,0 +1,6 @@
+customtkinter>=5.2.0
+requests>=2.31.0
+playwright>=1.62.0
+mss>=10.0.0
+winsdk>=1.0.0b10
+pywin32>=311

@@ -1,0 +1,42 @@
+{
+ "champion": "Pantheon",
+ "source": "https://u.gg/lol/champions/aram/pantheon-aram",
+ "summoners": [
+  "Flash",
+  "Mark"
+ ],
+ "starting": [
+  "Long Sword",
+  "Caulfield's Warhammer"
+ ],
+ "core": [
+  "Eclipse",
+  "Mercury's Treads",
+  "Spear of Shojin"
+ ],
+ "fourth": [
+  "Death's Dance",
+  "Black Cleaver"
+ ],
+ "fifth": [
+  "Death's Dance",
+  "Black Cleaver",
+  "Maw of Malmortius"
+ ],
+ "sixth": [
+  "Black Cleaver",
+  "Death's Dance",
+  "Sterak's Gage"
+ ],
+ "pool": [
+  "Long Sword",
+  "Caulfield's Warhammer",
+  "Eclipse",
+  "Mercury's Treads",
+  "Spear of Shojin",
+  "Death's Dance",
+  "Black Cleaver",
+  "Maw of Malmortius",
+  "Sterak's Gage"
+ ]
+}

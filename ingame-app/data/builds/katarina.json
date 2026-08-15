@@ -1,0 +1,43 @@
+{
+ "champion": "Katarina",
+ "source": "https://u.gg/lol/champions/aram/katarina-aram",
+ "summoners": [
+  "Flash",
+  "Ignite"
+ ],
+ "starting": [
+  "Refillable Potion",
+  "Hearthbound Axe"
+ ],
+ "core": [
+  "Kraken Slayer",
+  "Mercury's Treads",
+  "Blade of The Ruined King"
+ ],
+ "fourth": [
+  "Terminus",
+  "Zhonya's Hourglass"
+ ],
+ "fifth": [
+  "Terminus",
+  "Death's Dance",
+  "Titanic Hydra"
+ ],
+ "sixth": [
+  "Zhonya's Hourglass",
+  "Death's Dance",
+  "Wit's End"
+ ],
+ "pool": [
+  "Refillable Potion",
+  "Hearthbound Axe",
+  "Kraken Slayer",
+  "Mercury's Treads",
+  "Blade of The Ruined King",
+  "Terminus",
+  "Zhonya's Hourglass",
+  "Death's Dance",
+  "Titanic Hydra",
+  "Wit's End"
+ ]
+}

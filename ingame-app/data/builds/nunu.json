@@ -1,0 +1,43 @@
+{
+ "champion": "Nunu & Willump",
+ "source": "https://u.gg/lol/champions/aram/nunu-aram",
+ "summoners": [
+  "Flash",
+  "Heal"
+ ],
+ "starting": [
+  "Refillable Potion",
+  "Lost Chapter"
+ ],
+ "core": [
+  "Luden's Echo",
+  "Stormsurge",
+  "Sorcerer's Shoes"
+ ],
+ "fourth": [
+  "Shadowflame",
+  "Rabadon's Deathcap"
+ ],
+ "fifth": [
+  "Rabadon's Deathcap",
+  "Banshee's Veil",
+  "Shadowflame"
+ ],
+ "sixth": [
+  "Void Staff",
+  "Rabadon's Deathcap",
+  "Spirit Visage"
+ ],
+ "pool": [
+  "Refillable Potion",
+  "Lost Chapter",
+  "Luden's Echo",
+  "Stormsurge",
+  "Sorcerer's Shoes",
+  "Shadowflame",
+  "Rabadon's Deathcap",
+  "Banshee's Veil",
+  "Void Staff",
+  "Spirit Visage"
+ ]
+}

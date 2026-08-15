@@ -1,0 +1,44 @@
+{
+ "champion": "Riven",
+ "source": "https://u.gg/lol/champions/aram/riven-aram",
+ "summoners": [
+  "Flash",
+  "Mark"
+ ],
+ "starting": [
+  "Boots",
+  "Health Potion",
+  "Caulfield's Warhammer"
+ ],
+ "core": [
+  "Sundered Sky",
+  "Plated Steelcaps",
+  "Death's Dance"
+ ],
+ "fourth": [
+  "Spear of Shojin",
+  "Black Cleaver"
+ ],
+ "fifth": [
+  "Spear of Shojin",
+  "Black Cleaver",
+  "Maw of Malmortius"
+ ],
+ "sixth": [
+  "Maw of Malmortius",
+  "Endless Hunger",
+  "Black Cleaver"
+ ],
+ "pool": [
+  "Boots",
+  "Health Potion",
+  "Caulfield's Warhammer",
+  "Sundered Sky",
+  "Plated Steelcaps",
+  "Death's Dance",
+  "Spear of Shojin",
+  "Black Cleaver",
+  "Maw of Malmortius",
+  "Endless Hunger"
+ ]
+}

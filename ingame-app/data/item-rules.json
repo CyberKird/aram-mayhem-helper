@@ -1,0 +1,93 @@
+{
+ "_note": "Euristici, nu date de matchup. Riot blocheaza datele reale de Mayhem, iar u.gg nu publica build-uri conditionate de compozitie. Regulile de aici doar evidentiaza itemi care exista deja in pool-ul campionului pe u.gg; nu inventeaza nimic.",
+
+ "_note2": "Regulile itemStat se uita la ce au CUMPARAT inamicii (Live Client Data le expune), nu la ce ar putea cumpara. Sunt primele in lista pentru ca motorul ia primul motiv gasit per item, iar dovada bate presupunerea.",
+
+ "rules": [
+  {
+   "id": "enemy_heals_nobody_counters",
+   "condition": { "itemStat": "heal", "countGte": 2,
+                  "allyLacksCategory": "grievous_wounds" },
+   "suggestCategory": "grievous_wounds",
+   "reason": "inamicii se vindeca, nimeni la noi n-are anti-heal"
+  },
+  {
+   "id": "enemy_bought_armor",
+   "condition": { "itemStat": "armor", "countGte": 2 },
+   "suggestCategory": "armor_pen",
+   "reason": "inamicii au cumparat armura"
+  },
+  {
+   "id": "enemy_bought_mr",
+   "condition": { "itemStat": "mr", "countGte": 2 },
+   "suggestCategory": "magic_pen",
+   "reason": "inamicii au cumparat MR"
+  },
+  {
+   "id": "enemy_bought_health",
+   "condition": { "itemStat": "hp", "countGte": 3 },
+   "suggestCategory": "antitank",
+   "reason": "inamicii stivuiesc viata"
+  },
+  {
+   "id": "enemy_bought_healing",
+   "condition": { "itemStat": "heal", "countGte": 2 },
+   "suggestCategory": "grievous_wounds",
+   "reason": "inamicii au vindecare"
+  },
+  {
+   "id": "enemy_ap_heavy",
+   "condition": { "team": "enemies", "damageType": "AP", "countGte": 3 },
+   "suggestCategory": "magic_resist",
+   "reason": "3+ inamici AP"
+  },
+  {
+   "id": "enemy_ad_heavy",
+   "condition": { "team": "enemies", "damageType": "AD", "countGte": 3 },
+   "suggestCategory": "armor",
+   "reason": "3+ inamici AD"
+  },
+  {
+   "id": "enemy_sustain",
+   "condition": { "team": "enemies", "tagIn": ["Support"], "countGte": 2 },
+   "suggestCategory": "grievous_wounds",
+   "reason": "inamici cu multa vindecare"
+  },
+  {
+   "id": "enemy_tank_heavy",
+   "condition": { "team": "enemies", "tagIn": ["Tank"], "countGte": 2 },
+   "suggestCategory": "antitank",
+   "reason": "2+ tancuri inamice"
+  },
+  {
+   "id": "enemy_cc_heavy",
+   "condition": { "team": "enemies", "tagIn": ["Tank", "Fighter"], "countGte": 3 },
+   "suggestCategory": "tenacity",
+   "reason": "compozitie inamica cu mult CC"
+  }
+ ],
+
+ "categories": {
+  "magic_resist": ["Force of Nature", "Spirit Visage", "Banshee's Veil",
+                   "Abyssal Mask", "Wit's End", "Maw of Malmortius",
+                   "Kaenic Rookern", "Mercury's Treads", "Hexdrinker",
+                   "Negatron Cloak", "Spectre's Cowl"],
+  "armor": ["Thornmail", "Randuin's Omen", "Frozen Heart", "Dead Man's Plate",
+            "Sunfire Aegis", "Plated Steelcaps", "Zhonya's Hourglass",
+            "Seeker's Armguard", "Iceborn Gauntlet", "Chain Vest"],
+  "grievous_wounds": ["Morellonomicon", "Executioner's Calling",
+                      "Mortal Reminder", "Chempunk Chainsword", "Thornmail",
+                      "Oblivion Orb", "Bramble Vest"],
+  "antitank": ["Blade of the Ruined King", "Liandry's Torment",
+               "Demonic Embrace", "Black Cleaver", "Lord Dominik's Regards",
+               "Serylda's Grudge", "Void Staff", "Kraken Slayer",
+               "Terminus", "Botrk", "Cryptbloom"],
+  "tenacity": ["Mercury's Treads", "Silvermere Dawn", "Sterak's Gage",
+               "Quicksilver Sash"],
+  "armor_pen": ["Lord Dominik's Regards", "Serylda's Grudge", "Mortal Reminder",
+                "Black Cleaver", "The Collector", "Serpent's Fang",
+                "Edge of Night", "Youmuu's Ghostblade", "Hubris", "Opportunity"],
+  "magic_pen": ["Void Staff", "Cryptbloom", "Shadowflame", "Sorcerer's Shoes",
+                "Malignance", "Stormsurge", "Horizon Focus", "Liandry's Torment"]
+ }
+}

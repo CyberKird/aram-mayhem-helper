@@ -1,0 +1,46 @@
+{
+ "champion": "Amumu",
+ "source": "https://u.gg/lol/champions/aram/amumu-aram",
+ "summoners": [
+  "Flash",
+  "Mark"
+ ],
+ "starting": [
+  "Health Potion",
+  "Tear of the Goddess",
+  "Bami's Cinder"
+ ],
+ "core": [
+  "Sunfire Aegis",
+  "Mercury's Treads",
+  "Winter's Approach"
+ ],
+ "fourth": [
+  "Abyssal Mask",
+  "Thornmail"
+ ],
+ "fifth": [
+  "Thornmail",
+  "Jak'Sho, The Protean",
+  "Kaenic Rookern"
+ ],
+ "sixth": [
+  "Thornmail",
+  "Warmog's Armor",
+  "Heartsteel"
+ ],
+ "pool": [
+  "Health Potion",
+  "Tear of the Goddess",
+  "Bami's Cinder",
+  "Sunfire Aegis",
+  "Mercury's Treads",
+  "Winter's Approach",
+  "Abyssal Mask",
+  "Thornmail",
+  "Jak'Sho, The Protean",
+  "Kaenic Rookern",
+  "Warmog's Armor",
+  "Heartsteel"
+ ]
+}

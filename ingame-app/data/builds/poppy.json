@@ -1,0 +1,44 @@
+{
+ "champion": "Poppy",
+ "source": "https://u.gg/lol/champions/aram/poppy-aram",
+ "summoners": [
+  "Flash",
+  "Mark"
+ ],
+ "starting": [
+  "Giant's Belt",
+  "Tear of the Goddess"
+ ],
+ "core": [
+  "Heartsteel",
+  "Plated Steelcaps",
+  "Winter's Approach"
+ ],
+ "fourth": [
+  "Unending Despair",
+  "Kaenic Rookern"
+ ],
+ "fifth": [
+  "Kaenic Rookern",
+  "Spirit Visage",
+  "Warmog's Armor"
+ ],
+ "sixth": [
+  "Warmog's Armor",
+  "Frozen Heart",
+  "Thornmail"
+ ],
+ "pool": [
+  "Giant's Belt",
+  "Tear of the Goddess",
+  "Heartsteel",
+  "Plated Steelcaps",
+  "Winter's Approach",
+  "Unending Despair",
+  "Kaenic Rookern",
+  "Spirit Visage",
+  "Warmog's Armor",
+  "Frozen Heart",
+  "Thornmail"
+ ]
+}

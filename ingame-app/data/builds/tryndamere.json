@@ -1,0 +1,42 @@
+{
+ "champion": "Tryndamere",
+ "source": "https://u.gg/lol/champions/aram/tryndamere-aram",
+ "summoners": [
+  "Flash",
+  "Mark"
+ ],
+ "starting": [
+  "Dagger",
+  "Berserker's Greaves"
+ ],
+ "core": [
+  "Heartsteel",
+  "Berserker's Greaves",
+  "Blade of The Ruined King"
+ ],
+ "fourth": [
+  "Infinity Edge",
+  "Navori Flickerblade"
+ ],
+ "fifth": [
+  "Navori Flickerblade",
+  "Lord Dominik's Regards",
+  "Bloodthirster"
+ ],
+ "sixth": [
+  "Infinity Edge",
+  "Phantom Dancer",
+  "Bloodthirster"
+ ],
+ "pool": [
+  "Dagger",
+  "Berserker's Greaves",
+  "Heartsteel",
+  "Blade of The Ruined King",
+  "Infinity Edge",
+  "Navori Flickerblade",
+  "Lord Dominik's Regards",
+  "Bloodthirster",
+  "Phantom Dancer"
+ ]
+}

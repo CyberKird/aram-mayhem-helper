@@ -1,0 +1,46 @@
+{
+ "champion": "Xin Zhao",
+ "source": "https://u.gg/lol/champions/aram/xinzhao-aram",
+ "summoners": [
+  "Flash",
+  "Mark"
+ ],
+ "starting": [
+  "Long Sword",
+  "Caulfield's Warhammer"
+ ],
+ "core": [
+  "Sundered Sky",
+  "Plated Steelcaps",
+  "Death's Dance"
+ ],
+ "fourth": [
+  "Riftmaker",
+  "Sterak's Gage"
+ ],
+ "fifth": [
+  "Blade of The Ruined King",
+  "Spirit Visage",
+  "Black Cleaver"
+ ],
+ "sixth": [
+  "Eclipse",
+  "Randuin's Omen",
+  "Thornmail"
+ ],
+ "pool": [
+  "Long Sword",
+  "Caulfield's Warhammer",
+  "Sundered Sky",
+  "Plated Steelcaps",
+  "Death's Dance",
+  "Riftmaker",
+  "Sterak's Gage",
+  "Blade of The Ruined King",
+  "Spirit Visage",
+  "Black Cleaver",
+  "Eclipse",
+  "Randuin's Omen",
+  "Thornmail"
+ ]
+}

@@ -1,0 +1,47 @@
+{
+ "champion": "Warwick",
+ "source": "https://u.gg/lol/champions/aram/warwick-aram",
+ "summoners": [
+  "Flash",
+  "Mark"
+ ],
+ "starting": [
+  "Dagger",
+  "Vampiric Scepter",
+  "Refillable Potion"
+ ],
+ "core": [
+  "Blade of The Ruined King",
+  "Mercury's Treads",
+  "Spirit Visage"
+ ],
+ "fourth": [
+  "Thornmail",
+  "Death's Dance"
+ ],
+ "fifth": [
+  "Winter's Approach",
+  "Stridebreaker",
+  "Bloodthirster"
+ ],
+ "sixth": [
+  "Thornmail",
+  "Wit's End",
+  "Heartsteel"
+ ],
+ "pool": [
+  "Dagger",
+  "Vampiric Scepter",
+  "Refillable Potion",
+  "Blade of The Ruined King",
+  "Mercury's Treads",
+  "Spirit Visage",
+  "Thornmail",
+  "Death's Dance",
+  "Winter's Approach",
+  "Stridebreaker",
+  "Bloodthirster",
+  "Wit's End",
+  "Heartsteel"
+ ]
+}

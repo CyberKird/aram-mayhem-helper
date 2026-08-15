@@ -1,0 +1,42 @@
+{
+ "champion": "Talon",
+ "source": "https://u.gg/lol/champions/aram/talon-aram",
+ "summoners": [
+  "Flash",
+  "Mark"
+ ],
+ "starting": [
+  "Long Sword",
+  "Serrated Dirk"
+ ],
+ "core": [
+  "Hubris",
+  "Axiom Arc",
+  "Serylda's Grudge"
+ ],
+ "fourth": [
+  "Eclipse",
+  "Voltaic Cyclosword"
+ ],
+ "fifth": [
+  "Edge of Night",
+  "The Collector",
+  "Voltaic Cyclosword"
+ ],
+ "sixth": [
+  "Eclipse",
+  "Edge of Night",
+  "Voltaic Cyclosword"
+ ],
+ "pool": [
+  "Long Sword",
+  "Serrated Dirk",
+  "Hubris",
+  "Axiom Arc",
+  "Serylda's Grudge",
+  "Eclipse",
+  "Voltaic Cyclosword",
+  "Edge of Night",
+  "The Collector"
+ ]
+}

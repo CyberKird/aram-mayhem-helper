@@ -1,0 +1,44 @@
+{
+ "champion": "Caitlyn",
+ "source": "https://u.gg/lol/champions/aram/caitlyn-aram",
+ "summoners": [
+  "Flash",
+  "Ghost"
+ ],
+ "starting": [
+  "Boots",
+  "Health Potion",
+  "Serrated Dirk"
+ ],
+ "core": [
+  "The Collector",
+  "Berserker's Greaves",
+  "Infinity Edge"
+ ],
+ "fourth": [
+  "Rapid Firecannon",
+  "Lord Dominik's Regards"
+ ],
+ "fifth": [
+  "Lord Dominik's Regards",
+  "Bloodthirster",
+  "Rapid Firecannon"
+ ],
+ "sixth": [
+  "Bloodthirster",
+  "Blade of The Ruined King",
+  "Lord Dominik's Regards"
+ ],
+ "pool": [
+  "Boots",
+  "Health Potion",
+  "Serrated Dirk",
+  "The Collector",
+  "Berserker's Greaves",
+  "Infinity Edge",
+  "Rapid Firecannon",
+  "Lord Dominik's Regards",
+  "Bloodthirster",
+  "Blade of The Ruined King"
+ ]
+}

@@ -1,0 +1,44 @@
+{
+ "champion": "Zed",
+ "source": "https://u.gg/lol/champions/aram/zed-aram",
+ "summoners": [
+  "Flash",
+  "Mark"
+ ],
+ "starting": [
+  "Long Sword",
+  "Health Potion",
+  "Serrated Dirk"
+ ],
+ "core": [
+  "Hubris",
+  "Axiom Arc",
+  "Ionian Boots of Lucidity"
+ ],
+ "fourth": [
+  "Serylda's Grudge",
+  "Voltaic Cyclosword"
+ ],
+ "fifth": [
+  "Serylda's Grudge",
+  "Edge of Night",
+  "Voltaic Cyclosword"
+ ],
+ "sixth": [
+  "Voltaic Cyclosword",
+  "Edge of Night",
+  "Maw of Malmortius"
+ ],
+ "pool": [
+  "Long Sword",
+  "Health Potion",
+  "Serrated Dirk",
+  "Hubris",
+  "Axiom Arc",
+  "Ionian Boots of Lucidity",
+  "Serylda's Grudge",
+  "Voltaic Cyclosword",
+  "Edge of Night",
+  "Maw of Malmortius"
+ ]
+}

@@ -1,0 +1,44 @@
+{
+ "champion": "Taric",
+ "source": "https://u.gg/lol/champions/aram/taric-aram",
+ "summoners": [
+  "Flash",
+  "Mark"
+ ],
+ "starting": [
+  "Giant's Belt",
+  "Ruby Crystal"
+ ],
+ "core": [
+  "Heartsteel",
+  "Mercury's Treads",
+  "Spirit Visage"
+ ],
+ "fourth": [
+  "Unending Despair",
+  "Winter's Approach"
+ ],
+ "fifth": [
+  "Unending Despair",
+  "Warmog's Armor",
+  "Winter's Approach"
+ ],
+ "sixth": [
+  "Frozen Heart",
+  "Jak'Sho, The Protean",
+  "Redemption"
+ ],
+ "pool": [
+  "Giant's Belt",
+  "Ruby Crystal",
+  "Heartsteel",
+  "Mercury's Treads",
+  "Spirit Visage",
+  "Unending Despair",
+  "Winter's Approach",
+  "Warmog's Armor",
+  "Frozen Heart",
+  "Jak'Sho, The Protean",
+  "Redemption"
+ ]
+}

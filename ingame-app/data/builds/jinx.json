@@ -1,0 +1,42 @@
+{
+ "champion": "Jinx",
+ "source": "https://u.gg/lol/champions/aram/jinx-aram",
+ "summoners": [
+  "Flash",
+  "Ghost"
+ ],
+ "starting": [
+  "B. F. Sword",
+  "Health Potion"
+ ],
+ "core": [
+  "Yun Tal Wildarrows",
+  "Berserker's Greaves",
+  "Infinity Edge"
+ ],
+ "fourth": [
+  "Runaan's Hurricane",
+  "Lord Dominik's Regards"
+ ],
+ "fifth": [
+  "Lord Dominik's Regards",
+  "Bloodthirster",
+  "Blade of The Ruined King"
+ ],
+ "sixth": [
+  "Bloodthirster",
+  "Lord Dominik's Regards",
+  "Blade of The Ruined King"
+ ],
+ "pool": [
+  "B. F. Sword",
+  "Health Potion",
+  "Yun Tal Wildarrows",
+  "Berserker's Greaves",
+  "Infinity Edge",
+  "Runaan's Hurricane",
+  "Lord Dominik's Regards",
+  "Bloodthirster",
+  "Blade of The Ruined King"
+ ]
+}

@@ -1,0 +1,42 @@
+{
+ "champion": "Swain",
+ "source": "https://u.gg/lol/champions/aram/swain-aram",
+ "summoners": [
+  "Flash",
+  "Mark"
+ ],
+ "starting": [
+  "Catalyst of Aeons"
+ ],
+ "core": [
+  "Rod of Ages",
+  "Mercury's Treads",
+  "Liandry's Torment"
+ ],
+ "fourth": [
+  "Spirit Visage",
+  "Rylai's Crystal Scepter"
+ ],
+ "fifth": [
+  "Unending Despair",
+  "Spirit Visage",
+  "Rylai's Crystal Scepter"
+ ],
+ "sixth": [
+  "Jak'Sho, The Protean",
+  "Riftmaker",
+  "Kaenic Rookern"
+ ],
+ "pool": [
+  "Catalyst of Aeons",
+  "Rod of Ages",
+  "Mercury's Treads",
+  "Liandry's Torment",
+  "Spirit Visage",
+  "Rylai's Crystal Scepter",
+  "Unending Despair",
+  "Jak'Sho, The Protean",
+  "Riftmaker",
+  "Kaenic Rookern"
+ ]
+}

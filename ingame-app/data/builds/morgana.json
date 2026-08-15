@@ -1,0 +1,44 @@
+{
+ "champion": "Morgana",
+ "source": "https://u.gg/lol/champions/aram/morgana-aram",
+ "summoners": [
+  "Flash",
+  "Ignite"
+ ],
+ "starting": [
+  "Refillable Potion",
+  "Lost Chapter"
+ ],
+ "core": [
+  "Blackfire Torch",
+  "Sorcerer's Shoes",
+  "Liandry's Torment"
+ ],
+ "fourth": [
+  "Rylai's Crystal Scepter",
+  "Shadowflame"
+ ],
+ "fifth": [
+  "Shadowflame",
+  "Morellonomicon",
+  "Rylai's Crystal Scepter"
+ ],
+ "sixth": [
+  "Void Staff",
+  "Zhonya's Hourglass",
+  "Kaenic Rookern"
+ ],
+ "pool": [
+  "Refillable Potion",
+  "Lost Chapter",
+  "Blackfire Torch",
+  "Sorcerer's Shoes",
+  "Liandry's Torment",
+  "Rylai's Crystal Scepter",
+  "Shadowflame",
+  "Morellonomicon",
+  "Void Staff",
+  "Zhonya's Hourglass",
+  "Kaenic Rookern"
+ ]
+}

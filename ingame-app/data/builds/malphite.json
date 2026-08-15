@@ -1,0 +1,47 @@
+{
+ "champion": "Malphite",
+ "source": "https://u.gg/lol/champions/aram/malphite-aram",
+ "summoners": [
+  "Flash",
+  "Mark"
+ ],
+ "starting": [
+  "Giant's Belt",
+  "Ruby Crystal",
+  "Health Potion"
+ ],
+ "core": [
+  "Heartsteel",
+  "Mercury's Treads",
+  "Unending Despair"
+ ],
+ "fourth": [
+  "Shadowflame",
+  "Rabadon's Deathcap"
+ ],
+ "fifth": [
+  "Rabadon's Deathcap",
+  "Warmog's Armor",
+  "Thornmail"
+ ],
+ "sixth": [
+  "Jak'Sho, The Protean",
+  "Force of Nature",
+  "Banshee's Veil"
+ ],
+ "pool": [
+  "Giant's Belt",
+  "Ruby Crystal",
+  "Health Potion",
+  "Heartsteel",
+  "Mercury's Treads",
+  "Unending Despair",
+  "Shadowflame",
+  "Rabadon's Deathcap",
+  "Warmog's Armor",
+  "Thornmail",
+  "Jak'Sho, The Protean",
+  "Force of Nature",
+  "Banshee's Veil"
+ ]
+}

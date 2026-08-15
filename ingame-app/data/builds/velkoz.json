@@ -1,0 +1,46 @@
+{
+ "champion": "Vel'Koz",
+ "source": "https://u.gg/lol/champions/aram/velkoz-aram",
+ "summoners": [
+  "Flash",
+  "Mark"
+ ],
+ "starting": [
+  "Refillable Potion",
+  "Lost Chapter"
+ ],
+ "core": [
+  "Blackfire Torch",
+  "Sorcerer's Shoes",
+  "Liandry's Torment"
+ ],
+ "fourth": [
+  "Stormsurge",
+  "Shadowflame"
+ ],
+ "fifth": [
+  "Rabadon's Deathcap",
+  "Horizon Focus",
+  "Zhonya's Hourglass"
+ ],
+ "sixth": [
+  "Malignance",
+  "Cosmic Drive",
+  "Luden's Echo"
+ ],
+ "pool": [
+  "Refillable Potion",
+  "Lost Chapter",
+  "Blackfire Torch",
+  "Sorcerer's Shoes",
+  "Liandry's Torment",
+  "Stormsurge",
+  "Shadowflame",
+  "Rabadon's Deathcap",
+  "Horizon Focus",
+  "Zhonya's Hourglass",
+  "Malignance",
+  "Cosmic Drive",
+  "Luden's Echo"
+ ]
+}

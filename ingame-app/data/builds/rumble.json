@@ -1,0 +1,43 @@
+{
+ "champion": "Rumble",
+ "source": "https://u.gg/lol/champions/aram/rumble-aram",
+ "summoners": [
+  "Flash",
+  "Barrier"
+ ],
+ "starting": [
+  "Health Potion",
+  "Haunting Guise"
+ ],
+ "core": [
+  "Liandry's Torment",
+  "Sorcerer's Shoes",
+  "Shadowflame"
+ ],
+ "fourth": [
+  "Bloodletter's Curse",
+  "Rabadon's Deathcap"
+ ],
+ "fifth": [
+  "Rabadon's Deathcap",
+  "Rylai's Crystal Scepter",
+  "Zhonya's Hourglass"
+ ],
+ "sixth": [
+  "Rabadon's Deathcap",
+  "Zhonya's Hourglass",
+  "Void Staff"
+ ],
+ "pool": [
+  "Health Potion",
+  "Haunting Guise",
+  "Liandry's Torment",
+  "Sorcerer's Shoes",
+  "Shadowflame",
+  "Bloodletter's Curse",
+  "Rabadon's Deathcap",
+  "Rylai's Crystal Scepter",
+  "Zhonya's Hourglass",
+  "Void Staff"
+ ]
+}

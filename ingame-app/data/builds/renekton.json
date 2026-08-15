@@ -1,0 +1,42 @@
+{
+ "champion": "Renekton",
+ "source": "https://u.gg/lol/champions/aram/renekton-aram",
+ "summoners": [
+  "Flash",
+  "Mark"
+ ],
+ "starting": [
+  "Long Sword",
+  "Caulfield's Warhammer"
+ ],
+ "core": [
+  "Sundered Sky",
+  "Mercury's Treads",
+  "Eclipse"
+ ],
+ "fourth": [
+  "Death's Dance",
+  "Spirit Visage"
+ ],
+ "fifth": [
+  "Spirit Visage",
+  "Sterak's Gage",
+  "Death's Dance"
+ ],
+ "sixth": [
+  "Spear of Shojin",
+  "Sterak's Gage",
+  "Spirit Visage"
+ ],
+ "pool": [
+  "Long Sword",
+  "Caulfield's Warhammer",
+  "Sundered Sky",
+  "Mercury's Treads",
+  "Eclipse",
+  "Death's Dance",
+  "Spirit Visage",
+  "Sterak's Gage",
+  "Spear of Shojin"
+ ]
+}

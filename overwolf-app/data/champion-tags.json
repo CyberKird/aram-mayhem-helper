@@ -1,0 +1,1172 @@
+{
+ "Aatrox": {
+  "damageType": "AD",
+  "tags": [
+   "Fighter"
+  ]
+ },
+ "Ahri": {
+  "damageType": "AP",
+  "tags": [
+   "Mage",
+   "Assassin"
+  ]
+ },
+ "Akali": {
+  "damageType": "AP",
+  "tags": [
+   "Assassin"
+  ]
+ },
+ "Akshan": {
+  "damageType": "mixed",
+  "tags": [
+   "Marksman",
+   "Assassin"
+  ]
+ },
+ "Alistar": {
+  "damageType": "mixed",
+  "tags": [
+   "Tank",
+   "Support"
+  ]
+ },
+ "Ambessa": {
+  "damageType": "AD",
+  "tags": [
+   "Fighter",
+   "Assassin"
+  ]
+ },
+ "Amumu": {
+  "damageType": "AP",
+  "tags": [
+   "Tank",
+   "Support"
+  ]
+ },
+ "Anivia": {
+  "damageType": "AP",
+  "tags": [
+   "Mage",
+   "Support"
+  ]
+ },
+ "Annie": {
+  "damageType": "AP",
+  "tags": [
+   "Mage",
+   "Support"
+  ]
+ },
+ "Aphelios": {
+  "damageType": "AD",
+  "tags": [
+   "Marksman"
+  ]
+ },
+ "Ashe": {
+  "damageType": "AD",
+  "tags": [
+   "Marksman",
+   "Support"
+  ]
+ },
+ "Aurelion Sol": {
+  "damageType": "AP",
+  "tags": [
+   "Mage"
+  ]
+ },
+ "Aurora": {
+  "damageType": "AP",
+  "tags": [
+   "Mage",
+   "Assassin"
+  ]
+ },
+ "Azir": {
+  "damageType": "mixed",
+  "tags": [
+   "Mage",
+   "Marksman"
+  ]
+ },
+ "Bard": {
+  "damageType": "mixed",
+  "tags": [
+   "Support",
+   "Mage"
+  ]
+ },
+ "Bel'Veth": {
+  "damageType": "AP",
+  "tags": [
+   "Fighter"
+  ]
+ },
+ "Blitzcrank": {
+  "damageType": "mixed",
+  "tags": [
+   "Tank",
+   "Support"
+  ]
+ },
+ "Brand": {
+  "damageType": "AP",
+  "tags": [
+   "Mage",
+   "Support"
+  ]
+ },
+ "Braum": {
+  "damageType": "mixed",
+  "tags": [
+   "Tank",
+   "Support"
+  ]
+ },
+ "Briar": {
+  "damageType": "AD",
+  "tags": [
+   "Fighter",
+   "Assassin"
+  ]
+ },
+ "Caitlyn": {
+  "damageType": "AD",
+  "tags": [
+   "Marksman"
+  ]
+ },
+ "Camille": {
+  "damageType": "AD",
+  "tags": [
+   "Fighter",
+   "Assassin"
+  ]
+ },
+ "Cassiopeia": {
+  "damageType": "AP",
+  "tags": [
+   "Mage"
+  ]
+ },
+ "Cho'Gath": {
+  "damageType": "AP",
+  "tags": [
+   "Tank",
+   "Mage"
+  ]
+ },
+ "Corki": {
+  "damageType": "mixed",
+  "tags": [
+   "Marksman",
+   "Mage"
+  ]
+ },
+ "Darius": {
+  "damageType": "AD",
+  "tags": [
+   "Fighter",
+   "Tank"
+  ]
+ },
+ "Diana": {
+  "damageType": "mixed",
+  "tags": [
+   "Fighter",
+   "Assassin"
+  ]
+ },
+ "Dr. Mundo": {
+  "damageType": "mixed",
+  "tags": [
+   "Tank",
+   "Fighter"
+  ]
+ },
+ "Draven": {
+  "damageType": "AD",
+  "tags": [
+   "Marksman"
+  ]
+ },
+ "Ekko": {
+  "damageType": "mixed",
+  "tags": [
+   "Assassin",
+   "Mage"
+  ]
+ },
+ "Elise": {
+  "damageType": "mixed",
+  "tags": [
+   "Assassin",
+   "Mage"
+  ]
+ },
+ "Evelynn": {
+  "damageType": "AP",
+  "tags": [
+   "Assassin",
+   "Mage"
+  ]
+ },
+ "Ezreal": {
+  "damageType": "mixed",
+  "tags": [
+   "Marksman",
+   "Mage"
+  ]
+ },
+ "Fiddlesticks": {
+  "damageType": "AP",
+  "tags": [
+   "Mage",
+   "Support"
+  ]
+ },
+ "Fiora": {
+  "damageType": "AD",
+  "tags": [
+   "Fighter",
+   "Assassin"
+  ]
+ },
+ "Fizz": {
+  "damageType": "mixed",
+  "tags": [
+   "Assassin",
+   "Fighter"
+  ]
+ },
+ "Galio": {
+  "damageType": "AP",
+  "tags": [
+   "Tank",
+   "Mage"
+  ]
+ },
+ "Gangplank": {
+  "damageType": "AD",
+  "tags": [
+   "Fighter"
+  ]
+ },
+ "Garen": {
+  "damageType": "AD",
+  "tags": [
+   "Fighter",
+   "Tank"
+  ]
+ },
+ "Gnar": {
+  "damageType": "mixed",
+  "tags": [
+   "Fighter",
+   "Tank"
+  ]
+ },
+ "Gragas": {
+  "damageType": "mixed",
+  "tags": [
+   "Fighter",
+   "Mage"
+  ]
+ },
+ "Graves": {
+  "damageType": "AD",
+  "tags": [
+   "Marksman"
+  ]
+ },
+ "Gwen": {
+  "damageType": "mixed",
+  "tags": [
+   "Fighter"
+  ]
+ },
+ "Hecarim": {
+  "damageType": "AD",
+  "tags": [
+   "Fighter",
+   "Tank"
+  ]
+ },
+ "Heimerdinger": {
+  "damageType": "AP",
+  "tags": [
+   "Mage",
+   "Support"
+  ]
+ },
+ "Hwei": {
+  "damageType": "mixed",
+  "tags": [
+   "Mage",
+   "Support"
+  ]
+ },
+ "Illaoi": {
+  "damageType": "AD",
+  "tags": [
+   "Fighter",
+   "Tank"
+  ]
+ },
+ "Irelia": {
+  "damageType": "mixed",
+  "tags": [
+   "Fighter",
+   "Assassin"
+  ]
+ },
+ "Ivern": {
+  "damageType": "AP",
+  "tags": [
+   "Support",
+   "Mage"
+  ]
+ },
+ "Janna": {
+  "damageType": "AP",
+  "tags": [
+   "Support",
+   "Mage"
+  ]
+ },
+ "Jarvan IV": {
+  "damageType": "AD",
+  "tags": [
+   "Fighter",
+   "Tank"
+  ]
+ },
+ "Jax": {
+  "damageType": "mixed",
+  "tags": [
+   "Fighter"
+  ]
+ },
+ "Jayce": {
+  "damageType": "AD",
+  "tags": [
+   "Fighter",
+   "Marksman"
+  ]
+ },
+ "Jhin": {
+  "damageType": "AD",
+  "tags": [
+   "Marksman",
+   "Mage"
+  ]
+ },
+ "Jinx": {
+  "damageType": "AD",
+  "tags": [
+   "Marksman"
+  ]
+ },
+ "K'Sante": {
+  "damageType": "mixed",
+  "tags": [
+   "Tank",
+   "Fighter"
+  ]
+ },
+ "Kai'Sa": {
+  "damageType": "AD",
+  "tags": [
+   "Marksman",
+   "Mage"
+  ]
+ },
+ "Kalista": {
+  "damageType": "AD",
+  "tags": [
+   "Marksman"
+  ]
+ },
+ "Karma": {
+  "damageType": "AP",
+  "tags": [
+   "Mage",
+   "Support"
+  ]
+ },
+ "Karthus": {
+  "damageType": "AP",
+  "tags": [
+   "Mage"
+  ]
+ },
+ "Kassadin": {
+  "damageType": "AP",
+  "tags": [
+   "Assassin",
+   "Mage"
+  ]
+ },
+ "Katarina": {
+  "damageType": "AP",
+  "tags": [
+   "Assassin",
+   "Mage"
+  ]
+ },
+ "Kayle": {
+  "damageType": "mixed",
+  "tags": [
+   "Mage",
+   "Marksman"
+  ]
+ },
+ "Kayn": {
+  "damageType": "AD",
+  "tags": [
+   "Fighter",
+   "Assassin"
+  ]
+ },
+ "Kennen": {
+  "damageType": "mixed",
+  "tags": [
+   "Mage"
+  ]
+ },
+ "Kha'Zix": {
+  "damageType": "AD",
+  "tags": [
+   "Assassin"
+  ]
+ },
+ "Kindred": {
+  "damageType": "AD",
+  "tags": [
+   "Marksman"
+  ]
+ },
+ "Kled": {
+  "damageType": "AD",
+  "tags": [
+   "Fighter"
+  ]
+ },
+ "Kog'Maw": {
+  "damageType": "AD",
+  "tags": [
+   "Marksman",
+   "Mage"
+  ]
+ },
+ "LeBlanc": {
+  "damageType": "AP",
+  "tags": [
+   "Assassin",
+   "Mage"
+  ]
+ },
+ "Lee Sin": {
+  "damageType": "AD",
+  "tags": [
+   "Fighter",
+   "Assassin"
+  ]
+ },
+ "Leona": {
+  "damageType": "mixed",
+  "tags": [
+   "Tank",
+   "Support"
+  ]
+ },
+ "Lillia": {
+  "damageType": "AP",
+  "tags": [
+   "Fighter",
+   "Mage"
+  ]
+ },
+ "Lissandra": {
+  "damageType": "AP",
+  "tags": [
+   "Mage"
+  ]
+ },
+ "Locke": {
+  "damageType": "AD",
+  "tags": [
+   "Assassin",
+   "Mage"
+  ]
+ },
+ "Lucian": {
+  "damageType": "AD",
+  "tags": [
+   "Marksman",
+   "Assassin"
+  ]
+ },
+ "Lulu": {
+  "damageType": "AP",
+  "tags": [
+   "Support",
+   "Mage"
+  ]
+ },
+ "Lux": {
+  "damageType": "AP",
+  "tags": [
+   "Mage",
+   "Support"
+  ]
+ },
+ "Malphite": {
+  "damageType": "mixed",
+  "tags": [
+   "Tank",
+   "Mage"
+  ]
+ },
+ "Malzahar": {
+  "damageType": "AP",
+  "tags": [
+   "Mage"
+  ]
+ },
+ "Maokai": {
+  "damageType": "AP",
+  "tags": [
+   "Tank",
+   "Support"
+  ]
+ },
+ "Master Yi": {
+  "damageType": "AD",
+  "tags": [
+   "Fighter",
+   "Assassin"
+  ]
+ },
+ "Mel": {
+  "damageType": "AP",
+  "tags": [
+   "Mage",
+   "Support"
+  ]
+ },
+ "Milio": {
+  "damageType": "AP",
+  "tags": [
+   "Support",
+   "Mage"
+  ]
+ },
+ "Miss Fortune": {
+  "damageType": "AD",
+  "tags": [
+   "Marksman",
+   "Mage"
+  ]
+ },
+ "Mordekaiser": {
+  "damageType": "AP",
+  "tags": [
+   "Fighter",
+   "Mage"
+  ]
+ },
+ "Morgana": {
+  "damageType": "AP",
+  "tags": [
+   "Support",
+   "Mage"
+  ]
+ },
+ "Naafiri": {
+  "damageType": "AD",
+  "tags": [
+   "Assassin",
+   "Fighter"
+  ]
+ },
+ "Nami": {
+  "damageType": "AP",
+  "tags": [
+   "Support",
+   "Mage"
+  ]
+ },
+ "Nasus": {
+  "damageType": "mixed",
+  "tags": [
+   "Fighter",
+   "Tank"
+  ]
+ },
+ "Nautilus": {
+  "damageType": "mixed",
+  "tags": [
+   "Tank",
+   "Support"
+  ]
+ },
+ "Neeko": {
+  "damageType": "AP",
+  "tags": [
+   "Mage",
+   "Support"
+  ]
+ },
+ "Nidalee": {
+  "damageType": "mixed",
+  "tags": [
+   "Assassin",
+   "Mage"
+  ]
+ },
+ "Nilah": {
+  "damageType": "AD",
+  "tags": [
+   "Fighter",
+   "Assassin"
+  ]
+ },
+ "Nocturne": {
+  "damageType": "AD",
+  "tags": [
+   "Fighter",
+   "Assassin"
+  ]
+ },
+ "Nunu & Willump": {
+  "damageType": "AP",
+  "tags": [
+   "Tank",
+   "Mage"
+  ]
+ },
+ "Olaf": {
+  "damageType": "AD",
+  "tags": [
+   "Fighter",
+   "Tank"
+  ]
+ },
+ "Orianna": {
+  "damageType": "AP",
+  "tags": [
+   "Mage",
+   "Support"
+  ]
+ },
+ "Ornn": {
+  "damageType": "mixed",
+  "tags": [
+   "Tank"
+  ]
+ },
+ "Pantheon": {
+  "damageType": "AD",
+  "tags": [
+   "Fighter",
+   "Assassin"
+  ]
+ },
+ "Poppy": {
+  "damageType": "AD",
+  "tags": [
+   "Tank",
+   "Fighter"
+  ]
+ },
+ "Pyke": {
+  "damageType": "AD",
+  "tags": [
+   "Support",
+   "Assassin"
+  ]
+ },
+ "Qiyana": {
+  "damageType": "AP",
+  "tags": [
+   "Assassin"
+  ]
+ },
+ "Quinn": {
+  "damageType": "AD",
+  "tags": [
+   "Marksman",
+   "Assassin"
+  ]
+ },
+ "Rakan": {
+  "damageType": "AP",
+  "tags": [
+   "Support"
+  ]
+ },
+ "Rammus": {
+  "damageType": "mixed",
+  "tags": [
+   "Tank"
+  ]
+ },
+ "Rek'Sai": {
+  "damageType": "AD",
+  "tags": [
+   "Fighter",
+   "Tank"
+  ]
+ },
+ "Rell": {
+  "damageType": "mixed",
+  "tags": [
+   "Tank",
+   "Support"
+  ]
+ },
+ "Renata Glasc": {
+  "damageType": "AP",
+  "tags": [
+   "Support",
+   "Mage"
+  ]
+ },
+ "Renekton": {
+  "damageType": "AD",
+  "tags": [
+   "Fighter",
+   "Tank"
+  ]
+ },
+ "Rengar": {
+  "damageType": "AD",
+  "tags": [
+   "Assassin",
+   "Fighter"
+  ]
+ },
+ "Riven": {
+  "damageType": "AD",
+  "tags": [
+   "Fighter",
+   "Assassin"
+  ]
+ },
+ "Rumble": {
+  "damageType": "AP",
+  "tags": [
+   "Fighter",
+   "Mage"
+  ]
+ },
+ "Ryze": {
+  "damageType": "AP",
+  "tags": [
+   "Mage"
+  ]
+ },
+ "Samira": {
+  "damageType": "AD",
+  "tags": [
+   "Marksman",
+   "Assassin"
+  ]
+ },
+ "Sejuani": {
+  "damageType": "mixed",
+  "tags": [
+   "Tank"
+  ]
+ },
+ "Senna": {
+  "damageType": "mixed",
+  "tags": [
+   "Support",
+   "Marksman"
+  ]
+ },
+ "Seraphine": {
+  "damageType": "mixed",
+  "tags": [
+   "Support",
+   "Mage"
+  ]
+ },
+ "Sett": {
+  "damageType": "AD",
+  "tags": [
+   "Fighter",
+   "Tank"
+  ]
+ },
+ "Shaco": {
+  "damageType": "mixed",
+  "tags": [
+   "Assassin"
+  ]
+ },
+ "Shen": {
+  "damageType": "mixed",
+  "tags": [
+   "Tank"
+  ]
+ },
+ "Shyvana": {
+  "damageType": "AD",
+  "tags": [
+   "Fighter",
+   "Tank"
+  ]
+ },
+ "Singed": {
+  "damageType": "AP",
+  "tags": [
+   "Tank",
+   "Mage"
+  ]
+ },
+ "Sion": {
+  "damageType": "mixed",
+  "tags": [
+   "Tank",
+   "Fighter"
+  ]
+ },
+ "Sivir": {
+  "damageType": "AD",
+  "tags": [
+   "Marksman"
+  ]
+ },
+ "Skarner": {
+  "damageType": "mixed",
+  "tags": [
+   "Tank",
+   "Fighter"
+  ]
+ },
+ "Smolder": {
+  "damageType": "AD",
+  "tags": [
+   "Marksman",
+   "Mage"
+  ]
+ },
+ "Sona": {
+  "damageType": "AP",
+  "tags": [
+   "Support",
+   "Mage"
+  ]
+ },
+ "Soraka": {
+  "damageType": "AP",
+  "tags": [
+   "Support",
+   "Mage"
+  ]
+ },
+ "Swain": {
+  "damageType": "AP",
+  "tags": [
+   "Mage",
+   "Support"
+  ]
+ },
+ "Sylas": {
+  "damageType": "AP",
+  "tags": [
+   "Mage",
+   "Assassin"
+  ]
+ },
+ "Syndra": {
+  "damageType": "AP",
+  "tags": [
+   "Mage"
+  ]
+ },
+ "Tahm Kench": {
+  "damageType": "AP",
+  "tags": [
+   "Tank",
+   "Support"
+  ]
+ },
+ "Taliyah": {
+  "damageType": "AP",
+  "tags": [
+   "Mage",
+   "Support"
+  ]
+ },
+ "Talon": {
+  "damageType": "AD",
+  "tags": [
+   "Assassin"
+  ]
+ },
+ "Taric": {
+  "damageType": "mixed",
+  "tags": [
+   "Support",
+   "Tank"
+  ]
+ },
+ "Teemo": {
+  "damageType": "mixed",
+  "tags": [
+   "Marksman",
+   "Mage"
+  ]
+ },
+ "Thresh": {
+  "damageType": "mixed",
+  "tags": [
+   "Support",
+   "Tank"
+  ]
+ },
+ "Tristana": {
+  "damageType": "AD",
+  "tags": [
+   "Marksman",
+   "Assassin"
+  ]
+ },
+ "Trundle": {
+  "damageType": "AD",
+  "tags": [
+   "Fighter",
+   "Tank"
+  ]
+ },
+ "Tryndamere": {
+  "damageType": "AD",
+  "tags": [
+   "Fighter",
+   "Assassin"
+  ]
+ },
+ "Twisted Fate": {
+  "damageType": "mixed",
+  "tags": [
+   "Mage",
+   "Marksman"
+  ]
+ },
+ "Twitch": {
+  "damageType": "AD",
+  "tags": [
+   "Marksman",
+   "Assassin"
+  ]
+ },
+ "Udyr": {
+  "damageType": "AD",
+  "tags": [
+   "Fighter",
+   "Tank"
+  ]
+ },
+ "Urgot": {
+  "damageType": "AD",
+  "tags": [
+   "Fighter",
+   "Tank"
+  ]
+ },
+ "Varus": {
+  "damageType": "AD",
+  "tags": [
+   "Marksman",
+   "Mage"
+  ]
+ },
+ "Vayne": {
+  "damageType": "AD",
+  "tags": [
+   "Marksman",
+   "Assassin"
+  ]
+ },
+ "Veigar": {
+  "damageType": "AP",
+  "tags": [
+   "Mage"
+  ]
+ },
+ "Vel'Koz": {
+  "damageType": "AP",
+  "tags": [
+   "Mage",
+   "Support"
+  ]
+ },
+ "Vex": {
+  "damageType": "mixed",
+  "tags": [
+   "Mage"
+  ]
+ },
+ "Vi": {
+  "damageType": "AD",
+  "tags": [
+   "Fighter",
+   "Assassin"
+  ]
+ },
+ "Viego": {
+  "damageType": "AD",
+  "tags": [
+   "Fighter",
+   "Assassin"
+  ]
+ },
+ "Viktor": {
+  "damageType": "AP",
+  "tags": [
+   "Mage"
+  ]
+ },
+ "Vladimir": {
+  "damageType": "AP",
+  "tags": [
+   "Mage",
+   "Fighter"
+  ]
+ },
+ "Volibear": {
+  "damageType": "AD",
+  "tags": [
+   "Fighter",
+   "Tank"
+  ]
+ },
+ "Warwick": {
+  "damageType": "AD",
+  "tags": [
+   "Fighter",
+   "Tank"
+  ]
+ },
+ "Wukong": {
+  "damageType": "AD",
+  "tags": [
+   "Fighter",
+   "Tank"
+  ]
+ },
+ "Xayah": {
+  "damageType": "AD",
+  "tags": [
+   "Marksman"
+  ]
+ },
+ "Xerath": {
+  "damageType": "AP",
+  "tags": [
+   "Mage",
+   "Support"
+  ]
+ },
+ "Xin Zhao": {
+  "damageType": "AD",
+  "tags": [
+   "Fighter",
+   "Tank"
+  ]
+ },
+ "Yasuo": {
+  "damageType": "AD",
+  "tags": [
+   "Fighter",
+   "Assassin"
+  ]
+ },
+ "Yone": {
+  "damageType": "AD",
+  "tags": [
+   "Fighter",
+   "Assassin"
+  ]
+ },
+ "Yorick": {
+  "damageType": "mixed",
+  "tags": [
+   "Fighter",
+   "Tank"
+  ]
+ },
+ "Yunara": {
+  "damageType": "AD",
+  "tags": [
+   "Marksman"
+  ]
+ },
+ "Yuumi": {
+  "damageType": "AP",
+  "tags": [
+   "Support",
+   "Mage"
+  ]
+ },
+ "Zaahen": {
+  "damageType": "AD",
+  "tags": [
+   "Fighter",
+   "Assassin"
+  ]
+ },
+ "Zac": {
+  "damageType": "AP",
+  "tags": [
+   "Tank",
+   "Fighter"
+  ]
+ },
+ "Zed": {
+  "damageType": "AD",
+  "tags": [
+   "Assassin"
+  ]
+ },
+ "Zeri": {
+  "damageType": "AD",
+  "tags": [
+   "Marksman"
+  ]
+ },
+ "Ziggs": {
+  "damageType": "AP",
+  "tags": [
+   "Mage"
+  ]
+ },
+ "Zilean": {
+  "damageType": "AP",
+  "tags": [
+   "Support",
+   "Mage"
+  ]
+ },
+ "Zoe": {
+  "damageType": "AP",
+  "tags": [
+   "Mage"
+  ]
+ },
+ "Zyra": {
+  "damageType": "AP",
+  "tags": [
+   "Mage",
+   "Support"
+  ]
+ }
+}

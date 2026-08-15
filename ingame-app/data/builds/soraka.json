@@ -1,0 +1,43 @@
+{
+ "champion": "Soraka",
+ "source": "https://u.gg/lol/champions/aram/soraka-aram",
+ "summoners": [
+  "Flash",
+  "Heal"
+ ],
+ "starting": [
+  "Health Potion",
+  "Catalyst of Aeons"
+ ],
+ "core": [
+  "Rod of Ages",
+  "Moonstone Renewer",
+  "Ionian Boots of Lucidity"
+ ],
+ "fourth": [
+  "Warmog's Armor",
+  "Whispering Circlet"
+ ],
+ "fifth": [
+  "Warmog's Armor",
+  "Whispering Circlet",
+  "Ardent Censer"
+ ],
+ "sixth": [
+  "Ardent Censer",
+  "Staff of Flowing Water",
+  "Mikael's Blessing"
+ ],
+ "pool": [
+  "Health Potion",
+  "Catalyst of Aeons",
+  "Rod of Ages",
+  "Moonstone Renewer",
+  "Ionian Boots of Lucidity",
+  "Warmog's Armor",
+  "Whispering Circlet",
+  "Ardent Censer",
+  "Staff of Flowing Water",
+  "Mikael's Blessing"
+ ]
+}

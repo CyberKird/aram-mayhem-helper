@@ -1,0 +1,41 @@
+{
+ "champion": "Draven",
+ "source": "https://u.gg/lol/champions/aram/draven-aram",
+ "summoners": [
+  "Flash",
+  "Mark"
+ ],
+ "starting": [
+  "Boots",
+  "Serrated Dirk"
+ ],
+ "core": [
+  "The Collector",
+  "Infinity Edge",
+  "Berserker's Greaves"
+ ],
+ "fourth": [
+  "Lord Dominik's Regards",
+  "Bloodthirster"
+ ],
+ "fifth": [
+  "Rapid Firecannon",
+  "Lord Dominik's Regards",
+  "Bloodthirster"
+ ],
+ "sixth": [
+  "Lord Dominik's Regards",
+  "Bloodthirster",
+  "Rapid Firecannon"
+ ],
+ "pool": [
+  "Boots",
+  "Serrated Dirk",
+  "The Collector",
+  "Infinity Edge",
+  "Berserker's Greaves",
+  "Lord Dominik's Regards",
+  "Bloodthirster",
+  "Rapid Firecannon"
+ ]
+}

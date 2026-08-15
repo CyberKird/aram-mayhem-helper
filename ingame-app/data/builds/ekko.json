@@ -1,0 +1,43 @@
+{
+ "champion": "Ekko",
+ "source": "https://u.gg/lol/champions/aram/ekko-aram",
+ "summoners": [
+  "Flash",
+  "Mark"
+ ],
+ "starting": [
+  "Refillable Potion",
+  "Lost Chapter"
+ ],
+ "core": [
+  "Luden's Echo",
+  "Sorcerer's Shoes",
+  "Dusk and Dawn"
+ ],
+ "fourth": [
+  "Shadowflame",
+  "Zhonya's Hourglass"
+ ],
+ "fifth": [
+  "Zhonya's Hourglass",
+  "Shadowflame",
+  "Rabadon's Deathcap"
+ ],
+ "sixth": [
+  "Stormsurge",
+  "Rabadon's Deathcap",
+  "Void Staff"
+ ],
+ "pool": [
+  "Refillable Potion",
+  "Lost Chapter",
+  "Luden's Echo",
+  "Sorcerer's Shoes",
+  "Dusk and Dawn",
+  "Shadowflame",
+  "Zhonya's Hourglass",
+  "Rabadon's Deathcap",
+  "Stormsurge",
+  "Void Staff"
+ ]
+}

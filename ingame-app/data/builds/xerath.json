@@ -1,0 +1,43 @@
+{
+ "champion": "Xerath",
+ "source": "https://u.gg/lol/champions/aram/xerath-aram",
+ "summoners": [
+  "Flash",
+  "Ghost"
+ ],
+ "starting": [
+  "Refillable Potion",
+  "Lost Chapter"
+ ],
+ "core": [
+  "Luden's Echo",
+  "Rabadon's Deathcap",
+  "Sorcerer's Shoes"
+ ],
+ "fourth": [
+  "Shadowflame",
+  "Stormsurge"
+ ],
+ "fifth": [
+  "Stormsurge",
+  "Shadowflame",
+  "Malignance"
+ ],
+ "sixth": [
+  "Liandry's Torment",
+  "Stormsurge",
+  "Void Staff"
+ ],
+ "pool": [
+  "Refillable Potion",
+  "Lost Chapter",
+  "Luden's Echo",
+  "Rabadon's Deathcap",
+  "Sorcerer's Shoes",
+  "Shadowflame",
+  "Stormsurge",
+  "Malignance",
+  "Liandry's Torment",
+  "Void Staff"
+ ]
+}

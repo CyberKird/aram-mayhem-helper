@@ -1,0 +1,44 @@
+{
+ "champion": "K'Sante",
+ "source": "https://u.gg/lol/champions/aram/ksante-aram",
+ "summoners": [
+  "Flash",
+  "Mark"
+ ],
+ "starting": [
+  "Ruby Crystal",
+  "Sheen"
+ ],
+ "core": [
+  "Heartsteel",
+  "Mercury's Treads",
+  "Iceborn Gauntlet"
+ ],
+ "fourth": [
+  "Jak'Sho, The Protean",
+  "Unending Despair"
+ ],
+ "fifth": [
+  "Thornmail",
+  "Kaenic Rookern",
+  "Hollow Radiance"
+ ],
+ "sixth": [
+  "Jak'Sho, The Protean",
+  "Hollow Radiance",
+  "Frozen Heart"
+ ],
+ "pool": [
+  "Ruby Crystal",
+  "Sheen",
+  "Heartsteel",
+  "Mercury's Treads",
+  "Iceborn Gauntlet",
+  "Jak'Sho, The Protean",
+  "Unending Despair",
+  "Thornmail",
+  "Kaenic Rookern",
+  "Hollow Radiance",
+  "Frozen Heart"
+ ]
+}

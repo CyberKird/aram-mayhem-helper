@@ -1,0 +1,43 @@
+{
+ "champion": "Lee Sin",
+ "source": "https://u.gg/lol/champions/aram/leesin-aram",
+ "summoners": [
+  "Flash",
+  "Mark"
+ ],
+ "starting": [
+  "Long Sword",
+  "Caulfield's Warhammer"
+ ],
+ "core": [
+  "Eclipse",
+  "Mercury's Treads",
+  "Sundered Sky"
+ ],
+ "fourth": [
+  "Death's Dance",
+  "Black Cleaver"
+ ],
+ "fifth": [
+  "Black Cleaver",
+  "Maw of Malmortius",
+  "Spirit Visage"
+ ],
+ "sixth": [
+  "Sterak's Gage",
+  "Death's Dance",
+  "Maw of Malmortius"
+ ],
+ "pool": [
+  "Long Sword",
+  "Caulfield's Warhammer",
+  "Eclipse",
+  "Mercury's Treads",
+  "Sundered Sky",
+  "Death's Dance",
+  "Black Cleaver",
+  "Maw of Malmortius",
+  "Spirit Visage",
+  "Sterak's Gage"
+ ]
+}

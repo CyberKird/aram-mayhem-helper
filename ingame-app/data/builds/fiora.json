@@ -1,0 +1,44 @@
+{
+ "champion": "Fiora",
+ "source": "https://u.gg/lol/champions/aram/fiora-aram",
+ "summoners": [
+  "Flash",
+  "Heal"
+ ],
+ "starting": [
+  "Refillable Potion",
+  "Tiamat"
+ ],
+ "core": [
+  "Ravenous Hydra",
+  "Plated Steelcaps",
+  "Death's Dance"
+ ],
+ "fourth": [
+  "Sundered Sky",
+  "Maw of Malmortius"
+ ],
+ "fifth": [
+  "Spirit Visage",
+  "Blade of The Ruined King",
+  "Trinity Force"
+ ],
+ "sixth": [
+  "Trinity Force",
+  "Spirit Visage",
+  "Eclipse"
+ ],
+ "pool": [
+  "Refillable Potion",
+  "Tiamat",
+  "Ravenous Hydra",
+  "Plated Steelcaps",
+  "Death's Dance",
+  "Sundered Sky",
+  "Maw of Malmortius",
+  "Spirit Visage",
+  "Blade of The Ruined King",
+  "Trinity Force",
+  "Eclipse"
+ ]
+}

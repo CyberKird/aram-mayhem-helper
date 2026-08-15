@@ -1,0 +1,43 @@
+{
+ "champion": "Aatrox",
+ "source": "https://u.gg/lol/champions/aram/aatrox-aram",
+ "summoners": [
+  "Flash",
+  "Mark"
+ ],
+ "starting": [
+  "Tunneler",
+  "Glowing Mote"
+ ],
+ "core": [
+  "Sundered Sky",
+  "Mercury's Treads",
+  "Eclipse"
+ ],
+ "fourth": [
+  "Death's Dance",
+  "Spirit Visage"
+ ],
+ "fifth": [
+  "Death's Dance",
+  "Endless Hunger",
+  "Spirit Visage"
+ ],
+ "sixth": [
+  "Sterak's Gage",
+  "Maw of Malmortius",
+  "Spirit Visage"
+ ],
+ "pool": [
+  "Tunneler",
+  "Glowing Mote",
+  "Sundered Sky",
+  "Mercury's Treads",
+  "Eclipse",
+  "Death's Dance",
+  "Spirit Visage",
+  "Endless Hunger",
+  "Sterak's Gage",
+  "Maw of Malmortius"
+ ]
+}

@@ -1,0 +1,45 @@
+{
+ "champion": "Jhin",
+ "source": "https://u.gg/lol/champions/aram/jhin-aram",
+ "summoners": [
+  "Flash",
+  "Ghost"
+ ],
+ "starting": [
+  "Boots",
+  "Health Potion",
+  "Serrated Dirk"
+ ],
+ "core": [
+  "The Collector",
+  "Infinity Edge",
+  "Boots of Swiftness"
+ ],
+ "fourth": [
+  "Rapid Firecannon",
+  "Lord Dominik's Regards"
+ ],
+ "fifth": [
+  "Lord Dominik's Regards",
+  "Bloodthirster",
+  "Rapid Firecannon"
+ ],
+ "sixth": [
+  "Bloodthirster",
+  "Edge of Night",
+  "Stormrazor"
+ ],
+ "pool": [
+  "Boots",
+  "Health Potion",
+  "Serrated Dirk",
+  "The Collector",
+  "Infinity Edge",
+  "Boots of Swiftness",
+  "Rapid Firecannon",
+  "Lord Dominik's Regards",
+  "Bloodthirster",
+  "Edge of Night",
+  "Stormrazor"
+ ]
+}

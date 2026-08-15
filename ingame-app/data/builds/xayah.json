@@ -1,0 +1,43 @@
+{
+ "champion": "Xayah",
+ "source": "https://u.gg/lol/champions/aram/xayah-aram",
+ "summoners": [
+  "Flash",
+  "Ghost"
+ ],
+ "starting": [
+  "B. F. Sword",
+  "Health Potion"
+ ],
+ "core": [
+  "Yun Tal Wildarrows",
+  "Berserker's Greaves",
+  "Infinity Edge"
+ ],
+ "fourth": [
+  "Lord Dominik's Regards",
+  "Navori Flickerblade"
+ ],
+ "fifth": [
+  "Lord Dominik's Regards",
+  "Bloodthirster",
+  "Blade of The Ruined King"
+ ],
+ "sixth": [
+  "Blade of The Ruined King",
+  "Bloodthirster",
+  "Phantom Dancer"
+ ],
+ "pool": [
+  "B. F. Sword",
+  "Health Potion",
+  "Yun Tal Wildarrows",
+  "Berserker's Greaves",
+  "Infinity Edge",
+  "Lord Dominik's Regards",
+  "Navori Flickerblade",
+  "Bloodthirster",
+  "Blade of The Ruined King",
+  "Phantom Dancer"
+ ]
+}

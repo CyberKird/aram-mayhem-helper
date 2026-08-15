@@ -1,0 +1,45 @@
+{
+ "champion": "Jax",
+ "source": "https://u.gg/lol/champions/aram/jax-aram",
+ "summoners": [
+  "Flash",
+  "Mark"
+ ],
+ "starting": [
+  "Long Sword",
+  "Refillable Potion",
+  "Sheen"
+ ],
+ "core": [
+  "Trinity Force",
+  "Mercury's Treads",
+  "Sundered Sky"
+ ],
+ "fourth": [
+  "Death's Dance",
+  "Wit's End"
+ ],
+ "fifth": [
+  "Blade of The Ruined King",
+  "Wit's End",
+  "Spear of Shojin"
+ ],
+ "sixth": [
+  "Death's Dance",
+  "Spirit Visage",
+  "Wit's End"
+ ],
+ "pool": [
+  "Long Sword",
+  "Refillable Potion",
+  "Sheen",
+  "Trinity Force",
+  "Mercury's Treads",
+  "Sundered Sky",
+  "Death's Dance",
+  "Wit's End",
+  "Blade of The Ruined King",
+  "Spear of Shojin",
+  "Spirit Visage"
+ ]
+}

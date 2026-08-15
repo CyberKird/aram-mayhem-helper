@@ -1,0 +1,44 @@
+{
+ "champion": "Viktor",
+ "source": "https://u.gg/lol/champions/aram/viktor-aram",
+ "summoners": [
+  "Flash",
+  "Ghost"
+ ],
+ "starting": [
+  "Refillable Potion",
+  "Lost Chapter"
+ ],
+ "core": [
+  "Blackfire Torch",
+  "Shadowflame",
+  "Sorcerer's Shoes"
+ ],
+ "fourth": [
+  "Rabadon's Deathcap",
+  "Stormsurge"
+ ],
+ "fifth": [
+  "Rabadon's Deathcap",
+  "Void Staff",
+  "Lich Bane"
+ ],
+ "sixth": [
+  "Stormsurge",
+  "Zhonya's Hourglass",
+  "Liandry's Torment"
+ ],
+ "pool": [
+  "Refillable Potion",
+  "Lost Chapter",
+  "Blackfire Torch",
+  "Shadowflame",
+  "Sorcerer's Shoes",
+  "Rabadon's Deathcap",
+  "Stormsurge",
+  "Void Staff",
+  "Lich Bane",
+  "Zhonya's Hourglass",
+  "Liandry's Torment"
+ ]
+}

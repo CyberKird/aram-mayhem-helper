@@ -1,0 +1,43 @@
+{
+ "champion": "Yuumi",
+ "source": "https://u.gg/lol/champions/aram/yuumi-aram",
+ "summoners": [
+  "Exhaust",
+  "Heal"
+ ],
+ "starting": [
+  "Tear of the Goddess",
+  "Bandleglass Mirror"
+ ],
+ "core": [
+  "Moonstone Renewer",
+  "Whispering Circlet",
+  "Ardent Censer"
+ ],
+ "fourth": [
+  "Shadowflame",
+  "Mikael's Blessing"
+ ],
+ "fifth": [
+  "Mikael's Blessing",
+  "Redemption",
+  "Staff of Flowing Water"
+ ],
+ "sixth": [
+  "Dawncore",
+  "Mikael's Blessing",
+  "Staff of Flowing Water"
+ ],
+ "pool": [
+  "Tear of the Goddess",
+  "Bandleglass Mirror",
+  "Moonstone Renewer",
+  "Whispering Circlet",
+  "Ardent Censer",
+  "Shadowflame",
+  "Mikael's Blessing",
+  "Redemption",
+  "Staff of Flowing Water",
+  "Dawncore"
+ ]
+}

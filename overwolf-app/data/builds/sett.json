@@ -1,0 +1,13 @@
+{
+ "champion": "Sett",
+ "patch": "26.15",
+ "source": "https://u.gg/lol/champions/aram/sett-aram",
+ "starting": ["Giant's Belt", "Ruby Crystal", "Health Potion"],
+ "core": ["Heartsteel", "Mercury's Treads", "Overlord's Bloodmail"],
+ "fourth": ["Warmog's Armor", "Sterak's Gage"],
+ "fifth": ["Sterak's Gage", "Warmog's Armor", "Force of Nature"],
+ "sixth": ["Sterak's Gage", "Spirit Visage", "Force of Nature"],
+ "pool": ["Giant's Belt", "Ruby Crystal", "Health Potion", "Heartsteel",
+          "Mercury's Treads", "Overlord's Bloodmail", "Warmog's Armor",
+          "Sterak's Gage", "Force of Nature", "Spirit Visage"]
+}

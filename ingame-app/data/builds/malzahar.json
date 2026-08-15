@@ -1,0 +1,43 @@
+{
+ "champion": "Malzahar",
+ "source": "https://u.gg/lol/champions/aram/malzahar-aram",
+ "summoners": [
+  "Flash",
+  "Clarity"
+ ],
+ "starting": [
+  "Refillable Potion",
+  "Lost Chapter"
+ ],
+ "core": [
+  "Blackfire Torch",
+  "Liandry's Torment",
+  "Sorcerer's Shoes"
+ ],
+ "fourth": [
+  "Rylai's Crystal Scepter",
+  "Shadowflame"
+ ],
+ "fifth": [
+  "Shadowflame",
+  "Bloodletter's Curse",
+  "Rabadon's Deathcap"
+ ],
+ "sixth": [
+  "Rabadon's Deathcap",
+  "Shadowflame",
+  "Malignance"
+ ],
+ "pool": [
+  "Refillable Potion",
+  "Lost Chapter",
+  "Blackfire Torch",
+  "Liandry's Torment",
+  "Sorcerer's Shoes",
+  "Rylai's Crystal Scepter",
+  "Shadowflame",
+  "Bloodletter's Curse",
+  "Rabadon's Deathcap",
+  "Malignance"
+ ]
+}

@@ -1,0 +1,43 @@
+{
+ "champion": "Kai'Sa",
+ "source": "https://u.gg/lol/champions/aram/kaisa-aram",
+ "summoners": [
+  "Flash",
+  "Ghost"
+ ],
+ "starting": [
+  "Pickaxe",
+  "Dagger"
+ ],
+ "core": [
+  "Statikk Shiv",
+  "Berserker's Greaves",
+  "Kraken Slayer"
+ ],
+ "fourth": [
+  "Nashor's Tooth",
+  "Blade of The Ruined King"
+ ],
+ "fifth": [
+  "Nashor's Tooth",
+  "Blade of The Ruined King",
+  "Terminus"
+ ],
+ "sixth": [
+  "Dusk and Dawn",
+  "Terminus",
+  "Wit's End"
+ ],
+ "pool": [
+  "Pickaxe",
+  "Dagger",
+  "Statikk Shiv",
+  "Berserker's Greaves",
+  "Kraken Slayer",
+  "Nashor's Tooth",
+  "Blade of The Ruined King",
+  "Terminus",
+  "Dusk and Dawn",
+  "Wit's End"
+ ]
+}

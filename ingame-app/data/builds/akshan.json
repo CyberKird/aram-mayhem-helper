@@ -1,0 +1,43 @@
+{
+ "champion": "Akshan",
+ "source": "https://u.gg/lol/champions/aram/akshan-aram",
+ "summoners": [
+  "Flash",
+  "Ghost"
+ ],
+ "starting": [
+  "Long Sword",
+  "Pickaxe"
+ ],
+ "core": [
+  "Kraken Slayer",
+  "Berserker's Greaves",
+  "Statikk Shiv"
+ ],
+ "fourth": [
+  "Lord Dominik's Regards",
+  "Infinity Edge"
+ ],
+ "fifth": [
+  "Lord Dominik's Regards",
+  "Mortal Reminder",
+  "Infinity Edge"
+ ],
+ "sixth": [
+  "Blade of The Ruined King",
+  "Bloodthirster",
+  "Infinity Edge"
+ ],
+ "pool": [
+  "Long Sword",
+  "Pickaxe",
+  "Kraken Slayer",
+  "Berserker's Greaves",
+  "Statikk Shiv",
+  "Lord Dominik's Regards",
+  "Infinity Edge",
+  "Mortal Reminder",
+  "Blade of The Ruined King",
+  "Bloodthirster"
+ ]
+}

@@ -1,0 +1,42 @@
+{
+ "champion": "Rengar",
+ "source": "https://u.gg/lol/champions/aram/rengar-aram",
+ "summoners": [
+  "Flash",
+  "Mark"
+ ],
+ "starting": [
+  "Boots",
+  "Serrated Dirk"
+ ],
+ "core": [
+  "Hubris",
+  "Ionian Boots of Lucidity",
+  "The Collector"
+ ],
+ "fourth": [
+  "Voltaic Cyclosword",
+  "Infinity Edge"
+ ],
+ "fifth": [
+  "Infinity Edge",
+  "Voltaic Cyclosword",
+  "Lord Dominik's Regards"
+ ],
+ "sixth": [
+  "Lord Dominik's Regards",
+  "Infinity Edge",
+  "Edge of Night"
+ ],
+ "pool": [
+  "Boots",
+  "Serrated Dirk",
+  "Hubris",
+  "Ionian Boots of Lucidity",
+  "The Collector",
+  "Voltaic Cyclosword",
+  "Infinity Edge",
+  "Lord Dominik's Regards",
+  "Edge of Night"
+ ]
+}

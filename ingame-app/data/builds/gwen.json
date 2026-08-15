@@ -1,0 +1,45 @@
+{
+ "champion": "Gwen",
+ "source": "https://u.gg/lol/champions/aram/gwen-aram",
+ "summoners": [
+  "Flash",
+  "Mark"
+ ],
+ "starting": [
+  "Blasting Wand",
+  "Ruby Crystal",
+  "Refillable Potion"
+ ],
+ "core": [
+  "Dusk and Dawn",
+  "Mercury's Treads",
+  "Riftmaker"
+ ],
+ "fourth": [
+  "Spirit Visage",
+  "Shadowflame"
+ ],
+ "fifth": [
+  "Rabadon's Deathcap",
+  "Shadowflame",
+  "Spirit Visage"
+ ],
+ "sixth": [
+  "Rabadon's Deathcap",
+  "Zhonya's Hourglass",
+  "Nashor's Tooth"
+ ],
+ "pool": [
+  "Blasting Wand",
+  "Ruby Crystal",
+  "Refillable Potion",
+  "Dusk and Dawn",
+  "Mercury's Treads",
+  "Riftmaker",
+  "Spirit Visage",
+  "Shadowflame",
+  "Rabadon's Deathcap",
+  "Zhonya's Hourglass",
+  "Nashor's Tooth"
+ ]
+}

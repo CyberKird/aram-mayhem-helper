@@ -1,0 +1,43 @@
+{
+ "champion": "Taliyah",
+ "source": "https://u.gg/lol/champions/aram/taliyah-aram",
+ "summoners": [
+  "Flash",
+  "Clarity"
+ ],
+ "starting": [
+  "Refillable Potion",
+  "Lost Chapter"
+ ],
+ "core": [
+  "Blackfire Torch",
+  "Sorcerer's Shoes",
+  "Liandry's Torment"
+ ],
+ "fourth": [
+  "Stormsurge",
+  "Rabadon's Deathcap"
+ ],
+ "fifth": [
+  "Shadowflame",
+  "Stormsurge",
+  "Rabadon's Deathcap"
+ ],
+ "sixth": [
+  "Rabadon's Deathcap",
+  "Morellonomicon",
+  "Zhonya's Hourglass"
+ ],
+ "pool": [
+  "Refillable Potion",
+  "Lost Chapter",
+  "Blackfire Torch",
+  "Sorcerer's Shoes",
+  "Liandry's Torment",
+  "Stormsurge",
+  "Rabadon's Deathcap",
+  "Shadowflame",
+  "Morellonomicon",
+  "Zhonya's Hourglass"
+ ]
+}

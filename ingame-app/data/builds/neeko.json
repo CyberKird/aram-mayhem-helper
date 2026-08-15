@@ -1,0 +1,44 @@
+{
+ "champion": "Neeko",
+ "source": "https://u.gg/lol/champions/aram/neeko-aram",
+ "summoners": [
+  "Flash",
+  "Mark"
+ ],
+ "starting": [
+  "Boots",
+  "Hextech Alternator"
+ ],
+ "core": [
+  "Malignance",
+  "Sorcerer's Shoes",
+  "Stormsurge"
+ ],
+ "fourth": [
+  "Shadowflame",
+  "Rabadon's Deathcap"
+ ],
+ "fifth": [
+  "Rabadon's Deathcap",
+  "Zhonya's Hourglass",
+  "Cryptbloom"
+ ],
+ "sixth": [
+  "Liandry's Torment",
+  "Luden's Echo",
+  "Cryptbloom"
+ ],
+ "pool": [
+  "Boots",
+  "Hextech Alternator",
+  "Malignance",
+  "Sorcerer's Shoes",
+  "Stormsurge",
+  "Shadowflame",
+  "Rabadon's Deathcap",
+  "Zhonya's Hourglass",
+  "Cryptbloom",
+  "Liandry's Torment",
+  "Luden's Echo"
+ ]
+}

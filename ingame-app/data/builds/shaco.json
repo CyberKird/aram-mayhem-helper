@@ -1,0 +1,43 @@
+{
+ "champion": "Shaco",
+ "source": "https://u.gg/lol/champions/aram/shaco-aram",
+ "summoners": [
+  "Flash",
+  "Mark"
+ ],
+ "starting": [
+  "Refillable Potion",
+  "Lost Chapter"
+ ],
+ "core": [
+  "Luden's Echo",
+  "Liandry's Torment",
+  "Sorcerer's Shoes"
+ ],
+ "fourth": [
+  "Shadowflame",
+  "Rabadon's Deathcap"
+ ],
+ "fifth": [
+  "Rabadon's Deathcap",
+  "Shadowflame",
+  "Stormsurge"
+ ],
+ "sixth": [
+  "Void Staff",
+  "Rabadon's Deathcap",
+  "Malignance"
+ ],
+ "pool": [
+  "Refillable Potion",
+  "Lost Chapter",
+  "Luden's Echo",
+  "Liandry's Torment",
+  "Sorcerer's Shoes",
+  "Shadowflame",
+  "Rabadon's Deathcap",
+  "Stormsurge",
+  "Void Staff",
+  "Malignance"
+ ]
+}

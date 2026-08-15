@@ -1,0 +1,40 @@
+{
+ "champion": "Sivir",
+ "source": "https://u.gg/lol/champions/aram/sivir-aram",
+ "summoners": [
+  "Flash",
+  "Heal"
+ ],
+ "starting": [
+  "B. F. Sword"
+ ],
+ "core": [
+  "Yun Tal Wildarrows",
+  "Navori Flickerblade",
+  "Berserker's Greaves"
+ ],
+ "fourth": [
+  "Infinity Edge",
+  "Lord Dominik's Regards"
+ ],
+ "fifth": [
+  "Lord Dominik's Regards",
+  "Bloodthirster",
+  "Infinity Edge"
+ ],
+ "sixth": [
+  "Bloodthirster",
+  "Blade of The Ruined King",
+  "Lord Dominik's Regards"
+ ],
+ "pool": [
+  "B. F. Sword",
+  "Yun Tal Wildarrows",
+  "Navori Flickerblade",
+  "Berserker's Greaves",
+  "Infinity Edge",
+  "Lord Dominik's Regards",
+  "Bloodthirster",
+  "Blade of The Ruined King"
+ ]
+}

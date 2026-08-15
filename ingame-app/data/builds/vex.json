@@ -1,0 +1,42 @@
+{
+ "champion": "Vex",
+ "source": "https://u.gg/lol/champions/aram/vex-aram",
+ "summoners": [
+  "Flash",
+  "Mark"
+ ],
+ "starting": [
+  "Refillable Potion",
+  "Lost Chapter"
+ ],
+ "core": [
+  "Luden's Echo",
+  "Sorcerer's Shoes",
+  "Stormsurge"
+ ],
+ "fourth": [
+  "Shadowflame",
+  "Rabadon's Deathcap"
+ ],
+ "fifth": [
+  "Rabadon's Deathcap",
+  "Shadowflame",
+  "Zhonya's Hourglass"
+ ],
+ "sixth": [
+  "Void Staff",
+  "Shadowflame",
+  "Rabadon's Deathcap"
+ ],
+ "pool": [
+  "Refillable Potion",
+  "Lost Chapter",
+  "Luden's Echo",
+  "Sorcerer's Shoes",
+  "Stormsurge",
+  "Shadowflame",
+  "Rabadon's Deathcap",
+  "Zhonya's Hourglass",
+  "Void Staff"
+ ]
+}

@@ -1,0 +1,46 @@
+{
+ "champion": "Galio",
+ "source": "https://u.gg/lol/champions/aram/galio-aram",
+ "summoners": [
+  "Flash",
+  "Mark"
+ ],
+ "starting": [
+  "Health Potion",
+  "Guardian's Horn",
+  "Tear of the Goddess"
+ ],
+ "core": [
+  "Heartsteel",
+  "Winter's Approach",
+  "Mercury's Treads"
+ ],
+ "fourth": [
+  "Hollow Radiance",
+  "Kaenic Rookern"
+ ],
+ "fifth": [
+  "Randuin's Omen",
+  "Jak'Sho, The Protean",
+  "Hollow Radiance"
+ ],
+ "sixth": [
+  "Warmog's Armor",
+  "Jak'Sho, The Protean",
+  "Thornmail"
+ ],
+ "pool": [
+  "Health Potion",
+  "Guardian's Horn",
+  "Tear of the Goddess",
+  "Heartsteel",
+  "Winter's Approach",
+  "Mercury's Treads",
+  "Hollow Radiance",
+  "Kaenic Rookern",
+  "Randuin's Omen",
+  "Jak'Sho, The Protean",
+  "Warmog's Armor",
+  "Thornmail"
+ ]
+}

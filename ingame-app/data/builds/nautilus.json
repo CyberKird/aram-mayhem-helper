@@ -1,0 +1,46 @@
+{
+ "champion": "Nautilus",
+ "source": "https://u.gg/lol/champions/aram/nautilus-aram",
+ "summoners": [
+  "Flash",
+  "Mark"
+ ],
+ "starting": [
+  "Giant's Belt",
+  "Health Potion",
+  "Tear of the Goddess"
+ ],
+ "core": [
+  "Heartsteel",
+  "Mercury's Treads",
+  "Winter's Approach"
+ ],
+ "fourth": [
+  "Thornmail",
+  "Unending Despair"
+ ],
+ "fifth": [
+  "Thornmail",
+  "Kaenic Rookern",
+  "Warmog's Armor"
+ ],
+ "sixth": [
+  "Unending Despair",
+  "Force of Nature",
+  "Frozen Heart"
+ ],
+ "pool": [
+  "Giant's Belt",
+  "Health Potion",
+  "Tear of the Goddess",
+  "Heartsteel",
+  "Mercury's Treads",
+  "Winter's Approach",
+  "Thornmail",
+  "Unending Despair",
+  "Kaenic Rookern",
+  "Warmog's Armor",
+  "Force of Nature",
+  "Frozen Heart"
+ ]
+}

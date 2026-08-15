@@ -1,0 +1,43 @@
+{
+ "champion": "Teemo",
+ "source": "https://u.gg/lol/champions/aram/teemo-aram",
+ "summoners": [
+  "Flash",
+  "Ignite"
+ ],
+ "starting": [
+  "Health Potion",
+  "Haunting Guise"
+ ],
+ "core": [
+  "Malignance",
+  "Ionian Boots of Lucidity",
+  "Liandry's Torment"
+ ],
+ "fourth": [
+  "Shadowflame",
+  "Morellonomicon"
+ ],
+ "fifth": [
+  "Rabadon's Deathcap",
+  "Shadowflame",
+  "Void Staff"
+ ],
+ "sixth": [
+  "Rabadon's Deathcap",
+  "Void Staff",
+  "Blackfire Torch"
+ ],
+ "pool": [
+  "Health Potion",
+  "Haunting Guise",
+  "Malignance",
+  "Ionian Boots of Lucidity",
+  "Liandry's Torment",
+  "Shadowflame",
+  "Morellonomicon",
+  "Rabadon's Deathcap",
+  "Void Staff",
+  "Blackfire Torch"
+ ]
+}

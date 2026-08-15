@@ -1,0 +1,42 @@
+{
+ "champion": "Ashe",
+ "source": "https://u.gg/lol/champions/aram/ashe-aram",
+ "summoners": [
+  "Flash",
+  "Ghost"
+ ],
+ "starting": [
+  "B. F. Sword",
+  "Health Potion"
+ ],
+ "core": [
+  "Yun Tal Wildarrows",
+  "Berserker's Greaves",
+  "Runaan's Hurricane"
+ ],
+ "fourth": [
+  "Infinity Edge",
+  "Blade of The Ruined King"
+ ],
+ "fifth": [
+  "Lord Dominik's Regards",
+  "Infinity Edge",
+  "Bloodthirster"
+ ],
+ "sixth": [
+  "Blade of The Ruined King",
+  "Lord Dominik's Regards",
+  "Bloodthirster"
+ ],
+ "pool": [
+  "B. F. Sword",
+  "Health Potion",
+  "Yun Tal Wildarrows",
+  "Berserker's Greaves",
+  "Runaan's Hurricane",
+  "Infinity Edge",
+  "Blade of The Ruined King",
+  "Lord Dominik's Regards",
+  "Bloodthirster"
+ ]
+}

@@ -1,0 +1,44 @@
+{
+ "champion": "Kalista",
+ "source": "https://u.gg/lol/champions/aram/kalista-aram",
+ "summoners": [
+  "Cleanse",
+  "Flash"
+ ],
+ "starting": [
+  "Pickaxe",
+  "Dagger"
+ ],
+ "core": [
+  "Blade of The Ruined King",
+  "Berserker's Greaves",
+  "Runaan's Hurricane"
+ ],
+ "fourth": [
+  "Terminus",
+  "Guinsoo's Rageblade"
+ ],
+ "fifth": [
+  "Terminus",
+  "Jak'Sho, The Protean",
+  "Bloodthirster"
+ ],
+ "sixth": [
+  "Guinsoo's Rageblade",
+  "The Collector",
+  "Randuin's Omen"
+ ],
+ "pool": [
+  "Pickaxe",
+  "Dagger",
+  "Blade of The Ruined King",
+  "Berserker's Greaves",
+  "Runaan's Hurricane",
+  "Terminus",
+  "Guinsoo's Rageblade",
+  "Jak'Sho, The Protean",
+  "Bloodthirster",
+  "The Collector",
+  "Randuin's Omen"
+ ]
+}

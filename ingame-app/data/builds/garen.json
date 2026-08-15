@@ -1,0 +1,43 @@
+{
+ "champion": "Garen",
+ "source": "https://u.gg/lol/champions/aram/garen-aram",
+ "summoners": [
+  "Flash",
+  "Mark"
+ ],
+ "starting": [
+  "Boots",
+  "Phage"
+ ],
+ "core": [
+  "Stridebreaker",
+  "Berserker's Greaves",
+  "Black Cleaver"
+ ],
+ "fourth": [
+  "Phantom Dancer",
+  "Infinity Edge"
+ ],
+ "fifth": [
+  "Dead Man's Plate",
+  "Infinity Edge",
+  "Force of Nature"
+ ],
+ "sixth": [
+  "Infinity Edge",
+  "Phantom Dancer",
+  "Death's Dance"
+ ],
+ "pool": [
+  "Boots",
+  "Phage",
+  "Stridebreaker",
+  "Berserker's Greaves",
+  "Black Cleaver",
+  "Phantom Dancer",
+  "Infinity Edge",
+  "Dead Man's Plate",
+  "Force of Nature",
+  "Death's Dance"
+ ]
+}

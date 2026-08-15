@@ -1,0 +1,45 @@
+{
+ "champion": "Rammus",
+ "source": "https://u.gg/lol/champions/aram/rammus-aram",
+ "summoners": [
+  "Flash",
+  "Ghost"
+ ],
+ "starting": [
+  "Boots",
+  "Cloth Armor",
+  "Bramble Vest"
+ ],
+ "core": [
+  "Thornmail",
+  "Plated Steelcaps",
+  "Unending Despair"
+ ],
+ "fourth": [
+  "Sunfire Aegis",
+  "Warmog's Armor"
+ ],
+ "fifth": [
+  "Jak'Sho, The Protean",
+  "Warmog's Armor",
+  "Kaenic Rookern"
+ ],
+ "sixth": [
+  "Sunfire Aegis",
+  "Kaenic Rookern",
+  "Protoplasm Harness"
+ ],
+ "pool": [
+  "Boots",
+  "Cloth Armor",
+  "Bramble Vest",
+  "Thornmail",
+  "Plated Steelcaps",
+  "Unending Despair",
+  "Sunfire Aegis",
+  "Warmog's Armor",
+  "Jak'Sho, The Protean",
+  "Kaenic Rookern",
+  "Protoplasm Harness"
+ ]
+}

@@ -1,0 +1,43 @@
+{
+ "champion": "Karma",
+ "source": "https://u.gg/lol/champions/aram/karma-aram",
+ "summoners": [
+  "Flash",
+  "Ghost"
+ ],
+ "starting": [
+  "Refillable Potion",
+  "Lost Chapter"
+ ],
+ "core": [
+  "Malignance",
+  "Luden's Echo",
+  "Sorcerer's Shoes"
+ ],
+ "fourth": [
+  "Stormsurge",
+  "Rabadon's Deathcap"
+ ],
+ "fifth": [
+  "Stormsurge",
+  "Shadowflame",
+  "Rabadon's Deathcap"
+ ],
+ "sixth": [
+  "Shadowflame",
+  "Dawncore",
+  "Mikael's Blessing"
+ ],
+ "pool": [
+  "Refillable Potion",
+  "Lost Chapter",
+  "Malignance",
+  "Luden's Echo",
+  "Sorcerer's Shoes",
+  "Stormsurge",
+  "Rabadon's Deathcap",
+  "Shadowflame",
+  "Dawncore",
+  "Mikael's Blessing"
+ ]
+}

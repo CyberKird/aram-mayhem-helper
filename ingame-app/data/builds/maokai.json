@@ -1,0 +1,45 @@
+{
+ "champion": "Maokai",
+ "source": "https://u.gg/lol/champions/aram/maokai-aram",
+ "summoners": [
+  "Flash",
+  "Mark"
+ ],
+ "starting": [
+  "Giant's Belt",
+  "Health Potion",
+  "Tear of the Goddess"
+ ],
+ "core": [
+  "Heartsteel",
+  "Mercury's Treads",
+  "Winter's Approach"
+ ],
+ "fourth": [
+  "Spirit Visage",
+  "Unending Despair"
+ ],
+ "fifth": [
+  "Spirit Visage",
+  "Thornmail",
+  "Unending Despair"
+ ],
+ "sixth": [
+  "Thornmail",
+  "Sunfire Aegis",
+  "Jak'Sho, The Protean"
+ ],
+ "pool": [
+  "Giant's Belt",
+  "Health Potion",
+  "Tear of the Goddess",
+  "Heartsteel",
+  "Mercury's Treads",
+  "Winter's Approach",
+  "Spirit Visage",
+  "Unending Despair",
+  "Thornmail",
+  "Sunfire Aegis",
+  "Jak'Sho, The Protean"
+ ]
+}

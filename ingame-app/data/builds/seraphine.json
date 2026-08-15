@@ -1,0 +1,44 @@
+{
+ "champion": "Seraphine",
+ "source": "https://u.gg/lol/champions/aram/seraphine-aram",
+ "summoners": [
+  "Flash",
+  "Heal"
+ ],
+ "starting": [
+  "Lost Chapter"
+ ],
+ "core": [
+  "Luden's Echo",
+  "Sorcerer's Shoes",
+  "Shadowflame"
+ ],
+ "fourth": [
+  "Rylai's Crystal Scepter",
+  "Rabadon's Deathcap"
+ ],
+ "fifth": [
+  "Cryptbloom",
+  "Echoes of Helia",
+  "Mikael's Blessing"
+ ],
+ "sixth": [
+  "Ardent Censer",
+  "Void Staff",
+  "Redemption"
+ ],
+ "pool": [
+  "Lost Chapter",
+  "Luden's Echo",
+  "Sorcerer's Shoes",
+  "Shadowflame",
+  "Rylai's Crystal Scepter",
+  "Rabadon's Deathcap",
+  "Cryptbloom",
+  "Echoes of Helia",
+  "Mikael's Blessing",
+  "Ardent Censer",
+  "Void Staff",
+  "Redemption"
+ ]
+}

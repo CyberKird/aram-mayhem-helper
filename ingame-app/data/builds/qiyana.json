@@ -1,0 +1,42 @@
+{
+ "champion": "Qiyana",
+ "source": "https://u.gg/lol/champions/aram/qiyana-aram",
+ "summoners": [
+  "Flash",
+  "Mark"
+ ],
+ "starting": [
+  "Long Sword",
+  "Serrated Dirk"
+ ],
+ "core": [
+  "Hubris",
+  "Ionian Boots of Lucidity",
+  "Axiom Arc"
+ ],
+ "fourth": [
+  "The Collector",
+  "Edge of Night"
+ ],
+ "fifth": [
+  "Serylda's Grudge",
+  "Edge of Night",
+  "Voltaic Cyclosword"
+ ],
+ "sixth": [
+  "Edge of Night",
+  "Serylda's Grudge",
+  "Voltaic Cyclosword"
+ ],
+ "pool": [
+  "Long Sword",
+  "Serrated Dirk",
+  "Hubris",
+  "Ionian Boots of Lucidity",
+  "Axiom Arc",
+  "The Collector",
+  "Edge of Night",
+  "Serylda's Grudge",
+  "Voltaic Cyclosword"
+ ]
+}

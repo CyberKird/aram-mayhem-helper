@@ -1,0 +1,41 @@
+{
+ "champion": "Lissandra",
+ "source": "https://u.gg/lol/champions/aram/lissandra-aram",
+ "summoners": [
+  "Flash",
+  "Mark"
+ ],
+ "starting": [
+  "Lost Chapter"
+ ],
+ "core": [
+  "Luden's Echo",
+  "Sorcerer's Shoes",
+  "Zhonya's Hourglass"
+ ],
+ "fourth": [
+  "Shadowflame",
+  "Rabadon's Deathcap"
+ ],
+ "fifth": [
+  "Rabadon's Deathcap",
+  "Shadowflame",
+  "Stormsurge"
+ ],
+ "sixth": [
+  "Cryptbloom",
+  "Void Staff",
+  "Rabadon's Deathcap"
+ ],
+ "pool": [
+  "Lost Chapter",
+  "Luden's Echo",
+  "Sorcerer's Shoes",
+  "Zhonya's Hourglass",
+  "Shadowflame",
+  "Rabadon's Deathcap",
+  "Stormsurge",
+  "Cryptbloom",
+  "Void Staff"
+ ]
+}

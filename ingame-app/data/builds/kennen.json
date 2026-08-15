@@ -1,0 +1,43 @@
+{
+ "champion": "Kennen",
+ "source": "https://u.gg/lol/champions/aram/kennen-aram",
+ "summoners": [
+  "Flash",
+  "Mark"
+ ],
+ "starting": [
+  "Boots",
+  "Hextech Alternator"
+ ],
+ "core": [
+  "Hextech Rocketbelt",
+  "Sorcerer's Shoes",
+  "Zhonya's Hourglass"
+ ],
+ "fourth": [
+  "Shadowflame",
+  "Stormsurge"
+ ],
+ "fifth": [
+  "Rabadon's Deathcap",
+  "Shadowflame",
+  "Void Staff"
+ ],
+ "sixth": [
+  "Void Staff",
+  "Banshee's Veil",
+  "Stormsurge"
+ ],
+ "pool": [
+  "Boots",
+  "Hextech Alternator",
+  "Hextech Rocketbelt",
+  "Sorcerer's Shoes",
+  "Zhonya's Hourglass",
+  "Shadowflame",
+  "Stormsurge",
+  "Rabadon's Deathcap",
+  "Void Staff",
+  "Banshee's Veil"
+ ]
+}

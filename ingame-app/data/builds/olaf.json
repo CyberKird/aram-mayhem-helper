@@ -1,0 +1,43 @@
+{
+ "champion": "Olaf",
+ "source": "https://u.gg/lol/champions/aram/olaf-aram",
+ "summoners": [
+  "Flash",
+  "Mark"
+ ],
+ "starting": [
+  "Refillable Potion",
+  "Tiamat"
+ ],
+ "core": [
+  "Stridebreaker",
+  "Mercury's Treads",
+  "Experimental Hexplate"
+ ],
+ "fourth": [
+  "Death's Dance",
+  "Spirit Visage"
+ ],
+ "fifth": [
+  "Spirit Visage",
+  "Death's Dance",
+  "Sterak's Gage"
+ ],
+ "sixth": [
+  "Sterak's Gage",
+  "Bloodthirster",
+  "Frozen Heart"
+ ],
+ "pool": [
+  "Refillable Potion",
+  "Tiamat",
+  "Stridebreaker",
+  "Mercury's Treads",
+  "Experimental Hexplate",
+  "Death's Dance",
+  "Spirit Visage",
+  "Sterak's Gage",
+  "Bloodthirster",
+  "Frozen Heart"
+ ]
+}

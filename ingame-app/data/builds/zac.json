@@ -1,0 +1,43 @@
+{
+ "champion": "Zac",
+ "source": "https://u.gg/lol/champions/aram/zac-aram",
+ "summoners": [
+  "Flash",
+  "Mark"
+ ],
+ "starting": [
+  "Giant's Belt",
+  "Ruby Crystal"
+ ],
+ "core": [
+  "Heartsteel",
+  "Spirit Visage",
+  "Unending Despair"
+ ],
+ "fourth": [
+  "Sunfire Aegis",
+  "Thornmail"
+ ],
+ "fifth": [
+  "Jak'Sho, The Protean",
+  "Thornmail",
+  "Hollow Radiance"
+ ],
+ "sixth": [
+  "Thornmail",
+  "Riftmaker",
+  "Sunfire Aegis"
+ ],
+ "pool": [
+  "Giant's Belt",
+  "Ruby Crystal",
+  "Heartsteel",
+  "Spirit Visage",
+  "Unending Despair",
+  "Sunfire Aegis",
+  "Thornmail",
+  "Jak'Sho, The Protean",
+  "Hollow Radiance",
+  "Riftmaker"
+ ]
+}

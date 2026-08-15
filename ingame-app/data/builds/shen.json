@@ -1,0 +1,44 @@
+{
+ "champion": "Shen",
+ "source": "https://u.gg/lol/champions/aram/shen-aram",
+ "summoners": [
+  "Flash",
+  "Mark"
+ ],
+ "starting": [
+  "Giant's Belt",
+  "Ruby Crystal"
+ ],
+ "core": [
+  "Heartsteel",
+  "Plated Steelcaps",
+  "Unending Despair"
+ ],
+ "fourth": [
+  "Warmog's Armor",
+  "Titanic Hydra"
+ ],
+ "fifth": [
+  "Spirit Visage",
+  "Jak'Sho, The Protean",
+  "Hollow Radiance"
+ ],
+ "sixth": [
+  "Hollow Radiance",
+  "Kaenic Rookern",
+  "Jak'Sho, The Protean"
+ ],
+ "pool": [
+  "Giant's Belt",
+  "Ruby Crystal",
+  "Heartsteel",
+  "Plated Steelcaps",
+  "Unending Despair",
+  "Warmog's Armor",
+  "Titanic Hydra",
+  "Spirit Visage",
+  "Jak'Sho, The Protean",
+  "Hollow Radiance",
+  "Kaenic Rookern"
+ ]
+}

@@ -1,0 +1,42 @@
+{
+ "champion": "Urgot",
+ "source": "https://u.gg/lol/champions/aram/urgot-aram",
+ "summoners": [
+  "Flash",
+  "Mark"
+ ],
+ "starting": [
+  "Giant's Belt",
+  "Ruby Crystal"
+ ],
+ "core": [
+  "Heartsteel",
+  "Mercury's Treads",
+  "Thornmail"
+ ],
+ "fourth": [
+  "Kaenic Rookern",
+  "Black Cleaver"
+ ],
+ "fifth": [
+  "Black Cleaver",
+  "Kaenic Rookern",
+  "Warmog's Armor"
+ ],
+ "sixth": [
+  "Jak'Sho, The Protean",
+  "Warmog's Armor",
+  "Kaenic Rookern"
+ ],
+ "pool": [
+  "Giant's Belt",
+  "Ruby Crystal",
+  "Heartsteel",
+  "Mercury's Treads",
+  "Thornmail",
+  "Kaenic Rookern",
+  "Black Cleaver",
+  "Warmog's Armor",
+  "Jak'Sho, The Protean"
+ ]
+}

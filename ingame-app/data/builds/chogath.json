@@ -1,0 +1,45 @@
+{
+ "champion": "Cho'Gath",
+ "source": "https://u.gg/lol/champions/aram/chogath-aram",
+ "summoners": [
+  "Flash",
+  "Mark"
+ ],
+ "starting": [
+  "Ruby Crystal",
+  "Refillable Potion",
+  "Crystalline Bracer"
+ ],
+ "core": [
+  "Heartsteel",
+  "Mercury's Treads",
+  "Warmog's Armor"
+ ],
+ "fourth": [
+  "Kaenic Rookern",
+  "Thornmail"
+ ],
+ "fifth": [
+  "Thornmail",
+  "Jak'Sho, The Protean",
+  "Force of Nature"
+ ],
+ "sixth": [
+  "Thornmail",
+  "Jak'Sho, The Protean",
+  "Unending Despair"
+ ],
+ "pool": [
+  "Ruby Crystal",
+  "Refillable Potion",
+  "Crystalline Bracer",
+  "Heartsteel",
+  "Mercury's Treads",
+  "Warmog's Armor",
+  "Kaenic Rookern",
+  "Thornmail",
+  "Jak'Sho, The Protean",
+  "Force of Nature",
+  "Unending Despair"
+ ]
+}

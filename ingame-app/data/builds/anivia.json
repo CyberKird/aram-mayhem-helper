@@ -1,0 +1,46 @@
+{
+ "champion": "Anivia",
+ "source": "https://u.gg/lol/champions/aram/anivia-aram",
+ "summoners": [
+  "Flash",
+  "Ghost"
+ ],
+ "starting": [
+  "Blasting Wand",
+  "Refillable Potion",
+  "Tear of the Goddess"
+ ],
+ "core": [
+  "Rod of Ages",
+  "Archangel's Staff",
+  "Sorcerer's Shoes"
+ ],
+ "fourth": [
+  "Liandry's Torment",
+  "Shadowflame"
+ ],
+ "fifth": [
+  "Shadowflame",
+  "Rylai's Crystal Scepter",
+  "Void Staff"
+ ],
+ "sixth": [
+  "Zhonya's Hourglass",
+  "Malignance",
+  "Shadowflame"
+ ],
+ "pool": [
+  "Blasting Wand",
+  "Refillable Potion",
+  "Tear of the Goddess",
+  "Rod of Ages",
+  "Archangel's Staff",
+  "Sorcerer's Shoes",
+  "Liandry's Torment",
+  "Shadowflame",
+  "Rylai's Crystal Scepter",
+  "Void Staff",
+  "Zhonya's Hourglass",
+  "Malignance"
+ ]
+}

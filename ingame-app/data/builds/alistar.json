@@ -1,0 +1,46 @@
+{
+ "champion": "Alistar",
+ "source": "https://u.gg/lol/champions/aram/alistar-aram",
+ "summoners": [
+  "Flash",
+  "Mark"
+ ],
+ "starting": [
+  "Giant's Belt",
+  "Ruby Crystal",
+  "Health Potion"
+ ],
+ "core": [
+  "Heartsteel",
+  "Plated Steelcaps",
+  "Unending Despair"
+ ],
+ "fourth": [
+  "Kaenic Rookern",
+  "Thornmail"
+ ],
+ "fifth": [
+  "Warmog's Armor",
+  "Spirit Visage",
+  "Jak'Sho, The Protean"
+ ],
+ "sixth": [
+  "Frozen Heart",
+  "Warmog's Armor",
+  "Jak'Sho, The Protean"
+ ],
+ "pool": [
+  "Giant's Belt",
+  "Ruby Crystal",
+  "Health Potion",
+  "Heartsteel",
+  "Plated Steelcaps",
+  "Unending Despair",
+  "Kaenic Rookern",
+  "Thornmail",
+  "Warmog's Armor",
+  "Spirit Visage",
+  "Jak'Sho, The Protean",
+  "Frozen Heart"
+ ]
+}

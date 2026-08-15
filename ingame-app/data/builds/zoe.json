@@ -1,0 +1,44 @@
+{
+ "champion": "Zoe",
+ "source": "https://u.gg/lol/champions/aram/zoe-aram",
+ "summoners": [
+  "Flash",
+  "Ignite"
+ ],
+ "starting": [
+  "Refillable Potion",
+  "Lost Chapter"
+ ],
+ "core": [
+  "Luden's Echo",
+  "Sorcerer's Shoes",
+  "Stormsurge"
+ ],
+ "fourth": [
+  "Rabadon's Deathcap",
+  "Horizon Focus"
+ ],
+ "fifth": [
+  "Rabadon's Deathcap",
+  "Shadowflame",
+  "Lich Bane"
+ ],
+ "sixth": [
+  "Shadowflame",
+  "Void Staff",
+  "Liandry's Torment"
+ ],
+ "pool": [
+  "Refillable Potion",
+  "Lost Chapter",
+  "Luden's Echo",
+  "Sorcerer's Shoes",
+  "Stormsurge",
+  "Rabadon's Deathcap",
+  "Horizon Focus",
+  "Shadowflame",
+  "Lich Bane",
+  "Void Staff",
+  "Liandry's Torment"
+ ]
+}

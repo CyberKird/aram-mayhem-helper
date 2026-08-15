@@ -1,0 +1,44 @@
+{
+ "champion": "Tristana",
+ "source": "https://u.gg/lol/champions/aram/tristana-aram",
+ "summoners": [
+  "Flash",
+  "Barrier"
+ ],
+ "starting": [
+  "Long Sword",
+  "Pickaxe",
+  "Refillable Potion"
+ ],
+ "core": [
+  "Kraken Slayer",
+  "Berserker's Greaves",
+  "Blade of The Ruined King"
+ ],
+ "fourth": [
+  "Infinity Edge",
+  "Lord Dominik's Regards"
+ ],
+ "fifth": [
+  "Lord Dominik's Regards",
+  "Infinity Edge",
+  "Bloodthirster"
+ ],
+ "sixth": [
+  "Bloodthirster",
+  "Lord Dominik's Regards",
+  "Navori Flickerblade"
+ ],
+ "pool": [
+  "Long Sword",
+  "Pickaxe",
+  "Refillable Potion",
+  "Kraken Slayer",
+  "Berserker's Greaves",
+  "Blade of The Ruined King",
+  "Infinity Edge",
+  "Lord Dominik's Regards",
+  "Bloodthirster",
+  "Navori Flickerblade"
+ ]
+}

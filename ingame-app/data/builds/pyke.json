@@ -1,0 +1,42 @@
+{
+ "champion": "Pyke",
+ "source": "https://u.gg/lol/champions/aram/pyke-aram",
+ "summoners": [
+  "Flash",
+  "Mark"
+ ],
+ "starting": [
+  "Long Sword",
+  "Serrated Dirk"
+ ],
+ "core": [
+  "Hubris",
+  "Mercury's Treads",
+  "The Collector"
+ ],
+ "fourth": [
+  "Edge of Night",
+  "Youmuu's Ghostblade"
+ ],
+ "fifth": [
+  "Youmuu's Ghostblade",
+  "Edge of Night",
+  "Serylda's Grudge"
+ ],
+ "sixth": [
+  "Voltaic Cyclosword",
+  "Serylda's Grudge",
+  "Youmuu's Ghostblade"
+ ],
+ "pool": [
+  "Long Sword",
+  "Serrated Dirk",
+  "Hubris",
+  "Mercury's Treads",
+  "The Collector",
+  "Edge of Night",
+  "Youmuu's Ghostblade",
+  "Serylda's Grudge",
+  "Voltaic Cyclosword"
+ ]
+}

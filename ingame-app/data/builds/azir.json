@@ -1,0 +1,43 @@
+{
+ "champion": "Azir",
+ "source": "https://u.gg/lol/champions/aram/azir-aram",
+ "summoners": [
+  "Flash",
+  "Ghost"
+ ],
+ "starting": [
+  "Refillable Potion",
+  "Lost Chapter"
+ ],
+ "core": [
+  "Nashor's Tooth",
+  "Berserker's Greaves",
+  "Luden's Echo"
+ ],
+ "fourth": [
+  "Rylai's Crystal Scepter",
+  "Shadowflame"
+ ],
+ "fifth": [
+  "Rabadon's Deathcap",
+  "Rylai's Crystal Scepter",
+  "Zhonya's Hourglass"
+ ],
+ "sixth": [
+  "Rabadon's Deathcap",
+  "Shadowflame",
+  "Void Staff"
+ ],
+ "pool": [
+  "Refillable Potion",
+  "Lost Chapter",
+  "Nashor's Tooth",
+  "Berserker's Greaves",
+  "Luden's Echo",
+  "Rylai's Crystal Scepter",
+  "Shadowflame",
+  "Rabadon's Deathcap",
+  "Zhonya's Hourglass",
+  "Void Staff"
+ ]
+}

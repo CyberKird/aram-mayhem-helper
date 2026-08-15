@@ -1,0 +1,43 @@
+{
+ "champion": "Zyra",
+ "source": "https://u.gg/lol/champions/aram/zyra-aram",
+ "summoners": [
+  "Flash",
+  "Heal"
+ ],
+ "starting": [
+  "Refillable Potion",
+  "Lost Chapter"
+ ],
+ "core": [
+  "Blackfire Torch",
+  "Sorcerer's Shoes",
+  "Liandry's Torment"
+ ],
+ "fourth": [
+  "Rylai's Crystal Scepter",
+  "Shadowflame"
+ ],
+ "fifth": [
+  "Shadowflame",
+  "Void Staff",
+  "Morellonomicon"
+ ],
+ "sixth": [
+  "Void Staff",
+  "Rylai's Crystal Scepter",
+  "Bloodletter's Curse"
+ ],
+ "pool": [
+  "Refillable Potion",
+  "Lost Chapter",
+  "Blackfire Torch",
+  "Sorcerer's Shoes",
+  "Liandry's Torment",
+  "Rylai's Crystal Scepter",
+  "Shadowflame",
+  "Void Staff",
+  "Morellonomicon",
+  "Bloodletter's Curse"
+ ]
+}

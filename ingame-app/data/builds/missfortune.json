@@ -1,0 +1,44 @@
+{
+ "champion": "Miss Fortune",
+ "source": "https://u.gg/lol/champions/aram/missfortune-aram",
+ "summoners": [
+  "Flash",
+  "Heal"
+ ],
+ "starting": [
+  "Boots",
+  "Health Potion",
+  "Serrated Dirk"
+ ],
+ "core": [
+  "The Collector",
+  "Infinity Edge",
+  "Berserker's Greaves"
+ ],
+ "fourth": [
+  "Serylda's Grudge",
+  "Lord Dominik's Regards"
+ ],
+ "fifth": [
+  "Bloodthirster",
+  "Lord Dominik's Regards",
+  "Serylda's Grudge"
+ ],
+ "sixth": [
+  "Edge of Night",
+  "Bloodthirster",
+  "Lord Dominik's Regards"
+ ],
+ "pool": [
+  "Boots",
+  "Health Potion",
+  "Serrated Dirk",
+  "The Collector",
+  "Infinity Edge",
+  "Berserker's Greaves",
+  "Serylda's Grudge",
+  "Lord Dominik's Regards",
+  "Bloodthirster",
+  "Edge of Night"
+ ]
+}

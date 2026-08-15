@@ -1,0 +1,43 @@
+{
+ "champion": "Darius",
+ "source": "https://u.gg/lol/champions/aram/darius-aram",
+ "summoners": [
+  "Flash",
+  "Mark"
+ ],
+ "starting": [
+  "Boots",
+  "Phage"
+ ],
+ "core": [
+  "Trinity Force",
+  "Mercury's Treads",
+  "Sterak's Gage"
+ ],
+ "fourth": [
+  "Death's Dance",
+  "Dead Man's Plate"
+ ],
+ "fifth": [
+  "Dead Man's Plate",
+  "Spirit Visage",
+  "Death's Dance"
+ ],
+ "sixth": [
+  "Dead Man's Plate",
+  "Black Cleaver",
+  "Sundered Sky"
+ ],
+ "pool": [
+  "Boots",
+  "Phage",
+  "Trinity Force",
+  "Mercury's Treads",
+  "Sterak's Gage",
+  "Death's Dance",
+  "Dead Man's Plate",
+  "Spirit Visage",
+  "Black Cleaver",
+  "Sundered Sky"
+ ]
+}

@@ -1,0 +1,42 @@
+{
+ "champion": "Hwei",
+ "source": "https://u.gg/lol/champions/aram/hwei-aram",
+ "summoners": [
+  "Flash",
+  "Clarity"
+ ],
+ "starting": [
+  "Lost Chapter"
+ ],
+ "core": [
+  "Blackfire Torch",
+  "Sorcerer's Shoes",
+  "Liandry's Torment"
+ ],
+ "fourth": [
+  "Shadowflame",
+  "Cryptbloom"
+ ],
+ "fifth": [
+  "Rabadon's Deathcap",
+  "Shadowflame",
+  "Morellonomicon"
+ ],
+ "sixth": [
+  "Shadowflame",
+  "Archangel's Staff",
+  "Zhonya's Hourglass"
+ ],
+ "pool": [
+  "Lost Chapter",
+  "Blackfire Torch",
+  "Sorcerer's Shoes",
+  "Liandry's Torment",
+  "Shadowflame",
+  "Cryptbloom",
+  "Rabadon's Deathcap",
+  "Morellonomicon",
+  "Archangel's Staff",
+  "Zhonya's Hourglass"
+ ]
+}

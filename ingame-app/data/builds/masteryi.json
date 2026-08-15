@@ -1,0 +1,42 @@
+{
+ "champion": "Master Yi",
+ "source": "https://u.gg/lol/champions/aram/masteryi-aram",
+ "summoners": [
+  "Flash",
+  "Mark"
+ ],
+ "starting": [
+  "Boots",
+  "Serrated Dirk"
+ ],
+ "core": [
+  "The Collector",
+  "Berserker's Greaves",
+  "Blade of The Ruined King"
+ ],
+ "fourth": [
+  "Infinity Edge",
+  "Wit's End"
+ ],
+ "fifth": [
+  "Wit's End",
+  "Infinity Edge",
+  "Death's Dance"
+ ],
+ "sixth": [
+  "Death's Dance",
+  "Experimental Hexplate",
+  "Infinity Edge"
+ ],
+ "pool": [
+  "Boots",
+  "Serrated Dirk",
+  "The Collector",
+  "Berserker's Greaves",
+  "Blade of The Ruined King",
+  "Infinity Edge",
+  "Wit's End",
+  "Death's Dance",
+  "Experimental Hexplate"
+ ]
+}

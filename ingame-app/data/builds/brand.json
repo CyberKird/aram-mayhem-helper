@@ -1,0 +1,43 @@
+{
+ "champion": "Brand",
+ "source": "https://u.gg/lol/champions/aram/brand-aram",
+ "summoners": [
+  "Flash",
+  "Clarity"
+ ],
+ "starting": [
+  "Refillable Potion",
+  "Lost Chapter"
+ ],
+ "core": [
+  "Blackfire Torch",
+  "Liandry's Torment",
+  "Sorcerer's Shoes"
+ ],
+ "fourth": [
+  "Rylai's Crystal Scepter",
+  "Shadowflame"
+ ],
+ "fifth": [
+  "Rylai's Crystal Scepter",
+  "Shadowflame",
+  "Rabadon's Deathcap"
+ ],
+ "sixth": [
+  "Void Staff",
+  "Malignance",
+  "Rylai's Crystal Scepter"
+ ],
+ "pool": [
+  "Refillable Potion",
+  "Lost Chapter",
+  "Blackfire Torch",
+  "Liandry's Torment",
+  "Sorcerer's Shoes",
+  "Rylai's Crystal Scepter",
+  "Shadowflame",
+  "Rabadon's Deathcap",
+  "Void Staff",
+  "Malignance"
+ ]
+}

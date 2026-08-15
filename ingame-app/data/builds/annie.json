@@ -1,0 +1,44 @@
+{
+ "champion": "Annie",
+ "source": "https://u.gg/lol/champions/aram/annie-aram",
+ "summoners": [
+  "Flash",
+  "Mark"
+ ],
+ "starting": [
+  "Refillable Potion",
+  "Lost Chapter"
+ ],
+ "core": [
+  "Malignance",
+  "Sorcerer's Shoes",
+  "Shadowflame"
+ ],
+ "fourth": [
+  "Rabadon's Deathcap",
+  "Stormsurge"
+ ],
+ "fifth": [
+  "Rabadon's Deathcap",
+  "Zhonya's Hourglass",
+  "Liandry's Torment"
+ ],
+ "sixth": [
+  "Morellonomicon",
+  "Banshee's Veil",
+  "Rabadon's Deathcap"
+ ],
+ "pool": [
+  "Refillable Potion",
+  "Lost Chapter",
+  "Malignance",
+  "Sorcerer's Shoes",
+  "Shadowflame",
+  "Rabadon's Deathcap",
+  "Stormsurge",
+  "Zhonya's Hourglass",
+  "Liandry's Torment",
+  "Morellonomicon",
+  "Banshee's Veil"
+ ]
+}

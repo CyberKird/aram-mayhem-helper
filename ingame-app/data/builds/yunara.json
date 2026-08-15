@@ -1,0 +1,46 @@
+{
+ "champion": "Yunara",
+ "source": "https://u.gg/lol/champions/aram/yunara-aram",
+ "summoners": [
+  "Flash",
+  "Ghost"
+ ],
+ "starting": [
+  "Boots",
+  "Refillable Potion",
+  "Guardian's Hammer"
+ ],
+ "core": [
+  "Kraken Slayer",
+  "Gluttonous Greaves",
+  "Fiendhunter Bolts"
+ ],
+ "fourth": [
+  "Infinity Edge",
+  "Runaan's Hurricane"
+ ],
+ "fifth": [
+  "Lord Dominik's Regards",
+  "Bloodthirster",
+  "Infinity Edge"
+ ],
+ "sixth": [
+  "Bloodthirster",
+  "Blade of The Ruined King",
+  "Immortal Shieldbow"
+ ],
+ "pool": [
+  "Boots",
+  "Refillable Potion",
+  "Guardian's Hammer",
+  "Kraken Slayer",
+  "Gluttonous Greaves",
+  "Fiendhunter Bolts",
+  "Infinity Edge",
+  "Runaan's Hurricane",
+  "Lord Dominik's Regards",
+  "Bloodthirster",
+  "Blade of The Ruined King",
+  "Immortal Shieldbow"
+ ]
+}

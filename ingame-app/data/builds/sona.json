@@ -1,0 +1,45 @@
+{
+ "champion": "Sona",
+ "source": "https://u.gg/lol/champions/aram/sona-aram",
+ "summoners": [
+  "Flash",
+  "Clarity"
+ ],
+ "starting": [
+  "Health Potion",
+  "Tear of the Goddess",
+  "Bandleglass Mirror"
+ ],
+ "core": [
+  "Moonstone Renewer",
+  "Ionian Boots of Lucidity",
+  "Whispering Circlet"
+ ],
+ "fourth": [
+  "Ardent Censer",
+  "Redemption"
+ ],
+ "fifth": [
+  "Redemption",
+  "Staff of Flowing Water",
+  "Ardent Censer"
+ ],
+ "sixth": [
+  "Staff of Flowing Water",
+  "Locket of the Iron Solari",
+  "Dawncore"
+ ],
+ "pool": [
+  "Health Potion",
+  "Tear of the Goddess",
+  "Bandleglass Mirror",
+  "Moonstone Renewer",
+  "Ionian Boots of Lucidity",
+  "Whispering Circlet",
+  "Ardent Censer",
+  "Redemption",
+  "Staff of Flowing Water",
+  "Locket of the Iron Solari",
+  "Dawncore"
+ ]
+}

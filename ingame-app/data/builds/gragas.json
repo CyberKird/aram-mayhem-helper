@@ -1,0 +1,42 @@
+{
+ "champion": "Gragas",
+ "source": "https://u.gg/lol/champions/aram/gragas-aram",
+ "summoners": [
+  "Flash",
+  "Mark"
+ ],
+ "starting": [
+  "Lost Chapter"
+ ],
+ "core": [
+  "Luden's Echo",
+  "Sorcerer's Shoes",
+  "Shadowflame"
+ ],
+ "fourth": [
+  "Lich Bane",
+  "Rabadon's Deathcap"
+ ],
+ "fifth": [
+  "Rabadon's Deathcap",
+  "Stormsurge",
+  "Lich Bane"
+ ],
+ "sixth": [
+  "Void Staff",
+  "Warmog's Armor",
+  "Morellonomicon"
+ ],
+ "pool": [
+  "Lost Chapter",
+  "Luden's Echo",
+  "Sorcerer's Shoes",
+  "Shadowflame",
+  "Lich Bane",
+  "Rabadon's Deathcap",
+  "Stormsurge",
+  "Void Staff",
+  "Warmog's Armor",
+  "Morellonomicon"
+ ]
+}
