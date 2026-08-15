@@ -66,20 +66,25 @@ class AugmentBar:
             cell = tk.Frame(row, bg=BG, width=col)
             cell.grid(row=0, column=i, sticky="n")
             cell.grid_propagate(False)
-            cell.configure(height=54)
 
             box = tk.Frame(cell, bg=bg)
             box.place(relx=0.5, rely=0, anchor="n")
+            if aug.get("is_best"):
+                tk.Label(box, text="BEST", bg=bg, fg=fg,
+                         font=self.pix(7)).pack(padx=8, pady=(5, 0))
             tk.Label(box, text=tier, bg=bg, fg=fg,
-                     font=self.pix(11)).pack(padx=10, pady=(5, 2))
+                     font=self.pix(11)).pack(padx=10, pady=(0 if aug.get("is_best") else 5, 2))
             tk.Label(box, text=aug["name"][:22], bg=bg, fg=fg,
                      font=self.mono(9, "bold")).pack(padx=8, pady=(0, 5))
-            if aug.get("is_best"):
-                tk.Label(cell, text="BEST", bg=BG, fg=bg,
-                         font=self.pix(7)).place(relx=0.5, rely=1.0, anchor="s")
+
+            # inaltimea reala a lui box (BEST inclus, daca e cazul) -- fara
+            # asta cell.height ramane pe valoarea implicita si box e taiat
+            box.update_idletasks()
+            cell.configure(height=box.winfo_reqheight())
 
         self.win.update_idletasks()
         x = left + width // 2 - self.win.winfo_width() // 2
         y = max(0, top - ABOVE_CARDS)
         self.win.geometry(f"+{int(x)}+{int(y)}")
+        self.win.attributes("-alpha", 0.88)
         self._key = key
