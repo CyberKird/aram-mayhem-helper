@@ -180,9 +180,11 @@ def match_augments(lines, augment_names, cutoff=0.82):
     hits = {}   # nume -> pozitia in text, ca sa le dam in ordinea de pe ecran
 
     for name, key in keys.items():
-        pos = haystack.find(key)
-        if pos != -1:
-            hits[name] = pos
+        # \b obligatoriu: fara el, "Invulnerability" din magazinul de itemi
+        # continea augmentul "Vulnerability" si il raporta ca oferit
+        m = re.search(rf"\b{re.escape(key)}\b", haystack)
+        if m:
+            hits[name] = m.start()
 
     # Trecerea fuzzy e si scumpa (~130ms) si singura sursa de fals-pozitive,
     # deci o sarim cand potrivirea exacta a gasit deja o oferta plauzibila.
@@ -195,6 +197,13 @@ def match_augments(lines, augment_names, cutoff=0.82):
             n = len(key.split())
             for i in range(len(words) - n + 1):
                 window = " ".join(words[i:i + n])
+                # Diferenta de lungime max 1 caracter. Greselile de OCR sunt
+                # substitutii ("0k" in loc de "ok", "GoIiath" in loc de
+                # "Goliath"), deci pastreaza lungimea. Fara pragul asta,
+                # "Torment" (item din magazin) trecea drept augmentul
+                # "Tormentor" cu scor 0.875, peste cutoff.
+                if abs(len(window) - len(key)) > 1:
+                    continue
                 if difflib.SequenceMatcher(None, window, key).ratio() >= cutoff:
                     hits[name] = haystack.find(window)
                     break

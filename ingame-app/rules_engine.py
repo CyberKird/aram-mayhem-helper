@@ -8,6 +8,16 @@ ca sa nu diveraga cele doua implementari.
 """
 
 
+def item_key(name):
+    """Nume de item -> forma comparabila intre sursele noastre.
+
+    Jocul si u.gg scriu acelasi item diferit: "Blade of The Ruined King" vs
+    "...the...", si uneori apostroful e cel tipografic. Fara normalizare,
+    un item pe care il ai deja parea nedetinut si ajungea recomandat din nou.
+    """
+    return "".join(ch for ch in name.lower() if ch.isalnum())
+
+
 def matches_condition(cond, roster, champion_tags, item_stats=None, categories=None):
     """True daca conditia regulii e indeplinita de compozitia/itemii curenti.
 
@@ -83,9 +93,7 @@ def resolve_build(build, roster, champion_tags, rule_set, item_stats=None):
            for h in evaluate_rules(roster, champion_tags, rule_set,
                                    build.get("pool") or [], item_stats)}
 
-    # jocul scrie "Blade of The Ruined King", u.gg scrie "the" -- comparam
-    # fara majuscule, altfel un item detinut n-ar fi recunoscut niciodata
-    owned = {n.lower() for n in (roster.get("own_items") or [])}
+    owned = {item_key(n) for n in (roster.get("own_items") or [])}
 
     used = set(core)
     picks = []
@@ -98,9 +106,9 @@ def resolve_build(build, roster, champion_tags, rule_set, item_stats=None):
             chosen = next((c for c in candidates if c not in used), candidates[0])
         used.add(chosen)
         picks.append({"item": chosen, "reason": hot.get(chosen),
-                      "owned": chosen.lower() in owned})
+                      "owned": item_key(chosen) in owned})
 
-    core_entries = [{"item": c, "owned": c.lower() in owned} for c in core]
+    core_entries = [{"item": c, "owned": item_key(c) in owned} for c in core]
 
     # primul item neluat din ordinea core -> 4 -> 5 -> 6: exact ce urmeaza
     # sa cumperi acum. Nu schimbam build-ul, doar aratam unde ai ramas.
@@ -144,9 +152,9 @@ def boots_advice(build, roster, hot, item_stats=None):
     if boots in hot:
         return None
 
-    owned_lower = {n.lower() for n in owned}
+    owned_keys = {item_key(n) for n in owned}
     pool = [n for n in (build.get("pool") or [])
-            if n.lower() not in owned_lower
+            if item_key(n) not in owned_keys
             and not (stats.get(n) or {}).get("boots")
             and not (stats.get(n) or {}).get("consumable")
             and not (stats.get(n) or {}).get("component")]

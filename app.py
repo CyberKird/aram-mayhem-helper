@@ -21,7 +21,38 @@ import sys
 import threading
 import tkinter as tk
 
-ROOT = pathlib.Path(__file__).parent
+import augment_bar
+import hotkey
+import settings as settings_mod
+
+HOTKEY_LABEL = "CTRL+ALT+Z"
+
+# Cate itemi din build aratam. Tot build-ul insemna 6 randuri din care 4 erau
+# deja cumparate sau prea departe ca sa conteze acum.
+NEXT_ITEMS = 3
+
+# Fereastra isi ia inaltimea din continut, nu dintr-o valoare fixa. Plafonul
+# exista doar ca sa nu creasca peste ecran daca apare tot deodata.
+MAX_HEIGHT = 620
+
+# Latimi de incadrare pentru textul verde de motiv. Fontul pixel e lat: un
+# motiv de ~50 de caractere masoara 450px, mult peste cat ramane dupa iconita
+# si marginile ferestrei de 372px. Fara ele, textul se taia fara niciun semn.
+REASON_WRAP = 250     # rand cu o singura iconita in fata (2 randuri de text)
+BOOTS_WRAP = 190      # randul de cizme are doua iconite plus sageata
+
+# In exe-ul distribuit (PyInstaller, onefile), codul si datele se extrag
+# intr-un folder temporar la fiecare pornire -- ROOT trebuie sa arate acolo,
+# nu la __file__, care in modul "frozen" nu mai indica locul corect. Pentru
+# fisiere care trebuie sa supravietuiasca inchiderii (jurnalul de erori),
+# folosim in schimb folderul exe-ului propriu-zis.
+if getattr(sys, "frozen", False):
+    ROOT = pathlib.Path(sys._MEIPASS)
+    LOG_DIR = pathlib.Path(sys.executable).parent
+else:
+    ROOT = pathlib.Path(__file__).parent
+    LOG_DIR = ROOT
+
 ICONS = ROOT / "ingame-app" / "data" / "icons"
 FONTS = ROOT / "ingame-app" / "data" / "fonts"
 
@@ -103,6 +134,8 @@ def build_ui(lcu, lcu_mon, ingame, ingame_mon):
     anim = {"cells": [], "step": 0}
     augment_items = ingame.load_json("augment-items.json")
     augment_desc = ingame.load_json("augment-desc.json")
+    item_desc = ingame.load_json("item-desc.json")
+    settings = settings_mod.Settings(LOG_DIR / "settings.json")
 
     family = load_pixel_font()
     pix = lambda size, weight="normal": (family, size, weight)
@@ -115,8 +148,9 @@ def build_ui(lcu, lcu_mon, ingame, ingame_mon):
     root.configure(bg=LINE)
     root.withdraw()
 
-    width, height = 372, 580
-    root.geometry(f"{width}x{height}+{root.winfo_screenwidth() - width - 28}+64")
+    width = 372
+    x, y = settings.pos("panel", (root.winfo_screenwidth() - width - 28, 64))
+    root.geometry(f"{width}x260+{int(x)}+{int(y)}")
 
     # chenarul de 1px: un frame exterior alb cu padding, peste care sta continutul
     shell = tk.Frame(root, bg=BG)
@@ -135,28 +169,38 @@ def build_ui(lcu, lcu_mon, ingame, ingame_mon):
     minimize = tk.Label(titlebar, text="_", bg=BG, fg=LINE, font=pix(8), padx=4)
     minimize.pack(side="right")
 
-    tk.Frame(shell, bg=LINE, height=1).pack(fill="x")
+    divider1 = tk.Frame(shell, bg=LINE, height=1)
+    divider1.pack(fill="x")
 
     # --- randul de context (ce arata acum) -------------------------------
     subbar = tk.Frame(shell, bg=BG)
     subbar.pack(fill="x", padx=8, pady=5)
     context = tk.Label(subbar, text="ASTEPT JOCUL", bg=BG, fg=DIM,
-                       font=pix(6), anchor="w")
+                       font=pix(7), anchor="w")
     context.pack(side="left")
 
-    tk.Frame(shell, bg=LINE, height=1).pack(fill="x")
+    divider2 = tk.Frame(shell, bg=LINE, height=1)
+    divider2.pack(fill="x")
 
     # --- corpul ----------------------------------------------------------
     body = tk.Frame(shell, bg=BG)
     body.pack(fill="both", expand=True, padx=10, pady=8)
 
     # --- subsolul --------------------------------------------------------
-    tk.Frame(shell, bg=LINE, height=1).pack(fill="x")
+    divider3 = tk.Frame(shell, bg=LINE, height=1)
+    divider3.pack(fill="x")
     footer = tk.Frame(shell, bg=BG)
     footer.pack(fill="x", padx=8, pady=6)
-    status_label = tk.Label(footer, text="", bg=BG, fg=DIM, font=pix(6),
+    status_label = tk.Label(footer, text="", bg=BG, fg=DIM, font=pix(7),
                             anchor="w", justify="left", wraplength=340)
     status_label.pack(side="left")
+
+    # piesele astea se ascund cand fereastra e "stransa" la bara de titlu.
+    # NU folosim withdraw() pentru asta -- daca hotkey-ul nu ajunge (de ex.
+    # blocat de un anticheat cand jocul e in prim-plan), o fereastra complet
+    # ascunsa n-are cum sa mai fie adusa inapoi. Bara de titlu ramane mereu
+    # pe ecran si mereu clickabila, indiferent ce se intampla cu hotkey-ul.
+    collapsible = (divider1, subbar, divider2, body, divider3, footer)
 
     # mutarea ferestrei cu mouse-ul: fara bara nativa, o facem noi
     drag = {"x": 0, "y": 0}
@@ -173,10 +217,55 @@ def build_ui(lcu, lcu_mon, ingame, ingame_mon):
 
     # --- caramizile de continut ------------------------------------------
 
+    # --- tooltip la hover -------------------------------------------------
+    # O singura fereastra refolosita, nu una noua la fiecare hover: altfel
+    # Tk ar acumula Toplevel-uri pe toata durata meciului.
+    tip = {"win": None}
+
+    def hide_tip(_=None):
+        if tip["win"] is not None:
+            tip["win"].destroy()
+            tip["win"] = None
+
+    def show_tip(widget, name):
+        hide_tip()
+        text = item_desc.get(name)
+        win = tk.Toplevel(root)
+        win.overrideredirect(True)
+        win.attributes("-topmost", True)
+        win.configure(bg=LINE)
+        inner = tk.Frame(win, bg=BG)
+        inner.pack(padx=1, pady=1)
+        tk.Label(inner, text=name, bg=BG, fg=TEXT, font=mono(13, "bold"),
+                 anchor="w", justify="left").pack(fill="x", padx=8, pady=(6, 0))
+        if text:
+            tk.Label(inner, text=text, bg=BG, fg=DIM, font=mono(11),
+                     anchor="w", justify="left",
+                     wraplength=300).pack(fill="x", padx=8, pady=(4, 6))
+
+        # asezat sub cursor, dar tras inapoi daca ar iesi din ecran -- pe
+        # marginea din dreapta a monitorului, un tooltip ancorat la cursor
+        # ar fi pe jumatate invizibil
+        win.update_idletasks()
+        x = widget.winfo_rootx() + widget.winfo_width() + 8
+        y = widget.winfo_rooty()
+        if x + win.winfo_width() > root.winfo_screenwidth():
+            x = widget.winfo_rootx() - win.winfo_width() - 8
+        if y + win.winfo_height() > root.winfo_screenheight():
+            y = root.winfo_screenheight() - win.winfo_height() - 8
+        win.geometry(f"+{max(0, x)}+{max(0, y)}")
+        tip["win"] = win
+
+    def attach_tip(widget, name):
+        widget.bind("<Enter>", lambda _e, w=widget, n=name: show_tip(w, n))
+        widget.bind("<Leave>", hide_tip)
+
     def section(text):
+        # pady strans: cinci antete luau 85px din 499px de continut, adica
+        # 17% din fereastra doar pentru etichete
         row = tk.Frame(body, bg=BG)
-        row.pack(fill="x", pady=(9, 4))
-        tk.Label(row, text=text, bg=BG, fg=GREEN, font=pix(6),
+        row.pack(fill="x", pady=(6, 3))
+        tk.Label(row, text=text, bg=BG, fg=GREEN, font=pix(7),
                  anchor="w").pack(side="left")
         tk.Frame(row, bg="#1e2a18", height=1).pack(side="left", fill="x",
                                                    expand=True, padx=(6, 0))
@@ -185,7 +274,7 @@ def build_ui(lcu, lcu_mon, ingame, ingame_mon):
         bg, fg = TIER_COLORS.get(tier), TIER_FG.get(tier)
         if bg is None:
             bg, fg = UNKNOWN_TIER
-        return tk.Label(parent, text=tier, bg=bg, fg=fg, font=pix(7),
+        return tk.Label(parent, text=tier, bg=bg, fg=fg, font=pix(8),
                         width=3, height=2)
 
     def tier_row(kind, entry, best_label=None):
@@ -205,14 +294,14 @@ def build_ui(lcu, lcu_mon, ingame, ingame_mon):
 
         texts = tk.Frame(row, bg=CARD)
         texts.pack(side="left", fill="x", expand=True, pady=4)
-        tk.Label(texts, text=entry["name"], bg=CARD, fg=TEXT, font=mono(11, "bold"),
+        tk.Label(texts, text=entry["name"], bg=CARD, fg=TEXT, font=mono(13, "bold"),
                  anchor="w").pack(fill="x")
         # unele augmente ("Upgrade Zhonya's") n-au sens decat daca chiar
         # cumperi itemul din spate -- se vede la momentul alegerii, nu dupa
         needs = augment_items.get(entry["name"])
         if needs:
             tk.Label(texts, text=f"CERE {needs.upper()}", bg=CARD, fg=GREEN,
-                     font=pix(6), anchor="w").pack(fill="x", pady=(3, 0))
+                     font=pix(7), anchor="w").pack(fill="x", pady=(3, 0))
 
         # Fara tier (u.gg nu-l claseaza) aratam ce face, ca sa poti decide tu.
         # Nu inventam un rank: ar arata identic cu unul calculat din meciuri
@@ -220,12 +309,12 @@ def build_ui(lcu, lcu_mon, ingame, ingame_mon):
         if entry["tier"] not in TIER_COLORS:
             what = augment_desc.get(entry["name"])
             tk.Label(texts, text=(what or "neclasat de u.gg")[:110], bg=CARD,
-                     fg=DIM, font=mono(9), anchor="w", justify="left",
+                     fg=DIM, font=mono(10), anchor="w", justify="left",
                      wraplength=250).pack(fill="x", pady=(2, 0))
 
         if is_best and best_label:
             tk.Label(row, text=best_label, bg=CARD, fg=color,
-                     font=pix(6)).pack(side="right", padx=6)
+                     font=pix(7)).pack(side="right", padx=6)
 
     def icon_strip(entries):
         """Iconite una langa alta. Accepta si nume simple, si {item, owned}."""
@@ -244,12 +333,16 @@ def build_ui(lcu, lcu_mon, ingame, ingame_mon):
                 lbl = tk.Label(cell, image=photo, bg=CARD, bd=0)
             else:
                 lbl = tk.Label(cell, text=name[:3].upper(), bg=CARD, fg=DIM,
-                               font=pix(6), width=5, height=3)
+                               font=pix(7), width=5, height=3)
             lbl.pack(padx=2 if is_next else 1, pady=2 if is_next else 1)
+            attach_tip(lbl, name)
 
     def item_row(entry):
-        """Un item din build-ul final: iconita + nume + motivul (daca exista)."""
-        hot = bool(entry["reason"])
+        """Un item de cumparat: iconita + nume + motivul (daca exista).
+
+        Accepta si intrari de core, care n-au cheia "reason" -- de aceea .get.
+        """
+        hot = bool(entry.get("reason"))
         owned = entry.get("owned")
         is_next = entry.get("next")
         outer = tk.Frame(body, bg=GREEN if (hot or is_next) else CARD)
@@ -259,23 +352,28 @@ def build_ui(lcu, lcu_mon, ingame, ingame_mon):
 
         photo = icon("items", entry["item"], 30)
         if photo:
-            tk.Label(row, image=photo, bg=CARD, bd=0).pack(side="left",
-                                                           padx=(4, 7), pady=4)
+            ilbl = tk.Label(row, image=photo, bg=CARD, bd=0)
+            ilbl.pack(side="left", padx=(4, 7), pady=4)
+            attach_tip(ilbl, entry["item"])
         texts = tk.Frame(row, bg=CARD)
         texts.pack(side="left", fill="x", expand=True, pady=4)
         # itemul detinut se stinge: nu mai e o decizie, e istorie
         tk.Label(texts, text=entry["item"], bg=CARD, fg=DIM if owned else TEXT,
-                 font=mono(11, "bold"), anchor="w").pack(fill="x")
+                 font=mono(13, "bold"), anchor="w").pack(fill="x")
         if hot:
+            # wraplength obligatoriu: fontul pixel e lat, iar un motiv lung
+            # ("inamicii se vindeca, nimeni la noi n-are anti-heal" = 400px)
+            # nu incape pe un rand si se taia tacut la marginea ferestrei
             tk.Label(texts, text=entry["reason"].upper(), bg=CARD, fg=GREEN,
-                     font=pix(6), anchor="w").pack(fill="x", pady=(3, 0))
+                     font=pix(7), anchor="w", justify="left",
+                     wraplength=REASON_WRAP).pack(fill="x", pady=(3, 0))
 
         if owned:
             tk.Label(row, text="AI", bg=CARD, fg=DIM,
-                     font=pix(6)).pack(side="right", padx=8)
+                     font=pix(7)).pack(side="right", padx=8)
         elif is_next:
             tk.Label(row, text="URMEAZA", bg=CARD, fg=GREEN,
-                     font=pix(6)).pack(side="right", padx=8)
+                     font=pix(7)).pack(side="right", padx=8)
 
     def boots_row(advice):
         """Vinde cizmele -> ia asta. Apare doar la 6 itemi, nu mai devreme."""
@@ -289,23 +387,27 @@ def build_ui(lcu, lcu_mon, ingame, ingame_mon):
             cell.pack(side="left", padx=(4, 0), pady=4)
             photo = icon("items", name, 28)
             if photo:
-                tk.Label(cell, image=photo, bg=tint, bd=0).pack(padx=1, pady=1)
+                blbl = tk.Label(cell, image=photo, bg=tint, bd=0)
+                blbl.pack(padx=1, pady=1)
+                attach_tip(blbl, name)
             if name == advice["sell"]:
                 tk.Label(row, text="->", bg=CARD, fg=DIM,
-                         font=mono(11, "bold")).pack(side="left", padx=5)
+                         font=mono(13, "bold")).pack(side="left", padx=5)
 
         texts = tk.Frame(row, bg=CARD)
         texts.pack(side="left", fill="x", expand=True, padx=(6, 0), pady=4)
         tk.Label(texts, text=f"VINDE {advice['sell']}", bg=CARD, fg=DIM,
-                 font=pix(6), anchor="w").pack(fill="x")
+                 font=pix(7), anchor="w", justify="left",
+                 wraplength=BOOTS_WRAP).pack(fill="x")
         tk.Label(texts, text=advice["buy"], bg=CARD, fg=TEXT,
-                 font=mono(11, "bold"), anchor="w").pack(fill="x", pady=(2, 0))
+                 font=mono(13, "bold"), anchor="w").pack(fill="x", pady=(2, 0))
         if advice["reason"]:
             tk.Label(texts, text=advice["reason"].upper(), bg=CARD, fg=GREEN,
-                     font=pix(6), anchor="w").pack(fill="x", pady=(3, 0))
+                     font=pix(7), anchor="w", justify="left",
+                     wraplength=BOOTS_WRAP).pack(fill="x", pady=(3, 0))
 
     def note(text, color=DIM):
-        tk.Label(body, text=text, bg=BG, fg=color, font=mono(10), anchor="w",
+        tk.Label(body, text=text, bg=BG, fg=color, font=mono(11), anchor="w",
                  justify="left", wraplength=330).pack(fill="x", pady=6)
 
     def summoner_row(names):
@@ -321,13 +423,13 @@ def build_ui(lcu, lcu_mon, ingame, ingame_mon):
             if photo:
                 tk.Label(inner, image=photo, bg=CARD, bd=0).pack(side="left",
                                                                  padx=4, pady=4)
-            tk.Label(inner, text=name, bg=CARD, fg=TEXT, font=mono(11, "bold")
+            tk.Label(inner, text=name, bg=CARD, fg=TEXT, font=mono(13, "bold")
                      ).pack(side="left", padx=(0, 8), pady=4)
 
     def state_row(label, value, ok):
         row = tk.Frame(body, bg=BG)
         row.pack(fill="x", pady=2)
-        tk.Label(row, text=label, bg=BG, fg=DIM, font=mono(10),
+        tk.Label(row, text=label, bg=BG, fg=DIM, font=mono(11),
                  anchor="w").pack(side="left")
         tk.Label(row, text=value, bg=BG, fg=GREEN if ok else "#9a6b6b",
                  font=mono(10, "bold"), anchor="e").pack(side="right")
@@ -379,6 +481,11 @@ def build_ui(lcu, lcu_mon, ingame, ingame_mon):
         if lcu_mon.error:
             note(lcu_mon.error, "#c07a7a")
 
+        section("SCURTATURA")
+        note(f"{HOTKEY_LABEL} strange fereastra la bara de titlu. Daca nu "
+             f"merge (unele anti-cheat-uri blocheaza taste globale cat "
+             f"jocul e activ), click pe \"_\" din colt face acelasi lucru.")
+
     def render_champ_select():
         title.configure(text="ARAM MAYHEM")
         context.configure(text="CHAMP SELECT  ·  REROLL")
@@ -401,39 +508,40 @@ def build_ui(lcu, lcu_mon, ingame, ingame_mon):
     def render_in_game():
         title.configure(text="ARAM MAYHEM")
         champ = (ingame_mon.roster or {}).get("local_champion") or "?"
-        context.configure(text=f"IN JOC  ·  {champ.upper()}")
-
-        section("AUGMENTE OFERITE")
-        if ingame_mon.augments:
-            # plasa de siguranta a UI-ului: orice ar citi OCR-ul, sectiunea
-            # asta nu are voie sa creasca peste o oferta si sa impinga
-            # build-ul in afara ferestrei
-            for a in ingame_mon.augments[:3]:
-                tier_row("augments", a, "BEST")
-        else:
-            # inainte tacea complet cand OCR-ul nu prindea nimic -- acum
-            # macar se stie DE CE (fereastra negasita / nimic recunoscut),
-            # in loc sa para ca sectiunea asta nu exista deloc
-            note(ingame_mon.ocr_status or "astept oferta de augmente...")
-
         enemies = (ingame_mon.roster or {}).get("enemies") or []
-        if enemies:
-            section(f"INAMICI ({len(enemies)})")
-            note(", ".join(enemies))
+        # inamicii stau in bara de context, nu intr-o sectiune proprie:
+        # lista lor lua 38px, iar informatia o vezi oricum cu TAB in joc.
+        # Ce conteaza cu adevarat -- cum schimba ei build-ul -- apare oricum
+        # ca motiv verde langa itemi.
+        context.configure(text=f"IN JOC  ·  {champ.upper()}"
+                               + (f"  ·  VS {len(enemies)}" if enemies else ""))
 
-        if ingame_mon.resolved_build:
-            if ingame_mon.resolved_build.get("starting"):
+        # Augmentele NU mai apar aici: au banda lor, care se ridica deasupra
+        # cardurilor exact cand ai de ales. Aici ar fi fost tot timpul pe
+        # ecran degeaba, si tot timpul in alt loc decat te uiti.
+
+        rb = ingame_mon.resolved_build
+        if rb:
+            # Starting items conteaza doar la inceput. Din clipa in care ai
+            # primul item de core, sectiunea e 53px de istorie.
+            inceput = not any(c["owned"] for c in rb["core"])
+            if inceput and rb.get("starting"):
                 section("STARTING ITEMS")
-                icon_strip(ingame_mon.resolved_build["starting"])
-            if ingame_mon.resolved_build["core"]:
-                section("CORE")
-                icon_strip(ingame_mon.resolved_build["core"])
-            if ingame_mon.resolved_build["picks"]:
-                section("BUILD FINAL")
-                for entry in ingame_mon.resolved_build["picks"]:
-                    item_row(entry)
+                icon_strip(rb["starting"])
 
-            boots = ingame_mon.resolved_build.get("boots")
+            # Doar ce URMEAZA sa cumperi, in ordine, nu tot build-ul. Cele
+            # deja cumparate nu mai sunt o decizie, iar itemul 6 nu conteaza
+            # cand esti la al doilea.
+            ramase = [e for e in rb["core"] + rb["picks"] if not e["owned"]]
+            if ramase:
+                section("URMATOARELE" if len(ramase) > 1 else "URMATORUL")
+                for entry in ramase[:NEXT_ITEMS]:
+                    item_row(entry)
+            elif rb["picks"]:
+                section("BUILD COMPLET")
+                icon_strip(rb["core"] + rb["picks"])
+
+            boots = rb.get("boots")
             if boots:
                 section("BUILD PLIN")
                 boots_row(boots)
@@ -444,6 +552,7 @@ def build_ui(lcu, lcu_mon, ingame, ingame_mon):
     # --- bucla de improspatare -------------------------------------------
 
     shown = {"view": None, "fingerprint": None}
+    bar = augment_bar.AugmentBar(root, TIER_COLORS, TIER_FG, UNKNOWN_TIER, pix, mono)
 
     def active_view():
         if lcu_mon.phase == "in_mayhem_select":
@@ -477,31 +586,116 @@ def build_ui(lcu, lcu_mon, ingame, ingame_mon):
     render = {"idle": render_idle, "champ_select": render_champ_select,
               "in_game": render_in_game}
 
-    def refresh():
-        view = active_view()
-        if shown["view"] is None:
-            root.deiconify()      # o singura data: de aici incolo ramane pe ecran
+    # pack kwargs originale, ca sa putem re-atasa exact la fel dupa pack_forget
+    COLLAPSIBLE_PACK = [
+        (divider1, {"fill": "x"}),
+        (subbar, {"fill": "x", "padx": 8, "pady": 5}),
+        (divider2, {"fill": "x"}),
+        (body, {"fill": "both", "expand": True, "padx": 10, "pady": 8}),
+        (divider3, {"fill": "x"}),
+        (footer, {"fill": "x", "padx": 8, "pady": 6}),
+    ]
 
+    collapsed = {"want": False, "applied": False}
+
+    def toggle_collapsed():
+        # ruleaza pe firul hotkey-ului, nu pe cel al Tk-ului -- doar o
+        # atribuire simpla de bool, restul se rezolva la urmatorul refresh()
+        collapsed["want"] = not collapsed["want"]
+
+    def refresh():
+        if collapsed["want"] != collapsed["applied"]:
+            for w, kw in COLLAPSIBLE_PACK:
+                w.pack_forget() if collapsed["want"] else w.pack(**kw)
+            collapsed["applied"] = collapsed["want"]
+            # update_idletasks() INAINTE de a citi inaltimea: fara el, Tk
+            # raporteaza dimensiunea "naturala" pe layout-ul vechi (dinaintea
+            # pack_forget), iar fereastra ramane cu un dreptunghi gol dedesubt.
+            # Latimea ramane fixa (width) -- doar geometry("") ar lasa-o sa se
+            # ingusteze si ar muta "_"/"X" in alta parte la fiecare apasare
+            root.update_idletasks()
+            root.geometry(f"{width}x{root.winfo_reqheight()}")
+
+        # Banda de augmente traieste separat de panou: apare deasupra
+        # cardurilor cand ai de ales si dispare imediat dupa. O actualizam
+        # chiar si cand panoul e strans -- exact atunci ai nevoie de ea.
+        try:
+            import ocr_augments as _ocr
+            import win32gui as _w32
+            hwnd = _ocr.find_game_window()
+            if (ingame_mon.augments and hwnd
+                    and _w32.GetForegroundWindow() == hwnd):
+                bar.show(ingame_mon.augments, _ocr.offer_region(_w32.GetWindowRect(hwnd)))
+            else:
+                bar.hide()
+        except Exception:
+            bar.hide()   # banda e un plus; daca da gres, nu opreste aplicatia
+
+        if collapsed["want"]:
+            root.after(500, refresh)
+            return
+
+        view = active_view()
         fp = fingerprint(view)
         if view != shown["view"] or fp != shown["fingerprint"]:
             shown["view"] = view
             shown["fingerprint"] = fp
+            # tooltip-ul e ancorat de un widget care tocmai dispare: fara
+            # asta ar ramane agatat pe ecran dupa redesenare
+            hide_tip()
             for w in body.winfo_children():
                 w.destroy()
             anim["cells"] = []    # celulele tocmai au fost distruse
             render[view]()
             status_label.configure(text=(ingame_mon.status or "").upper())
 
+            fit_height()
+
         root.after(500, refresh)
+
+    def fit_height():
+        """Inaltimea urmeaza continutul, nu o valoare fixa.
+
+        Apelata si dupa mesajele care apar mai tarziu (avertismentul de
+        hotkey): altfel fereastra ramane dimensionata pe continutul de
+        dinainte si taie ultimul rand.
+        """
+        root.update_idletasks()
+        root.geometry(f"{width}x{min(root.winfo_reqheight(), MAX_HEIGHT)}")
 
     def close_app():
         lcu_mon.stop.set()
         ingame_mon.stop.set()
+        bar.hide()          # banda e alta fereastra; altfel ramane pe ecran
         root.destroy()
 
     close.bind("<Button-1>", lambda _: close_app())
+    minimize.bind("<Button-1>", lambda _: toggle_collapsed())
     root.bind("<Escape>", lambda _: close_app())
     root.protocol("WM_DELETE_WINDOW", close_app)
+
+    # pozitia ferestrei se retine intre sesiuni: o asezi o data unde vrei
+    def remember_pos(_=None):
+        settings.set_pos("panel", root.winfo_x(), root.winfo_y())
+
+    for widget in (titlebar, title, subbar, context):
+        widget.bind("<ButtonRelease-1>", remember_pos, add="+")
+
+    listener = hotkey.HotkeyListener(toggle_collapsed, modifiers=hotkey.MOD_CONTROL | hotkey.MOD_ALT,
+                                     vk=hotkey.VK["Z"])
+    listener.start()
+    root._hotkey_listener = listener   # referinta vie, altfel firul poate fi colectat
+
+    def check_hotkey_registered():
+        if listener.registered is False:
+            status_label.configure(
+                text=f"{HOTKEY_LABEL} ocupat -- foloseste \"_\" din titlu")
+            fit_height()
+        elif listener.registered is None:
+            root.after(300, check_hotkey_registered)   # inca n-a apucat sa se inregistreze
+    root.after(300, check_hotkey_registered)
+
+    root.deiconify()
     refresh()
     animate()
     return root
@@ -612,4 +806,21 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    # exe-ul distribuit ruleaza fara consola (--windowed): fara asta, o
+    # eroare neasteptata inseamna doar ca fereastra dispare, fara niciun
+    # indiciu pentru cineva care nu are de unde sa stie ce s-a intamplat.
+    try:
+        main()
+    except Exception:
+        import traceback
+        log = LOG_DIR / "eroare.log"
+        log.write_text(traceback.format_exc(), encoding="utf-8")
+        try:
+            ctypes.windll.user32.MessageBoxW(
+                0,
+                f"ARAM Mayhem Helper a intampinat o eroare.\n\n"
+                f"Detaliile sunt salvate in:\n{log}",
+                "ARAM Mayhem Helper", 0x10)
+        except Exception:
+            pass
+        raise

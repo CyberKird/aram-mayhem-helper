@@ -14,8 +14,6 @@ import json
 import pathlib
 import re
 
-from playwright.sync_api import sync_playwright
-
 DATA = pathlib.Path(__file__).with_name("data")
 SPRITES = json.loads((DATA / "item-sprites.json").read_text(encoding="utf-8"))
 BUILDS_DIR = DATA / "builds"
@@ -98,7 +96,15 @@ def load_cached(champion):
 
 
 def scrape(champion, headless=True):
-    """Build-ul unui campion de pe u.gg. Scrie in cache si intoarce dict-ul."""
+    """Build-ul unui campion de pe u.gg. Scrie in cache si intoarce dict-ul.
+
+    Playwright se importa aici, nu la nivelul modulului: load_cached() si
+    cache_path() sunt folosite de aplicatia normala (fara scraping deloc),
+    iar un import la nivel de modul ar cere Playwright instalat si pentru
+    cine doar citeste cache-ul deja adus -- inclusiv exe-ul distribuit.
+    """
+    from playwright.sync_api import sync_playwright
+
     url = f"https://u.gg/lol/champions/aram/{slug(champion)}-aram"
 
     with sync_playwright() as p:

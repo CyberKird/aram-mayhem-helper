@@ -97,7 +97,8 @@ class Monitor:
         self._last_augments = ()
         self._empty_reads = 0
         self._offer_since = 0.0
-        self._expired_offer = None
+        self._expired_names = set()
+        self._offer_pool = {}
 
     def run(self):
         threading.Thread(target=self._run_roster, daemon=True).start()
@@ -156,35 +157,64 @@ class Monitor:
         # afisata la nesfarsit si impingea build-ul in afara ferestrei
         if not found:
             self._empty_reads += 1
-            if self._empty_reads >= 2 and self.augments:
+            if self._empty_reads >= 2 and (self.augments or self._offer_pool):
                 self.augments = []
+                self._offer_pool = {}
                 self._last_augments = ()
+                # oferta a disparut de pe ecran: de aici incolo, aceleasi
+                # nume inseamna o oferta noua, nu una expirata
+                self._expired_names = set()
             return
         self._empty_reads = 0
 
-        champ = (self.roster or {}).get("local_champion")
-        key = (tuple(sorted(found)), champ)
+        # Numele dintr-o oferta deja expirata raman ignorate pana cand ecranul
+        # chiar se goleste. Tinem minte NUMELE, nu cheia ofertei: cheia se
+        # schimba pe masura ce se aduna carduri, iar cele vechi s-ar fi
+        # strecurat inapoi in oferta urmatoare.
+        fresh = [n for n in found if n not in self._expired_names]
+        if not fresh:
+            return
 
-        if key == self._expired_offer:
-            return   # deja am hotarat ca oferta asta e veche, nu o reinviem
+        now = time.monotonic()
+
+        # O oferta are exact 3 carduri. Daca apare un al PATRULEA nume nou,
+        # inseamna ca oferta s-a schimbat (reroll), nu ca am citit mai bine
+        # aceleasi carduri -- si atunci pornim un bazin nou. Fara asta,
+        # augmentele vechi ramaneau primele si le taiau pe cele noi.
+        noi = [n for n in fresh if n not in self._offer_pool]
+        if noi and len(self._offer_pool) >= ocr_augments.MAX_OFFER:
+            self._offer_pool = {}
+
+        if not self._offer_pool:
+            self._offer_since = now      # abia acum incepe o oferta noua
+
+        # OCR-ul citeste de fiecare data alt subset din aceleasi 3 carduri:
+        # fontul e decorativ, cardurile au animatie de aparitie, iar unele
+        # nume ies mai greu. Le ADUNAM, nu le inlocuim -- altfel lista sarea
+        # de la o citire la alta si nu vedeai niciodata toate trei deodata.
+        for name in fresh:
+            self._offer_pool.setdefault(name, now)
+
+        champ = (self.roster or {}).get("local_champion")
+        names = sorted(self._offer_pool, key=self._offer_pool.get)[:ocr_augments.MAX_OFFER]
+        key = (tuple(sorted(names)), champ)
 
         if key == self._last_augments:
             # Aceleasi nume, de prea mult timp: o oferta se rezolva in cateva
             # secunde (jocul alege singur daca nu apuci tu), deci daca inca le
             # citim dupa OFFER_TTL inseamna ca a ramas ceva pe ecran, nu ca
             # mai ai de ales. Le ascundem ca sa nu acopere build-ul.
-            if time.monotonic() - self._offer_since > OFFER_TTL:
-                self._expired_offer = key
+            if now - self._offer_since > OFFER_TTL:
+                self._expired_names = set(self._offer_pool)
                 self.augments = []
+                self._offer_pool = {}
                 self._last_augments = ()
                 self.ocr_status = "oferta veche, ascunsa"
             return
 
         self._last_augments = key
-        self._offer_since = time.monotonic()
-        self._expired_offer = None
         # campionul conteaza: acelasi augment poate fi S+ pe unul si B pe altul
-        self.augments = augment_tier.rate(found, self.global_augments, champ)
+        self.augments = augment_tier.rate(names, self.global_augments, champ)
 
     def _recompute_build(self):
         if not self.roster or not self.build or not self.build.get("pool"):
@@ -204,7 +234,8 @@ class Monitor:
         self._last_augments = ()
         self._empty_reads = 0
         self._offer_since = 0.0
-        self._expired_offer = None
+        self._expired_names = set()
+        self._offer_pool = {}
         self._known_champion = None
         self.status = ""
 
@@ -395,6 +426,29 @@ def selfcheck():
     assert set(matched) >= {"Goliath", "Multishot"}, matched
     assert ocr_augments.match_augments(["abc", "xyz"], names) == []
 
+    # Ecrane reale care NU sunt oferte de augmente. Magazinul de itemi era
+    # cel mai inselator: "Invulnerability" contine augmentul "Vulnerability",
+    # iar itemul "Liandry's Torment" semana fuzzy cu augmentul "Tormentor".
+    # Cum oferta se aduna si e taiata la 3, gunoiul asta impingea afara
+    # augmentele adevarate.
+    magazin = ("Stormsurge Zhonya's Hourglass 2800 Burst Damage Good Against: "
+               "3250 Invulnerability SELL UNDO PURCHASE COMPONENTS "
+               "Liandry's Torment 3000 60 Ability Power 300 Health Torment "
+               "Damaging Abilities burn enemies")
+    assert ocr_augments.match_augments([magazin], names) == [], \
+        ocr_augments.match_augments([magazin], names)
+
+    scoreboard = "28 66 18 7/5/7 5/7/7 e 1 34 x' 40 Grimoire CyberKird 13 69 19"
+    assert ocr_augments.match_augments([scoreboard], names) == []
+
+    # ...dar o oferta adevarata trebuie sa treaca intreaga, inclusiv cand OCR
+    # citeste "0k" cu cifra zero in loc de "Ok"
+    oferta = ("Phenomenal Evil Damage Permanently gain 1 Ability Power when you "
+              "damage enemy champions with Abilities. 0k Boomerang Damage "
+              "Autocast throw a boomerang at a nearby enemy every 1 Os.")
+    assert ocr_augments.match_augments([oferta], names) == \
+        ["Phenomenal Evil", "Ok Boomerang"], ocr_augments.match_augments([oferta], names)
+
     # normalizare nume interne -> afisate
     raw = {"allies": ["Sett"], "enemies": ["MonkeyKing", "FiddleSticks"],
            "local_champion": "Sett"}
@@ -509,6 +563,20 @@ def selfcheck():
     assert not (item_stats.get(adv["buy"]) or {}).get("component"), adv
     assert not (item_stats.get(adv["buy"]) or {}).get("boots"), adv
 
+    # ...si NICIODATA ceva ce ai deja, oricum ar fi scris numele. Jocul si
+    # u.gg difera prin majuscule si apostrof, iar fara normalizare itemul
+    # detinut parea nou si era recomandat inca o data (bug raportat in joc).
+    assert rules_engine.item_key("Blade of The Ruined King") == \
+        rules_engine.item_key("Blade of the Ruined King")
+    assert rules_engine.item_key("Luden's Echo") == rules_engine.item_key("Luden’s Echo")
+
+    variante = ["Heartsteel", "MERCURY'S TREADS", "Overlord's Bloodmail",
+                "Warmog's Armor", "Sterak's Gage", "THORNMAIL"]
+    adv2 = boots_for(["Jinx", "Vayne", "Ashe"], variante)
+    if adv2:
+        detinute = {rules_engine.item_key(n) for n in variante}
+        assert rules_engine.item_key(adv2["buy"]) not in detinute, adv2
+
     # o oferta care ramane pe ecran la nesfarsit trebuie sa se stinga singura,
     # altfel acopera build-ul pana dai alt-tab (bug raportat in joc)
     global OFFER_TTL
@@ -530,6 +598,44 @@ def selfcheck():
         oferta[:] = ["Dual Wield"]            # oferta noua: trebuie sa reapara
         mon._ocr_cycle()
         assert [a["name"] for a in mon.augments] == ["Dual Wield"], mon.augments
+
+        # OCR-ul vede alt subset la fiecare citire din aceleasi carduri.
+        # Trebuie ADUNATE, nu inlocuite: altfel lista sare intre variante si
+        # nu vezi niciodata toate trei deodata (bug raportat in joc).
+        OFFER_TTL = real_ttl
+        mon2 = Monitor(champ_id_map, champion_tags, rules, global_augments)
+        mon2.roster = {"local_champion": None}
+        citiri = [["Goliath", "Multishot"], ["Goliath", "Overloaded"],
+                  ["Multishot"]]
+        it = iter(citiri)
+        ocr_augments.detect_offered_augments = lambda names, **k: (next(it, []), "t")
+        for _ in citiri:
+            mon2._ocr_cycle()
+        vazute = {a["name"] for a in mon2.augments}
+        assert vazute == {"Goliath", "Multishot", "Overloaded"}, vazute
+
+        # ...dar dispar cand oferta chiar se termina
+        ocr_augments.detect_offered_augments = lambda names, **k: ([], "gol")
+        mon2._ocr_cycle()
+        mon2._ocr_cycle()
+        assert mon2.augments == [], mon2.augments
+
+        # REROLL: augmente complet noi trebuie sa inlocuiasca bazinul, nu sa
+        # se adauge dupa el. Altfel cele vechi ramaneau primele si le taiau
+        # pe cele noi la MAX_OFFER (bug raportat in joc).
+        mon3 = Monitor(champ_id_map, champion_tags, rules, global_augments)
+        mon3.roster = {"local_champion": None}
+        secventa = [["Goliath", "Multishot"], ["Goliath", "Overloaded"],
+                    ["Dual Wield", "Tap Dancer"]]
+        it3 = iter(secventa)
+        ocr_augments.detect_offered_augments = lambda names, **k: (next(it3, []), "t")
+        mon3._ocr_cycle()
+        mon3._ocr_cycle()
+        assert len(mon3.augments) == 3, mon3.augments      # s-au adunat
+        mon3._ocr_cycle()                                   # reroll
+        dupa = [a["name"] for a in mon3.augments]
+        assert dupa == ["Dual Wield", "Tap Dancer"], dupa
+        assert "Goliath" not in dupa, "augmentele vechi au ramas dupa reroll"
     finally:
         OFFER_TTL = real_ttl
         ocr_augments.detect_offered_augments = real_detect

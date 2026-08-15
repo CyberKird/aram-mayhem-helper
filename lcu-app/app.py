@@ -111,19 +111,26 @@ class Monitor:
         self._read_session(session)
 
     def _dump_session_once(self, session):
-        """Salveaza o data pe rulare sesiunea bruta de champ select.
+        """Salveaza sesiunea bruta de champ select, pentru diagnostic.
 
-        Mayhem ofera uneori 2-3 "carti" de campion, si nu stim inca in ce
-        camp le tine clientul -- parse_bench acopera doar bench-ul clasic.
-        Fara o sesiune reala pe disc am ghici numele campului, ceea ce e
-        exact felul de presupunere care strica lucruri.
+        Mayhem ofera 2-3 "carti" de campion (fara bench, fara reroll) si nu
+        stim inca in ce camp le tine clientul. Prima captura a prins doar
+        momentul zero (nimeni nu alesese, benchChampions gol), deci scriem la
+        FIECARE ciclu, nu o singura data: cartile apar dupa cateva secunde.
+
+        Salvam si /pickable-champion-ids: `allowSubsetChampionPicks` era
+        true in sesiune, deci lista restransa e cel mai probabil acolo.
         """
-        if self._dumped:
-            return
-        self._dumped = True
         try:
+            snap = {"session": session}
+            if self._client is not None:
+                for ep in ("/lol-champ-select/v1/pickable-champion-ids",
+                           "/lol-champ-select/v1/bannable-champion-ids"):
+                    got = self._client.get(ep)
+                    if got is not None:
+                        snap[ep.rsplit("/", 1)[-1]] = got
             path = pathlib.Path(__file__).with_name("_champselect.json")
-            path.write_text(json.dumps(session, indent=1, ensure_ascii=False),
+            path.write_text(json.dumps(snap, indent=1, ensure_ascii=False),
                             encoding="utf-8")
         except OSError:
             pass

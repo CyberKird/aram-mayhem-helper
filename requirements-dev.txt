@@ -1,0 +1,5 @@
+# In plus fata de requirements.txt, doar daca vrei sa REGENEREZI datele
+# (prefetch_builds.py, build_champion_augments.py, build_icons.py,
+# build_item_stats.py). Utilizatorii obisnuiti nu au nevoie de astea.
+-r requirements.txt
+playwright>=1.62.0

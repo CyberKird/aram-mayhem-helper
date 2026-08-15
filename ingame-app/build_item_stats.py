@@ -16,6 +16,7 @@ import urllib.request
 
 OUT = pathlib.Path(__file__).with_name("data") / "item-stats.json"
 AUG_OUT = pathlib.Path(__file__).with_name("data") / "augment-items.json"
+DESC_OUT = pathlib.Path(__file__).with_name("data") / "item-desc.json"
 DDRAGON = "https://ddragon.leagueoflegends.com"
 HEADERS = {"User-Agent": "Mozilla/5.0"}
 
@@ -60,6 +61,24 @@ def build_augment_items(item_names):
         if item:
             out[aug] = item
     return out
+
+
+def item_text(item):
+    """Descrierea itemului asa cum o vezi in joc, ca text simplu.
+
+    Data Dragon o da ca HTML (<stats>, <attention>, <passive>, <br>). Pastram
+    structura pe randuri, ca sa fie citibila intr-un tooltip, si scoatem
+    restul etichetelor.
+    """
+    import re
+
+    html = item.get("description") or ""
+    html = re.sub(r"</?(mainText|stats|attention|scale\w*)>", "", html)
+    html = html.replace("<br>", "\n")
+    html = re.sub(r"<(passive|active|rules|rarity\w*)>", "\n", html)
+    html = re.sub(r"<[^>]+>", "", html)
+    html = re.sub(r"\n{3,}", "\n\n", html)
+    return "\n".join(line.strip() for line in html.split("\n")).strip()
 
 
 def main():
@@ -115,6 +134,19 @@ def main():
     counts = {k: sum(1 for v in out.values() if k in v)
               for k in ("armor", "mr", "hp", "heal")}
     print(f"patch {version}: {len(out)} itemi cu stat defensiv {counts}")
+
+    # descrierile pentru tooltip la hover: le vrem pentru orice item care
+    # poate aparea in overlay, nu doar pentru cele cu stat defensiv
+    desc = {}
+    for it in items.values():
+        name = it.get("name")
+        if name:
+            text = item_text(it)
+            if text:
+                desc.setdefault(name, text)
+    DESC_OUT.write_text(json.dumps(desc, indent=1, sort_keys=True, ensure_ascii=False),
+                        encoding="utf-8")
+    print(f"descrieri de item: {len(desc)}")
 
     augs = build_augment_items({it["name"] for it in items.values() if it.get("name")})
     AUG_OUT.write_text(json.dumps(augs, indent=1, sort_keys=True, ensure_ascii=False),

@@ -1,0 +1,10 @@
+# Ce ii trebuie unui utilizator ca sa RULEZE aplicatia.
+# Datele (build-uri, tier-uri, iconite) vin gata in repo, deci nu e nevoie
+# nici de playwright, nici de un browser: alea sunt doar pentru scripturile
+# build_*.py, care se ruleaza la patch nou (vezi requirements-dev.txt).
+requests>=2.31.0
+psutil>=5.9.0
+mss>=10.0.0
+pillow>=10.0.0
+winsdk>=1.0.0b10
+pywin32>=311
