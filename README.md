@@ -21,18 +21,35 @@ Augmentele oferite nu au niciun API. Se citesc prin OCR nativ Windows (`Windows.
 
 Build-urile de itemi vin din scraping pe u.gg (ARAM, nu exista date separate de Mayhem pentru itemi). Tier-urile de augment vin tot de pe u.gg, per campion cand exista, altfel din lista globala a modului.
 
-## Instalare
+## Instalare (exe)
+
+1. Deschide [Releases](../../releases) si descarca `ARAM-Mayhem-Helper.exe`.
+2. Dublu-click. Gata. Fara Python, fara instalare, totul e inclus in exe.
+
+Windows SmartScreen poate avertiza la prima rulare (exe-ul nu e semnat): `More info` -> `Run anyway`.
+
+## Instalare din sursa (alternativa)
+
+1. Descarca proiectul: butonul verde `Code` -> `Download ZIP`, apoi dezarhiveaza.
+2. Dublu-click pe `INSTALL.bat` (sau direct pe `START.bat`, care porneste instalarea singur daca lipseste venv-ul).
+
+Instalatorul face tot: instaleaza Python daca lipseste (via winget), creeaza mediul virtual, pune dependentele, ruleaza selfcheck-ul de verificare si lasa o scurtatura `ARAM Mayhem Helper` pe desktop. O singura data, dureaza ~2 minute. Datele (build-uri, tier-uri, iconite) vin deja in repo, nu trebuie descarcate separat.
+
+## Verificare
 
 ```bash
-cd aram-mayhem-helper
-python -m venv .venv
-.venv\Scripts\pip install -r lcu-app\requirements.txt -r ingame-app\requirements.txt
-.venv\Scripts\python -m playwright install chromium
+.venv\Scripts\python app.py --selfcheck
 ```
 
-Apoi aduci datele (o singura data, sau la fiecare patch):
+Ruleaza logica pura offline (fara League pornit), inclusiv acoperirea de iconite si testele de regresie pe reguli.
+
+## Pentru dezvoltatori: regenerarea datelor
+
+Doar daca vrei sa reiei scraping-ul dupa un patch (build-uri, tier-uri de augment):
 
 ```bash
+.venv\Scripts\python -m pip install -r requirements-dev.txt
+.venv\Scripts\python -m playwright install chromium
 cd ingame-app
 ..\.venv\Scripts\python prefetch_builds.py --all --headed
 ..\.venv\Scripts\python build_champion_augments.py --headed
@@ -42,21 +59,14 @@ cd ingame-app
 
 `--headed` conteaza: Cloudflare blocheaza uneori Chromium headless.
 
-## Rulare
+## Pentru dezvoltatori: construirea exe-ului
 
 ```bash
-python app.py
+.venv\Scripts\python -m pip install -r requirements-dev.txt
+.venv\Scripts\pyinstaller aram_mayhem_helper.spec --noconfirm --clean
 ```
 
-Sau foloseste scurtatura `START.bat` din radacina proiectului.
-
-## Verificare
-
-```bash
-python app.py --selfcheck
-```
-
-Ruleaza logica pura offline (fara League pornit), inclusiv acoperirea de iconite si testele de regresie pe reguli.
+Rezultatul e `dist\ARAM-Mayhem-Helper.exe`. Dupa build, verifica-l cu `dist\ARAM-Mayhem-Helper.exe --selfcheck` si publica-l ca asset intr-un Release.
 
 ## Ce NU face
 
