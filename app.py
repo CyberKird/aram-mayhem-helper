@@ -552,7 +552,43 @@ def build_ui(lcu, lcu_mon, ingame, ingame_mon):
     # --- bucla de improspatare -------------------------------------------
 
     shown = {"view": None, "fingerprint": None}
-    bar = augment_bar.AugmentBar(root, TIER_COLORS, TIER_FG, UNKNOWN_TIER, pix, mono)
+
+    def took_augment(name):
+        """Click pe o insigna: augmentul asta e al meu, reasaza build-ul."""
+        if name not in ingame_mon.taken_augments:
+            ingame_mon.taken_augments.append(name)
+            ingame_mon._recompute_build()
+            shown["fingerprint"] = None      # forteaza redesenarea panoului
+
+    bar = augment_bar.AugmentBar(root, TIER_COLORS, TIER_FG, UNKNOWN_TIER,
+                                 pix, mono, on_pick=took_augment)
+
+    # Stat Anvil: acelasi fel de banda, deasupra acelorasi carduri, doar ca
+    # "tier"-ul e statul oferit si culoarea spune doar daca e alegerea buna --
+    # nu exista tier list public pentru shard-uri, deci n-avem ce rank sa aratam.
+    ANVIL_BEST, ANVIL_REST = "#a4e82c", "#2a2f28"
+    anvil_bar = augment_bar.AugmentBar(root, {}, {}, (ANVIL_REST, "#9aa895"),
+                                       pix, mono)
+
+    # nume lung de card -> eticheta scurta care incape in insigna
+    ANVIL_LABEL = {
+        "haste": "HASTE", "ap": "AP", "ad": "AD", "as": "AS", "crit": "CRIT",
+        "hp": "HP", "armor": "ARMOR", "mr": "MR", "pen_ad": "PEN AD",
+        "pen_ap": "PEN AP", "hybrid_dmg": "AD+AP", "hybrid_utility": "AS+AH",
+        "hybrid_defense": "AR+MR", "mobility": "MS", "sustain": "OMNIVAMP",
+        "heal_power": "HEAL", "cc_resist": "TENACITY",
+    }
+
+    def anvil_entries(shards):
+        """Shard-uri -> forma pe care o stie AugmentBar, plus culorile lor."""
+        entries, colors, fgs = [], {}, {}
+        for s in shards:
+            label = ANVIL_LABEL.get(s["category"], s["category"].upper())
+            colors[label] = ANVIL_BEST if s["is_best"] else ANVIL_REST
+            fgs[label] = "#182b00" if s["is_best"] else "#9aa895"
+            entries.append({"name": s["name"].replace(" Shard", ""),
+                            "tier": label, "is_best": s["is_best"]})
+        return entries, colors, fgs
 
     def active_view():
         if lcu_mon.phase == "in_mayhem_select":
@@ -623,13 +659,25 @@ def build_ui(lcu, lcu_mon, ingame, ingame_mon):
             import ocr_augments as _ocr
             import win32gui as _w32
             hwnd = _ocr.find_game_window()
-            if (ingame_mon.augments and hwnd
-                    and _w32.GetForegroundWindow() == hwnd):
-                bar.show(ingame_mon.augments, _ocr.offer_region(_w32.GetWindowRect(hwnd)))
+            focused = bool(hwnd) and _w32.GetForegroundWindow() == hwnd
+            region = _ocr.offer_region(_w32.GetWindowRect(hwnd)) if focused else None
+
+            if ingame_mon.augments and focused:
+                bar.show(ingame_mon.augments, region)
             else:
                 bar.hide()
+
+            # Stat Anvil si oferta de augment nu apar niciodata deodata, deci
+            # a doua banda foloseste aceeasi zona fara sa se suprapuna.
+            if ingame_mon.stat_anvil and focused and not ingame_mon.augments:
+                entries, colors, fgs = anvil_entries(ingame_mon.stat_anvil)
+                anvil_bar.colors, anvil_bar.fg_colors = colors, fgs
+                anvil_bar.show(entries, region)
+            else:
+                anvil_bar.hide()
         except Exception:
             bar.hide()   # banda e un plus; daca da gres, nu opreste aplicatia
+            anvil_bar.hide()
 
         if collapsed["want"]:
             root.after(500, refresh)
@@ -667,6 +715,7 @@ def build_ui(lcu, lcu_mon, ingame, ingame_mon):
         lcu_mon.stop.set()
         ingame_mon.stop.set()
         bar.hide()          # banda e alta fereastra; altfel ramane pe ecran
+        anvil_bar.hide()
         root.destroy()
 
     close.bind("<Button-1>", lambda _: close_app())
@@ -796,6 +845,7 @@ def main():
         ingame.load_json("item-rules.json"),
         ingame.load_json("augments-global.json"),
         ingame.load_json("item-stats.json"),
+        ingame.load_json("augment-items.json"),
     )
     ingame_mon.run()
 

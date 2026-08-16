@@ -24,7 +24,9 @@ import time
 import augment_tier
 import live_client
 import ocr_augments
+import ocr_stat_anvil
 import rules_engine
+import stat_anvil
 from build_scraper import load_cached
 
 DATA = pathlib.Path(__file__).with_name("data")
@@ -76,13 +78,18 @@ class Monitor:
     """
 
     def __init__(self, champ_id_map, champion_tags, rules, global_augments,
-                 item_stats=None):
+                 item_stats=None, augment_items=None):
         self.champ_id_map = champ_id_map
         self.champion_tags = champion_tags
         self.rules = rules
         self.item_stats = item_stats or {}
         self.global_augments = global_augments
+        self.augment_items = augment_items or {}
         self.augment_names = augment_tier.flatten_names(global_augments)
+        # augmentele confirmate de tine (click pe banda). Nu se pot citi de
+        # nicaieri: Riot nu expune alegerea, iar din oferta nu se poate deduce
+        # care din cele 3 ai luat. Un click e mai sigur decat orice ghicit.
+        self.taken_augments = []
 
         self.stop = threading.Event()
         self.phase = "waiting_for_game"   # waiting_for_game | in_game
@@ -92,6 +99,7 @@ class Monitor:
         self.augments = []           # ultimele augmente detectate pe ecran
         self.ocr_status = ""         # de ce e goala lista de mai sus, daca e
         self.status = ""
+        self.stat_anvil = []         # shard-urile oferite acum, cu recomandare
 
         self._known_champion = None
         self._last_augments = ()
@@ -99,6 +107,8 @@ class Monitor:
         self._offer_since = 0.0
         self._expired_names = set()
         self._offer_pool = {}
+        self._stat_anvil_tick = 0
+        self._last_stat_anvil = ()
 
     def run(self):
         threading.Thread(target=self._run_roster, daemon=True).start()
@@ -127,6 +137,12 @@ class Monitor:
                     # inainte disparea tacut; acum macar UI-ul poate arata
                     # ca OCR-ul chiar a picat, in loc sa para ca nu face nimic
                     self.ocr_status = f"OCR: {type(e).__name__}: {e}"
+                try:
+                    self._stat_anvil_cycle()
+                except Exception:
+                    # ecranul de anvil e un plus; daca pica, oferta de augment
+                    # (care are countdown) trebuie sa mearga mai departe
+                    self.stat_anvil = []
             self.stop.wait(1.2)
 
     def _roster_cycle(self):
@@ -216,13 +232,38 @@ class Monitor:
         # campionul conteaza: acelasi augment poate fi S+ pe unul si B pe altul
         self.augments = augment_tier.rate(names, self.global_augments, champ)
 
+    def _stat_anvil_cycle(self):
+        # Stat Anvil nu are countdown care te forteaza sa alegi repede (spre
+        # deosebire de augment), deci nu are rost sa cheltuim OCR la fel de
+        # des -- verificam o data la 3 cicluri (~3.6s) si doar cand nu e deja
+        # o oferta de augment pe ecran (nu pot fi amandoua deodata).
+        self._stat_anvil_tick += 1
+        if self.augments or self._stat_anvil_tick % 3 != 0:
+            return
+
+        found, status = ocr_stat_anvil.detect_offered_shards(stat_anvil.SHARD_NAMES)
+        if not found:
+            if self.stat_anvil:
+                self.stat_anvil = []
+                self._last_stat_anvil = ()
+            return
+
+        key = tuple(found)
+        if key == self._last_stat_anvil:
+            return
+        self._last_stat_anvil = key
+
+        champ = (self.roster or {}).get("local_champion")
+        enemies = (self.roster or {}).get("enemies") or []
+        self.stat_anvil = stat_anvil.recommend(found, self.champion_tags, champ, enemies)
+
     def _recompute_build(self):
         if not self.roster or not self.build or not self.build.get("pool"):
             self.resolved_build = None
             return
         self.resolved_build = rules_engine.resolve_build(
             self.build, self.roster, self.champion_tags, self.rules,
-            self.item_stats)
+            self.item_stats, self.taken_augments, self.augment_items)
 
     def _reset(self):
         self.phase = "waiting_for_game"
@@ -231,11 +272,15 @@ class Monitor:
         self.resolved_build = None
         self.augments = []
         self.ocr_status = ""
+        self.stat_anvil = []
         self._last_augments = ()
         self._empty_reads = 0
         self._offer_since = 0.0
         self._expired_names = set()
         self._offer_pool = {}
+        self._stat_anvil_tick = 0
+        self._last_stat_anvil = ()
+        self.taken_augments = []   # meci nou, augmente noi
         self._known_champion = None
         self.status = ""
 
@@ -576,6 +621,73 @@ def selfcheck():
     if adv2:
         detinute = {rules_engine.item_key(n) for n in variante}
         assert rules_engine.item_key(adv2["buy"]) not in detinute, adv2
+
+    # --- augment care cere un item anume --------------------------------
+    aug_items = load_json("augment-items.json")
+    gol_roster = {"allies": [], "enemies": [], "enemy_items": [],
+                  "ally_items": [], "own_items": []}
+
+    fara = rules_engine.resolve_build(build, gol_roster, champion_tags, rules,
+                                      item_stats)
+    cu = rules_engine.resolve_build(build, gol_roster, champion_tags, rules,
+                                    item_stats, ["Upgrade Zhonya's"], aug_items)
+    assert cu["core"][0]["item"] == "Zhonya's Hourglass", cu["core"][:2]
+    assert cu["core"][0]["next"], "itemul cerut de augment trebuie sa fie urmatorul"
+    assert fara["core"][0]["item"] != "Zhonya's Hourglass", \
+        "fara augment n-avea ce cauta acolo"
+
+    # nu apare de doua ori daca era oricum in build
+    cu_dublu = rules_engine.resolve_build(
+        build, gol_roster, champion_tags, rules, item_stats,
+        ["Upgrade " + build["core"][0]], {"Upgrade " + build["core"][0]: build["core"][0]})
+    nume = [e["item"] for e in cu_dublu["core"] + cu_dublu["picks"]]
+    assert nume.count(build["core"][0]) == 1, nume
+
+    # un item pe care il ai deja nu se mai cere
+    detin = rules_engine.resolve_build(
+        build, dict(gol_roster, own_items=["Zhonya's Hourglass"]),
+        champion_tags, rules, item_stats, ["Upgrade Zhonya's"], aug_items)
+    assert detin["core"][0]["item"] != "Zhonya's Hourglass", detin["core"][:2]
+
+    # augment necunoscut in mapare -> build neschimbat
+    neutru = rules_engine.resolve_build(build, gol_roster, champion_tags, rules,
+                                        item_stats, ["Ok Boomerang"], aug_items)
+    assert [e["item"] for e in neutru["core"]] == \
+        [e["item"] for e in fara["core"]], neutru["core"]
+
+    # --- Stat Anvil ------------------------------------------------------
+    import stat_anvil
+
+    # fiecare nume de card trebuie sa aiba o categorie, altfel scorul e orb
+    assert all(n in stat_anvil.SHARD_CATEGORY for n in stat_anvil.SHARD_NAMES)
+    for cat in set(stat_anvil.SHARD_CATEGORY.values()):
+        assert cat in stat_anvil.CATEGORY_BY_DAMAGE, cat
+
+    # exact cardurile din captura reala: AP / Haste / Health
+    reale = ["Ability Power Shard", "Ability Haste Shard", "Health Shard"]
+
+    # pe un mage, AP-ul bate viata
+    rec = stat_anvil.recommend(reale, champion_tags, "Lux", ["Jinx"])
+    assert next(e for e in rec if e["is_best"])["name"] == "Ability Power Shard", rec
+
+    # pe un tanc AD, AP-ul e inutil si nu are voie sa iasa primul
+    rec2 = stat_anvil.recommend(reale, champion_tags, "Sett", ["Jinx"])
+    assert next(e for e in rec2 if e["is_best"])["name"] != "Ability Power Shard", rec2
+
+    # armura urca fata de MR cand inamicii sunt AD, si invers
+    aparare = ["Armor Shard", "Magic Resist Shard"]
+    ad_comp = stat_anvil.recommend(aparare, champion_tags, "Sett",
+                                   ["Jinx", "Vayne", "Ashe"])
+    assert next(e for e in ad_comp if e["is_best"])["name"] == "Armor Shard", ad_comp
+    ap_comp = stat_anvil.recommend(aparare, champion_tags, "Sett",
+                                   ["Ahri", "Lux", "Veigar"])
+    assert next(e for e in ap_comp if e["is_best"])["name"] == "Magic Resist Shard", ap_comp
+
+    # campion necunoscut -> tot da o recomandare, nu crapa
+    necunoscut = stat_anvil.recommend(reale, champion_tags, "NuExista", [])
+    assert len(necunoscut) == 3 and sum(e["is_best"] for e in necunoscut) == 1
+
+    assert stat_anvil.recommend([], champion_tags, "Lux", []) == []
 
     # o oferta care ramane pe ecran la nesfarsit trebuie sa se stinga singura,
     # altfel acopera build-ul pana dai alt-tab (bug raportat in joc)
