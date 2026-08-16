@@ -24,6 +24,11 @@ import tkinter as tk
 import augment_bar
 import hotkey
 import settings as settings_mod
+import updater
+
+# Ridica-l INAINTE de a publica un Release nou, altfel exe-ul deja instalat
+# la useri nu vede ca a aparut ceva mai nou.
+VERSION = "1.1.0"
 
 HOTKEY_LABEL = "CTRL+ALT+Z"
 
@@ -807,6 +812,8 @@ def selfcheck():
           f"summoners {with_summoners}/{len(builds)} campioni "
           f"({summoner_icons}/{len(summoner_names)} iconite unice)")
 
+    updater.selfcheck()
+
 
 def already_running():
     """True daca o alta instanta a legat deja portul-santinela.
@@ -832,6 +839,23 @@ def main():
 
     if already_running():
         return
+
+    if "--no-update" not in sys.argv:
+        # Inainte de UI: daca are ce instala, exe-ul de pe disc se schimba sub
+        # noi si oricum trebuie repornit. Orice esec inseamna doar ca mergem
+        # mai departe pe versiunea curenta -- fara internet trebuie sa mearga.
+        try:
+            tag, _ = updater.update_if_available(VERSION)
+        except Exception:
+            tag = None
+        if tag:
+            # Nu repornim singuri: un proces pornit dintr-un .cmd care apoi
+            # dispare il face pe Vanguard sa se planga de procesul parinte.
+            ctypes.windll.user32.MessageBoxW(
+                None,
+                f"Instalat {tag}. Porneste aplicatia din nou ca sa o folosesti.",
+                "ARAM Mayhem Helper", 0x40)
+            return
 
     lcu = _load_page("lcu_page", "lcu-app")
     ingame = _load_page("ingame_page", "ingame-app")

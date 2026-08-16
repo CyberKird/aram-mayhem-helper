@@ -22,6 +22,8 @@ datas = [
     ("ingame-app/augment_tier.py", "ingame-app"),
     ("ingame-app/live_client.py", "ingame-app"),
     ("ingame-app/ocr_augments.py", "ingame-app"),
+    ("ingame-app/ocr_stat_anvil.py", "ingame-app"),
+    ("ingame-app/stat_anvil.py", "ingame-app"),
     ("ingame-app/rules_engine.py", "ingame-app"),
     ("ingame-app/build_scraper.py", "ingame-app"),
     ("ingame-app/build_icons.py", "ingame-app"),

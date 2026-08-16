@@ -9,6 +9,9 @@ Un overlay local pentru League of Legends, mod ARAM Mayhem. Arata tier-ul campio
 - **Build-ul reactioneaza la itemii reali ai inamicilor** (armura, magic resist, viata, vindecare), nu doar la tipul de campion.
 - **Sfat de vandut cizmele** la build complet, daca nu contreaza compozitia inamica.
 - **Tier de augment per campion**, nu doar global: acelasi augment poate fi S+ pe un campion si B pe altul.
+- **Stat Anvil**: cand cumperi unul, o banda deasupra cardurilor arata care shard e cel mai bun pe campionul tau si contra compozitiei inamice.
+- **Augmentele care cer un item anume** ("Upgrade Zhonya's") il urca in capul listei de cumparat. Click pe insigna augmentului ales ca sa-l confirmi -- Riot nu expune nicaieri ce ai ales.
+- **Se actualizeaza singur** din Releases la pornire.
 
 ## Cum functioneaza
 
@@ -27,6 +30,8 @@ Build-urile de itemi vin din scraping pe u.gg (ARAM, nu exista date separate de 
 2. Dublu-click. Gata. Fara Python, fara instalare, totul e inclus in exe.
 
 Windows SmartScreen poate avertiza la prima rulare (exe-ul nu e semnat): `More info` -> `Run anyway`.
+
+La fiecare pornire verifica daca a aparut o versiune mai noua si o instaleaza singur, apoi iti cere sa redeschizi aplicatia. Nu reporneste el procesul: un proces pornit dintr-un `.cmd` care apoi dispare il face pe Vanguard sa se planga de procesul parinte. Cu `--no-update` sare peste verificare.
 
 ## Instalare din sursa (alternativa)
 
@@ -67,6 +72,8 @@ cd ingame-app
 ```
 
 Rezultatul e `dist\ARAM-Mayhem-Helper.exe`. Dupa build, verifica-l cu `dist\ARAM-Mayhem-Helper.exe --selfcheck` si publica-l ca asset intr-un Release.
+
+Ridica `VERSION` din `app.py` INAINTE de build, ca sa fie egal cu tag-ul Release-ului. Daca tag-ul e mai mare decat `VERSION`-ul din exe-ul publicat, exe-ul se vede pe el insusi ca fiind invechit si se reinstaleaza la fiecare pornire.
 
 ## Ce NU face
 
