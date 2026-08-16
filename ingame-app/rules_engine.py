@@ -80,13 +80,32 @@ def evaluate_rules(roster, champion_tags, rule_set, item_pool, item_stats=None):
     return out
 
 
-def resolve_build(build, roster, champion_tags, rule_set, item_stats=None):
+def required_items(taken_augments, augment_items):
+    """Itemi ceruti de augmentele luate, in ordinea in care au fost luate.
+
+    "Upgrade Zhonya's" fara Zhonya's Hourglass in inventar e augment irosit,
+    deci itemul din spate nu mai e o optiune printre altele: trece inaintea
+    build-ului normal. Mapare din augment-items.json, nu ghicita din text.
+    """
+    out = []
+    for name in taken_augments or ():
+        item = (augment_items or {}).get(name)
+        if item and item not in out:
+            out.append(item)
+    return out
+
+
+def resolve_build(build, roster, champion_tags, rule_set, item_stats=None,
+                  taken_augments=None, augment_items=None):
     """Un singur item pe slotul 4/5/6 -- build final, nu meniu de alternative.
 
     u.gg da 2-3 optiuni per slot situational; alegem una singura per slot,
     prioritizand orice optiune care se potriveste cu o regula de compozitie
     (evaluate_rules) si care nu e deja folosita intr-un slot anterior. Fara
     potrivire, cade pe prima optiune neutilizata din ordinea data de u.gg.
+
+    Itemii ceruti de augmentele luate sar peste tot: build-ul de pe u.gg nu
+    stie ce augment ai ales, iar un "Upgrade X" fara X e pur si simplu pierdut.
     """
     core = list(build.get("core") or [])
     hot = {h["item"]: h["reason"]
@@ -94,6 +113,9 @@ def resolve_build(build, roster, champion_tags, rule_set, item_stats=None):
                                    build.get("pool") or [], item_stats)}
 
     owned = {item_key(n) for n in (roster.get("own_items") or [])}
+
+    needed = [n for n in required_items(taken_augments, augment_items)
+              if item_key(n) not in owned]
 
     used = set(core)
     picks = []
@@ -109,6 +131,17 @@ def resolve_build(build, roster, champion_tags, rule_set, item_stats=None):
                       "owned": item_key(chosen) in owned})
 
     core_entries = [{"item": c, "owned": item_key(c) in owned} for c in core]
+
+    # Itemul cerut de un augment intra primul si scoate din lista o aparitie
+    # ulterioara a lui, ca sa nu apara de doua ori.
+    forced = []
+    for name in needed:
+        key = item_key(name)
+        core_entries = [e for e in core_entries if item_key(e["item"]) != key]
+        picks = [e for e in picks if item_key(e["item"]) != key]
+        forced.append({"item": name, "owned": False,
+                       "reason": "cerut de augment"})
+    core_entries = forced + core_entries
 
     # primul item neluat din ordinea core -> 4 -> 5 -> 6: exact ce urmeaza
     # sa cumperi acum. Nu schimbam build-ul, doar aratam unde ai ramas.

@@ -19,13 +19,17 @@ BG = "#0b0b0b"
 class AugmentBar:
     """Cate o insigna de tier deasupra fiecarui card. Se arata/ascunde singura."""
 
-    def __init__(self, root, colors, fg_colors, unknown, pix_font, mono_font):
+    def __init__(self, root, colors, fg_colors, unknown, pix_font, mono_font,
+                 on_pick=None):
         self.root = root
         self.colors = colors
         self.fg_colors = fg_colors
         self.unknown = unknown
         self.pix = pix_font
         self.mono = mono_font
+        # apelat cu numele augmentului cand dai click pe insigna lui: singurul
+        # mod sigur de a sti ce ai ales (Riot nu expune alegerea nicaieri)
+        self.on_pick = on_pick
         self.win = None
         self._key = None
 
@@ -76,6 +80,14 @@ class AugmentBar:
                      font=self.pix(11)).pack(padx=10, pady=(0 if aug.get("is_best") else 5, 2))
             tk.Label(box, text=aug["name"][:22], bg=bg, fg=fg,
                      font=self.mono(9, "bold")).pack(padx=8, pady=(0, 5))
+
+            # click pe insigna = "pe asta l-am luat", ca sa putem impinge in
+            # build itemul cerut de el ("Upgrade Zhonya's" -> Zhonya's)
+            if self.on_pick is not None:
+                name = aug["name"]
+                for w in (box,) + tuple(box.winfo_children()):
+                    w.bind("<Button-1>", lambda _e, n=name: self.on_pick(n))
+                    w.configure(cursor="hand2")
 
             # inaltimea reala a lui box (BEST inclus, daca e cazul) -- fara
             # asta cell.height ramane pe valoarea implicita si box e taiat
