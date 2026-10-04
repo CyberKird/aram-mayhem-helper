@@ -110,7 +110,7 @@ class AugmentBar:
 
     def show(self, augments, region):
         """augments: [{name, tier, is_best, note}]. region: (l, t, r, b) al cardurilor."""
-        key = tuple((a["name"], a["tier"], a.get("is_best")) for a in augments)
+        key = tuple((a["name"], a["tier"], a.get("is_best"), a.get("slot")) for a in augments)
         if key == self._key and self.win is not None:
             return          # deja pe ecran; n-o recream la fiecare ciclu
         self.hide()
@@ -128,11 +128,19 @@ class AugmentBar:
         row = tk.Frame(self.win, bg="#ff00fe")
         row.pack()
 
-        # trei coloane de latime egala cu cea a cardurilor, ca fiecare insigna
-        # sa cada exact deasupra cardului ei
+        # trei coloane de latime egala cu cea a cardurilor; fiecare insigna merge
+        # in coloana cardului pe care a fost citit numele ei (slot), nu in
+        # ordinea listei: altfel un tier ajungea peste alt card
+        for c in range(3):
+            tk.Frame(row, bg="#ff00fe", width=col, height=1).grid(row=0, column=c)
+        taken = set()
         for i, aug in enumerate(augments[:3]):
+            slot = aug.get("slot")
+            if slot not in (0, 1, 2) or slot in taken:
+                slot = next(c for c in (i, 0, 1, 2) if c not in taken)
+            taken.add(slot)
             cell = tk.Frame(row, bg="#ff00fe", width=col)
-            cell.grid(row=0, column=i, sticky="n")
+            cell.grid(row=0, column=slot, sticky="n")
             cell.grid_propagate(False)
 
             box = _badge(cell, aug["tier"], self.colors.get(aug["tier"], self.unknown),

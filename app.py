@@ -1004,7 +1004,7 @@ def build_ui(lcu, lcu_mon, ingame, ingame_mon):
             label = ANVIL_LABEL.get(s["category"], s["category"].upper())
             colors[label] = GOLD if s["is_best"] else DIM
             entries.append({"name": s["name"].replace(" Shard", ""),
-                            "tier": label, "is_best": s["is_best"],
+                            "tier": label, "is_best": s["is_best"], "slot": s.get("slot"),
                             "note": (f"{s['champion']} \u00b7 {s['why']}"
                                      if s["is_best"] and s.get("champion") else None)})
         return entries, colors

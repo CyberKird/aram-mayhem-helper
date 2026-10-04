@@ -117,6 +117,7 @@ class Monitor:
         self._offer_pool = {}
         self._anvil_miss = 0
         self._last_stat_anvil = ()
+        self._slot = {}
         # OCR-ul costa cel mai mult procesor din toata aplicatia, deci il rulam
         # des doar cand e probabil sa apara o oferta: la inceputul meciului, dupa
         # un level-up sau dupa o cheltuiala mare (Stat Anvil). Altfel rar.
@@ -237,6 +238,10 @@ class Monitor:
 
     def _ocr_cycle(self):
         found, self.ocr_status = ocr_augments.detect_offered_augments(self.ocr_names)
+        # pe ce card (0/1/2) sta fiecare nume: insigna trebuie sa cada peste
+        # cardul ei, nu in ordinea in care a fost citit numele
+        self._slot.update({n: i for i, n in enumerate(ocr_augments.last_read.get("matches") or [])
+                           if n})
         shards = [n for n in found if n in self._shards]
         found = [n for n in found if n not in self._shards]
         self._anvil(shards)
@@ -294,6 +299,7 @@ class Monitor:
 
         champ = (self.roster or {}).get("local_champion")
         names = sorted(self._offer_pool, key=self._offer_pool.get)[:ocr_augments.MAX_OFFER]
+        names.sort(key=lambda n: self._slot.get(n, ocr_augments.MAX_OFFER))
         key = (tuple(sorted(names)), champ)
 
         if key == self._last_augments:
@@ -311,7 +317,8 @@ class Monitor:
 
         self._last_augments = key
         # campionul conteaza: acelasi augment poate fi S+ pe unul si B pe altul
-        self.augments = augment_tier.rate(names, self.global_augments, champ)
+        self.augments = [dict(a, slot=self._slot.get(a["name"]))
+                         for a in augment_tier.rate(names, self.global_augments, champ)]
 
     def _anvil(self, found):
         """Shard-urile de pe ecran -> recomandare. Doua citiri goale la rand
@@ -334,7 +341,8 @@ class Monitor:
             return
         self._last_stat_anvil = key
 
-        self.stat_anvil = stat_anvil.recommend(found, self.champion_tags, champ, enemies)
+        self.stat_anvil = [dict(r, slot=self._slot.get(r["name"]))
+                           for r in stat_anvil.recommend(found, self.champion_tags, champ, enemies)]
 
     def _recompute_build(self):
         if not self.roster or not self.build or not self.build.get("pool"):
@@ -364,6 +372,7 @@ class Monitor:
         self._offer_pool = {}
         self._anvil_miss = 0
         self._last_stat_anvil = ()
+        self._slot = {}
         self.taken_augments = []   # meci nou, augmente noi
         self._fast_until = 0.0
         self._last_level = None
@@ -591,6 +600,15 @@ def selfcheck():
     assert ocr_augments.match_card("GoIiath Tank gain size", names) == "Goliath"   # I mare
     assert ocr_augments.match_card("", names) is None
     assert ocr_augments.match_card("3250 Invulnerability SELL", names) is None   # nu "Vulnerability"
+    # titlul cardului: rand scurt si centrat. Un nume pomenit intr-o propozitie
+    # din shop / tooltip de item (hover) nu e o oferta.
+    assert ocr_augments.match_title([("Goliath", 40, 10, 160, 30)], names, 200)[0] == "Goliath"
+    assert ocr_augments.match_title([("Gain Goliath and bonus health per level", 0, 10, 200, 30)],
+                                    names, 200)[0] is None
+    assert ocr_augments.match_title([("Goliath", 0, 10, 60, 30)], names, 200)[0] is None   # nu e centrat
+    assert ocr_augments.match_title([("Draw Your", 50, 10, 150, 30), ("Sword", 70, 32, 130, 50)],
+                                    names, 200)[0] == "Draw Your Sword"           # nume rupt pe 2 randuri
+    assert not ocr_augments.aligned(["Goliath", "Eureka"], [(50, 20), (150, 300)], 400)
     assert ocr_augments.match_card("28 66 18 7/5/7 Grimoire", names) is None
 
     # normalizare nume interne -> afisate

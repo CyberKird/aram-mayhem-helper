@@ -377,18 +377,41 @@ def match_card(text, augment_names, cutoff=0.82):
     return fuzzy[2] if fuzzy else None
 
 
+# Un titlu de card e un rand scurt, aproape doar numele, centrat pe card. Textul
+# din shop sau din tooltip-ul unui item (hover) pomeneste si el nume de augmente,
+# dar in mijlocul unor propozitii lungi, aliniate la stanga. Fara filtrul asta,
+# un hover peste iteme parea o oferta de augmente.
+TITLE_EXTRA = 8        # cate caractere in plus fata de nume tolereaza randul
+CENTER_TOL = 0.18      # cat de departe de centrul benzii poate sta titlul (din latime)
+ALIGN_TOL = 0.04       # cat pot diferi pe verticala titlurile celor 3 carduri (din inaltime)
+
+
+def match_title(lines, augment_names, width=None, cutoff=0.82):
+    """(nume, linie) din randurile OCR ale unui card, doar daca numele e titlul
+    lui: rand scurt (sau doua randuri consecutive, numele lungi se rup) si,
+    cand stim latimea benzii, centrat pe ea. Altfel (None, None)."""
+    rows = [l for l in lines
+            if width is None or abs((l[1] + l[3]) / 2 - width / 2) <= CENTER_TOL * width]
+    cands = [(l[0], l) for l in rows]
+    cands += [(a[0] + " " + b[0], a) for a, b in zip(rows, rows[1:])]
+    for text, line in cands:
+        name = match_card(text, augment_names, cutoff)
+        if name and len(_norm(text)) <= len(_norm(name)) + TITLE_EXTRA:
+            return name, line
+    return None, None
+
+
+def aligned(found, centers, height):
+    """Titlurile adevarate stau pe acelasi rand; daca nu, nu e o oferta."""
+    ys = [c[1] for f, c in zip(found, centers) if f and c]
+    return len(ys) < 2 or max(ys) - min(ys) <= ALIGN_TOL * height
+
+
 def split_cards(img):
     """Imaginea zonei de oferta -> cele 3 coloane de carduri, de la stanga."""
     w = img.width
     return [img.crop((w * i // CARDS, 0, w * (i + 1) // CARDS, img.height))
             for i in range(CARDS)]
-
-
-async def _ocr_many(images):
-    # una cate una: OcrEngine nu accepta recognize_async concurent pe aceeasi
-    # instanta (gather da "Operation aborted"), iar 3 imagini mici in serie
-    # costa tot cat una mare
-    return [await _ocr_bytes(encode(i)) for i in images]
 
 
 async def _ocr_many_lines(images):
@@ -399,15 +422,6 @@ async def _ocr_many_lines(images):
 # Un dict nou la fiecare ciclu (nu se modifica pe loc), deci e sigur de citit
 # din alt fir fara lock.
 last_read = {"status": "", "texts": [], "matches": []}
-
-
-def _line_center(name, lines):
-    """Centrul liniei care contine numele (potrivire exacta), sau None."""
-    key = _norm(name)
-    for text, x1, y1, x2, y2 in lines:
-        if re.search(r"\b" + re.escape(key) + r"\b", _norm(text)):
-            return (x1 + x2) / 2, (y1 + y2) / 2
-    return None
 
 
 def read_offer(img, augment_names):
@@ -421,17 +435,20 @@ def read_offer(img, augment_names):
     cards = split_cards(img)
     read = asyncio.run(_ocr_many_lines(cards))
     texts = [t for t, _ in read]
-    found = [match_card(t, augment_names) for t in texts]
-    centers = [_line_center(f, read[i][1]) if f else None for i, f in enumerate(found)]
+    hits = [match_title(lines, augment_names) for _, lines in read]
+    found = [n for n, _ in hits]
     offsets = [img.width * i // CARDS for i in range(CARDS)]
-    centers = [(c[0] + offsets[i], c[1]) if c else None for i, c in enumerate(centers)]
+    centers = [((l[1] + l[3]) / 2 + offsets[i], (l[2] + l[4]) / 2) if l else None
+               for i, (_, l) in enumerate(hits)]
 
     if 0 < sum(f is not None for f in found) < CARDS:
-        retry = asyncio.run(_ocr_many([enhance(c) for c in cards]))
-        for i, t in enumerate(retry):
+        retry = asyncio.run(_ocr_many_lines([enhance(c) for c in cards]))
+        for i, (t, lines) in enumerate(retry):
             if found[i] is None:
-                found[i] = match_card(t, augment_names)
+                found[i] = match_title(lines, augment_names)[0]
                 texts[i] = (texts[i] + " | " + t).strip(" |")
+    if not aligned(found, centers, img.height):
+        found = [None] * CARDS
     return found, texts, centers
 
 
@@ -487,8 +504,10 @@ def read_fast(rect, augment_names):
     for fx in lay["fx"]:
         cx = int(left + fx * W) - x0
         bands.append(strip.crop((max(0, cx - hw), 0, min(strip.width, cx + hw), strip.height)))
-    texts = asyncio.run(_ocr_many(bands))
-    return [match_card(t, augment_names) for t in texts], texts
+    read = asyncio.run(_ocr_many_lines(bands))
+    found = [match_title(lines, augment_names, band.width)[0]
+             for (_, lines), band in zip(read, bands)]
+    return found, [t for t, _ in read]
 
 
 def augment_region(rect):
