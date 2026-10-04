@@ -133,7 +133,7 @@ def be_lightweight():
 
 # Ridica-l INAINTE de a publica un Release nou, altfel exe-ul deja instalat
 # la useri nu vede ca a aparut ceva mai nou.
-VERSION = "1.3.8"
+VERSION = "1.3.9"
 
 HOTKEY_LABEL = "CTRL+ALT+Z"
 
@@ -1281,6 +1281,16 @@ def build_ui(lcu, lcu_mon, ingame, ingame_mon):
         if UPDATE["tag"] and not update_note.winfo_ismapped():
             update_note.configure(text=f"UPDATE {UPDATE['tag']}")
             update_note.pack(side="left", padx=(8, 0))
+        # versiunea noua e pe disc: in afara meciului si a champ select-ului
+        # repornim singuri pe ea, in meci doar la click (nu dispare panoul in lupta)
+        # o singura data pe versiune: un exe publicat cu numar gresit ar
+        # reporni la nesfarsit
+        if (UPDATE["tag"] and ingame_mon.phase != "in_game"
+                and lcu_mon.phase != "in_mayhem_select"
+                and settings.get("restarted_for") != UPDATE["tag"]):
+            settings.set("restarted_for", UPDATE["tag"])
+            restart_into_update()
+            return
         if not dock["drag"]:
             if update_fit():
                 shown["fingerprint"] = None      # marimea s-a schimbat: redesenam
@@ -1371,6 +1381,20 @@ def build_ui(lcu, lcu_mon, ingame, ingame_mon):
         anvil_bar.hide()
         root.destroy()
 
+    def restart_into_update(_=None):
+        """Porneste exe-ul nou (deja pe disc) si inchide procesul vechi.
+
+        Il lanseaza explorer.exe, nu noi: procesul nou nu e copilul unuia care
+        dispare (de asta se plangea Vanguard). Portul-santinela se elibereaza
+        inainte, altfel instanta noua ar crede ca ruleaza deja una.
+        """
+        if not UPDATE["tag"] or not updater.is_frozen():
+            return
+        _lock_socket.close()
+        import subprocess
+        subprocess.Popen(["explorer.exe", sys.executable])
+        close_app()
+
     report = {"win": None}
 
     def open_report(_=None):
@@ -1387,8 +1411,11 @@ def build_ui(lcu, lcu_mon, ingame, ingame_mon):
     bug.bind("<Button-1>", open_report)
 
     def check_update(_=None):
-        if UPDATE["busy"] or UPDATE["tag"]:
-            return          # deja cauta, sau e deja instalat (scrie UPDATE langa titlu)
+        if UPDATE["tag"]:
+            restart_into_update()     # deja instalat: click = treci pe el acum
+            return
+        if UPDATE["busy"]:
+            return
         UPDATE["busy"] = True
         version.configure(text="...")
 
@@ -1421,7 +1448,9 @@ def build_ui(lcu, lcu_mon, ingame, ingame_mon):
     snap.bind("<Button-1>", snap_back)
     attach_tip(snap, "Aseaza in gol",
                "Pune panoul inapoi intre HUD si minimap. Il poti trage si pe alt ecran: ramane acolo.")
-    attach_tip(update_note, "Versiune noua instalata", "Inchide si redeschide aplicatia ca sa o folosesti.")
+    update_note.bind("<Button-1>", restart_into_update)
+    attach_tip(update_note, "Versiune noua instalata",
+               "Click: reporneste pe ea acum. In afara meciului se reporneste singura.")
     close.bind("<Button-1>", lambda _: close_app())
     minimize.bind("<Button-1>", lambda _: toggle_collapsed())
     root.bind("<Escape>", lambda _: close_app())
