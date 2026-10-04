@@ -48,6 +48,26 @@ def enable_dpi_awareness():
             pass
 
 
+def set_window_icon(user32, hwnd):
+    """Iconita ferestrei la rezolutia potrivita DPI-ului, direct din icon.ico.
+
+    iconbitmap() din Tk alege o singura dimensiune si Windows o intinde
+    (de-aia iesea neclara in taskbar). Aici cerem mare (256, redusa curat de
+    shell) si mica (16 scalat cu DPI-ul), iar LoadImage ia cea mai buna
+    intrare din fisier pentru fiecare.
+    """
+    path = ROOT / "icon.ico"
+    if not path.exists():
+        return
+    user32.LoadImageW.restype = ctypes.c_void_p
+    user32.SendMessageW.argtypes = [ctypes.c_void_p, ctypes.c_uint,
+                                    ctypes.c_size_t, ctypes.c_void_p]
+    for kind, size in ((1, 256), (0, max(16, round(16 * UI_SCALE)))):   # BIG, SMALL
+        icon_handle = user32.LoadImageW(None, str(path), 1, size, size, 0x10)  # LR_LOADFROMFILE
+        if icon_handle:
+            user32.SendMessageW(hwnd, 0x0080, kind, icon_handle)       # WM_SETICON
+
+
 def show_in_taskbar(root):
     """Buton in taskbar (si deci posibilitatea de pin) pentru o fereastra fara chenar.
 
@@ -66,6 +86,7 @@ def show_in_taskbar(root):
         GWL_EXSTYLE, APPWINDOW, TOOLWINDOW = -20, 0x00040000, 0x00000080
         style = user32.GetWindowLongW(hwnd, GWL_EXSTYLE)
         user32.SetWindowLongW(hwnd, GWL_EXSTYLE, (style & ~TOOLWINDOW) | APPWINDOW)
+        set_window_icon(user32, hwnd)
         root.withdraw()
         root.after(30, root.deiconify)
     except Exception:
