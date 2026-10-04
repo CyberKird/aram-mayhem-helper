@@ -6,9 +6,9 @@ secunde, cat alegi, apoi dispar.
 
 Arata ca o piesa a cardului, nu ca o eticheta lipita peste joc: o insigna mica
 in stilul HUD-ului (fond teal inchis, chenar auriu, dublu pe alegerea buna),
-asezata pe marginea de sus a cardului, centrata pe el. Doar tier-ul si BEST:
-numele e deja scris pe card. Marimea vine din latimea cardului, deci arata la
-fel la orice rezolutie.
+asezata pe marginea de sus a cardului, centrata pe el. Pe oferta de augment
+scrie si numele: daca insigna ar cadea pe alt card, vezi imediat. Marimea vine
+din latimea cardului, deci arata la fel la orice rezolutie.
 """
 
 import tkinter as tk
@@ -17,13 +17,14 @@ FILL = "#0f2428"          # interiorul panourilor din HUD
 LINE = "#a3874f"          # firul auriu-bronz al chenarelor din HUD
 GOLD = "#f0d68c"          # auriul aprins al alegerii bune
 HEXTECH = "#0ac8b9"
+CREAM = "#f0e6d2"         # textul din HUD
 KEY = "#ff00fe"           # culoarea facuta transparenta: in jurul insignei se vede jocul
 SCALE = 1.0               # setat de app.py din DPI-ul ecranului
 CARD_SPACING_1080 = 378   # distanta dintre centrele cardurilor la 1080p (0.35 * 1080)
 
 
-def _badge(parent, tier, color, fonts, k, is_best=False):
-    """O insigna: tier-ul colorat, cu BEST deasupra pe alegerea buna."""
+def _badge(parent, tier, color, fonts, k, is_best=False, name=None):
+    """O insigna: tier-ul colorat, cu BEST deasupra si numele dedesubt."""
     heading = fonts[0]
     edge = tk.Frame(parent, bg=GOLD if is_best else LINE)
     box = tk.Frame(edge, bg=FILL)
@@ -35,7 +36,11 @@ def _badge(parent, tier, color, fonts, k, is_best=False):
             padx=round(8 * k), pady=(round(3 * k), 0))
     tk.Label(box, text=tier, bg=FILL, fg=color,
              font=(heading, max(8, round(15 * k)), "bold")).pack(
-        padx=round(10 * k), pady=(0 if is_best else round(3 * k), round(3 * k)))
+        padx=round(10 * k), pady=(0 if is_best else round(3 * k), 0 if name else round(3 * k)))
+    if name:
+        tk.Label(box, text=name, bg=FILL, fg=CREAM,
+                 font=(fonts[1], max(7, round(9 * k)), "bold")).pack(
+            padx=round(8 * k), pady=(0, round(3 * k)))
     return edge
 
 
@@ -86,8 +91,9 @@ class PinBar:
 class AugmentBar:
     """Cate o insigna de tier pe fiecare card. Se arata/ascunde singura."""
 
-    def __init__(self, root, colors, unknown, fonts, on_pick=None):
+    def __init__(self, root, colors, unknown, fonts, on_pick=None, names=False):
         self.root = root
+        self.names = names            # numele pe insigna (augmente; la Stat Anvil tier-ul e deja statul)
         self.colors = colors
         self.unknown = unknown        # culoarea tier-ului necunoscut
         self.fonts = fonts            # (familie titluri, familie text)
@@ -129,7 +135,8 @@ class AugmentBar:
 
             win = _overlay(self.root)
             box = _badge(win, aug["tier"], self.colors.get(aug["tier"], self.unknown),
-                         self.fonts, k, aug.get("is_best"))
+                         self.fonts, k, aug.get("is_best"),
+                         aug["name"] if self.names else None)
             box.pack()
             # click pe insigna = "pe asta l-am luat", ca sa putem impinge in
             # build itemul cerut de el ("Upgrade Zhonya's" -> Zhonya's)

@@ -590,6 +590,18 @@ def selfcheck():
     for real in ("Goliath", "Multishot", "Overloaded"):
         assert augment_tier.lookup_tier(real, global_augments) in augment_tier.TIER_ORDER, real
     assert augment_tier.lookup_tier("NuExista", global_augments) == "?"
+    # rezerva fara OCR: 3 augmente pe fiecare raritate, cel mai bun tier primul
+    top = augment_tier.top_by_rarity(global_augments, "Quinn")
+    assert set(top) == {"prismatic", "gold", "silver"} and all(len(v) == 3 for v in top.values()), top
+    assert all(augment_tier.TIER_ORDER.index(v[0]["tier"]) <= augment_tier.TIER_ORDER.index(v[-1]["tier"])
+               for v in top.values()), top
+    # 6 itemi terminati = nu mai ai unde pune ghetele din plan; cu Boots simple inca nu
+    six = ["The Collector", "Kraken Slayer", "Infinity Edge", "Lord Dominik's Regards",
+           "Blade of The Ruined King", "Edge of Night"]
+    item_stats_sc = load_json("item-stats.json")
+    assert rules_engine.build_full(six, item_stats_sc)
+    assert not rules_engine.build_full(six[:5] + ["Boots"], item_stats_sc)
+    assert not rules_engine.build_full(six[:5], item_stats_sc)
 
     rated = augment_tier.rate(["Goliath", "Multishot", "Overloaded"], global_augments)
     ranks = [augment_tier.TIER_ORDER.index(r["tier"]) for r in rated]

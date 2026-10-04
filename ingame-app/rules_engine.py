@@ -307,7 +307,8 @@ def resolve_build(build, roster, champion_tags, rule_set, item_stats=None,
             "core": core_entries, "picks": picks,
             "sell": sell_advice(build, roster, hot, item_stats, ok, rng,
                                 core_entries + picks),
-            "unavailable": unavailable, "range": rng}
+            "unavailable": unavailable, "range": rng,
+            "full": build_full(slot_items(roster.get("own_items"), stats), stats)}
 
 
 def starting_left(starting, own_items, item_stats=None):
@@ -333,6 +334,18 @@ STARTER_PREFIXES = ("dorans", "guardians", "cull")
 
 # cate sloturi de item are un campion
 FULL_BUILD = 6
+
+
+def build_full(owned, item_stats=None):
+    """Toate sloturile ocupate cu itemi terminati: nu mai ai unde pune nimic.
+
+    Sase sloturi ocupate nu inseamna build plin daca unele sunt doar
+    componente (sau cizmele simple): acelea inca se transforma in altceva.
+    """
+    stats = item_stats or {}
+    return len(owned) >= FULL_BUILD and not any(
+        (stats.get(n) or {}).get("component") and not (stats.get(n) or {}).get("boots")
+        or n == "Boots" for n in owned)
 
 
 def slot_items(own_items, item_stats=None):
@@ -416,12 +429,7 @@ def boots_advice(build, roster, hot, item_stats=None):
     """
     stats = item_stats or {}
     owned = slot_items(roster.get("own_items"), stats)
-    if len(owned) < FULL_BUILD:
-        return None
-    # Sase sloturi ocupate nu inseamna build plin daca unele sunt doar
-    # componente (sau cizmele simple): inca ai de cumparat, nu de optimizat.
-    if any((stats.get(n) or {}).get("component") and not (stats.get(n) or {}).get("boots")
-           or n == "Boots" for n in owned):
+    if not build_full(owned, stats):
         return None
 
     boots = next((n for n in owned if (stats.get(n) or {}).get("boots")), None)

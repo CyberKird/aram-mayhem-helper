@@ -28,6 +28,7 @@ import mss
 import win32api
 import win32con
 import win32gui
+import win32process
 from PIL import Image
 from winrt.windows.globalization import Language
 from winrt.windows.graphics.imaging import BitmapDecoder
@@ -104,7 +105,18 @@ def game_is_focused():
     care pareau inventate. Daca jocul nu e in fata, nu are rost sa citim.
     """
     hwnd = find_game_window()
-    return bool(hwnd) and win32gui.GetForegroundWindow() == hwnd
+    return bool(hwnd) and in_front(hwnd)
+
+
+def in_front(hwnd):
+    """Jocul e in fata, sau una din ferestrele noastre (panoul, insignele).
+
+    Un click pe panou (de exemplu ca sa-l muti) il aduce pe el in fata. Jocul
+    ramane tot pe ecran sub el, dar cu verificarea veche OCR-ul se oprea pana
+    dadeai click inapoi in joc: nu mai vedeai nicio recomandare de augment.
+    """
+    fg = win32gui.GetForegroundWindow()
+    return fg == hwnd or bool(fg) and win32process.GetWindowThreadProcessId(fg)[1] == os.getpid()
 
 
 def _get_engine():
@@ -544,7 +556,7 @@ def detect_offered_augments(augment_names, min_matches=2):
     hwnd = find_game_window()
     if hwnd is None:
         return [], "n-am gasit fereastra League"
-    if win32gui.GetForegroundWindow() != hwnd:
+    if not in_front(hwnd):
         return [], "jocul nu e in fata (nu citesc alte ferestre)"
     if _get_engine() is None:
         return [], "OCR indisponibil: instaleaza pachetul de limba engleza in Windows"

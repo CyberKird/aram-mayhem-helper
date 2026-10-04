@@ -114,6 +114,20 @@ def lookup_tier(name, global_augments, champion_tiers=None):
     return UNKNOWN
 
 
+def top_by_rarity(global_augments, champion=None, n=3):
+    """{raritate: [{name, tier}]}: cele mai bune n augmente pe raritate, pentru
+    campion. Rezerva cand OCR-ul nu vede oferta: o oferta e mereu de o singura
+    raritate, deci cauti pe carduri numele din randul ei."""
+    def rank(r):
+        return TIER_ORDER.index(r["tier"]) if r["tier"] in TIER_ORDER else len(TIER_ORDER)
+    top = {}
+    for rarity, block in global_augments.items():
+        if isinstance(block, dict):
+            names = [x for tier_names in block.values() for x in tier_names]
+            top[rarity] = sorted(rate(names, global_augments, champion), key=rank)[:n]
+    return top
+
+
 def rate(names, global_augments, champion=None):
     """Augmentele oferite, cu tier si care e cel mai bun.
 

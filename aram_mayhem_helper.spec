@@ -65,6 +65,7 @@ a = Analysis(
         "win32api",
         "win32con",
         "win32gui",
+        "win32process",
     ],
     hookspath=[],
     hooksconfig={},

@@ -133,7 +133,7 @@ def be_lightweight():
 
 # Ridica-l INAINTE de a publica un Release nou, altfel exe-ul deja instalat
 # la useri nu vede ca a aparut ceva mai nou.
-VERSION = "1.3.2"
+VERSION = "1.3.3"
 
 HOTKEY_LABEL = "CTRL+ALT+Z"
 
@@ -175,6 +175,7 @@ EDGE = "#1e3a3a"          # linii de sectiune, teal stins ca separatorii din HUD
 # fir auriu-bronz, banda teal inchis si o linie teal mai deschisa spre interior
 FRAME = ("#010a0c", "#a3874f", "#0f2b2c", "#1f4644")
 UP, DOWN = "#0ac8b9", "#e84057"
+ORNAMENT = "#f0d68c"      # auriul aprins al colturilor si rombului din HUD
 
 # In joc panoul imita HUD-ul (teal); in client imita clientul League (bleumarin
 # hextech, auriu). Se schimba singur dupa ecranul pe care esti (apply_theme).
@@ -359,7 +360,13 @@ def build_ui(lcu, lcu_mon, ingame, ingame_mon):
         dock["mode"] = "game" if box else None
         if dock["manual"] is not None:
             w = dock_base(box, h)[2] if box else px(372)
-            geo = f"{w}x{h}+{dock['manual'][0]}+{dock['manual'][1]}"
+            x, y = dock["manual"]
+            if box:
+                # panoul creste in jos cand apare un sfat nou: il ridicam cat
+                # trebuie ca sa nu iasa din joc, fara sa-ti uitam pozitia
+                x = max(box[0], min(x, box[2] - w))
+                y = max(box[1], min(y, box[3] - h))
+            geo = f"{w}x{h}+{x}+{y}"
         elif box is None:
             tgt = client_target(h)
             if tgt:
@@ -414,7 +421,7 @@ def build_ui(lcu, lcu_mon, ingame, ingame_mon):
         # antetul si subsolul nu se redeseneaza la fiecare randare: fontul lor
         # trebuie sa urmeze si el marimea, altfel raman mari pe un panou micsorat
         for widget, size in ((title, 8), (close, 8), (minimize, 8), (snap, 8),
-                             (context, 7), (status_label, 7)):
+                             (context, 7), (status_label, 7), (version, 6), (aug_btn, 6)):
             widget.configure(font=pix(size))
         draw_bug()
         return True
@@ -454,6 +461,14 @@ def build_ui(lcu, lcu_mon, ingame, ingame_mon):
     snap = tk.Label(titlebar, text="\u25c7", bg=BG, fg=GOLD, font=pix(8), padx=4,
                     cursor="hand2")
     snap.pack(side="right")
+    # versiunea pe care rulezi; click = cauta update acum, nu peste 30 de minute
+    version = tk.Label(titlebar, text=f"v{VERSION}", bg=BG, fg=DIM, font=pix(6),
+                       padx=4, cursor="hand2")
+    version.pack(side="right")
+    # rezerva cand OCR-ul nu vede oferta: augmentele bune ale campionului (doar in joc)
+    aug_btn = tk.Label(titlebar, text="AUG", bg=BG, fg=GOLD, font=pix(6), padx=4,
+                       cursor="hand2")
+    aug_view = {"on": False}
 
     divider1 = tk.Frame(shell, bg=LINE, height=1)
     divider1.pack(fill="x")
@@ -499,6 +514,21 @@ def build_ui(lcu, lcu_mon, ingame, ingame_mon):
     status_label = tk.Label(footer, text="", bg=BG, fg=DIM, font=pix(7),
                             anchor="w", justify="left", wraplength=px(340))
     status_label.pack(side="left")
+
+    # Ornamentele HUD-ului: colturi aurii in L peste chenar (ca bucla din coltul
+    # hartii) si un romb in mijlocul separatoarelor. ORNAMENT nu e in nicio
+    # tema, deci apply_theme nu le recoloreaza.
+    for relx, rely in ((0, 0), (1, 0), (0, 1), (1, 1)):
+        anchor = ("n" if rely == 0 else "s") + ("w" if relx == 0 else "e")
+        for w, h in ((14, 3), (3, 14)):
+            tk.Frame(root, bg=ORNAMENT, width=px(w), height=px(h)).place(
+                relx=relx, rely=rely, anchor=anchor)
+    for divider in (divider1, divider2, divider3):
+        d = px(7)
+        gem = tk.Canvas(shell, width=d, height=d, bg=BG, highlightthickness=0, bd=0)
+        gem.create_polygon(d / 2, 0, d, d / 2, d / 2, d, 0, d / 2, fill=ORNAMENT, outline="")
+        # asezat pe separator: dispare singur cand separatorul e ascuns
+        gem.place(in_=divider, relx=0.5, rely=0.5, anchor="center")
 
     # piesele astea se ascund cand fereastra e "stransa" la bara de titlu.
     # NU folosim withdraw() pentru asta -- daca hotkey-ul nu ajunge (de ex.
@@ -845,13 +875,17 @@ def build_ui(lcu, lcu_mon, ingame, ingame_mon):
         """
         import mayhem_logic as logic
         import tier_list
-        names = list(champ_reader.offers)
+        # lista de carti se reimprospateaza mai rar decat LCU-ul: un campion
+        # tocmai ales sau trecut pe bench ar aparea de doua ori
+        known = set(champ_known())
+        names = [n for n in champ_reader.offers if n not in known]
         if not names:
             return []
         import champ_stats
         entries = [dict(name=n, tier=tier_list.TIER_DATA.get(n, logic.UNRANKED),
                         is_best=False, **champ_stats.info(n)) for n in names]
-        pool = ([lcu_mon.assigned] if lcu_mon.assigned else []) + list(lcu_mon.bench) + entries
+        # cat timp cartile sunt pe ecran alegi dintre ele; bench-ul vine dupa
+        pool = ([lcu_mon.assigned] if lcu_mon.assigned else []) + entries
         best = min(pool, key=lambda e: logic.tier_rank(e["tier"]))
         for e in lcu_mon.bench + ([lcu_mon.assigned] if lcu_mon.assigned else []):
             e["is_best"] = e is best
@@ -863,23 +897,32 @@ def build_ui(lcu, lcu_mon, ingame, ingame_mon):
         title.configure(text="ARAM MAYHEM")
         context.configure(text="CHAMP SELECT  ·  REROLL")
         # Toti campionii pe care ii poti avea, intr-o singura lista ordonata dupa
-        # tier: al tau, bench-ul si cartile tale. De unde vine fiecare scrie in
+        # tier: al tau, apoi cartile tale sau bench-ul. De unde vine fiecare scrie in
         # dreapta; la tier egal, al tau ramane primul (n-are rost reroll).
         import mayhem_logic as logic
         offers = champ_offer_entries()
-        pool = ([(lcu_mon.assigned, "AL TAU")] if lcu_mon.assigned else [])             + [(e, "BENCH") for e in lcu_mon.bench] + [(e, "CARTE") for e in offers]
-        if pool:
-            section("ALEGE  ·  DUPA TIER")
-            for entry, origin in sorted(pool, key=lambda p: logic.tier_rank(p[0]["tier"])):
-                tier_row("champions", entry, "BEST", tag=origin)
-        else:
+        # Cat timp cartile tale sunt pe ecran alegi dintre ele: bench-ul apare
+        # abia dupa ce au disparut.
+        pool = ([(lcu_mon.assigned, "AL TAU")] if lcu_mon.assigned else []) \
+            + ([(e, "CARTE") for e in offers] if offers else [(e, "BENCH") for e in lcu_mon.bench])
+        if not pool:
             note("se incarca...")
-        if lcu_mon.assigned:
-            build = ingame.load_cached(lcu_mon.assigned["name"])
-            summoners = build.get("summoners") if build else None
-            if summoners:
-                section("SUMMONER SPELLS")
-                summoner_row(summoners)
+            return
+        ranked = sorted(pool, key=lambda p: logic.tier_rank(p[0]["tier"]))
+        # Sus, fixate: cel mai bun campion si spell-urile lui. Lista de dedesubt
+        # poate fi lunga, dar decizia se vede fara scroll.
+        best, origin = ranked[0]
+        section("CEL MAI BUN")
+        tier_row("champions", best, "BEST", tag=origin)
+        build = ingame.load_cached(best["name"])
+        summoners = build.get("summoners") if build else None
+        if summoners:
+            section(f"SUMMONER SPELLS  ·  {best['name'].upper()}")
+            summoner_row(summoners)
+        if ranked[1:]:
+            section("RESTUL  ·  DUPA TIER")
+            for entry, origin in ranked[1:]:
+                tier_row("champions", entry, "BEST", tag=origin)
 
     def augment_strip(names):
         """Augmentele luate, iconite mici in bara de titlu; click pe una o scoate
@@ -944,6 +987,26 @@ def build_ui(lcu, lcu_mon, ingame, ingame_mon):
                 cell.pack(side="left", padx=(0, 4))
                 slot(cell, e, 30, BG).pack(padx=1, pady=1)
 
+    def top_augments():
+        """Rezerva cand OCR-ul nu vede oferta: cele mai bune augmente ale
+        campionului pe fiecare raritate. Le cauti pe carduri dupa nume."""
+        import augment_tier
+        champ = (ingame_mon.roster or {}).get("local_champion")
+        section("TOP AUGMENTE" + (f"  \u00b7  {champ.upper()}" if champ else ""))
+        if ingame_mon.ocr_status:
+            note("OCR: " + ingame_mon.ocr_status.split(" (")[0], DIM)
+        top = augment_tier.top_by_rarity(ingame_mon.global_augments, champ)
+        for rarity, label in (("prismatic", "PRISM"), ("gold", "AUR"), ("silver", "ARGINT")):
+            if not top.get(rarity):
+                continue
+            row = tk.Frame(body, bg=CARD)
+            row.pack(fill="x", pady=2)
+            tk.Label(row, text=label, bg=CARD, fg=DIM, font=pix(6), width=7,
+                     anchor="w").pack(side="left", padx=(6, 4), pady=4)
+            tk.Label(row, text="  \u00b7  ".join(f"{a['name']} ({a['tier']})" for a in top[rarity]),
+                     bg=CARD, fg=TEXT, font=mono(10, "bold"), anchor="w", justify="left",
+                     wraplength=px(260)).pack(side="left", fill="x", pady=4)
+
     def render_in_game():
         champ = (ingame_mon.roster or {}).get("local_champion") or "?"
         enemies = (ingame_mon.roster or {}).get("enemies") or []
@@ -959,6 +1022,15 @@ def build_ui(lcu, lcu_mon, ingame, ingame_mon):
 
         if ingame_mon.taken_augments:
             augment_strip(ingame_mon.taken_augments)
+
+        if ingame_mon.augments:
+            # numele citite, in ordinea cardurilor: daca o insigna a cazut pe
+            # alt card, aici vezi oricum ce tier are fiecare augment
+            section("OFERTA")
+            for a in ingame_mon.augments:
+                tier_row("augments", a, "BEST")
+        elif aug_view["on"]:
+            top_augments()
 
         if ingame_mon.stat_anvil:
             section("STAT ANVIL")
@@ -982,12 +1054,15 @@ def build_ui(lcu, lcu_mon, ingame, ingame_mon):
 
             # Doar ce URMEAZA sa cumperi, in ordine. Cele deja cumparate nu mai
             # sunt o decizie.
-            ramase = [e for e in rb["core"] + rb["picks"] if not e["owned"]]
+            # Cu 6 sloturi pline nu mai ai unde pune un item: ce urmeaza vine
+            # doar prin sfatul de vanzare de mai sus (VINDE X, IA Y).
+            full = rb.get("full")
+            ramase = [] if full else [e for e in rb["core"] + rb["picks"] if not e["owned"]]
             if ramase:
                 next_strip(ramase[:6])      # are propria eticheta: CUMPARA ACUM
             elif rb["picks"]:
                 section("BUILD COMPLET")
-                icon_strip(rb["core"] + rb["picks"])
+                icon_strip([e for e in rb["core"] + rb["picks"] if e["owned"] or not full])
 
             if rb.get("unavailable"):
                 # de ce lipseste un item pe care l-ai astepta: nu-l poti cumpara
@@ -1009,7 +1084,8 @@ def build_ui(lcu, lcu_mon, ingame, ingame_mon):
             shown["fingerprint"] = None      # forteaza redesenarea panoului
 
     bar = augment_bar.AugmentBar(root, TIER_COLORS, UNKNOWN_TIER[1],
-                                 (heading, body_family), on_pick=took_augment)
+                                 (heading, body_family), on_pick=took_augment,
+                                 names=True)
 
     # Stat Anvil: acelasi fel de banda, deasupra acelorasi carduri, doar ca
     # "tier"-ul e statul oferit si culoarea spune doar daca e alegerea buna --
@@ -1058,7 +1134,7 @@ def build_ui(lcu, lcu_mon, ingame, ingame_mon):
             import ocr_augments as _ocr
             import win32gui as _w32
             hwnd = _ocr.find_game_window()
-            focused = bool(hwnd) and _w32.GetForegroundWindow() == hwnd
+            focused = bool(hwnd) and _ocr.in_front(hwnd)
             region = _ocr.augment_region(_ocr.game_rect(hwnd)) if focused else None
 
             if ingame_mon.augments and focused:
@@ -1119,7 +1195,9 @@ def build_ui(lcu, lcu_mon, ingame, ingame_mon):
                     tuple(ingame_mon.taken_augments),
                     tuple((ingame_mon.resolved_build or {}).get("unavailable") or ()),
                     tuple((s["name"], s["is_best"]) for s in ingame_mon.stat_anvil),
-                    ingame_mon.status)
+                    ingame_mon.status,
+                    (ingame_mon.resolved_build or {}).get("full"),
+                    aug_view["on"] and (ingame_mon.ocr_status or "").split(" (")[0])
         # idle: doar starea monitoarelor. Pasul animatiei NU intra aici --
         # altfel am redesena tot corpul de 9 ori pe secunda.
         return (view, lcu_mon.phase, ingame_mon.phase, lcu_mon.error)
@@ -1175,7 +1253,9 @@ def build_ui(lcu, lcu_mon, ingame, ingame_mon):
         if lean:
             for w in (subbar, divider2, divider3, footer):
                 w.pack_forget()
+            aug_btn.pack(side="right", after=version)
         else:
+            aug_btn.pack_forget()
             subbar.pack(fill="x", padx=8, pady=5, before=body_wrap)
             divider2.pack(fill="x", before=body_wrap)
             divider3.pack(fill="x", after=body_wrap)
@@ -1187,6 +1267,10 @@ def build_ui(lcu, lcu_mon, ingame, ingame_mon):
         collapsed["want"] = not collapsed["want"]
 
     def refresh():
+        if version.cget("text") == "..." and not UPDATE["busy"]:
+            # raspunsul scurt ("ESTI LA ZI"), apoi inapoi la numarul versiunii
+            version.configure(text=(UPDATE["why"] or "").split(":")[0].upper() or f"v{VERSION}")
+            root.after(4000, lambda: version.configure(text=f"v{VERSION}"))
         if UPDATE["tag"] and not update_note.winfo_ismapped():
             update_note.configure(text=f"UPDATE {UPDATE['tag']}")
             update_note.pack(side="left", padx=(8, 0))
@@ -1294,6 +1378,32 @@ def build_ui(lcu, lcu_mon, ingame, ingame_mon):
             VERSION, LOG_DIR, lcu_mon, ingame_mon)
 
     bug.bind("<Button-1>", open_report)
+
+    def check_update(_=None):
+        if UPDATE["busy"] or UPDATE["tag"]:
+            return          # deja cauta, sau e deja instalat (scrie UPDATE langa titlu)
+        UPDATE["busy"] = True
+        version.configure(text="...")
+
+        def work():
+            try:
+                _, UPDATE["why"] = install_update()
+            except Exception as e:
+                UPDATE["why"] = f"eroare: {type(e).__name__}"
+            UPDATE["busy"] = False
+        threading.Thread(target=work, daemon=True).start()
+
+    version.bind("<Button-1>", check_update)
+    attach_tip(version, f"Versiunea {VERSION}", "Click: cauta si instaleaza acum o versiune noua.")
+
+    def toggle_aug(_=None):
+        aug_view["on"] = not aug_view["on"]
+        aug_btn.configure(fg=ACCENT if aug_view["on"] else GOLD)
+        shown["fingerprint"] = None
+
+    aug_btn.bind("<Button-1>", toggle_aug)
+    attach_tip(aug_btn, "Top augmente",
+               "Cele mai bune augmente pentru campionul tau, cand insignele nu apar pe carduri.")
     draw_bug()
     attach_tip(bug, "Raporteaza un bug", "Trimite ce vede aplicatia acum, ca sa pot repara.")
 
@@ -1446,7 +1556,19 @@ def already_running():
 
 
 UPDATE_EVERY = 30 * 60      # secunde intre verificari cat timp aplicatia ruleaza
-UPDATE = {"tag": None}      # versiunea instalata in fundal, asteapta repornirea
+UPDATE = {"tag": None, "busy": False, "why": None}   # tag = versiunea instalata, asteapta repornirea
+UPDATE_LOCK = threading.Lock()
+
+
+def install_update():
+    """(tag, motiv). Serializat: butonul de update si verificarea periodica nu
+    descarca de doua ori, si nimic nu se reinstaleaza dupa ce s-a instalat."""
+    with UPDATE_LOCK:
+        if UPDATE["tag"]:
+            return UPDATE["tag"], None
+        tag, why = updater.update_if_available(VERSION)
+        UPDATE["tag"] = tag
+        return tag, why
 
 
 def maintenance():
@@ -1465,7 +1587,7 @@ def maintenance():
         except Exception:
             pass
         try:
-            UPDATE["tag"], _ = updater.update_if_available(VERSION)
+            install_update()
         except Exception:
             pass
         if UPDATE["tag"] is None:
