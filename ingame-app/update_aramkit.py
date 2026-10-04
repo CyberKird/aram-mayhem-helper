@@ -207,7 +207,8 @@ def tooltip_text(item):
         text = "".join(sp.get("text") or "" for sp in block.get("spans", []))
         if text.strip():
             lines.append(text.strip())
-    return "\n".join(lines)
+    # Riot scrie intervalele cu linie lunga (U+2013, ex. 150-200); in aplicatie le vrem cu cratima
+    return "\n".join(lines).replace("\u2013", "-").replace("\u2014", "-")
 
 
 _STAT_LABELS = {"Armor": "armor", "Magic Resist": "mr", "Health": "hp"}

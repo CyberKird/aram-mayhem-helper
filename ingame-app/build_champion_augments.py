@@ -129,6 +129,8 @@ def build_descriptions(browser):
     finally:
         page.close()
 
+    # fara linii lungi in textele afisate: Riot si Blitz le folosesc la intervale si citate
+    out = {k: v.replace("\u2013", "-").replace("\u2014", "-") for k, v in out.items()}
     DESC_OUT.write_text(json.dumps(out, indent=1, sort_keys=True, ensure_ascii=False),
                         encoding="utf-8")
     return out
