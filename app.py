@@ -106,7 +106,6 @@ FIT = 1.0
 # Locul liber dintre HUD-ul de jos si minimap, in fractiuni din inaltimea jocului
 # (masurat pe o captura 16:9). Se potriveste cu minimap-ul tau; daca il schimbi,
 # muti panoul o data cu mouse-ul si isi tine minte diferenta.
-DOCK_W, DOCK_RIGHT, DOCK_BOTTOM = 0.29, 0.262, 0.004
 DOCK_MAXH = 0.31      # inaltimea maxima a panoului, ca fractie din inaltimea jocului
 MIN_HFIT = 0.55       # cat de mult poate fi micsorat continutul inainte de scroll
 
@@ -132,7 +131,7 @@ def be_lightweight():
 
 # Ridica-l INAINTE de a publica un Release nou, altfel exe-ul deja instalat
 # la useri nu vede ca a aparut ceva mai nou.
-VERSION = "1.2.0"
+VERSION = "1.3.0"
 
 HOTKEY_LABEL = "CTRL+ALT+Z"
 
@@ -161,16 +160,27 @@ else:
 ICONS = ROOT / "ingame-app" / "data" / "icons"
 FONTS = ROOT / "ingame-app" / "data" / "fonts"
 
-# Paleta clientului League (hextech): albastru-negru, auriu, crem, turcoaz.
-BG = "#010a13"
+# Paleta HUD-ului din joc: teal aproape negru, auriu-bronz, crem, turcoaz.
+BG = "#081517"
 LINE = "#785a28"          # auriu inchis: linii si chenare
 GOLD = "#c8aa6e"          # auriu deschis: chenarul ferestrei, titluri
 ACCENT = "#0ac8b9"        # turcoazul hextech: starea activa / "urmeaza"
 DIM = "#a09b8c"
 TEXT = "#f0e6d2"
-CARD = "#0a1428"
-EDGE = "#463714"          # chenar de card, sectiuni
+CARD = "#0f2428"          # interiorul panourilor din HUD (abilitati, shop)
+EDGE = "#1e3a3a"          # linii de sectiune, teal stins ca separatorii din HUD
+# chenarul hartii si al HUD-ului, din captura jocului: margine aproape neagra,
+# fir auriu-bronz, banda teal inchis si o linie teal mai deschisa spre interior
+FRAME = ("#010a0c", "#a3874f", "#0f2b2c", "#1f4644")
 UP, DOWN = "#0ac8b9", "#e84057"
+
+# In joc panoul imita HUD-ul (teal); in client imita clientul League (bleumarin
+# hextech, auriu). Se schimba singur dupa ecranul pe care esti (apply_theme).
+THEMES = {
+    "hud": {"BG": BG, "CARD": CARD, "EDGE": EDGE, "FRAME": FRAME},
+    "client": {"BG": "#010a13", "CARD": "#0a1428", "EDGE": "#1e2328",
+               "FRAME": ("#000000", "#785a28", "#091428", "#c8aa6e")},
+}
 
 TIER_COLORS = {"S+": "#ff4655", "S": "#ff9a3c", "A": "#ffd166",
                "B": "#8ac926", "C": "#4a9de0", "D": "#6b7280"}
@@ -266,7 +276,7 @@ def build_ui(lcu, lcu_mon, ingame, ingame_mon):
             pass
     root.overrideredirect(True)      # desenam noi chenarul, ca in macheta
     root.attributes("-topmost", True)
-    root.configure(bg=GOLD)
+    root.configure(bg=FRAME[0])
     root.withdraw()
 
     x, y = settings.pos("panel", (root.winfo_screenwidth() - px(372) - 28, 64))
@@ -294,15 +304,17 @@ def build_ui(lcu, lcu_mon, ingame, ingame_mon):
             pass
         return None
 
-    def dock_base(box, h):
-        """(x, y, w) al panoului lipit, fara diferenta ta personala."""
+    def dock_area(box):
+        """(x, y, w, h) de ecran al spatiului dintre HUD si minimap, din setarile
+        jocului (marimea hartii si a HUD-ului difera de la jucator la jucator)."""
         l, t, r, b = box
-        H = b - t
-        # golul dintre HUD si minimap, din setarile jocului (marimea hartii difera
-        # de la jucator la jucator, deci nu o putem presupune fixa)
-        right, gap_w = hud_settings.gap(r - l, H)
-        w = min(int(gap_w), px(372))
-        return int(l + right - w), int(b - DOCK_BOTTOM * H - h), w
+        x0, y0, x1, y1 = hud_settings.area(r - l, b - t)
+        return int(l + x0), int(t + y0), int(x1 - x0), int(y1 - y0)
+
+    def dock_base(box, h):
+        """(x, y, w) al panoului lipit: umple latimea golului, jos lipit de margine."""
+        x, y, w, ah = dock_area(box)
+        return x, y + ah - h, w
 
     def client_target(h):
         """(x, y, H) pentru panou langa clientul League, in champ select, sau None.
@@ -404,8 +416,15 @@ def build_ui(lcu, lcu_mon, ingame, ingame_mon):
         return True
 
     # chenarul de 1px: un frame exterior alb cu padding, peste care sta continutul
-    shell = tk.Frame(root, bg=BG)
-    shell.pack(fill="both", expand=True, padx=1, pady=1)
+    # chenarul, ca la minimap si HUD: margine intunecata, bronz, fir auriu
+    # fiecare inel lasa sa se vada culoarea parintelui pe grosimea data:
+    # 1 margine, 2 auriu, 3 banda teal, 1 linie teal
+    outer = root
+    for color, width in zip(FRAME[1:] + (BG,), (1, 2, 3, 1)):
+        ring = tk.Frame(outer, bg=color)
+        ring.pack(fill="both", expand=True, padx=max(1, px(width)), pady=max(1, px(width)))
+        outer = ring
+    shell = outer
 
     # --- bara de titlu ---------------------------------------------------
     titlebar = tk.Frame(shell, bg=BG)
@@ -413,6 +432,9 @@ def build_ui(lcu, lcu_mon, ingame, ingame_mon):
 
     title = tk.Label(titlebar, text="ARAM MAYHEM", bg=BG, fg=GOLD, font=pix(8))
     title.pack(side="left")
+    # augmentele alese, langa numele campionului: nu mai iau un rand din panou
+    title_augs = tk.Frame(titlebar, bg=BG)
+    title_augs.pack(side="left", padx=(8, 0))
 
     close = tk.Label(titlebar, text="X", bg=BG, fg=GOLD, font=pix(8),
                      cursor="hand2", padx=4)
@@ -853,12 +875,11 @@ def build_ui(lcu, lcu_mon, ingame, ingame_mon):
             note("se incarca...")
 
     def augment_strip(names):
-        """Augmentele luate, ca iconite mici; click pe una o scoate (alegere gresita)."""
-        row = tk.Frame(body, bg=BG)
-        row.pack(fill="x", pady=(4, 2))
-        tk.Label(row, text="ALESE", bg=BG, fg=DIM, font=mono(9)).pack(side="left", padx=(0, 6))
+        """Augmentele luate, iconite mici in bara de titlu; click pe una o scoate
+        (alegere gresita)."""
+        row = title_augs
         for name in names:
-            photo = icon("augments", name, 22)
+            photo = icon("augments", name, 16)
             cell = tk.Label(row, image=photo, bg=BG, bd=0, cursor="hand2") if photo else \
                 tk.Label(row, text=name[:10], bg=CARD, fg=TEXT, font=mono(9), cursor="hand2")
             cell.pack(side="left", padx=(0, 4))
@@ -981,12 +1002,12 @@ def build_ui(lcu, lcu_mon, ingame, ingame_mon):
             shown["fingerprint"] = None      # forteaza redesenarea panoului
 
     bar = augment_bar.AugmentBar(root, TIER_COLORS, UNKNOWN_TIER[1],
-                                 pix, mono, on_pick=took_augment)
+                                 (heading, body_family), on_pick=took_augment)
 
     # Stat Anvil: acelasi fel de banda, deasupra acelorasi carduri, doar ca
     # "tier"-ul e statul oferit si culoarea spune doar daca e alegerea buna --
     # nu exista tier list public pentru shard-uri, deci n-avem ce rank sa aratam.
-    anvil_bar = augment_bar.AugmentBar(root, {}, DIM, pix, mono)
+    anvil_bar = augment_bar.AugmentBar(root, {}, DIM, (heading, body_family))
 
     # nume lung de card -> eticheta scurta care incape in insigna
     ANVIL_LABEL = {
@@ -1020,7 +1041,7 @@ def build_ui(lcu, lcu_mon, ingame, ingame_mon):
         champ_known)
     champ_reader.run()
 
-    pin_bar = augment_bar.PinBar(root, TIER_COLORS, UNKNOWN_TIER[1], pix, mono)
+    pin_bar = augment_bar.PinBar(root, TIER_COLORS, UNKNOWN_TIER[1], (heading, body_family))
 
     def update_bars():
         """Benzile de tier de deasupra cardurilor. Separate de panou si rulate
@@ -1112,6 +1133,31 @@ def build_ui(lcu, lcu_mon, ingame, ingame_mon):
     collapsed = {"want": False, "applied": False}
     chrome = {"lean": False}
 
+    theme = {"name": "hud"}
+
+    def apply_theme(view):
+        """Culorile ecranului curent; recoloreaza si piesele fixe ale ferestrei."""
+        global BG, CARD, EDGE, FRAME
+        name = "hud" if view == "in_game" else "client"
+        if name == theme["name"]:
+            return
+        old, new = THEMES[theme["name"]], THEMES[name]
+        swap = {}
+        for key in ("BG", "CARD", "EDGE"):
+            swap[old[key]] = new[key]
+        swap.update(zip(old["FRAME"], new["FRAME"]))
+        BG, CARD, EDGE, FRAME = new["BG"], new["CARD"], new["EDGE"], new["FRAME"]
+        theme["name"] = name
+        stack = [root]
+        while stack:
+            w = stack.pop()
+            try:
+                if w.cget("bg") in swap:
+                    w.configure(bg=swap[w.cget("bg")])
+            except tk.TclError:
+                pass
+            stack.extend(w.winfo_children())
+
     def set_chrome(view):
         """In joc fara randul de context si fara subsol: panoul sta in golul
         dintre HUD si minimap, iar acolo conteaza doar continutul."""
@@ -1159,6 +1205,7 @@ def build_ui(lcu, lcu_mon, ingame, ingame_mon):
             return
 
         view = active_view()
+        apply_theme(view)
         set_chrome(view)
         fp = fingerprint(view)
         if view != shown["view"] or fp != shown["fingerprint"]:
@@ -1173,7 +1220,7 @@ def build_ui(lcu, lcu_mon, ingame, ingame_mon):
             for _n in range(5):
                 if os.environ.get("ARAM_DEBUG_FIT"):
                     print("pass", _n, "hfit", round(dock["hfit"], 3), "FIT", round(FIT, 3))
-                for w in body.winfo_children():
+                for w in body.winfo_children() + title_augs.winfo_children():
                     w.destroy()
                 anim["cells"] = []    # celulele tocmai au fost distruse
                 render[view]()
@@ -1195,7 +1242,9 @@ def build_ui(lcu, lcu_mon, ingame, ingame_mon):
         content = body.winfo_reqheight()
         chrome = root.winfo_reqheight() - body_wrap.winfo_reqheight()
         box = game_box()
-        limit = int(DOCK_MAXH * (box[3] - box[1])) if box else px(MAX_HEIGHT)
+        docked = box is not None and dock["manual"] is None
+        limit = dock_area(box)[3] if docked else (
+            int(DOCK_MAXH * (box[3] - box[1])) if box else px(MAX_HEIGHT))
         total = chrome + content
         if os.environ.get("ARAM_DEBUG_FIT"):
             print("  fit: content", content, "chrome", chrome, "limit", limit)
@@ -1204,6 +1253,8 @@ def build_ui(lcu, lcu_mon, ingame, ingame_mon):
             dock["hfit"] = max(MIN_HFIT, dock["hfit"] * max(1, limit - chrome) / content * 0.97)
             update_fit()
             return True
+        # inaltimea urmeaza continutul (cat mai putin loc), plafonata la inaltimea
+        # hartii; latimea umple golul (dock_base)
         shown_h = max(1, min(content, limit - chrome))
         body_wrap.configure(height=shown_h)
         root.update_idletasks()

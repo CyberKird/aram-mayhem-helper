@@ -88,11 +88,20 @@ def read():
         return {}
 
 
-def gap(box_w, box_h, settings=None):
-    """(x_dreapta, latime) a golului dintre HUD si minimap, relativ la stanga jocului.
+HUD_TALL_BASE = 0.092  # inaltimea HUD-ului cu itemele (chenar inclus), la GlobalScale 0
+PANEL_TALL = 1.5       # panoul poate fi cu putin mai inalt decat HUD-ul, nu cat harta
+EDGE = 0.002           # cat lasam intre panou si chenarele vecine, din inaltime
 
-    Fara setari folosim valorile de la capturile de referinta (minimap 0.259*H,
-    HUD 0.328*H de la centru), care se potrivesc cu un set tipic de setari.
+
+def area(box_w, box_h, settings=None):
+    """(x0, y0, x1, y1) al spatiului dintre HUD si minimap, relativ la joc.
+
+    Lipit de marginea din dreapta a HUD-ului, de marginea din stanga a hartii
+    si de jos; in sus cel mult PANEL_TALL x inaltimea HUD-ului. HUD-ul creste
+    cu GlobalScale in aceeasi proportie pe latime si pe inaltime (masurat pe o
+    captura reala: 0.227 jumatate de latime, 0.092 inaltime, la GlobalScale 0).
+
+    Fara setari folosim valorile de la capturile de referinta.
     """
     s = read() if settings is None else settings
     H = box_h
@@ -101,10 +110,16 @@ def gap(box_w, box_h, settings=None):
         hud_half = (HUD_HALF_BASE + HUD_HALF_PER_SCALE * s.get("GlobalScale", 0.0)) * H
     else:
         minimap, hud_half = 0.259 * H, 0.328 * H
-    margin = 0.012 * H
-    if s.get("FlipMiniMap") == 1:           # harta in stanga: golul e pana la marginea din dreapta
-        right = box_w - margin
-    else:
-        right = box_w - minimap - margin
-    left = box_w / 2 + hud_half + margin
-    return right, max(0.18 * H, right - left)
+    hud_tall = HUD_TALL_BASE * H * hud_half / (HUD_HALF_BASE * H)
+    edge = EDGE * H
+    x0 = box_w / 2 + hud_half + edge
+    # harta in stanga: golul din dreapta HUD-ului merge pana la marginea ecranului
+    x1 = box_w if s.get("FlipMiniMap") == 1 else box_w - minimap - edge
+    x0 = min(x0, x1 - 0.18 * H)              # oricat de mare e HUD-ul, panoul ramane lizibil
+    return x0, box_h - min(hud_tall * PANEL_TALL, minimap), x1, box_h
+
+
+def gap(box_w, box_h, settings=None):
+    """(x_dreapta, latime) a golului dintre HUD si minimap, relativ la stanga jocului."""
+    x0, _, x1, _ = area(box_w, box_h, settings)
+    return x1, x1 - x0

@@ -470,7 +470,21 @@ _layout = None      # {"size": (W, H), "fx": [3 x fractie din W], "fy": fractie 
 
 BAND_HALF_W = 0.17     # jumatate din latimea benzii, ca fractie din inaltimea jocului
 BAND_HALF_H = 0.05     # jumatate din inaltimea ei
-CARD_TOP = 0.248       # de la numele augmentului pana la varful cardului, din inaltimea jocului
+CARD_TOP = 0.229       # de la numele augmentului pana la varful cardului, din inaltimea jocului
+# Asezarea implicita, masurata pe o captura reala de oferta (in fractii din
+# inaltimea jocului, deci la fel pe orice rezolutie 16:9 sau ultrawide): titlurile
+# stau la 0.407 din inaltime, iar centrele cardurilor la 0.35 una de alta.
+# Prima citire completa o inlocuieste cu cea invatata.
+DEFAULT_FY, DEFAULT_STEP = 0.407, 0.35
+
+
+def layout_for(W, H):
+    """Asezarea invatata daca e pentru marimea asta de fereastra, altfel cea implicita."""
+    lay = _layout
+    if lay and lay["size"] == (W, H):
+        return lay
+    d = DEFAULT_STEP * H / W
+    return {"size": (W, H), "fx": [0.5 - d, 0.5, 0.5 + d], "fy": DEFAULT_FY}
 
 
 def learn_layout(rect, region_left, region_top, k, centers):
@@ -489,12 +503,10 @@ def learn_layout(rect, region_left, region_top, k, centers):
 
 
 def read_fast(rect, augment_names):
-    """Citire doar pe benzile cunoscute. ([nume|None], [text]) sau None daca nu stim asezarea."""
-    lay = _layout
+    """Citire doar pe benzile cardurilor (asezarea invatata sau cea implicita). ([nume|None], [text])."""
     left, top, right, bottom = rect
     W, H = right - left, bottom - top
-    if not lay or lay["size"] != (W, H):
-        return None
+    lay = layout_for(W, H)
     hw, hh = int(BAND_HALF_W * H), int(BAND_HALF_H * H)
     cy = top + lay["fy"] * H
     x0 = int(left + lay["fx"][0] * W - hw)
@@ -513,14 +525,12 @@ def read_fast(rect, augment_names):
 def augment_region(rect):
     """(l, t, r, b) in care sta oferta, pentru banda de tier. Din asezarea invatata
     cand o avem (cardurile reale), altfel zona implicita."""
-    lay = _layout
     left, top, right, bottom = rect
     W, H = right - left, bottom - top
-    if lay and lay["size"] == (W, H):
-        step = (lay["fx"][-1] - lay["fx"][0]) / (CARDS - 1) * W
-        l = left + lay["fx"][0] * W - step / 2
-        return (int(l), int(top + (lay["fy"] - CARD_TOP) * H), int(l + step * CARDS), bottom)
-    return offer_region(rect)
+    lay = layout_for(W, H)
+    step = (lay["fx"][-1] - lay["fx"][0]) / (CARDS - 1) * W
+    l = left + lay["fx"][0] * W - step / 2
+    return (int(l), int(top + (lay["fy"] - CARD_TOP) * H), int(l + step * CARDS), bottom)
 
 
 def detect_offered_augments(augment_names, min_matches=2):
