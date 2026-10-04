@@ -126,12 +126,39 @@ def current_range(champion, taken_augments, extra):
     Draw Your Sword te face melee, iar apoi Runaan's Hurricane ("Must be
     Ranged") nu se mai poate cumpara -- recomandarea lui devine o capcana.
     Ultimul augment care schimba raza castiga.
+
+    Raza reala din joc (live_range, din /activeplayer) bate orice deductie:
+    vede Draw Your Sword chiar daca aplicatia n-a prins alegerea augmentului.
     """
+    live = extra.get("live_range")
+    if live:
+        return "ranged" if live >= RANGED_FROM else "melee"
     reach = (extra.get("ranges") or {}).get(champion)
     state = None if reach is None else ("ranged" if reach >= RANGED_FROM else "melee")
     for aug in taken_augments or ():
         state = ((extra.get("effects") or {}).get(aug) or {}).get("range", state)
     return state
+
+
+def implied_augment(champion, taken_augments, extra):
+    """Augmentul care explica raza din joc, daca n-a fost prins la alegere.
+
+    Ashe are 600 raza de baza; daca jocul raporteaza 200, ai luat Draw Your
+    Sword. Il adaugam ca sa conteze si la itemii cu cel mai bun win rate CU el.
+    Doar cand un singur augment poate explica schimbarea.
+    """
+    base = (extra.get("ranges") or {}).get(champion)
+    live = extra.get("live_range")
+    if not base or not live:
+        return None
+    now = "ranged" if live >= RANGED_FROM else "melee"
+    if now == ("ranged" if base >= RANGED_FROM else "melee"):
+        return None
+    effects = extra.get("effects") or {}
+    if any((effects.get(a) or {}).get("range") == now for a in taken_augments or ()):
+        return None
+    cands = [a for a, e in effects.items() if e.get("range") == now]
+    return cands[0] if len(cands) == 1 else None
 
 
 def augment_scores(taken_augments, extra):

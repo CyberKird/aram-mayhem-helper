@@ -28,6 +28,9 @@ import rules_engine
 import stat_anvil
 from build_scraper import load_cached, slug
 
+# augmentele alese in meciul curent, ca sa nu se piarda daca repornesti aplicatia
+TAKEN_FILE = pathlib.Path(__import__("tempfile").gettempdir()) / "aram-mayhem-taken.json"
+
 DATA = pathlib.Path(__file__).with_name("data")
 
 # Cat timp lasam o oferta pe ecran. Alegerea unui augment dureaza cateva
@@ -118,6 +121,9 @@ class Monitor:
         self._anvil_miss = 0
         self._last_stat_anvil = ()
         self._slot = {}
+        self.live_range = None       # raza de atac din joc (Draw Your Sword o schimba)
+        self._game = None            # cheia meciului, pentru augmentele salvate
+        self._saved_taken = []
         # OCR-ul costa cel mai mult procesor din toata aplicatia, deci il rulam
         # des doar cand e probabil sa apara o oferta: la inceputul meciului, dupa
         # un level-up sau dupa o cheltuiala mare (Stat Anvil). Altfel rar.
@@ -223,8 +229,21 @@ class Monitor:
         ap = live_client.get("/activeplayer")
         if isinstance(ap, dict):
             self._note_activity(ap.get("level"), ap.get("currentGold"))
+            self.live_range = (ap.get("championStats") or {}).get("attackRange")
         roster = normalize_roster(raw, self.champ_id_map)
         self.roster = roster
+
+        # augmentele alese supravietuiesc unei reporniri a aplicatiei in meci
+        game = "|".join([str((ap or {}).get("riotId")), str(roster.get("local_champion"))]
+                        + sorted(roster.get("allies") or []) + sorted(roster.get("enemies") or []))
+        if game != self._game:
+            self._game = game
+            try:
+                saved = json.loads(TAKEN_FILE.read_text(encoding="utf-8"))
+                if saved.get("game") == game and not self.taken_augments:
+                    self.taken_augments = list(saved.get("taken") or [])
+            except (OSError, ValueError):
+                pass
 
         champ = roster["local_champion"]
         if champ and champ != self._known_champion:
@@ -353,6 +372,17 @@ class Monitor:
         champ = self.roster.get("local_champion")
         extra["aug_table"] = (bundle.get().get("augment_builds") or {}).get(slug(champ), {}) \
             if champ else {}
+        extra["live_range"] = self.live_range
+        implied = rules_engine.implied_augment(champ, self.taken_augments, extra)
+        if implied:
+            self.taken_augments.append(implied)
+        if self._game and self.taken_augments != self._saved_taken:
+            self._saved_taken = list(self.taken_augments)
+            try:
+                TAKEN_FILE.write_text(json.dumps({"game": self._game, "taken": self._saved_taken}),
+                                      encoding="utf-8")
+            except OSError:
+                pass
         self.resolved_build = rules_engine.resolve_build(
             self.build, self.roster, self.champion_tags, self.rules,
             self.item_stats, self.taken_augments, self.augment_items, extra)
@@ -373,6 +403,9 @@ class Monitor:
         self._anvil_miss = 0
         self._last_stat_anvil = ()
         self._slot = {}
+        self.live_range = None
+        self._game = None
+        self._saved_taken = []
         self.taken_augments = []   # meci nou, augmente noi
         self._fast_until = 0.0
         self._last_level = None
@@ -759,6 +792,13 @@ def selfcheck():
     assert "Runaan's Hurricane" not in shown, shown
     assert after["unavailable"] == ["Runaan's Hurricane"] and after["range"] == "melee"
     assert len(shown) == 6, shown                       # core-ul scazut a fost completat
+    # raza reala din joc: melee chiar daca n-am prins alegerea augmentului
+    live = dict(ctx, live_range=200.0)
+    blind = rules_engine.resolve_build(yun, roster_y, champion_tags, rules, stats_y, [], {}, live)
+    assert "Runaan's Hurricane" not in [e["item"] for e in blind["core"] + blind["picks"]]
+    assert rules_engine.implied_augment("Yunara", [], live) == "Draw Your Sword"
+    assert rules_engine.implied_augment("Yunara", ["Draw Your Sword"], live) is None
+    assert rules_engine.implied_augment("Yunara", [], dict(ctx, live_range=575.0)) is None
     pick = next(e for e in after["picks"] if e["item"] == "Bloodthirster")
     assert pick["reason"] and "61% WR" in pick["reason"], pick   # cel mai bun CU augmentul
 
