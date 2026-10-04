@@ -872,33 +872,49 @@ def build_ui(lcu, lcu_mon, ingame, ingame_mon):
             cell.bind("<Button-1>", drop)
 
     def next_strip(entries):
-        """Itemii de cumparat, in ordine, ca sloturile din HUD; sub ei, numele
-        si motivul primului. Restul motivelor apar la hover pe iconita."""
-        row = tk.Frame(body, bg=BG)
-        row.pack(fill="x", pady=(2, 0))
-        for i, e in enumerate(entries):
-            first = i == 0
-            col = tk.Frame(row, bg=BG)
-            col.pack(side="left", padx=(0, 4))
-            cell = tk.Frame(col, bg=GOLD if first else LINE)
-            cell.pack()
-            photo = icon("items", e["item"], 36 if first else 30)
-            lbl = tk.Label(cell, image=photo, bg=BG, bd=0) if photo else \
-                tk.Label(cell, text=e["item"][:3].upper(), bg=CARD, fg=DIM, font=pix(7),
+        """Itemul de cumparat ACUM, mare si incadrat auriu ca sa sara in ochi
+        dintr-o privire; dupa el, restul ordinii ca sloturi mici si stinse.
+        Motivele celorlalti apar la hover pe iconita."""
+        def tip_for(e):
+            return "\n\n".join(t for t in (e.get("reason") and e["reason"].capitalize(),
+                                           item_desc.get(e["item"])) if t) or None
+
+        def slot(parent, e, size, bg):
+            photo = icon("items", e["item"], size)
+            lbl = tk.Label(parent, image=photo, bg=bg, bd=0) if photo else \
+                tk.Label(parent, text=e["item"][:3].upper(), bg=CARD, fg=DIM, font=pix(7),
                          width=4, height=2)
-            lbl.pack(padx=2 if first else 1, pady=2 if first else 1)
-            tip_text = "\n\n".join(t for t in (e.get("reason") and e["reason"].capitalize(),
-                                                item_desc.get(e["item"])) if t)
-            attach_tip(lbl, e["item"], tip_text or None)
-            # linie turcoaz sub itemii ceruti de meci (contra-item, augment)
-            tk.Frame(col, bg=ACCENT if e.get("reason") else BG,
-                     height=px(2)).pack(fill="x", pady=(2, 0))
-        head = entries[0]
-        tk.Label(body, text=head["item"], bg=BG, fg=TEXT, font=mono(13, "bold"),
-                 anchor="w").pack(fill="x", pady=(3, 0))
+            attach_tip(lbl, e["item"], tip_for(e))
+            return lbl
+
+        head, rest = entries[0], entries[1:]
+        # chenar auriu dublu cu linie hextech inauntru, ca alegerea buna din joc
+        gold = tk.Frame(body, bg=GOLD)
+        gold.pack(fill="x", pady=(2, 0))
+        glow = tk.Frame(gold, bg=ACCENT)
+        glow.pack(fill="x", padx=2, pady=2)
+        hero = tk.Frame(glow, bg=CARD)
+        hero.pack(fill="x", padx=1, pady=1)
+        slot(hero, head, 50, CARD).pack(side="left", padx=(5, 8), pady=5)
+        texts = tk.Frame(hero, bg=CARD)
+        texts.pack(side="left", fill="x", expand=True, pady=4)
+        tk.Label(texts, text="CUMPARA ACUM", bg=CARD, fg=ACCENT, font=pix(6),
+                 anchor="w").pack(fill="x")
+        tk.Label(texts, text=head["item"], bg=CARD, fg=TEXT, font=mono(16, "bold"),
+                 anchor="w", justify="left", wraplength=px(230)).pack(fill="x")
         if head.get("reason"):
-            tk.Label(body, text=head["reason"].upper(), bg=BG, fg=ACCENT, font=pix(6),
-                     anchor="w", justify="left", wraplength=px(330)).pack(fill="x")
+            tk.Label(texts, text=head["reason"].upper(), bg=CARD, fg=GOLD, font=pix(6),
+                     anchor="w", justify="left", wraplength=px(230)).pack(fill="x", pady=(1, 0))
+
+        if rest:
+            row = tk.Frame(body, bg=BG)
+            row.pack(fill="x", pady=(5, 0))
+            tk.Label(row, text="APOI", bg=BG, fg=DIM, font=pix(6)).pack(side="left", padx=(0, 6))
+            for e in rest:
+                # linie turcoaz pe itemii ceruti de meci (contra-item, augment)
+                cell = tk.Frame(row, bg=ACCENT if e.get("reason") else LINE)
+                cell.pack(side="left", padx=(0, 4))
+                slot(cell, e, 24, BG).pack(padx=1, pady=1)
 
     def render_in_game():
         champ = (ingame_mon.roster or {}).get("local_champion") or "?"
@@ -935,8 +951,7 @@ def build_ui(lcu, lcu_mon, ingame, ingame_mon):
             # sunt o decizie.
             ramase = [e for e in rb["core"] + rb["picks"] if not e["owned"]]
             if ramase:
-                section("URMEAZA")
-                next_strip(ramase[:6])
+                next_strip(ramase[:6])      # are propria eticheta: CUMPARA ACUM
             elif rb["picks"]:
                 section("BUILD COMPLET")
                 icon_strip(rb["core"] + rb["picks"])
