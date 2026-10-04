@@ -1,47 +1,51 @@
 {
  "champion": "Warwick",
- "source": "https://u.gg/lol/champions/aram/warwick-aram",
+ "source": "https://aramkit.com/en-US/champions/warwick",
+ "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
   "Mark"
  ],
  "starting": [
-  "Dagger",
-  "Vampiric Scepter",
-  "Refillable Potion"
+  "Giant's Belt",
+  "Ruby Crystal"
  ],
  "core": [
-  "Blade of The Ruined King",
+  "Heartsteel",
   "Mercury's Treads",
-  "Spirit Visage"
+  "Blade of The Ruined King",
+  "Titanic Hydra"
  ],
  "fourth": [
-  "Thornmail",
-  "Death's Dance"
+  "Unending Despair",
+  "Warmog's Armor",
+  "Death's Dance",
+  "Spirit Visage"
  ],
  "fifth": [
-  "Winter's Approach",
-  "Stridebreaker",
-  "Bloodthirster"
+  "Warmog's Armor",
+  "Death's Dance",
+  "Unending Despair",
+  "Spirit Visage"
  ],
  "sixth": [
-  "Thornmail",
-  "Wit's End",
-  "Heartsteel"
+  "Warmog's Armor",
+  "Jak'Sho, The Protean",
+  "Endless Hunger",
+  "Unending Despair"
  ],
  "pool": [
-  "Dagger",
-  "Vampiric Scepter",
-  "Refillable Potion",
-  "Blade of The Ruined King",
+  "Giant's Belt",
+  "Ruby Crystal",
+  "Heartsteel",
   "Mercury's Treads",
-  "Spirit Visage",
-  "Thornmail",
+  "Blade of The Ruined King",
+  "Titanic Hydra",
+  "Unending Despair",
+  "Warmog's Armor",
   "Death's Dance",
-  "Winter's Approach",
-  "Stridebreaker",
-  "Bloodthirster",
-  "Wit's End",
-  "Heartsteel"
+  "Spirit Visage",
+  "Jak'Sho, The Protean",
+  "Endless Hunger"
  ]
 }

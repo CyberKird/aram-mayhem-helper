@@ -81,12 +81,30 @@ def item_text(item):
     return "\n".join(line.strip() for line in html.split("\n")).strip()
 
 
+def evolutions(item, items):
+    """Numele itemelor in care se transforma `item`: din descriere ("Transforms
+    into X") si, doar pentru cizme, din "into"."""
+    import re
+    text = re.sub(r"<[^>]+>", " ", item.get("description") or "")
+    names = [re.sub(r"\s+", " ", m).strip()
+             for m in re.findall(r"Transforms into\s+(.+?)\s+(?:at|after|when)", text)]
+    if "Boots" in (item.get("tags") or []):
+        names += [items[i]["name"] for i in item.get("into") or [] if i in items]
+    return sorted(set(n for n in names if n))
+
+
 def main():
     version = fetch_json(f"{DDRAGON}/api/versions.json")[0]
     items = fetch_json(f"{DDRAGON}/cdn/{version}/data/en_US/item.json")["data"]
 
+    # Data Dragon are cate o varianta per mod pentru acelasi nume (Arena,
+    # Swarm, ARAM). Primele ar trebui sa fie cele de ARAM (harta 12): altfel
+    # setdefault pastra varianta de Arena, fara "into" si cu alte cifre.
+    ordered = sorted(items.values(),
+                     key=lambda it: not (it.get("maps") or {}).get("12"))
+
     out = {}
-    for it in items.values():
+    for it in ordered:
         name = it.get("name")
         if not name:
             continue
@@ -123,6 +141,13 @@ def main():
         # sine statator: n-are rost sa vinzi cizmele ca sa iei un Pickaxe
         if it.get("into"):
             entry["component"] = True
+
+        # "Transforms into Muramana at 360 max Mana": itemul nu mai exista in
+        # inventar dupa evolutie, deci fara asta overlay-ul cere iar Manamune.
+        # Pentru cizme, "into" chiar e lantul de upgrade (Mercury's -> Chainlaced).
+        evolves = evolutions(it, items)
+        if evolves:
+            entry["evolves_into"] = evolves
 
         if entry:
             # Data Dragon are duplicate per harta; pastram prima intrare

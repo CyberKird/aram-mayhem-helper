@@ -1,42 +1,51 @@
 {
  "champion": "Corki",
- "source": "https://u.gg/lol/champions/aram/corki-aram",
+ "source": "https://aramkit.com/en-US/champions/corki",
+ "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
-  "Barrier"
+  "Mark"
  ],
  "starting": [
-  "Sheen",
-  "Tear of the Goddess"
+  "Long Sword",
+  "Guardian's Blade"
  ],
  "core": [
-  "Trinity Force",
-  "Mercury's Treads",
-  "Manamune"
- ],
- "fourth": [
   "The Collector",
+  "Gluttonous Greaves",
+  "Lord Dominik's Regards",
   "Infinity Edge"
  ],
+ "fourth": [
+  "Bloodthirster",
+  "Essence Reaver",
+  "Trinity Force",
+  "Manamune"
+ ],
  "fifth": [
-  "Infinity Edge",
-  "Lord Dominik's Regards",
-  "Bloodthirster"
+  "Endless Hunger",
+  "Bloodthirster",
+  "Trinity Force",
+  "Essence Reaver"
  ],
  "sixth": [
-  "Lord Dominik's Regards",
-  "Infinity Edge",
+  "Endless Hunger",
+  "Maw of Malmortius",
+  "Trinity Force",
   "Bloodthirster"
  ],
  "pool": [
-  "Sheen",
-  "Tear of the Goddess",
-  "Trinity Force",
-  "Mercury's Treads",
-  "Manamune",
+  "Long Sword",
+  "Guardian's Blade",
   "The Collector",
-  "Infinity Edge",
+  "Gluttonous Greaves",
   "Lord Dominik's Regards",
-  "Bloodthirster"
+  "Infinity Edge",
+  "Bloodthirster",
+  "Essence Reaver",
+  "Trinity Force",
+  "Manamune",
+  "Endless Hunger",
+  "Maw of Malmortius"
  ]
 }

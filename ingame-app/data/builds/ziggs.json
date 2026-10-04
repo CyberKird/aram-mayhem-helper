@@ -1,44 +1,49 @@
 {
  "champion": "Ziggs",
- "source": "https://u.gg/lol/champions/aram/ziggs-aram",
+ "source": "https://aramkit.com/en-US/champions/ziggs",
+ "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
   "Ghost"
  ],
  "starting": [
-  "Refillable Potion",
   "Lost Chapter"
  ],
  "core": [
-  "Malignance",
+  "Blackfire Torch",
+  "Sorcerer's Shoes",
   "Liandry's Torment",
-  "Sorcerer's Shoes"
+  "Rabadon's Deathcap"
  ],
  "fourth": [
-  "Rabadon's Deathcap",
-  "Shadowflame"
+  "Horizon Focus",
+  "Shadowflame",
+  "Archangel's Staff",
+  "Malignance"
  ],
  "fifth": [
-  "Luden's Echo",
-  "Morellonomicon",
-  "Shadowflame"
+  "Horizon Focus",
+  "Archangel's Staff",
+  "Shadowflame",
+  "Malignance"
  ],
  "sixth": [
+  "Horizon Focus",
   "Stormsurge",
-  "Morellonomicon",
-  "Cryptbloom"
+  "Shadowflame",
+  "Void Staff"
  ],
  "pool": [
-  "Refillable Potion",
   "Lost Chapter",
-  "Malignance",
-  "Liandry's Torment",
+  "Blackfire Torch",
   "Sorcerer's Shoes",
+  "Liandry's Torment",
   "Rabadon's Deathcap",
+  "Horizon Focus",
   "Shadowflame",
-  "Luden's Echo",
-  "Morellonomicon",
+  "Archangel's Staff",
+  "Malignance",
   "Stormsurge",
-  "Cryptbloom"
+  "Void Staff"
  ]
 }

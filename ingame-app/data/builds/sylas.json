@@ -1,41 +1,50 @@
 {
  "champion": "Sylas",
- "source": "https://u.gg/lol/champions/aram/sylas-aram",
+ "source": "https://aramkit.com/en-US/champions/sylas",
+ "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
   "Mark"
  ],
  "starting": [
-  "Catalyst of Aeons"
+  "Amplifying Tome",
+  "Guardian's Orb"
  ],
  "core": [
-  "Rod of Ages",
-  "Mercury's Treads",
-  "Spirit Visage"
- ],
- "fourth": [
-  "Zhonya's Hourglass",
-  "Riftmaker"
- ],
- "fifth": [
-  "Riftmaker",
-  "Cosmic Drive",
+  "Shadowflame",
+  "Gluttonous Greaves",
+  "Lich Bane",
   "Rabadon's Deathcap"
  ],
- "sixth": [
-  "Cosmic Drive",
+ "fourth": [
+  "Void Staff",
+  "Spirit Visage",
   "Riftmaker",
-  "Hextech Rocketbelt"
+  "Zhonya's Hourglass"
+ ],
+ "fifth": [
+  "Void Staff",
+  "Riftmaker",
+  "Spirit Visage",
+  "Zhonya's Hourglass"
+ ],
+ "sixth": [
+  "Stormsurge",
+  "Void Staff",
+  "Riftmaker",
+  "Zhonya's Hourglass"
  ],
  "pool": [
-  "Catalyst of Aeons",
-  "Rod of Ages",
-  "Mercury's Treads",
-  "Spirit Visage",
-  "Zhonya's Hourglass",
-  "Riftmaker",
-  "Cosmic Drive",
+  "Amplifying Tome",
+  "Guardian's Orb",
+  "Shadowflame",
+  "Gluttonous Greaves",
+  "Lich Bane",
   "Rabadon's Deathcap",
-  "Hextech Rocketbelt"
+  "Void Staff",
+  "Spirit Visage",
+  "Riftmaker",
+  "Zhonya's Hourglass",
+  "Stormsurge"
  ]
 }

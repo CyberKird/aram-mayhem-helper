@@ -1,42 +1,51 @@
 {
  "champion": "Swain",
- "source": "https://u.gg/lol/champions/aram/swain-aram",
+ "source": "https://aramkit.com/en-US/champions/swain",
+ "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
   "Mark"
  ],
  "starting": [
-  "Catalyst of Aeons"
+  "Giant's Belt",
+  "Ruby Crystal"
  ],
  "core": [
-  "Rod of Ages",
-  "Mercury's Treads",
-  "Liandry's Torment"
+  "Heartsteel",
+  "Gluttonous Greaves",
+  "Riftmaker",
+  "Overlord's Bloodmail"
  ],
  "fourth": [
-  "Spirit Visage",
+  "Warmog's Armor",
+  "Liandry's Torment",
+  "Unending Despair",
   "Rylai's Crystal Scepter"
  ],
  "fifth": [
   "Unending Despair",
+  "Warmog's Armor",
   "Spirit Visage",
   "Rylai's Crystal Scepter"
  ],
  "sixth": [
-  "Jak'Sho, The Protean",
-  "Riftmaker",
-  "Kaenic Rookern"
+  "Unending Despair",
+  "Malignance",
+  "Warmog's Armor",
+  "Spirit Visage"
  ],
  "pool": [
-  "Catalyst of Aeons",
-  "Rod of Ages",
-  "Mercury's Treads",
-  "Liandry's Torment",
-  "Spirit Visage",
-  "Rylai's Crystal Scepter",
-  "Unending Despair",
-  "Jak'Sho, The Protean",
+  "Giant's Belt",
+  "Ruby Crystal",
+  "Heartsteel",
+  "Gluttonous Greaves",
   "Riftmaker",
-  "Kaenic Rookern"
+  "Overlord's Bloodmail",
+  "Warmog's Armor",
+  "Liandry's Torment",
+  "Unending Despair",
+  "Rylai's Crystal Scepter",
+  "Spirit Visage",
+  "Malignance"
  ]
 }

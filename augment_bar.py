@@ -13,7 +13,8 @@ reala de oferta.
 import tkinter as tk
 
 ABOVE_CARDS = 64          # cat de sus fata de marginea de sus a cardurilor
-BG = "#0b0b0b"
+BG = "#010a13"
+SCALE = 1.0               # setat de app.py din DPI-ul ecranului
 
 
 class AugmentBar:
@@ -79,7 +80,11 @@ class AugmentBar:
             tk.Label(box, text=tier, bg=bg, fg=fg,
                      font=self.pix(11)).pack(padx=10, pady=(0 if aug.get("is_best") else 5, 2))
             tk.Label(box, text=aug["name"][:22], bg=bg, fg=fg,
-                     font=self.mono(9, "bold")).pack(padx=8, pady=(0, 5))
+                     font=self.mono(9, "bold")).pack(padx=8, pady=(0, 5 if not aug.get("note") else 0))
+            if aug.get("note"):
+                # context scurt sub nume ("pentru Katarina . campion AP")
+                tk.Label(box, text=aug["note"][:30], bg=bg, fg=fg,
+                         font=self.mono(8)).pack(padx=8, pady=(0, 5))
 
             # click pe insigna = "pe asta l-am luat", ca sa putem impinge in
             # build itemul cerut de el ("Upgrade Zhonya's" -> Zhonya's)
@@ -96,7 +101,7 @@ class AugmentBar:
 
         self.win.update_idletasks()
         x = left + width // 2 - self.win.winfo_width() // 2
-        y = max(0, top - ABOVE_CARDS)
+        y = max(0, top - int(ABOVE_CARDS * SCALE))
         self.win.geometry(f"+{int(x)}+{int(y)}")
         self.win.attributes("-alpha", 0.88)
         self._key = key

@@ -1,44 +1,51 @@
 {
  "champion": "Miss Fortune",
- "source": "https://u.gg/lol/champions/aram/missfortune-aram",
+ "source": "https://aramkit.com/en-US/champions/missfortune",
+ "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
-  "Heal"
+  "Ghost"
  ],
  "starting": [
-  "Boots",
-  "Health Potion",
-  "Serrated Dirk"
+  "Refillable Potion",
+  "Lost Chapter"
  ],
  "core": [
-  "The Collector",
-  "Infinity Edge",
-  "Berserker's Greaves"
+  "Blackfire Torch",
+  "Gluttonous Greaves",
+  "Liandry's Torment",
+  "Rabadon's Deathcap"
  ],
  "fourth": [
-  "Serylda's Grudge",
-  "Lord Dominik's Regards"
+  "Horizon Focus",
+  "Archangel's Staff",
+  "Shadowflame",
+  "Rylai's Crystal Scepter"
  ],
  "fifth": [
-  "Bloodthirster",
-  "Lord Dominik's Regards",
-  "Serylda's Grudge"
+  "Bloodletter's Curse",
+  "Horizon Focus",
+  "Archangel's Staff",
+  "Cryptbloom"
  ],
  "sixth": [
-  "Edge of Night",
-  "Bloodthirster",
-  "Lord Dominik's Regards"
+  "Horizon Focus",
+  "Archangel's Staff",
+  "Bloodletter's Curse",
+  "Cryptbloom"
  ],
  "pool": [
-  "Boots",
-  "Health Potion",
-  "Serrated Dirk",
-  "The Collector",
-  "Infinity Edge",
-  "Berserker's Greaves",
-  "Serylda's Grudge",
-  "Lord Dominik's Regards",
-  "Bloodthirster",
-  "Edge of Night"
+  "Refillable Potion",
+  "Lost Chapter",
+  "Blackfire Torch",
+  "Gluttonous Greaves",
+  "Liandry's Torment",
+  "Rabadon's Deathcap",
+  "Horizon Focus",
+  "Archangel's Staff",
+  "Shadowflame",
+  "Rylai's Crystal Scepter",
+  "Bloodletter's Curse",
+  "Cryptbloom"
  ]
 }

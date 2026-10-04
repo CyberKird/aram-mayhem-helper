@@ -1,44 +1,51 @@
 {
  "champion": "Irelia",
- "source": "https://u.gg/lol/champions/aram/irelia-aram",
+ "source": "https://aramkit.com/en-US/champions/irelia",
+ "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
-  "Ignite"
+  "Mark"
  ],
  "starting": [
   "Long Sword",
-  "Pickaxe",
-  "Refillable Potion"
+  "Guardian's Blade"
  ],
  "core": [
-  "Blade of The Ruined King",
-  "Mercury's Treads",
-  "Death's Dance"
+  "Ravenous Hydra",
+  "Gluttonous Greaves",
+  "Death's Dance",
+  "Blade of The Ruined King"
  ],
  "fourth": [
-  "Sundered Sky",
-  "Sterak's Gage"
+  "Endless Hunger",
+  "Titanic Hydra",
+  "Trinity Force",
+  "Spirit Visage"
  ],
  "fifth": [
-  "Wit's End",
-  "Sundered Sky",
-  "Sterak's Gage"
+  "Endless Hunger",
+  "Trinity Force",
+  "Titanic Hydra",
+  "Sundered Sky"
  ],
  "sixth": [
-  "Sterak's Gage",
-  "Wit's End",
-  "Spirit Visage"
+  "Endless Hunger",
+  "Titanic Hydra",
+  "Spirit Visage",
+  "Sterak's Gage"
  ],
  "pool": [
   "Long Sword",
-  "Pickaxe",
-  "Refillable Potion",
-  "Blade of The Ruined King",
-  "Mercury's Treads",
+  "Guardian's Blade",
+  "Ravenous Hydra",
+  "Gluttonous Greaves",
   "Death's Dance",
+  "Blade of The Ruined King",
+  "Endless Hunger",
+  "Titanic Hydra",
+  "Trinity Force",
+  "Spirit Visage",
   "Sundered Sky",
-  "Sterak's Gage",
-  "Wit's End",
-  "Spirit Visage"
+  "Sterak's Gage"
  ]
 }

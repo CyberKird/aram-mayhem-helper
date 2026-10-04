@@ -1,40 +1,50 @@
 {
  "champion": "Kindred",
- "source": "https://u.gg/lol/champions/aram/kindred-aram",
+ "source": "https://aramkit.com/en-US/champions/kindred",
+ "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
   "Ghost"
  ],
  "starting": [
-  "Serrated Dirk"
+  "Long Sword",
+  "Guardian's Blade"
  ],
  "core": [
   "The Collector",
-  "Berserker's Greaves",
-  "Blade of The Ruined King"
- ],
- "fourth": [
+  "Gluttonous Greaves",
   "Runaan's Hurricane",
   "Infinity Edge"
  ],
- "fifth": [
-  "Infinity Edge",
+ "fourth": [
   "Lord Dominik's Regards",
-  "Runaan's Hurricane"
+  "Bloodthirster",
+  "Blade of The Ruined King",
+  "Kraken Slayer"
+ ],
+ "fifth": [
+  "Bloodthirster",
+  "Lord Dominik's Regards",
+  "Blade of The Ruined King",
+  "Kraken Slayer"
  ],
  "sixth": [
-  "Runaan's Hurricane",
   "Bloodthirster",
-  "Lord Dominik's Regards"
+  "Hexoptics C44",
+  "Lord Dominik's Regards",
+  "Blade of The Ruined King"
  ],
  "pool": [
-  "Serrated Dirk",
+  "Long Sword",
+  "Guardian's Blade",
   "The Collector",
-  "Berserker's Greaves",
-  "Blade of The Ruined King",
+  "Gluttonous Greaves",
   "Runaan's Hurricane",
   "Infinity Edge",
   "Lord Dominik's Regards",
-  "Bloodthirster"
+  "Bloodthirster",
+  "Blade of The Ruined King",
+  "Kraken Slayer",
+  "Hexoptics C44"
  ]
 }

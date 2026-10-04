@@ -1,44 +1,51 @@
 {
  "champion": "Caitlyn",
- "source": "https://u.gg/lol/champions/aram/caitlyn-aram",
+ "source": "https://aramkit.com/en-US/champions/caitlyn",
+ "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
   "Ghost"
  ],
  "starting": [
-  "Boots",
-  "Health Potion",
-  "Serrated Dirk"
+  "Long Sword",
+  "Pickaxe"
  ],
  "core": [
   "The Collector",
-  "Berserker's Greaves",
-  "Infinity Edge"
+  "Gluttonous Greaves",
+  "Infinity Edge",
+  "Lord Dominik's Regards"
  ],
  "fourth": [
-  "Rapid Firecannon",
-  "Lord Dominik's Regards"
+  "Hexoptics C44",
+  "Bloodthirster",
+  "Runaan's Hurricane",
+  "Blade of The Ruined King"
  ],
  "fifth": [
-  "Lord Dominik's Regards",
   "Bloodthirster",
-  "Rapid Firecannon"
+  "Hexoptics C44",
+  "Kraken Slayer",
+  "Blade of The Ruined King"
  ],
  "sixth": [
+  "Edge of Night",
   "Bloodthirster",
-  "Blade of The Ruined King",
-  "Lord Dominik's Regards"
+  "Hexoptics C44",
+  "Kraken Slayer"
  ],
  "pool": [
-  "Boots",
-  "Health Potion",
-  "Serrated Dirk",
+  "Long Sword",
+  "Pickaxe",
   "The Collector",
-  "Berserker's Greaves",
+  "Gluttonous Greaves",
   "Infinity Edge",
-  "Rapid Firecannon",
   "Lord Dominik's Regards",
+  "Hexoptics C44",
   "Bloodthirster",
-  "Blade of The Ruined King"
+  "Runaan's Hurricane",
+  "Blade of The Ruined King",
+  "Kraken Slayer",
+  "Edge of Night"
  ]
 }

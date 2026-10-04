@@ -72,22 +72,31 @@ ENEMY_DAMAGE_WEIGHT = {"armor": ("AD", 1.5), "mr": ("AP", 1.5),
                        "hybrid_defense": (None, 0.75)}
 
 
-def score_shard(category, damage_type, tags, enemy_ad, enemy_ap):
-    """Scor euristic (nu absolut, doar comparativ intre cele 3 oferite)."""
-    score = CATEGORY_BY_DAMAGE.get(category, {}).get(damage_type, 3)
+def score_parts(category, damage_type, tags, enemy_ad, enemy_ap):
+    """[(puncte, motiv)] din care se aduna scorul. Motivul cu cele mai multe
+    puncte e ce afisam: "de ce asta, la campionul asta"."""
+    parts = [(CATEGORY_BY_DAMAGE.get(category, {}).get(damage_type, 3),
+              f"campion {damage_type}")]
     for tag in tags or ():
-        score += TAG_BONUS.get(tag, {}).get(category, 0)
+        bonus = TAG_BONUS.get(tag, {}).get(category, 0)
+        if bonus:
+            parts.append((bonus, tag.lower()))
 
     weight = ENEMY_DAMAGE_WEIGHT.get(category)
     if weight:
         dmg_type, factor = weight
         if dmg_type is None:
-            score += (enemy_ad + enemy_ap) * factor
+            parts.append(((enemy_ad + enemy_ap) * factor, "inamici"))
         elif dmg_type == "AD":
-            score += enemy_ad * factor
+            parts.append((enemy_ad * factor, "inamici AD"))
         elif dmg_type == "AP":
-            score += enemy_ap * factor
-    return score
+            parts.append((enemy_ap * factor, "inamici AP"))
+    return parts
+
+
+def score_shard(category, damage_type, tags, enemy_ad, enemy_ap):
+    """Scor euristic (nu absolut, doar comparativ intre cele 3 oferite)."""
+    return sum(p for p, _ in score_parts(category, damage_type, tags, enemy_ad, enemy_ap))
 
 
 def recommend(names, champion_tags, champ, enemies):
@@ -118,14 +127,19 @@ def recommend(names, champion_tags, champ, enemies):
     entries = []
     for name in names:
         category = SHARD_CATEGORY.get(name, "hp")
+        parts = score_parts(category, damage_type, tags, enemy_ad, enemy_ap)
         entries.append({
             "name": name,
             "category": category,
-            "score": score_shard(category, damage_type, tags, enemy_ad, enemy_ap),
+            "score": sum(p for p, _ in parts),
+            "why": max(parts)[1],
         })
 
     if entries:
         best = max(entries, key=lambda e: e["score"])
         for e in entries:
             e["is_best"] = e is best
+            # campionul si motivul, ca sa se vada ca recomandarea e pentru
+            # EL, nu una generica
+            e["champion"] = champ
     return entries

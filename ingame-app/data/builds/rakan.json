@@ -1,45 +1,51 @@
 {
  "champion": "Rakan",
- "source": "https://u.gg/lol/champions/aram/rakan-aram",
+ "source": "https://aramkit.com/en-US/champions/rakan",
+ "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
   "Mark"
  ],
  "starting": [
   "Giant's Belt",
-  "Health Potion",
-  "Tear of the Goddess"
+  "Ruby Crystal"
  ],
  "core": [
-  "Winter's Approach",
-  "Locket of the Iron Solari",
-  "Mercury's Treads"
+  "Heartsteel",
+  "Plated Steelcaps",
+  "Unending Despair",
+  "Warmog's Armor"
  ],
  "fourth": [
-  "Warmog's Armor",
-  "Zeke's Convergence"
+  "Knight's Vow",
+  "Winter's Approach",
+  "Jak'Sho, The Protean",
+  "Spirit Visage"
  ],
  "fifth": [
-  "Thornmail",
   "Knight's Vow",
-  "Redemption"
+  "Zeke's Convergence",
+  "Jak'Sho, The Protean",
+  "Locket of the Iron Solari"
  ],
  "sixth": [
-  "Redemption",
-  "Thornmail",
-  "Zeke's Convergence"
+  "Jak'Sho, The Protean",
+  "Knight's Vow",
+  "Zeke's Convergence",
+  "Winter's Approach"
  ],
  "pool": [
   "Giant's Belt",
-  "Health Potion",
-  "Tear of the Goddess",
-  "Winter's Approach",
-  "Locket of the Iron Solari",
-  "Mercury's Treads",
+  "Ruby Crystal",
+  "Heartsteel",
+  "Plated Steelcaps",
+  "Unending Despair",
   "Warmog's Armor",
-  "Zeke's Convergence",
-  "Thornmail",
   "Knight's Vow",
-  "Redemption"
+  "Winter's Approach",
+  "Jak'Sho, The Protean",
+  "Spirit Visage",
+  "Zeke's Convergence",
+  "Locket of the Iron Solari"
  ]
 }

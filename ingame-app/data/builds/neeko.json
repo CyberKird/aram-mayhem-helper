@@ -1,44 +1,49 @@
 {
  "champion": "Neeko",
- "source": "https://u.gg/lol/champions/aram/neeko-aram",
+ "source": "https://aramkit.com/en-US/champions/neeko",
+ "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
   "Mark"
  ],
  "starting": [
-  "Boots",
-  "Hextech Alternator"
+  "Lost Chapter"
  ],
  "core": [
-  "Malignance",
+  "Luden's Echo",
   "Sorcerer's Shoes",
-  "Stormsurge"
+  "Rabadon's Deathcap",
+  "Shadowflame"
  ],
  "fourth": [
-  "Shadowflame",
-  "Rabadon's Deathcap"
+  "Stormsurge",
+  "Void Staff",
+  "Zhonya's Hourglass",
+  "Liandry's Torment"
  ],
  "fifth": [
-  "Rabadon's Deathcap",
-  "Zhonya's Hourglass",
-  "Cryptbloom"
+  "Stormsurge",
+  "Cryptbloom",
+  "Void Staff",
+  "Zhonya's Hourglass"
  ],
  "sixth": [
-  "Liandry's Torment",
-  "Luden's Echo",
+  "Stormsurge",
+  "Void Staff",
+  "Banshee's Veil",
   "Cryptbloom"
  ],
  "pool": [
-  "Boots",
-  "Hextech Alternator",
-  "Malignance",
+  "Lost Chapter",
+  "Luden's Echo",
   "Sorcerer's Shoes",
-  "Stormsurge",
-  "Shadowflame",
   "Rabadon's Deathcap",
+  "Shadowflame",
+  "Stormsurge",
+  "Void Staff",
   "Zhonya's Hourglass",
-  "Cryptbloom",
   "Liandry's Torment",
-  "Luden's Echo"
+  "Cryptbloom",
+  "Banshee's Veil"
  ]
 }

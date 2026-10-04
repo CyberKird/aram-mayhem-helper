@@ -1,60 +1,70 @@
-"""Tier list ARAM Mayhem, u.gg patch 26.15.
+"""Tier list ARAM Mayhem (u.gg), citit din tier_data.json.
 
-Sursa unica e u.gg. METAsrc publica si el un tier list de Mayhem, dar il
-deriva din date de ARAM + Arena (Riot blocheaza cu 403 datele reale de
-Mayhem in match-v5), deci clasamentele difera masiv si nu se pot amesteca.
-
-Cand se schimba patch-ul: rescrie TIER_DATA de pe
-https://u.gg/lol/aram-mayhem-tier-list si ruleaza `python app.py --selfcheck`.
+Datele nu mai sunt scrise de mana aici: `update_tier_list.py` le aduce de pe
+https://u.gg/lol/aram-mayhem-tier-list si pastreaza patch-ul anterior in
+"previous", ca sa vedem cum s-a schimbat fiecare campion. In plus, aplicatia
+descarca la pornire cel mai nou tier_data.json din repo (vezi data_sync.py),
+deci tier-urile se actualizeaza fara un exe nou.
 """
 
-_TIERS = {
-    "S+": """
-        Sett, Jinx, Yunara, Vayne, Dr. Mundo, Kayle
-    """,
-    "S": """
-        Caitlyn, Brand, Sion, Lillia, Graves, Seraphine, Aurelion Sol,
-        Aphelios, Ashe, Morgana, Ahri, Viktor, Rell, Leona, Tristana,
-        Alistar, Aurora, Shen, Hwei, Sivir, Illaoi
-    """,
-    "A": """
-        Master Yi, Sona, Zaahen, Akshan, Gwen, Singed, Syndra, Bel'Veth,
-        Xayah, Heimerdinger, Teemo, Tahm Kench, Briar, Ryze, Jax, Swain,
-        Miss Fortune, Xin Zhao, Shyvana, Vel'Koz, Veigar, Yone, Renata Glasc,
-        Yuumi, Twisted Fate, Galio, Nautilus, Ekko, Yasuo, Twitch, Milio,
-        Sejuani, Vex, Karthus, Volibear, Amumu, Malzahar, Zyra, Janna,
-        Samira, Tryndamere, Taric, Maokai, Rammus, Kassadin, Rumble, Nasus,
-        Zeri, Soraka, Annie, Wukong, Poppy, Ambessa, Fiora, Kayn, Kalista
-    """,
-    "B": """
-        Kog'Maw, Draven, Trundle, Ornn, Varus, Mordekaiser, Olaf, Kled,
-        Smolder, Fizz, Rek'Sai, Gnar, Azir, Fiddlesticks, Vi, Nocturne,
-        Nami, Orianna, Vladimir, Quinn, Cassiopeia, Skarner, Viego, Ivern,
-        Nilah, Hecarim, Lux, Taliyah, Corki, Riven, Warwick, Urgot, Talon,
-        Renekton, Zac, Evelynn, Rakan, Gangplank, Jhin, Ziggs, Lucian,
-        Diana, Braum, Jarvan IV
-    """,
-    "C": """
-        Yorick, Elise, Rengar, Lissandra, Udyr, Zilean, Gragas, Sylas,
-        Camille, Kennen, Karma, Katarina, Irelia, Pantheon, Cho'Gath, Zed,
-        Lulu, Kindred
-    """,
-    "D": """
-        Aatrox, Darius, Kha'Zix, Xerath, Garen, Malphite, K'Sante, Qiyana,
-        Nunu & Willump, Anivia, Mel, Zoe, Naafiri, LeBlanc, Neeko, Senna,
-        Bard, Akali, Nidalee, Shaco, Jayce, Lee Sin, Kai'Sa, Pyke, Ezreal,
-        Thresh, Blitzcrank, Locke
-    """,
-}
+import json
+import os
+import pathlib
 
-TIER_DATA = {
-    name.strip(): tier
-    for tier, block in _TIERS.items()
-    for name in block.replace("\n", " ").split(",")
-    if name.strip()
-}
+BUNDLED = pathlib.Path(__file__).with_name("tier_data.json")
 
-# nume din Data Dragon care nu se potrivesc pe cheile de mai sus.
-# Reconcilierea a iesit curata pe 26.15 (173/173 campioni acoperiti), deci e gol.
+
+def _vkey(version):
+    return tuple(int(x) if x.isdigit() else 0 for x in str(version or "").split("."))
+
+
+def newest(bundled, key):
+    """Fisierul cu versiunea mai mare dintre cel din pachet si cel adus de
+    data_sync in ARAM_DATA_DIR. La egalitate, cel din pachet."""
+    folder = os.environ.get("ARAM_DATA_DIR")
+    synced = pathlib.Path(folder) / bundled.name if folder else None
+    if synced and synced.exists():
+        try:
+            mine = json.loads(bundled.read_text(encoding="utf-8")).get(key)
+            theirs = json.loads(synced.read_text(encoding="utf-8")).get(key)
+            if _vkey(theirs) > _vkey(mine):
+                return synced
+        except (OSError, ValueError):
+            pass
+    return bundled
+
+
+# fisierul in care scrie update_tier_list.py (mereu cel din pachet)
+DATA_FILE = BUNDLED
+
+# nume din Data Dragon care nu se potrivesc pe cheile din u.gg.
+# Reconcilierea a iesit curata (173/173 campioni acoperiti), deci e gol.
 # Daca selfcheck-ul incepe sa raporteze campioni fara tier, aici se mapeaza.
 NAME_OVERRIDES = {}
+
+TIER_ORDER = ["S+", "S", "A", "B", "C", "D"]
+
+
+def flatten(tiers):
+    """{tier: [nume]} -> {nume: tier}"""
+    return {name: tier for tier, names in tiers.items() for name in names}
+
+
+def load(path=DATA_FILE):
+    """(patch, {nume: tier}, patch_anterior, {nume: tier anterior})."""
+    raw = json.loads(pathlib.Path(path).read_text(encoding="utf-8"))
+    prev = raw.get("previous") or {}
+    return (raw["patch"], flatten(raw["tiers"]),
+            prev.get("patch"), flatten(prev.get("tiers") or {}))
+
+
+def change(name, current, previous):
+    """Cate trepte a urcat (+) sau coborat (-) campionul fata de patch-ul
+    anterior. None daca nu avem date pentru unul din patch-uri."""
+    now, before = current.get(name), previous.get(name)
+    if now not in TIER_ORDER or before not in TIER_ORDER:
+        return None
+    return TIER_ORDER.index(before) - TIER_ORDER.index(now)
+
+
+PATCH, TIER_DATA, PREVIOUS_PATCH, PREVIOUS_TIERS = load(newest(BUNDLED, "patch"))

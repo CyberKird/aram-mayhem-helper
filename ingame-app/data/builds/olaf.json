@@ -1,43 +1,51 @@
 {
  "champion": "Olaf",
- "source": "https://u.gg/lol/champions/aram/olaf-aram",
+ "source": "https://aramkit.com/en-US/champions/olaf",
+ "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
   "Mark"
  ],
  "starting": [
-  "Refillable Potion",
-  "Tiamat"
+  "Long Sword",
+  "Guardian's Blade"
  ],
  "core": [
   "Stridebreaker",
-  "Mercury's Treads",
-  "Experimental Hexplate"
+  "Gluttonous Greaves",
+  "Experimental Hexplate",
+  "Death's Dance"
  ],
  "fourth": [
-  "Death's Dance",
-  "Spirit Visage"
+  "Endless Hunger",
+  "Ravenous Hydra",
+  "Sterak's Gage",
+  "Sundered Sky"
  ],
  "fifth": [
-  "Spirit Visage",
-  "Death's Dance",
-  "Sterak's Gage"
+  "Maw of Malmortius",
+  "Endless Hunger",
+  "Sterak's Gage",
+  "Sundered Sky"
  ],
  "sixth": [
+  "Endless Hunger",
   "Sterak's Gage",
-  "Bloodthirster",
-  "Frozen Heart"
+  "Maw of Malmortius",
+  "Spirit Visage"
  ],
  "pool": [
-  "Refillable Potion",
-  "Tiamat",
+  "Long Sword",
+  "Guardian's Blade",
   "Stridebreaker",
-  "Mercury's Treads",
+  "Gluttonous Greaves",
   "Experimental Hexplate",
   "Death's Dance",
-  "Spirit Visage",
+  "Endless Hunger",
+  "Ravenous Hydra",
   "Sterak's Gage",
-  "Bloodthirster",
-  "Frozen Heart"
+  "Sundered Sky",
+  "Maw of Malmortius",
+  "Spirit Visage"
  ]
 }

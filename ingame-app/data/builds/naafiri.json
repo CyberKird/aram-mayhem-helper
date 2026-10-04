@@ -1,43 +1,50 @@
 {
  "champion": "Naafiri",
- "source": "https://u.gg/lol/champions/aram/naafiri-aram",
+ "source": "https://aramkit.com/en-US/champions/naafiri",
+ "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
   "Mark"
  ],
  "starting": [
   "Long Sword",
-  "Serrated Dirk"
+  "Guardian's Blade"
  ],
  "core": [
   "Hubris",
-  "Mercury's Treads",
-  "Eclipse"
+  "Gluttonous Greaves",
+  "Endless Hunger",
+  "Death's Dance"
  ],
  "fourth": [
+  "Voltaic Cyclosword",
+  "Axiom Arc",
   "Serylda's Grudge",
-  "Death's Dance"
+  "Lord Dominik's Regards"
  ],
  "fifth": [
   "Serylda's Grudge",
-  "Death's Dance",
-  "Axiom Arc"
+  "Axiom Arc",
+  "Lord Dominik's Regards",
+  "Voltaic Cyclosword"
  ],
  "sixth": [
+  "Serylda's Grudge",
+  "Axiom Arc",
   "Voltaic Cyclosword",
-  "Maw of Malmortius",
-  "Axiom Arc"
+  "Edge of Night"
  ],
  "pool": [
   "Long Sword",
-  "Serrated Dirk",
+  "Guardian's Blade",
   "Hubris",
-  "Mercury's Treads",
-  "Eclipse",
-  "Serylda's Grudge",
+  "Gluttonous Greaves",
+  "Endless Hunger",
   "Death's Dance",
-  "Axiom Arc",
   "Voltaic Cyclosword",
-  "Maw of Malmortius"
+  "Axiom Arc",
+  "Serylda's Grudge",
+  "Lord Dominik's Regards",
+  "Edge of Night"
  ]
 }

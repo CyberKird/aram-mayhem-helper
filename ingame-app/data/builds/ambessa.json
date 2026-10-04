@@ -1,43 +1,52 @@
 {
  "champion": "Ambessa",
- "source": "https://u.gg/lol/champions/aram/ambessa-aram",
+ "source": "https://aramkit.com/en-US/champions/ambessa",
+ "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
   "Mark"
  ],
  "starting": [
-  "Tunneler",
-  "Glowing Mote"
+  "Long Sword",
+  "Guardian's Blade"
  ],
  "core": [
-  "Eclipse",
-  "Plated Steelcaps",
-  "Spear of Shojin"
+  "Hubris",
+  "Gluttonous Greaves",
+  "Voltaic Cyclosword",
+  "Death's Dance"
  ],
  "fourth": [
-  "Death's Dance",
-  "Endless Hunger"
+  "Lord Dominik's Regards",
+  "Endless Hunger",
+  "Mortal Reminder",
+  "Spear of Shojin"
  ],
  "fifth": [
-  "Black Cleaver",
+  "Lord Dominik's Regards",
+  "Axiom Arc",
   "Endless Hunger",
-  "Death's Dance"
+  "Maw of Malmortius"
  ],
  "sixth": [
-  "Voltaic Cyclosword",
-  "Maw of Malmortius",
-  "Death's Dance"
+  "Axiom Arc",
+  "Lord Dominik's Regards",
+  "Serylda's Grudge",
+  "Maw of Malmortius"
  ],
  "pool": [
-  "Tunneler",
-  "Glowing Mote",
-  "Eclipse",
-  "Plated Steelcaps",
-  "Spear of Shojin",
-  "Death's Dance",
-  "Endless Hunger",
-  "Black Cleaver",
+  "Long Sword",
+  "Guardian's Blade",
+  "Hubris",
+  "Gluttonous Greaves",
   "Voltaic Cyclosword",
-  "Maw of Malmortius"
+  "Death's Dance",
+  "Lord Dominik's Regards",
+  "Endless Hunger",
+  "Mortal Reminder",
+  "Spear of Shojin",
+  "Axiom Arc",
+  "Maw of Malmortius",
+  "Serylda's Grudge"
  ]
 }

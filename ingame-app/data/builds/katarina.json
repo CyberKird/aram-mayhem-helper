@@ -1,43 +1,52 @@
 {
  "champion": "Katarina",
- "source": "https://u.gg/lol/champions/aram/katarina-aram",
+ "source": "https://aramkit.com/en-US/champions/katarina",
+ "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
-  "Ignite"
+  "Mark"
  ],
  "starting": [
-  "Refillable Potion",
-  "Hearthbound Axe"
+  "Long Sword",
+  "Long Sword",
+  "Recurve Bow"
  ],
  "core": [
   "Kraken Slayer",
-  "Mercury's Treads",
-  "Blade of The Ruined King"
+  "Gluttonous Greaves",
+  "Blade of The Ruined King",
+  "Terminus"
  ],
  "fourth": [
-  "Terminus",
-  "Zhonya's Hourglass"
+  "Death's Dance",
+  "Experimental Hexplate",
+  "Titanic Hydra",
+  "Hextech Gunblade"
  ],
  "fifth": [
-  "Terminus",
   "Death's Dance",
-  "Titanic Hydra"
+  "Endless Hunger",
+  "Experimental Hexplate",
+  "Wit's End"
  ],
  "sixth": [
-  "Zhonya's Hourglass",
+  "Endless Hunger",
   "Death's Dance",
+  "Experimental Hexplate",
   "Wit's End"
  ],
  "pool": [
-  "Refillable Potion",
-  "Hearthbound Axe",
+  "Long Sword",
+  "Recurve Bow",
   "Kraken Slayer",
-  "Mercury's Treads",
+  "Gluttonous Greaves",
   "Blade of The Ruined King",
   "Terminus",
-  "Zhonya's Hourglass",
   "Death's Dance",
+  "Experimental Hexplate",
   "Titanic Hydra",
+  "Hextech Gunblade",
+  "Endless Hunger",
   "Wit's End"
  ]
 }

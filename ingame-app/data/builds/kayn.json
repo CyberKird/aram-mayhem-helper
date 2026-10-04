@@ -1,43 +1,49 @@
 {
  "champion": "Kayn",
- "source": "https://u.gg/lol/champions/aram/kayn-aram",
+ "source": "https://aramkit.com/en-US/champions/kayn",
+ "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
   "Mark"
  ],
  "starting": [
   "Long Sword",
-  "Caulfield's Warhammer"
+  "Guardian's Blade"
  ],
  "core": [
-  "Eclipse",
-  "Mercury's Treads",
-  "Spear of Shojin"
+  "Hubris",
+  "Gluttonous Greaves",
+  "Axiom Arc",
+  "Death's Dance"
  ],
  "fourth": [
-  "Death's Dance",
-  "Spirit Visage"
+  "Lord Dominik's Regards",
+  "Endless Hunger",
+  "Serylda's Grudge",
+  "Spear of Shojin"
  ],
  "fifth": [
-  "Death's Dance",
-  "Spirit Visage",
-  "Sundered Sky"
+  "Lord Dominik's Regards",
+  "Endless Hunger",
+  "Serylda's Grudge",
+  "Spear of Shojin"
  ],
  "sixth": [
-  "Black Cleaver",
-  "Death's Dance",
-  "The Collector"
+  "Lord Dominik's Regards",
+  "Endless Hunger",
+  "Serylda's Grudge",
+  "Spear of Shojin"
  ],
  "pool": [
   "Long Sword",
-  "Caulfield's Warhammer",
-  "Eclipse",
-  "Mercury's Treads",
-  "Spear of Shojin",
+  "Guardian's Blade",
+  "Hubris",
+  "Gluttonous Greaves",
+  "Axiom Arc",
   "Death's Dance",
-  "Spirit Visage",
-  "Sundered Sky",
-  "Black Cleaver",
-  "The Collector"
+  "Lord Dominik's Regards",
+  "Endless Hunger",
+  "Serylda's Grudge",
+  "Spear of Shojin"
  ]
 }

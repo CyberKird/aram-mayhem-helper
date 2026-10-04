@@ -1,43 +1,50 @@
 {
  "champion": "Akshan",
- "source": "https://u.gg/lol/champions/aram/akshan-aram",
+ "source": "https://aramkit.com/en-US/champions/akshan",
+ "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
   "Ghost"
  ],
  "starting": [
-  "Long Sword",
-  "Pickaxe"
+  "Boots",
+  "Serrated Dirk"
  ],
  "core": [
-  "Kraken Slayer",
-  "Berserker's Greaves",
-  "Statikk Shiv"
+  "The Collector",
+  "Gluttonous Greaves",
+  "Infinity Edge",
+  "Lord Dominik's Regards"
  ],
  "fourth": [
-  "Lord Dominik's Regards",
-  "Infinity Edge"
+  "Runaan's Hurricane",
+  "Bloodthirster",
+  "Kraken Slayer",
+  "Blade of The Ruined King"
  ],
  "fifth": [
-  "Lord Dominik's Regards",
-  "Mortal Reminder",
-  "Infinity Edge"
+  "Bloodthirster",
+  "Runaan's Hurricane",
+  "Kraken Slayer",
+  "Blade of The Ruined King"
  ],
  "sixth": [
-  "Blade of The Ruined King",
   "Bloodthirster",
-  "Infinity Edge"
+  "Statikk Shiv",
+  "Kraken Slayer",
+  "Blade of The Ruined King"
  ],
  "pool": [
-  "Long Sword",
-  "Pickaxe",
-  "Kraken Slayer",
-  "Berserker's Greaves",
-  "Statikk Shiv",
-  "Lord Dominik's Regards",
+  "Boots",
+  "Serrated Dirk",
+  "The Collector",
+  "Gluttonous Greaves",
   "Infinity Edge",
-  "Mortal Reminder",
+  "Lord Dominik's Regards",
+  "Runaan's Hurricane",
+  "Bloodthirster",
+  "Kraken Slayer",
   "Blade of The Ruined King",
-  "Bloodthirster"
+  "Statikk Shiv"
  ]
 }

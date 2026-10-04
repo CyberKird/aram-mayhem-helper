@@ -1,43 +1,47 @@
 {
  "champion": "Bard",
- "source": "https://u.gg/lol/champions/aram/bard-aram",
+ "source": "https://aramkit.com/en-US/champions/bard",
+ "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
-  "Ignite"
+  "Ghost"
  ],
  "starting": [
   "Lost Chapter"
  ],
  "core": [
   "Luden's Echo",
-  "Statikk Shiv",
-  "Sorcerer's Shoes"
+  "Sorcerer's Shoes",
+  "Lich Bane",
+  "Rabadon's Deathcap"
  ],
  "fourth": [
-  "Lich Bane",
-  "Rapid Firecannon"
+  "Shadowflame",
+  "Nashor's Tooth",
+  "Statikk Shiv",
+  "Guinsoo's Rageblade"
  ],
  "fifth": [
-  "Nashor's Tooth",
-  "Blade of The Ruined King",
-  "Rapid Firecannon"
+  "Shadowflame",
+  "Statikk Shiv",
+  "Guinsoo's Rageblade",
+  "Nashor's Tooth"
  ],
  "sixth": [
-  "Rabadon's Deathcap",
+  "Nashor's Tooth",
+  "Shadowflame",
   "Guinsoo's Rageblade",
-  "Shadowflame"
+  "Statikk Shiv"
  ],
  "pool": [
   "Lost Chapter",
   "Luden's Echo",
-  "Statikk Shiv",
   "Sorcerer's Shoes",
   "Lich Bane",
-  "Rapid Firecannon",
-  "Nashor's Tooth",
-  "Blade of The Ruined King",
   "Rabadon's Deathcap",
-  "Guinsoo's Rageblade",
-  "Shadowflame"
+  "Shadowflame",
+  "Nashor's Tooth",
+  "Statikk Shiv",
+  "Guinsoo's Rageblade"
  ]
 }

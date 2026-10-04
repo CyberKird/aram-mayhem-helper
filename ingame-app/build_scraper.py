@@ -89,6 +89,10 @@ def cache_path(champion):
 
 
 def load_cached(champion):
+    import bundle
+    from_bundle = (bundle.get().get("builds") or {}).get(slug(champion))
+    if from_bundle:
+        return from_bundle
     path = cache_path(champion)
     if path.exists():
         return json.loads(path.read_text(encoding="utf-8"))

@@ -1,43 +1,51 @@
 {
  "champion": "Lee Sin",
- "source": "https://u.gg/lol/champions/aram/leesin-aram",
+ "source": "https://aramkit.com/en-US/champions/leesin",
+ "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
   "Mark"
  ],
  "starting": [
   "Long Sword",
-  "Caulfield's Warhammer"
+  "Guardian's Blade"
  ],
  "core": [
-  "Eclipse",
-  "Mercury's Treads",
-  "Sundered Sky"
+  "Hubris",
+  "Gluttonous Greaves",
+  "Death's Dance",
+  "Endless Hunger"
  ],
  "fourth": [
-  "Death's Dance",
-  "Black Cleaver"
+  "Axiom Arc",
+  "Maw of Malmortius",
+  "Eclipse",
+  "The Collector"
  ],
  "fifth": [
-  "Black Cleaver",
+  "Serylda's Grudge",
+  "Axiom Arc",
   "Maw of Malmortius",
-  "Spirit Visage"
+  "Eclipse"
  ],
  "sixth": [
-  "Sterak's Gage",
-  "Death's Dance",
+  "Axiom Arc",
+  "Serylda's Grudge",
+  "Edge of Night",
   "Maw of Malmortius"
  ],
  "pool": [
   "Long Sword",
-  "Caulfield's Warhammer",
-  "Eclipse",
-  "Mercury's Treads",
-  "Sundered Sky",
+  "Guardian's Blade",
+  "Hubris",
+  "Gluttonous Greaves",
   "Death's Dance",
-  "Black Cleaver",
+  "Endless Hunger",
+  "Axiom Arc",
   "Maw of Malmortius",
-  "Spirit Visage",
-  "Sterak's Gage"
+  "Eclipse",
+  "The Collector",
+  "Serylda's Grudge",
+  "Edge of Night"
  ]
 }

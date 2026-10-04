@@ -1,46 +1,49 @@
 {
  "champion": "Sion",
- "source": "https://u.gg/lol/champions/aram/sion-aram",
+ "source": "https://aramkit.com/en-US/champions/sion",
+ "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
   "Mark"
  ],
  "starting": [
-  "Ruby Crystal",
-  "Refillable Potion",
-  "Crystalline Bracer"
+  "Giant's Belt",
+  "Ruby Crystal"
  ],
  "core": [
   "Heartsteel",
   "Plated Steelcaps",
-  "Unending Despair"
+  "Unending Despair",
+  "Warmog's Armor"
  ],
  "fourth": [
-  "Warmog's Armor",
-  "Jak'Sho, The Protean"
+  "Overlord's Bloodmail",
+  "Hollow Radiance",
+  "Titanic Hydra",
+  "Spirit Visage"
  ],
  "fifth": [
-  "Warmog's Armor",
+  "Overlord's Bloodmail",
+  "Titanic Hydra",
   "Hollow Radiance",
-  "Kaenic Rookern"
+  "Spirit Visage"
  ],
  "sixth": [
   "Overlord's Bloodmail",
-  "Hollow Radiance",
-  "Frozen Heart"
+  "Titanic Hydra",
+  "Spirit Visage",
+  "Hollow Radiance"
  ],
  "pool": [
+  "Giant's Belt",
   "Ruby Crystal",
-  "Refillable Potion",
-  "Crystalline Bracer",
   "Heartsteel",
   "Plated Steelcaps",
   "Unending Despair",
   "Warmog's Armor",
-  "Jak'Sho, The Protean",
-  "Hollow Radiance",
-  "Kaenic Rookern",
   "Overlord's Bloodmail",
-  "Frozen Heart"
+  "Hollow Radiance",
+  "Titanic Hydra",
+  "Spirit Visage"
  ]
 }

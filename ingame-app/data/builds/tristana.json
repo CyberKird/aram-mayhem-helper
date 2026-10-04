@@ -1,44 +1,51 @@
 {
  "champion": "Tristana",
- "source": "https://u.gg/lol/champions/aram/tristana-aram",
+ "source": "https://aramkit.com/en-US/champions/tristana",
+ "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
-  "Barrier"
+  "Ghost"
  ],
  "starting": [
   "Long Sword",
-  "Pickaxe",
-  "Refillable Potion"
+  "Pickaxe"
  ],
  "core": [
-  "Kraken Slayer",
-  "Berserker's Greaves",
-  "Blade of The Ruined King"
- ],
- "fourth": [
+  "The Collector",
+  "Gluttonous Greaves",
   "Infinity Edge",
   "Lord Dominik's Regards"
  ],
+ "fourth": [
+  "Runaan's Hurricane",
+  "Blade of The Ruined King",
+  "Bloodthirster",
+  "Navori Flickerblade"
+ ],
  "fifth": [
-  "Lord Dominik's Regards",
-  "Infinity Edge",
-  "Bloodthirster"
+  "Bloodthirster",
+  "Kraken Slayer",
+  "Runaan's Hurricane",
+  "Blade of The Ruined King"
  ],
  "sixth": [
   "Bloodthirster",
-  "Lord Dominik's Regards",
-  "Navori Flickerblade"
+  "Blade of The Ruined King",
+  "Kraken Slayer",
+  "Phantom Dancer"
  ],
  "pool": [
   "Long Sword",
   "Pickaxe",
-  "Refillable Potion",
-  "Kraken Slayer",
-  "Berserker's Greaves",
-  "Blade of The Ruined King",
+  "The Collector",
+  "Gluttonous Greaves",
   "Infinity Edge",
   "Lord Dominik's Regards",
+  "Runaan's Hurricane",
+  "Blade of The Ruined King",
   "Bloodthirster",
-  "Navori Flickerblade"
+  "Navori Flickerblade",
+  "Kraken Slayer",
+  "Phantom Dancer"
  ]
 }

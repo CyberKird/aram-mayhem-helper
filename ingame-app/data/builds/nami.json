@@ -1,44 +1,53 @@
 {
  "champion": "Nami",
- "source": "https://u.gg/lol/champions/aram/nami-aram",
+ "source": "https://aramkit.com/en-US/champions/nami",
+ "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
-  "Clarity"
+  "Heal"
  ],
  "starting": [
-  "Health Potion",
+  "Ruby Crystal",
   "Tear of the Goddess",
-  "Bandleglass Mirror"
+  "Forbidden Idol"
  ],
  "core": [
-  "Moonstone Renewer",
-  "Whispering Circlet",
-  "Ionian Boots of Lucidity"
- ],
- "fourth": [
-  "Ardent Censer",
-  "Redemption"
- ],
- "fifth": [
-  "Ardent Censer",
-  "Redemption",
-  "Staff of Flowing Water"
- ],
- "sixth": [
-  "Staff of Flowing Water",
-  "Imperial Mandate",
-  "Ardent Censer"
- ],
- "pool": [
-  "Health Potion",
-  "Tear of the Goddess",
-  "Bandleglass Mirror",
-  "Moonstone Renewer",
   "Whispering Circlet",
   "Ionian Boots of Lucidity",
-  "Ardent Censer",
-  "Redemption",
+  "Moonstone Renewer",
+  "Ardent Censer"
+ ],
+ "fourth": [
   "Staff of Flowing Water",
+  "Dawncore",
+  "Archangel's Staff",
   "Imperial Mandate"
+ ],
+ "fifth": [
+  "Staff of Flowing Water",
+  "Dawncore",
+  "Archangel's Staff",
+  "Imperial Mandate"
+ ],
+ "sixth": [
+  "Dawncore",
+  "Staff of Flowing Water",
+  "Mikael's Blessing",
+  "Redemption"
+ ],
+ "pool": [
+  "Ruby Crystal",
+  "Tear of the Goddess",
+  "Forbidden Idol",
+  "Whispering Circlet",
+  "Ionian Boots of Lucidity",
+  "Moonstone Renewer",
+  "Ardent Censer",
+  "Staff of Flowing Water",
+  "Dawncore",
+  "Archangel's Staff",
+  "Imperial Mandate",
+  "Mikael's Blessing",
+  "Redemption"
  ]
 }

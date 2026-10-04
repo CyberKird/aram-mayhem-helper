@@ -1,44 +1,49 @@
 {
  "champion": "Ahri",
- "source": "https://u.gg/lol/champions/aram/ahri-aram",
+ "source": "https://aramkit.com/en-US/champions/ahri",
+ "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
-  "Mark"
+  "Ghost"
  ],
  "starting": [
-  "Refillable Potion",
   "Lost Chapter"
  ],
  "core": [
   "Luden's Echo",
-  "Sorcerer's Shoes",
-  "Stormsurge"
+  "Gluttonous Greaves",
+  "Rabadon's Deathcap",
+  "Shadowflame"
  ],
  "fourth": [
-  "Rabadon's Deathcap",
-  "Shadowflame"
+  "Void Staff",
+  "Stormsurge",
+  "Liandry's Torment",
+  "Zhonya's Hourglass"
  ],
  "fifth": [
-  "Rabadon's Deathcap",
-  "Void Staff",
-  "Shadowflame"
+  "Stormsurge",
+  "Banshee's Veil",
+  "Cryptbloom",
+  "Void Staff"
  ],
  "sixth": [
-  "Zhonya's Hourglass",
-  "Morellonomicon",
-  "Liandry's Torment"
+  "Banshee's Veil",
+  "Cryptbloom",
+  "Stormsurge",
+  "Void Staff"
  ],
  "pool": [
-  "Refillable Potion",
   "Lost Chapter",
   "Luden's Echo",
-  "Sorcerer's Shoes",
-  "Stormsurge",
+  "Gluttonous Greaves",
   "Rabadon's Deathcap",
   "Shadowflame",
   "Void Staff",
+  "Stormsurge",
+  "Liandry's Torment",
   "Zhonya's Hourglass",
-  "Morellonomicon",
-  "Liandry's Torment"
+  "Banshee's Veil",
+  "Cryptbloom"
  ]
 }

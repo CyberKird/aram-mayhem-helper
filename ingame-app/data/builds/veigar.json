@@ -1,43 +1,50 @@
 {
  "champion": "Veigar",
- "source": "https://u.gg/lol/champions/aram/veigar-aram",
+ "source": "https://aramkit.com/en-US/champions/veigar",
+ "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
-  "Barrier"
+  "Ghost"
  ],
  "starting": [
-  "Refillable Potion",
-  "Lost Chapter"
+  "Blasting Wand",
+  "Tear of the Goddess"
  ],
  "core": [
-  "Luden's Echo",
-  "Sorcerer's Shoes",
-  "Stormsurge"
+  "Rod of Ages",
+  "Gluttonous Greaves",
+  "Rabadon's Deathcap",
+  "Archangel's Staff"
  ],
  "fourth": [
-  "Rabadon's Deathcap",
-  "Shadowflame"
+  "Shadowflame",
+  "Void Staff",
+  "Warmog's Armor",
+  "Stormsurge"
  ],
  "fifth": [
+  "Banshee's Veil",
   "Shadowflame",
   "Void Staff",
-  "Rabadon's Deathcap"
+  "Stormsurge"
  ],
  "sixth": [
-  "Void Staff",
-  "Liandry's Torment",
-  "Malignance"
+  "Banshee's Veil",
+  "Shadowflame",
+  "Stormsurge",
+  "Void Staff"
  ],
  "pool": [
-  "Refillable Potion",
-  "Lost Chapter",
-  "Luden's Echo",
-  "Sorcerer's Shoes",
-  "Stormsurge",
+  "Blasting Wand",
+  "Tear of the Goddess",
+  "Rod of Ages",
+  "Gluttonous Greaves",
   "Rabadon's Deathcap",
+  "Archangel's Staff",
   "Shadowflame",
   "Void Staff",
-  "Liandry's Torment",
-  "Malignance"
+  "Warmog's Armor",
+  "Stormsurge",
+  "Banshee's Veil"
  ]
 }

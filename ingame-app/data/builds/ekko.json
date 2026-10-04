@@ -1,43 +1,52 @@
 {
  "champion": "Ekko",
- "source": "https://u.gg/lol/champions/aram/ekko-aram",
+ "source": "https://aramkit.com/en-US/champions/ekko",
+ "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
   "Mark"
  ],
  "starting": [
-  "Refillable Potion",
-  "Lost Chapter"
+  "Blasting Wand",
+  "Dagger",
+  "Glowing Mote"
  ],
  "core": [
-  "Luden's Echo",
-  "Sorcerer's Shoes",
-  "Dusk and Dawn"
- ],
- "fourth": [
-  "Shadowflame",
-  "Zhonya's Hourglass"
- ],
- "fifth": [
-  "Zhonya's Hourglass",
+  "Dusk and Dawn",
+  "Gluttonous Greaves",
   "Shadowflame",
   "Rabadon's Deathcap"
  ],
- "sixth": [
+ "fourth": [
+  "Void Staff",
   "Stormsurge",
-  "Rabadon's Deathcap",
-  "Void Staff"
+  "Zhonya's Hourglass"
+ ],
+ "fifth": [
+  "Stormsurge",
+  "Void Staff",
+  "Zhonya's Hourglass",
+  "Hextech Rocketbelt"
+ ],
+ "sixth": [
+  "Nashor's Tooth",
+  "Stormsurge",
+  "Void Staff",
+  "Banshee's Veil"
  ],
  "pool": [
-  "Refillable Potion",
-  "Lost Chapter",
-  "Luden's Echo",
-  "Sorcerer's Shoes",
+  "Blasting Wand",
+  "Dagger",
+  "Glowing Mote",
   "Dusk and Dawn",
+  "Gluttonous Greaves",
   "Shadowflame",
-  "Zhonya's Hourglass",
   "Rabadon's Deathcap",
+  "Void Staff",
   "Stormsurge",
-  "Void Staff"
+  "Zhonya's Hourglass",
+  "Hextech Rocketbelt",
+  "Nashor's Tooth",
+  "Banshee's Veil"
  ]
 }

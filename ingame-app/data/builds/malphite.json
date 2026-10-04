@@ -1,47 +1,52 @@
 {
  "champion": "Malphite",
- "source": "https://u.gg/lol/champions/aram/malphite-aram",
+ "source": "https://aramkit.com/en-US/champions/malphite",
+ "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
   "Mark"
  ],
  "starting": [
   "Giant's Belt",
-  "Ruby Crystal",
-  "Health Potion"
+  "Ruby Crystal"
  ],
  "core": [
   "Heartsteel",
-  "Mercury's Treads",
-  "Unending Despair"
+  "Plated Steelcaps",
+  "Unending Despair",
+  "Warmog's Armor"
  ],
  "fourth": [
-  "Shadowflame",
-  "Rabadon's Deathcap"
+  "Thornmail",
+  "Rabadon's Deathcap",
+  "Stormsurge",
+  "Shadowflame"
  ],
  "fifth": [
+  "Stormsurge",
+  "Thornmail",
   "Rabadon's Deathcap",
-  "Warmog's Armor",
-  "Thornmail"
+  "Cryptbloom"
  ],
  "sixth": [
-  "Jak'Sho, The Protean",
-  "Force of Nature",
-  "Banshee's Veil"
+  "Cryptbloom",
+  "Stormsurge",
+  "Void Staff",
+  "Luden's Echo"
  ],
  "pool": [
   "Giant's Belt",
   "Ruby Crystal",
-  "Health Potion",
   "Heartsteel",
-  "Mercury's Treads",
+  "Plated Steelcaps",
   "Unending Despair",
-  "Shadowflame",
-  "Rabadon's Deathcap",
   "Warmog's Armor",
   "Thornmail",
-  "Jak'Sho, The Protean",
-  "Force of Nature",
-  "Banshee's Veil"
+  "Rabadon's Deathcap",
+  "Stormsurge",
+  "Shadowflame",
+  "Cryptbloom",
+  "Void Staff",
+  "Luden's Echo"
  ]
 }

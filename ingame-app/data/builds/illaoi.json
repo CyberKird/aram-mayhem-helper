@@ -1,44 +1,51 @@
 {
  "champion": "Illaoi",
- "source": "https://u.gg/lol/champions/aram/illaoi-aram",
+ "source": "https://aramkit.com/en-US/champions/illaoi",
+ "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
   "Mark"
  ],
  "starting": [
-  "Boots",
-  "Chain Vest",
-  "Glowing Mote"
+  "Giant's Belt",
+  "Ruby Crystal"
  ],
  "core": [
-  "Iceborn Gauntlet",
-  "Mercury's Treads",
-  "Spirit Visage"
+  "Heartsteel",
+  "Gluttonous Greaves",
+  "Warmog's Armor",
+  "Overlord's Bloodmail"
  ],
  "fourth": [
-  "Death's Dance",
-  "Sterak's Gage"
+  "Unending Despair",
+  "Sterak's Gage",
+  "Spirit Visage",
+  "Death's Dance"
  ],
  "fifth": [
-  "Death's Dance",
+  "Endless Hunger",
+  "Unending Despair",
   "Sterak's Gage",
-  "Sundered Sky"
+  "Spirit Visage"
  ],
  "sixth": [
+  "Endless Hunger",
+  "Unending Despair",
   "Sterak's Gage",
-  "Death's Dance",
   "Jak'Sho, The Protean"
  ],
  "pool": [
-  "Boots",
-  "Chain Vest",
-  "Glowing Mote",
-  "Iceborn Gauntlet",
-  "Mercury's Treads",
+  "Giant's Belt",
+  "Ruby Crystal",
+  "Heartsteel",
+  "Gluttonous Greaves",
+  "Warmog's Armor",
+  "Overlord's Bloodmail",
+  "Unending Despair",
+  "Sterak's Gage",
   "Spirit Visage",
   "Death's Dance",
-  "Sterak's Gage",
-  "Sundered Sky",
+  "Endless Hunger",
   "Jak'Sho, The Protean"
  ]
 }

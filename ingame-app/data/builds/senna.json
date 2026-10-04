@@ -1,43 +1,52 @@
 {
  "champion": "Senna",
- "source": "https://u.gg/lol/champions/aram/senna-aram",
+ "source": "https://aramkit.com/en-US/champions/senna",
+ "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
   "Ghost"
  ],
  "starting": [
   "Pickaxe",
+  "Dagger",
   "Dagger"
  ],
  "core": [
   "Statikk Shiv",
-  "Boots of Swiftness",
-  "Black Cleaver"
+  "Gluttonous Greaves",
+  "Runaan's Hurricane",
+  "Blade of The Ruined King"
  ],
  "fourth": [
-  "Rapid Firecannon",
-  "Infinity Edge"
- ],
- "fifth": [
-  "Infinity Edge",
-  "Blade of The Ruined King",
+  "Hexoptics C44",
+  "Kraken Slayer",
+  "Manamune",
   "Lord Dominik's Regards"
  ],
- "sixth": [
-  "Blade of The Ruined King",
+ "fifth": [
+  "Hexoptics C44",
   "Bloodthirster",
-  "Infinity Edge"
+  "Manamune",
+  "Kraken Slayer"
+ ],
+ "sixth": [
+  "Hexoptics C44",
+  "Bloodthirster",
+  "Manamune",
+  "Black Cleaver"
  ],
  "pool": [
   "Pickaxe",
   "Dagger",
   "Statikk Shiv",
-  "Boots of Swiftness",
-  "Black Cleaver",
-  "Rapid Firecannon",
-  "Infinity Edge",
+  "Gluttonous Greaves",
+  "Runaan's Hurricane",
   "Blade of The Ruined King",
+  "Hexoptics C44",
+  "Kraken Slayer",
+  "Manamune",
   "Lord Dominik's Regards",
-  "Bloodthirster"
+  "Bloodthirster",
+  "Black Cleaver"
  ]
 }

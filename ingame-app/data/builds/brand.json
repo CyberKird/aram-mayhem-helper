@@ -1,43 +1,48 @@
 {
  "champion": "Brand",
- "source": "https://u.gg/lol/champions/aram/brand-aram",
+ "source": "https://aramkit.com/en-US/champions/brand",
+ "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
-  "Clarity"
+  "Ghost"
  ],
  "starting": [
-  "Refillable Potion",
   "Lost Chapter"
  ],
  "core": [
-  "Blackfire Torch",
   "Liandry's Torment",
-  "Sorcerer's Shoes"
- ],
- "fourth": [
-  "Rylai's Crystal Scepter",
-  "Shadowflame"
- ],
- "fifth": [
-  "Rylai's Crystal Scepter",
-  "Shadowflame",
-  "Rabadon's Deathcap"
- ],
- "sixth": [
-  "Void Staff",
-  "Malignance",
+  "Gluttonous Greaves",
+  "Blackfire Torch",
   "Rylai's Crystal Scepter"
  ],
- "pool": [
-  "Refillable Potion",
-  "Lost Chapter",
-  "Blackfire Torch",
-  "Liandry's Torment",
-  "Sorcerer's Shoes",
-  "Rylai's Crystal Scepter",
+ "fourth": [
+  "Bloodletter's Curse",
+  "Rabadon's Deathcap",
+  "Shadowflame",
+  "Malignance"
+ ],
+ "fifth": [
+  "Bloodletter's Curse",
   "Shadowflame",
   "Rabadon's Deathcap",
-  "Void Staff",
   "Malignance"
+ ],
+ "sixth": [
+  "Bloodletter's Curse",
+  "Shadowflame",
+  "Rabadon's Deathcap",
+  "Void Staff"
+ ],
+ "pool": [
+  "Lost Chapter",
+  "Liandry's Torment",
+  "Gluttonous Greaves",
+  "Blackfire Torch",
+  "Rylai's Crystal Scepter",
+  "Bloodletter's Curse",
+  "Rabadon's Deathcap",
+  "Shadowflame",
+  "Malignance",
+  "Void Staff"
  ]
 }

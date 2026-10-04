@@ -1,6 +1,7 @@
 {
  "champion": "Xerath",
- "source": "https://u.gg/lol/champions/aram/xerath-aram",
+ "source": "https://aramkit.com/en-US/champions/xerath",
+ "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
   "Ghost"
@@ -11,33 +12,40 @@
  ],
  "core": [
   "Luden's Echo",
+  "Gluttonous Greaves",
   "Rabadon's Deathcap",
-  "Sorcerer's Shoes"
+  "Shadowflame"
  ],
  "fourth": [
-  "Shadowflame",
-  "Stormsurge"
+  "Horizon Focus",
+  "Stormsurge",
+  "Archangel's Staff",
+  "Void Staff"
  ],
  "fifth": [
   "Stormsurge",
-  "Shadowflame",
-  "Malignance"
+  "Horizon Focus",
+  "Malignance",
+  "Archangel's Staff"
  ],
  "sixth": [
-  "Liandry's Torment",
+  "Banshee's Veil",
   "Stormsurge",
-  "Void Staff"
+  "Malignance",
+  "Horizon Focus"
  ],
  "pool": [
   "Refillable Potion",
   "Lost Chapter",
   "Luden's Echo",
+  "Gluttonous Greaves",
   "Rabadon's Deathcap",
-  "Sorcerer's Shoes",
   "Shadowflame",
+  "Horizon Focus",
   "Stormsurge",
+  "Archangel's Staff",
+  "Void Staff",
   "Malignance",
-  "Liandry's Torment",
-  "Void Staff"
+  "Banshee's Veil"
  ]
 }

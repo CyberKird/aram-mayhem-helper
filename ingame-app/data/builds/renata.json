@@ -1,46 +1,49 @@
 {
  "champion": "Renata Glasc",
- "source": "https://u.gg/lol/champions/aram/renata-aram",
+ "source": "https://aramkit.com/en-US/champions/renata",
+ "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
-  "Clarity"
+  "Ghost"
  ],
  "starting": [
-  "Health Potion",
   "Tear of the Goddess",
   "Bandleglass Mirror"
  ],
  "core": [
   "Imperial Mandate",
   "Ionian Boots of Lucidity",
-  "Archangel's Staff"
- ],
- "fourth": [
-  "Shurelya's Battlesong",
-  "Malignance"
- ],
- "fifth": [
-  "Redemption",
-  "Locket of the Iron Solari",
-  "Morellonomicon"
- ],
- "sixth": [
-  "Locket of the Iron Solari",
-  "Shurelya's Battlesong",
+  "Moonstone Renewer",
   "Whispering Circlet"
  ],
+ "fourth": [
+  "Ardent Censer",
+  "Archangel's Staff",
+  "Redemption",
+  "Shurelya's Battlesong"
+ ],
+ "fifth": [
+  "Ardent Censer",
+  "Archangel's Staff",
+  "Redemption",
+  "Shurelya's Battlesong"
+ ],
+ "sixth": [
+  "Ardent Censer",
+  "Archangel's Staff",
+  "Redemption",
+  "Shurelya's Battlesong"
+ ],
  "pool": [
-  "Health Potion",
   "Tear of the Goddess",
   "Bandleglass Mirror",
   "Imperial Mandate",
   "Ionian Boots of Lucidity",
+  "Moonstone Renewer",
+  "Whispering Circlet",
+  "Ardent Censer",
   "Archangel's Staff",
-  "Shurelya's Battlesong",
-  "Malignance",
   "Redemption",
-  "Locket of the Iron Solari",
-  "Morellonomicon",
-  "Whispering Circlet"
+  "Shurelya's Battlesong"
  ]
 }

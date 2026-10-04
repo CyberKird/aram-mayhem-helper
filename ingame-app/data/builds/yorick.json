@@ -1,48 +1,52 @@
 {
  "champion": "Yorick",
- "source": "https://u.gg/lol/champions/aram/yorick-aram",
+ "source": "https://aramkit.com/en-US/champions/yorick",
+ "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
   "Mark"
  ],
  "starting": [
   "Giant's Belt",
-  "Ruby Crystal",
-  "Health Potion"
+  "Ruby Crystal"
  ],
  "core": [
   "Heartsteel",
   "Mercury's Treads",
-  "Iceborn Gauntlet"
+  "Warmog's Armor",
+  "Unending Despair"
  ],
  "fourth": [
-  "Spirit Visage",
-  "Sundered Sky"
+  "Overlord's Bloodmail",
+  "Iceborn Gauntlet",
+  "Sundered Sky",
+  "Spirit Visage"
  ],
  "fifth": [
-  "Force of Nature",
-  "Eclipse",
-  "Kaenic Rookern"
+  "Overlord's Bloodmail",
+  "Spirit Visage",
+  "Iceborn Gauntlet",
+  "Serylda's Grudge"
  ],
  "sixth": [
+  "Overlord's Bloodmail",
   "Jak'Sho, The Protean",
-  "Spear of Shojin",
-  "Winter's Approach"
+  "Spirit Visage",
+  "Kaenic Rookern"
  ],
  "pool": [
   "Giant's Belt",
   "Ruby Crystal",
-  "Health Potion",
   "Heartsteel",
   "Mercury's Treads",
+  "Warmog's Armor",
+  "Unending Despair",
+  "Overlord's Bloodmail",
   "Iceborn Gauntlet",
-  "Spirit Visage",
   "Sundered Sky",
-  "Force of Nature",
-  "Eclipse",
-  "Kaenic Rookern",
+  "Spirit Visage",
+  "Serylda's Grudge",
   "Jak'Sho, The Protean",
-  "Spear of Shojin",
-  "Winter's Approach"
+  "Kaenic Rookern"
  ]
 }

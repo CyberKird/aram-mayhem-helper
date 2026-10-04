@@ -1,44 +1,50 @@
 {
  "champion": "Mordekaiser",
- "source": "https://u.gg/lol/champions/aram/mordekaiser-aram",
+ "source": "https://aramkit.com/en-US/champions/mordekaiser",
+ "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
   "Mark"
  ],
  "starting": [
-  "Health Potion",
-  "Haunting Guise"
+  "Giant's Belt",
+  "Ruby Crystal"
  ],
  "core": [
-  "Rylai's Crystal Scepter",
-  "Mercury's Treads",
-  "Liandry's Torment"
- ],
- "fourth": [
-  "Spirit Visage",
+  "Heartsteel",
+  "Gluttonous Greaves",
+  "Unending Despair",
   "Riftmaker"
  ],
+ "fourth": [
+  "Warmog's Armor",
+  "Dusk and Dawn",
+  "Liandry's Torment",
+  "Spirit Visage"
+ ],
  "fifth": [
+  "Dusk and Dawn",
+  "Warmog's Armor",
   "Spirit Visage",
-  "Riftmaker",
-  "Dusk and Dawn"
+  "Liandry's Torment"
  ],
  "sixth": [
-  "Jak'Sho, The Protean",
-  "Rabadon's Deathcap",
-  "Unending Despair"
+  "Warmog's Armor",
+  "Dusk and Dawn",
+  "Spirit Visage",
+  "Jak'Sho, The Protean"
  ],
  "pool": [
-  "Health Potion",
-  "Haunting Guise",
-  "Rylai's Crystal Scepter",
-  "Mercury's Treads",
+  "Giant's Belt",
+  "Ruby Crystal",
+  "Heartsteel",
+  "Gluttonous Greaves",
+  "Unending Despair",
+  "Riftmaker",
+  "Warmog's Armor",
+  "Dusk and Dawn",
   "Liandry's Torment",
   "Spirit Visage",
-  "Riftmaker",
-  "Dusk and Dawn",
-  "Jak'Sho, The Protean",
-  "Rabadon's Deathcap",
-  "Unending Despair"
+  "Jak'Sho, The Protean"
  ]
 }

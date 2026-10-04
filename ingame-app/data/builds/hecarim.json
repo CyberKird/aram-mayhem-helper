@@ -1,44 +1,47 @@
 {
  "champion": "Hecarim",
- "source": "https://u.gg/lol/champions/aram/hecarim-aram",
+ "source": "https://aramkit.com/en-US/champions/hecarim",
+ "mode": "ARAM Mayhem",
  "summoners": [
   "Ghost",
   "Mark"
  ],
  "starting": [
-  "Boots",
-  "Caulfield's Warhammer"
+  "Tear of the Goddess",
+  "Guardian's Blade"
  ],
  "core": [
-  "Eclipse",
-  "Mercury's Treads",
-  "Sundered Sky"
+  "Spear of Shojin",
+  "Gluttonous Greaves",
+  "Endless Hunger",
+  "Manamune"
  ],
  "fourth": [
   "Death's Dance",
-  "Manamune"
+  "Spirit Visage"
  ],
  "fifth": [
+  "Death's Dance",
+  "Black Cleaver",
   "Spirit Visage",
-  "Endless Hunger",
-  "Manamune"
+  "Eclipse"
  ],
  "sixth": [
-  "Endless Hunger",
-  "Spear of Shojin",
-  "Jak'Sho, The Protean"
+  "Death's Dance",
+  "Black Cleaver",
+  "Spirit Visage",
+  "Eclipse"
  ],
  "pool": [
-  "Boots",
-  "Caulfield's Warhammer",
-  "Eclipse",
-  "Mercury's Treads",
-  "Sundered Sky",
-  "Death's Dance",
-  "Manamune",
-  "Spirit Visage",
-  "Endless Hunger",
+  "Tear of the Goddess",
+  "Guardian's Blade",
   "Spear of Shojin",
-  "Jak'Sho, The Protean"
+  "Gluttonous Greaves",
+  "Endless Hunger",
+  "Manamune",
+  "Death's Dance",
+  "Spirit Visage",
+  "Black Cleaver",
+  "Eclipse"
  ]
 }

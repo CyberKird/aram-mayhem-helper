@@ -1,43 +1,51 @@
 {
  "champion": "Smolder",
- "source": "https://u.gg/lol/champions/aram/smolder-aram",
+ "source": "https://aramkit.com/en-US/champions/smolder",
+ "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
-  "Barrier"
+  "Ghost"
  ],
  "starting": [
   "Long Sword",
-  "Refillable Potion",
-  "Sheen"
+  "Guardian's Blade"
  ],
  "core": [
   "Essence Reaver",
-  "Spear of Shojin",
-  "Rapid Firecannon"
+  "Gluttonous Greaves",
+  "Lord Dominik's Regards",
+  "Infinity Edge"
  ],
  "fourth": [
-  "Infinity Edge",
-  "Lord Dominik's Regards"
+  "Bloodthirster",
+  "Manamune",
+  "Spear of Shojin",
+  "The Collector"
  ],
  "fifth": [
-  "Infinity Edge",
-  "Lord Dominik's Regards",
+  "Endless Hunger",
+  "Liandry's Torment",
+  "Spear of Shojin",
   "Bloodthirster"
  ],
  "sixth": [
-  "Lord Dominik's Regards",
-  "Infinity Edge",
+  "Endless Hunger",
+  "Spear of Shojin",
+  "Manamune",
   "Bloodthirster"
  ],
  "pool": [
   "Long Sword",
-  "Refillable Potion",
-  "Sheen",
+  "Guardian's Blade",
   "Essence Reaver",
-  "Spear of Shojin",
-  "Rapid Firecannon",
-  "Infinity Edge",
+  "Gluttonous Greaves",
   "Lord Dominik's Regards",
-  "Bloodthirster"
+  "Infinity Edge",
+  "Bloodthirster",
+  "Manamune",
+  "Spear of Shojin",
+  "The Collector",
+  "Endless Hunger",
+  "Liandry's Torment"
  ]
 }

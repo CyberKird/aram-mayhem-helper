@@ -1,45 +1,51 @@
 {
  "champion": "Janna",
- "source": "https://u.gg/lol/champions/aram/janna-aram",
+ "source": "https://aramkit.com/en-US/champions/janna",
+ "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
-  "Clarity"
+  "Heal"
  ],
  "starting": [
-  "Health Potion",
   "Tear of the Goddess",
   "Bandleglass Mirror"
  ],
  "core": [
   "Moonstone Renewer",
   "Ionian Boots of Lucidity",
+  "Ardent Censer",
   "Whispering Circlet"
  ],
  "fourth": [
-  "Ardent Censer",
-  "Redemption"
- ],
- "fifth": [
-  "Redemption",
-  "Ardent Censer",
-  "Imperial Mandate"
- ],
- "sixth": [
+  "Staff of Flowing Water",
   "Dawncore",
   "Redemption",
-  "Staff of Flowing Water"
+  "Imperial Mandate"
+ ],
+ "fifth": [
+  "Staff of Flowing Water",
+  "Dawncore",
+  "Redemption",
+  "Archangel's Staff"
+ ],
+ "sixth": [
+  "Staff of Flowing Water",
+  "Dawncore",
+  "Redemption",
+  "Shurelya's Battlesong"
  ],
  "pool": [
-  "Health Potion",
   "Tear of the Goddess",
   "Bandleglass Mirror",
   "Moonstone Renewer",
   "Ionian Boots of Lucidity",
-  "Whispering Circlet",
   "Ardent Censer",
+  "Whispering Circlet",
+  "Staff of Flowing Water",
+  "Dawncore",
   "Redemption",
   "Imperial Mandate",
-  "Dawncore",
-  "Staff of Flowing Water"
+  "Archangel's Staff",
+  "Shurelya's Battlesong"
  ]
 }

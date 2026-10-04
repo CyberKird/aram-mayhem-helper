@@ -1,44 +1,51 @@
 {
  "champion": "Nilah",
- "source": "https://u.gg/lol/champions/aram/nilah-aram",
+ "source": "https://aramkit.com/en-US/champions/nilah",
+ "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
   "Mark"
  ],
  "starting": [
-  "Boots",
-  "Health Potion",
-  "Serrated Dirk"
+  "Long Sword",
+  "Guardian's Blade"
  ],
  "core": [
   "The Collector",
-  "Berserker's Greaves",
-  "Infinity Edge"
+  "Gluttonous Greaves",
+  "Infinity Edge",
+  "Lord Dominik's Regards"
  ],
  "fourth": [
-  "Immortal Shieldbow",
-  "Bloodthirster"
+  "Death's Dance",
+  "Bloodthirster",
+  "Navori Flickerblade",
+  "Blade of The Ruined King"
  ],
  "fifth": [
-  "Lord Dominik's Regards",
+  "Death's Dance",
   "Bloodthirster",
+  "Navori Flickerblade",
   "Immortal Shieldbow"
  ],
  "sixth": [
+  "Death's Dance",
+  "Endless Hunger",
   "Bloodthirster",
-  "Mercurial Scimitar",
-  "Immortal Shieldbow"
+  "Navori Flickerblade"
  ],
  "pool": [
-  "Boots",
-  "Health Potion",
-  "Serrated Dirk",
+  "Long Sword",
+  "Guardian's Blade",
   "The Collector",
-  "Berserker's Greaves",
+  "Gluttonous Greaves",
   "Infinity Edge",
-  "Immortal Shieldbow",
-  "Bloodthirster",
   "Lord Dominik's Regards",
-  "Mercurial Scimitar"
+  "Death's Dance",
+  "Bloodthirster",
+  "Navori Flickerblade",
+  "Blade of The Ruined King",
+  "Immortal Shieldbow",
+  "Endless Hunger"
  ]
 }

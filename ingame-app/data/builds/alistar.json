@@ -1,46 +1,50 @@
 {
  "champion": "Alistar",
- "source": "https://u.gg/lol/champions/aram/alistar-aram",
+ "source": "https://aramkit.com/en-US/champions/alistar",
+ "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
   "Mark"
  ],
  "starting": [
   "Giant's Belt",
-  "Ruby Crystal",
-  "Health Potion"
+  "Ruby Crystal"
  ],
  "core": [
   "Heartsteel",
   "Plated Steelcaps",
-  "Unending Despair"
+  "Unending Despair",
+  "Warmog's Armor"
  ],
  "fourth": [
-  "Kaenic Rookern",
-  "Thornmail"
+  "Winter's Approach",
+  "Spirit Visage",
+  "Jak'Sho, The Protean",
+  "Randuin's Omen"
  ],
  "fifth": [
-  "Warmog's Armor",
+  "Winter's Approach",
+  "Jak'Sho, The Protean",
   "Spirit Visage",
-  "Jak'Sho, The Protean"
+  "Force of Nature"
  ],
  "sixth": [
-  "Frozen Heart",
-  "Warmog's Armor",
-  "Jak'Sho, The Protean"
+  "Jak'Sho, The Protean",
+  "Force of Nature",
+  "Spirit Visage",
+  "Winter's Approach"
  ],
  "pool": [
   "Giant's Belt",
   "Ruby Crystal",
-  "Health Potion",
   "Heartsteel",
   "Plated Steelcaps",
   "Unending Despair",
-  "Kaenic Rookern",
-  "Thornmail",
   "Warmog's Armor",
+  "Winter's Approach",
   "Spirit Visage",
   "Jak'Sho, The Protean",
-  "Frozen Heart"
+  "Randuin's Omen",
+  "Force of Nature"
  ]
 }

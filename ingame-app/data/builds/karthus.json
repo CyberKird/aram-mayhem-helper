@@ -1,42 +1,50 @@
 {
  "champion": "Karthus",
- "source": "https://u.gg/lol/champions/aram/karthus-aram",
+ "source": "https://aramkit.com/en-US/champions/karthus",
+ "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
   "Mark"
  ],
  "starting": [
-  "Refillable Potion",
-  "Lost Chapter"
+  "Amplifying Tome",
+  "Fated Ashes"
  ],
  "core": [
-  "Malignance",
-  "Liandry's Torment",
-  "Sorcerer's Shoes"
- ],
- "fourth": [
-  "Shadowflame",
-  "Rabadon's Deathcap"
- ],
- "fifth": [
-  "Rabadon's Deathcap",
-  "Void Staff",
-  "Shadowflame"
- ],
- "sixth": [
-  "Void Staff",
-  "Morellonomicon",
-  "Rabadon's Deathcap"
- ],
- "pool": [
-  "Refillable Potion",
-  "Lost Chapter",
-  "Malignance",
   "Liandry's Torment",
   "Sorcerer's Shoes",
+  "Blackfire Torch",
+  "Shadowflame"
+ ],
+ "fourth": [
+  "Rabadon's Deathcap",
+  "Void Staff",
+  "Malignance",
+  "Stormsurge"
+ ],
+ "fifth": [
+  "Stormsurge",
+  "Void Staff",
+  "Malignance",
+  "Rabadon's Deathcap"
+ ],
+ "sixth": [
+  "Stormsurge",
+  "Malignance",
+  "Void Staff",
+  "Horizon Focus"
+ ],
+ "pool": [
+  "Amplifying Tome",
+  "Fated Ashes",
+  "Liandry's Torment",
+  "Sorcerer's Shoes",
+  "Blackfire Torch",
   "Shadowflame",
   "Rabadon's Deathcap",
   "Void Staff",
-  "Morellonomicon"
+  "Malignance",
+  "Stormsurge",
+  "Horizon Focus"
  ]
 }

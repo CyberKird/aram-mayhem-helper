@@ -1,43 +1,51 @@
 {
  "champion": "Darius",
- "source": "https://u.gg/lol/champions/aram/darius-aram",
+ "source": "https://aramkit.com/en-US/champions/darius",
+ "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
   "Mark"
  ],
  "starting": [
-  "Boots",
-  "Phage"
+  "Giant's Belt",
+  "Ruby Crystal"
  ],
  "core": [
-  "Trinity Force",
+  "Heartsteel",
   "Mercury's Treads",
-  "Sterak's Gage"
+  "Overlord's Bloodmail",
+  "Warmog's Armor"
  ],
  "fourth": [
+  "Unending Despair",
+  "Spirit Visage",
   "Death's Dance",
-  "Dead Man's Plate"
+  "Sterak's Gage"
  ],
  "fifth": [
-  "Dead Man's Plate",
-  "Spirit Visage",
-  "Death's Dance"
+  "Unending Despair",
+  "Endless Hunger",
+  "Sterak's Gage",
+  "Spear of Shojin"
  ],
  "sixth": [
-  "Dead Man's Plate",
-  "Black Cleaver",
-  "Sundered Sky"
+  "Endless Hunger",
+  "Unending Despair",
+  "Sterak's Gage",
+  "Death's Dance"
  ],
  "pool": [
-  "Boots",
-  "Phage",
-  "Trinity Force",
+  "Giant's Belt",
+  "Ruby Crystal",
+  "Heartsteel",
   "Mercury's Treads",
-  "Sterak's Gage",
-  "Death's Dance",
-  "Dead Man's Plate",
+  "Overlord's Bloodmail",
+  "Warmog's Armor",
+  "Unending Despair",
   "Spirit Visage",
-  "Black Cleaver",
-  "Sundered Sky"
+  "Death's Dance",
+  "Sterak's Gage",
+  "Endless Hunger",
+  "Spear of Shojin"
  ]
 }

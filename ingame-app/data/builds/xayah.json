@@ -1,43 +1,52 @@
 {
  "champion": "Xayah",
- "source": "https://u.gg/lol/champions/aram/xayah-aram",
+ "source": "https://aramkit.com/en-US/champions/xayah",
+ "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
   "Ghost"
  ],
  "starting": [
-  "B. F. Sword",
-  "Health Potion"
+  "Long Sword",
+  "Guardian's Blade"
  ],
  "core": [
-  "Yun Tal Wildarrows",
-  "Berserker's Greaves",
+  "The Collector",
+  "Gluttonous Greaves",
+  "Lord Dominik's Regards",
   "Infinity Edge"
  ],
  "fourth": [
-  "Lord Dominik's Regards",
-  "Navori Flickerblade"
- ],
- "fifth": [
-  "Lord Dominik's Regards",
-  "Bloodthirster",
-  "Blade of The Ruined King"
- ],
- "sixth": [
-  "Blade of The Ruined King",
-  "Bloodthirster",
-  "Phantom Dancer"
- ],
- "pool": [
-  "B. F. Sword",
-  "Health Potion",
-  "Yun Tal Wildarrows",
-  "Berserker's Greaves",
-  "Infinity Edge",
-  "Lord Dominik's Regards",
   "Navori Flickerblade",
   "Bloodthirster",
+  "Runaan's Hurricane",
+  "Blade of The Ruined King"
+ ],
+ "fifth": [
+  "Bloodthirster",
+  "Navori Flickerblade",
   "Blade of The Ruined King",
-  "Phantom Dancer"
+  "Kraken Slayer"
+ ],
+ "sixth": [
+  "Bloodthirster",
+  "Phantom Dancer",
+  "Blade of The Ruined King",
+  "Mercurial Scimitar"
+ ],
+ "pool": [
+  "Long Sword",
+  "Guardian's Blade",
+  "The Collector",
+  "Gluttonous Greaves",
+  "Lord Dominik's Regards",
+  "Infinity Edge",
+  "Navori Flickerblade",
+  "Bloodthirster",
+  "Runaan's Hurricane",
+  "Blade of The Ruined King",
+  "Kraken Slayer",
+  "Phantom Dancer",
+  "Mercurial Scimitar"
  ]
 }

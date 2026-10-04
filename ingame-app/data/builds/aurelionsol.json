@@ -1,43 +1,51 @@
 {
  "champion": "Aurelion Sol",
- "source": "https://u.gg/lol/champions/aram/aurelionsol-aram",
+ "source": "https://aramkit.com/en-US/champions/aurelionsol",
+ "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
-  "Heal"
+  "Barrier"
  ],
  "starting": [
-  "Refillable Potion",
-  "Lost Chapter"
+  "Sapphire Crystal",
+  "Fated Ashes"
  ],
  "core": [
   "Blackfire Torch",
-  "Sorcerer's Shoes",
+  "Gluttonous Greaves",
+  "Liandry's Torment",
   "Rylai's Crystal Scepter"
  ],
  "fourth": [
-  "Liandry's Torment",
+  "Bloodletter's Curse",
+  "Warmog's Armor",
+  "Rabadon's Deathcap",
   "Shadowflame"
  ],
  "fifth": [
-  "Shadowflame",
-  "Rabadon's Deathcap",
-  "Bloodletter's Curse"
+  "Bloodletter's Curse",
+  "Warmog's Armor",
+  "Riftmaker",
+  "Archangel's Staff"
  ],
  "sixth": [
-  "Rabadon's Deathcap",
-  "Shadowflame",
-  "Void Staff"
+  "Bloodletter's Curse",
+  "Riftmaker",
+  "Warmog's Armor",
+  "Archangel's Staff"
  ],
  "pool": [
-  "Refillable Potion",
-  "Lost Chapter",
+  "Sapphire Crystal",
+  "Fated Ashes",
   "Blackfire Torch",
-  "Sorcerer's Shoes",
-  "Rylai's Crystal Scepter",
+  "Gluttonous Greaves",
   "Liandry's Torment",
-  "Shadowflame",
-  "Rabadon's Deathcap",
+  "Rylai's Crystal Scepter",
   "Bloodletter's Curse",
-  "Void Staff"
+  "Warmog's Armor",
+  "Rabadon's Deathcap",
+  "Shadowflame",
+  "Riftmaker",
+  "Archangel's Staff"
  ]
 }

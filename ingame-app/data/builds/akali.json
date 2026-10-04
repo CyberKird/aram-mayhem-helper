@@ -1,42 +1,49 @@
 {
  "champion": "Akali",
- "source": "https://u.gg/lol/champions/aram/akali-aram",
+ "source": "https://aramkit.com/en-US/champions/akali",
+ "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
-  "Ignite"
+  "Mark"
  ],
  "starting": [
-  "Hextech Alternator"
+  "Needlessly Large Rod"
  ],
  "core": [
-  "Hextech Gunblade",
+  "Shadowflame",
   "Sorcerer's Shoes",
-  "Stormsurge"
+  "Stormsurge",
+  "Rabadon's Deathcap"
  ],
  "fourth": [
-  "Rabadon's Deathcap",
-  "Shadowflame"
- ],
- "fifth": [
-  "Rabadon's Deathcap",
-  "Zhonya's Hourglass",
-  "Shadowflame"
- ],
- "sixth": [
   "Void Staff",
   "Lich Bane",
-  "Banshee's Veil"
+  "Hextech Gunblade",
+  "Riftmaker"
+ ],
+ "fifth": [
+  "Lich Bane",
+  "Void Staff",
+  "Hextech Gunblade",
+  "Zhonya's Hourglass"
+ ],
+ "sixth": [
+  "Lich Bane",
+  "Void Staff",
+  "Banshee's Veil",
+  "Zhonya's Hourglass"
  ],
  "pool": [
-  "Hextech Alternator",
-  "Hextech Gunblade",
+  "Needlessly Large Rod",
+  "Shadowflame",
   "Sorcerer's Shoes",
   "Stormsurge",
   "Rabadon's Deathcap",
-  "Shadowflame",
-  "Zhonya's Hourglass",
   "Void Staff",
   "Lich Bane",
+  "Hextech Gunblade",
+  "Riftmaker",
+  "Zhonya's Hourglass",
   "Banshee's Veil"
  ]
 }

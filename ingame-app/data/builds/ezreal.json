@@ -1,43 +1,52 @@
 {
  "champion": "Ezreal",
- "source": "https://u.gg/lol/champions/aram/ezreal-aram",
+ "source": "https://aramkit.com/en-US/champions/ezreal",
+ "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
-  "Barrier"
+  "Ghost"
  ],
  "starting": [
-  "Sheen",
-  "Tear of the Goddess"
+  "Tear of the Goddess",
+  "Guardian's Blade"
  ],
  "core": [
   "Trinity Force",
+  "Gluttonous Greaves",
   "Manamune",
-  "Ionian Boots of Lucidity"
+  "Endless Hunger"
  ],
  "fourth": [
+  "Archangel's Staff",
+  "Lord Dominik's Regards",
   "Spear of Shojin",
-  "Endless Hunger"
+  "Infinity Edge"
  ],
  "fifth": [
-  "Serylda's Grudge",
+  "Archangel's Staff",
+  "Lord Dominik's Regards",
   "Spear of Shojin",
-  "Endless Hunger"
+  "Serylda's Grudge"
  ],
  "sixth": [
-  "Blade of The Ruined King",
-  "Endless Hunger",
-  "Infinity Edge"
+  "Archangel's Staff",
+  "Bloodthirster",
+  "Shadowflame",
+  "Serylda's Grudge"
  ],
  "pool": [
-  "Sheen",
   "Tear of the Goddess",
+  "Guardian's Blade",
   "Trinity Force",
+  "Gluttonous Greaves",
   "Manamune",
-  "Ionian Boots of Lucidity",
-  "Spear of Shojin",
   "Endless Hunger",
+  "Archangel's Staff",
+  "Lord Dominik's Regards",
+  "Spear of Shojin",
+  "Infinity Edge",
   "Serylda's Grudge",
-  "Blade of The Ruined King",
-  "Infinity Edge"
+  "Bloodthirster",
+  "Shadowflame"
  ]
 }

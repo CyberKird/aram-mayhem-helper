@@ -1,45 +1,52 @@
 {
  "champion": "Lucian",
- "source": "https://u.gg/lol/champions/aram/lucian-aram",
+ "source": "https://aramkit.com/en-US/champions/lucian",
+ "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
-  "Barrier"
+  "Ghost"
  ],
  "starting": [
   "Long Sword",
-  "Pickaxe",
-  "Refillable Potion"
+  "Guardian's Blade"
  ],
  "core": [
-  "Essence Reaver",
-  "Berserker's Greaves",
-  "The Collector"
+  "The Collector",
+  "Gluttonous Greaves",
+  "Infinity Edge",
+  "Axiom Arc"
  ],
  "fourth": [
-  "Infinity Edge",
-  "Lord Dominik's Regards"
- ],
- "fifth": [
   "Lord Dominik's Regards",
   "Bloodthirster",
+  "Essence Reaver",
   "Navori Flickerblade"
  ],
- "sixth": [
+ "fifth": [
+  "Endless Hunger",
+  "Lord Dominik's Regards",
   "Bloodthirster",
-  "Blade of The Ruined King",
-  "Lord Dominik's Regards"
+  "Essence Reaver"
+ ],
+ "sixth": [
+  "Endless Hunger",
+  "Edge of Night",
+  "Maw of Malmortius",
+  "Bloodthirster"
  ],
  "pool": [
   "Long Sword",
-  "Pickaxe",
-  "Refillable Potion",
-  "Essence Reaver",
-  "Berserker's Greaves",
+  "Guardian's Blade",
   "The Collector",
+  "Gluttonous Greaves",
   "Infinity Edge",
+  "Axiom Arc",
   "Lord Dominik's Regards",
   "Bloodthirster",
+  "Essence Reaver",
   "Navori Flickerblade",
-  "Blade of The Ruined King"
+  "Endless Hunger",
+  "Edge of Night",
+  "Maw of Malmortius"
  ]
 }

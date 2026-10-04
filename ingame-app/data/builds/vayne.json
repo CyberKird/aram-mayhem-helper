@@ -1,41 +1,52 @@
 {
  "champion": "Vayne",
- "source": "https://u.gg/lol/champions/aram/vayne-aram",
+ "source": "https://aramkit.com/en-US/champions/vayne",
+ "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
   "Ghost"
  ],
  "starting": [
   "Dagger",
-  "Berserker's Greaves"
+  "Dagger",
+  "Vampiric Scepter"
  ],
  "core": [
-  "Berserker's Greaves",
   "Blade of The Ruined King",
-  "Guinsoo's Rageblade"
- ],
- "fourth": [
-  "Wit's End",
+  "Gluttonous Greaves",
+  "Guinsoo's Rageblade",
   "Terminus"
  ],
+ "fourth": [
+  "Lord Dominik's Regards",
+  "Fiendhunter Bolts",
+  "Infinity Edge",
+  "Phantom Dancer"
+ ],
  "fifth": [
-  "Terminus",
-  "Jak'Sho, The Protean",
-  "Wit's End"
+  "Lord Dominik's Regards",
+  "Fiendhunter Bolts",
+  "Phantom Dancer",
+  "Bloodthirster"
  ],
  "sixth": [
-  "Jak'Sho, The Protean",
-  "Terminus",
+  "Lord Dominik's Regards",
+  "Bloodthirster",
+  "Phantom Dancer",
   "Kraken Slayer"
  ],
  "pool": [
   "Dagger",
-  "Berserker's Greaves",
+  "Vampiric Scepter",
   "Blade of The Ruined King",
+  "Gluttonous Greaves",
   "Guinsoo's Rageblade",
-  "Wit's End",
   "Terminus",
-  "Jak'Sho, The Protean",
+  "Lord Dominik's Regards",
+  "Fiendhunter Bolts",
+  "Infinity Edge",
+  "Phantom Dancer",
+  "Bloodthirster",
   "Kraken Slayer"
  ]
 }

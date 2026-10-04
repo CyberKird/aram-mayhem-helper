@@ -1,6 +1,7 @@
 {
  "champion": "Shen",
- "source": "https://u.gg/lol/champions/aram/shen-aram",
+ "source": "https://aramkit.com/en-US/champions/shen",
+ "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
   "Mark"
@@ -12,21 +13,26 @@
  "core": [
   "Heartsteel",
   "Plated Steelcaps",
-  "Unending Despair"
+  "Unending Despair",
+  "Warmog's Armor"
  ],
  "fourth": [
-  "Warmog's Armor",
-  "Titanic Hydra"
+  "Overlord's Bloodmail",
+  "Titanic Hydra",
+  "Hollow Radiance",
+  "Spirit Visage"
  ],
  "fifth": [
+  "Overlord's Bloodmail",
+  "Titanic Hydra",
   "Spirit Visage",
-  "Jak'Sho, The Protean",
-  "Hollow Radiance"
+  "Jak'Sho, The Protean"
  ],
  "sixth": [
-  "Hollow Radiance",
-  "Kaenic Rookern",
-  "Jak'Sho, The Protean"
+  "Overlord's Bloodmail",
+  "Titanic Hydra",
+  "Spirit Visage",
+  "Hollow Radiance"
  ],
  "pool": [
   "Giant's Belt",
@@ -35,10 +41,10 @@
   "Plated Steelcaps",
   "Unending Despair",
   "Warmog's Armor",
+  "Overlord's Bloodmail",
   "Titanic Hydra",
-  "Spirit Visage",
-  "Jak'Sho, The Protean",
   "Hollow Radiance",
-  "Kaenic Rookern"
+  "Spirit Visage",
+  "Jak'Sho, The Protean"
  ]
 }

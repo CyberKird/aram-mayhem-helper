@@ -1,43 +1,49 @@
 {
  "champion": "Jarvan IV",
- "source": "https://u.gg/lol/champions/aram/jarvaniv-aram",
+ "source": "https://aramkit.com/en-US/champions/jarvaniv",
+ "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
   "Mark"
  ],
  "starting": [
-  "Tunneler",
-  "Glowing Mote"
+  "Giant's Belt",
+  "Ruby Crystal"
  ],
  "core": [
-  "Sundered Sky",
+  "Heartsteel",
   "Mercury's Treads",
-  "Eclipse"
+  "Unending Despair",
+  "Warmog's Armor"
  ],
  "fourth": [
-  "Death's Dance",
-  "Sterak's Gage"
+  "Endless Hunger",
+  "Overlord's Bloodmail",
+  "Lord Dominik's Regards",
+  "Profane Hydra"
  ],
  "fifth": [
-  "Death's Dance",
-  "Kaenic Rookern",
-  "Maw of Malmortius"
+  "Endless Hunger",
+  "Overlord's Bloodmail",
+  "Lord Dominik's Regards",
+  "Profane Hydra"
  ],
  "sixth": [
-  "Death's Dance",
-  "Kaenic Rookern",
-  "Randuin's Omen"
+  "Endless Hunger",
+  "Profane Hydra",
+  "Lord Dominik's Regards",
+  "Overlord's Bloodmail"
  ],
  "pool": [
-  "Tunneler",
-  "Glowing Mote",
-  "Sundered Sky",
+  "Giant's Belt",
+  "Ruby Crystal",
+  "Heartsteel",
   "Mercury's Treads",
-  "Eclipse",
-  "Death's Dance",
-  "Sterak's Gage",
-  "Kaenic Rookern",
-  "Maw of Malmortius",
-  "Randuin's Omen"
+  "Unending Despair",
+  "Warmog's Armor",
+  "Endless Hunger",
+  "Overlord's Bloodmail",
+  "Lord Dominik's Regards",
+  "Profane Hydra"
  ]
 }

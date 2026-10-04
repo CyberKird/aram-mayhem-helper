@@ -1,43 +1,52 @@
 {
  "champion": "Jayce",
- "source": "https://u.gg/lol/champions/aram/jayce-aram",
+ "source": "https://aramkit.com/en-US/champions/jayce",
+ "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
   "Mark"
  ],
  "starting": [
   "Tear of the Goddess",
-  "Serrated Dirk"
+  "Guardian's Blade"
  ],
  "core": [
   "Hubris",
+  "Gluttonous Greaves",
   "Manamune",
-  "Ionian Boots of Lucidity"
+  "Lord Dominik's Regards"
  ],
  "fourth": [
-  "Serylda's Grudge",
-  "Eclipse"
+  "Voltaic Cyclosword",
+  "Death's Dance",
+  "Infinity Edge",
+  "Serylda's Grudge"
  ],
  "fifth": [
-  "Serylda's Grudge",
-  "Eclipse",
-  "Edge of Night"
+  "Endless Hunger",
+  "Edge of Night",
+  "Death's Dance",
+  "Infinity Edge"
  ],
  "sixth": [
-  "Spear of Shojin",
-  "Eclipse",
-  "Serpent's Fang"
+  "Endless Hunger",
+  "Youmuu's Ghostblade",
+  "Death's Dance",
+  "Edge of Night"
  ],
  "pool": [
   "Tear of the Goddess",
-  "Serrated Dirk",
+  "Guardian's Blade",
   "Hubris",
+  "Gluttonous Greaves",
   "Manamune",
-  "Ionian Boots of Lucidity",
+  "Lord Dominik's Regards",
+  "Voltaic Cyclosword",
+  "Death's Dance",
+  "Infinity Edge",
   "Serylda's Grudge",
-  "Eclipse",
+  "Endless Hunger",
   "Edge of Night",
-  "Spear of Shojin",
-  "Serpent's Fang"
+  "Youmuu's Ghostblade"
  ]
 }

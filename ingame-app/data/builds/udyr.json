@@ -1,45 +1,47 @@
 {
  "champion": "Udyr",
- "source": "https://u.gg/lol/champions/aram/udyr-aram",
+ "source": "https://aramkit.com/en-US/champions/udyr",
+ "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
   "Mark"
  ],
  "starting": [
-  "Refillable Potion",
-  "Lost Chapter"
+  "Haunting Guise"
  ],
  "core": [
-  "Malignance",
   "Liandry's Torment",
-  "Shadowflame"
+  "Sorcerer's Shoes",
+  "Shadowflame",
+  "Rabadon's Deathcap"
  ],
  "fourth": [
-  "Rylai's Crystal Scepter",
-  "Spirit Visage"
+  "Stormsurge",
+  "Void Staff",
+  "Rylai's Crystal Scepter"
  ],
  "fifth": [
-  "Rabadon's Deathcap",
-  "Riftmaker",
-  "Jak'Sho, The Protean"
+  "Stormsurge",
+  "Void Staff",
+  "Bloodletter's Curse",
+  "Rylai's Crystal Scepter"
  ],
  "sixth": [
+  "Stormsurge",
   "Void Staff",
-  "Rabadon's Deathcap",
-  "Thornmail"
+  "Blackfire Torch",
+  "Bloodletter's Curse"
  ],
  "pool": [
-  "Refillable Potion",
-  "Lost Chapter",
-  "Malignance",
+  "Haunting Guise",
   "Liandry's Torment",
+  "Sorcerer's Shoes",
   "Shadowflame",
-  "Rylai's Crystal Scepter",
-  "Spirit Visage",
   "Rabadon's Deathcap",
-  "Riftmaker",
-  "Jak'Sho, The Protean",
+  "Stormsurge",
   "Void Staff",
-  "Thornmail"
+  "Rylai's Crystal Scepter",
+  "Bloodletter's Curse",
+  "Blackfire Torch"
  ]
 }

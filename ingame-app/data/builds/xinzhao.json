@@ -1,46 +1,52 @@
 {
  "champion": "Xin Zhao",
- "source": "https://u.gg/lol/champions/aram/xinzhao-aram",
+ "source": "https://aramkit.com/en-US/champions/xinzhao",
+ "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
   "Mark"
  ],
  "starting": [
-  "Long Sword",
-  "Caulfield's Warhammer"
+  "Ruby Crystal",
+  "Sheen"
  ],
  "core": [
-  "Sundered Sky",
-  "Plated Steelcaps",
-  "Death's Dance"
+  "Dusk and Dawn",
+  "Gluttonous Greaves",
+  "Statikk Shiv",
+  "Nashor's Tooth"
  ],
  "fourth": [
   "Riftmaker",
-  "Sterak's Gage"
+  "Spirit Visage",
+  "Death's Dance",
+  "Blade of The Ruined King"
  ],
  "fifth": [
-  "Blade of The Ruined King",
+  "Riftmaker",
+  "Death's Dance",
   "Spirit Visage",
-  "Black Cleaver"
+  "Sundered Sky"
  ],
  "sixth": [
-  "Eclipse",
-  "Randuin's Omen",
-  "Thornmail"
+  "Riftmaker",
+  "Guinsoo's Rageblade",
+  "Death's Dance",
+  "Endless Hunger"
  ],
  "pool": [
-  "Long Sword",
-  "Caulfield's Warhammer",
-  "Sundered Sky",
-  "Plated Steelcaps",
-  "Death's Dance",
+  "Ruby Crystal",
+  "Sheen",
+  "Dusk and Dawn",
+  "Gluttonous Greaves",
+  "Statikk Shiv",
+  "Nashor's Tooth",
   "Riftmaker",
-  "Sterak's Gage",
-  "Blade of The Ruined King",
   "Spirit Visage",
-  "Black Cleaver",
-  "Eclipse",
-  "Randuin's Omen",
-  "Thornmail"
+  "Death's Dance",
+  "Blade of The Ruined King",
+  "Sundered Sky",
+  "Guinsoo's Rageblade",
+  "Endless Hunger"
  ]
 }

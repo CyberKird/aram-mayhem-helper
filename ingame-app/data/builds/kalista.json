@@ -1,44 +1,54 @@
 {
  "champion": "Kalista",
- "source": "https://u.gg/lol/champions/aram/kalista-aram",
+ "source": "https://aramkit.com/en-US/champions/kalista",
+ "mode": "ARAM Mayhem",
  "summoners": [
-  "Cleanse",
-  "Flash"
+  "Flash",
+  "Cleanse"
  ],
  "starting": [
-  "Pickaxe",
-  "Dagger"
+  "Dagger",
+  "Health Potion",
+  "Berserker's Greaves"
  ],
  "core": [
   "Blade of The Ruined King",
-  "Berserker's Greaves",
-  "Runaan's Hurricane"
+  "Gluttonous Greaves",
+  "Runaan's Hurricane",
+  "Terminus"
  ],
  "fourth": [
-  "Terminus",
-  "Guinsoo's Rageblade"
+  "Guinsoo's Rageblade",
+  "Bloodthirster",
+  "Wit's End",
+  "Infinity Edge"
  ],
  "fifth": [
-  "Terminus",
-  "Jak'Sho, The Protean",
-  "Bloodthirster"
+  "Bloodthirster",
+  "Guinsoo's Rageblade",
+  "Lord Dominik's Regards",
+  "Wit's End"
  ],
  "sixth": [
-  "Guinsoo's Rageblade",
-  "The Collector",
-  "Randuin's Omen"
+  "Mercurial Scimitar",
+  "Statikk Shiv",
+  "Bloodthirster",
+  "Wit's End"
  ],
  "pool": [
-  "Pickaxe",
   "Dagger",
-  "Blade of The Ruined King",
+  "Health Potion",
   "Berserker's Greaves",
+  "Blade of The Ruined King",
+  "Gluttonous Greaves",
   "Runaan's Hurricane",
   "Terminus",
   "Guinsoo's Rageblade",
-  "Jak'Sho, The Protean",
   "Bloodthirster",
-  "The Collector",
-  "Randuin's Omen"
+  "Wit's End",
+  "Infinity Edge",
+  "Lord Dominik's Regards",
+  "Mercurial Scimitar",
+  "Statikk Shiv"
  ]
 }

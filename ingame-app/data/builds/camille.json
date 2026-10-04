@@ -1,44 +1,51 @@
 {
  "champion": "Camille",
- "source": "https://u.gg/lol/champions/aram/camille-aram",
+ "source": "https://aramkit.com/en-US/champions/camille",
+ "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
   "Mark"
  ],
  "starting": [
-  "Boots",
-  "Phage"
+  "Long Sword",
+  "Guardian's Blade"
  ],
  "core": [
   "Trinity Force",
-  "Mercury's Treads",
-  "Sundered Sky"
+  "Gluttonous Greaves",
+  "Ravenous Hydra",
+  "Death's Dance"
  ],
  "fourth": [
-  "Death's Dance",
+  "Endless Hunger",
+  "Spear of Shojin",
+  "Maw of Malmortius",
   "Sterak's Gage"
  ],
  "fifth": [
-  "Sterak's Gage",
-  "Death's Dance",
-  "Maw of Malmortius"
+  "Endless Hunger",
+  "Spirit Visage",
+  "Spear of Shojin",
+  "Sterak's Gage"
  ],
  "sixth": [
-  "Spirit Visage",
+  "Endless Hunger",
+  "Sterak's Gage",
   "Eclipse",
-  "Spear of Shojin"
+  "Maw of Malmortius"
  ],
  "pool": [
-  "Boots",
-  "Phage",
+  "Long Sword",
+  "Guardian's Blade",
   "Trinity Force",
-  "Mercury's Treads",
-  "Sundered Sky",
+  "Gluttonous Greaves",
+  "Ravenous Hydra",
   "Death's Dance",
-  "Sterak's Gage",
+  "Endless Hunger",
+  "Spear of Shojin",
   "Maw of Malmortius",
+  "Sterak's Gage",
   "Spirit Visage",
-  "Eclipse",
-  "Spear of Shojin"
+  "Eclipse"
  ]
 }

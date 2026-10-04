@@ -1,43 +1,50 @@
 {
  "champion": "Teemo",
- "source": "https://u.gg/lol/champions/aram/teemo-aram",
+ "source": "https://aramkit.com/en-US/champions/teemo",
+ "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
-  "Ignite"
+  "Ghost"
  ],
  "starting": [
-  "Health Potion",
-  "Haunting Guise"
+  "Lost Chapter"
  ],
  "core": [
   "Malignance",
-  "Ionian Boots of Lucidity",
-  "Liandry's Torment"
+  "Gluttonous Greaves",
+  "Liandry's Torment",
+  "Statikk Shiv"
  ],
  "fourth": [
-  "Shadowflame",
-  "Morellonomicon"
+  "Nashor's Tooth",
+  "Rabadon's Deathcap",
+  "Blackfire Torch",
+  "Shadowflame"
  ],
  "fifth": [
-  "Rabadon's Deathcap",
   "Shadowflame",
-  "Void Staff"
+  "Blackfire Torch",
+  "Rabadon's Deathcap",
+  "Nashor's Tooth"
  ],
  "sixth": [
-  "Rabadon's Deathcap",
+  "Shadowflame",
+  "Bloodletter's Curse",
   "Void Staff",
-  "Blackfire Torch"
+  "Cryptbloom"
  ],
  "pool": [
-  "Health Potion",
-  "Haunting Guise",
+  "Lost Chapter",
   "Malignance",
-  "Ionian Boots of Lucidity",
+  "Gluttonous Greaves",
   "Liandry's Torment",
-  "Shadowflame",
-  "Morellonomicon",
+  "Statikk Shiv",
+  "Nashor's Tooth",
   "Rabadon's Deathcap",
+  "Blackfire Torch",
+  "Shadowflame",
+  "Bloodletter's Curse",
   "Void Staff",
-  "Blackfire Torch"
+  "Cryptbloom"
  ]
 }

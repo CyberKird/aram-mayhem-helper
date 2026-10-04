@@ -1,42 +1,50 @@
 {
  "champion": "Master Yi",
- "source": "https://u.gg/lol/champions/aram/masteryi-aram",
+ "source": "https://aramkit.com/en-US/champions/masteryi",
+ "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
   "Mark"
  ],
  "starting": [
-  "Boots",
-  "Serrated Dirk"
+  "Long Sword",
+  "Guardian's Blade"
  ],
  "core": [
   "The Collector",
-  "Berserker's Greaves",
-  "Blade of The Ruined King"
+  "Gluttonous Greaves",
+  "Infinity Edge",
+  "Lord Dominik's Regards"
  ],
  "fourth": [
-  "Infinity Edge",
-  "Wit's End"
- ],
- "fifth": [
-  "Wit's End",
-  "Infinity Edge",
-  "Death's Dance"
- ],
- "sixth": [
+  "Endless Hunger",
   "Death's Dance",
   "Experimental Hexplate",
-  "Infinity Edge"
+  "Navori Flickerblade"
+ ],
+ "fifth": [
+  "Endless Hunger",
+  "Death's Dance",
+  "Terminus",
+  "Experimental Hexplate"
+ ],
+ "sixth": [
+  "Endless Hunger",
+  "Death's Dance",
+  "Experimental Hexplate",
+  "Terminus"
  ],
  "pool": [
-  "Boots",
-  "Serrated Dirk",
+  "Long Sword",
+  "Guardian's Blade",
   "The Collector",
-  "Berserker's Greaves",
-  "Blade of The Ruined King",
+  "Gluttonous Greaves",
   "Infinity Edge",
-  "Wit's End",
+  "Lord Dominik's Regards",
+  "Endless Hunger",
   "Death's Dance",
-  "Experimental Hexplate"
+  "Experimental Hexplate",
+  "Navori Flickerblade",
+  "Terminus"
  ]
 }

@@ -1,43 +1,51 @@
 {
  "champion": "Garen",
- "source": "https://u.gg/lol/champions/aram/garen-aram",
+ "source": "https://aramkit.com/en-US/champions/garen",
+ "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
   "Mark"
  ],
  "starting": [
-  "Boots",
-  "Phage"
+  "Long Sword",
+  "Guardian's Blade"
  ],
  "core": [
   "Stridebreaker",
-  "Berserker's Greaves",
-  "Black Cleaver"
- ],
- "fourth": [
+  "Gluttonous Greaves",
   "Phantom Dancer",
   "Infinity Edge"
  ],
- "fifth": [
-  "Dead Man's Plate",
-  "Infinity Edge",
-  "Force of Nature"
+ "fourth": [
+  "Lord Dominik's Regards",
+  "Unending Despair",
+  "Mortal Reminder",
+  "The Collector"
  ],
- "sixth": [
-  "Infinity Edge",
-  "Phantom Dancer",
+ "fifth": [
+  "Endless Hunger",
+  "Lord Dominik's Regards",
+  "The Collector",
   "Death's Dance"
  ],
+ "sixth": [
+  "Endless Hunger",
+  "Death's Dance",
+  "Lord Dominik's Regards",
+  "The Collector"
+ ],
  "pool": [
-  "Boots",
-  "Phage",
+  "Long Sword",
+  "Guardian's Blade",
   "Stridebreaker",
-  "Berserker's Greaves",
-  "Black Cleaver",
+  "Gluttonous Greaves",
   "Phantom Dancer",
   "Infinity Edge",
-  "Dead Man's Plate",
-  "Force of Nature",
+  "Lord Dominik's Regards",
+  "Unending Despair",
+  "Mortal Reminder",
+  "The Collector",
+  "Endless Hunger",
   "Death's Dance"
  ]
 }

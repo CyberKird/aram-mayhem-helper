@@ -1,46 +1,53 @@
 {
  "champion": "Lulu",
- "source": "https://u.gg/lol/champions/aram/lulu-aram",
+ "source": "https://aramkit.com/en-US/champions/lulu",
+ "mode": "ARAM Mayhem",
  "summoners": [
-  "Exhaust",
-  "Flash"
+  "Flash",
+  "Heal"
  ],
  "starting": [
-  "Health Potion",
+  "Amplifying Tome",
   "Tear of the Goddess",
-  "Bandleglass Mirror"
+  "Forbidden Idol"
  ],
  "core": [
-  "Moonstone Renewer",
+  "Ardent Censer",
   "Ionian Boots of Lucidity",
+  "Moonstone Renewer",
   "Whispering Circlet"
  ],
  "fourth": [
-  "Ardent Censer",
+  "Staff of Flowing Water",
+  "Dawncore",
+  "Shurelya's Battlesong",
   "Redemption"
  ],
  "fifth": [
-  "Ardent Censer",
-  "Redemption",
-  "Staff of Flowing Water"
+  "Staff of Flowing Water",
+  "Dawncore",
+  "Mikael's Blessing",
+  "Redemption"
  ],
  "sixth": [
-  "Shurelya's Battlesong",
-  "Locket of the Iron Solari",
-  "Dawncore"
+  "Staff of Flowing Water",
+  "Knight's Vow",
+  "Dawncore",
+  "Redemption"
  ],
  "pool": [
-  "Health Potion",
+  "Amplifying Tome",
   "Tear of the Goddess",
-  "Bandleglass Mirror",
-  "Moonstone Renewer",
-  "Ionian Boots of Lucidity",
-  "Whispering Circlet",
+  "Forbidden Idol",
   "Ardent Censer",
-  "Redemption",
+  "Ionian Boots of Lucidity",
+  "Moonstone Renewer",
+  "Whispering Circlet",
   "Staff of Flowing Water",
+  "Dawncore",
   "Shurelya's Battlesong",
-  "Locket of the Iron Solari",
-  "Dawncore"
+  "Redemption",
+  "Mikael's Blessing",
+  "Knight's Vow"
  ]
 }

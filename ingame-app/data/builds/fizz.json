@@ -1,43 +1,47 @@
 {
  "champion": "Fizz",
- "source": "https://u.gg/lol/champions/aram/fizz-aram",
+ "source": "https://aramkit.com/en-US/champions/fizz",
+ "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
   "Mark"
  ],
  "starting": [
-  "Giant's Belt",
-  "Ruby Crystal"
+  "Amplifying Tome",
+  "Guardian's Orb"
  ],
  "core": [
-  "Heartsteel",
-  "Mercury's Treads",
-  "Hollow Radiance"
+  "Lich Bane",
+  "Gluttonous Greaves",
+  "Shadowflame",
+  "Rabadon's Deathcap"
  ],
  "fourth": [
-  "Zhonya's Hourglass",
-  "Shadowflame"
+  "Stormsurge",
+  "Void Staff",
+  "Zhonya's Hourglass"
  ],
  "fifth": [
-  "Zhonya's Hourglass",
-  "Rabadon's Deathcap",
-  "Shadowflame"
+  "Stormsurge",
+  "Void Staff",
+  "Zhonya's Hourglass"
  ],
  "sixth": [
-  "Void Staff",
-  "Shadowflame",
-  "Luden's Echo"
+  "Zhonya's Hourglass",
+  "Stormsurge",
+  "Cryptbloom",
+  "Void Staff"
  ],
  "pool": [
-  "Giant's Belt",
-  "Ruby Crystal",
-  "Heartsteel",
-  "Mercury's Treads",
-  "Hollow Radiance",
-  "Zhonya's Hourglass",
+  "Amplifying Tome",
+  "Guardian's Orb",
+  "Lich Bane",
+  "Gluttonous Greaves",
   "Shadowflame",
   "Rabadon's Deathcap",
+  "Stormsurge",
   "Void Staff",
-  "Luden's Echo"
+  "Zhonya's Hourglass",
+  "Cryptbloom"
  ]
 }

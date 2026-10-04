@@ -1,6 +1,7 @@
 {
  "champion": "Zoe",
- "source": "https://u.gg/lol/champions/aram/zoe-aram",
+ "source": "https://aramkit.com/en-US/champions/zoe",
+ "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
   "Ignite"
@@ -12,33 +13,38 @@
  "core": [
   "Luden's Echo",
   "Sorcerer's Shoes",
-  "Stormsurge"
+  "Rabadon's Deathcap",
+  "Shadowflame"
  ],
  "fourth": [
-  "Rabadon's Deathcap",
-  "Horizon Focus"
+  "Lich Bane",
+  "Stormsurge",
+  "Horizon Focus",
+  "Void Staff"
  ],
  "fifth": [
-  "Rabadon's Deathcap",
-  "Shadowflame",
-  "Lich Bane"
+  "Stormsurge",
+  "Lich Bane",
+  "Banshee's Veil",
+  "Void Staff"
  ],
  "sixth": [
-  "Shadowflame",
+  "Stormsurge",
+  "Lich Bane",
   "Void Staff",
-  "Liandry's Torment"
+  "Banshee's Veil"
  ],
  "pool": [
   "Refillable Potion",
   "Lost Chapter",
   "Luden's Echo",
   "Sorcerer's Shoes",
-  "Stormsurge",
   "Rabadon's Deathcap",
-  "Horizon Focus",
   "Shadowflame",
   "Lich Bane",
+  "Stormsurge",
+  "Horizon Focus",
   "Void Staff",
-  "Liandry's Torment"
+  "Banshee's Veil"
  ]
 }

@@ -1,6 +1,7 @@
 {
  "champion": "Rek'Sai",
- "source": "https://u.gg/lol/champions/aram/reksai-aram",
+ "source": "https://aramkit.com/en-US/champions/reksai",
+ "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
   "Mark"
@@ -11,34 +12,39 @@
  ],
  "core": [
   "Heartsteel",
-  "Unending Despair",
-  "Spirit Visage"
+  "Plated Steelcaps",
+  "Warmog's Armor",
+  "Unending Despair"
  ],
  "fourth": [
-  "Hollow Radiance",
+  "Overlord's Bloodmail",
+  "Spirit Visage",
+  "Titanic Hydra",
   "Randuin's Omen"
  ],
  "fifth": [
-  "Hollow Radiance",
-  "Sundered Sky",
-  "Jak'Sho, The Protean"
+  "Overlord's Bloodmail",
+  "Jak'Sho, The Protean",
+  "Spirit Visage",
+  "Titanic Hydra"
  ],
  "sixth": [
-  "Sundered Sky",
-  "Thornmail",
-  "Iceborn Gauntlet"
+  "Overlord's Bloodmail",
+  "Jak'Sho, The Protean",
+  "Spirit Visage",
+  "Titanic Hydra"
  ],
  "pool": [
   "Giant's Belt",
   "Ruby Crystal",
   "Heartsteel",
+  "Plated Steelcaps",
+  "Warmog's Armor",
   "Unending Despair",
+  "Overlord's Bloodmail",
   "Spirit Visage",
-  "Hollow Radiance",
+  "Titanic Hydra",
   "Randuin's Omen",
-  "Sundered Sky",
-  "Jak'Sho, The Protean",
-  "Thornmail",
-  "Iceborn Gauntlet"
+  "Jak'Sho, The Protean"
  ]
 }

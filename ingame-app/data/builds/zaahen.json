@@ -1,42 +1,50 @@
 {
  "champion": "Zaahen",
- "source": "https://u.gg/lol/champions/aram/zaahen-aram",
+ "source": "https://aramkit.com/en-US/champions/zaahen",
+ "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
   "Mark"
  ],
  "starting": [
-  "Boots",
-  "Caulfield's Warhammer"
+  "Giant's Belt",
+  "Ruby Crystal"
  ],
  "core": [
-  "Trinity Force",
+  "Heartsteel",
   "Mercury's Treads",
-  "Sundered Sky"
+  "Spirit Visage",
+  "Overlord's Bloodmail"
  ],
  "fourth": [
+  "Endless Hunger",
   "Death's Dance",
-  "Endless Hunger"
+  "Sundered Sky",
+  "Spear of Shojin"
  ],
  "fifth": [
+  "Endless Hunger",
   "Death's Dance",
-  "Spirit Visage",
-  "Endless Hunger"
+  "Spear of Shojin",
+  "Sterak's Gage"
  ],
  "sixth": [
-  "Spirit Visage",
-  "Mercurial Scimitar",
-  "Death's Dance"
- ],
- "pool": [
-  "Boots",
-  "Caulfield's Warhammer",
-  "Trinity Force",
-  "Mercury's Treads",
-  "Sundered Sky",
   "Death's Dance",
   "Endless Hunger",
+  "Sterak's Gage",
+  "Sundered Sky"
+ ],
+ "pool": [
+  "Giant's Belt",
+  "Ruby Crystal",
+  "Heartsteel",
+  "Mercury's Treads",
   "Spirit Visage",
-  "Mercurial Scimitar"
+  "Overlord's Bloodmail",
+  "Endless Hunger",
+  "Death's Dance",
+  "Sundered Sky",
+  "Spear of Shojin",
+  "Sterak's Gage"
  ]
 }

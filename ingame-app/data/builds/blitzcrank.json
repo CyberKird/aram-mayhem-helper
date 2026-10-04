@@ -1,46 +1,49 @@
 {
  "champion": "Blitzcrank",
- "source": "https://u.gg/lol/champions/aram/blitzcrank-aram",
+ "source": "https://aramkit.com/en-US/champions/blitzcrank",
+ "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
   "Mark"
  ],
  "starting": [
-  "Giant's Belt",
-  "Health Potion",
-  "Tear of the Goddess"
+  "Lost Chapter"
  ],
  "core": [
-  "Winter's Approach",
-  "Mercury's Treads",
-  "Kaenic Rookern"
+  "Luden's Echo",
+  "Ionian Boots of Lucidity",
+  "Rabadon's Deathcap",
+  "Shadowflame"
  ],
  "fourth": [
   "Warmog's Armor",
-  "Thornmail"
+  "Winter's Approach",
+  "Frozen Heart",
+  "Unending Despair"
  ],
  "fifth": [
-  "Frozen Heart",
   "Warmog's Armor",
-  "Rabadon's Deathcap"
+  "Frozen Heart",
+  "Winter's Approach",
+  "Stormsurge"
  ],
  "sixth": [
   "Warmog's Armor",
-  "Hollow Radiance",
-  "Abyssal Mask"
+  "Jak'Sho, The Protean",
+  "Winter's Approach",
+  "Stormsurge"
  ],
  "pool": [
-  "Giant's Belt",
-  "Health Potion",
-  "Tear of the Goddess",
-  "Winter's Approach",
-  "Mercury's Treads",
-  "Kaenic Rookern",
-  "Warmog's Armor",
-  "Thornmail",
-  "Frozen Heart",
+  "Lost Chapter",
+  "Luden's Echo",
+  "Ionian Boots of Lucidity",
   "Rabadon's Deathcap",
-  "Hollow Radiance",
-  "Abyssal Mask"
+  "Shadowflame",
+  "Warmog's Armor",
+  "Winter's Approach",
+  "Frozen Heart",
+  "Unending Despair",
+  "Stormsurge",
+  "Jak'Sho, The Protean"
  ]
 }

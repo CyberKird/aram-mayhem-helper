@@ -58,10 +58,27 @@ def find_game_window():
     return found[0] if found else None
 
 
+def game_rect(hwnd):
+    """(left, top, right, bottom) al ZONEI DE JOC, in coordonate de ecran.
+
+    Zona client, nu fereastra: in modul fereastra, bara de titlu si chenarele
+    intra in GetWindowRect si decaleaza toate fractiunile din OFFER_REGION.
+    Pe borderless/fullscreen cele doua coincid, deci nu strica nimic acolo.
+    """
+    try:
+        left, top = win32gui.ClientToScreen(hwnd, (0, 0))
+        _, _, w, h = win32gui.GetClientRect(hwnd)
+        if w > 0 and h > 0:
+            return (left, top, left + w, top + h)
+    except Exception:
+        pass
+    return win32gui.GetWindowRect(hwnd)
+
+
 def find_game_window_rect():
-    """(left, top, right, bottom) al ferestrei jocului, sau None."""
+    """(left, top, right, bottom) al zonei de joc, sau None."""
     hwnd = find_game_window()
-    return win32gui.GetWindowRect(hwnd) if hwnd else None
+    return game_rect(hwnd) if hwnd else None
 
 
 def game_is_focused():
@@ -106,12 +123,9 @@ async def _ocr_bytes(png_bytes):
 MIN_OCR_HEIGHT = 600
 
 
-def capture_region(rect):
-    """Bytes de imagine ai unei zone (left, top, right, bottom), pe orice monitor.
-
-    BMP, nu PNG: compresia PNG lua ~390ms per ciclu doar ca sa micsoreze un
-    fisier pe care il trimitem oricum in RAM. BMP e tot fara pierderi si se
-    scrie in cateva zeci de ms.
+def grab(rect):
+    """Imagine PIL a unei zone (left, top, right, bottom), pe orice monitor,
+    deja micsorata cat trebuie pentru OCR.
 
     reduce(k) inainte de encode: la 4K zona are 1252px inaltime, mult peste
     cat ii trebuie OCR-ului. Injumatatirea scade si encode-ul (64->48ms) si
@@ -126,12 +140,31 @@ def capture_region(rect):
         img = Image.frombytes("RGB", shot.size, shot.bgra, "raw", "BGRX")
 
     k = max(1, img.height // MIN_OCR_HEIGHT)
-    if k > 1:
-        img = img.reduce(k)
+    return img.reduce(k) if k > 1 else img
 
+
+def encode(img):
+    """BMP, nu PNG: compresia PNG lua ~390ms per ciclu doar ca sa micsoreze un
+    fisier pe care il trimitem oricum in RAM. BMP e tot fara pierderi si se
+    scrie in cateva zeci de ms."""
     buf = io.BytesIO()
     img.save(buf, format="BMP")
     return buf.getvalue()
+
+
+def capture_region(rect):
+    """Bytes de imagine ai unei zone, pentru OCR pe tot textul zonei."""
+    return encode(grab(rect))
+
+
+def enhance(img):
+    """Variant mai usor de citit pentru fonturi decorative: gri, contrast
+    intins si marit 1.5x. Folosit doar la a doua trecere, cand prima a citit
+    doar o parte din carduri."""
+    from PIL import ImageOps
+    gray = ImageOps.autocontrast(ImageOps.grayscale(img), cutoff=2)
+    return gray.resize((int(gray.width * 1.5), int(gray.height * 1.5)),
+                       Image.LANCZOS).convert("RGB")
 
 
 def _norm(text):
@@ -260,6 +293,88 @@ def offer_region(rect):
             int((left + w * fr) * s), int((top + h * fb) * s))
 
 
+CARDS = 3
+
+
+def match_card(text, augment_names, cutoff=0.82):
+    """Textul unui singur card -> numele augmentului lui, sau None.
+
+    Un card are exact un augment, deci aici alegem unul, nu o lista. Daca
+    descrierea pomeneste alt augment, castiga cel mai de sus (numele sta
+    deasupra descrierii); la egalitate, cel mai lung. Fuzzy doar cand nu
+    exista potrivire exacta, cu aceleasi garduri ca in match_augments.
+    """
+    haystack = _norm(text)
+    if not haystack:
+        return None
+    keys = _augment_keys(augment_names)
+
+    best = None   # (pozitie, -lungime, nume)
+    for name, key in keys.items():
+        m = re.search(rf"{re.escape(key)}", haystack)
+        if m:
+            cand = (m.start(), -len(key), name)
+            if best is None or cand < best:
+                best = cand
+    if best:
+        return best[2]
+
+    words = haystack.split()
+    fuzzy = None  # (-scor, pozitie, nume)
+    for name, key in keys.items():
+        n = len(key.split())
+        for i in range(len(words) - n + 1):
+            window = " ".join(words[i:i + n])
+            if abs(len(window) - len(key)) > 1:
+                continue
+            score = difflib.SequenceMatcher(None, window, key).ratio()
+            if score >= cutoff:
+                cand = (-score, i, name)
+                if fuzzy is None or cand < fuzzy:
+                    fuzzy = cand
+    return fuzzy[2] if fuzzy else None
+
+
+def split_cards(img):
+    """Imaginea zonei de oferta -> cele 3 coloane de carduri, de la stanga."""
+    w = img.width
+    return [img.crop((w * i // CARDS, 0, w * (i + 1) // CARDS, img.height))
+            for i in range(CARDS)]
+
+
+async def _ocr_many(images):
+    # una cate una: OcrEngine nu accepta recognize_async concurent pe aceeasi
+    # instanta (gather da "Operation aborted"), iar 3 imagini mici in serie
+    # costa tot cat una mare
+    return [await _ocr_bytes(encode(i)) for i in images]
+
+
+# Ultima citire, pentru bug report: ce a vazut OCR-ul si de ce a ales ce a ales.
+# Un dict nou la fiecare ciclu (nu se modifica pe loc), deci e sigur de citit
+# din alt fir fara lock.
+last_read = {"status": "", "texts": [], "matches": []}
+
+
+def read_offer(img, augment_names):
+    """Imaginea zonei -> ([nume sau None pe card], [text brut pe card]).
+
+    A doua trecere (contrast crescut) ruleaza doar cand prima a gasit macar un
+    card dar nu pe toate: atunci e aproape sigur o oferta cu un nume prost
+    citit. Pe un ecran fara oferta n-o rulam, ar dubla costul degeaba.
+    """
+    cards = split_cards(img)
+    texts = asyncio.run(_ocr_many(cards))
+    found = [match_card(t, augment_names) for t in texts]
+
+    if 0 < sum(f is not None for f in found) < CARDS:
+        retry = asyncio.run(_ocr_many([enhance(c) for c in cards]))
+        for i, t in enumerate(retry):
+            if found[i] is None:
+                found[i] = match_card(t, augment_names)
+                texts[i] = (texts[i] + " | " + t).strip(" |")
+    return found, texts
+
+
 def detect_offered_augments(augment_names, min_matches=2):
     """(nume_gasite, status) -- status explica de ce lista poate fi goala,
     ca UI-ul sa nu ramana tacut cand OCR-ul nu prinde nimic.
@@ -269,21 +384,24 @@ def detect_offered_augments(augment_names, min_matches=2):
     o oferta noua. Cu pragul la 1 lista se umplea si nu se mai golea, iar
     build-ul era impins in afara ferestrei.
     """
+    global last_read
     hwnd = find_game_window()
     if hwnd is None:
         return [], "n-am gasit fereastra League"
     if win32gui.GetForegroundWindow() != hwnd:
         return [], "jocul nu e in fata (nu citesc alte ferestre)"
+    if _get_engine() is None:
+        return [], "OCR indisponibil: instaleaza pachetul de limba engleza in Windows"
 
-    img = capture_region(offer_region(win32gui.GetWindowRect(hwnd)))
-    text = asyncio.run(_ocr_bytes(img))
-    lines = [line.strip() for line in text.splitlines() if line.strip()]
-    if not lines:
+    img = grab(offer_region(game_rect(hwnd)))
+    found, texts = read_offer(img, augment_names)
+    names = [n for n in found if n]
+    last_read = {"status": f"{len(names)}/{CARDS}", "texts": texts, "matches": found}
+
+    if not any(t.strip() for t in texts):
         return [], "nicio oferta pe ecran"
-
-    matches = match_augments(lines, augment_names)
-    if len(matches) < min_matches:
-        return [], f"nicio oferta ({len(lines)} linii in zona centrala)"
+    if len(names) < min_matches:
+        return [], f"nicio oferta ({sum(len(t.split()) for t in texts)} cuvinte in zona centrala)"
 
     if DEBUG_OFFER:
         # Scrierea asta e cateva MB pe disc la FIECARE oferta detectata, adica
@@ -291,9 +409,8 @@ def detect_offered_augments(augment_names, min_matches=2):
         # deci ramane oprita; se aprinde cu ARAM_DEBUG_OFFER=1 daca vreodata
         # trebuie recalibrata.
         try:
-            LAST_OFFER.write_bytes(img)
+            LAST_OFFER.write_bytes(encode(img))
         except OSError:
             pass
-    # taiem la 3: mai multe inseamna ca am prins si altceva pe langa oferta,
-    # iar o lista lunga impinge build-ul in afara ferestrei
-    return matches[:MAX_OFFER], f"{len(matches)} augmente recunoscute"
+    # in ordinea de pe ecran, de la stanga la dreapta
+    return names, f"{len(names)} augmente recunoscute"

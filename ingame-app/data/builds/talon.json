@@ -1,42 +1,50 @@
 {
  "champion": "Talon",
- "source": "https://u.gg/lol/champions/aram/talon-aram",
+ "source": "https://aramkit.com/en-US/champions/talon",
+ "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
   "Mark"
  ],
  "starting": [
   "Long Sword",
-  "Serrated Dirk"
+  "Guardian's Blade"
  ],
  "core": [
   "Hubris",
+  "Gluttonous Greaves",
   "Axiom Arc",
-  "Serylda's Grudge"
+  "Voltaic Cyclosword"
  ],
  "fourth": [
-  "Eclipse",
-  "Voltaic Cyclosword"
+  "Endless Hunger",
+  "Death's Dance",
+  "Lord Dominik's Regards",
+  "Profane Hydra"
  ],
  "fifth": [
-  "Edge of Night",
-  "The Collector",
-  "Voltaic Cyclosword"
+  "Endless Hunger",
+  "Youmuu's Ghostblade",
+  "Death's Dance",
+  "Lord Dominik's Regards"
  ],
  "sixth": [
-  "Eclipse",
-  "Edge of Night",
-  "Voltaic Cyclosword"
+  "Endless Hunger",
+  "Youmuu's Ghostblade",
+  "Death's Dance",
+  "Lord Dominik's Regards"
  ],
  "pool": [
   "Long Sword",
-  "Serrated Dirk",
+  "Guardian's Blade",
   "Hubris",
+  "Gluttonous Greaves",
   "Axiom Arc",
-  "Serylda's Grudge",
-  "Eclipse",
   "Voltaic Cyclosword",
-  "Edge of Night",
-  "The Collector"
+  "Endless Hunger",
+  "Death's Dance",
+  "Lord Dominik's Regards",
+  "Profane Hydra",
+  "Youmuu's Ghostblade"
  ]
 }

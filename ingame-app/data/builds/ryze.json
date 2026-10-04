@@ -1,45 +1,52 @@
 {
  "champion": "Ryze",
- "source": "https://u.gg/lol/champions/aram/ryze-aram",
+ "source": "https://aramkit.com/en-US/champions/ryze",
+ "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
   "Ghost"
  ],
  "starting": [
-  "Blasting Wand",
-  "Refillable Potion",
+  "Sapphire Crystal",
+  "Sapphire Crystal",
+  "Ruby Crystal",
   "Tear of the Goddess"
  ],
  "core": [
   "Rod of Ages",
+  "Gluttonous Greaves",
   "Archangel's Staff",
-  "Mercury's Treads"
+  "Rabadon's Deathcap"
  ],
  "fourth": [
+  "Winter's Approach",
+  "Riftmaker",
   "Actualizer",
-  "Frozen Heart"
+  "Shadowflame"
  ],
  "fifth": [
-  "Frozen Heart",
-  "Rabadon's Deathcap",
-  "Cosmic Drive"
+  "Winter's Approach",
+  "Riftmaker",
+  "Actualizer",
+  "Shadowflame"
  ],
  "sixth": [
-  "Rabadon's Deathcap",
-  "Cosmic Drive",
+  "Winter's Approach",
+  "Riftmaker",
+  "Actualizer",
   "Shadowflame"
  ],
  "pool": [
-  "Blasting Wand",
-  "Refillable Potion",
+  "Sapphire Crystal",
+  "Ruby Crystal",
   "Tear of the Goddess",
   "Rod of Ages",
+  "Gluttonous Greaves",
   "Archangel's Staff",
-  "Mercury's Treads",
-  "Actualizer",
-  "Frozen Heart",
   "Rabadon's Deathcap",
-  "Cosmic Drive",
+  "Winter's Approach",
+  "Riftmaker",
+  "Actualizer",
   "Shadowflame"
  ]
 }

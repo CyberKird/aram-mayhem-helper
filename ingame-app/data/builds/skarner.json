@@ -1,43 +1,50 @@
 {
  "champion": "Skarner",
- "source": "https://u.gg/lol/champions/aram/skarner-aram",
+ "source": "https://aramkit.com/en-US/champions/skarner",
+ "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
   "Mark"
  ],
  "starting": [
   "Giant's Belt",
-  "Tear of the Goddess"
+  "Ruby Crystal"
  ],
  "core": [
-  "Winter's Approach",
+  "Heartsteel",
   "Mercury's Treads",
-  "Unending Despair"
- ],
- "fourth": [
-  "Kaenic Rookern",
+  "Unending Despair",
   "Warmog's Armor"
  ],
+ "fourth": [
+  "Overlord's Bloodmail",
+  "Spirit Visage",
+  "Winter's Approach",
+  "Jak'Sho, The Protean"
+ ],
  "fifth": [
-  "Thornmail",
-  "Kaenic Rookern",
-  "Spirit Visage"
+  "Overlord's Bloodmail",
+  "Spirit Visage",
+  "Jak'Sho, The Protean",
+  "Force of Nature"
  ],
  "sixth": [
+  "Overlord's Bloodmail",
+  "Jak'Sho, The Protean",
   "Spirit Visage",
-  "Warmog's Armor",
-  "Randuin's Omen"
+  "Winter's Approach"
  ],
  "pool": [
   "Giant's Belt",
-  "Tear of the Goddess",
-  "Winter's Approach",
+  "Ruby Crystal",
+  "Heartsteel",
   "Mercury's Treads",
   "Unending Despair",
-  "Kaenic Rookern",
   "Warmog's Armor",
-  "Thornmail",
+  "Overlord's Bloodmail",
   "Spirit Visage",
-  "Randuin's Omen"
+  "Winter's Approach",
+  "Jak'Sho, The Protean",
+  "Force of Nature"
  ]
 }

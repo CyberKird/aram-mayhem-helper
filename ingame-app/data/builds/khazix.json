@@ -1,43 +1,50 @@
 {
  "champion": "Kha'Zix",
- "source": "https://u.gg/lol/champions/aram/khazix-aram",
+ "source": "https://aramkit.com/en-US/champions/khazix",
+ "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
   "Mark"
  ],
  "starting": [
   "Long Sword",
-  "Health Potion",
-  "Serrated Dirk"
+  "Guardian's Blade"
  ],
  "core": [
   "Hubris",
-  "Ionian Boots of Lucidity",
-  "Manamune"
+  "Gluttonous Greaves",
+  "Death's Dance",
+  "Endless Hunger"
  ],
  "fourth": [
-  "Edge of Night",
+  "Lord Dominik's Regards",
+  "Voltaic Cyclosword",
+  "Manamune",
   "Serylda's Grudge"
  ],
  "fifth": [
-  "Edge of Night",
+  "Lord Dominik's Regards",
+  "Youmuu's Ghostblade",
   "Serylda's Grudge",
   "Voltaic Cyclosword"
  ],
  "sixth": [
+  "Youmuu's Ghostblade",
   "Serylda's Grudge",
   "Voltaic Cyclosword",
-  "Edge of Night"
+  "Lord Dominik's Regards"
  ],
  "pool": [
   "Long Sword",
-  "Health Potion",
-  "Serrated Dirk",
+  "Guardian's Blade",
   "Hubris",
-  "Ionian Boots of Lucidity",
+  "Gluttonous Greaves",
+  "Death's Dance",
+  "Endless Hunger",
+  "Lord Dominik's Regards",
+  "Voltaic Cyclosword",
   "Manamune",
-  "Edge of Night",
   "Serylda's Grudge",
-  "Voltaic Cyclosword"
+  "Youmuu's Ghostblade"
  ]
 }

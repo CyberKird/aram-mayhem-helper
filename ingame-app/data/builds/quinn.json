@@ -1,42 +1,52 @@
 {
  "champion": "Quinn",
- "source": "https://u.gg/lol/champions/aram/quinn-aram",
+ "source": "https://aramkit.com/en-US/champions/quinn",
+ "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
-  "Mark"
+  "Ghost"
  ],
  "starting": [
-  "Boots",
-  "Serrated Dirk"
+  "Long Sword",
+  "Pickaxe"
  ],
  "core": [
-  "Berserker's Greaves",
   "The Collector",
-  "Infinity Edge"
+  "Gluttonous Greaves",
+  "Infinity Edge",
+  "Lord Dominik's Regards"
  ],
  "fourth": [
+  "Bloodthirster",
+  "Voltaic Cyclosword",
   "Blade of The Ruined King",
-  "Lord Dominik's Regards"
+  "Runaan's Hurricane"
  ],
  "fifth": [
-  "Lord Dominik's Regards",
-  "Blade of The Ruined King",
-  "Kraken Slayer"
+  "Bloodthirster",
+  "Voltaic Cyclosword",
+  "Runaan's Hurricane",
+  "Yun Tal Wildarrows"
  ],
  "sixth": [
-  "Blade of The Ruined King",
+  "Edge of Night",
+  "Bloodthirster",
   "Voltaic Cyclosword",
-  "Lord Dominik's Regards"
+  "Kraken Slayer"
  ],
  "pool": [
-  "Boots",
-  "Serrated Dirk",
-  "Berserker's Greaves",
+  "Long Sword",
+  "Pickaxe",
   "The Collector",
+  "Gluttonous Greaves",
   "Infinity Edge",
-  "Blade of The Ruined King",
   "Lord Dominik's Regards",
-  "Kraken Slayer",
-  "Voltaic Cyclosword"
+  "Bloodthirster",
+  "Voltaic Cyclosword",
+  "Blade of The Ruined King",
+  "Runaan's Hurricane",
+  "Yun Tal Wildarrows",
+  "Edge of Night",
+  "Kraken Slayer"
  ]
 }

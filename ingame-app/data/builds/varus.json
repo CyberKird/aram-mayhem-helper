@@ -1,43 +1,51 @@
 {
  "champion": "Varus",
- "source": "https://u.gg/lol/champions/aram/varus-aram",
+ "source": "https://aramkit.com/en-US/champions/varus",
+ "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
   "Ghost"
  ],
  "starting": [
-  "Dagger",
-  "Berserker's Greaves"
+  "Boots",
+  "Long Sword",
+  "Recurve Bow"
  ],
  "core": [
-  "Berserker's Greaves",
   "Blade of The Ruined King",
-  "Guinsoo's Rageblade"
+  "Gluttonous Greaves",
+  "Guinsoo's Rageblade",
+  "Runaan's Hurricane"
  ],
  "fourth": [
   "Terminus",
+  "Lord Dominik's Regards",
+  "Infinity Edge",
   "Serylda's Grudge"
  ],
  "fifth": [
-  "Runaan's Hurricane",
-  "Edge of Night",
-  "Wit's End"
+  "Terminus",
+  "Lord Dominik's Regards",
+  "Infinity Edge",
+  "Serylda's Grudge"
  ],
  "sixth": [
-  "Runaan's Hurricane",
-  "Bloodthirster",
-  "Terminus"
+  "Terminus",
+  "Lord Dominik's Regards",
+  "Infinity Edge",
+  "Serylda's Grudge"
  ],
  "pool": [
-  "Dagger",
-  "Berserker's Greaves",
+  "Boots",
+  "Long Sword",
+  "Recurve Bow",
   "Blade of The Ruined King",
+  "Gluttonous Greaves",
   "Guinsoo's Rageblade",
-  "Terminus",
-  "Serylda's Grudge",
   "Runaan's Hurricane",
-  "Edge of Night",
-  "Wit's End",
-  "Bloodthirster"
+  "Terminus",
+  "Lord Dominik's Regards",
+  "Infinity Edge",
+  "Serylda's Grudge"
  ]
 }

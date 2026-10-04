@@ -1,42 +1,52 @@
 {
  "champion": "Samira",
- "source": "https://u.gg/lol/champions/aram/samira-aram",
+ "source": "https://aramkit.com/en-US/champions/samira",
+ "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
   "Mark"
  ],
  "starting": [
   "Long Sword",
-  "Serrated Dirk"
+  "Guardian's Blade"
  ],
  "core": [
   "The Collector",
-  "Mercury's Treads",
-  "Bloodthirster"
- ],
- "fourth": [
+  "Gluttonous Greaves",
   "Infinity Edge",
   "Lord Dominik's Regards"
  ],
+ "fourth": [
+  "Death's Dance",
+  "Bloodthirster",
+  "Immortal Shieldbow",
+  "Mortal Reminder"
+ ],
  "fifth": [
-  "Lord Dominik's Regards",
-  "Infinity Edge",
+  "Endless Hunger",
+  "Death's Dance",
+  "Bloodthirster",
   "Immortal Shieldbow"
  ],
  "sixth": [
-  "Lord Dominik's Regards",
+  "Endless Hunger",
   "Death's Dance",
-  "Immortal Shieldbow"
+  "Hubris",
+  "Maw of Malmortius"
  ],
  "pool": [
   "Long Sword",
-  "Serrated Dirk",
+  "Guardian's Blade",
   "The Collector",
-  "Mercury's Treads",
-  "Bloodthirster",
+  "Gluttonous Greaves",
   "Infinity Edge",
   "Lord Dominik's Regards",
+  "Death's Dance",
+  "Bloodthirster",
   "Immortal Shieldbow",
-  "Death's Dance"
+  "Mortal Reminder",
+  "Endless Hunger",
+  "Hubris",
+  "Maw of Malmortius"
  ]
 }

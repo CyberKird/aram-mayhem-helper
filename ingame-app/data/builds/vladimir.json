@@ -1,44 +1,50 @@
 {
  "champion": "Vladimir",
- "source": "https://u.gg/lol/champions/aram/vladimir-aram",
+ "source": "https://aramkit.com/en-US/champions/vladimir",
+ "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
   "Ghost"
  ],
  "starting": [
   "Amplifying Tome",
-  "Refillable Potion",
-  "Fiendish Codex"
+  "Guardian's Orb"
  ],
  "core": [
-  "Riftmaker",
-  "Cosmic Drive",
-  "Sorcerer's Shoes"
+  "Shadowflame",
+  "Gluttonous Greaves",
+  "Rabadon's Deathcap",
+  "Riftmaker"
  ],
  "fourth": [
-  "Rabadon's Deathcap",
-  "Spirit Visage"
+  "Void Staff",
+  "Warmog's Armor",
+  "Cryptbloom",
+  "Zhonya's Hourglass"
  ],
  "fifth": [
+  "Void Staff",
+  "Warmog's Armor",
   "Zhonya's Hourglass",
-  "Spirit Visage",
-  "Rabadon's Deathcap"
+  "Cosmic Drive"
  ],
  "sixth": [
-  "Spirit Visage",
-  "Rabadon's Deathcap",
-  "Morellonomicon"
+  "Warmog's Armor",
+  "Cosmic Drive",
+  "Void Staff",
+  "Zhonya's Hourglass"
  ],
  "pool": [
   "Amplifying Tome",
-  "Refillable Potion",
-  "Fiendish Codex",
-  "Riftmaker",
-  "Cosmic Drive",
-  "Sorcerer's Shoes",
+  "Guardian's Orb",
+  "Shadowflame",
+  "Gluttonous Greaves",
   "Rabadon's Deathcap",
-  "Spirit Visage",
+  "Riftmaker",
+  "Void Staff",
+  "Warmog's Armor",
+  "Cryptbloom",
   "Zhonya's Hourglass",
-  "Morellonomicon"
+  "Cosmic Drive"
  ]
 }

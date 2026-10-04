@@ -1,41 +1,52 @@
 {
  "champion": "Zeri",
- "source": "https://u.gg/lol/champions/aram/zeri-aram",
+ "source": "https://aramkit.com/en-US/champions/zeri",
+ "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
   "Ghost"
  ],
  "starting": [
-  "B. F. Sword"
+  "Long Sword",
+  "Guardian's Blade"
  ],
  "core": [
   "Yun Tal Wildarrows",
-  "Berserker's Greaves",
-  "Runaan's Hurricane"
+  "Gluttonous Greaves",
+  "Runaan's Hurricane",
+  "Infinity Edge"
  ],
  "fourth": [
-  "Infinity Edge",
-  "Lord Dominik's Regards"
+  "Lord Dominik's Regards",
+  "Mortal Reminder",
+  "Fiendhunter Bolts",
+  "Blade of The Ruined King"
  ],
  "fifth": [
   "Lord Dominik's Regards",
-  "Infinity Edge",
-  "Mortal Reminder"
+  "Bloodthirster",
+  "Fiendhunter Bolts",
+  "Blade of The Ruined King"
  ],
  "sixth": [
+  "Mercurial Scimitar",
   "Bloodthirster",
   "Lord Dominik's Regards",
-  "Immortal Shieldbow"
+  "Statikk Shiv"
  ],
  "pool": [
-  "B. F. Sword",
+  "Long Sword",
+  "Guardian's Blade",
   "Yun Tal Wildarrows",
-  "Berserker's Greaves",
+  "Gluttonous Greaves",
   "Runaan's Hurricane",
   "Infinity Edge",
   "Lord Dominik's Regards",
   "Mortal Reminder",
+  "Fiendhunter Bolts",
+  "Blade of The Ruined King",
   "Bloodthirster",
-  "Immortal Shieldbow"
+  "Mercurial Scimitar",
+  "Statikk Shiv"
  ]
 }

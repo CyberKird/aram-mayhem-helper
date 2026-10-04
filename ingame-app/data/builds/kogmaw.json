@@ -1,47 +1,51 @@
 {
  "champion": "Kog'Maw",
- "source": "https://u.gg/lol/champions/aram/kogmaw-aram",
+ "source": "https://aramkit.com/en-US/champions/kogmaw",
+ "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
-  "Clarity"
+  "Ghost"
  ],
  "starting": [
-  "Long Sword",
-  "Pickaxe",
-  "Refillable Potion"
+  "Dagger",
+  "Vampiric Scepter"
  ],
  "core": [
-  "Berserker's Greaves",
   "Blade of The Ruined King",
-  "Runaan's Hurricane"
+  "Gluttonous Greaves",
+  "Runaan's Hurricane",
+  "Guinsoo's Rageblade"
  ],
  "fourth": [
-  "Liandry's Torment",
+  "Terminus",
+  "Rabadon's Deathcap",
+  "Archangel's Staff",
   "Shadowflame"
  ],
  "fifth": [
-  "Rabadon's Deathcap",
   "Terminus",
-  "Guinsoo's Rageblade"
+  "Shadowflame",
+  "Kraken Slayer",
+  "Rabadon's Deathcap"
  ],
  "sixth": [
-  "Guinsoo's Rageblade",
-  "Void Staff",
-  "Morellonomicon"
+  "Terminus",
+  "Wit's End",
+  "Archangel's Staff",
+  "Kraken Slayer"
  ],
  "pool": [
-  "Long Sword",
-  "Pickaxe",
-  "Refillable Potion",
-  "Berserker's Greaves",
+  "Dagger",
+  "Vampiric Scepter",
   "Blade of The Ruined King",
+  "Gluttonous Greaves",
   "Runaan's Hurricane",
-  "Liandry's Torment",
-  "Shadowflame",
-  "Rabadon's Deathcap",
-  "Terminus",
   "Guinsoo's Rageblade",
-  "Void Staff",
-  "Morellonomicon"
+  "Terminus",
+  "Rabadon's Deathcap",
+  "Archangel's Staff",
+  "Shadowflame",
+  "Kraken Slayer",
+  "Wit's End"
  ]
 }

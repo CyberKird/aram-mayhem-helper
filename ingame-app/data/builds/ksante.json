@@ -1,44 +1,49 @@
 {
  "champion": "K'Sante",
- "source": "https://u.gg/lol/champions/aram/ksante-aram",
+ "source": "https://aramkit.com/en-US/champions/ksante",
+ "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
   "Mark"
  ],
  "starting": [
-  "Ruby Crystal",
-  "Sheen"
+  "Giant's Belt",
+  "Ruby Crystal"
  ],
  "core": [
   "Heartsteel",
-  "Mercury's Treads",
-  "Iceborn Gauntlet"
+  "Plated Steelcaps",
+  "Unending Despair",
+  "Warmog's Armor"
  ],
  "fourth": [
+  "Spirit Visage",
+  "Force of Nature",
   "Jak'Sho, The Protean",
-  "Unending Despair"
+  "Iceborn Gauntlet"
  ],
  "fifth": [
-  "Thornmail",
-  "Kaenic Rookern",
-  "Hollow Radiance"
+  "Spirit Visage",
+  "Jak'Sho, The Protean",
+  "Force of Nature",
+  "Iceborn Gauntlet"
  ],
  "sixth": [
+  "Spirit Visage",
   "Jak'Sho, The Protean",
-  "Hollow Radiance",
-  "Frozen Heart"
+  "Iceborn Gauntlet",
+  "Force of Nature"
  ],
  "pool": [
+  "Giant's Belt",
   "Ruby Crystal",
-  "Sheen",
   "Heartsteel",
-  "Mercury's Treads",
-  "Iceborn Gauntlet",
-  "Jak'Sho, The Protean",
+  "Plated Steelcaps",
   "Unending Despair",
-  "Thornmail",
-  "Kaenic Rookern",
-  "Hollow Radiance",
-  "Frozen Heart"
+  "Warmog's Armor",
+  "Spirit Visage",
+  "Force of Nature",
+  "Jak'Sho, The Protean",
+  "Iceborn Gauntlet"
  ]
 }

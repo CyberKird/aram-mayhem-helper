@@ -1,43 +1,51 @@
 {
  "champion": "Singed",
- "source": "https://u.gg/lol/champions/aram/singed-aram",
+ "source": "https://aramkit.com/en-US/champions/singed",
+ "mode": "ARAM Mayhem",
  "summoners": [
   "Ghost",
   "Mark"
  ],
  "starting": [
-  "Health Potion",
-  "Catalyst of Aeons"
+  "Ruby Crystal",
+  "Fated Ashes"
  ],
  "core": [
+  "Liandry's Torment",
+  "Gluttonous Greaves",
   "Rod of Ages",
-  "Boots of Swiftness",
   "Rylai's Crystal Scepter"
  ],
  "fourth": [
-  "Liandry's Torment",
+  "Riftmaker",
+  "Winter's Approach",
+  "Warmog's Armor",
   "Force of Nature"
  ],
  "fifth": [
-  "Force of Nature",
-  "Dead Man's Plate",
-  "Liandry's Torment"
+  "Riftmaker",
+  "Warmog's Armor",
+  "Winter's Approach",
+  "Force of Nature"
  ],
  "sixth": [
-  "Dead Man's Plate",
+  "Bloodletter's Curse",
+  "Riftmaker",
   "Warmog's Armor",
-  "Jak'Sho, The Protean"
+  "Dead Man's Plate"
  ],
  "pool": [
-  "Health Potion",
-  "Catalyst of Aeons",
-  "Rod of Ages",
-  "Boots of Swiftness",
-  "Rylai's Crystal Scepter",
+  "Ruby Crystal",
+  "Fated Ashes",
   "Liandry's Torment",
-  "Force of Nature",
-  "Dead Man's Plate",
+  "Gluttonous Greaves",
+  "Rod of Ages",
+  "Rylai's Crystal Scepter",
+  "Riftmaker",
+  "Winter's Approach",
   "Warmog's Armor",
-  "Jak'Sho, The Protean"
+  "Force of Nature",
+  "Bloodletter's Curse",
+  "Dead Man's Plate"
  ]
 }

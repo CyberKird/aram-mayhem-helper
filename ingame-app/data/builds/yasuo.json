@@ -1,42 +1,52 @@
 {
  "champion": "Yasuo",
- "source": "https://u.gg/lol/champions/aram/yasuo-aram",
+ "source": "https://aramkit.com/en-US/champions/yasuo",
+ "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
   "Mark"
  ],
  "starting": [
-  "Refillable Potion",
-  "Berserker's Greaves"
+  "Cloak of Agility",
+  "Amplifying Tome",
+  "Amplifying Tome"
  ],
  "core": [
+  "Rite of Ruin",
   "Berserker's Greaves",
-  "Kraken Slayer",
-  "Immortal Shieldbow"
+  "Yun Tal Wildarrows",
+  "Death's Dance"
  ],
  "fourth": [
+  "Spirit Visage",
   "Infinity Edge",
-  "Bloodthirster"
+  "Phantom Dancer",
+  "Blade of The Ruined King"
  ],
  "fifth": [
-  "Death's Dance",
-  "Bloodthirster",
-  "Infinity Edge"
+  "Spirit Visage",
+  "Infinity Edge",
+  "Phantom Dancer",
+  "Bloodthirster"
  ],
  "sixth": [
+  "Spirit Visage",
   "Bloodthirster",
-  "Wit's End",
-  "Mortal Reminder"
+  "Phantom Dancer",
+  "Jak'Sho, The Protean"
  ],
  "pool": [
-  "Refillable Potion",
+  "Cloak of Agility",
+  "Amplifying Tome",
+  "Rite of Ruin",
   "Berserker's Greaves",
-  "Kraken Slayer",
-  "Immortal Shieldbow",
-  "Infinity Edge",
-  "Bloodthirster",
+  "Yun Tal Wildarrows",
   "Death's Dance",
-  "Wit's End",
-  "Mortal Reminder"
+  "Spirit Visage",
+  "Infinity Edge",
+  "Phantom Dancer",
+  "Blade of The Ruined King",
+  "Bloodthirster",
+  "Jak'Sho, The Protean"
  ]
 }

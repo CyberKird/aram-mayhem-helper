@@ -1,46 +1,52 @@
 {
  "champion": "Nautilus",
- "source": "https://u.gg/lol/champions/aram/nautilus-aram",
+ "source": "https://aramkit.com/en-US/champions/nautilus",
+ "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
   "Mark"
  ],
  "starting": [
   "Giant's Belt",
-  "Health Potion",
-  "Tear of the Goddess"
+  "Ruby Crystal"
  ],
  "core": [
   "Heartsteel",
   "Mercury's Treads",
-  "Winter's Approach"
- ],
- "fourth": [
-  "Thornmail",
-  "Unending Despair"
- ],
- "fifth": [
-  "Thornmail",
-  "Kaenic Rookern",
+  "Unending Despair",
   "Warmog's Armor"
  ],
+ "fourth": [
+  "Winter's Approach",
+  "Hollow Radiance",
+  "Spirit Visage",
+  "Jak'Sho, The Protean"
+ ],
+ "fifth": [
+  "Overlord's Bloodmail",
+  "Hollow Radiance",
+  "Winter's Approach",
+  "Force of Nature"
+ ],
  "sixth": [
-  "Unending Despair",
+  "Riftmaker",
+  "Jak'Sho, The Protean",
   "Force of Nature",
-  "Frozen Heart"
+  "Spirit Visage"
  ],
  "pool": [
   "Giant's Belt",
-  "Health Potion",
-  "Tear of the Goddess",
+  "Ruby Crystal",
   "Heartsteel",
   "Mercury's Treads",
-  "Winter's Approach",
-  "Thornmail",
   "Unending Despair",
-  "Kaenic Rookern",
   "Warmog's Armor",
+  "Winter's Approach",
+  "Hollow Radiance",
+  "Spirit Visage",
+  "Jak'Sho, The Protean",
+  "Overlord's Bloodmail",
   "Force of Nature",
-  "Frozen Heart"
+  "Riftmaker"
  ]
 }

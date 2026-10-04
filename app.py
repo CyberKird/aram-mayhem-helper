@@ -22,13 +22,43 @@ import threading
 import tkinter as tk
 
 import augment_bar
+import bug_report
+import data_sync
 import hotkey
 import settings as settings_mod
 import updater
 
+
+
+def enable_dpi_awareness():
+    """Coordonate in pixeli reali peste tot (Tk, mss, ferestrele jocului).
+
+    Fara asta, pe un monitor 4K cu scalare 150% Tk lucra in coordonate logice
+    iar mss in cele fizice; ele se amestecau abia cand mss isi activa singur
+    awareness-ul, la prima captura. Rezultatul: banda de tier si panoul
+    cadeau in alt loc decat zona citita. Apelat O DATA, INAINTE de tk.Tk().
+    """
+    try:
+        ctypes.windll.shcore.SetProcessDpiAwareness(2)      # per-monitor
+    except Exception:
+        try:
+            ctypes.windll.user32.SetProcessDPIAware()
+        except Exception:
+            pass
+
+
+# 1.0 la 96 DPI (100%); 1.5 la 150% etc. Setat in build_ui dupa ce exista Tk.
+# Fonturile (in puncte) se scaleaza singure; pixelii fixi de mai jos nu.
+UI_SCALE = 1.0
+
+
+def px(n):
+    return int(round(n * UI_SCALE))
+
+
 # Ridica-l INAINTE de a publica un Release nou, altfel exe-ul deja instalat
 # la useri nu vede ca a aparut ceva mai nou.
-VERSION = "1.1.0"
+VERSION = "1.2.0"
 
 HOTKEY_LABEL = "CTRL+ALT+Z"
 
@@ -61,18 +91,22 @@ else:
 ICONS = ROOT / "ingame-app" / "data" / "icons"
 FONTS = ROOT / "ingame-app" / "data" / "fonts"
 
-BG = "#0b0b0b"
-LINE = "#ffffff"
-GREEN = "#a4e82c"
-DIM = "#6f7d66"
-TEXT = "#e8e8e8"
-CARD = "#121512"
+# Paleta clientului League (hextech): albastru-negru, auriu, crem, turcoaz.
+BG = "#010a13"
+LINE = "#785a28"          # auriu inchis: linii si chenare
+GOLD = "#c8aa6e"          # auriu deschis: chenarul ferestrei, titluri
+ACCENT = "#0ac8b9"        # turcoazul hextech: starea activa / "urmeaza"
+DIM = "#a09b8c"
+TEXT = "#f0e6d2"
+CARD = "#0a1428"
+EDGE = "#463714"          # chenar de card, sectiuni
+UP, DOWN = "#0ac8b9", "#e84057"
 
 TIER_COLORS = {"S+": "#ff4655", "S": "#ff9a3c", "A": "#ffd166",
                "B": "#8ac926", "C": "#4a9de0", "D": "#6b7280"}
 TIER_FG = {"S+": "#ffffff", "S": "#2b1400", "A": "#3a2c00",
            "B": "#182b00", "C": "#04203a", "D": "#ffffff"}
-UNKNOWN_TIER = ("#2a2f28", "#7e8c76")
+UNKNOWN_TIER = ("#1e2328", "#a09b8c")
 
 _icon_cache = {}
 
@@ -90,19 +124,19 @@ def _load_page(name, folder):
     return module
 
 
-def load_pixel_font():
-    """Inregistreaza fontul pixel doar pentru procesul asta si da familia lui.
+def pick_fonts():
+    """(familie titluri, familie text), primele disponibile din fiecare lista.
 
-    FR_PRIVATE = nu-l instaleaza in sistem, nu apare in alte programe. Trebuie
-    apelat INAINTE de tk.Tk(), altfel Tk nu-l vede -- isi enumera fonturile la
-    pornire. Daca fisierul lipseste, cadem pe un mono care exista peste tot.
+    Beaufort (fontul League) e licentiat si nu-l putem livra, deci cerem
+    primul serif cu aer similar care exista pe orice Windows. Trebuie apelat
+    DUPA tk.Tk(): families() are nevoie de o radacina Tk.
     """
-    ttf = FONTS / "PressStart2P-Regular.ttf"
-    if ttf.exists() and sys.platform.startswith("win"):
-        FR_PRIVATE = 0x10
-        if ctypes.windll.gdi32.AddFontResourceExW(str(ttf), FR_PRIVATE, 0):
-            return "Press Start 2P"
-    return "Consolas"
+    import tkinter.font as tkfont
+    have = set(tkfont.families())
+    heading = next((f for f in ("Beaufort for LOL", "Constantia", "Palatino Linotype",
+                                "Georgia") if f in have), "Times New Roman")
+    body = next((f for f in ("Spiegel", "Segoe UI") if f in have), "Arial")
+    return heading, body
 
 
 def icon(kind, name, size=30):
@@ -124,7 +158,7 @@ def icon(kind, name, size=30):
         return None
 
     from PIL import Image, ImageTk
-    img = Image.open(path).convert("RGBA").resize((size, size), Image.NEAREST)
+    img = Image.open(path).convert("RGBA").resize((px(size), px(size)), Image.NEAREST)
     photo = ImageTk.PhotoImage(img)
     _icon_cache[key] = photo      # referinta vie: Tk nu tine imaginile singur
     return photo
@@ -142,20 +176,26 @@ def build_ui(lcu, lcu_mon, ingame, ingame_mon):
     item_desc = ingame.load_json("item-desc.json")
     settings = settings_mod.Settings(LOG_DIR / "settings.json")
 
-    family = load_pixel_font()
-    pix = lambda size, weight="normal": (family, size, weight)
-    mono = lambda size, weight="normal": ("Consolas", size, weight)
-
     root = tk.Tk()
+    global UI_SCALE
+    UI_SCALE = root.winfo_fpixels("1i") / 96
+    augment_bar.SCALE = UI_SCALE
+    heading, body_family = pick_fonts()
+    # titlurile mici (fosta pixel 7) devin serif aldin putin mai mare; textul
+    # (fost Consolas 13) devine Segoe UI cu doua puncte mai jos, ca latimea
+    # randurilor sa ramana cea de dinainte
+    pix = lambda size, weight="normal": (heading, size + 2, "bold")
+    mono = lambda size, weight="normal": (body_family, max(8, size - 2), weight)
+
     root.title("ARAM Mayhem Helper")
     root.overrideredirect(True)      # desenam noi chenarul, ca in macheta
     root.attributes("-topmost", True)
-    root.configure(bg=LINE)
+    root.configure(bg=GOLD)
     root.withdraw()
 
-    width = 372
+    width = px(372)
     x, y = settings.pos("panel", (root.winfo_screenwidth() - width - 28, 64))
-    root.geometry(f"{width}x260+{int(x)}+{int(y)}")
+    root.geometry(f"{width}x{px(260)}+{int(x)}+{int(y)}")
 
     # chenarul de 1px: un frame exterior alb cu padding, peste care sta continutul
     shell = tk.Frame(root, bg=BG)
@@ -165,14 +205,17 @@ def build_ui(lcu, lcu_mon, ingame, ingame_mon):
     titlebar = tk.Frame(shell, bg=BG)
     titlebar.pack(fill="x", padx=8, pady=(7, 6))
 
-    title = tk.Label(titlebar, text="ARAM MAYHEM", bg=BG, fg=LINE, font=pix(8))
+    title = tk.Label(titlebar, text="ARAM MAYHEM", bg=BG, fg=GOLD, font=pix(8))
     title.pack(side="left")
 
-    close = tk.Label(titlebar, text="X", bg=BG, fg=LINE, font=pix(8),
+    close = tk.Label(titlebar, text="X", bg=BG, fg=GOLD, font=pix(8),
                      cursor="hand2", padx=4)
     close.pack(side="right")
-    minimize = tk.Label(titlebar, text="_", bg=BG, fg=LINE, font=pix(8), padx=4)
+    minimize = tk.Label(titlebar, text="_", bg=BG, fg=GOLD, font=pix(8), padx=4)
     minimize.pack(side="right")
+    bug = tk.Label(titlebar, text="BUG", bg=BG, fg=DIM, font=pix(6), padx=6,
+                   cursor="hand2")
+    bug.pack(side="right")
 
     divider1 = tk.Frame(shell, bg=LINE, height=1)
     divider1.pack(fill="x")
@@ -197,7 +240,7 @@ def build_ui(lcu, lcu_mon, ingame, ingame_mon):
     footer = tk.Frame(shell, bg=BG)
     footer.pack(fill="x", padx=8, pady=6)
     status_label = tk.Label(footer, text="", bg=BG, fg=DIM, font=pix(7),
-                            anchor="w", justify="left", wraplength=340)
+                            anchor="w", justify="left", wraplength=px(340))
     status_label.pack(side="left")
 
     # piesele astea se ascund cand fereastra e "stransa" la bara de titlu.
@@ -246,7 +289,7 @@ def build_ui(lcu, lcu_mon, ingame, ingame_mon):
         if text:
             tk.Label(inner, text=text, bg=BG, fg=DIM, font=mono(11),
                      anchor="w", justify="left",
-                     wraplength=300).pack(fill="x", padx=8, pady=(4, 6))
+                     wraplength=px(300)).pack(fill="x", padx=8, pady=(4, 6))
 
         # asezat sub cursor, dar tras inapoi daca ar iesi din ecran -- pe
         # marginea din dreapta a monitorului, un tooltip ancorat la cursor
@@ -270,9 +313,9 @@ def build_ui(lcu, lcu_mon, ingame, ingame_mon):
         # 17% din fereastra doar pentru etichete
         row = tk.Frame(body, bg=BG)
         row.pack(fill="x", pady=(6, 3))
-        tk.Label(row, text=text, bg=BG, fg=GREEN, font=pix(7),
+        tk.Label(row, text=text, bg=BG, fg=ACCENT, font=pix(7),
                  anchor="w").pack(side="left")
-        tk.Frame(row, bg="#1e2a18", height=1).pack(side="left", fill="x",
+        tk.Frame(row, bg=EDGE, height=1).pack(side="left", fill="x",
                                                    expand=True, padx=(6, 0))
 
     def tier_badge(parent, tier):
@@ -281,6 +324,40 @@ def build_ui(lcu, lcu_mon, ingame, ingame_mon):
             bg, fg = UNKNOWN_TIER
         return tk.Label(parent, text=tier, bg=bg, fg=fg, font=pix(8),
                         width=3, height=2)
+
+    def stat_line(parent, info):
+        """Win rate / pick rate si cum s-au schimbat fata de patch-ul anterior.
+
+        Sageata verde = mai bun, rosie = mai slab; lipsa datelor nu desenează nimic.
+        """
+        if "wr" not in info and "tier_change" not in info:
+            return
+        if info.get("balance"):
+            # modificatorii Mayhem ai campionului, ex. "DMG DAT -5%"; ii aratam
+            # sub cifre ca sa vezi imediat cum e "taiat" sau "umflat" in mod
+            tk.Label(parent, text="MAYHEM  " + "  ".join(info["balance"]),
+                     bg=parent["bg"], fg=DIM, font=mono(9), anchor="w",
+                     justify="left", wraplength=px(300)).pack(fill="x")
+        line = tk.Frame(parent, bg=parent["bg"])
+        line.pack(fill="x", pady=(2, 0))
+
+        def part(text, color):
+            tk.Label(line, text=text, bg=parent["bg"], fg=color,
+                     font=mono(10, "bold")).pack(side="left", padx=(0, 7))
+
+        def arrow(value, unit=""):
+            if not value:
+                return "=", DIM
+            return (f"▲{abs(value):g}{unit}", UP) if value > 0                 else (f"▼{abs(value):g}{unit}", DOWN)
+
+        if "wr" in info:
+            part(f"WR {info['wr']:.1f}%", TEXT)
+            if "wr_delta" in info:
+                part(*arrow(info["wr_delta"], "%"))
+            part(f"PR {info['pr']:.1f}%", DIM)
+        if "tier_change" in info:
+            text, color = arrow(info["tier_change"])
+            part(f"TIER {text}", color)
 
     def tier_row(kind, entry, best_label=None):
         """Un campion sau un augment: iconita oficiala + insigna de tier."""
@@ -301,11 +378,13 @@ def build_ui(lcu, lcu_mon, ingame, ingame_mon):
         texts.pack(side="left", fill="x", expand=True, pady=4)
         tk.Label(texts, text=entry["name"], bg=CARD, fg=TEXT, font=mono(13, "bold"),
                  anchor="w").pack(fill="x")
+        if kind == "champions":
+            stat_line(texts, entry)
         # unele augmente ("Upgrade Zhonya's") n-au sens decat daca chiar
         # cumperi itemul din spate -- se vede la momentul alegerii, nu dupa
         needs = augment_items.get(entry["name"])
         if needs:
-            tk.Label(texts, text=f"CERE {needs.upper()}", bg=CARD, fg=GREEN,
+            tk.Label(texts, text=f"CERE {needs.upper()}", bg=CARD, fg=ACCENT,
                      font=pix(7), anchor="w").pack(fill="x", pady=(3, 0))
 
         # Fara tier (u.gg nu-l claseaza) aratam ce face, ca sa poti decide tu.
@@ -315,7 +394,7 @@ def build_ui(lcu, lcu_mon, ingame, ingame_mon):
             what = augment_desc.get(entry["name"])
             tk.Label(texts, text=(what or "neclasat de u.gg")[:110], bg=CARD,
                      fg=DIM, font=mono(10), anchor="w", justify="left",
-                     wraplength=250).pack(fill="x", pady=(2, 0))
+                     wraplength=px(250)).pack(fill="x", pady=(2, 0))
 
         if is_best and best_label:
             tk.Label(row, text=best_label, bg=CARD, fg=color,
@@ -330,7 +409,7 @@ def build_ui(lcu, lcu_mon, ingame, ingame_mon):
             owned = isinstance(e, dict) and e.get("owned")
             is_next = isinstance(e, dict) and e.get("next")
             # verde = urmatorul de cumparat, gri stins = deja al tau
-            border = GREEN if is_next else ("#1b2016" if owned else "#2a3324")
+            border = ACCENT if is_next else ("#1e2328" if owned else EDGE)
             cell = tk.Frame(row, bg=border)
             cell.pack(side="left", padx=(0, 5))
             photo = icon("items", name, 34)
@@ -342,7 +421,7 @@ def build_ui(lcu, lcu_mon, ingame, ingame_mon):
             lbl.pack(padx=2 if is_next else 1, pady=2 if is_next else 1)
             attach_tip(lbl, name)
 
-    def item_row(entry):
+    def item_row(entry, icon_kind="items"):
         """Un item de cumparat: iconita + nume + motivul (daca exista).
 
         Accepta si intrari de core, care n-au cheia "reason" -- de aceea .get.
@@ -350,12 +429,12 @@ def build_ui(lcu, lcu_mon, ingame, ingame_mon):
         hot = bool(entry.get("reason"))
         owned = entry.get("owned")
         is_next = entry.get("next")
-        outer = tk.Frame(body, bg=GREEN if (hot or is_next) else CARD)
+        outer = tk.Frame(body, bg=ACCENT if (hot or is_next) else CARD)
         outer.pack(fill="x", pady=2)
         row = tk.Frame(outer, bg=CARD)
         row.pack(fill="both", expand=True, padx=1, pady=1)
 
-        photo = icon("items", entry["item"], 30)
+        photo = icon(icon_kind, entry["item"], 30) if icon_kind else None
         if photo:
             ilbl = tk.Label(row, image=photo, bg=CARD, bd=0)
             ilbl.pack(side="left", padx=(4, 7), pady=4)
@@ -369,20 +448,20 @@ def build_ui(lcu, lcu_mon, ingame, ingame_mon):
             # wraplength obligatoriu: fontul pixel e lat, iar un motiv lung
             # ("inamicii se vindeca, nimeni la noi n-are anti-heal" = 400px)
             # nu incape pe un rand si se taia tacut la marginea ferestrei
-            tk.Label(texts, text=entry["reason"].upper(), bg=CARD, fg=GREEN,
+            tk.Label(texts, text=entry["reason"].upper(), bg=CARD, fg=ACCENT,
                      font=pix(7), anchor="w", justify="left",
-                     wraplength=REASON_WRAP).pack(fill="x", pady=(3, 0))
+                     wraplength=px(REASON_WRAP)).pack(fill="x", pady=(3, 0))
 
         if owned:
             tk.Label(row, text="AI", bg=CARD, fg=DIM,
                      font=pix(7)).pack(side="right", padx=8)
         elif is_next:
-            tk.Label(row, text="URMEAZA", bg=CARD, fg=GREEN,
+            tk.Label(row, text="URMEAZA" if icon_kind else "BEST", bg=CARD, fg=ACCENT,
                      font=pix(7)).pack(side="right", padx=8)
 
     def boots_row(advice):
         """Vinde cizmele -> ia asta. Apare doar la 6 itemi, nu mai devreme."""
-        outer = tk.Frame(body, bg=GREEN)
+        outer = tk.Frame(body, bg=ACCENT)
         outer.pack(fill="x", pady=2)
         row = tk.Frame(outer, bg=CARD)
         row.pack(fill="both", expand=True, padx=1, pady=1)
@@ -403,24 +482,24 @@ def build_ui(lcu, lcu_mon, ingame, ingame_mon):
         texts.pack(side="left", fill="x", expand=True, padx=(6, 0), pady=4)
         tk.Label(texts, text=f"VINDE {advice['sell']}", bg=CARD, fg=DIM,
                  font=pix(7), anchor="w", justify="left",
-                 wraplength=BOOTS_WRAP).pack(fill="x")
+                 wraplength=px(BOOTS_WRAP)).pack(fill="x")
         tk.Label(texts, text=advice["buy"], bg=CARD, fg=TEXT,
                  font=mono(13, "bold"), anchor="w").pack(fill="x", pady=(2, 0))
         if advice["reason"]:
-            tk.Label(texts, text=advice["reason"].upper(), bg=CARD, fg=GREEN,
+            tk.Label(texts, text=advice["reason"].upper(), bg=CARD, fg=ACCENT,
                      font=pix(7), anchor="w", justify="left",
-                     wraplength=BOOTS_WRAP).pack(fill="x", pady=(3, 0))
+                     wraplength=px(BOOTS_WRAP)).pack(fill="x", pady=(3, 0))
 
     def note(text, color=DIM):
         tk.Label(body, text=text, bg=BG, fg=color, font=mono(11), anchor="w",
-                 justify="left", wraplength=330).pack(fill="x", pady=6)
+                 justify="left", wraplength=px(330)).pack(fill="x", pady=6)
 
     def summoner_row(names):
         """Cele doua spell-uri recomandate de u.gg, iconita + nume, unul langa altul."""
         row = tk.Frame(body, bg=BG)
         row.pack(fill="x", pady=2)
         for name in names:
-            cell = tk.Frame(row, bg="#2a3324")
+            cell = tk.Frame(row, bg=EDGE)
             cell.pack(side="left", padx=(0, 8))
             inner = tk.Frame(cell, bg=CARD)
             inner.pack(padx=1, pady=1)
@@ -436,7 +515,7 @@ def build_ui(lcu, lcu_mon, ingame, ingame_mon):
         row.pack(fill="x", pady=2)
         tk.Label(row, text=label, bg=BG, fg=DIM, font=mono(11),
                  anchor="w").pack(side="left")
-        tk.Label(row, text=value, bg=BG, fg=GREEN if ok else "#9a6b6b",
+        tk.Label(row, text=value, bg=BG, fg=ACCENT if ok else "#9a6b6b",
                  font=mono(10, "bold"), anchor="e").pack(side="right")
 
     def waiting_bar():
@@ -446,7 +525,7 @@ def build_ui(lcu, lcu_mon, ingame, ingame_mon):
         gaseste prin anim["cells"] -- nu redesenam tot corpul la fiecare
         cadru, ar fi risipa pentru o animatie de asteptare.
         """
-        wrap = tk.Frame(body, bg="#1e2a18")
+        wrap = tk.Frame(body, bg=EDGE)
         wrap.pack(fill="x", pady=(2, 4))
         inner = tk.Frame(wrap, bg=BG, height=14)
         inner.pack(fill="both", expand=True, padx=1, pady=1)
@@ -461,7 +540,7 @@ def build_ui(lcu, lcu_mon, ingame, ingame_mon):
             anim["step"] = (anim["step"] + 1) % len(cells)
             for i, cell in enumerate(cells):
                 lit = (i - anim["step"]) % len(cells) < 3
-                cell.configure(bg=GREEN if lit else BG)
+                cell.configure(bg=ACCENT if lit else BG)
         root.after(110, animate)
 
     # --- cele trei vederi -------------------------------------------------
@@ -525,6 +604,30 @@ def build_ui(lcu, lcu_mon, ingame, ingame_mon):
         # cardurilor exact cand ai de ales. Aici ar fi fost tot timpul pe
         # ecran degeaba, si tot timpul in alt loc decat te uiti.
 
+        if champ != "?":
+            import champ_stats
+            info = champ_stats.info(champ)
+            if info:
+                section("STATISTICI")
+                stat_line(body, info)
+                for key, ability, lines in info.get("ability_changes", []):
+                    tk.Label(body, text=f"{key}  {ability}: " + " ".join(lines),
+                             bg=BG, fg=DIM, font=mono(9), anchor="w", justify="left",
+                             wraplength=px(340)).pack(fill="x", pady=(2, 0))
+                u_now, u_old, a_now, a_old = champ_stats.versions()
+                note(f"vs patch anterior  ·  u.gg {u_old} > {u_now}  ·  "
+                     f"ARAMKit {a_old} > {a_now}")
+
+        if ingame_mon.stat_anvil:
+            # recomandarea de shard, cu motivul scris, si in panou: banda de
+            # deasupra cardurilor e doar o insigna, aici citesti de ce
+            section(f"STAT ANVIL  \u00b7  {champ.upper()}")
+            for s in ingame_mon.stat_anvil:
+                label = ANVIL_LABEL.get(s["category"], s["category"].upper())
+                item_row({"item": f"{s['name'].replace(' Shard', '')} ({label})",
+                          "reason": s["why"].upper() if s["is_best"] else None,
+                          "next": s["is_best"]}, icon_kind=None)
+
         rb = ingame_mon.resolved_build
         if rb:
             # Starting items conteaza doar la inceput. Din clipa in care ai
@@ -571,8 +674,8 @@ def build_ui(lcu, lcu_mon, ingame, ingame_mon):
     # Stat Anvil: acelasi fel de banda, deasupra acelorasi carduri, doar ca
     # "tier"-ul e statul oferit si culoarea spune doar daca e alegerea buna --
     # nu exista tier list public pentru shard-uri, deci n-avem ce rank sa aratam.
-    ANVIL_BEST, ANVIL_REST = "#a4e82c", "#2a2f28"
-    anvil_bar = augment_bar.AugmentBar(root, {}, {}, (ANVIL_REST, "#9aa895"),
+    ANVIL_BEST, ANVIL_REST = GOLD, "#1e2328"
+    anvil_bar = augment_bar.AugmentBar(root, {}, {}, (ANVIL_REST, "#a09b8c"),
                                        pix, mono)
 
     # nume lung de card -> eticheta scurta care incape in insigna
@@ -590,9 +693,11 @@ def build_ui(lcu, lcu_mon, ingame, ingame_mon):
         for s in shards:
             label = ANVIL_LABEL.get(s["category"], s["category"].upper())
             colors[label] = ANVIL_BEST if s["is_best"] else ANVIL_REST
-            fgs[label] = "#182b00" if s["is_best"] else "#9aa895"
+            fgs[label] = "#010a13" if s["is_best"] else "#a09b8c"
             entries.append({"name": s["name"].replace(" Shard", ""),
-                            "tier": label, "is_best": s["is_best"]})
+                            "tier": label, "is_best": s["is_best"],
+                            "note": (f"{s['champion']} \u00b7 {s['why']}"
+                                     if s["is_best"] and s.get("champion") else None)})
         return entries, colors, fgs
 
     def active_view():
@@ -619,6 +724,7 @@ def build_ui(lcu, lcu_mon, ingame, ingame_mon):
                     (ingame_mon.resolved_build or {}).get("boots") and
                     tuple((ingame_mon.resolved_build["boots"] or {}).values()),
                     tuple((a["name"], a["tier"]) for a in ingame_mon.augments),
+                    tuple((s["name"], s["is_best"]) for s in ingame_mon.stat_anvil),
                     ingame_mon.status)
         # idle: doar starea monitoarelor. Pasul animatiei NU intra aici --
         # altfel am redesena tot corpul de 9 ori pe secunda.
@@ -665,7 +771,7 @@ def build_ui(lcu, lcu_mon, ingame, ingame_mon):
             import win32gui as _w32
             hwnd = _ocr.find_game_window()
             focused = bool(hwnd) and _w32.GetForegroundWindow() == hwnd
-            region = _ocr.offer_region(_w32.GetWindowRect(hwnd)) if focused else None
+            region = _ocr.offer_region(_ocr.game_rect(hwnd)) if focused else None
 
             if ingame_mon.augments and focused:
                 bar.show(ingame_mon.augments, region)
@@ -714,7 +820,7 @@ def build_ui(lcu, lcu_mon, ingame, ingame_mon):
         dinainte si taie ultimul rand.
         """
         root.update_idletasks()
-        root.geometry(f"{width}x{min(root.winfo_reqheight(), MAX_HEIGHT)}")
+        root.geometry(f"{width}x{min(root.winfo_reqheight(), px(MAX_HEIGHT))}")
 
     def close_app():
         lcu_mon.stop.set()
@@ -723,6 +829,20 @@ def build_ui(lcu, lcu_mon, ingame, ingame_mon):
         anvil_bar.hide()
         root.destroy()
 
+    report = {"win": None}
+
+    def open_report(_=None):
+        # o singura fereastra de raport deschisa odata
+        if report["win"] is not None and report["win"].winfo_exists():
+            report["win"].lift()
+            return
+        report["win"] = bug_report.open_dialog(
+            root, {"bg": BG, "gold": GOLD, "line": LINE, "edge": EDGE, "card": CARD,
+                   "text": TEXT, "dim": DIM, "accent": ACCENT, "down": DOWN,
+                   "heading": pix, "body": mono, "px": px},
+            VERSION, LOG_DIR, lcu_mon, ingame_mon)
+
+    bug.bind("<Button-1>", open_report)
     close.bind("<Button-1>", lambda _: close_app())
     minimize.bind("<Button-1>", lambda _: toggle_collapsed())
     root.bind("<Escape>", lambda _: close_app())
@@ -837,6 +957,7 @@ def main():
         selfcheck()
         return
 
+    enable_dpi_awareness()
     if already_running():
         return
 
@@ -857,6 +978,13 @@ def main():
                 "ARAM Mayhem Helper", 0x40)
             return
 
+    # tier-uri si statistici mai noi din repo, inainte sa se incarce modulele
+    # care le citesc; langa exe, ca sa supravietuiasca repornirii
+    import os
+    os.environ["ARAM_DATA_DIR"] = str(LOG_DIR / "data-sync")
+    if "--no-update" not in sys.argv:
+        data_sync.sync(LOG_DIR / "data-sync")
+
     lcu = _load_page("lcu_page", "lcu-app")
     ingame = _load_page("ingame_page", "ingame-app")
 
@@ -867,7 +995,7 @@ def main():
         ingame.load_json("champion-id-map.json"),
         ingame.load_json("champion-tags.json"),
         ingame.load_json("item-rules.json"),
-        ingame.load_json("augments-global.json"),
+        __import__("bundle").get().get("global") or ingame.load_json("augments-global.json"),
         ingame.load_json("item-stats.json"),
         ingame.load_json("augment-items.json"),
     )

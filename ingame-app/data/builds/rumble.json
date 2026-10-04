@@ -1,43 +1,50 @@
 {
  "champion": "Rumble",
- "source": "https://u.gg/lol/champions/aram/rumble-aram",
+ "source": "https://aramkit.com/en-US/champions/rumble",
+ "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
-  "Barrier"
+  "Mark"
  ],
  "starting": [
-  "Health Potion",
-  "Haunting Guise"
+  "Amplifying Tome",
+  "Guardian's Orb"
  ],
  "core": [
   "Liandry's Torment",
-  "Sorcerer's Shoes",
-  "Shadowflame"
- ],
- "fourth": [
-  "Bloodletter's Curse",
+  "Gluttonous Greaves",
+  "Shadowflame",
   "Rabadon's Deathcap"
  ],
+ "fourth": [
+  "Riftmaker",
+  "Bloodletter's Curse",
+  "Void Staff",
+  "Malignance"
+ ],
  "fifth": [
-  "Rabadon's Deathcap",
-  "Rylai's Crystal Scepter",
-  "Zhonya's Hourglass"
+  "Riftmaker",
+  "Void Staff",
+  "Bloodletter's Curse",
+  "Malignance"
  ],
  "sixth": [
-  "Rabadon's Deathcap",
-  "Zhonya's Hourglass",
-  "Void Staff"
+  "Riftmaker",
+  "Void Staff",
+  "Bloodletter's Curse",
+  "Zhonya's Hourglass"
  ],
  "pool": [
-  "Health Potion",
-  "Haunting Guise",
+  "Amplifying Tome",
+  "Guardian's Orb",
   "Liandry's Torment",
-  "Sorcerer's Shoes",
+  "Gluttonous Greaves",
   "Shadowflame",
-  "Bloodletter's Curse",
   "Rabadon's Deathcap",
-  "Rylai's Crystal Scepter",
-  "Zhonya's Hourglass",
-  "Void Staff"
+  "Riftmaker",
+  "Bloodletter's Curse",
+  "Void Staff",
+  "Malignance",
+  "Zhonya's Hourglass"
  ]
 }

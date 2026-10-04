@@ -1,42 +1,50 @@
 {
  "champion": "Wukong",
- "source": "https://u.gg/lol/champions/aram/wukong-aram",
+ "source": "https://aramkit.com/en-US/champions/monkeyking",
+ "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
   "Mark"
  ],
  "starting": [
-  "Tunneler",
-  "Glowing Mote"
+  "Giant's Belt",
+  "Ruby Crystal"
  ],
  "core": [
-  "Sundered Sky",
-  "Mercury's Treads",
-  "Trinity Force"
+  "Heartsteel",
+  "Gluttonous Greaves",
+  "Overlord's Bloodmail",
+  "Warmog's Armor"
  ],
  "fourth": [
+  "Endless Hunger",
   "Death's Dance",
+  "Trinity Force",
   "Black Cleaver"
  ],
  "fifth": [
-  "Black Cleaver",
+  "Endless Hunger",
+  "Sterak's Gage",
   "Death's Dance",
-  "Eclipse"
+  "Trinity Force"
  ],
  "sixth": [
-  "Eclipse",
-  "Kaenic Rookern",
-  "Black Cleaver"
+  "Endless Hunger",
+  "Death's Dance",
+  "Sterak's Gage",
+  "Trinity Force"
  ],
  "pool": [
-  "Tunneler",
-  "Glowing Mote",
-  "Sundered Sky",
-  "Mercury's Treads",
-  "Trinity Force",
+  "Giant's Belt",
+  "Ruby Crystal",
+  "Heartsteel",
+  "Gluttonous Greaves",
+  "Overlord's Bloodmail",
+  "Warmog's Armor",
+  "Endless Hunger",
   "Death's Dance",
+  "Trinity Force",
   "Black Cleaver",
-  "Eclipse",
-  "Kaenic Rookern"
+  "Sterak's Gage"
  ]
 }

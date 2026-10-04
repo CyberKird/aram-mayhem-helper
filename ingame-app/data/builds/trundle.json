@@ -1,46 +1,50 @@
 {
  "champion": "Trundle",
- "source": "https://u.gg/lol/champions/aram/trundle-aram",
+ "source": "https://aramkit.com/en-US/champions/trundle",
+ "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
   "Mark"
  ],
  "starting": [
   "Giant's Belt",
-  "Ruby Crystal",
-  "Health Potion"
+  "Ruby Crystal"
  ],
  "core": [
   "Heartsteel",
-  "Mercury's Treads",
-  "Spirit Visage"
+  "Gluttonous Greaves",
+  "Blade of The Ruined King",
+  "Titanic Hydra"
  ],
  "fourth": [
-  "Blade of The Ruined King",
-  "Iceborn Gauntlet"
+  "Warmog's Armor",
+  "Spirit Visage",
+  "Sundered Sky",
+  "Randuin's Omen"
  ],
  "fifth": [
-  "Blade of The Ruined King",
-  "Thornmail",
-  "Sundered Sky"
+  "Warmog's Armor",
+  "Spirit Visage",
+  "Randuin's Omen",
+  "Thornmail"
  ],
  "sixth": [
-  "Titanic Hydra",
-  "Sundered Sky",
-  "Overlord's Bloodmail"
+  "Warmog's Armor",
+  "Spirit Visage",
+  "Thornmail",
+  "Randuin's Omen"
  ],
  "pool": [
   "Giant's Belt",
   "Ruby Crystal",
-  "Health Potion",
   "Heartsteel",
-  "Mercury's Treads",
-  "Spirit Visage",
+  "Gluttonous Greaves",
   "Blade of The Ruined King",
-  "Iceborn Gauntlet",
-  "Thornmail",
-  "Sundered Sky",
   "Titanic Hydra",
-  "Overlord's Bloodmail"
+  "Warmog's Armor",
+  "Spirit Visage",
+  "Sundered Sky",
+  "Randuin's Omen",
+  "Thornmail"
  ]
 }

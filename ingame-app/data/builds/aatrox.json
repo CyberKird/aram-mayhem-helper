@@ -1,43 +1,51 @@
 {
  "champion": "Aatrox",
- "source": "https://u.gg/lol/champions/aram/aatrox-aram",
+ "source": "https://aramkit.com/en-US/champions/aatrox",
+ "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
   "Mark"
  ],
  "starting": [
-  "Tunneler",
-  "Glowing Mote"
+  "Long Sword",
+  "Serrated Dirk"
  ],
  "core": [
-  "Sundered Sky",
-  "Mercury's Treads",
-  "Eclipse"
+  "Hubris",
+  "Gluttonous Greaves",
+  "Death's Dance",
+  "Serylda's Grudge"
  ],
  "fourth": [
-  "Death's Dance",
+  "Endless Hunger",
+  "Spear of Shojin",
+  "Sundered Sky",
   "Spirit Visage"
  ],
  "fifth": [
-  "Death's Dance",
   "Endless Hunger",
-  "Spirit Visage"
+  "Maw of Malmortius",
+  "Sundered Sky",
+  "Spear of Shojin"
  ],
  "sixth": [
-  "Sterak's Gage",
-  "Maw of Malmortius",
-  "Spirit Visage"
- ],
- "pool": [
-  "Tunneler",
-  "Glowing Mote",
-  "Sundered Sky",
-  "Mercury's Treads",
-  "Eclipse",
-  "Death's Dance",
-  "Spirit Visage",
   "Endless Hunger",
+  "Sundered Sky",
   "Sterak's Gage",
   "Maw of Malmortius"
+ ],
+ "pool": [
+  "Long Sword",
+  "Serrated Dirk",
+  "Hubris",
+  "Gluttonous Greaves",
+  "Death's Dance",
+  "Serylda's Grudge",
+  "Endless Hunger",
+  "Spear of Shojin",
+  "Sundered Sky",
+  "Spirit Visage",
+  "Maw of Malmortius",
+  "Sterak's Gage"
  ]
 }

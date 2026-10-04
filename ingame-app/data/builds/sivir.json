@@ -1,40 +1,50 @@
 {
  "champion": "Sivir",
- "source": "https://u.gg/lol/champions/aram/sivir-aram",
+ "source": "https://aramkit.com/en-US/champions/sivir",
+ "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
-  "Heal"
+  "Ghost"
  ],
  "starting": [
   "B. F. Sword"
  ],
  "core": [
   "Yun Tal Wildarrows",
-  "Navori Flickerblade",
-  "Berserker's Greaves"
+  "Gluttonous Greaves",
+  "Infinity Edge",
+  "Navori Flickerblade"
  ],
  "fourth": [
-  "Infinity Edge",
-  "Lord Dominik's Regards"
+  "Lord Dominik's Regards",
+  "Bloodthirster",
+  "The Collector",
+  "Blade of The Ruined King"
  ],
  "fifth": [
   "Lord Dominik's Regards",
   "Bloodthirster",
-  "Infinity Edge"
+  "Kraken Slayer",
+  "Statikk Shiv"
  ],
  "sixth": [
   "Bloodthirster",
-  "Blade of The Ruined King",
-  "Lord Dominik's Regards"
+  "Phantom Dancer",
+  "Lord Dominik's Regards",
+  "Blade of The Ruined King"
  ],
  "pool": [
   "B. F. Sword",
   "Yun Tal Wildarrows",
-  "Navori Flickerblade",
-  "Berserker's Greaves",
+  "Gluttonous Greaves",
   "Infinity Edge",
+  "Navori Flickerblade",
   "Lord Dominik's Regards",
   "Bloodthirster",
-  "Blade of The Ruined King"
+  "The Collector",
+  "Blade of The Ruined King",
+  "Kraken Slayer",
+  "Statikk Shiv",
+  "Phantom Dancer"
  ]
 }

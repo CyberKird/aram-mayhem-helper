@@ -18,6 +18,28 @@ def item_key(name):
     return "".join(ch for ch in name.lower() if ch.isalnum())
 
 
+def owned_keys(own_items, item_stats=None):
+    """Chei de item pe care le ai, inclusiv cele din care au evoluat itemele tale.
+
+    Manamune devine Muramana dupa 360 mana si dispare din inventar: fara asta
+    build-ul cerea iar Manamune. "evolves_into" vine din build_item_stats.py
+    (descrierea "Transforms into X" si lantul de upgrade al cizmelor). Repetam
+    pana nu se mai schimba nimic, ca sa prindem si lanturile de doua trepte.
+    """
+    keys = {item_key(n) for n in own_items or ()}
+    stats = item_stats or {}
+    changed = True
+    while changed:
+        changed = False
+        for name, st in stats.items():
+            key = item_key(name)
+            if key not in keys and any(item_key(e) in keys
+                                       for e in st.get("evolves_into") or ()):
+                keys.add(key)
+                changed = True
+    return keys
+
+
 def matches_condition(cond, roster, champion_tags, item_stats=None, categories=None):
     """True daca conditia regulii e indeplinita de compozitia/itemii curenti.
 
@@ -112,7 +134,7 @@ def resolve_build(build, roster, champion_tags, rule_set, item_stats=None,
            for h in evaluate_rules(roster, champion_tags, rule_set,
                                    build.get("pool") or [], item_stats)}
 
-    owned = {item_key(n) for n in (roster.get("own_items") or [])}
+    owned = owned_keys(roster.get("own_items"), item_stats)
 
     needed = [n for n in required_items(taken_augments, augment_items)
               if item_key(n) not in owned]
@@ -178,6 +200,11 @@ def boots_advice(build, roster, hot, item_stats=None):
              if not (stats.get(n) or {}).get("consumable")]
     if len(owned) < FULL_BUILD:
         return None
+    # Sase sloturi ocupate nu inseamna build plin daca unele sunt doar
+    # componente (sau cizmele simple): inca ai de cumparat, nu de optimizat.
+    if any((stats.get(n) or {}).get("component") and not (stats.get(n) or {}).get("boots")
+           or n == "Boots" for n in owned):
+        return None
 
     boots = next((n for n in owned if (stats.get(n) or {}).get("boots")), None)
     if not boots:
@@ -185,9 +212,9 @@ def boots_advice(build, roster, hot, item_stats=None):
     if boots in hot:
         return None
 
-    owned_keys = {item_key(n) for n in owned}
+    have = owned_keys(owned, stats)
     pool = [n for n in (build.get("pool") or [])
-            if item_key(n) not in owned_keys
+            if item_key(n) not in have
             and not (stats.get(n) or {}).get("boots")
             and not (stats.get(n) or {}).get("consumable")
             and not (stats.get(n) or {}).get("component")]

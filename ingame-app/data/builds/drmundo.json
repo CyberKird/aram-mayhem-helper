@@ -1,44 +1,50 @@
 {
  "champion": "Dr. Mundo",
- "source": "https://u.gg/lol/champions/aram/drmundo-aram",
+ "source": "https://aramkit.com/en-US/champions/drmundo",
+ "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
-  "Ignite"
+  "Mark"
  ],
  "starting": [
   "Giant's Belt",
-  "Ruby Crystal",
-  "Health Potion"
+  "Ruby Crystal"
  ],
  "core": [
   "Heartsteel",
-  "Mercury's Treads",
-  "Warmog's Armor"
+  "Boots of Swiftness",
+  "Warmog's Armor",
+  "Unending Despair"
  ],
  "fourth": [
+  "Overlord's Bloodmail",
   "Spirit Visage",
-  "Thornmail"
+  "Titanic Hydra",
+  "Kaenic Rookern"
  ],
  "fifth": [
+  "Overlord's Bloodmail",
+  "Titanic Hydra",
   "Spirit Visage",
-  "Unending Despair",
-  "Thornmail"
+  "Jak'Sho, The Protean"
  ],
  "sixth": [
-  "Thornmail",
-  "Unending Despair",
-  "Titanic Hydra"
+  "Titanic Hydra",
+  "Overlord's Bloodmail",
+  "Spirit Visage",
+  "Jak'Sho, The Protean"
  ],
  "pool": [
   "Giant's Belt",
   "Ruby Crystal",
-  "Health Potion",
   "Heartsteel",
-  "Mercury's Treads",
+  "Boots of Swiftness",
   "Warmog's Armor",
-  "Spirit Visage",
-  "Thornmail",
   "Unending Despair",
-  "Titanic Hydra"
+  "Overlord's Bloodmail",
+  "Spirit Visage",
+  "Titanic Hydra",
+  "Kaenic Rookern",
+  "Jak'Sho, The Protean"
  ]
 }

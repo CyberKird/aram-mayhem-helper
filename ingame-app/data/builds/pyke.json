@@ -1,42 +1,48 @@
 {
  "champion": "Pyke",
- "source": "https://u.gg/lol/champions/aram/pyke-aram",
+ "source": "https://aramkit.com/en-US/champions/pyke",
+ "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
   "Mark"
  ],
  "starting": [
-  "Long Sword",
-  "Serrated Dirk"
+  "The Brutalizer"
  ],
  "core": [
+  "Axiom Arc",
+  "Ionian Boots of Lucidity",
   "Hubris",
-  "Mercury's Treads",
-  "The Collector"
+  "Voltaic Cyclosword"
  ],
  "fourth": [
-  "Edge of Night",
-  "Youmuu's Ghostblade"
+  "Death's Dance",
+  "Profane Hydra",
+  "Youmuu's Ghostblade",
+  "Lord Dominik's Regards"
  ],
  "fifth": [
+  "Endless Hunger",
+  "Death's Dance",
   "Youmuu's Ghostblade",
-  "Edge of Night",
-  "Serylda's Grudge"
+  "Profane Hydra"
  ],
  "sixth": [
-  "Voltaic Cyclosword",
-  "Serylda's Grudge",
-  "Youmuu's Ghostblade"
+  "Endless Hunger",
+  "Youmuu's Ghostblade",
+  "Death's Dance",
+  "Profane Hydra"
  ],
  "pool": [
-  "Long Sword",
-  "Serrated Dirk",
+  "The Brutalizer",
+  "Axiom Arc",
+  "Ionian Boots of Lucidity",
   "Hubris",
-  "Mercury's Treads",
-  "The Collector",
-  "Edge of Night",
+  "Voltaic Cyclosword",
+  "Death's Dance",
+  "Profane Hydra",
   "Youmuu's Ghostblade",
-  "Serylda's Grudge",
-  "Voltaic Cyclosword"
+  "Lord Dominik's Regards",
+  "Endless Hunger"
  ]
 }

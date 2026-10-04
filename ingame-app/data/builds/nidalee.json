@@ -1,44 +1,49 @@
 {
  "champion": "Nidalee",
- "source": "https://u.gg/lol/champions/aram/nidalee-aram",
+ "source": "https://aramkit.com/en-US/champions/nidalee",
+ "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
-  "Ignite"
+  "Mark"
  ],
  "starting": [
-  "Refillable Potion",
   "Lost Chapter"
  ],
  "core": [
   "Luden's Echo",
   "Sorcerer's Shoes",
-  "Liandry's Torment"
- ],
- "fourth": [
   "Rabadon's Deathcap",
   "Shadowflame"
  ],
- "fifth": [
-  "Rabadon's Deathcap",
-  "Shadowflame",
-  "Horizon Focus"
- ],
- "sixth": [
+ "fourth": [
+  "Stormsurge",
   "Lich Bane",
   "Void Staff",
-  "Zhonya's Hourglass"
+  "Liandry's Torment"
+ ],
+ "fifth": [
+  "Stormsurge",
+  "Horizon Focus",
+  "Lich Bane",
+  "Void Staff"
+ ],
+ "sixth": [
+  "Stormsurge",
+  "Banshee's Veil",
+  "Horizon Focus",
+  "Void Staff"
  ],
  "pool": [
-  "Refillable Potion",
   "Lost Chapter",
   "Luden's Echo",
   "Sorcerer's Shoes",
-  "Liandry's Torment",
   "Rabadon's Deathcap",
   "Shadowflame",
-  "Horizon Focus",
+  "Stormsurge",
   "Lich Bane",
   "Void Staff",
-  "Zhonya's Hourglass"
+  "Liandry's Torment",
+  "Horizon Focus",
+  "Banshee's Veil"
  ]
 }

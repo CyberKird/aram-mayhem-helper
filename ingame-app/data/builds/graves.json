@@ -1,41 +1,51 @@
 {
  "champion": "Graves",
- "source": "https://u.gg/lol/champions/aram/graves-aram",
+ "source": "https://aramkit.com/en-US/champions/graves",
+ "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
   "Mark"
  ],
  "starting": [
   "Long Sword",
-  "Serrated Dirk"
+  "Guardian's Blade"
  ],
  "core": [
   "The Collector",
+  "Gluttonous Greaves",
   "Infinity Edge",
-  "Mercury's Treads"
+  "Hubris"
  ],
  "fourth": [
   "Lord Dominik's Regards",
-  "Immortal Shieldbow"
+  "Bloodthirster",
+  "Immortal Shieldbow",
+  "Mortal Reminder"
  ],
  "fifth": [
+  "Endless Hunger",
   "Lord Dominik's Regards",
   "Bloodthirster",
   "Immortal Shieldbow"
  ],
  "sixth": [
+  "Endless Hunger",
   "Bloodthirster",
-  "Immortal Shieldbow",
-  "Lord Dominik's Regards"
+  "Lord Dominik's Regards",
+  "Mercurial Scimitar"
  ],
  "pool": [
   "Long Sword",
-  "Serrated Dirk",
+  "Guardian's Blade",
   "The Collector",
+  "Gluttonous Greaves",
   "Infinity Edge",
-  "Mercury's Treads",
+  "Hubris",
   "Lord Dominik's Regards",
+  "Bloodthirster",
   "Immortal Shieldbow",
-  "Bloodthirster"
+  "Mortal Reminder",
+  "Endless Hunger",
+  "Mercurial Scimitar"
  ]
 }

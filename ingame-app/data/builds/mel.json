@@ -1,43 +1,52 @@
 {
  "champion": "Mel",
- "source": "https://u.gg/lol/champions/aram/mel-aram",
+ "source": "https://aramkit.com/en-US/champions/mel",
+ "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
-  "Barrier"
+  "Ghost"
  ],
  "starting": [
-  "Refillable Potion",
-  "Lost Chapter"
+  "Sapphire Crystal",
+  "Fated Ashes"
  ],
  "core": [
-  "Luden's Echo",
-  "Sorcerer's Shoes",
+  "Blackfire Torch",
+  "Gluttonous Greaves",
+  "Liandry's Torment",
   "Rabadon's Deathcap"
  ],
  "fourth": [
+  "Stormsurge",
+  "Archangel's Staff",
   "Shadowflame",
-  "Liandry's Torment"
+  "Void Staff"
  ],
  "fifth": [
-  "Void Staff",
   "Stormsurge",
-  "Liandry's Torment"
+  "Shadowflame",
+  "Archangel's Staff",
+  "Void Staff"
  ],
  "sixth": [
   "Stormsurge",
+  "Cryptbloom",
   "Banshee's Veil",
-  "Void Staff"
+  "Cosmic Drive"
  ],
  "pool": [
-  "Refillable Potion",
-  "Lost Chapter",
-  "Luden's Echo",
-  "Sorcerer's Shoes",
-  "Rabadon's Deathcap",
-  "Shadowflame",
+  "Sapphire Crystal",
+  "Fated Ashes",
+  "Blackfire Torch",
+  "Gluttonous Greaves",
   "Liandry's Torment",
-  "Void Staff",
+  "Rabadon's Deathcap",
   "Stormsurge",
-  "Banshee's Veil"
+  "Archangel's Staff",
+  "Shadowflame",
+  "Void Staff",
+  "Cryptbloom",
+  "Banshee's Veil",
+  "Cosmic Drive"
  ]
 }

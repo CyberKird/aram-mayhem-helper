@@ -1,42 +1,52 @@
 {
  "champion": "Viego",
- "source": "https://u.gg/lol/champions/aram/viego-aram",
+ "source": "https://aramkit.com/en-US/champions/viego",
+ "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
   "Mark"
  ],
  "starting": [
-  "Tunneler",
-  "Glowing Mote"
+  "Long Sword",
+  "Guardian's Blade"
  ],
  "core": [
-  "Sundered Sky",
-  "Mercury's Treads",
-  "Death's Dance"
+  "The Collector",
+  "Gluttonous Greaves",
+  "Lord Dominik's Regards",
+  "Infinity Edge"
  ],
  "fourth": [
-  "Immortal Shieldbow",
-  "Lord Dominik's Regards"
- ],
- "fifth": [
-  "Infinity Edge",
-  "Immortal Shieldbow",
-  "Lord Dominik's Regards"
- ],
- "sixth": [
-  "Lord Dominik's Regards",
-  "Blade of The Ruined King",
-  "Immortal Shieldbow"
- ],
- "pool": [
-  "Tunneler",
-  "Glowing Mote",
-  "Sundered Sky",
-  "Mercury's Treads",
   "Death's Dance",
   "Immortal Shieldbow",
+  "Blade of The Ruined King",
+  "Kraken Slayer"
+ ],
+ "fifth": [
+  "Endless Hunger",
+  "Death's Dance",
+  "Immortal Shieldbow",
+  "Blade of The Ruined King"
+ ],
+ "sixth": [
+  "Endless Hunger",
+  "Death's Dance",
+  "Bloodthirster",
+  "Maw of Malmortius"
+ ],
+ "pool": [
+  "Long Sword",
+  "Guardian's Blade",
+  "The Collector",
+  "Gluttonous Greaves",
   "Lord Dominik's Regards",
   "Infinity Edge",
-  "Blade of The Ruined King"
+  "Death's Dance",
+  "Immortal Shieldbow",
+  "Blade of The Ruined King",
+  "Kraken Slayer",
+  "Endless Hunger",
+  "Bloodthirster",
+  "Maw of Malmortius"
  ]
 }

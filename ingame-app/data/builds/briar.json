@@ -1,41 +1,51 @@
 {
  "champion": "Briar",
- "source": "https://u.gg/lol/champions/aram/briar-aram",
+ "source": "https://aramkit.com/en-US/champions/briar",
+ "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
   "Mark"
  ],
  "starting": [
   "Long Sword",
-  "Caulfield's Warhammer"
+  "Pickaxe"
  ],
  "core": [
-  "Sundered Sky",
-  "Mercury's Treads",
-  "Eclipse"
+  "The Collector",
+  "Gluttonous Greaves",
+  "Death's Dance",
+  "Lord Dominik's Regards"
  ],
  "fourth": [
-  "Death's Dance",
-  "Spirit Visage"
+  "Endless Hunger",
+  "Infinity Edge",
+  "Mortal Reminder",
+  "Blade of The Ruined King"
  ],
  "fifth": [
-  "Blade of The Ruined King",
-  "Death's Dance",
-  "Spirit Visage"
+  "Endless Hunger",
+  "Infinity Edge",
+  "Mortal Reminder",
+  "Blade of The Ruined King"
  ],
  "sixth": [
+  "Endless Hunger",
+  "Infinity Edge",
   "Spirit Visage",
-  "Death's Dance",
-  "Blade of The Ruined King"
+  "Sterak's Gage"
  ],
  "pool": [
   "Long Sword",
-  "Caulfield's Warhammer",
-  "Sundered Sky",
-  "Mercury's Treads",
-  "Eclipse",
+  "Pickaxe",
+  "The Collector",
+  "Gluttonous Greaves",
   "Death's Dance",
+  "Lord Dominik's Regards",
+  "Endless Hunger",
+  "Infinity Edge",
+  "Mortal Reminder",
+  "Blade of The Ruined King",
   "Spirit Visage",
-  "Blade of The Ruined King"
+  "Sterak's Gage"
  ]
 }

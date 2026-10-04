@@ -1,6 +1,7 @@
 {
  "champion": "Zac",
- "source": "https://u.gg/lol/champions/aram/zac-aram",
+ "source": "https://aramkit.com/en-US/champions/zac",
+ "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
   "Mark"
@@ -11,33 +12,38 @@
  ],
  "core": [
   "Heartsteel",
-  "Spirit Visage",
-  "Unending Despair"
+  "Plated Steelcaps",
+  "Unending Despair",
+  "Warmog's Armor"
  ],
  "fourth": [
-  "Sunfire Aegis",
-  "Thornmail"
- ],
- "fifth": [
+  "Riftmaker",
+  "Spirit Visage",
   "Jak'Sho, The Protean",
-  "Thornmail",
   "Hollow Radiance"
  ],
- "sixth": [
-  "Thornmail",
+ "fifth": [
   "Riftmaker",
-  "Sunfire Aegis"
+  "Hollow Radiance",
+  "Jak'Sho, The Protean",
+  "Spirit Visage"
+ ],
+ "sixth": [
+  "Riftmaker",
+  "Jak'Sho, The Protean",
+  "Hollow Radiance",
+  "Spirit Visage"
  ],
  "pool": [
   "Giant's Belt",
   "Ruby Crystal",
   "Heartsteel",
-  "Spirit Visage",
+  "Plated Steelcaps",
   "Unending Despair",
-  "Sunfire Aegis",
-  "Thornmail",
+  "Warmog's Armor",
+  "Riftmaker",
+  "Spirit Visage",
   "Jak'Sho, The Protean",
-  "Hollow Radiance",
-  "Riftmaker"
+  "Hollow Radiance"
  ]
 }

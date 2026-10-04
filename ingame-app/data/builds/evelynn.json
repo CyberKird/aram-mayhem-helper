@@ -1,41 +1,48 @@
 {
  "champion": "Evelynn",
- "source": "https://u.gg/lol/champions/aram/evelynn-aram",
+ "source": "https://aramkit.com/en-US/champions/evelynn",
+ "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
   "Mark"
  ],
  "starting": [
-  "Boots",
-  "Hextech Alternator"
+  "Amplifying Tome",
+  "Guardian's Orb"
  ],
  "core": [
-  "Stormsurge",
+  "Lich Bane",
   "Sorcerer's Shoes",
-  "Lich Bane"
+  "Rabadon's Deathcap",
+  "Shadowflame"
  ],
  "fourth": [
-  "Rabadon's Deathcap",
-  "Shadowflame"
+  "Void Staff",
+  "Stormsurge",
+  "Zhonya's Hourglass"
  ],
  "fifth": [
+  "Banshee's Veil",
   "Void Staff",
-  "Shadowflame",
-  "Rabadon's Deathcap"
+  "Stormsurge",
+  "Zhonya's Hourglass"
  ],
  "sixth": [
-  "Rabadon's Deathcap",
+  "Banshee's Veil",
+  "Stormsurge",
   "Void Staff",
-  "Shadowflame"
+  "Zhonya's Hourglass"
  ],
  "pool": [
-  "Boots",
-  "Hextech Alternator",
-  "Stormsurge",
-  "Sorcerer's Shoes",
+  "Amplifying Tome",
+  "Guardian's Orb",
   "Lich Bane",
+  "Sorcerer's Shoes",
   "Rabadon's Deathcap",
   "Shadowflame",
-  "Void Staff"
+  "Void Staff",
+  "Stormsurge",
+  "Zhonya's Hourglass",
+  "Banshee's Veil"
  ]
 }

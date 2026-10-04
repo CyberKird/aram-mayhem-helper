@@ -1,45 +1,52 @@
 {
  "champion": "Braum",
- "source": "https://u.gg/lol/champions/aram/braum-aram",
+ "source": "https://aramkit.com/en-US/champions/braum",
+ "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
   "Mark"
  ],
  "starting": [
   "Giant's Belt",
-  "Ruby Crystal",
-  "Health Potion"
+  "Ruby Crystal"
  ],
  "core": [
   "Heartsteel",
-  "Mercury's Treads",
+  "Plated Steelcaps",
+  "Unending Despair",
   "Warmog's Armor"
  ],
  "fourth": [
-  "Thornmail",
-  "Kaenic Rookern"
+  "Winter's Approach",
+  "Jak'Sho, The Protean",
+  "Spirit Visage",
+  "Randuin's Omen"
  ],
  "fifth": [
-  "Thornmail",
-  "Unending Despair",
-  "Jak'Sho, The Protean"
+  "Jak'Sho, The Protean",
+  "Frozen Heart",
+  "Winter's Approach",
+  "Spirit Visage"
  ],
  "sixth": [
-  "Unending Despair",
-  "Thornmail",
-  "Spirit Visage"
+  "Knight's Vow",
+  "Spirit Visage",
+  "Jak'Sho, The Protean",
+  "Overlord's Bloodmail"
  ],
  "pool": [
   "Giant's Belt",
   "Ruby Crystal",
-  "Health Potion",
   "Heartsteel",
-  "Mercury's Treads",
-  "Warmog's Armor",
-  "Thornmail",
-  "Kaenic Rookern",
+  "Plated Steelcaps",
   "Unending Despair",
+  "Warmog's Armor",
+  "Winter's Approach",
   "Jak'Sho, The Protean",
-  "Spirit Visage"
+  "Spirit Visage",
+  "Randuin's Omen",
+  "Frozen Heart",
+  "Knight's Vow",
+  "Overlord's Bloodmail"
  ]
 }

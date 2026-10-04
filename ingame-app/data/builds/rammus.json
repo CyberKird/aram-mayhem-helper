@@ -1,45 +1,50 @@
 {
  "champion": "Rammus",
- "source": "https://u.gg/lol/champions/aram/rammus-aram",
+ "source": "https://aramkit.com/en-US/champions/rammus",
+ "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
-  "Ghost"
+  "Mark"
  ],
  "starting": [
-  "Boots",
-  "Cloth Armor",
-  "Bramble Vest"
+  "Giant's Belt",
+  "Ruby Crystal"
  ],
  "core": [
-  "Thornmail",
-  "Plated Steelcaps",
-  "Unending Despair"
- ],
- "fourth": [
-  "Sunfire Aegis",
+  "Heartsteel",
+  "Mercury's Treads",
+  "Unending Despair",
   "Warmog's Armor"
  ],
- "fifth": [
+ "fourth": [
+  "Force of Nature",
   "Jak'Sho, The Protean",
-  "Warmog's Armor",
-  "Kaenic Rookern"
+  "Sunfire Aegis",
+  "Thornmail"
+ ],
+ "fifth": [
+  "Force of Nature",
+  "Hollow Radiance",
+  "Jak'Sho, The Protean",
+  "Thornmail"
  ],
  "sixth": [
-  "Sunfire Aegis",
-  "Kaenic Rookern",
-  "Protoplasm Harness"
+  "Jak'Sho, The Protean",
+  "Force of Nature",
+  "Thornmail",
+  "Sunfire Aegis"
  ],
  "pool": [
-  "Boots",
-  "Cloth Armor",
-  "Bramble Vest",
-  "Thornmail",
-  "Plated Steelcaps",
+  "Giant's Belt",
+  "Ruby Crystal",
+  "Heartsteel",
+  "Mercury's Treads",
   "Unending Despair",
-  "Sunfire Aegis",
   "Warmog's Armor",
+  "Force of Nature",
   "Jak'Sho, The Protean",
-  "Kaenic Rookern",
-  "Protoplasm Harness"
+  "Sunfire Aegis",
+  "Thornmail",
+  "Hollow Radiance"
  ]
 }

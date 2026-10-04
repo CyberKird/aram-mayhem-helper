@@ -1,43 +1,47 @@
 {
  "champion": "LeBlanc",
- "source": "https://u.gg/lol/champions/aram/leblanc-aram",
+ "source": "https://aramkit.com/en-US/champions/leblanc",
+ "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
   "Ignite"
  ],
  "starting": [
-  "Refillable Potion",
   "Lost Chapter"
  ],
  "core": [
   "Luden's Echo",
-  "Stormsurge",
-  "Sorcerer's Shoes"
+  "Gluttonous Greaves",
+  "Rabadon's Deathcap",
+  "Shadowflame"
  ],
  "fourth": [
-  "Rabadon's Deathcap",
-  "Shadowflame"
+  "Banshee's Veil",
+  "Stormsurge",
+  "Void Staff",
+  "Zhonya's Hourglass"
  ],
  "fifth": [
-  "Rabadon's Deathcap",
-  "Zhonya's Hourglass",
-  "Shadowflame"
+  "Banshee's Veil",
+  "Stormsurge",
+  "Void Staff",
+  "Zhonya's Hourglass"
  ],
  "sixth": [
-  "Rabadon's Deathcap",
+  "Stormsurge",
+  "Banshee's Veil",
   "Void Staff",
-  "Banshee's Veil"
+  "Zhonya's Hourglass"
  ],
  "pool": [
-  "Refillable Potion",
   "Lost Chapter",
   "Luden's Echo",
-  "Stormsurge",
-  "Sorcerer's Shoes",
+  "Gluttonous Greaves",
   "Rabadon's Deathcap",
   "Shadowflame",
-  "Zhonya's Hourglass",
+  "Banshee's Veil",
+  "Stormsurge",
   "Void Staff",
-  "Banshee's Veil"
+  "Zhonya's Hourglass"
  ]
 }

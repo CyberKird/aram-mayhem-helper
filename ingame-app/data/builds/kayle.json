@@ -1,40 +1,52 @@
 {
  "champion": "Kayle",
- "source": "https://u.gg/lol/champions/aram/kayle-aram",
+ "source": "https://aramkit.com/en-US/champions/kayle",
+ "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
   "Ghost"
  ],
  "starting": [
-  "Dagger",
-  "Berserker's Greaves"
+  "Recurve Bow",
+  "Amplifying Tome",
+  "Glowing Mote"
  ],
  "core": [
-  "Berserker's Greaves",
-  "Blade of The Ruined King",
-  "Guinsoo's Rageblade"
+  "Nashor's Tooth",
+  "Gluttonous Greaves",
+  "Dusk and Dawn",
+  "Rabadon's Deathcap"
  ],
  "fourth": [
-  "Terminus",
-  "Wit's End"
+  "Shadowflame",
+  "Statikk Shiv",
+  "Riftmaker",
+  "Runaan's Hurricane"
  ],
  "fifth": [
-  "Terminus",
-  "Wit's End",
-  "Dusk and Dawn"
+  "Shadowflame",
+  "Void Staff",
+  "Statikk Shiv",
+  "Riftmaker"
  ],
  "sixth": [
-  "Terminus",
-  "Wit's End",
-  "Dusk and Dawn"
+  "Void Staff",
+  "Statikk Shiv",
+  "Shadowflame",
+  "Riftmaker"
  ],
  "pool": [
-  "Dagger",
-  "Berserker's Greaves",
-  "Blade of The Ruined King",
-  "Guinsoo's Rageblade",
-  "Terminus",
-  "Wit's End",
-  "Dusk and Dawn"
+  "Recurve Bow",
+  "Amplifying Tome",
+  "Glowing Mote",
+  "Nashor's Tooth",
+  "Gluttonous Greaves",
+  "Dusk and Dawn",
+  "Rabadon's Deathcap",
+  "Shadowflame",
+  "Statikk Shiv",
+  "Riftmaker",
+  "Runaan's Hurricane",
+  "Void Staff"
  ]
 }

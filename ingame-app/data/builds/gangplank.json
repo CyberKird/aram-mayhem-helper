@@ -1,44 +1,52 @@
 {
  "champion": "Gangplank",
- "source": "https://u.gg/lol/champions/aram/gangplank-aram",
+ "source": "https://aramkit.com/en-US/champions/gangplank",
+ "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
   "Mark"
  ],
  "starting": [
   "Long Sword",
-  "Refillable Potion",
-  "Sheen"
+  "Guardian's Blade"
  ],
  "core": [
   "Essence Reaver",
+  "Gluttonous Greaves",
   "The Collector",
-  "Ionian Boots of Lucidity"
+  "Infinity Edge"
  ],
  "fourth": [
-  "Infinity Edge",
-  "Lord Dominik's Regards"
+  "Hubris",
+  "Lord Dominik's Regards",
+  "Axiom Arc",
+  "Mortal Reminder"
  ],
  "fifth": [
-  "Immortal Shieldbow",
+  "Endless Hunger",
+  "Hubris",
   "Lord Dominik's Regards",
-  "Infinity Edge"
+  "Death's Dance"
  ],
  "sixth": [
-  "Axiom Arc",
-  "Lord Dominik's Regards",
-  "Infinity Edge"
+  "Voltaic Cyclosword",
+  "Endless Hunger",
+  "Death's Dance",
+  "Hubris"
  ],
  "pool": [
   "Long Sword",
-  "Refillable Potion",
-  "Sheen",
+  "Guardian's Blade",
   "Essence Reaver",
+  "Gluttonous Greaves",
   "The Collector",
-  "Ionian Boots of Lucidity",
   "Infinity Edge",
+  "Hubris",
   "Lord Dominik's Regards",
-  "Immortal Shieldbow",
-  "Axiom Arc"
+  "Axiom Arc",
+  "Mortal Reminder",
+  "Endless Hunger",
+  "Death's Dance",
+  "Voltaic Cyclosword"
  ]
 }

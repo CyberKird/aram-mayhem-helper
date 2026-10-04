@@ -1,45 +1,52 @@
 {
  "champion": "Nasus",
- "source": "https://u.gg/lol/champions/aram/nasus-aram",
+ "source": "https://aramkit.com/en-US/champions/nasus",
+ "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
-  "Mark"
+  "Ghost"
  ],
  "starting": [
-  "Boots",
-  "Refillable Potion",
+  "Ruby Crystal",
   "Sheen"
  ],
  "core": [
   "Trinity Force",
-  "Mercury's Treads",
-  "Frozen Heart"
+  "Gluttonous Greaves",
+  "Frozen Heart",
+  "Sundered Sky"
  ],
  "fourth": [
+  "Death's Dance",
+  "Rylai's Crystal Scepter",
   "Spirit Visage",
-  "Thornmail"
+  "Force of Nature"
  ],
  "fifth": [
-  "Spirit Visage",
-  "Thornmail",
+  "Endless Hunger",
+  "Death's Dance",
+  "Warmog's Armor",
   "Force of Nature"
  ],
  "sixth": [
-  "Sundered Sky",
+  "Endless Hunger",
+  "Death's Dance",
   "Jak'Sho, The Protean",
-  "Thornmail"
+  "Warmog's Armor"
  ],
  "pool": [
-  "Boots",
-  "Refillable Potion",
+  "Ruby Crystal",
   "Sheen",
   "Trinity Force",
-  "Mercury's Treads",
+  "Gluttonous Greaves",
   "Frozen Heart",
-  "Spirit Visage",
-  "Thornmail",
-  "Force of Nature",
   "Sundered Sky",
+  "Death's Dance",
+  "Rylai's Crystal Scepter",
+  "Spirit Visage",
+  "Force of Nature",
+  "Endless Hunger",
+  "Warmog's Armor",
   "Jak'Sho, The Protean"
  ]
 }

@@ -1,42 +1,48 @@
 {
  "champion": "Locke",
- "source": "https://u.gg/lol/champions/aram/locke-aram",
+ "source": "https://aramkit.com/en-US/champions/locke",
+ "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
-  "Ghost"
+  "Mark"
  ],
  "starting": [
-  "Boots",
-  "Hextech Alternator"
+  "Amplifying Tome",
+  "Guardian's Orb"
  ],
  "core": [
+  "Shadowflame",
+  "Gluttonous Greaves",
   "Lich Bane",
-  "Sorcerer's Shoes",
-  "Shadowflame"
- ],
- "fourth": [
-  "Stormsurge",
   "Rabadon's Deathcap"
  ],
- "fifth": [
-  "Rabadon's Deathcap",
+ "fourth": [
+  "Void Staff",
   "Stormsurge",
   "Zhonya's Hourglass"
  ],
- "sixth": [
-  "Rabadon's Deathcap",
+ "fifth": [
+  "Stormsurge",
+  "Banshee's Veil",
   "Void Staff",
   "Zhonya's Hourglass"
  ],
- "pool": [
-  "Boots",
-  "Hextech Alternator",
-  "Lich Bane",
-  "Sorcerer's Shoes",
-  "Shadowflame",
+ "sixth": [
+  "Banshee's Veil",
   "Stormsurge",
-  "Rabadon's Deathcap",
   "Zhonya's Hourglass",
   "Void Staff"
+ ],
+ "pool": [
+  "Amplifying Tome",
+  "Guardian's Orb",
+  "Shadowflame",
+  "Gluttonous Greaves",
+  "Lich Bane",
+  "Rabadon's Deathcap",
+  "Void Staff",
+  "Stormsurge",
+  "Zhonya's Hourglass",
+  "Banshee's Veil"
  ]
 }

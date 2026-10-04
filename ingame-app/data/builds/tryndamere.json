@@ -1,6 +1,7 @@
 {
  "champion": "Tryndamere",
- "source": "https://u.gg/lol/champions/aram/tryndamere-aram",
+ "source": "https://aramkit.com/en-US/champions/tryndamere",
+ "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
   "Mark"
@@ -10,33 +11,42 @@
   "Berserker's Greaves"
  ],
  "core": [
-  "Heartsteel",
+  "Phantom Dancer",
   "Berserker's Greaves",
+  "Infinity Edge",
   "Blade of The Ruined King"
  ],
  "fourth": [
-  "Infinity Edge",
+  "Lord Dominik's Regards",
+  "Fiendhunter Bolts",
+  "The Collector",
   "Navori Flickerblade"
  ],
  "fifth": [
-  "Navori Flickerblade",
+  "Bloodthirster",
   "Lord Dominik's Regards",
-  "Bloodthirster"
+  "Death's Dance",
+  "Fiendhunter Bolts"
  ],
  "sixth": [
-  "Infinity Edge",
-  "Phantom Dancer",
-  "Bloodthirster"
+  "Endless Hunger",
+  "Death's Dance",
+  "Bloodthirster",
+  "Experimental Hexplate"
  ],
  "pool": [
   "Dagger",
   "Berserker's Greaves",
-  "Heartsteel",
-  "Blade of The Ruined King",
+  "Phantom Dancer",
   "Infinity Edge",
-  "Navori Flickerblade",
+  "Blade of The Ruined King",
   "Lord Dominik's Regards",
+  "Fiendhunter Bolts",
+  "The Collector",
+  "Navori Flickerblade",
   "Bloodthirster",
-  "Phantom Dancer"
+  "Death's Dance",
+  "Endless Hunger",
+  "Experimental Hexplate"
  ]
 }

@@ -1,43 +1,49 @@
 {
  "champion": "Yuumi",
- "source": "https://u.gg/lol/champions/aram/yuumi-aram",
+ "source": "https://aramkit.com/en-US/champions/yuumi",
+ "mode": "ARAM Mayhem",
  "summoners": [
-  "Exhaust",
-  "Heal"
+  "Heal",
+  "Ignite"
  ],
  "starting": [
   "Tear of the Goddess",
   "Bandleglass Mirror"
  ],
  "core": [
-  "Moonstone Renewer",
   "Whispering Circlet",
+  "Ionian Boots of Lucidity",
+  "Moonstone Renewer",
   "Ardent Censer"
  ],
  "fourth": [
-  "Shadowflame",
-  "Mikael's Blessing"
+  "Staff of Flowing Water",
+  "Dawncore",
+  "Knight's Vow",
+  "Shurelya's Battlesong"
  ],
  "fifth": [
-  "Mikael's Blessing",
-  "Redemption",
-  "Staff of Flowing Water"
+  "Staff of Flowing Water",
+  "Dawncore",
+  "Knight's Vow",
+  "Shurelya's Battlesong"
  ],
  "sixth": [
+  "Staff of Flowing Water",
+  "Shurelya's Battlesong",
   "Dawncore",
-  "Mikael's Blessing",
-  "Staff of Flowing Water"
+  "Knight's Vow"
  ],
  "pool": [
   "Tear of the Goddess",
   "Bandleglass Mirror",
-  "Moonstone Renewer",
   "Whispering Circlet",
+  "Ionian Boots of Lucidity",
+  "Moonstone Renewer",
   "Ardent Censer",
-  "Shadowflame",
-  "Mikael's Blessing",
-  "Redemption",
   "Staff of Flowing Water",
-  "Dawncore"
+  "Dawncore",
+  "Knight's Vow",
+  "Shurelya's Battlesong"
  ]
 }

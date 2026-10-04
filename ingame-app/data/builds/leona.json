@@ -1,47 +1,51 @@
 {
  "champion": "Leona",
- "source": "https://u.gg/lol/champions/aram/leona-aram",
+ "source": "https://aramkit.com/en-US/champions/leona",
+ "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
   "Mark"
  ],
  "starting": [
   "Giant's Belt",
-  "Ruby Crystal",
-  "Health Potion"
+  "Ruby Crystal"
  ],
  "core": [
   "Heartsteel",
   "Mercury's Treads",
-  "Unending Despair"
+  "Unending Despair",
+  "Warmog's Armor"
  ],
  "fourth": [
-  "Thornmail",
-  "Hollow Radiance"
+  "Hollow Radiance",
+  "Winter's Approach",
+  "Spirit Visage",
+  "Jak'Sho, The Protean"
  ],
  "fifth": [
-  "Jak'Sho, The Protean",
-  "Warmog's Armor",
-  "Sunfire Aegis"
+  "Overlord's Bloodmail",
+  "Spirit Visage",
+  "Hollow Radiance",
+  "Jak'Sho, The Protean"
  ],
  "sixth": [
   "Force of Nature",
-  "Kaenic Rookern",
-  "Hollow Radiance"
+  "Overlord's Bloodmail",
+  "Jak'Sho, The Protean",
+  "Spirit Visage"
  ],
  "pool": [
   "Giant's Belt",
   "Ruby Crystal",
-  "Health Potion",
   "Heartsteel",
   "Mercury's Treads",
   "Unending Despair",
-  "Thornmail",
-  "Hollow Radiance",
-  "Jak'Sho, The Protean",
   "Warmog's Armor",
-  "Sunfire Aegis",
-  "Force of Nature",
-  "Kaenic Rookern"
+  "Hollow Radiance",
+  "Winter's Approach",
+  "Spirit Visage",
+  "Jak'Sho, The Protean",
+  "Overlord's Bloodmail",
+  "Force of Nature"
  ]
 }

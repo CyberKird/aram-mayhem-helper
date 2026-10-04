@@ -1,42 +1,51 @@
 {
  "champion": "Syndra",
- "source": "https://u.gg/lol/champions/aram/syndra-aram",
+ "source": "https://aramkit.com/en-US/champions/syndra",
+ "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
   "Ghost"
  ],
  "starting": [
+  "Refillable Potion",
   "Lost Chapter"
  ],
  "core": [
   "Luden's Echo",
-  "Stormsurge",
-  "Sorcerer's Shoes"
+  "Gluttonous Greaves",
+  "Rabadon's Deathcap",
+  "Shadowflame"
  ],
  "fourth": [
-  "Rabadon's Deathcap",
-  "Shadowflame"
+  "Void Staff",
+  "Stormsurge",
+  "Zhonya's Hourglass",
+  "Liandry's Torment"
  ],
  "fifth": [
-  "Void Staff",
-  "Rabadon's Deathcap",
-  "Shadowflame"
- ],
- "sixth": [
   "Banshee's Veil",
-  "Zhonya's Hourglass",
+  "Stormsurge",
+  "Void Staff",
   "Cryptbloom"
  ],
+ "sixth": [
+  "Stormsurge",
+  "Banshee's Veil",
+  "Cryptbloom",
+  "Void Staff"
+ ],
  "pool": [
+  "Refillable Potion",
   "Lost Chapter",
   "Luden's Echo",
-  "Stormsurge",
-  "Sorcerer's Shoes",
+  "Gluttonous Greaves",
   "Rabadon's Deathcap",
   "Shadowflame",
   "Void Staff",
-  "Banshee's Veil",
+  "Stormsurge",
   "Zhonya's Hourglass",
+  "Liandry's Torment",
+  "Banshee's Veil",
   "Cryptbloom"
  ]
 }

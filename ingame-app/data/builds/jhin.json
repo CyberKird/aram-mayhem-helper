@@ -1,45 +1,53 @@
 {
  "champion": "Jhin",
- "source": "https://u.gg/lol/champions/aram/jhin-aram",
+ "source": "https://aramkit.com/en-US/champions/jhin",
+ "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
   "Ghost"
  ],
  "starting": [
   "Boots",
-  "Health Potion",
   "Serrated Dirk"
  ],
  "core": [
-  "The Collector",
-  "Infinity Edge",
-  "Boots of Swiftness"
+  "Hubris",
+  "Gluttonous Greaves",
+  "Axiom Arc",
+  "Infinity Edge"
  ],
  "fourth": [
+  "Lord Dominik's Regards",
   "Rapid Firecannon",
-  "Lord Dominik's Regards"
+  "Bloodthirster",
+  "Mortal Reminder"
  ],
  "fifth": [
   "Lord Dominik's Regards",
-  "Bloodthirster",
-  "Rapid Firecannon"
+  "Hexoptics C44",
+  "Phantom Dancer",
+  "Edge of Night"
  ],
  "sixth": [
-  "Bloodthirster",
+  "Youmuu's Ghostblade",
   "Edge of Night",
-  "Stormrazor"
+  "Lord Dominik's Regards",
+  "Hexoptics C44"
  ],
  "pool": [
   "Boots",
-  "Health Potion",
   "Serrated Dirk",
-  "The Collector",
+  "Hubris",
+  "Gluttonous Greaves",
+  "Axiom Arc",
   "Infinity Edge",
-  "Boots of Swiftness",
-  "Rapid Firecannon",
   "Lord Dominik's Regards",
+  "Rapid Firecannon",
   "Bloodthirster",
+  "Mortal Reminder",
+  "Hexoptics C44",
+  "Phantom Dancer",
   "Edge of Night",
-  "Stormrazor"
+  "Youmuu's Ghostblade"
  ]
 }

@@ -1,6 +1,7 @@
 {
  "champion": "Thresh",
- "source": "https://u.gg/lol/champions/aram/thresh-aram",
+ "source": "https://aramkit.com/en-US/champions/thresh",
+ "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
   "Mark"
@@ -12,32 +13,38 @@
  "core": [
   "Heartsteel",
   "Mercury's Treads",
+  "Unending Despair",
   "Warmog's Armor"
  ],
  "fourth": [
-  "Kaenic Rookern",
-  "Winter's Approach"
+  "Winter's Approach",
+  "Spirit Visage",
+  "Jak'Sho, The Protean",
+  "Force of Nature"
  ],
  "fifth": [
-  "Thornmail",
-  "Winter's Approach",
-  "Randuin's Omen"
+  "Force of Nature",
+  "Spirit Visage",
+  "Jak'Sho, The Protean",
+  "Winter's Approach"
  ],
  "sixth": [
-  "Kaenic Rookern",
-  "Randuin's Omen",
-  "Force of Nature"
+  "Jak'Sho, The Protean",
+  "Spirit Visage",
+  "Force of Nature",
+  "Hollow Radiance"
  ],
  "pool": [
   "Giant's Belt",
   "Ruby Crystal",
   "Heartsteel",
   "Mercury's Treads",
+  "Unending Despair",
   "Warmog's Armor",
-  "Kaenic Rookern",
   "Winter's Approach",
-  "Thornmail",
-  "Randuin's Omen",
-  "Force of Nature"
+  "Spirit Visage",
+  "Jak'Sho, The Protean",
+  "Force of Nature",
+  "Hollow Radiance"
  ]
 }

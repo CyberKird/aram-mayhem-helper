@@ -1,6 +1,7 @@
 {
  "champion": "Taric",
- "source": "https://u.gg/lol/champions/aram/taric-aram",
+ "source": "https://aramkit.com/en-US/champions/taric",
+ "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
   "Mark"
@@ -12,33 +13,39 @@
  "core": [
   "Heartsteel",
   "Mercury's Treads",
-  "Spirit Visage"
+  "Unending Despair",
+  "Warmog's Armor"
  ],
  "fourth": [
-  "Unending Despair",
-  "Winter's Approach"
+  "Winter's Approach",
+  "Jak'Sho, The Protean",
+  "Spirit Visage",
+  "Kaenic Rookern"
  ],
  "fifth": [
-  "Unending Despair",
-  "Warmog's Armor",
-  "Winter's Approach"
+  "Jak'Sho, The Protean",
+  "Spirit Visage",
+  "Winter's Approach",
+  "Frozen Heart"
  ],
  "sixth": [
-  "Frozen Heart",
   "Jak'Sho, The Protean",
-  "Redemption"
+  "Spirit Visage",
+  "Overlord's Bloodmail",
+  "Winter's Approach"
  ],
  "pool": [
   "Giant's Belt",
   "Ruby Crystal",
   "Heartsteel",
   "Mercury's Treads",
-  "Spirit Visage",
   "Unending Despair",
-  "Winter's Approach",
   "Warmog's Armor",
-  "Frozen Heart",
+  "Winter's Approach",
   "Jak'Sho, The Protean",
-  "Redemption"
+  "Spirit Visage",
+  "Kaenic Rookern",
+  "Frozen Heart",
+  "Overlord's Bloodmail"
  ]
 }

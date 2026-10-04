@@ -1,44 +1,50 @@
 {
  "champion": "Annie",
- "source": "https://u.gg/lol/champions/aram/annie-aram",
+ "source": "https://aramkit.com/en-US/champions/annie",
+ "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
-  "Mark"
+  "Ghost"
  ],
  "starting": [
-  "Refillable Potion",
-  "Lost Chapter"
+  "Amplifying Tome",
+  "Fated Ashes"
  ],
  "core": [
-  "Malignance",
-  "Sorcerer's Shoes",
-  "Shadowflame"
+  "Blackfire Torch",
+  "Gluttonous Greaves",
+  "Liandry's Torment",
+  "Malignance"
  ],
  "fourth": [
   "Rabadon's Deathcap",
-  "Stormsurge"
+  "Rylai's Crystal Scepter",
+  "Shadowflame",
+  "Void Staff"
  ],
  "fifth": [
+  "Rylai's Crystal Scepter",
+  "Shadowflame",
   "Rabadon's Deathcap",
-  "Zhonya's Hourglass",
-  "Liandry's Torment"
+  "Stormsurge"
  ],
  "sixth": [
-  "Morellonomicon",
-  "Banshee's Veil",
+  "Shadowflame",
+  "Stormsurge",
+  "Void Staff",
   "Rabadon's Deathcap"
  ],
  "pool": [
-  "Refillable Potion",
-  "Lost Chapter",
-  "Malignance",
-  "Sorcerer's Shoes",
-  "Shadowflame",
-  "Rabadon's Deathcap",
-  "Stormsurge",
-  "Zhonya's Hourglass",
+  "Amplifying Tome",
+  "Fated Ashes",
+  "Blackfire Torch",
+  "Gluttonous Greaves",
   "Liandry's Torment",
-  "Morellonomicon",
-  "Banshee's Veil"
+  "Malignance",
+  "Rabadon's Deathcap",
+  "Rylai's Crystal Scepter",
+  "Shadowflame",
+  "Void Staff",
+  "Stormsurge"
  ]
 }

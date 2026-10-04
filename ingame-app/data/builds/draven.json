@@ -1,41 +1,51 @@
 {
  "champion": "Draven",
- "source": "https://u.gg/lol/champions/aram/draven-aram",
+ "source": "https://aramkit.com/en-US/champions/draven",
+ "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
-  "Mark"
+  "Cleanse"
  ],
  "starting": [
-  "Boots",
-  "Serrated Dirk"
+  "Long Sword",
+  "Pickaxe"
  ],
  "core": [
   "The Collector",
+  "Gluttonous Greaves",
   "Infinity Edge",
-  "Berserker's Greaves"
+  "Hubris"
  ],
  "fourth": [
   "Lord Dominik's Regards",
-  "Bloodthirster"
+  "Essence Reaver",
+  "Bloodthirster",
+  "Mortal Reminder"
  ],
  "fifth": [
-  "Rapid Firecannon",
+  "Hexoptics C44",
   "Lord Dominik's Regards",
+  "Essence Reaver",
   "Bloodthirster"
  ],
  "sixth": [
-  "Lord Dominik's Regards",
-  "Bloodthirster",
-  "Rapid Firecannon"
+  "Edge of Night",
+  "Hexoptics C44",
+  "Essence Reaver",
+  "Bloodthirster"
  ],
  "pool": [
-  "Boots",
-  "Serrated Dirk",
+  "Long Sword",
+  "Pickaxe",
   "The Collector",
+  "Gluttonous Greaves",
   "Infinity Edge",
-  "Berserker's Greaves",
+  "Hubris",
   "Lord Dominik's Regards",
+  "Essence Reaver",
   "Bloodthirster",
-  "Rapid Firecannon"
+  "Mortal Reminder",
+  "Hexoptics C44",
+  "Edge of Night"
  ]
 }

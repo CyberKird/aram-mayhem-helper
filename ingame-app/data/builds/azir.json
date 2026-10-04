@@ -1,43 +1,52 @@
 {
  "champion": "Azir",
- "source": "https://u.gg/lol/champions/aram/azir-aram",
+ "source": "https://aramkit.com/en-US/champions/azir",
+ "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
-  "Ghost"
+  "Barrier"
  ],
  "starting": [
-  "Refillable Potion",
-  "Lost Chapter"
+  "Blasting Wand",
+  "Dagger",
+  "Glowing Mote"
  ],
  "core": [
   "Nashor's Tooth",
-  "Berserker's Greaves",
-  "Luden's Echo"
+  "Gluttonous Greaves",
+  "Shadowflame",
+  "Rabadon's Deathcap"
  ],
  "fourth": [
-  "Rylai's Crystal Scepter",
-  "Shadowflame"
+  "Void Staff",
+  "Dusk and Dawn",
+  "Zhonya's Hourglass",
+  "Liandry's Torment"
  ],
  "fifth": [
-  "Rabadon's Deathcap",
-  "Rylai's Crystal Scepter",
-  "Zhonya's Hourglass"
+  "Void Staff",
+  "Zhonya's Hourglass",
+  "Dusk and Dawn",
+  "Riftmaker"
  ],
  "sixth": [
-  "Rabadon's Deathcap",
-  "Shadowflame",
-  "Void Staff"
+  "Void Staff",
+  "Zhonya's Hourglass",
+  "Dusk and Dawn",
+  "Riftmaker"
  ],
  "pool": [
-  "Refillable Potion",
-  "Lost Chapter",
+  "Blasting Wand",
+  "Dagger",
+  "Glowing Mote",
   "Nashor's Tooth",
-  "Berserker's Greaves",
-  "Luden's Echo",
-  "Rylai's Crystal Scepter",
+  "Gluttonous Greaves",
   "Shadowflame",
   "Rabadon's Deathcap",
+  "Void Staff",
+  "Dusk and Dawn",
   "Zhonya's Hourglass",
-  "Void Staff"
+  "Liandry's Torment",
+  "Riftmaker"
  ]
 }

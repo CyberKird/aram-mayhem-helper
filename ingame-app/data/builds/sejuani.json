@@ -1,45 +1,51 @@
 {
  "champion": "Sejuani",
- "source": "https://u.gg/lol/champions/aram/sejuani-aram",
+ "source": "https://aramkit.com/en-US/champions/sejuani",
+ "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
   "Mark"
  ],
  "starting": [
   "Giant's Belt",
-  "Ruby Crystal",
-  "Health Potion"
+  "Ruby Crystal"
  ],
  "core": [
   "Heartsteel",
-  "Mercury's Treads",
+  "Plated Steelcaps",
+  "Unending Despair",
   "Warmog's Armor"
  ],
  "fourth": [
-  "Thornmail",
-  "Unending Despair"
+  "Hollow Radiance",
+  "Spirit Visage",
+  "Jak'Sho, The Protean",
+  "Winter's Approach"
  ],
  "fifth": [
-  "Thornmail",
-  "Unending Despair",
-  "Frozen Heart"
+  "Overlord's Bloodmail",
+  "Hollow Radiance",
+  "Spirit Visage",
+  "Jak'Sho, The Protean"
  ],
  "sixth": [
-  "Kaenic Rookern",
-  "Frozen Heart",
+  "Overlord's Bloodmail",
+  "Spirit Visage",
+  "Jak'Sho, The Protean",
   "Force of Nature"
  ],
  "pool": [
   "Giant's Belt",
   "Ruby Crystal",
-  "Health Potion",
   "Heartsteel",
-  "Mercury's Treads",
-  "Warmog's Armor",
-  "Thornmail",
+  "Plated Steelcaps",
   "Unending Despair",
-  "Frozen Heart",
-  "Kaenic Rookern",
+  "Warmog's Armor",
+  "Hollow Radiance",
+  "Spirit Visage",
+  "Jak'Sho, The Protean",
+  "Winter's Approach",
+  "Overlord's Bloodmail",
   "Force of Nature"
  ]
 }

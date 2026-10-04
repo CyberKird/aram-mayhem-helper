@@ -1,41 +1,50 @@
 {
  "champion": "Kassadin",
- "source": "https://u.gg/lol/champions/aram/kassadin-aram",
+ "source": "https://aramkit.com/en-US/champions/kassadin",
+ "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
   "Mark"
  ],
  "starting": [
-  "Catalyst of Aeons"
+  "Blasting Wand",
+  "Tear of the Goddess"
  ],
  "core": [
   "Rod of Ages",
-  "Archangel's Staff",
-  "Sorcerer's Shoes"
+  "Gluttonous Greaves",
+  "Malignance",
+  "Archangel's Staff"
  ],
  "fourth": [
-  "Malignance",
+  "Rabadon's Deathcap",
+  "Frozen Heart",
+  "Shadowflame",
   "Lich Bane"
  ],
  "fifth": [
-  "Zhonya's Hourglass",
-  "Malignance",
-  "Rabadon's Deathcap"
- ],
- "sixth": [
-  "Void Staff",
   "Rabadon's Deathcap",
+  "Shadowflame",
+  "Frozen Heart",
   "Lich Bane"
  ],
- "pool": [
-  "Catalyst of Aeons",
-  "Rod of Ages",
-  "Archangel's Staff",
-  "Sorcerer's Shoes",
-  "Malignance",
-  "Lich Bane",
-  "Zhonya's Hourglass",
+ "sixth": [
   "Rabadon's Deathcap",
+  "Shadowflame",
+  "Lich Bane",
+  "Void Staff"
+ ],
+ "pool": [
+  "Blasting Wand",
+  "Tear of the Goddess",
+  "Rod of Ages",
+  "Gluttonous Greaves",
+  "Malignance",
+  "Archangel's Staff",
+  "Rabadon's Deathcap",
+  "Frozen Heart",
+  "Shadowflame",
+  "Lich Bane",
   "Void Staff"
  ]
 }

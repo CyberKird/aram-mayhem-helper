@@ -1,6 +1,7 @@
 {
  "champion": "Rell",
- "source": "https://u.gg/lol/champions/aram/rell-aram",
+ "source": "https://aramkit.com/en-US/champions/rell",
+ "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
   "Mark"
@@ -12,21 +13,26 @@
  "core": [
   "Heartsteel",
   "Mercury's Treads",
-  "Unending Despair"
+  "Unending Despair",
+  "Warmog's Armor"
  ],
  "fourth": [
   "Hollow Radiance",
-  "Warmog's Armor"
+  "Spirit Visage",
+  "Jak'Sho, The Protean",
+  "Winter's Approach"
  ],
  "fifth": [
-  "Thornmail",
+  "Riftmaker",
   "Spirit Visage",
-  "Jak'Sho, The Protean"
+  "Overlord's Bloodmail",
+  "Hollow Radiance"
  ],
  "sixth": [
-  "Kaenic Rookern",
-  "Thornmail",
-  "Jak'Sho, The Protean"
+  "Riftmaker",
+  "Spirit Visage",
+  "Jak'Sho, The Protean",
+  "Overlord's Bloodmail"
  ],
  "pool": [
   "Giant's Belt",
@@ -34,11 +40,12 @@
   "Heartsteel",
   "Mercury's Treads",
   "Unending Despair",
-  "Hollow Radiance",
   "Warmog's Armor",
-  "Thornmail",
+  "Hollow Radiance",
   "Spirit Visage",
   "Jak'Sho, The Protean",
-  "Kaenic Rookern"
+  "Winter's Approach",
+  "Riftmaker",
+  "Overlord's Bloodmail"
  ]
 }

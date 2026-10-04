@@ -1,43 +1,51 @@
 {
  "champion": "Soraka",
- "source": "https://u.gg/lol/champions/aram/soraka-aram",
+ "source": "https://aramkit.com/en-US/champions/soraka",
+ "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
   "Heal"
  ],
  "starting": [
-  "Health Potion",
-  "Catalyst of Aeons"
+  "Tear of the Goddess",
+  "Bandleglass Mirror"
  ],
  "core": [
-  "Rod of Ages",
   "Moonstone Renewer",
-  "Ionian Boots of Lucidity"
- ],
- "fourth": [
-  "Warmog's Armor",
-  "Whispering Circlet"
- ],
- "fifth": [
-  "Warmog's Armor",
+  "Ionian Boots of Lucidity",
   "Whispering Circlet",
   "Ardent Censer"
  ],
- "sixth": [
-  "Ardent Censer",
+ "fourth": [
   "Staff of Flowing Water",
-  "Mikael's Blessing"
+  "Dawncore",
+  "Redemption",
+  "Echoes of Helia"
+ ],
+ "fifth": [
+  "Staff of Flowing Water",
+  "Dawncore",
+  "Warmog's Armor",
+  "Echoes of Helia"
+ ],
+ "sixth": [
+  "Staff of Flowing Water",
+  "Dawncore",
+  "Mikael's Blessing",
+  "Warmog's Armor"
  ],
  "pool": [
-  "Health Potion",
-  "Catalyst of Aeons",
-  "Rod of Ages",
+  "Tear of the Goddess",
+  "Bandleglass Mirror",
   "Moonstone Renewer",
   "Ionian Boots of Lucidity",
-  "Warmog's Armor",
   "Whispering Circlet",
   "Ardent Censer",
   "Staff of Flowing Water",
+  "Dawncore",
+  "Redemption",
+  "Echoes of Helia",
+  "Warmog's Armor",
   "Mikael's Blessing"
  ]
 }

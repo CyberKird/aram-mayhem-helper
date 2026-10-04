@@ -1,43 +1,50 @@
 {
  "champion": "Taliyah",
- "source": "https://u.gg/lol/champions/aram/taliyah-aram",
+ "source": "https://aramkit.com/en-US/champions/taliyah",
+ "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
-  "Clarity"
+  "Ghost"
  ],
  "starting": [
-  "Refillable Potion",
   "Lost Chapter"
  ],
  "core": [
   "Blackfire Torch",
-  "Sorcerer's Shoes",
-  "Liandry's Torment"
+  "Gluttonous Greaves",
+  "Rabadon's Deathcap",
+  "Shadowflame"
  ],
  "fourth": [
-  "Stormsurge",
-  "Rabadon's Deathcap"
+  "Archangel's Staff",
+  "Void Staff",
+  "Zhonya's Hourglass",
+  "Rylai's Crystal Scepter"
  ],
  "fifth": [
-  "Shadowflame",
+  "Archangel's Staff",
+  "Void Staff",
   "Stormsurge",
-  "Rabadon's Deathcap"
+  "Cryptbloom"
  ],
  "sixth": [
-  "Rabadon's Deathcap",
-  "Morellonomicon",
-  "Zhonya's Hourglass"
+  "Banshee's Veil",
+  "Void Staff",
+  "Zhonya's Hourglass",
+  "Archangel's Staff"
  ],
  "pool": [
-  "Refillable Potion",
   "Lost Chapter",
   "Blackfire Torch",
-  "Sorcerer's Shoes",
-  "Liandry's Torment",
-  "Stormsurge",
+  "Gluttonous Greaves",
   "Rabadon's Deathcap",
   "Shadowflame",
-  "Morellonomicon",
-  "Zhonya's Hourglass"
+  "Archangel's Staff",
+  "Void Staff",
+  "Zhonya's Hourglass",
+  "Rylai's Crystal Scepter",
+  "Stormsurge",
+  "Cryptbloom",
+  "Banshee's Veil"
  ]
 }

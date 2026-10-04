@@ -1,42 +1,48 @@
 {
  "champion": "Ashe",
- "source": "https://u.gg/lol/champions/aram/ashe-aram",
+ "source": "https://aramkit.com/en-US/champions/ashe",
+ "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
   "Ghost"
  ],
  "starting": [
-  "B. F. Sword",
-  "Health Potion"
+  "B. F. Sword"
  ],
  "core": [
   "Yun Tal Wildarrows",
   "Berserker's Greaves",
-  "Runaan's Hurricane"
+  "Runaan's Hurricane",
+  "Blade of The Ruined King"
  ],
  "fourth": [
   "Infinity Edge",
-  "Blade of The Ruined King"
+  "Lord Dominik's Regards",
+  "Kraken Slayer",
+  "Mortal Reminder"
  ],
  "fifth": [
   "Lord Dominik's Regards",
   "Infinity Edge",
-  "Bloodthirster"
+  "Kraken Slayer",
+  "Mortal Reminder"
  ],
  "sixth": [
-  "Blade of The Ruined King",
+  "Kraken Slayer",
   "Lord Dominik's Regards",
-  "Bloodthirster"
+  "Infinity Edge",
+  "Cryptbloom"
  ],
  "pool": [
   "B. F. Sword",
-  "Health Potion",
   "Yun Tal Wildarrows",
   "Berserker's Greaves",
   "Runaan's Hurricane",
-  "Infinity Edge",
   "Blade of The Ruined King",
+  "Infinity Edge",
   "Lord Dominik's Regards",
-  "Bloodthirster"
+  "Kraken Slayer",
+  "Mortal Reminder",
+  "Cryptbloom"
  ]
 }

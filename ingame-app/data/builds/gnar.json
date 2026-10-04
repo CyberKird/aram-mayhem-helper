@@ -1,44 +1,53 @@
 {
  "champion": "Gnar",
- "source": "https://u.gg/lol/champions/aram/gnar-aram",
+ "source": "https://aramkit.com/en-US/champions/gnar",
+ "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
   "Mark"
  ],
  "starting": [
   "Giant's Belt",
-  "Ruby Crystal",
-  "Health Potion"
+  "Ruby Crystal"
  ],
  "core": [
   "Heartsteel",
-  "Mercury's Treads",
-  "Trinity Force"
+  "Berserker's Greaves",
+  "Warmog's Armor",
+  "Overlord's Bloodmail"
  ],
  "fourth": [
-  "Sterak's Gage",
-  "Wit's End"
+  "Unending Despair",
+  "Kaenic Rookern",
+  "Black Cleaver",
+  "Sterak's Gage"
  ],
  "fifth": [
+  "Unending Despair",
   "Sterak's Gage",
-  "Black Cleaver",
-  "Death's Dance"
+  "Trinity Force",
+  "Jak'Sho, The Protean"
  ],
  "sixth": [
+  "Jak'Sho, The Protean",
   "Sterak's Gage",
-  "Death's Dance",
-  "Wit's End"
+  "Force of Nature",
+  "Death's Dance"
  ],
  "pool": [
   "Giant's Belt",
   "Ruby Crystal",
-  "Health Potion",
   "Heartsteel",
-  "Mercury's Treads",
-  "Trinity Force",
-  "Sterak's Gage",
-  "Wit's End",
+  "Berserker's Greaves",
+  "Warmog's Armor",
+  "Overlord's Bloodmail",
+  "Unending Despair",
+  "Kaenic Rookern",
   "Black Cleaver",
+  "Sterak's Gage",
+  "Trinity Force",
+  "Jak'Sho, The Protean",
+  "Force of Nature",
   "Death's Dance"
  ]
 }

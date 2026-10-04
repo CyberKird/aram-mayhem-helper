@@ -34,7 +34,7 @@ def detect_offered_shards(shard_names, min_matches=2):
         return [], "jocul nu e in fata (nu citesc alte ferestre)"
 
     img = ocr_augments.capture_region(
-        ocr_augments.offer_region(win32gui.GetWindowRect(hwnd)))
+        ocr_augments.offer_region(ocr_augments.game_rect(hwnd)))
     text = asyncio.run(ocr_augments._ocr_bytes(img))
     lines = [line.strip() for line in text.splitlines() if line.strip()]
     if not lines:

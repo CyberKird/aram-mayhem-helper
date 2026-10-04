@@ -1,47 +1,48 @@
 {
  "champion": "Nocturne",
- "source": "https://u.gg/lol/champions/aram/nocturne-aram",
+ "source": "https://aramkit.com/en-US/champions/nocturne",
+ "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
-  "Ignite"
+  "Mark"
  ],
  "starting": [
-  "Long Sword",
-  "Health Potion",
-  "Serrated Dirk"
+  "Tiamat"
  ],
  "core": [
-  "The Collector",
+  "Stridebreaker",
   "Mercury's Treads",
-  "Experimental Hexplate"
+  "Experimental Hexplate",
+  "Axiom Arc"
  ],
  "fourth": [
-  "Axiom Arc",
-  "Profane Hydra"
+  "Voltaic Cyclosword",
+  "Lord Dominik's Regards",
+  "Profane Hydra",
+  "Death's Dance"
  ],
  "fifth": [
-  "Edge of Night",
-  "Serylda's Grudge",
-  "Profane Hydra"
+  "Voltaic Cyclosword",
+  "Lord Dominik's Regards",
+  "Endless Hunger",
+  "Death's Dance"
  ],
  "sixth": [
-  "Hubris",
-  "Ravenous Hydra",
-  "Serpent's Fang"
+  "Endless Hunger",
+  "Voltaic Cyclosword",
+  "Death's Dance",
+  "Lord Dominik's Regards"
  ],
  "pool": [
-  "Long Sword",
-  "Health Potion",
-  "Serrated Dirk",
-  "The Collector",
+  "Tiamat",
+  "Stridebreaker",
   "Mercury's Treads",
   "Experimental Hexplate",
   "Axiom Arc",
+  "Voltaic Cyclosword",
+  "Lord Dominik's Regards",
   "Profane Hydra",
-  "Edge of Night",
-  "Serylda's Grudge",
-  "Hubris",
-  "Ravenous Hydra",
-  "Serpent's Fang"
+  "Death's Dance",
+  "Endless Hunger"
  ]
 }

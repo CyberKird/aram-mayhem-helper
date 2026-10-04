@@ -1,6 +1,7 @@
 {
  "champion": "Anivia",
- "source": "https://u.gg/lol/champions/aram/anivia-aram",
+ "source": "https://aramkit.com/en-US/champions/anivia",
+ "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
   "Ghost"
@@ -12,35 +13,41 @@
  ],
  "core": [
   "Rod of Ages",
-  "Archangel's Staff",
-  "Sorcerer's Shoes"
+  "Gluttonous Greaves",
+  "Liandry's Torment",
+  "Archangel's Staff"
  ],
  "fourth": [
-  "Liandry's Torment",
-  "Shadowflame"
+  "Bloodletter's Curse",
+  "Rabadon's Deathcap",
+  "Blackfire Torch",
+  "Malignance"
  ],
  "fifth": [
-  "Shadowflame",
-  "Rylai's Crystal Scepter",
-  "Void Staff"
+  "Bloodletter's Curse",
+  "Blackfire Torch",
+  "Rabadon's Deathcap",
+  "Shadowflame"
  ],
  "sixth": [
+  "Bloodletter's Curse",
   "Zhonya's Hourglass",
-  "Malignance",
-  "Shadowflame"
+  "Shadowflame",
+  "Malignance"
  ],
  "pool": [
   "Blasting Wand",
   "Refillable Potion",
   "Tear of the Goddess",
   "Rod of Ages",
-  "Archangel's Staff",
-  "Sorcerer's Shoes",
+  "Gluttonous Greaves",
   "Liandry's Torment",
+  "Archangel's Staff",
+  "Bloodletter's Curse",
+  "Rabadon's Deathcap",
+  "Blackfire Torch",
+  "Malignance",
   "Shadowflame",
-  "Rylai's Crystal Scepter",
-  "Void Staff",
-  "Zhonya's Hourglass",
-  "Malignance"
+  "Zhonya's Hourglass"
  ]
 }

@@ -1,43 +1,48 @@
 {
  "champion": "Kai'Sa",
- "source": "https://u.gg/lol/champions/aram/kaisa-aram",
+ "source": "https://aramkit.com/en-US/champions/kaisa",
+ "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
   "Ghost"
  ],
  "starting": [
-  "Pickaxe",
-  "Dagger"
+  "Lost Chapter"
  ],
  "core": [
-  "Statikk Shiv",
-  "Berserker's Greaves",
-  "Kraken Slayer"
+  "Luden's Echo",
+  "Gluttonous Greaves",
+  "Rabadon's Deathcap",
+  "Shadowflame"
  ],
  "fourth": [
-  "Nashor's Tooth",
-  "Blade of The Ruined King"
+  "Terminus",
+  "Dusk and Dawn",
+  "Horizon Focus",
+  "Void Staff"
  ],
  "fifth": [
-  "Nashor's Tooth",
-  "Blade of The Ruined King",
-  "Terminus"
+  "Stormsurge",
+  "Terminus",
+  "Horizon Focus",
+  "Void Staff"
  ],
  "sixth": [
-  "Dusk and Dawn",
+  "Stormsurge",
+  "Horizon Focus",
   "Terminus",
-  "Wit's End"
+  "Void Staff"
  ],
  "pool": [
-  "Pickaxe",
-  "Dagger",
-  "Statikk Shiv",
-  "Berserker's Greaves",
-  "Kraken Slayer",
-  "Nashor's Tooth",
-  "Blade of The Ruined King",
+  "Lost Chapter",
+  "Luden's Echo",
+  "Gluttonous Greaves",
+  "Rabadon's Deathcap",
+  "Shadowflame",
   "Terminus",
   "Dusk and Dawn",
-  "Wit's End"
+  "Horizon Focus",
+  "Void Staff",
+  "Stormsurge"
  ]
 }

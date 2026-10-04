@@ -1,42 +1,49 @@
 {
  "champion": "Yone",
- "source": "https://u.gg/lol/champions/aram/yone-aram",
+ "source": "https://aramkit.com/en-US/champions/yone",
+ "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
   "Mark"
  ],
  "starting": [
-  "Dagger",
-  "Berserker's Greaves"
+  "B. F. Sword"
  ],
  "core": [
+  "Yun Tal Wildarrows",
   "Berserker's Greaves",
-  "Blade of The Ruined King",
-  "Immortal Shieldbow"
+  "Rite of Ruin",
+  "Death's Dance"
  ],
  "fourth": [
   "Infinity Edge",
-  "Wit's End"
+  "Blade of The Ruined King",
+  "Lord Dominik's Regards",
+  "Bloodthirster"
  ],
  "fifth": [
-  "Death's Dance",
-  "Wit's End",
-  "Bloodthirster"
+  "Spirit Visage",
+  "Infinity Edge",
+  "Lord Dominik's Regards",
+  "Blade of The Ruined King"
  ],
  "sixth": [
-  "Death's Dance",
-  "Jak'Sho, The Protean",
-  "Bloodthirster"
+  "Endless Hunger",
+  "Spirit Visage",
+  "Bloodthirster",
+  "Lord Dominik's Regards"
  ],
  "pool": [
-  "Dagger",
+  "B. F. Sword",
+  "Yun Tal Wildarrows",
   "Berserker's Greaves",
-  "Blade of The Ruined King",
-  "Immortal Shieldbow",
-  "Infinity Edge",
-  "Wit's End",
+  "Rite of Ruin",
   "Death's Dance",
+  "Infinity Edge",
+  "Blade of The Ruined King",
+  "Lord Dominik's Regards",
   "Bloodthirster",
-  "Jak'Sho, The Protean"
+  "Spirit Visage",
+  "Endless Hunger"
  ]
 }

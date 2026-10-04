@@ -1,44 +1,49 @@
 {
  "champion": "Elise",
- "source": "https://u.gg/lol/champions/aram/elise-aram",
+ "source": "https://aramkit.com/en-US/champions/elise",
+ "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
-  "Heal"
+  "Mark"
  ],
  "starting": [
-  "Health Potion",
-  "Lost Chapter"
+  "Amplifying Tome",
+  "Guardian's Orb"
  ],
  "core": [
-  "Luden's Echo",
   "Lich Bane",
-  "Sorcerer's Shoes"
- ],
- "fourth": [
+  "Sorcerer's Shoes",
   "Shadowflame",
   "Rabadon's Deathcap"
  ],
- "fifth": [
-  "Rabadon's Deathcap",
-  "Morellonomicon",
-  "Stormsurge"
- ],
- "sixth": [
+ "fourth": [
   "Stormsurge",
   "Void Staff",
-  "Cosmic Drive"
+  "Liandry's Torment"
+ ],
+ "fifth": [
+  "Stormsurge",
+  "Void Staff",
+  "Liandry's Torment",
+  "Morellonomicon"
+ ],
+ "sixth": [
+  "Cryptbloom",
+  "Void Staff",
+  "Stormsurge",
+  "Liandry's Torment"
  ],
  "pool": [
-  "Health Potion",
-  "Lost Chapter",
-  "Luden's Echo",
+  "Amplifying Tome",
+  "Guardian's Orb",
   "Lich Bane",
   "Sorcerer's Shoes",
   "Shadowflame",
   "Rabadon's Deathcap",
-  "Morellonomicon",
   "Stormsurge",
   "Void Staff",
-  "Cosmic Drive"
+  "Liandry's Torment",
+  "Morellonomicon",
+  "Cryptbloom"
  ]
 }

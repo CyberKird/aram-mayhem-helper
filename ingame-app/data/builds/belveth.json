@@ -1,41 +1,51 @@
 {
  "champion": "Bel'Veth",
- "source": "https://u.gg/lol/champions/aram/belveth-aram",
+ "source": "https://aramkit.com/en-US/champions/belveth",
+ "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
   "Mark"
  ],
  "starting": [
-  "Refillable Potion",
-  "Hearthbound Axe"
+  "Long Sword",
+  "Guardian's Blade"
  ],
  "core": [
-  "Kraken Slayer",
-  "Mercury's Treads",
-  "Blade of The Ruined King"
+  "Yun Tal Wildarrows",
+  "Gluttonous Greaves",
+  "Death's Dance",
+  "Infinity Edge"
  ],
  "fourth": [
-  "Wit's End",
-  "Death's Dance"
+  "Lord Dominik's Regards",
+  "Terminus",
+  "Guinsoo's Rageblade",
+  "Blade of The Ruined King"
  ],
  "fifth": [
-  "Death's Dance",
-  "Wit's End",
-  "Immortal Shieldbow"
+  "Lord Dominik's Regards",
+  "Endless Hunger",
+  "Terminus",
+  "Guinsoo's Rageblade"
  ],
  "sixth": [
-  "Death's Dance",
-  "Wit's End",
-  "Immortal Shieldbow"
+  "Endless Hunger",
+  "Guinsoo's Rageblade",
+  "Terminus",
+  "Bloodthirster"
  ],
  "pool": [
-  "Refillable Potion",
-  "Hearthbound Axe",
-  "Kraken Slayer",
-  "Mercury's Treads",
-  "Blade of The Ruined King",
-  "Wit's End",
+  "Long Sword",
+  "Guardian's Blade",
+  "Yun Tal Wildarrows",
+  "Gluttonous Greaves",
   "Death's Dance",
-  "Immortal Shieldbow"
+  "Infinity Edge",
+  "Lord Dominik's Regards",
+  "Terminus",
+  "Guinsoo's Rageblade",
+  "Blade of The Ruined King",
+  "Endless Hunger",
+  "Bloodthirster"
  ]
 }

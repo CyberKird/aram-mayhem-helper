@@ -1,47 +1,49 @@
 {
  "champion": "Diana",
- "source": "https://u.gg/lol/champions/aram/diana-aram",
+ "source": "https://aramkit.com/en-US/champions/diana",
+ "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
   "Mark"
  ],
  "starting": [
   "Giant's Belt",
-  "Ruby Crystal",
-  "Health Potion"
+  "Ruby Crystal"
  ],
  "core": [
   "Heartsteel",
-  "Mercury's Treads",
-  "Hollow Radiance"
+  "Gluttonous Greaves",
+  "Unending Despair",
+  "Warmog's Armor"
  ],
  "fourth": [
-  "Zhonya's Hourglass",
-  "Shadowflame"
+  "Riftmaker",
+  "Rabadon's Deathcap",
+  "Dusk and Dawn",
+  "Nashor's Tooth"
  ],
  "fifth": [
-  "Shadowflame",
+  "Riftmaker",
   "Dusk and Dawn",
-  "Stormsurge"
+  "Nashor's Tooth",
+  "Rabadon's Deathcap"
  ],
  "sixth": [
-  "Jak'Sho, The Protean",
+  "Riftmaker",
   "Nashor's Tooth",
-  "Hextech Rocketbelt"
+  "Rabadon's Deathcap",
+  "Dusk and Dawn"
  ],
  "pool": [
   "Giant's Belt",
   "Ruby Crystal",
-  "Health Potion",
   "Heartsteel",
-  "Mercury's Treads",
-  "Hollow Radiance",
-  "Zhonya's Hourglass",
-  "Shadowflame",
+  "Gluttonous Greaves",
+  "Unending Despair",
+  "Warmog's Armor",
+  "Riftmaker",
+  "Rabadon's Deathcap",
   "Dusk and Dawn",
-  "Stormsurge",
-  "Jak'Sho, The Protean",
-  "Nashor's Tooth",
-  "Hextech Rocketbelt"
+  "Nashor's Tooth"
  ]
 }

@@ -1,41 +1,50 @@
 {
  "champion": "Cassiopeia",
- "source": "https://u.gg/lol/champions/aram/cassiopeia-aram",
+ "source": "https://aramkit.com/en-US/champions/cassiopeia",
+ "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
-  "Clarity"
+  "Ghost"
  ],
  "starting": [
-  "Catalyst of Aeons"
+  "Fated Ashes",
+  "Tear of the Goddess"
  ],
  "core": [
-  "Rod of Ages",
-  "Archangel's Staff",
+  "Liandry's Torment",
+  "Gluttonous Greaves",
+  "Blackfire Torch",
   "Rylai's Crystal Scepter"
  ],
  "fourth": [
-  "Liandry's Torment",
-  "Morellonomicon"
+  "Rabadon's Deathcap",
+  "Archangel's Staff",
+  "Bloodletter's Curse",
+  "Riftmaker"
  ],
  "fifth": [
-  "Liandry's Torment",
+  "Archangel's Staff",
+  "Bloodletter's Curse",
   "Rabadon's Deathcap",
-  "Morellonomicon"
+  "Shadowflame"
  ],
  "sixth": [
-  "Morellonomicon",
-  "Void Staff",
-  "Bloodletter's Curse"
+  "Bloodletter's Curse",
+  "Archangel's Staff",
+  "Rabadon's Deathcap",
+  "Riftmaker"
  ],
  "pool": [
-  "Catalyst of Aeons",
-  "Rod of Ages",
-  "Archangel's Staff",
-  "Rylai's Crystal Scepter",
+  "Fated Ashes",
+  "Tear of the Goddess",
   "Liandry's Torment",
-  "Morellonomicon",
+  "Gluttonous Greaves",
+  "Blackfire Torch",
+  "Rylai's Crystal Scepter",
   "Rabadon's Deathcap",
-  "Void Staff",
-  "Bloodletter's Curse"
+  "Archangel's Staff",
+  "Bloodletter's Curse",
+  "Riftmaker",
+  "Shadowflame"
  ]
 }

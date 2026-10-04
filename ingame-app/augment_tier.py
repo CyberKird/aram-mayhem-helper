@@ -86,11 +86,14 @@ def load_champion_tiers(champion):
     if champion in _champ_cache:
         return _champ_cache[champion]
 
+    import bundle
     from build_scraper import slug   # aceeasi regula de nume ca la scraping
     path = CHAMP_DIR / f"{slug(champion)}.json"
     table = None
-    if path.exists():
+    data = (bundle.get().get("augments") or {}).get(slug(champion))
+    if data is None and path.exists():
         data = json.loads(path.read_text(encoding="utf-8"))
+    if data is not None:
         table = {name: tier
                  for tier, names in data.get("tiers", {}).items()
                  for name in names}

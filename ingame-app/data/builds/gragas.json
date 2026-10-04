@@ -1,42 +1,49 @@
 {
  "champion": "Gragas",
- "source": "https://u.gg/lol/champions/aram/gragas-aram",
+ "source": "https://aramkit.com/en-US/champions/gragas",
+ "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
   "Mark"
  ],
  "starting": [
-  "Lost Chapter"
+  "Blasting Wand",
+  "Amplifying Tome"
  ],
  "core": [
-  "Luden's Echo",
-  "Sorcerer's Shoes",
-  "Shadowflame"
- ],
- "fourth": [
   "Lich Bane",
+  "Sorcerer's Shoes",
+  "Shadowflame",
   "Rabadon's Deathcap"
  ],
- "fifth": [
-  "Rabadon's Deathcap",
+ "fourth": [
   "Stormsurge",
-  "Lich Bane"
+  "Void Staff",
+  "Warmog's Armor",
+  "Unending Despair"
+ ],
+ "fifth": [
+  "Stormsurge",
+  "Void Staff",
+  "Warmog's Armor",
+  "Unending Despair"
  ],
  "sixth": [
   "Void Staff",
+  "Stormsurge",
   "Warmog's Armor",
-  "Morellonomicon"
+  "Unending Despair"
  ],
  "pool": [
-  "Lost Chapter",
-  "Luden's Echo",
+  "Blasting Wand",
+  "Amplifying Tome",
+  "Lich Bane",
   "Sorcerer's Shoes",
   "Shadowflame",
-  "Lich Bane",
   "Rabadon's Deathcap",
   "Stormsurge",
   "Void Staff",
   "Warmog's Armor",
-  "Morellonomicon"
+  "Unending Despair"
  ]
 }

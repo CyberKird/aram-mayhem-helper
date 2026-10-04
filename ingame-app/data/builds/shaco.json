@@ -1,43 +1,50 @@
 {
  "champion": "Shaco",
- "source": "https://u.gg/lol/champions/aram/shaco-aram",
+ "source": "https://aramkit.com/en-US/champions/shaco",
+ "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
-  "Mark"
+  "Ignite"
  ],
  "starting": [
-  "Refillable Potion",
   "Lost Chapter"
  ],
  "core": [
-  "Luden's Echo",
+  "Blackfire Torch",
+  "Gluttonous Greaves",
   "Liandry's Torment",
-  "Sorcerer's Shoes"
+  "Rabadon's Deathcap"
  ],
  "fourth": [
   "Shadowflame",
-  "Rabadon's Deathcap"
+  "Lord Dominik's Regards",
+  "Essence Reaver",
+  "Voltaic Cyclosword"
  ],
  "fifth": [
-  "Rabadon's Deathcap",
   "Shadowflame",
-  "Stormsurge"
+  "Youmuu's Ghostblade",
+  "Essence Reaver",
+  "Lord Dominik's Regards"
  ],
  "sixth": [
-  "Void Staff",
-  "Rabadon's Deathcap",
-  "Malignance"
+  "Endless Hunger",
+  "Youmuu's Ghostblade",
+  "Shadowflame",
+  "Edge of Night"
  ],
  "pool": [
-  "Refillable Potion",
   "Lost Chapter",
-  "Luden's Echo",
+  "Blackfire Torch",
+  "Gluttonous Greaves",
   "Liandry's Torment",
-  "Sorcerer's Shoes",
-  "Shadowflame",
   "Rabadon's Deathcap",
-  "Stormsurge",
-  "Void Staff",
-  "Malignance"
+  "Shadowflame",
+  "Lord Dominik's Regards",
+  "Essence Reaver",
+  "Voltaic Cyclosword",
+  "Youmuu's Ghostblade",
+  "Endless Hunger",
+  "Edge of Night"
  ]
 }

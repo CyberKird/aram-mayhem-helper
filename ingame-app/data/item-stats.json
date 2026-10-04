@@ -10,7 +10,7 @@
  },
  "Abyssal Mask": {
   "hp": 350,
-  "mr": 50
+  "mr": 45
  },
  "Abyssal Scepter": {
   "mr": 45
@@ -21,8 +21,8 @@
   "mr": 100
  },
  "Aegis of the Legion": {
-  "armor": 30,
-  "mr": 30
+  "component": true,
+  "hp": 250
  },
  "Aether Wisp": {
   "component": true
@@ -46,7 +46,9 @@
   "consumable": true
  },
  "Archangel's Staff": {
-  "component": true
+  "evolves_into": [
+   "Seraph's Embrace"
+  ]
  },
  "Armored Advance": {
   "armor": 35,
@@ -103,14 +105,18 @@
   "consumable": true
  },
  "Berserker's Greaves": {
-  "boots": true
+  "boots": true,
+  "component": true,
+  "evolves_into": [
+   "Gunmetal Greaves"
+  ]
  },
  "Bilgewater Cutlass": {
   "component": true,
   "heal": true
  },
  "Black Cleaver": {
-  "hp": 350
+  "hp": 400
  },
  "Black Hole Gauntlet": {
   "hp": 900
@@ -125,7 +131,7 @@
   "component": true
  },
  "Bloodletter's Curse": {
-  "hp": 350
+  "hp": 400
  },
  "Bloodsong": {
   "heal": true,
@@ -136,13 +142,38 @@
  },
  "Boots": {
   "boots": true,
-  "component": true
+  "component": true,
+  "evolves_into": [
+   "Berserker's Greaves",
+   "Boots of Swiftness",
+   "Ghostcrawlers",
+   "Gluttonous Greaves",
+   "Ionian Boots of Lucidity",
+   "Mercury's Treads",
+   "Mobility Boots",
+   "Plated Steelcaps",
+   "Sorcerer's Shoes",
+   "Symbiotic Soles"
+  ]
  },
  "Boots of Speed": {
-  "component": true
+  "component": true,
+  "evolves_into": [
+   "Berserker's Greaves",
+   "Boots of Mobility",
+   "Boots of Swiftness",
+   "Ionian Boots of Lucidity",
+   "Mercury's Treads",
+   "Ninja Tabi",
+   "Sorcerer's Shoes"
+  ]
  },
  "Boots of Swiftness": {
-  "boots": true
+  "boots": true,
+  "component": true,
+  "evolves_into": [
+   "Swiftmarch"
+  ]
  },
  "Bounty of Worlds": {
   "component": true,
@@ -256,11 +287,11 @@
   "armor": 55
  },
  "Dead Man's Plate": {
-  "armor": 40,
-  "hp": 300
+  "armor": 55,
+  "hp": 350
  },
  "Death's Dance": {
-  "armor": 45
+  "armor": 50
  },
  "Deep Freeze": {
   "consumable": true
@@ -297,18 +328,17 @@
   "hp": 300
  },
  "Echoes of Helia": {
-  "hp": 300
+  "hp": 200
  },
  "Edge of Night": {
-  "hp": 375
+  "hp": 250
  },
  "Eggnog": {
   "consumable": true,
   "heal": true
  },
  "Eleisa's Miracle": {
-  "armor": 50,
-  "mr": 50
+  "heal": true
  },
  "Elixir of Agility": {
   "consumable": true
@@ -398,7 +428,7 @@
   "component": true
  },
  "Fimbulwinter": {
-  "hp": 400
+  "hp": 550
  },
  "Flesheater": {
   "hp": 500
@@ -411,16 +441,16 @@
  },
  "Force of Nature": {
   "hp": 400,
-  "mr": 50
+  "mr": 55
  },
  "Forever Forward": {
   "boots": true
  },
  "Frozen Heart": {
-  "armor": 90
+  "armor": 75
  },
  "Frozen Mallet": {
-  "hp": 600
+  "hp": 700
  },
  "Gangplank Placeholder": {
   "consumable": true
@@ -448,6 +478,10 @@
  },
  "Gluttonous Greaves": {
   "boots": true,
+  "component": true,
+  "evolves_into": [
+   "Immortal Path"
+  ],
   "heal": true
  },
  "Gold Stat Anvil Voucher": {
@@ -464,7 +498,8 @@
   "consumable": true
  },
  "Guardian Angel": {
-  "armor": 45
+  "armor": 50,
+  "mr": 40
  },
  "Guardian's Blade": {
   "hp": 250
@@ -552,10 +587,11 @@
   "heal": true
  },
  "Hextech Rocketbelt": {
-  "hp": 400
+  "hp": 350
  },
  "Hollow Radiance": {
-  "hp": 450,
+  "heal": true,
+  "hp": 400,
   "mr": 40
  },
  "Hopped-Up Hex": {
@@ -568,7 +604,7 @@
   "component": true
  },
  "Iceborn Gauntlet": {
-  "armor": 45,
+  "armor": 50,
   "hp": 300
  },
  "Immortal Path": {
@@ -576,10 +612,14 @@
   "heal": true
  },
  "Innervating Locket": {
-  "hp": 400
+  "hp": 500
  },
  "Ionian Boots of Lucidity": {
-  "boots": true
+  "boots": true,
+  "component": true,
+  "evolves_into": [
+   "Crimson Lucidity"
+  ]
  },
  "Ionic Spark": {
   "hp": 250
@@ -588,9 +628,9 @@
   "component": true
  },
  "Jak'Sho, The Protean": {
-  "armor": 35,
+  "armor": 45,
   "hp": 350,
-  "mr": 35
+  "mr": 45
  },
  "Jarvan I's": {
   "boots": true
@@ -609,21 +649,23 @@
  },
  "Kaenic Rookern": {
   "heal": true,
-  "hp": 350,
+  "hp": 400,
   "mr": 80
  },
  "Kalista's Black Spear": {
   "consumable": true
  },
  "Kindlegem": {
+  "component": true,
   "hp": 200
  },
  "Kinkou Jitte": {
   "hp": 400
  },
  "Knight's Vow": {
-  "armor": 50,
-  "hp": 400
+  "armor": 40,
+  "heal": true,
+  "hp": 200
  },
  "Last Whisper": {
   "component": true
@@ -675,8 +717,9 @@
   "mr": 30
  },
  "Locket of the Iron Solari": {
-  "hp": 400,
-  "mr": 35
+  "armor": 30,
+  "hp": 200,
+  "mr": 30
  },
  "Long Sword": {
   "component": true
@@ -705,20 +748,28 @@
  "Mana Potion": {
   "consumable": true
  },
+ "Manamune": {
+  "evolves_into": [
+   "Muramana"
+  ]
+ },
  "Maw of Malmortius": {
   "heal": true,
   "mr": 40
  },
  "Mercurial Scimitar": {
   "heal": true,
-  "mr": 40
+  "mr": 35
  },
  "Mercury's Treads": {
   "boots": true,
-  "mr": 30
+  "component": true,
+  "evolves_into": [
+   "Chainlaced Crushers"
+  ]
  },
  "Mikael's Blessing": {
-  "hp": 400
+  "hp": 250
  },
  "Mikael's Crucible": {
   "heal": true,
@@ -737,7 +788,7 @@
   "hp": 200
  },
  "Morellonomicon": {
-  "hp": 250
+  "hp": 350
  },
  "Needlessly Large Rod": {
   "component": true
@@ -805,7 +856,11 @@
   "component": true
  },
  "Plated Steelcaps": {
-  "boots": true
+  "boots": true,
+  "component": true,
+  "evolves_into": [
+   "Armored Advance"
+  ]
  },
  "Poro-Snax": {
   "consumable": true
@@ -843,7 +898,7 @@
  },
  "Randuin's Omen": {
   "armor": 75,
-  "hp": 300
+  "hp": 350
  },
  "Rapid Rabbit Raindown": {
   "consumable": true
@@ -910,7 +965,7 @@
   "mr": 30
  },
  "Rylai's Crystal Scepter": {
-  "hp": 350
+  "hp": 400
  },
  "Sanguine Blade": {
   "heal": true
@@ -977,7 +1032,17 @@
  },
  "Slightly Magical Footwear": {
   "boots": true,
-  "component": true
+  "component": true,
+  "evolves_into": [
+   "Berserker's Greaves",
+   "Boots of Swiftness",
+   "Gluttonous Greaves",
+   "Ionian Boots of Lucidity",
+   "Mercury's Treads",
+   "Mobility Boots",
+   "Plated Steelcaps",
+   "Sorcerer's Shoes"
+  ]
  },
  "Small Party Favor": {
   "consumable": true
@@ -987,13 +1052,17 @@
   "hp": 200
  },
  "Sorcerer's Shoes": {
-  "boots": true
+  "boots": true,
+  "component": true,
+  "evolves_into": [
+   "Spellslinger's Shoes"
+  ]
  },
  "Soul Shroud": {
   "hp": 520
  },
  "Spear of Shojin": {
-  "hp": 350
+  "hp": 450
  },
  "Spectre's Cowl": {
   "component": true,
@@ -1010,8 +1079,8 @@
  },
  "Spirit Visage": {
   "heal": true,
-  "hp": 300,
-  "mr": 40
+  "hp": 400,
+  "mr": 50
  },
  "Spirit of the Ancient Golem": {
   "heal": true,
@@ -1046,7 +1115,7 @@
   "component": true
  },
  "Sterak's Gage": {
-  "hp": 300
+  "hp": 400
  },
  "Stinger": {
   "component": true
@@ -1055,7 +1124,7 @@
   "consumable": true
  },
  "Stridebreaker": {
-  "hp": 375
+  "hp": 450
  },
  "Structure Bounty": {
   "heal": true
@@ -1064,7 +1133,7 @@
   "hp": 400
  },
  "Sunfire Aegis": {
-  "armor": 40,
+  "armor": 50,
   "hp": 350
  },
  "Sunfire Cape": {
@@ -1079,11 +1148,17 @@
  },
  "Symbiotic Soles": {
   "boots": true,
-  "component": true
+  "component": true,
+  "evolves_into": [
+   "Synchronized Souls"
+  ]
  },
  "Synchronized Souls": {
   "boots": true,
-  "component": true
+  "component": true,
+  "evolves_into": [
+   "Forever Forward"
+  ]
  },
  "T.I.B.B.E.R.S (B.E.E.G Edition)": {
   "consumable": true
@@ -1116,15 +1191,14 @@
   "mr": 30
  },
  "Thornmail": {
-  "armor": 60,
-  "hp": 300
+  "armor": 75
  },
  "Tiamat": {
   "component": true
  },
  "Titanic Hydra": {
   "heal": true,
-  "hp": 400
+  "hp": 600
  },
  "Total Biscuit of Everlasting Will": {
   "consumable": true
@@ -1133,11 +1207,11 @@
   "consumable": true
  },
  "Trailblazer": {
-  "armor": 45,
-  "hp": 300
+  "armor": 40,
+  "hp": 250
  },
  "Trinity Force": {
-  "hp": 375
+  "hp": 333
  },
  "Tunneler": {
   "component": true,
@@ -1149,12 +1223,16 @@
  "Twin Shadows": {
   "mr": 40
  },
+ "Ultra Hydra": {
+  "heal": true,
+  "hp": 1000
+ },
  "Unceasing Cyclone": {
   "consumable": true
  },
  "Unending Despair": {
   "armor": 50,
-  "hp": 350
+  "hp": 400
  },
  "Vampiric Scepter": {
   "component": true,
@@ -1198,6 +1276,10 @@
   "consumable": true
  },
  "Whispering Circlet": {
+  "component": true,
+  "evolves_into": [
+   "Diadem of Songs"
+  ],
   "hp": 200
  },
  "Will of the Ancients": {
@@ -1208,7 +1290,10 @@
   "hp": 200
  },
  "Winter's Approach": {
-  "hp": 400
+  "evolves_into": [
+   "Fimbulwinter"
+  ],
+  "hp": 550
  },
  "Wit's End": {
   "mr": 45
@@ -1217,6 +1302,9 @@
   "armor": 50
  },
  "Wriggle's Lantern": {
+  "evolves_into": [
+   "Feral Flare"
+  ],
   "heal": true
  },
  "Yellow Trinket": {
@@ -1236,8 +1324,7 @@
   "component": true
  },
  "Zeke's Convergence": {
-  "hp": 300,
-  "mr": 30
+  "hp": 300
  },
  "Zhonya's Hourglass": {
   "armor": 50

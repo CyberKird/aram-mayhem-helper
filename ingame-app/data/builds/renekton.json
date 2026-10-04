@@ -1,42 +1,50 @@
 {
  "champion": "Renekton",
- "source": "https://u.gg/lol/champions/aram/renekton-aram",
+ "source": "https://aramkit.com/en-US/champions/renekton",
+ "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
   "Mark"
  ],
  "starting": [
   "Long Sword",
-  "Caulfield's Warhammer"
+  "Guardian's Blade"
  ],
  "core": [
-  "Sundered Sky",
-  "Mercury's Treads",
-  "Eclipse"
+  "Hubris",
+  "Gluttonous Greaves",
+  "Death's Dance",
+  "Endless Hunger"
  ],
  "fourth": [
-  "Death's Dance",
-  "Spirit Visage"
+  "Spear of Shojin",
+  "Black Cleaver",
+  "Warmog's Armor",
+  "Sterak's Gage"
  ],
  "fifth": [
-  "Spirit Visage",
   "Sterak's Gage",
-  "Death's Dance"
+  "Spear of Shojin",
+  "Black Cleaver",
+  "Warmog's Armor"
  ],
  "sixth": [
-  "Spear of Shojin",
   "Sterak's Gage",
+  "Spear of Shojin",
+  "Warmog's Armor",
   "Spirit Visage"
  ],
  "pool": [
   "Long Sword",
-  "Caulfield's Warhammer",
-  "Sundered Sky",
-  "Mercury's Treads",
-  "Eclipse",
+  "Guardian's Blade",
+  "Hubris",
+  "Gluttonous Greaves",
   "Death's Dance",
-  "Spirit Visage",
+  "Endless Hunger",
+  "Spear of Shojin",
+  "Black Cleaver",
+  "Warmog's Armor",
   "Sterak's Gage",
-  "Spear of Shojin"
+  "Spirit Visage"
  ]
 }

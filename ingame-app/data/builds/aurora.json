@@ -1,43 +1,47 @@
 {
  "champion": "Aurora",
- "source": "https://u.gg/lol/champions/aram/aurora-aram",
+ "source": "https://aramkit.com/en-US/champions/aurora",
+ "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
   "Ghost"
  ],
  "starting": [
-  "Refillable Potion",
   "Lost Chapter"
  ],
  "core": [
   "Luden's Echo",
-  "Stormsurge",
-  "Sorcerer's Shoes"
+  "Gluttonous Greaves",
+  "Rabadon's Deathcap",
+  "Shadowflame"
  ],
  "fourth": [
-  "Rabadon's Deathcap",
-  "Shadowflame"
+  "Void Staff",
+  "Stormsurge",
+  "Zhonya's Hourglass"
  ],
  "fifth": [
-  "Rabadon's Deathcap",
+  "Stormsurge",
+  "Banshee's Veil",
   "Void Staff",
-  "Shadowflame"
+  "Cryptbloom"
  ],
  "sixth": [
-  "Rabadon's Deathcap",
+  "Stormsurge",
   "Banshee's Veil",
-  "Malignance"
+  "Void Staff",
+  "Cryptbloom"
  ],
  "pool": [
-  "Refillable Potion",
   "Lost Chapter",
   "Luden's Echo",
-  "Stormsurge",
-  "Sorcerer's Shoes",
+  "Gluttonous Greaves",
   "Rabadon's Deathcap",
   "Shadowflame",
   "Void Staff",
+  "Stormsurge",
+  "Zhonya's Hourglass",
   "Banshee's Veil",
-  "Malignance"
+  "Cryptbloom"
  ]
 }

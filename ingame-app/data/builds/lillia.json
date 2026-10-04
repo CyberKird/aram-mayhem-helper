@@ -1,42 +1,50 @@
 {
  "champion": "Lillia",
- "source": "https://u.gg/lol/champions/aram/lillia-aram",
+ "source": "https://aramkit.com/en-US/champions/lillia",
+ "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
   "Mark"
  ],
  "starting": [
-  "Lost Chapter"
+  "Amplifying Tome",
+  "Fated Ashes"
  ],
  "core": [
   "Blackfire Torch",
-  "Sorcerer's Shoes",
-  "Liandry's Torment"
+  "Gluttonous Greaves",
+  "Liandry's Torment",
+  "Rabadon's Deathcap"
  ],
  "fourth": [
-  "Rylai's Crystal Scepter",
-  "Riftmaker"
+  "Bloodletter's Curse",
+  "Riftmaker",
+  "Shadowflame",
+  "Rylai's Crystal Scepter"
  ],
  "fifth": [
-  "Zhonya's Hourglass",
-  "Cosmic Drive",
-  "Riftmaker"
+  "Bloodletter's Curse",
+  "Shadowflame",
+  "Riftmaker",
+  "Cosmic Drive"
  ],
  "sixth": [
-  "Cosmic Drive",
-  "Banshee's Veil",
-  "Bloodletter's Curse"
+  "Shadowflame",
+  "Bloodletter's Curse",
+  "Riftmaker",
+  "Cosmic Drive"
  ],
  "pool": [
-  "Lost Chapter",
+  "Amplifying Tome",
+  "Fated Ashes",
   "Blackfire Torch",
-  "Sorcerer's Shoes",
+  "Gluttonous Greaves",
   "Liandry's Torment",
-  "Rylai's Crystal Scepter",
+  "Rabadon's Deathcap",
+  "Bloodletter's Curse",
   "Riftmaker",
-  "Zhonya's Hourglass",
-  "Cosmic Drive",
-  "Banshee's Veil",
-  "Bloodletter's Curse"
+  "Shadowflame",
+  "Rylai's Crystal Scepter",
+  "Cosmic Drive"
  ]
 }

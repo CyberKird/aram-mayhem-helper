@@ -1,45 +1,50 @@
 {
  "champion": "Milio",
- "source": "https://u.gg/lol/champions/aram/milio-aram",
+ "source": "https://aramkit.com/en-US/champions/milio",
+ "mode": "ARAM Mayhem",
  "summoners": [
-  "Exhaust",
-  "Flash"
+  "Flash",
+  "Heal"
  ],
  "starting": [
-  "Health Potion",
   "Tear of the Goddess",
   "Bandleglass Mirror"
  ],
  "core": [
   "Moonstone Renewer",
-  "Whispering Circlet",
-  "Ionian Boots of Lucidity"
+  "Ionian Boots of Lucidity",
+  "Ardent Censer",
+  "Whispering Circlet"
  ],
  "fourth": [
-  "Ardent Censer",
+  "Staff of Flowing Water",
+  "Dawncore",
+  "Echoes of Helia",
   "Redemption"
  ],
  "fifth": [
+  "Staff of Flowing Water",
   "Dawncore",
-  "Ardent Censer",
+  "Echoes of Helia",
   "Redemption"
  ],
  "sixth": [
-  "Staff of Flowing Water",
   "Dawncore",
-  "Luden's Echo"
+  "Staff of Flowing Water",
+  "Echoes of Helia",
+  "Mikael's Blessing"
  ],
  "pool": [
-  "Health Potion",
   "Tear of the Goddess",
   "Bandleglass Mirror",
   "Moonstone Renewer",
-  "Whispering Circlet",
   "Ionian Boots of Lucidity",
   "Ardent Censer",
-  "Redemption",
-  "Dawncore",
+  "Whispering Circlet",
   "Staff of Flowing Water",
-  "Luden's Echo"
+  "Dawncore",
+  "Echoes of Helia",
+  "Redemption",
+  "Mikael's Blessing"
  ]
 }

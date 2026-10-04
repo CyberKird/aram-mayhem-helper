@@ -1,42 +1,48 @@
 {
  "champion": "Heimerdinger",
- "source": "https://u.gg/lol/champions/aram/heimerdinger-aram",
+ "source": "https://aramkit.com/en-US/champions/heimerdinger",
+ "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
-  "Barrier"
+  "Ghost"
  ],
  "starting": [
-  "Refillable Potion",
   "Lost Chapter"
  ],
  "core": [
   "Blackfire Torch",
-  "Sorcerer's Shoes",
-  "Liandry's Torment"
- ],
- "fourth": [
-  "Rylai's Crystal Scepter",
+  "Gluttonous Greaves",
+  "Liandry's Torment",
   "Rabadon's Deathcap"
  ],
+ "fourth": [
+  "Archangel's Staff",
+  "Shadowflame",
+  "Void Staff",
+  "Rylai's Crystal Scepter"
+ ],
  "fifth": [
-  "Rabadon's Deathcap",
-  "Rylai's Crystal Scepter",
-  "Zhonya's Hourglass"
+  "Bloodletter's Curse",
+  "Archangel's Staff",
+  "Shadowflame",
+  "Void Staff"
  ],
  "sixth": [
-  "Rabadon's Deathcap",
-  "Morellonomicon",
-  "Zhonya's Hourglass"
+  "Archangel's Staff",
+  "Bloodletter's Curse",
+  "Void Staff",
+  "Shadowflame"
  ],
  "pool": [
-  "Refillable Potion",
   "Lost Chapter",
   "Blackfire Torch",
-  "Sorcerer's Shoes",
+  "Gluttonous Greaves",
   "Liandry's Torment",
-  "Rylai's Crystal Scepter",
   "Rabadon's Deathcap",
-  "Zhonya's Hourglass",
-  "Morellonomicon"
+  "Archangel's Staff",
+  "Shadowflame",
+  "Void Staff",
+  "Rylai's Crystal Scepter",
+  "Bloodletter's Curse"
  ]
 }

@@ -1,42 +1,52 @@
 {
  "champion": "Qiyana",
- "source": "https://u.gg/lol/champions/aram/qiyana-aram",
+ "source": "https://aramkit.com/en-US/champions/qiyana",
+ "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
   "Mark"
  ],
  "starting": [
-  "Long Sword",
+  "Tear of the Goddess",
   "Serrated Dirk"
  ],
  "core": [
   "Hubris",
-  "Ionian Boots of Lucidity",
-  "Axiom Arc"
+  "Gluttonous Greaves",
+  "Death's Dance",
+  "Endless Hunger"
  ],
  "fourth": [
-  "The Collector",
-  "Edge of Night"
+  "Manamune",
+  "Lord Dominik's Regards",
+  "Profane Hydra",
+  "Voltaic Cyclosword"
  ],
  "fifth": [
-  "Serylda's Grudge",
-  "Edge of Night",
-  "Voltaic Cyclosword"
+  "Lord Dominik's Regards",
+  "Manamune",
+  "Voltaic Cyclosword",
+  "Serylda's Grudge"
  ],
  "sixth": [
-  "Edge of Night",
-  "Serylda's Grudge",
-  "Voltaic Cyclosword"
+  "Youmuu's Ghostblade",
+  "Maw of Malmortius",
+  "Lord Dominik's Regards",
+  "Manamune"
  ],
  "pool": [
-  "Long Sword",
+  "Tear of the Goddess",
   "Serrated Dirk",
   "Hubris",
-  "Ionian Boots of Lucidity",
-  "Axiom Arc",
-  "The Collector",
-  "Edge of Night",
+  "Gluttonous Greaves",
+  "Death's Dance",
+  "Endless Hunger",
+  "Manamune",
+  "Lord Dominik's Regards",
+  "Profane Hydra",
+  "Voltaic Cyclosword",
   "Serylda's Grudge",
-  "Voltaic Cyclosword"
+  "Youmuu's Ghostblade",
+  "Maw of Malmortius"
  ]
 }

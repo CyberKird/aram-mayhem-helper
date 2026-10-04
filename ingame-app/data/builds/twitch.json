@@ -1,44 +1,51 @@
 {
  "champion": "Twitch",
- "source": "https://u.gg/lol/champions/aram/twitch-aram",
+ "source": "https://aramkit.com/en-US/champions/twitch",
+ "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
   "Ghost"
  ],
  "starting": [
   "Long Sword",
-  "Pickaxe",
-  "Refillable Potion"
+  "Guardian's Blade"
  ],
  "core": [
-  "Berserker's Greaves",
-  "Blade of The Ruined King",
-  "Runaan's Hurricane"
+  "The Collector",
+  "Gluttonous Greaves",
+  "Runaan's Hurricane",
+  "Infinity Edge"
  ],
  "fourth": [
-  "Infinity Edge",
-  "Lord Dominik's Regards"
+  "Lord Dominik's Regards",
+  "Fiendhunter Bolts",
+  "Blade of The Ruined King",
+  "Mortal Reminder"
  ],
  "fifth": [
+  "Bloodthirster",
   "Lord Dominik's Regards",
-  "Infinity Edge",
-  "Fiendhunter Bolts"
+  "Fiendhunter Bolts",
+  "Kraken Slayer"
  ],
  "sixth": [
   "Bloodthirster",
   "Lord Dominik's Regards",
+  "Blade of The Ruined King",
   "Fiendhunter Bolts"
  ],
  "pool": [
   "Long Sword",
-  "Pickaxe",
-  "Refillable Potion",
-  "Berserker's Greaves",
-  "Blade of The Ruined King",
+  "Guardian's Blade",
+  "The Collector",
+  "Gluttonous Greaves",
   "Runaan's Hurricane",
   "Infinity Edge",
   "Lord Dominik's Regards",
   "Fiendhunter Bolts",
-  "Bloodthirster"
+  "Blade of The Ruined King",
+  "Mortal Reminder",
+  "Bloodthirster",
+  "Kraken Slayer"
  ]
 }

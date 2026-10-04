@@ -1,44 +1,50 @@
 {
  "champion": "Zed",
- "source": "https://u.gg/lol/champions/aram/zed-aram",
+ "source": "https://aramkit.com/en-US/champions/zed",
+ "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
   "Mark"
  ],
  "starting": [
   "Long Sword",
-  "Health Potion",
-  "Serrated Dirk"
+  "Guardian's Blade"
  ],
  "core": [
   "Hubris",
-  "Axiom Arc",
-  "Ionian Boots of Lucidity"
+  "Gluttonous Greaves",
+  "Death's Dance",
+  "Endless Hunger"
  ],
  "fourth": [
+  "Lord Dominik's Regards",
+  "Voltaic Cyclosword",
   "Serylda's Grudge",
-  "Voltaic Cyclosword"
+  "Axiom Arc"
  ],
  "fifth": [
-  "Serylda's Grudge",
-  "Edge of Night",
-  "Voltaic Cyclosword"
+  "Lord Dominik's Regards",
+  "Axiom Arc",
+  "Voltaic Cyclosword",
+  "Profane Hydra"
  ],
  "sixth": [
-  "Voltaic Cyclosword",
-  "Edge of Night",
-  "Maw of Malmortius"
+  "Lord Dominik's Regards",
+  "Serylda's Grudge",
+  "Profane Hydra",
+  "Axiom Arc"
  ],
  "pool": [
   "Long Sword",
-  "Health Potion",
-  "Serrated Dirk",
+  "Guardian's Blade",
   "Hubris",
-  "Axiom Arc",
-  "Ionian Boots of Lucidity",
-  "Serylda's Grudge",
+  "Gluttonous Greaves",
+  "Death's Dance",
+  "Endless Hunger",
+  "Lord Dominik's Regards",
   "Voltaic Cyclosword",
-  "Edge of Night",
-  "Maw of Malmortius"
+  "Serylda's Grudge",
+  "Axiom Arc",
+  "Profane Hydra"
  ]
 }

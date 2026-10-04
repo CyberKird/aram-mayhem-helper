@@ -11,7 +11,11 @@ Un overlay local pentru League of Legends, mod ARAM Mayhem. Arata tier-ul campio
 - **Tier de augment per campion**, nu doar global: acelasi augment poate fi S+ pe un campion si B pe altul.
 - **Stat Anvil**: cand cumperi unul, o banda deasupra cardurilor arata care shard e cel mai bun pe campionul tau si contra compozitiei inamice.
 - **Augmentele care cer un item anume** ("Upgrade Zhonya's") il urca in capul listei de cumparat. Click pe insigna augmentului ales ca sa-l confirmi -- Riot nu expune nicaieri ce ai ales.
-- **Se actualizeaza singur** din Releases la pornire.
+- **Statistici per campion**: win rate, pick rate si cum s-au schimbat fata de patch-ul anterior (sageti verzi/rosii, plus schimbarea de tier u.gg), la champ select si in joc.
+- **Raport de bug** direct din aplicatie (butonul `BUG`), trimis la contact@joltarise.com, cu un diagnostic pe care il vezi inainte sa pleace.
+- **Stat Anvil** arata in panou si motivul recomandarii pentru campionul tau.
+- **Itemele care evolueaza** (Manamune -> Muramana, Archangel's -> Seraph's etc.) conteaza ca detinute dupa transformare.
+- **Se actualizeaza singur**: exe-ul din Releases, iar tier-urile si statisticile de patch se iau din repo la pornire, fara exe nou.
 
 ## Cum functioneaza
 
@@ -22,7 +26,9 @@ Doua surse de date, fara API oficial pentru ele:
 
 Augmentele oferite nu au niciun API. Se citesc prin OCR nativ Windows (`Windows.Media.Ocr`), pe o zona centrala a ferestrei jocului.
 
-Build-urile de itemi vin din scraping pe u.gg (ARAM, nu exista date separate de Mayhem pentru itemi). Tier-urile de augment vin tot de pe u.gg, per campion cand exista, altfel din lista globala a modului.
+Statisticile (win rate, pick rate, istoric pe patch-uri) vin de pe [ARAMKit](https://aramkit.com), singura sursa gasita cu cifre reale de Mayhem pe toti campionii (peste 28M meciuri). Riot blocheaza meciurile de Mayhem in match-v5 si Data Dragon nu are win rate. `ingame-app/update_aramkit.py` aduce tot ce e de Mayhem (statistici, modificatorii de balans per campion, build-uri de itemi, tier de augmente), fara browser. `lcu-app/update_tier_list.py` aduce tier list-ul u.gg si pastreaza patch-ul anterior pentru comparatie.
+
+Build-urile de itemi, tier-urile de augment (per campion, din win rate real) si summoner spells vin strict din date de ARAM Mayhem, nu din ARAM clasic.
 
 ## Instalare (exe)
 
@@ -56,10 +62,11 @@ Doar daca vrei sa reiei scraping-ul dupa un patch (build-uri, tier-uri de augmen
 .venv\Scripts\python -m pip install -r requirements-dev.txt
 .venv\Scripts\python -m playwright install chromium
 cd ingame-app
-..\.venv\Scripts\python prefetch_builds.py --all --headed
-..\.venv\Scripts\python build_champion_augments.py --headed
+..\.venv\Scripts\python update_aramkit.py
 ..\.venv\Scripts\python build_icons.py
 ..\.venv\Scripts\python build_item_stats.py
+cd ..\lcu-app
+..\.venv\Scripts\python update_tier_list.py
 ```
 
 `--headed` conteaza: Cloudflare blocheaza uneori Chromium headless.

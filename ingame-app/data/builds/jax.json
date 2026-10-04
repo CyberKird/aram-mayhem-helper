@@ -1,45 +1,52 @@
 {
  "champion": "Jax",
- "source": "https://u.gg/lol/champions/aram/jax-aram",
+ "source": "https://aramkit.com/en-US/champions/jax",
+ "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
   "Mark"
  ],
  "starting": [
-  "Long Sword",
-  "Refillable Potion",
+  "Ruby Crystal",
   "Sheen"
  ],
  "core": [
-  "Trinity Force",
+  "Dusk and Dawn",
   "Mercury's Treads",
-  "Sundered Sky"
+  "Statikk Shiv",
+  "Death's Dance"
  ],
  "fourth": [
-  "Death's Dance",
-  "Wit's End"
+  "Spear of Shojin",
+  "Hextech Gunblade",
+  "Sundered Sky",
+  "Blade of The Ruined King"
  ],
  "fifth": [
-  "Blade of The Ruined King",
-  "Wit's End",
-  "Spear of Shojin"
- ],
- "sixth": [
-  "Death's Dance",
-  "Spirit Visage",
-  "Wit's End"
- ],
- "pool": [
-  "Long Sword",
-  "Refillable Potion",
-  "Sheen",
-  "Trinity Force",
-  "Mercury's Treads",
+  "Hextech Gunblade",
   "Sundered Sky",
-  "Death's Dance",
-  "Wit's End",
-  "Blade of The Ruined King",
   "Spear of Shojin",
   "Spirit Visage"
+ ],
+ "sixth": [
+  "Endless Hunger",
+  "Hextech Gunblade",
+  "Sterak's Gage",
+  "Spear of Shojin"
+ ],
+ "pool": [
+  "Ruby Crystal",
+  "Sheen",
+  "Dusk and Dawn",
+  "Mercury's Treads",
+  "Statikk Shiv",
+  "Death's Dance",
+  "Spear of Shojin",
+  "Hextech Gunblade",
+  "Sundered Sky",
+  "Blade of The Ruined King",
+  "Spirit Visage",
+  "Endless Hunger",
+  "Sterak's Gage"
  ]
 }

@@ -1,6 +1,7 @@
 {
  "champion": "Fiddlesticks",
- "source": "https://u.gg/lol/champions/aram/fiddlesticks-aram",
+ "source": "https://aramkit.com/en-US/champions/fiddlesticks",
+ "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
   "Mark"
@@ -12,32 +13,40 @@
  "core": [
   "Malignance",
   "Sorcerer's Shoes",
-  "Liandry's Torment"
+  "Rabadon's Deathcap",
+  "Shadowflame"
  ],
  "fourth": [
-  "Shadowflame",
+  "Void Staff",
+  "Rylai's Crystal Scepter",
+  "Liandry's Torment",
   "Zhonya's Hourglass"
  ],
  "fifth": [
-  "Zhonya's Hourglass",
+  "Stormsurge",
+  "Void Staff",
   "Rylai's Crystal Scepter",
-  "Shadowflame"
+  "Zhonya's Hourglass"
  ],
  "sixth": [
-  "Rabadon's Deathcap",
+  "Stormsurge",
+  "Banshee's Veil",
   "Void Staff",
-  "Rylai's Crystal Scepter"
+  "Blackfire Torch"
  ],
  "pool": [
   "Refillable Potion",
   "Lost Chapter",
   "Malignance",
   "Sorcerer's Shoes",
-  "Liandry's Torment",
-  "Shadowflame",
-  "Zhonya's Hourglass",
-  "Rylai's Crystal Scepter",
   "Rabadon's Deathcap",
-  "Void Staff"
+  "Shadowflame",
+  "Void Staff",
+  "Rylai's Crystal Scepter",
+  "Liandry's Torment",
+  "Zhonya's Hourglass",
+  "Stormsurge",
+  "Banshee's Veil",
+  "Blackfire Torch"
  ]
 }

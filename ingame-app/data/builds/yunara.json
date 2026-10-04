@@ -1,46 +1,48 @@
 {
  "champion": "Yunara",
- "source": "https://u.gg/lol/champions/aram/yunara-aram",
+ "source": "https://aramkit.com/en-US/champions/yunara",
+ "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
   "Ghost"
  ],
  "starting": [
-  "Boots",
-  "Refillable Potion",
-  "Guardian's Hammer"
+  "B. F. Sword"
  ],
  "core": [
-  "Kraken Slayer",
+  "Yun Tal Wildarrows",
   "Gluttonous Greaves",
-  "Fiendhunter Bolts"
- ],
- "fourth": [
-  "Infinity Edge",
-  "Runaan's Hurricane"
- ],
- "fifth": [
-  "Lord Dominik's Regards",
-  "Bloodthirster",
+  "Runaan's Hurricane",
   "Infinity Edge"
  ],
- "sixth": [
+ "fourth": [
+  "Terminus",
+  "Blade of The Ruined King",
+  "Bloodthirster",
+  "Lord Dominik's Regards"
+ ],
+ "fifth": [
+  "Terminus",
   "Bloodthirster",
   "Blade of The Ruined King",
-  "Immortal Shieldbow"
+  "Lord Dominik's Regards"
+ ],
+ "sixth": [
+  "Terminus",
+  "Bloodthirster",
+  "Mercurial Scimitar",
+  "Lord Dominik's Regards"
  ],
  "pool": [
-  "Boots",
-  "Refillable Potion",
-  "Guardian's Hammer",
-  "Kraken Slayer",
+  "B. F. Sword",
+  "Yun Tal Wildarrows",
   "Gluttonous Greaves",
-  "Fiendhunter Bolts",
-  "Infinity Edge",
   "Runaan's Hurricane",
-  "Lord Dominik's Regards",
-  "Bloodthirster",
+  "Infinity Edge",
+  "Terminus",
   "Blade of The Ruined King",
-  "Immortal Shieldbow"
+  "Bloodthirster",
+  "Lord Dominik's Regards",
+  "Mercurial Scimitar"
  ]
 }

@@ -1,45 +1,52 @@
 {
  "champion": "Zilean",
- "source": "https://u.gg/lol/champions/aram/zilean-aram",
+ "source": "https://aramkit.com/en-US/champions/zilean",
+ "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
-  "Ghost"
+  "Clarity"
  ],
  "starting": [
-  "Refillable Potion",
-  "Lost Chapter"
+  "Tear of the Goddess",
+  "Guardian's Orb"
  ],
  "core": [
-  "Archangel's Staff",
   "Luden's Echo",
-  "Sorcerer's Shoes"
+  "Ionian Boots of Lucidity",
+  "Rabadon's Deathcap",
+  "Archangel's Staff"
  ],
  "fourth": [
-  "Shadowflame",
-  "Liandry's Torment"
+  "Blackfire Torch",
+  "Cryptbloom",
+  "Cosmic Drive",
+  "Horizon Focus"
  ],
  "fifth": [
-  "Shadowflame",
-  "Stormsurge",
-  "Cryptbloom"
+  "Rod of Ages",
+  "Blackfire Torch",
+  "Malignance",
+  "Cosmic Drive"
  ],
  "sixth": [
-  "Rabadon's Deathcap",
-  "Shurelya's Battlesong",
-  "Banshee's Veil"
+  "Rod of Ages",
+  "Blackfire Torch",
+  "Banshee's Veil",
+  "Cryptbloom"
  ],
  "pool": [
-  "Refillable Potion",
-  "Lost Chapter",
-  "Archangel's Staff",
+  "Tear of the Goddess",
+  "Guardian's Orb",
   "Luden's Echo",
-  "Sorcerer's Shoes",
-  "Shadowflame",
-  "Liandry's Torment",
-  "Stormsurge",
-  "Cryptbloom",
+  "Ionian Boots of Lucidity",
   "Rabadon's Deathcap",
-  "Shurelya's Battlesong",
+  "Archangel's Staff",
+  "Blackfire Torch",
+  "Cryptbloom",
+  "Cosmic Drive",
+  "Horizon Focus",
+  "Rod of Ages",
+  "Malignance",
   "Banshee's Veil"
  ]
 }

@@ -248,13 +248,16 @@ class Monitor:
                 self._last_stat_anvil = ()
             return
 
-        key = tuple(found)
+        champ = (self.roster or {}).get("local_champion")
+        enemies = (self.roster or {}).get("enemies") or []
+        # campionul si inamicii intra in cheie: daca oferta apare inainte sa
+        # stim rosterul, recomandarea se reface cand il aflam, nu ramane
+        # calculata pentru un campion necunoscut
+        key = (tuple(found), champ, tuple(enemies))
         if key == self._last_stat_anvil:
             return
         self._last_stat_anvil = key
 
-        champ = (self.roster or {}).get("local_champion")
-        enemies = (self.roster or {}).get("enemies") or []
         self.stat_anvil = stat_anvil.recommend(found, self.champion_tags, champ, enemies)
 
     def _recompute_build(self):
@@ -456,13 +459,15 @@ def selfcheck():
 
     # zero coliziuni de nume intre raritati: cautarea de tier nu are nevoie
     # sa stie raritatea (OCR-ul n-o poate afla din text simplu oricum)
-    assert augment_tier.lookup_tier("Goliath", global_augments) == "S+"
-    assert augment_tier.lookup_tier("Multishot", global_augments) == "C"
+    # fara cifre fixe: tier-urile se schimba la fiecare patch, structura nu
+    for real in ("Goliath", "Multishot", "Overloaded"):
+        assert augment_tier.lookup_tier(real, global_augments) in augment_tier.TIER_ORDER, real
     assert augment_tier.lookup_tier("NuExista", global_augments) == "?"
 
     rated = augment_tier.rate(["Goliath", "Multishot", "Overloaded"], global_augments)
-    assert [r["tier"] for r in rated] == ["S+", "C", "D"]
-    assert rated[0]["is_best"] and not rated[1]["is_best"]
+    ranks = [augment_tier.TIER_ORDER.index(r["tier"]) for r in rated]
+    best = [r["is_best"] for r in rated]
+    assert sum(best) == 1 and ranks[best.index(True)] == min(ranks), rated
 
     # OCR citeste text cu greseli tipice; potrivirea trebuie sa fie tolerantă
     # dar sa nu forteze potriviri pe text fara sens
@@ -493,6 +498,14 @@ def selfcheck():
               "Autocast throw a boomerang at a nearby enemy every 1 Os.")
     assert ocr_augments.match_augments([oferta], names) == \
         ["Phenomenal Evil", "Ok Boomerang"], ocr_augments.match_augments([oferta], names)
+
+    # citirea pe card: un card = un augment, chiar daca descrierea pomeneste altul
+    card = "Phenomenal Evil Damage Gain Ability Power. Works well with Ok Boomerang."
+    assert ocr_augments.match_card(card, names) == "Phenomenal Evil"
+    assert ocr_augments.match_card("0k Boomerang Damage Autocast throw", names) == "Ok Boomerang"
+    assert ocr_augments.match_card("GoIiath Tank gain size", names) == "Goliath"   # I mare
+    assert ocr_augments.match_card("", names) is None
+    assert ocr_augments.match_card("28 66 18 7/5/7 Grimoire", names) is None
 
     # normalizare nume interne -> afisate
     raw = {"allies": ["Sett"], "enemies": ["MonkeyKing", "FiddleSticks"],
@@ -603,6 +616,21 @@ def selfcheck():
     assert boots_for(["Jinx", "Vayne", "Ashe"], six) is not None
     # build incomplet -> niciodata
     assert boots_for(["Jinx", "Vayne", "Ashe"], six[:4]) is None
+    # 6 sloturi dar cu o componenta in ele (Tear of the Goddess) = inca nu e
+    # build plin, deci niciun sfat de vandut cizmele
+    cu_componenta = six[:5] + ["Whispering Circlet"]
+    assert boots_for(["Jinx", "Vayne", "Ashe"], cu_componenta) is None
+
+    # evolutia: Manamune devine Muramana si dispare din inventar, dar build-ul
+    # cere in continuare Manamune -- trebuie sa conteze ca detinut
+    mana = {"core": ["Manamune", "Heartsteel"], "fourth": ["Warmog's Armor"],
+            "pool": ["Manamune", "Heartsteel", "Warmog's Armor"]}
+    evo = rules_engine.resolve_build(
+        mana, {"allies": [], "enemies": [], "own_items": ["Muramana"]},
+        champion_tags, rules, item_stats)
+    assert evo["core"][0] == {"item": "Manamune", "owned": True, "next": False}, evo["core"]
+    assert evo["core"][1]["next"] is True, evo["core"]
+
     # ce recomanda nu are voie sa fie componenta sau alte cizme
     adv = boots_for(["Jinx", "Vayne", "Ashe"], six)
     assert not (item_stats.get(adv["buy"]) or {}).get("component"), adv
@@ -669,6 +697,9 @@ def selfcheck():
     # pe un mage, AP-ul bate viata
     rec = stat_anvil.recommend(reale, champion_tags, "Lux", ["Jinx"])
     assert next(e for e in rec if e["is_best"])["name"] == "Ability Power Shard", rec
+
+    # recomandarea poarta campionul si un motiv, ca UI-ul sa spuna pentru cine e
+    assert all(e["champion"] == "Lux" and e["why"] for e in rec), rec
 
     # pe un tanc AD, AP-ul e inutil si nu are voie sa iasa primul
     rec2 = stat_anvil.recommend(reale, champion_tags, "Sett", ["Jinx"])

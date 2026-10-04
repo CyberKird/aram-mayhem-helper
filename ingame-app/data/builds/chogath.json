@@ -1,45 +1,50 @@
 {
  "champion": "Cho'Gath",
- "source": "https://u.gg/lol/champions/aram/chogath-aram",
+ "source": "https://aramkit.com/en-US/champions/chogath",
+ "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
   "Mark"
  ],
  "starting": [
-  "Ruby Crystal",
-  "Refillable Potion",
-  "Crystalline Bracer"
+  "Giant's Belt",
+  "Ruby Crystal"
  ],
  "core": [
   "Heartsteel",
-  "Mercury's Treads",
+  "Plated Steelcaps",
+  "Unending Despair",
   "Warmog's Armor"
  ],
  "fourth": [
-  "Kaenic Rookern",
-  "Thornmail"
+  "Riftmaker",
+  "Spirit Visage",
+  "Winter's Approach",
+  "Jak'Sho, The Protean"
  ],
  "fifth": [
-  "Thornmail",
+  "Riftmaker",
+  "Overlord's Bloodmail",
   "Jak'Sho, The Protean",
-  "Force of Nature"
+  "Spirit Visage"
  ],
  "sixth": [
-  "Thornmail",
+  "Riftmaker",
+  "Overlord's Bloodmail",
   "Jak'Sho, The Protean",
-  "Unending Despair"
+  "Spirit Visage"
  ],
  "pool": [
+  "Giant's Belt",
   "Ruby Crystal",
-  "Refillable Potion",
-  "Crystalline Bracer",
   "Heartsteel",
-  "Mercury's Treads",
+  "Plated Steelcaps",
+  "Unending Despair",
   "Warmog's Armor",
-  "Kaenic Rookern",
-  "Thornmail",
+  "Riftmaker",
+  "Spirit Visage",
+  "Winter's Approach",
   "Jak'Sho, The Protean",
-  "Force of Nature",
-  "Unending Despair"
+  "Overlord's Bloodmail"
  ]
 }

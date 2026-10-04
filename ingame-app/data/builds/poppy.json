@@ -1,44 +1,50 @@
 {
  "champion": "Poppy",
- "source": "https://u.gg/lol/champions/aram/poppy-aram",
+ "source": "https://aramkit.com/en-US/champions/poppy",
+ "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
   "Mark"
  ],
  "starting": [
   "Giant's Belt",
-  "Tear of the Goddess"
+  "Ruby Crystal"
  ],
  "core": [
   "Heartsteel",
   "Plated Steelcaps",
-  "Winter's Approach"
- ],
- "fourth": [
   "Unending Despair",
-  "Kaenic Rookern"
- ],
- "fifth": [
-  "Kaenic Rookern",
-  "Spirit Visage",
   "Warmog's Armor"
  ],
+ "fourth": [
+  "Overlord's Bloodmail",
+  "Jak'Sho, The Protean",
+  "Hollow Radiance",
+  "Winter's Approach"
+ ],
+ "fifth": [
+  "Overlord's Bloodmail",
+  "Jak'Sho, The Protean",
+  "Hollow Radiance",
+  "Spirit Visage"
+ ],
  "sixth": [
-  "Warmog's Armor",
-  "Frozen Heart",
-  "Thornmail"
+  "Overlord's Bloodmail",
+  "Jak'Sho, The Protean",
+  "Hollow Radiance",
+  "Spirit Visage"
  ],
  "pool": [
   "Giant's Belt",
-  "Tear of the Goddess",
+  "Ruby Crystal",
   "Heartsteel",
   "Plated Steelcaps",
-  "Winter's Approach",
   "Unending Despair",
-  "Kaenic Rookern",
-  "Spirit Visage",
   "Warmog's Armor",
-  "Frozen Heart",
-  "Thornmail"
+  "Overlord's Bloodmail",
+  "Jak'Sho, The Protean",
+  "Hollow Radiance",
+  "Winter's Approach",
+  "Spirit Visage"
  ]
 }

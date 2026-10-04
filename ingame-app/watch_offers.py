@@ -33,7 +33,7 @@ def main():
         if hwnd and win32gui.GetForegroundWindow() == hwnd:
             try:
                 img = ocr_augments.capture_region(
-                    ocr_augments.offer_region(win32gui.GetWindowRect(hwnd)))
+                    ocr_augments.offer_region(ocr_augments.game_rect(hwnd)))
                 txt = asyncio.run(ocr_augments._ocr_bytes(img))
             except Exception as e:
                 txt = f"<EROARE {type(e).__name__}: {e}>"

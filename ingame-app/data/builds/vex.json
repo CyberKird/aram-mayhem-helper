@@ -1,6 +1,7 @@
 {
  "champion": "Vex",
- "source": "https://u.gg/lol/champions/aram/vex-aram",
+ "source": "https://aramkit.com/en-US/champions/vex",
+ "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
   "Mark"
@@ -12,31 +13,39 @@
  "core": [
   "Luden's Echo",
   "Sorcerer's Shoes",
-  "Stormsurge"
+  "Rabadon's Deathcap",
+  "Shadowflame"
  ],
  "fourth": [
-  "Shadowflame",
-  "Rabadon's Deathcap"
+  "Stormsurge",
+  "Void Staff",
+  "Zhonya's Hourglass",
+  "Liandry's Torment"
  ],
  "fifth": [
-  "Rabadon's Deathcap",
-  "Shadowflame",
-  "Zhonya's Hourglass"
+  "Stormsurge",
+  "Void Staff",
+  "Zhonya's Hourglass",
+  "Liandry's Torment"
  ],
  "sixth": [
-  "Void Staff",
-  "Shadowflame",
-  "Rabadon's Deathcap"
+  "Stormsurge",
+  "Banshee's Veil",
+  "Zhonya's Hourglass",
+  "Cryptbloom"
  ],
  "pool": [
   "Refillable Potion",
   "Lost Chapter",
   "Luden's Echo",
   "Sorcerer's Shoes",
-  "Stormsurge",
-  "Shadowflame",
   "Rabadon's Deathcap",
+  "Shadowflame",
+  "Stormsurge",
+  "Void Staff",
   "Zhonya's Hourglass",
-  "Void Staff"
+  "Liandry's Torment",
+  "Banshee's Veil",
+  "Cryptbloom"
  ]
 }

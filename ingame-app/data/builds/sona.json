@@ -1,45 +1,50 @@
 {
  "champion": "Sona",
- "source": "https://u.gg/lol/champions/aram/sona-aram",
+ "source": "https://aramkit.com/en-US/champions/sona",
+ "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
-  "Clarity"
+  "Heal"
  ],
  "starting": [
-  "Health Potion",
   "Tear of the Goddess",
   "Bandleglass Mirror"
  ],
  "core": [
   "Moonstone Renewer",
   "Ionian Boots of Lucidity",
+  "Staff of Flowing Water",
   "Whispering Circlet"
  ],
  "fourth": [
+  "Dawncore",
+  "Ardent Censer",
+  "Echoes of Helia",
+  "Archangel's Staff"
+ ],
+ "fifth": [
+  "Dawncore",
+  "Echoes of Helia",
+  "Ardent Censer",
+  "Archangel's Staff"
+ ],
+ "sixth": [
+  "Dawncore",
+  "Echoes of Helia",
   "Ardent Censer",
   "Redemption"
  ],
- "fifth": [
-  "Redemption",
-  "Staff of Flowing Water",
-  "Ardent Censer"
- ],
- "sixth": [
-  "Staff of Flowing Water",
-  "Locket of the Iron Solari",
-  "Dawncore"
- ],
  "pool": [
-  "Health Potion",
   "Tear of the Goddess",
   "Bandleglass Mirror",
   "Moonstone Renewer",
   "Ionian Boots of Lucidity",
-  "Whispering Circlet",
-  "Ardent Censer",
-  "Redemption",
   "Staff of Flowing Water",
-  "Locket of the Iron Solari",
-  "Dawncore"
+  "Whispering Circlet",
+  "Dawncore",
+  "Ardent Censer",
+  "Echoes of Helia",
+  "Archangel's Staff",
+  "Redemption"
  ]
 }

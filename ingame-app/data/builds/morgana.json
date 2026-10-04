@@ -1,44 +1,47 @@
 {
  "champion": "Morgana",
- "source": "https://u.gg/lol/champions/aram/morgana-aram",
+ "source": "https://aramkit.com/en-US/champions/morgana",
+ "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
-  "Ignite"
+  "Ghost"
  ],
  "starting": [
-  "Refillable Potion",
   "Lost Chapter"
  ],
  "core": [
+  "Liandry's Torment",
+  "Gluttonous Greaves",
   "Blackfire Torch",
-  "Sorcerer's Shoes",
-  "Liandry's Torment"
+  "Rylai's Crystal Scepter"
  ],
  "fourth": [
-  "Rylai's Crystal Scepter",
+  "Rabadon's Deathcap",
+  "Archangel's Staff",
+  "Bloodletter's Curse",
   "Shadowflame"
  ],
  "fifth": [
-  "Shadowflame",
-  "Morellonomicon",
-  "Rylai's Crystal Scepter"
+  "Archangel's Staff",
+  "Bloodletter's Curse",
+  "Rabadon's Deathcap",
+  "Shadowflame"
  ],
  "sixth": [
-  "Void Staff",
-  "Zhonya's Hourglass",
-  "Kaenic Rookern"
+  "Archangel's Staff",
+  "Bloodletter's Curse",
+  "Rabadon's Deathcap",
+  "Shadowflame"
  ],
  "pool": [
-  "Refillable Potion",
   "Lost Chapter",
-  "Blackfire Torch",
-  "Sorcerer's Shoes",
   "Liandry's Torment",
+  "Gluttonous Greaves",
+  "Blackfire Torch",
   "Rylai's Crystal Scepter",
-  "Shadowflame",
-  "Morellonomicon",
-  "Void Staff",
-  "Zhonya's Hourglass",
-  "Kaenic Rookern"
+  "Rabadon's Deathcap",
+  "Archangel's Staff",
+  "Bloodletter's Curse",
+  "Shadowflame"
  ]
 }

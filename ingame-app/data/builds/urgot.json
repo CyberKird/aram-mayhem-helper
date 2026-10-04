@@ -1,6 +1,7 @@
 {
  "champion": "Urgot",
- "source": "https://u.gg/lol/champions/aram/urgot-aram",
+ "source": "https://aramkit.com/en-US/champions/urgot",
+ "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
   "Mark"
@@ -12,31 +13,38 @@
  "core": [
   "Heartsteel",
   "Mercury's Treads",
-  "Thornmail"
+  "Warmog's Armor",
+  "Overlord's Bloodmail"
  ],
  "fourth": [
-  "Kaenic Rookern",
-  "Black Cleaver"
+  "Titanic Hydra",
+  "Black Cleaver",
+  "Sterak's Gage",
+  "Unending Despair"
  ],
  "fifth": [
-  "Black Cleaver",
-  "Kaenic Rookern",
-  "Warmog's Armor"
+  "Unending Despair",
+  "Sterak's Gage",
+  "Titanic Hydra",
+  "Black Cleaver"
  ],
  "sixth": [
-  "Jak'Sho, The Protean",
-  "Warmog's Armor",
-  "Kaenic Rookern"
+  "Unending Despair",
+  "Black Cleaver",
+  "Spirit Visage",
+  "Sterak's Gage"
  ],
  "pool": [
   "Giant's Belt",
   "Ruby Crystal",
   "Heartsteel",
   "Mercury's Treads",
-  "Thornmail",
-  "Kaenic Rookern",
-  "Black Cleaver",
   "Warmog's Armor",
-  "Jak'Sho, The Protean"
+  "Overlord's Bloodmail",
+  "Titanic Hydra",
+  "Black Cleaver",
+  "Sterak's Gage",
+  "Unending Despair",
+  "Spirit Visage"
  ]
 }

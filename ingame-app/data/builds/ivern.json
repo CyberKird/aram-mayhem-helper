@@ -1,45 +1,50 @@
 {
  "champion": "Ivern",
- "source": "https://u.gg/lol/champions/aram/ivern-aram",
+ "source": "https://aramkit.com/en-US/champions/ivern",
+ "mode": "ARAM Mayhem",
  "summoners": [
-  "Exhaust",
-  "Flash"
+  "Flash",
+  "Heal"
  ],
  "starting": [
-  "Health Potion",
   "Tear of the Goddess",
   "Bandleglass Mirror"
  ],
  "core": [
   "Moonstone Renewer",
-  "Whispering Circlet",
-  "Ionian Boots of Lucidity"
+  "Ionian Boots of Lucidity",
+  "Ardent Censer",
+  "Whispering Circlet"
  ],
  "fourth": [
-  "Ardent Censer",
-  "Liandry's Torment"
+  "Staff of Flowing Water",
+  "Dawncore",
+  "Redemption",
+  "Locket of the Iron Solari"
  ],
  "fifth": [
-  "Redemption",
   "Staff of Flowing Water",
-  "Ardent Censer"
+  "Dawncore",
+  "Redemption",
+  "Shurelya's Battlesong"
  ],
  "sixth": [
+  "Staff of Flowing Water",
+  "Dawncore",
   "Redemption",
-  "Ardent Censer",
-  "Dawncore"
+  "Shurelya's Battlesong"
  ],
  "pool": [
-  "Health Potion",
   "Tear of the Goddess",
   "Bandleglass Mirror",
   "Moonstone Renewer",
-  "Whispering Circlet",
   "Ionian Boots of Lucidity",
   "Ardent Censer",
-  "Liandry's Torment",
-  "Redemption",
+  "Whispering Circlet",
   "Staff of Flowing Water",
-  "Dawncore"
+  "Dawncore",
+  "Redemption",
+  "Locket of the Iron Solari",
+  "Shurelya's Battlesong"
  ]
 }

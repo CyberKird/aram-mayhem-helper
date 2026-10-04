@@ -1,44 +1,51 @@
 {
  "champion": "Riven",
- "source": "https://u.gg/lol/champions/aram/riven-aram",
+ "source": "https://aramkit.com/en-US/champions/riven",
+ "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
   "Mark"
  ],
  "starting": [
-  "Boots",
-  "Health Potion",
-  "Caulfield's Warhammer"
+  "Long Sword",
+  "Guardian's Blade"
  ],
  "core": [
-  "Sundered Sky",
-  "Plated Steelcaps",
-  "Death's Dance"
+  "Hubris",
+  "Gluttonous Greaves",
+  "Death's Dance",
+  "Endless Hunger"
  ],
  "fourth": [
+  "Maw of Malmortius",
   "Spear of Shojin",
-  "Black Cleaver"
+  "Eclipse",
+  "Sundered Sky"
  ],
  "fifth": [
+  "Maw of Malmortius",
   "Spear of Shojin",
-  "Black Cleaver",
-  "Maw of Malmortius"
+  "Eclipse",
+  "Mortal Reminder"
  ],
  "sixth": [
+  "Spear of Shojin",
   "Maw of Malmortius",
-  "Endless Hunger",
+  "Eclipse",
   "Black Cleaver"
  ],
  "pool": [
-  "Boots",
-  "Health Potion",
-  "Caulfield's Warhammer",
-  "Sundered Sky",
-  "Plated Steelcaps",
+  "Long Sword",
+  "Guardian's Blade",
+  "Hubris",
+  "Gluttonous Greaves",
   "Death's Dance",
-  "Spear of Shojin",
-  "Black Cleaver",
+  "Endless Hunger",
   "Maw of Malmortius",
-  "Endless Hunger"
+  "Spear of Shojin",
+  "Eclipse",
+  "Sundered Sky",
+  "Mortal Reminder",
+  "Black Cleaver"
  ]
 }

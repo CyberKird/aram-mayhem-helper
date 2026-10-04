@@ -1,44 +1,51 @@
 {
  "champion": "Fiora",
- "source": "https://u.gg/lol/champions/aram/fiora-aram",
+ "source": "https://aramkit.com/en-US/champions/fiora",
+ "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
-  "Heal"
+  "Mark"
  ],
  "starting": [
-  "Refillable Potion",
-  "Tiamat"
+  "Long Sword",
+  "Guardian's Blade"
  ],
  "core": [
   "Ravenous Hydra",
-  "Plated Steelcaps",
-  "Death's Dance"
+  "Gluttonous Greaves",
+  "Death's Dance",
+  "Endless Hunger"
  ],
  "fourth": [
-  "Sundered Sky",
-  "Maw of Malmortius"
+  "Spear of Shojin",
+  "Maw of Malmortius",
+  "Trinity Force",
+  "Blade of The Ruined King"
  ],
  "fifth": [
-  "Spirit Visage",
-  "Blade of The Ruined King",
-  "Trinity Force"
- ],
- "sixth": [
-  "Trinity Force",
-  "Spirit Visage",
-  "Eclipse"
- ],
- "pool": [
-  "Refillable Potion",
-  "Tiamat",
-  "Ravenous Hydra",
-  "Plated Steelcaps",
-  "Death's Dance",
-  "Sundered Sky",
+  "Spear of Shojin",
   "Maw of Malmortius",
   "Spirit Visage",
-  "Blade of The Ruined King",
+  "Sterak's Gage"
+ ],
+ "sixth": [
+  "Spear of Shojin",
+  "Sterak's Gage",
+  "Maw of Malmortius",
+  "Trinity Force"
+ ],
+ "pool": [
+  "Long Sword",
+  "Guardian's Blade",
+  "Ravenous Hydra",
+  "Gluttonous Greaves",
+  "Death's Dance",
+  "Endless Hunger",
+  "Spear of Shojin",
+  "Maw of Malmortius",
   "Trinity Force",
-  "Eclipse"
+  "Blade of The Ruined King",
+  "Spirit Visage",
+  "Sterak's Gage"
  ]
 }

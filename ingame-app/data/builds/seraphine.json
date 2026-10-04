@@ -1,44 +1,48 @@
 {
  "champion": "Seraphine",
- "source": "https://u.gg/lol/champions/aram/seraphine-aram",
+ "source": "https://aramkit.com/en-US/champions/seraphine",
+ "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
-  "Heal"
+  "Ghost"
  ],
  "starting": [
   "Lost Chapter"
  ],
  "core": [
-  "Luden's Echo",
-  "Sorcerer's Shoes",
-  "Shadowflame"
+  "Rylai's Crystal Scepter",
+  "Gluttonous Greaves",
+  "Blackfire Torch",
+  "Liandry's Torment"
  ],
  "fourth": [
-  "Rylai's Crystal Scepter",
-  "Rabadon's Deathcap"
+  "Archangel's Staff",
+  "Rabadon's Deathcap",
+  "Malignance",
+  "Shadowflame"
  ],
  "fifth": [
+  "Archangel's Staff",
+  "Rabadon's Deathcap",
   "Cryptbloom",
-  "Echoes of Helia",
-  "Mikael's Blessing"
+  "Shadowflame"
  ],
  "sixth": [
-  "Ardent Censer",
-  "Void Staff",
-  "Redemption"
+  "Archangel's Staff",
+  "Cryptbloom",
+  "Shadowflame",
+  "Rabadon's Deathcap"
  ],
  "pool": [
   "Lost Chapter",
-  "Luden's Echo",
-  "Sorcerer's Shoes",
-  "Shadowflame",
   "Rylai's Crystal Scepter",
+  "Gluttonous Greaves",
+  "Blackfire Torch",
+  "Liandry's Torment",
+  "Archangel's Staff",
   "Rabadon's Deathcap",
-  "Cryptbloom",
-  "Echoes of Helia",
-  "Mikael's Blessing",
-  "Ardent Censer",
-  "Void Staff",
-  "Redemption"
+  "Malignance",
+  "Shadowflame",
+  "Cryptbloom"
  ]
 }

@@ -1,44 +1,48 @@
 {
  "champion": "Viktor",
- "source": "https://u.gg/lol/champions/aram/viktor-aram",
+ "source": "https://aramkit.com/en-US/champions/viktor",
+ "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
   "Ghost"
  ],
  "starting": [
-  "Refillable Potion",
   "Lost Chapter"
  ],
  "core": [
   "Blackfire Torch",
-  "Shadowflame",
-  "Sorcerer's Shoes"
+  "Gluttonous Greaves",
+  "Liandry's Torment",
+  "Rabadon's Deathcap"
  ],
  "fourth": [
-  "Rabadon's Deathcap",
+  "Shadowflame",
+  "Lich Bane",
+  "Void Staff",
   "Stormsurge"
  ],
  "fifth": [
-  "Rabadon's Deathcap",
-  "Void Staff",
-  "Lich Bane"
+  "Lich Bane",
+  "Stormsurge",
+  "Shadowflame",
+  "Void Staff"
  ],
  "sixth": [
+  "Lich Bane",
   "Stormsurge",
-  "Zhonya's Hourglass",
-  "Liandry's Torment"
+  "Shadowflame",
+  "Banshee's Veil"
  ],
  "pool": [
-  "Refillable Potion",
   "Lost Chapter",
   "Blackfire Torch",
-  "Shadowflame",
-  "Sorcerer's Shoes",
+  "Gluttonous Greaves",
+  "Liandry's Torment",
   "Rabadon's Deathcap",
-  "Stormsurge",
-  "Void Staff",
+  "Shadowflame",
   "Lich Bane",
-  "Zhonya's Hourglass",
-  "Liandry's Torment"
+  "Void Staff",
+  "Stormsurge",
+  "Banshee's Veil"
  ]
 }

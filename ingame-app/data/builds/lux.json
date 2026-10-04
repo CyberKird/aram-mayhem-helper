@@ -1,43 +1,50 @@
 {
  "champion": "Lux",
- "source": "https://u.gg/lol/champions/aram/lux-aram",
+ "source": "https://aramkit.com/en-US/champions/lux",
+ "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
-  "Heal"
+  "Ghost"
  ],
  "starting": [
+  "Refillable Potion",
   "Lost Chapter"
  ],
  "core": [
-  "Malignance",
-  "Sorcerer's Shoes",
-  "Rabadon's Deathcap"
- ],
- "fourth": [
-  "Stormsurge",
+  "Luden's Echo",
+  "Ionian Boots of Lucidity",
+  "Rabadon's Deathcap",
   "Shadowflame"
  ],
- "fifth": [
-  "Shadowflame",
-  "Banshee's Veil",
+ "fourth": [
+  "Archangel's Staff",
+  "Stormsurge",
+  "Void Staff",
   "Horizon Focus"
  ],
+ "fifth": [
+  "Horizon Focus",
+  "Stormsurge",
+  "Archangel's Staff",
+  "Void Staff"
+ ],
  "sixth": [
-  "Liandry's Torment",
-  "Cryptbloom",
+  "Banshee's Veil",
+  "Stormsurge",
+  "Horizon Focus",
   "Archangel's Staff"
  ],
  "pool": [
+  "Refillable Potion",
   "Lost Chapter",
-  "Malignance",
-  "Sorcerer's Shoes",
+  "Luden's Echo",
+  "Ionian Boots of Lucidity",
   "Rabadon's Deathcap",
-  "Stormsurge",
   "Shadowflame",
-  "Banshee's Veil",
+  "Archangel's Staff",
+  "Stormsurge",
+  "Void Staff",
   "Horizon Focus",
-  "Liandry's Torment",
-  "Cryptbloom",
-  "Archangel's Staff"
+  "Banshee's Veil"
  ]
 }

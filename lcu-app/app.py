@@ -12,6 +12,7 @@ import pathlib
 import sys
 import threading
 
+import champ_stats
 import mayhem_logic as logic
 import tier_list
 from lcu_client import connect, find_lcu_process
@@ -147,12 +148,12 @@ class Monitor:
         # ceva mai bun in mana.
         best = logic.best_pick(([mine] if mine else []) + ids, data, tiers, over)
 
-        self.assigned = (dict(logic.describe(mine, data, tiers, over),
-                              is_best=(mine == best)) if mine else None)
-        self.bench = [
-            dict(logic.describe(cid, data, tiers, over), is_best=(cid == best))
-            for cid in ids
-        ]
+        def entry(cid):
+            d = logic.describe(cid, data, tiers, over)
+            return dict(d, is_best=(cid == best), **champ_stats.info(d["name"]))
+
+        self.assigned = entry(mine) if mine else None
+        self.bench = [entry(cid) for cid in ids]
 
 
 def build_ui(mon):

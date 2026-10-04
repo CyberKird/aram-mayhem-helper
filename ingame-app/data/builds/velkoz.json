@@ -1,46 +1,49 @@
 {
  "champion": "Vel'Koz",
- "source": "https://u.gg/lol/champions/aram/velkoz-aram",
+ "source": "https://aramkit.com/en-US/champions/velkoz",
+ "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
-  "Mark"
+  "Ghost"
  ],
  "starting": [
-  "Refillable Potion",
   "Lost Chapter"
  ],
  "core": [
   "Blackfire Torch",
-  "Sorcerer's Shoes",
-  "Liandry's Torment"
+  "Gluttonous Greaves",
+  "Liandry's Torment",
+  "Rabadon's Deathcap"
  ],
  "fourth": [
+  "Archangel's Staff",
+  "Shadowflame",
+  "Horizon Focus",
+  "Void Staff"
+ ],
+ "fifth": [
+  "Shadowflame",
+  "Archangel's Staff",
+  "Horizon Focus",
+  "Stormsurge"
+ ],
+ "sixth": [
+  "Horizon Focus",
+  "Banshee's Veil",
   "Stormsurge",
   "Shadowflame"
  ],
- "fifth": [
-  "Rabadon's Deathcap",
-  "Horizon Focus",
-  "Zhonya's Hourglass"
- ],
- "sixth": [
-  "Malignance",
-  "Cosmic Drive",
-  "Luden's Echo"
- ],
  "pool": [
-  "Refillable Potion",
   "Lost Chapter",
   "Blackfire Torch",
-  "Sorcerer's Shoes",
+  "Gluttonous Greaves",
   "Liandry's Torment",
-  "Stormsurge",
-  "Shadowflame",
   "Rabadon's Deathcap",
+  "Archangel's Staff",
+  "Shadowflame",
   "Horizon Focus",
-  "Zhonya's Hourglass",
-  "Malignance",
-  "Cosmic Drive",
-  "Luden's Echo"
+  "Void Staff",
+  "Stormsurge",
+  "Banshee's Veil"
  ]
 }

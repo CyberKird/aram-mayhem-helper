@@ -1,46 +1,50 @@
 {
  "champion": "Galio",
- "source": "https://u.gg/lol/champions/aram/galio-aram",
+ "source": "https://aramkit.com/en-US/champions/galio",
+ "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
   "Mark"
  ],
  "starting": [
-  "Health Potion",
-  "Guardian's Horn",
-  "Tear of the Goddess"
+  "Giant's Belt",
+  "Ruby Crystal"
  ],
  "core": [
   "Heartsteel",
-  "Winter's Approach",
-  "Mercury's Treads"
+  "Mercury's Treads",
+  "Unending Despair",
+  "Warmog's Armor"
  ],
  "fourth": [
-  "Hollow Radiance",
-  "Kaenic Rookern"
+  "Riftmaker",
+  "Spirit Visage",
+  "Winter's Approach",
+  "Jak'Sho, The Protean"
  ],
  "fifth": [
-  "Randuin's Omen",
+  "Riftmaker",
+  "Spirit Visage",
   "Jak'Sho, The Protean",
   "Hollow Radiance"
  ],
  "sixth": [
-  "Warmog's Armor",
+  "Riftmaker",
+  "Spirit Visage",
   "Jak'Sho, The Protean",
-  "Thornmail"
+  "Hollow Radiance"
  ],
  "pool": [
-  "Health Potion",
-  "Guardian's Horn",
-  "Tear of the Goddess",
+  "Giant's Belt",
+  "Ruby Crystal",
   "Heartsteel",
-  "Winter's Approach",
   "Mercury's Treads",
-  "Hollow Radiance",
-  "Kaenic Rookern",
-  "Randuin's Omen",
-  "Jak'Sho, The Protean",
+  "Unending Despair",
   "Warmog's Armor",
-  "Thornmail"
+  "Riftmaker",
+  "Spirit Visage",
+  "Winter's Approach",
+  "Jak'Sho, The Protean",
+  "Hollow Radiance"
  ]
 }

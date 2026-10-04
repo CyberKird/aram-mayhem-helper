@@ -1,46 +1,51 @@
 {
  "champion": "Amumu",
- "source": "https://u.gg/lol/champions/aram/amumu-aram",
+ "source": "https://aramkit.com/en-US/champions/amumu",
+ "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
   "Mark"
  ],
  "starting": [
-  "Health Potion",
-  "Tear of the Goddess",
-  "Bami's Cinder"
+  "Giant's Belt",
+  "Ruby Crystal"
  ],
  "core": [
-  "Sunfire Aegis",
-  "Mercury's Treads",
-  "Winter's Approach"
+  "Heartsteel",
+  "Plated Steelcaps",
+  "Unending Despair",
+  "Warmog's Armor"
  ],
  "fourth": [
-  "Abyssal Mask",
-  "Thornmail"
+  "Riftmaker",
+  "Liandry's Torment",
+  "Sunfire Aegis",
+  "Abyssal Mask"
  ],
  "fifth": [
-  "Thornmail",
-  "Jak'Sho, The Protean",
-  "Kaenic Rookern"
+  "Riftmaker",
+  "Liandry's Torment",
+  "Abyssal Mask",
+  "Hollow Radiance"
  ],
  "sixth": [
-  "Thornmail",
-  "Warmog's Armor",
-  "Heartsteel"
+  "Riftmaker",
+  "Sunfire Aegis",
+  "Liandry's Torment",
+  "Jak'Sho, The Protean"
  ],
  "pool": [
-  "Health Potion",
-  "Tear of the Goddess",
-  "Bami's Cinder",
-  "Sunfire Aegis",
-  "Mercury's Treads",
-  "Winter's Approach",
-  "Abyssal Mask",
-  "Thornmail",
-  "Jak'Sho, The Protean",
-  "Kaenic Rookern",
+  "Giant's Belt",
+  "Ruby Crystal",
+  "Heartsteel",
+  "Plated Steelcaps",
+  "Unending Despair",
   "Warmog's Armor",
-  "Heartsteel"
+  "Riftmaker",
+  "Liandry's Torment",
+  "Sunfire Aegis",
+  "Abyssal Mask",
+  "Hollow Radiance",
+  "Jak'Sho, The Protean"
  ]
 }

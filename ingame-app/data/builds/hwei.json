@@ -1,42 +1,49 @@
 {
  "champion": "Hwei",
- "source": "https://u.gg/lol/champions/aram/hwei-aram",
+ "source": "https://aramkit.com/en-US/champions/hwei",
+ "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
-  "Clarity"
+  "Ghost"
  ],
  "starting": [
-  "Lost Chapter"
+  "Sapphire Crystal",
+  "Fated Ashes"
  ],
  "core": [
   "Blackfire Torch",
-  "Sorcerer's Shoes",
-  "Liandry's Torment"
+  "Gluttonous Greaves",
+  "Liandry's Torment",
+  "Rabadon's Deathcap"
  ],
  "fourth": [
+  "Archangel's Staff",
   "Shadowflame",
-  "Cryptbloom"
+  "Cryptbloom",
+  "Void Staff"
  ],
  "fifth": [
-  "Rabadon's Deathcap",
+  "Archangel's Staff",
   "Shadowflame",
-  "Morellonomicon"
+  "Cryptbloom",
+  "Void Staff"
  ],
  "sixth": [
   "Shadowflame",
   "Archangel's Staff",
-  "Zhonya's Hourglass"
+  "Void Staff",
+  "Cryptbloom"
  ],
  "pool": [
-  "Lost Chapter",
+  "Sapphire Crystal",
+  "Fated Ashes",
   "Blackfire Torch",
-  "Sorcerer's Shoes",
+  "Gluttonous Greaves",
   "Liandry's Torment",
+  "Rabadon's Deathcap",
+  "Archangel's Staff",
   "Shadowflame",
   "Cryptbloom",
-  "Rabadon's Deathcap",
-  "Morellonomicon",
-  "Archangel's Staff",
-  "Zhonya's Hourglass"
+  "Void Staff"
  ]
 }

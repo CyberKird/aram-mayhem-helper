@@ -1,42 +1,51 @@
 {
  "champion": "Rengar",
- "source": "https://u.gg/lol/champions/aram/rengar-aram",
+ "source": "https://aramkit.com/en-US/champions/rengar",
+ "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
   "Mark"
  ],
  "starting": [
-  "Boots",
-  "Serrated Dirk"
+  "Long Sword",
+  "Guardian's Blade"
  ],
  "core": [
   "Hubris",
-  "Ionian Boots of Lucidity",
-  "The Collector"
- ],
- "fourth": [
-  "Voltaic Cyclosword",
-  "Infinity Edge"
- ],
- "fifth": [
-  "Infinity Edge",
-  "Voltaic Cyclosword",
+  "Gluttonous Greaves",
+  "The Collector",
   "Lord Dominik's Regards"
  ],
- "sixth": [
-  "Lord Dominik's Regards",
+ "fourth": [
+  "Axiom Arc",
   "Infinity Edge",
-  "Edge of Night"
+  "Death's Dance",
+  "Voltaic Cyclosword"
+ ],
+ "fifth": [
+  "Endless Hunger",
+  "Axiom Arc",
+  "Death's Dance",
+  "Infinity Edge"
+ ],
+ "sixth": [
+  "Endless Hunger",
+  "Youmuu's Ghostblade",
+  "Death's Dance",
+  "Axiom Arc"
  ],
  "pool": [
-  "Boots",
-  "Serrated Dirk",
+  "Long Sword",
+  "Guardian's Blade",
   "Hubris",
-  "Ionian Boots of Lucidity",
+  "Gluttonous Greaves",
   "The Collector",
-  "Voltaic Cyclosword",
-  "Infinity Edge",
   "Lord Dominik's Regards",
-  "Edge of Night"
+  "Axiom Arc",
+  "Infinity Edge",
+  "Death's Dance",
+  "Voltaic Cyclosword",
+  "Endless Hunger",
+  "Youmuu's Ghostblade"
  ]
 }

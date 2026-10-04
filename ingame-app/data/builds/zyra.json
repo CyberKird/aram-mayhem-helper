@@ -1,43 +1,50 @@
 {
  "champion": "Zyra",
- "source": "https://u.gg/lol/champions/aram/zyra-aram",
+ "source": "https://aramkit.com/en-US/champions/zyra",
+ "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
-  "Heal"
+  "Ghost"
  ],
  "starting": [
   "Refillable Potion",
   "Lost Chapter"
  ],
  "core": [
+  "Liandry's Torment",
+  "Gluttonous Greaves",
   "Blackfire Torch",
-  "Sorcerer's Shoes",
-  "Liandry's Torment"
+  "Rylai's Crystal Scepter"
  ],
  "fourth": [
-  "Rylai's Crystal Scepter",
+  "Rabadon's Deathcap",
+  "Bloodletter's Curse",
+  "Archangel's Staff",
   "Shadowflame"
  ],
  "fifth": [
-  "Shadowflame",
-  "Void Staff",
-  "Morellonomicon"
+  "Bloodletter's Curse",
+  "Archangel's Staff",
+  "Rabadon's Deathcap",
+  "Cryptbloom"
  ],
  "sixth": [
-  "Void Staff",
-  "Rylai's Crystal Scepter",
-  "Bloodletter's Curse"
+  "Archangel's Staff",
+  "Bloodletter's Curse",
+  "Shadowflame",
+  "Rabadon's Deathcap"
  ],
  "pool": [
   "Refillable Potion",
   "Lost Chapter",
-  "Blackfire Torch",
-  "Sorcerer's Shoes",
   "Liandry's Torment",
+  "Gluttonous Greaves",
+  "Blackfire Torch",
   "Rylai's Crystal Scepter",
+  "Rabadon's Deathcap",
+  "Bloodletter's Curse",
+  "Archangel's Staff",
   "Shadowflame",
-  "Void Staff",
-  "Morellonomicon",
-  "Bloodletter's Curse"
+  "Cryptbloom"
  ]
 }

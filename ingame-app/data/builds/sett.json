@@ -1,45 +1,49 @@
 {
  "champion": "Sett",
- "source": "https://u.gg/lol/champions/aram/sett-aram",
+ "source": "https://aramkit.com/en-US/champions/sett",
+ "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
   "Mark"
  ],
  "starting": [
-  "Ruby Crystal",
-  "Refillable Potion",
-  "Crystalline Bracer"
+  "Giant's Belt",
+  "Ruby Crystal"
  ],
  "core": [
   "Heartsteel",
   "Mercury's Treads",
+  "Warmog's Armor",
   "Overlord's Bloodmail"
  ],
  "fourth": [
+  "Endless Hunger",
+  "Titanic Hydra",
   "Sterak's Gage",
-  "Warmog's Armor"
+  "Spear of Shojin"
  ],
  "fifth": [
-  "Warmog's Armor",
+  "Endless Hunger",
+  "Titanic Hydra",
   "Sterak's Gage",
-  "Stridebreaker"
+  "Spear of Shojin"
  ],
  "sixth": [
-  "Spirit Visage",
-  "Thornmail",
-  "Sterak's Gage"
+  "Endless Hunger",
+  "Titanic Hydra",
+  "Sterak's Gage",
+  "Spear of Shojin"
  ],
  "pool": [
+  "Giant's Belt",
   "Ruby Crystal",
-  "Refillable Potion",
-  "Crystalline Bracer",
   "Heartsteel",
   "Mercury's Treads",
-  "Overlord's Bloodmail",
-  "Sterak's Gage",
   "Warmog's Armor",
-  "Stridebreaker",
-  "Spirit Visage",
-  "Thornmail"
+  "Overlord's Bloodmail",
+  "Endless Hunger",
+  "Titanic Hydra",
+  "Sterak's Gage",
+  "Spear of Shojin"
  ]
 }

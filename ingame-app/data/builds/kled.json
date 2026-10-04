@@ -1,43 +1,52 @@
 {
  "champion": "Kled",
- "source": "https://u.gg/lol/champions/aram/kled-aram",
+ "source": "https://aramkit.com/en-US/champions/kled",
+ "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
-  "Ignite"
+  "Mark"
  ],
  "starting": [
-  "Tunneler"
+  "Giant's Belt",
+  "Ruby Crystal"
  ],
  "core": [
   "Heartsteel",
-  "Titanic Hydra",
-  "Mercury's Treads"
+  "Gluttonous Greaves",
+  "Warmog's Armor",
+  "Overlord's Bloodmail"
  ],
  "fourth": [
-  "Sterak's Gage",
+  "Titanic Hydra",
+  "Black Cleaver",
+  "Sundered Sky",
   "Death's Dance"
  ],
  "fifth": [
-  "Overlord's Bloodmail",
-  "Blade of The Ruined King",
-  "Randuin's Omen"
+  "Titanic Hydra",
+  "Endless Hunger",
+  "Sterak's Gage",
+  "Black Cleaver"
  ],
  "sixth": [
-  "Sundered Sky",
+  "Titanic Hydra",
   "Sterak's Gage",
-  "Spirit Visage"
+  "Endless Hunger",
+  "Jak'Sho, The Protean"
  ],
  "pool": [
-  "Tunneler",
+  "Giant's Belt",
+  "Ruby Crystal",
   "Heartsteel",
-  "Titanic Hydra",
-  "Mercury's Treads",
-  "Sterak's Gage",
-  "Death's Dance",
+  "Gluttonous Greaves",
+  "Warmog's Armor",
   "Overlord's Bloodmail",
-  "Blade of The Ruined King",
-  "Randuin's Omen",
+  "Titanic Hydra",
+  "Black Cleaver",
   "Sundered Sky",
-  "Spirit Visage"
+  "Death's Dance",
+  "Endless Hunger",
+  "Sterak's Gage",
+  "Jak'Sho, The Protean"
  ]
 }

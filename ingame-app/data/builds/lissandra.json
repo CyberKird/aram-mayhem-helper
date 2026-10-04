@@ -1,41 +1,50 @@
 {
  "champion": "Lissandra",
- "source": "https://u.gg/lol/champions/aram/lissandra-aram",
+ "source": "https://aramkit.com/en-US/champions/lissandra",
+ "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
   "Mark"
  ],
  "starting": [
+  "Refillable Potion",
   "Lost Chapter"
  ],
  "core": [
-  "Luden's Echo",
+  "Malignance",
   "Sorcerer's Shoes",
-  "Zhonya's Hourglass"
+  "Rabadon's Deathcap",
+  "Shadowflame"
  ],
  "fourth": [
-  "Shadowflame",
-  "Rabadon's Deathcap"
+  "Cryptbloom",
+  "Stormsurge",
+  "Void Staff",
+  "Zhonya's Hourglass"
  ],
  "fifth": [
-  "Rabadon's Deathcap",
-  "Shadowflame",
-  "Stormsurge"
- ],
- "sixth": [
-  "Cryptbloom",
-  "Void Staff",
-  "Rabadon's Deathcap"
- ],
- "pool": [
-  "Lost Chapter",
-  "Luden's Echo",
-  "Sorcerer's Shoes",
-  "Zhonya's Hourglass",
-  "Shadowflame",
-  "Rabadon's Deathcap",
   "Stormsurge",
   "Cryptbloom",
-  "Void Staff"
+  "Void Staff",
+  "Zhonya's Hourglass"
+ ],
+ "sixth": [
+  "Stormsurge",
+  "Banshee's Veil",
+  "Void Staff",
+  "Cryptbloom"
+ ],
+ "pool": [
+  "Refillable Potion",
+  "Lost Chapter",
+  "Malignance",
+  "Sorcerer's Shoes",
+  "Rabadon's Deathcap",
+  "Shadowflame",
+  "Cryptbloom",
+  "Stormsurge",
+  "Void Staff",
+  "Zhonya's Hourglass",
+  "Banshee's Veil"
  ]
 }

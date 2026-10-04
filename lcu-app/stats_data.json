@@ -1,0 +1,4295 @@
+{
+ "version": "16.19",
+ "revision": "20260929",
+ "source": "aramkit.com (ARAM Mayhem)",
+ "champions": {
+  "Annie": {
+   "wr": 49.1,
+   "pr": 2.3,
+   "tier": "B",
+   "games": 672438,
+   "balance": {
+    "modifiers": [
+     {
+      "key": "damageDealt",
+      "unit": "percent",
+      "value": -0.05
+     }
+    ],
+    "abilityChanges": []
+   }
+  },
+  "Olaf": {
+   "wr": 46.5,
+   "pr": 1.7,
+   "tier": "C",
+   "games": 485382,
+   "balance": {
+    "modifiers": [
+     {
+      "key": "damageDealt",
+      "unit": "percent",
+      "value": 0.05
+     }
+    ],
+    "abilityChanges": []
+   }
+  },
+  "Galio": {
+   "wr": 50.2,
+   "pr": 7.0,
+   "tier": "B",
+   "games": 2009691,
+   "balance": {
+    "modifiers": [
+     {
+      "key": "damageDealt",
+      "unit": "percent",
+      "value": -0.1
+     },
+     {
+      "key": "damageTaken",
+      "unit": "percent",
+      "value": 0.05
+     }
+    ],
+    "abilityChanges": []
+   }
+  },
+  "Twisted Fate": {
+   "wr": 56.3,
+   "pr": 10.8,
+   "tier": "S",
+   "games": 3100176,
+   "balance": {}
+  },
+  "Xin Zhao": {
+   "wr": 53.3,
+   "pr": 7.9,
+   "tier": "A",
+   "games": 2288594,
+   "balance": {}
+  },
+  "Urgot": {
+   "wr": 46.0,
+   "pr": 3.6,
+   "tier": "C",
+   "games": 1041259,
+   "balance": {}
+  },
+  "LeBlanc": {
+   "wr": 43.5,
+   "pr": 3.2,
+   "tier": "D",
+   "games": 937957,
+   "balance": {
+    "modifiers": [
+     {
+      "key": "abilityHaste",
+      "unit": "number",
+      "value": 20
+     },
+     {
+      "key": "damageDealt",
+      "unit": "percent",
+      "value": 0.1
+     },
+     {
+      "key": "damageTaken",
+      "unit": "percent",
+      "value": -0.1
+     }
+    ],
+    "abilityChanges": []
+   }
+  },
+  "Vladimir": {
+   "wr": 47.5,
+   "pr": 7.3,
+   "tier": "B",
+   "games": 2114535,
+   "balance": {}
+  },
+  "Fiddlesticks": {
+   "wr": 48.5,
+   "pr": 4.4,
+   "tier": "B",
+   "games": 1271206,
+   "balance": {}
+  },
+  "Kayle": {
+   "wr": 55.1,
+   "pr": 7.6,
+   "tier": "S",
+   "games": 2202070,
+   "balance": {
+    "modifiers": [
+     {
+      "key": "damageDealt",
+      "unit": "percent",
+      "value": -0.05
+     },
+     {
+      "key": "damageTaken",
+      "unit": "percent",
+      "value": 0.1
+     }
+    ],
+    "abilityChanges": []
+   }
+  },
+  "Master Yi": {
+   "wr": 54.8,
+   "pr": 10.4,
+   "tier": "S",
+   "games": 3006081,
+   "balance": {}
+  },
+  "Alistar": {
+   "wr": 52.0,
+   "pr": 6.0,
+   "tier": "A",
+   "games": 1723218,
+   "balance": {
+    "modifiers": [
+     {
+      "key": "damageTaken",
+      "unit": "percent",
+      "value": 0.05
+     }
+    ],
+    "abilityChanges": []
+   }
+  },
+  "Ryze": {
+   "wr": 52.1,
+   "pr": 11.1,
+   "tier": "A",
+   "games": 3196576,
+   "balance": {}
+  },
+  "Sion": {
+   "wr": 50.8,
+   "pr": 7.5,
+   "tier": "A",
+   "games": 2174569,
+   "balance": {
+    "modifiers": [
+     {
+      "key": "abilityHaste",
+      "unit": "number",
+      "value": -10
+     },
+     {
+      "key": "damageDealt",
+      "unit": "percent",
+      "value": -0.1
+     }
+    ],
+    "abilityChanges": [
+     {
+      "ability": "Glory in Death",
+      "key": "P",
+      "description": "After being killed, Sion will temporarily reanimate with rapidly decaying Health. His attacks become very rapid, heal him, and deal bonus damage based on his target's maximum Health.",
+      "lines": [
+       "Lifesteal changed to 50% from 100%."
+      ]
+     },
+     {
+      "ability": "Soul Furnace",
+      "key": "W",
+      "description": "Sion shields himself and can reactivate after 3 seconds to deal Magic Damage to enemies nearby. When Sion kills enemies, he passively gains maximum Health.",
+      "lines": [
+       "max Health when he kills a unit changed to 3 from 4.",
+       "for champion takedowns changed to 8 from 15.",
+       "Max Health Shield Ratio changed to 6 / 7 / 8 / 9 / 10% from 8 / 10 / 12 / 14 / 16%."
+      ]
+     }
+    ]
+   }
+  },
+  "Sivir": {
+   "wr": 47.4,
+   "pr": 5.7,
+   "tier": "C",
+   "games": 1648610,
+   "balance": {
+    "modifiers": [
+     {
+      "key": "damageDealt",
+      "unit": "percent",
+      "value": -0.07
+     },
+     {
+      "key": "damageTaken",
+      "unit": "percent",
+      "value": 0.05
+     }
+    ],
+    "abilityChanges": [
+     {
+      "ability": "Boomerang Blade",
+      "key": "Q",
+      "description": "Sivir hurls her crossblade like a boomerang, dealing damage each way.",
+      "lines": [
+       "Cooldown changed to 14 / 13 / 12 / 11 / 10 from 10 / 9.5 / 9 / 8.5 / 8."
+      ]
+     }
+    ]
+   }
+  },
+  "Soraka": {
+   "wr": 49.6,
+   "pr": 4.0,
+   "tier": "B",
+   "games": 1142012,
+   "balance": {
+    "modifiers": [
+     {
+      "key": "abilityHaste",
+      "unit": "number",
+      "value": 10
+     }
+    ],
+    "abilityChanges": [
+     {
+      "ability": "Starcall",
+      "key": "Q",
+      "description": "A star falls from the sky at the target location dealing magic damage and slowing enemies. If an enemy champion is hit by Starcall, Soraka recovers Health.",
+      "lines": [
+       "Health Restore (Rejuvenation) changed to 75 / 90 / 105 / 120 / 135 from 60 / 75 / 90 / 105 / 120.",
+       "Ability Power Ratio changed to 40% from 30%."
+      ]
+     },
+     {
+      "ability": "Astral Infusion",
+      "key": "W",
+      "description": "Soraka sacrifices a portion of her own health to heal another friendly champion.",
+      "lines": [
+       "the Health cost will be reduced by changed to 5% from 10%."
+      ]
+     }
+    ]
+   }
+  },
+  "Teemo": {
+   "wr": 53.6,
+   "pr": 13.5,
+   "tier": "S",
+   "games": 3903528,
+   "balance": {
+    "modifiers": [
+     {
+      "key": "damageDealt",
+      "unit": "percent",
+      "value": -0.05
+     },
+     {
+      "key": "damageTaken",
+      "unit": "percent",
+      "value": 0.1
+     }
+    ],
+    "abilityChanges": [
+     {
+      "ability": "Noxious Trap",
+      "key": "R",
+      "description": "Teemo throws an explosive poisonous trap using one of the mushrooms stored in his pack. If an enemy steps on the trap, it will release a poisonous cloud, slowing enemies and damaging them over time. If Teemo throws a mushroom onto another mushroom it will bounce, gaining additional range.",
+      "lines": [
+       "Slow changed to 20% from 30 / 40 / 50%.",
+       "Duration changed to 3 from 5.",
+       "Damage changed to 180 / 290 / 400 from 200 / 325 / 450.",
+       "Ability Power Ratio changed to 40% from 50%."
+      ]
+     }
+    ]
+   }
+  },
+  "Tristana": {
+   "wr": 49.0,
+   "pr": 8.0,
+   "tier": "B",
+   "games": 2317917,
+   "balance": {}
+  },
+  "Warwick": {
+   "wr": 46.5,
+   "pr": 2.3,
+   "tier": "C",
+   "games": 671727,
+   "balance": {
+    "modifiers": [
+     {
+      "key": "damageDealt",
+      "unit": "percent",
+      "value": 0.05
+     },
+     {
+      "key": "damageTaken",
+      "unit": "percent",
+      "value": -0.05
+     }
+    ],
+    "abilityChanges": [
+     {
+      "ability": "Jaws of the Beast",
+      "key": "Q",
+      "description": "Warwick lunges forward and bites his target, dealing damage based on their maximum health and healing for damage dealt.",
+      "lines": [
+       "Cooldown changed to 6 from 8 / 7.5 / 7 / 6.5 / 6."
+      ]
+     }
+    ]
+   }
+  },
+  "Nunu & Willump": {
+   "wr": 45.4,
+   "pr": 2.8,
+   "tier": "C",
+   "games": 813158,
+   "balance": {
+    "modifiers": [
+     {
+      "key": "damageDealt",
+      "unit": "percent",
+      "value": 0.1
+     },
+     {
+      "key": "damageTaken",
+      "unit": "percent",
+      "value": -0.1
+     },
+     {
+      "key": "healing",
+      "unit": "percent",
+      "value": 0.1
+     },
+     {
+      "key": "shielding",
+      "unit": "percent",
+      "value": 0.2
+     },
+     {
+      "key": "tenacity",
+      "unit": "percent",
+      "value": 0.2
+     }
+    ],
+    "abilityChanges": [
+     {
+      "ability": "Consume",
+      "key": "Q",
+      "description": "Willump takes a bite out of a minion, monster, or enemy champion, dealing damage and healing himself.",
+      "lines": [
+       "Ability Power Ratio changed to 110% from 90%."
+      ]
+     },
+     {
+      "ability": "Biggest Snowball Ever!",
+      "key": "W",
+      "description": "Willump creates a snowball that grows in size and speed as he rolls it. The snowball damages and knocks up enemies.",
+      "lines": [
+       "Ability Power Ratio changed to 200% from 150%."
+      ]
+     }
+    ]
+   }
+  },
+  "Miss Fortune": {
+   "wr": 50.8,
+   "pr": 14.0,
+   "tier": "A",
+   "games": 4028885,
+   "balance": {
+    "modifiers": [
+     {
+      "key": "damageDealt",
+      "unit": "percent",
+      "value": -0.05
+     }
+    ],
+    "abilityChanges": []
+   }
+  },
+  "Ashe": {
+   "wr": 45.2,
+   "pr": 14.2,
+   "tier": "C",
+   "games": 4103162,
+   "balance": {
+    "modifiers": [],
+    "abilityChanges": [
+     {
+      "ability": "Volley",
+      "key": "W",
+      "description": "Ashe fires arrows in a cone for increased damage. Also applies Frost Shot.",
+      "lines": [
+       "Cooldown changed to 18 / 17 / 16 / 15 / 14 from 18 / 14.5 / 11 / 7.5 / 4."
+      ]
+     }
+    ]
+   }
+  },
+  "Tryndamere": {
+   "wr": 50.7,
+   "pr": 5.5,
+   "tier": "A",
+   "games": 1581180,
+   "balance": {
+    "modifiers": [
+     {
+      "key": "damageDealt",
+      "unit": "percent",
+      "value": 0.1
+     },
+     {
+      "key": "damageTaken",
+      "unit": "percent",
+      "value": -0.1
+     },
+     {
+      "key": "healing",
+      "unit": "percent",
+      "value": 0.2
+     }
+    ],
+    "abilityChanges": []
+   }
+  },
+  "Jax": {
+   "wr": 51.3,
+   "pr": 5.1,
+   "tier": "A",
+   "games": 1468242,
+   "balance": {
+    "modifiers": [
+     {
+      "key": "damageDealt",
+      "unit": "percent",
+      "value": 0.05
+     },
+     {
+      "key": "damageTaken",
+      "unit": "percent",
+      "value": -0.03
+     }
+    ],
+    "abilityChanges": []
+   }
+  },
+  "Morgana": {
+   "wr": 55.6,
+   "pr": 10.3,
+   "tier": "S",
+   "games": 2975591,
+   "balance": {
+    "modifiers": [
+     {
+      "key": "damageDealt",
+      "unit": "percent",
+      "value": -0.05
+     }
+    ],
+    "abilityChanges": []
+   }
+  },
+  "Zilean": {
+   "wr": 52.3,
+   "pr": 4.7,
+   "tier": "A",
+   "games": 1361856,
+   "balance": {
+    "modifiers": [],
+    "abilityChanges": [
+     {
+      "ability": "Time In A Bottle",
+      "key": "P",
+      "description": "Zilean stores time as Experience and can grant it to his allies. When he has enough Experience to finish an ally's level up, he can right-click them to impart it. Zilean receives as much Experience as he gives.",
+      "lines": [
+       "Cooldown changed to 90 from 120."
+      ]
+     },
+     {
+      "ability": "Rewind",
+      "key": "W",
+      "description": "Zilean can prepare himself for future confrontations, reducing the cooldowns of his other basic abilities.",
+      "lines": [
+       "Cooldown changed to 13 / 11 / 9 / 7 / 5 from 14 / 12 / 10 / 8 / 6."
+      ]
+     },
+     {
+      "ability": "Time Warp",
+      "key": "E",
+      "description": "Zilean bends time around any unit, decreasing an enemy's Move Speed or increasing an ally's Move Speed for a short time.",
+      "lines": [
+       "Cooldown changed to 13 from 15."
+      ]
+     },
+     {
+      "ability": "Chronoshift",
+      "key": "R",
+      "description": "Zilean places a protective time rune on an allied champion, teleporting the champion back in time if they take lethal damage.",
+      "lines": [
+       "Ability Power Ratio changed to 250% from 200%."
+      ]
+     }
+    ]
+   }
+  },
+  "Singed": {
+   "wr": 52.0,
+   "pr": 8.0,
+   "tier": "A",
+   "games": 2297521,
+   "balance": {
+    "modifiers": [],
+    "abilityChanges": [
+     {
+      "ability": "Noxious Slipstream",
+      "key": "P",
+      "description": "Singed drafts off nearby champions, gaining a burst of Move Speed when passing them.",
+      "lines": [
+       "Move Speed changed to 20% from 25%.",
+       "second Cooldown per champion changed to 10 from 8."
+      ]
+     }
+    ]
+   }
+  },
+  "Evelynn": {
+   "wr": 47.0,
+   "pr": 0.8,
+   "tier": "C",
+   "games": 241747,
+   "balance": {
+    "modifiers": [
+     {
+      "key": "damageDealt",
+      "unit": "percent",
+      "value": 0.1
+     },
+     {
+      "key": "damageTaken",
+      "unit": "percent",
+      "value": -0.1
+     },
+     {
+      "key": "tenacity",
+      "unit": "percent",
+      "value": 0.2
+     }
+    ],
+    "abilityChanges": [
+     {
+      "ability": "Last Caress",
+      "key": "R",
+      "description": "Evelynn briefly goes untargetable and decimates the area in front of her before warping backwards a long distance.",
+      "lines": [
+       "Cooldown changed to 100 / 80 / 60 from 120 / 100 / 80."
+      ]
+     }
+    ]
+   }
+  },
+  "Twitch": {
+   "wr": 48.8,
+   "pr": 8.4,
+   "tier": "B",
+   "games": 2434534,
+   "balance": {}
+  },
+  "Karthus": {
+   "wr": 48.4,
+   "pr": 11.7,
+   "tier": "B",
+   "games": 3364793,
+   "balance": {
+    "modifiers": [
+     {
+      "key": "damageDealt",
+      "unit": "percent",
+      "value": -0.07
+     },
+     {
+      "key": "damageTaken",
+      "unit": "percent",
+      "value": 0.05
+     }
+    ],
+    "abilityChanges": [
+     {
+      "ability": "Death Defied",
+      "key": "P",
+      "description": "Upon dying, Karthus enters a spirit form that allows him to continue casting spells.",
+      "lines": [
+       "seconds changed to 5 from 7."
+      ]
+     }
+    ]
+   }
+  },
+  "Cho'Gath": {
+   "wr": 47.0,
+   "pr": 8.5,
+   "tier": "C",
+   "games": 2463569,
+   "balance": {
+    "modifiers": [
+     {
+      "key": "damageTaken",
+      "unit": "percent",
+      "value": -0.05
+     }
+    ],
+    "abilityChanges": []
+   }
+  },
+  "Amumu": {
+   "wr": 48.6,
+   "pr": 5.2,
+   "tier": "B",
+   "games": 1489067,
+   "balance": {}
+  },
+  "Rammus": {
+   "wr": 44.8,
+   "pr": 2.2,
+   "tier": "C",
+   "games": 626207,
+   "balance": {}
+  },
+  "Anivia": {
+   "wr": 45.2,
+   "pr": 3.1,
+   "tier": "C",
+   "games": 882583,
+   "balance": {
+    "modifiers": [
+     {
+      "key": "damageDealt",
+      "unit": "percent",
+      "value": 0.05
+     }
+    ],
+    "abilityChanges": []
+   }
+  },
+  "Shaco": {
+   "wr": 46.6,
+   "pr": 9.8,
+   "tier": "C",
+   "games": 2833982,
+   "balance": {
+    "modifiers": [
+     {
+      "key": "damageDealt",
+      "unit": "percent",
+      "value": 0.05
+     }
+    ],
+    "abilityChanges": [
+     {
+      "ability": "Backstab",
+      "key": "P",
+      "description": "Shaco's basic attacks and Two-Shiv Poison deal additional damage when striking from behind.",
+      "lines": [
+       "Bonus Attack Damage Ratio changed to 40% from 20%."
+      ]
+     },
+     {
+      "ability": "Deceive",
+      "key": "Q",
+      "description": "Shaco becomes Invisible and teleports to target location. His first attack while Invisible is empowered, dealing bonus damage and critically striking if he attacks from behind.",
+      "lines": [
+       "Cooldown changed to 12 / 11 / 10 / 9 / 8 from 13 / 12.5 / 12 / 11.5 / 11.",
+       "Bonus Attack Damage Ratio changed to 85% from 60%."
+      ]
+     },
+     {
+      "ability": "Jack In The Box",
+      "key": "W",
+      "description": "Shaco creates a hidden animated Jack-in-the-Box. When triggered, it will fear and attack nearby enemies.",
+      "lines": [
+       "Maximum Traps changed to 6."
+      ]
+     },
+     {
+      "ability": "Two-Shiv Poison",
+      "key": "E",
+      "description": "Shaco's Shivs passively poison targets on hit, slowing their Move Speed. He can throw his Shivs to deal damage and poison the target. The thrown Shiv deals bonus damage if the target is below 30% health.",
+      "lines": [
+       "Bonus Attack Damage Ratio changed to 100% from 80%."
+      ]
+     }
+    ]
+   }
+  },
+  "Dr. Mundo": {
+   "wr": 49.3,
+   "pr": 10.3,
+   "tier": "B",
+   "games": 2974738,
+   "balance": {
+    "modifiers": [
+     {
+      "key": "damageDealt",
+      "unit": "percent",
+      "value": -0.1
+     },
+     {
+      "key": "damageTaken",
+      "unit": "percent",
+      "value": 0.05
+     },
+     {
+      "key": "healing",
+      "unit": "percent",
+      "value": -0.1
+     }
+    ],
+    "abilityChanges": []
+   }
+  },
+  "Sona": {
+   "wr": 53.0,
+   "pr": 2.9,
+   "tier": "A",
+   "games": 844552,
+   "balance": {
+    "modifiers": [],
+    "abilityChanges": [
+     {
+      "ability": "Power Chord",
+      "key": "P",
+      "description": "Accelerando: Sona gains non-Ultimate ability haste permanently for her basic abilities as she uses her abilities well, up to a cap. Beyond that cap, further successful uses reduce her ultimate's remaining cooldown instead. Power Chord: Every few spell casts, Sona's next attack will deal bonus magic damage in addition to an additional effect based on what basic Ability Sona last activated.",
+      "lines": [
+       "Basic Ability Haste changed to 30 from 60.",
+       "instead of gaining further stacks her current Ultimate Ability's cooldown is reduced byseconds changed to 1 from 1.5."
+      ]
+     },
+     {
+      "ability": "Hymn of Valor",
+      "key": "Q",
+      "description": "Sona plays the Hymn of Valor, sends out bolts of sound, dealing magic damage to two nearby enemies, prioritizing champions and monsters. Sona gains a temporary aura that grants allies tagged by the zone bonus damage on their next attack against enemies.",
+      "lines": [
+       "Cooldown changed to 10 from 8."
+      ]
+     },
+     {
+      "ability": "Aria of Perseverance",
+      "key": "W",
+      "description": "Sona plays the Aria of Perseverance, sending out protective melodies, healing Sona and a nearby wounded ally. Sona gains a temporary aura that grants allies tagged by the zone a temporary shield.",
+      "lines": [
+       "Shield (melody) changed to 65 / 75 / 85 / 95 / 105 from 25 / 45 / 65 / 85 / 105.",
+       "Healing changed to 20% from 30%.",
+       "Cooldown changed to 13 from 10."
+      ]
+     }
+    ]
+   }
+  },
+  "Kassadin": {
+   "wr": 50.6,
+   "pr": 3.4,
+   "tier": "A",
+   "games": 991937,
+   "balance": {
+    "modifiers": [
+     {
+      "key": "damageTaken",
+      "unit": "percent",
+      "value": -0.05
+     }
+    ],
+    "abilityChanges": [
+     {
+      "ability": "Force Pulse",
+      "key": "E",
+      "description": "Kassadin draws energy from spells cast in his vicinity. Upon charging up, Kassadin can use Force Pulse to damage and slow enemies in a cone in front of him.",
+      "lines": [
+       "Damage changed to 80 / 115 / 150 / 185 / 220 from 70 / 100 / 130 / 160 / 190.",
+       "Ability Power Ratio changed to 75% from 70%."
+      ]
+     }
+    ]
+   }
+  },
+  "Irelia": {
+   "wr": 46.8,
+   "pr": 1.7,
+   "tier": "C",
+   "games": 483876,
+   "balance": {
+    "modifiers": [
+     {
+      "key": "abilityHaste",
+      "unit": "number",
+      "value": 20
+     },
+     {
+      "key": "damageDealt",
+      "unit": "percent",
+      "value": 0.05
+     }
+    ],
+    "abilityChanges": []
+   }
+  },
+  "Janna": {
+   "wr": 53.4,
+   "pr": 2.1,
+   "tier": "A",
+   "games": 593413,
+   "balance": {
+    "modifiers": [],
+    "abilityChanges": [
+     {
+      "ability": "Howling Gale",
+      "key": "Q",
+      "description": "By creating a localized change in pressure and temperature, Janna is able to create a small storm that grows in size with time. She can activate the spell again to release the storm. On release this storm will fly towards the direction it was cast in, dealing damage and knocking away any enemies in its path.",
+      "lines": [
+       "Cooldown changed to 16 from 14."
+      ]
+     }
+    ]
+   }
+  },
+  "Gangplank": {
+   "wr": 51.0,
+   "pr": 8.2,
+   "tier": "A",
+   "games": 2378008,
+   "balance": {
+    "modifiers": [
+     {
+      "key": "damageDealt",
+      "unit": "percent",
+      "value": 0.05
+     }
+    ],
+    "abilityChanges": []
+   }
+  },
+  "Corki": {
+   "wr": 51.1,
+   "pr": 6.7,
+   "tier": "A",
+   "games": 1921820,
+   "balance": {
+    "modifiers": [
+     {
+      "key": "abilityHaste",
+      "unit": "number",
+      "value": -20
+     },
+     {
+      "key": "damageTaken",
+      "unit": "percent",
+      "value": -0.05
+     }
+    ],
+    "abilityChanges": []
+   }
+  },
+  "Karma": {
+   "wr": 48.5,
+   "pr": 3.5,
+   "tier": "B",
+   "games": 1022945,
+   "balance": {
+    "modifiers": [],
+    "abilityChanges": [
+     {
+      "ability": "Mantra",
+      "key": "R",
+      "description": "Karma empowers her next ability to do an additional effect. Mantra is available at level 1 and does not require a skill point.",
+      "lines": [
+       "Soulflare Impact changed to 40 / 90 / 140 / 190 from 40 / 100 / 160 / 220."
+      ]
+     }
+    ]
+   }
+  },
+  "Taric": {
+   "wr": 49.5,
+   "pr": 1.3,
+   "tier": "B",
+   "games": 373068,
+   "balance": {
+    "modifiers": [
+     {
+      "key": "damageTaken",
+      "unit": "percent",
+      "value": 0.1
+     }
+    ],
+    "abilityChanges": []
+   }
+  },
+  "Veigar": {
+   "wr": 50.2,
+   "pr": 7.5,
+   "tier": "B",
+   "games": 2178530,
+   "balance": {
+    "modifiers": [
+     {
+      "key": "damageDealt",
+      "unit": "percent",
+      "value": -0.07
+     },
+     {
+      "key": "damageTaken",
+      "unit": "percent",
+      "value": 0.1
+     }
+    ],
+    "abilityChanges": [
+     {
+      "ability": "Phenomenal Evil Power",
+      "key": "P",
+      "description": "Veigar is the greatest Evil to ever strike at the hearts of Runeterra - and he's only getting bigger! Striking an enemy Champion with a spell or scoring a takedown grants Veigar permanently increased Ability Power.",
+      "lines": [
+       "stacks changed to 3 from 5."
+      ]
+     },
+     {
+      "ability": "Event Horizon",
+      "key": "E",
+      "description": "Veigar twists the edges of space, creating a cage that Stuns enemies that pass through.",
+      "lines": [
+       "Cooldown changed to 23 / 21.5 / 20 / 18.5 / 17 from 20 / 18.5 / 17 / 15.5 / 14."
+      ]
+     }
+    ]
+   }
+  },
+  "Trundle": {
+   "wr": 50.4,
+   "pr": 12.2,
+   "tier": "B",
+   "games": 3513743,
+   "balance": {}
+  },
+  "Swain": {
+   "wr": 48.4,
+   "pr": 9.0,
+   "tier": "B",
+   "games": 2598063,
+   "balance": {
+    "modifiers": [
+     {
+      "key": "damageTaken",
+      "unit": "percent",
+      "value": 0.05
+     },
+     {
+      "key": "healing",
+      "unit": "percent",
+      "value": -0.1
+     }
+    ],
+    "abilityChanges": []
+   }
+  },
+  "Caitlyn": {
+   "wr": 53.0,
+   "pr": 13.0,
+   "tier": "A",
+   "games": 3742010,
+   "balance": {
+    "modifiers": [],
+    "abilityChanges": [
+     {
+      "ability": "Piltover Peacemaker",
+      "key": "Q",
+      "description": "Caitlyn revs up her rifle for 1 second to unleash a penetrating shot that deals physical damage (deals less damage to subsequent targets).",
+      "lines": [
+       "Total AD Ratio changed to 125 / 140 / 155 / 170 / 185% from 125 / 145 / 165 / 185 / 205%."
+      ]
+     }
+    ]
+   }
+  },
+  "Blitzcrank": {
+   "wr": 45.8,
+   "pr": 7.4,
+   "tier": "C",
+   "games": 2130586,
+   "balance": {}
+  },
+  "Malphite": {
+   "wr": 47.2,
+   "pr": 10.3,
+   "tier": "C",
+   "games": 2957770,
+   "balance": {}
+  },
+  "Katarina": {
+   "wr": 49.2,
+   "pr": 7.4,
+   "tier": "B",
+   "games": 2125902,
+   "balance": {
+    "modifiers": [
+     {
+      "key": "abilityHaste",
+      "unit": "number",
+      "value": 10
+     },
+     {
+      "key": "tenacity",
+      "unit": "percent",
+      "value": 0.2
+     }
+    ],
+    "abilityChanges": []
+   }
+  },
+  "Nocturne": {
+   "wr": 48.8,
+   "pr": 3.3,
+   "tier": "B",
+   "games": 943023,
+   "balance": {
+    "modifiers": [
+     {
+      "key": "damageDealt",
+      "unit": "percent",
+      "value": 0.1
+     },
+     {
+      "key": "damageTaken",
+      "unit": "percent",
+      "value": -0.1
+     },
+     {
+      "key": "healing",
+      "unit": "percent",
+      "value": 0.2
+     }
+    ],
+    "abilityChanges": []
+   }
+  },
+  "Maokai": {
+   "wr": 49.4,
+   "pr": 8.4,
+   "tier": "B",
+   "games": 2417913,
+   "balance": {
+    "modifiers": [
+     {
+      "key": "damageDealt",
+      "unit": "percent",
+      "value": -0.05
+     }
+    ],
+    "abilityChanges": [
+     {
+      "ability": "Sap Magic",
+      "key": "P",
+      "description": "Maokai's basic attack also heals him and deals additional damage on a moderate cooldown. Each time Maokai casts a spell or is struck by an enemy's spell, this cooldown is reduced.",
+      "lines": [
+       "seconds changed to 3 from 4."
+      ]
+     },
+     {
+      "ability": "Bramble Smash",
+      "key": "Q",
+      "description": "Maokai knocks back nearby enemies with a shockwave, dealing magic damage and slowing them.",
+      "lines": [
+       "Cooldown changed to 8 / 7.5 / 7 / 6.5 / 6 from 7 / 6.5 / 6 / 5.5 / 5."
+      ]
+     },
+     {
+      "ability": "Sapling Toss",
+      "key": "E",
+      "description": "Maokai flings a sapling to the target area to stand guard. More effective in brush.",
+      "lines": [
+       "Ability Power Ratio changed to 20% from 25%.",
+       "Empowered Ability Power Ratio changed to 40% from 50%."
+      ]
+     }
+    ]
+   }
+  },
+  "Renekton": {
+   "wr": 44.5,
+   "pr": 2.8,
+   "tier": "C",
+   "games": 801984,
+   "balance": {
+    "modifiers": [
+     {
+      "key": "healing",
+      "unit": "percent",
+      "value": 0.1
+     }
+    ],
+    "abilityChanges": []
+   }
+  },
+  "Jarvan IV": {
+   "wr": 47.1,
+   "pr": 9.2,
+   "tier": "C",
+   "games": 2663553,
+   "balance": {}
+  },
+  "Elise": {
+   "wr": 47.6,
+   "pr": 0.9,
+   "tier": "B",
+   "games": 267074,
+   "balance": {
+    "modifiers": [
+     {
+      "key": "damageDealt",
+      "unit": "percent",
+      "value": 0.05
+     },
+     {
+      "key": "damageTaken",
+      "unit": "percent",
+      "value": -0.1
+     },
+     {
+      "key": "tenacity",
+      "unit": "percent",
+      "value": 0.1
+     }
+    ],
+    "abilityChanges": []
+   }
+  },
+  "Orianna": {
+   "wr": 47.4,
+   "pr": 3.6,
+   "tier": "C",
+   "games": 1042416,
+   "balance": {}
+  },
+  "Wukong": {
+   "wr": 49.0,
+   "pr": 4.7,
+   "tier": "B",
+   "games": 1349785,
+   "balance": {
+    "modifiers": [],
+    "abilityChanges": [
+     {
+      "ability": "Warrior Trickster",
+      "key": "W",
+      "description": "Wukong becomes Invisible and dashes in a direction, leaving behind a clone that will attack nearby enemies.",
+      "lines": [
+       "Cooldown changed to 20 / 19 / 18 / 17 / 16 from 22 / 21 / 20 / 19 / 18."
+      ]
+     },
+     {
+      "ability": "Cyclone",
+      "key": "R",
+      "description": "Wukong's extends his staff and spins it around repeatedly, gaining Move Speed. Enemies struck take damage and are knocked up.",
+      "lines": [
+       "Cooldown changed to 140 / 120 / 100 from 130 / 110 / 90."
+      ]
+     }
+    ]
+   }
+  },
+  "Brand": {
+   "wr": 51.7,
+   "pr": 13.6,
+   "tier": "A",
+   "games": 3921330,
+   "balance": {
+    "modifiers": [
+     {
+      "key": "abilityHaste",
+      "unit": "number",
+      "value": -10
+     },
+     {
+      "key": "damageDealt",
+      "unit": "percent",
+      "value": -0.05
+     },
+     {
+      "key": "damageTaken",
+      "unit": "percent",
+      "value": 0.1
+     }
+    ],
+    "abilityChanges": []
+   }
+  },
+  "Lee Sin": {
+   "wr": 41.6,
+   "pr": 6.5,
+   "tier": "D",
+   "games": 1876246,
+   "balance": {
+    "modifiers": [
+     {
+      "key": "damageDealt",
+      "unit": "percent",
+      "value": 0.05
+     },
+     {
+      "key": "damageTaken",
+      "unit": "percent",
+      "value": -0.05
+     },
+     {
+      "key": "energyRegen",
+      "unit": "percent",
+      "value": 0.2
+     },
+     {
+      "key": "healing",
+      "unit": "percent",
+      "value": 0.1
+     },
+     {
+      "key": "shielding",
+      "unit": "percent",
+      "value": 0.2
+     }
+    ],
+    "abilityChanges": []
+   }
+  },
+  "Vayne": {
+   "wr": 51.7,
+   "pr": 11.0,
+   "tier": "A",
+   "games": 3181408,
+   "balance": {}
+  },
+  "Rumble": {
+   "wr": 50.3,
+   "pr": 5.9,
+   "tier": "B",
+   "games": 1708264,
+   "balance": {}
+  },
+  "Cassiopeia": {
+   "wr": 46.3,
+   "pr": 2.2,
+   "tier": "C",
+   "games": 650042,
+   "balance": {}
+  },
+  "Skarner": {
+   "wr": 48.2,
+   "pr": 2.3,
+   "tier": "B",
+   "games": 651577,
+   "balance": {
+    "modifiers": [
+     {
+      "key": "damageDealt",
+      "unit": "percent",
+      "value": 0.05
+     },
+     {
+      "key": "damageTaken",
+      "unit": "percent",
+      "value": -0.05
+     }
+    ],
+    "abilityChanges": [
+     {
+      "ability": "Ixtal's Impact",
+      "key": "E",
+      "description": "Skarner charges forward and passes through terrain. If he collides with a champion or large monster, he'll slam them into the next wall he hits to damage and stun them.",
+      "lines": [
+       "Cooldown changed to 18 / 17 / 16 / 15 / 14 from 22 / 21 / 20 / 19 / 18."
+      ]
+     }
+    ]
+   }
+  },
+  "Heimerdinger": {
+   "wr": 50.7,
+   "pr": 3.5,
+   "tier": "A",
+   "games": 1023996,
+   "balance": {
+    "modifiers": [
+     {
+      "key": "damageDealt",
+      "unit": "percent",
+      "value": -0.1
+     },
+     {
+      "key": "damageTaken",
+      "unit": "percent",
+      "value": 0.1
+     }
+    ],
+    "abilityChanges": []
+   }
+  },
+  "Nasus": {
+   "wr": 49.0,
+   "pr": 6.5,
+   "tier": "B",
+   "games": 1877670,
+   "balance": {
+    "modifiers": [],
+    "abilityChanges": [
+     {
+      "ability": "Siphoning Strike",
+      "key": "Q",
+      "description": "Nasus strikes his foe, dealing damage and increasing the power of his future Siphoning Strikes if he slays his target.",
+      "lines": [
+       "Killing an enemy with this Attack permanently increases its damage by changed to 6 from 4.",
+       "against champions changed to 24 from 10."
+      ]
+     }
+    ]
+   }
+  },
+  "Nidalee": {
+   "wr": 47.2,
+   "pr": 6.4,
+   "tier": "C",
+   "games": 1857681,
+   "balance": {
+    "modifiers": [
+     {
+      "key": "damageDealt",
+      "unit": "percent",
+      "value": 0.1
+     }
+    ],
+    "abilityChanges": []
+   }
+  },
+  "Udyr": {
+   "wr": 48.7,
+   "pr": 5.8,
+   "tier": "B",
+   "games": 1671548,
+   "balance": {}
+  },
+  "Poppy": {
+   "wr": 50.3,
+   "pr": 3.8,
+   "tier": "B",
+   "games": 1096255,
+   "balance": {}
+  },
+  "Gragas": {
+   "wr": 48.9,
+   "pr": 4.6,
+   "tier": "B",
+   "games": 1334735,
+   "balance": {
+    "modifiers": [
+     {
+      "key": "damageTaken",
+      "unit": "percent",
+      "value": -0.05
+     }
+    ],
+    "abilityChanges": []
+   }
+  },
+  "Pantheon": {
+   "wr": 49.4,
+   "pr": 5.7,
+   "tier": "B",
+   "games": 1650511,
+   "balance": {}
+  },
+  "Ezreal": {
+   "wr": 47.0,
+   "pr": 11.2,
+   "tier": "C",
+   "games": 3227149,
+   "balance": {}
+  },
+  "Mordekaiser": {
+   "wr": 46.4,
+   "pr": 7.3,
+   "tier": "C",
+   "games": 2105465,
+   "balance": {}
+  },
+  "Yorick": {
+   "wr": 45.2,
+   "pr": 0.9,
+   "tier": "C",
+   "games": 260332,
+   "balance": {
+    "modifiers": [],
+    "abilityChanges": [
+     {
+      "ability": "Last Rites",
+      "key": "Q",
+      "description": "Yorick deals bonus damage on his next attack and heals himself. If the target is a champion or large monster or if the target dies, a grave will be dug.",
+      "lines": [
+       "Healing changed to 4 / 5 / 6 / 7 / 8% from 6 / 7 / 8 / 9 / 10%.",
+       "Attack Damage Ratio changed to 30% from 50%."
+      ]
+     }
+    ]
+   }
+  },
+  "Akali": {
+   "wr": 43.3,
+   "pr": 2.5,
+   "tier": "D",
+   "games": 709298,
+   "balance": {
+    "modifiers": [
+     {
+      "key": "damageTaken",
+      "unit": "percent",
+      "value": -0.05
+     },
+     {
+      "key": "energyRegen",
+      "unit": "percent",
+      "value": 0.2
+     },
+     {
+      "key": "tenacity",
+      "unit": "percent",
+      "value": 0.2
+     }
+    ],
+    "abilityChanges": [
+     {
+      "ability": "Assassin's Mark",
+      "key": "P",
+      "description": "Dealing spell damage to a champion creates a ring of energy around them. Exiting that ring empowers Akali's next Attack with bonus range and damage.",
+      "lines": [
+       "Ability Power Ratio changed to 65% from 55%."
+      ]
+     },
+     {
+      "ability": "Five Point Strike",
+      "key": "Q",
+      "description": "Akali throws out five kunai, dealing damage based on her bonus Attack Damage and Ability Power and slowing.",
+      "lines": [
+       "Ability Power Ratio changed to 70% from 60%."
+      ]
+     },
+     {
+      "ability": "Perfect Execution",
+      "key": "R",
+      "description": "Akali leaps in a direction, damaging enemies she strikes. Re-cast: Akali dashes in a direction, executing all enemies she strikes.",
+      "lines": [
+       "Cooldown changed to 90 / 75 / 60 from 120 / 90 / 60.",
+       "Ability Power Ratio (stage 1) changed to 40% from 30%.",
+       "Ability Power Ratio (stage 2) changed to 40% from 30%."
+      ]
+     }
+    ]
+   }
+  },
+  "Kennen": {
+   "wr": 44.8,
+   "pr": 2.7,
+   "tier": "C",
+   "games": 784834,
+   "balance": {
+    "modifiers": [
+     {
+      "key": "energyRegen",
+      "unit": "percent",
+      "value": 0.2
+     }
+    ],
+    "abilityChanges": []
+   }
+  },
+  "Garen": {
+   "wr": 45.4,
+   "pr": 7.5,
+   "tier": "C",
+   "games": 2164581,
+   "balance": {
+    "modifiers": [
+     {
+      "key": "damageTaken",
+      "unit": "percent",
+      "value": -0.05
+     }
+    ],
+    "abilityChanges": [
+     {
+      "ability": "Courage",
+      "key": "W",
+      "description": "Garen passively increases his Armor and Magic Resist by killing enemies. He may also activate this ability to give him a shield and tenacity for a brief moment followed by a lesser amount of damage reduction for a longer duration.",
+      "lines": [
+       "Killing units permanently grantsresists changed to 0.4 from 0.2."
+      ]
+     }
+    ]
+   }
+  },
+  "Leona": {
+   "wr": 48.8,
+   "pr": 5.2,
+   "tier": "B",
+   "games": 1490188,
+   "balance": {
+    "modifiers": [
+     {
+      "key": "damageDealt",
+      "unit": "percent",
+      "value": -0.05
+     },
+     {
+      "key": "damageTaken",
+      "unit": "percent",
+      "value": 0.05
+     }
+    ],
+    "abilityChanges": []
+   }
+  },
+  "Malzahar": {
+   "wr": 51.6,
+   "pr": 6.9,
+   "tier": "A",
+   "games": 1995936,
+   "balance": {
+    "modifiers": [
+     {
+      "key": "damageDealt",
+      "unit": "percent",
+      "value": -0.1
+     },
+     {
+      "key": "damageTaken",
+      "unit": "percent",
+      "value": 0.1
+     }
+    ],
+    "abilityChanges": []
+   }
+  },
+  "Talon": {
+   "wr": 50.1,
+   "pr": 4.6,
+   "tier": "B",
+   "games": 1327642,
+   "balance": {
+    "modifiers": [
+     {
+      "key": "damageDealt",
+      "unit": "percent",
+      "value": 0.05
+     },
+     {
+      "key": "damageTaken",
+      "unit": "percent",
+      "value": -0.05
+     },
+     {
+      "key": "tenacity",
+      "unit": "percent",
+      "value": 0.2
+     }
+    ],
+    "abilityChanges": [
+     {
+      "ability": "Noxian Diplomacy",
+      "key": "Q",
+      "description": "Talon stabs the target unit. If they are within melee range, this attack deals critical damage. If they are outside melee range, Talon will leap at his target before stabbing them. Talon refunds some health and cooldown if this ability kills the target.",
+      "lines": [
+       "Bonus Attack Damage Ratio changed to 115% from 100%."
+      ]
+     },
+     {
+      "ability": "Rake",
+      "key": "W",
+      "description": "Talon sends out a volley of daggers that then return back to him, dealing physical damage every time it passes through an enemy. The returning blades deal bonus damage and slow units hit.",
+      "lines": [
+       "Initial Bonus Attack Damage Ratio changed to 50% from 40%.",
+       "Return Bonus Attack Damage Ratio changed to 100% from 90%."
+      ]
+     },
+     {
+      "ability": "Assassin's Path",
+      "key": "E",
+      "description": "Talon vaults over any terrain or structure, up to a max distance. This ability has a low cooldown, but puts the used terrain on a long cooldown.",
+      "lines": [
+       "Terrain Cooldown changed to 10 / 9 / 8 / 7 / 6 from 160 / 135 / 110 / 85 / 60."
+      ]
+     },
+     {
+      "ability": "Shadow Assault",
+      "key": "R",
+      "description": "Talon disperses a ring of blades and becomes Invisible while gaining additional Move Speed. When Talon emerges from Invisibility, the blades converge on his location. Each time the blades move, Shadow Assault deals physical damage to enemies hit by at least one blade.",
+      "lines": [
+       "Cooldown changed to 80 / 70 / 60 from 100 / 80 / 60."
+      ]
+     }
+    ]
+   }
+  },
+  "Riven": {
+   "wr": 47.1,
+   "pr": 2.8,
+   "tier": "C",
+   "games": 809065,
+   "balance": {
+    "modifiers": [
+     {
+      "key": "damageDealt",
+      "unit": "percent",
+      "value": 0.05
+     },
+     {
+      "key": "damageTaken",
+      "unit": "percent",
+      "value": -0.08
+     }
+    ],
+    "abilityChanges": []
+   }
+  },
+  "Kog'Maw": {
+   "wr": 49.3,
+   "pr": 4.2,
+   "tier": "B",
+   "games": 1216324,
+   "balance": {
+    "modifiers": [
+     {
+      "key": "damageDealt",
+      "unit": "percent",
+      "value": -0.1
+     },
+     {
+      "key": "damageTaken",
+      "unit": "percent",
+      "value": 0.1
+     }
+    ],
+    "abilityChanges": [
+     {
+      "ability": "Caustic Spittle",
+      "key": "Q",
+      "description": "Kog'Maw launches a corrosive projectile which deals magic damage and corrodes the target's armor and magic resist for a short time. Kog'Maw also gains additional attack speed.",
+      "lines": [
+       "Armor and Magic Resist Shred changed to 15 / 18 / 21 / 24 / 27% from 16 / 20 / 24 / 28 / 32%."
+      ]
+     },
+     {
+      "ability": "Bio-Arcane Barrage",
+      "key": "W",
+      "description": "Kog'Maw's attacks gain range and deal a percent of the target's maximum health as magic damage On-Hit.",
+      "lines": [
+       "Maximum Health Damage changed to 2.5 / 3 / 3.5 / 4 / 4.5% from 3 / 3.75 / 4.5 / 5.25 / 6%."
+      ]
+     }
+    ]
+   }
+  },
+  "Shen": {
+   "wr": 51.2,
+   "pr": 4.9,
+   "tier": "A",
+   "games": 1423745,
+   "balance": {
+    "modifiers": [
+     {
+      "key": "damageDealt",
+      "unit": "percent",
+      "value": -0.05
+     },
+     {
+      "key": "damageTaken",
+      "unit": "percent",
+      "value": 0.05
+     }
+    ],
+    "abilityChanges": []
+   }
+  },
+  "Lux": {
+   "wr": 48.5,
+   "pr": 6.3,
+   "tier": "B",
+   "games": 1819191,
+   "balance": {
+    "modifiers": [
+     {
+      "key": "damageDealt",
+      "unit": "percent",
+      "value": -0.1
+     },
+     {
+      "key": "damageTaken",
+      "unit": "percent",
+      "value": 0.1
+     },
+     {
+      "key": "shielding",
+      "unit": "percent",
+      "value": -0.1
+     }
+    ],
+    "abilityChanges": [
+     {
+      "ability": "Final Spark",
+      "key": "R",
+      "description": "After gathering energy, Lux fires a beam of light that deals damage to all targets in the area. In addition, triggers Lux's passive ability and refreshes the Illumination debuff duration.",
+      "lines": [
+       "Cooldown changed to 80 / 70 / 60 from 60 / 50 / 40."
+      ]
+     }
+    ]
+   }
+  },
+  "Xerath": {
+   "wr": 48.9,
+   "pr": 6.6,
+   "tier": "B",
+   "games": 1887757,
+   "balance": {
+    "modifiers": [
+     {
+      "key": "damageDealt",
+      "unit": "percent",
+      "value": -0.07
+     },
+     {
+      "key": "damageTaken",
+      "unit": "percent",
+      "value": 0.05
+     }
+    ],
+    "abilityChanges": []
+   }
+  },
+  "Shyvana": {
+   "wr": 51.9,
+   "pr": 4.1,
+   "tier": "A",
+   "games": 1185256,
+   "balance": {
+    "modifiers": [],
+    "abilityChanges": [
+     {
+      "ability": "Dragon's Descent",
+      "key": "R",
+      "description": "Shyvana transforms into a Dragon and leaps forward causing enemies along her path to flee. While in Dragon form she becomes larger and her basic abilities are empowered.",
+      "lines": [
+       "Dragon Fury by striking enemies with Attacks and Abilities changed to 2.5 from 1.25."
+      ]
+     }
+    ]
+   }
+  },
+  "Ahri": {
+   "wr": 52.3,
+   "pr": 5.3,
+   "tier": "A",
+   "games": 1524974,
+   "balance": {}
+  },
+  "Graves": {
+   "wr": 52.1,
+   "pr": 11.7,
+   "tier": "A",
+   "games": 3359908,
+   "balance": {}
+  },
+  "Fizz": {
+   "wr": 49.6,
+   "pr": 7.8,
+   "tier": "B",
+   "games": 2240169,
+   "balance": {}
+  },
+  "Volibear": {
+   "wr": 49.3,
+   "pr": 4.6,
+   "tier": "B",
+   "games": 1317925,
+   "balance": {
+    "modifiers": [],
+    "abilityChanges": [
+     {
+      "ability": "Sky Splitter",
+      "key": "E",
+      "description": "Volibear summons a lightning bolt at a location, dealing damage and Slowing enemies while granting Volibear a Shield if he's inside the blast radius.",
+      "lines": [
+       "Shield Amount changed to 11% from 14%."
+      ]
+     }
+    ]
+   }
+  },
+  "Rengar": {
+   "wr": 48.8,
+   "pr": 5.1,
+   "tier": "B",
+   "games": 1457231,
+   "balance": {
+    "modifiers": [
+     {
+      "key": "damageDealt",
+      "unit": "percent",
+      "value": 0.05
+     },
+     {
+      "key": "damageTaken",
+      "unit": "percent",
+      "value": -0.08
+     },
+     {
+      "key": "tenacity",
+      "unit": "percent",
+      "value": 0.2
+     }
+    ],
+    "abilityChanges": [
+     {
+      "ability": "Savagery",
+      "key": "Q",
+      "description": "Rengar's next Attack brutally stabs his target for bonus damage. Ferocity effect: deals increased damage and grants Attack Speed.",
+      "lines": [
+       "Empowered Attack Damage Ratio changed to 40% from 20%.",
+       "Attack Damage Ratio changed to 10 / 13.75 / 17.5 / 21.25 / 25% from 5%."
+      ]
+     },
+     {
+      "ability": "Bola Strike",
+      "key": "E",
+      "description": "Rengar throws a bola, slowing the first target hit for a short duration. Ferocity effect: roots the target.",
+      "lines": [
+       "Bonus Attack Damage Ratio changed to 100% from 80%."
+      ]
+     },
+     {
+      "ability": "Thrill of the Hunt",
+      "key": "R",
+      "description": "Rengar's predatory instincts take over, Camouflaging him and revealing the nearest enemy champion in a large radius around him. During Thrill of the Hunt, Rengar gains Move Speed and he can leap to the tracked enemy without being in brush, reducing their armor.",
+      "lines": [
+       "Cooldown changed to 90 / 80 / 70 from 100 / 90 / 80."
+      ]
+     }
+    ]
+   }
+  },
+  "Varus": {
+   "wr": 46.8,
+   "pr": 8.2,
+   "tier": "C",
+   "games": 2375286,
+   "balance": {
+    "modifiers": [],
+    "abilityChanges": [
+     {
+      "ability": "Living Vengeance",
+      "key": "P",
+      "description": "On kill or assist, Varus temporarily gains Attack Damage and Ability Power. This bonus is larger if the enemy is a champion.",
+      "lines": [
+       "Attack Speed Cap changed to 5 from 3.33."
+      ]
+     },
+     {
+      "ability": "Piercing Arrow",
+      "key": "Q",
+      "description": "Varus readies and then fires a powerful shot that gains extra range and damage the longer he spends preparing to fire.",
+      "lines": [
+       "Total AD Ratio changed to 150% from 120%."
+      ]
+     }
+    ]
+   }
+  },
+  "Nautilus": {
+   "wr": 48.3,
+   "pr": 6.5,
+   "tier": "B",
+   "games": 1867180,
+   "balance": {}
+  },
+  "Viktor": {
+   "wr": 54.0,
+   "pr": 5.2,
+   "tier": "S",
+   "games": 1508678,
+   "balance": {
+    "modifiers": [],
+    "abilityChanges": [
+     {
+      "ability": "Glorious Evolution",
+      "key": "P",
+      "description": "Viktor gains Hex Fragments whenever he kills an enemy. With every 100 Hex Fragments he obtains, Viktor permanently augments an active ability. After upgrading all of his basic abilities, he can gather 100 Hex Fragments to augment his ultimate ability.",
+      "lines": [
+       "Killing cannon minions grantsHex Fragments changed to 5 from 10.",
+       "Champion takedowns grantHex Fragments changed to 8 from 20."
+      ]
+     },
+     {
+      "ability": "Arcane Storm",
+      "key": "R",
+      "description": "Viktor conjures an Arcane Storm on the field, dealing magic damage and interrupting enemy channels. The storm periodically does magic damage to all nearby enemies and can be redirected by Viktor. Augment: The Arcane Storm moves 25% faster, and whenever champions die after taking damage from it, the storm grows and increases in its duration.",
+      "lines": [
+       "Damage (Periodic Ticks) changed to 55 / 85 / 115 from 65 / 105 / 145.",
+       "Ability Power Ratio changed to 40% from 50%."
+      ]
+     }
+    ]
+   }
+  },
+  "Sejuani": {
+   "wr": 48.1,
+   "pr": 4.5,
+   "tier": "B",
+   "games": 1312928,
+   "balance": {}
+  },
+  "Fiora": {
+   "wr": 54.7,
+   "pr": 5.2,
+   "tier": "S",
+   "games": 1487551,
+   "balance": {
+    "modifiers": [
+     {
+      "key": "damageTaken",
+      "unit": "percent",
+      "value": -0.05
+     }
+    ],
+    "abilityChanges": []
+   }
+  },
+  "Ziggs": {
+   "wr": 48.5,
+   "pr": 5.9,
+   "tier": "B",
+   "games": 1698938,
+   "balance": {
+    "modifiers": [
+     {
+      "key": "abilityHaste",
+      "unit": "number",
+      "value": -20
+     },
+     {
+      "key": "damageDealt",
+      "unit": "percent",
+      "value": -0.1
+     },
+     {
+      "key": "damageTaken",
+      "unit": "percent",
+      "value": 0.2
+     }
+    ],
+    "abilityChanges": [
+     {
+      "ability": "Short Fuse",
+      "key": "P",
+      "description": "Periodically, Ziggs' next basic attack deals bonus magic damage. This cooldown is reduced whenever Ziggs uses an ability.",
+      "lines": [
+       "Damage changed to 150% from 175%."
+      ]
+     },
+     {
+      "ability": "Bouncing Bomb",
+      "key": "Q",
+      "description": "Ziggs throws a bouncing bomb that deals magic damage.",
+      "lines": [
+       "Total AP Ratio changed to 60 / 62.5 / 65 / 67.5 / 70% from 60 / 65 / 70 / 75 / 80%."
+      ]
+     },
+     {
+      "ability": "Satchel Charge",
+      "key": "W",
+      "description": "Ziggs flings an explosive charge that detonates after a delay, or when this ability is activated again. The explosion deals magic damage to enemies, knocking them away. Ziggs is also knocked away, but takes no damage. Ziggs can use the Satchel to hexplode vulnerable enemy turrets.",
+      "lines": [
+       "Tower Destruction Threshold changed to 12.5 / 15 / 17.5 / 20 / 22.5% from 25 / 27.5 / 30 / 32.5 / 35%."
+      ]
+     },
+     {
+      "ability": "Hexplosive Minefield",
+      "key": "E",
+      "description": "Ziggs scatters proximity mines that detonate on enemy contact, dealing magic damage and slowing. Successive mine detonations on the same target deal reduced damage.",
+      "lines": [
+       "seconds changed to 7 from 10.",
+       "Total AP Ratio changed to 25 / 27.5 / 30 / 32.5 / 35% from 25 / 30 / 35 / 40 / 45%."
+      ]
+     }
+    ]
+   }
+  },
+  "Lulu": {
+   "wr": 48.9,
+   "pr": 1.6,
+   "tier": "B",
+   "games": 447855,
+   "balance": {}
+  },
+  "Draven": {
+   "wr": 49.9,
+   "pr": 5.5,
+   "tier": "B",
+   "games": 1580343,
+   "balance": {
+    "modifiers": [
+     {
+      "key": "damageDealt",
+      "unit": "percent",
+      "value": 0.05
+     },
+     {
+      "key": "damageTaken",
+      "unit": "percent",
+      "value": -0.05
+     }
+    ],
+    "abilityChanges": [
+     {
+      "ability": "League of Draven",
+      "key": "P",
+      "description": "Draven gains his fans' Adoration when he catches a Spinning Axe or kills a minion, monster, or tower. Killing enemy champions grants Draven bonus gold based on how much Adoration he has.",
+      "lines": [
+       "Base Gold Gained changed to 40 from 25.",
+       "of stacks upon death changed to 30% from 50%."
+      ]
+     }
+    ]
+   }
+  },
+  "Hecarim": {
+   "wr": 56.2,
+   "pr": 9.6,
+   "tier": "S",
+   "games": 2775654,
+   "balance": {
+    "modifiers": [
+     {
+      "key": "abilityHaste",
+      "unit": "number",
+      "value": 10
+     },
+     {
+      "key": "damageDealt",
+      "unit": "percent",
+      "value": 0.05
+     },
+     {
+      "key": "damageTaken",
+      "unit": "percent",
+      "value": -0.1
+     },
+     {
+      "key": "healing",
+      "unit": "percent",
+      "value": 0.2
+     }
+    ],
+    "abilityChanges": [
+     {
+      "ability": "Devastating Charge",
+      "key": "E",
+      "description": "Hecarim gains increasing Move Speed and can move through units for a short duration. His next attack knocks the target back and deals additional physical damage based on the distance he has traveled since activating the ability.",
+      "lines": [
+       "Cooldown changed to 16 / 15 / 14 / 13 / 12 from 20 / 19 / 18 / 17 / 16."
+      ]
+     }
+    ]
+   }
+  },
+  "Kha'Zix": {
+   "wr": 47.6,
+   "pr": 6.2,
+   "tier": "B",
+   "games": 1793087,
+   "balance": {
+    "modifiers": [
+     {
+      "key": "damageDealt",
+      "unit": "percent",
+      "value": 0.1
+     },
+     {
+      "key": "damageTaken",
+      "unit": "percent",
+      "value": -0.1
+     },
+     {
+      "key": "healing",
+      "unit": "percent",
+      "value": 0.2
+     },
+     {
+      "key": "tenacity",
+      "unit": "percent",
+      "value": 0.2
+     }
+    ],
+    "abilityChanges": []
+   }
+  },
+  "Darius": {
+   "wr": 47.9,
+   "pr": 7.5,
+   "tier": "B",
+   "games": 2158233,
+   "balance": {
+    "modifiers": [
+     {
+      "key": "damageDealt",
+      "unit": "percent",
+      "value": 0.05
+     }
+    ],
+    "abilityChanges": []
+   }
+  },
+  "Jayce": {
+   "wr": 46.7,
+   "pr": 8.0,
+   "tier": "C",
+   "games": 2296771,
+   "balance": {
+    "modifiers": [
+     {
+      "key": "damageDealt",
+      "unit": "percent",
+      "value": 0.05
+     }
+    ],
+    "abilityChanges": []
+   }
+  },
+  "Lissandra": {
+   "wr": 45.3,
+   "pr": 2.9,
+   "tier": "C",
+   "games": 836066,
+   "balance": {
+    "modifiers": [
+     {
+      "key": "damageDealt",
+      "unit": "percent",
+      "value": -0.05
+     },
+     {
+      "key": "damageTaken",
+      "unit": "percent",
+      "value": 0.05
+     }
+    ],
+    "abilityChanges": []
+   }
+  },
+  "Diana": {
+   "wr": 46.7,
+   "pr": 3.1,
+   "tier": "C",
+   "games": 905466,
+   "balance": {}
+  },
+  "Quinn": {
+   "wr": 47.5,
+   "pr": 2.4,
+   "tier": "C",
+   "games": 691951,
+   "balance": {
+    "modifiers": [
+     {
+      "key": "attackSpeed",
+      "unit": "percent",
+      "value": 0.025
+     },
+     {
+      "key": "damageDealt",
+      "unit": "percent",
+      "value": 0.1
+     },
+     {
+      "key": "damageTaken",
+      "unit": "percent",
+      "value": -0.1
+     },
+     {
+      "key": "tenacity",
+      "unit": "percent",
+      "value": 0.2
+     }
+    ],
+    "abilityChanges": []
+   }
+  },
+  "Syndra": {
+   "wr": 50.9,
+   "pr": 6.0,
+   "tier": "A",
+   "games": 1741516,
+   "balance": {
+    "modifiers": [
+     {
+      "key": "abilityHaste",
+      "unit": "number",
+      "value": 5
+     },
+     {
+      "key": "damageDealt",
+      "unit": "percent",
+      "value": 0.05
+     }
+    ],
+    "abilityChanges": [
+     {
+      "ability": "Dark Sphere",
+      "key": "Q",
+      "description": "Syndra conjures a Dark Sphere dealing magic damage. The sphere remains and can be manipulated by her other powers.",
+      "lines": [
+       "Damage changed to 100 / 145 / 190 / 235 / 280 from 90 / 125 / 160 / 195 / 230."
+      ]
+     },
+     {
+      "ability": "Force of Will",
+      "key": "W",
+      "description": "Syndra picks up and throws a Dark Sphere or enemy minion dealing magic damage and slowing the Move Speed of enemies.",
+      "lines": [
+       "Cooldown changed to 11 / 10 / 9 / 8 / 7 from 13 / 12 / 11 / 10 / 9."
+      ]
+     }
+    ]
+   }
+  },
+  "Aurelion Sol": {
+   "wr": 54.6,
+   "pr": 12.2,
+   "tier": "S",
+   "games": 3526009,
+   "balance": {
+    "modifiers": [],
+    "abilityChanges": [
+     {
+      "ability": "Singularity",
+      "key": "E",
+      "description": "Aurelion Sol summons a black hole, damaging enemies and slowly pulling them toward its center. This ability grants Stardust each time an enemy dies within the black hole and for each second an enemy champion is caught inside it. The center of the black hole executes enemies who are below a certain percentage of their maximum health. Stardust increases Singularity's area as well as the execution threshold.",
+      "lines": [
+       "Cooldown changed to 14 from 12."
+      ]
+     }
+    ]
+   }
+  },
+  "Kayn": {
+   "wr": 55.2,
+   "pr": 8.6,
+   "tier": "S",
+   "games": 2491489,
+   "balance": {
+    "modifiers": [
+     {
+      "key": "healing",
+      "unit": "percent",
+      "value": -0.2
+     },
+     {
+      "key": "tenacity",
+      "unit": "percent",
+      "value": 0.2
+     }
+    ],
+    "abilityChanges": [
+     {
+      "ability": "The Darkin Scythe",
+      "key": "P",
+      "description": "Kayn wields an ancient weapon and fights Rhaast, the darkin within it, for control. Either the Darkin will triumph, or Kayn will master Rhaast and become the Shadow Assassin. Darkin: Heal for a percentage of spell damage dealt to champions. Shadow Assassin: For the first few seconds in combat with enemy champions, deal bonus damage.",
+      "lines": [
+       "minutes after reaching full charge on either form changed to 2 from 4.",
+       "Cooldown changed to 4 from 8.",
+       "Duration changed to 4 from 3.",
+       "Minimum Damage changed to 35% from 20%.",
+       "Maximum Damage changed to 55% from 40%."
+      ]
+     },
+     {
+      "ability": "Reaping Slash",
+      "key": "Q",
+      "description": "Kayn dashes, then slashes. Both deal damage.",
+      "lines": [
+       "Bonus Attack Damage Ratio changed to 95% from 85%."
+      ]
+     },
+     {
+      "ability": "Shadow Step",
+      "key": "E",
+      "description": "Kayn can walk through terrain.",
+      "lines": [
+       "Cooldown changed to 7 from 10."
+      ]
+     }
+    ]
+   }
+  },
+  "Zoe": {
+   "wr": 47.0,
+   "pr": 2.3,
+   "tier": "C",
+   "games": 658081,
+   "balance": {
+    "modifiers": [
+     {
+      "key": "damageDealt",
+      "unit": "percent",
+      "value": 0.1
+     },
+     {
+      "key": "damageTaken",
+      "unit": "percent",
+      "value": -0.05
+     }
+    ],
+    "abilityChanges": []
+   }
+  },
+  "Zyra": {
+   "wr": 50.4,
+   "pr": 4.5,
+   "tier": "B",
+   "games": 1296531,
+   "balance": {
+    "modifiers": [
+     {
+      "key": "abilityHaste",
+      "unit": "number",
+      "value": -10
+     },
+     {
+      "key": "damageDealt",
+      "unit": "percent",
+      "value": -0.1
+     },
+     {
+      "key": "damageTaken",
+      "unit": "percent",
+      "value": 0.05
+     }
+    ],
+    "abilityChanges": []
+   }
+  },
+  "Kai'Sa": {
+   "wr": 46.0,
+   "pr": 11.6,
+   "tier": "C",
+   "games": 3341114,
+   "balance": {
+    "modifiers": [
+     {
+      "key": "attackSpeed",
+      "unit": "percent",
+      "value": 0.025
+     }
+    ],
+    "abilityChanges": [
+     {
+      "ability": "Icathian Rain",
+      "key": "Q",
+      "description": "Kai'Sa shoots a swarm of missiles that seek out nearby targets. Living Weapon: Icathian Rain is upgraded to shoot more missiles.",
+      "lines": [
+       "Bonus Attack Damage Ratio changed to 65% from 55%."
+      ]
+     }
+    ]
+   }
+  },
+  "Seraphine": {
+   "wr": 53.9,
+   "pr": 7.8,
+   "tier": "S",
+   "games": 2245662,
+   "balance": {
+    "modifiers": [
+     {
+      "key": "damageTaken",
+      "unit": "percent",
+      "value": 0.2
+     },
+     {
+      "key": "healing",
+      "unit": "percent",
+      "value": -0.2
+     },
+     {
+      "key": "shielding",
+      "unit": "percent",
+      "value": -0.2
+     }
+    ],
+    "abilityChanges": []
+   }
+  },
+  "Gnar": {
+   "wr": 47.4,
+   "pr": 2.6,
+   "tier": "C",
+   "games": 756361,
+   "balance": {
+    "modifiers": [
+     {
+      "key": "attackSpeed",
+      "unit": "percent",
+      "value": 0.025
+     },
+     {
+      "key": "damageDealt",
+      "unit": "percent",
+      "value": 0.05
+     },
+     {
+      "key": "damageTaken",
+      "unit": "percent",
+      "value": -0.05
+     }
+    ],
+    "abilityChanges": []
+   }
+  },
+  "Zac": {
+   "wr": 45.2,
+   "pr": 2.2,
+   "tier": "C",
+   "games": 639381,
+   "balance": {
+    "modifiers": [
+     {
+      "key": "damageTaken",
+      "unit": "percent",
+      "value": -0.04
+     },
+     {
+      "key": "healing",
+      "unit": "percent",
+      "value": 0.1
+     }
+    ],
+    "abilityChanges": []
+   }
+  },
+  "Yasuo": {
+   "wr": 57.8,
+   "pr": 10.9,
+   "tier": "S",
+   "games": 3138960,
+   "balance": {
+    "modifiers": [
+     {
+      "key": "attackSpeed",
+      "unit": "percent",
+      "value": 0.025
+     }
+    ],
+    "abilityChanges": [
+     {
+      "ability": "Wind Wall",
+      "key": "W",
+      "description": "Creates a moving wall that blocks all enemy projectiles for 4 seconds.",
+      "lines": [
+       "Cooldown changed to 27 / 25 / 23 / 21 / 19 from 25 / 23 / 21 / 19 / 17."
+      ]
+     }
+    ]
+   }
+  },
+  "Vel'Koz": {
+   "wr": 50.9,
+   "pr": 5.2,
+   "tier": "A",
+   "games": 1488040,
+   "balance": {
+    "modifiers": [
+     {
+      "key": "damageDealt",
+      "unit": "percent",
+      "value": -0.05
+     },
+     {
+      "key": "damageTaken",
+      "unit": "percent",
+      "value": 0.05
+     }
+    ],
+    "abilityChanges": []
+   }
+  },
+  "Taliyah": {
+   "wr": 48.4,
+   "pr": 2.2,
+   "tier": "B",
+   "games": 625160,
+   "balance": {}
+  },
+  "Camille": {
+   "wr": 46.6,
+   "pr": 1.6,
+   "tier": "C",
+   "games": 447922,
+   "balance": {
+    "modifiers": [
+     {
+      "key": "abilityHaste",
+      "unit": "number",
+      "value": 10
+     },
+     {
+      "key": "damageDealt",
+      "unit": "percent",
+      "value": 0.05
+     },
+     {
+      "key": "damageTaken",
+      "unit": "percent",
+      "value": -0.05
+     },
+     {
+      "key": "healing",
+      "unit": "percent",
+      "value": 0.2
+     },
+     {
+      "key": "shielding",
+      "unit": "percent",
+      "value": 0.1
+     }
+    ],
+    "abilityChanges": []
+   }
+  },
+  "Akshan": {
+   "wr": 46.4,
+   "pr": 3.1,
+   "tier": "C",
+   "games": 896374,
+   "balance": {
+    "modifiers": [],
+    "abilityChanges": [
+     {
+      "ability": "Going Rogue",
+      "key": "W",
+      "description": "Akshan passively marks enemy champions as Scoundrels when they kill his ally champions. If Akshan kills a Scoundrel, he resurrects the allies they killed, gains bonus gold, and clears all marks. When activated, Akshan enters camouflage and gains Move Speed and Mana Regen while moving towards Scoundrels. Akshan loses the camouflage quickly while he is not in brush or near terrain.",
+      "lines": [
+       "Duration changed to 10 from 60."
+      ]
+     }
+    ]
+   }
+  },
+  "Bel'Veth": {
+   "wr": 56.2,
+   "pr": 3.8,
+   "tier": "S",
+   "games": 1099132,
+   "balance": {
+    "modifiers": [
+     {
+      "key": "damageDealt",
+      "unit": "percent",
+      "value": 0.05
+     },
+     {
+      "key": "damageTaken",
+      "unit": "percent",
+      "value": -0.05
+     },
+     {
+      "key": "tenacity",
+      "unit": "percent",
+      "value": 0.2
+     }
+    ],
+    "abilityChanges": [
+     {
+      "ability": "Endless Banquet",
+      "key": "R",
+      "description": "Bel'Veth consumes Void coral remnants, transforming into her true form and increasing her max health, attack range, and attack speed. Consuming the Void coral remnants of a Void epic monster will grant her the power to summon Void remora.",
+      "lines": [
+       "Duration changed to 40 from 15."
+      ]
+     }
+    ]
+   }
+  },
+  "Braum": {
+   "wr": 45.6,
+   "pr": 1.8,
+   "tier": "C",
+   "games": 525813,
+   "balance": {}
+  },
+  "Jhin": {
+   "wr": 48.8,
+   "pr": 11.5,
+   "tier": "B",
+   "games": 3325024,
+   "balance": {
+    "modifiers": [
+     {
+      "key": "damageDealt",
+      "unit": "percent",
+      "value": -0.05
+     }
+    ],
+    "abilityChanges": []
+   }
+  },
+  "Kindred": {
+   "wr": 47.3,
+   "pr": 3.7,
+   "tier": "C",
+   "games": 1058986,
+   "balance": {
+    "modifiers": [
+     {
+      "key": "attackSpeed",
+      "unit": "percent",
+      "value": 0.025
+     },
+     {
+      "key": "damageTaken",
+      "unit": "percent",
+      "value": -0.1
+     }
+    ],
+    "abilityChanges": []
+   }
+  },
+  "Zeri": {
+   "wr": 47.4,
+   "pr": 2.8,
+   "tier": "C",
+   "games": 809795,
+   "balance": {
+    "modifiers": [
+     {
+      "key": "damageDealt",
+      "unit": "percent",
+      "value": 0.1
+     },
+     {
+      "key": "damageTaken",
+      "unit": "percent",
+      "value": -0.05
+     }
+    ],
+    "abilityChanges": [
+     {
+      "ability": "Spark Surge",
+      "key": "E",
+      "description": "Zeri dashes a short distance and energizes Burst Fire to pierce through enemies. She will vault and grind over any terrain she touches.",
+      "lines": [
+       "Cooldown changed to 20 / 19 / 18 / 17 / 16 from 24 / 22.5 / 21 / 19.5 / 18."
+      ]
+     }
+    ]
+   }
+  },
+  "Jinx": {
+   "wr": 51.8,
+   "pr": 9.8,
+   "tier": "A",
+   "games": 2829173,
+   "balance": {
+    "modifiers": [
+     {
+      "key": "damageDealt",
+      "unit": "percent",
+      "value": -0.1
+     },
+     {
+      "key": "damageTaken",
+      "unit": "percent",
+      "value": 0.05
+     }
+    ],
+    "abilityChanges": []
+   }
+  },
+  "Tahm Kench": {
+   "wr": 52.7,
+   "pr": 14.1,
+   "tier": "A",
+   "games": 4072386,
+   "balance": {}
+  },
+  "Briar": {
+   "wr": 53.3,
+   "pr": 2.6,
+   "tier": "A",
+   "games": 737043,
+   "balance": {
+    "modifiers": [
+     {
+      "key": "damageDealt",
+      "unit": "percent",
+      "value": 0.05
+     },
+     {
+      "key": "healing",
+      "unit": "percent",
+      "value": 0.1
+     }
+    ],
+    "abilityChanges": [
+     {
+      "ability": "Chilling Scream",
+      "key": "E",
+      "description": "Briar refocuses her mind, removing Blood Frenzy and channeling energy into a powerful scream that damages and slows enemies. While charging, she takes reduced damage and heals for a portion of her max Health. A fully charged scream knocks foes back, dealing additional damage and stunning those who collide with a wall.",
+      "lines": [
+       "Damage Reduction changed to 55% from 35%."
+      ]
+     }
+    ]
+   }
+  },
+  "Viego": {
+   "wr": 50.9,
+   "pr": 5.4,
+   "tier": "A",
+   "games": 1551779,
+   "balance": {
+    "modifiers": [
+     {
+      "key": "damageDealt",
+      "unit": "percent",
+      "value": 0.05
+     }
+    ],
+    "abilityChanges": []
+   }
+  },
+  "Senna": {
+   "wr": 48.0,
+   "pr": 8.7,
+   "tier": "B",
+   "games": 2497516,
+   "balance": {
+    "modifiers": [
+     {
+      "key": "damageTaken",
+      "unit": "percent",
+      "value": 0.05
+     }
+    ],
+    "abilityChanges": []
+   }
+  },
+  "Lucian": {
+   "wr": 49.5,
+   "pr": 13.5,
+   "tier": "B",
+   "games": 3901379,
+   "balance": {
+    "modifiers": [
+     {
+      "key": "abilityHaste",
+      "unit": "number",
+      "value": 10
+     },
+     {
+      "key": "damageTaken",
+      "unit": "percent",
+      "value": -0.05
+     },
+     {
+      "key": "tenacity",
+      "unit": "percent",
+      "value": 0.2
+     }
+    ],
+    "abilityChanges": []
+   }
+  },
+  "Zed": {
+   "wr": 49.8,
+   "pr": 8.6,
+   "tier": "B",
+   "games": 2469488,
+   "balance": {
+    "modifiers": [
+     {
+      "key": "damageDealt",
+      "unit": "percent",
+      "value": 0.05
+     },
+     {
+      "key": "damageTaken",
+      "unit": "percent",
+      "value": -0.05
+     },
+     {
+      "key": "energyRegen",
+      "unit": "percent",
+      "value": 0.2
+     },
+     {
+      "key": "tenacity",
+      "unit": "percent",
+      "value": 0.2
+     }
+    ],
+    "abilityChanges": []
+   }
+  },
+  "Kled": {
+   "wr": 48.5,
+   "pr": 0.9,
+   "tier": "B",
+   "games": 253869,
+   "balance": {
+    "modifiers": [
+     {
+      "key": "damageDealt",
+      "unit": "percent",
+      "value": 0.05
+     }
+    ],
+    "abilityChanges": []
+   }
+  },
+  "Ekko": {
+   "wr": 54.1,
+   "pr": 6.4,
+   "tier": "S",
+   "games": 1833387,
+   "balance": {
+    "modifiers": [
+     {
+      "key": "damageDealt",
+      "unit": "percent",
+      "value": 0.05
+     },
+     {
+      "key": "tenacity",
+      "unit": "percent",
+      "value": 0.2
+     }
+    ],
+    "abilityChanges": []
+   }
+  },
+  "Qiyana": {
+   "wr": 46.9,
+   "pr": 3.2,
+   "tier": "C",
+   "games": 928087,
+   "balance": {
+    "modifiers": [
+     {
+      "key": "abilityHaste",
+      "unit": "number",
+      "value": 20
+     },
+     {
+      "key": "damageDealt",
+      "unit": "percent",
+      "value": 0.1
+     },
+     {
+      "key": "damageTaken",
+      "unit": "percent",
+      "value": -0.1
+     },
+     {
+      "key": "tenacity",
+      "unit": "percent",
+      "value": 0.2
+     }
+    ],
+    "abilityChanges": []
+   }
+  },
+  "Vi": {
+   "wr": 45.9,
+   "pr": 3.2,
+   "tier": "C",
+   "games": 926663,
+   "balance": {
+    "modifiers": [
+     {
+      "key": "damageDealt",
+      "unit": "percent",
+      "value": 0.05
+     },
+     {
+      "key": "damageTaken",
+      "unit": "percent",
+      "value": -0.05
+     }
+    ],
+    "abilityChanges": []
+   }
+  },
+  "Aatrox": {
+   "wr": 46.0,
+   "pr": 6.6,
+   "tier": "C",
+   "games": 1900285,
+   "balance": {
+    "modifiers": [
+     {
+      "key": "damageDealt",
+      "unit": "percent",
+      "value": 0.05
+     }
+    ],
+    "abilityChanges": []
+   }
+  },
+  "Nami": {
+   "wr": 49.8,
+   "pr": 1.8,
+   "tier": "B",
+   "games": 531237,
+   "balance": {}
+  },
+  "Azir": {
+   "wr": 48.0,
+   "pr": 2.4,
+   "tier": "B",
+   "games": 689703,
+   "balance": {
+    "modifiers": [
+     {
+      "key": "abilityHaste",
+      "unit": "number",
+      "value": 20
+     },
+     {
+      "key": "attackSpeed",
+      "unit": "percent",
+      "value": 0.025
+     },
+     {
+      "key": "damageTaken",
+      "unit": "percent",
+      "value": -0.05
+     }
+    ],
+    "abilityChanges": []
+   }
+  },
+  "Yuumi": {
+   "wr": 51.3,
+   "pr": 3.0,
+   "tier": "A",
+   "games": 864923,
+   "balance": {}
+  },
+  "Samira": {
+   "wr": 47.9,
+   "pr": 5.2,
+   "tier": "B",
+   "games": 1495601,
+   "balance": {}
+  },
+  "Thresh": {
+   "wr": 43.8,
+   "pr": 6.0,
+   "tier": "D",
+   "games": 1736512,
+   "balance": {
+    "modifiers": [],
+    "abilityChanges": [
+     {
+      "ability": "Damnation",
+      "key": "P",
+      "description": "Thresh can harvest the souls of enemies that die near him, permanently granting him Armor and Ability Power.",
+      "lines": [
+       "Souls gained per pickup changed to 2 from 1."
+      ]
+     }
+    ]
+   }
+  },
+  "Illaoi": {
+   "wr": 47.9,
+   "pr": 5.1,
+   "tier": "B",
+   "games": 1484333,
+   "balance": {
+    "modifiers": [
+     {
+      "key": "damageDealt",
+      "unit": "percent",
+      "value": -0.05
+     },
+     {
+      "key": "healing",
+      "unit": "percent",
+      "value": -0.1
+     }
+    ],
+    "abilityChanges": []
+   }
+  },
+  "Rek'Sai": {
+   "wr": 49.6,
+   "pr": 0.8,
+   "tier": "B",
+   "games": 229194,
+   "balance": {
+    "modifiers": [
+     {
+      "key": "damageDealt",
+      "unit": "percent",
+      "value": 0.05
+     },
+     {
+      "key": "damageTaken",
+      "unit": "percent",
+      "value": -0.1
+     }
+    ],
+    "abilityChanges": []
+   }
+  },
+  "Ivern": {
+   "wr": 50.4,
+   "pr": 0.7,
+   "tier": "B",
+   "games": 214588,
+   "balance": {}
+  },
+  "Kalista": {
+   "wr": 50.0,
+   "pr": 2.6,
+   "tier": "B",
+   "games": 737324,
+   "balance": {
+    "modifiers": [
+     {
+      "key": "damageDealt",
+      "unit": "percent",
+      "value": 0.05
+     },
+     {
+      "key": "damageTaken",
+      "unit": "percent",
+      "value": -0.05
+     }
+    ],
+    "abilityChanges": []
+   }
+  },
+  "Bard": {
+   "wr": 40.2,
+   "pr": 0.7,
+   "tier": "D",
+   "games": 201291,
+   "balance": {
+    "modifiers": [
+     {
+      "key": "damageDealt",
+      "unit": "percent",
+      "value": 0.15
+     },
+     {
+      "key": "damageTaken",
+      "unit": "percent",
+      "value": -0.15
+     },
+     {
+      "key": "healing",
+      "unit": "percent",
+      "value": 0.2
+     }
+    ],
+    "abilityChanges": [
+     {
+      "ability": "Traveler's Call",
+      "key": "P",
+      "description": "Meeps: Bard attracts lesser spirits that assist with his basic attacks to deal extra magic damage. When Bard has collected enough Chimes, his meeps will also deal damage in an area and slow enemies hit. Chimes: Ancient chimes randomly appear for Bard to collect. These grant experience, restore mana, and provide out of combat Move Speed.",
+      "lines": [
+       "Damage changed to 3 from 5.",
+       "Chimes changed to 3 from 5.",
+       "Ability Power Ratio changed to 50% from 40%."
+      ]
+     },
+     {
+      "ability": "Cosmic Binding",
+      "key": "Q",
+      "description": "Bard fires a missile which will slow the first enemy struck, and continue onward. If it strikes a wall, it will stun the initial target; if it strikes another enemy, it will stun them both.",
+      "lines": [
+       "Slow Duration changed to 1.6 / 1.7 / 1.8 / 1.9 / 2 from 1 / 1.2 / 1.4 / 1.6 / 1.8.",
+       "Stun Duration changed to 1.6 / 1.7 / 1.8 / 1.9 / 2 from 1 / 1.2 / 1.4 / 1.6 / 1.8."
+      ]
+     },
+     {
+      "ability": "Caretaker's Shrine",
+      "key": "W",
+      "description": "Reveals a Health shrine which powers up over a short time, disappearing after healing and speeding up the first ally that touches it.",
+      "lines": [
+       "Base Move Speed changed to 25 / 27.5 / 30 / 32.5 / 35% from 20 / 22.5 / 25 / 27.5 / 30%.",
+       "Cooldown changed to 8 from 18.",
+       "Minimum Ability Power Ratio changed to 60% from 40%.",
+       "Maximum Ability Power Ratio changed to 90% from 70%.",
+       "Move Speed ratio changed to 7.5% from 6%."
+      ]
+     }
+    ]
+   }
+  },
+  "Rakan": {
+   "wr": 46.1,
+   "pr": 1.3,
+   "tier": "C",
+   "games": 379690,
+   "balance": {
+    "modifiers": [
+     {
+      "key": "abilityHaste",
+      "unit": "number",
+      "value": 10
+     },
+     {
+      "key": "damageTaken",
+      "unit": "percent",
+      "value": -0.05
+     }
+    ],
+    "abilityChanges": []
+   }
+  },
+  "Xayah": {
+   "wr": 49.2,
+   "pr": 5.2,
+   "tier": "B",
+   "games": 1496706,
+   "balance": {}
+  },
+  "Ornn": {
+   "wr": 48.0,
+   "pr": 6.5,
+   "tier": "B",
+   "games": 1874661,
+   "balance": {
+    "modifiers": [
+     {
+      "key": "damageDealt",
+      "unit": "percent",
+      "value": -0.1
+     },
+     {
+      "key": "damageTaken",
+      "unit": "percent",
+      "value": 0.05
+     }
+    ],
+    "abilityChanges": []
+   }
+  },
+  "Sylas": {
+   "wr": 48.7,
+   "pr": 7.8,
+   "tier": "B",
+   "games": 2237134,
+   "balance": {
+    "modifiers": [
+     {
+      "key": "damageDealt",
+      "unit": "percent",
+      "value": 0.05
+     }
+    ],
+    "abilityChanges": []
+   }
+  },
+  "Neeko": {
+   "wr": 45.5,
+   "pr": 2.3,
+   "tier": "C",
+   "games": 652861,
+   "balance": {}
+  },
+  "Aphelios": {
+   "wr": 51.5,
+   "pr": 4.3,
+   "tier": "A",
+   "games": 1242191,
+   "balance": {}
+  },
+  "Rell": {
+   "wr": 52.2,
+   "pr": 4.9,
+   "tier": "A",
+   "games": 1398322,
+   "balance": {
+    "modifiers": [
+     {
+      "key": "damageDealt",
+      "unit": "percent",
+      "value": -0.05
+     },
+     {
+      "key": "shielding",
+      "unit": "percent",
+      "value": -0.1
+     }
+    ],
+    "abilityChanges": []
+   }
+  },
+  "Pyke": {
+   "wr": 46.9,
+   "pr": 5.2,
+   "tier": "C",
+   "games": 1515161,
+   "balance": {
+    "modifiers": [
+     {
+      "key": "damageDealt",
+      "unit": "percent",
+      "value": 0.1
+     },
+     {
+      "key": "damageTaken",
+      "unit": "percent",
+      "value": -0.1
+     },
+     {
+      "key": "tenacity",
+      "unit": "percent",
+      "value": 0.2
+     }
+    ],
+    "abilityChanges": []
+   }
+  },
+  "Vex": {
+   "wr": 49.6,
+   "pr": 2.0,
+   "tier": "B",
+   "games": 573857,
+   "balance": {
+    "modifiers": [
+     {
+      "key": "damageDealt",
+      "unit": "percent",
+      "value": -0.05
+     }
+    ],
+    "abilityChanges": []
+   }
+  },
+  "Yone": {
+   "wr": 56.5,
+   "pr": 8.6,
+   "tier": "S",
+   "games": 2488390,
+   "balance": {
+    "modifiers": [
+     {
+      "key": "attackSpeed",
+      "unit": "percent",
+      "value": 0.025
+     },
+     {
+      "key": "damageDealt",
+      "unit": "percent",
+      "value": 0.05
+     },
+     {
+      "key": "damageTaken",
+      "unit": "percent",
+      "value": -0.03
+     }
+    ],
+    "abilityChanges": []
+   }
+  },
+  "Ambessa": {
+   "wr": 54.0,
+   "pr": 3.9,
+   "tier": "S",
+   "games": 1117487,
+   "balance": {}
+  },
+  "Mel": {
+   "wr": 47.1,
+   "pr": 8.2,
+   "tier": "C",
+   "games": 2354603,
+   "balance": {
+    "modifiers": [
+     {
+      "key": "abilityHaste",
+      "unit": "number",
+      "value": -10
+     }
+    ],
+    "abilityChanges": [
+     {
+      "ability": "Rebuttal",
+      "key": "W",
+      "description": "Mel forms a barrier around herself that reflects enemy projectiles back at the attacker, prevents her from taking damage, and grants her movement speed.",
+      "lines": [
+       "Cooldown changed to 45 / 44 / 43 / 42 / 41 from 38 / 35 / 33 / 29 / 26."
+      ]
+     }
+    ]
+   }
+  },
+  "Yunara": {
+   "wr": 53.0,
+   "pr": 8.6,
+   "tier": "A",
+   "games": 2494318,
+   "balance": {
+    "modifiers": [],
+    "abilityChanges": [
+     {
+      "ability": "Kanmei's Steps | Untouchable Shadow",
+      "key": "E",
+      "description": "Yunara gains Move Speed and becomes Ghosted. While in her Transcendent State she instead dashes in a direction.",
+      "lines": [
+       "Max Move Speed changed to 40 / 45 / 50 / 55 / 60% from 30 / 35 / 40 / 45 / 50%."
+      ]
+     },
+     {
+      "ability": "Transcend One's Self",
+      "key": "R",
+      "description": "Yunara enters a Transcendent State that upgrades her basic Abilities.",
+      "lines": [
+       "Cooldown changed to 80 / 70 / 60 from 100 / 90 / 80."
+      ]
+     }
+    ]
+   }
+  },
+  "Locke": {
+   "wr": 43.6,
+   "pr": 2.7,
+   "tier": "D",
+   "games": 766388,
+   "balance": {
+    "modifiers": [
+     {
+      "key": "damageDealt",
+      "unit": "percent",
+      "value": 0.05
+     },
+     {
+      "key": "damageTaken",
+      "unit": "percent",
+      "value": -0.05
+     },
+     {
+      "key": "tenacity",
+      "unit": "percent",
+      "value": 0.2
+     }
+    ],
+    "abilityChanges": []
+   }
+  },
+  "Sett": {
+   "wr": 52.1,
+   "pr": 11.7,
+   "tier": "A",
+   "games": 3368779,
+   "balance": {
+    "modifiers": [],
+    "abilityChanges": [
+     {
+      "ability": "Pit Grit",
+      "key": "P",
+      "description": "Sett's basic attacks alternate between left and right punch. Right punch is slightly stronger and faster. Sett also hates losing, gaining additional health regeneration based off of his missing health.",
+      "lines": [
+       "Missing Health interval changed to 10% from 5%."
+      ]
+     },
+     {
+      "ability": "Haymaker",
+      "key": "W",
+      "description": "Sett passively stores damage he takes as Grit. On cast, Sett expends all stored Grit to gain a shield and punch an area, dealing true damage in the center and physical damage on the sides.",
+      "lines": [
+       "up to changed to 35% from 50%.",
+       "Base Grit consumed true damage to enemies in the center changed to 20% from 25%.",
+       "Cooldown changed to 18 / 17 / 16 / 15 / 14 from 18 / 16.5 / 15 / 13.5 / 12."
+      ]
+     }
+    ]
+   }
+  },
+  "Lillia": {
+   "wr": 56.7,
+   "pr": 10.0,
+   "tier": "S",
+   "games": 2895403,
+   "balance": {
+    "modifiers": [
+     {
+      "key": "damageDealt",
+      "unit": "percent",
+      "value": -0.05
+     },
+     {
+      "key": "damageTaken",
+      "unit": "percent",
+      "value": 0.05
+     }
+    ],
+    "abilityChanges": [
+     {
+      "ability": "Swirlseed",
+      "key": "E",
+      "description": "Lillia hurls a seed that damages and slows those it lands on. If it doesn't hit anything, it will continue rolling until it hits a wall or target.",
+      "lines": [
+       "Cooldown changed to 18 / 17 / 16 / 15 / 14 from 12."
+      ]
+     }
+    ]
+   }
+  },
+  "Gwen": {
+   "wr": 56.8,
+   "pr": 3.7,
+   "tier": "S",
+   "games": 1067672,
+   "balance": {
+    "modifiers": [],
+    "abilityChanges": [
+     {
+      "ability": "Snip Snip!",
+      "key": "Q",
+      "description": "Gwen snips her scissors in a cone up to 6 times dealing magic damage. Gwen deals true damage to units in the center and applies her passive to them on each snip.",
+      "lines": [
+       "Ability Power Ratio changed to 40% from 35%."
+      ]
+     },
+     {
+      "ability": "Needlework",
+      "key": "R",
+      "description": "Gwen hurls a needle that slows enemies hit, deals magic damage, and applies A Thousand Cuts to champions hit. This ability can be cast up to two more times, with each cast throwing additional needles and dealing more damage.",
+      "lines": [
+       "Cooldown changed to 110 / 90 / 70 from 120 / 100 / 80."
+      ]
+     }
+    ]
+   }
+  },
+  "Renata Glasc": {
+   "wr": 50.4,
+   "pr": 2.3,
+   "tier": "B",
+   "games": 659645,
+   "balance": {
+    "modifiers": [
+     {
+      "key": "damageTaken",
+      "unit": "percent",
+      "value": 0.05
+     }
+    ],
+    "abilityChanges": []
+   }
+  },
+  "Aurora": {
+   "wr": 52.1,
+   "pr": 6.2,
+   "tier": "A",
+   "games": 1798135,
+   "balance": {
+    "modifiers": [
+     {
+      "key": "abilityHaste",
+      "unit": "number",
+      "value": 10
+     }
+    ],
+    "abilityChanges": []
+   }
+  },
+  "Nilah": {
+   "wr": 50.3,
+   "pr": 1.0,
+   "tier": "B",
+   "games": 276688,
+   "balance": {}
+  },
+  "K'Sante": {
+   "wr": 40.4,
+   "pr": 2.3,
+   "tier": "D",
+   "games": 657899,
+   "balance": {
+    "modifiers": [
+     {
+      "key": "damageDealt",
+      "unit": "percent",
+      "value": 0.05
+     }
+    ],
+    "abilityChanges": []
+   }
+  },
+  "Smolder": {
+   "wr": 50.4,
+   "pr": 11.4,
+   "tier": "B",
+   "games": 3282653,
+   "balance": {}
+  },
+  "Milio": {
+   "wr": 51.7,
+   "pr": 1.7,
+   "tier": "A",
+   "games": 484232,
+   "balance": {}
+  },
+  "Zaahen": {
+   "wr": 52.8,
+   "pr": 3.1,
+   "tier": "A",
+   "games": 903792,
+   "balance": {}
+  },
+  "Hwei": {
+   "wr": 54.6,
+   "pr": 5.4,
+   "tier": "S",
+   "games": 1564747,
+   "balance": {
+    "modifiers": [
+     {
+      "key": "damageDealt",
+      "unit": "percent",
+      "value": -0.05
+     }
+    ],
+    "abilityChanges": []
+   }
+  },
+  "Naafiri": {
+   "wr": 45.2,
+   "pr": 3.1,
+   "tier": "C",
+   "games": 890413,
+   "balance": {
+    "modifiers": [
+     {
+      "key": "abilityHaste",
+      "unit": "number",
+      "value": 10
+     },
+     {
+      "key": "damageDealt",
+      "unit": "percent",
+      "value": 0.1
+     }
+    ],
+    "abilityChanges": []
+   }
+  }
+ },
+ "previous": {
+  "version": "16.18",
+  "champions": {
+   "Annie": {
+    "wr": 49.2,
+    "pr": 2.3
+   },
+   "Olaf": {
+    "wr": 46.3,
+    "pr": 1.7
+   },
+   "Galio": {
+    "wr": 50.4,
+    "pr": 6.4
+   },
+   "Twisted Fate": {
+    "wr": 56.3,
+    "pr": 9.8
+   },
+   "Xin Zhao": {
+    "wr": 53.3,
+    "pr": 7.5
+   },
+   "Urgot": {
+    "wr": 46.2,
+    "pr": 3.5
+   },
+   "LeBlanc": {
+    "wr": 43.6,
+    "pr": 3.1
+   },
+   "Vladimir": {
+    "wr": 47.7,
+    "pr": 7.4
+   },
+   "Fiddlesticks": {
+    "wr": 48.5,
+    "pr": 4.8
+   },
+   "Kayle": {
+    "wr": 55.5,
+    "pr": 7.7
+   },
+   "Master Yi": {
+    "wr": 53.2,
+    "pr": 10.1
+   },
+   "Alistar": {
+    "wr": 52.0,
+    "pr": 6.0
+   },
+   "Ryze": {
+    "wr": 52.7,
+    "pr": 11.1
+   },
+   "Sion": {
+    "wr": 50.8,
+    "pr": 7.7
+   },
+   "Sivir": {
+    "wr": 47.8,
+    "pr": 5.5
+   },
+   "Soraka": {
+    "wr": 49.5,
+    "pr": 4.3
+   },
+   "Teemo": {
+    "wr": 53.6,
+    "pr": 13.5
+   },
+   "Tristana": {
+    "wr": 48.9,
+    "pr": 8.2
+   },
+   "Warwick": {
+    "wr": 46.3,
+    "pr": 2.3
+   },
+   "Nunu & Willump": {
+    "wr": 45.4,
+    "pr": 2.6
+   },
+   "Miss Fortune": {
+    "wr": 50.8,
+    "pr": 14.1
+   },
+   "Ashe": {
+    "wr": 45.8,
+    "pr": 14.0
+   },
+   "Tryndamere": {
+    "wr": 50.6,
+    "pr": 5.3
+   },
+   "Jax": {
+    "wr": 51.1,
+    "pr": 5.5
+   },
+   "Morgana": {
+    "wr": 55.6,
+    "pr": 10.2
+   },
+   "Zilean": {
+    "wr": 52.3,
+    "pr": 4.8
+   },
+   "Singed": {
+    "wr": 51.8,
+    "pr": 8.0
+   },
+   "Evelynn": {
+    "wr": 47.3,
+    "pr": 0.8
+   },
+   "Twitch": {
+    "wr": 49.2,
+    "pr": 8.5
+   },
+   "Karthus": {
+    "wr": 48.6,
+    "pr": 11.6
+   },
+   "Cho'Gath": {
+    "wr": 47.1,
+    "pr": 8.4
+   },
+   "Amumu": {
+    "wr": 48.6,
+    "pr": 5.2
+   },
+   "Rammus": {
+    "wr": 44.8,
+    "pr": 2.3
+   },
+   "Anivia": {
+    "wr": 45.2,
+    "pr": 3.2
+   },
+   "Shaco": {
+    "wr": 46.2,
+    "pr": 9.8
+   },
+   "Dr. Mundo": {
+    "wr": 49.3,
+    "pr": 10.4
+   },
+   "Sona": {
+    "wr": 52.7,
+    "pr": 3.2
+   },
+   "Kassadin": {
+    "wr": 50.8,
+    "pr": 3.4
+   },
+   "Irelia": {
+    "wr": 46.8,
+    "pr": 1.6
+   },
+   "Janna": {
+    "wr": 53.3,
+    "pr": 1.9
+   },
+   "Gangplank": {
+    "wr": 51.2,
+    "pr": 8.1
+   },
+   "Corki": {
+    "wr": 51.0,
+    "pr": 6.8
+   },
+   "Karma": {
+    "wr": 48.5,
+    "pr": 3.7
+   },
+   "Taric": {
+    "wr": 50.0,
+    "pr": 1.1
+   },
+   "Veigar": {
+    "wr": 50.3,
+    "pr": 7.3
+   },
+   "Trundle": {
+    "wr": 50.3,
+    "pr": 12.3
+   },
+   "Swain": {
+    "wr": 48.4,
+    "pr": 8.9
+   },
+   "Caitlyn": {
+    "wr": 52.7,
+    "pr": 13.0
+   },
+   "Blitzcrank": {
+    "wr": 46.0,
+    "pr": 7.4
+   },
+   "Malphite": {
+    "wr": 47.2,
+    "pr": 10.2
+   },
+   "Katarina": {
+    "wr": 49.2,
+    "pr": 7.4
+   },
+   "Nocturne": {
+    "wr": 49.4,
+    "pr": 3.3
+   },
+   "Maokai": {
+    "wr": 49.1,
+    "pr": 9.0
+   },
+   "Renekton": {
+    "wr": 44.5,
+    "pr": 2.8
+   },
+   "Jarvan IV": {
+    "wr": 47.0,
+    "pr": 9.9
+   },
+   "Elise": {
+    "wr": 46.7,
+    "pr": 0.9
+   },
+   "Orianna": {
+    "wr": 47.6,
+    "pr": 3.6
+   },
+   "Wukong": {
+    "wr": 48.9,
+    "pr": 4.7
+   },
+   "Brand": {
+    "wr": 51.8,
+    "pr": 13.8
+   },
+   "Lee Sin": {
+    "wr": 41.7,
+    "pr": 6.1
+   },
+   "Vayne": {
+    "wr": 51.8,
+    "pr": 11.3
+   },
+   "Rumble": {
+    "wr": 50.6,
+    "pr": 5.9
+   },
+   "Cassiopeia": {
+    "wr": 46.4,
+    "pr": 2.2
+   },
+   "Skarner": {
+    "wr": 48.1,
+    "pr": 2.3
+   },
+   "Heimerdinger": {
+    "wr": 50.5,
+    "pr": 3.5
+   },
+   "Nasus": {
+    "wr": 49.6,
+    "pr": 6.2
+   },
+   "Nidalee": {
+    "wr": 47.2,
+    "pr": 6.3
+   },
+   "Udyr": {
+    "wr": 48.9,
+    "pr": 5.8
+   },
+   "Poppy": {
+    "wr": 50.1,
+    "pr": 4.1
+   },
+   "Gragas": {
+    "wr": 48.8,
+    "pr": 4.4
+   },
+   "Pantheon": {
+    "wr": 49.5,
+    "pr": 5.4
+   },
+   "Ezreal": {
+    "wr": 46.9,
+    "pr": 11.1
+   },
+   "Mordekaiser": {
+    "wr": 46.6,
+    "pr": 7.3
+   },
+   "Yorick": {
+    "wr": 44.9,
+    "pr": 0.9
+   },
+   "Akali": {
+    "wr": 43.2,
+    "pr": 2.6
+   },
+   "Kennen": {
+    "wr": 45.0,
+    "pr": 2.5
+   },
+   "Garen": {
+    "wr": 45.3,
+    "pr": 7.6
+   },
+   "Leona": {
+    "wr": 48.8,
+    "pr": 5.3
+   },
+   "Malzahar": {
+    "wr": 51.2,
+    "pr": 6.9
+   },
+   "Talon": {
+    "wr": 50.1,
+    "pr": 4.4
+   },
+   "Riven": {
+    "wr": 47.3,
+    "pr": 2.6
+   },
+   "Kog'Maw": {
+    "wr": 49.5,
+    "pr": 4.2
+   },
+   "Shen": {
+    "wr": 51.3,
+    "pr": 5.0
+   },
+   "Lux": {
+    "wr": 48.5,
+    "pr": 6.3
+   },
+   "Xerath": {
+    "wr": 49.0,
+    "pr": 6.6
+   },
+   "Shyvana": {
+    "wr": 51.9,
+    "pr": 4.6
+   },
+   "Ahri": {
+    "wr": 52.4,
+    "pr": 5.2
+   },
+   "Graves": {
+    "wr": 51.9,
+    "pr": 11.8
+   },
+   "Fizz": {
+    "wr": 49.6,
+    "pr": 7.8
+   },
+   "Volibear": {
+    "wr": 48.3,
+    "pr": 4.5
+   },
+   "Rengar": {
+    "wr": 48.9,
+    "pr": 5.0
+   },
+   "Varus": {
+    "wr": 46.9,
+    "pr": 8.3
+   },
+   "Nautilus": {
+    "wr": 48.4,
+    "pr": 6.6
+   },
+   "Viktor": {
+    "wr": 54.0,
+    "pr": 5.2
+   },
+   "Sejuani": {
+    "wr": 48.1,
+    "pr": 4.9
+   },
+   "Fiora": {
+    "wr": 53.6,
+    "pr": 4.7
+   },
+   "Ziggs": {
+    "wr": 48.6,
+    "pr": 5.6
+   },
+   "Lulu": {
+    "wr": 49.0,
+    "pr": 1.6
+   },
+   "Draven": {
+    "wr": 49.8,
+    "pr": 4.8
+   },
+   "Hecarim": {
+    "wr": 56.0,
+    "pr": 9.4
+   },
+   "Kha'Zix": {
+    "wr": 47.5,
+    "pr": 5.4
+   },
+   "Darius": {
+    "wr": 47.8,
+    "pr": 7.4
+   },
+   "Jayce": {
+    "wr": 46.6,
+    "pr": 8.0
+   },
+   "Lissandra": {
+    "wr": 45.3,
+    "pr": 3.1
+   },
+   "Diana": {
+    "wr": 46.7,
+    "pr": 3.1
+   },
+   "Quinn": {
+    "wr": 47.6,
+    "pr": 2.4
+   },
+   "Syndra": {
+    "wr": 51.4,
+    "pr": 5.5
+   },
+   "Aurelion Sol": {
+    "wr": 54.8,
+    "pr": 11.3
+   },
+   "Kayn": {
+    "wr": 55.0,
+    "pr": 9.0
+   },
+   "Zoe": {
+    "wr": 46.7,
+    "pr": 2.5
+   },
+   "Zyra": {
+    "wr": 50.0,
+    "pr": 4.5
+   },
+   "Kai'Sa": {
+    "wr": 46.1,
+    "pr": 12.0
+   },
+   "Seraphine": {
+    "wr": 54.0,
+    "pr": 8.4
+   },
+   "Gnar": {
+    "wr": 47.3,
+    "pr": 2.6
+   },
+   "Zac": {
+    "wr": 45.0,
+    "pr": 2.2
+   },
+   "Yasuo": {
+    "wr": 57.6,
+    "pr": 10.7
+   },
+   "Vel'Koz": {
+    "wr": 51.0,
+    "pr": 5.2
+   },
+   "Taliyah": {
+    "wr": 48.6,
+    "pr": 2.1
+   },
+   "Camille": {
+    "wr": 46.4,
+    "pr": 1.6
+   },
+   "Akshan": {
+    "wr": 46.4,
+    "pr": 3.3
+   },
+   "Bel'Veth": {
+    "wr": 56.2,
+    "pr": 3.5
+   },
+   "Braum": {
+    "wr": 45.9,
+    "pr": 1.8
+   },
+   "Jhin": {
+    "wr": 48.6,
+    "pr": 12.1
+   },
+   "Kindred": {
+    "wr": 47.6,
+    "pr": 3.8
+   },
+   "Zeri": {
+    "wr": 47.6,
+    "pr": 2.9
+   },
+   "Jinx": {
+    "wr": 52.0,
+    "pr": 10.7
+   },
+   "Tahm Kench": {
+    "wr": 52.8,
+    "pr": 14.1
+   },
+   "Briar": {
+    "wr": 53.1,
+    "pr": 2.5
+   },
+   "Viego": {
+    "wr": 50.9,
+    "pr": 5.3
+   },
+   "Senna": {
+    "wr": 48.3,
+    "pr": 8.7
+   },
+   "Lucian": {
+    "wr": 49.7,
+    "pr": 13.4
+   },
+   "Zed": {
+    "wr": 49.7,
+    "pr": 9.0
+   },
+   "Kled": {
+    "wr": 48.5,
+    "pr": 0.9
+   },
+   "Ekko": {
+    "wr": 54.2,
+    "pr": 6.3
+   },
+   "Qiyana": {
+    "wr": 46.5,
+    "pr": 3.4
+   },
+   "Vi": {
+    "wr": 46.7,
+    "pr": 3.0
+   },
+   "Aatrox": {
+    "wr": 45.5,
+    "pr": 6.4
+   },
+   "Nami": {
+    "wr": 50.2,
+    "pr": 1.6
+   },
+   "Azir": {
+    "wr": 48.3,
+    "pr": 2.5
+   },
+   "Yuumi": {
+    "wr": 51.1,
+    "pr": 2.9
+   },
+   "Samira": {
+    "wr": 47.9,
+    "pr": 5.3
+   },
+   "Thresh": {
+    "wr": 43.9,
+    "pr": 6.1
+   },
+   "Illaoi": {
+    "wr": 47.9,
+    "pr": 5.6
+   },
+   "Rek'Sai": {
+    "wr": 49.0,
+    "pr": 1.0
+   },
+   "Ivern": {
+    "wr": 50.6,
+    "pr": 0.7
+   },
+   "Kalista": {
+    "wr": 50.3,
+    "pr": 2.5
+   },
+   "Bard": {
+    "wr": 40.4,
+    "pr": 0.7
+   },
+   "Rakan": {
+    "wr": 45.9,
+    "pr": 1.5
+   },
+   "Xayah": {
+    "wr": 49.5,
+    "pr": 5.6
+   },
+   "Ornn": {
+    "wr": 48.2,
+    "pr": 6.3
+   },
+   "Sylas": {
+    "wr": 48.7,
+    "pr": 7.7
+   },
+   "Neeko": {
+    "wr": 45.6,
+    "pr": 2.3
+   },
+   "Aphelios": {
+    "wr": 51.5,
+    "pr": 4.3
+   },
+   "Rell": {
+    "wr": 52.2,
+    "pr": 5.0
+   },
+   "Pyke": {
+    "wr": 47.0,
+    "pr": 5.2
+   },
+   "Vex": {
+    "wr": 49.7,
+    "pr": 2.0
+   },
+   "Yone": {
+    "wr": 56.3,
+    "pr": 8.7
+   },
+   "Ambessa": {
+    "wr": 54.1,
+    "pr": 3.9
+   },
+   "Mel": {
+    "wr": 47.4,
+    "pr": 7.8
+   },
+   "Yunara": {
+    "wr": 53.2,
+    "pr": 8.8
+   },
+   "Locke": {
+    "wr": 43.4,
+    "pr": 2.7
+   },
+   "Sett": {
+    "wr": 52.1,
+    "pr": 11.9
+   },
+   "Lillia": {
+    "wr": 56.3,
+    "pr": 9.0
+   },
+   "Gwen": {
+    "wr": 57.1,
+    "pr": 3.6
+   },
+   "Renata Glasc": {
+    "wr": 50.6,
+    "pr": 2.4
+   },
+   "Aurora": {
+    "wr": 51.8,
+    "pr": 7.2
+   },
+   "Nilah": {
+    "wr": 50.5,
+    "pr": 1.0
+   },
+   "K'Sante": {
+    "wr": 40.8,
+    "pr": 2.2
+   },
+   "Smolder": {
+    "wr": 50.6,
+    "pr": 11.4
+   },
+   "Milio": {
+    "wr": 51.6,
+    "pr": 1.7
+   },
+   "Zaahen": {
+    "wr": 52.7,
+    "pr": 3.1
+   },
+   "Hwei": {
+    "wr": 54.8,
+    "pr": 5.6
+   },
+   "Naafiri": {
+    "wr": 44.8,
+    "pr": 3.2
+   }
+  }
+ }
+}

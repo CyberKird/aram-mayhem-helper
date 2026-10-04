@@ -1,43 +1,49 @@
 {
  "champion": "Malzahar",
- "source": "https://u.gg/lol/champions/aram/malzahar-aram",
+ "source": "https://aramkit.com/en-US/champions/malzahar",
+ "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
-  "Clarity"
+  "Ghost"
  ],
  "starting": [
   "Refillable Potion",
   "Lost Chapter"
  ],
  "core": [
-  "Blackfire Torch",
   "Liandry's Torment",
-  "Sorcerer's Shoes"
+  "Gluttonous Greaves",
+  "Blackfire Torch",
+  "Rylai's Crystal Scepter"
  ],
  "fourth": [
-  "Rylai's Crystal Scepter",
+  "Bloodletter's Curse",
+  "Archangel's Staff",
+  "Rabadon's Deathcap",
   "Shadowflame"
  ],
  "fifth": [
-  "Shadowflame",
   "Bloodletter's Curse",
-  "Rabadon's Deathcap"
+  "Archangel's Staff",
+  "Rabadon's Deathcap",
+  "Shadowflame"
  ],
  "sixth": [
-  "Rabadon's Deathcap",
+  "Bloodletter's Curse",
+  "Archangel's Staff",
   "Shadowflame",
-  "Malignance"
+  "Rabadon's Deathcap"
  ],
  "pool": [
   "Refillable Potion",
   "Lost Chapter",
-  "Blackfire Torch",
   "Liandry's Torment",
-  "Sorcerer's Shoes",
+  "Gluttonous Greaves",
+  "Blackfire Torch",
   "Rylai's Crystal Scepter",
-  "Shadowflame",
   "Bloodletter's Curse",
+  "Archangel's Staff",
   "Rabadon's Deathcap",
-  "Malignance"
+  "Shadowflame"
  ]
 }
