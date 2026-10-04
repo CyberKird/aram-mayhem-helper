@@ -151,6 +151,7 @@ class Monitor:
             if m:
                 self._aug_gold[name] = int(m.group(1))
         self._recent_offer, self._recent_at = [], 0.0
+        self._prev_own, self._last_jump = None, 0
 
     @staticmethod
     def _optional(name):
@@ -190,8 +191,10 @@ class Monitor:
         if (isinstance(gold, (int, float)) and self._last_gold is not None
                 and gold <= self._last_gold - 700):
             self._fast_until = now + 30          # cheltuiala mare: poate Stat Anvil
+        self._last_jump = 0
         if isinstance(gold, (int, float)) and self._last_gold is not None:
-            self._gold_pick(gold - self._last_gold, now)
+            self._last_jump = gold - self._last_gold
+            self._gold_pick(self._last_jump, now)
         if isinstance(level, int):
             self._last_level = level
         if isinstance(gold, (int, float)):
@@ -217,6 +220,24 @@ class Monitor:
         # +500 il acopera si pe unul de 250: castiga cel mai mare care incape
         top = max((self._aug_gold.get(n, 250) for n in cands), default=0)
         cands = [n for n in cands if self._aug_gold.get(n, 250) == top]
+        if len(cands) == 1:
+            self.taken_augments.append(cands[0])
+            self._recent_offer, self._recent_at = [], 0.0
+
+    def _item_pick(self, own_items, now):
+        """Augmentul ales, dedus din itemul primit gratis la alegere.
+
+        Wooglet's iti da pe loc Needlessly Large Rod, Icathia's Fall un Bami's
+        Cinder: un item nou in inventar, fara sa fi scazut aurul, imediat dupa
+        o oferta care continea augmentul asta = l-ai luat.
+        """
+        own = {rules_engine.item_key(n) for n in own_items or ()}
+        new, self._prev_own = own - (self._prev_own or own), own
+        if not new or self._last_jump < -50 or now - self._recent_at > OFFER_GOLD_WINDOW:
+            return
+        effects = self._static.get("effects") or {}
+        cands = [n for n in self._recent_offer if n not in self.taken_augments
+                 and new & {rules_engine.item_key(g) for g in (effects.get(n) or {}).get("gives") or ()}]
         if len(cands) == 1:
             self.taken_augments.append(cands[0])
             self._recent_offer, self._recent_at = [], 0.0
@@ -269,6 +290,7 @@ class Monitor:
             self.live_range = (ap.get("championStats") or {}).get("attackRange")
         roster = normalize_roster(raw, self.champ_id_map)
         self.roster = roster
+        self._item_pick(roster.get("own_items"), time.monotonic())
 
         # augmentele alese supravietuiesc unei reporniri a aplicatiei in meci
         game = "|".join([str((ap or {}).get("riotId")), str(roster.get("local_champion"))]
@@ -450,6 +472,7 @@ class Monitor:
         self._last_gold = None
         self._last_full, self._single, self._single_n = [], None, 0
         self._recent_offer, self._recent_at = [], 0.0
+        self._prev_own, self._last_jump = None, 0
         self._known_champion = None
         self.status = ""
 
@@ -891,7 +914,11 @@ def selfcheck():
     # --- ce fac augmentele cu itemii (augment-effects.json) ---------------
     effects = load_json("augment-effects.json")
     assert effects["Icathia's Fall"] == {"needs": ["Sunfire Aegis", "Hollow Radiance"],
-                                         "combine": "Void Immolation"}, effects["Icathia's Fall"]
+                                         "combine": "Void Immolation",
+                                         "gives": ["Bami's Cinder"]}, effects["Icathia's Fall"]
+    assert effects["Time Warp: Heartsteel"] == {"later": ["Heartsteel"]}
+    assert effects["Upgrade Immolate"]["any"] == ["Hollow Radiance", "Sunfire Aegis"]
+    assert "gives" not in effects.get("Hat Trick", {}), "Cappa Juice doar se ieftineste"
     assert effects["Dual Wield"].get("likes") == "onhit"
     tank = {"core": ["Heartsteel", "Thornmail"], "fourth": ["Warmog's Armor"],
             "pool": ["Heartsteel", "Thornmail", "Warmog's Armor", "Sunfire Aegis", "Hollow Radiance"]}
@@ -1069,6 +1096,24 @@ def selfcheck():
         assert mon4.taken_augments == ["Upgrade Ravenous Hydra"], mon4.taken_augments
         mon4._note_activity(9, 2400)          # alt salt, oferta deja consumata
         assert mon4.taken_augments == ["Upgrade Ravenous Hydra"], mon4.taken_augments
+
+        # questurile nu dau aur, dar unele dau un item pe loc: Bami's Cinder
+        # aparut gratis dupa oferta = Icathia's Fall. Cumparat (aur scazut) = nu.
+        mon5 = Monitor(champ_id_map, champion_tags, rules, global_augments, None, aug_items)
+        mon5.roster = {"local_champion": None}
+        ocr_augments.detect_offered_augments = lambda names, **k: (
+            ["Icathia's Fall", "Goliath", "Dual Wield"], "t")
+        mon5._note_activity(7, 1500)
+        mon5._item_pick(["Long Sword"], time.monotonic())
+        mon5._ocr_cycle()
+        mon5._note_activity(7, 400)           # a cumparat Bami's Cinder
+        mon5._item_pick(["Long Sword", "Bami's Cinder"], time.monotonic())
+        assert mon5.taken_augments == [], mon5.taken_augments
+        mon5._note_activity(7, 420)
+        mon5._item_pick(["Long Sword"], time.monotonic())        # l-a vandut
+        mon5._note_activity(7, 440)           # aur neschimbat, item nou
+        mon5._item_pick(["Long Sword", "Bami's Cinder"], time.monotonic())
+        assert mon5.taken_augments == ["Icathia's Fall"], mon5.taken_augments
     finally:
         OFFER_TTL = real_ttl
         ocr_augments.detect_offered_augments = real_detect

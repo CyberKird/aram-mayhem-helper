@@ -293,6 +293,8 @@ def augment_effects(augments, item_names, extra_desc=None):
       stack    item               se poate cumpara de mai multe ori ("purchase unlimited")
       likes    "onhit"/"crit"     augmentul se foloseste de itemii cu efectul asta
       any      [itemi]            "Upgrade" care merge cu oricare din ei (Immolate)
+      gives    [itemi]            primiti pe loc ("Immediate: Gain a Bami's Cinder")
+      later    [itemi]            primiti mai tarziu, nu se cumpara (Time Warp)
     """
     texts = {}
     for aug in augments.values():
@@ -318,6 +320,16 @@ def augment_effects(augments, item_names, extra_desc=None):
             first = names_in(text.split(".")[0], item_names)
             if len(first) >= 2:
                 eff["any"] = first
+        # itemi primiti pe loc (apar in inventar fara sa platesti: asa stim ca
+        # l-ai luat) si itemi primiti mai tarziu (nu-i mai cumperi)
+        gives = [n for m in re.finditer(r"(?:Immediate(?:ly)?|instantly gains?)([^.,]*)", text, re.I)
+                 for n in names_in(m.group(1), item_names)]
+        if gives:
+            eff["gives"] = list(dict.fromkeys(gives))
+        later = [n for m in re.finditer(r"into the future and gain ([^.]*)", text, re.I)
+                 for n in names_in(m.group(1), item_names)]
+        if later:
+            eff["later"] = later
         m = re.search(r"combine into (.+?)(?:\.|$)", text, re.I)
         if m and names_in(m.group(1), item_names):
             eff["combine"] = names_in(m.group(1), item_names)[0]

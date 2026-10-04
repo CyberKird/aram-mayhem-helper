@@ -234,6 +234,8 @@ def resolve_build(build, roster, champion_tags, rule_set, item_stats=None,
     for eff, _ in effects:
         if eff.get("combine") and item_key(eff["combine"]) in owned:
             owned |= {item_key(n) for n in eff.get("needs") or ()}
+        # Time Warp: Heartsteel: il primesti gratis mai tarziu, nu-l cumperi
+        owned |= {item_key(n) for n in eff.get("later") or ()}
 
     needed = [(n, "cerut de augment") for n in required_items(taken_augments, augment_items)]
     for eff, aug in effects:

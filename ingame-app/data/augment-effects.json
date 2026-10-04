@@ -15,6 +15,9 @@
   "likes": "crit"
  },
  "Don't Stop Cleavin'": {
+  "gives": [
+   "The Brutalizer"
+  ],
   "stack": "Black Cleaver"
  },
  "Double Strike": {
@@ -25,6 +28,11 @@
  },
  "Draw Your Sword": {
   "range": "melee"
+ },
+ "Drink Up": {
+  "gives": [
+   "Health Potion"
+  ]
  },
  "Dual Wield": {
   "likes": "onhit"
@@ -43,6 +51,9 @@
  },
  "Icathia's Fall": {
   "combine": "Void Immolation",
+  "gives": [
+   "Bami's Cinder"
+  ],
   "needs": [
    "Sunfire Aegis",
    "Hollow Radiance"
@@ -81,6 +92,9 @@
   ]
  },
  "Quest: Wooglet's Witchcap": {
+  "gives": [
+   "Needlessly Large Rod"
+  ],
   "needs": [
    "Rabadon's Deathcap",
    "Zhonya's Hourglass"
@@ -102,6 +116,11 @@
  },
  "Tap Dancer": {
   "likes": "onhit"
+ },
+ "Time Warp: Heartsteel": {
+  "later": [
+   "Heartsteel"
+  ]
  },
  "True Eternity": {
   "stack": "Rod of Ages"
@@ -132,6 +151,9 @@
   "likes": "crit"
  },
  "Wooglet's Witchcap": {
+  "gives": [
+   "Needlessly Large Rod"
+  ],
   "needs": [
    "Rabadon's Deathcap",
    "Zhonya's Hourglass"
