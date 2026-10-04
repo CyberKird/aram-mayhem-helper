@@ -48,6 +48,7 @@ class ChampSelectReader:
         self.active = active
         self.known = known
         self.offers = []
+        self.pins = {}           # nume -> (x, y) de ecran: deasupra numelui de pe card
         self.stop = threading.Event()
         self._prev = set()
 
@@ -62,18 +63,27 @@ class ChampSelectReader:
                 except Exception:
                     pass        # OCR-ul de aici e un plus, nu opreste aplicatia
             elif self.offers:
-                self.offers, self._prev = [], set()
+                self.offers, self.pins, self._prev = [], {}, set()
             self.stop.wait(INTERVAL)
 
     def _cycle(self):
         import ocr_augments      # lazy: ingame-app intra in sys.path dupa import-ul asta
-        hwnd = ocr_augments.find_game_window()
+        hwnd = ocr_augments.find_client_window()
         if hwnd is None or win32gui.GetForegroundWindow() != hwnd:
             return          # nu citim alte ferestre peste client
-        img = ocr_augments.grab(ocr_augments.game_rect(hwnd))
-        text = asyncio.run(ocr_augments._ocr_bytes(ocr_augments.encode(img)))
+        rect = ocr_augments.game_rect(hwnd)
+        img = ocr_augments.grab(rect)
+        k = img.info.get("reduce", 1)
+        _, lines = asyncio.run(ocr_augments._ocr_lines(ocr_augments.encode(img)))
         skip = set(self.known())
-        found = [n for n in find_names(text, self.names) if n not in skip][:MAX_OFFERS]
+        seen = {}
+        for text, x1, y1, x2, y2 in lines:
+            for name in find_names(text, self.names):
+                if name not in skip and name not in seen:
+                    # deasupra textului, centrat pe el: pe card, numele e jos
+                    seen[name] = (rect[0] + (x1 + x2) / 2 * k, rect[1] + y1 * k)
+        found = list(seen)[:MAX_OFFERS]
         stable = [n for n in found if n in self._prev]
         self._prev = set(found)
+        self.pins = {n: seen[n] for n in stable}
         self.offers = stable

@@ -15,6 +15,7 @@ ferestrele pornite ascunse blocate ascunse pentru totdeauna.
 """
 
 import ctypes
+import os
 import importlib.util
 import pathlib
 import sys
@@ -105,6 +106,8 @@ FIT = 1.0
 # (masurat pe o captura 16:9). Se potriveste cu minimap-ul tau; daca il schimbi,
 # muti panoul o data cu mouse-ul si isi tine minte diferenta.
 DOCK_W, DOCK_RIGHT, DOCK_BOTTOM = 0.29, 0.262, 0.004
+DOCK_MAXH = 0.31      # inaltimea maxima a panoului, ca fractie din inaltimea jocului
+MIN_HFIT = 0.55       # cat de mult poate fi micsorat continutul inainte de scroll
 
 
 def px(n):
@@ -273,7 +276,8 @@ def build_ui(lcu, lcu_mon, ingame, ingame_mon):
     root.geometry(f"{px(372)}x{px(260)}+{int(x)}+{int(y)}")
 
     # --- lipirea de HUD ---------------------------------------------------
-    dock = {"last": None, "drag": False}
+    # hfit: cat am micsorat continutul ca sa incapa pe inaltime (1.0 = deloc)
+    dock = {"last": None, "drag": False, "hfit": 1.0}
 
     def game_box():
         """(l, t, r, b) al jocului sau None. Fara joc, panoul ramane unde l-ai pus."""
@@ -292,14 +296,52 @@ def build_ui(lcu, lcu_mon, ingame, ingame_mon):
         """(x, y, w) al panoului lipit, fara diferenta ta personala."""
         l, t, r, b = box
         H = b - t
-        w = int(DOCK_W * H)
+        w = min(int(DOCK_W * H), px(372))
         return int(r - DOCK_RIGHT * H - w), int(b - DOCK_BOTTOM * H - h), w
 
+    def client_target(h):
+        """(x, y, H) pentru panou langa clientul League, in champ select, sau None.
+
+        Preferam in afara ferestrei clientului (dreapta, apoi stanga) cand monitorul
+        are loc, ca sa nu acopere cartile; altfel in coltul din dreapta-jos al
+        clientului. Ca la joc, diferenta ta (cand muti panoul) se tine in fractiuni.
+        """
+        if lcu_mon.phase != "in_mayhem_select":
+            return None
+        try:
+            import ocr_augments as o
+            import win32api
+            hwnd = o.find_client_window()
+            if not hwnd:
+                return None
+            l, t, r, b = o.game_rect(hwnd)
+            ml, mt, mr, mb = win32api.GetMonitorInfo(
+                win32api.MonitorFromWindow(hwnd, 2))["Monitor"]
+        except Exception:
+            return None
+        w, H = px(372), b - t
+        if mr - r >= w + 8:
+            x, y = r + 8, t
+        elif l - ml >= w + 8:
+            x, y = l - w - 8, t
+        else:
+            x, y = r - w - 12, b - h - 12
+        return x, y, H
+
     def place(h):
-        """Aseaza panoul: lipit de HUD cand jocul e deschis, altfel pe loc."""
+        """Aseaza panoul: lipit de HUD cand jocul e deschis, langa client in champ
+        select, altfel pe loc."""
         box = game_box()
+        dock["mode"] = "game" if box else None
         if box is None:
-            geo = f"{px(372)}x{h}"
+            tgt = client_target(h)
+            if tgt:
+                dock["mode"] = "client"
+                x, y, H = tgt
+                ox, oy = settings.get("client_offset", [0, 0])
+                geo = f"{px(372)}x{h}+{int(x + ox * H)}+{int(y + oy * H)}"
+            else:
+                geo = f"{px(372)}x{h}"
         else:
             H = box[3] - box[1]
             bx, by, w = dock_base(box, h)
@@ -314,10 +356,15 @@ def build_ui(lcu, lcu_mon, ingame, ingame_mon):
         global FIT
         box = game_box()
         new = 1.0 if box is None else max(
-            0.7, min(1.3, DOCK_W * (box[3] - box[1]) / (372 * UI_SCALE)))
+            0.7, min(1.3, DOCK_W * (box[3] - box[1]) / (372 * UI_SCALE))) * dock["hfit"]
         if abs(new - FIT) < 0.01:
             return False
         FIT = new
+        # antetul si subsolul nu se redeseneaza la fiecare randare: fontul lor
+        # trebuie sa urmeze si el marimea, altfel raman mari pe un panou micsorat
+        for widget, size in ((title, 8), (close, 8), (minimize, 8), (bug, 6),
+                             (context, 7), (status_label, 7)):
+            widget.configure(font=pix(size))
         return True
 
     # chenarul de 1px: un frame exterior alb cu padding, peste care sta continutul
@@ -354,8 +401,27 @@ def build_ui(lcu, lcu_mon, ingame, ingame_mon):
     divider2.pack(fill="x")
 
     # --- corpul ----------------------------------------------------------
-    body = tk.Frame(shell, bg=BG)
-    body.pack(fill="both", expand=True, padx=10, pady=8)
+    # Corpul sta intr-un canvas ca sa se poata da scroll cand nu incape (rotita
+    # de mouse). Inaltimea canvasului o fixeaza fit_height(): urmeaza continutul
+    # pana la limita, apoi scroll.
+    body_wrap = tk.Canvas(shell, bg=BG, highlightthickness=0, bd=0, yscrollincrement=24)
+    body_wrap.pack(fill="both", expand=True, padx=10, pady=8)
+    body = tk.Frame(body_wrap, bg=BG)
+    body_win = body_wrap.create_window((0, 0), window=body, anchor="nw")
+    body_wrap.bind("<Configure>", lambda e: body_wrap.itemconfigure(body_win, width=e.width))
+    body.bind("<Configure>",
+              lambda _e: body_wrap.configure(scrollregion=body_wrap.bbox("all")))
+
+    def on_wheel(e):
+        # doar cand cursorul e deasupra panoului; fara asta am fura rotita altor ferestre
+        x, y = root.winfo_pointerxy()
+        if root.winfo_rootx() <= x <= root.winfo_rootx() + root.winfo_width() \
+                and root.winfo_rooty() <= y <= root.winfo_rooty() + root.winfo_height():
+            if body.winfo_reqheight() > body_wrap.winfo_height():
+                body_wrap.yview_scroll(-1 if e.delta > 0 else 1, "units")
+                body_wrap.yview_scroll(-1 if e.delta > 0 else 1, "units")
+
+    root.bind_all("<MouseWheel>", on_wheel)
 
     # --- subsolul --------------------------------------------------------
     divider3 = tk.Frame(shell, bg=LINE, height=1)
@@ -371,7 +437,7 @@ def build_ui(lcu, lcu_mon, ingame, ingame_mon):
     # blocat de un anticheat cand jocul e in prim-plan), o fereastra complet
     # ascunsa n-are cum sa mai fie adusa inapoi. Bara de titlu ramane mereu
     # pe ecran si mereu clickabila, indiferent ce se intampla cu hotkey-ul.
-    collapsible = (divider1, subbar, divider2, body, divider3, footer)
+    collapsible = (divider1, subbar, divider2, body_wrap, divider3, footer)
 
     # mutarea ferestrei cu mouse-ul: fara bara nativa, o facem noi
     drag = {"x": 0, "y": 0}
@@ -399,9 +465,9 @@ def build_ui(lcu, lcu_mon, ingame, ingame_mon):
             tip["win"].destroy()
             tip["win"] = None
 
-    def show_tip(widget, name):
+    def show_tip(widget, name, text=None):
         hide_tip()
-        text = item_desc.get(name)
+        text = text or item_desc.get(name)
         win = tk.Toplevel(root)
         win.overrideredirect(True)
         win.attributes("-topmost", True)
@@ -428,8 +494,8 @@ def build_ui(lcu, lcu_mon, ingame, ingame_mon):
         win.geometry(f"+{max(0, x)}+{max(0, y)}")
         tip["win"] = win
 
-    def attach_tip(widget, name):
-        widget.bind("<Enter>", lambda _e, w=widget, n=name: show_tip(w, n))
+    def attach_tip(widget, name, text=None):
+        widget.bind("<Enter>", lambda _e, w=widget, n=name, t=text: show_tip(w, n, t))
         widget.bind("<Leave>", hide_tip)
 
     def section(text):
@@ -449,7 +515,7 @@ def build_ui(lcu, lcu_mon, ingame, ingame_mon):
         return tk.Label(parent, text=tier, bg=bg, fg=fg, font=pix(8),
                         width=3, height=2)
 
-    def stat_line(parent, info):
+    def stat_line(parent, info, tip_text=None):
         """Win rate / pick rate si cum s-au schimbat fata de patch-ul anterior.
 
         Sageata verde = mai bun, rosie = mai slab; lipsa datelor nu desenează nimic.
@@ -482,6 +548,10 @@ def build_ui(lcu, lcu_mon, ingame, ingame_mon):
         if "tier_change" in info:
             text, color = arrow(info["tier_change"])
             part(f"TIER {text}", color)
+        if tip_text:
+            attach_tip(line, "Schimbari Mayhem", tip_text)
+            for child in line.winfo_children():
+                attach_tip(child, "Schimbari Mayhem", tip_text)
 
     def tier_row(kind, entry, best_label=None):
         """Un campion sau un augment: iconita oficiala + insigna de tier."""
@@ -740,6 +810,25 @@ def build_ui(lcu, lcu_mon, ingame, ingame_mon):
         if not lcu_mon.assigned and not lcu_mon.bench and not offers:
             note("se incarca...")
 
+    def augment_strip(names):
+        """Augmentele luate, ca iconite mici; click pe una o scoate (alegere gresita)."""
+        row = tk.Frame(body, bg=BG)
+        row.pack(fill="x", pady=(4, 2))
+        tk.Label(row, text="ALESE", bg=BG, fg=DIM, font=mono(9)).pack(side="left", padx=(0, 6))
+        for name in names:
+            photo = icon("augments", name, 22)
+            cell = tk.Label(row, image=photo, bg=BG, bd=0, cursor="hand2") if photo else \
+                tk.Label(row, text=name[:10], bg=CARD, fg=TEXT, font=mono(9), cursor="hand2")
+            cell.pack(side="left", padx=(0, 4))
+            attach_tip(cell, name, "Click: scoate din lista (ai ales gresit)")
+
+            def drop(_e, n=name):
+                if n in ingame_mon.taken_augments:
+                    ingame_mon.taken_augments.remove(n)
+                    ingame_mon._recompute_build()
+                    shown["fingerprint"] = None
+            cell.bind("<Button-1>", drop)
+
     def render_in_game():
         title.configure(text="ARAM MAYHEM")
         champ = (ingame_mon.roster or {}).get("local_champion") or "?"
@@ -756,18 +845,17 @@ def build_ui(lcu, lcu_mon, ingame, ingame_mon):
         # ecran degeaba, si tot timpul in alt loc decat te uiti.
 
         if champ != "?":
+            # In joc doar ce conteaza, intr-un singur rand: cifrele campionului.
+            # Schimbarile pe abilitati (text lung) apar la hover, nu in panou.
             import champ_stats
             info = champ_stats.info(champ)
             if info:
-                section("STATISTICI")
-                stat_line(body, info)
-                for key, ability, lines in info.get("ability_changes", []):
-                    tk.Label(body, text=f"{key}  {ability}: " + " ".join(lines),
-                             bg=BG, fg=DIM, font=mono(9), anchor="w", justify="left",
-                             wraplength=px(340)).pack(fill="x", pady=(2, 0))
-                u_now, u_old, a_now, a_old = champ_stats.versions()
-                note(f"vs patch anterior  ·  u.gg {u_old} > {u_now}  ·  "
-                     f"ARAMKit {a_old} > {a_now}")
+                changes = "\n".join(f"{key}  {ability}: " + " ".join(lines)
+                                    for key, ability, lines in info.get("ability_changes", []))
+                stat_line(body, info, changes or None)
+
+        if ingame_mon.taken_augments:
+            augment_strip(ingame_mon.taken_augments)
 
         if ingame_mon.stat_anvil:
             # recomandarea de shard, cu motivul scris, si in panou: banda de
@@ -785,7 +873,7 @@ def build_ui(lcu, lcu_mon, ingame, ingame_mon):
             # primul item de core, sectiunea e 53px de istorie.
             inceput = not any(c["owned"] for c in rb["core"])
             if inceput and rb.get("starting"):
-                section("STARTING ITEMS")
+                section("START")
                 icon_strip(rb["starting"])
 
             # Doar ce URMEAZA sa cumperi, in ordine, nu tot build-ul. Cele
@@ -799,6 +887,11 @@ def build_ui(lcu, lcu_mon, ingame, ingame_mon):
             elif rb["picks"]:
                 section("BUILD COMPLET")
                 icon_strip(rb["core"] + rb["picks"])
+
+            if rb.get("unavailable"):
+                # de ce lipseste un item pe care l-ai astepta: nu-l poti cumpara
+                note("Indisponibil acum: " + ", ".join(rb["unavailable"])
+                     + (f" (esti {rb['range']})" if rb.get("range") else ""), DIM)
 
             boots = rb.get("boots")
             if boots:
@@ -860,6 +953,50 @@ def build_ui(lcu, lcu_mon, ingame, ingame_mon):
         champ_known)
     champ_reader.run()
 
+    pin_bar = augment_bar.PinBar(root, TIER_COLORS, TIER_FG, UNKNOWN_TIER, pix, mono)
+
+    def update_bars():
+        """Benzile de tier de deasupra cardurilor. Separate de panou si rulate
+        des (150 ms): o oferta noua dupa un reroll trebuie sa apara pe loc, nu
+        la urmatorul ciclu al panoului. Merg si cand panoul e strans."""
+        try:
+            import ocr_augments as _ocr
+            import win32gui as _w32
+            hwnd = _ocr.find_game_window()
+            focused = bool(hwnd) and _w32.GetForegroundWindow() == hwnd
+            region = _ocr.augment_region(_ocr.game_rect(hwnd)) if focused else None
+
+            if ingame_mon.augments and focused:
+                bar.show(ingame_mon.augments, region)
+            else:
+                bar.hide()
+
+            # Stat Anvil si oferta de augment nu apar niciodata deodata, deci
+            # a doua banda foloseste aceeasi zona fara sa se suprapuna.
+            if ingame_mon.stat_anvil and focused and not ingame_mon.augments:
+                entries, colors, fgs = anvil_entries(ingame_mon.stat_anvil)
+                anvil_bar.colors, anvil_bar.fg_colors = colors, fgs
+                anvil_bar.show(entries, region)
+            else:
+                anvil_bar.hide()
+
+            # champ select: insigna de tier deasupra fiecarei carti personale
+            client = _ocr.find_client_window()
+            if (champ_reader.pins and client
+                    and _w32.GetForegroundWindow() == client
+                    and active_view() == "champ_select"):
+                pins = [dict(e, cx=champ_reader.pins[e["name"]][0],
+                             y=champ_reader.pins[e["name"]][1])
+                        for e in champ_offer_entries() if e["name"] in champ_reader.pins]
+                pin_bar.show(pins)
+            else:
+                pin_bar.hide()
+        except Exception:
+            bar.hide()   # benzile sunt un plus; daca dau gres, nu opresc aplicatia
+            anvil_bar.hide()
+            pin_bar.hide()
+        root.after(150, update_bars)
+
     def active_view():
         if lcu_mon.phase == "in_mayhem_select":
             return "champ_select"
@@ -885,6 +1022,8 @@ def build_ui(lcu, lcu_mon, ingame, ingame_mon):
                     (ingame_mon.resolved_build or {}).get("boots") and
                     tuple((ingame_mon.resolved_build["boots"] or {}).values()),
                     tuple((a["name"], a["tier"]) for a in ingame_mon.augments),
+                    tuple(ingame_mon.taken_augments),
+                    tuple((ingame_mon.resolved_build or {}).get("unavailable") or ()),
                     tuple((s["name"], s["is_best"]) for s in ingame_mon.stat_anvil),
                     ingame_mon.status)
         # idle: doar starea monitoarelor. Pasul animatiei NU intra aici --
@@ -899,7 +1038,7 @@ def build_ui(lcu, lcu_mon, ingame, ingame_mon):
         (divider1, {"fill": "x"}),
         (subbar, {"fill": "x", "padx": 8, "pady": 5}),
         (divider2, {"fill": "x"}),
-        (body, {"fill": "both", "expand": True, "padx": 10, "pady": 8}),
+        (body_wrap, {"fill": "both", "expand": True, "padx": 10, "pady": 8}),
         (divider3, {"fill": "x"}),
         (footer, {"fill": "x", "padx": 8, "pady": 6}),
     ]
@@ -929,33 +1068,6 @@ def build_ui(lcu, lcu_mon, ingame, ingame_mon):
             root.update_idletasks()
             place(root.winfo_reqheight())
 
-        # Banda de augmente traieste separat de panou: apare deasupra
-        # cardurilor cand ai de ales si dispare imediat dupa. O actualizam
-        # chiar si cand panoul e strans -- exact atunci ai nevoie de ea.
-        try:
-            import ocr_augments as _ocr
-            import win32gui as _w32
-            hwnd = _ocr.find_game_window()
-            focused = bool(hwnd) and _w32.GetForegroundWindow() == hwnd
-            region = _ocr.offer_region(_ocr.game_rect(hwnd)) if focused else None
-
-            if ingame_mon.augments and focused:
-                bar.show(ingame_mon.augments, region)
-            else:
-                bar.hide()
-
-            # Stat Anvil si oferta de augment nu apar niciodata deodata, deci
-            # a doua banda foloseste aceeasi zona fara sa se suprapuna.
-            if ingame_mon.stat_anvil and focused and not ingame_mon.augments:
-                entries, colors, fgs = anvil_entries(ingame_mon.stat_anvil)
-                anvil_bar.colors, anvil_bar.fg_colors = colors, fgs
-                anvil_bar.show(entries, region)
-            else:
-                anvil_bar.hide()
-        except Exception:
-            bar.hide()   # banda e un plus; daca da gres, nu opreste aplicatia
-            anvil_bar.hide()
-
         if collapsed["want"]:
             root.after(500, refresh)
             return
@@ -968,28 +1080,52 @@ def build_ui(lcu, lcu_mon, ingame, ingame_mon):
             # tooltip-ul e ancorat de un widget care tocmai dispare: fara
             # asta ar ramane agatat pe ecran dupa redesenare
             hide_tip()
-            for w in body.winfo_children():
-                w.destroy()
-            anim["cells"] = []    # celulele tocmai au fost distruse
-            render[view]()
-            status_label.configure(text=(ingame_mon.status or "").upper())
-
-            fit_height()
+            if view != dock.get("view"):
+                dock["view"], dock["hfit"] = view, 1.0     # alt continut: refacem potrivirea
+                update_fit()
+            for _n in range(5):
+                if os.environ.get("ARAM_DEBUG_FIT"):
+                    print("pass", _n, "hfit", round(dock["hfit"], 3), "FIT", round(FIT, 3))
+                for w in body.winfo_children():
+                    w.destroy()
+                anim["cells"] = []    # celulele tocmai au fost distruse
+                render[view]()
+                status_label.configure(text=(ingame_mon.status or "").upper())
+                if not fit_height(final=(_n == 4)):
+                    break
+            body_wrap.yview_moveto(0)
 
         root.after(500, refresh)
 
-    def fit_height():
-        """Inaltimea urmeaza continutul, nu o valoare fixa.
+    def fit_height(final=False):
+        """Inaltimea urmeaza continutul, dar nu iese din golul dintre HUD si minimap.
 
-        Apelata si dupa mesajele care apar mai tarziu (avertismentul de
-        hotkey): altfel fereastra ramane dimensionata pe continutul de
-        dinainte si taie ultimul rand.
+        Daca nu incape, micsoram tot panoul (hfit) pana la MIN_HFIT si cerem o
+        noua randare -- True. Sub MIN_HFIT ramane scroll. Apelata si dupa
+        mesajele care apar mai tarziu (avertismentul de hotkey).
         """
         root.update_idletasks()
-        place(min(root.winfo_reqheight(), px(MAX_HEIGHT)))
+        content = body.winfo_reqheight()
+        chrome = root.winfo_reqheight() - body_wrap.winfo_reqheight()
+        box = game_box()
+        limit = int(DOCK_MAXH * (box[3] - box[1])) if box else px(MAX_HEIGHT)
+        total = chrome + content
+        if os.environ.get("ARAM_DEBUG_FIT"):
+            print("  fit: content", content, "chrome", chrome, "limit", limit)
+        if box and total > limit and not final and dock["hfit"] > MIN_HFIT + 0.01:
+            # antetul (chrome) nu se scaleaza, deci raportul se face pe continut
+            dock["hfit"] = max(MIN_HFIT, dock["hfit"] * max(1, limit - chrome) / content * 0.97)
+            update_fit()
+            return True
+        shown_h = max(1, min(content, limit - chrome))
+        body_wrap.configure(height=shown_h)
+        root.update_idletasks()
+        place(chrome + shown_h)
+        return False
 
     def close_app():
         champ_reader.stop.set()
+        pin_bar.hide()
         lcu_mon.stop.set()
         ingame_mon.stop.set()
         bar.hide()          # banda e alta fereastra; altfel ramane pe ecran
@@ -1020,6 +1156,13 @@ def build_ui(lcu, lcu_mon, ingame, ingame_mon):
         dock["drag"] = False
         box = game_box()
         if box is None:
+            tgt = client_target(root.winfo_height())
+            if tgt:
+                x, y, H = tgt
+                settings.set("client_offset", [round((root.winfo_x() - x) / H, 4),
+                                               round((root.winfo_y() - y) / H, 4)])
+                dock["last"] = None
+                return
             settings.set_pos("panel", root.winfo_x(), root.winfo_y())
             return
         # cu jocul deschis, tinem minte DIFERENTA fata de pozitia lipita, in
@@ -1050,6 +1193,7 @@ def build_ui(lcu, lcu_mon, ingame, ingame_mon):
     root.deiconify()
     show_in_taskbar(root)
     refresh()
+    update_bars()
     animate()
     return root
 
@@ -1114,7 +1258,7 @@ def selfcheck():
     # champ select: numele de campioni se cauta pe cuvinte intregi
     assert champ_ocr.find_names("Pick Sett or Jinx, Vi too", ["Sett", "Jinx", "Vi", "Jax"])         == ["Sett", "Jinx"]
 
-    # OCR-ul real functioneaza si in exe (winsdk e incarcat dinamic): desenam un
+    # OCR-ul real functioneaza si in exe (winrt e incarcat dinamic): desenam un
     # nume cu un font de sistem, il citim si il recunoastem
     import ocr_augments
     from PIL import Image, ImageDraw, ImageFont
@@ -1144,6 +1288,29 @@ def already_running():
     return False        # socket-ul ramane deschis cat traieste procesul
 
 
+def maintenance():
+    """Date noi si update de exe, in fundal: fereastra apare imediat, nu dupa ce
+    raspunde reteaua (pana la 10 s per cerere cand GitHub e lent).
+
+    Orice esec inseamna doar ca mergem mai departe pe versiunea curenta: fara
+    internet trebuie sa mearga.
+    """
+    try:
+        data_sync.sync(LOG_DIR / "data-sync")
+    except Exception:
+        pass
+    try:
+        tag, _ = updater.update_if_available(VERSION)
+    except Exception:
+        return
+    if tag:
+        # Nu repornim singuri: un proces pornit dintr-un .cmd care apoi
+        # dispare il face pe Vanguard sa se planga de procesul parinte.
+        ctypes.windll.user32.MessageBoxW(
+            None, f"Instalat {tag}. Redeschide aplicatia ca sa o folosesti.",
+            "ARAM Mayhem Helper", 0x40)
+
+
 def main():
     if "--selfcheck" in sys.argv:
         selfcheck()
@@ -1161,29 +1328,11 @@ def main():
     if already_running():
         return
 
-    if "--no-update" not in sys.argv:
-        # Inainte de UI: daca are ce instala, exe-ul de pe disc se schimba sub
-        # noi si oricum trebuie repornit. Orice esec inseamna doar ca mergem
-        # mai departe pe versiunea curenta -- fara internet trebuie sa mearga.
-        try:
-            tag, _ = updater.update_if_available(VERSION)
-        except Exception:
-            tag = None
-        if tag:
-            # Nu repornim singuri: un proces pornit dintr-un .cmd care apoi
-            # dispare il face pe Vanguard sa se planga de procesul parinte.
-            ctypes.windll.user32.MessageBoxW(
-                None,
-                f"Instalat {tag}. Porneste aplicatia din nou ca sa o folosesti.",
-                "ARAM Mayhem Helper", 0x40)
-            return
-
-    # tier-uri si statistici mai noi din repo, inainte sa se incarce modulele
-    # care le citesc; langa exe, ca sa supravietuiasca repornirii
+    # tier-uri si statistici mai noi din repo: copia sincronizata sta langa exe
+    # si e citita la importul modulelor, deci o noua copie se vede la pornirea
+    # urmatoare. Sincronizarea ruleaza in fundal (vezi maintenance mai jos).
     import os
     os.environ["ARAM_DATA_DIR"] = str(LOG_DIR / "data-sync")
-    if "--no-update" not in sys.argv:
-        data_sync.sync(LOG_DIR / "data-sync")
 
     lcu = _load_page("lcu_page", "lcu-app")
     ingame = _load_page("ingame_page", "ingame-app")
@@ -1202,6 +1351,8 @@ def main():
     ingame_mon.run()
 
     root = build_ui(lcu, lcu_mon, ingame, ingame_mon)
+    if "--no-update" not in sys.argv:
+        threading.Thread(target=maintenance, daemon=True).start()
     root.mainloop()
     lcu_mon.stop.set()
     ingame_mon.stop.set()

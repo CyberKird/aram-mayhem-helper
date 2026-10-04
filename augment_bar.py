@@ -17,6 +17,150 @@ BG = "#010a13"
 SCALE = 1.0               # setat de app.py din DPI-ul ecranului
 
 
+class PinBar:
+    """Insigne de tier agatate deasupra unor puncte de pe ecran (cardurile de
+    campion din champ select). Cate o fereastra mica per insigna, la pozitia
+    exacta a textului citit prin OCR."""
+
+    def __init__(self, root, colors, fg_colors, unknown, pix_font, mono_font):
+        self.root, self.colors, self.fg_colors, self.unknown = root, colors, fg_colors, unknown
+        self.pix, self.mono = pix_font, mono_font
+        self.wins = []
+        self._key = None
+
+    def hide(self):
+        for w in self.wins:
+            w.destroy()
+        self.wins = []
+        self._key = None
+
+    def show(self, pins):
+        """pins: [{name, tier, is_best, cx, y}] cu coordonate de ecran."""
+        key = tuple((p["name"], p["tier"], p.get("is_best"), int(p["cx"]), int(p["y"]))
+                    for p in pins)
+        if key == self._key:
+            return
+        self.hide()
+        for p in pins:
+            bg = self.colors.get(p["tier"], self.unknown[0])
+            fg = self.fg_colors.get(p["tier"], self.unknown[1])
+            win = tk.Toplevel(self.root)
+            win.overrideredirect(True)
+            win.attributes("-topmost", True)
+            win.configure(bg=BG)
+            box = tk.Frame(win, bg=bg)
+            box.pack()
+            if p.get("is_best"):
+                tk.Label(box, text="BEST", bg=bg, fg=fg, font=self.pix(7)).pack(padx=8, pady=(4, 0))
+            tk.Label(box, text=p["tier"], bg=bg, fg=fg, font=self.pix(11)).pack(
+                padx=10, pady=(0 if p.get("is_best") else 4, 0))
+            tk.Label(box, text=p["name"][:20], bg=bg, fg=fg,
+                     font=self.mono(9, "bold")).pack(padx=8, pady=(0, 4))
+            win.update_idletasks()
+            x = int(p["cx"] - win.winfo_width() / 2)
+            y = max(0, int(p["y"] - win.winfo_height() - 8 * SCALE))
+            win.geometry(f"+{x}+{y}")
+            win.attributes("-alpha", 0.9)
+            self.wins.append(win)
+        self._key = key
+
+
+class PinBar:
+    """Insigne de tier agatate deasupra unor puncte de pe ecran (cardurile de
+    campion din champ select). Cate o fereastra mica per insigna, la pozitia
+    exacta a textului citit prin OCR."""
+
+    def __init__(self, root, colors, fg_colors, unknown, pix_font, mono_font):
+        self.root, self.colors, self.fg_colors, self.unknown = root, colors, fg_colors, unknown
+        self.pix, self.mono = pix_font, mono_font
+        self.wins = []
+        self._key = None
+
+    def hide(self):
+        for w in self.wins:
+            w.destroy()
+        self.wins = []
+        self._key = None
+
+    def show(self, pins):
+        """pins: [{name, tier, is_best, cx, y}] cu coordonate de ecran."""
+        key = tuple((p["name"], p["tier"], p.get("is_best"), int(p["cx"]), int(p["y"]))
+                    for p in pins)
+        if key == self._key:
+            return
+        self.hide()
+        for p in pins:
+            bg = self.colors.get(p["tier"], self.unknown[0])
+            fg = self.fg_colors.get(p["tier"], self.unknown[1])
+            win = tk.Toplevel(self.root)
+            win.overrideredirect(True)
+            win.attributes("-topmost", True)
+            win.configure(bg=BG)
+            box = tk.Frame(win, bg=bg)
+            box.pack()
+            if p.get("is_best"):
+                tk.Label(box, text="BEST", bg=bg, fg=fg, font=self.pix(7)).pack(padx=8, pady=(4, 0))
+            tk.Label(box, text=p["tier"], bg=bg, fg=fg, font=self.pix(11)).pack(
+                padx=10, pady=(0 if p.get("is_best") else 4, 0))
+            tk.Label(box, text=p["name"][:20], bg=bg, fg=fg,
+                     font=self.mono(9, "bold")).pack(padx=8, pady=(0, 4))
+            win.update_idletasks()
+            x = int(p["cx"] - win.winfo_width() / 2)
+            y = max(0, int(p["y"] - win.winfo_height() - 8 * SCALE))
+            win.geometry(f"+{x}+{y}")
+            win.attributes("-alpha", 0.9)
+            self.wins.append(win)
+        self._key = key
+
+
+class PinBar:
+    """Insigne de tier agatate deasupra unor puncte de pe ecran (cardurile de
+    campion din champ select). Cate o fereastra mica per insigna, la pozitia
+    exacta a textului citit prin OCR."""
+
+    def __init__(self, root, colors, fg_colors, unknown, pix_font, mono_font):
+        self.root, self.colors, self.fg_colors, self.unknown = root, colors, fg_colors, unknown
+        self.pix, self.mono = pix_font, mono_font
+        self.wins = []
+        self._key = None
+
+    def hide(self):
+        for w in self.wins:
+            w.destroy()
+        self.wins = []
+        self._key = None
+
+    def show(self, pins):
+        """pins: [{name, tier, is_best, cx, y}] cu coordonate de ecran."""
+        key = tuple((p["name"], p["tier"], p.get("is_best"), int(p["cx"]), int(p["y"]))
+                    for p in pins)
+        if key == self._key:
+            return
+        self.hide()
+        for p in pins:
+            bg = self.colors.get(p["tier"], self.unknown[0])
+            fg = self.fg_colors.get(p["tier"], self.unknown[1])
+            win = tk.Toplevel(self.root)
+            win.overrideredirect(True)
+            win.attributes("-topmost", True)
+            win.configure(bg=BG)
+            box = tk.Frame(win, bg=bg)
+            box.pack()
+            if p.get("is_best"):
+                tk.Label(box, text="BEST", bg=bg, fg=fg, font=self.pix(7)).pack(padx=8, pady=(4, 0))
+            tk.Label(box, text=p["tier"], bg=bg, fg=fg, font=self.pix(11)).pack(
+                padx=10, pady=(0 if p.get("is_best") else 4, 0))
+            tk.Label(box, text=p["name"][:20], bg=bg, fg=fg,
+                     font=self.mono(9, "bold")).pack(padx=8, pady=(0, 4))
+            win.update_idletasks()
+            x = int(p["cx"] - win.winfo_width() / 2)
+            y = max(0, int(p["y"] - win.winfo_height() - 8 * SCALE))
+            win.geometry(f"+{x}+{y}")
+            win.attributes("-alpha", 0.9)
+            self.wins.append(win)
+        self._key = key
+
+
 class AugmentBar:
     """Cate o insigna de tier deasupra fiecarui card. Se arata/ascunde singura."""
 

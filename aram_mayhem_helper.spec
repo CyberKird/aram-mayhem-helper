@@ -42,15 +42,17 @@ datas = [
 for json_file in sorted(pathlib.Path("ingame-app/data").glob("*.json")):
     datas.append((str(json_file), "ingame-app/data"))
 
-# winsdk e incarcat doar dinamic (ocr_augments) - il colectam complet.
-winsdk_datas, winsdk_bins, winsdk_hidden = collect_all("winsdk")
+# Pachetele winrt (OCR-ul nativ Windows) sunt incarcate doar dinamic
+# (ocr_augments): le colectam complet. Sunt cateva sute de KB, spre deosebire
+# de winsdk (varianta veche), care aducea un singur .pyd de 48 MB cu tot WinRT-ul.
+winrt_datas, winrt_bins, winrt_hidden = collect_all("winrt")
 
 a = Analysis(
     ["app.py"],
     pathex=[],
-    binaries=winsdk_bins,
-    datas=datas + winsdk_datas,
-    hiddenimports=winsdk_hidden + [
+    binaries=winrt_bins,
+    datas=datas + winrt_datas,
+    hiddenimports=winrt_hidden + [
         "asyncio",
         "difflib",
         "io",
@@ -68,7 +70,10 @@ a = Analysis(
     hookspath=[],
     hooksconfig={},
     runtime_hooks=[],
-    excludes=[],
+    # plugini de imagine nefolositi (avif singur e 4 MB) si module de test/doc:
+    # exe-ul se dezarhiveaza la fiecare pornire, fiecare MB conteaza
+    excludes=["PIL._avif", "PIL._webp", "PIL.AvifImagePlugin", "PIL.WebPImagePlugin",
+              "unittest", "pydoc", "doctest", "lib2to3", "sqlite3"],
     noarchive=False,
 )
 

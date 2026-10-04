@@ -11,6 +11,8 @@ Ce scrie:
   ingame-app/data/builds/*.json  build de Mayhem per campion (start, core, 4/5/6, spells)
   ingame-app/data/augments/*.json  tier de augment per campion, din win rate real
   ingame-app/data/augments-global.json  tier global per raritate
+  ingame-app/data/augment-effects.json, champion-range.json  ce schimba un augment
+                                 (ex. Draw Your Sword = melee) si raza de atac de baza
   ingame-app/data/item-ids.json, item-desc.json, item-stats.json  itemii de Mayhem (text, armura/MR/viata,
                                  cizme, componente, evolutii), nu cei de ARAM clasic
   ingame-app/data/mayhem-bundle.json  toate cele de mai sus intr-un fisier, pe care
@@ -242,6 +244,11 @@ def item_files(items):
             entry["boots"] = True
         if "Consumable" in cats:
             entry["consumable"] = True
+        # "Must be Ranged" (Runaan's Hurricane): indisponibil daca esti melee,
+        # inclusiv cand un augment te face melee (Draw Your Sword)
+        m = re.search(r"Must be\s*(Ranged|Melee)", text)
+        if m:
+            entry["needs"] = m.group(1).lower()
         if item.get("isFinal") is False:
             entry["component"] = True
 
@@ -256,6 +263,50 @@ def item_files(items):
         if entry:
             stats.setdefault(name, entry)
     return desc, stats
+
+
+def augment_effects(augments):
+    """{nume augment: {"range": "melee"|"ranged"}} din textul lor ("You are now melee")."""
+    out = {}
+    for aug in augments.values():
+        text = tooltip_text(aug).lower()
+        m = re.search(r"you are now (melee|ranged)", text)
+        if m:
+            out[aug["name"]] = {"range": m.group(1)}
+    return out
+
+
+def champion_ranges():
+    """{campion: raza de atac de baza} din Data Dragon (>= 300 = ranged)."""
+    version = get_json("https://ddragon.leagueoflegends.com/api/versions.json")[0]
+    data = get_json(f"https://ddragon.leagueoflegends.com/cdn/{version}/data/en_US/champion.json")["data"]
+    return {c["name"]: c["stats"]["attackrange"] for c in data.values()}
+
+
+MIN_AUG_PICK, MIN_AUG_GAMES, AUG_TOP = 0.03, 300, 6
+
+
+def augment_item_stats(champ_id, data_token, res):
+    """{nume augment: [[id item, win rate x1000, pick rate x1000], ...]}.
+
+    Itemii care merg cel mai bine CU augmentul respectiv pe campionul asta (din
+    "single augments" ARAMKit, ~1.8 MB per campion, de aceea doar rezumatul).
+    Doar itemi cumparabili, cu destule meciuri ca sa nu fie zgomot.
+    """
+    raw = get_json(f"{CDN}/data/{data_token}/stats/all/champion-details/{champ_id}-single-augments.json")
+    out = {}
+    for row in raw.get("items") or []:
+        name = (res["augments"].get(str(row["augmentId"])) or {}).get("name")
+        if not name:
+            continue
+        rows = [r for r in row.get("all") or []
+                if r.get("pickRate", 0) >= MIN_AUG_PICK and r.get("sampleCount", 0) >= MIN_AUG_GAMES
+                and item_name(res["items"], r["id"])]
+        rows.sort(key=lambda r: -r["winRate"])
+        if rows:
+            out[name] = [[r["id"], round(r["winRate"] * 1000), round(r["pickRate"] * 1000)]
+                         for r in rows[:AUG_TOP]]
+    return out
 
 
 def main():
@@ -277,6 +328,11 @@ def main():
     (DATA / "item-ids.json").write_text(
         json.dumps({k: v["name"] for k, v in res["items"].items()}, sort_keys=True,
                    ensure_ascii=False), encoding="utf-8")
+    effects = augment_effects(res["augments"])
+    (DATA / "augment-effects.json").write_text(
+        json.dumps(effects, indent=1, sort_keys=True, ensure_ascii=False), encoding="utf-8")
+    (DATA / "champion-range.json").write_text(
+        json.dumps(champion_ranges(), indent=1, sort_keys=True, ensure_ascii=False), encoding="utf-8")
     print(f"itemi de Mayhem: {len(desc)} descrieri, {len(istats)} cu statistici")
 
     (DATA / "builds").mkdir(parents=True, exist_ok=True)
@@ -286,7 +342,8 @@ def main():
     # data ARAMKit se reface si in cursul aceluiasi patch: "revision" (data) e
     # ce decide ce copie e mai noua, "version" ramane patch-ul pentru afisare
     revision = data_token.split("-")[1]
-    bundle = {"version": patch, "revision": revision, "builds": {}, "augments": {}, "global": {}}
+    bundle = {"version": patch, "revision": revision, "builds": {}, "augments": {}, "global": {},
+              "augment_builds": {}}
     for i, (cid, meta) in enumerate(sorted(champions.items(), key=lambda kv: int(kv[0])), 1):
         name = meta["name"]
         try:
@@ -319,6 +376,13 @@ def main():
 
         for row in (d.get("augments") or {}).get("all") or []:
             global_tier.setdefault(row["id"], row.get("augmentTier"))
+
+        try:
+            ab = augment_item_stats(cid, data_token, res)
+            if ab:
+                bundle["augment_builds"][slug(name)] = ab
+        except Exception as e:
+            print(f"  {name}: fara itemi per augment ({type(e).__name__})")
         time.sleep(0.15)       # curtoazie fata de CDN, nu bombardam serverul
 
     assert len(stats) >= 150, f"prea putini campioni ({len(stats)}), nu scriu nimic"

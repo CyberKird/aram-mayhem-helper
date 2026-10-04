@@ -383,6 +383,9 @@
  "Ruby Crystal": {
   "component": true
  },
+ "Runaan's Hurricane": {
+  "needs": "ranged"
+ },
  "Rylai's Crystal Scepter": {
   "hp": 400
  },

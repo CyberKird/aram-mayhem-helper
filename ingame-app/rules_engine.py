@@ -117,8 +117,41 @@ def required_items(taken_augments, augment_items):
     return out
 
 
+RANGED_FROM = 300      # raza de atac de la care un campion e ranged
+
+
+def current_range(champion, taken_augments, extra):
+    """"melee" sau "ranged": raza de baza a campionului, schimbata de augmentele luate.
+
+    Draw Your Sword te face melee, iar apoi Runaan's Hurricane ("Must be
+    Ranged") nu se mai poate cumpara -- recomandarea lui devine o capcana.
+    Ultimul augment care schimba raza castiga.
+    """
+    reach = (extra.get("ranges") or {}).get(champion)
+    state = None if reach is None else ("ranged" if reach >= RANGED_FROM else "melee")
+    for aug in taken_augments or ():
+        state = ((extra.get("effects") or {}).get(aug) or {}).get("range", state)
+    return state
+
+
+def augment_scores(taken_augments, extra):
+    """{item: (win rate %, augment)}: cat de bine merge itemul CU augmentele luate.
+
+    Din statisticile de Mayhem "item | augment" pe campionul asta. Cu mai multe
+    augmente luate, se face media peste cele care au date pentru item.
+    """
+    table, names = extra.get("aug_table") or {}, extra.get("item_names") or {}
+    per_item = {}
+    for aug in taken_augments or ():
+        for item_id, wr, _pr in table.get(aug, []):
+            name = names.get(str(item_id))
+            if name:
+                per_item.setdefault(name, []).append((wr / 10.0, aug))
+    return {n: (sum(w for w, _ in v) / len(v), v[-1][1]) for n, v in per_item.items()}
+
+
 def resolve_build(build, roster, champion_tags, rule_set, item_stats=None,
-                  taken_augments=None, augment_items=None):
+                  taken_augments=None, augment_items=None, extra=None):
     """Un singur item pe slotul 4/5/6 -- build final, nu meniu de alternative.
 
     u.gg da 2-3 optiuni per slot situational; alegem una singura per slot,
@@ -129,28 +162,68 @@ def resolve_build(build, roster, champion_tags, rule_set, item_stats=None,
     Itemii ceruti de augmentele luate sar peste tot: build-ul de pe u.gg nu
     stie ce augment ai ales, iar un "Upgrade X" fara X e pur si simplu pierdut.
     """
-    core = list(build.get("core") or [])
+    extra = extra or {}
+    stats = item_stats or {}
+    rng = current_range(roster.get("local_champion"), taken_augments, extra)
+
+    def ok(name):
+        need = (stats.get(name) or {}).get("needs")
+        return need is None or rng is None or need == rng
+
+    # itemele indisponibile (ex. Runaan's dupa Draw Your Sword) nu mai apar nicaieri
+    unavailable = [n for n in build.get("pool") or [] if not ok(n)]
+    core = [c for c in (build.get("core") or []) if ok(c)]
+    lost = len(build.get("core") or []) - len(core)
+    scores = augment_scores(taken_augments, extra)
     hot = {h["item"]: h["reason"]
            for h in evaluate_rules(roster, champion_tags, rule_set,
-                                   build.get("pool") or [], item_stats)}
+                                   [p for p in build.get("pool") or [] if ok(p)], item_stats)}
 
     owned = owned_keys(roster.get("own_items"), item_stats)
 
     needed = [n for n in required_items(taken_augments, augment_items)
               if item_key(n) not in owned]
 
+    def finished(name):
+        st = stats.get(name) or {}
+        return not (st.get("boots") or st.get("component") or st.get("consumable"))
+
     used = set(core)
     picks = []
-    for slot in ("fourth", "fifth", "sixth"):
-        candidates = build.get(slot) or []
-        if not candidates:
-            continue
-        chosen = next((c for c in candidates if c in hot and c not in used), None)
+
+    def pick(candidates):
+        """Un item din lista: regula de compozitie, apoi cel mai bun cu augmentele
+        tale, apoi ordinea build-ului."""
+        free = [c for c in candidates if c not in used]
+        chosen = next((c for c in free if c in hot), None)
+        if chosen is None and scores:
+            # si itemele bune CU augmentul tau, chiar daca nu erau in lista slotului
+            extra_items = [n for n in scores if n not in used and ok(n) and finished(n)]
+            best = max(set(free) | set(extra_items), key=lambda n: scores.get(n, (0, ""))[0],
+                       default=None)
+            if best is not None and best in scores:
+                chosen = best
+        if chosen is None and free:
+            chosen = free[0]
         if chosen is None:
-            chosen = next((c for c in candidates if c not in used), candidates[0])
+            return None
         used.add(chosen)
-        picks.append({"item": chosen, "reason": hot.get(chosen),
-                      "owned": item_key(chosen) in owned})
+        reason = hot.get(chosen)
+        if reason is None and chosen in scores:
+            wr, aug = scores[chosen]
+            reason = f"{wr:.0f}% WR cu {aug}"
+        return {"item": chosen, "reason": reason, "owned": item_key(chosen) in owned}
+
+    for slot in ("fourth", "fifth", "sixth"):
+        candidates = [c for c in (build.get(slot) or []) if ok(c)]
+        entry = pick(candidates) if (candidates or scores) else None
+        if entry:
+            picks.append(entry)
+    # un item de core a cazut (indisponibil): il inlocuim, ca build-ul sa ramana plin
+    for _ in range(lost):
+        entry = pick([p for p in (build.get("pool") or []) if ok(p) and finished(p)])
+        if entry:
+            picks.append(entry)
 
     core_entries = [{"item": c, "owned": item_key(c) in owned} for c in core]
 
@@ -176,7 +249,8 @@ def resolve_build(build, roster, champion_tags, rule_set, item_stats=None,
 
     return {"starting": list(build.get("starting") or []),
             "core": core_entries, "picks": picks,
-            "boots": boots_advice(build, roster, hot, item_stats)}
+            "boots": boots_advice(build, roster, hot, item_stats),
+            "unavailable": unavailable, "range": rng}
 
 
 # cate sloturi de item are un campion

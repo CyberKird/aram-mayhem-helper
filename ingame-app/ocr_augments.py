@@ -29,10 +29,10 @@ import win32api
 import win32con
 import win32gui
 from PIL import Image
-from winsdk.windows.globalization import Language
-from winsdk.windows.graphics.imaging import BitmapDecoder
-from winsdk.windows.media.ocr import OcrEngine
-from winsdk.windows.storage.streams import DataWriter, InMemoryRandomAccessStream
+from winrt.windows.globalization import Language
+from winrt.windows.graphics.imaging import BitmapDecoder
+from winrt.windows.media.ocr import OcrEngine
+from winrt.windows.storage.streams import DataWriter, InMemoryRandomAccessStream
 
 GAME_WINDOW_TITLES = ("League of Legends (TM) Client", "League of Legends")
 
@@ -52,6 +52,22 @@ def find_game_window():
             return
         title = win32gui.GetWindowText(hwnd)
         if any(t in title for t in GAME_WINDOW_TITLES):
+            found.append((hwnd, title))
+
+    win32gui.EnumWindows(visit, None)
+    # "League of Legends" e si titlul clientului: cand sunt deschise amandoua,
+    # jocul ("... (TM) Client") trebuie sa castige, altfel panoul se lipeste de
+    # fereastra gresita
+    found.sort(key=lambda f: "(TM) Client" not in f[1])
+    return found[0][0] if found else None
+
+
+def find_client_window():
+    """hwnd-ul clientului League (champ select, lobby), sau None."""
+    found = []
+
+    def visit(hwnd, _):
+        if win32gui.IsWindowVisible(hwnd) and win32gui.GetWindowText(hwnd) == "League of Legends":
             found.append(hwnd)
 
     win32gui.EnumWindows(visit, None)
@@ -118,6 +134,30 @@ async def _ocr_bytes(png_bytes):
     return result.text
 
 
+async def _ocr_lines(png_bytes):
+    """(text, [(text_linie, x1, y1, x2, y2)]) -- liniile cu chenarul lor, in pixeli
+    de imagine. Folosit ca sa aflam UNDE sta fiecare nume pe ecran."""
+    stream = InMemoryRandomAccessStream()
+    writer = DataWriter(stream)
+    writer.write_bytes(png_bytes)
+    await writer.store_async()
+    stream.seek(0)
+    decoder = await BitmapDecoder.create_async(stream)
+    bitmap = await decoder.get_software_bitmap_async()
+    engine = _get_engine()
+    if engine is None:
+        return "", []
+    result = await engine.recognize_async(bitmap)
+    lines = []
+    for line in result.lines:
+        words = [w.bounding_rect for w in line.words]
+        if words:
+            lines.append((line.text,
+                          min(r.x for r in words), min(r.y for r in words),
+                          max(r.x + r.width for r in words), max(r.y + r.height for r in words)))
+    return result.text, lines
+
+
 # Sub inaltimea asta nu mai micsoram: pe rezolutii mici textul augmentelor
 # ar deveni prea marunt pentru OCR. Peste ea, micsorarea e castig curat.
 MIN_OCR_HEIGHT = 600
@@ -140,7 +180,9 @@ def grab(rect):
         img = Image.frombytes("RGB", shot.size, shot.bgra, "raw", "BGRX")
 
     k = max(1, img.height // MIN_OCR_HEIGHT)
-    return img.reduce(k) if k > 1 else img
+    img = img.reduce(k) if k > 1 else img
+    img.info["reduce"] = k      # pozitiile din OCR se inmultesc cu el ca sa dea pixeli reali
+    return img
 
 
 def encode(img):
@@ -311,7 +353,7 @@ def match_card(text, augment_names, cutoff=0.82):
 
     best = None   # (pozitie, -lungime, nume)
     for name, key in keys.items():
-        m = re.search(rf"{re.escape(key)}", haystack)
+        m = re.search(r"\b" + re.escape(key) + r"\b", haystack)
         if m:
             cand = (m.start(), -len(key), name)
             if best is None or cand < best:
@@ -349,22 +391,40 @@ async def _ocr_many(images):
     return [await _ocr_bytes(encode(i)) for i in images]
 
 
+async def _ocr_many_lines(images):
+    return [await _ocr_lines(encode(i)) for i in images]
+
+
 # Ultima citire, pentru bug report: ce a vazut OCR-ul si de ce a ales ce a ales.
 # Un dict nou la fiecare ciclu (nu se modifica pe loc), deci e sigur de citit
 # din alt fir fara lock.
 last_read = {"status": "", "texts": [], "matches": []}
 
 
+def _line_center(name, lines):
+    """Centrul liniei care contine numele (potrivire exacta), sau None."""
+    key = _norm(name)
+    for text, x1, y1, x2, y2 in lines:
+        if re.search(r"\b" + re.escape(key) + r"\b", _norm(text)):
+            return (x1 + x2) / 2, (y1 + y2) / 2
+    return None
+
+
 def read_offer(img, augment_names):
-    """Imaginea zonei -> ([nume sau None pe card], [text brut pe card]).
+    """Imaginea zonei -> ([nume sau None pe card], [text brut], [centrul numelui sau None]).
 
     A doua trecere (contrast crescut) ruleaza doar cand prima a gasit macar un
     card dar nu pe toate: atunci e aproape sigur o oferta cu un nume prost
     citit. Pe un ecran fara oferta n-o rulam, ar dubla costul degeaba.
+    Centrele (in pixeli de imagine) servesc la invatarea asezarii cardurilor.
     """
     cards = split_cards(img)
-    texts = asyncio.run(_ocr_many(cards))
+    read = asyncio.run(_ocr_many_lines(cards))
+    texts = [t for t, _ in read]
     found = [match_card(t, augment_names) for t in texts]
+    centers = [_line_center(f, read[i][1]) if f else None for i, f in enumerate(found)]
+    offsets = [img.width * i // CARDS for i in range(CARDS)]
+    centers = [(c[0] + offsets[i], c[1]) if c else None for i, c in enumerate(centers)]
 
     if 0 < sum(f is not None for f in found) < CARDS:
         retry = asyncio.run(_ocr_many([enhance(c) for c in cards]))
@@ -372,7 +432,82 @@ def read_offer(img, augment_names):
             if found[i] is None:
                 found[i] = match_card(t, augment_names)
                 texts[i] = (texts[i] + " | " + t).strip(" |")
-    return found, texts
+    return found, texts, centers
+
+
+# ---------------------------------------------------------------------------
+# Asezarea cardurilor, invatata din prima oferta citita.
+#
+# Prima citire OCR-izeaza toata zona (~350 ms) si afla unde sta numele fiecarui
+# card. De acolo incolo citim doar trei benzi inguste, fix la acele locuri: de
+# ~6 ori mai putine pixeli, deci o citire dureaza cateva zeci de ms. Asezarea se
+# tine ca fractiuni din fereastra jocului, deci ramane valabila pana se schimba
+# rezolutia. Daca citirea rapida nu mai gaseste cardurile (alt layout), cade
+# singura pe citirea completa si reinvata.
+# ---------------------------------------------------------------------------
+
+_idle_fast = 0
+IDLE_FULL_EVERY = 8    # la cate citiri rapide goale facem una completa
+
+_idle_fast = 0
+IDLE_FULL_EVERY = 8    # la cate citiri rapide goale facem una completa
+
+_idle_fast = 0
+IDLE_FULL_EVERY = 8    # la cate citiri rapide goale facem una completa
+
+_layout = None      # {"size": (W, H), "fx": [3 x fractie din W], "fy": fractie din H}
+
+BAND_HALF_W = 0.17     # jumatate din latimea benzii, ca fractie din inaltimea jocului
+BAND_HALF_H = 0.05     # jumatate din inaltimea ei
+CARD_TOP = 0.248       # de la numele augmentului pana la varful cardului, din inaltimea jocului
+
+
+def learn_layout(rect, region_left, region_top, k, centers):
+    """Retine unde sunt cardurile, din centrele numelor citite (>= 2 carduri)."""
+    global _layout
+    known = [(i, c) for i, c in enumerate(centers) if c]
+    if len(known) < 2:
+        return
+    left, top, right, bottom = rect
+    W, H = right - left, bottom - top
+    fx = {i: (region_left + c[0] * k - left) / W for i, c in known}
+    fy = sum((region_top + c[1] * k - top) / H for _, c in known) / len(known)
+    (i, xi), (j, xj) = list(fx.items())[0], list(fx.items())[-1]
+    step = (xj - xi) / (j - i)
+    _layout = {"size": (W, H), "fx": [xi + step * (n - i) for n in range(CARDS)], "fy": fy}
+
+
+def read_fast(rect, augment_names):
+    """Citire doar pe benzile cunoscute. ([nume|None], [text]) sau None daca nu stim asezarea."""
+    lay = _layout
+    left, top, right, bottom = rect
+    W, H = right - left, bottom - top
+    if not lay or lay["size"] != (W, H):
+        return None
+    hw, hh = int(BAND_HALF_W * H), int(BAND_HALF_H * H)
+    cy = top + lay["fy"] * H
+    x0 = int(left + lay["fx"][0] * W - hw)
+    x1 = int(left + lay["fx"][-1] * W + hw)
+    strip = grab((x0, int(cy - hh), x1, int(cy + hh)))
+    bands = []
+    for fx in lay["fx"]:
+        cx = int(left + fx * W) - x0
+        bands.append(strip.crop((max(0, cx - hw), 0, min(strip.width, cx + hw), strip.height)))
+    texts = asyncio.run(_ocr_many(bands))
+    return [match_card(t, augment_names) for t in texts], texts
+
+
+def augment_region(rect):
+    """(l, t, r, b) in care sta oferta, pentru banda de tier. Din asezarea invatata
+    cand o avem (cardurile reale), altfel zona implicita."""
+    lay = _layout
+    left, top, right, bottom = rect
+    W, H = right - left, bottom - top
+    if lay and lay["size"] == (W, H):
+        step = (lay["fx"][-1] - lay["fx"][0]) / (CARDS - 1) * W
+        l = left + lay["fx"][0] * W - step / 2
+        return (int(l), int(top + (lay["fy"] - CARD_TOP) * H), int(l + step * CARDS), bottom)
+    return offer_region(rect)
 
 
 def detect_offered_augments(augment_names, min_matches=2):
@@ -393,8 +528,27 @@ def detect_offered_augments(augment_names, min_matches=2):
     if _get_engine() is None:
         return [], "OCR indisponibil: instaleaza pachetul de limba engleza in Windows"
 
-    img = grab(offer_region(game_rect(hwnd)))
-    found, texts = read_offer(img, augment_names)
+    rect = game_rect(hwnd)
+    img = None
+    global _idle_fast
+    fast = read_fast(rect, augment_names)
+    hits = sum(f is not None for f in fast[0]) if fast else -1
+    if hits >= min_matches:
+        found, texts = fast
+        _idle_fast = 0
+    elif hits == 0 and _idle_fast < IDLE_FULL_EVERY:
+        # benzile sunt goale: nu e nicio oferta, nu are rost citirea completa
+        # (~4x mai scumpa). O facem totusi din cand in cand, in caz ca s-a
+        # schimbat asezarea si benzile nu mai cad pe carduri.
+        found, texts = fast
+        _idle_fast += 1
+    else:
+        _idle_fast = 0
+        region = offer_region(rect)
+        img = grab(region)
+        found, texts, centers = read_offer(img, augment_names)
+        if sum(f is not None for f in found) >= min_matches:
+            learn_layout(rect, region[0], region[1], img.info.get("reduce", 1), centers)
     names = [n for n in found if n]
     last_read = {"status": f"{len(names)}/{CARDS}", "texts": texts, "matches": found}
 
@@ -409,7 +563,7 @@ def detect_offered_augments(augment_names, min_matches=2):
         # deci ramane oprita; se aprinde cu ARAM_DEBUG_OFFER=1 daca vreodata
         # trebuie recalibrata.
         try:
-            LAST_OFFER.write_bytes(encode(img))
+            LAST_OFFER.write_bytes(encode(img or grab(offer_region(rect))))
         except OSError:
             pass
     # in ordinea de pe ecran, de la stanga la dreapta

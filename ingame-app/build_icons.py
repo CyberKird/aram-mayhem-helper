@@ -47,6 +47,25 @@ def fetch(url):
         return r.read()
 
 
+MAX_ICON = 80      # px; cel mai mare afisaj e ~70 la 4K, restul e greutate degeaba
+
+
+def shrink(png_bytes):
+    """PNG redus la MAX_ICON: iconitele de la Riot au pana la 300 KB, iar in
+    interfata se vad la 28-34 px. 535 de fisiere mari tineau exe-ul la 15 MB de
+    imagini si il faceau sa porneasca mai greu (se dezarhiveaza la fiecare rulare)."""
+    import io
+    from PIL import Image
+    img = Image.open(io.BytesIO(png_bytes)).convert("RGBA")
+    if max(img.size) > MAX_ICON:
+        img.thumbnail((MAX_ICON, MAX_ICON), Image.LANCZOS)
+    # paleta de 256 culori: la 30 px nu se vede, iar fisierul scade la o treime
+    img = img.quantize(colors=256, method=Image.Quantize.FASTOCTREE)
+    out = io.BytesIO()
+    img.save(out, format="PNG", optimize=True)
+    return out.getvalue()
+
+
 def fetch_json(url):
     return json.loads(fetch(url).decode("utf-8"))
 
@@ -63,7 +82,7 @@ def save_all(kind, sources):
             skipped += 1
             continue
         try:
-            out.write_bytes(fetch(url))
+            out.write_bytes(shrink(fetch(url)))
             saved += 1
         except Exception as e:
             failed += 1

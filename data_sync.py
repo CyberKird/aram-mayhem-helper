@@ -26,17 +26,33 @@ def sync(dest):
     """Descarca fisierele in `dest`. Intoarce lista celor actualizate."""
     dest = pathlib.Path(dest)
     dest.mkdir(parents=True, exist_ok=True)
+    etag_file = dest / "etags.json"
+    try:
+        etags = json.loads(etag_file.read_text(encoding="utf-8"))
+    except (OSError, ValueError):
+        etags = {}
     updated = []
     for name, (folder, version_key, required) in FILES.items():
         try:
-            r = requests.get(RAW + folder + name, timeout=TIMEOUT)
+            # ETag: fisierul de Mayhem are cateva MB, nu-l re-descarcam daca n-a
+            # schimbat nimeni nimic (304 e un raspuns de cativa octeti)
+            headers = {}
+            if etags.get(name) and (dest / name).exists():
+                headers["If-None-Match"] = etags[name]
+            r = requests.get(RAW + folder + name, timeout=TIMEOUT, headers=headers)
             if r.status_code != 200:
                 continue
             data = r.json()
             if not data.get(version_key) or not data.get(required):
                 continue            # raspuns ciudat: nu stricam ce avem
             (dest / name).write_text(json.dumps(data, ensure_ascii=False), encoding="utf-8")
+            if r.headers.get("ETag"):
+                etags[name] = r.headers["ETag"]
             updated.append(name)
         except Exception:
             continue
+    try:
+        etag_file.write_text(json.dumps(etags), encoding="utf-8")
+    except OSError:
+        pass
     return updated

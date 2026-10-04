@@ -27,7 +27,7 @@ import ocr_augments
 import ocr_stat_anvil
 import rules_engine
 import stat_anvil
-from build_scraper import load_cached
+from build_scraper import load_cached, slug
 
 DATA = pathlib.Path(__file__).with_name("data")
 
@@ -37,8 +37,9 @@ DATA = pathlib.Path(__file__).with_name("data")
 # alt-tab (unfocus-ul golea lista, si asa se "repara" singur).
 OFFER_TTL = 25.0
 
-# secunde intre doua citiri OCR: des cand e probabila o oferta, rar in rest
-OCR_FAST, OCR_SLOW = 1.2, 3.0
+# secunde intre doua citiri OCR. Cu oferta pe ecran citim des (un reroll se vede
+# in <0.5 s); in rest rar. Citirea rapida costa ~60 ms, deci nu apasa pe procesor.
+OCR_OFFER, OCR_FAST, OCR_SLOW = 0.35, 0.8, 2.0
 
 BG = "#0a0e14"
 CARD = "#0f1720"
@@ -118,6 +119,45 @@ class Monitor:
         self._fast_until = 0.0
         self._last_level = None
         self._last_gold = None
+        # date pentru disponibilitatea itemelor si itemi buni cu augmentul ales
+        self._static = {"ranges": self._optional("champion-range.json"),
+                        "effects": self._optional("augment-effects.json"),
+                        "item_names": self._optional("item-ids.json")}
+        # alegerea augmentului, dedusa din ecran: dupa ce alegi, cardul ales ramane
+        # singur o clipa. Tinem minte ultima oferta completa si cate citiri la rand
+        # a ramas un singur card din ea.
+        self._last_full = []
+        self._single = None
+        self._single_n = 0
+
+    @staticmethod
+    def _optional(name):
+        try:
+            return load_json(name)
+        except (OSError, ValueError):
+            return {}
+
+    def _track_choice(self):
+        """Augmentul ales, dedus din ecran, fara click.
+
+        Cand oferta de 3 carduri se reduce la UNUL SINGUR (cel ales) si ramane
+        asa 3 citiri la rand, il consideram luat. E o euristica: daca in joc
+        ecranul se comporta altfel, nu se intampla nimic, iar click-ul pe insigna
+        ramane varianta sigura.
+        """
+        matches = [n for n in (ocr_augments.last_read.get("matches") or []) if n]
+        if len(matches) >= 2:
+            self._last_full, self._single, self._single_n = matches, None, 0
+            return
+        if len(matches) == 1 and matches[0] in self._last_full:
+            name = matches[0]
+            self._single_n = self._single_n + 1 if self._single == name else 1
+            self._single = name
+            if self._single_n >= 3 and name not in self.taken_augments:
+                self.taken_augments.append(name)
+                self._recompute_build()
+        elif not matches:
+            self._single, self._single_n = None, 0
 
     def _note_activity(self, level, gold):
         now = time.monotonic()
@@ -134,8 +174,9 @@ class Monitor:
             self._last_gold = gold
 
     def ocr_interval(self):
-        busy = self.augments or self.stat_anvil or time.monotonic() < self._fast_until
-        return OCR_FAST if busy else OCR_SLOW
+        if self.augments or self.stat_anvil:
+            return OCR_OFFER
+        return OCR_FAST if time.monotonic() < self._fast_until else OCR_SLOW
 
     def run(self):
         threading.Thread(target=self._run_roster, daemon=True).start()
@@ -198,6 +239,7 @@ class Monitor:
 
     def _ocr_cycle(self):
         found, self.ocr_status = ocr_augments.detect_offered_augments(self.augment_names)
+        self._track_choice()
 
         # o oferta dispare de pe ecran dupa ce alegi; fara asta lista ramanea
         # afisata la nesfarsit si impingea build-ul in afara ferestrei
@@ -220,6 +262,24 @@ class Monitor:
         fresh = [n for n in found if n not in self._expired_names]
         if not fresh:
             return
+
+        # O citire cu toate cele 3 carduri e oferta intreaga, nu o bucata din
+        # ea: o inlocuim pe loc (reroll = un card nou, iar lista veche nu are
+        # de ce sa mai astepte sa se aduneze).
+        if len(set(found)) == ocr_augments.MAX_OFFER and set(found) != set(self._offer_pool):
+            self._offer_pool = {}
+
+        # O citire cu toate cele 3 carduri e oferta intreaga, nu o bucata din
+        # ea: o inlocuim pe loc (reroll = un card nou, iar lista veche nu are
+        # de ce sa mai astepte sa se aduneze).
+        if len(set(found)) == ocr_augments.MAX_OFFER and set(found) != set(self._offer_pool):
+            self._offer_pool = {}
+
+        # O citire cu toate cele 3 carduri e oferta intreaga, nu o bucata din
+        # ea: o inlocuim pe loc (reroll = un card nou, iar lista veche nu are
+        # de ce sa mai astepte sa se aduneze).
+        if len(set(found)) == ocr_augments.MAX_OFFER and set(found) != set(self._offer_pool):
+            self._offer_pool = {}
 
         now = time.monotonic()
 
@@ -294,9 +354,14 @@ class Monitor:
         if not self.roster or not self.build or not self.build.get("pool"):
             self.resolved_build = None
             return
+        import bundle
+        extra = dict(self._static)
+        champ = self.roster.get("local_champion")
+        extra["aug_table"] = (bundle.get().get("augment_builds") or {}).get(slug(champ), {}) \
+            if champ else {}
         self.resolved_build = rules_engine.resolve_build(
             self.build, self.roster, self.champion_tags, self.rules,
-            self.item_stats, self.taken_augments, self.augment_items)
+            self.item_stats, self.taken_augments, self.augment_items, extra)
 
     def _reset(self):
         self.phase = "waiting_for_game"
@@ -317,6 +382,7 @@ class Monitor:
         self._fast_until = 0.0
         self._last_level = None
         self._last_gold = None
+        self._last_full, self._single, self._single_n = [], None, 0
         self._known_champion = None
         self.status = ""
 
@@ -538,6 +604,7 @@ def selfcheck():
     assert ocr_augments.match_card("0k Boomerang Damage Autocast throw", names) == "Ok Boomerang"
     assert ocr_augments.match_card("GoIiath Tank gain size", names) == "Goliath"   # I mare
     assert ocr_augments.match_card("", names) is None
+    assert ocr_augments.match_card("3250 Invulnerability SELL", names) is None   # nu "Vulnerability"
     assert ocr_augments.match_card("28 66 18 7/5/7 Grimoire", names) is None
 
     # normalizare nume interne -> afisate
@@ -663,6 +730,28 @@ def selfcheck():
         champion_tags, rules, item_stats)
     assert evo["core"][0] == {"item": "Manamune", "owned": True, "next": False}, evo["core"]
     assert evo["core"][1]["next"] is True, evo["core"]
+
+    # disponibilitatea: Runaan's Hurricane cere ranged, iar Draw Your Sword te
+    # face melee -- dupa el itemul nu se mai poate cumpara si nu mai e recomandat
+    yun = {"core": ["Runaan's Hurricane", "Infinity Edge", "Heartsteel"],
+           "fourth": ["Bloodthirster", "Thornmail"], "fifth": ["Thornmail"], "sixth": ["Warmog's Armor"],
+           "pool": ["Runaan's Hurricane", "Infinity Edge", "Heartsteel", "Bloodthirster",
+                    "Thornmail", "Warmog's Armor", "Kraken Slayer"]}
+    ctx = {"ranges": {"Yunara": 575}, "effects": {"Draw Your Sword": {"range": "melee"}},
+           "item_names": {"7": "Bloodthirster"},
+           "aug_table": {"Draw Your Sword": [[7, 612, 50]]}}
+    roster_y = {"allies": [], "enemies": [], "own_items": [], "local_champion": "Yunara"}
+    stats_y = dict(item_stats, **{"Runaan's Hurricane": {"needs": "ranged"}})
+    before = rules_engine.resolve_build(yun, roster_y, champion_tags, rules, stats_y, [], {}, ctx)
+    assert before["core"][0]["item"] == "Runaan's Hurricane" and before["range"] == "ranged"
+    after = rules_engine.resolve_build(yun, roster_y, champion_tags, rules, stats_y,
+                                       ["Draw Your Sword"], {}, ctx)
+    shown = [e["item"] for e in after["core"] + after["picks"]]
+    assert "Runaan's Hurricane" not in shown, shown
+    assert after["unavailable"] == ["Runaan's Hurricane"] and after["range"] == "melee"
+    assert len(shown) == 6, shown                       # core-ul scazut a fost completat
+    pick = next(e for e in after["picks"] if e["item"] == "Bloodthirster")
+    assert pick["reason"] and "61% WR" in pick["reason"], pick   # cel mai bun CU augmentul
 
     # ce recomanda nu are voie sa fie componenta sau alte cizme
     adv = boots_for(["Jinx", "Vayne", "Ashe"], six)
