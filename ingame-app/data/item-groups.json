@@ -1,0 +1,491 @@
+{
+ "Abyssal Mask": [
+  "{d4211923}"
+ ],
+ "Actualizer": [
+  "{f0405968}"
+ ],
+ "Archangel's Staff": [
+  "Items/ItemGroups/LifelineItems",
+  "Items/ItemGroups/TearItems",
+  "{2bb000ae}"
+ ],
+ "Ardent Censer": [
+  "{5aa31b15}"
+ ],
+ "Atma's Reckoning": [
+  "{a4a3f336}"
+ ],
+ "Axiom Arc": [
+  "{bd69c87a}"
+ ],
+ "Bami's Cinder": [
+  "Items/ItemGroups/ImmolateItems"
+ ],
+ "Bandlepipes": [
+  "{f64062da}"
+ ],
+ "Banshee's Veil": [
+  "{103d7a0f}",
+  "{3fcdbdac}"
+ ],
+ "Berserker's Greaves": [
+  "Items/ItemGroups/Boots",
+  "Items/ItemGroups/BootsWithoutActives"
+ ],
+ "Black Cleaver": [
+  "Items/ItemGroups/LastWhisper",
+  "{24adb712}"
+ ],
+ "Blackfire Torch": [
+  "{693b07b5}"
+ ],
+ "Blade of The Ruined King": [
+  "{973182a1}"
+ ],
+ "Blighting Jewel": [
+  "Items/ItemGroups/VoidPen"
+ ],
+ "Bloodletter's Curse": [
+  "Items/ItemGroups/VoidPen"
+ ],
+ "Bloodthirster": [
+  "{23adb57f}"
+ ],
+ "Boots": [
+  "Items/ItemGroups/Boots",
+  "Items/ItemGroups/BootsWithoutActives"
+ ],
+ "Boots of Swiftness": [
+  "Items/ItemGroups/Boots",
+  "Items/ItemGroups/BootsWithoutActives"
+ ],
+ "Bramble Vest": [
+  "{87f1e822}"
+ ],
+ "Catalyst of Aeons": [
+  "Items/ItemGroups/EternityItems"
+ ],
+ "Chempunk Chainsword": [
+  "{b458712e}"
+ ],
+ "Cosmic Drive": [
+  "{456ece4e}"
+ ],
+ "Cryptbloom": [
+  "Items/ItemGroups/VoidPen"
+ ],
+ "Dawncore": [
+  "{3432bd77}"
+ ],
+ "Dead Man's Plate": [
+  "{1b1c30d5}",
+  "{92901b7d}"
+ ],
+ "Death's Dance": [
+  "{001c1988}"
+ ],
+ "Diadem of Songs": [
+  "{f842a497}"
+ ],
+ "Dusk and Dawn": [
+  "{6c3d4b05}",
+  "{8b55a7b3}"
+ ],
+ "Echoes of Helia": [
+  "{395dbfbb}"
+ ],
+ "Eclipse": [
+  "{b969c22e}"
+ ],
+ "Edge of Night": [
+  "{3fcdbdac}",
+  "{c6c2af47}"
+ ],
+ "Elixir of Iron": [
+  "{b4a76613}"
+ ],
+ "Endless Hunger": [
+  "{653d4000}"
+ ],
+ "Essence Reaver": [
+  "{5ea32161}",
+  "{8b55a7b3}"
+ ],
+ "Experimental Hexplate": [
+  "{22adb3ec}"
+ ],
+ "Fiendhunter Bolts": [
+  "{6a3d47df}"
+ ],
+ "Fimbulwinter": [
+  "{9d42d534}"
+ ],
+ "Force of Nature": [
+  "{27df203e}"
+ ],
+ "Frozen Heart": [
+  "{0c3b352c}"
+ ],
+ "Gluttonous Greaves": [
+  "Items/ItemGroups/Boots",
+  "Items/ItemGroups/BootsWithoutActives",
+  "{aba63cd2}"
+ ],
+ "Golden Spatula": [
+  "{25df1d18}"
+ ],
+ "Guardian's Blade": [
+  "Items/ItemGroups/GuardianItems"
+ ],
+ "Guardian's Hammer": [
+  "Items/ItemGroups/GuardianItems"
+ ],
+ "Guardian's Horn": [
+  "Items/ItemGroups/GuardianItems"
+ ],
+ "Guardian's Orb": [
+  "Items/ItemGroups/GuardianItems"
+ ],
+ "Guinsoo's Rageblade": [
+  "{9a42d07b}"
+ ],
+ "Haunting Guise": [
+  "{9b33c784}"
+ ],
+ "Health Potion": [
+  "Items/ItemGroups/Potion"
+ ],
+ "Heartsteel": [
+  "{9f92a236}"
+ ],
+ "Hexdrinker": [
+  "Items/ItemGroups/LifelineItems"
+ ],
+ "Hexoptics C44": [
+  "{f1405afb}"
+ ],
+ "Hextech Gunblade": [
+  "{9c33c917}"
+ ],
+ "Hextech Rocketbelt": [
+  "{9631810e}"
+ ],
+ "Hollow Radiance": [
+  "Items/ItemGroups/ImmolateItems",
+  "{ad6770b3}"
+ ],
+ "Horizon Focus": [
+  "{466ecfe1}"
+ ],
+ "Hubris": [
+  "{be69ca0d}"
+ ],
+ "Hullbreaker": [
+  "{212a0d1a}"
+ ],
+ "Iceborn Gauntlet": [
+  "{8b55a7b3}",
+  "{b3677a25}"
+ ],
+ "Immortal Shieldbow": [
+  "Items/ItemGroups/LifelineItems",
+  "{aa652d63}"
+ ],
+ "Imperial Mandate": [
+  "{5f2a99fe}"
+ ],
+ "Infinity Edge": [
+  "{0321bdeb}",
+  "{aca3ffce}"
+ ],
+ "Ionian Boots of Lucidity": [
+  "Items/ItemGroups/Boots",
+  "Items/ItemGroups/BootsWithoutActives"
+ ],
+ "Jak'Sho, The Protean": [
+  "{ac676f20}"
+ ],
+ "Jarvan I's": [
+  "Items/ItemGroups/Boots",
+  "Items/ItemGroups/BootsWithoutActives"
+ ],
+ "Kaenic Rookern": [
+  "{623afcb0}"
+ ],
+ "Knight's Vow": [
+  "{193d883a}"
+ ],
+ "Kraken Slayer": [
+  "{a9652bd0}"
+ ],
+ "Last Whisper": [
+  "Items/ItemGroups/LastWhisper"
+ ],
+ "Liandry's Torment": [
+  "{42600c7d}"
+ ],
+ "Lich Bane": [
+  "{123d7d35}",
+  "{8b55a7b3}"
+ ],
+ "Lifeline": [
+  "{602a9b91}"
+ ],
+ "Locket of the Iron Solari": [
+  "{9c26fd24}"
+ ],
+ "Lord Dominik's Regards": [
+  "Items/ItemGroups/LastWhisper"
+ ],
+ "Lost Chapter": [
+  "Items/ItemGroups/MythicItems"
+ ],
+ "Luden's Echo": [
+  "{3c60030b}"
+ ],
+ "Malignance": [
+  "{143b41c4}"
+ ],
+ "Manamune": [
+  "Items/ItemGroups/TearItems",
+  "{29affd88}"
+ ],
+ "Maw of Malmortius": [
+  "Items/ItemGroups/LifelineItems"
+ ],
+ "Mercurial Scimitar": [
+  "Items/ItemGroups/Quicksilver"
+ ],
+ "Mercury's Treads": [
+  "Items/ItemGroups/Boots",
+  "Items/ItemGroups/BootsWithoutActives"
+ ],
+ "Mikael's Blessing": [
+  "{bf3ed580}"
+ ],
+ "Moonstone Renewer": [
+  "{ae562925}"
+ ],
+ "Morellonomicon": [
+  "{0938f1dc}"
+ ],
+ "Mortal Reminder": [
+  "Items/ItemGroups/LastWhisper",
+  "{aaa3fca8}"
+ ],
+ "Muramana": [
+  "{29affd88}"
+ ],
+ "Nashor's Tooth": [
+  "{093b3073}"
+ ],
+ "Navori Flickerblade": [
+  "{b06536d5}"
+ ],
+ "Overlord's Bloodmail": [
+  "{673b048f}"
+ ],
+ "Phantom Dancer": [
+  "{2db003d4}"
+ ],
+ "Plated Steelcaps": [
+  "Items/ItemGroups/Boots",
+  "Items/ItemGroups/BootsWithoutActives"
+ ],
+ "Profane Hydra": [
+  "{af69b270}",
+  "{cf1a44c0}"
+ ],
+ "Protoplasm Harness": [
+  "Items/ItemGroups/LifelineItems",
+  "{f740646d}"
+ ],
+ "Quicksilver Sash": [
+  "Items/ItemGroups/Quicksilver"
+ ],
+ "Rabadon's Deathcap": [
+  "{ac92b6ad}",
+  "{bbcc250a}"
+ ],
+ "Randuin's Omen": [
+  "{9733c138}"
+ ],
+ "Rapid Firecannon": [
+  "{ad94f6d7}"
+ ],
+ "Ravenous Hydra": [
+  "{21adb259}",
+  "{cf1a44c0}"
+ ],
+ "Redemption": [
+  "{0b3d7230}"
+ ],
+ "Refillable Potion": [
+  "Items/ItemGroups/Potion"
+ ],
+ "Riftmaker": [
+  "{bb6bb679}"
+ ],
+ "Rite of Ruin": [
+  "{72588155}"
+ ],
+ "Rod of Ages": [
+  "Items/ItemGroups/EternityItems",
+  "{3e600631}"
+ ],
+ "Runaan's Hurricane": [
+  "{78ac5965}",
+  "{a092a3c9}"
+ ],
+ "Rylai's Crystal Scepter": [
+  "{0a3b3206}"
+ ],
+ "Seeker's Armguard": [
+  "Items/ItemGroups/StopwatchGroup"
+ ],
+ "Seraph's Embrace": [
+  "Items/ItemGroups/LifelineItems",
+  "{2bb000ae}"
+ ],
+ "Serpent's Fang": [
+  "{bc69c6e7}"
+ ],
+ "Serrated Dirk": [
+  "{1c3fcb8a}"
+ ],
+ "Serylda's Grudge": [
+  "Items/ItemGroups/LastWhisper"
+ ],
+ "Shadowflame": [
+  "{bd7d02c0}"
+ ],
+ "Sheen": [
+  "{8b55a7b3}"
+ ],
+ "Shurelya's Battlesong": [
+  "{3179bd6e}"
+ ],
+ "Sorcerer's Shoes": [
+  "Items/ItemGroups/Boots",
+  "Items/ItemGroups/BootsWithoutActives"
+ ],
+ "Spear of Shojin": [
+  "{0538eb90}"
+ ],
+ "Spectral Cutlass": [
+  "{602a9b91}"
+ ],
+ "Spirit Visage": [
+  "{1cab6be3}"
+ ],
+ "Staff of Flowing Water": [
+  "{ad562792}"
+ ],
+ "Statikk Shiv": [
+  "{9e92a0a3}"
+ ],
+ "Sterak's Gage": [
+  "Items/ItemGroups/LifelineItems"
+ ],
+ "Stormrazor": [
+  "{ac94f544}"
+ ],
+ "Stormsurge": [
+  "{c07d0779}"
+ ],
+ "Stridebreaker": [
+  "{b45aafc5}",
+  "{cf1a44c0}"
+ ],
+ "Sundered Sky": [
+  "{a7561e20}"
+ ],
+ "Sunfire Aegis": [
+  "Items/ItemGroups/ImmolateItems",
+  "{27ab7d34}"
+ ],
+ "Sword of Blossoming Dawn": [
+  "{5f285b67}"
+ ],
+ "Tear of the Goddess": [
+  "Items/ItemGroups/TearItems"
+ ],
+ "Terminus": [
+  "Items/ItemGroups/LastWhisper",
+  "Items/ItemGroups/VoidPen",
+  "{370ee665}"
+ ],
+ "The Collector": [
+  "{ad65321c}"
+ ],
+ "Thornmail": [
+  "{20adb0c6}",
+  "{87f1e822}"
+ ],
+ "Tiamat": [
+  "{cf1a44c0}"
+ ],
+ "Titanic Hydra": [
+  "{88900bbf}",
+  "{cf1a44c0}"
+ ],
+ "Trinity Force": [
+  "{2dadc53d}",
+  "{8b55a7b3}"
+ ],
+ "Ultra Hydra": [
+  "{cf1a44c0}"
+ ],
+ "Umbral Glaive": [
+  "{993602f5}"
+ ],
+ "Unending Despair": [
+  "{683b0622}"
+ ],
+ "Verdant Barrier": [
+  "{3fcdbdac}"
+ ],
+ "Void Immolation": [
+  "Items/ItemGroups/ImmolateItems"
+ ],
+ "Void Staff": [
+  "Items/ItemGroups/VoidPen"
+ ],
+ "Voltaic Cyclosword": [
+  "{b069b403}"
+ ],
+ "Warmog's Armor": [
+  "{a292a6ef}"
+ ],
+ "Whispering Circlet": [
+  "Items/ItemGroups/TearItems",
+  "{f4405fb4}",
+  "{f842a497}"
+ ],
+ "Winter's Approach": [
+  "Items/ItemGroups/TearItems",
+  "{153b4357}",
+  "{9d42d534}"
+ ],
+ "Wit's End": [
+  "{a894eef8}"
+ ],
+ "Wooglet's Witchcap": [
+  "{71eded8d}",
+  "{9b3188ed}",
+  "{ac92b6ad}"
+ ],
+ "Youmuu's Ghostblade": [
+  "{9833c2cb}"
+ ],
+ "Yun Tal Wildarrows": [
+  "{aba3fe3b}"
+ ],
+ "Zeke's Convergence": [
+  "{31b248b7}"
+ ],
+ "Zhonya's Hourglass": [
+  "{9b3188ed}"
+ ]
+}

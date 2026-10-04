@@ -44,7 +44,39 @@ def build_augment_items(item_names):
     return out
 
 
+GROUPS_OUT = DATA / "item-groups.json"
+GAME_ITEMS = "https://raw.communitydragon.org/latest/game/items.cdtb.bin.json"
+
+
+def build_item_groups():
+    """{item: [grupuri]}: grupurile din care poti avea un singur item.
+
+    Jocul refuza al doilea item din acelasi grup ("ITEM UNAVAILABLE"): Terminus
+    si Lord Dominik's Regards sunt amandoua LastWhisper. Data Dragon nu are
+    grupurile, deci le citim din fisierele jocului, prin CommunityDragon.
+    """
+    import urllib.request
+    # fara User-Agent CommunityDragon raspunde 403
+    req = urllib.request.Request(GAME_ITEMS, headers={"User-Agent": "aram-mayhem-helper"})
+    with urllib.request.urlopen(req, timeout=120) as r:
+        game = json.load(r)
+    names = json.loads((DATA / "item-ids.json").read_text(encoding="utf-8"))
+    single = {k for k, v in game.items()
+              if isinstance(v, dict) and v.get("mMaxGroupOwnable") == 1}
+    out = {}
+    for v in game.values():
+        if not isinstance(v, dict) or str(v.get("itemID")) not in names:
+            continue
+        groups = sorted(g for g in v.get("mItemGroups") or () if g in single)
+        if groups:
+            out[names[str(v["itemID"])]] = groups
+    return out
+
+
 def main():
+    groups = build_item_groups()
+    GROUPS_OUT.write_text(json.dumps(groups, indent=1, sort_keys=True), encoding="utf-8")
+    print(f"itemi cu grup exclusiv: {len(groups)}")
     names = set(json.loads((DATA / "item-desc.json").read_text(encoding="utf-8")))
     augs = build_augment_items(names)
     AUG_OUT.write_text(json.dumps(augs, indent=1, sort_keys=True, ensure_ascii=False),

@@ -193,12 +193,30 @@ def resolve_build(build, roster, champion_tags, rule_set, item_stats=None,
     stats = item_stats or {}
     rng = current_range(roster.get("local_champion"), taken_augments, extra)
 
-    def ok(name):
+    def fits(name):
         need = (stats.get(name) or {}).get("needs")
         return need is None or rng is None or need == rng
 
-    # itemele indisponibile (ex. Runaan's dupa Draw Your Sword) nu mai apar nicaieri
-    unavailable = [n for n in build.get("pool") or [] if not ok(n)]
+    # Un singur item din fiecare grup exclusiv: cu Lord Dominik's in inventar
+    # jocul nu-ti mai vinde Terminus ("ITEM UNAVAILABLE"). Doar itemii terminati
+    # blocheaza; componentele si Boots simple se transforma chiar in itemul din grup.
+    # ponytail: fara retete, o componenta din grup nu blocheaza nimic; cu "from"
+    # din Data Dragon am putea prinde si cazul ala.
+    groups = extra.get("item_groups") or {}
+    taken_groups = {g for n in roster.get("own_items") or ()
+                    if n != "Boots" and not (stats.get(n) or {}).get("component")
+                    for g in groups.get(n) or ()}
+
+    have = owned_keys(roster.get("own_items"), item_stats)
+
+    def ok(name):
+        # ce ai deja ramane ok, altfel l-ar bloca propriul grup si ar parea de vandut
+        return fits(name) and (item_key(name) in have
+                               or not taken_groups & set(groups.get(name) or ()))
+
+    # itemele indisponibile (ex. Runaan's dupa Draw Your Sword) nu mai apar
+    # nicaieri; in lista "Indisponibil" doar cele de range, ca motivul sa fie corect
+    unavailable = [n for n in build.get("pool") or [] if not fits(n)]
     core = [c for c in (build.get("core") or []) if ok(c)]
     lost = len(build.get("core") or []) - len(core)
     scores = augment_scores(taken_augments, extra)
@@ -382,10 +400,13 @@ def sell_advice(build, roster, hot, item_stats=None, ok=None, rng=None, plan=())
         # Itemul de start (Doran's, Guardian's, Cull) tine un slot intreg pentru
         # statistici de inceput de meci. Cand sloturile sunt pline e primul
         # care pleaca: il vinzi cand ai aur de urmatorul item. Tear si Dark Seal
-        # nu intra aici, ele cresc in itemi finali.
+        # nu intra aici, ele cresc in itemi finali. Nici componentele: Long
+        # Sword e in startul lui Master Yi, dar intra in Endless Hunger, deci
+        # vanzandu-l pierdeai aurul pus deja in itemul pe care il cumparai.
         starters = {item_key(n) for n in build.get("starting") or ()}
         filler = next((n for n in own
-                       if (item_key(n) in starters or item_key(n).startswith(STARTER_PREFIXES))
+                       if (item_key(n).startswith(STARTER_PREFIXES)
+                           or item_key(n) in starters and not (stats.get(n) or {}).get("component"))
                        and not (stats.get(n) or {}).get("evolves_into")), None)
         buy = nxt or next((n for n in hot if item_key(n) not in have), None) or next(
             (n for n in build.get("pool") or [] if item_key(n) not in have

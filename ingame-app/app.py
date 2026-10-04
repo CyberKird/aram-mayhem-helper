@@ -133,7 +133,8 @@ class Monitor:
         # date pentru disponibilitatea itemelor si itemi buni cu augmentul ales
         self._static = {"ranges": self._optional("champion-range.json"),
                         "effects": self._optional("augment-effects.json"),
-                        "item_names": self._optional("item-ids.json")}
+                        "item_names": self._optional("item-ids.json"),
+                        "item_groups": self._optional("item-groups.json")}
         # alegerea augmentului, dedusa din ecran: dupa ce alegi, cardul ales ramane
         # singur o clipa. Tinem minte ultima oferta completa si cate citiri la rand
         # a ramas un singur card din ea.
@@ -602,6 +603,22 @@ def selfcheck():
     assert rules_engine.build_full(six, item_stats_sc)
     assert not rules_engine.build_full(six[:5] + ["Boots"], item_stats_sc)
     assert not rules_engine.build_full(six[:5], item_stats_sc)
+    # Long Sword din start e componenta din Endless Hunger: nu-l vinzi, il construiesti
+    yi_own = ["Infinity Edge", "The Collector", "Berserker's Greaves", "Lord Dominik's Regards",
+              "Caulfield's Warhammer", "Long Sword", "Poro-Snax"]
+    yi_sell = rules_engine.sell_advice(
+        {"starting": ["Long Sword", "Guardian's Blade"], "pool": ["Endless Hunger"]},
+        {"own_items": yi_own}, {}, item_stats_sc, plan=[{"item": "Endless Hunger", "owned": False}])
+    assert not yi_sell or yi_sell["sell"] != "Long Sword", yi_sell
+    # grup exclusiv: cu Lord Dominik's (LastWhisper) jocul nu-ti mai vinde Terminus
+    yi_build = {"core": ["Infinity Edge"], "pool": ["Infinity Edge", "Terminus", "Death's Dance"],
+                "fourth": ["Terminus", "Death's Dance"]}
+    yi_roster = {"local_champion": "Master Yi", "allies": [], "enemies": [], "enemy_items": [],
+                 "ally_items": [], "own_items": ["Infinity Edge", "Lord Dominik's Regards"]}
+    yi_plan = rules_engine.resolve_build(yi_build, yi_roster, champion_tags, rules, item_stats_sc,
+                                         [], {}, {"item_groups": load_json("item-groups.json")})
+    yi_items = [e["item"] for e in yi_plan["core"] + yi_plan["picks"]]
+    assert "Terminus" not in yi_items and "Death's Dance" in yi_items, yi_items
 
     rated = augment_tier.rate(["Goliath", "Multishot", "Overloaded"], global_augments)
     ranks = [augment_tier.TIER_ORDER.index(r["tier"]) for r in rated]

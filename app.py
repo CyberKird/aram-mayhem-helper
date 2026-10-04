@@ -133,7 +133,7 @@ def be_lightweight():
 
 # Ridica-l INAINTE de a publica un Release nou, altfel exe-ul deja instalat
 # la useri nu vede ca a aparut ceva mai nou.
-VERSION = "1.3.3"
+VERSION = "1.3.4"
 
 HOTKEY_LABEL = "CTRL+ALT+Z"
 
