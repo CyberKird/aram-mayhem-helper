@@ -20,6 +20,7 @@ import importlib.util
 import pathlib
 import sys
 import threading
+import time
 import tkinter as tk
 
 import augment_bar
@@ -106,6 +107,7 @@ FIT = 1.0
 # Locul liber dintre HUD-ul de jos si minimap, in fractiuni din inaltimea jocului
 # (masurat pe o captura 16:9). Se potriveste cu minimap-ul tau; daca il schimbi,
 # muti panoul o data cu mouse-ul si isi tine minte diferenta.
+IDLE_SIZE = 1.25      # cat de mare e panoul in afara meciului, fata de marimea de baza
 DOCK_MAXH = 0.31      # inaltimea maxima a panoului, ca fractie din inaltimea jocului
 MIN_HFIT = 0.55       # cat de mult poate fi micsorat continutul inainte de scroll
 
@@ -131,7 +133,7 @@ def be_lightweight():
 
 # Ridica-l INAINTE de a publica un Release nou, altfel exe-ul deja instalat
 # la useri nu vede ca a aparut ceva mai nou.
-VERSION = "1.3.0"
+VERSION = "1.3.1"
 
 HOTKEY_LABEL = "CTRL+ALT+Z"
 
@@ -400,7 +402,9 @@ def build_ui(lcu, lcu_mon, ingame, ingame_mon):
         global FIT
         box = game_box()
         if box is None:
-            new = 1.0
+            # in afara meciului panoul nu e strans intr-un gol: pe 1080p arata
+            # ingust si cu iconite marunte la marimea de baza
+            new = IDLE_SIZE
         else:
             _, gap_w = hud_settings.gap(box[2] - box[0], box[3] - box[1])
             new = max(0.55, min(1.3, gap_w / (372 * UI_SCALE))) * dock["hfit"]
@@ -432,6 +436,8 @@ def build_ui(lcu, lcu_mon, ingame, ingame_mon):
 
     title = tk.Label(titlebar, text="ARAM MAYHEM", bg=BG, fg=GOLD, font=pix(8))
     title.pack(side="left")
+    # versiune noua deja instalata in fundal: se vede, dar nu intrerupe nimic
+    update_note = tk.Label(titlebar, text="", bg=BG, fg=ACCENT, font=pix(6))
     # augmentele alese, langa numele campionului: nu mai iau un rand din panou
     title_augs = tk.Frame(titlebar, bg=BG)
     title_augs.pack(side="left", padx=(8, 0))
@@ -617,7 +623,7 @@ def build_ui(lcu, lcu_mon, ingame, ingame_mon):
             for child in line.winfo_children():
                 attach_tip(child, "Schimbari Mayhem", tip_text)
 
-    def tier_row(kind, entry, best_label=None):
+    def tier_row(kind, entry, best_label=None, tag=None):
         """Un campion sau un augment: iconita oficiala + insigna de tier."""
         is_best = entry.get("is_best")
         color = TIER_COLORS.get(entry["tier"], UNKNOWN_TIER[0])
@@ -655,8 +661,10 @@ def build_ui(lcu, lcu_mon, ingame, ingame_mon):
                      wraplength=px(250)).pack(fill="x", pady=(2, 0))
 
         if is_best and best_label:
-            tk.Label(row, text=best_label, bg=CARD, fg=color,
+            tk.Label(row, text=best_label + (f"  ·  {tag}" if tag else ""), bg=CARD, fg=color,
                      font=pix(7)).pack(side="right", padx=6)
+        elif tag:
+            tk.Label(row, text=tag, bg=CARD, fg=DIM, font=pix(6)).pack(side="right", padx=6)
 
     def icon_strip(entries):
         """Iconite una langa alta. Accepta si nume simple, si {item, owned}."""
@@ -853,26 +861,24 @@ def build_ui(lcu, lcu_mon, ingame, ingame_mon):
     def render_champ_select():
         title.configure(text="ARAM MAYHEM")
         context.configure(text="CHAMP SELECT  ·  REROLL")
+        # Toti campionii pe care ii poti avea, intr-o singura lista ordonata dupa
+        # tier: al tau, bench-ul si cartile tale. De unde vine fiecare scrie in
+        # dreapta; la tier egal, al tau ramane primul (n-are rost reroll).
+        import mayhem_logic as logic
+        offers = champ_offer_entries()
+        pool = ([(lcu_mon.assigned, "AL TAU")] if lcu_mon.assigned else [])             + [(e, "BENCH") for e in lcu_mon.bench] + [(e, "CARTE") for e in offers]
+        if pool:
+            section("ALEGE  ·  DUPA TIER")
+            for entry, origin in sorted(pool, key=lambda p: logic.tier_rank(p[0]["tier"])):
+                tier_row("champions", entry, "BEST", tag=origin)
+        else:
+            note("se incarca...")
         if lcu_mon.assigned:
-            section("CAMPIONUL TAU")
-            tier_row("champions", lcu_mon.assigned, "BEST")
-
             build = ingame.load_cached(lcu_mon.assigned["name"])
             summoners = build.get("summoners") if build else None
             if summoners:
                 section("SUMMONER SPELLS")
                 summoner_row(summoners)
-        if lcu_mon.bench:
-            section("BENCH")
-            for entry in lcu_mon.bench:
-                tier_row("champions", entry, "BEST")
-        offers = champ_offer_entries()
-        if offers:
-            section("CARTILE TALE (OCR)")
-            for entry in offers:
-                tier_row("champions", entry, "BEST")
-        if not lcu_mon.assigned and not lcu_mon.bench and not offers:
-            note("se incarca...")
 
     def augment_strip(names):
         """Augmentele luate, iconite mici in bara de titlu; click pe una o scoate
@@ -916,7 +922,7 @@ def build_ui(lcu, lcu_mon, ingame, ingame_mon):
         glow.pack(fill="x", padx=2, pady=2)
         hero = tk.Frame(glow, bg=CARD)
         hero.pack(fill="x", padx=1, pady=1)
-        slot(hero, head, 50, CARD).pack(side="left", padx=(5, 8), pady=5)
+        slot(hero, head, 56, CARD).pack(side="left", padx=(5, 8), pady=5)
         texts = tk.Frame(hero, bg=CARD)
         texts.pack(side="left", fill="x", expand=True, pady=4)
         tk.Label(texts, text="CUMPARA ACUM", bg=CARD, fg=ACCENT, font=pix(6),
@@ -935,7 +941,7 @@ def build_ui(lcu, lcu_mon, ingame, ingame_mon):
                 # linie turcoaz pe itemii ceruti de meci (contra-item, augment)
                 cell = tk.Frame(row, bg=ACCENT if e.get("reason") else LINE)
                 cell.pack(side="left", padx=(0, 4))
-                slot(cell, e, 24, BG).pack(padx=1, pady=1)
+                slot(cell, e, 30, BG).pack(padx=1, pady=1)
 
     def render_in_game():
         champ = (ingame_mon.roster or {}).get("local_champion") or "?"
@@ -1180,6 +1186,9 @@ def build_ui(lcu, lcu_mon, ingame, ingame_mon):
         collapsed["want"] = not collapsed["want"]
 
     def refresh():
+        if UPDATE["tag"] and not update_note.winfo_ismapped():
+            update_note.configure(text=f"UPDATE {UPDATE['tag']}")
+            update_note.pack(side="left", padx=(8, 0))
         if not dock["drag"]:
             if update_fit():
                 shown["fingerprint"] = None      # marimea s-a schimbat: redesenam
@@ -1292,6 +1301,7 @@ def build_ui(lcu, lcu_mon, ingame, ingame_mon):
         place(root.winfo_height())
     snap.bind("<Button-1>", snap_back)
     attach_tip(snap, "Aseaza in gol", "Pune panoul inapoi intre HUD si minimap.")
+    attach_tip(update_note, "Versiune noua instalata", "Inchide si redeschide aplicatia ca sa o folosesti.")
     close.bind("<Button-1>", lambda _: close_app())
     minimize.bind("<Button-1>", lambda _: toggle_collapsed())
     root.bind("<Escape>", lambda _: close_app())
@@ -1434,27 +1444,31 @@ def already_running():
     return False        # socket-ul ramane deschis cat traieste procesul
 
 
-def maintenance():
-    """Date noi si update de exe, in fundal: fereastra apare imediat, nu dupa ce
-    raspunde reteaua (pana la 10 s per cerere cand GitHub e lent).
+UPDATE_EVERY = 30 * 60      # secunde intre verificari cat timp aplicatia ruleaza
+UPDATE = {"tag": None}      # versiunea instalata in fundal, asteapta repornirea
 
-    Orice esec inseamna doar ca mergem mai departe pe versiunea curenta: fara
-    internet trebuie sa mearga.
+
+def maintenance():
+    """Date noi si update de exe, in fundal: la pornire si apoi la fiecare
+    UPDATE_EVERY, chiar daca aplicatia sta deschisa toata ziua.
+
+    Exe-ul nou se pune pe disc pe loc (Windows lasa redenumirea celui care
+    ruleaza); panoul arata "UPDATE" in bara de titlu si il folosesti de la
+    urmatoarea deschidere. Nu repornim singuri: un proces lansat de altul care
+    apoi dispare il face pe Vanguard sa se planga, si nici nu vrei asta in meci.
+    Orice esec inseamna doar ca mergem mai departe: fara internet trebuie sa mearga.
     """
-    try:
-        data_sync.sync(LOG_DIR / "data-sync")
-    except Exception:
-        pass
-    try:
-        tag, _ = updater.update_if_available(VERSION)
-    except Exception:
-        return
-    if tag:
-        # Nu repornim singuri: un proces pornit dintr-un .cmd care apoi
-        # dispare il face pe Vanguard sa se planga de procesul parinte.
-        ctypes.windll.user32.MessageBoxW(
-            None, f"Instalat {tag}. Redeschide aplicatia ca sa o folosesti.",
-            "ARAM Mayhem Helper", 0x40)
+    while UPDATE["tag"] is None:
+        try:
+            data_sync.sync(LOG_DIR / "data-sync")
+        except Exception:
+            pass
+        try:
+            UPDATE["tag"], _ = updater.update_if_available(VERSION)
+        except Exception:
+            pass
+        if UPDATE["tag"] is None:
+            time.sleep(UPDATE_EVERY)
 
 
 def main():

@@ -34,7 +34,7 @@ from winrt.windows.graphics.imaging import BitmapDecoder
 from winrt.windows.media.ocr import OcrEngine
 from winrt.windows.storage.streams import DataWriter, InMemoryRandomAccessStream
 
-GAME_WINDOW_TITLES = ("League of Legends (TM) Client", "League of Legends")
+GAME_CLASS, CLIENT_CLASS = "RiotWindowClass", "RCLIENT"   # jocul si clientul League
 
 _engine = None
 
@@ -42,24 +42,22 @@ _engine = None
 def find_game_window():
     """hwnd-ul ferestrei jocului, sau None.
 
-    Cu 3 monitoare nu avem cum sa ghicim pe care e League -- cautam fereastra
-    dupa titlu si captam exact zona ei, indiferent pe ce ecran e.
+    Cu 3 monitoare nu avem cum sa ghicim pe care e League: cautam fereastra
+    si captam exact zona ei, indiferent pe ce ecran e. Clientul (RCLIENT) are
+    si el titlul "League of Legends", deci il excludem dupa clasa: altfel, in
+    afara meciului, panoul se micsora sa incapa intr-un "HUD" care nu exista.
     """
     found = []
 
     def visit(hwnd, _):
         if not win32gui.IsWindowVisible(hwnd):
             return
-        title = win32gui.GetWindowText(hwnd)
-        if any(t in title for t in GAME_WINDOW_TITLES):
-            found.append((hwnd, title))
+        cls, title = win32gui.GetClassName(hwnd), win32gui.GetWindowText(hwnd)
+        if cls == GAME_CLASS or (cls != CLIENT_CLASS and "(TM) Client" in title):
+            found.append(hwnd)
 
     win32gui.EnumWindows(visit, None)
-    # "League of Legends" e si titlul clientului: cand sunt deschise amandoua,
-    # jocul ("... (TM) Client") trebuie sa castige, altfel panoul se lipeste de
-    # fereastra gresita
-    found.sort(key=lambda f: "(TM) Client" not in f[1])
-    return found[0][0] if found else None
+    return found[0] if found else None
 
 
 def find_client_window():
@@ -67,7 +65,7 @@ def find_client_window():
     found = []
 
     def visit(hwnd, _):
-        if win32gui.IsWindowVisible(hwnd) and win32gui.GetWindowText(hwnd) == "League of Legends":
+        if win32gui.IsWindowVisible(hwnd) and win32gui.GetClassName(hwnd) == CLIENT_CLASS:
             found.append(hwnd)
 
     win32gui.EnumWindows(visit, None)
