@@ -13,6 +13,7 @@ import pathlib
 from PyInstaller.utils.hooks import collect_all
 
 datas = [
+    ("icon.ico", "."),
     ("lcu-app/app.py", "lcu-app"),
     ("lcu-app/mayhem_logic.py", "lcu-app"),
     ("lcu-app/tier_list.py", "lcu-app"),

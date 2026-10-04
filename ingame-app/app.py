@@ -37,6 +37,9 @@ DATA = pathlib.Path(__file__).with_name("data")
 # alt-tab (unfocus-ul golea lista, si asa se "repara" singur).
 OFFER_TTL = 25.0
 
+# secunde intre doua citiri OCR: des cand e probabila o oferta, rar in rest
+OCR_FAST, OCR_SLOW = 1.2, 3.0
+
 BG = "#0a0e14"
 CARD = "#0f1720"
 BORDER = "#1e2a38"
@@ -109,6 +112,30 @@ class Monitor:
         self._offer_pool = {}
         self._stat_anvil_tick = 0
         self._last_stat_anvil = ()
+        # OCR-ul costa cel mai mult procesor din toata aplicatia, deci il rulam
+        # des doar cand e probabil sa apara o oferta: la inceputul meciului, dupa
+        # un level-up sau dupa o cheltuiala mare (Stat Anvil). Altfel rar.
+        self._fast_until = 0.0
+        self._last_level = None
+        self._last_gold = None
+
+    def _note_activity(self, level, gold):
+        now = time.monotonic()
+        if self._last_level is None:
+            self._fast_until = now + 90          # meci nou
+        elif isinstance(level, int) and level > self._last_level:
+            self._fast_until = now + 45          # level-up: oferta de augment
+        if (isinstance(gold, (int, float)) and self._last_gold is not None
+                and gold <= self._last_gold - 700):
+            self._fast_until = now + 30          # cheltuiala mare: poate Stat Anvil
+        if isinstance(level, int):
+            self._last_level = level
+        if isinstance(gold, (int, float)):
+            self._last_gold = gold
+
+    def ocr_interval(self):
+        busy = self.augments or self.stat_anvil or time.monotonic() < self._fast_until
+        return OCR_FAST if busy else OCR_SLOW
 
     def run(self):
         threading.Thread(target=self._run_roster, daemon=True).start()
@@ -143,7 +170,7 @@ class Monitor:
                     # ecranul de anvil e un plus; daca pica, oferta de augment
                     # (care are countdown) trebuie sa mearga mai departe
                     self.stat_anvil = []
-            self.stop.wait(1.2)
+            self.stop.wait(self.ocr_interval())
 
     def _roster_cycle(self):
         raw = live_client.get_roster()
@@ -153,6 +180,9 @@ class Monitor:
             return
 
         self.phase = "in_game"
+        ap = live_client.get("/activeplayer")
+        if isinstance(ap, dict):
+            self._note_activity(ap.get("level"), ap.get("currentGold"))
         roster = normalize_roster(raw, self.champ_id_map)
         self.roster = roster
 
@@ -284,6 +314,9 @@ class Monitor:
         self._stat_anvil_tick = 0
         self._last_stat_anvil = ()
         self.taken_augments = []   # meci nou, augmente noi
+        self._fast_until = 0.0
+        self._last_level = None
+        self._last_gold = None
         self._known_champion = None
         self.status = ""
 

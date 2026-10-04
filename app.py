@@ -23,6 +23,7 @@ import tkinter as tk
 
 import augment_bar
 import bug_report
+import champ_ocr
 import data_sync
 import hotkey
 import settings as settings_mod
@@ -75,9 +76,33 @@ def show_in_taskbar(root):
 # Fonturile (in puncte) se scaleaza singure; pixelii fixi de mai jos nu.
 UI_SCALE = 1.0
 
+# Factor de potrivire cand panoul sta lipit de HUD: marimea lui urmeaza inaltimea
+# jocului, ca sa incapa intre HUD si minimap la orice rezolutie. 1.0 in rest.
+FIT = 1.0
+
+# Locul liber dintre HUD-ul de jos si minimap, in fractiuni din inaltimea jocului
+# (masurat pe o captura 16:9). Se potriveste cu minimap-ul tau; daca il schimbi,
+# muti panoul o data cu mouse-ul si isi tine minte diferenta.
+DOCK_W, DOCK_RIGHT, DOCK_BOTTOM = 0.29, 0.262, 0.004
+
 
 def px(n):
-    return int(round(n * UI_SCALE))
+    return int(round(n * UI_SCALE * FIT))
+
+
+def be_lightweight():
+    """Prioritate sub normal: cand jocul are nevoie de procesor, noi cedam.
+
+    Nu folosim EcoQoS (nuclee eficiente): ar incetini OCR-ul si interfata,
+    adica exact lipsa de "instant" pe care o vrem. Sub normal costa nimic cand
+    procesorul e liber si ne scoate din drumul jocului cand nu e.
+    """
+    try:
+        k = ctypes.windll.kernel32
+        k.GetCurrentProcess.restype = ctypes.c_void_p
+        k.SetPriorityClass(ctypes.c_void_p(k.GetCurrentProcess()), 0x00004000)
+    except Exception:
+        pass
 
 
 # Ridica-l INAINTE de a publica un Release nou, altfel exe-ul deja instalat
@@ -172,7 +197,7 @@ def icon(kind, name, size=30):
     """
     from build_icons import slug   # aceeasi regula de nume ca la descarcare
 
-    key = (kind, name, size)
+    key = (kind, name, px(size))
     if key in _icon_cache:
         return _icon_cache[key]
 
@@ -208,18 +233,71 @@ def build_ui(lcu, lcu_mon, ingame, ingame_mon):
     # titlurile mici (fosta pixel 7) devin serif aldin putin mai mare; textul
     # (fost Consolas 13) devine Segoe UI cu doua puncte mai jos, ca latimea
     # randurilor sa ramana cea de dinainte
-    pix = lambda size, weight="normal": (heading, size + 2, "bold")
-    mono = lambda size, weight="normal": (body_family, max(8, size - 2), weight)
+    pix = lambda size, weight="normal": (heading, max(6, round((size + 2) * FIT)), "bold")
+    mono = lambda size, weight="normal": (body_family, max(7, round((size - 2) * FIT)), weight)
 
     root.title("ARAM Mayhem Helper")
+    ico = ROOT / "icon.ico"
+    if ico.exists():
+        try:
+            root.iconbitmap(default=str(ico))      # iconita din taskbar, nu pana Tk
+        except tk.TclError:
+            pass
     root.overrideredirect(True)      # desenam noi chenarul, ca in macheta
     root.attributes("-topmost", True)
     root.configure(bg=GOLD)
     root.withdraw()
 
-    width = px(372)
-    x, y = settings.pos("panel", (root.winfo_screenwidth() - width - 28, 64))
-    root.geometry(f"{width}x{px(260)}+{int(x)}+{int(y)}")
+    x, y = settings.pos("panel", (root.winfo_screenwidth() - px(372) - 28, 64))
+    root.geometry(f"{px(372)}x{px(260)}+{int(x)}+{int(y)}")
+
+    # --- lipirea de HUD ---------------------------------------------------
+    dock = {"last": None, "drag": False}
+
+    def game_box():
+        """(l, t, r, b) al jocului sau None. Fara joc, panoul ramane unde l-ai pus."""
+        try:
+            import ocr_augments as o
+            hwnd = o.find_game_window()
+            if hwnd:
+                box = o.game_rect(hwnd)
+                if box[3] - box[1] >= 300:
+                    return box
+        except Exception:
+            pass
+        return None
+
+    def dock_base(box, h):
+        """(x, y, w) al panoului lipit, fara diferenta ta personala."""
+        l, t, r, b = box
+        H = b - t
+        w = int(DOCK_W * H)
+        return int(r - DOCK_RIGHT * H - w), int(b - DOCK_BOTTOM * H - h), w
+
+    def place(h):
+        """Aseaza panoul: lipit de HUD cand jocul e deschis, altfel pe loc."""
+        box = game_box()
+        if box is None:
+            geo = f"{px(372)}x{h}"
+        else:
+            H = box[3] - box[1]
+            bx, by, w = dock_base(box, h)
+            ox, oy = settings.get("dock_offset", [0, 0])
+            geo = f"{w}x{h}+{int(bx + ox * H)}+{int(by + oy * H)}"
+        if geo != dock["last"]:
+            root.geometry(geo)
+            dock["last"] = geo
+
+    def update_fit():
+        """Potriveste marimea panoului pe jocul curent. True daca s-a schimbat."""
+        global FIT
+        box = game_box()
+        new = 1.0 if box is None else max(
+            0.7, min(1.3, DOCK_W * (box[3] - box[1]) / (372 * UI_SCALE)))
+        if abs(new - FIT) < 0.01:
+            return False
+        FIT = new
+        return True
 
     # chenarul de 1px: un frame exterior alb cu padding, peste care sta continutul
     shell = tk.Frame(root, bg=BG)
@@ -278,6 +356,7 @@ def build_ui(lcu, lcu_mon, ingame, ingame_mon):
     drag = {"x": 0, "y": 0}
 
     def press(e):
+        dock["drag"] = True
         drag["x"], drag["y"] = e.x_root - root.winfo_x(), e.y_root - root.winfo_y()
 
     def move(e):
@@ -594,6 +673,28 @@ def build_ui(lcu, lcu_mon, ingame, ingame_mon):
              f"merge (unele anti-cheat-uri blocheaza taste globale cat "
              f"jocul e activ), click pe \"_\" din colt face acelasi lucru.")
 
+    def champ_offer_entries():
+        """Cartile personale citite prin OCR, cu tier si statistici.
+
+        BEST se recalculeaza peste TOT ce vezi (campionul tau, bench si cartile
+        citite), ca sa existe un singur BEST pe ecran.
+        """
+        import mayhem_logic as logic
+        import tier_list
+        names = list(champ_reader.offers)
+        if not names:
+            return []
+        import champ_stats
+        entries = [dict(name=n, tier=tier_list.TIER_DATA.get(n, logic.UNRANKED),
+                        is_best=False, **champ_stats.info(n)) for n in names]
+        pool = ([lcu_mon.assigned] if lcu_mon.assigned else []) + list(lcu_mon.bench) + entries
+        best = min(pool, key=lambda e: logic.tier_rank(e["tier"]))
+        for e in lcu_mon.bench + ([lcu_mon.assigned] if lcu_mon.assigned else []):
+            e["is_best"] = e is best
+        for e in entries:
+            e["is_best"] = e is best
+        return entries
+
     def render_champ_select():
         title.configure(text="ARAM MAYHEM")
         context.configure(text="CHAMP SELECT  ·  REROLL")
@@ -610,7 +711,12 @@ def build_ui(lcu, lcu_mon, ingame, ingame_mon):
             section("BENCH")
             for entry in lcu_mon.bench:
                 tier_row("champions", entry, "BEST")
-        if not lcu_mon.assigned and not lcu_mon.bench:
+        offers = champ_offer_entries()
+        if offers:
+            section("CARTILE TALE (OCR)")
+            for entry in offers:
+                tier_row("champions", entry, "BEST")
+        if not lcu_mon.assigned and not lcu_mon.bench and not offers:
             note("se incarca...")
 
     def render_in_game():
@@ -724,6 +830,15 @@ def build_ui(lcu, lcu_mon, ingame, ingame_mon):
                                      if s["is_best"] and s.get("champion") else None)})
         return entries, colors, fgs
 
+    def champ_known():
+        return [e["name"] for e in ([lcu_mon.assigned] if lcu_mon.assigned else []) + list(lcu_mon.bench)]
+
+    champ_reader = champ_ocr.ChampSelectReader(
+        lcu.load_champion_data().values(),
+        lambda: lcu_mon.phase == "in_mayhem_select" and ingame_mon.phase != "in_game",
+        champ_known)
+    champ_reader.run()
+
     def active_view():
         if lcu_mon.phase == "in_mayhem_select":
             return "champ_select"
@@ -736,7 +851,8 @@ def build_ui(lcu, lcu_mon, ingame, ingame_mon):
             return (view,
                     lcu_mon.assigned and (lcu_mon.assigned["name"],
                                           lcu_mon.assigned["is_best"]),
-                    tuple((e["name"], e["is_best"]) for e in lcu_mon.bench))
+                    tuple((e["name"], e["is_best"]) for e in lcu_mon.bench),
+                    tuple(champ_reader.offers))
         if view == "in_game":
             picks = ingame_mon.resolved_build["picks"] if ingame_mon.resolved_build else []
             core = ingame_mon.resolved_build["core"] if ingame_mon.resolved_build else []
@@ -775,6 +891,11 @@ def build_ui(lcu, lcu_mon, ingame, ingame_mon):
         collapsed["want"] = not collapsed["want"]
 
     def refresh():
+        if not dock["drag"]:
+            if update_fit():
+                shown["fingerprint"] = None      # marimea s-a schimbat: redesenam
+            elif collapsed["applied"] or shown["fingerprint"] is not None:
+                place(root.winfo_height())       # jocul s-a mutat/redimensionat
         if collapsed["want"] != collapsed["applied"]:
             for w, kw in COLLAPSIBLE_PACK:
                 w.pack_forget() if collapsed["want"] else w.pack(**kw)
@@ -785,7 +906,7 @@ def build_ui(lcu, lcu_mon, ingame, ingame_mon):
             # Latimea ramane fixa (width) -- doar geometry("") ar lasa-o sa se
             # ingusteze si ar muta "_"/"X" in alta parte la fiecare apasare
             root.update_idletasks()
-            root.geometry(f"{width}x{root.winfo_reqheight()}")
+            place(root.winfo_reqheight())
 
         # Banda de augmente traieste separat de panou: apare deasupra
         # cardurilor cand ai de ales si dispare imediat dupa. O actualizam
@@ -844,9 +965,10 @@ def build_ui(lcu, lcu_mon, ingame, ingame_mon):
         dinainte si taie ultimul rand.
         """
         root.update_idletasks()
-        root.geometry(f"{width}x{min(root.winfo_reqheight(), px(MAX_HEIGHT))}")
+        place(min(root.winfo_reqheight(), px(MAX_HEIGHT)))
 
     def close_app():
+        champ_reader.stop.set()
         lcu_mon.stop.set()
         ingame_mon.stop.set()
         bar.hide()          # banda e alta fereastra; altfel ramane pe ecran
@@ -874,7 +996,18 @@ def build_ui(lcu, lcu_mon, ingame, ingame_mon):
 
     # pozitia ferestrei se retine intre sesiuni: o asezi o data unde vrei
     def remember_pos(_=None):
-        settings.set_pos("panel", root.winfo_x(), root.winfo_y())
+        dock["drag"] = False
+        box = game_box()
+        if box is None:
+            settings.set_pos("panel", root.winfo_x(), root.winfo_y())
+            return
+        # cu jocul deschis, tinem minte DIFERENTA fata de pozitia lipita, in
+        # fractiuni din inaltimea jocului: ramane buna la orice rezolutie
+        H = box[3] - box[1]
+        bx, by, _w = dock_base(box, root.winfo_height())
+        settings.set("dock_offset", [round((root.winfo_x() - bx) / H, 4),
+                                     round((root.winfo_y() - by) / H, 4)])
+        dock["last"] = None
 
     for widget in (titlebar, title, subbar, context):
         widget.bind("<ButtonRelease-1>", remember_pos, add="+")
@@ -957,6 +1090,19 @@ def selfcheck():
           f"summoners {with_summoners}/{len(builds)} campioni "
           f"({summoner_icons}/{len(summoner_names)} iconite unice)")
 
+    # champ select: numele de campioni se cauta pe cuvinte intregi
+    assert champ_ocr.find_names("Pick Sett or Jinx, Vi too", ["Sett", "Jinx", "Vi", "Jax"])         == ["Sett", "Jinx"]
+
+    # OCR-ul real functioneaza si in exe (winsdk e incarcat dinamic): desenam un
+    # nume cu un font de sistem, il citim si il recunoastem
+    import ocr_augments
+    from PIL import Image, ImageDraw, ImageFont
+    pic = Image.new("RGB", (520, 120), (20, 26, 40))
+    ImageDraw.Draw(pic).text((20, 30), "Goliath  Eureka", fill=(240, 230, 210),
+                             font=ImageFont.truetype("C:/Windows/Fonts/segoeui.ttf", 44))
+    read = ocr_augments.read_offer(pic, names)[0]
+    assert "Goliath" in read or "Eureka" in read, f"OCR nu citeste nimic: {read}"
+
     updater.selfcheck()
 
 
@@ -983,6 +1129,7 @@ def main():
         return
 
     enable_dpi_awareness()
+    be_lightweight()
     try:
         # identitate proprie in taskbar: se grupeaza si se fixeaza (pin) separat
         # de python.exe, cu iconita exe-ului
