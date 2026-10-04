@@ -133,7 +133,7 @@ def be_lightweight():
 
 # Ridica-l INAINTE de a publica un Release nou, altfel exe-ul deja instalat
 # la useri nu vede ca a aparut ceva mai nou.
-VERSION = "1.3.5"
+VERSION = "1.3.6"
 
 HOTKEY_LABEL = "CTRL+ALT+Z"
 
@@ -355,17 +355,24 @@ def build_ui(lcu, lcu_mon, ingame, ingame_mon):
         # meci nou (dupa API-ul jocului, nu dupa fereastra: alt-tab din
         # fullscreen o minimizeaza): inapoi in gol
         if ingame_mon.phase == "in_game" and dock.get("phase") != "in_game":
-            dock["manual"] = None
+            away = settings.get("away")
+            dock["manual"] = tuple(away) if away else None
         dock["phase"] = ingame_mon.phase
         dock["mode"] = "game" if box else None
         if dock["manual"] is not None:
             w = dock_base(box, h)[2] if box else px(372)
             x, y = dock["manual"]
-            if box:
-                # panoul creste in jos cand apare un sfat nou: il ridicam cat
-                # trebuie ca sa nu iasa din joc, fara sa-ti uitam pozitia
-                x = max(box[0], min(x, box[2] - w))
-                y = max(box[1], min(y, box[3] - h))
+            # panoul creste in jos cand apare un sfat nou: il ridicam cat trebuie
+            # ca sa nu iasa din ecranul pe care l-ai pus (jocul sau alt monitor),
+            # fara sa-ti uitam pozitia
+            try:
+                import win32api
+                ml, mt, mr, mb = win32api.GetMonitorInfo(
+                    win32api.MonitorFromPoint((x + w // 2, y), 2))["Work"]
+                x = max(ml, min(x, mr - w))
+                y = max(mt, min(y, mb - h))
+            except Exception:
+                pass
             geo = f"{w}x{h}+{x}+{y}"
         elif box is None:
             tgt = client_target(h)
@@ -1409,9 +1416,11 @@ def build_ui(lcu, lcu_mon, ingame, ingame_mon):
 
     def snap_back(_=None):
         dock["manual"], dock["last"] = None, None
+        settings.set("away", None)
         place(root.winfo_height())
     snap.bind("<Button-1>", snap_back)
-    attach_tip(snap, "Aseaza in gol", "Pune panoul inapoi intre HUD si minimap.")
+    attach_tip(snap, "Aseaza in gol",
+               "Pune panoul inapoi intre HUD si minimap. Il poti trage si pe alt ecran: ramane acolo.")
     attach_tip(update_note, "Versiune noua instalata", "Inchide si redeschide aplicatia ca sa o folosesti.")
     close.bind("<Button-1>", lambda _: close_app())
     minimize.bind("<Button-1>", lambda _: toggle_collapsed())
@@ -1430,6 +1439,13 @@ def build_ui(lcu, lcu_mon, ingame, ingame_mon):
             # pana porneste meciul urmator
             dock["manual"] = (root.winfo_x(), root.winfo_y())
             dock["last"] = None
+            if box is not None:
+                # mijlocul panoului in afara jocului = l-ai scos pe alt ecran:
+                # il tinem acolo si la meciurile urmatoare, pana apesi pe "\u25c7"
+                cx = root.winfo_x() + root.winfo_width() // 2
+                cy = root.winfo_y() + root.winfo_height() // 2
+                outside = not (box[0] <= cx < box[2] and box[1] <= cy < box[3])
+                settings.set("away", list(dock["manual"]) if outside else None)
             return
         tgt = client_target(root.winfo_height())
         if tgt:
