@@ -1,5 +1,137 @@
 {
+ "Aim for the Head": {
+  "likes": "crit"
+ },
+ "Blade Waltz": {
+  "likes": "onhit"
+ },
+ "Crit 'n Cast": {
+  "likes": "crit"
+ },
+ "Critical Missile": {
+  "likes": "crit"
+ },
+ "Critical Rhythm": {
+  "likes": "crit"
+ },
+ "Don't Stop Cleavin'": {
+  "stack": "Black Cleaver"
+ },
+ "Double Strike": {
+  "likes": "onhit"
+ },
+ "Double Tap": {
+  "likes": "onhit"
+ },
  "Draw Your Sword": {
   "range": "melee"
+ },
+ "Dual Wield": {
+  "likes": "onhit"
+ },
+ "Ethereal Weapon": {
+  "likes": "onhit"
+ },
+ "Fan The Hammer": {
+  "likes": "onhit"
+ },
+ "Fan the Hammer": {
+  "likes": "onhit"
+ },
+ "Firebrand": {
+  "likes": "onhit"
+ },
+ "Icathia's Fall": {
+  "combine": "Void Immolation",
+  "needs": [
+   "Sunfire Aegis",
+   "Hollow Radiance"
+  ]
+ },
+ "It's Critical": {
+  "likes": "crit"
+ },
+ "Juiced": {
+  "likes": "onhit"
+ },
+ "Light 'Em Up!": {
+  "likes": "onhit"
+ },
+ "Light 'em Up!": {
+  "likes": "onhit"
+ },
+ "Lightning Strikes": {
+  "likes": "onhit"
+ },
+ "Master of Duality": {
+  "likes": "onhit"
+ },
+ "Mystic Punch": {
+  "likes": "onhit"
+ },
+ "Quest: Steel Your Heart": {
+  "needs": [
+   "Heartsteel"
+  ]
+ },
+ "Quest: Three Sacred Treasures": {
+  "needs": [
+   "Infinity Edge",
+   "Hextech Gunblade"
+  ]
+ },
+ "Quest: Wooglet's Witchcap": {
+  "needs": [
+   "Rabadon's Deathcap",
+   "Zhonya's Hourglass"
+  ]
+ },
+ "Reload": {
+  "likes": "onhit"
+ },
+ "Shrink Ray": {
+  "likes": "onhit"
+ },
+ "Soul Siphon": {
+  "likes": "crit"
+ },
+ "Steel Your Heart": {
+  "needs": [
+   "Heartsteel"
+  ]
+ },
+ "Tap Dancer": {
+  "likes": "onhit"
+ },
+ "True Eternity": {
+  "stack": "Rod of Ages"
+ },
+ "Twice Thrice": {
+  "likes": "onhit"
+ },
+ "Twin Fire": {
+  "likes": "crit"
+ },
+ "Typhoon": {
+  "likes": "onhit"
+ },
+ "Ultra Hydra": {
+  "needs": [
+   "Titanic Hydra",
+   "Ravenous Hydra",
+   "Profane Hydra"
+  ]
+ },
+ "Upgrade Infinity Edge": {
+  "likes": "crit"
+ },
+ "Wooglet's Witchcap": {
+  "needs": [
+   "Rabadon's Deathcap",
+   "Zhonya's Hourglass"
+  ]
+ },
+ "Zealot": {
+  "likes": "crit"
  }
 }

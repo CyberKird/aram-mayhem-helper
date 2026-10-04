@@ -251,6 +251,11 @@ def item_files(items):
             entry["needs"] = m.group(1).lower()
         if item.get("isFinal") is False:
             entry["component"] = True
+        # pe ce merg augmentele de tip "aplica efectele On-Hit" / "crit"
+        if re.search(r"On-?Hit", text):
+            entry["onhit"] = True
+        if "Critical Strike Chance" in text:
+            entry["crit"] = True
 
         # evolutii: "Transforms into X at ..." (Manamune -> Muramana) si lantul
         # de upgrade al cizmelor (Mercury's Treads -> Chainlaced Crushers)
@@ -265,14 +270,60 @@ def item_files(items):
     return desc, stats
 
 
-def augment_effects(augments):
-    """{nume augment: {"range": "melee"|"ranged"}} din textul lor ("You are now melee")."""
-    out = {}
+def names_in(text, item_names):
+    """Itemii numiti in text, in ordinea aparitiei; cel mai lung nume castiga
+    ("Hollow Radiance" nu e si "Radiance")."""
+    found, taken = [], []
+    for name in sorted(item_names, key=len, reverse=True):
+        for m in re.finditer(re.escape(name), text):
+            if not any(a < m.end() and m.start() < b for a, b in taken):
+                taken.append((m.start(), m.end()))
+                found.append((m.start(), name))
+    return [n for _, n in sorted(found)]
+
+
+def augment_effects(augments, item_names, extra_desc=None):
+    """Ce schimba un augment la build, din textul lui (ARAMKit + augment-desc):
+
+      range    "melee"/"ranged"   ("You are now melee": Draw Your Sword)
+      needs    [itemi]            questul cere sa-i ai ("Possess A and B")
+      combine  item               questul ii uneste intr-unul ("combine into X"):
+                                  se elibereaza un slot, iar A si B nu se mai cumpara
+      stack    item               se poate cumpara de mai multe ori ("purchase unlimited")
+      likes    "onhit"/"crit"     augmentul se foloseste de itemii cu efectul asta
+    """
+    texts = {}
     for aug in augments.values():
-        text = tooltip_text(aug).lower()
-        m = re.search(r"you are now (melee|ranged)", text)
+        texts.setdefault(aug["name"], []).append(tooltip_text(aug))
+    for name, text in (extra_desc or {}).items():
+        texts.setdefault(name, []).append(text)
+    out = {}
+    for name, parts in texts.items():
+        text = re.sub(r"\s+", " ", " ".join(parts))
+        low = text.lower()
+        eff = {}
+        m = re.search(r"you are now (melee|ranged)", low)
         if m:
-            out[aug["name"]] = {"range": m.group(1)}
+            eff["range"] = m.group(1)
+        m = re.search(r"Possess (.+?)(?:\.| with |REWARD|Reward|$)", text)
+        if m:
+            need = names_in(m.group(1), item_names)
+            if need:
+                eff["needs"] = need
+        m = re.search(r"combine into (.+?)(?:\.|$)", text, re.I)
+        if m and names_in(m.group(1), item_names):
+            eff["combine"] = names_in(m.group(1), item_names)[0]
+        m = re.search(r"purchase unlimited (?:amounts of )?(.+?)(?:\.|$)", text, re.I)
+        if m and names_in(m.group(1), item_names):
+            eff["stack"] = names_in(m.group(1), item_names)[0]
+        if re.search(r"On-?Hit|Item_Keyword_OnHit", text):
+            eff["likes"] = "onhit"
+        elif "critical strike" in low and "crit" not in name.lower()                 and "can critically strike" not in low:
+            eff["likes"] = "crit"
+        elif re.search(r"crit", name, re.I) and "can critically strike" not in low:
+            eff["likes"] = "crit"
+        if eff:
+            out[name] = eff
     return out
 
 
@@ -328,7 +379,8 @@ def main():
     (DATA / "item-ids.json").write_text(
         json.dumps({k: v["name"] for k, v in res["items"].items()}, sort_keys=True,
                    ensure_ascii=False), encoding="utf-8")
-    effects = augment_effects(res["augments"])
+    effects = augment_effects(res["augments"], set(desc), json.loads(
+        (DATA / "augment-desc.json").read_text(encoding="utf-8")))
     (DATA / "augment-effects.json").write_text(
         json.dumps(effects, indent=1, sort_keys=True, ensure_ascii=False), encoding="utf-8")
     (DATA / "champion-range.json").write_text(

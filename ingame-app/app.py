@@ -24,7 +24,6 @@ import time
 import augment_tier
 import live_client
 import ocr_augments
-import ocr_stat_anvil
 import rules_engine
 import stat_anvil
 from build_scraper import load_cached, slug
@@ -39,7 +38,7 @@ OFFER_TTL = 25.0
 
 # secunde intre doua citiri OCR. Cu oferta pe ecran citim des (un reroll se vede
 # in <0.5 s); in rest rar. Citirea rapida costa ~60 ms, deci nu apasa pe procesor.
-OCR_OFFER, OCR_FAST, OCR_SLOW = 0.35, 0.8, 2.0
+OCR_OFFER, OCR_FAST, OCR_SLOW = 0.3, 0.4, 0.8
 
 BG = "#0a0e14"
 CARD = "#0f1720"
@@ -90,6 +89,11 @@ class Monitor:
         self.global_augments = global_augments
         self.augment_items = augment_items or {}
         self.augment_names = augment_tier.flatten_names(global_augments)
+        # o singura citire pentru ambele ecrane: cardurile de Stat Anvil stau
+        # unde stau si cele de augment, deci recunoastem ambele seturi de nume
+        # din aceleasi benzi, la aceeasi viteza
+        self.ocr_names = self.augment_names + stat_anvil.SHARD_NAMES
+        self._shards = set(stat_anvil.SHARD_NAMES)
         # augmentele confirmate de tine (click pe banda). Nu se pot citi de
         # nicaieri: Riot nu expune alegerea, iar din oferta nu se poate deduce
         # care din cele 3 ai luat. Un click e mai sigur decat orice ghicit.
@@ -111,7 +115,7 @@ class Monitor:
         self._offer_since = 0.0
         self._expired_names = set()
         self._offer_pool = {}
-        self._stat_anvil_tick = 0
+        self._anvil_miss = 0
         self._last_stat_anvil = ()
         # OCR-ul costa cel mai mult procesor din toata aplicatia, deci il rulam
         # des doar cand e probabil sa apara o oferta: la inceputul meciului, dupa
@@ -145,7 +149,7 @@ class Monitor:
         ecranul se comporta altfel, nu se intampla nimic, iar click-ul pe insigna
         ramane varianta sigura.
         """
-        matches = [n for n in (ocr_augments.last_read.get("matches") or []) if n]
+        matches = [n for n in (ocr_augments.last_read.get("matches") or []) if n and n not in self._shards]
         if len(matches) >= 2:
             self._last_full, self._single, self._single_n = matches, None, 0
             return
@@ -205,12 +209,6 @@ class Monitor:
                     # inainte disparea tacut; acum macar UI-ul poate arata
                     # ca OCR-ul chiar a picat, in loc sa para ca nu face nimic
                     self.ocr_status = f"OCR: {type(e).__name__}: {e}"
-                try:
-                    self._stat_anvil_cycle()
-                except Exception:
-                    # ecranul de anvil e un plus; daca pica, oferta de augment
-                    # (care are countdown) trebuie sa mearga mai departe
-                    self.stat_anvil = []
             self.stop.wait(self.ocr_interval())
 
     def _roster_cycle(self):
@@ -238,7 +236,12 @@ class Monitor:
         self._recompute_build()
 
     def _ocr_cycle(self):
-        found, self.ocr_status = ocr_augments.detect_offered_augments(self.augment_names)
+        found, self.ocr_status = ocr_augments.detect_offered_augments(self.ocr_names)
+        shards = [n for n in found if n in self._shards]
+        found = [n for n in found if n not in self._shards]
+        self._anvil(shards)
+        if len(shards) >= 2:
+            found = []          # ecran de Stat Anvil, nu oferta de augment
         self._track_choice()
 
         # o oferta dispare de pe ecran dupa ce alegi; fara asta lista ramanea
@@ -262,18 +265,6 @@ class Monitor:
         fresh = [n for n in found if n not in self._expired_names]
         if not fresh:
             return
-
-        # O citire cu toate cele 3 carduri e oferta intreaga, nu o bucata din
-        # ea: o inlocuim pe loc (reroll = un card nou, iar lista veche nu are
-        # de ce sa mai astepte sa se aduneze).
-        if len(set(found)) == ocr_augments.MAX_OFFER and set(found) != set(self._offer_pool):
-            self._offer_pool = {}
-
-        # O citire cu toate cele 3 carduri e oferta intreaga, nu o bucata din
-        # ea: o inlocuim pe loc (reroll = un card nou, iar lista veche nu are
-        # de ce sa mai astepte sa se aduneze).
-        if len(set(found)) == ocr_augments.MAX_OFFER and set(found) != set(self._offer_pool):
-            self._offer_pool = {}
 
         # O citire cu toate cele 3 carduri e oferta intreaga, nu o bucata din
         # ea: o inlocuim pe loc (reroll = un card nou, iar lista veche nu are
@@ -322,21 +313,16 @@ class Monitor:
         # campionul conteaza: acelasi augment poate fi S+ pe unul si B pe altul
         self.augments = augment_tier.rate(names, self.global_augments, champ)
 
-    def _stat_anvil_cycle(self):
-        # Stat Anvil nu are countdown care te forteaza sa alegi repede (spre
-        # deosebire de augment), deci nu are rost sa cheltuim OCR la fel de
-        # des -- verificam o data la 3 cicluri (~3.6s) si doar cand nu e deja
-        # o oferta de augment pe ecran (nu pot fi amandoua deodata).
-        self._stat_anvil_tick += 1
-        if self.augments or self._stat_anvil_tick % 3 != 0:
-            return
-
-        found, status = ocr_stat_anvil.detect_offered_shards(stat_anvil.SHARD_NAMES)
-        if not found:
-            if self.stat_anvil:
+    def _anvil(self, found):
+        """Shard-urile de pe ecran -> recomandare. Doua citiri goale la rand
+        inchid oferta, ca o citire ratata sa nu stinga banda."""
+        if len(found) < 2:
+            self._anvil_miss += 1
+            if self._anvil_miss >= 2 and self.stat_anvil:
                 self.stat_anvil = []
                 self._last_stat_anvil = ()
             return
+        self._anvil_miss = 0
 
         champ = (self.roster or {}).get("local_champion")
         enemies = (self.roster or {}).get("enemies") or []
@@ -376,7 +362,7 @@ class Monitor:
         self._offer_since = 0.0
         self._expired_names = set()
         self._offer_pool = {}
-        self._stat_anvil_tick = 0
+        self._anvil_miss = 0
         self._last_stat_anvil = ()
         self.taken_augments = []   # meci nou, augmente noi
         self._fast_until = 0.0
@@ -673,6 +659,11 @@ def selfcheck():
     resolved = rules_engine.resolve_build(
         build, {"allies": [], "enemies": ["Ahri", "Lux", "Veigar"]}, champion_tags, rules)
     assert resolved["starting"] == ["Doran's Shield", "Health Potion"]
+    # startul dispare pe masura ce il cumperi, si cu totul dupa primul item mare
+    assert rules_engine.starting_left(["Doran's Shield", "Health Potion"],
+                                      ["Doran's Shield"], {"Health Potion": {"consumable": True}}) == []
+    assert rules_engine.starting_left(["Doran's Shield", "Boots"], ["Boots"]) == ["Doran's Shield"]
+    assert rules_engine.starting_left(["Doran's Shield"], ["Long Sword"]) == []
     picks = [p["item"] for p in resolved["picks"]]
 
     # itemii pe care ii ai deja: marcati "owned", si primul neluat e "next".
@@ -708,7 +699,7 @@ def selfcheck():
         return rules_engine.resolve_build(
             sett, {"allies": [], "enemies": enemies, "enemy_items": [],
                    "ally_items": [], "own_items": own},
-            champion_tags, rules, item_stats)["boots"]
+            champion_tags, rules, item_stats)["sell"]
 
     # 3+ inamici AP -> Mercury's Treads isi face treaba, nu o vindem
     assert boots_for(["Ahri", "Lux", "Veigar"], six) is None
@@ -771,6 +762,38 @@ def selfcheck():
     if adv2:
         detinute = {rules_engine.item_key(n) for n in variante}
         assert rules_engine.item_key(adv2["buy"]) not in detinute, adv2
+
+    # --- ce fac augmentele cu itemii (augment-effects.json) ---------------
+    effects = load_json("augment-effects.json")
+    assert effects["Icathia's Fall"] == {"needs": ["Sunfire Aegis", "Hollow Radiance"],
+                                         "combine": "Void Immolation"}, effects["Icathia's Fall"]
+    assert effects["Dual Wield"].get("likes") == "onhit"
+    tank = {"core": ["Heartsteel", "Thornmail"], "fourth": ["Warmog's Armor"],
+            "pool": ["Heartsteel", "Thornmail", "Warmog's Armor", "Sunfire Aegis", "Hollow Radiance"]}
+    r0 = {"allies": [], "enemies": [], "enemy_items": [], "ally_items": [], "own_items": []}
+    ctx2 = {"effects": effects}
+    icat = rules_engine.resolve_build(tank, r0, champion_tags, rules, item_stats,
+                                      ["Icathia's Fall"], {}, ctx2)
+    assert [e["item"] for e in icat["core"][:2]] == ["Sunfire Aegis", "Hollow Radiance"], icat["core"]
+    # dupa unire, sursele nu se mai cer
+    gata = rules_engine.resolve_build(tank, dict(r0, own_items=["Void Immolation"]), champion_tags,
+                                      rules, item_stats, ["Icathia's Fall"], {}, ctx2)
+    assert "Sunfire Aegis" not in [e["item"] for e in gata["core"] if not e["owned"]], gata["core"]
+    # augment on-hit: dintre optiunile slotului, itemul on-hit
+    adc = {"core": ["Infinity Edge"], "fourth": ["Bloodthirster", "Blade of The Ruined King"],
+           "pool": ["Infinity Edge", "Bloodthirster", "Blade of The Ruined King"]}
+    oh = rules_engine.resolve_build(adc, r0, champion_tags, rules, item_stats, ["Dual Wield"], {}, ctx2)
+    assert oh["picks"][0]["item"] == "Blade of The Ruined King", oh["picks"]
+    # itemul nefolosibil se vinde oricand, nu doar la build plin
+    dead = rules_engine.resolve_build(
+        yun, dict(roster_y, own_items=["Runaan's Hurricane"]), champion_tags, rules, stats_y,
+        ["Draw Your Sword"], {}, ctx)
+    assert dead["sell"] and dead["sell"]["sell"] == "Runaan's Hurricane", dead["sell"]
+    # sloturi pline cu Doran's -> vinde Doran's
+    doran = six[:5] + ["Doran's Shield"]
+    assert boots_for(["Ahri", "Lux", "Veigar"], doran)["sell"] == "Doran's Shield"
+    assert boots_for(["Ahri", "Lux", "Veigar"], six[:5] + ["Guardian's Horn"])["sell"] == "Guardian's Horn"
+    assert boots_for(["Ahri", "Lux", "Veigar"], six[:4] + ["Guardian's Horn"]) is None   # mai e un slot
 
     # --- augment care cere un item anume --------------------------------
     aug_items = load_json("augment-items.json")

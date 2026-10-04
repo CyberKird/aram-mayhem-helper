@@ -57,6 +57,7 @@ class Monitor:
         self.phase = "waiting_for_client"
         self.assigned = None
         self.bench = []
+        self.team = []           # campionii coechipierilor (fara al tau)
         self.error = None
         self._client = None
         self._dumped = False
@@ -78,6 +79,7 @@ class Monitor:
         self.phase = phase
         self.assigned = None
         self.bench = []
+        self.team = []
 
     def cycle(self):
         if self._client is None:
@@ -154,6 +156,11 @@ class Monitor:
 
         self.assigned = entry(mine) if mine else None
         self.bench = [entry(cid) for cid in ids]
+        # ce au ales ceilalti: apar si ei pe ecranul clientului, iar OCR-ul
+        # cartilor personale trebuie sa-i ignore
+        self.team = [logic.describe(m["championId"], data, tiers, over)["name"]
+                     for m in session.get("myTeam") or []
+                     if m.get("championId") and m.get("championId") != mine]
 
 
 def build_ui(mon):
@@ -291,6 +298,12 @@ def selfcheck():
                        "benchChampionIds": [ids["Sett"], ids["Yorick"]]})
     assert not mon.assigned["is_best"]                    # Aatrox D pierde
     assert [e["name"] for e in mon.bench if e["is_best"]] == ["Sett"]
+    # coechipierii: tinuti separat, ca OCR-ul sa nu-i ia drept cartile tale
+    mon._read_session({"localPlayerCellId": 1,
+                       "myTeam": [{"cellId": 1, "championId": ids["Sett"]},
+                                  {"cellId": 2, "championId": ids["Jinx"]}, {"cellId": 3}],
+                       "benchChampionIds": []})
+    assert mon.team == ["Jinx"], mon.team
 
     # la tier egal ramane pe al tau: un reroll lateral nu castiga nimic
     mon._read_session({"localPlayerCellId": 1,

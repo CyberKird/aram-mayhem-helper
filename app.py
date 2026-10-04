@@ -136,10 +136,6 @@ VERSION = "1.2.0"
 
 HOTKEY_LABEL = "CTRL+ALT+Z"
 
-# Cate itemi din build aratam. Tot build-ul insemna 6 randuri din care 4 erau
-# deja cumparate sau prea departe ca sa conteze acum.
-NEXT_ITEMS = 3
-
 # Fereastra isi ia inaltimea din continut, nu dintr-o valoare fixa. Plafonul
 # exista doar ca sa nu creasca peste ecran daca apare tot deodata.
 MAX_HEIGHT = 620
@@ -277,14 +273,13 @@ def build_ui(lcu, lcu_mon, ingame, ingame_mon):
     root.geometry(f"{px(372)}x{px(260)}+{int(x)}+{int(y)}")
 
     # --- lipirea de HUD ---------------------------------------------------
-    # asezarea s-a schimbat (golul vine acum din setarile jocului): offset-urile
-    # salvate cu formula veche ar muta panoul la loc gresit
-    if settings.get("dock_v") != 2:
-        settings.data.pop("dock_offset", None)
-        settings.set("dock_v", 2)
-
-    # hfit: cat am micsorat continutul ca sa incapa pe inaltime (1.0 = deloc)
-    dock = {"last": None, "drag": False, "hfit": 1.0}
+    # La pornirea meciului panoul se aseaza singur in golul dintre HUD si
+    # minimap. Daca il muti (in joc sau pe alt monitor), ramane unde l-ai pus
+    # pana porneste meciul urmator; butonul de langa titlu il pune inapoi.
+    # manual: (x, y) ales de tine, sau None. hfit: cat am micsorat continutul
+    # ca sa incapa pe inaltime (1.0 = deloc).
+    settings.data.pop("dock_offset", None)       # offset-ul permanent de dinainte
+    dock = {"last": None, "drag": False, "hfit": 1.0, "manual": None}
 
     def game_box():
         """(l, t, r, b) al jocului sau None. Fara joc, panoul ramane unde l-ai pus."""
@@ -342,8 +337,16 @@ def build_ui(lcu, lcu_mon, ingame, ingame_mon):
         """Aseaza panoul: lipit de HUD cand jocul e deschis, langa client in champ
         select, altfel pe loc."""
         box = game_box()
+        # meci nou (dupa API-ul jocului, nu dupa fereastra: alt-tab din
+        # fullscreen o minimizeaza): inapoi in gol
+        if ingame_mon.phase == "in_game" and dock.get("phase") != "in_game":
+            dock["manual"] = None
+        dock["phase"] = ingame_mon.phase
         dock["mode"] = "game" if box else None
-        if box is None:
+        if dock["manual"] is not None:
+            w = dock_base(box, h)[2] if box else px(372)
+            geo = f"{w}x{h}+{dock['manual'][0]}+{dock['manual'][1]}"
+        elif box is None:
             tgt = client_target(h)
             if tgt:
                 dock["mode"] = "client"
@@ -355,11 +358,30 @@ def build_ui(lcu, lcu_mon, ingame, ingame_mon):
         else:
             H = box[3] - box[1]
             bx, by, w = dock_base(box, h)
-            ox, oy = settings.get("dock_offset", [0, 0])
-            geo = f"{w}x{h}+{int(bx + ox * H)}+{int(by + oy * H)}"
+            geo = f"{w}x{h}+{bx}+{by}"
         if geo != dock["last"]:
             root.geometry(geo)
             dock["last"] = geo
+
+    def draw_bug():
+        """Iconita de bug desenata la marimea curenta: supraesantionata 4x si
+        redusa, ca liniile subtiri sa ramana curate la orice DPI."""
+        from PIL import Image, ImageDraw, ImageTk
+        size = max(10, round(px(13) * FIT))
+        big = Image.new("RGBA", (64, 64))
+        d = ImageDraw.Draw(big)
+        line = dict(fill=GOLD, width=4)
+        d.ellipse((19, 22, 45, 60), outline=GOLD, width=4)          # corpul
+        d.ellipse((25, 9, 39, 23), fill=GOLD)                       # capul
+        d.line((32, 26, 32, 58), **line)                            # aripile
+        for y0, y1 in ((32, 26), (42, 42), (52, 58)):               # picioarele
+            d.line((19, y0, 7, y1), **line)
+            d.line((45, y0, 57, y1), **line)
+        d.line((28, 12, 21, 2), **line)                             # antenele
+        d.line((36, 12, 43, 2), **line)
+        photo = ImageTk.PhotoImage(big.resize((size, size), Image.LANCZOS))
+        bug.configure(image=photo)
+        bug.image = photo        # referinta vie, altfel Tk o pierde
 
     def update_fit():
         """Potriveste marimea panoului pe jocul curent. True daca s-a schimbat."""
@@ -375,9 +397,10 @@ def build_ui(lcu, lcu_mon, ingame, ingame_mon):
         FIT = new
         # antetul si subsolul nu se redeseneaza la fiecare randare: fontul lor
         # trebuie sa urmeze si el marimea, altfel raman mari pe un panou micsorat
-        for widget, size in ((title, 8), (close, 8), (minimize, 8), (bug, 6),
+        for widget, size in ((title, 8), (close, 8), (minimize, 8), (snap, 8),
                              (context, 7), (status_label, 7)):
             widget.configure(font=pix(size))
+        draw_bug()
         return True
 
     # chenarul de 1px: un frame exterior alb cu padding, peste care sta continutul
@@ -396,9 +419,13 @@ def build_ui(lcu, lcu_mon, ingame, ingame_mon):
     close.pack(side="right")
     minimize = tk.Label(titlebar, text="_", bg=BG, fg=GOLD, font=pix(8), padx=4)
     minimize.pack(side="right")
-    bug = tk.Label(titlebar, text="BUG", bg=BG, fg=DIM, font=pix(6), padx=6,
-                   cursor="hand2")
+    # gandacul de raportat bug-uri, ca in clientul League: contur auriu
+    bug = tk.Label(titlebar, bg=BG, bd=0, padx=6, cursor="hand2")
     bug.pack(side="right")
+    # inapoi in golul dintre HUD si minimap, dupa ce l-ai mutat
+    snap = tk.Label(titlebar, text="\u25c7", bg=BG, fg=GOLD, font=pix(8), padx=4,
+                    cursor="hand2")
+    snap.pack(side="right")
 
     divider1 = tk.Frame(shell, bg=LINE, height=1)
     divider1.pack(fill="x")
@@ -669,7 +696,7 @@ def build_ui(lcu, lcu_mon, ingame, ingame_mon):
                      font=pix(7)).pack(side="right", padx=8)
 
     def boots_row(advice):
-        """Vinde cizmele -> ia asta. Apare doar la 6 itemi, nu mai devreme."""
+        """Vinde X -> ia Y (rules_engine.sell_advice)."""
         outer = tk.Frame(body, bg=ACCENT)
         outer.pack(fill="x", pady=2)
         row = tk.Frame(outer, bg=CARD)
@@ -844,38 +871,53 @@ def build_ui(lcu, lcu_mon, ingame, ingame_mon):
                     shown["fingerprint"] = None
             cell.bind("<Button-1>", drop)
 
+    def next_strip(entries):
+        """Itemii de cumparat, in ordine, ca sloturile din HUD; sub ei, numele
+        si motivul primului. Restul motivelor apar la hover pe iconita."""
+        row = tk.Frame(body, bg=BG)
+        row.pack(fill="x", pady=(2, 0))
+        for i, e in enumerate(entries):
+            first = i == 0
+            col = tk.Frame(row, bg=BG)
+            col.pack(side="left", padx=(0, 4))
+            cell = tk.Frame(col, bg=GOLD if first else LINE)
+            cell.pack()
+            photo = icon("items", e["item"], 36 if first else 30)
+            lbl = tk.Label(cell, image=photo, bg=BG, bd=0) if photo else \
+                tk.Label(cell, text=e["item"][:3].upper(), bg=CARD, fg=DIM, font=pix(7),
+                         width=4, height=2)
+            lbl.pack(padx=2 if first else 1, pady=2 if first else 1)
+            tip_text = "\n\n".join(t for t in (e.get("reason") and e["reason"].capitalize(),
+                                                item_desc.get(e["item"])) if t)
+            attach_tip(lbl, e["item"], tip_text or None)
+            # linie turcoaz sub itemii ceruti de meci (contra-item, augment)
+            tk.Frame(col, bg=ACCENT if e.get("reason") else BG,
+                     height=px(2)).pack(fill="x", pady=(2, 0))
+        head = entries[0]
+        tk.Label(body, text=head["item"], bg=BG, fg=TEXT, font=mono(13, "bold"),
+                 anchor="w").pack(fill="x", pady=(3, 0))
+        if head.get("reason"):
+            tk.Label(body, text=head["reason"].upper(), bg=BG, fg=ACCENT, font=pix(6),
+                     anchor="w", justify="left", wraplength=px(330)).pack(fill="x")
+
     def render_in_game():
-        title.configure(text="ARAM MAYHEM")
         champ = (ingame_mon.roster or {}).get("local_champion") or "?"
         enemies = (ingame_mon.roster or {}).get("enemies") or []
-        # inamicii stau in bara de context, nu intr-o sectiune proprie:
-        # lista lor lua 38px, iar informatia o vezi oricum cu TAB in joc.
-        # Ce conteaza cu adevarat -- cum schimba ei build-ul -- apare oricum
-        # ca motiv verde langa itemi.
-        context.configure(text=f"IN JOC  ·  {champ.upper()}"
-                               + (f"  ·  VS {len(enemies)}" if enemies else ""))
-
-        # Augmentele NU mai apar aici: au banda lor, care se ridica deasupra
-        # cardurilor exact cand ai de ales. Aici ar fi fost tot timpul pe
-        # ecran degeaba, si tot timpul in alt loc decat te uiti.
-
-        if champ != "?":
-            # In joc doar ce conteaza, intr-un singur rand: cifrele campionului.
-            # Schimbarile pe abilitati (text lung) apar la hover, nu in panou.
-            import champ_stats
-            info = champ_stats.info(champ)
-            if info:
-                changes = "\n".join(f"{key}  {ability}: " + " ".join(lines)
-                                    for key, ability, lines in info.get("ability_changes", []))
-                stat_line(body, info, changes or None)
+        # in joc antetul e numele campionului: randul de context si subsolul
+        # sunt ascunse (vezi set_chrome), fiecare pixel din gol conteaza
+        title.configure(text=champ.upper() if champ != "?" else "ARAM MAYHEM")
+        context.configure(text=f"IN JOC  \u00b7  {champ.upper()}"
+                               + (f"  \u00b7  VS {len(enemies)}" if enemies else ""))
+        # Doar ce te ajuta sa castigi meciul: ce cumperi, ce vinzi, ce shard
+        # iei. Cifrele de patch si schimbarile de balans raman in champ select.
+        if ingame_mon.status:
+            note(ingame_mon.status, DIM)
 
         if ingame_mon.taken_augments:
             augment_strip(ingame_mon.taken_augments)
 
         if ingame_mon.stat_anvil:
-            # recomandarea de shard, cu motivul scris, si in panou: banda de
-            # deasupra cardurilor e doar o insigna, aici citesti de ce
-            section(f"STAT ANVIL  \u00b7  {champ.upper()}")
+            section("STAT ANVIL")
             for s in ingame_mon.stat_anvil:
                 label = ANVIL_LABEL.get(s["category"], s["category"].upper())
                 item_row({"item": f"{s['name'].replace(' Shard', '')} ({label})",
@@ -884,34 +926,30 @@ def build_ui(lcu, lcu_mon, ingame, ingame_mon):
 
         rb = ingame_mon.resolved_build
         if rb:
-            # Starting items conteaza doar la inceput. Din clipa in care ai
-            # primul item de core, sectiunea e 53px de istorie.
-            inceput = not any(c["owned"] for c in rb["core"])
-            if inceput and rb.get("starting"):
+            # startul doar cat inca nu l-ai cumparat (rules_engine.starting_left)
+            if rb.get("starting"):
                 section("START")
                 icon_strip(rb["starting"])
 
-            # Doar ce URMEAZA sa cumperi, in ordine, nu tot build-ul. Cele
-            # deja cumparate nu mai sunt o decizie, iar itemul 6 nu conteaza
-            # cand esti la al doilea.
+            # Doar ce URMEAZA sa cumperi, in ordine. Cele deja cumparate nu mai
+            # sunt o decizie.
             ramase = [e for e in rb["core"] + rb["picks"] if not e["owned"]]
             if ramase:
-                section("URMATOARELE" if len(ramase) > 1 else "URMATORUL")
-                for entry in ramase[:NEXT_ITEMS]:
-                    item_row(entry)
+                section("URMEAZA")
+                next_strip(ramase[:6])
             elif rb["picks"]:
                 section("BUILD COMPLET")
                 icon_strip(rb["core"] + rb["picks"])
 
+            sell = rb.get("sell")
+            if sell:
+                section("SCHIMBA")
+                boots_row(sell)
+
             if rb.get("unavailable"):
                 # de ce lipseste un item pe care l-ai astepta: nu-l poti cumpara
-                note("Indisponibil acum: " + ", ".join(rb["unavailable"])
+                note("Indisponibil: " + ", ".join(rb["unavailable"])
                      + (f" (esti {rb['range']})" if rb.get("range") else ""), DIM)
-
-            boots = rb.get("boots")
-            if boots:
-                section("BUILD PLIN")
-                boots_row(boots)
 
         if not ingame_mon.roster:
             note("se incarca...")
@@ -927,15 +965,13 @@ def build_ui(lcu, lcu_mon, ingame, ingame_mon):
             ingame_mon._recompute_build()
             shown["fingerprint"] = None      # forteaza redesenarea panoului
 
-    bar = augment_bar.AugmentBar(root, TIER_COLORS, TIER_FG, UNKNOWN_TIER,
+    bar = augment_bar.AugmentBar(root, TIER_COLORS, UNKNOWN_TIER[1],
                                  pix, mono, on_pick=took_augment)
 
     # Stat Anvil: acelasi fel de banda, deasupra acelorasi carduri, doar ca
     # "tier"-ul e statul oferit si culoarea spune doar daca e alegerea buna --
     # nu exista tier list public pentru shard-uri, deci n-avem ce rank sa aratam.
-    ANVIL_BEST, ANVIL_REST = GOLD, "#1e2328"
-    anvil_bar = augment_bar.AugmentBar(root, {}, {}, (ANVIL_REST, "#a09b8c"),
-                                       pix, mono)
+    anvil_bar = augment_bar.AugmentBar(root, {}, DIM, pix, mono)
 
     # nume lung de card -> eticheta scurta care incape in insigna
     ANVIL_LABEL = {
@@ -948,19 +984,20 @@ def build_ui(lcu, lcu_mon, ingame, ingame_mon):
 
     def anvil_entries(shards):
         """Shard-uri -> forma pe care o stie AugmentBar, plus culorile lor."""
-        entries, colors, fgs = [], {}, {}
+        entries, colors = [], {}
         for s in shards:
             label = ANVIL_LABEL.get(s["category"], s["category"].upper())
-            colors[label] = ANVIL_BEST if s["is_best"] else ANVIL_REST
-            fgs[label] = "#010a13" if s["is_best"] else "#a09b8c"
+            colors[label] = GOLD if s["is_best"] else DIM
             entries.append({"name": s["name"].replace(" Shard", ""),
                             "tier": label, "is_best": s["is_best"],
                             "note": (f"{s['champion']} \u00b7 {s['why']}"
                                      if s["is_best"] and s.get("champion") else None)})
-        return entries, colors, fgs
+        return entries, colors
 
     def champ_known():
-        return [e["name"] for e in ([lcu_mon.assigned] if lcu_mon.assigned else []) + list(lcu_mon.bench)]
+        # tu, bench-ul si coechipierii: toti apar pe ecran, dar nu sunt cartile tale
+        return [e["name"] for e in ([lcu_mon.assigned] if lcu_mon.assigned else [])
+                + list(lcu_mon.bench)] + list(lcu_mon.team)
 
     champ_reader = champ_ocr.ChampSelectReader(
         lcu.load_champion_data().values(),
@@ -968,7 +1005,7 @@ def build_ui(lcu, lcu_mon, ingame, ingame_mon):
         champ_known)
     champ_reader.run()
 
-    pin_bar = augment_bar.PinBar(root, TIER_COLORS, TIER_FG, UNKNOWN_TIER, pix, mono)
+    pin_bar = augment_bar.PinBar(root, TIER_COLORS, UNKNOWN_TIER[1], pix, mono)
 
     def update_bars():
         """Benzile de tier de deasupra cardurilor. Separate de panou si rulate
@@ -989,8 +1026,7 @@ def build_ui(lcu, lcu_mon, ingame, ingame_mon):
             # Stat Anvil si oferta de augment nu apar niciodata deodata, deci
             # a doua banda foloseste aceeasi zona fara sa se suprapuna.
             if ingame_mon.stat_anvil and focused and not ingame_mon.augments:
-                entries, colors, fgs = anvil_entries(ingame_mon.stat_anvil)
-                anvil_bar.colors, anvil_bar.fg_colors = colors, fgs
+                entries, anvil_bar.colors = anvil_entries(ingame_mon.stat_anvil)
                 anvil_bar.show(entries, region)
             else:
                 anvil_bar.hide()
@@ -1034,8 +1070,8 @@ def build_ui(lcu, lcu_mon, ingame, ingame_mon):
                     ingame_mon.roster and tuple(ingame_mon.roster.get("enemies", [])),
                     tuple((c["item"], c["owned"], c["next"]) for c in core),
                     tuple((p["item"], p["reason"], p["owned"], p["next"]) for p in picks),
-                    (ingame_mon.resolved_build or {}).get("boots") and
-                    tuple((ingame_mon.resolved_build["boots"] or {}).values()),
+                    (ingame_mon.resolved_build or {}).get("sell") and
+                    tuple((ingame_mon.resolved_build["sell"] or {}).values()),
                     tuple((a["name"], a["tier"]) for a in ingame_mon.augments),
                     tuple(ingame_mon.taken_augments),
                     tuple((ingame_mon.resolved_build or {}).get("unavailable") or ()),
@@ -1059,6 +1095,23 @@ def build_ui(lcu, lcu_mon, ingame, ingame_mon):
     ]
 
     collapsed = {"want": False, "applied": False}
+    chrome = {"lean": False}
+
+    def set_chrome(view):
+        """In joc fara randul de context si fara subsol: panoul sta in golul
+        dintre HUD si minimap, iar acolo conteaza doar continutul."""
+        lean = view == "in_game"
+        if lean == chrome["lean"] or collapsed["applied"]:
+            return
+        chrome["lean"] = lean
+        if lean:
+            for w in (subbar, divider2, divider3, footer):
+                w.pack_forget()
+        else:
+            subbar.pack(fill="x", padx=8, pady=5, before=body_wrap)
+            divider2.pack(fill="x", before=body_wrap)
+            divider3.pack(fill="x", after=body_wrap)
+            footer.pack(fill="x", padx=8, pady=6, after=divider3)
 
     def toggle_collapsed():
         # ruleaza pe firul hotkey-ului, nu pe cel al Tk-ului -- doar o
@@ -1073,7 +1126,10 @@ def build_ui(lcu, lcu_mon, ingame, ingame_mon):
                 place(root.winfo_height())       # jocul s-a mutat/redimensionat
         if collapsed["want"] != collapsed["applied"]:
             for w, kw in COLLAPSIBLE_PACK:
-                w.pack_forget() if collapsed["want"] else w.pack(**kw)
+                if collapsed["want"]:
+                    w.pack_forget()
+                elif not (chrome["lean"] and w in (subbar, divider2, divider3, footer)):
+                    w.pack(**kw)
             collapsed["applied"] = collapsed["want"]
             # update_idletasks() INAINTE de a citi inaltimea: fara el, Tk
             # raporteaza dimensiunea "naturala" pe layout-ul vechi (dinaintea
@@ -1088,6 +1144,7 @@ def build_ui(lcu, lcu_mon, ingame, ingame_mon):
             return
 
         view = active_view()
+        set_chrome(view)
         fp = fingerprint(view)
         if view != shown["view"] or fp != shown["fingerprint"]:
             shown["view"] = view
@@ -1161,6 +1218,14 @@ def build_ui(lcu, lcu_mon, ingame, ingame_mon):
             VERSION, LOG_DIR, lcu_mon, ingame_mon)
 
     bug.bind("<Button-1>", open_report)
+    draw_bug()
+    attach_tip(bug, "Raporteaza un bug", "Trimite ce vede aplicatia acum, ca sa pot repara.")
+
+    def snap_back(_=None):
+        dock["manual"], dock["last"] = None, None
+        place(root.winfo_height())
+    snap.bind("<Button-1>", snap_back)
+    attach_tip(snap, "Aseaza in gol", "Pune panoul inapoi intre HUD si minimap.")
     close.bind("<Button-1>", lambda _: close_app())
     minimize.bind("<Button-1>", lambda _: toggle_collapsed())
     root.bind("<Escape>", lambda _: close_app())
@@ -1173,23 +1238,20 @@ def build_ui(lcu, lcu_mon, ingame, ingame_mon):
             return              # doar un click pe titlu: nu schimbam nimic
         dock["moved"] = False
         box = game_box()
-        if box is None:
-            tgt = client_target(root.winfo_height())
-            if tgt:
-                x, y, H = tgt
-                settings.set("client_offset", [round((root.winfo_x() - x) / H, 4),
-                                               round((root.winfo_y() - y) / H, 4)])
-                dock["last"] = None
-                return
-            settings.set_pos("panel", root.winfo_x(), root.winfo_y())
+        if box is not None or dock["manual"] is not None:
+            # in meci (sau mutat in timpul lui): ramane exact unde l-ai lasat,
+            # pana porneste meciul urmator
+            dock["manual"] = (root.winfo_x(), root.winfo_y())
+            dock["last"] = None
             return
-        # cu jocul deschis, tinem minte DIFERENTA fata de pozitia lipita, in
-        # fractiuni din inaltimea jocului: ramane buna la orice rezolutie
-        H = box[3] - box[1]
-        bx, by, _w = dock_base(box, root.winfo_height())
-        settings.set("dock_offset", [round((root.winfo_x() - bx) / H, 4),
-                                     round((root.winfo_y() - by) / H, 4)])
-        dock["last"] = None
+        tgt = client_target(root.winfo_height())
+        if tgt:
+            x, y, H = tgt
+            settings.set("client_offset", [round((root.winfo_x() - x) / H, 4),
+                                           round((root.winfo_y() - y) / H, 4)])
+            dock["last"] = None
+            return
+        settings.set_pos("panel", root.winfo_x(), root.winfo_y())
 
     for widget in (titlebar, title, subbar, context):
         widget.bind("<ButtonRelease-1>", remember_pos, add="+")

@@ -14,7 +14,11 @@
    "Seraph's Embrace"
   ]
  },
+ "Ardent Censer": {
+  "onhit": true
+ },
  "Atma's Reckoning": {
+  "crit": true,
   "hp": 700
  },
  "B. F. Sword": {
@@ -39,7 +43,8 @@
   "hp": 400
  },
  "Blade of The Ruined King": {
-  "heal": true
+  "heal": true,
+  "onhit": true
  },
  "Blasting Wand": {
   "component": true
@@ -93,7 +98,8 @@
   "hp": 450
  },
  "Cloak of Agility": {
-  "component": true
+  "component": true,
+  "crit": true
  },
  "Cloth Armor": {
   "component": true
@@ -120,7 +126,8 @@
   "hp": 200
  },
  "Dusk and Dawn": {
-  "hp": 300
+  "hp": 300,
+  "onhit": true
  },
  "Echoes of Helia": {
   "hp": 200
@@ -144,6 +151,10 @@
  "Endless Hunger": {
   "heal": true
  },
+ "Essence Reaver": {
+  "crit": true,
+  "onhit": true
+ },
  "Executioner's Calling": {
   "component": true
  },
@@ -155,6 +166,9 @@
  },
  "Fated Ashes": {
   "component": true
+ },
+ "Fiendhunter Bolts": {
+  "crit": true
  },
  "Fiendish Codex": {
   "component": true
@@ -187,6 +201,7 @@
   "heal": true
  },
  "Golden Spatula": {
+  "crit": true,
   "heal": true,
   "hp": 200
  },
@@ -203,6 +218,9 @@
  },
  "Guardian's Orb": {
   "component": true
+ },
+ "Guinsoo's Rageblade": {
+  "onhit": true
  },
  "Haunting Guise": {
   "component": true,
@@ -223,6 +241,9 @@
  "Hexdrinker": {
   "component": true
  },
+ "Hexoptics C44": {
+  "crit": true
+ },
  "Hextech Alternator": {
   "component": true
  },
@@ -242,7 +263,14 @@
  },
  "Iceborn Gauntlet": {
   "armor": 50,
-  "hp": 300
+  "hp": 300,
+  "onhit": true
+ },
+ "Immortal Shieldbow": {
+  "crit": true
+ },
+ "Infinity Edge": {
+  "crit": true
  },
  "Ionian Boots of Lucidity": {
   "boots": true
@@ -269,11 +297,17 @@
   "heal": true,
   "hp": 200
  },
+ "Kraken Slayer": {
+  "onhit": true
+ },
  "Last Whisper": {
   "component": true
  },
  "Liandry's Torment": {
   "hp": 300
+ },
+ "Lich Bane": {
+  "onhit": true
  },
  "Lifeline": {
   "component": true
@@ -285,6 +319,9 @@
  },
  "Long Sword": {
   "component": true
+ },
+ "Lord Dominik's Regards": {
+  "crit": true
  },
  "Lost Chapter": {
   "component": true
@@ -314,6 +351,18 @@
  "Morellonomicon": {
   "hp": 350
  },
+ "Mortal Reminder": {
+  "crit": true
+ },
+ "Muramana": {
+  "onhit": true
+ },
+ "Nashor's Tooth": {
+  "onhit": true
+ },
+ "Navori Flickerblade": {
+  "crit": true
+ },
  "Needlessly Large Rod": {
   "component": true
  },
@@ -322,7 +371,8 @@
   "mr": 45
  },
  "Noonquiver": {
-  "component": true
+  "component": true,
+  "crit": true
  },
  "Null-Magic Mantle": {
   "component": true
@@ -336,6 +386,9 @@
  "Phage": {
   "component": true,
   "hp": 200
+ },
+ "Phantom Dancer": {
+  "crit": true
  },
  "Pickaxe": {
   "component": true
@@ -354,6 +407,9 @@
   "armor": 75,
   "hp": 350
  },
+ "Rapid Firecannon": {
+  "crit": true
+ },
  "Ravenous Hydra": {
   "heal": true
  },
@@ -361,7 +417,8 @@
   "component": true
  },
  "Recurve Bow": {
-  "component": true
+  "component": true,
+  "onhit": true
  },
  "Refillable Potion": {
   "component": true,
@@ -376,6 +433,9 @@
   "heal": true,
   "hp": 350
  },
+ "Rite of Ruin": {
+  "crit": true
+ },
  "Rod of Ages": {
   "heal": true,
   "hp": 350
@@ -384,7 +444,9 @@
   "component": true
  },
  "Runaan's Hurricane": {
-  "needs": "ranged"
+  "crit": true,
+  "needs": "ranged",
+  "onhit": true
  },
  "Rylai's Crystal Scepter": {
   "hp": 400
@@ -402,7 +464,8 @@
   "component": true
  },
  "Sheen": {
-  "component": true
+  "component": true,
+  "onhit": true
  },
  "Sorcerer's Shoes": {
   "boots": true
@@ -426,12 +489,18 @@
   "consumable": true,
   "heal": true
  },
+ "Statikk Shiv": {
+  "onhit": true
+ },
  "Steel Sigil": {
   "armor": 30,
   "component": true
  },
  "Sterak's Gage": {
   "hp": 400
+ },
+ "Stormrazor": {
+  "crit": true
  },
  "Stridebreaker": {
   "hp": 450
@@ -444,13 +513,20 @@
   "hp": 350
  },
  "Sword of Blossoming Dawn": {
-  "hp": 200
+  "hp": 200,
+  "onhit": true
  },
  "Tear of the Goddess": {
   "component": true
  },
+ "Terminus": {
+  "onhit": true
+ },
  "The Brutalizer": {
   "component": true
+ },
+ "The Collector": {
+  "crit": true
  },
  "Thornmail": {
   "armor": 75
@@ -460,10 +536,12 @@
  },
  "Titanic Hydra": {
   "heal": true,
-  "hp": 600
+  "hp": 600,
+  "onhit": true
  },
  "Trinity Force": {
-  "hp": 333
+  "hp": 333,
+  "onhit": true
  },
  "Tunneler": {
   "component": true,
@@ -518,10 +596,15 @@
   "hp": 550
  },
  "Wit's End": {
-  "mr": 45
+  "mr": 45,
+  "onhit": true
+ },
+ "Yun Tal Wildarrows": {
+  "crit": true
  },
  "Zeal": {
-  "component": true
+  "component": true,
+  "crit": true
  },
  "Zeke's Convergence": {
   "hp": 300

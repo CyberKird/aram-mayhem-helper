@@ -449,12 +449,6 @@ def read_offer(img, augment_names):
 _idle_fast = 0
 IDLE_FULL_EVERY = 8    # la cate citiri rapide goale facem una completa
 
-_idle_fast = 0
-IDLE_FULL_EVERY = 8    # la cate citiri rapide goale facem una completa
-
-_idle_fast = 0
-IDLE_FULL_EVERY = 8    # la cate citiri rapide goale facem una completa
-
 _layout = None      # {"size": (W, H), "fx": [3 x fractie din W], "fy": fractie din H}
 
 BAND_HALF_W = 0.17     # jumatate din latimea benzii, ca fractie din inaltimea jocului
