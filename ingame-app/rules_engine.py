@@ -380,7 +380,7 @@ def sell_advice(build, roster, hot, item_stats=None, ok=None, rng=None, plan=())
              and not (stats.get(n) or {}).get("boots")), None)
         if filler and buy:
             return {"sell": filler, "buy": buy,
-                    "reason": f"item de start: vinde-l cand ai aur de {buy}"}
+                    "reason": "item de start, slotul valoreaza mai mult"}
 
     advice = boots_advice(build, roster, hot, item_stats)
     if advice or len(own) < FULL_BUILD:

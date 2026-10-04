@@ -133,7 +133,7 @@ def be_lightweight():
 
 # Ridica-l INAINTE de a publica un Release nou, altfel exe-ul deja instalat
 # la useri nu vede ca a aparut ceva mai nou.
-VERSION = "1.3.1"
+VERSION = "1.3.2"
 
 HOTKEY_LABEL = "CTRL+ALT+Z"
 
@@ -746,15 +746,16 @@ def build_ui(lcu, lcu_mon, ingame, ingame_mon):
 
         texts = tk.Frame(row, bg=CARD)
         texts.pack(side="left", fill="x", expand=True, padx=(6, 0), pady=4)
-        tk.Label(texts, text=f"VINDE {advice['sell']}", bg=CARD, fg=DIM,
+        tk.Label(texts, text=f"VINDE {advice['sell']}", bg=CARD, fg=DOWN,
                  font=pix(7), anchor="w", justify="left",
                  wraplength=px(BOOTS_WRAP)).pack(fill="x")
-        tk.Label(texts, text=advice["buy"], bg=CARD, fg=TEXT,
-                 font=mono(13, "bold"), anchor="w").pack(fill="x", pady=(2, 0))
+        tk.Label(texts, text=f"IA {advice['buy']}", bg=CARD, fg=TEXT,
+                 font=mono(12, "bold"), anchor="w", justify="left",
+                 wraplength=px(BOOTS_WRAP)).pack(fill="x", pady=(1, 0))
         if advice["reason"]:
             tk.Label(texts, text=advice["reason"].upper(), bg=CARD, fg=ACCENT,
-                     font=pix(7), anchor="w", justify="left",
-                     wraplength=px(BOOTS_WRAP)).pack(fill="x", pady=(3, 0))
+                     font=pix(6), anchor="w", justify="left",
+                     wraplength=px(BOOTS_WRAP)).pack(fill="x", pady=(1, 0))
 
     def note(text, color=DIM):
         tk.Label(body, text=text, bg=BG, fg=color, font=mono(11), anchor="w",
@@ -974,6 +975,11 @@ def build_ui(lcu, lcu_mon, ingame, ingame_mon):
                 section("START")
                 icon_strip(rb["starting"])
 
+            # Vanzarea e cel mai urgent lucru de pe ecran: sta prima, ca sa nu
+            # ramana niciodata sub marginea panoului.
+            if rb.get("sell"):
+                boots_row(rb["sell"])
+
             # Doar ce URMEAZA sa cumperi, in ordine. Cele deja cumparate nu mai
             # sunt o decizie.
             ramase = [e for e in rb["core"] + rb["picks"] if not e["owned"]]
@@ -982,11 +988,6 @@ def build_ui(lcu, lcu_mon, ingame, ingame_mon):
             elif rb["picks"]:
                 section("BUILD COMPLET")
                 icon_strip(rb["core"] + rb["picks"])
-
-            sell = rb.get("sell")
-            if sell:
-                section("SCHIMBA")
-                boots_row(sell)
 
             if rb.get("unavailable"):
                 # de ce lipseste un item pe care l-ai astepta: nu-l poti cumpara

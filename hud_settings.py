@@ -89,7 +89,7 @@ def read():
 
 
 HUD_TALL_BASE = 0.092  # inaltimea HUD-ului cu itemele (chenar inclus), la GlobalScale 0
-PANEL_TALL = 1.5       # panoul poate fi cu putin mai inalt decat HUD-ul, nu cat harta
+PANEL_TALL = 2.6       # destul cat sa incapa itemul urmator si sfatul de vanzare, tot sub inaltimea hartii
 EDGE = 0.002           # cat lasam intre panou si chenarele vecine, din inaltime
 
 
