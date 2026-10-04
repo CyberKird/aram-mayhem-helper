@@ -27,6 +27,7 @@ import bug_report
 import champ_ocr
 import data_sync
 import hotkey
+import hud_settings
 import settings as settings_mod
 import updater
 
@@ -276,6 +277,12 @@ def build_ui(lcu, lcu_mon, ingame, ingame_mon):
     root.geometry(f"{px(372)}x{px(260)}+{int(x)}+{int(y)}")
 
     # --- lipirea de HUD ---------------------------------------------------
+    # asezarea s-a schimbat (golul vine acum din setarile jocului): offset-urile
+    # salvate cu formula veche ar muta panoul la loc gresit
+    if settings.get("dock_v") != 2:
+        settings.data.pop("dock_offset", None)
+        settings.set("dock_v", 2)
+
     # hfit: cat am micsorat continutul ca sa incapa pe inaltime (1.0 = deloc)
     dock = {"last": None, "drag": False, "hfit": 1.0}
 
@@ -296,8 +303,11 @@ def build_ui(lcu, lcu_mon, ingame, ingame_mon):
         """(x, y, w) al panoului lipit, fara diferenta ta personala."""
         l, t, r, b = box
         H = b - t
-        w = min(int(DOCK_W * H), px(372))
-        return int(r - DOCK_RIGHT * H - w), int(b - DOCK_BOTTOM * H - h), w
+        # golul dintre HUD si minimap, din setarile jocului (marimea hartii difera
+        # de la jucator la jucator, deci nu o putem presupune fixa)
+        right, gap_w = hud_settings.gap(r - l, H)
+        w = min(int(gap_w), px(372))
+        return int(l + right - w), int(b - DOCK_BOTTOM * H - h), w
 
     def client_target(h):
         """(x, y, H) pentru panou langa clientul League, in champ select, sau None.
@@ -355,8 +365,11 @@ def build_ui(lcu, lcu_mon, ingame, ingame_mon):
         """Potriveste marimea panoului pe jocul curent. True daca s-a schimbat."""
         global FIT
         box = game_box()
-        new = 1.0 if box is None else max(
-            0.7, min(1.3, DOCK_W * (box[3] - box[1]) / (372 * UI_SCALE))) * dock["hfit"]
+        if box is None:
+            new = 1.0
+        else:
+            _, gap_w = hud_settings.gap(box[2] - box[0], box[3] - box[1])
+            new = max(0.55, min(1.3, gap_w / (372 * UI_SCALE))) * dock["hfit"]
         if abs(new - FIT) < 0.01:
             return False
         FIT = new
@@ -444,9 +457,11 @@ def build_ui(lcu, lcu_mon, ingame, ingame_mon):
 
     def press(e):
         dock["drag"] = True
+        dock["moved"] = False
         drag["x"], drag["y"] = e.x_root - root.winfo_x(), e.y_root - root.winfo_y()
 
     def move(e):
+        dock["moved"] = True
         root.geometry(f"+{e.x_root - drag['x']}+{e.y_root - drag['y']}")
 
     for widget in (titlebar, title, subbar, context):
@@ -1154,6 +1169,9 @@ def build_ui(lcu, lcu_mon, ingame, ingame_mon):
     # pozitia ferestrei se retine intre sesiuni: o asezi o data unde vrei
     def remember_pos(_=None):
         dock["drag"] = False
+        if not dock.get("moved"):
+            return              # doar un click pe titlu: nu schimbam nimic
+        dock["moved"] = False
         box = game_box()
         if box is None:
             tgt = client_target(root.winfo_height())
