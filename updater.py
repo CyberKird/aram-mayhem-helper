@@ -16,6 +16,7 @@ ne ascundem de el: pur si simplu nu mai pornim procese in lant. Descarcarea
 si inlocuirea raman automate, repornirea o face utilizatorul cu un dublu-click.
 """
 
+import os
 import pathlib
 import sys
 import tempfile
@@ -66,9 +67,14 @@ def check(current):
     return None
 
 
-def download(url):
-    """Descarca noul exe intr-un fisier temporar si da calea lui."""
-    fd, tmp = tempfile.mkstemp(suffix=".exe", prefix="aram-update-")
+def download(url, folder=None):
+    """Descarca noul exe intr-un fisier temporar si da calea lui.
+
+    Langa exe, nu in %TEMP%: apply() il muta peste exe-ul curent, iar o mutare
+    intre discuri (TEMP pe C:, aplicatia pe E:) nu merge.
+    """
+    folder = folder or pathlib.Path(sys.executable).parent
+    fd, tmp = tempfile.mkstemp(suffix=".exe", prefix="aram-update-", dir=folder)
     os.close(fd)
     tmp = pathlib.Path(tmp)
     with requests.get(url, stream=True, timeout=60) as r:
@@ -163,5 +169,29 @@ def selfcheck():
         cleanup(exe=fake)
         assert not fake.with_suffix(".old.exe").exists(), ".old n-a fost curatat"
         cleanup(exe=fake)          # a doua oara nu are voie sa crape
+
+        # descarcarea, cu un raspuns simulat: un `import os` lipsa a facut ca
+        # fiecare update sa iasa "descarcare esuata", fara ca selfcheck-ul sa vada
+        class Fake:
+            def __enter__(self):
+                return self
+
+            def __exit__(self, *_):
+                return False
+
+            def raise_for_status(self):
+                pass
+
+            def iter_content(self, chunk_size):
+                return [b"x" * chunk_size] * 40
+
+        real_get = requests.get
+        requests.get = lambda *a, **k: Fake()
+        try:
+            got = download("https://exemplu/app.exe", folder=d)
+        finally:
+            requests.get = real_get
+        assert got.parent == pathlib.Path(d) and got.stat().st_size > 1 << 20, got
+        got.unlink()
 
     print("selfcheck OK (updater)")
