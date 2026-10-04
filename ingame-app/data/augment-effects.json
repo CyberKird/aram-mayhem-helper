@@ -122,6 +122,12 @@
    "Profane Hydra"
   ]
  },
+ "Upgrade Immolate": {
+  "any": [
+   "Hollow Radiance",
+   "Sunfire Aegis"
+  ]
+ },
  "Upgrade Infinity Edge": {
   "likes": "crit"
  },

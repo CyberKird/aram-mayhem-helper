@@ -17,6 +17,7 @@ pe API-ul asta) -- ramane limitarea cunoscuta, vezi README.
 
 import json
 import pathlib
+import re
 import sys
 import threading
 import time
@@ -38,6 +39,7 @@ DATA = pathlib.Path(__file__).with_name("data")
 # afisat degeaba -- iar panoul de augmente acoperea build-ul pana dadeai
 # alt-tab (unfocus-ul golea lista, si asa se "repara" singur).
 OFFER_TTL = 25.0
+OFFER_GOLD_WINDOW = 12.0   # secunde dupa oferta in care un salt de aur = augmentul ales
 
 # secunde intre doua citiri OCR. Cu oferta pe ecran citim des (un reroll se vede
 # in <0.5 s); in rest rar. Citirea rapida costa ~60 ms, deci nu apasa pe procesor.
@@ -141,6 +143,14 @@ class Monitor:
         self._last_full = []
         self._single = None
         self._single_n = 0
+        # augmentele care cer un item ("Upgrade Ravenous Hydra") iti dau si aur
+        # pe loc; un salt de aur imediat dupa o oferta care il continea = l-ai luat
+        self._aug_gold = {}
+        for name, text in self._optional("augment-desc.json").items():
+            m = re.search(r"(\d+) Gold", str(text))
+            if m:
+                self._aug_gold[name] = int(m.group(1))
+        self._recent_offer, self._recent_at = [], 0.0
 
     @staticmethod
     def _optional(name):
@@ -180,10 +190,36 @@ class Monitor:
         if (isinstance(gold, (int, float)) and self._last_gold is not None
                 and gold <= self._last_gold - 700):
             self._fast_until = now + 30          # cheltuiala mare: poate Stat Anvil
+        if isinstance(gold, (int, float)) and self._last_gold is not None:
+            self._gold_pick(gold - self._last_gold, now)
         if isinstance(level, int):
             self._last_level = level
         if isinstance(gold, (int, float)):
             self._last_gold = gold
+
+    def _gold_pick(self, jump, now):
+        """Augmentul "Upgrade X" ales, dedus din aurul primit la alegere.
+
+        Jocul nu spune ce augment ai luat, iar cardul ales nu ramane mereu
+        singur pe ecran (asa a fost ratat Upgrade Ravenous Hydra). Daca oferta
+        de acum cateva secunde avea UN SINGUR augment care cere item si aurul a
+        sarit cu cat da el, l-ai luat.
+        """
+        # ponytail: un kill exact in fereastra asta poate parea alegere; click-ul
+        # pe insigna ramane corectura sigura
+        if jump < 200 or now - self._recent_at > OFFER_GOLD_WINDOW:
+            return
+        effects = self._static.get("effects") or {}
+        cands = [n for n in self._recent_offer
+                 if (n in self.augment_items or (effects.get(n) or {}).get("any"))
+                 and n not in self.taken_augments
+                 and jump >= self._aug_gold.get(n, 250) - 30]
+        # +500 il acopera si pe unul de 250: castiga cel mai mare care incape
+        top = max((self._aug_gold.get(n, 250) for n in cands), default=0)
+        cands = [n for n in cands if self._aug_gold.get(n, 250) == top]
+        if len(cands) == 1:
+            self.taken_augments.append(cands[0])
+            self._recent_offer, self._recent_at = [], 0.0
 
     def ocr_interval(self):
         if self.augments or self.stat_anvil:
@@ -316,6 +352,7 @@ class Monitor:
         # de la o citire la alta si nu vedeai niciodata toate trei deodata.
         for name in fresh:
             self._offer_pool.setdefault(name, now)
+        self._recent_offer, self._recent_at = list(self._offer_pool), now
 
         champ = (self.roster or {}).get("local_champion")
         names = sorted(self._offer_pool, key=self._offer_pool.get)[:ocr_augments.MAX_OFFER]
@@ -412,6 +449,7 @@ class Monitor:
         self._last_level = None
         self._last_gold = None
         self._last_full, self._single, self._single_n = [], None, 0
+        self._recent_offer, self._recent_at = [], 0.0
         self._known_champion = None
         self.status = ""
 
@@ -1011,6 +1049,26 @@ def selfcheck():
         dupa = [a["name"] for a in mon3.augments]
         assert dupa == ["Dual Wield", "Tap Dancer"], dupa
         assert "Goliath" not in dupa, "augmentele vechi au ramas dupa reroll"
+
+        # Upgrade Ravenous Hydra luat (bug raportat in joc): cardul ales n-a
+        # ramas singur pe ecran, dar aurul a sarit cu 500 imediat dupa oferta
+        aug_items = load_json("augment-items.json")
+        mon4 = Monitor(champ_id_map, champion_tags, rules, global_augments, None, aug_items)
+        mon4.roster = {"local_champion": None}
+        ocr_augments.detect_offered_augments = lambda names, **k: (
+            ["Upgrade Ravenous Hydra", "Goliath", "Upgrade Immolate"], "t")
+        mon4._ocr_cycle()
+        mon4._note_activity(9, 1000)
+        mon4._note_activity(9, 1100)          # +100: venit normal, nimic
+        assert mon4.taken_augments == [], mon4.taken_augments
+        mon4._note_activity(9, 1360)          # +260: Immolate (250), nu Hydra (500)
+        assert mon4.taken_augments == ["Upgrade Immolate"], mon4.taken_augments
+        mon4.taken_augments = []
+        mon4._ocr_cycle()                     # aceeasi oferta, din nou pe ecran
+        mon4._note_activity(9, 1870)          # +510: Hydra, cea mai mare care incape
+        assert mon4.taken_augments == ["Upgrade Ravenous Hydra"], mon4.taken_augments
+        mon4._note_activity(9, 2400)          # alt salt, oferta deja consumata
+        assert mon4.taken_augments == ["Upgrade Ravenous Hydra"], mon4.taken_augments
     finally:
         OFFER_TTL = real_ttl
         ocr_augments.detect_offered_augments = real_detect

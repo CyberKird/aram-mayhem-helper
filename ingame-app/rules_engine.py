@@ -240,6 +240,14 @@ def resolve_build(build, roster, champion_tags, rule_set, item_stats=None,
         why = (f"{aug}: se unesc in {eff['combine']}" if eff.get("combine")
                else f"quest {aug}")
         needed += [(n, why) for n in eff.get("needs") or ()]
+        # "Upgrade Immolate": oricare din Sunfire Aegis / Hollow Radiance. Daca
+        # n-ai niciunul, primul care incape, preferat cel din build-ul tau.
+        anyof = eff.get("any") or []
+        if anyof and not any(item_key(n) in owned for n in anyof):
+            pool = {item_key(p) for p in build.get("pool") or []}
+            free = sorted((n for n in anyof if ok(n)), key=lambda n: item_key(n) not in pool)
+            if free:
+                needed.append((free[0], f"cerut de {aug}"))
         if eff.get("stack"):
             needed.append((eff["stack"], f"{aug}: se cumuleaza"))
     seen = set()

@@ -292,6 +292,7 @@ def augment_effects(augments, item_names, extra_desc=None):
                                   se elibereaza un slot, iar A si B nu se mai cumpara
       stack    item               se poate cumpara de mai multe ori ("purchase unlimited")
       likes    "onhit"/"crit"     augmentul se foloseste de itemii cu efectul asta
+      any      [itemi]            "Upgrade" care merge cu oricare din ei (Immolate)
     """
     texts = {}
     for aug in augments.values():
@@ -311,6 +312,12 @@ def augment_effects(augments, item_names, extra_desc=None):
             need = names_in(m.group(1), item_names)
             if need:
                 eff["needs"] = need
+        # "Upgrade Immolate: Hollow Radiance and Sunfire Aegis grant...": augmentul
+        # merge cu oricare din itemii din prima propozitie
+        if name.startswith("Upgrade"):
+            first = names_in(text.split(".")[0], item_names)
+            if len(first) >= 2:
+                eff["any"] = first
         m = re.search(r"combine into (.+?)(?:\.|$)", text, re.I)
         if m and names_in(m.group(1), item_names):
             eff["combine"] = names_in(m.group(1), item_names)[0]

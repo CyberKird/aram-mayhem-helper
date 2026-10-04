@@ -31,13 +31,18 @@ def build_augment_items(item_names):
     by_lower = {n.lower(): n for n in item_names}
     out = {}
     for aug in augment_tier.flatten_names(global_augments):
-        if not aug.startswith("Upgrade "):
+        if not aug.startswith("Upgrade"):
             continue
-        base = aug[len("Upgrade "):].strip()
-        item = by_lower.get(base.lower())
+        # "Upgrade X" si "Upgrade: X"
+        base = aug[len("Upgrade"):].lstrip(":").strip().lower()
+        if not base:
+            continue
+        item = by_lower.get(base) or by_lower.get("the " + base)   # "Upgrade Collector"
         if item is None:
-            # "Upgrade Zhonya's" -> "Zhonya's Hourglass": prefix unic
-            matches = [n for low, n in by_lower.items() if low.startswith(base.lower())]
+            # "Upgrade Zhonya's" -> "Zhonya's Hourglass", "Upgrade Cutlass" ->
+            # "Spectral Cutlass": doar cand un singur item se potriveste
+            matches = [n for low, n in by_lower.items() if low.startswith(base)] \
+                or [n for low, n in by_lower.items() if base in low.split()]
             item = matches[0] if len(matches) == 1 else None
         if item:
             out[aug] = item
