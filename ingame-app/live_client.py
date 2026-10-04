@@ -5,12 +5,40 @@ meci efectiv pornit (nu in champ select). Expune tot rosterul (ambele echipe),
 nu doar echipa proprie -- exact ce ne trebuie pentru build adaptat la comp.
 """
 
+import json
+import pathlib
+
 import requests
 import urllib3
 
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 BASE = "https://127.0.0.1:2999/liveclientdata"
+
+
+_ids = None
+
+
+def item_names_by_id():
+    """{itemID: nume} din itemele de Mayhem (data/item-ids.json).
+
+    Cheia e id-ul, nu textul: displayName vine in limba clientului si cateva
+    iteme au nume diferit in joc fata de datele noastre, iar un nume care nu
+    se potriveste inseamna "itemul asta nu l-am detectat". Id-ul nu greseste.
+    """
+    global _ids
+    if _ids is None:
+        try:
+            path = pathlib.Path(__file__).with_name("data") / "item-ids.json"
+            _ids = json.loads(path.read_text(encoding="utf-8"))
+        except (OSError, ValueError):
+            _ids = {}
+    return _ids
+
+
+def item_label(item):
+    """Numele cu care recunoastem itemul: dupa id daca il stim, altfel cel din joc."""
+    return item_names_by_id().get(str(item.get("itemID"))) or item.get("displayName")
 
 
 def get(path):
@@ -64,8 +92,8 @@ def get_roster():
         if local_team is None:
             continue
 
-        names = [i.get("displayName") for i in (p.get("items") or [])
-                 if i.get("displayName")]
+        names = [label for label in (item_label(i) for i in (p.get("items") or []))
+                 if label]
         if p.get("team") == local_team:
             allies.append(champ)
             if is_local:

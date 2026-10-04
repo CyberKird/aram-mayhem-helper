@@ -47,6 +47,30 @@ def enable_dpi_awareness():
             pass
 
 
+def show_in_taskbar(root):
+    """Buton in taskbar (si deci posibilitatea de pin) pentru o fereastra fara chenar.
+
+    Cu overrideredirect Windows nu da niciun buton in taskbar. Stilul
+    WS_EX_APPWINDOW il cere explicit, iar scoaterea lui WS_EX_TOOLWINDOW il
+    face sa nu mai fie tratata ca paleta. Stilul se aplica doar la urmatoarea
+    afisare, de-asta ascundem si reafisam fereastra.
+    """
+    try:
+        user32 = ctypes.windll.user32
+        user32.GetParent.restype = ctypes.c_void_p
+        user32.GetWindowLongW.argtypes = [ctypes.c_void_p, ctypes.c_int]
+        user32.SetWindowLongW.argtypes = [ctypes.c_void_p, ctypes.c_int, ctypes.c_long]
+        root.update_idletasks()
+        hwnd = user32.GetParent(root.winfo_id())
+        GWL_EXSTYLE, APPWINDOW, TOOLWINDOW = -20, 0x00040000, 0x00000080
+        style = user32.GetWindowLongW(hwnd, GWL_EXSTYLE)
+        user32.SetWindowLongW(hwnd, GWL_EXSTYLE, (style & ~TOOLWINDOW) | APPWINDOW)
+        root.withdraw()
+        root.after(30, root.deiconify)
+    except Exception:
+        pass        # fara buton in taskbar, dar aplicatia merge
+
+
 # 1.0 la 96 DPI (100%); 1.5 la 150% etc. Setat in build_ui dupa ce exista Tk.
 # Fonturile (in puncte) se scaleaza singure; pixelii fixi de mai jos nu.
 UI_SCALE = 1.0
@@ -870,6 +894,7 @@ def build_ui(lcu, lcu_mon, ingame, ingame_mon):
     root.after(300, check_hotkey_registered)
 
     root.deiconify()
+    show_in_taskbar(root)
     refresh()
     animate()
     return root
@@ -958,6 +983,13 @@ def main():
         return
 
     enable_dpi_awareness()
+    try:
+        # identitate proprie in taskbar: se grupeaza si se fixeaza (pin) separat
+        # de python.exe, cu iconita exe-ului
+        ctypes.windll.shell32.SetCurrentProcessExplicitAppUserModelID(
+            "Joltarise.AramMayhemHelper")
+    except Exception:
+        pass
     if already_running():
         return
 

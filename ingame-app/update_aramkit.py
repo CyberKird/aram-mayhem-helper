@@ -11,6 +11,8 @@ Ce scrie:
   ingame-app/data/builds/*.json  build de Mayhem per campion (start, core, 4/5/6, spells)
   ingame-app/data/augments/*.json  tier de augment per campion, din win rate real
   ingame-app/data/augments-global.json  tier global per raritate
+  ingame-app/data/item-ids.json, item-desc.json, item-stats.json  itemii de Mayhem (text, armura/MR/viata,
+                                 cizme, componente, evolutii), nu cei de ARAM clasic
   ingame-app/data/mayhem-bundle.json  toate cele de mai sus intr-un fisier, pe care
                                  aplicatia il ia din repo la pornire (data_sync.py)
 
@@ -39,6 +41,13 @@ MIN_PICK = 0.02          # optiune de item / profil de build
 MIN_BOOTS_PICK = 0.03    # cizmele au putine variante, deci prag mai mare
 MIN_SPELL_PICK = 0.05    # perechea de summoner spells
 SLOT_OPTIONS = 4         # cate optiuni pastram pe slotul 4/5/6
+
+# Itemi pe care jucatorul nu ii poate cumpara desi datele ii listeaza (raportat
+# din joc). Se scot din orice recomandare; adauga aici ce se mai gaseste.
+BLOCKED_ITEMS = {"Gluttonous Greaves"}
+
+# praguri sub care itemul nu conteaza ca "item de aparare" (componente mici)
+MIN_ARMOR, MIN_MR, MIN_HP = 30, 30, 200
 
 
 def get(url, retries=3):
@@ -95,7 +104,18 @@ def ranked(rows, min_pick=0.0):
 
 
 def item_name(items, item_id):
-    return (items.get(str(item_id)) or {}).get("name")
+    """Numele itemului DOAR daca il poti cumpara din shop.
+
+    Itemii "conditional" (dati de augmente: Ultra Hydra, Wooglet's Witchcap) si
+    cei "transform" (Muramana apare singur din Manamune) apar in statisticile
+    de meciuri, dar a-i recomanda e o recomandare imposibila de urmat.
+    """
+    it = items.get(str(item_id)) or {}
+    if it.get("acquisition") != "shop" or not it.get("purchasable"):
+        return None
+    if it.get("name") in BLOCKED_ITEMS:
+        return None
+    return it.get("name")
 
 
 def is_boots(items, item_id):
@@ -178,6 +198,66 @@ def augment_tiers(d, augments):
     return out
 
 
+def tooltip_text(item):
+    """Tooltip-ul de Mayhem ca text simplu, cate un paragraf pe rand."""
+    lines = []
+    for block in (item.get("tooltip") or {}).get("blocks", []):
+        text = "".join(sp.get("text") or "" for sp in block.get("spans", []))
+        if text.strip():
+            lines.append(text.strip())
+    return "\n".join(lines)
+
+
+_STAT_LABELS = {"Armor": "armor", "Magic Resist": "mr", "Health": "hp"}
+_MINIMUM = {"armor": MIN_ARMOR, "mr": MIN_MR, "hp": MIN_HP}
+
+
+def item_files(items):
+    """(item-desc, item-stats) din itemele de Mayhem ale ARAMKit."""
+    names = {k: v["name"] for k, v in items.items()}
+    desc, stats = {}, {}
+    for item in items.values():
+        name = item["name"]
+        text = tooltip_text(item)
+        if text:
+            desc.setdefault(name, text)
+
+        cats = item.get("categories") or []
+        entry = {}
+        for block in (item.get("tooltip") or {}).get("blocks", []):
+            spans = block.get("spans", [])
+            label = next((sp.get("label") for sp in spans if sp.get("type") == "icon"), None)
+            key = _STAT_LABELS.get(label)
+            value = next((sp.get("text") for sp in spans if sp.get("semantic") == "stat"), None)
+            if key and value and key not in entry:
+                try:
+                    number = float(re.sub(r"[^0-9.]", "", value))
+                except ValueError:
+                    continue
+                if number >= _MINIMUM[key]:
+                    entry[key] = int(number)
+        if {"LifeSteal", "SpellVamp", "HealthRegen"} & set(cats):
+            entry["heal"] = True
+        if "Boots" in cats:
+            entry["boots"] = True
+        if "Consumable" in cats:
+            entry["consumable"] = True
+        if item.get("isFinal") is False:
+            entry["component"] = True
+
+        # evolutii: "Transforms into X at ..." (Manamune -> Muramana) si lantul
+        # de upgrade al cizmelor (Mercury's Treads -> Chainlaced Crushers)
+        evolves = {re.sub(r"\s+", " ", m).strip()
+                   for m in re.findall(r"Transforms into\s+(.+?)\s+(?:at|after|when)", text)}
+        if "Boots" in cats:
+            evolves |= {names[i] for i in item.get("to") or [] if i in names}
+        if evolves:
+            entry["evolves_into"] = sorted(evolves)
+        if entry:
+            stats.setdefault(name, entry)
+    return desc, stats
+
+
 def main():
     sys.path.insert(0, str(ROOT))
     from build_scraper import slug
@@ -188,6 +268,16 @@ def main():
     print(f"patch {patch} ({data_token})")
     res = load_resources(res_token)
     champions = res["champions"]
+
+    desc, istats = item_files(res["items"])
+    (DATA / "item-desc.json").write_text(
+        json.dumps(desc, indent=1, sort_keys=True, ensure_ascii=False), encoding="utf-8")
+    (DATA / "item-stats.json").write_text(
+        json.dumps(istats, indent=1, sort_keys=True, ensure_ascii=False), encoding="utf-8")
+    (DATA / "item-ids.json").write_text(
+        json.dumps({k: v["name"] for k, v in res["items"].items()}, sort_keys=True,
+                   ensure_ascii=False), encoding="utf-8")
+    print(f"itemi de Mayhem: {len(desc)} descrieri, {len(istats)} cu statistici")
 
     (DATA / "builds").mkdir(parents=True, exist_ok=True)
     (DATA / "augments").mkdir(parents=True, exist_ok=True)

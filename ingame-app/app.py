@@ -618,7 +618,7 @@ def selfcheck():
     assert boots_for(["Jinx", "Vayne", "Ashe"], six[:4]) is None
     # 6 sloturi dar cu o componenta in ele (Tear of the Goddess) = inca nu e
     # build plin, deci niciun sfat de vandut cizmele
-    cu_componenta = six[:5] + ["Whispering Circlet"]
+    cu_componenta = six[:5] + ["Amplifying Tome"]
     assert boots_for(["Jinx", "Vayne", "Ashe"], cu_componenta) is None
 
     # evolutia: Manamune devine Muramana si dispare din inventar, dar build-ul
