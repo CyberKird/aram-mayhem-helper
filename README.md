@@ -26,6 +26,8 @@ Doua surse de date, fara API oficial pentru ele:
 
 Augmentele oferite nu au niciun API. Se citesc prin OCR nativ Windows (`Windows.Media.Ocr`), pe o zona centrala a ferestrei jocului.
 
+Aplicatia are doua bucati: **motorul** (Python, `app.py`), care face toata logica si OCR-ul, si **interfata** (Electron, `ui/`), care il porneste ca proces copil si deseneaza panoul. Vorbesc prin JSON pe stdin/stdout. In meci panoul e o piesa a HUD-ului: rama e taiata din atlasul de texturi al jocului (`ui/assets/make_frame.py`), iar fonturile sunt cele ale jocului (Beaufort, Spiegel), luate o data de pe CommunityDragon la prima pornire. Pozitionarea lucreaza per monitor, deci arata la fel pe 1080p, 1440p si 4K, si cu monitoare cu scalari diferite.
+
 Statisticile (win rate, pick rate, istoric pe patch-uri) vin de pe [ARAMKit](https://aramkit.com), singura sursa gasita cu cifre reale de Mayhem pe toti campionii (peste 28M meciuri). Riot blocheaza meciurile de Mayhem in match-v5 si Data Dragon nu are win rate. `ingame-app/update_aramkit.py` aduce tot ce e de Mayhem (statistici, modificatorii de balans per campion, build-uri de itemi, tier de augmente), fara browser. `lcu-app/update_tier_list.py` aduce tier list-ul u.gg si pastreaza patch-ul anterior pentru comparatie.
 
 Build-urile de itemi, tier-urile de augment (per campion, din win rate real) si summoner spells vin strict din date de ARAM Mayhem, nu din ARAM clasic.
@@ -33,18 +35,20 @@ Build-urile de itemi, tier-urile de augment (per campion, din win rate real) si 
 ## Instalare (exe)
 
 1. Deschide [Releases](../../releases) si descarca `ARAM-Mayhem-Helper.exe`.
-2. Dublu-click. Gata. Fara Python, fara instalare, totul e inclus in exe.
+2. Dublu-click. Se instaleaza singur (fara intrebari, fara drepturi de admin), pune o scurtatura pe desktop si porneste. Dupa asta porneste in sub o secunda.
 
 Windows SmartScreen poate avertiza la prima rulare (exe-ul nu e semnat): `More info` -> `Run anyway`.
 
-La fiecare pornire verifica daca a aparut o versiune mai noua si o instaleaza singur, apoi iti cere sa redeschizi aplicatia. Nu reporneste el procesul: un proces pornit dintr-un `.cmd` care apoi dispare il face pe Vanguard sa se planga de procesul parinte. Cu `--no-update` sare peste verificare.
+Update-urile se descarca singure in fundal (doar diferenta) si se instaleaza cand inchizi aplicatia; in afara meciului si a champ select-ului aplicatia se reporneste singura pe versiunea noua, iar `UPDATE` din bara de titlu face asta pe loc. Repornirea o face installerul prin shell, deci procesul nou are ca parinte `explorer.exe` (Vanguard se plange de procesele ramase fara parinte). Cu `--no-update` sare peste verificare.
+
+Versiunile 1.x (exe-ul Python) se muta singure pe 2.x: updater-ul lor descarca `ARAM-Mayhem-Helper.exe`, care acum e installerul.
 
 ## Instalare din sursa (alternativa)
 
 1. Descarca proiectul: butonul verde `Code` -> `Download ZIP`, apoi dezarhiveaza.
 2. Dublu-click pe `INSTALL.bat` (sau direct pe `START.bat`, care porneste instalarea singur daca lipseste venv-ul).
 
-Instalatorul face tot: instaleaza Python daca lipseste (via winget), creeaza mediul virtual, pune dependentele, ruleaza selfcheck-ul de verificare si lasa o scurtatura `ARAM Mayhem Helper` pe desktop. O singura data, dureaza ~2 minute. Datele (build-uri, tier-uri, iconite) vin deja in repo, nu trebuie descarcate separat.
+Instalatorul face tot: instaleaza Python si Node.js daca lipsesc (via winget), creeaza mediul virtual, pune dependentele (Python si interfata), ruleaza selfcheck-ul de verificare si lasa o scurtatura `ARAM Mayhem Helper` pe desktop. O singura data, dureaza cateva minute. Datele (build-uri, tier-uri, iconite) vin deja in repo, nu trebuie descarcate separat.
 
 ## Verificare
 
@@ -71,16 +75,27 @@ cd ..\lcu-app
 
 `--headed` conteaza: Cloudflare blocheaza uneori Chromium headless.
 
-## Pentru dezvoltatori: construirea exe-ului
+## Pentru dezvoltatori: interfata si build-ul
+
+Interfata, din sursa, cu motorul real sau cu unul de test care reda o stare dintr-un fisier (scenariile se fac cu `ui\test\make_scenarios.py`):
+
+```bash
+cd ui
+npm install
+npx electron .                                   # motorul real (..\app.py)
+set ARAM_MOCK=%CD%\test\game1080.json && npx electron .   # stare de test, fara joc
+```
+
+Build-ul, in ordinea asta:
 
 ```bash
 .venv\Scripts\python -m pip install -r requirements-dev.txt
-.venv\Scripts\pyinstaller aram_mayhem_helper.spec --noconfirm --clean
+.venv\Scripts\pyinstaller engine.spec --noconfirm --clean     # -> dist\aram-engine\
+dist\aram-engine\aram-engine.exe --selfcheck
+cd ui && npx electron-builder --win nsis --publish never       # -> dist\ARAM-Mayhem-Helper.exe
 ```
 
-Rezultatul e `dist\ARAM-Mayhem-Helper.exe`. Dupa build, verifica-l cu `dist\ARAM-Mayhem-Helper.exe --selfcheck` si publica-l ca asset intr-un Release.
-
-Ridica `VERSION` din `app.py` INAINTE de build, ca sa fie egal cu tag-ul Release-ului. Daca tag-ul e mai mare decat `VERSION`-ul din exe-ul publicat, exe-ul se vede pe el insusi ca fiind invechit si se reinstaleaza la fiecare pornire.
+Versiunea e una singura, in `ui/package.json`: ridic-o INAINTE de build, egala cu tag-ul Release-ului. In Release pune trei fisiere din `dist\`: `ARAM-Mayhem-Helper.exe`, `ARAM-Mayhem-Helper.exe.blockmap` si `latest.yml` (din ultimele doua isi iau update-urile aplicatiile deja instalate).
 
 ## Ce NU face
 
@@ -90,13 +105,17 @@ Ridica `VERSION` din `app.py` INAINTE de build, ca sa fie egal cu tag-ul Release
 
 ## Limitari legale de stiut
 
-Foloseste date scrapuite de pe u.gg (fara API public) si iconite de la Riot Data Dragon / CommunityDragon (permise pentru continut de fan, necomercial, conform politicilor Riot). Nu e inregistrat la Riot Developer Portal si nu respecta cerinta de "supported services from Riot Games for data ingestion". Pastreaza-l pentru uz personal.
+Foloseste date scrapuite de pe u.gg (fara API public), iconite de la Riot Data Dragon / CommunityDragon si piese din atlasul HUD-ului jocului (permise pentru continut de fan, necomercial, conform politicilor Riot). Fonturile jocului nu sunt incluse in aplicatie: le descarca fiecare instalare, de pe CommunityDragon. Nu e inregistrat la Riot Developer Portal si nu respecta cerinta de "supported services from Riot Games for data ingestion". Pastreaza-l pentru uz personal.
 
 ## Structura
 
 ```
 aram-mayhem-helper/
-  app.py                  # aplicatia unificata, detecteaza singura faza
+  app.py                  # motorul: detecteaza singur faza, trimite starea interfetei
+  ui/                     # interfata Electron (panou, insigne, tooltip, raport de bug)
+    main.js               # ferestrele, pozitionarea per monitor, update-urile
+    renderer/             # ce deseneaza fiecare fereastra
+    assets/make_frame.py  # rama HUD taiata din atlasul jocului
   lcu-app/                # champ select (LCU)
   ingame-app/              # in joc (Live Client Data + OCR)
     build_scraper.py       # build-uri de itemi (u.gg ARAM)

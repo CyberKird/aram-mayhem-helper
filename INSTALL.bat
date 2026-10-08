@@ -64,7 +64,30 @@ if errorlevel 1 (
   exit /b 1
 )
 
-rem 4) Verifica instalarea cu selfcheck-ul (offline, fara League pornit).
+rem 4) Interfata (Electron) are nevoie de Node.js: il instaleaza singur daca lipseste.
+where npm >nul 2>nul
+if errorlevel 1 (
+  echo Node.js nu e instalat. Incerc instalarea automata prin winget...
+  winget install --id OpenJS.NodeJS.LTS -e --silent --accept-package-agreements --accept-source-agreements
+  set "PATH=%PATH%;%ProgramFiles%\nodejs"
+)
+where npm >nul 2>nul
+if errorlevel 1 (
+  echo Nu am reusit sa instalez Node.js. Descarca-l de pe https://nodejs.org si ruleaza din nou INSTALL.bat.
+  pause
+  exit /b 1
+)
+echo Instalez interfata...
+pushd ui
+call npm install --no-audit --no-fund
+popd
+if not exist "ui\node_modules\electron\dist\electron.exe" (
+  echo Eroare la instalarea interfetei. Verifica conexiunea la internet si ruleaza din nou.
+  pause
+  exit /b 1
+)
+
+rem 5) Verifica instalarea cu selfcheck-ul (offline, fara League pornit).
 echo [3/3] Verific instalarea...
 ".venv\Scripts\python.exe" app.py --selfcheck
 if errorlevel 1 (
@@ -74,8 +97,8 @@ if errorlevel 1 (
   exit /b 1
 )
 
-rem 5) Lasa o scurtatura pe desktop.
-powershell -NoProfile -ExecutionPolicy Bypass -Command "$ws = New-Object -ComObject WScript.Shell; $lnk = $ws.CreateShortcut((Join-Path ([Environment]::GetFolderPath('Desktop')) 'ARAM Mayhem Helper.lnk')); $lnk.TargetPath = '%cd%\.venv\Scripts\pythonw.exe'; $lnk.Arguments = 'app.py'; $lnk.WorkingDirectory = '%cd%'; $lnk.IconLocation = '%cd%\icon.ico'; $lnk.Save()"
+rem 6) Lasa o scurtatura pe desktop.
+powershell -NoProfile -ExecutionPolicy Bypass -Command "$ws = New-Object -ComObject WScript.Shell; $lnk = $ws.CreateShortcut((Join-Path ([Environment]::GetFolderPath('Desktop')) 'ARAM Mayhem Helper.lnk')); $lnk.TargetPath = '%cd%\ui\node_modules\electron\dist\electron.exe'; $lnk.Arguments = 'ui'; $lnk.WorkingDirectory = '%cd%'; $lnk.IconLocation = '%cd%\icon.ico'; $lnk.Save()"
 
 echo.
 echo === Gata! ===

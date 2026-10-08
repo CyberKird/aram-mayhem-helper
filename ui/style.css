@@ -1,0 +1,342 @@
+/* Tema: in meci panoul e o piesa a HUD-ului (rama taiata din atlasul jocului,
+   umplutura teal a panoului de iteme); in champ select si in rest imita
+   clientul League (bleumarin hextech, fir auriu). Culorile vin din texturile
+   jocului si din paleta clientului, nu sunt inventate. */
+
+:root {
+  --gold: #c8aa6e;
+  --gold-hi: #f0d68c;
+  --gold-dk: #785a28;
+  --gold-4: #463714;
+  --bronze: #a3874f;
+  --cream: #f0e6d2;
+  --dim: #a09b8c;
+  --mute: #6b6a63;
+  --teal: #0ac8b9;
+  --red: #e84057;
+  --row: rgba(5, 14, 14, .62);
+  --row-line: #1c3433;
+  --rule: #1e3a3a;
+  --head: 'Beaufort', Constantia, 'Palatino Linotype', Georgia, serif;
+  --text: 'Spiegel', 'Segoe UI', system-ui, sans-serif;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { background: transparent; overflow: hidden; }
+body {
+  font: 13px/1.25 var(--text);
+  color: var(--cream);
+  -webkit-user-select: none;
+  user-select: none;
+  cursor: default;
+}
+img { display: block; }
+[hidden] { display: none !important; }
+button { all: unset; cursor: pointer; }
+
+/* --- panoul ------------------------------------------------------------------ */
+
+#panel { position: relative; isolation: isolate; padding: 10px 12px 9px; }
+#panel .bg, #panel .frame { position: absolute; pointer-events: none; }
+#panel .bg { z-index: -1; }
+
+.hud .bg {
+  inset: 5px 5px 3px;
+  border-radius: 26px 26px 2px 2px;
+  background: linear-gradient(180deg, #0e1a19 0%, #101c1b 45%, #142321 100%);
+}
+.hud .frame {
+  inset: 0;
+  border-style: solid;
+  border-color: transparent;
+  border-width: 40px 40px 14px;
+  border-image: url(assets/hud-frame.png) 40 40 14 / 40px 40px 14px stretch;
+}
+.hud.collapsed .frame { border-width: 24px 24px 9px; border-image-width: 24px 24px 9px; }
+
+.client { --row: rgba(9, 20, 40, .7); --row-line: #1e2328; --rule: #1e2328; }
+.client .bg {
+  inset: 0;
+  background: radial-gradient(130% 70% at 50% 0%, #0a1a2b 0%, #010a13 62%);
+}
+.client .frame {
+  inset: 0;
+  border: 1px solid transparent;
+  border-image: linear-gradient(180deg, var(--gold), var(--gold-dk)) 1;
+}
+.client .frame::after {
+  content: '';
+  position: absolute;
+  inset: 2px;
+  border: 1px solid rgba(200, 170, 110, .14);
+}
+#panel.client { padding: 7px 9px 8px; }
+
+/* bara de titlu: de aici se muta fereastra */
+header {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  height: 28px;
+  padding: 1px 12px 0 14px;
+  -webkit-app-region: drag;
+}
+.client header { padding: 0 2px 0 4px; }
+header button, #augs > * { -webkit-app-region: no-drag; }
+#title {
+  font: 700 13px/1 var(--head);
+  letter-spacing: .07em;
+  text-transform: uppercase;
+  color: var(--gold);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  min-width: 0;
+}
+#augs { display: flex; gap: 3px; margin-left: 5px; }
+#augs img {
+  width: 17px; height: 17px;
+  border: 1px solid var(--gold-4);
+  cursor: pointer;
+}
+#augs img:hover { border-color: var(--red); }
+.grow { flex: 1; }
+.btn {
+  height: 20px;
+  min-width: 18px;
+  padding: 0 4px;
+  display: grid;
+  place-items: center;
+  font: 700 11px/1 var(--head);
+  letter-spacing: .06em;
+  color: var(--gold);
+  transition: color .12s, text-shadow .12s;
+}
+.btn:hover { color: var(--gold-hi); text-shadow: 0 0 6px rgba(240, 214, 140, .45); }
+.btn.small { font-size: 9.5px; }
+.btn.dim { color: var(--dim); }
+.btn.on { color: var(--teal); }
+.btn svg { width: 13px; height: 13px; stroke: currentColor; fill: none; stroke-width: 2.2; stroke-linecap: round; }
+.btn svg .solid { fill: currentColor; stroke: none; }
+#upd { color: var(--teal); }
+#upd:hover { color: #7ef2e6; }
+
+/* separatorul auriu cu romb, ca firele din HUD */
+.rule {
+  position: relative;
+  height: 1px;
+  margin: 0 8px;
+  background: linear-gradient(90deg, transparent, var(--gold-dk) 14%, var(--gold-dk) 86%, transparent);
+}
+.rule::after {
+  content: '';
+  position: absolute;
+  left: 50%; top: 50%;
+  width: 5px; height: 5px;
+  transform: translate(-50%, -50%) rotate(45deg);
+  background: #0c1817;
+  border: 1px solid var(--gold);
+}
+.client .rule::after { background: #010a13; }
+
+#sub {
+  padding: 5px 6px;
+  font: 700 10.5px/1.2 var(--head);
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  color: var(--dim);
+}
+#body { padding: 4px 6px 6px; overflow: hidden auto; }
+.hud #body { padding: 2px 14px 4px; }
+#foot {
+  padding: 5px 6px 1px;
+  font: 700 10px/1.25 var(--head);
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  color: var(--dim);
+}
+#foot:empty, #sub:empty { display: none; }
+
+/* in meci: fara randul de context si fara subsol, fiecare pixel din gol conteaza */
+.lean #sub, .lean .rule.sub, .lean #foot, .lean .rule.foot { display: none; }
+.collapsed > :not(header):not(.bg):not(.frame) { display: none; }
+
+#body::-webkit-scrollbar { width: 5px; }
+#body::-webkit-scrollbar-thumb { background: var(--gold-4); border-radius: 3px; }
+#body::-webkit-scrollbar-thumb:hover { background: var(--gold-dk); }
+
+/* continut nou (alta vedere): intra scurt, nu clipeste */
+.enter { animation: enter .2s ease-out; }
+@keyframes enter { from { opacity: 0; transform: translateY(3px); } }
+
+/* --- caramizile ------------------------------------------------------------------- */
+
+.sec {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 7px 0 4px;
+  font: 700 10.5px/1 var(--head);
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  color: var(--teal);
+  white-space: nowrap;
+}
+.sec::after { content: ''; flex: 1; height: 1px; background: var(--rule); }
+#body > .sec:first-child { margin-top: 3px; }
+
+.note { margin: 5px 0; font-size: 12px; color: var(--dim); }
+.note.err { color: #d98a8a; }
+
+.ic {
+  width: 28px; height: 28px;
+  flex: none;
+  border: 1px solid #3b3424;
+  box-shadow: 0 0 0 1px #050b0b;
+  background: #0a1212;
+}
+.ic.ph {
+  display: grid;
+  place-items: center;
+  font: 700 9px var(--head);
+  color: var(--dim);
+}
+
+/* insigna de tier: patrat cu colturi tesite, ca sloturile din HUD */
+.tier {
+  width: 26px; height: 26px;
+  flex: none;
+  display: grid;
+  place-items: center;
+  font: 700 13px/1 var(--head);
+  background: var(--c);
+  color: var(--fg);
+  clip-path: polygon(4px 0, calc(100% - 4px) 0, 100% 4px, 100% calc(100% - 4px),
+    calc(100% - 4px) 100%, 4px 100%, 0 calc(100% - 4px), 0 4px);
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 3px 0;
+  padding: 4px 7px 4px 4px;
+  background: var(--row);
+  border: 1px solid var(--row-line);
+}
+.row.best { border-color: var(--c); box-shadow: inset 0 0 12px -6px var(--c); }
+.row .txt { flex: 1; min-width: 0; }
+.row .nm { font: 600 13px/1.2 var(--text); color: var(--cream); }
+.row .nm.owned { color: var(--dim); }
+.row .tag {
+  flex: none;
+  font: 700 9.5px/1 var(--head);
+  letter-spacing: .08em;
+  color: var(--mute);
+  text-transform: uppercase;
+}
+.row.best .tag { color: var(--c); }
+.why {
+  margin-top: 2px;
+  font: 700 9.5px/1.25 var(--head);
+  letter-spacing: .05em;
+  text-transform: uppercase;
+  color: var(--teal);
+}
+.desc { margin-top: 2px; font-size: 11px; color: var(--dim); }
+.stats { display: flex; flex-wrap: wrap; gap: 0 8px; margin-top: 2px; font: 700 11px/1.3 var(--text); }
+.stats .mods { width: 100%; font-weight: 400; font-size: 10.5px; color: var(--dim); }
+.up { color: var(--teal); }
+.down { color: var(--red); }
+.flat { color: var(--dim); }
+
+.strip { display: flex; flex-wrap: wrap; gap: 5px; margin: 3px 0; align-items: center; }
+.strip .ic { width: 32px; height: 32px; }
+.strip .ic.owned { opacity: .45; filter: saturate(.4); }
+.strip .ic.next { border-color: var(--teal); box-shadow: 0 0 0 1px #050b0b, 0 0 6px rgba(10, 200, 185, .4); }
+.strip .ic.hot { border-color: var(--teal); }
+.strip .k { font: 700 9.5px/1 var(--head); letter-spacing: .1em; color: var(--dim); margin-right: 2px; }
+
+/* itemul de cumparat acum: incadrat auriu cu fir hextech, ca alegerea buna din joc */
+.hero {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 4px 0 2px;
+  padding: 6px 8px 6px 6px;
+  border: 1px solid var(--gold);
+  background: linear-gradient(180deg, rgba(10, 200, 185, .07), rgba(0, 0, 0, .28));
+  box-shadow: inset 0 0 0 1px rgba(10, 200, 185, .55), 0 0 10px rgba(10, 200, 185, .14);
+}
+/* pulsul "e randul lui": doar opacitate, ca sa ruleze pe compositor, nu sa
+   redeseneze panoul la fiecare cadru cat joci */
+.hero::after {
+  content: '';
+  position: absolute;
+  inset: -1px;
+  pointer-events: none;
+  box-shadow: inset 0 0 0 1px rgba(10, 200, 185, .95), 0 0 16px rgba(10, 200, 185, .35);
+  opacity: 0;
+  animation: ready 2.6s ease-in-out infinite;
+}
+@keyframes ready { 50% { opacity: 1; } }
+.hero .ic { width: 50px; height: 50px; border-color: var(--gold); }
+.hero .k { font: 700 9.5px/1 var(--head); letter-spacing: .14em; color: var(--teal); }
+.hero .nm { margin: 2px 0 1px; font: 700 16px/1.15 var(--head); color: var(--cream); }
+.hero .why { color: var(--gold); }
+
+.sell { border-color: var(--teal); }
+.sell .ic.out { border-color: #6b2b33; filter: saturate(.6) brightness(.8); }
+.sell .arrow { color: var(--dim); font: 700 13px var(--text); }
+.sell .k { font: 700 9.5px/1.2 var(--head); letter-spacing: .06em; color: var(--red); text-transform: uppercase; }
+
+.state { display: flex; justify-content: space-between; margin: 3px 0; font-size: 12px; color: var(--dim); }
+.state b { font: 700 11px var(--text); color: #9a6b6b; }
+.state b.ok { color: var(--teal); }
+
+.top { display: flex; gap: 8px; align-items: baseline; margin: 3px 0; padding: 4px 6px; background: var(--row); border: 1px solid var(--row-line); }
+.top .k { flex: none; width: 46px; font: 700 9.5px/1 var(--head); letter-spacing: .08em; color: var(--dim); }
+.top .v { font: 600 11.5px/1.35 var(--text); color: var(--cream); }
+
+/* bara de asteptare segmentata: semn ca aplicatia traieste */
+.wait { display: flex; gap: 2px; height: 14px; margin: 3px 0 5px; padding: 2px; border: 1px solid var(--rule); }
+.wait i { flex: 1; background: transparent; animation: scan 1.76s steps(1, end) infinite; animation-delay: calc(var(--i) * .11s); }
+@keyframes scan { 0% { background: var(--teal); } 17% { background: transparent; } }
+
+/* --- insignele de pe carduri si tooltip-ul (overlay.html) ----------------------------- */
+
+#root { position: absolute; left: 0; top: 0; width: max-content; }
+#root.bottom { top: auto; bottom: 0; }
+
+.badge {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  height: 26px;
+  padding: 0 10px 0 9px;
+  background: linear-gradient(180deg, #12292c, #0b1c1e);
+  border: 1px solid var(--bronze);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, .55);
+  white-space: nowrap;
+  animation: pop .14s ease-out;
+}
+.badge.best { border-color: var(--gold-hi); box-shadow: inset 0 0 0 1px rgba(240, 214, 140, .35), 0 2px 6px rgba(0, 0, 0, .55); }
+.badge.pick { cursor: pointer; }
+.badge.pick:hover { border-color: var(--teal); }
+.badge.taken { border-color: var(--teal); }
+.badge .t { font: 700 15px/1 var(--head); color: var(--c); }
+.badge .n { max-width: 170px; overflow: hidden; text-overflow: ellipsis; font: 600 11px/1 var(--text); color: var(--cream); }
+.badge .k { font: 700 8.5px/1 var(--head); letter-spacing: .14em; color: var(--teal); }
+@keyframes pop { from { opacity: 0; transform: scale(.92); } }
+
+.tip {
+  max-width: 300px;
+  padding: 7px 9px 8px;
+  background: rgba(1, 10, 19, .97);
+  border: 1px solid var(--gold-dk);
+  box-shadow: inset 0 0 0 1px rgba(1, 10, 19, 1), inset 0 0 0 2px rgba(200, 170, 110, .12);
+}
+.tip .tt { font: 700 13px/1.2 var(--text); color: var(--cream); }
+.tip .tx { margin-top: 4px; font-size: 11.5px; line-height: 1.35; color: var(--dim); white-space: pre-line; }

@@ -1,0 +1,69 @@
+{
+  "name": "aram-mayhem-helper",
+  "productName": "ARAM Mayhem Helper",
+  "version": "2.0.0",
+  "description": "Overlay local pentru ARAM Mayhem: tier la champ select, build si augmente in meci.",
+  "author": "Joltarise",
+  "license": "UNLICENSED",
+  "private": true,
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder --win nsis --publish never"
+  },
+  "devDependencies": {
+    "electron": "44.5.1",
+    "electron-builder": "^26.15.3"
+  },
+  "build": {
+    "appId": "com.joltarise.arammayhemhelper",
+    "productName": "ARAM Mayhem Helper",
+    "directories": {
+      "output": "../dist"
+    },
+    "files": [
+      "main.js",
+      "preload.js",
+      "*.html",
+      "*.css",
+      "renderer/**",
+      "assets/*.png",
+      "!assets/make_frame.py"
+    ],
+    "extraResources": [
+      {
+        "from": "../dist/aram-engine",
+        "to": "engine"
+      },
+      {
+        "from": "../icon.ico",
+        "to": "icon.ico"
+      }
+    ],
+    "asar": true,
+    "win": {
+      "target": "nsis",
+      "icon": "../icon.ico"
+    },
+    "nsis": {
+      "oneClick": true,
+      "perMachine": false,
+      "artifactName": "ARAM-Mayhem-Helper.exe",
+      "shortcutName": "ARAM Mayhem Helper",
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "runAfterFinish": true,
+      "deleteAppDataOnUninstall": false
+    },
+    "publish": [
+      {
+        "provider": "github",
+        "owner": "CyberKird",
+        "repo": "aram-mayhem-helper"
+      }
+    ]
+  },
+  "dependencies": {
+    "electron-updater": "^6.8.9"
+  }
+}

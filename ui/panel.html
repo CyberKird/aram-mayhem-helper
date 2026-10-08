@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="ro">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; img-src aram: data:; font-src aram:">
+<title>ARAM Mayhem Helper</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="panel" class="client">
+  <div class="bg"></div>
+  <header>
+    <span id="title">ARAM MAYHEM</span>
+    <span id="augs"></span>
+    <button id="upd" class="btn small" hidden></button>
+    <span class="grow"></span>
+    <button id="aug" class="btn small" hidden>AUG</button>
+    <button id="ver" class="btn small dim"></button>
+    <button id="snap" class="btn">&#9671;</button>
+    <button id="bug" class="btn"></button>
+    <button id="min" class="btn">_</button>
+    <button id="close" class="btn">X</button>
+  </header>
+  <div class="rule"></div>
+  <div id="sub"></div>
+  <div class="rule sub"></div>
+  <main id="body"></main>
+  <div class="rule foot"></div>
+  <footer id="foot"></footer>
+  <div class="frame"></div>
+</div>
+<script src="renderer/dom.js"></script>
+<script src="renderer/panel.js"></script>
+</body>
+</html>

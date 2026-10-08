@@ -116,7 +116,9 @@ def in_front(hwnd):
     dadeai click inapoi in joc: nu mai vedeai nicio recomandare de augment.
     """
     fg = win32gui.GetForegroundWindow()
-    return fg == hwnd or bool(fg) and win32process.GetWindowThreadProcessId(fg)[1] == os.getpid()
+    # ferestrele interfetei sunt ale procesului Electron care ne-a pornit, nu ale noastre
+    ours = (os.getpid(), int(os.environ.get("ARAM_UI_PID") or 0))
+    return fg == hwnd or bool(fg) and win32process.GetWindowThreadProcessId(fg)[1] in ours
 
 
 def _get_engine():

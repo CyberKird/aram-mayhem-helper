@@ -1,10 +1,12 @@
 @echo off
-REM Porneste helperul cu interpretorul din .venv. Nu folosi "python app.py"
-REM direct: pe sistemul asta "python" rezolva catre venv-ul altui program.
+REM Porneste helperul din sursa: interfata Electron (ui\) porneste singura
+REM motorul cu interpretorul din .venv.
 cd /d "%~dp0"
-if not exist ".venv\Scripts\pythonw.exe" (
-  echo Mediul virtual lipseste. Rulez instalarea automata...
-  call INSTALL.bat
-  exit /b
-)
-start "" ".venv\Scripts\pythonw.exe" app.py
+if not exist ".venv\Scripts\python.exe" goto install
+if not exist "ui\node_modules\electron\dist\electron.exe" goto install
+start "" "ui\node_modules\electron\dist\electron.exe" ui
+exit /b
+
+:install
+echo Lipsesc dependentele. Rulez instalarea automata...
+call INSTALL.bat

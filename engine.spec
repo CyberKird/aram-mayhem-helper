@@ -1,9 +1,14 @@
 # -*- mode: python ; coding: utf-8 -*-
-"""PyInstaller spec pentru ARAM Mayhem Helper.
+"""PyInstaller spec pentru motorul ARAM Mayhem Helper (fara interfata).
 
-Build:  pyinstaller aram_mayhem_helper.spec --noconfirm --clean
+Build:  pyinstaller engine.spec --noconfirm --clean   ->  dist/aram-engine/
 
-Aplicatia unificata (app.py) incarca lcu-app/ si ingame-app/ dinamic
+Interfata Electron (ui/) il ia din dist/aram-engine si il pune in exe-ul
+portabil. Onedir, nu onefile: nu se mai dezarhiveaza la fiecare pornire.
+Consola ramane (console=True): vorbim cu interfata pe stdin/stdout; Electron
+il porneste cu fereastra ascunsa.
+
+Motorul (app.py) incarca lcu-app/ si ingame-app/ dinamic
 (importlib.util), deci fisierele lor .py intra ca DATA, nu ca importuri
 normale. Tot ce importa ele la runtime trebuie declarat in hiddenimports.
 """
@@ -32,7 +37,6 @@ datas = [
     ("ingame-app/build_scraper.py", "ingame-app"),
     ("ingame-app/build_icons.py", "ingame-app"),
     ("ingame-app/data/icons", "ingame-app/data/icons"),
-    ("ingame-app/data/fonts", "ingame-app/data/fonts"),
     ("ingame-app/data/augments", "ingame-app/data/augments"),
     ("ingame-app/data/builds", "ingame-app/data/builds"),
 ]
@@ -61,7 +65,6 @@ a = Analysis(
         "mss",
         "PIL.Image",
         "PIL.ImageOps",
-        "tkinter.font",
         "win32api",
         "win32con",
         "win32gui",
@@ -73,7 +76,8 @@ a = Analysis(
     # plugini de imagine nefolositi (avif singur e 4 MB) si module de test/doc:
     # exe-ul se dezarhiveaza la fiecare pornire, fiecare MB conteaza
     excludes=["PIL._avif", "PIL._webp", "PIL.AvifImagePlugin", "PIL.WebPImagePlugin",
-              "unittest", "pydoc", "doctest", "lib2to3", "sqlite3"],
+              "unittest", "pydoc", "doctest", "lib2to3", "sqlite3",
+              "tkinter", "_tkinter", "PIL.ImageTk"],
     noarchive=False,
 )
 
@@ -82,15 +86,15 @@ pyz = PYZ(a.pure)
 exe = EXE(
     pyz,
     a.scripts,
-    a.binaries,
-    a.datas,
     [],
-    name="ARAM-Mayhem-Helper",
+    exclude_binaries=True,
+    name="aram-engine",
     debug=False,
     bootloader_ignore_signals=False,
     strip=False,
     upx=False,
-    console=False,
-    disable_windowed_traceback=False,
+    console=True,
     icon="icon.ico",
 )
+
+coll = COLLECT(exe, a.binaries, a.datas, strip=False, upx=False, name="aram-engine")
