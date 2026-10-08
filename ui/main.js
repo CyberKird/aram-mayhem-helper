@@ -289,7 +289,11 @@ function pushState() {
 }
 
 function createPanel() {
-  panel = overlay('aram://panel/panel.html')
+  // singura fereastra cu buton in taskbar: de acolo il fixezi (pin) si ii vezi iconita
+  panel = overlay('aram://panel/panel.html', { skipTaskbar: false })
+  if (process.platform === 'win32') {
+    command({ cmd: 'taskbar', hwnd: panel.getNativeWindowHandle().readBigUInt64LE().toString() })
+  }
   panel.on('will-move', () => { dock.dragging = true; hideTip() })
   panel.on('moved', () => { dock.dragging = false; remember() })
   panel.webContents.on('did-finish-load', () => {
@@ -417,7 +421,7 @@ let report = null
 
 function openReport() {
   if (report) { report.show(); report.focus(); return }
-  report = overlay('aram://report/report.html', { focusable: true, skipTaskbar: false, title: 'Raporteaza un bug' })
+  report = overlay('aram://report/report.html', { focusable: true, title: 'Raporteaza un bug' })
   report.on('closed', () => { report = null })
 }
 
@@ -532,7 +536,7 @@ async function ensureFonts() {
 if (!app.requestSingleInstanceLock()) {
   app.quit()
 } else {
-  app.setAppUserModelId('Joltarise.AramMayhemHelper')
+  app.setAppUserModelId('com.joltarise.arammayhemhelper')
   app.whenReady().then(() => {
     protocol.handle('aram', serve)
     startEngine()

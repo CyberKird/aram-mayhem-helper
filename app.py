@@ -401,6 +401,33 @@ def already_running():
     return False        # socket-ul ramane deschis cat traieste procesul
 
 
+def show_in_taskbar(raw_hwnd):
+    """Pastram NOACTIVATE pentru joc, dar afisam panoul in taskbar."""
+    import ctypes
+    from ctypes import wintypes
+
+    try:
+        hwnd = int(raw_hwnd)
+    except (TypeError, ValueError):
+        return
+    if hwnd <= 0 or not os.environ.get("ARAM_UI_PID", "").isdigit():
+        return
+    user32 = ctypes.WinDLL("user32", use_last_error=True)
+    user32.GetWindowThreadProcessId.argtypes = [wintypes.HWND, ctypes.POINTER(wintypes.DWORD)]
+    user32.GetWindowLongPtrW.argtypes = [wintypes.HWND, ctypes.c_int]
+    user32.GetWindowLongPtrW.restype = ctypes.c_ssize_t
+    user32.SetWindowLongPtrW.argtypes = [wintypes.HWND, ctypes.c_int, ctypes.c_ssize_t]
+    user32.SetWindowPos.argtypes = [wintypes.HWND, wintypes.HWND, ctypes.c_int, ctypes.c_int,
+                                   ctypes.c_int, ctypes.c_int, wintypes.UINT]
+    owner = wintypes.DWORD()
+    if not user32.GetWindowThreadProcessId(hwnd, ctypes.byref(owner)) \
+            or owner.value != int(os.environ["ARAM_UI_PID"]):
+        return
+    style = user32.GetWindowLongPtrW(hwnd, -20)
+    user32.SetWindowLongPtrW(hwnd, -20, (style | 0x40000) & ~0x80)
+    user32.SetWindowPos(hwnd, None, 0, 0, 0, 0, 0x37)
+
+
 def main():
     if "--selfcheck" in sys.argv:
         selfcheck()
@@ -449,7 +476,10 @@ def main():
         if msg.get("cmd") == "quit":
             break
         try:
-            engine.command(msg)
+            if msg.get("cmd") == "taskbar":
+                show_in_taskbar(msg.get("hwnd"))
+            else:
+                engine.command(msg)
         except Exception as e:
             emit({"t": "error", "text": f"{type(e).__name__}: {e}"})
     stop.set()
