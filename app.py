@@ -242,8 +242,10 @@ class Engine:
         box = o.game_rect(hwnd) if hwnd else None
         if box and box[3] - box[1] >= 300:
             l, t, r, b = box
-            x0, y0, x1, y1 = hud_settings.area(r - l, b - t)
             front = o.in_front(hwnd)
+            flipped = hud_settings.read().get("FlipMiniMap") == 1      # harta in stanga: nu e in golul nostru
+            mm = None if flipped else hud_settings.measured_minimap(box, o.grab, front)
+            x0, y0, x1, y1 = hud_settings.area(r - l, b - t, minimap_px=mm)
             geo["game"] = {"box": list(box), "dock": [int(l + x0), int(t + y0), int(l + x1), int(t + y1)],
                            "front": front}
             if front and (self.mon.augments or self.mon.stat_anvil):
