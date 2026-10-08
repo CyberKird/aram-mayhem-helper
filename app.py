@@ -247,7 +247,16 @@ class Engine:
             mm = None if flipped else hud_settings.measured_minimap(box, o.grab, front)
             x0, y0, x1, y1 = hud_settings.area(r - l, b - t, minimap_px=mm)
             geo["game"] = {"box": list(box), "dock": [int(l + x0), int(t + y0), int(l + x1), int(t + y1)],
-                           "front": front}
+                           "front": front, "panel": panel_rect(), "minimap": mm}
+            p, d = geo["game"]["panel"], geo["game"]["dock"]
+            if p and (abs(p[0] - d[0]) > 2 or abs(p[2] - d[2]) > 2):
+                # panoul nu e unde trebuie: stare noua la fiecare tick, ca interfata sa-l recitesca si sa corecteze
+                # (cel mult de 6 ori per gol: panoul mutat de mana nu cade niciodata exact in gol)
+                if getattr(self, "miss_key", None) != tuple(d):
+                    self.miss_key, self.misses = tuple(d), 0
+                if self.misses < 6:
+                    self.misses += 1
+                    geo["game"]["miss"] = self.misses
             if front and (self.mon.augments or self.mon.stat_anvil):
                 # Stat Anvil si oferta de augment nu apar niciodata deodata
                 kind = "augment" if self.mon.augments else "anvil"
@@ -403,6 +412,21 @@ def already_running():
     return False        # socket-ul ramane deschis cat traieste procesul
 
 
+PANEL_HWND = 0     # fereastra panoului (validata ca a Electron-ului nostru), ca sa-i citim pozitia reala
+
+
+def panel_rect():
+    """Unde sta panoul chiar acum pe ecran, in pixeli fizici, sau None. E adevarul pe care
+    il comparam cu golul calculat: orice eroare de conversie DIP/pixeli se vede aici."""
+    try:
+        import win32gui
+        if PANEL_HWND and win32gui.IsWindowVisible(PANEL_HWND):
+            return list(win32gui.GetWindowRect(PANEL_HWND))
+    except Exception:
+        pass
+    return None
+
+
 def show_in_taskbar(raw_hwnd):
     """Pastram NOACTIVATE pentru joc, dar afisam panoul in taskbar."""
     import ctypes
@@ -425,6 +449,8 @@ def show_in_taskbar(raw_hwnd):
     if not user32.GetWindowThreadProcessId(hwnd, ctypes.byref(owner)) \
             or owner.value != int(os.environ["ARAM_UI_PID"]):
         return
+    global PANEL_HWND
+    PANEL_HWND = hwnd
     style = user32.GetWindowLongPtrW(hwnd, -20)
     user32.SetWindowLongPtrW(hwnd, -20, (style | 0x40000) & ~0x80)
     user32.SetWindowPos(hwnd, None, 0, 0, 0, 0, 0x37)

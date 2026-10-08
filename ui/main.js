@@ -90,6 +90,7 @@ function onEngine(line) {
   if (msg.t === 'state') {
     state = msg
     engineError = null
+    if (state.geo?.game) correct(state.geo.game)
     pushState()
     place()
     warmBadges(state.view)
@@ -202,12 +203,35 @@ function freeMaxH(zoom, near) {
 // Unde sta panoul: lipit in golul dintre HUD si minimap cand jocul e deschis,
 // langa client in champ select, altfel unde l-ai lasat. at(h) da coltul din
 // stanga-sus pentru inaltimea h (panoul lipit creste in sus, de la marginea de jos).
+// Inchide bucla pe pozitia reala: motorul citeste cu GetWindowRect unde a ajuns panoul (pixeli
+// fizici) si o comparam cu golul calculat. Orice abatere constanta (conversie DIP, scalare
+// Windows, margini ale ferestrei) o scadem din cerere; cerem aceeasi abatere la doua citiri
+// la rand, ca sa nu alergam dupa o fereastra aflata inca in miscare.
+const fix = { l: 0, r: 0, last: null, key: '' }
+
+function correct(g) {
+  const key = g.dock.join(',') + '|' + g.box.join(',')
+  if (key !== fix.key) Object.assign(fix, { key, last: null })     // alt gol: pastram corectia, dar recitim
+  const p = g.panel
+  if (!p || dock.mode !== 'dock') return
+  const err = [p[0] - g.dock[0], p[2] - g.dock[2]]
+  const same = fix.last && Math.abs(err[0] - fix.last[0]) <= 1 && Math.abs(err[1] - fix.last[1]) <= 1
+  fix.last = err
+  const cap = 0.1 * (g.box[3] - g.box[1])
+  if (same && (Math.abs(err[0]) > 2 || Math.abs(err[1]) > 2) && Math.abs(err[0]) < cap && Math.abs(err[1]) < cap) {
+    fix.l -= err[0]
+    fix.r -= err[1]
+    fix.last = null
+  }
+}
+
 function target() {
   const view = state?.view, geo = state?.geo || {}
   if (view === 'in_game' && dock.phase !== 'in_game') dock.manual = settings.away || null   // meci nou
   dock.phase = view
   if (geo.game) {
-    const area = dip(geo.game.dock), box = dip(geo.game.box)
+    const area = dip([geo.game.dock[0] + fix.l, geo.game.dock[1], geo.game.dock[2] + fix.r, geo.game.dock[3]])
+    const box = dip(geo.game.box)
     const zoom = clamp(area.width / BASE_W, ...ZOOM)
     if (dock.manual) {
       return { mode: 'moved', w: area.width, zoom, shrink: true, maxH: MOVED_MAXH * box.height,
