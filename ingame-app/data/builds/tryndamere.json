@@ -7,8 +7,7 @@
   "Mark"
  ],
  "starting": [
-  "Dagger",
-  "Berserker's Greaves"
+  "Zeal"
  ],
  "core": [
   "Phantom Dancer",
@@ -32,12 +31,12 @@
   "Endless Hunger",
   "Death's Dance",
   "Bloodthirster",
-  "Experimental Hexplate"
+  "Lord Dominik's Regards"
  ],
  "pool": [
-  "Dagger",
-  "Berserker's Greaves",
+  "Zeal",
   "Phantom Dancer",
+  "Berserker's Greaves",
   "Infinity Edge",
   "Blade of The Ruined King",
   "Lord Dominik's Regards",
@@ -46,7 +45,6 @@
   "Navori Flickerblade",
   "Bloodthirster",
   "Death's Dance",
-  "Endless Hunger",
-  "Experimental Hexplate"
+  "Endless Hunger"
  ]
 }

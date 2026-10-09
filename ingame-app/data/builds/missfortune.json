@@ -7,8 +7,8 @@
   "Ghost"
  ],
  "starting": [
-  "Refillable Potion",
-  "Lost Chapter"
+  "Sapphire Crystal",
+  "Fated Ashes"
  ],
  "core": [
   "Blackfire Torch",
@@ -23,10 +23,10 @@
   "Rylai's Crystal Scepter"
  ],
  "fifth": [
-  "Bloodletter's Curse",
   "Horizon Focus",
+  "Bloodletter's Curse",
   "Archangel's Staff",
-  "Cryptbloom"
+  "Shadowflame"
  ],
  "sixth": [
   "Horizon Focus",
@@ -35,8 +35,8 @@
   "Cryptbloom"
  ],
  "pool": [
-  "Refillable Potion",
-  "Lost Chapter",
+  "Sapphire Crystal",
+  "Fated Ashes",
   "Blackfire Torch",
   "Sorcerer's Shoes",
   "Liandry's Torment",

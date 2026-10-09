@@ -23,8 +23,8 @@
   "Sundered Sky"
  ],
  "fifth": [
-  "Maw of Malmortius",
   "Spear of Shojin",
+  "Maw of Malmortius",
   "Eclipse",
   "Mortal Reminder"
  ],
@@ -32,7 +32,7 @@
   "Spear of Shojin",
   "Maw of Malmortius",
   "Eclipse",
-  "Black Cleaver"
+  "Sundered Sky"
  ],
  "pool": [
   "Long Sword",
@@ -45,7 +45,6 @@
   "Spear of Shojin",
   "Eclipse",
   "Sundered Sky",
-  "Mortal Reminder",
-  "Black Cleaver"
+  "Mortal Reminder"
  ]
 }

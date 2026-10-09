@@ -26,12 +26,12 @@
   "Stormsurge",
   "Thornmail",
   "Rabadon's Deathcap",
-  "Cryptbloom"
+  "Void Staff"
  ],
  "sixth": [
   "Cryptbloom",
-  "Stormsurge",
   "Void Staff",
+  "Stormsurge",
   "Luden's Echo"
  ],
  "pool": [
@@ -45,8 +45,8 @@
   "Rabadon's Deathcap",
   "Stormsurge",
   "Shadowflame",
-  "Cryptbloom",
   "Void Staff",
+  "Cryptbloom",
   "Luden's Echo"
  ]
 }

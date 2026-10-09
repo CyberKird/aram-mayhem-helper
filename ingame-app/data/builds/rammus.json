@@ -20,7 +20,7 @@
   "Force of Nature",
   "Jak'Sho, The Protean",
   "Sunfire Aegis",
-  "Thornmail"
+  "Randuin's Omen"
  ],
  "fifth": [
   "Force of Nature",
@@ -32,7 +32,7 @@
   "Jak'Sho, The Protean",
   "Force of Nature",
   "Thornmail",
-  "Sunfire Aegis"
+  "Hollow Radiance"
  ],
  "pool": [
   "Giant's Belt",
@@ -44,7 +44,8 @@
   "Force of Nature",
   "Jak'Sho, The Protean",
   "Sunfire Aegis",
-  "Thornmail",
-  "Hollow Radiance"
+  "Randuin's Omen",
+  "Hollow Radiance",
+  "Thornmail"
  ]
 }

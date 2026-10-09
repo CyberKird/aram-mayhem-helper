@@ -7,8 +7,8 @@
   "Mark"
  ],
  "starting": [
-  "Amplifying Tome",
-  "Guardian's Orb"
+  "Blasting Wand",
+  "Amplifying Tome"
  ],
  "core": [
   "Lich Bane",
@@ -28,14 +28,14 @@
   "Morellonomicon"
  ],
  "sixth": [
+  "Banshee's Veil",
   "Cryptbloom",
   "Void Staff",
-  "Stormsurge",
-  "Liandry's Torment"
+  "Stormsurge"
  ],
  "pool": [
+  "Blasting Wand",
   "Amplifying Tome",
-  "Guardian's Orb",
   "Lich Bane",
   "Sorcerer's Shoes",
   "Shadowflame",
@@ -44,6 +44,7 @@
   "Void Staff",
   "Liandry's Torment",
   "Morellonomicon",
+  "Banshee's Veil",
   "Cryptbloom"
  ]
 }

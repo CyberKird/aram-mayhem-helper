@@ -7,13 +7,13 @@
   "Mark"
  ],
  "starting": [
-  "Long Sword",
-  "Guardian's Blade"
+  "Dagger",
+  "Phage"
  ],
  "core": [
-  "Stridebreaker",
-  "Boots of Swiftness",
   "Experimental Hexplate",
+  "Boots of Swiftness",
+  "Stridebreaker",
   "Death's Dance"
  ],
  "fourth": [
@@ -30,16 +30,16 @@
  ],
  "sixth": [
   "Endless Hunger",
-  "Sterak's Gage",
   "Maw of Malmortius",
+  "Sterak's Gage",
   "Spirit Visage"
  ],
  "pool": [
-  "Long Sword",
-  "Guardian's Blade",
-  "Stridebreaker",
-  "Boots of Swiftness",
+  "Dagger",
+  "Phage",
   "Experimental Hexplate",
+  "Boots of Swiftness",
+  "Stridebreaker",
   "Death's Dance",
   "Endless Hunger",
   "Ravenous Hydra",

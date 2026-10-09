@@ -24,15 +24,15 @@
  ],
  "fifth": [
   "Jak'Sho, The Protean",
-  "Spirit Visage",
   "Winter's Approach",
+  "Spirit Visage",
   "Frozen Heart"
  ],
  "sixth": [
   "Jak'Sho, The Protean",
   "Spirit Visage",
-  "Overlord's Bloodmail",
-  "Winter's Approach"
+  "Winter's Approach",
+  "Thornmail"
  ],
  "pool": [
   "Giant's Belt",
@@ -46,6 +46,6 @@
   "Spirit Visage",
   "Kaenic Rookern",
   "Frozen Heart",
-  "Overlord's Bloodmail"
+  "Thornmail"
  ]
 }

@@ -19,13 +19,13 @@
  "fourth": [
   "Runaan's Hurricane",
   "Bloodthirster",
-  "Kraken Slayer",
-  "Blade of The Ruined King"
+  "Blade of The Ruined King",
+  "Kraken Slayer"
  ],
  "fifth": [
   "Bloodthirster",
   "Runaan's Hurricane",
-  "Kraken Slayer",
+  "Statikk Shiv",
   "Blade of The Ruined King"
  ],
  "sixth": [
@@ -43,8 +43,8 @@
   "Lord Dominik's Regards",
   "Runaan's Hurricane",
   "Bloodthirster",
-  "Kraken Slayer",
   "Blade of The Ruined King",
+  "Kraken Slayer",
   "Statikk Shiv"
  ]
 }

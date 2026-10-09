@@ -13,23 +13,23 @@
  "core": [
   "Heartsteel",
   "Mercury's Treads",
-  "Warmog's Armor",
-  "Overlord's Bloodmail"
+  "Titanic Hydra",
+  "Warmog's Armor"
  ],
  "fourth": [
-  "Titanic Hydra",
+  "Overlord's Bloodmail",
   "Black Cleaver",
   "Sundered Sky",
   "Death's Dance"
  ],
  "fifth": [
-  "Titanic Hydra",
   "Endless Hunger",
+  "Overlord's Bloodmail",
   "Sterak's Gage",
   "Black Cleaver"
  ],
  "sixth": [
-  "Titanic Hydra",
+  "Overlord's Bloodmail",
   "Sterak's Gage",
   "Endless Hunger",
   "Jak'Sho, The Protean"
@@ -39,9 +39,9 @@
   "Ruby Crystal",
   "Heartsteel",
   "Mercury's Treads",
+  "Titanic Hydra",
   "Warmog's Armor",
   "Overlord's Bloodmail",
-  "Titanic Hydra",
   "Black Cleaver",
   "Sundered Sky",
   "Death's Dance",

@@ -23,15 +23,15 @@
  ],
  "fifth": [
   "Shadowflame",
-  "Blackfire Torch",
   "Rabadon's Deathcap",
+  "Blackfire Torch",
   "Nashor's Tooth"
  ],
  "sixth": [
   "Shadowflame",
-  "Bloodletter's Curse",
   "Void Staff",
-  "Cryptbloom"
+  "Cryptbloom",
+  "Rabadon's Deathcap"
  ],
  "pool": [
   "Lost Chapter",
@@ -43,7 +43,6 @@
   "Rabadon's Deathcap",
   "Blackfire Torch",
   "Shadowflame",
-  "Bloodletter's Curse",
   "Void Staff",
   "Cryptbloom"
  ]

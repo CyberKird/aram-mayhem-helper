@@ -7,6 +7,7 @@
   "Mark"
  ],
  "starting": [
+  "Refillable Potion",
   "Tiamat"
  ],
  "core": [
@@ -18,22 +19,23 @@
  "fourth": [
   "Voltaic Cyclosword",
   "Lord Dominik's Regards",
-  "Profane Hydra",
-  "Death's Dance"
+  "Death's Dance",
+  "Profane Hydra"
  ],
  "fifth": [
   "Voltaic Cyclosword",
-  "Lord Dominik's Regards",
   "Endless Hunger",
+  "Lord Dominik's Regards",
   "Death's Dance"
  ],
  "sixth": [
-  "Endless Hunger",
   "Voltaic Cyclosword",
+  "Endless Hunger",
   "Death's Dance",
   "Lord Dominik's Regards"
  ],
  "pool": [
+  "Refillable Potion",
   "Tiamat",
   "Stridebreaker",
   "Mercury's Treads",
@@ -41,8 +43,8 @@
   "Axiom Arc",
   "Voltaic Cyclosword",
   "Lord Dominik's Regards",
-  "Profane Hydra",
   "Death's Dance",
+  "Profane Hydra",
   "Endless Hunger"
  ]
 }

@@ -10,10 +10,10 @@
   "Lost Chapter"
  ],
  "core": [
-  "Rylai's Crystal Scepter",
-  "Sorcerer's Shoes",
   "Blackfire Torch",
-  "Liandry's Torment"
+  "Sorcerer's Shoes",
+  "Liandry's Torment",
+  "Rylai's Crystal Scepter"
  ],
  "fourth": [
   "Archangel's Staff",
@@ -35,10 +35,10 @@
  ],
  "pool": [
   "Lost Chapter",
-  "Rylai's Crystal Scepter",
-  "Sorcerer's Shoes",
   "Blackfire Torch",
+  "Sorcerer's Shoes",
   "Liandry's Torment",
+  "Rylai's Crystal Scepter",
   "Archangel's Staff",
   "Rabadon's Deathcap",
   "Malignance",

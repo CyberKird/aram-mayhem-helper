@@ -7,15 +7,14 @@
   "Ghost"
  ],
  "starting": [
-  "Boots",
-  "Long Sword",
-  "Recurve Bow"
+  "Dagger",
+  "Vampiric Scepter"
  ],
  "core": [
   "Blade of The Ruined King",
   "Berserker's Greaves",
-  "Guinsoo's Rageblade",
-  "Runaan's Hurricane"
+  "Runaan's Hurricane",
+  "Guinsoo's Rageblade"
  ],
  "fourth": [
   "Terminus",
@@ -32,17 +31,16 @@
  "sixth": [
   "Terminus",
   "Lord Dominik's Regards",
-  "Infinity Edge",
-  "Serylda's Grudge"
+  "Serylda's Grudge",
+  "Infinity Edge"
  ],
  "pool": [
-  "Boots",
-  "Long Sword",
-  "Recurve Bow",
+  "Dagger",
+  "Vampiric Scepter",
   "Blade of The Ruined King",
   "Berserker's Greaves",
-  "Guinsoo's Rageblade",
   "Runaan's Hurricane",
+  "Guinsoo's Rageblade",
   "Terminus",
   "Lord Dominik's Regards",
   "Infinity Edge",
