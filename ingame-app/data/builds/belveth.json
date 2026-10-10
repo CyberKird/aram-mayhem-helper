@@ -7,7 +7,7 @@
   "Mark"
  ],
  "starting": [
-  "Dagger",
+  "Long Sword",
   "Guardian's Blade"
  ],
  "core": [
@@ -20,22 +20,22 @@
   "Lord Dominik's Regards",
   "Terminus",
   "Guinsoo's Rageblade",
-  "Blade of The Ruined King"
+  "Mortal Reminder"
  ],
  "fifth": [
   "Lord Dominik's Regards",
   "Endless Hunger",
-  "Guinsoo's Rageblade",
-  "Terminus"
+  "Terminus",
+  "Guinsoo's Rageblade"
  ],
  "sixth": [
   "Endless Hunger",
-  "Guinsoo's Rageblade",
+  "Lord Dominik's Regards",
   "Terminus",
-  "Bloodthirster"
+  "Guinsoo's Rageblade"
  ],
  "pool": [
-  "Dagger",
+  "Long Sword",
   "Guardian's Blade",
   "Yun Tal Wildarrows",
   "Mercury's Treads",
@@ -44,8 +44,7 @@
   "Lord Dominik's Regards",
   "Terminus",
   "Guinsoo's Rageblade",
-  "Blade of The Ruined King",
-  "Endless Hunger",
-  "Bloodthirster"
+  "Mortal Reminder",
+  "Endless Hunger"
  ]
 }

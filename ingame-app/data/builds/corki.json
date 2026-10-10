@@ -7,44 +7,44 @@
   "Mark"
  ],
  "starting": [
-  "Long Sword",
-  "Guardian's Blade"
+  "Sheen",
+  "Tear of the Goddess"
  ],
  "core": [
-  "The Collector",
+  "Trinity Force",
   "Berserker's Greaves",
-  "Lord Dominik's Regards",
+  "Manamune",
   "Infinity Edge"
  ],
  "fourth": [
+  "Lord Dominik's Regards",
   "Bloodthirster",
   "Essence Reaver",
-  "Trinity Force",
-  "Manamune"
+  "Mortal Reminder"
  ],
  "fifth": [
   "Endless Hunger",
   "Bloodthirster",
-  "Trinity Force",
+  "Lord Dominik's Regards",
   "Essence Reaver"
  ],
  "sixth": [
   "Endless Hunger",
   "Maw of Malmortius",
-  "Trinity Force",
-  "Bloodthirster"
+  "Bloodthirster",
+  "Lord Dominik's Regards"
  ],
  "pool": [
-  "Long Sword",
-  "Guardian's Blade",
-  "The Collector",
+  "Sheen",
+  "Tear of the Goddess",
+  "Trinity Force",
   "Berserker's Greaves",
-  "Lord Dominik's Regards",
+  "Manamune",
   "Infinity Edge",
+  "Lord Dominik's Regards",
   "Bloodthirster",
   "Essence Reaver",
-  "Trinity Force",
-  "Manamune",
+  "Mortal Reminder",
   "Endless Hunger",
   "Maw of Malmortius"
  ]

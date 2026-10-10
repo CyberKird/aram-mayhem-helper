@@ -7,44 +7,46 @@
   "Mark"
  ],
  "starting": [
-  "Amplifying Tome",
-  "Fated Ashes"
+  "Giant's Belt",
+  "Ruby Crystal"
  ],
  "core": [
-  "Liandry's Torment",
-  "Sorcerer's Shoes",
-  "Rabadon's Deathcap",
-  "Shadowflame"
+  "Heartsteel",
+  "Mercury's Treads",
+  "Dusk and Dawn",
+  "Riftmaker"
  ],
  "fourth": [
-  "Riftmaker",
-  "Warmog's Armor",
-  "Dusk and Dawn",
-  "Unending Despair"
- ],
- "fifth": [
-  "Riftmaker",
-  "Warmog's Armor",
-  "Dusk and Dawn",
-  "Unending Despair"
- ],
- "sixth": [
-  "Riftmaker",
-  "Dusk and Dawn",
-  "Spirit Visage",
+  "Rabadon's Deathcap",
+  "Unending Despair",
+  "Shadowflame",
   "Warmog's Armor"
  ],
- "pool": [
-  "Amplifying Tome",
-  "Fated Ashes",
-  "Liandry's Torment",
-  "Sorcerer's Shoes",
+ "fifth": [
   "Rabadon's Deathcap",
-  "Shadowflame",
-  "Riftmaker",
   "Warmog's Armor",
+  "Spirit Visage",
+  "Liandry's Torment"
+ ],
+ "sixth": [
+  "Jak'Sho, The Protean",
+  "Rabadon's Deathcap",
+  "Warmog's Armor",
+  "Liandry's Torment"
+ ],
+ "pool": [
+  "Giant's Belt",
+  "Ruby Crystal",
+  "Heartsteel",
+  "Mercury's Treads",
   "Dusk and Dawn",
+  "Riftmaker",
+  "Rabadon's Deathcap",
   "Unending Despair",
-  "Spirit Visage"
+  "Shadowflame",
+  "Warmog's Armor",
+  "Spirit Visage",
+  "Liandry's Torment",
+  "Jak'Sho, The Protean"
  ]
 }

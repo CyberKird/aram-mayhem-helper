@@ -17,20 +17,20 @@
  ],
  "fourth": [
   "Void Staff",
-  "Malignance",
-  "Zhonya's Hourglass"
+  "Zhonya's Hourglass",
+  "Malignance"
  ],
  "fifth": [
-  "Banshee's Veil",
   "Void Staff",
-  "Malignance",
-  "Zhonya's Hourglass"
+  "Banshee's Veil",
+  "Zhonya's Hourglass",
+  "Malignance"
  ],
  "sixth": [
   "Banshee's Veil",
-  "Hextech Rocketbelt",
   "Void Staff",
-  "Zhonya's Hourglass"
+  "Cryptbloom",
+  "Hextech Rocketbelt"
  ],
  "pool": [
   "Hextech Alternator",
@@ -39,9 +39,10 @@
   "Shadowflame",
   "Rabadon's Deathcap",
   "Void Staff",
-  "Malignance",
   "Zhonya's Hourglass",
+  "Malignance",
   "Banshee's Veil",
+  "Cryptbloom",
   "Hextech Rocketbelt"
  ]
 }

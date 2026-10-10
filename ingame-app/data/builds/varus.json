@@ -7,8 +7,9 @@
   "Ghost"
  ],
  "starting": [
-  "Dagger",
-  "Vampiric Scepter"
+  "Long Sword",
+  "Pickaxe",
+  "Refillable Potion"
  ],
  "core": [
   "Blade of The Ruined King",
@@ -18,9 +19,9 @@
  ],
  "fourth": [
   "Terminus",
-  "Lord Dominik's Regards",
   "Infinity Edge",
-  "Serylda's Grudge"
+  "Lord Dominik's Regards",
+  "Manamune"
  ],
  "fifth": [
   "Terminus",
@@ -31,19 +32,21 @@
  "sixth": [
   "Terminus",
   "Lord Dominik's Regards",
-  "Serylda's Grudge",
-  "Infinity Edge"
+  "Infinity Edge",
+  "Serylda's Grudge"
  ],
  "pool": [
-  "Dagger",
-  "Vampiric Scepter",
+  "Long Sword",
+  "Pickaxe",
+  "Refillable Potion",
   "Blade of The Ruined King",
   "Berserker's Greaves",
   "Runaan's Hurricane",
   "Guinsoo's Rageblade",
   "Terminus",
-  "Lord Dominik's Regards",
   "Infinity Edge",
+  "Lord Dominik's Regards",
+  "Manamune",
   "Serylda's Grudge"
  ]
 }

@@ -14,21 +14,21 @@
  ],
  "core": [
   "Trinity Force",
-  "Ionian Boots of Lucidity",
-  "Frozen Heart",
+  "Mercury's Treads",
+  "Spirit Visage",
   "Sundered Sky"
  ],
  "fourth": [
   "Death's Dance",
-  "Force of Nature",
+  "Frozen Heart",
   "Rylai's Crystal Scepter",
-  "Spirit Visage"
+  "Warmog's Armor"
  ],
  "fifth": [
   "Endless Hunger",
   "Death's Dance",
-  "Warmog's Armor",
-  "Force of Nature"
+  "Jak'Sho, The Protean",
+  "Warmog's Armor"
  ],
  "sixth": [
   "Endless Hunger",
@@ -41,15 +41,14 @@
   "Health Potion",
   "Sheen",
   "Trinity Force",
-  "Ionian Boots of Lucidity",
-  "Frozen Heart",
+  "Mercury's Treads",
+  "Spirit Visage",
   "Sundered Sky",
   "Death's Dance",
-  "Force of Nature",
+  "Frozen Heart",
   "Rylai's Crystal Scepter",
-  "Spirit Visage",
-  "Endless Hunger",
   "Warmog's Armor",
+  "Endless Hunger",
   "Jak'Sho, The Protean"
  ]
 }

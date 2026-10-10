@@ -7,8 +7,8 @@
   "Ghost"
  ],
  "starting": [
-  "Tear of the Goddess",
-  "Guardian's Blade"
+  "Sheen",
+  "Tear of the Goddess"
  ],
  "core": [
   "Trinity Force",
@@ -18,35 +18,35 @@
  ],
  "fourth": [
   "Archangel's Staff",
-  "Lord Dominik's Regards",
   "Spear of Shojin",
-  "Infinity Edge"
+  "Infinity Edge",
+  "Lord Dominik's Regards"
  ],
  "fifth": [
   "Archangel's Staff",
   "Lord Dominik's Regards",
   "Spear of Shojin",
-  "Serylda's Grudge"
+  "Infinity Edge"
  ],
  "sixth": [
-  "Archangel's Staff",
   "Shadowflame",
-  "Bloodthirster",
-  "Serylda's Grudge"
+  "Archangel's Staff",
+  "Serylda's Grudge",
+  "Rabadon's Deathcap"
  ],
  "pool": [
+  "Sheen",
   "Tear of the Goddess",
-  "Guardian's Blade",
   "Trinity Force",
   "Ionian Boots of Lucidity",
   "Manamune",
   "Endless Hunger",
   "Archangel's Staff",
-  "Lord Dominik's Regards",
   "Spear of Shojin",
   "Infinity Edge",
-  "Serylda's Grudge",
+  "Lord Dominik's Regards",
   "Shadowflame",
-  "Bloodthirster"
+  "Serylda's Grudge",
+  "Rabadon's Deathcap"
  ]
 }

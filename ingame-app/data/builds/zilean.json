@@ -7,13 +7,14 @@
   "Clarity"
  ],
  "starting": [
+  "Refillable Potion",
   "Lost Chapter"
  ],
  "core": [
   "Luden's Echo",
   "Ionian Boots of Lucidity",
-  "Rabadon's Deathcap",
-  "Archangel's Staff"
+  "Archangel's Staff",
+  "Rabadon's Deathcap"
  ],
  "fourth": [
   "Blackfire Torch",
@@ -24,27 +25,28 @@
  "fifth": [
   "Rod of Ages",
   "Blackfire Torch",
-  "Malignance",
+  "Cryptbloom",
   "Cosmic Drive"
  ],
  "sixth": [
-  "Rod of Ages",
   "Blackfire Torch",
   "Banshee's Veil",
-  "Cryptbloom"
+  "Rod of Ages",
+  "Malignance"
  ],
  "pool": [
+  "Refillable Potion",
   "Lost Chapter",
   "Luden's Echo",
   "Ionian Boots of Lucidity",
-  "Rabadon's Deathcap",
   "Archangel's Staff",
+  "Rabadon's Deathcap",
   "Blackfire Torch",
   "Cryptbloom",
   "Cosmic Drive",
   "Horizon Focus",
   "Rod of Ages",
-  "Malignance",
-  "Banshee's Veil"
+  "Banshee's Veil",
+  "Malignance"
  ]
 }

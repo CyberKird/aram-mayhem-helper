@@ -19,21 +19,21 @@
  ],
  "fourth": [
   "Guinsoo's Rageblade",
-  "Bloodthirster",
+  "Infinity Edge",
   "Wit's End",
-  "Infinity Edge"
+  "Lord Dominik's Regards"
  ],
  "fifth": [
   "Bloodthirster",
+  "Wit's End",
   "Guinsoo's Rageblade",
-  "Lord Dominik's Regards",
-  "Wit's End"
+  "Lord Dominik's Regards"
  ],
  "sixth": [
-  "Mercurial Scimitar",
-  "Statikk Shiv",
+  "Jak'Sho, The Protean",
   "Bloodthirster",
-  "Wit's End"
+  "Wit's End",
+  "Guinsoo's Rageblade"
  ],
  "pool": [
   "Dagger",
@@ -43,11 +43,10 @@
   "Runaan's Hurricane",
   "Terminus",
   "Guinsoo's Rageblade",
-  "Bloodthirster",
-  "Wit's End",
   "Infinity Edge",
+  "Wit's End",
   "Lord Dominik's Regards",
-  "Mercurial Scimitar",
-  "Statikk Shiv"
+  "Bloodthirster",
+  "Jak'Sho, The Protean"
  ]
 }

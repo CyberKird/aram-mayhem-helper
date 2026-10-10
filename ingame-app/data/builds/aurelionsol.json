@@ -18,21 +18,21 @@
  ],
  "fourth": [
   "Bloodletter's Curse",
-  "Warmog's Armor",
   "Rabadon's Deathcap",
+  "Warmog's Armor",
   "Shadowflame"
  ],
  "fifth": [
   "Bloodletter's Curse",
-  "Riftmaker",
   "Warmog's Armor",
-  "Archangel's Staff"
+  "Rabadon's Deathcap",
+  "Riftmaker"
  ],
  "sixth": [
   "Bloodletter's Curse",
-  "Riftmaker",
   "Warmog's Armor",
-  "Archangel's Staff"
+  "Archangel's Staff",
+  "Shadowflame"
  ],
  "pool": [
   "Sapphire Crystal",
@@ -42,8 +42,8 @@
   "Liandry's Torment",
   "Rylai's Crystal Scepter",
   "Bloodletter's Curse",
-  "Warmog's Armor",
   "Rabadon's Deathcap",
+  "Warmog's Armor",
   "Shadowflame",
   "Riftmaker",
   "Archangel's Staff"

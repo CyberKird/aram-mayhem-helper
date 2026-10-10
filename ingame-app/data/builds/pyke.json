@@ -7,42 +7,44 @@
   "Mark"
  ],
  "starting": [
-  "The Brutalizer"
+  "Long Sword",
+  "Serrated Dirk"
  ],
  "core": [
-  "Axiom Arc",
-  "Ionian Boots of Lucidity",
   "Hubris",
+  "Boots of Swiftness",
+  "Axiom Arc",
   "Voltaic Cyclosword"
  ],
  "fourth": [
   "Death's Dance",
   "Profane Hydra",
-  "Youmuu's Ghostblade",
-  "Lord Dominik's Regards"
+  "Endless Hunger",
+  "Youmuu's Ghostblade"
  ],
  "fifth": [
-  "Endless Hunger",
   "Death's Dance",
+  "Endless Hunger",
   "Youmuu's Ghostblade",
-  "Profane Hydra"
+  "Maw of Malmortius"
  ],
  "sixth": [
-  "Endless Hunger",
   "Youmuu's Ghostblade",
+  "Endless Hunger",
   "Death's Dance",
   "Profane Hydra"
  ],
  "pool": [
-  "The Brutalizer",
-  "Axiom Arc",
-  "Ionian Boots of Lucidity",
+  "Long Sword",
+  "Serrated Dirk",
   "Hubris",
+  "Boots of Swiftness",
+  "Axiom Arc",
   "Voltaic Cyclosword",
   "Death's Dance",
   "Profane Hydra",
+  "Endless Hunger",
   "Youmuu's Ghostblade",
-  "Lord Dominik's Regards",
-  "Endless Hunger"
+  "Maw of Malmortius"
  ]
 }

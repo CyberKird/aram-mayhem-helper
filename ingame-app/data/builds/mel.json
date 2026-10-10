@@ -7,8 +7,8 @@
   "Ghost"
  ],
  "starting": [
-  "Sapphire Crystal",
-  "Fated Ashes"
+  "Refillable Potion",
+  "Lost Chapter"
  ],
  "core": [
   "Blackfire Torch",
@@ -18,8 +18,8 @@
  ],
  "fourth": [
   "Stormsurge",
-  "Archangel's Staff",
   "Shadowflame",
+  "Archangel's Staff",
   "Void Staff"
  ],
  "fifth": [
@@ -30,23 +30,22 @@
  ],
  "sixth": [
   "Stormsurge",
-  "Cryptbloom",
-  "Banshee's Veil",
-  "Cosmic Drive"
+  "Cosmic Drive",
+  "Shadowflame",
+  "Banshee's Veil"
  ],
  "pool": [
-  "Sapphire Crystal",
-  "Fated Ashes",
+  "Refillable Potion",
+  "Lost Chapter",
   "Blackfire Torch",
   "Sorcerer's Shoes",
   "Liandry's Torment",
   "Rabadon's Deathcap",
   "Stormsurge",
-  "Archangel's Staff",
   "Shadowflame",
+  "Archangel's Staff",
   "Void Staff",
-  "Cryptbloom",
-  "Banshee's Veil",
-  "Cosmic Drive"
+  "Cosmic Drive",
+  "Banshee's Veil"
  ]
 }

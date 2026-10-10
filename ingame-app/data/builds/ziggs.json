@@ -16,22 +16,22 @@
   "Rabadon's Deathcap"
  ],
  "fourth": [
-  "Horizon Focus",
   "Archangel's Staff",
   "Shadowflame",
-  "Malignance"
+  "Horizon Focus",
+  "Void Staff"
  ],
  "fifth": [
   "Horizon Focus",
-  "Archangel's Staff",
   "Shadowflame",
-  "Malignance"
+  "Void Staff",
+  "Archangel's Staff"
  ],
  "sixth": [
-  "Horizon Focus",
-  "Stormsurge",
+  "Void Staff",
   "Shadowflame",
-  "Void Staff"
+  "Archangel's Staff",
+  "Horizon Focus"
  ],
  "pool": [
   "Lost Chapter",
@@ -39,11 +39,9 @@
   "Sorcerer's Shoes",
   "Liandry's Torment",
   "Rabadon's Deathcap",
-  "Horizon Focus",
   "Archangel's Staff",
   "Shadowflame",
-  "Malignance",
-  "Stormsurge",
+  "Horizon Focus",
   "Void Staff"
  ]
 }

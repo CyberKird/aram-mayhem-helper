@@ -16,22 +16,22 @@
   "Shadowflame"
  ],
  "fourth": [
-  "Stormsurge",
   "Lich Bane",
+  "Stormsurge",
   "Void Staff",
-  "Liandry's Torment"
+  "Horizon Focus"
  ],
  "fifth": [
   "Stormsurge",
-  "Horizon Focus",
   "Lich Bane",
+  "Horizon Focus",
   "Void Staff"
  ],
  "sixth": [
-  "Stormsurge",
   "Banshee's Veil",
-  "Horizon Focus",
-  "Void Staff"
+  "Stormsurge",
+  "Void Staff",
+  "Horizon Focus"
  ],
  "pool": [
   "Lost Chapter",
@@ -39,10 +39,9 @@
   "Sorcerer's Shoes",
   "Rabadon's Deathcap",
   "Shadowflame",
-  "Stormsurge",
   "Lich Bane",
+  "Stormsurge",
   "Void Staff",
-  "Liandry's Torment",
   "Horizon Focus",
   "Banshee's Veil"
  ]

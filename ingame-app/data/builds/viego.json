@@ -12,7 +12,7 @@
  ],
  "core": [
   "The Collector",
-  "Mercury's Treads",
+  "Plated Steelcaps",
   "Lord Dominik's Regards",
   "Infinity Edge"
  ],
@@ -31,14 +31,14 @@
  "sixth": [
   "Endless Hunger",
   "Death's Dance",
-  "Bloodthirster",
-  "Maw of Malmortius"
+  "Maw of Malmortius",
+  "Kraken Slayer"
  ],
  "pool": [
   "Long Sword",
   "Guardian's Blade",
   "The Collector",
-  "Mercury's Treads",
+  "Plated Steelcaps",
   "Lord Dominik's Regards",
   "Infinity Edge",
   "Death's Dance",
@@ -46,7 +46,6 @@
   "Blade of The Ruined King",
   "Kraken Slayer",
   "Endless Hunger",
-  "Bloodthirster",
   "Maw of Malmortius"
  ]
 }

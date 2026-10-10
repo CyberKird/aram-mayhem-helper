@@ -14,25 +14,25 @@
   "Heartsteel",
   "Mercury's Treads",
   "Blade of The Ruined King",
-  "Titanic Hydra"
+  "Death's Dance"
  ],
  "fourth": [
-  "Warmog's Armor",
   "Unending Despair",
-  "Death's Dance",
+  "Warmog's Armor",
+  "Titanic Hydra",
   "Spirit Visage"
  ],
  "fifth": [
-  "Warmog's Armor",
-  "Death's Dance",
+  "Endless Hunger",
   "Unending Despair",
-  "Spirit Visage"
+  "Warmog's Armor",
+  "Titanic Hydra"
  ],
  "sixth": [
+  "Titanic Hydra",
+  "Unending Despair",
   "Warmog's Armor",
-  "Endless Hunger",
-  "Death's Dance",
-  "Unending Despair"
+  "Spirit Visage"
  ],
  "pool": [
   "Giant's Belt",
@@ -40,10 +40,10 @@
   "Heartsteel",
   "Mercury's Treads",
   "Blade of The Ruined King",
-  "Titanic Hydra",
-  "Warmog's Armor",
-  "Unending Despair",
   "Death's Dance",
+  "Unending Despair",
+  "Warmog's Armor",
+  "Titanic Hydra",
   "Spirit Visage",
   "Endless Hunger"
  ]

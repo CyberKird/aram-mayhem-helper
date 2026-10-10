@@ -18,20 +18,20 @@
  ],
  "fourth": [
   "Unending Despair",
-  "Sterak's Gage",
   "Spirit Visage",
-  "Sundered Sky"
+  "Sterak's Gage",
+  "Death's Dance"
  ],
  "fifth": [
-  "Endless Hunger",
   "Unending Despair",
   "Sterak's Gage",
+  "Iceborn Gauntlet",
   "Spirit Visage"
  ],
  "sixth": [
-  "Endless Hunger",
   "Unending Despair",
   "Sterak's Gage",
+  "Sundered Sky",
   "Jak'Sho, The Protean"
  ],
  "pool": [
@@ -42,10 +42,11 @@
   "Warmog's Armor",
   "Overlord's Bloodmail",
   "Unending Despair",
-  "Sterak's Gage",
   "Spirit Visage",
+  "Sterak's Gage",
+  "Death's Dance",
+  "Iceborn Gauntlet",
   "Sundered Sky",
-  "Endless Hunger",
   "Jak'Sho, The Protean"
  ]
 }

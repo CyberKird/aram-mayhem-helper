@@ -8,8 +8,7 @@
  ],
  "starting": [
   "Blasting Wand",
-  "Dagger",
-  "Glowing Mote"
+  "Amplifying Tome"
  ],
  "core": [
   "Nashor's Tooth",
@@ -32,13 +31,12 @@
  "sixth": [
   "Void Staff",
   "Zhonya's Hourglass",
-  "Dusk and Dawn",
-  "Riftmaker"
+  "Riftmaker",
+  "Rylai's Crystal Scepter"
  ],
  "pool": [
   "Blasting Wand",
-  "Dagger",
-  "Glowing Mote",
+  "Amplifying Tome",
   "Nashor's Tooth",
   "Sorcerer's Shoes",
   "Shadowflame",
@@ -47,6 +45,7 @@
   "Zhonya's Hourglass",
   "Dusk and Dawn",
   "Liandry's Torment",
-  "Riftmaker"
+  "Riftmaker",
+  "Rylai's Crystal Scepter"
  ]
 }

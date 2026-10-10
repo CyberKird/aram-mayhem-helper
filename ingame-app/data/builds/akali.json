@@ -17,22 +17,22 @@
   "Rabadon's Deathcap"
  ],
  "fourth": [
+  "Stormsurge",
   "Void Staff",
   "Lich Bane",
-  "Stormsurge",
-  "Riftmaker"
+  "Zhonya's Hourglass"
  ],
  "fifth": [
   "Lich Bane",
-  "Stormsurge",
   "Void Staff",
+  "Stormsurge",
   "Zhonya's Hourglass"
  ],
  "sixth": [
-  "Lich Bane",
-  "Banshee's Veil",
   "Void Staff",
-  "Stormsurge"
+  "Lich Bane",
+  "Stormsurge",
+  "Zhonya's Hourglass"
  ],
  "pool": [
   "Boots",
@@ -41,11 +41,9 @@
   "Sorcerer's Shoes",
   "Shadowflame",
   "Rabadon's Deathcap",
+  "Stormsurge",
   "Void Staff",
   "Lich Bane",
-  "Stormsurge",
-  "Riftmaker",
-  "Zhonya's Hourglass",
-  "Banshee's Veil"
+  "Zhonya's Hourglass"
  ]
 }

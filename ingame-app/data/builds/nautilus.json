@@ -17,22 +17,22 @@
   "Warmog's Armor"
  ],
  "fourth": [
-  "Winter's Approach",
   "Hollow Radiance",
   "Spirit Visage",
+  "Winter's Approach",
   "Jak'Sho, The Protean"
  ],
  "fifth": [
-  "Overlord's Bloodmail",
   "Hollow Radiance",
+  "Spirit Visage",
   "Jak'Sho, The Protean",
-  "Winter's Approach"
+  "Overlord's Bloodmail"
  ],
  "sixth": [
-  "Riftmaker",
-  "Jak'Sho, The Protean",
   "Spirit Visage",
-  "Force of Nature"
+  "Jak'Sho, The Protean",
+  "Hollow Radiance",
+  "Winter's Approach"
  ],
  "pool": [
   "Giant's Belt",
@@ -41,12 +41,10 @@
   "Mercury's Treads",
   "Unending Despair",
   "Warmog's Armor",
-  "Winter's Approach",
   "Hollow Radiance",
   "Spirit Visage",
+  "Winter's Approach",
   "Jak'Sho, The Protean",
-  "Overlord's Bloodmail",
-  "Riftmaker",
-  "Force of Nature"
+  "Overlord's Bloodmail"
  ]
 }

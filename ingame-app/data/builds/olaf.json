@@ -7,45 +7,44 @@
   "Mark"
  ],
  "starting": [
-  "Dagger",
-  "Phage"
+  "Refillable Potion",
+  "Tiamat"
  ],
  "core": [
-  "Experimental Hexplate",
+  "Ravenous Hydra",
   "Boots of Swiftness",
-  "Stridebreaker",
+  "Experimental Hexplate",
   "Death's Dance"
  ],
  "fourth": [
   "Endless Hunger",
-  "Ravenous Hydra",
   "Sterak's Gage",
+  "Blade of The Ruined King",
   "Sundered Sky"
  ],
  "fifth": [
-  "Maw of Malmortius",
   "Endless Hunger",
   "Sterak's Gage",
-  "Sundered Sky"
+  "Sundered Sky",
+  "Spirit Visage"
  ],
  "sixth": [
   "Endless Hunger",
-  "Maw of Malmortius",
   "Sterak's Gage",
+  "Blade of The Ruined King",
   "Spirit Visage"
  ],
  "pool": [
-  "Dagger",
-  "Phage",
-  "Experimental Hexplate",
+  "Refillable Potion",
+  "Tiamat",
+  "Ravenous Hydra",
   "Boots of Swiftness",
-  "Stridebreaker",
+  "Experimental Hexplate",
   "Death's Dance",
   "Endless Hunger",
-  "Ravenous Hydra",
   "Sterak's Gage",
+  "Blade of The Ruined King",
   "Sundered Sky",
-  "Maw of Malmortius",
   "Spirit Visage"
  ]
 }

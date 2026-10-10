@@ -7,12 +7,11 @@
   "Ghost"
  ],
  "starting": [
-  "Refillable Potion",
   "Lost Chapter"
  ],
  "core": [
   "Luden's Echo",
-  "Ionian Boots of Lucidity",
+  "Sorcerer's Shoes",
   "Rabadon's Deathcap",
   "Shadowflame"
  ],
@@ -20,32 +19,32 @@
   "Archangel's Staff",
   "Stormsurge",
   "Void Staff",
-  "Malignance"
+  "Liandry's Torment"
  ],
  "fifth": [
-  "Stormsurge",
-  "Horizon Focus",
   "Archangel's Staff",
-  "Void Staff"
+  "Stormsurge",
+  "Void Staff",
+  "Horizon Focus"
  ],
  "sixth": [
-  "Banshee's Veil",
   "Stormsurge",
+  "Banshee's Veil",
   "Horizon Focus",
-  "Archangel's Staff"
+  "Malignance"
  ],
  "pool": [
-  "Refillable Potion",
   "Lost Chapter",
   "Luden's Echo",
-  "Ionian Boots of Lucidity",
+  "Sorcerer's Shoes",
   "Rabadon's Deathcap",
   "Shadowflame",
   "Archangel's Staff",
   "Stormsurge",
   "Void Staff",
-  "Malignance",
+  "Liandry's Torment",
   "Horizon Focus",
-  "Banshee's Veil"
+  "Banshee's Veil",
+  "Malignance"
  ]
 }

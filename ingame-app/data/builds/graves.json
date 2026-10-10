@@ -8,40 +8,40 @@
  ],
  "starting": [
   "Long Sword",
-  "Guardian's Blade"
+  "Serrated Dirk"
  ],
  "core": [
+  "Hubris",
+  "Mercury's Treads",
   "The Collector",
-  "Berserker's Greaves",
-  "Infinity Edge",
-  "Hubris"
+  "Lord Dominik's Regards"
  ],
  "fourth": [
-  "Lord Dominik's Regards",
+  "Infinity Edge",
   "Bloodthirster",
   "Immortal Shieldbow",
   "Mortal Reminder"
  ],
  "fifth": [
   "Endless Hunger",
-  "Lord Dominik's Regards",
+  "Infinity Edge",
   "Bloodthirster",
   "Immortal Shieldbow"
  ],
  "sixth": [
   "Endless Hunger",
   "Bloodthirster",
-  "Lord Dominik's Regards",
-  "Mercurial Scimitar"
+  "Mercurial Scimitar",
+  "Immortal Shieldbow"
  ],
  "pool": [
   "Long Sword",
-  "Guardian's Blade",
-  "The Collector",
-  "Berserker's Greaves",
-  "Infinity Edge",
+  "Serrated Dirk",
   "Hubris",
+  "Mercury's Treads",
+  "The Collector",
   "Lord Dominik's Regards",
+  "Infinity Edge",
   "Bloodthirster",
   "Immortal Shieldbow",
   "Mortal Reminder",

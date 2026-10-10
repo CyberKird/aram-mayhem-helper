@@ -17,22 +17,22 @@
   "Unending Despair"
  ],
  "fourth": [
-  "Overlord's Bloodmail",
-  "Iceborn Gauntlet",
-  "Sundered Sky",
-  "Spirit Visage"
- ],
- "fifth": [
-  "Overlord's Bloodmail",
   "Spirit Visage",
   "Iceborn Gauntlet",
-  "Jak'Sho, The Protean"
+  "Overlord's Bloodmail",
+  "Thornmail"
+ ],
+ "fifth": [
+  "Iceborn Gauntlet",
+  "Spirit Visage",
+  "Kaenic Rookern",
+  "Sundered Sky"
  ],
  "sixth": [
   "Overlord's Bloodmail",
+  "Kaenic Rookern",
   "Jak'Sho, The Protean",
-  "Spirit Visage",
-  "Kaenic Rookern"
+  "Spirit Visage"
  ],
  "pool": [
   "Giant's Belt",
@@ -41,11 +41,12 @@
   "Mercury's Treads",
   "Warmog's Armor",
   "Unending Despair",
-  "Overlord's Bloodmail",
-  "Iceborn Gauntlet",
-  "Sundered Sky",
   "Spirit Visage",
-  "Jak'Sho, The Protean",
-  "Kaenic Rookern"
+  "Iceborn Gauntlet",
+  "Overlord's Bloodmail",
+  "Thornmail",
+  "Kaenic Rookern",
+  "Sundered Sky",
+  "Jak'Sho, The Protean"
  ]
 }

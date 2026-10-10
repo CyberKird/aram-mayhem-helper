@@ -12,7 +12,7 @@
  ],
  "core": [
   "Heartsteel",
-  "Plated Steelcaps",
+  "Mercury's Treads",
   "Unending Despair",
   "Warmog's Armor"
  ],
@@ -24,29 +24,30 @@
  ],
  "fifth": [
   "Stormsurge",
+  "Cryptbloom",
   "Thornmail",
-  "Rabadon's Deathcap",
-  "Void Staff"
+  "Rabadon's Deathcap"
  ],
  "sixth": [
-  "Cryptbloom",
-  "Void Staff",
+  "Banshee's Veil",
   "Stormsurge",
-  "Luden's Echo"
+  "Luden's Echo",
+  "Void Staff"
  ],
  "pool": [
   "Giant's Belt",
   "Ruby Crystal",
   "Heartsteel",
-  "Plated Steelcaps",
+  "Mercury's Treads",
   "Unending Despair",
   "Warmog's Armor",
   "Thornmail",
   "Rabadon's Deathcap",
   "Stormsurge",
   "Shadowflame",
-  "Void Staff",
   "Cryptbloom",
-  "Luden's Echo"
+  "Banshee's Veil",
+  "Luden's Echo",
+  "Void Staff"
  ]
 }

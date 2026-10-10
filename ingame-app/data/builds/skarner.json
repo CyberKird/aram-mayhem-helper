@@ -13,8 +13,8 @@
  "core": [
   "Heartsteel",
   "Mercury's Treads",
-  "Unending Despair",
-  "Warmog's Armor"
+  "Warmog's Armor",
+  "Unending Despair"
  ],
  "fourth": [
   "Overlord's Bloodmail",
@@ -25,25 +25,26 @@
  "fifth": [
   "Overlord's Bloodmail",
   "Spirit Visage",
-  "Winter's Approach",
-  "Jak'Sho, The Protean"
+  "Jak'Sho, The Protean",
+  "Kaenic Rookern"
  ],
  "sixth": [
   "Overlord's Bloodmail",
   "Jak'Sho, The Protean",
-  "Spirit Visage",
-  "Winter's Approach"
+  "Kaenic Rookern",
+  "Spirit Visage"
  ],
  "pool": [
   "Giant's Belt",
   "Ruby Crystal",
   "Heartsteel",
   "Mercury's Treads",
-  "Unending Despair",
   "Warmog's Armor",
+  "Unending Despair",
   "Overlord's Bloodmail",
   "Spirit Visage",
   "Winter's Approach",
-  "Jak'Sho, The Protean"
+  "Jak'Sho, The Protean",
+  "Kaenic Rookern"
  ]
 }

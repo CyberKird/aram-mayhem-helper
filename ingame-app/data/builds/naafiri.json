@@ -12,39 +12,39 @@
  ],
  "core": [
   "Hubris",
-  "Mercury's Treads",
-  "Endless Hunger",
-  "Death's Dance"
+  "Ionian Boots of Lucidity",
+  "Axiom Arc",
+  "Voltaic Cyclosword"
  ],
  "fourth": [
-  "Voltaic Cyclosword",
-  "Axiom Arc",
+  "Death's Dance",
+  "Endless Hunger",
   "Serylda's Grudge",
   "Lord Dominik's Regards"
  ],
  "fifth": [
-  "Serylda's Grudge",
-  "Axiom Arc",
+  "Endless Hunger",
   "Lord Dominik's Regards",
-  "Voltaic Cyclosword"
+  "Serylda's Grudge",
+  "Death's Dance"
  ],
  "sixth": [
+  "Death's Dance",
   "Serylda's Grudge",
-  "Axiom Arc",
-  "Voltaic Cyclosword",
-  "Maw of Malmortius"
+  "Endless Hunger",
+  "Spear of Shojin"
  ],
  "pool": [
   "Long Sword",
   "Guardian's Blade",
   "Hubris",
-  "Mercury's Treads",
-  "Endless Hunger",
-  "Death's Dance",
-  "Voltaic Cyclosword",
+  "Ionian Boots of Lucidity",
   "Axiom Arc",
+  "Voltaic Cyclosword",
+  "Death's Dance",
+  "Endless Hunger",
   "Serylda's Grudge",
   "Lord Dominik's Regards",
-  "Maw of Malmortius"
+  "Spear of Shojin"
  ]
 }

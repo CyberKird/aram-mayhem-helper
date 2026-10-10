@@ -7,20 +7,21 @@
   "Ghost"
  ],
  "starting": [
-  "Amplifying Tome",
-  "Guardian's Orb"
+  "Health Potion",
+  "Health Potion",
+  "Haunting Guise"
  ],
  "core": [
-  "Shadowflame",
+  "Riftmaker",
   "Sorcerer's Shoes",
   "Rabadon's Deathcap",
-  "Riftmaker"
+  "Shadowflame"
  ],
  "fourth": [
   "Void Staff",
   "Warmog's Armor",
   "Cryptbloom",
-  "Zhonya's Hourglass"
+  "Cosmic Drive"
  ],
  "fifth": [
   "Void Staff",
@@ -29,22 +30,23 @@
   "Cryptbloom"
  ],
  "sixth": [
+  "Stormsurge",
   "Warmog's Armor",
   "Cosmic Drive",
-  "Void Staff",
-  "Zhonya's Hourglass"
+  "Void Staff"
  ],
  "pool": [
-  "Amplifying Tome",
-  "Guardian's Orb",
-  "Shadowflame",
+  "Health Potion",
+  "Haunting Guise",
+  "Riftmaker",
   "Sorcerer's Shoes",
   "Rabadon's Deathcap",
-  "Riftmaker",
+  "Shadowflame",
   "Void Staff",
   "Warmog's Armor",
   "Cryptbloom",
+  "Cosmic Drive",
   "Zhonya's Hourglass",
-  "Cosmic Drive"
+  "Stormsurge"
  ]
 }

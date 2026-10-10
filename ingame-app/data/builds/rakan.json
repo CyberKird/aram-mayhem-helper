@@ -12,40 +12,41 @@
  ],
  "core": [
   "Heartsteel",
-  "Plated Steelcaps",
+  "Mercury's Treads",
   "Unending Despair",
   "Warmog's Armor"
  ],
  "fourth": [
   "Knight's Vow",
   "Jak'Sho, The Protean",
-  "Winter's Approach",
-  "Spirit Visage"
+  "Spirit Visage",
+  "Randuin's Omen"
  ],
  "fifth": [
-  "Knight's Vow",
+  "Spirit Visage",
+  "Locket of the Iron Solari",
   "Zeke's Convergence",
-  "Jak'Sho, The Protean",
-  "Locket of the Iron Solari"
+  "Kaenic Rookern"
  ],
  "sixth": [
-  "Jak'Sho, The Protean",
-  "Knight's Vow",
+  "Spirit Visage",
   "Zeke's Convergence",
-  "Spirit Visage"
+  "Knight's Vow",
+  "Jak'Sho, The Protean"
  ],
  "pool": [
   "Giant's Belt",
   "Ruby Crystal",
   "Heartsteel",
-  "Plated Steelcaps",
+  "Mercury's Treads",
   "Unending Despair",
   "Warmog's Armor",
   "Knight's Vow",
   "Jak'Sho, The Protean",
-  "Winter's Approach",
   "Spirit Visage",
+  "Randuin's Omen",
+  "Locket of the Iron Solari",
   "Zeke's Convergence",
-  "Locket of the Iron Solari"
+  "Kaenic Rookern"
  ]
 }

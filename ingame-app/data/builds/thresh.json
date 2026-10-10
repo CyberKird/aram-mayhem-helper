@@ -17,22 +17,22 @@
   "Warmog's Armor"
  ],
  "fourth": [
-  "Winter's Approach",
   "Spirit Visage",
-  "Jak'Sho, The Protean",
-  "Force of Nature"
+  "Force of Nature",
+  "Winter's Approach",
+  "Kaenic Rookern"
  ],
  "fifth": [
   "Force of Nature",
   "Spirit Visage",
-  "Jak'Sho, The Protean",
-  "Winter's Approach"
+  "Winter's Approach",
+  "Jak'Sho, The Protean"
  ],
  "sixth": [
   "Jak'Sho, The Protean",
-  "Spirit Visage",
   "Force of Nature",
-  "Winter's Approach"
+  "Frozen Heart",
+  "Spirit Visage"
  ],
  "pool": [
   "Giant's Belt",
@@ -41,9 +41,11 @@
   "Mercury's Treads",
   "Unending Despair",
   "Warmog's Armor",
-  "Winter's Approach",
   "Spirit Visage",
+  "Force of Nature",
+  "Winter's Approach",
+  "Kaenic Rookern",
   "Jak'Sho, The Protean",
-  "Force of Nature"
+  "Frozen Heart"
  ]
 }

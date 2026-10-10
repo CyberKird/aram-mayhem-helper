@@ -8,46 +8,46 @@
  ],
  "starting": [
   "Long Sword",
-  "Pickaxe"
+  "Serrated Dirk"
  ],
  "core": [
+  "Hubris",
+  "Boots of Swiftness",
   "The Collector",
-  "Berserker's Greaves",
-  "Infinity Edge",
-  "Hubris"
+  "Axiom Arc"
  ],
  "fourth": [
-  "Axiom Arc",
   "Lord Dominik's Regards",
-  "Rapid Firecannon",
-  "Bloodthirster"
+  "Infinity Edge",
+  "Bloodthirster",
+  "Rapid Firecannon"
  ],
  "fifth": [
-  "Axiom Arc",
+  "Edge of Night",
   "Lord Dominik's Regards",
-  "Hexoptics C44",
-  "Phantom Dancer"
+  "Phantom Dancer",
+  "Hexoptics C44"
  ],
  "sixth": [
   "Youmuu's Ghostblade",
-  "Axiom Arc",
+  "Phantom Dancer",
   "Edge of Night",
   "Lord Dominik's Regards"
  ],
  "pool": [
   "Long Sword",
-  "Pickaxe",
-  "The Collector",
-  "Berserker's Greaves",
-  "Infinity Edge",
+  "Serrated Dirk",
   "Hubris",
+  "Boots of Swiftness",
+  "The Collector",
   "Axiom Arc",
   "Lord Dominik's Regards",
-  "Rapid Firecannon",
+  "Infinity Edge",
   "Bloodthirster",
-  "Hexoptics C44",
+  "Rapid Firecannon",
+  "Edge of Night",
   "Phantom Dancer",
-  "Youmuu's Ghostblade",
-  "Edge of Night"
+  "Hexoptics C44",
+  "Youmuu's Ghostblade"
  ]
 }

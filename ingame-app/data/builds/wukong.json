@@ -8,43 +8,49 @@
  ],
  "starting": [
   "Giant's Belt",
-  "Ruby Crystal"
+  "Ruby Crystal",
+  "Health Potion",
+  "Health Potion"
  ],
  "core": [
   "Heartsteel",
-  "Plated Steelcaps",
+  "Mercury's Treads",
   "Overlord's Bloodmail",
   "Warmog's Armor"
  ],
  "fourth": [
   "Endless Hunger",
-  "Death's Dance",
-  "Trinity Force",
-  "Black Cleaver"
+  "Sundered Sky",
+  "Black Cleaver",
+  "The Collector"
  ],
  "fifth": [
   "Endless Hunger",
+  "Infinity Edge",
   "Death's Dance",
-  "Sterak's Gage",
-  "Trinity Force"
+  "Black Cleaver"
  ],
  "sixth": [
   "Endless Hunger",
-  "Sterak's Gage",
   "Death's Dance",
-  "Trinity Force"
+  "Sterak's Gage",
+  "Kaenic Rookern"
  ],
  "pool": [
   "Giant's Belt",
   "Ruby Crystal",
+  "Health Potion",
   "Heartsteel",
-  "Plated Steelcaps",
+  "Mercury's Treads",
   "Overlord's Bloodmail",
   "Warmog's Armor",
   "Endless Hunger",
-  "Death's Dance",
-  "Trinity Force",
+  "Sundered Sky",
   "Black Cleaver",
-  "Sterak's Gage"
+  "The Collector",
+  "Infinity Edge",
+  "Death's Dance",
+  "Sterak's Gage",
+  "Kaenic Rookern"
  ]
 }

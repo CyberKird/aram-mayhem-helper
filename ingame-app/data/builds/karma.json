@@ -18,21 +18,21 @@
  ],
  "fourth": [
   "Rabadon's Deathcap",
-  "Cryptbloom",
+  "Void Staff",
   "Shadowflame",
-  "Void Staff"
+  "Cryptbloom"
  ],
  "fifth": [
   "Rabadon's Deathcap",
-  "Stormsurge",
+  "Cryptbloom",
   "Void Staff",
-  "Cryptbloom"
+  "Stormsurge"
  ],
  "sixth": [
-  "Stormsurge",
-  "Malignance",
   "Cryptbloom",
-  "Rabadon's Deathcap"
+  "Stormsurge",
+  "Rabadon's Deathcap",
+  "Malignance"
  ],
  "pool": [
   "Tear of the Goddess",
@@ -42,9 +42,9 @@
   "Whispering Circlet",
   "Ardent Censer",
   "Rabadon's Deathcap",
-  "Cryptbloom",
-  "Shadowflame",
   "Void Staff",
+  "Shadowflame",
+  "Cryptbloom",
   "Stormsurge",
   "Malignance"
  ]

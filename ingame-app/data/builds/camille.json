@@ -19,20 +19,20 @@
  "fourth": [
   "Endless Hunger",
   "Spear of Shojin",
-  "Maw of Malmortius",
-  "Sterak's Gage"
+  "Sterak's Gage",
+  "Sundered Sky"
  ],
  "fifth": [
   "Endless Hunger",
-  "Spirit Visage",
   "Spear of Shojin",
-  "Sterak's Gage"
+  "Sterak's Gage",
+  "Sundered Sky"
  ],
  "sixth": [
-  "Endless Hunger",
+  "Spear of Shojin",
+  "Maw of Malmortius",
   "Sterak's Gage",
-  "Eclipse",
-  "Maw of Malmortius"
+  "Sundered Sky"
  ],
  "pool": [
   "Long Sword",
@@ -43,9 +43,8 @@
   "Death's Dance",
   "Endless Hunger",
   "Spear of Shojin",
-  "Maw of Malmortius",
   "Sterak's Gage",
-  "Spirit Visage",
-  "Eclipse"
+  "Sundered Sky",
+  "Maw of Malmortius"
  ]
 }

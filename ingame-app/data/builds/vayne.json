@@ -8,8 +8,7 @@
  ],
  "starting": [
   "Dagger",
-  "Dagger",
-  "Vampiric Scepter"
+  "Berserker's Greaves"
  ],
  "core": [
   "Blade of The Ruined King",
@@ -19,34 +18,35 @@
  ],
  "fourth": [
   "Lord Dominik's Regards",
-  "Fiendhunter Bolts",
   "Infinity Edge",
-  "Phantom Dancer"
+  "Kraken Slayer",
+  "Experimental Hexplate"
  ],
  "fifth": [
   "Lord Dominik's Regards",
-  "Fiendhunter Bolts",
-  "Phantom Dancer",
-  "Bloodthirster"
+  "Bloodthirster",
+  "The Collector",
+  "Fiendhunter Bolts"
  ],
  "sixth": [
   "Lord Dominik's Regards",
-  "Bloodthirster",
   "Phantom Dancer",
-  "Kraken Slayer"
+  "Fiendhunter Bolts",
+  "Bloodthirster"
  ],
  "pool": [
   "Dagger",
-  "Vampiric Scepter",
-  "Blade of The Ruined King",
   "Berserker's Greaves",
+  "Blade of The Ruined King",
   "Guinsoo's Rageblade",
   "Terminus",
   "Lord Dominik's Regards",
-  "Fiendhunter Bolts",
   "Infinity Edge",
-  "Phantom Dancer",
+  "Kraken Slayer",
+  "Experimental Hexplate",
   "Bloodthirster",
-  "Kraken Slayer"
+  "The Collector",
+  "Fiendhunter Bolts",
+  "Phantom Dancer"
  ]
 }

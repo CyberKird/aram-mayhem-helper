@@ -8,14 +8,13 @@
  ],
  "starting": [
   "Long Sword",
-  "Pickaxe",
-  "Refillable Potion"
+  "Pickaxe"
  ],
  "core": [
   "The Collector",
   "Berserker's Greaves",
-  "Runaan's Hurricane",
-  "Infinity Edge"
+  "Infinity Edge",
+  "Runaan's Hurricane"
  ],
  "fourth": [
   "Lord Dominik's Regards",
@@ -30,19 +29,18 @@
   "Blade of The Ruined King"
  ],
  "sixth": [
-  "Hexoptics C44",
   "Bloodthirster",
-  "Lord Dominik's Regards",
-  "Blade of The Ruined King"
+  "Hexoptics C44",
+  "Blade of The Ruined King",
+  "Lord Dominik's Regards"
  ],
  "pool": [
   "Long Sword",
   "Pickaxe",
-  "Refillable Potion",
   "The Collector",
   "Berserker's Greaves",
-  "Runaan's Hurricane",
   "Infinity Edge",
+  "Runaan's Hurricane",
   "Lord Dominik's Regards",
   "Bloodthirster",
   "Blade of The Ruined King",

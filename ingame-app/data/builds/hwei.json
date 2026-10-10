@@ -7,7 +7,7 @@
   "Ghost"
  ],
  "starting": [
-  "Sapphire Crystal",
+  "Amplifying Tome",
   "Fated Ashes"
  ],
  "core": [
@@ -19,23 +19,23 @@
  "fourth": [
   "Archangel's Staff",
   "Shadowflame",
-  "Cryptbloom",
-  "Void Staff"
+  "Void Staff",
+  "Cryptbloom"
  ],
  "fifth": [
   "Archangel's Staff",
   "Shadowflame",
-  "Cryptbloom",
-  "Void Staff"
- ],
- "sixth": [
-  "Shadowflame",
-  "Archangel's Staff",
   "Void Staff",
   "Cryptbloom"
  ],
+ "sixth": [
+  "Shadowflame",
+  "Cryptbloom",
+  "Archangel's Staff",
+  "Void Staff"
+ ],
  "pool": [
-  "Sapphire Crystal",
+  "Amplifying Tome",
   "Fated Ashes",
   "Liandry's Torment",
   "Sorcerer's Shoes",
@@ -43,7 +43,7 @@
   "Rabadon's Deathcap",
   "Archangel's Staff",
   "Shadowflame",
-  "Cryptbloom",
-  "Void Staff"
+  "Void Staff",
+  "Cryptbloom"
  ]
 }

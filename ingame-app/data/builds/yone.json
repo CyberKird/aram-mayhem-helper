@@ -18,14 +18,14 @@
  "fourth": [
   "Infinity Edge",
   "Blade of The Ruined King",
-  "Lord Dominik's Regards",
-  "Bloodthirster"
+  "Bloodthirster",
+  "Lord Dominik's Regards"
  ],
  "fifth": [
   "Spirit Visage",
   "Infinity Edge",
-  "Lord Dominik's Regards",
-  "Blade of The Ruined King"
+  "Bloodthirster",
+  "Lord Dominik's Regards"
  ],
  "sixth": [
   "Spirit Visage",
@@ -41,8 +41,8 @@
   "Death's Dance",
   "Infinity Edge",
   "Blade of The Ruined King",
-  "Lord Dominik's Regards",
   "Bloodthirster",
+  "Lord Dominik's Regards",
   "Spirit Visage",
   "Endless Hunger"
  ]

@@ -7,44 +7,47 @@
   "Heal"
  ],
  "starting": [
+  "Health Potion",
+  "Health Potion",
   "Tear of the Goddess",
   "Bandleglass Mirror"
  ],
  "core": [
   "Moonstone Renewer",
   "Ionian Boots of Lucidity",
-  "Ardent Censer",
-  "Whispering Circlet"
+  "Whispering Circlet",
+  "Staff of Flowing Water"
  ],
  "fourth": [
-  "Staff of Flowing Water",
   "Dawncore",
-  "Redemption",
-  "Imperial Mandate"
+  "Ardent Censer",
+  "Sword of Blossoming Dawn",
+  "Redemption"
  ],
  "fifth": [
-  "Staff of Flowing Water",
   "Dawncore",
-  "Redemption",
-  "Shurelya's Battlesong"
+  "Ardent Censer",
+  "Shurelya's Battlesong",
+  "Redemption"
  ],
  "sixth": [
-  "Staff of Flowing Water",
   "Dawncore",
-  "Redemption",
-  "Shurelya's Battlesong"
+  "Shurelya's Battlesong",
+  "Ardent Censer",
+  "Redemption"
  ],
  "pool": [
+  "Health Potion",
   "Tear of the Goddess",
   "Bandleglass Mirror",
   "Moonstone Renewer",
   "Ionian Boots of Lucidity",
-  "Ardent Censer",
   "Whispering Circlet",
   "Staff of Flowing Water",
   "Dawncore",
+  "Ardent Censer",
+  "Sword of Blossoming Dawn",
   "Redemption",
-  "Imperial Mandate",
   "Shurelya's Battlesong"
  ]
 }

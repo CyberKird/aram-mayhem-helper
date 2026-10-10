@@ -8,43 +8,43 @@
  ],
  "starting": [
   "Long Sword",
-  "Guardian's Blade"
+  "Serrated Dirk"
  ],
  "core": [
   "Hubris",
-  "Boots of Swiftness",
+  "Ionian Boots of Lucidity",
   "Axiom Arc",
   "Voltaic Cyclosword"
  ],
  "fourth": [
   "Endless Hunger",
   "Death's Dance",
-  "Lord Dominik's Regards",
-  "Profane Hydra"
+  "Serylda's Grudge",
+  "Lord Dominik's Regards"
  ],
  "fifth": [
   "Endless Hunger",
-  "Death's Dance",
   "Youmuu's Ghostblade",
-  "Lord Dominik's Regards"
+  "Lord Dominik's Regards",
+  "Death's Dance"
  ],
  "sixth": [
   "Endless Hunger",
   "Youmuu's Ghostblade",
   "Death's Dance",
-  "Lord Dominik's Regards"
+  "Serylda's Grudge"
  ],
  "pool": [
   "Long Sword",
-  "Guardian's Blade",
+  "Serrated Dirk",
   "Hubris",
-  "Boots of Swiftness",
+  "Ionian Boots of Lucidity",
   "Axiom Arc",
   "Voltaic Cyclosword",
   "Endless Hunger",
   "Death's Dance",
+  "Serylda's Grudge",
   "Lord Dominik's Regards",
-  "Profane Hydra",
   "Youmuu's Ghostblade"
  ]
 }

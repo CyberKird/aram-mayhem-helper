@@ -8,8 +8,7 @@
  ],
  "starting": [
   "Long Sword",
-  "Long Sword",
-  "Recurve Bow"
+  "Guardian's Blade"
  ],
  "core": [
   "Kraken Slayer",
@@ -24,10 +23,10 @@
   "Hextech Gunblade"
  ],
  "fifth": [
-  "Death's Dance",
   "Endless Hunger",
+  "Death's Dance",
   "Experimental Hexplate",
-  "Wit's End"
+  "Titanic Hydra"
  ],
  "sixth": [
   "Endless Hunger",
@@ -37,7 +36,7 @@
  ],
  "pool": [
   "Long Sword",
-  "Recurve Bow",
+  "Guardian's Blade",
   "Kraken Slayer",
   "Berserker's Greaves",
   "Blade of The Ruined King",

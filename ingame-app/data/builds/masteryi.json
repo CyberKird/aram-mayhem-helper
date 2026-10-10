@@ -8,7 +8,7 @@
  ],
  "starting": [
   "Long Sword",
-  "Guardian's Blade"
+  "Pickaxe"
  ],
  "core": [
   "The Collector",
@@ -19,14 +19,14 @@
  "fourth": [
   "Endless Hunger",
   "Death's Dance",
-  "Experimental Hexplate",
-  "Navori Flickerblade"
+  "Navori Flickerblade",
+  "Blade of The Ruined King"
  ],
  "fifth": [
   "Endless Hunger",
   "Death's Dance",
-  "Terminus",
-  "Experimental Hexplate"
+  "Experimental Hexplate",
+  "Terminus"
  ],
  "sixth": [
   "Endless Hunger",
@@ -36,15 +36,16 @@
  ],
  "pool": [
   "Long Sword",
-  "Guardian's Blade",
+  "Pickaxe",
   "The Collector",
   "Berserker's Greaves",
   "Infinity Edge",
   "Lord Dominik's Regards",
   "Endless Hunger",
   "Death's Dance",
-  "Experimental Hexplate",
   "Navori Flickerblade",
+  "Blade of The Ruined King",
+  "Experimental Hexplate",
   "Terminus"
  ]
 }

@@ -7,45 +7,47 @@
   "Ghost"
  ],
  "starting": [
-  "Dagger",
-  "Vampiric Scepter"
+  "Refillable Potion",
+  "Lost Chapter"
  ],
  "core": [
-  "Blade of The Ruined King",
-  "Berserker's Greaves",
-  "Runaan's Hurricane",
-  "Guinsoo's Rageblade"
+  "Blackfire Torch",
+  "Sorcerer's Shoes",
+  "Liandry's Torment",
+  "Shadowflame"
  ],
  "fourth": [
-  "Terminus",
+  "Blade of The Ruined King",
   "Rabadon's Deathcap",
-  "Archangel's Staff",
-  "Shadowflame"
+  "Runaan's Hurricane",
+  "Terminus"
  ],
  "fifth": [
   "Terminus",
+  "Guinsoo's Rageblade",
   "Kraken Slayer",
-  "Shadowflame",
   "Rabadon's Deathcap"
  ],
  "sixth": [
   "Terminus",
   "Wit's End",
-  "Kraken Slayer",
+  "Rabadon's Deathcap",
   "Archangel's Staff"
  ],
  "pool": [
-  "Dagger",
-  "Vampiric Scepter",
-  "Blade of The Ruined King",
-  "Berserker's Greaves",
-  "Runaan's Hurricane",
-  "Guinsoo's Rageblade",
-  "Terminus",
-  "Rabadon's Deathcap",
-  "Archangel's Staff",
+  "Refillable Potion",
+  "Lost Chapter",
+  "Blackfire Torch",
+  "Sorcerer's Shoes",
+  "Liandry's Torment",
   "Shadowflame",
+  "Blade of The Ruined King",
+  "Rabadon's Deathcap",
+  "Runaan's Hurricane",
+  "Terminus",
+  "Guinsoo's Rageblade",
   "Kraken Slayer",
-  "Wit's End"
+  "Wit's End",
+  "Archangel's Staff"
  ]
 }

@@ -19,8 +19,8 @@
  "fourth": [
   "Staff of Flowing Water",
   "Dawncore",
-  "Echoes of Helia",
-  "Redemption"
+  "Redemption",
+  "Warmog's Armor"
  ],
  "fifth": [
   "Staff of Flowing Water",
@@ -30,8 +30,8 @@
  ],
  "sixth": [
   "Staff of Flowing Water",
+  "Echoes of Helia",
   "Dawncore",
-  "Mikael's Blessing",
   "Warmog's Armor"
  ],
  "pool": [
@@ -43,9 +43,8 @@
   "Ardent Censer",
   "Staff of Flowing Water",
   "Dawncore",
-  "Echoes of Helia",
   "Redemption",
   "Warmog's Armor",
-  "Mikael's Blessing"
+  "Echoes of Helia"
  ]
 }

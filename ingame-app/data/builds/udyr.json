@@ -7,7 +7,8 @@
   "Mark"
  ],
  "starting": [
-  "Haunting Guise"
+  "Amplifying Tome",
+  "Fated Ashes"
  ],
  "core": [
   "Liandry's Torment",
@@ -23,17 +24,17 @@
  "fifth": [
   "Stormsurge",
   "Void Staff",
-  "Bloodletter's Curse",
   "Rylai's Crystal Scepter"
  ],
  "sixth": [
   "Stormsurge",
   "Void Staff",
   "Blackfire Torch",
-  "Bloodletter's Curse"
+  "Rylai's Crystal Scepter"
  ],
  "pool": [
-  "Haunting Guise",
+  "Amplifying Tome",
+  "Fated Ashes",
   "Liandry's Torment",
   "Sorcerer's Shoes",
   "Shadowflame",
@@ -41,7 +42,6 @@
   "Stormsurge",
   "Void Staff",
   "Rylai's Crystal Scepter",
-  "Bloodletter's Curse",
   "Blackfire Torch"
  ]
 }

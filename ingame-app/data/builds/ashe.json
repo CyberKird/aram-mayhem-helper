@@ -13,36 +13,37 @@
   "Yun Tal Wildarrows",
   "Berserker's Greaves",
   "Runaan's Hurricane",
-  "Blade of The Ruined King"
+  "Infinity Edge"
  ],
  "fourth": [
-  "Infinity Edge",
-  "Lord Dominik's Regards",
-  "Kraken Slayer",
-  "Mortal Reminder"
+  "Blade of The Ruined King",
+  "Cryptbloom",
+  "Horizon Focus",
+  "Malignance"
  ],
  "fifth": [
-  "Lord Dominik's Regards",
-  "Infinity Edge",
-  "Kraken Slayer",
-  "Mortal Reminder"
+  "Blade of The Ruined King",
+  "Cryptbloom",
+  "Cosmic Drive",
+  "Blackfire Torch"
  ],
  "sixth": [
-  "Kraken Slayer",
-  "Lord Dominik's Regards",
-  "Infinity Edge",
-  "Cryptbloom"
+  "Blackfire Torch",
+  "Cryptbloom",
+  "Cosmic Drive",
+  "Blade of The Ruined King"
  ],
  "pool": [
   "B. F. Sword",
   "Yun Tal Wildarrows",
   "Berserker's Greaves",
   "Runaan's Hurricane",
-  "Blade of The Ruined King",
   "Infinity Edge",
-  "Lord Dominik's Regards",
-  "Kraken Slayer",
-  "Mortal Reminder",
-  "Cryptbloom"
+  "Blade of The Ruined King",
+  "Cryptbloom",
+  "Horizon Focus",
+  "Malignance",
+  "Cosmic Drive",
+  "Blackfire Torch"
  ]
 }

@@ -7,8 +7,8 @@
   "Mark"
  ],
  "starting": [
-  "Ruby Crystal",
-  "Fated Ashes"
+  "Giant's Belt",
+  "Ruby Crystal"
  ],
  "core": [
   "Heartsteel",
@@ -17,16 +17,16 @@
   "Riftmaker"
  ],
  "fourth": [
-  "Warmog's Armor",
   "Dusk and Dawn",
-  "Unending Despair",
-  "Spirit Visage"
+  "Warmog's Armor",
+  "Spirit Visage",
+  "Unending Despair"
  ],
  "fifth": [
-  "Dusk and Dawn",
-  "Warmog's Armor",
   "Unending Despair",
-  "Spirit Visage"
+  "Spirit Visage",
+  "Warmog's Armor",
+  "Dusk and Dawn"
  ],
  "sixth": [
   "Warmog's Armor",
@@ -35,15 +35,15 @@
   "Spirit Visage"
  ],
  "pool": [
+  "Giant's Belt",
   "Ruby Crystal",
-  "Fated Ashes",
   "Heartsteel",
   "Mercury's Treads",
   "Liandry's Torment",
   "Riftmaker",
-  "Warmog's Armor",
   "Dusk and Dawn",
-  "Unending Despair",
-  "Spirit Visage"
+  "Warmog's Armor",
+  "Spirit Visage",
+  "Unending Despair"
  ]
 }

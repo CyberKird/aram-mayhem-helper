@@ -8,46 +8,48 @@
  ],
  "starting": [
   "Giant's Belt",
-  "Ruby Crystal"
+  "Health Potion",
+  "Health Potion",
+  "Tear of the Goddess"
  ],
  "core": [
   "Heartsteel",
-  "Plated Steelcaps",
+  "Mercury's Treads",
   "Unending Despair",
   "Warmog's Armor"
  ],
  "fourth": [
   "Winter's Approach",
   "Jak'Sho, The Protean",
-  "Spirit Visage",
-  "Kaenic Rookern"
- ],
- "fifth": [
-  "Jak'Sho, The Protean",
-  "Frozen Heart",
-  "Winter's Approach",
+  "Kaenic Rookern",
   "Spirit Visage"
  ],
+ "fifth": [
+  "Force of Nature",
+  "Winter's Approach",
+  "Jak'Sho, The Protean",
+  "Randuin's Omen"
+ ],
  "sixth": [
+  "Force of Nature",
+  "Jak'Sho, The Protean",
   "Knight's Vow",
-  "Spirit Visage",
-  "Overlord's Bloodmail",
-  "Force of Nature"
+  "Winter's Approach"
  ],
  "pool": [
   "Giant's Belt",
-  "Ruby Crystal",
+  "Health Potion",
+  "Tear of the Goddess",
   "Heartsteel",
-  "Plated Steelcaps",
+  "Mercury's Treads",
   "Unending Despair",
   "Warmog's Armor",
   "Winter's Approach",
   "Jak'Sho, The Protean",
-  "Spirit Visage",
   "Kaenic Rookern",
-  "Frozen Heart",
-  "Knight's Vow",
-  "Overlord's Bloodmail",
-  "Force of Nature"
+  "Spirit Visage",
+  "Force of Nature",
+  "Randuin's Omen",
+  "Knight's Vow"
  ]
 }

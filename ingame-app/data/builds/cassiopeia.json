@@ -7,44 +7,45 @@
   "Ghost"
  ],
  "starting": [
-  "Fated Ashes",
-  "Tear of the Goddess"
+  "Sapphire Crystal",
+  "Fated Ashes"
  ],
  "core": [
-  "Liandry's Torment",
-  "Sorcerer's Shoes",
   "Blackfire Torch",
+  "Sorcerer's Shoes",
+  "Liandry's Torment",
   "Rylai's Crystal Scepter"
  ],
  "fourth": [
   "Rabadon's Deathcap",
-  "Bloodletter's Curse",
   "Archangel's Staff",
-  "Riftmaker"
+  "Shadowflame",
+  "Void Staff"
  ],
  "fifth": [
   "Archangel's Staff",
   "Bloodletter's Curse",
-  "Rabadon's Deathcap",
+  "Riftmaker",
   "Shadowflame"
  ],
  "sixth": [
   "Bloodletter's Curse",
   "Archangel's Staff",
-  "Rabadon's Deathcap",
-  "Riftmaker"
+  "Riftmaker",
+  "Rabadon's Deathcap"
  ],
  "pool": [
+  "Sapphire Crystal",
   "Fated Ashes",
-  "Tear of the Goddess",
-  "Liandry's Torment",
-  "Sorcerer's Shoes",
   "Blackfire Torch",
+  "Sorcerer's Shoes",
+  "Liandry's Torment",
   "Rylai's Crystal Scepter",
   "Rabadon's Deathcap",
-  "Bloodletter's Curse",
   "Archangel's Staff",
-  "Riftmaker",
-  "Shadowflame"
+  "Shadowflame",
+  "Void Staff",
+  "Bloodletter's Curse",
+  "Riftmaker"
  ]
 }

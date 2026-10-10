@@ -8,7 +8,8 @@
  ],
  "starting": [
   "Long Sword",
-  "Guardian's Blade"
+  "Pickaxe",
+  "Refillable Potion"
  ],
  "core": [
   "The Collector",
@@ -19,8 +20,8 @@
  "fourth": [
   "Hexoptics C44",
   "Bloodthirster",
-  "Runaan's Hurricane",
-  "Blade of The Ruined King"
+  "Blade of The Ruined King",
+  "Runaan's Hurricane"
  ],
  "fifth": [
   "Bloodthirster",
@@ -30,22 +31,22 @@
  ],
  "sixth": [
   "Bloodthirster",
-  "Edge of Night",
   "Hexoptics C44",
-  "Kraken Slayer"
+  "Kraken Slayer",
+  "Blade of The Ruined King"
  ],
  "pool": [
   "Long Sword",
-  "Guardian's Blade",
+  "Pickaxe",
+  "Refillable Potion",
   "The Collector",
   "Berserker's Greaves",
   "Infinity Edge",
   "Lord Dominik's Regards",
   "Hexoptics C44",
   "Bloodthirster",
-  "Runaan's Hurricane",
   "Blade of The Ruined King",
-  "Kraken Slayer",
-  "Edge of Night"
+  "Runaan's Hurricane",
+  "Kraken Slayer"
  ]
 }

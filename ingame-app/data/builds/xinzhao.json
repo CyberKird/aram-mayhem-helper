@@ -7,20 +7,21 @@
   "Mark"
  ],
  "starting": [
-  "Ruby Crystal",
-  "Sheen"
+  "Dagger",
+  "Dagger",
+  "Aether Wisp"
  ],
  "core": [
-  "Dusk and Dawn",
-  "Berserker's Greaves",
   "Statikk Shiv",
+  "Berserker's Greaves",
+  "Dusk and Dawn",
   "Nashor's Tooth"
  ],
  "fourth": [
   "Riftmaker",
   "Spirit Visage",
   "Death's Dance",
-  "Blade of The Ruined King"
+  "Sundered Sky"
  ],
  "fifth": [
   "Riftmaker",
@@ -30,23 +31,21 @@
  ],
  "sixth": [
   "Riftmaker",
-  "Guinsoo's Rageblade",
   "Death's Dance",
-  "Endless Hunger"
+  "Spirit Visage",
+  "Guinsoo's Rageblade"
  ],
  "pool": [
-  "Ruby Crystal",
-  "Sheen",
-  "Dusk and Dawn",
-  "Berserker's Greaves",
+  "Dagger",
+  "Aether Wisp",
   "Statikk Shiv",
+  "Berserker's Greaves",
+  "Dusk and Dawn",
   "Nashor's Tooth",
   "Riftmaker",
   "Spirit Visage",
   "Death's Dance",
-  "Blade of The Ruined King",
   "Sundered Sky",
-  "Guinsoo's Rageblade",
-  "Endless Hunger"
+  "Guinsoo's Rageblade"
  ]
 }

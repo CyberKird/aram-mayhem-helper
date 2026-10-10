@@ -13,37 +13,37 @@
  "core": [
   "Heartsteel",
   "Mercury's Treads",
-  "Spirit Visage",
-  "Overlord's Bloodmail"
+  "Sundered Sky",
+  "Spirit Visage"
  ],
  "fourth": [
+  "Overlord's Bloodmail",
   "Endless Hunger",
   "Death's Dance",
-  "Sundered Sky",
   "Spear of Shojin"
  ],
  "fifth": [
-  "Endless Hunger",
+  "Overlord's Bloodmail",
   "Death's Dance",
-  "Spear of Shojin",
-  "Sterak's Gage"
+  "Endless Hunger",
+  "Spear of Shojin"
  ],
  "sixth": [
-  "Death's Dance",
-  "Endless Hunger",
   "Sterak's Gage",
-  "Spear of Shojin"
+  "Overlord's Bloodmail",
+  "Endless Hunger",
+  "Death's Dance"
  ],
  "pool": [
   "Giant's Belt",
   "Ruby Crystal",
   "Heartsteel",
   "Mercury's Treads",
+  "Sundered Sky",
   "Spirit Visage",
   "Overlord's Bloodmail",
   "Endless Hunger",
   "Death's Dance",
-  "Sundered Sky",
   "Spear of Shojin",
   "Sterak's Gage"
  ]

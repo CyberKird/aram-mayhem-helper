@@ -4,7 +4,7 @@
  "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
-  "Cleanse"
+  "Mark"
  ],
  "starting": [
   "Long Sword",
@@ -13,8 +13,8 @@
  "core": [
   "The Collector",
   "Berserker's Greaves",
-  "Infinity Edge",
-  "Hubris"
+  "Hubris",
+  "Infinity Edge"
  ],
  "fourth": [
   "Lord Dominik's Regards",
@@ -23,29 +23,28 @@
   "Mortal Reminder"
  ],
  "fifth": [
-  "Hexoptics C44",
+  "Bloodthirster",
   "Lord Dominik's Regards",
   "Essence Reaver",
-  "Bloodthirster"
+  "Hexoptics C44"
  ],
  "sixth": [
-  "Edge of Night",
-  "Hexoptics C44",
   "Essence Reaver",
-  "Bloodthirster"
+  "Lord Dominik's Regards",
+  "Bloodthirster",
+  "Hexoptics C44"
  ],
  "pool": [
   "Long Sword",
   "Pickaxe",
   "The Collector",
   "Berserker's Greaves",
-  "Infinity Edge",
   "Hubris",
+  "Infinity Edge",
   "Lord Dominik's Regards",
   "Essence Reaver",
   "Bloodthirster",
   "Mortal Reminder",
-  "Hexoptics C44",
-  "Edge of Night"
+  "Hexoptics C44"
  ]
 }

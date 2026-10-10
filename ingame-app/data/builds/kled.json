@@ -8,45 +8,47 @@
  ],
  "starting": [
   "Giant's Belt",
-  "Ruby Crystal"
+  "Ruby Crystal",
+  "Health Potion",
+  "Health Potion"
  ],
  "core": [
   "Heartsteel",
   "Mercury's Treads",
   "Titanic Hydra",
-  "Warmog's Armor"
+  "Overlord's Bloodmail"
  ],
  "fourth": [
-  "Overlord's Bloodmail",
-  "Black Cleaver",
+  "Warmog's Armor",
+  "Death's Dance",
+  "Sterak's Gage",
+  "Sundered Sky"
+ ],
+ "fifth": [
+  "Jak'Sho, The Protean",
+  "Warmog's Armor",
   "Sundered Sky",
   "Death's Dance"
  ],
- "fifth": [
-  "Endless Hunger",
-  "Overlord's Bloodmail",
-  "Sterak's Gage",
-  "Black Cleaver"
- ],
  "sixth": [
-  "Overlord's Bloodmail",
+  "Warmog's Armor",
+  "Spirit Visage",
   "Sterak's Gage",
-  "Endless Hunger",
-  "Jak'Sho, The Protean"
+  "Death's Dance"
  ],
  "pool": [
   "Giant's Belt",
   "Ruby Crystal",
+  "Health Potion",
   "Heartsteel",
   "Mercury's Treads",
   "Titanic Hydra",
-  "Warmog's Armor",
   "Overlord's Bloodmail",
-  "Black Cleaver",
-  "Sundered Sky",
+  "Warmog's Armor",
   "Death's Dance",
-  "Endless Hunger",
   "Sterak's Gage",
-  "Jak'Sho, The Protean"
+  "Sundered Sky",
+  "Jak'Sho, The Protean",
+  "Spirit Visage"
  ]
 }

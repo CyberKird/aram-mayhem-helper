@@ -7,43 +7,42 @@
   "Mark"
  ],
  "starting": [
-  "Blasting Wand",
-  "Amplifying Tome"
+  "Lost Chapter"
  ],
  "core": [
-  "Lich Bane",
+  "Luden's Echo",
   "Sorcerer's Shoes",
-  "Shadowflame",
-  "Rabadon's Deathcap"
+  "Rabadon's Deathcap",
+  "Shadowflame"
  ],
  "fourth": [
-  "Stormsurge",
+  "Lich Bane",
   "Void Staff",
-  "Warmog's Armor",
-  "Unending Despair"
+  "Stormsurge",
+  "Winter's Approach"
  ],
  "fifth": [
-  "Stormsurge",
+  "Lich Bane",
   "Void Staff",
-  "Warmog's Armor",
-  "Unending Despair"
+  "Stormsurge",
+  "Warmog's Armor"
  ],
  "sixth": [
-  "Stormsurge",
   "Void Staff",
-  "Warmog's Armor",
-  "Unending Despair"
+  "Lich Bane",
+  "Stormsurge",
+  "Warmog's Armor"
  ],
  "pool": [
-  "Blasting Wand",
-  "Amplifying Tome",
-  "Lich Bane",
+  "Lost Chapter",
+  "Luden's Echo",
   "Sorcerer's Shoes",
-  "Shadowflame",
   "Rabadon's Deathcap",
-  "Stormsurge",
+  "Shadowflame",
+  "Lich Bane",
   "Void Staff",
-  "Warmog's Armor",
-  "Unending Despair"
+  "Stormsurge",
+  "Winter's Approach",
+  "Warmog's Armor"
  ]
 }

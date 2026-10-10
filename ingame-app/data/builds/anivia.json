@@ -8,44 +8,47 @@
  ],
  "starting": [
   "Blasting Wand",
+  "Refillable Potion",
   "Tear of the Goddess"
  ],
  "core": [
   "Rod of Ages",
   "Sorcerer's Shoes",
-  "Liandry's Torment",
-  "Archangel's Staff"
- ],
- "fourth": [
-  "Bloodletter's Curse",
-  "Rabadon's Deathcap",
-  "Blackfire Torch",
+  "Archangel's Staff",
   "Malignance"
  ],
+ "fourth": [
+  "Liandry's Torment",
+  "Rabadon's Deathcap",
+  "Rylai's Crystal Scepter",
+  "Bloodletter's Curse"
+ ],
  "fifth": [
-  "Bloodletter's Curse",
+  "Shadowflame",
   "Rabadon's Deathcap",
   "Blackfire Torch",
-  "Shadowflame"
+  "Bloodletter's Curse"
  ],
  "sixth": [
   "Bloodletter's Curse",
-  "Zhonya's Hourglass",
   "Shadowflame",
-  "Malignance"
+  "Zhonya's Hourglass",
+  "Rabadon's Deathcap"
  ],
  "pool": [
   "Blasting Wand",
+  "Refillable Potion",
   "Tear of the Goddess",
   "Rod of Ages",
   "Sorcerer's Shoes",
-  "Liandry's Torment",
   "Archangel's Staff",
-  "Bloodletter's Curse",
-  "Rabadon's Deathcap",
-  "Blackfire Torch",
   "Malignance",
+  "Liandry's Torment",
+  "Rabadon's Deathcap",
+  "Rylai's Crystal Scepter",
+  "Bloodletter's Curse",
   "Shadowflame",
+  "Blackfire Torch",
   "Zhonya's Hourglass"
  ]
 }

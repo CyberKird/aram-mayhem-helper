@@ -16,22 +16,22 @@
   "Rabadon's Deathcap"
  ],
  "fourth": [
-  "Shadowflame",
   "Nashor's Tooth",
+  "Shadowflame",
   "Statikk Shiv",
   "Guinsoo's Rageblade"
  ],
  "fifth": [
   "Shadowflame",
-  "Statikk Shiv",
-  "Guinsoo's Rageblade",
+  "Terminus",
+  "Rapid Firecannon",
   "Nashor's Tooth"
  ],
  "sixth": [
+  "Terminus",
   "Nashor's Tooth",
   "Shadowflame",
-  "Guinsoo's Rageblade",
-  "Rapid Firecannon"
+  "Statikk Shiv"
  ],
  "pool": [
   "Lost Chapter",
@@ -39,10 +39,11 @@
   "Sorcerer's Shoes",
   "Lich Bane",
   "Rabadon's Deathcap",
-  "Shadowflame",
   "Nashor's Tooth",
+  "Shadowflame",
   "Statikk Shiv",
   "Guinsoo's Rageblade",
+  "Terminus",
   "Rapid Firecannon"
  ]
 }

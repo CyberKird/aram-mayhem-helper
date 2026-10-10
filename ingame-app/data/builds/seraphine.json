@@ -11,37 +11,36 @@
  ],
  "core": [
   "Blackfire Torch",
-  "Sorcerer's Shoes",
+  "Ionian Boots of Lucidity",
   "Liandry's Torment",
   "Rylai's Crystal Scepter"
  ],
  "fourth": [
   "Archangel's Staff",
   "Rabadon's Deathcap",
-  "Malignance",
-  "Shadowflame"
+  "Shadowflame",
+  "Cryptbloom"
  ],
  "fifth": [
   "Archangel's Staff",
-  "Rabadon's Deathcap",
   "Cryptbloom",
+  "Rabadon's Deathcap",
   "Shadowflame"
  ],
  "sixth": [
+  "Shadowflame",
   "Archangel's Staff",
   "Cryptbloom",
-  "Shadowflame",
   "Rabadon's Deathcap"
  ],
  "pool": [
   "Lost Chapter",
   "Blackfire Torch",
-  "Sorcerer's Shoes",
+  "Ionian Boots of Lucidity",
   "Liandry's Torment",
   "Rylai's Crystal Scepter",
   "Archangel's Staff",
   "Rabadon's Deathcap",
-  "Malignance",
   "Shadowflame",
   "Cryptbloom"
  ]

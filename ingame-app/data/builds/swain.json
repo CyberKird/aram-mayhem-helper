@@ -17,22 +17,22 @@
   "Overlord's Bloodmail"
  ],
  "fourth": [
-  "Liandry's Torment",
-  "Warmog's Armor",
   "Unending Despair",
-  "Rylai's Crystal Scepter"
+  "Warmog's Armor",
+  "Liandry's Torment",
+  "Spirit Visage"
  ],
  "fifth": [
   "Unending Despair",
-  "Warmog's Armor",
   "Spirit Visage",
-  "Rylai's Crystal Scepter"
+  "Rylai's Crystal Scepter",
+  "Winter's Approach"
  ],
  "sixth": [
   "Unending Despair",
-  "Malignance",
-  "Warmog's Armor",
-  "Spirit Visage"
+  "Spirit Visage",
+  "Jak'Sho, The Protean",
+  "Warmog's Armor"
  ],
  "pool": [
   "Giant's Belt",
@@ -41,11 +41,12 @@
   "Mercury's Treads",
   "Riftmaker",
   "Overlord's Bloodmail",
-  "Liandry's Torment",
-  "Warmog's Armor",
   "Unending Despair",
-  "Rylai's Crystal Scepter",
+  "Warmog's Armor",
+  "Liandry's Torment",
   "Spirit Visage",
-  "Malignance"
+  "Rylai's Crystal Scepter",
+  "Winter's Approach",
+  "Jak'Sho, The Protean"
  ]
 }

@@ -7,8 +7,7 @@
   "Mark"
  ],
  "starting": [
-  "Amplifying Tome",
-  "Guardian's Orb"
+  "Haunting Guise"
  ],
  "core": [
   "Liandry's Torment",
@@ -17,34 +16,34 @@
   "Rabadon's Deathcap"
  ],
  "fourth": [
-  "Riftmaker",
   "Bloodletter's Curse",
   "Void Staff",
-  "Malignance"
+  "Riftmaker",
+  "Zhonya's Hourglass"
  ],
  "fifth": [
-  "Riftmaker",
-  "Void Staff",
   "Bloodletter's Curse",
-  "Malignance"
+  "Void Staff",
+  "Riftmaker",
+  "Rylai's Crystal Scepter"
  ],
  "sixth": [
   "Riftmaker",
   "Void Staff",
   "Bloodletter's Curse",
-  "Zhonya's Hourglass"
+  "Malignance"
  ],
  "pool": [
-  "Amplifying Tome",
-  "Guardian's Orb",
+  "Haunting Guise",
   "Liandry's Torment",
   "Sorcerer's Shoes",
   "Shadowflame",
   "Rabadon's Deathcap",
-  "Riftmaker",
   "Bloodletter's Curse",
   "Void Staff",
-  "Malignance",
-  "Zhonya's Hourglass"
+  "Riftmaker",
+  "Zhonya's Hourglass",
+  "Rylai's Crystal Scepter",
+  "Malignance"
  ]
 }

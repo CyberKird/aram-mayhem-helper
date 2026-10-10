@@ -14,23 +14,23 @@
   "Heartsteel",
   "Mercury's Treads",
   "Unending Despair",
-  "Warmog's Armor"
+  "Spirit Visage"
  ],
  "fourth": [
+  "Warmog's Armor",
   "Riftmaker",
   "Dusk and Dawn",
-  "Rabadon's Deathcap",
-  "Nashor's Tooth"
+  "Rabadon's Deathcap"
  ],
  "fifth": [
+  "Warmog's Armor",
   "Riftmaker",
-  "Dusk and Dawn",
-  "Nashor's Tooth",
-  "Rabadon's Deathcap"
+  "Rabadon's Deathcap",
+  "Dusk and Dawn"
  ],
  "sixth": [
   "Riftmaker",
-  "Rabadon's Deathcap",
+  "Warmog's Armor",
   "Dusk and Dawn",
   "Nashor's Tooth"
  ],
@@ -40,6 +40,7 @@
   "Heartsteel",
   "Mercury's Treads",
   "Unending Despair",
+  "Spirit Visage",
   "Warmog's Armor",
   "Riftmaker",
   "Dusk and Dawn",

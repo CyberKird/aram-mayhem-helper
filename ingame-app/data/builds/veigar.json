@@ -18,9 +18,9 @@
  ],
  "fourth": [
   "Shadowflame",
+  "Stormsurge",
   "Void Staff",
-  "Warmog's Armor",
-  "Stormsurge"
+  "Warmog's Armor"
  ],
  "fifth": [
   "Banshee's Veil",
@@ -29,10 +29,10 @@
   "Stormsurge"
  ],
  "sixth": [
-  "Banshee's Veil",
-  "Shadowflame",
   "Stormsurge",
-  "Void Staff"
+  "Shadowflame",
+  "Void Staff",
+  "Banshee's Veil"
  ],
  "pool": [
   "Blasting Wand",
@@ -42,9 +42,9 @@
   "Rabadon's Deathcap",
   "Archangel's Staff",
   "Shadowflame",
+  "Stormsurge",
   "Void Staff",
   "Warmog's Armor",
-  "Stormsurge",
   "Banshee's Veil"
  ]
 }

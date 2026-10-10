@@ -7,44 +7,43 @@
   "Mark"
  ],
  "starting": [
-  "Blasting Wand",
-  "Amplifying Tome"
+  "Refillable Potion",
+  "Lost Chapter"
  ],
  "core": [
-  "Lich Bane",
+  "Luden's Echo",
   "Sorcerer's Shoes",
-  "Shadowflame",
-  "Rabadon's Deathcap"
+  "Lich Bane",
+  "Shadowflame"
  ],
  "fourth": [
+  "Rabadon's Deathcap",
   "Stormsurge",
   "Void Staff",
   "Liandry's Torment"
  ],
  "fifth": [
+  "Rabadon's Deathcap",
   "Stormsurge",
   "Void Staff",
-  "Liandry's Torment",
-  "Morellonomicon"
+  "Liandry's Torment"
  ],
  "sixth": [
-  "Banshee's Veil",
-  "Cryptbloom",
   "Void Staff",
-  "Stormsurge"
+  "Liandry's Torment",
+  "Stormsurge",
+  "Rabadon's Deathcap"
  ],
  "pool": [
-  "Blasting Wand",
-  "Amplifying Tome",
-  "Lich Bane",
+  "Refillable Potion",
+  "Lost Chapter",
+  "Luden's Echo",
   "Sorcerer's Shoes",
+  "Lich Bane",
   "Shadowflame",
   "Rabadon's Deathcap",
   "Stormsurge",
   "Void Staff",
-  "Liandry's Torment",
-  "Morellonomicon",
-  "Banshee's Veil",
-  "Cryptbloom"
+  "Liandry's Torment"
  ]
 }

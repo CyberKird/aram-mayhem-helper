@@ -21,19 +21,19 @@
   "Hexoptics C44",
   "Kraken Slayer",
   "Manamune",
-  "Lord Dominik's Regards"
+  "Infinity Edge"
  ],
  "fifth": [
   "Hexoptics C44",
-  "Bloodthirster",
   "Manamune",
-  "Kraken Slayer"
+  "Bloodthirster",
+  "Infinity Edge"
  ],
  "sixth": [
-  "Hexoptics C44",
   "Bloodthirster",
-  "Manamune",
-  "Black Cleaver"
+  "Hexoptics C44",
+  "Kraken Slayer",
+  "Infinity Edge"
  ],
  "pool": [
   "Pickaxe",
@@ -45,8 +45,7 @@
   "Hexoptics C44",
   "Kraken Slayer",
   "Manamune",
-  "Lord Dominik's Regards",
-  "Bloodthirster",
-  "Black Cleaver"
+  "Infinity Edge",
+  "Bloodthirster"
  ]
 }

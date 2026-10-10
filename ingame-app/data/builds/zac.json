@@ -13,19 +13,19 @@
  "core": [
   "Heartsteel",
   "Plated Steelcaps",
-  "Unending Despair",
-  "Warmog's Armor"
+  "Warmog's Armor",
+  "Unending Despair"
  ],
  "fourth": [
-  "Riftmaker",
   "Spirit Visage",
+  "Riftmaker",
   "Hollow Radiance",
   "Jak'Sho, The Protean"
  ],
  "fifth": [
   "Riftmaker",
-  "Hollow Radiance",
   "Jak'Sho, The Protean",
+  "Hollow Radiance",
   "Spirit Visage"
  ],
  "sixth": [
@@ -39,10 +39,10 @@
   "Ruby Crystal",
   "Heartsteel",
   "Plated Steelcaps",
-  "Unending Despair",
   "Warmog's Armor",
-  "Riftmaker",
+  "Unending Despair",
   "Spirit Visage",
+  "Riftmaker",
   "Hollow Radiance",
   "Jak'Sho, The Protean"
  ]

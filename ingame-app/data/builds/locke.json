@@ -7,41 +7,41 @@
   "Mark"
  ],
  "starting": [
-  "Amplifying Tome",
-  "Guardian's Orb"
+  "Blasting Wand",
+  "Amplifying Tome"
  ],
  "core": [
-  "Shadowflame",
-  "Sorcerer's Shoes",
   "Lich Bane",
+  "Sorcerer's Shoes",
+  "Shadowflame",
   "Rabadon's Deathcap"
  ],
  "fourth": [
-  "Void Staff",
   "Stormsurge",
+  "Void Staff",
   "Zhonya's Hourglass"
  ],
  "fifth": [
-  "Banshee's Veil",
   "Stormsurge",
   "Void Staff",
+  "Banshee's Veil",
   "Zhonya's Hourglass"
  ],
  "sixth": [
-  "Banshee's Veil",
-  "Stormsurge",
   "Zhonya's Hourglass",
-  "Void Staff"
+  "Stormsurge",
+  "Void Staff",
+  "Banshee's Veil"
  ],
  "pool": [
+  "Blasting Wand",
   "Amplifying Tome",
-  "Guardian's Orb",
-  "Shadowflame",
-  "Sorcerer's Shoes",
   "Lich Bane",
+  "Sorcerer's Shoes",
+  "Shadowflame",
   "Rabadon's Deathcap",
-  "Void Staff",
   "Stormsurge",
+  "Void Staff",
   "Zhonya's Hourglass",
   "Banshee's Veil"
  ]

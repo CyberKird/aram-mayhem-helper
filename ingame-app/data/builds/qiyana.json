@@ -7,12 +7,11 @@
   "Mark"
  ],
  "starting": [
-  "Long Sword",
-  "Guardian's Blade"
+  "Tear of the Goddess",
+  "Serrated Dirk"
  ],
  "core": [
   "Hubris",
-  "Mercury's Treads",
   "Death's Dance",
   "Manamune"
  ],
@@ -25,20 +24,19 @@
  "fifth": [
   "Endless Hunger",
   "Lord Dominik's Regards",
-  "Voltaic Cyclosword",
-  "Serylda's Grudge"
+  "Serylda's Grudge",
+  "Profane Hydra"
  ],
  "sixth": [
   "Endless Hunger",
   "Youmuu's Ghostblade",
-  "Maw of Malmortius",
-  "Lord Dominik's Regards"
+  "Edge of Night",
+  "Voltaic Cyclosword"
  ],
  "pool": [
-  "Long Sword",
-  "Guardian's Blade",
+  "Tear of the Goddess",
+  "Serrated Dirk",
   "Hubris",
-  "Mercury's Treads",
   "Death's Dance",
   "Manamune",
   "Endless Hunger",
@@ -47,6 +45,6 @@
   "Profane Hydra",
   "Serylda's Grudge",
   "Youmuu's Ghostblade",
-  "Maw of Malmortius"
+  "Edge of Night"
  ]
 }

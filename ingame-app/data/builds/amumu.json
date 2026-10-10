@@ -18,21 +18,21 @@
  ],
  "fourth": [
   "Riftmaker",
-  "Liandry's Torment",
-  "Abyssal Mask",
-  "Sunfire Aegis"
+  "Hollow Radiance",
+  "Sunfire Aegis",
+  "Abyssal Mask"
  ],
  "fifth": [
   "Riftmaker",
-  "Liandry's Torment",
   "Abyssal Mask",
-  "Hollow Radiance"
+  "Jak'Sho, The Protean",
+  "Liandry's Torment"
  ],
  "sixth": [
   "Riftmaker",
   "Liandry's Torment",
-  "Sunfire Aegis",
-  "Jak'Sho, The Protean"
+  "Jak'Sho, The Protean",
+  "Abyssal Mask"
  ],
  "pool": [
   "Giant's Belt",
@@ -42,10 +42,10 @@
   "Unending Despair",
   "Warmog's Armor",
   "Riftmaker",
-  "Liandry's Torment",
-  "Abyssal Mask",
-  "Sunfire Aegis",
   "Hollow Radiance",
-  "Jak'Sho, The Protean"
+  "Sunfire Aegis",
+  "Abyssal Mask",
+  "Jak'Sho, The Protean",
+  "Liandry's Torment"
  ]
 }

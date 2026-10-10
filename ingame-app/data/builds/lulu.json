@@ -7,48 +7,46 @@
   "Heal"
  ],
  "starting": [
-  "Amplifying Tome",
   "Tear of the Goddess",
-  "Forbidden Idol"
+  "Bandleglass Mirror"
  ],
  "core": [
-  "Ardent Censer",
-  "Ionian Boots of Lucidity",
   "Moonstone Renewer",
-  "Whispering Circlet"
+  "Ionian Boots of Lucidity",
+  "Whispering Circlet",
+  "Ardent Censer"
  ],
  "fourth": [
   "Staff of Flowing Water",
   "Dawncore",
-  "Shurelya's Battlesong",
-  "Locket of the Iron Solari"
+  "Locket of the Iron Solari",
+  "Redemption"
  ],
  "fifth": [
   "Staff of Flowing Water",
   "Dawncore",
-  "Mikael's Blessing",
-  "Shurelya's Battlesong"
+  "Shurelya's Battlesong",
+  "Mikael's Blessing"
  ],
  "sixth": [
-  "Staff of Flowing Water",
-  "Knight's Vow",
   "Dawncore",
-  "Redemption"
+  "Knight's Vow",
+  "Staff of Flowing Water",
+  "Shurelya's Battlesong"
  ],
  "pool": [
-  "Amplifying Tome",
   "Tear of the Goddess",
-  "Forbidden Idol",
-  "Ardent Censer",
-  "Ionian Boots of Lucidity",
+  "Bandleglass Mirror",
   "Moonstone Renewer",
+  "Ionian Boots of Lucidity",
   "Whispering Circlet",
+  "Ardent Censer",
   "Staff of Flowing Water",
   "Dawncore",
-  "Shurelya's Battlesong",
   "Locket of the Iron Solari",
+  "Redemption",
+  "Shurelya's Battlesong",
   "Mikael's Blessing",
-  "Knight's Vow",
-  "Redemption"
+  "Knight's Vow"
  ]
 }

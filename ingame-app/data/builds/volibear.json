@@ -25,14 +25,14 @@
  ],
  "fifth": [
   "Navori Flickerblade",
-  "Warmog's Armor",
   "Spirit Visage",
+  "Warmog's Armor",
   "Unending Despair"
  ],
  "sixth": [
-  "Navori Flickerblade",
   "Spirit Visage",
-  "Unending Despair",
+  "Navori Flickerblade",
+  "Jak'Sho, The Protean",
   "Warmog's Armor"
  ],
  "pool": [
@@ -45,6 +45,7 @@
   "Navori Flickerblade",
   "Warmog's Armor",
   "Unending Despair",
-  "Spirit Visage"
+  "Spirit Visage",
+  "Jak'Sho, The Protean"
  ]
 }

@@ -12,39 +12,40 @@
  ],
  "core": [
   "Heartsteel",
-  "Plated Steelcaps",
+  "Mercury's Treads",
   "Unending Despair",
   "Warmog's Armor"
  ],
  "fourth": [
   "Overlord's Bloodmail",
   "Jak'Sho, The Protean",
-  "Hollow Radiance",
+  "Spirit Visage",
   "Winter's Approach"
  ],
  "fifth": [
   "Overlord's Bloodmail",
-  "Jak'Sho, The Protean",
   "Hollow Radiance",
-  "Spirit Visage"
+  "Jak'Sho, The Protean",
+  "Winter's Approach"
  ],
  "sixth": [
-  "Overlord's Bloodmail",
   "Jak'Sho, The Protean",
-  "Hollow Radiance",
-  "Spirit Visage"
+  "Force of Nature",
+  "Winter's Approach",
+  "Overlord's Bloodmail"
  ],
  "pool": [
   "Giant's Belt",
   "Ruby Crystal",
   "Heartsteel",
-  "Plated Steelcaps",
+  "Mercury's Treads",
   "Unending Despair",
   "Warmog's Armor",
   "Overlord's Bloodmail",
   "Jak'Sho, The Protean",
-  "Hollow Radiance",
+  "Spirit Visage",
   "Winter's Approach",
-  "Spirit Visage"
+  "Hollow Radiance",
+  "Force of Nature"
  ]
 }

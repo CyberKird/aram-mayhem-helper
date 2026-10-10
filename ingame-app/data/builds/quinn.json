@@ -17,22 +17,22 @@
   "Lord Dominik's Regards"
  ],
  "fourth": [
+  "Yun Tal Wildarrows",
   "Bloodthirster",
-  "Voltaic Cyclosword",
   "Blade of The Ruined King",
-  "Runaan's Hurricane"
+  "Voltaic Cyclosword"
  ],
  "fifth": [
   "Bloodthirster",
   "Voltaic Cyclosword",
-  "Runaan's Hurricane",
-  "Yun Tal Wildarrows"
+  "Kraken Slayer",
+  "Blade of The Ruined King"
  ],
  "sixth": [
-  "Edge of Night",
   "Bloodthirster",
+  "Edge of Night",
   "Voltaic Cyclosword",
-  "Kraken Slayer"
+  "Blade of The Ruined King"
  ],
  "pool": [
   "Long Sword",
@@ -41,12 +41,11 @@
   "Berserker's Greaves",
   "Infinity Edge",
   "Lord Dominik's Regards",
-  "Bloodthirster",
-  "Voltaic Cyclosword",
-  "Blade of The Ruined King",
-  "Runaan's Hurricane",
   "Yun Tal Wildarrows",
-  "Edge of Night",
-  "Kraken Slayer"
+  "Bloodthirster",
+  "Blade of The Ruined King",
+  "Voltaic Cyclosword",
+  "Kraken Slayer",
+  "Edge of Night"
  ]
 }

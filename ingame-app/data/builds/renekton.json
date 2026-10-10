@@ -17,22 +17,22 @@
   "Endless Hunger"
  ],
  "fourth": [
-  "Spear of Shojin",
-  "Black Cleaver",
-  "Warmog's Armor",
-  "Sterak's Gage"
- ],
- "fifth": [
   "Sterak's Gage",
   "Spear of Shojin",
+  "Eclipse",
+  "Black Cleaver"
+ ],
+ "fifth": [
+  "Spear of Shojin",
+  "Sterak's Gage",
   "Black Cleaver",
-  "Warmog's Armor"
+  "Eclipse"
  ],
  "sixth": [
   "Sterak's Gage",
+  "Spirit Visage",
   "Spear of Shojin",
-  "Warmog's Armor",
-  "Spirit Visage"
+  "Black Cleaver"
  ],
  "pool": [
   "Long Sword",
@@ -41,10 +41,10 @@
   "Mercury's Treads",
   "Death's Dance",
   "Endless Hunger",
-  "Spear of Shojin",
-  "Black Cleaver",
-  "Warmog's Armor",
   "Sterak's Gage",
+  "Spear of Shojin",
+  "Eclipse",
+  "Black Cleaver",
   "Spirit Visage"
  ]
 }

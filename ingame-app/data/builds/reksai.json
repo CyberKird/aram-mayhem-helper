@@ -13,8 +13,8 @@
  "core": [
   "Heartsteel",
   "Plated Steelcaps",
-  "Warmog's Armor",
-  "Unending Despair"
+  "Unending Despair",
+  "Warmog's Armor"
  ],
  "fourth": [
   "Overlord's Bloodmail",
@@ -24,14 +24,14 @@
  ],
  "fifth": [
   "Overlord's Bloodmail",
+  "Titanic Hydra",
   "Jak'Sho, The Protean",
-  "Spirit Visage",
-  "Titanic Hydra"
+  "Spirit Visage"
  ],
  "sixth": [
+  "Death's Dance",
   "Overlord's Bloodmail",
   "Jak'Sho, The Protean",
-  "Spirit Visage",
   "Titanic Hydra"
  ],
  "pool": [
@@ -39,12 +39,13 @@
   "Ruby Crystal",
   "Heartsteel",
   "Plated Steelcaps",
-  "Warmog's Armor",
   "Unending Despair",
+  "Warmog's Armor",
   "Overlord's Bloodmail",
   "Spirit Visage",
   "Titanic Hydra",
   "Randuin's Omen",
-  "Jak'Sho, The Protean"
+  "Jak'Sho, The Protean",
+  "Death's Dance"
  ]
 }

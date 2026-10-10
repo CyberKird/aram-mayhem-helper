@@ -19,20 +19,20 @@
  "fourth": [
   "Overlord's Bloodmail",
   "Titanic Hydra",
-  "Hollow Radiance",
-  "Spirit Visage"
+  "Spirit Visage",
+  "Hollow Radiance"
  ],
  "fifth": [
   "Overlord's Bloodmail",
   "Titanic Hydra",
-  "Spirit Visage",
-  "Jak'Sho, The Protean"
+  "Hollow Radiance",
+  "Spirit Visage"
  ],
  "sixth": [
-  "Overlord's Bloodmail",
   "Titanic Hydra",
-  "Spirit Visage",
-  "Jak'Sho, The Protean"
+  "Overlord's Bloodmail",
+  "Jak'Sho, The Protean",
+  "Thornmail"
  ],
  "pool": [
   "Giant's Belt",
@@ -43,8 +43,9 @@
   "Warmog's Armor",
   "Overlord's Bloodmail",
   "Titanic Hydra",
-  "Hollow Radiance",
   "Spirit Visage",
-  "Jak'Sho, The Protean"
+  "Hollow Radiance",
+  "Jak'Sho, The Protean",
+  "Thornmail"
  ]
 }

@@ -19,20 +19,20 @@
  "fourth": [
   "Hollow Radiance",
   "Spirit Visage",
-  "Jak'Sho, The Protean",
-  "Winter's Approach"
+  "Winter's Approach",
+  "Jak'Sho, The Protean"
  ],
  "fifth": [
-  "Riftmaker",
   "Overlord's Bloodmail",
+  "Hollow Radiance",
   "Spirit Visage",
   "Jak'Sho, The Protean"
  ],
  "sixth": [
-  "Riftmaker",
+  "Hollow Radiance",
   "Spirit Visage",
-  "Jak'Sho, The Protean",
-  "Overlord's Bloodmail"
+  "Overlord's Bloodmail",
+  "Jak'Sho, The Protean"
  ],
  "pool": [
   "Giant's Belt",
@@ -43,9 +43,8 @@
   "Warmog's Armor",
   "Hollow Radiance",
   "Spirit Visage",
-  "Jak'Sho, The Protean",
   "Winter's Approach",
-  "Riftmaker",
+  "Jak'Sho, The Protean",
   "Overlord's Bloodmail"
  ]
 }

@@ -7,6 +7,7 @@
   "Ghost"
  ],
  "starting": [
+  "Refillable Potion",
   "Lost Chapter"
  ],
  "core": [
@@ -16,34 +17,35 @@
   "Statikk Shiv"
  ],
  "fourth": [
-  "Nashor's Tooth",
   "Rabadon's Deathcap",
-  "Blackfire Torch",
-  "Shadowflame"
+  "Nashor's Tooth",
+  "Shadowflame",
+  "Blackfire Torch"
  ],
  "fifth": [
-  "Shadowflame",
   "Rabadon's Deathcap",
-  "Blackfire Torch",
-  "Nashor's Tooth"
+  "Shadowflame",
+  "Nashor's Tooth",
+  "Blackfire Torch"
  ],
  "sixth": [
   "Shadowflame",
-  "Void Staff",
   "Cryptbloom",
-  "Rabadon's Deathcap"
+  "Blackfire Torch",
+  "Void Staff"
  ],
  "pool": [
+  "Refillable Potion",
   "Lost Chapter",
   "Malignance",
   "Sorcerer's Shoes",
   "Liandry's Torment",
   "Statikk Shiv",
-  "Nashor's Tooth",
   "Rabadon's Deathcap",
-  "Blackfire Torch",
+  "Nashor's Tooth",
   "Shadowflame",
-  "Void Staff",
-  "Cryptbloom"
+  "Blackfire Torch",
+  "Cryptbloom",
+  "Void Staff"
  ]
 }

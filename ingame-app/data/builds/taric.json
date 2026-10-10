@@ -8,44 +8,44 @@
  ],
  "starting": [
   "Giant's Belt",
-  "Ruby Crystal"
+  "Tear of the Goddess"
  ],
  "core": [
   "Heartsteel",
   "Mercury's Treads",
-  "Unending Despair",
-  "Warmog's Armor"
+  "Winter's Approach",
+  "Unending Despair"
  ],
  "fourth": [
-  "Winter's Approach",
+  "Warmog's Armor",
   "Jak'Sho, The Protean",
   "Spirit Visage",
   "Kaenic Rookern"
  ],
  "fifth": [
   "Jak'Sho, The Protean",
-  "Winter's Approach",
+  "Warmog's Armor",
   "Spirit Visage",
-  "Frozen Heart"
+  "Thornmail"
  ],
  "sixth": [
   "Jak'Sho, The Protean",
+  "Overlord's Bloodmail",
   "Spirit Visage",
-  "Winter's Approach",
-  "Thornmail"
+  "Warmog's Armor"
  ],
  "pool": [
   "Giant's Belt",
-  "Ruby Crystal",
+  "Tear of the Goddess",
   "Heartsteel",
   "Mercury's Treads",
+  "Winter's Approach",
   "Unending Despair",
   "Warmog's Armor",
-  "Winter's Approach",
   "Jak'Sho, The Protean",
   "Spirit Visage",
   "Kaenic Rookern",
-  "Frozen Heart",
-  "Thornmail"
+  "Thornmail",
+  "Overlord's Bloodmail"
  ]
 }

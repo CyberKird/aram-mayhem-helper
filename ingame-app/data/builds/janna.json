@@ -19,20 +19,20 @@
  "fourth": [
   "Staff of Flowing Water",
   "Dawncore",
-  "Redemption",
-  "Imperial Mandate"
+  "Imperial Mandate",
+  "Redemption"
  ],
  "fifth": [
   "Staff of Flowing Water",
   "Dawncore",
   "Redemption",
-  "Archangel's Staff"
+  "Imperial Mandate"
  ],
  "sixth": [
   "Staff of Flowing Water",
   "Dawncore",
   "Redemption",
-  "Shurelya's Battlesong"
+  "Mikael's Blessing"
  ],
  "pool": [
   "Tear of the Goddess",
@@ -43,9 +43,8 @@
   "Whispering Circlet",
   "Staff of Flowing Water",
   "Dawncore",
-  "Redemption",
   "Imperial Mandate",
-  "Archangel's Staff",
-  "Shurelya's Battlesong"
+  "Redemption",
+  "Mikael's Blessing"
  ]
 }

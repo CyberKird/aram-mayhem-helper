@@ -19,20 +19,20 @@
  "fourth": [
   "Rabadon's Deathcap",
   "Spirit Visage",
-  "Void Staff",
-  "Stormsurge"
+  "Stormsurge",
+  "Void Staff"
  ],
  "fifth": [
-  "Void Staff",
-  "Stormsurge",
   "Rabadon's Deathcap",
-  "Banshee's Veil"
+  "Stormsurge",
+  "Void Staff",
+  "Spirit Visage"
  ],
  "sixth": [
-  "Banshee's Veil",
   "Void Staff",
-  "Stormsurge",
-  "Rabadon's Deathcap"
+  "Banshee's Veil",
+  "Rabadon's Deathcap",
+  "Spirit Visage"
  ],
  "pool": [
   "Giant's Belt",
@@ -43,8 +43,8 @@
   "Warmog's Armor",
   "Rabadon's Deathcap",
   "Spirit Visage",
-  "Void Staff",
   "Stormsurge",
+  "Void Staff",
   "Banshee's Veil"
  ]
 }

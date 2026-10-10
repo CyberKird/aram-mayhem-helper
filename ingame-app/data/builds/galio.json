@@ -18,21 +18,21 @@
  ],
  "fourth": [
   "Riftmaker",
-  "Spirit Visage",
-  "Winter's Approach",
-  "Jak'Sho, The Protean"
+  "Rabadon's Deathcap",
+  "Jak'Sho, The Protean",
+  "Spirit Visage"
  ],
  "fifth": [
   "Riftmaker",
-  "Spirit Visage",
   "Jak'Sho, The Protean",
-  "Hollow Radiance"
+  "Rabadon's Deathcap",
+  "Spirit Visage"
  ],
  "sixth": [
   "Riftmaker",
-  "Spirit Visage",
+  "Hollow Radiance",
   "Jak'Sho, The Protean",
-  "Hollow Radiance"
+  "Spirit Visage"
  ],
  "pool": [
   "Giant's Belt",
@@ -42,9 +42,9 @@
   "Unending Despair",
   "Warmog's Armor",
   "Riftmaker",
-  "Spirit Visage",
-  "Winter's Approach",
+  "Rabadon's Deathcap",
   "Jak'Sho, The Protean",
+  "Spirit Visage",
   "Hollow Radiance"
  ]
 }

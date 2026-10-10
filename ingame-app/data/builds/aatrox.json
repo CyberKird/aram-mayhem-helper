@@ -8,43 +8,43 @@
  ],
  "starting": [
   "Long Sword",
-  "Serrated Dirk"
+  "Caulfield's Warhammer"
  ],
  "core": [
   "Hubris",
   "Mercury's Treads",
-  "Death's Dance",
+  "Voltaic Cyclosword",
   "Serylda's Grudge"
  ],
  "fourth": [
+  "Overlord's Bloodmail",
   "Endless Hunger",
-  "Sundered Sky",
-  "Spear of Shojin",
-  "Spirit Visage"
- ],
- "fifth": [
-  "Endless Hunger",
-  "Maw of Malmortius",
-  "Sundered Sky",
+  "Death's Dance",
   "Spear of Shojin"
  ],
- "sixth": [
+ "fifth": [
+  "Overlord's Bloodmail",
   "Endless Hunger",
-  "Sundered Sky",
-  "Sterak's Gage",
+  "Death's Dance",
   "Maw of Malmortius"
+ ],
+ "sixth": [
+  "Death's Dance",
+  "Overlord's Bloodmail",
+  "Endless Hunger",
+  "Sterak's Gage"
  ],
  "pool": [
   "Long Sword",
-  "Serrated Dirk",
+  "Caulfield's Warhammer",
   "Hubris",
   "Mercury's Treads",
-  "Death's Dance",
+  "Voltaic Cyclosword",
   "Serylda's Grudge",
+  "Overlord's Bloodmail",
   "Endless Hunger",
-  "Sundered Sky",
+  "Death's Dance",
   "Spear of Shojin",
-  "Spirit Visage",
   "Maw of Malmortius",
   "Sterak's Gage"
  ]

@@ -12,39 +12,38 @@
  ],
  "core": [
   "Heartsteel",
-  "Plated Steelcaps",
-  "Death's Dance",
+  "Mercury's Treads",
+  "Sundered Sky",
   "Warmog's Armor"
  ],
  "fourth": [
-  "Endless Hunger",
   "Lord Dominik's Regards",
+  "Endless Hunger",
   "Infinity Edge",
-  "Sterak's Gage"
+  "Death's Dance"
  ],
  "fifth": [
   "Endless Hunger",
   "Lord Dominik's Regards",
-  "Infinity Edge",
-  "Sterak's Gage"
+  "Death's Dance",
+  "Infinity Edge"
  ],
  "sixth": [
   "Endless Hunger",
   "Lord Dominik's Regards",
   "Infinity Edge",
-  "Maw of Malmortius"
+  "Death's Dance"
  ],
  "pool": [
   "Giant's Belt",
   "Ruby Crystal",
   "Heartsteel",
-  "Plated Steelcaps",
-  "Death's Dance",
+  "Mercury's Treads",
+  "Sundered Sky",
   "Warmog's Armor",
-  "Endless Hunger",
   "Lord Dominik's Regards",
+  "Endless Hunger",
   "Infinity Edge",
-  "Sterak's Gage",
-  "Maw of Malmortius"
+  "Death's Dance"
  ]
 }

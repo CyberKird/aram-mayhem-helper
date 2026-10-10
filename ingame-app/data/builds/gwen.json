@@ -8,18 +8,17 @@
  ],
  "starting": [
   "Blasting Wand",
-  "Amplifying Tome"
+  "Ruby Crystal"
  ],
  "core": [
-  "Nashor's Tooth",
-  "Sorcerer's Shoes",
   "Dusk and Dawn",
+  "Sorcerer's Shoes",
+  "Nashor's Tooth",
   "Shadowflame"
  ],
  "fourth": [
   "Rabadon's Deathcap",
   "Riftmaker",
-  "Void Staff",
   "Spirit Visage"
  ],
  "fifth": [
@@ -30,21 +29,20 @@
  ],
  "sixth": [
   "Rabadon's Deathcap",
+  "Riftmaker",
   "Void Staff",
-  "Cosmic Drive",
-  "Riftmaker"
+  "Spirit Visage"
  ],
  "pool": [
   "Blasting Wand",
-  "Amplifying Tome",
-  "Nashor's Tooth",
-  "Sorcerer's Shoes",
+  "Ruby Crystal",
   "Dusk and Dawn",
+  "Sorcerer's Shoes",
+  "Nashor's Tooth",
   "Shadowflame",
   "Rabadon's Deathcap",
   "Riftmaker",
-  "Void Staff",
   "Spirit Visage",
-  "Cosmic Drive"
+  "Void Staff"
  ]
 }

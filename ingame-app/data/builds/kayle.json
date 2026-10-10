@@ -7,9 +7,8 @@
   "Ghost"
  ],
  "starting": [
-  "Recurve Bow",
-  "Amplifying Tome",
-  "Glowing Mote"
+  "Blasting Wand",
+  "Amplifying Tome"
  ],
  "core": [
   "Nashor's Tooth",
@@ -21,24 +20,23 @@
   "Shadowflame",
   "Statikk Shiv",
   "Riftmaker",
-  "Runaan's Hurricane"
+  "Guinsoo's Rageblade"
  ],
  "fifth": [
   "Shadowflame",
-  "Void Staff",
   "Statikk Shiv",
+  "Void Staff",
   "Riftmaker"
  ],
  "sixth": [
   "Void Staff",
-  "Statikk Shiv",
   "Shadowflame",
-  "Riftmaker"
+  "Riftmaker",
+  "Zhonya's Hourglass"
  ],
  "pool": [
-  "Recurve Bow",
+  "Blasting Wand",
   "Amplifying Tome",
-  "Glowing Mote",
   "Nashor's Tooth",
   "Berserker's Greaves",
   "Dusk and Dawn",
@@ -46,7 +44,8 @@
   "Shadowflame",
   "Statikk Shiv",
   "Riftmaker",
-  "Runaan's Hurricane",
-  "Void Staff"
+  "Guinsoo's Rageblade",
+  "Void Staff",
+  "Zhonya's Hourglass"
  ]
 }

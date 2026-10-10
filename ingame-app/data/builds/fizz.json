@@ -8,39 +8,39 @@
  ],
  "starting": [
   "Amplifying Tome",
-  "Guardian's Orb"
+  "Sheen"
  ],
  "core": [
-  "Shadowflame",
-  "Sorcerer's Shoes",
   "Lich Bane",
+  "Sorcerer's Shoes",
+  "Shadowflame",
   "Rabadon's Deathcap"
  ],
  "fourth": [
-  "Stormsurge",
   "Void Staff",
+  "Stormsurge",
   "Zhonya's Hourglass"
  ],
  "fifth": [
-  "Stormsurge",
   "Void Staff",
+  "Stormsurge",
   "Zhonya's Hourglass"
  ],
  "sixth": [
   "Zhonya's Hourglass",
-  "Stormsurge",
   "Cryptbloom",
+  "Stormsurge",
   "Void Staff"
  ],
  "pool": [
   "Amplifying Tome",
-  "Guardian's Orb",
-  "Shadowflame",
-  "Sorcerer's Shoes",
+  "Sheen",
   "Lich Bane",
+  "Sorcerer's Shoes",
+  "Shadowflame",
   "Rabadon's Deathcap",
-  "Stormsurge",
   "Void Staff",
+  "Stormsurge",
   "Zhonya's Hourglass",
   "Cryptbloom"
  ]

@@ -18,21 +18,21 @@
  ],
  "fourth": [
   "Endless Hunger",
+  "Voltaic Cyclosword",
   "Lord Dominik's Regards",
-  "Death's Dance",
-  "Spear of Shojin"
+  "Death's Dance"
  ],
  "fifth": [
   "Endless Hunger",
   "Lord Dominik's Regards",
   "Death's Dance",
-  "Spear of Shojin"
+  "Black Cleaver"
  ],
  "sixth": [
-  "Endless Hunger",
-  "Lord Dominik's Regards",
   "Death's Dance",
-  "Spear of Shojin"
+  "Lord Dominik's Regards",
+  "Endless Hunger",
+  "Sterak's Gage"
  ],
  "pool": [
   "Giant's Belt",
@@ -42,8 +42,10 @@
   "Warmog's Armor",
   "Overlord's Bloodmail",
   "Endless Hunger",
+  "Voltaic Cyclosword",
   "Lord Dominik's Regards",
   "Death's Dance",
-  "Spear of Shojin"
+  "Black Cleaver",
+  "Sterak's Gage"
  ]
 }
