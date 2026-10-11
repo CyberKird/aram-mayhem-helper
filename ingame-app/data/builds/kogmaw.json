@@ -17,22 +17,22 @@
   "Shadowflame"
  ],
  "fourth": [
+  "Runaan's Hurricane",
   "Blade of The Ruined King",
   "Rabadon's Deathcap",
-  "Runaan's Hurricane",
   "Terminus"
  ],
  "fifth": [
   "Terminus",
   "Guinsoo's Rageblade",
-  "Kraken Slayer",
-  "Rabadon's Deathcap"
+  "Rabadon's Deathcap",
+  "Kraken Slayer"
  ],
  "sixth": [
   "Terminus",
+  "Archangel's Staff",
   "Wit's End",
-  "Rabadon's Deathcap",
-  "Archangel's Staff"
+  "Kraken Slayer"
  ],
  "pool": [
   "Refillable Potion",
@@ -41,13 +41,13 @@
   "Sorcerer's Shoes",
   "Liandry's Torment",
   "Shadowflame",
+  "Runaan's Hurricane",
   "Blade of The Ruined King",
   "Rabadon's Deathcap",
-  "Runaan's Hurricane",
   "Terminus",
   "Guinsoo's Rageblade",
   "Kraken Slayer",
-  "Wit's End",
-  "Archangel's Staff"
+  "Archangel's Staff",
+  "Wit's End"
  ]
 }

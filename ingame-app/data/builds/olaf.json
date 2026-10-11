@@ -18,21 +18,21 @@
  ],
  "fourth": [
   "Endless Hunger",
-  "Sterak's Gage",
   "Blade of The Ruined King",
-  "Sundered Sky"
+  "Sundered Sky",
+  "Sterak's Gage"
  ],
  "fifth": [
-  "Endless Hunger",
   "Sterak's Gage",
+  "Endless Hunger",
   "Sundered Sky",
   "Spirit Visage"
  ],
  "sixth": [
   "Endless Hunger",
+  "Spirit Visage",
   "Sterak's Gage",
-  "Blade of The Ruined King",
-  "Spirit Visage"
+  "Maw of Malmortius"
  ],
  "pool": [
   "Refillable Potion",
@@ -42,9 +42,10 @@
   "Experimental Hexplate",
   "Death's Dance",
   "Endless Hunger",
-  "Sterak's Gage",
   "Blade of The Ruined King",
   "Sundered Sky",
-  "Spirit Visage"
+  "Sterak's Gage",
+  "Spirit Visage",
+  "Maw of Malmortius"
  ]
 }

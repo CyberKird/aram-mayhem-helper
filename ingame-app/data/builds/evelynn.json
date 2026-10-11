@@ -8,14 +8,13 @@
  ],
  "starting": [
   "Blasting Wand",
-  "Amplifying Tome",
-  "Refillable Potion"
+  "Amplifying Tome"
  ],
  "core": [
   "Lich Bane",
   "Sorcerer's Shoes",
-  "Shadowflame",
-  "Rabadon's Deathcap"
+  "Rabadon's Deathcap",
+  "Shadowflame"
  ],
  "fourth": [
   "Void Staff",
@@ -23,29 +22,27 @@
   "Zhonya's Hourglass"
  ],
  "fifth": [
-  "Stormsurge",
+  "Banshee's Veil",
   "Zhonya's Hourglass",
-  "Void Staff",
-  "Banshee's Veil"
+  "Stormsurge",
+  "Void Staff"
  ],
  "sixth": [
   "Void Staff",
   "Zhonya's Hourglass",
   "Stormsurge",
-  "Hextech Rocketbelt"
+  "Banshee's Veil"
  ],
  "pool": [
   "Blasting Wand",
   "Amplifying Tome",
-  "Refillable Potion",
   "Lich Bane",
   "Sorcerer's Shoes",
-  "Shadowflame",
   "Rabadon's Deathcap",
+  "Shadowflame",
   "Void Staff",
   "Stormsurge",
   "Zhonya's Hourglass",
-  "Banshee's Veil",
-  "Hextech Rocketbelt"
+  "Banshee's Veil"
  ]
 }

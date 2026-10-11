@@ -13,24 +13,24 @@
   "Blackfire Torch",
   "Sorcerer's Shoes",
   "Liandry's Torment",
-  "Rylai's Crystal Scepter"
+  "Rabadon's Deathcap"
  ],
  "fourth": [
-  "Rabadon's Deathcap",
   "Archangel's Staff",
-  "Void Staff",
-  "Shadowflame"
+  "Rylai's Crystal Scepter",
+  "Shadowflame",
+  "Void Staff"
  ],
  "fifth": [
-  "Rabadon's Deathcap",
   "Bloodletter's Curse",
+  "Archangel's Staff",
   "Shadowflame",
-  "Archangel's Staff"
+  "Rylai's Crystal Scepter"
  ],
  "sixth": [
-  "Zhonya's Hourglass",
-  "Shadowflame",
   "Void Staff",
+  "Shadowflame",
+  "Zhonya's Hourglass",
   "Archangel's Staff"
  ],
  "pool": [
@@ -38,11 +38,11 @@
   "Blackfire Torch",
   "Sorcerer's Shoes",
   "Liandry's Torment",
-  "Rylai's Crystal Scepter",
   "Rabadon's Deathcap",
   "Archangel's Staff",
-  "Void Staff",
+  "Rylai's Crystal Scepter",
   "Shadowflame",
+  "Void Staff",
   "Bloodletter's Curse",
   "Zhonya's Hourglass"
  ]

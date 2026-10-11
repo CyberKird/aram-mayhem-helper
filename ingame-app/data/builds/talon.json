@@ -12,15 +12,15 @@
  ],
  "core": [
   "Hubris",
-  "Ionian Boots of Lucidity",
+  "Mercury's Treads",
   "Axiom Arc",
   "Voltaic Cyclosword"
  ],
  "fourth": [
   "Endless Hunger",
   "Death's Dance",
-  "Serylda's Grudge",
-  "Lord Dominik's Regards"
+  "Lord Dominik's Regards",
+  "Serylda's Grudge"
  ],
  "fifth": [
   "Endless Hunger",
@@ -38,13 +38,13 @@
   "Long Sword",
   "Serrated Dirk",
   "Hubris",
-  "Ionian Boots of Lucidity",
+  "Mercury's Treads",
   "Axiom Arc",
   "Voltaic Cyclosword",
   "Endless Hunger",
   "Death's Dance",
-  "Serylda's Grudge",
   "Lord Dominik's Regards",
+  "Serylda's Grudge",
   "Youmuu's Ghostblade"
  ]
 }

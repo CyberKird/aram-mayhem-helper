@@ -19,19 +19,19 @@
  "fourth": [
   "Lord Dominik's Regards",
   "Infinity Edge",
-  "Bloodthirster",
-  "Rapid Firecannon"
+  "Rapid Firecannon",
+  "Bloodthirster"
  ],
  "fifth": [
-  "Edge of Night",
   "Lord Dominik's Regards",
   "Phantom Dancer",
-  "Hexoptics C44"
+  "Hexoptics C44",
+  "Edge of Night"
  ],
  "sixth": [
   "Youmuu's Ghostblade",
-  "Phantom Dancer",
   "Edge of Night",
+  "Phantom Dancer",
   "Lord Dominik's Regards"
  ],
  "pool": [
@@ -43,11 +43,11 @@
   "Axiom Arc",
   "Lord Dominik's Regards",
   "Infinity Edge",
-  "Bloodthirster",
   "Rapid Firecannon",
-  "Edge of Night",
+  "Bloodthirster",
   "Phantom Dancer",
   "Hexoptics C44",
+  "Edge of Night",
   "Youmuu's Ghostblade"
  ]
 }

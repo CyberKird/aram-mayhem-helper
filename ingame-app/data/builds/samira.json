@@ -19,8 +19,8 @@
  "fourth": [
   "Death's Dance",
   "Bloodthirster",
-  "Immortal Shieldbow",
-  "Mortal Reminder"
+  "Mortal Reminder",
+  "Immortal Shieldbow"
  ],
  "fifth": [
   "Endless Hunger",
@@ -31,7 +31,7 @@
  "sixth": [
   "Endless Hunger",
   "Death's Dance",
-  "Bloodthirster",
+  "Maw of Malmortius",
   "Hubris"
  ],
  "pool": [
@@ -43,9 +43,10 @@
   "Lord Dominik's Regards",
   "Death's Dance",
   "Bloodthirster",
-  "Immortal Shieldbow",
   "Mortal Reminder",
+  "Immortal Shieldbow",
   "Endless Hunger",
+  "Maw of Malmortius",
   "Hubris"
  ]
 }

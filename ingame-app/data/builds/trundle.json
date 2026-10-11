@@ -8,42 +8,45 @@
  ],
  "starting": [
   "Giant's Belt",
-  "Ruby Crystal"
+  "Ruby Crystal",
+  "Health Potion",
+  "Health Potion"
  ],
  "core": [
   "Heartsteel",
-  "Plated Steelcaps",
-  "Trinity Force",
-  "Blade of The Ruined King"
+  "Mercury's Treads",
+  "Blade of The Ruined King",
+  "Titanic Hydra"
  ],
  "fourth": [
   "Warmog's Armor",
-  "Titanic Hydra",
   "Spirit Visage",
+  "Randuin's Omen",
   "Thornmail"
  ],
  "fifth": [
   "Warmog's Armor",
-  "Titanic Hydra",
   "Spirit Visage",
-  "Thornmail"
+  "Thornmail",
+  "Randuin's Omen"
  ],
  "sixth": [
   "Warmog's Armor",
-  "Titanic Hydra",
   "Spirit Visage",
+  "Randuin's Omen",
   "Thornmail"
  ],
  "pool": [
   "Giant's Belt",
   "Ruby Crystal",
+  "Health Potion",
   "Heartsteel",
-  "Plated Steelcaps",
-  "Trinity Force",
+  "Mercury's Treads",
   "Blade of The Ruined King",
-  "Warmog's Armor",
   "Titanic Hydra",
+  "Warmog's Armor",
   "Spirit Visage",
+  "Randuin's Omen",
   "Thornmail"
  ]
 }

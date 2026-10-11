@@ -23,14 +23,14 @@
  ],
  "fifth": [
   "Archangel's Staff",
-  "Cryptbloom",
   "Rabadon's Deathcap",
-  "Shadowflame"
+  "Cryptbloom",
+  "Malignance"
  ],
  "sixth": [
-  "Shadowflame",
-  "Archangel's Staff",
   "Cryptbloom",
+  "Archangel's Staff",
+  "Shadowflame",
   "Rabadon's Deathcap"
  ],
  "pool": [
@@ -42,6 +42,7 @@
   "Archangel's Staff",
   "Rabadon's Deathcap",
   "Shadowflame",
-  "Cryptbloom"
+  "Cryptbloom",
+  "Malignance"
  ]
 }

@@ -7,20 +7,20 @@
   "Ghost"
  ],
  "starting": [
-  "Amplifying Tome",
-  "Fated Ashes"
+  "Fated Ashes",
+  "Tear of the Goddess"
  ],
  "core": [
-  "Liandry's Torment",
-  "Sorcerer's Shoes",
   "Blackfire Torch",
+  "Sorcerer's Shoes",
+  "Liandry's Torment",
   "Rabadon's Deathcap"
  ],
  "fourth": [
   "Archangel's Staff",
   "Shadowflame",
-  "Void Staff",
-  "Cryptbloom"
+  "Cryptbloom",
+  "Void Staff"
  ],
  "fifth": [
   "Archangel's Staff",
@@ -35,15 +35,15 @@
   "Void Staff"
  ],
  "pool": [
-  "Amplifying Tome",
   "Fated Ashes",
-  "Liandry's Torment",
-  "Sorcerer's Shoes",
+  "Tear of the Goddess",
   "Blackfire Torch",
+  "Sorcerer's Shoes",
+  "Liandry's Torment",
   "Rabadon's Deathcap",
   "Archangel's Staff",
   "Shadowflame",
-  "Void Staff",
-  "Cryptbloom"
+  "Cryptbloom",
+  "Void Staff"
  ]
 }

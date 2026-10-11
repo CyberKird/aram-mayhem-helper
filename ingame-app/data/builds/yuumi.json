@@ -18,8 +18,8 @@
  ],
  "fourth": [
   "Staff of Flowing Water",
-  "Knight's Vow",
   "Dawncore",
+  "Knight's Vow",
   "Mikael's Blessing"
  ],
  "fifth": [
@@ -30,9 +30,9 @@
  ],
  "sixth": [
   "Staff of Flowing Water",
+  "Dawncore",
   "Knight's Vow",
-  "Locket of the Iron Solari",
-  "Dawncore"
+  "Shurelya's Battlesong"
  ],
  "pool": [
   "Tear of the Goddess",
@@ -42,10 +42,9 @@
   "Moonstone Renewer",
   "Ardent Censer",
   "Staff of Flowing Water",
-  "Knight's Vow",
   "Dawncore",
+  "Knight's Vow",
   "Mikael's Blessing",
-  "Shurelya's Battlesong",
-  "Locket of the Iron Solari"
+  "Shurelya's Battlesong"
  ]
 }

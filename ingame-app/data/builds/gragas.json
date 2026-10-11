@@ -7,42 +7,44 @@
   "Mark"
  ],
  "starting": [
-  "Lost Chapter"
+  "Amplifying Tome",
+  "Guardian's Orb"
  ],
  "core": [
-  "Luden's Echo",
+  "Lich Bane",
   "Sorcerer's Shoes",
-  "Rabadon's Deathcap",
-  "Shadowflame"
+  "Shadowflame",
+  "Rabadon's Deathcap"
  ],
  "fourth": [
-  "Lich Bane",
-  "Void Staff",
   "Stormsurge",
-  "Winter's Approach"
+  "Void Staff",
+  "Winter's Approach",
+  "Warmog's Armor"
  ],
  "fifth": [
-  "Lich Bane",
   "Void Staff",
   "Stormsurge",
-  "Warmog's Armor"
+  "Warmog's Armor",
+  "Winter's Approach"
  ],
  "sixth": [
   "Void Staff",
-  "Lich Bane",
   "Stormsurge",
-  "Warmog's Armor"
+  "Warmog's Armor",
+  "Spirit Visage"
  ],
  "pool": [
-  "Lost Chapter",
-  "Luden's Echo",
-  "Sorcerer's Shoes",
-  "Rabadon's Deathcap",
-  "Shadowflame",
+  "Amplifying Tome",
+  "Guardian's Orb",
   "Lich Bane",
-  "Void Staff",
+  "Sorcerer's Shoes",
+  "Shadowflame",
+  "Rabadon's Deathcap",
   "Stormsurge",
+  "Void Staff",
   "Winter's Approach",
-  "Warmog's Armor"
+  "Warmog's Armor",
+  "Spirit Visage"
  ]
 }

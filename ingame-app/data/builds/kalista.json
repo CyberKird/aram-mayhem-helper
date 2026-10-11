@@ -8,7 +8,6 @@
  ],
  "starting": [
   "Dagger",
-  "Health Potion",
   "Berserker's Greaves"
  ],
  "core": [
@@ -19,8 +18,8 @@
  ],
  "fourth": [
   "Guinsoo's Rageblade",
-  "Infinity Edge",
   "Wit's End",
+  "Infinity Edge",
   "Lord Dominik's Regards"
  ],
  "fifth": [
@@ -37,14 +36,13 @@
  ],
  "pool": [
   "Dagger",
-  "Health Potion",
   "Berserker's Greaves",
   "Blade of The Ruined King",
   "Runaan's Hurricane",
   "Terminus",
   "Guinsoo's Rageblade",
-  "Infinity Edge",
   "Wit's End",
+  "Infinity Edge",
   "Lord Dominik's Regards",
   "Bloodthirster",
   "Jak'Sho, The Protean"

@@ -4,7 +4,7 @@
  "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
-  "Mark"
+  "Cleanse"
  ],
  "starting": [
   "Long Sword",
@@ -23,16 +23,16 @@
   "Mortal Reminder"
  ],
  "fifth": [
-  "Bloodthirster",
   "Lord Dominik's Regards",
+  "Bloodthirster",
   "Essence Reaver",
   "Hexoptics C44"
  ],
  "sixth": [
   "Essence Reaver",
-  "Lord Dominik's Regards",
+  "Hexoptics C44",
   "Bloodthirster",
-  "Hexoptics C44"
+  "Edge of Night"
  ],
  "pool": [
   "Long Sword",
@@ -45,6 +45,7 @@
   "Essence Reaver",
   "Bloodthirster",
   "Mortal Reminder",
-  "Hexoptics C44"
+  "Hexoptics C44",
+  "Edge of Night"
  ]
 }

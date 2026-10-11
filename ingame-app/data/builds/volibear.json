@@ -24,16 +24,16 @@
   "Spirit Visage"
  ],
  "fifth": [
+  "Overlord's Bloodmail",
   "Navori Flickerblade",
   "Spirit Visage",
-  "Warmog's Armor",
-  "Unending Despair"
+  "Warmog's Armor"
  ],
  "sixth": [
+  "Overlord's Bloodmail",
   "Spirit Visage",
   "Navori Flickerblade",
-  "Jak'Sho, The Protean",
-  "Warmog's Armor"
+  "Jak'Sho, The Protean"
  ],
  "pool": [
   "Dagger",
@@ -46,6 +46,7 @@
   "Warmog's Armor",
   "Unending Despair",
   "Spirit Visage",
+  "Overlord's Bloodmail",
   "Jak'Sho, The Protean"
  ]
 }

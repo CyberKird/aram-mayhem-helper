@@ -4,7 +4,7 @@
  "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
-  "Mark"
+  "Ghost"
  ],
  "starting": [
   "Lost Chapter"
@@ -18,20 +18,20 @@
  "fourth": [
   "Rabadon's Deathcap",
   "Shadowflame",
-  "Stormsurge",
-  "Zhonya's Hourglass"
+  "Zhonya's Hourglass",
+  "Void Staff"
  ],
  "fifth": [
-  "Void Staff",
   "Shadowflame",
+  "Void Staff",
   "Rabadon's Deathcap",
   "Zhonya's Hourglass"
  ],
  "sixth": [
-  "Void Staff",
-  "Rabadon's Deathcap",
   "Stormsurge",
-  "Shadowflame"
+  "Shadowflame",
+  "Void Staff",
+  "Rabadon's Deathcap"
  ],
  "pool": [
   "Lost Chapter",
@@ -41,8 +41,8 @@
   "Rylai's Crystal Scepter",
   "Rabadon's Deathcap",
   "Shadowflame",
-  "Stormsurge",
   "Zhonya's Hourglass",
-  "Void Staff"
+  "Void Staff",
+  "Stormsurge"
  ]
 }

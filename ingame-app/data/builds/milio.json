@@ -24,16 +24,16 @@
   "Redemption"
  ],
  "fifth": [
-  "Dawncore",
   "Staff of Flowing Water",
+  "Dawncore",
   "Redemption",
   "Echoes of Helia"
  ],
  "sixth": [
   "Staff of Flowing Water",
+  "Shurelya's Battlesong",
   "Dawncore",
-  "Echoes of Helia",
-  "Redemption"
+  "Echoes of Helia"
  ],
  "pool": [
   "Ruby Crystal",
@@ -46,6 +46,7 @@
   "Staff of Flowing Water",
   "Dawncore",
   "Echoes of Helia",
-  "Redemption"
+  "Redemption",
+  "Shurelya's Battlesong"
  ]
 }

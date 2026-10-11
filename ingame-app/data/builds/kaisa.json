@@ -18,20 +18,20 @@
  "fourth": [
   "Terminus",
   "Dusk and Dawn",
-  "Nashor's Tooth",
+  "Horizon Focus",
   "Void Staff"
  ],
  "fifth": [
-  "Horizon Focus",
   "Stormsurge",
+  "Horizon Focus",
   "Terminus",
-  "Infinity Edge"
+  "Void Staff"
  ],
  "sixth": [
-  "Void Staff",
   "Stormsurge",
-  "Statikk Shiv",
-  "Horizon Focus"
+  "Void Staff",
+  "Horizon Focus",
+  "Terminus"
  ],
  "pool": [
   "Lost Chapter",
@@ -41,11 +41,8 @@
   "Shadowflame",
   "Terminus",
   "Dusk and Dawn",
-  "Nashor's Tooth",
-  "Void Staff",
   "Horizon Focus",
-  "Stormsurge",
-  "Infinity Edge",
-  "Statikk Shiv"
+  "Void Staff",
+  "Stormsurge"
  ]
 }

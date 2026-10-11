@@ -13,35 +13,37 @@
   "Blackfire Torch",
   "Sorcerer's Shoes",
   "Liandry's Torment",
-  "Shadowflame"
+  "Rabadon's Deathcap"
  ],
  "fourth": [
-  "Rabadon's Deathcap",
+  "Shadowflame",
   "Void Staff",
   "Lich Bane",
-  "Stormsurge"
+  "Zhonya's Hourglass"
  ],
  "fifth": [
-  "Rabadon's Deathcap",
-  "Void Staff",
+  "Shadowflame",
   "Stormsurge",
+  "Void Staff",
   "Lich Bane"
  ],
  "sixth": [
   "Lich Bane",
-  "Void Staff",
-  "Rabadon's Deathcap",
-  "Stormsurge"
+  "Banshee's Veil",
+  "Shadowflame",
+  "Void Staff"
  ],
  "pool": [
   "Lost Chapter",
   "Blackfire Torch",
   "Sorcerer's Shoes",
   "Liandry's Torment",
-  "Shadowflame",
   "Rabadon's Deathcap",
+  "Shadowflame",
   "Void Staff",
   "Lich Bane",
-  "Stormsurge"
+  "Zhonya's Hourglass",
+  "Stormsurge",
+  "Banshee's Veil"
  ]
 }

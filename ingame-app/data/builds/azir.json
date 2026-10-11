@@ -7,8 +7,8 @@
   "Barrier"
  ],
  "starting": [
-  "Blasting Wand",
-  "Amplifying Tome"
+  "Amplifying Tome",
+  "Guardian's Orb"
  ],
  "core": [
   "Nashor's Tooth",
@@ -25,18 +25,18 @@
  "fifth": [
   "Void Staff",
   "Zhonya's Hourglass",
-  "Riftmaker",
-  "Dusk and Dawn"
+  "Dusk and Dawn",
+  "Rylai's Crystal Scepter"
  ],
  "sixth": [
   "Void Staff",
+  "Dusk and Dawn",
   "Zhonya's Hourglass",
-  "Riftmaker",
-  "Rylai's Crystal Scepter"
+  "Riftmaker"
  ],
  "pool": [
-  "Blasting Wand",
   "Amplifying Tome",
+  "Guardian's Orb",
   "Nashor's Tooth",
   "Sorcerer's Shoes",
   "Shadowflame",
@@ -45,7 +45,7 @@
   "Zhonya's Hourglass",
   "Dusk and Dawn",
   "Liandry's Torment",
-  "Riftmaker",
-  "Rylai's Crystal Scepter"
+  "Rylai's Crystal Scepter",
+  "Riftmaker"
  ]
 }

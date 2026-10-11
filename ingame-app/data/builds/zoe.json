@@ -18,21 +18,21 @@
  ],
  "fourth": [
   "Lich Bane",
-  "Void Staff",
   "Stormsurge",
+  "Void Staff",
   "Horizon Focus"
  ],
  "fifth": [
-  "Banshee's Veil",
   "Lich Bane",
   "Stormsurge",
-  "Cryptbloom"
+  "Banshee's Veil",
+  "Void Staff"
  ],
  "sixth": [
   "Stormsurge",
-  "Horizon Focus",
   "Void Staff",
-  "Lich Bane"
+  "Horizon Focus",
+  "Banshee's Veil"
  ],
  "pool": [
   "Refillable Potion",
@@ -42,10 +42,9 @@
   "Rabadon's Deathcap",
   "Shadowflame",
   "Lich Bane",
-  "Void Staff",
   "Stormsurge",
+  "Void Staff",
   "Horizon Focus",
-  "Banshee's Veil",
-  "Cryptbloom"
+  "Banshee's Veil"
  ]
 }

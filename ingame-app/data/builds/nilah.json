@@ -19,20 +19,20 @@
  "fourth": [
   "Death's Dance",
   "Bloodthirster",
-  "Blade of The Ruined King",
-  "Navori Flickerblade"
+  "Immortal Shieldbow",
+  "Blade of The Ruined King"
  ],
  "fifth": [
+  "Death's Dance",
+  "Bloodthirster",
+  "Blade of The Ruined King",
+  "Immortal Shieldbow"
+ ],
+ "sixth": [
   "Endless Hunger",
   "Death's Dance",
   "Bloodthirster",
-  "Blade of The Ruined King"
- ],
- "sixth": [
-  "Death's Dance",
-  "Endless Hunger",
-  "Immortal Shieldbow",
-  "Bloodthirster"
+  "Navori Flickerblade"
  ],
  "pool": [
   "Long Sword",
@@ -43,9 +43,9 @@
   "Lord Dominik's Regards",
   "Death's Dance",
   "Bloodthirster",
+  "Immortal Shieldbow",
   "Blade of The Ruined King",
-  "Navori Flickerblade",
   "Endless Hunger",
-  "Immortal Shieldbow"
+  "Navori Flickerblade"
  ]
 }

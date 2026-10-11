@@ -17,22 +17,22 @@
   "Warmog's Armor"
  ],
  "fourth": [
+  "Riftmaker",
   "Spirit Visage",
   "Jak'Sho, The Protean",
-  "Thornmail",
-  "Kaenic Rookern"
+  "Thornmail"
  ],
  "fifth": [
+  "Riftmaker",
   "Overlord's Bloodmail",
   "Jak'Sho, The Protean",
-  "Spirit Visage",
-  "Force of Nature"
+  "Spirit Visage"
  ],
  "sixth": [
-  "Spirit Visage",
-  "Jak'Sho, The Protean",
+  "Riftmaker",
   "Overlord's Bloodmail",
-  "Thornmail"
+  "Jak'Sho, The Protean",
+  "Spirit Visage"
  ],
  "pool": [
   "Giant's Belt",
@@ -41,11 +41,10 @@
   "Plated Steelcaps",
   "Unending Despair",
   "Warmog's Armor",
+  "Riftmaker",
   "Spirit Visage",
   "Jak'Sho, The Protean",
   "Thornmail",
-  "Kaenic Rookern",
-  "Overlord's Bloodmail",
-  "Force of Nature"
+  "Overlord's Bloodmail"
  ]
 }

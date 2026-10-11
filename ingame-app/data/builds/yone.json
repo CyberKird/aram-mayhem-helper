@@ -7,7 +7,8 @@
   "Mark"
  ],
  "starting": [
-  "B. F. Sword"
+  "Dagger",
+  "Berserker's Greaves"
  ],
  "core": [
   "Yun Tal Wildarrows",
@@ -18,32 +19,32 @@
  "fourth": [
   "Infinity Edge",
   "Blade of The Ruined King",
-  "Bloodthirster",
-  "Lord Dominik's Regards"
+  "Lord Dominik's Regards",
+  "Bloodthirster"
  ],
  "fifth": [
-  "Spirit Visage",
   "Infinity Edge",
-  "Bloodthirster",
-  "Lord Dominik's Regards"
+  "Lord Dominik's Regards",
+  "Blade of The Ruined King",
+  "Bloodthirster"
  ],
  "sixth": [
-  "Spirit Visage",
   "Endless Hunger",
   "Bloodthirster",
+  "Immortal Shieldbow",
   "Lord Dominik's Regards"
  ],
  "pool": [
-  "B. F. Sword",
-  "Yun Tal Wildarrows",
+  "Dagger",
   "Berserker's Greaves",
+  "Yun Tal Wildarrows",
   "Rite of Ruin",
   "Death's Dance",
   "Infinity Edge",
   "Blade of The Ruined King",
-  "Bloodthirster",
   "Lord Dominik's Regards",
-  "Spirit Visage",
-  "Endless Hunger"
+  "Bloodthirster",
+  "Endless Hunger",
+  "Immortal Shieldbow"
  ]
 }

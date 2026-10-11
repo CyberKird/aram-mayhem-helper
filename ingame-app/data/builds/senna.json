@@ -13,7 +13,7 @@
  ],
  "core": [
   "Statikk Shiv",
-  "Berserker's Greaves",
+  "Boots of Swiftness",
   "Runaan's Hurricane",
   "Blade of The Ruined King"
  ],
@@ -21,7 +21,7 @@
   "Hexoptics C44",
   "Kraken Slayer",
   "Manamune",
-  "Infinity Edge"
+  "Lord Dominik's Regards"
  ],
  "fifth": [
   "Hexoptics C44",
@@ -30,22 +30,24 @@
   "Infinity Edge"
  ],
  "sixth": [
-  "Bloodthirster",
   "Hexoptics C44",
-  "Kraken Slayer",
-  "Infinity Edge"
+  "Bloodthirster",
+  "Manamune",
+  "Black Cleaver"
  ],
  "pool": [
   "Pickaxe",
   "Dagger",
   "Statikk Shiv",
-  "Berserker's Greaves",
+  "Boots of Swiftness",
   "Runaan's Hurricane",
   "Blade of The Ruined King",
   "Hexoptics C44",
   "Kraken Slayer",
   "Manamune",
+  "Lord Dominik's Regards",
+  "Bloodthirster",
   "Infinity Edge",
-  "Bloodthirster"
+  "Black Cleaver"
  ]
 }

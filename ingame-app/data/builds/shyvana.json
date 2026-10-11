@@ -8,7 +8,9 @@
  ],
  "starting": [
   "Giant's Belt",
-  "Ruby Crystal"
+  "Ruby Crystal",
+  "Health Potion",
+  "Health Potion"
  ],
  "core": [
   "Heartsteel",
@@ -17,35 +19,35 @@
   "Riftmaker"
  ],
  "fourth": [
-  "Rabadon's Deathcap",
-  "Unending Despair",
   "Shadowflame",
-  "Warmog's Armor"
+  "Unending Despair",
+  "Warmog's Armor",
+  "Rabadon's Deathcap"
  ],
  "fifth": [
-  "Rabadon's Deathcap",
   "Warmog's Armor",
-  "Spirit Visage",
-  "Liandry's Torment"
+  "Rabadon's Deathcap",
+  "Liandry's Torment",
+  "Shadowflame"
  ],
  "sixth": [
-  "Jak'Sho, The Protean",
-  "Rabadon's Deathcap",
   "Warmog's Armor",
-  "Liandry's Torment"
+  "Rabadon's Deathcap",
+  "Liandry's Torment",
+  "Jak'Sho, The Protean"
  ],
  "pool": [
   "Giant's Belt",
   "Ruby Crystal",
+  "Health Potion",
   "Heartsteel",
   "Mercury's Treads",
   "Dusk and Dawn",
   "Riftmaker",
-  "Rabadon's Deathcap",
-  "Unending Despair",
   "Shadowflame",
+  "Unending Despair",
   "Warmog's Armor",
-  "Spirit Visage",
+  "Rabadon's Deathcap",
   "Liandry's Torment",
   "Jak'Sho, The Protean"
  ]

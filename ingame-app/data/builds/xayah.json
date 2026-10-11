@@ -7,9 +7,7 @@
   "Ghost"
  ],
  "starting": [
-  "B. F. Sword",
-  "Health Potion",
-  "Health Potion"
+  "B. F. Sword"
  ],
  "core": [
   "Yun Tal Wildarrows",
@@ -20,8 +18,8 @@
  "fourth": [
   "Lord Dominik's Regards",
   "Bloodthirster",
-  "Mortal Reminder",
-  "Blade of The Ruined King"
+  "Blade of The Ruined King",
+  "Runaan's Hurricane"
  ],
  "fifth": [
   "Lord Dominik's Regards",
@@ -37,15 +35,14 @@
  ],
  "pool": [
   "B. F. Sword",
-  "Health Potion",
   "Yun Tal Wildarrows",
   "Berserker's Greaves",
   "Navori Flickerblade",
   "Infinity Edge",
   "Lord Dominik's Regards",
   "Bloodthirster",
-  "Mortal Reminder",
   "Blade of The Ruined King",
+  "Runaan's Hurricane",
   "Kraken Slayer"
  ]
 }

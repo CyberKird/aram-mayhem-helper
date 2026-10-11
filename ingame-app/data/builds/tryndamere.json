@@ -19,20 +19,20 @@
  "fourth": [
   "Lord Dominik's Regards",
   "Fiendhunter Bolts",
-  "Navori Flickerblade",
-  "The Collector"
+  "The Collector",
+  "Navori Flickerblade"
  ],
  "fifth": [
-  "Bloodthirster",
   "Lord Dominik's Regards",
   "Death's Dance",
-  "The Collector"
+  "Bloodthirster",
+  "Fiendhunter Bolts"
  ],
  "sixth": [
-  "Endless Hunger",
   "Death's Dance",
-  "Experimental Hexplate",
-  "Kraken Slayer"
+  "Endless Hunger",
+  "Bloodthirster",
+  "Experimental Hexplate"
  ],
  "pool": [
   "Long Sword",
@@ -43,12 +43,11 @@
   "Infinity Edge",
   "Lord Dominik's Regards",
   "Fiendhunter Bolts",
-  "Navori Flickerblade",
   "The Collector",
-  "Bloodthirster",
+  "Navori Flickerblade",
   "Death's Dance",
+  "Bloodthirster",
   "Endless Hunger",
-  "Experimental Hexplate",
-  "Kraken Slayer"
+  "Experimental Hexplate"
  ]
 }

@@ -24,15 +24,15 @@
  ],
  "fifth": [
   "Shadowflame",
-  "Statikk Shiv",
   "Void Staff",
+  "Statikk Shiv",
   "Riftmaker"
  ],
  "sixth": [
   "Void Staff",
-  "Shadowflame",
   "Riftmaker",
-  "Zhonya's Hourglass"
+  "Shadowflame",
+  "Statikk Shiv"
  ],
  "pool": [
   "Blasting Wand",
@@ -45,7 +45,6 @@
   "Statikk Shiv",
   "Riftmaker",
   "Guinsoo's Rageblade",
-  "Void Staff",
-  "Zhonya's Hourglass"
+  "Void Staff"
  ]
 }

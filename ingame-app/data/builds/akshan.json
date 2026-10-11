@@ -7,8 +7,8 @@
   "Ghost"
  ],
  "starting": [
-  "Long Sword",
-  "Pickaxe"
+  "Boots",
+  "Serrated Dirk"
  ],
  "core": [
   "The Collector",
@@ -23,20 +23,20 @@
   "Blade of The Ruined King"
  ],
  "fifth": [
-  "Statikk Shiv",
   "Bloodthirster",
   "Blade of The Ruined King",
-  "Kraken Slayer"
+  "Runaan's Hurricane",
+  "Statikk Shiv"
  ],
  "sixth": [
   "Bloodthirster",
   "Kraken Slayer",
   "Wit's End",
-  "Rapid Firecannon"
+  "Blade of The Ruined King"
  ],
  "pool": [
-  "Long Sword",
-  "Pickaxe",
+  "Boots",
+  "Serrated Dirk",
   "The Collector",
   "Berserker's Greaves",
   "Infinity Edge",
@@ -46,7 +46,6 @@
   "Kraken Slayer",
   "Blade of The Ruined King",
   "Statikk Shiv",
-  "Wit's End",
-  "Rapid Firecannon"
+  "Wit's End"
  ]
 }

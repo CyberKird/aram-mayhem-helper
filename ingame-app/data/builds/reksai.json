@@ -20,19 +20,19 @@
   "Overlord's Bloodmail",
   "Spirit Visage",
   "Titanic Hydra",
-  "Randuin's Omen"
+  "Sundered Sky"
  ],
  "fifth": [
   "Overlord's Bloodmail",
-  "Titanic Hydra",
-  "Jak'Sho, The Protean",
-  "Spirit Visage"
+  "Thornmail",
+  "Spirit Visage",
+  "Titanic Hydra"
  ],
  "sixth": [
-  "Death's Dance",
   "Overlord's Bloodmail",
-  "Jak'Sho, The Protean",
-  "Titanic Hydra"
+  "Titanic Hydra",
+  "Death's Dance",
+  "Randuin's Omen"
  ],
  "pool": [
   "Giant's Belt",
@@ -44,8 +44,9 @@
   "Overlord's Bloodmail",
   "Spirit Visage",
   "Titanic Hydra",
-  "Randuin's Omen",
-  "Jak'Sho, The Protean",
-  "Death's Dance"
+  "Sundered Sky",
+  "Thornmail",
+  "Death's Dance",
+  "Randuin's Omen"
  ]
 }

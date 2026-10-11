@@ -26,13 +26,13 @@
   "Staff of Flowing Water",
   "Dawncore",
   "Archangel's Staff",
-  "Redemption"
+  "Imperial Mandate"
  ],
  "sixth": [
-  "Dawncore",
   "Staff of Flowing Water",
-  "Redemption",
-  "Imperial Mandate"
+  "Dawncore",
+  "Archangel's Staff",
+  "Shurelya's Battlesong"
  ],
  "pool": [
   "Tear of the Goddess",
@@ -45,6 +45,6 @@
   "Staff of Flowing Water",
   "Imperial Mandate",
   "Archangel's Staff",
-  "Redemption"
+  "Shurelya's Battlesong"
  ]
 }

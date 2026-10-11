@@ -20,19 +20,19 @@
   "Endless Hunger",
   "Voltaic Cyclosword",
   "Lord Dominik's Regards",
-  "Death's Dance"
+  "Spear of Shojin"
  ],
  "fifth": [
   "Endless Hunger",
   "Lord Dominik's Regards",
-  "Death's Dance",
-  "Black Cleaver"
+  "Spear of Shojin",
+  "Death's Dance"
  ],
  "sixth": [
   "Death's Dance",
-  "Lord Dominik's Regards",
   "Endless Hunger",
-  "Sterak's Gage"
+  "Voltaic Cyclosword",
+  "Lord Dominik's Regards"
  ],
  "pool": [
   "Giant's Belt",
@@ -44,8 +44,7 @@
   "Endless Hunger",
   "Voltaic Cyclosword",
   "Lord Dominik's Regards",
-  "Death's Dance",
-  "Black Cleaver",
-  "Sterak's Gage"
+  "Spear of Shojin",
+  "Death's Dance"
  ]
 }

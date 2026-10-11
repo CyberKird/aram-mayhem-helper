@@ -17,21 +17,21 @@
   "Rabadon's Deathcap"
  ],
  "fourth": [
-  "Archangel's Staff",
   "Horizon Focus",
-  "Shadowflame",
-  "Cryptbloom"
+  "Bloodletter's Curse",
+  "Archangel's Staff",
+  "Shadowflame"
  ],
  "fifth": [
+  "Horizon Focus",
   "Archangel's Staff",
-  "Bloodletter's Curse",
   "Shadowflame",
-  "Horizon Focus"
+  "Bloodletter's Curse"
  ],
  "sixth": [
   "Horizon Focus",
-  "Archangel's Staff",
   "Cryptbloom",
+  "Bloodletter's Curse",
   "Shadowflame"
  ],
  "pool": [
@@ -41,10 +41,10 @@
   "Sorcerer's Shoes",
   "Liandry's Torment",
   "Rabadon's Deathcap",
-  "Archangel's Staff",
   "Horizon Focus",
+  "Bloodletter's Curse",
+  "Archangel's Staff",
   "Shadowflame",
-  "Cryptbloom",
-  "Bloodletter's Curse"
+  "Cryptbloom"
  ]
 }

@@ -18,19 +18,19 @@
  "fourth": [
   "Void Staff",
   "Stormsurge",
-  "Cryptbloom",
-  "Zhonya's Hourglass"
+  "Zhonya's Hourglass",
+  "Cryptbloom"
  ],
  "fifth": [
-  "Zhonya's Hourglass",
-  "Void Staff",
   "Stormsurge",
+  "Void Staff",
+  "Zhonya's Hourglass",
   "Cryptbloom"
  ],
  "sixth": [
   "Stormsurge",
-  "Void Staff",
   "Zhonya's Hourglass",
+  "Void Staff",
   "Cryptbloom"
  ],
  "pool": [
@@ -41,7 +41,7 @@
   "Rabadon's Deathcap",
   "Void Staff",
   "Stormsurge",
-  "Cryptbloom",
-  "Zhonya's Hourglass"
+  "Zhonya's Hourglass",
+  "Cryptbloom"
  ]
 }

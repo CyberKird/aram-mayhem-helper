@@ -8,47 +8,45 @@
  ],
  "starting": [
   "Ruby Crystal",
-  "Health Potion",
-  "Health Potion",
   "Sheen"
  ],
  "core": [
   "Trinity Force",
   "Mercury's Treads",
-  "Spirit Visage",
+  "Frozen Heart",
   "Sundered Sky"
  ],
  "fourth": [
   "Death's Dance",
-  "Frozen Heart",
+  "Force of Nature",
   "Rylai's Crystal Scepter",
-  "Warmog's Armor"
+  "Spirit Visage"
  ],
  "fifth": [
   "Endless Hunger",
   "Death's Dance",
-  "Jak'Sho, The Protean",
-  "Warmog's Armor"
+  "Warmog's Armor",
+  "Jak'Sho, The Protean"
  ],
  "sixth": [
   "Endless Hunger",
   "Death's Dance",
   "Jak'Sho, The Protean",
-  "Warmog's Armor"
+  "Force of Nature"
  ],
  "pool": [
   "Ruby Crystal",
-  "Health Potion",
   "Sheen",
   "Trinity Force",
   "Mercury's Treads",
-  "Spirit Visage",
+  "Frozen Heart",
   "Sundered Sky",
   "Death's Dance",
-  "Frozen Heart",
+  "Force of Nature",
   "Rylai's Crystal Scepter",
-  "Warmog's Armor",
+  "Spirit Visage",
   "Endless Hunger",
+  "Warmog's Armor",
   "Jak'Sho, The Protean"
  ]
 }

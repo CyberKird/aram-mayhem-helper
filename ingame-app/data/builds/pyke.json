@@ -18,15 +18,15 @@
  ],
  "fourth": [
   "Death's Dance",
-  "Profane Hydra",
   "Endless Hunger",
+  "Profane Hydra",
   "Youmuu's Ghostblade"
  ],
  "fifth": [
-  "Death's Dance",
   "Endless Hunger",
+  "Death's Dance",
   "Youmuu's Ghostblade",
-  "Maw of Malmortius"
+  "Profane Hydra"
  ],
  "sixth": [
   "Youmuu's Ghostblade",
@@ -42,9 +42,8 @@
   "Axiom Arc",
   "Voltaic Cyclosword",
   "Death's Dance",
-  "Profane Hydra",
   "Endless Hunger",
-  "Youmuu's Ghostblade",
-  "Maw of Malmortius"
+  "Profane Hydra",
+  "Youmuu's Ghostblade"
  ]
 }

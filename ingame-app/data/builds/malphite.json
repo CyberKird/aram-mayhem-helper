@@ -18,21 +18,21 @@
  ],
  "fourth": [
   "Thornmail",
-  "Rabadon's Deathcap",
   "Stormsurge",
+  "Rabadon's Deathcap",
   "Shadowflame"
  ],
  "fifth": [
   "Stormsurge",
   "Cryptbloom",
-  "Thornmail",
-  "Rabadon's Deathcap"
+  "Rabadon's Deathcap",
+  "Thornmail"
  ],
  "sixth": [
-  "Banshee's Veil",
+  "Void Staff",
   "Stormsurge",
   "Luden's Echo",
-  "Void Staff"
+  "Cryptbloom"
  ],
  "pool": [
   "Giant's Belt",
@@ -42,12 +42,11 @@
   "Unending Despair",
   "Warmog's Armor",
   "Thornmail",
-  "Rabadon's Deathcap",
   "Stormsurge",
+  "Rabadon's Deathcap",
   "Shadowflame",
   "Cryptbloom",
-  "Banshee's Veil",
-  "Luden's Echo",
-  "Void Staff"
+  "Void Staff",
+  "Luden's Echo"
  ]
 }

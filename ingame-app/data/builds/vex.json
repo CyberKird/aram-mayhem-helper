@@ -4,7 +4,7 @@
  "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
-  "Mark"
+  "Ghost"
  ],
  "starting": [
   "Lost Chapter"
@@ -19,19 +19,19 @@
   "Void Staff",
   "Stormsurge",
   "Zhonya's Hourglass",
-  "Morellonomicon"
+  "Liandry's Torment"
  ],
  "fifth": [
   "Stormsurge",
   "Void Staff",
   "Zhonya's Hourglass",
-  "Liandry's Torment"
+  "Cryptbloom"
  ],
  "sixth": [
-  "Stormsurge",
   "Void Staff",
+  "Stormsurge",
   "Banshee's Veil",
-  "Cryptbloom"
+  "Zhonya's Hourglass"
  ],
  "pool": [
   "Lost Chapter",
@@ -42,9 +42,8 @@
   "Void Staff",
   "Stormsurge",
   "Zhonya's Hourglass",
-  "Morellonomicon",
   "Liandry's Torment",
-  "Banshee's Veil",
-  "Cryptbloom"
+  "Cryptbloom",
+  "Banshee's Veil"
  ]
 }

@@ -19,20 +19,20 @@
  "fourth": [
   "Rabadon's Deathcap",
   "Nashor's Tooth",
-  "Shadowflame",
-  "Blackfire Torch"
+  "Blackfire Torch",
+  "Lich Bane"
  ],
  "fifth": [
-  "Rabadon's Deathcap",
   "Shadowflame",
+  "Rabadon's Deathcap",
   "Nashor's Tooth",
   "Blackfire Torch"
  ],
  "sixth": [
   "Shadowflame",
-  "Cryptbloom",
-  "Blackfire Torch",
-  "Void Staff"
+  "Nashor's Tooth",
+  "Void Staff",
+  "Rabadon's Deathcap"
  ],
  "pool": [
   "Refillable Potion",
@@ -43,9 +43,9 @@
   "Statikk Shiv",
   "Rabadon's Deathcap",
   "Nashor's Tooth",
-  "Shadowflame",
   "Blackfire Torch",
-  "Cryptbloom",
+  "Lich Bane",
+  "Shadowflame",
   "Void Staff"
  ]
 }

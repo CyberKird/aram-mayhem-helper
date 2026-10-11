@@ -12,21 +12,21 @@
  ],
  "core": [
   "Heartsteel",
-  "Plated Steelcaps",
-  "Warmog's Armor",
-  "Unending Despair"
+  "Mercury's Treads",
+  "Unending Despair",
+  "Warmog's Armor"
  ],
  "fourth": [
-  "Spirit Visage",
   "Riftmaker",
+  "Spirit Visage",
   "Hollow Radiance",
   "Jak'Sho, The Protean"
  ],
  "fifth": [
   "Riftmaker",
-  "Jak'Sho, The Protean",
+  "Spirit Visage",
   "Hollow Radiance",
-  "Spirit Visage"
+  "Jak'Sho, The Protean"
  ],
  "sixth": [
   "Riftmaker",
@@ -38,11 +38,11 @@
   "Giant's Belt",
   "Ruby Crystal",
   "Heartsteel",
-  "Plated Steelcaps",
-  "Warmog's Armor",
+  "Mercury's Treads",
   "Unending Despair",
-  "Spirit Visage",
+  "Warmog's Armor",
   "Riftmaker",
+  "Spirit Visage",
   "Hollow Radiance",
   "Jak'Sho, The Protean"
  ]

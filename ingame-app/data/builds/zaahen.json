@@ -7,43 +7,44 @@
   "Mark"
  ],
  "starting": [
-  "Giant's Belt",
-  "Ruby Crystal"
+  "Long Sword",
+  "Guardian's Blade"
  ],
  "core": [
-  "Heartsteel",
+  "Hubris",
   "Mercury's Treads",
-  "Sundered Sky",
-  "Spirit Visage"
+  "Axiom Arc",
+  "Death's Dance"
  ],
  "fourth": [
   "Overlord's Bloodmail",
   "Endless Hunger",
-  "Death's Dance",
-  "Spear of Shojin"
+  "Trinity Force",
+  "Sundered Sky"
  ],
  "fifth": [
   "Overlord's Bloodmail",
-  "Death's Dance",
   "Endless Hunger",
+  "Trinity Force",
   "Spear of Shojin"
  ],
  "sixth": [
-  "Sterak's Gage",
+  "Sundered Sky",
   "Overlord's Bloodmail",
-  "Endless Hunger",
-  "Death's Dance"
+  "Sterak's Gage",
+  "Endless Hunger"
  ],
  "pool": [
-  "Giant's Belt",
-  "Ruby Crystal",
-  "Heartsteel",
+  "Long Sword",
+  "Guardian's Blade",
+  "Hubris",
   "Mercury's Treads",
-  "Sundered Sky",
-  "Spirit Visage",
+  "Axiom Arc",
+  "Death's Dance",
   "Overlord's Bloodmail",
   "Endless Hunger",
-  "Death's Dance",
+  "Trinity Force",
+  "Sundered Sky",
   "Spear of Shojin",
   "Sterak's Gage"
  ]

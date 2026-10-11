@@ -7,19 +7,18 @@
   "Ghost"
  ],
  "starting": [
-  "Sapphire Crystal",
-  "Fated Ashes"
+  "Lost Chapter"
  ],
  "core": [
-  "Blackfire Torch",
-  "Ionian Boots of Lucidity",
   "Liandry's Torment",
+  "Sorcerer's Shoes",
+  "Blackfire Torch",
   "Rylai's Crystal Scepter"
  ],
  "fourth": [
   "Bloodletter's Curse",
-  "Rabadon's Deathcap",
   "Archangel's Staff",
+  "Rabadon's Deathcap",
   "Shadowflame"
  ],
  "fifth": [
@@ -30,20 +29,20 @@
  ],
  "sixth": [
   "Bloodletter's Curse",
-  "Archangel's Staff",
   "Shadowflame",
-  "Rabadon's Deathcap"
+  "Archangel's Staff",
+  "Void Staff"
  ],
  "pool": [
-  "Sapphire Crystal",
-  "Fated Ashes",
-  "Blackfire Torch",
-  "Ionian Boots of Lucidity",
+  "Lost Chapter",
   "Liandry's Torment",
+  "Sorcerer's Shoes",
+  "Blackfire Torch",
   "Rylai's Crystal Scepter",
   "Bloodletter's Curse",
-  "Rabadon's Deathcap",
   "Archangel's Staff",
-  "Shadowflame"
+  "Rabadon's Deathcap",
+  "Shadowflame",
+  "Void Staff"
  ]
 }

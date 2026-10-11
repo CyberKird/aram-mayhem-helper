@@ -14,18 +14,18 @@
  "core": [
   "Rod of Ages",
   "Sorcerer's Shoes",
-  "Archangel's Staff",
-  "Malignance"
+  "Liandry's Torment",
+  "Archangel's Staff"
  ],
  "fourth": [
-  "Liandry's Torment",
+  "Bloodletter's Curse",
   "Rabadon's Deathcap",
-  "Rylai's Crystal Scepter",
-  "Bloodletter's Curse"
+  "Malignance",
+  "Shadowflame"
  ],
  "fifth": [
   "Shadowflame",
-  "Rabadon's Deathcap",
+  "Malignance",
   "Blackfire Torch",
   "Bloodletter's Curse"
  ],
@@ -41,12 +41,11 @@
   "Tear of the Goddess",
   "Rod of Ages",
   "Sorcerer's Shoes",
-  "Archangel's Staff",
-  "Malignance",
   "Liandry's Torment",
-  "Rabadon's Deathcap",
-  "Rylai's Crystal Scepter",
+  "Archangel's Staff",
   "Bloodletter's Curse",
+  "Rabadon's Deathcap",
+  "Malignance",
   "Shadowflame",
   "Blackfire Torch",
   "Zhonya's Hourglass"

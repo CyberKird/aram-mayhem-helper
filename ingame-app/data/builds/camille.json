@@ -20,19 +20,19 @@
   "Endless Hunger",
   "Spear of Shojin",
   "Sterak's Gage",
-  "Sundered Sky"
+  "Maw of Malmortius"
  ],
  "fifth": [
   "Endless Hunger",
-  "Spear of Shojin",
   "Sterak's Gage",
-  "Sundered Sky"
+  "Spear of Shojin",
+  "Maw of Malmortius"
  ],
  "sixth": [
+  "Sterak's Gage",
   "Spear of Shojin",
   "Maw of Malmortius",
-  "Sterak's Gage",
-  "Sundered Sky"
+  "Kaenic Rookern"
  ],
  "pool": [
   "Long Sword",
@@ -44,7 +44,7 @@
   "Endless Hunger",
   "Spear of Shojin",
   "Sterak's Gage",
-  "Sundered Sky",
-  "Maw of Malmortius"
+  "Maw of Malmortius",
+  "Kaenic Rookern"
  ]
 }

@@ -7,7 +7,8 @@
   "Mark"
  ],
  "starting": [
-  "Needlessly Large Rod"
+  "Amplifying Tome",
+  "Guardian's Orb"
  ],
  "core": [
   "Shadowflame",
@@ -17,8 +18,8 @@
  ],
  "fourth": [
   "Void Staff",
-  "Spirit Visage",
   "Riftmaker",
+  "Spirit Visage",
   "Zhonya's Hourglass"
  ],
  "fifth": [
@@ -28,20 +29,21 @@
   "Spirit Visage"
  ],
  "sixth": [
-  "Stormsurge",
   "Riftmaker",
+  "Stormsurge",
   "Zhonya's Hourglass",
   "Void Staff"
  ],
  "pool": [
-  "Needlessly Large Rod",
+  "Amplifying Tome",
+  "Guardian's Orb",
   "Shadowflame",
   "Sorcerer's Shoes",
   "Lich Bane",
   "Rabadon's Deathcap",
   "Void Staff",
-  "Spirit Visage",
   "Riftmaker",
+  "Spirit Visage",
   "Zhonya's Hourglass",
   "Stormsurge"
  ]

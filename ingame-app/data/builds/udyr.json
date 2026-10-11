@@ -24,7 +24,8 @@
  "fifth": [
   "Stormsurge",
   "Void Staff",
-  "Rylai's Crystal Scepter"
+  "Rylai's Crystal Scepter",
+  "Morellonomicon"
  ],
  "sixth": [
   "Stormsurge",
@@ -42,6 +43,7 @@
   "Stormsurge",
   "Void Staff",
   "Rylai's Crystal Scepter",
+  "Morellonomicon",
   "Blackfire Torch"
  ]
 }

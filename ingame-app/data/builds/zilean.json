@@ -7,8 +7,9 @@
   "Clarity"
  ],
  "starting": [
-  "Refillable Potion",
-  "Lost Chapter"
+  "Health Potion",
+  "Tear of the Goddess",
+  "Guardian's Orb"
  ],
  "core": [
   "Luden's Echo",
@@ -18,35 +19,35 @@
  ],
  "fourth": [
   "Blackfire Torch",
+  "Malignance",
   "Cryptbloom",
-  "Cosmic Drive",
-  "Horizon Focus"
+  "Cosmic Drive"
  ],
  "fifth": [
   "Rod of Ages",
   "Blackfire Torch",
-  "Cryptbloom",
-  "Cosmic Drive"
- ],
- "sixth": [
-  "Blackfire Torch",
-  "Banshee's Veil",
-  "Rod of Ages",
+  "Cosmic Drive",
   "Malignance"
  ],
+ "sixth": [
+  "Rod of Ages",
+  "Malignance",
+  "Blackfire Torch",
+  "Banshee's Veil"
+ ],
  "pool": [
-  "Refillable Potion",
-  "Lost Chapter",
+  "Health Potion",
+  "Tear of the Goddess",
+  "Guardian's Orb",
   "Luden's Echo",
   "Ionian Boots of Lucidity",
   "Archangel's Staff",
   "Rabadon's Deathcap",
   "Blackfire Torch",
+  "Malignance",
   "Cryptbloom",
   "Cosmic Drive",
-  "Horizon Focus",
   "Rod of Ages",
-  "Banshee's Veil",
-  "Malignance"
+  "Banshee's Veil"
  ]
 }

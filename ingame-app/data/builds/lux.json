@@ -19,18 +19,18 @@
   "Archangel's Staff",
   "Stormsurge",
   "Void Staff",
-  "Liandry's Torment"
- ],
- "fifth": [
-  "Archangel's Staff",
-  "Stormsurge",
-  "Void Staff",
   "Horizon Focus"
  ],
- "sixth": [
+ "fifth": [
   "Stormsurge",
+  "Archangel's Staff",
+  "Horizon Focus",
+  "Void Staff"
+ ],
+ "sixth": [
   "Banshee's Veil",
   "Horizon Focus",
+  "Stormsurge",
   "Malignance"
  ],
  "pool": [
@@ -42,7 +42,6 @@
   "Archangel's Staff",
   "Stormsurge",
   "Void Staff",
-  "Liandry's Torment",
   "Horizon Focus",
   "Banshee's Veil",
   "Malignance"

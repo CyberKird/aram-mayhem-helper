@@ -16,16 +16,16 @@
   "Rabadon's Deathcap"
  ],
  "fourth": [
+  "Riftmaker",
   "Bloodletter's Curse",
   "Void Staff",
-  "Riftmaker",
   "Zhonya's Hourglass"
  ],
  "fifth": [
-  "Bloodletter's Curse",
   "Void Staff",
   "Riftmaker",
-  "Rylai's Crystal Scepter"
+  "Bloodletter's Curse",
+  "Malignance"
  ],
  "sixth": [
   "Riftmaker",
@@ -39,11 +39,10 @@
   "Sorcerer's Shoes",
   "Shadowflame",
   "Rabadon's Deathcap",
+  "Riftmaker",
   "Bloodletter's Curse",
   "Void Staff",
-  "Riftmaker",
   "Zhonya's Hourglass",
-  "Rylai's Crystal Scepter",
   "Malignance"
  ]
 }

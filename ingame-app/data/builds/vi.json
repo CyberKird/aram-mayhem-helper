@@ -7,43 +7,48 @@
   "Mark"
  ],
  "starting": [
-  "Giant's Belt",
-  "Ruby Crystal"
+  "Boots",
+  "Health Potion",
+  "Health Potion",
+  "Serrated Dirk"
  ],
  "core": [
-  "Heartsteel",
+  "Hubris",
   "Mercury's Treads",
   "Sundered Sky",
-  "Warmog's Armor"
+  "Death's Dance"
  ],
  "fourth": [
-  "Lord Dominik's Regards",
   "Endless Hunger",
+  "Lord Dominik's Regards",
   "Infinity Edge",
-  "Death's Dance"
+  "Eclipse"
  ],
  "fifth": [
   "Endless Hunger",
   "Lord Dominik's Regards",
-  "Death's Dance",
+  "Sterak's Gage",
   "Infinity Edge"
  ],
  "sixth": [
   "Endless Hunger",
   "Lord Dominik's Regards",
   "Infinity Edge",
-  "Death's Dance"
+  "Axiom Arc"
  ],
  "pool": [
-  "Giant's Belt",
-  "Ruby Crystal",
-  "Heartsteel",
+  "Boots",
+  "Health Potion",
+  "Serrated Dirk",
+  "Hubris",
   "Mercury's Treads",
   "Sundered Sky",
-  "Warmog's Armor",
-  "Lord Dominik's Regards",
+  "Death's Dance",
   "Endless Hunger",
+  "Lord Dominik's Regards",
   "Infinity Edge",
-  "Death's Dance"
+  "Eclipse",
+  "Sterak's Gage",
+  "Axiom Arc"
  ]
 }

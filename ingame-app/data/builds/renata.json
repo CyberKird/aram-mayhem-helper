@@ -13,41 +13,39 @@
  "core": [
   "Imperial Mandate",
   "Ionian Boots of Lucidity",
-  "Malignance",
-  "Redemption"
+  "Moonstone Renewer",
+  "Whispering Circlet"
  ],
  "fourth": [
   "Ardent Censer",
-  "Locket of the Iron Solari",
+  "Redemption",
   "Archangel's Staff",
-  "Moonstone Renewer"
+  "Locket of the Iron Solari"
  ],
  "fifth": [
   "Ardent Censer",
-  "Whispering Circlet",
   "Shurelya's Battlesong",
+  "Redemption",
   "Archangel's Staff"
  ],
  "sixth": [
   "Staff of Flowing Water",
   "Ardent Censer",
   "Archangel's Staff",
-  "Zhonya's Hourglass"
+  "Redemption"
  ],
  "pool": [
   "Tear of the Goddess",
   "Bandleglass Mirror",
   "Imperial Mandate",
   "Ionian Boots of Lucidity",
-  "Malignance",
-  "Redemption",
-  "Ardent Censer",
-  "Locket of the Iron Solari",
-  "Archangel's Staff",
   "Moonstone Renewer",
   "Whispering Circlet",
+  "Ardent Censer",
+  "Redemption",
+  "Archangel's Staff",
+  "Locket of the Iron Solari",
   "Shurelya's Battlesong",
-  "Staff of Flowing Water",
-  "Zhonya's Hourglass"
+  "Staff of Flowing Water"
  ]
 }

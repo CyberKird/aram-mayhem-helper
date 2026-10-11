@@ -18,21 +18,21 @@
  ],
  "fourth": [
   "Spear of Shojin",
-  "Eclipse",
+  "Maw of Malmortius",
   "Sundered Sky",
-  "Maw of Malmortius"
+  "Black Cleaver"
  ],
  "fifth": [
   "Spear of Shojin",
+  "Maw of Malmortius",
   "Mortal Reminder",
-  "Black Cleaver",
   "Eclipse"
  ],
  "sixth": [
   "Spear of Shojin",
   "Maw of Malmortius",
-  "Black Cleaver",
-  "Sterak's Gage"
+  "Sterak's Gage",
+  "Black Cleaver"
  ],
  "pool": [
   "Long Sword",
@@ -42,11 +42,11 @@
   "Death's Dance",
   "Endless Hunger",
   "Spear of Shojin",
-  "Eclipse",
-  "Sundered Sky",
   "Maw of Malmortius",
-  "Mortal Reminder",
+  "Sundered Sky",
   "Black Cleaver",
+  "Mortal Reminder",
+  "Eclipse",
   "Sterak's Gage"
  ]
 }
