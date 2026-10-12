@@ -7,8 +7,7 @@
   "Ghost"
  ],
  "starting": [
-  "Dagger",
-  "Berserker's Greaves"
+  "B. F. Sword"
  ],
  "core": [
   "Yun Tal Wildarrows",
@@ -24,20 +23,20 @@
  ],
  "fifth": [
   "Blade of The Ruined King",
-  "Cosmic Drive",
   "Cryptbloom",
+  "Cosmic Drive",
   "Blackfire Torch"
  ],
  "sixth": [
-  "Cryptbloom",
   "Blackfire Torch",
-  "Blade of The Ruined King",
-  "Cosmic Drive"
+  "Cryptbloom",
+  "Cosmic Drive",
+  "Blade of The Ruined King"
  ],
  "pool": [
-  "Dagger",
-  "Berserker's Greaves",
+  "B. F. Sword",
   "Yun Tal Wildarrows",
+  "Berserker's Greaves",
   "Runaan's Hurricane",
   "Infinity Edge",
   "Blade of The Ruined King",

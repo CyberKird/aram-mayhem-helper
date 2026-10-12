@@ -7,45 +7,44 @@
   "Mark"
  ],
  "starting": [
-  "Refillable Potion",
   "Lost Chapter"
  ],
  "core": [
-  "Luden's Echo",
-  "Sorcerer's Shoes",
-  "Stormsurge",
+  "Malignance",
+  "Ionian Boots of Lucidity",
+  "Rabadon's Deathcap",
   "Shadowflame"
  ],
  "fourth": [
   "Winter's Approach",
   "Warmog's Armor",
   "Frozen Heart",
-  "Rabadon's Deathcap"
+  "Stormsurge"
  ],
  "fifth": [
   "Warmog's Armor",
-  "Rabadon's Deathcap",
   "Winter's Approach",
-  "Unending Despair"
+  "Unending Despair",
+  "Frozen Heart"
  ],
  "sixth": [
   "Warmog's Armor",
-  "Rabadon's Deathcap",
-  "Winter's Approach",
-  "Kaenic Rookern"
+  "Stormsurge",
+  "Kaenic Rookern",
+  "Spirit Visage"
  ],
  "pool": [
-  "Refillable Potion",
   "Lost Chapter",
-  "Luden's Echo",
-  "Sorcerer's Shoes",
-  "Stormsurge",
+  "Malignance",
+  "Ionian Boots of Lucidity",
+  "Rabadon's Deathcap",
   "Shadowflame",
   "Winter's Approach",
   "Warmog's Armor",
   "Frozen Heart",
-  "Rabadon's Deathcap",
+  "Stormsurge",
   "Unending Despair",
-  "Kaenic Rookern"
+  "Kaenic Rookern",
+  "Spirit Visage"
  ]
 }

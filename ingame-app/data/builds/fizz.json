@@ -19,17 +19,19 @@
  "fourth": [
   "Void Staff",
   "Stormsurge",
-  "Zhonya's Hourglass"
+  "Zhonya's Hourglass",
+  "Riftmaker"
  ],
  "fifth": [
-  "Void Staff",
   "Stormsurge",
-  "Zhonya's Hourglass"
+  "Void Staff",
+  "Zhonya's Hourglass",
+  "Riftmaker"
  ],
  "sixth": [
   "Zhonya's Hourglass",
-  "Cryptbloom",
   "Stormsurge",
+  "Cryptbloom",
   "Void Staff"
  ],
  "pool": [
@@ -42,6 +44,7 @@
   "Void Staff",
   "Stormsurge",
   "Zhonya's Hourglass",
+  "Riftmaker",
   "Cryptbloom"
  ]
 }

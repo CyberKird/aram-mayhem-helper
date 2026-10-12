@@ -24,14 +24,14 @@
  ],
  "fifth": [
   "Bloodthirster",
+  "Statikk Shiv",
   "Blade of The Ruined King",
-  "Runaan's Hurricane",
-  "Statikk Shiv"
+  "Runaan's Hurricane"
  ],
  "sixth": [
   "Bloodthirster",
   "Kraken Slayer",
-  "Wit's End",
+  "Statikk Shiv",
   "Blade of The Ruined King"
  ],
  "pool": [
@@ -45,7 +45,6 @@
   "Runaan's Hurricane",
   "Kraken Slayer",
   "Blade of The Ruined King",
-  "Statikk Shiv",
-  "Wit's End"
+  "Statikk Shiv"
  ]
 }

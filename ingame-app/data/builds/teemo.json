@@ -7,7 +7,6 @@
   "Ghost"
  ],
  "starting": [
-  "Refillable Potion",
   "Lost Chapter"
  ],
  "core": [
@@ -32,10 +31,9 @@
   "Shadowflame",
   "Nashor's Tooth",
   "Void Staff",
-  "Rabadon's Deathcap"
+  "Cryptbloom"
  ],
  "pool": [
-  "Refillable Potion",
   "Lost Chapter",
   "Malignance",
   "Sorcerer's Shoes",
@@ -46,6 +44,7 @@
   "Blackfire Torch",
   "Lich Bane",
   "Shadowflame",
-  "Void Staff"
+  "Void Staff",
+  "Cryptbloom"
  ]
 }

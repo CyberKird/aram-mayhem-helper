@@ -8,7 +8,9 @@
  ],
  "starting": [
   "Giant's Belt",
-  "Ruby Crystal"
+  "Ruby Crystal",
+  "Health Potion",
+  "Health Potion"
  ],
  "core": [
   "Heartsteel",
@@ -17,36 +19,36 @@
   "Warmog's Armor"
  ],
  "fourth": [
-  "Jak'Sho, The Protean",
   "Winter's Approach",
+  "Jak'Sho, The Protean",
   "Randuin's Omen",
   "Spirit Visage"
  ],
  "fifth": [
-  "Jak'Sho, The Protean",
   "Force of Nature",
+  "Jak'Sho, The Protean",
   "Winter's Approach",
-  "Thornmail"
+  "Spirit Visage"
  ],
  "sixth": [
-  "Force of Nature",
   "Knight's Vow",
+  "Force of Nature",
   "Jak'Sho, The Protean",
   "Winter's Approach"
  ],
  "pool": [
   "Giant's Belt",
   "Ruby Crystal",
+  "Health Potion",
   "Heartsteel",
   "Mercury's Treads",
   "Unending Despair",
   "Warmog's Armor",
-  "Jak'Sho, The Protean",
   "Winter's Approach",
+  "Jak'Sho, The Protean",
   "Randuin's Omen",
   "Spirit Visage",
   "Force of Nature",
-  "Thornmail",
   "Knight's Vow"
  ]
 }

@@ -17,22 +17,22 @@
   "Rabadon's Deathcap"
  ],
  "fourth": [
-  "Horizon Focus",
   "Bloodletter's Curse",
+  "Horizon Focus",
   "Archangel's Staff",
   "Shadowflame"
  ],
  "fifth": [
   "Horizon Focus",
   "Archangel's Staff",
-  "Shadowflame",
-  "Bloodletter's Curse"
+  "Bloodletter's Curse",
+  "Shadowflame"
  ],
  "sixth": [
   "Horizon Focus",
-  "Cryptbloom",
   "Bloodletter's Curse",
-  "Shadowflame"
+  "Cryptbloom",
+  "Archangel's Staff"
  ],
  "pool": [
   "Refillable Potion",
@@ -41,8 +41,8 @@
   "Sorcerer's Shoes",
   "Liandry's Torment",
   "Rabadon's Deathcap",
-  "Horizon Focus",
   "Bloodletter's Curse",
+  "Horizon Focus",
   "Archangel's Staff",
   "Shadowflame",
   "Cryptbloom"

@@ -7,7 +7,7 @@
   "Ghost"
  ],
  "starting": [
-  "Sapphire Crystal",
+  "Amplifying Tome",
   "Fated Ashes"
  ],
  "core": [
@@ -18,8 +18,8 @@
  ],
  "fourth": [
   "Stormsurge",
-  "Shadowflame",
   "Archangel's Staff",
+  "Shadowflame",
   "Void Staff"
  ],
  "fifth": [
@@ -30,22 +30,22 @@
  ],
  "sixth": [
   "Stormsurge",
-  "Cosmic Drive",
   "Shadowflame",
-  "Banshee's Veil"
+  "Cosmic Drive",
+  "Cryptbloom"
  ],
  "pool": [
-  "Sapphire Crystal",
+  "Amplifying Tome",
   "Fated Ashes",
   "Blackfire Torch",
   "Sorcerer's Shoes",
   "Liandry's Torment",
   "Rabadon's Deathcap",
   "Stormsurge",
-  "Shadowflame",
   "Archangel's Staff",
+  "Shadowflame",
   "Void Staff",
   "Cosmic Drive",
-  "Banshee's Veil"
+  "Cryptbloom"
  ]
 }

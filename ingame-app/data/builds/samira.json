@@ -7,46 +7,46 @@
   "Mark"
  ],
  "starting": [
+  "Cloak of Agility",
   "Long Sword",
-  "Guardian's Blade"
+  "Long Sword"
  ],
  "core": [
   "The Collector",
   "Mercury's Treads",
   "Infinity Edge",
-  "Lord Dominik's Regards"
+  "Hubris"
  ],
  "fourth": [
   "Death's Dance",
+  "Lord Dominik's Regards",
   "Bloodthirster",
-  "Mortal Reminder",
   "Immortal Shieldbow"
  ],
  "fifth": [
   "Endless Hunger",
   "Death's Dance",
-  "Bloodthirster",
-  "Immortal Shieldbow"
+  "Lord Dominik's Regards",
+  "Bloodthirster"
  ],
  "sixth": [
   "Endless Hunger",
   "Death's Dance",
   "Maw of Malmortius",
-  "Hubris"
+  "Bloodthirster"
  ],
  "pool": [
+  "Cloak of Agility",
   "Long Sword",
-  "Guardian's Blade",
   "The Collector",
   "Mercury's Treads",
   "Infinity Edge",
-  "Lord Dominik's Regards",
+  "Hubris",
   "Death's Dance",
+  "Lord Dominik's Regards",
   "Bloodthirster",
-  "Mortal Reminder",
   "Immortal Shieldbow",
   "Endless Hunger",
-  "Maw of Malmortius",
-  "Hubris"
+  "Maw of Malmortius"
  ]
 }

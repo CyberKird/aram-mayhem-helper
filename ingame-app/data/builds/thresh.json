@@ -12,25 +12,25 @@
  ],
  "core": [
   "Heartsteel",
-  "Mercury's Treads",
+  "Plated Steelcaps",
   "Unending Despair",
   "Warmog's Armor"
  ],
  "fourth": [
-  "Spirit Visage",
   "Winter's Approach",
   "Force of Nature",
+  "Spirit Visage",
   "Jak'Sho, The Protean"
  ],
  "fifth": [
   "Force of Nature",
-  "Winter's Approach",
+  "Jak'Sho, The Protean",
   "Spirit Visage",
-  "Jak'Sho, The Protean"
+  "Winter's Approach"
  ],
  "sixth": [
-  "Jak'Sho, The Protean",
   "Force of Nature",
+  "Jak'Sho, The Protean",
   "Spirit Visage",
   "Winter's Approach"
  ],
@@ -38,12 +38,12 @@
   "Giant's Belt",
   "Ruby Crystal",
   "Heartsteel",
-  "Mercury's Treads",
+  "Plated Steelcaps",
   "Unending Despair",
   "Warmog's Armor",
-  "Spirit Visage",
   "Winter's Approach",
   "Force of Nature",
+  "Spirit Visage",
   "Jak'Sho, The Protean"
  ]
 }

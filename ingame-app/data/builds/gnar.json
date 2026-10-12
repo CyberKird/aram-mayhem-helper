@@ -12,41 +12,41 @@
  ],
  "core": [
   "Heartsteel",
-  "Mercury's Treads",
-  "Overlord's Bloodmail",
-  "Warmog's Armor"
+  "Plated Steelcaps",
+  "Warmog's Armor",
+  "Overlord's Bloodmail"
  ],
  "fourth": [
   "Kaenic Rookern",
-  "Black Cleaver",
-  "Wit's End",
-  "Trinity Force"
+  "Sterak's Gage",
+  "Thornmail",
+  "Black Cleaver"
  ],
  "fifth": [
   "Sterak's Gage",
-  "Force of Nature",
   "Jak'Sho, The Protean",
-  "Trinity Force"
+  "Trinity Force",
+  "Force of Nature"
  ],
  "sixth": [
   "Sterak's Gage",
-  "Kaenic Rookern",
   "Jak'Sho, The Protean",
-  "Force of Nature"
+  "Force of Nature",
+  "Kaenic Rookern"
  ],
  "pool": [
   "Giant's Belt",
   "Ruby Crystal",
   "Heartsteel",
-  "Mercury's Treads",
-  "Overlord's Bloodmail",
+  "Plated Steelcaps",
   "Warmog's Armor",
+  "Overlord's Bloodmail",
   "Kaenic Rookern",
-  "Black Cleaver",
-  "Wit's End",
-  "Trinity Force",
   "Sterak's Gage",
-  "Force of Nature",
-  "Jak'Sho, The Protean"
+  "Thornmail",
+  "Black Cleaver",
+  "Jak'Sho, The Protean",
+  "Trinity Force",
+  "Force of Nature"
  ]
 }

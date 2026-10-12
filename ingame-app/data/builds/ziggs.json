@@ -7,7 +7,6 @@
   "Ghost"
  ],
  "starting": [
-  "Refillable Potion",
   "Lost Chapter"
  ],
  "core": [
@@ -29,13 +28,12 @@
   "Void Staff"
  ],
  "sixth": [
-  "Void Staff",
-  "Horizon Focus",
   "Stormsurge",
-  "Shadowflame"
+  "Horizon Focus",
+  "Shadowflame",
+  "Void Staff"
  ],
  "pool": [
-  "Refillable Potion",
   "Lost Chapter",
   "Blackfire Torch",
   "Sorcerer's Shoes",

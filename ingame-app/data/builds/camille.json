@@ -19,20 +19,20 @@
  "fourth": [
   "Endless Hunger",
   "Spear of Shojin",
-  "Sterak's Gage",
-  "Maw of Malmortius"
+  "Maw of Malmortius",
+  "Sterak's Gage"
  ],
  "fifth": [
   "Endless Hunger",
   "Sterak's Gage",
   "Spear of Shojin",
-  "Maw of Malmortius"
+  "Spirit Visage"
  ],
  "sixth": [
   "Sterak's Gage",
   "Spear of Shojin",
-  "Maw of Malmortius",
-  "Kaenic Rookern"
+  "Kaenic Rookern",
+  "Endless Hunger"
  ],
  "pool": [
   "Long Sword",
@@ -43,8 +43,9 @@
   "Death's Dance",
   "Endless Hunger",
   "Spear of Shojin",
-  "Sterak's Gage",
   "Maw of Malmortius",
+  "Sterak's Gage",
+  "Spirit Visage",
   "Kaenic Rookern"
  ]
 }

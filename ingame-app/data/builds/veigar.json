@@ -8,6 +8,7 @@
  ],
  "starting": [
   "Blasting Wand",
+  "Refillable Potion",
   "Tear of the Goddess"
  ],
  "core": [
@@ -18,8 +19,8 @@
  ],
  "fourth": [
   "Shadowflame",
-  "Void Staff",
   "Stormsurge",
+  "Void Staff",
   "Warmog's Armor"
  ],
  "fifth": [
@@ -30,20 +31,21 @@
  ],
  "sixth": [
   "Banshee's Veil",
-  "Shadowflame",
   "Stormsurge",
+  "Shadowflame",
   "Void Staff"
  ],
  "pool": [
   "Blasting Wand",
+  "Refillable Potion",
   "Tear of the Goddess",
   "Rod of Ages",
   "Sorcerer's Shoes",
   "Rabadon's Deathcap",
   "Archangel's Staff",
   "Shadowflame",
-  "Void Staff",
   "Stormsurge",
+  "Void Staff",
   "Warmog's Armor",
   "Banshee's Veil"
  ]

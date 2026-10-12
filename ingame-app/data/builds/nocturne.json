@@ -7,45 +7,44 @@
   "Mark"
  ],
  "starting": [
-  "Long Sword",
+  "Tear of the Goddess",
   "Serrated Dirk"
  ],
  "core": [
   "Hubris",
-  "Ionian Boots of Lucidity",
-  "Axiom Arc",
-  "Voltaic Cyclosword"
+  "Mercury's Treads",
+  "Experimental Hexplate",
+  "Death's Dance"
  ],
  "fourth": [
+  "Voltaic Cyclosword",
   "Lord Dominik's Regards",
-  "Death's Dance",
   "Infinity Edge",
-  "Serylda's Grudge"
+  "Profane Hydra"
  ],
  "fifth": [
-  "Endless Hunger",
-  "Death's Dance",
-  "Infinity Edge",
-  "Lord Dominik's Regards"
- ],
- "sixth": [
+  "Voltaic Cyclosword",
   "Endless Hunger",
   "Lord Dominik's Regards",
-  "Death's Dance",
+  "Infinity Edge"
+ ],
+ "sixth": [
+  "Voltaic Cyclosword",
+  "Endless Hunger",
+  "Lord Dominik's Regards",
   "Profane Hydra"
  ],
  "pool": [
-  "Long Sword",
+  "Tear of the Goddess",
   "Serrated Dirk",
   "Hubris",
-  "Ionian Boots of Lucidity",
-  "Axiom Arc",
+  "Mercury's Treads",
+  "Experimental Hexplate",
+  "Death's Dance",
   "Voltaic Cyclosword",
   "Lord Dominik's Regards",
-  "Death's Dance",
   "Infinity Edge",
-  "Serylda's Grudge",
-  "Endless Hunger",
-  "Profane Hydra"
+  "Profane Hydra",
+  "Endless Hunger"
  ]
 }

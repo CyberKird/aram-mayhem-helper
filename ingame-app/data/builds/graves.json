@@ -26,13 +26,13 @@
   "Endless Hunger",
   "Lord Dominik's Regards",
   "Bloodthirster",
-  "Immortal Shieldbow"
+  "Maw of Malmortius"
  ],
  "sixth": [
   "Endless Hunger",
   "Bloodthirster",
-  "Lord Dominik's Regards",
-  "Mercurial Scimitar"
+  "Mercurial Scimitar",
+  "Lord Dominik's Regards"
  ],
  "pool": [
   "Long Sword",
@@ -46,6 +46,7 @@
   "Immortal Shieldbow",
   "Mortal Reminder",
   "Endless Hunger",
+  "Maw of Malmortius",
   "Mercurial Scimitar"
  ]
 }

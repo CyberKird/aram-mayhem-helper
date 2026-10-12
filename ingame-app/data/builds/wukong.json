@@ -18,21 +18,21 @@
  ],
  "fourth": [
   "Endless Hunger",
+  "Death's Dance",
   "Trinity Force",
-  "Sundered Sky",
-  "Death's Dance"
+  "Infinity Edge"
  ],
  "fifth": [
   "Endless Hunger",
   "Death's Dance",
-  "Sterak's Gage",
-  "Infinity Edge"
+  "Infinity Edge",
+  "Sterak's Gage"
  ],
  "sixth": [
   "Endless Hunger",
-  "Death's Dance",
   "Sterak's Gage",
-  "Kaenic Rookern"
+  "Death's Dance",
+  "Infinity Edge"
  ],
  "pool": [
   "Giant's Belt",
@@ -42,11 +42,9 @@
   "Overlord's Bloodmail",
   "Warmog's Armor",
   "Endless Hunger",
-  "Trinity Force",
-  "Sundered Sky",
   "Death's Dance",
-  "Sterak's Gage",
+  "Trinity Force",
   "Infinity Edge",
-  "Kaenic Rookern"
+  "Sterak's Gage"
  ]
 }

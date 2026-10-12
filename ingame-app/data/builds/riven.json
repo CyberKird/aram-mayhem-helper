@@ -17,20 +17,20 @@
   "Endless Hunger"
  ],
  "fourth": [
-  "Spear of Shojin",
   "Maw of Malmortius",
-  "Sundered Sky",
+  "Spear of Shojin",
+  "Eclipse",
   "Black Cleaver"
  ],
  "fifth": [
   "Spear of Shojin",
-  "Maw of Malmortius",
   "Mortal Reminder",
-  "Eclipse"
+  "Maw of Malmortius",
+  "Sundered Sky"
  ],
  "sixth": [
-  "Spear of Shojin",
   "Maw of Malmortius",
+  "Spear of Shojin",
   "Sterak's Gage",
   "Black Cleaver"
  ],
@@ -41,12 +41,12 @@
   "Mercury's Treads",
   "Death's Dance",
   "Endless Hunger",
-  "Spear of Shojin",
   "Maw of Malmortius",
-  "Sundered Sky",
+  "Spear of Shojin",
+  "Eclipse",
   "Black Cleaver",
   "Mortal Reminder",
-  "Eclipse",
+  "Sundered Sky",
   "Sterak's Gage"
  ]
 }

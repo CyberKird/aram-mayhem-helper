@@ -18,8 +18,8 @@
  ],
  "fourth": [
   "Rabadon's Deathcap",
-  "Void Staff",
   "Riftmaker",
+  "Void Staff",
   "Spirit Visage"
  ],
  "fifth": [
@@ -32,7 +32,7 @@
   "Rabadon's Deathcap",
   "Void Staff",
   "Riftmaker",
-  "Spirit Visage"
+  "Cosmic Drive"
  ],
  "pool": [
   "Ruby Crystal",
@@ -42,8 +42,9 @@
   "Nashor's Tooth",
   "Shadowflame",
   "Rabadon's Deathcap",
-  "Void Staff",
   "Riftmaker",
-  "Spirit Visage"
+  "Void Staff",
+  "Spirit Visage",
+  "Cosmic Drive"
  ]
 }

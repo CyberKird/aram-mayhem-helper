@@ -17,22 +17,22 @@
   "Rabadon's Deathcap"
  ],
  "fourth": [
-  "Stormsurge",
   "Void Staff",
-  "Winter's Approach",
-  "Warmog's Armor"
+  "Stormsurge",
+  "Warmog's Armor",
+  "Unending Despair"
  ],
  "fifth": [
   "Void Staff",
   "Stormsurge",
-  "Warmog's Armor",
-  "Winter's Approach"
+  "Cryptbloom",
+  "Warmog's Armor"
  ],
  "sixth": [
   "Void Staff",
   "Stormsurge",
-  "Warmog's Armor",
-  "Spirit Visage"
+  "Cryptbloom",
+  "Warmog's Armor"
  ],
  "pool": [
   "Amplifying Tome",
@@ -41,10 +41,10 @@
   "Sorcerer's Shoes",
   "Shadowflame",
   "Rabadon's Deathcap",
-  "Stormsurge",
   "Void Staff",
-  "Winter's Approach",
+  "Stormsurge",
   "Warmog's Armor",
-  "Spirit Visage"
+  "Unending Despair",
+  "Cryptbloom"
  ]
 }

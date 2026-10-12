@@ -8,7 +8,7 @@
  ],
  "starting": [
   "Amplifying Tome",
-  "Guardian's Orb"
+  "Fiendish Codex"
  ],
  "core": [
   "Cosmic Drive",
@@ -29,14 +29,14 @@
   "Zhonya's Hourglass"
  ],
  "sixth": [
+  "Stormsurge",
   "Warmog's Armor",
-  "Shadowflame",
   "Void Staff",
-  "Spirit Visage"
+  "Shadowflame"
  ],
  "pool": [
   "Amplifying Tome",
-  "Guardian's Orb",
+  "Fiendish Codex",
   "Cosmic Drive",
   "Ionian Boots of Lucidity",
   "Riftmaker",
@@ -46,6 +46,6 @@
   "Shadowflame",
   "Cryptbloom",
   "Zhonya's Hourglass",
-  "Spirit Visage"
+  "Stormsurge"
  ]
 }

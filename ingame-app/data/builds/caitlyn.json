@@ -17,16 +17,16 @@
   "Lord Dominik's Regards"
  ],
  "fourth": [
-  "Bloodthirster",
   "Hexoptics C44",
-  "Blade of The Ruined King",
-  "Runaan's Hurricane"
+  "Bloodthirster",
+  "Runaan's Hurricane",
+  "Blade of The Ruined King"
  ],
  "fifth": [
   "Bloodthirster",
   "Hexoptics C44",
   "Blade of The Ruined King",
-  "Kraken Slayer"
+  "Rapid Firecannon"
  ],
  "sixth": [
   "Bloodthirster",
@@ -41,11 +41,12 @@
   "Berserker's Greaves",
   "Infinity Edge",
   "Lord Dominik's Regards",
-  "Bloodthirster",
   "Hexoptics C44",
-  "Blade of The Ruined King",
+  "Bloodthirster",
   "Runaan's Hurricane",
-  "Kraken Slayer",
-  "Edge of Night"
+  "Blade of The Ruined King",
+  "Rapid Firecannon",
+  "Edge of Night",
+  "Kraken Slayer"
  ]
 }

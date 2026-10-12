@@ -13,8 +13,8 @@
  "core": [
   "Heartsteel",
   "Plated Steelcaps",
-  "Winter's Approach",
-  "Unending Despair"
+  "Unending Despair",
+  "Winter's Approach"
  ],
  "fourth": [
   "Warmog's Armor",
@@ -24,23 +24,23 @@
  ],
  "fifth": [
   "Warmog's Armor",
-  "Spirit Visage",
   "Jak'Sho, The Protean",
+  "Spirit Visage",
   "Thornmail"
  ],
  "sixth": [
-  "Jak'Sho, The Protean",
   "Spirit Visage",
-  "Overlord's Bloodmail",
-  "Warmog's Armor"
+  "Jak'Sho, The Protean",
+  "Warmog's Armor",
+  "Overlord's Bloodmail"
  ],
  "pool": [
   "Giant's Belt",
   "Tear of the Goddess",
   "Heartsteel",
   "Plated Steelcaps",
-  "Winter's Approach",
   "Unending Despair",
+  "Winter's Approach",
   "Warmog's Armor",
   "Jak'Sho, The Protean",
   "Spirit Visage",

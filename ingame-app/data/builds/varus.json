@@ -7,43 +7,45 @@
   "Ghost"
  ],
  "starting": [
-  "Dagger",
-  "Berserker's Greaves"
+  "Long Sword",
+  "Pickaxe",
+  "Refillable Potion"
  ],
  "core": [
   "Blade of The Ruined King",
   "Berserker's Greaves",
   "Runaan's Hurricane",
-  "Terminus"
- ],
- "fourth": [
-  "Lord Dominik's Regards",
-  "Infinity Edge",
-  "Guinsoo's Rageblade",
-  "Serylda's Grudge"
- ],
- "fifth": [
-  "Lord Dominik's Regards",
-  "Infinity Edge",
-  "Serylda's Grudge",
   "Guinsoo's Rageblade"
  ],
- "sixth": [
-  "Lord Dominik's Regards",
-  "Infinity Edge",
-  "Serylda's Grudge",
-  "Manamune"
- ],
- "pool": [
-  "Dagger",
-  "Berserker's Greaves",
-  "Blade of The Ruined King",
-  "Runaan's Hurricane",
+ "fourth": [
   "Terminus",
   "Lord Dominik's Regards",
   "Infinity Edge",
-  "Guinsoo's Rageblade",
+  "Serylda's Grudge"
+ ],
+ "fifth": [
+  "Terminus",
+  "Lord Dominik's Regards",
   "Serylda's Grudge",
-  "Manamune"
+  "Infinity Edge"
+ ],
+ "sixth": [
+  "Terminus",
+  "Lord Dominik's Regards",
+  "Serylda's Grudge",
+  "Infinity Edge"
+ ],
+ "pool": [
+  "Long Sword",
+  "Pickaxe",
+  "Refillable Potion",
+  "Blade of The Ruined King",
+  "Berserker's Greaves",
+  "Runaan's Hurricane",
+  "Guinsoo's Rageblade",
+  "Terminus",
+  "Lord Dominik's Regards",
+  "Infinity Edge",
+  "Serylda's Grudge"
  ]
 }

@@ -18,7 +18,7 @@
  "fourth": [
   "Archangel's Staff",
   "Shadowflame",
-  "Rylai's Crystal Scepter",
+  "Malignance",
   "Void Staff"
  ],
  "fifth": [
@@ -28,10 +28,10 @@
   "Stormsurge"
  ],
  "sixth": [
-  "Archangel's Staff",
-  "Stormsurge",
   "Banshee's Veil",
-  "Void Staff"
+  "Stormsurge",
+  "Archangel's Staff",
+  "Horizon Focus"
  ],
  "pool": [
   "Lost Chapter",
@@ -41,7 +41,7 @@
   "Rabadon's Deathcap",
   "Archangel's Staff",
   "Shadowflame",
-  "Rylai's Crystal Scepter",
+  "Malignance",
   "Void Staff",
   "Horizon Focus",
   "Stormsurge",

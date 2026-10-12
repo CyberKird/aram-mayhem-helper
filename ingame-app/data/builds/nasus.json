@@ -8,6 +8,8 @@
  ],
  "starting": [
   "Ruby Crystal",
+  "Health Potion",
+  "Health Potion",
   "Sheen"
  ],
  "core": [
@@ -36,6 +38,7 @@
  ],
  "pool": [
   "Ruby Crystal",
+  "Health Potion",
   "Sheen",
   "Trinity Force",
   "Mercury's Treads",

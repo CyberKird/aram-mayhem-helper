@@ -21,13 +21,13 @@
   "Bloodletter's Curse",
   "Rabadon's Deathcap",
   "Malignance",
-  "Shadowflame"
+  "Blackfire Torch"
  ],
  "fifth": [
-  "Shadowflame",
+  "Bloodletter's Curse",
   "Malignance",
-  "Blackfire Torch",
-  "Bloodletter's Curse"
+  "Rabadon's Deathcap",
+  "Blackfire Torch"
  ],
  "sixth": [
   "Bloodletter's Curse",
@@ -46,8 +46,8 @@
   "Bloodletter's Curse",
   "Rabadon's Deathcap",
   "Malignance",
-  "Shadowflame",
   "Blackfire Torch",
+  "Shadowflame",
   "Zhonya's Hourglass"
  ]
 }

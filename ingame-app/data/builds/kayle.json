@@ -20,7 +20,7 @@
   "Shadowflame",
   "Statikk Shiv",
   "Riftmaker",
-  "Guinsoo's Rageblade"
+  "Runaan's Hurricane"
  ],
  "fifth": [
   "Shadowflame",
@@ -31,8 +31,8 @@
  "sixth": [
   "Void Staff",
   "Riftmaker",
-  "Shadowflame",
-  "Statikk Shiv"
+  "Statikk Shiv",
+  "Shadowflame"
  ],
  "pool": [
   "Blasting Wand",
@@ -44,7 +44,7 @@
   "Shadowflame",
   "Statikk Shiv",
   "Riftmaker",
-  "Guinsoo's Rageblade",
+  "Runaan's Hurricane",
   "Void Staff"
  ]
 }

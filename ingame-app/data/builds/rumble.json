@@ -7,7 +7,8 @@
   "Mark"
  ],
  "starting": [
-  "Haunting Guise"
+  "Amplifying Tome",
+  "Guardian's Orb"
  ],
  "core": [
   "Liandry's Torment",
@@ -23,18 +24,19 @@
  ],
  "fifth": [
   "Void Staff",
-  "Riftmaker",
   "Bloodletter's Curse",
+  "Riftmaker",
   "Malignance"
  ],
  "sixth": [
   "Riftmaker",
-  "Void Staff",
   "Bloodletter's Curse",
+  "Void Staff",
   "Malignance"
  ],
  "pool": [
-  "Haunting Guise",
+  "Amplifying Tome",
+  "Guardian's Orb",
   "Liandry's Torment",
   "Sorcerer's Shoes",
   "Shadowflame",

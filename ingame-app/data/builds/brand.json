@@ -7,7 +7,8 @@
   "Ghost"
  ],
  "starting": [
-  "Lost Chapter"
+  "Amplifying Tome",
+  "Fated Ashes"
  ],
  "core": [
   "Liandry's Torment",
@@ -29,12 +30,13 @@
  ],
  "sixth": [
   "Bloodletter's Curse",
-  "Shadowflame",
   "Archangel's Staff",
-  "Void Staff"
+  "Shadowflame",
+  "Rabadon's Deathcap"
  ],
  "pool": [
-  "Lost Chapter",
+  "Amplifying Tome",
+  "Fated Ashes",
   "Liandry's Torment",
   "Sorcerer's Shoes",
   "Blackfire Torch",
@@ -42,7 +44,6 @@
   "Bloodletter's Curse",
   "Archangel's Staff",
   "Rabadon's Deathcap",
-  "Shadowflame",
-  "Void Staff"
+  "Shadowflame"
  ]
 }

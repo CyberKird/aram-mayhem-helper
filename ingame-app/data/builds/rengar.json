@@ -8,19 +8,19 @@
  ],
  "starting": [
   "Long Sword",
-  "Serrated Dirk"
+  "Guardian's Blade"
  ],
  "core": [
   "Hubris",
   "Mercury's Treads",
-  "Infinity Edge",
-  "Lord Dominik's Regards"
+  "Lord Dominik's Regards",
+  "Infinity Edge"
  ],
  "fourth": [
   "Death's Dance",
   "Axiom Arc",
   "Voltaic Cyclosword",
-  "Profane Hydra"
+  "Mortal Reminder"
  ],
  "fifth": [
   "Endless Hunger",
@@ -36,15 +36,15 @@
  ],
  "pool": [
   "Long Sword",
-  "Serrated Dirk",
+  "Guardian's Blade",
   "Hubris",
   "Mercury's Treads",
-  "Infinity Edge",
   "Lord Dominik's Regards",
+  "Infinity Edge",
   "Death's Dance",
   "Axiom Arc",
   "Voltaic Cyclosword",
-  "Profane Hydra",
+  "Mortal Reminder",
   "Endless Hunger"
  ]
 }

@@ -13,20 +13,20 @@
  "core": [
   "Hubris",
   "Boots of Swiftness",
-  "The Collector",
-  "Axiom Arc"
+  "Axiom Arc",
+  "Infinity Edge"
  ],
  "fourth": [
   "Lord Dominik's Regards",
-  "Infinity Edge",
   "Rapid Firecannon",
-  "Bloodthirster"
+  "Bloodthirster",
+  "Mortal Reminder"
  ],
  "fifth": [
+  "Edge of Night",
   "Lord Dominik's Regards",
   "Phantom Dancer",
-  "Hexoptics C44",
-  "Edge of Night"
+  "Hexoptics C44"
  ],
  "sixth": [
   "Youmuu's Ghostblade",
@@ -39,15 +39,15 @@
   "Serrated Dirk",
   "Hubris",
   "Boots of Swiftness",
-  "The Collector",
   "Axiom Arc",
-  "Lord Dominik's Regards",
   "Infinity Edge",
+  "Lord Dominik's Regards",
   "Rapid Firecannon",
   "Bloodthirster",
+  "Mortal Reminder",
+  "Edge of Night",
   "Phantom Dancer",
   "Hexoptics C44",
-  "Edge of Night",
   "Youmuu's Ghostblade"
  ]
 }

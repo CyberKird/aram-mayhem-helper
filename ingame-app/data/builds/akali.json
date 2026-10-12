@@ -19,7 +19,7 @@
   "Void Staff",
   "Lich Bane",
   "Riftmaker",
-  "Zhonya's Hourglass"
+  "Hextech Gunblade"
  ],
  "fifth": [
   "Lich Bane",
@@ -30,8 +30,8 @@
  "sixth": [
   "Lich Bane",
   "Void Staff",
-  "Zhonya's Hourglass",
-  "Riftmaker"
+  "Hextech Gunblade",
+  "Zhonya's Hourglass"
  ],
  "pool": [
   "Hextech Alternator",
@@ -42,6 +42,7 @@
   "Void Staff",
   "Lich Bane",
   "Riftmaker",
+  "Hextech Gunblade",
   "Zhonya's Hourglass"
  ]
 }

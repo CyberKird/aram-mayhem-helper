@@ -24,14 +24,14 @@
  "fifth": [
   "Banshee's Veil",
   "Void Staff",
-  "Zhonya's Hourglass",
-  "Liandry's Torment"
+  "Cryptbloom",
+  "Zhonya's Hourglass"
  ],
  "sixth": [
   "Banshee's Veil",
   "Void Staff",
-  "Zhonya's Hourglass",
-  "Cryptbloom"
+  "Cryptbloom",
+  "Zhonya's Hourglass"
  ],
  "pool": [
   "Boots",
@@ -44,7 +44,6 @@
   "Zhonya's Hourglass",
   "Malignance",
   "Banshee's Veil",
-  "Liandry's Torment",
   "Cryptbloom"
  ]
 }

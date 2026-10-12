@@ -7,48 +7,46 @@
   "Mark"
  ],
  "starting": [
-  "Boots",
-  "Health Potion",
-  "Health Potion",
-  "Serrated Dirk"
+  "Long Sword",
+  "Caulfield's Warhammer"
  ],
  "core": [
   "Hubris",
   "Mercury's Treads",
-  "Sundered Sky",
+  "Eclipse",
   "Death's Dance"
  ],
  "fourth": [
   "Endless Hunger",
   "Lord Dominik's Regards",
-  "Infinity Edge",
-  "Eclipse"
+  "Black Cleaver",
+  "Infinity Edge"
  ],
  "fifth": [
   "Endless Hunger",
   "Lord Dominik's Regards",
   "Sterak's Gage",
-  "Infinity Edge"
+  "Maw of Malmortius"
  ],
  "sixth": [
   "Endless Hunger",
   "Lord Dominik's Regards",
-  "Infinity Edge",
-  "Axiom Arc"
+  "Axiom Arc",
+  "Infinity Edge"
  ],
  "pool": [
-  "Boots",
-  "Health Potion",
-  "Serrated Dirk",
+  "Long Sword",
+  "Caulfield's Warhammer",
   "Hubris",
   "Mercury's Treads",
-  "Sundered Sky",
+  "Eclipse",
   "Death's Dance",
   "Endless Hunger",
   "Lord Dominik's Regards",
+  "Black Cleaver",
   "Infinity Edge",
-  "Eclipse",
   "Sterak's Gage",
+  "Maw of Malmortius",
   "Axiom Arc"
  ]
 }

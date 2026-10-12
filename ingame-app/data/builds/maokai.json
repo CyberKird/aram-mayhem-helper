@@ -18,14 +18,14 @@
  "fourth": [
   "Warmog's Armor",
   "Unending Despair",
-  "Winter's Approach",
-  "Spirit Visage"
+  "Malignance",
+  "Winter's Approach"
  ],
  "fifth": [
-  "Riftmaker",
   "Warmog's Armor",
-  "Spirit Visage",
-  "Shadowflame"
+  "Riftmaker",
+  "Shadowflame",
+  "Spirit Visage"
  ],
  "sixth": [
   "Riftmaker",
@@ -41,10 +41,11 @@
   "Rabadon's Deathcap",
   "Warmog's Armor",
   "Unending Despair",
+  "Malignance",
   "Winter's Approach",
-  "Spirit Visage",
   "Riftmaker",
   "Shadowflame",
+  "Spirit Visage",
   "Jak'Sho, The Protean"
  ]
 }

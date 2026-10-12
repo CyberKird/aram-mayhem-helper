@@ -19,19 +19,19 @@
  "fourth": [
   "Unending Despair",
   "Warmog's Armor",
-  "Spirit Visage",
-  "Liandry's Torment"
+  "Liandry's Torment",
+  "Spirit Visage"
  ],
  "fifth": [
   "Unending Despair",
-  "Rylai's Crystal Scepter",
   "Warmog's Armor",
-  "Spirit Visage"
+  "Spirit Visage",
+  "Rylai's Crystal Scepter"
  ],
  "sixth": [
   "Unending Despair",
-  "Warmog's Armor",
   "Spirit Visage",
+  "Warmog's Armor",
   "Jak'Sho, The Protean"
  ],
  "pool": [
@@ -43,8 +43,8 @@
   "Overlord's Bloodmail",
   "Unending Despair",
   "Warmog's Armor",
-  "Spirit Visage",
   "Liandry's Torment",
+  "Spirit Visage",
   "Rylai's Crystal Scepter",
   "Jak'Sho, The Protean"
  ]

@@ -24,14 +24,14 @@
  ],
  "fifth": [
   "Lord Dominik's Regards",
-  "Axiom Arc",
   "Endless Hunger",
-  "Maw of Malmortius"
+  "Maw of Malmortius",
+  "Spear of Shojin"
  ],
  "sixth": [
   "Lord Dominik's Regards",
-  "Endless Hunger",
   "Axiom Arc",
+  "Endless Hunger",
   "Eclipse"
  ],
  "pool": [
@@ -45,8 +45,8 @@
   "Endless Hunger",
   "Mortal Reminder",
   "Spear of Shojin",
-  "Axiom Arc",
   "Maw of Malmortius",
+  "Axiom Arc",
   "Eclipse"
  ]
 }

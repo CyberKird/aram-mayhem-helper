@@ -18,14 +18,14 @@
  "fourth": [
   "Archangel's Staff",
   "Rabadon's Deathcap",
-  "Shadowflame",
-  "Cryptbloom"
+  "Cryptbloom",
+  "Shadowflame"
  ],
  "fifth": [
   "Archangel's Staff",
   "Rabadon's Deathcap",
   "Cryptbloom",
-  "Malignance"
+  "Shadowflame"
  ],
  "sixth": [
   "Cryptbloom",
@@ -41,8 +41,7 @@
   "Rylai's Crystal Scepter",
   "Archangel's Staff",
   "Rabadon's Deathcap",
-  "Shadowflame",
   "Cryptbloom",
-  "Malignance"
+  "Shadowflame"
  ]
 }

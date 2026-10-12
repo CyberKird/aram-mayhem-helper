@@ -19,21 +19,21 @@
  ],
  "fourth": [
   "Blackfire Torch",
-  "Malignance",
   "Cryptbloom",
-  "Cosmic Drive"
+  "Cosmic Drive",
+  "Horizon Focus"
  ],
  "fifth": [
   "Rod of Ages",
   "Blackfire Torch",
   "Cosmic Drive",
-  "Malignance"
+  "Cryptbloom"
  ],
  "sixth": [
   "Rod of Ages",
-  "Malignance",
+  "Banshee's Veil",
   "Blackfire Torch",
-  "Banshee's Veil"
+  "Malignance"
  ],
  "pool": [
   "Health Potion",
@@ -44,10 +44,11 @@
   "Archangel's Staff",
   "Rabadon's Deathcap",
   "Blackfire Torch",
-  "Malignance",
   "Cryptbloom",
   "Cosmic Drive",
+  "Horizon Focus",
   "Rod of Ages",
-  "Banshee's Veil"
+  "Banshee's Veil",
+  "Malignance"
  ]
 }

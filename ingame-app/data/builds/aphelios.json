@@ -19,20 +19,20 @@
  "fourth": [
   "Bloodthirster",
   "Runaan's Hurricane",
-  "Blade of The Ruined King",
-  "Mortal Reminder"
+  "Mortal Reminder",
+  "Blade of The Ruined King"
  ],
  "fifth": [
   "Hexoptics C44",
   "Bloodthirster",
-  "Mercurial Scimitar",
-  "Runaan's Hurricane"
+  "Runaan's Hurricane",
+  "Mercurial Scimitar"
  ],
  "sixth": [
   "Bloodthirster",
   "Mercurial Scimitar",
   "Hexoptics C44",
-  "Kaenic Rookern"
+  "Blade of The Ruined King"
  ],
  "pool": [
   "Long Sword",
@@ -43,10 +43,9 @@
   "Lord Dominik's Regards",
   "Bloodthirster",
   "Runaan's Hurricane",
-  "Blade of The Ruined King",
   "Mortal Reminder",
+  "Blade of The Ruined King",
   "Hexoptics C44",
-  "Mercurial Scimitar",
-  "Kaenic Rookern"
+  "Mercurial Scimitar"
  ]
 }

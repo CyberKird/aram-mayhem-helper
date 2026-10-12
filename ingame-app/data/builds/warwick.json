@@ -7,44 +7,44 @@
   "Mark"
  ],
  "starting": [
-  "Tunneler",
-  "Glowing Mote"
+  "Giant's Belt",
+  "Ruby Crystal"
  ],
  "core": [
-  "Sundered Sky",
-  "Plated Steelcaps",
+  "Heartsteel",
+  "Mercury's Treads",
   "Blade of The Ruined King",
-  "Death's Dance"
+  "Titanic Hydra"
  ],
  "fourth": [
   "Warmog's Armor",
   "Unending Despair",
-  "Titanic Hydra",
-  "Spirit Visage"
+  "Sundered Sky",
+  "Death's Dance"
  ],
  "fifth": [
   "Unending Despair",
-  "Warmog's Armor",
   "Endless Hunger",
-  "Titanic Hydra"
+  "Warmog's Armor",
+  "Death's Dance"
  ],
  "sixth": [
-  "Unending Despair",
-  "Warmog's Armor",
-  "Titanic Hydra",
-  "Spirit Visage"
- ],
- "pool": [
-  "Tunneler",
-  "Glowing Mote",
-  "Sundered Sky",
-  "Plated Steelcaps",
-  "Blade of The Ruined King",
   "Death's Dance",
   "Warmog's Armor",
   "Unending Despair",
+  "Sundered Sky"
+ ],
+ "pool": [
+  "Giant's Belt",
+  "Ruby Crystal",
+  "Heartsteel",
+  "Mercury's Treads",
+  "Blade of The Ruined King",
   "Titanic Hydra",
-  "Spirit Visage",
+  "Warmog's Armor",
+  "Unending Despair",
+  "Sundered Sky",
+  "Death's Dance",
   "Endless Hunger"
  ]
 }

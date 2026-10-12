@@ -19,7 +19,7 @@
   "Lord Dominik's Regards",
   "Fiendhunter Bolts",
   "Mortal Reminder",
-  "Bloodthirster"
+  "Blade of The Ruined King"
  ],
  "fifth": [
   "Lord Dominik's Regards",
@@ -31,7 +31,7 @@
   "Bloodthirster",
   "Mercurial Scimitar",
   "Lord Dominik's Regards",
-  "Fiendhunter Bolts"
+  "Statikk Shiv"
  ],
  "pool": [
   "B. F. Sword",
@@ -42,7 +42,9 @@
   "Lord Dominik's Regards",
   "Fiendhunter Bolts",
   "Mortal Reminder",
+  "Blade of The Ruined King",
   "Bloodthirster",
-  "Mercurial Scimitar"
+  "Mercurial Scimitar",
+  "Statikk Shiv"
  ]
 }

@@ -13,40 +13,39 @@
  "core": [
   "Heartsteel",
   "Plated Steelcaps",
-  "Unending Despair",
-  "Warmog's Armor"
+  "Warmog's Armor",
+  "Unending Despair"
  ],
  "fourth": [
   "Overlord's Bloodmail",
   "Spirit Visage",
   "Titanic Hydra",
-  "Sundered Sky"
+  "Randuin's Omen"
  ],
  "fifth": [
   "Overlord's Bloodmail",
-  "Thornmail",
   "Spirit Visage",
-  "Titanic Hydra"
+  "Titanic Hydra",
+  "Randuin's Omen"
  ],
  "sixth": [
   "Overlord's Bloodmail",
-  "Titanic Hydra",
   "Death's Dance",
-  "Randuin's Omen"
+  "Titanic Hydra",
+  "Sterak's Gage"
  ],
  "pool": [
   "Giant's Belt",
   "Ruby Crystal",
   "Heartsteel",
   "Plated Steelcaps",
-  "Unending Despair",
   "Warmog's Armor",
+  "Unending Despair",
   "Overlord's Bloodmail",
   "Spirit Visage",
   "Titanic Hydra",
-  "Sundered Sky",
-  "Thornmail",
+  "Randuin's Omen",
   "Death's Dance",
-  "Randuin's Omen"
+  "Sterak's Gage"
  ]
 }

@@ -17,8 +17,8 @@
   "Rabadon's Deathcap"
  ],
  "fourth": [
-  "Zhonya's Hourglass",
   "Archangel's Staff",
+  "Zhonya's Hourglass",
   "Void Staff",
   "Rylai's Crystal Scepter"
  ],
@@ -31,8 +31,8 @@
  "sixth": [
   "Banshee's Veil",
   "Void Staff",
-  "Cryptbloom",
-  "Zhonya's Hourglass"
+  "Stormsurge",
+  "Cryptbloom"
  ],
  "pool": [
   "Refillable Potion",
@@ -41,11 +41,12 @@
   "Sorcerer's Shoes",
   "Shadowflame",
   "Rabadon's Deathcap",
-  "Zhonya's Hourglass",
   "Archangel's Staff",
+  "Zhonya's Hourglass",
   "Void Staff",
   "Rylai's Crystal Scepter",
   "Cryptbloom",
-  "Banshee's Veil"
+  "Banshee's Veil",
+  "Stormsurge"
  ]
 }

@@ -3,17 +3,17 @@
  "source": "https://aramkit.com/en-US/champions/singed",
  "mode": "ARAM Mayhem",
  "summoners": [
-  "Flash",
+  "Ghost",
   "Mark"
  ],
  "starting": [
-  "Ruby Crystal",
+  "Amplifying Tome",
   "Fated Ashes"
  ],
  "core": [
-  "Rod of Ages",
-  "Boots of Swiftness",
   "Liandry's Torment",
+  "Boots of Swiftness",
+  "Rod of Ages",
   "Rylai's Crystal Scepter"
  ],
  "fourth": [
@@ -30,16 +30,16 @@
  ],
  "sixth": [
   "Bloodletter's Curse",
-  "Warmog's Armor",
   "Riftmaker",
+  "Warmog's Armor",
   "Dead Man's Plate"
  ],
  "pool": [
-  "Ruby Crystal",
+  "Amplifying Tome",
   "Fated Ashes",
-  "Rod of Ages",
-  "Boots of Swiftness",
   "Liandry's Torment",
+  "Boots of Swiftness",
+  "Rod of Ages",
   "Rylai's Crystal Scepter",
   "Riftmaker",
   "Winter's Approach",

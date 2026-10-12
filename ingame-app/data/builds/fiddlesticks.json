@@ -7,42 +7,45 @@
   "Mark"
  ],
  "starting": [
+  "Refillable Potion",
   "Lost Chapter"
  ],
  "core": [
   "Malignance",
   "Sorcerer's Shoes",
-  "Blackfire Torch",
-  "Liandry's Torment"
+  "Shadowflame",
+  "Rabadon's Deathcap"
  ],
  "fourth": [
-  "Rabadon's Deathcap",
-  "Shadowflame",
   "Void Staff",
-  "Rylai's Crystal Scepter"
+  "Liandry's Torment",
+  "Rylai's Crystal Scepter",
+  "Zhonya's Hourglass"
  ],
  "fifth": [
   "Stormsurge",
-  "Shadowflame",
-  "Rabadon's Deathcap",
-  "Void Staff"
+  "Void Staff",
+  "Rylai's Crystal Scepter",
+  "Zhonya's Hourglass"
  ],
  "sixth": [
   "Stormsurge",
   "Void Staff",
-  "Shadowflame",
-  "Rylai's Crystal Scepter"
+  "Rylai's Crystal Scepter",
+  "Blackfire Torch"
  ],
  "pool": [
+  "Refillable Potion",
   "Lost Chapter",
   "Malignance",
   "Sorcerer's Shoes",
-  "Blackfire Torch",
-  "Liandry's Torment",
-  "Rabadon's Deathcap",
   "Shadowflame",
+  "Rabadon's Deathcap",
   "Void Staff",
+  "Liandry's Torment",
   "Rylai's Crystal Scepter",
-  "Stormsurge"
+  "Zhonya's Hourglass",
+  "Stormsurge",
+  "Blackfire Torch"
  ]
 }

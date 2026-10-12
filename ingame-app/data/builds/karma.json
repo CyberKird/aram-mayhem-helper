@@ -24,15 +24,15 @@
  ],
  "fifth": [
   "Rabadon's Deathcap",
-  "Cryptbloom",
+  "Shadowflame",
   "Stormsurge",
-  "Shadowflame"
+  "Cryptbloom"
  ],
  "sixth": [
-  "Cryptbloom",
   "Stormsurge",
+  "Cryptbloom",
   "Shadowflame",
-  "Rabadon's Deathcap"
+  "Malignance"
  ],
  "pool": [
   "Tear of the Goddess",
@@ -45,6 +45,7 @@
   "Cryptbloom",
   "Shadowflame",
   "Void Staff",
-  "Stormsurge"
+  "Stormsurge",
+  "Malignance"
  ]
 }

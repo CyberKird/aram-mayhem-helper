@@ -7,6 +7,7 @@
   "Ghost"
  ],
  "starting": [
+  "Refillable Potion",
   "Lost Chapter"
  ],
  "core": [
@@ -25,15 +26,16 @@
   "Shadowflame",
   "Void Staff",
   "Rabadon's Deathcap",
-  "Zhonya's Hourglass"
+  "Stormsurge"
  ],
  "sixth": [
-  "Stormsurge",
   "Shadowflame",
+  "Stormsurge",
   "Void Staff",
   "Rabadon's Deathcap"
  ],
  "pool": [
+  "Refillable Potion",
   "Lost Chapter",
   "Malignance",
   "Sorcerer's Shoes",

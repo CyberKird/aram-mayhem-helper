@@ -12,14 +12,14 @@
  "core": [
   "Stridebreaker",
   "Berserker's Greaves",
-  "Phantom Dancer",
-  "Infinity Edge"
+  "Infinity Edge",
+  "Phantom Dancer"
  ],
  "fourth": [
   "Lord Dominik's Regards",
   "Unending Despair",
   "Mortal Reminder",
-  "Death's Dance"
+  "The Collector"
  ],
  "fifth": [
   "Endless Hunger",
@@ -29,21 +29,21 @@
  ],
  "sixth": [
   "Endless Hunger",
-  "The Collector",
   "Death's Dance",
+  "The Collector",
   "Lord Dominik's Regards"
  ],
  "pool": [
   "Tiamat",
   "Stridebreaker",
   "Berserker's Greaves",
-  "Phantom Dancer",
   "Infinity Edge",
+  "Phantom Dancer",
   "Lord Dominik's Regards",
   "Unending Despair",
   "Mortal Reminder",
-  "Death's Dance",
+  "The Collector",
   "Endless Hunger",
-  "The Collector"
+  "Death's Dance"
  ]
 }

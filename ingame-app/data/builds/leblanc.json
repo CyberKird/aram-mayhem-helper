@@ -7,7 +7,6 @@
   "Ignite"
  ],
  "starting": [
-  "Refillable Potion",
   "Lost Chapter"
  ],
  "core": [
@@ -24,17 +23,16 @@
  "fifth": [
   "Stormsurge",
   "Banshee's Veil",
-  "Void Staff",
-  "Cryptbloom"
+  "Cryptbloom",
+  "Void Staff"
  ],
  "sixth": [
   "Stormsurge",
-  "Banshee's Veil",
   "Void Staff",
-  "Cryptbloom"
+  "Cryptbloom",
+  "Banshee's Veil"
  ],
  "pool": [
-  "Refillable Potion",
   "Lost Chapter",
   "Luden's Echo",
   "Sorcerer's Shoes",

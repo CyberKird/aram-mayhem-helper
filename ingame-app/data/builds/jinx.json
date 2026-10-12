@@ -8,8 +8,7 @@
  ],
  "starting": [
   "Long Sword",
-  "Pickaxe",
-  "Refillable Potion"
+  "Pickaxe"
  ],
  "core": [
   "The Collector",
@@ -38,7 +37,6 @@
  "pool": [
   "Long Sword",
   "Pickaxe",
-  "Refillable Potion",
   "The Collector",
   "Berserker's Greaves",
   "Runaan's Hurricane",
