@@ -17,20 +17,20 @@
  ],
  "fourth": [
   "Void Staff",
-  "Cryptbloom",
   "Stormsurge",
+  "Cryptbloom",
   "Zhonya's Hourglass"
  ],
  "fifth": [
   "Stormsurge",
-  "Cryptbloom",
   "Void Staff",
+  "Cryptbloom",
   "Zhonya's Hourglass"
  ],
  "sixth": [
-  "Banshee's Veil",
   "Stormsurge",
-  "Cryptbloom",
+  "Banshee's Veil",
+  "Zhonya's Hourglass",
   "Void Staff"
  ],
  "pool": [
@@ -40,8 +40,8 @@
   "Shadowflame",
   "Rabadon's Deathcap",
   "Void Staff",
-  "Cryptbloom",
   "Stormsurge",
+  "Cryptbloom",
   "Zhonya's Hourglass",
   "Banshee's Veil"
  ]

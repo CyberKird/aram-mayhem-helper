@@ -19,20 +19,20 @@
  "fourth": [
   "Warmog's Armor",
   "Unending Despair",
-  "Sundered Sky",
-  "Death's Dance"
+  "Death's Dance",
+  "Sundered Sky"
  ],
  "fifth": [
-  "Unending Despair",
-  "Endless Hunger",
   "Warmog's Armor",
-  "Death's Dance"
+  "Endless Hunger",
+  "Unending Despair",
+  "Spirit Visage"
  ],
  "sixth": [
-  "Death's Dance",
   "Warmog's Armor",
-  "Unending Despair",
-  "Sundered Sky"
+  "Death's Dance",
+  "Sundered Sky",
+  "Unending Despair"
  ],
  "pool": [
   "Giant's Belt",
@@ -43,8 +43,9 @@
   "Titanic Hydra",
   "Warmog's Armor",
   "Unending Despair",
-  "Sundered Sky",
   "Death's Dance",
-  "Endless Hunger"
+  "Sundered Sky",
+  "Endless Hunger",
+  "Spirit Visage"
  ]
 }

@@ -12,38 +12,37 @@
  "core": [
   "Luden's Echo",
   "Sorcerer's Shoes",
-  "Horizon Focus",
-  "Rabadon's Deathcap"
+  "Rabadon's Deathcap",
+  "Shadowflame"
  ],
  "fourth": [
   "Terminus",
   "Dusk and Dawn",
-  "Shadowflame",
+  "Horizon Focus",
   "Void Staff"
  ],
  "fifth": [
   "Stormsurge",
   "Terminus",
-  "Void Staff",
-  "Shadowflame"
+  "Horizon Focus",
+  "Void Staff"
  ],
  "sixth": [
   "Stormsurge",
+  "Horizon Focus",
   "Void Staff",
-  "Statikk Shiv",
-  "Shadowflame"
+  "Terminus"
  ],
  "pool": [
   "Lost Chapter",
   "Luden's Echo",
   "Sorcerer's Shoes",
-  "Horizon Focus",
   "Rabadon's Deathcap",
+  "Shadowflame",
   "Terminus",
   "Dusk and Dawn",
-  "Shadowflame",
+  "Horizon Focus",
   "Void Staff",
-  "Stormsurge",
-  "Statikk Shiv"
+  "Stormsurge"
  ]
 }

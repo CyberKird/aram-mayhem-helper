@@ -7,13 +7,12 @@
   "Ghost"
  ],
  "starting": [
-  "Amplifying Tome",
-  "Fated Ashes"
+  "Haunting Guise"
  ],
  "core": [
-  "Blackfire Torch",
-  "Sorcerer's Shoes",
   "Liandry's Torment",
+  "Sorcerer's Shoes",
+  "Blackfire Torch",
   "Rabadon's Deathcap"
  ],
  "fourth": [
@@ -31,21 +30,20 @@
  "sixth": [
   "Stormsurge",
   "Shadowflame",
-  "Cosmic Drive",
-  "Cryptbloom"
+  "Cryptbloom",
+  "Cosmic Drive"
  ],
  "pool": [
-  "Amplifying Tome",
-  "Fated Ashes",
-  "Blackfire Torch",
-  "Sorcerer's Shoes",
+  "Haunting Guise",
   "Liandry's Torment",
+  "Sorcerer's Shoes",
+  "Blackfire Torch",
   "Rabadon's Deathcap",
   "Stormsurge",
   "Archangel's Staff",
   "Shadowflame",
   "Void Staff",
-  "Cosmic Drive",
-  "Cryptbloom"
+  "Cryptbloom",
+  "Cosmic Drive"
  ]
 }

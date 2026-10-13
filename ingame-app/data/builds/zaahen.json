@@ -19,14 +19,14 @@
  "fourth": [
   "Endless Hunger",
   "Death's Dance",
-  "Sundered Sky",
-  "Spear of Shojin"
+  "Spear of Shojin",
+  "Sundered Sky"
  ],
  "fifth": [
-  "Death's Dance",
   "Endless Hunger",
+  "Death's Dance",
   "Spear of Shojin",
-  "Sterak's Gage"
+  "Trinity Force"
  ],
  "sixth": [
   "Endless Hunger",
@@ -43,8 +43,9 @@
   "Overlord's Bloodmail",
   "Endless Hunger",
   "Death's Dance",
-  "Sundered Sky",
   "Spear of Shojin",
+  "Sundered Sky",
+  "Trinity Force",
   "Sterak's Gage"
  ]
 }

@@ -26,14 +26,14 @@
  "fifth": [
   "Terminus",
   "Lord Dominik's Regards",
-  "Serylda's Grudge",
-  "Infinity Edge"
+  "Infinity Edge",
+  "Serylda's Grudge"
  ],
  "sixth": [
   "Terminus",
   "Lord Dominik's Regards",
-  "Serylda's Grudge",
-  "Infinity Edge"
+  "Manamune",
+  "Serylda's Grudge"
  ],
  "pool": [
   "Long Sword",
@@ -46,6 +46,7 @@
   "Terminus",
   "Lord Dominik's Regards",
   "Infinity Edge",
-  "Serylda's Grudge"
+  "Serylda's Grudge",
+  "Manamune"
  ]
 }

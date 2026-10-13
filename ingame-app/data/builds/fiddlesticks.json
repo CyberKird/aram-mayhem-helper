@@ -32,7 +32,7 @@
   "Stormsurge",
   "Void Staff",
   "Rylai's Crystal Scepter",
-  "Blackfire Torch"
+  "Zhonya's Hourglass"
  ],
  "pool": [
   "Refillable Potion",
@@ -45,7 +45,6 @@
   "Liandry's Torment",
   "Rylai's Crystal Scepter",
   "Zhonya's Hourglass",
-  "Stormsurge",
-  "Blackfire Torch"
+  "Stormsurge"
  ]
 }

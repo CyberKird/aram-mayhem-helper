@@ -17,9 +17,9 @@
  ],
  "fourth": [
   "Runaan's Hurricane",
-  "Terminus",
   "Guinsoo's Rageblade",
-  "Rabadon's Deathcap"
+  "Terminus",
+  "Shadowflame"
  ],
  "fifth": [
   "Terminus",
@@ -29,9 +29,9 @@
  ],
  "sixth": [
   "Terminus",
-  "Shadowflame",
-  "Kraken Slayer",
-  "Wit's End"
+  "Wit's End",
+  "Guinsoo's Rageblade",
+  "Shadowflame"
  ],
  "pool": [
   "Lost Chapter",
@@ -40,11 +40,11 @@
   "Archangel's Staff",
   "Liandry's Torment",
   "Runaan's Hurricane",
-  "Terminus",
   "Guinsoo's Rageblade",
-  "Rabadon's Deathcap",
-  "Kraken Slayer",
+  "Terminus",
   "Shadowflame",
+  "Kraken Slayer",
+  "Rabadon's Deathcap",
   "Wit's End"
  ]
 }

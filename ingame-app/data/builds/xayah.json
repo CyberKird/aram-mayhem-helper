@@ -25,12 +25,12 @@
   "Lord Dominik's Regards",
   "Bloodthirster",
   "Kraken Slayer",
-  "Blade of The Ruined King"
+  "Runaan's Hurricane"
  ],
  "sixth": [
   "Bloodthirster",
   "Blade of The Ruined King",
-  "Lord Dominik's Regards",
+  "Phantom Dancer",
   "Kraken Slayer"
  ],
  "pool": [
@@ -43,6 +43,7 @@
   "Bloodthirster",
   "Runaan's Hurricane",
   "Blade of The Ruined King",
-  "Kraken Slayer"
+  "Kraken Slayer",
+  "Phantom Dancer"
  ]
 }

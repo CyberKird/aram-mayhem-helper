@@ -11,16 +11,16 @@
   "Bandleglass Mirror"
  ],
  "core": [
-  "Moonstone Renewer",
+  "Whispering Circlet",
   "Ionian Boots of Lucidity",
-  "Ardent Censer",
-  "Whispering Circlet"
+  "Moonstone Renewer",
+  "Ardent Censer"
  ],
  "fourth": [
   "Staff of Flowing Water",
   "Dawncore",
   "Knight's Vow",
-  "Mikael's Blessing"
+  "Shurelya's Battlesong"
  ],
  "fifth": [
   "Staff of Flowing Water",
@@ -37,14 +37,13 @@
  "pool": [
   "Tear of the Goddess",
   "Bandleglass Mirror",
-  "Moonstone Renewer",
-  "Ionian Boots of Lucidity",
-  "Ardent Censer",
   "Whispering Circlet",
+  "Ionian Boots of Lucidity",
+  "Moonstone Renewer",
+  "Ardent Censer",
   "Staff of Flowing Water",
   "Dawncore",
   "Knight's Vow",
-  "Mikael's Blessing",
   "Shurelya's Battlesong"
  ]
 }

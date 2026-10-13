@@ -11,9 +11,9 @@
   "Fated Ashes"
  ],
  "core": [
-  "Blackfire Torch",
-  "Sorcerer's Shoes",
   "Liandry's Torment",
+  "Sorcerer's Shoes",
+  "Blackfire Torch",
   "Shadowflame"
  ],
  "fourth": [
@@ -25,8 +25,8 @@
  "fifth": [
   "Stormsurge",
   "Void Staff",
-  "Rabadon's Deathcap",
-  "Malignance"
+  "Malignance",
+  "Rabadon's Deathcap"
  ],
  "sixth": [
   "Stormsurge",
@@ -37,9 +37,9 @@
  "pool": [
   "Amplifying Tome",
   "Fated Ashes",
-  "Blackfire Torch",
-  "Sorcerer's Shoes",
   "Liandry's Torment",
+  "Sorcerer's Shoes",
+  "Blackfire Torch",
   "Shadowflame",
   "Rabadon's Deathcap",
   "Void Staff",

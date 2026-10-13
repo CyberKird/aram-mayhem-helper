@@ -20,19 +20,19 @@
   "Void Staff",
   "Stormsurge",
   "Warmog's Armor",
-  "Unending Despair"
+  "Winter's Approach"
  ],
  "fifth": [
   "Void Staff",
   "Stormsurge",
-  "Cryptbloom",
-  "Warmog's Armor"
+  "Warmog's Armor",
+  "Unending Despair"
  ],
  "sixth": [
   "Void Staff",
   "Stormsurge",
-  "Cryptbloom",
-  "Warmog's Armor"
+  "Warmog's Armor",
+  "Spirit Visage"
  ],
  "pool": [
   "Amplifying Tome",
@@ -44,7 +44,8 @@
   "Void Staff",
   "Stormsurge",
   "Warmog's Armor",
+  "Winter's Approach",
   "Unending Despair",
-  "Cryptbloom"
+  "Spirit Visage"
  ]
 }

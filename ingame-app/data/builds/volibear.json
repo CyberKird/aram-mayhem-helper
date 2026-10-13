@@ -17,21 +17,21 @@
   "Riftmaker"
  ],
  "fourth": [
-  "Overlord's Bloodmail",
   "Navori Flickerblade",
   "Warmog's Armor",
-  "Unending Despair"
- ],
- "fifth": [
-  "Overlord's Bloodmail",
-  "Navori Flickerblade",
-  "Warmog's Armor",
+  "Unending Despair",
   "Spirit Visage"
  ],
- "sixth": [
-  "Overlord's Bloodmail",
-  "Spirit Visage",
+ "fifth": [
   "Navori Flickerblade",
+  "Warmog's Armor",
+  "Spirit Visage",
+  "Unending Despair"
+ ],
+ "sixth": [
+  "Navori Flickerblade",
+  "Spirit Visage",
+  "Warmog's Armor",
   "Jak'Sho, The Protean"
  ],
  "pool": [
@@ -41,7 +41,6 @@
   "Mercury's Treads",
   "Dusk and Dawn",
   "Riftmaker",
-  "Overlord's Bloodmail",
   "Navori Flickerblade",
   "Warmog's Armor",
   "Unending Despair",

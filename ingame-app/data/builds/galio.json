@@ -7,42 +7,43 @@
   "Mark"
  ],
  "starting": [
-  "Giant's Belt",
-  "Ruby Crystal"
+  "Amplifying Tome",
+  "Guardian's Orb"
  ],
  "core": [
-  "Heartsteel",
+  "Imperial Mandate",
   "Mercury's Treads",
-  "Unending Despair",
-  "Warmog's Armor"
+  "Shadowflame",
+  "Rabadon's Deathcap"
  ],
  "fourth": [
   "Riftmaker",
-  "Rabadon's Deathcap",
-  "Spirit Visage",
-  "Jak'Sho, The Protean"
+  "Warmog's Armor",
+  "Unending Despair",
+  "Spirit Visage"
  ],
  "fifth": [
   "Riftmaker",
+  "Warmog's Armor",
   "Spirit Visage",
-  "Rabadon's Deathcap",
   "Jak'Sho, The Protean"
  ],
  "sixth": [
   "Riftmaker",
   "Spirit Visage",
-  "Rabadon's Deathcap",
-  "Jak'Sho, The Protean"
+  "Jak'Sho, The Protean",
+  "Unending Despair"
  ],
  "pool": [
-  "Giant's Belt",
-  "Ruby Crystal",
-  "Heartsteel",
+  "Amplifying Tome",
+  "Guardian's Orb",
+  "Imperial Mandate",
   "Mercury's Treads",
-  "Unending Despair",
-  "Warmog's Armor",
-  "Riftmaker",
+  "Shadowflame",
   "Rabadon's Deathcap",
+  "Riftmaker",
+  "Warmog's Armor",
+  "Unending Despair",
   "Spirit Visage",
   "Jak'Sho, The Protean"
  ]

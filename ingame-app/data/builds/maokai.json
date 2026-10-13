@@ -18,20 +18,20 @@
  "fourth": [
   "Warmog's Armor",
   "Unending Despair",
-  "Malignance",
-  "Winter's Approach"
+  "Winter's Approach",
+  "Spirit Visage"
  ],
  "fifth": [
   "Warmog's Armor",
   "Riftmaker",
-  "Shadowflame",
-  "Spirit Visage"
+  "Spirit Visage",
+  "Shadowflame"
  ],
  "sixth": [
   "Riftmaker",
   "Shadowflame",
-  "Warmog's Armor",
-  "Jak'Sho, The Protean"
+  "Jak'Sho, The Protean",
+  "Warmog's Armor"
  ],
  "pool": [
   "Lost Chapter",
@@ -41,11 +41,10 @@
   "Rabadon's Deathcap",
   "Warmog's Armor",
   "Unending Despair",
-  "Malignance",
   "Winter's Approach",
+  "Spirit Visage",
   "Riftmaker",
   "Shadowflame",
-  "Spirit Visage",
   "Jak'Sho, The Protean"
  ]
 }

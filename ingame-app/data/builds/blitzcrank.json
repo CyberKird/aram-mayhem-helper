@@ -19,18 +19,18 @@
   "Winter's Approach",
   "Warmog's Armor",
   "Frozen Heart",
-  "Stormsurge"
+  "Spirit Visage"
  ],
  "fifth": [
   "Warmog's Armor",
   "Winter's Approach",
-  "Unending Despair",
-  "Frozen Heart"
+  "Frozen Heart",
+  "Unending Despair"
  ],
  "sixth": [
   "Warmog's Armor",
   "Stormsurge",
-  "Kaenic Rookern",
+  "Unending Despair",
   "Spirit Visage"
  ],
  "pool": [
@@ -42,9 +42,8 @@
   "Winter's Approach",
   "Warmog's Armor",
   "Frozen Heart",
-  "Stormsurge",
+  "Spirit Visage",
   "Unending Despair",
-  "Kaenic Rookern",
-  "Spirit Visage"
+  "Stormsurge"
  ]
 }

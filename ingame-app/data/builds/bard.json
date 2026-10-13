@@ -7,7 +7,6 @@
   "Ghost"
  ],
  "starting": [
-  "Refillable Potion",
   "Lost Chapter"
  ],
  "core": [
@@ -25,17 +24,16 @@
  "fifth": [
   "Shadowflame",
   "Rapid Firecannon",
-  "Terminus",
-  "Nashor's Tooth"
+  "Nashor's Tooth",
+  "Statikk Shiv"
  ],
  "sixth": [
-  "Shadowflame",
   "Nashor's Tooth",
+  "Shadowflame",
   "Terminus",
   "Statikk Shiv"
  ],
  "pool": [
-  "Refillable Potion",
   "Lost Chapter",
   "Luden's Echo",
   "Sorcerer's Shoes",

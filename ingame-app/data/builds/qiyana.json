@@ -8,45 +8,44 @@
  ],
  "starting": [
   "Tear of the Goddess",
-  "Guardian's Blade"
+  "Serrated Dirk"
  ],
  "core": [
   "Hubris",
   "Mercury's Treads",
-  "Death's Dance",
-  "Manamune"
+  "Manamune",
+  "Endless Hunger"
  ],
  "fourth": [
-  "Endless Hunger",
+  "Death's Dance",
   "Lord Dominik's Regards",
   "Voltaic Cyclosword",
   "Profane Hydra"
  ],
  "fifth": [
-  "Endless Hunger",
+  "Death's Dance",
   "Lord Dominik's Regards",
-  "Serylda's Grudge",
-  "Voltaic Cyclosword"
+  "Voltaic Cyclosword",
+  "Serylda's Grudge"
  ],
  "sixth": [
-  "Endless Hunger",
+  "Death's Dance",
   "Youmuu's Ghostblade",
   "Lord Dominik's Regards",
-  "Edge of Night"
+  "Voltaic Cyclosword"
  ],
  "pool": [
   "Tear of the Goddess",
-  "Guardian's Blade",
+  "Serrated Dirk",
   "Hubris",
   "Mercury's Treads",
-  "Death's Dance",
   "Manamune",
   "Endless Hunger",
+  "Death's Dance",
   "Lord Dominik's Regards",
   "Voltaic Cyclosword",
   "Profane Hydra",
   "Serylda's Grudge",
-  "Youmuu's Ghostblade",
-  "Edge of Night"
+  "Youmuu's Ghostblade"
  ]
 }

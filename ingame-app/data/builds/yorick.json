@@ -18,20 +18,20 @@
  ],
  "fourth": [
   "Overlord's Bloodmail",
-  "Iceborn Gauntlet",
   "Spirit Visage",
+  "Iceborn Gauntlet",
   "Sundered Sky"
  ],
  "fifth": [
   "Iceborn Gauntlet",
   "Spirit Visage",
   "Overlord's Bloodmail",
-  "Sundered Sky"
+  "Spear of Shojin"
  ],
  "sixth": [
+  "Spirit Visage",
   "Overlord's Bloodmail",
   "Kaenic Rookern",
-  "Spirit Visage",
   "Sundered Sky"
  ],
  "pool": [
@@ -42,9 +42,10 @@
   "Unending Despair",
   "Warmog's Armor",
   "Overlord's Bloodmail",
-  "Iceborn Gauntlet",
   "Spirit Visage",
+  "Iceborn Gauntlet",
   "Sundered Sky",
+  "Spear of Shojin",
   "Kaenic Rookern"
  ]
 }

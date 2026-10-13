@@ -12,39 +12,41 @@
  ],
  "core": [
   "Hubris",
-  "Mercury's Treads",
-  "Voltaic Cyclosword",
+  "Plated Steelcaps",
+  "Death's Dance",
   "Serylda's Grudge"
  ],
  "fourth": [
   "Overlord's Bloodmail",
   "Endless Hunger",
-  "Death's Dance",
-  "Spear of Shojin"
+  "Spear of Shojin",
+  "Sundered Sky"
  ],
  "fifth": [
   "Overlord's Bloodmail",
   "Endless Hunger",
-  "Death's Dance",
-  "Spear of Shojin"
+  "Spear of Shojin",
+  "Maw of Malmortius"
  ],
  "sixth": [
   "Overlord's Bloodmail",
-  "Death's Dance",
+  "Sterak's Gage",
   "Endless Hunger",
-  "Sterak's Gage"
+  "Spirit Visage"
  ],
  "pool": [
   "Long Sword",
   "Caulfield's Warhammer",
   "Hubris",
-  "Mercury's Treads",
-  "Voltaic Cyclosword",
+  "Plated Steelcaps",
+  "Death's Dance",
   "Serylda's Grudge",
   "Overlord's Bloodmail",
   "Endless Hunger",
-  "Death's Dance",
   "Spear of Shojin",
-  "Sterak's Gage"
+  "Sundered Sky",
+  "Maw of Malmortius",
+  "Sterak's Gage",
+  "Spirit Visage"
  ]
 }
