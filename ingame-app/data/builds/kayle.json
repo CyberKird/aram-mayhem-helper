@@ -7,8 +7,9 @@
   "Ghost"
  ],
  "starting": [
-  "Blasting Wand",
-  "Amplifying Tome"
+  "Recurve Bow",
+  "Amplifying Tome",
+  "Glowing Mote"
  ],
  "core": [
   "Nashor's Tooth",
@@ -35,8 +36,9 @@
   "Shadowflame"
  ],
  "pool": [
-  "Blasting Wand",
+  "Recurve Bow",
   "Amplifying Tome",
+  "Glowing Mote",
   "Nashor's Tooth",
   "Berserker's Greaves",
   "Dusk and Dawn",

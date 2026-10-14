@@ -4,7 +4,7 @@
  "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
-  "Mark"
+  "Ghost"
  ],
  "starting": [
   "Lost Chapter"
@@ -16,8 +16,8 @@
   "Shadowflame"
  ],
  "fourth": [
-  "Stormsurge",
   "Void Staff",
+  "Stormsurge",
   "Zhonya's Hourglass",
   "Liandry's Torment"
  ],
@@ -29,9 +29,9 @@
  ],
  "sixth": [
   "Cryptbloom",
-  "Void Staff",
   "Banshee's Veil",
-  "Stormsurge"
+  "Stormsurge",
+  "Void Staff"
  ],
  "pool": [
   "Lost Chapter",
@@ -39,8 +39,8 @@
   "Sorcerer's Shoes",
   "Rabadon's Deathcap",
   "Shadowflame",
-  "Stormsurge",
   "Void Staff",
+  "Stormsurge",
   "Zhonya's Hourglass",
   "Liandry's Torment",
   "Cryptbloom",

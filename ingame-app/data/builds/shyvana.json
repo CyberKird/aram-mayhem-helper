@@ -17,16 +17,16 @@
   "Riftmaker"
  ],
  "fourth": [
-  "Shadowflame",
   "Warmog's Armor",
+  "Shadowflame",
   "Rabadon's Deathcap",
   "Unending Despair"
  ],
  "fifth": [
-  "Warmog's Armor",
   "Rabadon's Deathcap",
-  "Liandry's Torment",
-  "Shadowflame"
+  "Warmog's Armor",
+  "Shadowflame",
+  "Unending Despair"
  ],
  "sixth": [
   "Warmog's Armor",
@@ -41,8 +41,8 @@
   "Mercury's Treads",
   "Dusk and Dawn",
   "Riftmaker",
-  "Shadowflame",
   "Warmog's Armor",
+  "Shadowflame",
   "Rabadon's Deathcap",
   "Unending Despair",
   "Liandry's Torment",

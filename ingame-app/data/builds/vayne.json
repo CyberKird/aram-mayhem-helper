@@ -8,13 +8,12 @@
  ],
  "starting": [
   "Dagger",
-  "Health Potion",
   "Berserker's Greaves"
  ],
  "core": [
-  "Blade of The Ruined King",
-  "Berserker's Greaves",
   "Guinsoo's Rageblade",
+  "Berserker's Greaves",
+  "Blade of The Ruined King",
   "Terminus"
  ],
  "fourth": [
@@ -25,29 +24,28 @@
  ],
  "fifth": [
   "Lord Dominik's Regards",
-  "Bloodthirster",
   "Phantom Dancer",
+  "Bloodthirster",
   "Fiendhunter Bolts"
  ],
  "sixth": [
   "Lord Dominik's Regards",
-  "Kaenic Rookern",
   "Bloodthirster",
-  "Phantom Dancer"
+  "Phantom Dancer",
+  "Kaenic Rookern"
  ],
  "pool": [
   "Dagger",
-  "Health Potion",
   "Berserker's Greaves",
-  "Blade of The Ruined King",
   "Guinsoo's Rageblade",
+  "Blade of The Ruined King",
   "Terminus",
   "Lord Dominik's Regards",
   "Infinity Edge",
   "Fiendhunter Bolts",
   "Kraken Slayer",
-  "Bloodthirster",
   "Phantom Dancer",
+  "Bloodthirster",
   "Kaenic Rookern"
  ]
 }

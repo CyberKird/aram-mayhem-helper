@@ -7,14 +7,13 @@
   "Mark"
  ],
  "starting": [
-  "Long Sword",
-  "Guardian's Blade"
+  "Zeal"
  ],
  "core": [
-  "Blade of The Ruined King",
-  "Berserker's Greaves",
   "Phantom Dancer",
-  "Infinity Edge"
+  "Berserker's Greaves",
+  "Infinity Edge",
+  "Blade of The Ruined King"
  ],
  "fourth": [
   "Lord Dominik's Regards",
@@ -35,12 +34,11 @@
   "Experimental Hexplate"
  ],
  "pool": [
-  "Long Sword",
-  "Guardian's Blade",
-  "Blade of The Ruined King",
-  "Berserker's Greaves",
+  "Zeal",
   "Phantom Dancer",
+  "Berserker's Greaves",
   "Infinity Edge",
+  "Blade of The Ruined King",
   "Lord Dominik's Regards",
   "Fiendhunter Bolts",
   "The Collector",

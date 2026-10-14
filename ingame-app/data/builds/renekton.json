@@ -12,39 +12,39 @@
  ],
  "core": [
   "Hubris",
-  "Mercury's Treads",
+  "Plated Steelcaps",
   "Death's Dance",
   "Endless Hunger"
  ],
  "fourth": [
   "Sterak's Gage",
-  "Black Cleaver",
+  "Spear of Shojin",
   "Warmog's Armor",
-  "Spear of Shojin"
+  "Black Cleaver"
  ],
  "fifth": [
-  "Sterak's Gage",
   "Spear of Shojin",
+  "Sterak's Gage",
   "Warmog's Armor",
   "Spirit Visage"
  ],
  "sixth": [
   "Sterak's Gage",
   "Spirit Visage",
-  "Spear of Shojin",
-  "Warmog's Armor"
+  "Warmog's Armor",
+  "Spear of Shojin"
  ],
  "pool": [
   "Long Sword",
   "Guardian's Blade",
   "Hubris",
-  "Mercury's Treads",
+  "Plated Steelcaps",
   "Death's Dance",
   "Endless Hunger",
   "Sterak's Gage",
-  "Black Cleaver",
-  "Warmog's Armor",
   "Spear of Shojin",
+  "Warmog's Armor",
+  "Black Cleaver",
   "Spirit Visage"
  ]
 }

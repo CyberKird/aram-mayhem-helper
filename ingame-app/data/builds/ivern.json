@@ -13,14 +13,14 @@
  "core": [
   "Moonstone Renewer",
   "Ionian Boots of Lucidity",
-  "Whispering Circlet",
-  "Ardent Censer"
+  "Ardent Censer",
+  "Whispering Circlet"
  ],
  "fourth": [
   "Staff of Flowing Water",
   "Dawncore",
   "Redemption",
-  "Sword of Blossoming Dawn"
+  "Locket of the Iron Solari"
  ],
  "fifth": [
   "Staff of Flowing Water",
@@ -39,12 +39,11 @@
   "Bandleglass Mirror",
   "Moonstone Renewer",
   "Ionian Boots of Lucidity",
-  "Whispering Circlet",
   "Ardent Censer",
+  "Whispering Circlet",
   "Staff of Flowing Water",
   "Dawncore",
   "Redemption",
-  "Sword of Blossoming Dawn",
   "Locket of the Iron Solari"
  ]
 }

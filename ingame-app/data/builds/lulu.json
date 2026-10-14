@@ -20,18 +20,18 @@
   "Staff of Flowing Water",
   "Dawncore",
   "Locket of the Iron Solari",
-  "Shurelya's Battlesong"
+  "Redemption"
  ],
  "fifth": [
-  "Dawncore",
   "Staff of Flowing Water",
+  "Dawncore",
   "Mikael's Blessing",
-  "Shurelya's Battlesong"
+  "Locket of the Iron Solari"
  ],
  "sixth": [
   "Dawncore",
-  "Knight's Vow",
   "Staff of Flowing Water",
+  "Knight's Vow",
   "Redemption"
  ],
  "pool": [
@@ -44,9 +44,8 @@
   "Staff of Flowing Water",
   "Dawncore",
   "Locket of the Iron Solari",
-  "Shurelya's Battlesong",
+  "Redemption",
   "Mikael's Blessing",
-  "Knight's Vow",
-  "Redemption"
+  "Knight's Vow"
  ]
 }

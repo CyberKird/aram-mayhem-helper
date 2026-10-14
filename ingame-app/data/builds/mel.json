@@ -7,7 +7,8 @@
   "Ghost"
  ],
  "starting": [
-  "Haunting Guise"
+  "Amplifying Tome",
+  "Fated Ashes"
  ],
  "core": [
   "Liandry's Torment",
@@ -30,11 +31,12 @@
  "sixth": [
   "Stormsurge",
   "Shadowflame",
-  "Cryptbloom",
-  "Cosmic Drive"
+  "Cosmic Drive",
+  "Cryptbloom"
  ],
  "pool": [
-  "Haunting Guise",
+  "Amplifying Tome",
+  "Fated Ashes",
   "Liandry's Torment",
   "Sorcerer's Shoes",
   "Blackfire Torch",
@@ -43,7 +45,7 @@
   "Archangel's Staff",
   "Shadowflame",
   "Void Staff",
-  "Cryptbloom",
-  "Cosmic Drive"
+  "Cosmic Drive",
+  "Cryptbloom"
  ]
 }

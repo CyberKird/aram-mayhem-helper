@@ -12,9 +12,9 @@
  ],
  "core": [
   "Sundered Sky",
-  "Plated Steelcaps",
-  "Eclipse",
-  "Death's Dance"
+  "Mercury's Treads",
+  "Death's Dance",
+  "Eclipse"
  ],
  "fourth": [
   "Endless Hunger",
@@ -25,28 +25,28 @@
  "fifth": [
   "Endless Hunger",
   "Lord Dominik's Regards",
-  "Maw of Malmortius",
-  "Sterak's Gage"
+  "Sterak's Gage",
+  "Maw of Malmortius"
  ],
  "sixth": [
   "Endless Hunger",
-  "Lord Dominik's Regards",
   "Axiom Arc",
+  "Lord Dominik's Regards",
   "Infinity Edge"
  ],
  "pool": [
   "Tunneler",
   "Glowing Mote",
   "Sundered Sky",
-  "Plated Steelcaps",
-  "Eclipse",
+  "Mercury's Treads",
   "Death's Dance",
+  "Eclipse",
   "Endless Hunger",
   "Lord Dominik's Regards",
   "Black Cleaver",
   "Infinity Edge",
-  "Maw of Malmortius",
   "Sterak's Gage",
+  "Maw of Malmortius",
   "Axiom Arc"
  ]
 }

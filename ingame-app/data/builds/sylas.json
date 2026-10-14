@@ -7,13 +7,13 @@
   "Mark"
  ],
  "starting": [
-  "Blasting Wand",
-  "Amplifying Tome"
+  "Amplifying Tome",
+  "Guardian's Orb"
  ],
  "core": [
-  "Lich Bane",
-  "Sorcerer's Shoes",
   "Shadowflame",
+  "Sorcerer's Shoes",
+  "Lich Bane",
   "Rabadon's Deathcap"
  ],
  "fourth": [
@@ -30,16 +30,16 @@
  ],
  "sixth": [
   "Stormsurge",
-  "Riftmaker",
+  "Void Staff",
   "Zhonya's Hourglass",
-  "Void Staff"
+  "Riftmaker"
  ],
  "pool": [
-  "Blasting Wand",
   "Amplifying Tome",
-  "Lich Bane",
-  "Sorcerer's Shoes",
+  "Guardian's Orb",
   "Shadowflame",
+  "Sorcerer's Shoes",
+  "Lich Bane",
   "Rabadon's Deathcap",
   "Void Staff",
   "Spirit Visage",

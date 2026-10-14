@@ -7,48 +7,43 @@
   "Clarity"
  ],
  "starting": [
-  "Health Potion",
-  "Tear of the Goddess",
-  "Guardian's Orb"
+  "Lost Chapter"
  ],
  "core": [
   "Luden's Echo",
-  "Ionian Boots of Lucidity",
-  "Archangel's Staff",
-  "Rabadon's Deathcap"
+  "Sorcerer's Shoes",
+  "Rabadon's Deathcap",
+  "Archangel's Staff"
  ],
  "fourth": [
   "Blackfire Torch",
-  "Cryptbloom",
+  "Malignance",
   "Cosmic Drive",
-  "Horizon Focus"
+  "Cryptbloom"
  ],
  "fifth": [
   "Rod of Ages",
   "Blackfire Torch",
   "Cosmic Drive",
-  "Cryptbloom"
+  "Malignance"
  ],
  "sixth": [
   "Rod of Ages",
-  "Banshee's Veil",
   "Blackfire Torch",
+  "Banshee's Veil",
   "Malignance"
  ],
  "pool": [
-  "Health Potion",
-  "Tear of the Goddess",
-  "Guardian's Orb",
+  "Lost Chapter",
   "Luden's Echo",
-  "Ionian Boots of Lucidity",
-  "Archangel's Staff",
+  "Sorcerer's Shoes",
   "Rabadon's Deathcap",
+  "Archangel's Staff",
   "Blackfire Torch",
-  "Cryptbloom",
+  "Malignance",
   "Cosmic Drive",
-  "Horizon Focus",
+  "Cryptbloom",
   "Rod of Ages",
-  "Banshee's Veil",
-  "Malignance"
+  "Banshee's Veil"
  ]
 }

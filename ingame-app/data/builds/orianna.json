@@ -18,8 +18,8 @@
  "fourth": [
   "Archangel's Staff",
   "Void Staff",
-  "Cryptbloom",
-  "Zhonya's Hourglass"
+  "Zhonya's Hourglass",
+  "Stormsurge"
  ],
  "fifth": [
   "Archangel's Staff",
@@ -28,8 +28,8 @@
   "Cryptbloom"
  ],
  "sixth": [
-  "Archangel's Staff",
   "Banshee's Veil",
+  "Archangel's Staff",
   "Stormsurge",
   "Cryptbloom"
  ],
@@ -41,9 +41,9 @@
   "Shadowflame",
   "Archangel's Staff",
   "Void Staff",
-  "Cryptbloom",
   "Zhonya's Hourglass",
   "Stormsurge",
+  "Cryptbloom",
   "Banshee's Veil"
  ]
 }

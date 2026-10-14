@@ -7,42 +7,43 @@
   "Mark"
  ],
  "starting": [
-  "Lost Chapter"
+  "Amplifying Tome",
+  "Guardian's Orb"
  ],
  "core": [
-  "Luden's Echo",
+  "Shadowflame",
   "Sorcerer's Shoes",
-  "Rabadon's Deathcap",
-  "Shadowflame"
+  "Lich Bane",
+  "Rabadon's Deathcap"
  ],
  "fourth": [
   "Stormsurge",
-  "Lich Bane",
   "Void Staff",
   "Liandry's Torment"
  ],
  "fifth": [
   "Stormsurge",
-  "Lich Bane",
   "Void Staff",
-  "Liandry's Torment"
+  "Liandry's Torment",
+  "Morellonomicon"
  ],
  "sixth": [
   "Stormsurge",
   "Void Staff",
   "Banshee's Veil",
-  "Lich Bane"
+  "Liandry's Torment"
  ],
  "pool": [
-  "Lost Chapter",
-  "Luden's Echo",
-  "Sorcerer's Shoes",
-  "Rabadon's Deathcap",
+  "Amplifying Tome",
+  "Guardian's Orb",
   "Shadowflame",
-  "Stormsurge",
+  "Sorcerer's Shoes",
   "Lich Bane",
+  "Rabadon's Deathcap",
+  "Stormsurge",
   "Void Staff",
   "Liandry's Torment",
+  "Morellonomicon",
   "Banshee's Veil"
  ]
 }

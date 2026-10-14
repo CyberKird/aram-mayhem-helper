@@ -7,44 +7,45 @@
   "Mark"
  ],
  "starting": [
-  "Giant's Belt",
-  "Ruby Crystal"
+  "Ruby Crystal",
+  "Sheen"
  ],
  "core": [
-  "Heartsteel",
-  "Mercury's Treads",
   "Dusk and Dawn",
-  "Riftmaker"
+  "Mercury's Treads",
+  "Statikk Shiv",
+  "Death's Dance"
  ],
  "fourth": [
   "Hextech Gunblade",
-  "Death's Dance",
   "Spear of Shojin",
-  "Sundered Sky"
+  "Sundered Sky",
+  "Wit's End"
  ],
  "fifth": [
   "Hextech Gunblade",
-  "Death's Dance",
   "Sundered Sky",
-  "Spear of Shojin"
+  "Spear of Shojin",
+  "Spirit Visage"
  ],
  "sixth": [
   "Endless Hunger",
   "Hextech Gunblade",
-  "Death's Dance",
-  "Sterak's Gage"
+  "Sterak's Gage",
+  "Spear of Shojin"
  ],
  "pool": [
-  "Giant's Belt",
   "Ruby Crystal",
-  "Heartsteel",
-  "Mercury's Treads",
+  "Sheen",
   "Dusk and Dawn",
-  "Riftmaker",
-  "Hextech Gunblade",
+  "Mercury's Treads",
+  "Statikk Shiv",
   "Death's Dance",
+  "Hextech Gunblade",
   "Spear of Shojin",
   "Sundered Sky",
+  "Wit's End",
+  "Spirit Visage",
   "Endless Hunger",
   "Sterak's Gage"
  ]

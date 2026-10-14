@@ -19,18 +19,18 @@
  "fourth": [
   "Dawncore",
   "Staff of Flowing Water",
-  "Imperial Mandate",
-  "Archangel's Staff"
+  "Archangel's Staff",
+  "Imperial Mandate"
  ],
  "fifth": [
-  "Staff of Flowing Water",
   "Dawncore",
+  "Staff of Flowing Water",
   "Archangel's Staff",
   "Imperial Mandate"
  ],
  "sixth": [
-  "Dawncore",
   "Staff of Flowing Water",
+  "Dawncore",
   "Archangel's Staff",
   "Mikael's Blessing"
  ],
@@ -43,8 +43,8 @@
   "Whispering Circlet",
   "Dawncore",
   "Staff of Flowing Water",
-  "Imperial Mandate",
   "Archangel's Staff",
+  "Imperial Mandate",
   "Mikael's Blessing"
  ]
 }

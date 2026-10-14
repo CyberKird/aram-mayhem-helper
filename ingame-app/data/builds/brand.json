@@ -17,21 +17,21 @@
  ],
  "fourth": [
   "Bloodletter's Curse",
-  "Archangel's Staff",
   "Rabadon's Deathcap",
-  "Shadowflame"
+  "Shadowflame",
+  "Malignance"
  ],
  "fifth": [
   "Bloodletter's Curse",
-  "Archangel's Staff",
   "Shadowflame",
-  "Rabadon's Deathcap"
+  "Rabadon's Deathcap",
+  "Void Staff"
  ],
  "sixth": [
   "Bloodletter's Curse",
-  "Archangel's Staff",
   "Shadowflame",
-  "Rabadon's Deathcap"
+  "Rabadon's Deathcap",
+  "Void Staff"
  ],
  "pool": [
   "Lost Chapter",
@@ -40,8 +40,9 @@
   "Blackfire Torch",
   "Rylai's Crystal Scepter",
   "Bloodletter's Curse",
-  "Archangel's Staff",
   "Rabadon's Deathcap",
-  "Shadowflame"
+  "Shadowflame",
+  "Malignance",
+  "Void Staff"
  ]
 }

@@ -12,14 +12,14 @@
  ],
  "core": [
   "Trinity Force",
-  "Plated Steelcaps",
+  "Mercury's Treads",
   "Ravenous Hydra",
   "Death's Dance"
  ],
  "fourth": [
   "Endless Hunger",
-  "Spear of Shojin",
   "Maw of Malmortius",
+  "Spear of Shojin",
   "Sterak's Gage"
  ],
  "fifth": [
@@ -32,18 +32,19 @@
   "Sterak's Gage",
   "Endless Hunger",
   "Spear of Shojin",
-  "Maw of Malmortius"
+  "Spirit Visage"
  ],
  "pool": [
   "Long Sword",
   "Guardian's Blade",
   "Trinity Force",
-  "Plated Steelcaps",
+  "Mercury's Treads",
   "Ravenous Hydra",
   "Death's Dance",
   "Endless Hunger",
-  "Spear of Shojin",
   "Maw of Malmortius",
-  "Sterak's Gage"
+  "Spear of Shojin",
+  "Sterak's Gage",
+  "Spirit Visage"
  ]
 }

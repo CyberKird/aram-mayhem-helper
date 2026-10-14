@@ -19,20 +19,20 @@
  "fourth": [
   "Infinity Edge",
   "Blade of The Ruined King",
-  "Bloodthirster",
-  "Lord Dominik's Regards"
+  "Lord Dominik's Regards",
+  "Bloodthirster"
  ],
  "fifth": [
+  "Spirit Visage",
   "Infinity Edge",
   "Lord Dominik's Regards",
-  "Blade of The Ruined King",
-  "Bloodthirster"
+  "Blade of The Ruined King"
  ],
  "sixth": [
   "Endless Hunger",
+  "Spirit Visage",
   "Lord Dominik's Regards",
-  "Bloodthirster",
-  "Infinity Edge"
+  "Bloodthirster"
  ],
  "pool": [
   "Long Sword",
@@ -43,8 +43,9 @@
   "Death's Dance",
   "Infinity Edge",
   "Blade of The Ruined King",
-  "Bloodthirster",
   "Lord Dominik's Regards",
+  "Bloodthirster",
+  "Spirit Visage",
   "Endless Hunger"
  ]
 }

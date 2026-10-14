@@ -17,22 +17,22 @@
   "Endless Hunger"
  ],
  "fourth": [
-  "Voltaic Cyclosword",
-  "Axiom Arc",
   "Maw of Malmortius",
-  "Eclipse"
+  "The Collector",
+  "Eclipse",
+  "Ravenous Hydra"
  ],
  "fifth": [
   "Serylda's Grudge",
-  "Axiom Arc",
-  "Maw of Malmortius",
-  "Eclipse"
- ],
- "sixth": [
-  "Axiom Arc",
   "Maw of Malmortius",
   "Eclipse",
-  "The Collector"
+  "Ravenous Hydra"
+ ],
+ "sixth": [
+  "Edge of Night",
+  "Eclipse",
+  "Maw of Malmortius",
+  "Sterak's Gage"
  ],
  "pool": [
   "Long Sword",
@@ -41,11 +41,12 @@
   "Mercury's Treads",
   "Death's Dance",
   "Endless Hunger",
-  "Voltaic Cyclosword",
-  "Axiom Arc",
   "Maw of Malmortius",
+  "The Collector",
   "Eclipse",
+  "Ravenous Hydra",
   "Serylda's Grudge",
-  "The Collector"
+  "Edge of Night",
+  "Sterak's Gage"
  ]
 }

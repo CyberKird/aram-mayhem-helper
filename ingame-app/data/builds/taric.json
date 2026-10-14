@@ -12,7 +12,7 @@
  ],
  "core": [
   "Heartsteel",
-  "Mercury's Treads",
+  "Plated Steelcaps",
   "Unending Despair",
   "Winter's Approach"
  ],
@@ -23,8 +23,8 @@
   "Randuin's Omen"
  ],
  "fifth": [
-  "Spirit Visage",
   "Warmog's Armor",
+  "Spirit Visage",
   "Jak'Sho, The Protean",
   "Thornmail"
  ],
@@ -32,13 +32,13 @@
   "Spirit Visage",
   "Jak'Sho, The Protean",
   "Warmog's Armor",
-  "Frozen Heart"
+  "Overlord's Bloodmail"
  ],
  "pool": [
   "Giant's Belt",
   "Tear of the Goddess",
   "Heartsteel",
-  "Mercury's Treads",
+  "Plated Steelcaps",
   "Unending Despair",
   "Winter's Approach",
   "Warmog's Armor",
@@ -46,6 +46,6 @@
   "Spirit Visage",
   "Randuin's Omen",
   "Thornmail",
-  "Frozen Heart"
+  "Overlord's Bloodmail"
  ]
 }

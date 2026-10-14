@@ -20,18 +20,18 @@
   "Warmog's Armor",
   "Unending Despair",
   "Death's Dance",
-  "Sundered Sky"
+  "Wit's End"
  ],
  "fifth": [
-  "Warmog's Armor",
   "Endless Hunger",
+  "Warmog's Armor",
   "Unending Despair",
   "Spirit Visage"
  ],
  "sixth": [
   "Warmog's Armor",
-  "Death's Dance",
   "Sundered Sky",
+  "Death's Dance",
   "Unending Despair"
  ],
  "pool": [
@@ -44,8 +44,9 @@
   "Warmog's Armor",
   "Unending Despair",
   "Death's Dance",
-  "Sundered Sky",
+  "Wit's End",
   "Endless Hunger",
-  "Spirit Visage"
+  "Spirit Visage",
+  "Sundered Sky"
  ]
 }

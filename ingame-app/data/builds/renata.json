@@ -18,21 +18,21 @@
  ],
  "fourth": [
   "Ardent Censer",
-  "Redemption",
   "Archangel's Staff",
-  "Malignance"
+  "Redemption",
+  "Locket of the Iron Solari"
  ],
  "fifth": [
   "Ardent Censer",
   "Shurelya's Battlesong",
-  "Redemption",
-  "Archangel's Staff"
+  "Archangel's Staff",
+  "Redemption"
  ],
  "sixth": [
-  "Archangel's Staff",
   "Ardent Censer",
-  "Redemption",
-  "Locket of the Iron Solari"
+  "Archangel's Staff",
+  "Locket of the Iron Solari",
+  "Redemption"
  ],
  "pool": [
   "Tear of the Goddess",
@@ -42,10 +42,9 @@
   "Moonstone Renewer",
   "Whispering Circlet",
   "Ardent Censer",
-  "Redemption",
   "Archangel's Staff",
-  "Malignance",
-  "Shurelya's Battlesong",
-  "Locket of the Iron Solari"
+  "Redemption",
+  "Locket of the Iron Solari",
+  "Shurelya's Battlesong"
  ]
 }

@@ -7,46 +7,44 @@
   "Cleanse"
  ],
  "starting": [
-  "Dagger",
-  "Health Potion",
-  "Berserker's Greaves"
+  "Dagger"
  ],
  "core": [
-  "Blade of The Ruined King",
+  "Statikk Shiv",
   "Berserker's Greaves",
-  "Runaan's Hurricane",
+  "Guinsoo's Rageblade",
   "Terminus"
  ],
  "fourth": [
-  "Guinsoo's Rageblade",
+  "Runaan's Hurricane",
+  "Blade of The Ruined King",
   "Bloodthirster",
-  "Wit's End",
-  "Infinity Edge"
+  "Wit's End"
  ],
  "fifth": [
   "Bloodthirster",
-  "Guinsoo's Rageblade",
   "Wit's End",
+  "Blade of The Ruined King",
   "Lord Dominik's Regards"
  ],
  "sixth": [
   "Jak'Sho, The Protean",
   "Bloodthirster",
   "Wit's End",
-  "Guinsoo's Rageblade"
+  "Mercurial Scimitar"
  ],
  "pool": [
   "Dagger",
-  "Health Potion",
+  "Statikk Shiv",
   "Berserker's Greaves",
-  "Blade of The Ruined King",
-  "Runaan's Hurricane",
-  "Terminus",
   "Guinsoo's Rageblade",
+  "Terminus",
+  "Runaan's Hurricane",
+  "Blade of The Ruined King",
   "Bloodthirster",
   "Wit's End",
-  "Infinity Edge",
   "Lord Dominik's Regards",
-  "Jak'Sho, The Protean"
+  "Jak'Sho, The Protean",
+  "Mercurial Scimitar"
  ]
 }

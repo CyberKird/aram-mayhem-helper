@@ -20,19 +20,19 @@
   "Bloodthirster",
   "Manamune",
   "Spear of Shojin",
-  "Mortal Reminder"
+  "Rapid Firecannon"
  ],
  "fifth": [
   "Endless Hunger",
   "Spear of Shojin",
-  "Bloodthirster",
-  "Liandry's Torment"
+  "Liandry's Torment",
+  "Bloodthirster"
  ],
  "sixth": [
   "Endless Hunger",
   "Spear of Shojin",
-  "Kaenic Rookern",
-  "Bloodthirster"
+  "Bloodthirster",
+  "Manamune"
  ],
  "pool": [
   "Long Sword",
@@ -44,9 +44,8 @@
   "Bloodthirster",
   "Manamune",
   "Spear of Shojin",
-  "Mortal Reminder",
+  "Rapid Firecannon",
   "Endless Hunger",
-  "Liandry's Torment",
-  "Kaenic Rookern"
+  "Liandry's Torment"
  ]
 }

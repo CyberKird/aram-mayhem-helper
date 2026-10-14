@@ -7,13 +7,12 @@
   "Ghost"
  ],
  "starting": [
-  "Fated Ashes",
-  "Tear of the Goddess"
+  "Lost Chapter"
  ],
  "core": [
-  "Liandry's Torment",
-  "Sorcerer's Shoes",
   "Blackfire Torch",
+  "Sorcerer's Shoes",
+  "Liandry's Torment",
   "Rabadon's Deathcap"
  ],
  "fourth": [
@@ -26,7 +25,7 @@
   "Horizon Focus",
   "Shadowflame",
   "Archangel's Staff",
-  "Void Staff"
+  "Malignance"
  ],
  "sixth": [
   "Stormsurge",
@@ -35,16 +34,16 @@
   "Shadowflame"
  ],
  "pool": [
-  "Fated Ashes",
-  "Tear of the Goddess",
-  "Liandry's Torment",
-  "Sorcerer's Shoes",
+  "Lost Chapter",
   "Blackfire Torch",
+  "Sorcerer's Shoes",
+  "Liandry's Torment",
   "Rabadon's Deathcap",
   "Archangel's Staff",
   "Shadowflame",
   "Horizon Focus",
   "Void Staff",
+  "Malignance",
   "Stormsurge"
  ]
 }
