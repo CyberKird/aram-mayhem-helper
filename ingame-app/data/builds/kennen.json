@@ -18,20 +18,20 @@
  ],
  "fourth": [
   "Void Staff",
-  "Zhonya's Hourglass",
-  "Malignance"
+  "Malignance",
+  "Zhonya's Hourglass"
  ],
  "fifth": [
   "Banshee's Veil",
-  "Void Staff",
   "Cryptbloom",
+  "Void Staff",
   "Zhonya's Hourglass"
  ],
  "sixth": [
   "Banshee's Veil",
   "Void Staff",
-  "Zhonya's Hourglass",
-  "Cryptbloom"
+  "Cryptbloom",
+  "Zhonya's Hourglass"
  ],
  "pool": [
   "Boots",
@@ -41,8 +41,8 @@
   "Shadowflame",
   "Rabadon's Deathcap",
   "Void Staff",
-  "Zhonya's Hourglass",
   "Malignance",
+  "Zhonya's Hourglass",
   "Banshee's Veil",
   "Cryptbloom"
  ]

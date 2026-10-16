@@ -19,7 +19,7 @@
   "Runaan's Hurricane",
   "Guinsoo's Rageblade",
   "Terminus",
-  "Shadowflame"
+  "Rabadon's Deathcap"
  ],
  "fifth": [
   "Terminus",
@@ -29,9 +29,9 @@
  ],
  "sixth": [
   "Terminus",
-  "Guinsoo's Rageblade",
   "Wit's End",
-  "Shadowflame"
+  "Shadowflame",
+  "Kraken Slayer"
  ],
  "pool": [
   "Lost Chapter",
@@ -42,9 +42,9 @@
   "Runaan's Hurricane",
   "Guinsoo's Rageblade",
   "Terminus",
-  "Shadowflame",
-  "Kraken Slayer",
   "Rabadon's Deathcap",
-  "Wit's End"
+  "Kraken Slayer",
+  "Wit's End",
+  "Shadowflame"
  ]
 }

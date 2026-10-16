@@ -14,25 +14,25 @@
   "Hubris",
   "Mercury's Treads",
   "Death's Dance",
-  "Endless Hunger"
+  "Manamune"
  ],
  "fourth": [
-  "Manamune",
+  "Endless Hunger",
   "Lord Dominik's Regards",
   "Voltaic Cyclosword",
   "Profane Hydra"
  ],
  "fifth": [
+  "Endless Hunger",
   "Lord Dominik's Regards",
-  "Manamune",
-  "Voltaic Cyclosword",
-  "Serylda's Grudge"
+  "Serylda's Grudge",
+  "Voltaic Cyclosword"
  ],
  "sixth": [
+  "Endless Hunger",
   "Youmuu's Ghostblade",
-  "Manamune",
   "Lord Dominik's Regards",
-  "Voltaic Cyclosword"
+  "Maw of Malmortius"
  ],
  "pool": [
   "Tear of the Goddess",
@@ -40,12 +40,13 @@
   "Hubris",
   "Mercury's Treads",
   "Death's Dance",
-  "Endless Hunger",
   "Manamune",
+  "Endless Hunger",
   "Lord Dominik's Regards",
   "Voltaic Cyclosword",
   "Profane Hydra",
   "Serylda's Grudge",
-  "Youmuu's Ghostblade"
+  "Youmuu's Ghostblade",
+  "Maw of Malmortius"
  ]
 }

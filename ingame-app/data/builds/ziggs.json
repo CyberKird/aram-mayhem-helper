@@ -7,6 +7,7 @@
   "Ghost"
  ],
  "starting": [
+  "Refillable Potion",
   "Lost Chapter"
  ],
  "core": [
@@ -19,21 +20,22 @@
   "Archangel's Staff",
   "Shadowflame",
   "Horizon Focus",
-  "Void Staff"
+  "Malignance"
  ],
  "fifth": [
   "Horizon Focus",
   "Shadowflame",
   "Archangel's Staff",
-  "Malignance"
+  "Void Staff"
  ],
  "sixth": [
   "Stormsurge",
   "Horizon Focus",
-  "Void Staff",
-  "Shadowflame"
+  "Shadowflame",
+  "Void Staff"
  ],
  "pool": [
+  "Refillable Potion",
   "Lost Chapter",
   "Blackfire Torch",
   "Sorcerer's Shoes",
@@ -42,8 +44,8 @@
   "Archangel's Staff",
   "Shadowflame",
   "Horizon Focus",
-  "Void Staff",
   "Malignance",
+  "Void Staff",
   "Stormsurge"
  ]
 }

@@ -13,25 +13,25 @@
  "core": [
   "Dusk and Dawn",
   "Mercury's Treads",
-  "Statikk Shiv",
-  "Death's Dance"
+  "Blade of The Ruined King",
+  "Hextech Gunblade"
  ],
  "fourth": [
-  "Hextech Gunblade",
+  "Death's Dance",
   "Spear of Shojin",
   "Sundered Sky",
-  "Wit's End"
+  "Spirit Visage"
  ],
  "fifth": [
-  "Hextech Gunblade",
+  "Death's Dance",
   "Sundered Sky",
   "Spear of Shojin",
   "Spirit Visage"
  ],
  "sixth": [
   "Endless Hunger",
-  "Hextech Gunblade",
   "Sterak's Gage",
+  "Death's Dance",
   "Spear of Shojin"
  ],
  "pool": [
@@ -39,12 +39,11 @@
   "Sheen",
   "Dusk and Dawn",
   "Mercury's Treads",
-  "Statikk Shiv",
-  "Death's Dance",
+  "Blade of The Ruined King",
   "Hextech Gunblade",
+  "Death's Dance",
   "Spear of Shojin",
   "Sundered Sky",
-  "Wit's End",
   "Spirit Visage",
   "Endless Hunger",
   "Sterak's Gage"

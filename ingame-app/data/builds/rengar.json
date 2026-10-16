@@ -13,20 +13,20 @@
  "core": [
   "Hubris",
   "Mercury's Treads",
-  "Lord Dominik's Regards",
-  "Infinity Edge"
+  "The Collector",
+  "Lord Dominik's Regards"
  ],
  "fourth": [
   "Death's Dance",
   "Axiom Arc",
-  "Voltaic Cyclosword",
-  "Mortal Reminder"
+  "Infinity Edge",
+  "Voltaic Cyclosword"
  ],
  "fifth": [
   "Endless Hunger",
   "Axiom Arc",
   "Death's Dance",
-  "Voltaic Cyclosword"
+  "Infinity Edge"
  ],
  "sixth": [
   "Endless Hunger",
@@ -39,12 +39,12 @@
   "Guardian's Blade",
   "Hubris",
   "Mercury's Treads",
+  "The Collector",
   "Lord Dominik's Regards",
-  "Infinity Edge",
   "Death's Dance",
   "Axiom Arc",
+  "Infinity Edge",
   "Voltaic Cyclosword",
-  "Mortal Reminder",
   "Endless Hunger"
  ]
 }

@@ -19,20 +19,20 @@
  "fourth": [
   "Rabadon's Deathcap",
   "Archangel's Staff",
-  "Bloodletter's Curse",
-  "Shadowflame"
+  "Shadowflame",
+  "Bloodletter's Curse"
  ],
  "fifth": [
   "Archangel's Staff",
-  "Riftmaker",
   "Bloodletter's Curse",
+  "Riftmaker",
   "Rabadon's Deathcap"
  ],
  "sixth": [
   "Bloodletter's Curse",
-  "Archangel's Staff",
   "Riftmaker",
-  "Rabadon's Deathcap"
+  "Archangel's Staff",
+  "Shadowflame"
  ],
  "pool": [
   "Fated Ashes",
@@ -43,8 +43,8 @@
   "Rylai's Crystal Scepter",
   "Rabadon's Deathcap",
   "Archangel's Staff",
-  "Bloodletter's Curse",
   "Shadowflame",
+  "Bloodletter's Curse",
   "Riftmaker"
  ]
 }

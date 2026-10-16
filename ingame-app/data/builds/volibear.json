@@ -8,43 +8,43 @@
  ],
  "starting": [
   "Amplifying Tome",
-  "Guardian's Blade"
+  "Scout's Slingshot"
  ],
  "core": [
   "Statikk Shiv",
   "Mercury's Treads",
   "Dusk and Dawn",
-  "Riftmaker"
+  "Nashor's Tooth"
  ],
  "fourth": [
-  "Navori Flickerblade",
-  "Warmog's Armor",
-  "Spirit Visage",
-  "Unending Despair"
- ],
- "fifth": [
-  "Navori Flickerblade",
-  "Warmog's Armor",
-  "Spirit Visage",
-  "Unending Despair"
- ],
- "sixth": [
-  "Navori Flickerblade",
-  "Spirit Visage",
-  "Warmog's Armor",
-  "Jak'Sho, The Protean"
- ],
- "pool": [
-  "Amplifying Tome",
-  "Guardian's Blade",
-  "Statikk Shiv",
-  "Mercury's Treads",
-  "Dusk and Dawn",
   "Riftmaker",
   "Navori Flickerblade",
   "Warmog's Armor",
+  "Unending Despair"
+ ],
+ "fifth": [
+  "Riftmaker",
+  "Navori Flickerblade",
+  "Warmog's Armor",
+  "Spirit Visage"
+ ],
+ "sixth": [
+  "Riftmaker",
+  "Navori Flickerblade",
   "Spirit Visage",
+  "Warmog's Armor"
+ ],
+ "pool": [
+  "Amplifying Tome",
+  "Scout's Slingshot",
+  "Statikk Shiv",
+  "Mercury's Treads",
+  "Dusk and Dawn",
+  "Nashor's Tooth",
+  "Riftmaker",
+  "Navori Flickerblade",
+  "Warmog's Armor",
   "Unending Despair",
-  "Jak'Sho, The Protean"
+  "Spirit Visage"
  ]
 }

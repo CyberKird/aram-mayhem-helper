@@ -17,22 +17,22 @@
   "Riftmaker"
  ],
  "fourth": [
+  "Rabadon's Deathcap",
   "Warmog's Armor",
   "Shadowflame",
-  "Rabadon's Deathcap",
   "Unending Despair"
  ],
  "fifth": [
-  "Rabadon's Deathcap",
   "Warmog's Armor",
-  "Shadowflame",
-  "Unending Despair"
+  "Rabadon's Deathcap",
+  "Unending Despair",
+  "Shadowflame"
  ],
  "sixth": [
   "Warmog's Armor",
   "Rabadon's Deathcap",
-  "Liandry's Torment",
-  "Jak'Sho, The Protean"
+  "Spirit Visage",
+  "Liandry's Torment"
  ],
  "pool": [
   "Giant's Belt",
@@ -41,11 +41,11 @@
   "Mercury's Treads",
   "Dusk and Dawn",
   "Riftmaker",
+  "Rabadon's Deathcap",
   "Warmog's Armor",
   "Shadowflame",
-  "Rabadon's Deathcap",
   "Unending Despair",
-  "Liandry's Torment",
-  "Jak'Sho, The Protean"
+  "Spirit Visage",
+  "Liandry's Torment"
  ]
 }

@@ -18,8 +18,8 @@
  ],
  "fourth": [
   "Bloodthirster",
-  "Runaan's Hurricane",
   "Lord Dominik's Regards",
+  "Runaan's Hurricane",
   "Blade of The Ruined King"
  ],
  "fifth": [
@@ -31,7 +31,7 @@
  "sixth": [
   "Bloodthirster",
   "Lord Dominik's Regards",
-  "Phantom Dancer",
+  "Kraken Slayer",
   "Blade of The Ruined King"
  ],
  "pool": [
@@ -42,11 +42,10 @@
   "Yun Tal Wildarrows",
   "Infinity Edge",
   "Bloodthirster",
-  "Runaan's Hurricane",
   "Lord Dominik's Regards",
+  "Runaan's Hurricane",
   "Blade of The Ruined King",
   "Kraken Slayer",
-  "Navori Flickerblade",
-  "Phantom Dancer"
+  "Navori Flickerblade"
  ]
 }

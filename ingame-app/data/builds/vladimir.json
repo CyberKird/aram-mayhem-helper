@@ -8,11 +8,11 @@
  ],
  "starting": [
   "Amplifying Tome",
-  "Fiendish Codex"
+  "Guardian's Orb"
  ],
  "core": [
   "Cosmic Drive",
-  "Ionian Boots of Lucidity",
+  "Mercury's Treads",
   "Riftmaker",
   "Rabadon's Deathcap"
  ],
@@ -20,7 +20,7 @@
   "Void Staff",
   "Warmog's Armor",
   "Shadowflame",
-  "Cryptbloom"
+  "Zhonya's Hourglass"
  ],
  "fifth": [
   "Void Staff",
@@ -36,15 +36,14 @@
  ],
  "pool": [
   "Amplifying Tome",
-  "Fiendish Codex",
+  "Guardian's Orb",
   "Cosmic Drive",
-  "Ionian Boots of Lucidity",
+  "Mercury's Treads",
   "Riftmaker",
   "Rabadon's Deathcap",
   "Void Staff",
   "Warmog's Armor",
   "Shadowflame",
-  "Cryptbloom",
   "Zhonya's Hourglass",
   "Stormsurge"
  ]

@@ -18,21 +18,21 @@
  ],
  "fourth": [
   "Maw of Malmortius",
-  "The Collector",
   "Eclipse",
+  "The Collector",
   "Ravenous Hydra"
  ],
  "fifth": [
-  "Serylda's Grudge",
   "Maw of Malmortius",
   "Eclipse",
-  "Ravenous Hydra"
+  "Ravenous Hydra",
+  "The Collector"
  ],
  "sixth": [
-  "Edge of Night",
-  "Eclipse",
   "Maw of Malmortius",
-  "Sterak's Gage"
+  "Eclipse",
+  "Sterak's Gage",
+  "Ravenous Hydra"
  ],
  "pool": [
   "Long Sword",
@@ -42,11 +42,9 @@
   "Death's Dance",
   "Endless Hunger",
   "Maw of Malmortius",
-  "The Collector",
   "Eclipse",
+  "The Collector",
   "Ravenous Hydra",
-  "Serylda's Grudge",
-  "Edge of Night",
   "Sterak's Gage"
  ]
 }

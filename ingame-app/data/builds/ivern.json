@@ -25,14 +25,14 @@
  "fifth": [
   "Staff of Flowing Water",
   "Dawncore",
-  "Redemption",
-  "Locket of the Iron Solari"
+  "Shurelya's Battlesong",
+  "Redemption"
  ],
  "sixth": [
   "Dawncore",
+  "Shurelya's Battlesong",
   "Staff of Flowing Water",
-  "Redemption",
-  "Locket of the Iron Solari"
+  "Redemption"
  ],
  "pool": [
   "Tear of the Goddess",
@@ -44,6 +44,7 @@
   "Staff of Flowing Water",
   "Dawncore",
   "Redemption",
-  "Locket of the Iron Solari"
+  "Locket of the Iron Solari",
+  "Shurelya's Battlesong"
  ]
 }

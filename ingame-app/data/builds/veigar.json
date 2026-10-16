@@ -20,8 +20,8 @@
  "fourth": [
   "Shadowflame",
   "Void Staff",
-  "Stormsurge",
-  "Warmog's Armor"
+  "Warmog's Armor",
+  "Stormsurge"
  ],
  "fifth": [
   "Banshee's Veil",
@@ -45,8 +45,8 @@
   "Archangel's Staff",
   "Shadowflame",
   "Void Staff",
-  "Stormsurge",
   "Warmog's Armor",
+  "Stormsurge",
   "Banshee's Veil"
  ]
 }

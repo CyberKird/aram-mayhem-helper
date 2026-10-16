@@ -18,19 +18,19 @@
  "fourth": [
   "Lord Dominik's Regards",
   "Bloodthirster",
-  "Runaan's Hurricane",
-  "Blade of The Ruined King"
+  "Blade of The Ruined King",
+  "Runaan's Hurricane"
  ],
  "fifth": [
   "Lord Dominik's Regards",
   "Bloodthirster",
-  "Kraken Slayer",
-  "Blade of The Ruined King"
+  "Blade of The Ruined King",
+  "Kraken Slayer"
  ],
  "sixth": [
   "Bloodthirster",
-  "Lord Dominik's Regards",
   "Phantom Dancer",
+  "Lord Dominik's Regards",
   "Blade of The Ruined King"
  ],
  "pool": [
@@ -41,8 +41,8 @@
   "Infinity Edge",
   "Lord Dominik's Regards",
   "Bloodthirster",
-  "Runaan's Hurricane",
   "Blade of The Ruined King",
+  "Runaan's Hurricane",
   "Kraken Slayer",
   "Phantom Dancer"
  ]

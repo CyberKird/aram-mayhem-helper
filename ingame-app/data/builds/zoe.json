@@ -32,7 +32,7 @@
   "Stormsurge",
   "Lich Bane",
   "Banshee's Veil",
-  "Horizon Focus"
+  "Cryptbloom"
  ],
  "pool": [
   "Refillable Potion",
@@ -45,6 +45,7 @@
   "Stormsurge",
   "Void Staff",
   "Horizon Focus",
-  "Banshee's Veil"
+  "Banshee's Veil",
+  "Cryptbloom"
  ]
 }

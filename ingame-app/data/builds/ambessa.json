@@ -13,25 +13,25 @@
  "core": [
   "Hubris",
   "Mercury's Treads",
-  "Death's Dance",
-  "Endless Hunger"
+  "Voltaic Cyclosword",
+  "Death's Dance"
  ],
  "fourth": [
   "Lord Dominik's Regards",
-  "Voltaic Cyclosword",
+  "Endless Hunger",
   "Mortal Reminder",
   "Spear of Shojin"
  ],
  "fifth": [
   "Lord Dominik's Regards",
-  "Voltaic Cyclosword",
+  "Endless Hunger",
   "Maw of Malmortius",
   "Spear of Shojin"
  ],
  "sixth": [
   "Lord Dominik's Regards",
   "Axiom Arc",
-  "Voltaic Cyclosword",
+  "Endless Hunger",
   "Spear of Shojin"
  ],
  "pool": [
@@ -39,10 +39,10 @@
   "Guardian's Blade",
   "Hubris",
   "Mercury's Treads",
-  "Death's Dance",
-  "Endless Hunger",
-  "Lord Dominik's Regards",
   "Voltaic Cyclosword",
+  "Death's Dance",
+  "Lord Dominik's Regards",
+  "Endless Hunger",
   "Mortal Reminder",
   "Spear of Shojin",
   "Maw of Malmortius",

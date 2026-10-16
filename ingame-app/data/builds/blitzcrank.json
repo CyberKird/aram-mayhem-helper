@@ -16,10 +16,10 @@
   "Shadowflame"
  ],
  "fourth": [
-  "Winter's Approach",
   "Warmog's Armor",
+  "Winter's Approach",
   "Frozen Heart",
-  "Spirit Visage"
+  "Stormsurge"
  ],
  "fifth": [
   "Warmog's Armor",
@@ -29,9 +29,9 @@
  ],
  "sixth": [
   "Warmog's Armor",
-  "Stormsurge",
   "Spirit Visage",
-  "Unending Despair"
+  "Stormsurge",
+  "Jak'Sho, The Protean"
  ],
  "pool": [
   "Lost Chapter",
@@ -39,11 +39,12 @@
   "Sorcerer's Shoes",
   "Rabadon's Deathcap",
   "Shadowflame",
-  "Winter's Approach",
   "Warmog's Armor",
+  "Winter's Approach",
   "Frozen Heart",
-  "Spirit Visage",
+  "Stormsurge",
   "Unending Despair",
-  "Stormsurge"
+  "Spirit Visage",
+  "Jak'Sho, The Protean"
  ]
 }

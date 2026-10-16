@@ -18,20 +18,20 @@
  ],
  "fourth": [
   "Endless Hunger",
-  "Ravenous Hydra",
   "Titanic Hydra",
+  "Ravenous Hydra",
   "Trinity Force"
  ],
  "fifth": [
   "Endless Hunger",
   "Ravenous Hydra",
-  "Spirit Visage",
-  "Titanic Hydra"
+  "Titanic Hydra",
+  "Sundered Sky"
  ],
  "sixth": [
   "Endless Hunger",
-  "Sterak's Gage",
   "Spirit Visage",
+  "Sterak's Gage",
   "Ravenous Hydra"
  ],
  "pool": [
@@ -42,9 +42,10 @@
   "Death's Dance",
   "Terminus",
   "Endless Hunger",
-  "Ravenous Hydra",
   "Titanic Hydra",
+  "Ravenous Hydra",
   "Trinity Force",
+  "Sundered Sky",
   "Spirit Visage",
   "Sterak's Gage"
  ]

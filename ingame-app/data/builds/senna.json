@@ -7,14 +7,12 @@
   "Ghost"
  ],
  "starting": [
-  "Pickaxe",
-  "Dagger",
-  "Dagger"
+  "Zeal"
  ],
  "core": [
-  "Statikk Shiv",
-  "Boots of Swiftness",
   "Runaan's Hurricane",
+  "Boots of Swiftness",
+  "Statikk Shiv",
   "Blade of The Ruined King"
  ],
  "fourth": [
@@ -27,7 +25,7 @@
   "Hexoptics C44",
   "Manamune",
   "Bloodthirster",
-  "Infinity Edge"
+  "Rapid Firecannon"
  ],
  "sixth": [
   "Hexoptics C44",
@@ -36,18 +34,17 @@
   "Manamune"
  ],
  "pool": [
-  "Pickaxe",
-  "Dagger",
-  "Statikk Shiv",
-  "Boots of Swiftness",
+  "Zeal",
   "Runaan's Hurricane",
+  "Boots of Swiftness",
+  "Statikk Shiv",
   "Blade of The Ruined King",
   "Hexoptics C44",
   "Kraken Slayer",
   "Manamune",
   "Lord Dominik's Regards",
   "Bloodthirster",
-  "Infinity Edge",
+  "Rapid Firecannon",
   "Black Cleaver"
  ]
 }

@@ -24,14 +24,14 @@
  "fifth": [
   "Terminus",
   "Bloodthirster",
-  "Lord Dominik's Regards",
-  "Blade of The Ruined King"
+  "Blade of The Ruined King",
+  "Lord Dominik's Regards"
  ],
  "sixth": [
   "Terminus",
   "Bloodthirster",
   "Mercurial Scimitar",
-  "Lord Dominik's Regards"
+  "Kraken Slayer"
  ],
  "pool": [
   "B. F. Sword",
@@ -43,6 +43,7 @@
   "Blade of The Ruined King",
   "Lord Dominik's Regards",
   "Bloodthirster",
-  "Mercurial Scimitar"
+  "Mercurial Scimitar",
+  "Kraken Slayer"
  ]
 }

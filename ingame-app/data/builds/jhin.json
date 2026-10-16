@@ -7,48 +7,46 @@
   "Ghost"
  ],
  "starting": [
-  "Long Sword",
-  "Pickaxe"
+  "Boots",
+  "Serrated Dirk"
  ],
  "core": [
   "The Collector",
-  "Boots of Swiftness",
-  "Hubris",
-  "Axiom Arc"
+  "Berserker's Greaves",
+  "Infinity Edge",
+  "Hubris"
  ],
  "fourth": [
+  "Axiom Arc",
   "Lord Dominik's Regards",
-  "Infinity Edge",
   "Rapid Firecannon",
   "Bloodthirster"
  ],
  "fifth": [
+  "Axiom Arc",
   "Lord Dominik's Regards",
-  "Phantom Dancer",
   "Edge of Night",
-  "Hexoptics C44"
+  "Phantom Dancer"
  ],
  "sixth": [
   "Youmuu's Ghostblade",
+  "Axiom Arc",
   "Edge of Night",
-  "Phantom Dancer",
-  "Stormrazor"
+  "Phantom Dancer"
  ],
  "pool": [
-  "Long Sword",
-  "Pickaxe",
+  "Boots",
+  "Serrated Dirk",
   "The Collector",
-  "Boots of Swiftness",
+  "Berserker's Greaves",
+  "Infinity Edge",
   "Hubris",
   "Axiom Arc",
   "Lord Dominik's Regards",
-  "Infinity Edge",
   "Rapid Firecannon",
   "Bloodthirster",
-  "Phantom Dancer",
   "Edge of Night",
-  "Hexoptics C44",
-  "Youmuu's Ghostblade",
-  "Stormrazor"
+  "Phantom Dancer",
+  "Youmuu's Ghostblade"
  ]
 }
