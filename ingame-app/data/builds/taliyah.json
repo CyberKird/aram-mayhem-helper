@@ -12,19 +12,19 @@
  "core": [
   "Blackfire Torch",
   "Sorcerer's Shoes",
-  "Liandry's Torment",
-  "Shadowflame"
+  "Shadowflame",
+  "Rabadon's Deathcap"
  ],
  "fourth": [
-  "Rabadon's Deathcap",
   "Archangel's Staff",
   "Void Staff",
-  "Zhonya's Hourglass"
+  "Zhonya's Hourglass",
+  "Rylai's Crystal Scepter"
  ],
  "fifth": [
   "Archangel's Staff",
-  "Rabadon's Deathcap",
   "Void Staff",
+  "Cryptbloom",
   "Zhonya's Hourglass"
  ],
  "sixth": [
@@ -37,14 +37,14 @@
   "Lost Chapter",
   "Blackfire Torch",
   "Sorcerer's Shoes",
-  "Liandry's Torment",
   "Shadowflame",
   "Rabadon's Deathcap",
   "Archangel's Staff",
   "Void Staff",
   "Zhonya's Hourglass",
-  "Banshee's Veil",
+  "Rylai's Crystal Scepter",
   "Cryptbloom",
+  "Banshee's Veil",
   "Stormsurge"
  ]
 }

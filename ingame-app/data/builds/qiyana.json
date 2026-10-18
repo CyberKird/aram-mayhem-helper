@@ -7,8 +7,7 @@
   "Mark"
  ],
  "starting": [
-  "Tear of the Goddess",
-  "Guardian's Blade"
+  "Catalyst of Aeons"
  ],
  "core": [
   "Hubris",
@@ -32,11 +31,10 @@
   "Endless Hunger",
   "Youmuu's Ghostblade",
   "Lord Dominik's Regards",
-  "Maw of Malmortius"
+  "Serylda's Grudge"
  ],
  "pool": [
-  "Tear of the Goddess",
-  "Guardian's Blade",
+  "Catalyst of Aeons",
   "Hubris",
   "Mercury's Treads",
   "Death's Dance",
@@ -46,7 +44,6 @@
   "Voltaic Cyclosword",
   "Profane Hydra",
   "Serylda's Grudge",
-  "Youmuu's Ghostblade",
-  "Maw of Malmortius"
+  "Youmuu's Ghostblade"
  ]
 }

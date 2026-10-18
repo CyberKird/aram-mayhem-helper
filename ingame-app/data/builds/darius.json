@@ -19,8 +19,8 @@
  "fourth": [
   "Overlord's Bloodmail",
   "Spirit Visage",
-  "Sterak's Gage",
-  "Death's Dance"
+  "Death's Dance",
+  "Sterak's Gage"
  ],
  "fifth": [
   "Overlord's Bloodmail",
@@ -30,9 +30,9 @@
  ],
  "sixth": [
   "Overlord's Bloodmail",
-  "Sterak's Gage",
   "Endless Hunger",
-  "Jak'Sho, The Protean"
+  "Sterak's Gage",
+  "Death's Dance"
  ],
  "pool": [
   "Giant's Belt",
@@ -43,10 +43,9 @@
   "Warmog's Armor",
   "Overlord's Bloodmail",
   "Spirit Visage",
-  "Sterak's Gage",
   "Death's Dance",
+  "Sterak's Gage",
   "Endless Hunger",
-  "Black Cleaver",
-  "Jak'Sho, The Protean"
+  "Black Cleaver"
  ]
 }

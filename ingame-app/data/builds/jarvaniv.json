@@ -25,14 +25,14 @@
  "fifth": [
   "Overlord's Bloodmail",
   "Endless Hunger",
-  "Lord Dominik's Regards",
-  "Voltaic Cyclosword"
+  "Voltaic Cyclosword",
+  "Lord Dominik's Regards"
  ],
  "sixth": [
   "Endless Hunger",
   "Voltaic Cyclosword",
   "Lord Dominik's Regards",
-  "Profane Hydra"
+  "Overlord's Bloodmail"
  ],
  "pool": [
   "Giant's Belt",
@@ -44,7 +44,6 @@
   "Overlord's Bloodmail",
   "Endless Hunger",
   "Voltaic Cyclosword",
-  "Lord Dominik's Regards",
-  "Profane Hydra"
+  "Lord Dominik's Regards"
  ]
 }

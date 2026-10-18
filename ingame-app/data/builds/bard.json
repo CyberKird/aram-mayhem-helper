@@ -7,6 +7,7 @@
   "Ghost"
  ],
  "starting": [
+  "Refillable Potion",
   "Lost Chapter"
  ],
  "core": [
@@ -16,8 +17,8 @@
   "Rabadon's Deathcap"
  ],
  "fourth": [
-  "Nashor's Tooth",
   "Shadowflame",
+  "Nashor's Tooth",
   "Guinsoo's Rageblade",
   "Statikk Shiv"
  ],
@@ -34,13 +35,14 @@
   "Rapid Firecannon"
  ],
  "pool": [
+  "Refillable Potion",
   "Lost Chapter",
   "Luden's Echo",
   "Sorcerer's Shoes",
   "Lich Bane",
   "Rabadon's Deathcap",
-  "Nashor's Tooth",
   "Shadowflame",
+  "Nashor's Tooth",
   "Guinsoo's Rageblade",
   "Statikk Shiv",
   "Rapid Firecannon",

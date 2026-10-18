@@ -11,16 +11,16 @@
   "Tear of the Goddess"
  ],
  "core": [
-  "Blackfire Torch",
-  "Sorcerer's Shoes",
   "Liandry's Torment",
+  "Sorcerer's Shoes",
+  "Blackfire Torch",
   "Rylai's Crystal Scepter"
  ],
  "fourth": [
   "Rabadon's Deathcap",
   "Archangel's Staff",
-  "Shadowflame",
-  "Bloodletter's Curse"
+  "Bloodletter's Curse",
+  "Shadowflame"
  ],
  "fifth": [
   "Archangel's Staff",
@@ -32,19 +32,19 @@
   "Bloodletter's Curse",
   "Riftmaker",
   "Archangel's Staff",
-  "Shadowflame"
+  "Rabadon's Deathcap"
  ],
  "pool": [
   "Fated Ashes",
   "Tear of the Goddess",
-  "Blackfire Torch",
-  "Sorcerer's Shoes",
   "Liandry's Torment",
+  "Sorcerer's Shoes",
+  "Blackfire Torch",
   "Rylai's Crystal Scepter",
   "Rabadon's Deathcap",
   "Archangel's Staff",
-  "Shadowflame",
   "Bloodletter's Curse",
+  "Shadowflame",
   "Riftmaker"
  ]
 }

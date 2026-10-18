@@ -17,15 +17,15 @@
  ],
  "fourth": [
   "Blackfire Torch",
-  "Malignance",
   "Cosmic Drive",
-  "Cryptbloom"
+  "Cryptbloom",
+  "Horizon Focus"
  ],
  "fifth": [
   "Rod of Ages",
   "Blackfire Torch",
-  "Malignance",
-  "Cosmic Drive"
+  "Cosmic Drive",
+  "Malignance"
  ],
  "sixth": [
   "Rod of Ages",
@@ -40,10 +40,11 @@
   "Rabadon's Deathcap",
   "Archangel's Staff",
   "Blackfire Torch",
-  "Malignance",
   "Cosmic Drive",
   "Cryptbloom",
+  "Horizon Focus",
   "Rod of Ages",
+  "Malignance",
   "Banshee's Veil"
  ]
 }

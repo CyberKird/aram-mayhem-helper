@@ -7,25 +7,26 @@
   "Ghost"
  ],
  "starting": [
-  "Lost Chapter"
+  "Fated Ashes",
+  "Tear of the Goddess"
  ],
  "core": [
   "Blackfire Torch",
   "Sorcerer's Shoes",
-  "Archangel's Staff",
-  "Liandry's Torment"
+  "Liandry's Torment",
+  "Archangel's Staff"
  ],
  "fourth": [
   "Runaan's Hurricane",
+  "Rabadon's Deathcap",
   "Guinsoo's Rageblade",
-  "Terminus",
-  "Rabadon's Deathcap"
+  "Terminus"
  ],
  "fifth": [
   "Terminus",
   "Guinsoo's Rageblade",
-  "Kraken Slayer",
-  "Rabadon's Deathcap"
+  "Rabadon's Deathcap",
+  "Kraken Slayer"
  ],
  "sixth": [
   "Terminus",
@@ -34,15 +35,16 @@
   "Kraken Slayer"
  ],
  "pool": [
-  "Lost Chapter",
+  "Fated Ashes",
+  "Tear of the Goddess",
   "Blackfire Torch",
   "Sorcerer's Shoes",
-  "Archangel's Staff",
   "Liandry's Torment",
+  "Archangel's Staff",
   "Runaan's Hurricane",
+  "Rabadon's Deathcap",
   "Guinsoo's Rageblade",
   "Terminus",
-  "Rabadon's Deathcap",
   "Kraken Slayer",
   "Wit's End",
   "Shadowflame"

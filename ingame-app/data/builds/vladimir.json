@@ -12,7 +12,7 @@
  ],
  "core": [
   "Cosmic Drive",
-  "Mercury's Treads",
+  "Ionian Boots of Lucidity",
   "Riftmaker",
   "Rabadon's Deathcap"
  ],
@@ -32,19 +32,20 @@
   "Stormsurge",
   "Warmog's Armor",
   "Void Staff",
-  "Shadowflame"
+  "Spirit Visage"
  ],
  "pool": [
   "Amplifying Tome",
   "Guardian's Orb",
   "Cosmic Drive",
-  "Mercury's Treads",
+  "Ionian Boots of Lucidity",
   "Riftmaker",
   "Rabadon's Deathcap",
   "Void Staff",
   "Warmog's Armor",
   "Shadowflame",
   "Zhonya's Hourglass",
-  "Stormsurge"
+  "Stormsurge",
+  "Spirit Visage"
  ]
 }

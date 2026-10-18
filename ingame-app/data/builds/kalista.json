@@ -8,8 +8,8 @@
  ],
  "starting": [
   "Dagger",
-  "Health Potion",
-  "Berserker's Greaves"
+  "Dagger",
+  "Vampiric Scepter"
  ],
  "core": [
   "Blade of The Ruined King",
@@ -27,7 +27,7 @@
   "Bloodthirster",
   "Guinsoo's Rageblade",
   "Wit's End",
-  "Lord Dominik's Regards"
+  "Infinity Edge"
  ],
  "sixth": [
   "Jak'Sho, The Protean",
@@ -37,16 +37,15 @@
  ],
  "pool": [
   "Dagger",
-  "Health Potion",
-  "Berserker's Greaves",
+  "Vampiric Scepter",
   "Blade of The Ruined King",
+  "Berserker's Greaves",
   "Runaan's Hurricane",
   "Terminus",
   "Guinsoo's Rageblade",
   "Bloodthirster",
   "Wit's End",
   "Infinity Edge",
-  "Lord Dominik's Regards",
   "Jak'Sho, The Protean",
   "Statikk Shiv"
  ]

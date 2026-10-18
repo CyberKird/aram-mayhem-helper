@@ -8,7 +8,6 @@
  ],
  "starting": [
   "Blasting Wand",
-  "Refillable Potion",
   "Tear of the Goddess"
  ],
  "core": [
@@ -30,14 +29,13 @@
   "Void Staff"
  ],
  "sixth": [
-  "Banshee's Veil",
   "Stormsurge",
+  "Banshee's Veil",
   "Shadowflame",
   "Void Staff"
  ],
  "pool": [
   "Blasting Wand",
-  "Refillable Potion",
   "Tear of the Goddess",
   "Rod of Ages",
   "Sorcerer's Shoes",

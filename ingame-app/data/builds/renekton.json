@@ -19,8 +19,8 @@
  "fourth": [
   "Sterak's Gage",
   "Black Cleaver",
-  "Warmog's Armor",
-  "Spear of Shojin"
+  "Spear of Shojin",
+  "Warmog's Armor"
  ],
  "fifth": [
   "Warmog's Armor",
@@ -30,9 +30,9 @@
  ],
  "sixth": [
   "Sterak's Gage",
+  "Spear of Shojin",
   "Spirit Visage",
-  "Warmog's Armor",
-  "Spear of Shojin"
+  "Warmog's Armor"
  ],
  "pool": [
   "Long Sword",
@@ -43,8 +43,8 @@
   "Endless Hunger",
   "Sterak's Gage",
   "Black Cleaver",
-  "Warmog's Armor",
   "Spear of Shojin",
+  "Warmog's Armor",
   "Spirit Visage"
  ]
 }

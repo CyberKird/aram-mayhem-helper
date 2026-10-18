@@ -7,8 +7,9 @@
   "Ghost"
  ],
  "starting": [
-  "Boots",
-  "Serrated Dirk"
+  "Long Sword",
+  "Pickaxe",
+  "Refillable Potion"
  ],
  "core": [
   "The Collector",
@@ -29,14 +30,15 @@
   "Phantom Dancer"
  ],
  "sixth": [
-  "Youmuu's Ghostblade",
   "Axiom Arc",
+  "Youmuu's Ghostblade",
   "Edge of Night",
   "Phantom Dancer"
  ],
  "pool": [
-  "Boots",
-  "Serrated Dirk",
+  "Long Sword",
+  "Pickaxe",
+  "Refillable Potion",
   "The Collector",
   "Berserker's Greaves",
   "Infinity Edge",

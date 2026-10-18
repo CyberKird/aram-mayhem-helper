@@ -7,12 +7,14 @@
   "Ghost"
  ],
  "starting": [
-  "Zeal"
+  "Pickaxe",
+  "Dagger",
+  "Dagger"
  ],
  "core": [
-  "Runaan's Hurricane",
-  "Boots of Swiftness",
   "Statikk Shiv",
+  "Boots of Swiftness",
+  "Runaan's Hurricane",
   "Blade of The Ruined King"
  ],
  "fourth": [
@@ -34,10 +36,11 @@
   "Manamune"
  ],
  "pool": [
-  "Zeal",
-  "Runaan's Hurricane",
-  "Boots of Swiftness",
+  "Pickaxe",
+  "Dagger",
   "Statikk Shiv",
+  "Boots of Swiftness",
+  "Runaan's Hurricane",
   "Blade of The Ruined King",
   "Hexoptics C44",
   "Kraken Slayer",

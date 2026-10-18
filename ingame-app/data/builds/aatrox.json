@@ -8,7 +8,7 @@
  ],
  "starting": [
   "Long Sword",
-  "Serrated Dirk"
+  "Guardian's Blade"
  ],
  "core": [
   "Hubris",
@@ -19,32 +19,32 @@
  "fourth": [
   "Overlord's Bloodmail",
   "Endless Hunger",
-  "Sundered Sky",
-  "Spear of Shojin"
+  "Spear of Shojin",
+  "Sundered Sky"
  ],
  "fifth": [
   "Overlord's Bloodmail",
   "Endless Hunger",
-  "Spear of Shojin",
-  "Maw of Malmortius"
+  "Maw of Malmortius",
+  "Spear of Shojin"
  ],
  "sixth": [
   "Overlord's Bloodmail",
-  "Endless Hunger",
   "Sterak's Gage",
+  "Endless Hunger",
   "Maw of Malmortius"
  ],
  "pool": [
   "Long Sword",
-  "Serrated Dirk",
+  "Guardian's Blade",
   "Hubris",
   "Plated Steelcaps",
   "Death's Dance",
   "Serylda's Grudge",
   "Overlord's Bloodmail",
   "Endless Hunger",
-  "Sundered Sky",
   "Spear of Shojin",
+  "Sundered Sky",
   "Maw of Malmortius",
   "Sterak's Gage"
  ]

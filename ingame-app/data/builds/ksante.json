@@ -8,7 +8,9 @@
  ],
  "starting": [
   "Giant's Belt",
-  "Ruby Crystal"
+  "Ruby Crystal",
+  "Health Potion",
+  "Health Potion"
  ],
  "core": [
   "Heartsteel",
@@ -24,8 +26,8 @@
  ],
  "fifth": [
   "Warmog's Armor",
-  "Unending Despair",
   "Spirit Visage",
+  "Unending Despair",
   "Jak'Sho, The Protean"
  ],
  "sixth": [
@@ -37,6 +39,7 @@
  "pool": [
   "Giant's Belt",
   "Ruby Crystal",
+  "Health Potion",
   "Heartsteel",
   "Mercury's Treads",
   "Iceborn Gauntlet",

@@ -13,24 +13,24 @@
   "Luden's Echo",
   "Sorcerer's Shoes",
   "Rabadon's Deathcap",
-  "Shadowflame"
+  "Horizon Focus"
  ],
  "fourth": [
   "Terminus",
   "Dusk and Dawn",
-  "Horizon Focus",
-  "Void Staff"
+  "Shadowflame",
+  "Infinity Edge"
  ],
  "fifth": [
   "Stormsurge",
   "Terminus",
-  "Horizon Focus",
+  "Shadowflame",
   "Void Staff"
  ],
  "sixth": [
   "Stormsurge",
-  "Horizon Focus",
   "Void Staff",
+  "Shadowflame",
   "Terminus"
  ],
  "pool": [
@@ -38,11 +38,12 @@
   "Luden's Echo",
   "Sorcerer's Shoes",
   "Rabadon's Deathcap",
-  "Shadowflame",
+  "Horizon Focus",
   "Terminus",
   "Dusk and Dawn",
-  "Horizon Focus",
-  "Void Staff",
-  "Stormsurge"
+  "Shadowflame",
+  "Infinity Edge",
+  "Stormsurge",
+  "Void Staff"
  ]
 }
