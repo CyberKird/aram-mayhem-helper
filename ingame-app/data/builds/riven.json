@@ -17,22 +17,22 @@
   "Endless Hunger"
  ],
  "fourth": [
+  "Lord Dominik's Regards",
   "Maw of Malmortius",
   "Spear of Shojin",
-  "Eclipse",
-  "Sundered Sky"
+  "Eclipse"
  ],
  "fifth": [
-  "Maw of Malmortius",
+  "Lord Dominik's Regards",
   "Spear of Shojin",
-  "Eclipse",
+  "Maw of Malmortius",
   "Mortal Reminder"
  ],
  "sixth": [
+  "Lord Dominik's Regards",
   "Spear of Shojin",
   "Maw of Malmortius",
-  "Eclipse",
-  "Black Cleaver"
+  "Sterak's Gage"
  ],
  "pool": [
   "Long Sword",
@@ -41,11 +41,11 @@
   "Mercury's Treads",
   "Death's Dance",
   "Endless Hunger",
+  "Lord Dominik's Regards",
   "Maw of Malmortius",
   "Spear of Shojin",
   "Eclipse",
-  "Sundered Sky",
   "Mortal Reminder",
-  "Black Cleaver"
+  "Sterak's Gage"
  ]
 }

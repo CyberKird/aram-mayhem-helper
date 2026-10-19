@@ -7,26 +7,26 @@
   "Mark"
  ],
  "starting": [
-  "Long Sword",
-  "Guardian's Blade"
+  "Dagger",
+  "Phage"
  ],
  "core": [
   "Stridebreaker",
   "Berserker's Greaves",
-  "Phantom Dancer",
-  "Infinity Edge"
+  "Infinity Edge",
+  "Phantom Dancer"
  ],
  "fourth": [
   "Lord Dominik's Regards",
   "Unending Despair",
-  "Mortal Reminder",
-  "The Collector"
+  "The Collector",
+  "Mortal Reminder"
  ],
  "fifth": [
   "Endless Hunger",
   "Lord Dominik's Regards",
-  "The Collector",
-  "Death's Dance"
+  "Death's Dance",
+  "The Collector"
  ],
  "sixth": [
   "Endless Hunger",
@@ -35,16 +35,16 @@
   "The Collector"
  ],
  "pool": [
-  "Long Sword",
-  "Guardian's Blade",
+  "Dagger",
+  "Phage",
   "Stridebreaker",
   "Berserker's Greaves",
-  "Phantom Dancer",
   "Infinity Edge",
+  "Phantom Dancer",
   "Lord Dominik's Regards",
   "Unending Despair",
-  "Mortal Reminder",
   "The Collector",
+  "Mortal Reminder",
   "Endless Hunger",
   "Death's Dance"
  ]

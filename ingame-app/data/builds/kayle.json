@@ -7,8 +7,8 @@
   "Ghost"
  ],
  "starting": [
-  "Recurve Bow",
-  "Amplifying Tome",
+  "Blasting Wand",
+  "Dagger",
   "Glowing Mote"
  ],
  "core": [
@@ -31,13 +31,13 @@
  ],
  "sixth": [
   "Void Staff",
-  "Statikk Shiv",
   "Shadowflame",
-  "Riftmaker"
+  "Riftmaker",
+  "Statikk Shiv"
  ],
  "pool": [
-  "Recurve Bow",
-  "Amplifying Tome",
+  "Blasting Wand",
+  "Dagger",
   "Glowing Mote",
   "Nashor's Tooth",
   "Berserker's Greaves",

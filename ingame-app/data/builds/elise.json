@@ -11,9 +11,9 @@
   "Guardian's Orb"
  ],
  "core": [
-  "Lich Bane",
-  "Sorcerer's Shoes",
   "Shadowflame",
+  "Sorcerer's Shoes",
+  "Lich Bane",
   "Rabadon's Deathcap"
  ],
  "fourth": [
@@ -28,22 +28,22 @@
   "Morellonomicon"
  ],
  "sixth": [
-  "Cryptbloom",
-  "Void Staff",
   "Stormsurge",
+  "Void Staff",
+  "Banshee's Veil",
   "Liandry's Torment"
  ],
  "pool": [
   "Amplifying Tome",
   "Guardian's Orb",
-  "Lich Bane",
-  "Sorcerer's Shoes",
   "Shadowflame",
+  "Sorcerer's Shoes",
+  "Lich Bane",
   "Rabadon's Deathcap",
   "Stormsurge",
   "Void Staff",
   "Liandry's Torment",
   "Morellonomicon",
-  "Cryptbloom"
+  "Banshee's Veil"
  ]
 }

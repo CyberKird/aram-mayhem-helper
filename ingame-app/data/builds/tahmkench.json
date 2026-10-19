@@ -12,7 +12,6 @@
  ],
  "core": [
   "Heartsteel",
-  "Ionian Boots of Lucidity",
   "Warmog's Armor",
   "Riftmaker"
  ],
@@ -30,21 +29,19 @@
  ],
  "sixth": [
   "Rabadon's Deathcap",
-  "Shadowflame",
   "Dusk and Dawn",
+  "Spirit Visage",
   "Unending Despair"
  ],
  "pool": [
   "Giant's Belt",
   "Ruby Crystal",
   "Heartsteel",
-  "Ionian Boots of Lucidity",
   "Warmog's Armor",
   "Riftmaker",
   "Dusk and Dawn",
   "Rabadon's Deathcap",
   "Unending Despair",
-  "Spirit Visage",
-  "Shadowflame"
+  "Spirit Visage"
  ]
 }

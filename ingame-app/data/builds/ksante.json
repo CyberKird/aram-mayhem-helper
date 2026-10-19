@@ -8,42 +8,46 @@
  ],
  "starting": [
   "Giant's Belt",
-  "Ruby Crystal"
+  "Ruby Crystal",
+  "Health Potion",
+  "Health Potion"
  ],
  "core": [
   "Heartsteel",
-  "Plated Steelcaps",
-  "Unending Despair",
-  "Warmog's Armor"
+  "Mercury's Treads",
+  "Iceborn Gauntlet",
+  "Death's Dance"
  ],
  "fourth": [
+  "Warmog's Armor",
+  "Unending Despair",
   "Spirit Visage",
-  "Force of Nature",
-  "Jak'Sho, The Protean",
-  "Iceborn Gauntlet"
+  "Jak'Sho, The Protean"
  ],
  "fifth": [
+  "Warmog's Armor",
   "Spirit Visage",
-  "Jak'Sho, The Protean",
-  "Force of Nature",
-  "Iceborn Gauntlet"
+  "Unending Despair",
+  "Jak'Sho, The Protean"
  ],
  "sixth": [
   "Spirit Visage",
-  "Jak'Sho, The Protean",
-  "Iceborn Gauntlet",
+  "Unending Despair",
+  "Warmog's Armor",
   "Force of Nature"
  ],
  "pool": [
   "Giant's Belt",
   "Ruby Crystal",
+  "Health Potion",
   "Heartsteel",
-  "Plated Steelcaps",
-  "Unending Despair",
+  "Mercury's Treads",
+  "Iceborn Gauntlet",
+  "Death's Dance",
   "Warmog's Armor",
+  "Unending Despair",
   "Spirit Visage",
-  "Force of Nature",
   "Jak'Sho, The Protean",
-  "Iceborn Gauntlet"
+  "Force of Nature"
  ]
 }

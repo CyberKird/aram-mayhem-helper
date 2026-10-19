@@ -12,25 +12,25 @@
  ],
  "core": [
   "Heartsteel",
-  "Mercury's Treads",
-  "Overlord's Bloodmail",
+  "Boots of Swiftness",
+  "Unending Despair",
   "Warmog's Armor"
  ],
  "fourth": [
-  "Unending Despair",
+  "Overlord's Bloodmail",
   "Spirit Visage",
   "Death's Dance",
   "Sterak's Gage"
  ],
  "fifth": [
-  "Unending Despair",
+  "Overlord's Bloodmail",
   "Endless Hunger",
   "Sterak's Gage",
-  "Spear of Shojin"
+  "Black Cleaver"
  ],
  "sixth": [
+  "Overlord's Bloodmail",
   "Endless Hunger",
-  "Unending Despair",
   "Sterak's Gage",
   "Death's Dance"
  ],
@@ -38,14 +38,14 @@
   "Giant's Belt",
   "Ruby Crystal",
   "Heartsteel",
-  "Mercury's Treads",
-  "Overlord's Bloodmail",
-  "Warmog's Armor",
+  "Boots of Swiftness",
   "Unending Despair",
+  "Warmog's Armor",
+  "Overlord's Bloodmail",
   "Spirit Visage",
   "Death's Dance",
   "Sterak's Gage",
   "Endless Hunger",
-  "Spear of Shojin"
+  "Black Cleaver"
  ]
 }

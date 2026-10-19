@@ -20,19 +20,19 @@
   "Winter's Approach",
   "Jak'Sho, The Protean",
   "Spirit Visage",
-  "Kaenic Rookern"
+  "Randuin's Omen"
  ],
  "fifth": [
+  "Winter's Approach",
   "Jak'Sho, The Protean",
   "Spirit Visage",
-  "Winter's Approach",
-  "Frozen Heart"
+  "Thornmail"
  ],
  "sixth": [
-  "Jak'Sho, The Protean",
   "Spirit Visage",
-  "Overlord's Bloodmail",
-  "Winter's Approach"
+  "Jak'Sho, The Protean",
+  "Winter's Approach",
+  "Frozen Heart"
  ],
  "pool": [
   "Giant's Belt",
@@ -44,8 +44,8 @@
   "Winter's Approach",
   "Jak'Sho, The Protean",
   "Spirit Visage",
-  "Kaenic Rookern",
-  "Frozen Heart",
-  "Overlord's Bloodmail"
+  "Randuin's Omen",
+  "Thornmail",
+  "Frozen Heart"
  ]
 }

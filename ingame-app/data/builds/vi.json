@@ -7,43 +7,46 @@
   "Mark"
  ],
  "starting": [
-  "Giant's Belt",
-  "Ruby Crystal"
+  "Tunneler",
+  "Glowing Mote"
  ],
  "core": [
-  "Heartsteel",
-  "Plated Steelcaps",
   "Sundered Sky",
-  "Warmog's Armor"
+  "Mercury's Treads",
+  "Death's Dance",
+  "Eclipse"
  ],
  "fourth": [
   "Endless Hunger",
   "Lord Dominik's Regards",
-  "Death's Dance",
-  "Infinity Edge"
+  "Infinity Edge",
+  "Black Cleaver"
  ],
  "fifth": [
   "Endless Hunger",
   "Lord Dominik's Regards",
-  "Death's Dance",
-  "Infinity Edge"
+  "Infinity Edge",
+  "Sterak's Gage"
  ],
  "sixth": [
   "Endless Hunger",
-  "Death's Dance",
-  "Lord Dominik's Regards",
-  "Infinity Edge"
+  "Axiom Arc",
+  "Voltaic Cyclosword",
+  "Lord Dominik's Regards"
  ],
  "pool": [
-  "Giant's Belt",
-  "Ruby Crystal",
-  "Heartsteel",
-  "Plated Steelcaps",
+  "Tunneler",
+  "Glowing Mote",
   "Sundered Sky",
-  "Warmog's Armor",
+  "Mercury's Treads",
+  "Death's Dance",
+  "Eclipse",
   "Endless Hunger",
   "Lord Dominik's Regards",
-  "Death's Dance",
-  "Infinity Edge"
+  "Infinity Edge",
+  "Black Cleaver",
+  "Sterak's Gage",
+  "Axiom Arc",
+  "Voltaic Cyclosword"
  ]
 }

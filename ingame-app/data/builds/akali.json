@@ -7,42 +7,43 @@
   "Mark"
  ],
  "starting": [
-  "Needlessly Large Rod"
+  "Amplifying Tome",
+  "Guardian's Orb"
  ],
  "core": [
-  "Shadowflame",
+  "Hextech Gunblade",
   "Sorcerer's Shoes",
-  "Stormsurge",
+  "Shadowflame",
   "Rabadon's Deathcap"
  ],
  "fourth": [
-  "Void Staff",
   "Lich Bane",
-  "Hextech Gunblade",
-  "Riftmaker"
+  "Void Staff",
+  "Stormsurge",
+  "Zhonya's Hourglass"
  ],
  "fifth": [
   "Lich Bane",
   "Void Staff",
-  "Hextech Gunblade",
+  "Stormsurge",
   "Zhonya's Hourglass"
  ],
  "sixth": [
   "Lich Bane",
   "Void Staff",
   "Banshee's Veil",
-  "Zhonya's Hourglass"
+  "Stormsurge"
  ],
  "pool": [
-  "Needlessly Large Rod",
-  "Shadowflame",
-  "Sorcerer's Shoes",
-  "Stormsurge",
-  "Rabadon's Deathcap",
-  "Void Staff",
-  "Lich Bane",
+  "Amplifying Tome",
+  "Guardian's Orb",
   "Hextech Gunblade",
-  "Riftmaker",
+  "Sorcerer's Shoes",
+  "Shadowflame",
+  "Rabadon's Deathcap",
+  "Lich Bane",
+  "Void Staff",
+  "Stormsurge",
   "Zhonya's Hourglass",
   "Banshee's Veil"
  ]

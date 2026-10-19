@@ -18,18 +18,18 @@
  "fourth": [
   "Archangel's Staff",
   "Shadowflame",
-  "Horizon Focus",
-  "Void Staff"
+  "Void Staff",
+  "Malignance"
  ],
  "fifth": [
-  "Shadowflame",
   "Archangel's Staff",
+  "Shadowflame",
   "Horizon Focus",
   "Stormsurge"
  ],
  "sixth": [
-  "Horizon Focus",
   "Banshee's Veil",
+  "Horizon Focus",
   "Stormsurge",
   "Shadowflame"
  ],
@@ -41,8 +41,9 @@
   "Rabadon's Deathcap",
   "Archangel's Staff",
   "Shadowflame",
-  "Horizon Focus",
   "Void Staff",
+  "Malignance",
+  "Horizon Focus",
   "Stormsurge",
   "Banshee's Veil"
  ]

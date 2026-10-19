@@ -18,8 +18,8 @@
  ],
  "fourth": [
   "Archangel's Staff",
-  "Lord Dominik's Regards",
   "Spear of Shojin",
+  "Lord Dominik's Regards",
   "Infinity Edge"
  ],
  "fifth": [
@@ -30,9 +30,9 @@
  ],
  "sixth": [
   "Archangel's Staff",
-  "Bloodthirster",
-  "Shadowflame",
-  "Serylda's Grudge"
+  "Serylda's Grudge",
+  "Rabadon's Deathcap",
+  "Shadowflame"
  ],
  "pool": [
   "Tear of the Goddess",
@@ -42,11 +42,11 @@
   "Manamune",
   "Endless Hunger",
   "Archangel's Staff",
-  "Lord Dominik's Regards",
   "Spear of Shojin",
+  "Lord Dominik's Regards",
   "Infinity Edge",
   "Serylda's Grudge",
-  "Bloodthirster",
+  "Rabadon's Deathcap",
   "Shadowflame"
  ]
 }

@@ -7,46 +7,43 @@
   "Mark"
  ],
  "starting": [
-  "Tear of the Goddess",
-  "Serrated Dirk"
+  "Catalyst of Aeons"
  ],
  "core": [
   "Hubris",
   "Mercury's Treads",
   "Death's Dance",
-  "Endless Hunger"
- ],
- "fourth": [
-  "Manamune",
-  "Lord Dominik's Regards",
-  "Profane Hydra",
-  "Voltaic Cyclosword"
- ],
- "fifth": [
-  "Lord Dominik's Regards",
-  "Manamune",
-  "Voltaic Cyclosword",
-  "Serylda's Grudge"
- ],
- "sixth": [
-  "Youmuu's Ghostblade",
-  "Maw of Malmortius",
-  "Lord Dominik's Regards",
   "Manamune"
  ],
+ "fourth": [
+  "Endless Hunger",
+  "Lord Dominik's Regards",
+  "Voltaic Cyclosword",
+  "Profane Hydra"
+ ],
+ "fifth": [
+  "Endless Hunger",
+  "Lord Dominik's Regards",
+  "Serylda's Grudge",
+  "Voltaic Cyclosword"
+ ],
+ "sixth": [
+  "Endless Hunger",
+  "Youmuu's Ghostblade",
+  "Lord Dominik's Regards",
+  "Serylda's Grudge"
+ ],
  "pool": [
-  "Tear of the Goddess",
-  "Serrated Dirk",
+  "Catalyst of Aeons",
   "Hubris",
   "Mercury's Treads",
   "Death's Dance",
-  "Endless Hunger",
   "Manamune",
+  "Endless Hunger",
   "Lord Dominik's Regards",
-  "Profane Hydra",
   "Voltaic Cyclosword",
+  "Profane Hydra",
   "Serylda's Grudge",
-  "Youmuu's Ghostblade",
-  "Maw of Malmortius"
+  "Youmuu's Ghostblade"
  ]
 }

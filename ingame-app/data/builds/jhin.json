@@ -7,47 +7,48 @@
   "Ghost"
  ],
  "starting": [
-  "Boots",
-  "Serrated Dirk"
+  "Long Sword",
+  "Pickaxe",
+  "Refillable Potion"
  ],
  "core": [
-  "Hubris",
-  "Boots of Swiftness",
-  "Axiom Arc",
-  "Infinity Edge"
+  "The Collector",
+  "Berserker's Greaves",
+  "Infinity Edge",
+  "Hubris"
  ],
  "fourth": [
+  "Axiom Arc",
   "Lord Dominik's Regards",
   "Rapid Firecannon",
-  "Bloodthirster",
-  "Mortal Reminder"
+  "Bloodthirster"
  ],
  "fifth": [
+  "Axiom Arc",
   "Lord Dominik's Regards",
-  "Hexoptics C44",
-  "Phantom Dancer",
-  "Edge of Night"
+  "Edge of Night",
+  "Phantom Dancer"
  ],
  "sixth": [
+  "Axiom Arc",
   "Youmuu's Ghostblade",
   "Edge of Night",
-  "Lord Dominik's Regards",
-  "Hexoptics C44"
+  "Phantom Dancer"
  ],
  "pool": [
-  "Boots",
-  "Serrated Dirk",
-  "Hubris",
-  "Boots of Swiftness",
-  "Axiom Arc",
+  "Long Sword",
+  "Pickaxe",
+  "Refillable Potion",
+  "The Collector",
+  "Berserker's Greaves",
   "Infinity Edge",
+  "Hubris",
+  "Axiom Arc",
   "Lord Dominik's Regards",
   "Rapid Firecannon",
   "Bloodthirster",
-  "Mortal Reminder",
-  "Hexoptics C44",
-  "Phantom Dancer",
   "Edge of Night",
+  "Phantom Dancer",
   "Youmuu's Ghostblade"
  ]
 }

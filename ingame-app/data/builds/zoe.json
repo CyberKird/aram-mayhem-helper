@@ -19,20 +19,20 @@
  "fourth": [
   "Lich Bane",
   "Stormsurge",
-  "Horizon Focus",
-  "Void Staff"
+  "Void Staff",
+  "Horizon Focus"
  ],
  "fifth": [
-  "Stormsurge",
   "Lich Bane",
+  "Stormsurge",
   "Banshee's Veil",
   "Void Staff"
  ],
  "sixth": [
   "Stormsurge",
   "Lich Bane",
-  "Void Staff",
-  "Banshee's Veil"
+  "Banshee's Veil",
+  "Cryptbloom"
  ],
  "pool": [
   "Refillable Potion",
@@ -43,8 +43,9 @@
   "Shadowflame",
   "Lich Bane",
   "Stormsurge",
-  "Horizon Focus",
   "Void Staff",
-  "Banshee's Veil"
+  "Horizon Focus",
+  "Banshee's Veil",
+  "Cryptbloom"
  ]
 }

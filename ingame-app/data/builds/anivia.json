@@ -7,47 +7,43 @@
   "Ghost"
  ],
  "starting": [
-  "Blasting Wand",
-  "Refillable Potion",
-  "Tear of the Goddess"
+  "Catalyst of Aeons"
  ],
  "core": [
   "Rod of Ages",
-  "Sorcerer's Shoes",
+  "Boots of Swiftness",
   "Liandry's Torment",
   "Archangel's Staff"
  ],
  "fourth": [
   "Bloodletter's Curse",
   "Rabadon's Deathcap",
-  "Blackfire Torch",
-  "Malignance"
+  "Malignance",
+  "Blackfire Torch"
  ],
  "fifth": [
   "Bloodletter's Curse",
-  "Blackfire Torch",
+  "Malignance",
   "Rabadon's Deathcap",
-  "Shadowflame"
+  "Blackfire Torch"
  ],
  "sixth": [
   "Bloodletter's Curse",
   "Zhonya's Hourglass",
   "Shadowflame",
-  "Malignance"
+  "Rabadon's Deathcap"
  ],
  "pool": [
-  "Blasting Wand",
-  "Refillable Potion",
-  "Tear of the Goddess",
+  "Catalyst of Aeons",
   "Rod of Ages",
-  "Sorcerer's Shoes",
+  "Boots of Swiftness",
   "Liandry's Torment",
   "Archangel's Staff",
   "Bloodletter's Curse",
   "Rabadon's Deathcap",
-  "Blackfire Torch",
   "Malignance",
-  "Shadowflame",
-  "Zhonya's Hourglass"
+  "Blackfire Torch",
+  "Zhonya's Hourglass",
+  "Shadowflame"
  ]
 }

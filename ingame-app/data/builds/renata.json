@@ -4,7 +4,7 @@
  "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
-  "Ghost"
+  "Heal"
  ],
  "starting": [
   "Tear of the Goddess",
@@ -20,19 +20,19 @@
   "Ardent Censer",
   "Archangel's Staff",
   "Redemption",
-  "Shurelya's Battlesong"
+  "Locket of the Iron Solari"
  ],
  "fifth": [
   "Ardent Censer",
+  "Shurelya's Battlesong",
   "Archangel's Staff",
-  "Redemption",
-  "Shurelya's Battlesong"
+  "Redemption"
  ],
  "sixth": [
   "Ardent Censer",
   "Archangel's Staff",
-  "Redemption",
-  "Shurelya's Battlesong"
+  "Locket of the Iron Solari",
+  "Redemption"
  ],
  "pool": [
   "Tear of the Goddess",
@@ -44,6 +44,7 @@
   "Ardent Censer",
   "Archangel's Staff",
   "Redemption",
+  "Locket of the Iron Solari",
   "Shurelya's Battlesong"
  ]
 }

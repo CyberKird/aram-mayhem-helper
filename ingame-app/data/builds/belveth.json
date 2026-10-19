@@ -14,25 +14,25 @@
   "Yun Tal Wildarrows",
   "Mercury's Treads",
   "Death's Dance",
-  "Infinity Edge"
+  "Lord Dominik's Regards"
  ],
  "fourth": [
-  "Lord Dominik's Regards",
-  "Terminus",
+  "Infinity Edge",
   "Guinsoo's Rageblade",
+  "Terminus",
   "Blade of The Ruined King"
  ],
  "fifth": [
-  "Lord Dominik's Regards",
+  "Infinity Edge",
   "Endless Hunger",
   "Terminus",
   "Guinsoo's Rageblade"
  ],
  "sixth": [
   "Endless Hunger",
-  "Guinsoo's Rageblade",
-  "Terminus",
-  "Bloodthirster"
+  "Infinity Edge",
+  "Bloodthirster",
+  "Guinsoo's Rageblade"
  ],
  "pool": [
   "Long Sword",
@@ -40,10 +40,10 @@
   "Yun Tal Wildarrows",
   "Mercury's Treads",
   "Death's Dance",
-  "Infinity Edge",
   "Lord Dominik's Regards",
-  "Terminus",
+  "Infinity Edge",
   "Guinsoo's Rageblade",
+  "Terminus",
   "Blade of The Ruined King",
   "Endless Hunger",
   "Bloodthirster"

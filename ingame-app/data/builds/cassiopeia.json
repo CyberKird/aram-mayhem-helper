@@ -20,19 +20,19 @@
   "Rabadon's Deathcap",
   "Archangel's Staff",
   "Bloodletter's Curse",
-  "Riftmaker"
+  "Shadowflame"
  ],
  "fifth": [
   "Archangel's Staff",
   "Bloodletter's Curse",
-  "Rabadon's Deathcap",
-  "Shadowflame"
+  "Riftmaker",
+  "Rabadon's Deathcap"
  ],
  "sixth": [
   "Bloodletter's Curse",
+  "Riftmaker",
   "Archangel's Staff",
-  "Rabadon's Deathcap",
-  "Riftmaker"
+  "Rabadon's Deathcap"
  ],
  "pool": [
   "Fated Ashes",
@@ -44,7 +44,7 @@
   "Rabadon's Deathcap",
   "Archangel's Staff",
   "Bloodletter's Curse",
-  "Riftmaker",
-  "Shadowflame"
+  "Shadowflame",
+  "Riftmaker"
  ]
 }

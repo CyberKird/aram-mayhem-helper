@@ -11,14 +11,14 @@
   "Guardian's Orb"
  ],
  "core": [
-  "Lich Bane",
-  "Ionian Boots of Lucidity",
   "Shadowflame",
+  "Sorcerer's Shoes",
+  "Lich Bane",
   "Rabadon's Deathcap"
  ],
  "fourth": [
-  "Stormsurge",
   "Void Staff",
+  "Stormsurge",
   "Zhonya's Hourglass"
  ],
  "fifth": [
@@ -27,20 +27,20 @@
   "Zhonya's Hourglass"
  ],
  "sixth": [
-  "Zhonya's Hourglass",
-  "Stormsurge",
   "Cryptbloom",
+  "Stormsurge",
+  "Zhonya's Hourglass",
   "Void Staff"
  ],
  "pool": [
   "Amplifying Tome",
   "Guardian's Orb",
-  "Lich Bane",
-  "Ionian Boots of Lucidity",
   "Shadowflame",
+  "Sorcerer's Shoes",
+  "Lich Bane",
   "Rabadon's Deathcap",
-  "Stormsurge",
   "Void Staff",
+  "Stormsurge",
   "Zhonya's Hourglass",
   "Cryptbloom"
  ]

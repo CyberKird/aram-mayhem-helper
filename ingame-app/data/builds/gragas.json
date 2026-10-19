@@ -7,8 +7,8 @@
   "Mark"
  ],
  "starting": [
-  "Blasting Wand",
-  "Amplifying Tome"
+  "Amplifying Tome",
+  "Guardian's Orb"
  ],
  "core": [
   "Lich Bane",
@@ -17,33 +17,34 @@
   "Rabadon's Deathcap"
  ],
  "fourth": [
-  "Stormsurge",
   "Void Staff",
+  "Stormsurge",
   "Warmog's Armor",
-  "Unending Despair"
+  "Winter's Approach"
  ],
  "fifth": [
-  "Stormsurge",
   "Void Staff",
+  "Stormsurge",
   "Warmog's Armor",
   "Unending Despair"
  ],
  "sixth": [
-  "Void Staff",
   "Stormsurge",
+  "Void Staff",
   "Warmog's Armor",
   "Unending Despair"
  ],
  "pool": [
-  "Blasting Wand",
   "Amplifying Tome",
+  "Guardian's Orb",
   "Lich Bane",
   "Sorcerer's Shoes",
   "Shadowflame",
   "Rabadon's Deathcap",
-  "Stormsurge",
   "Void Staff",
+  "Stormsurge",
   "Warmog's Armor",
+  "Winter's Approach",
   "Unending Despair"
  ]
 }

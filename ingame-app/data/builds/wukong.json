@@ -12,7 +12,7 @@
  ],
  "core": [
   "Heartsteel",
-  "Mercury's Treads",
+  "Plated Steelcaps",
   "Overlord's Bloodmail",
   "Warmog's Armor"
  ],
@@ -20,31 +20,31 @@
   "Endless Hunger",
   "Death's Dance",
   "Trinity Force",
-  "Black Cleaver"
+  "Infinity Edge"
  ],
  "fifth": [
   "Endless Hunger",
-  "Sterak's Gage",
+  "Infinity Edge",
   "Death's Dance",
-  "Trinity Force"
+  "Sterak's Gage"
  ],
  "sixth": [
   "Endless Hunger",
   "Death's Dance",
   "Sterak's Gage",
-  "Trinity Force"
+  "Infinity Edge"
  ],
  "pool": [
   "Giant's Belt",
   "Ruby Crystal",
   "Heartsteel",
-  "Mercury's Treads",
+  "Plated Steelcaps",
   "Overlord's Bloodmail",
   "Warmog's Armor",
   "Endless Hunger",
   "Death's Dance",
   "Trinity Force",
-  "Black Cleaver",
+  "Infinity Edge",
   "Sterak's Gage"
  ]
 }

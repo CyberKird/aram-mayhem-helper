@@ -17,15 +17,15 @@
   "Lord Dominik's Regards"
  ],
  "fourth": [
+  "Endless Hunger",
   "Voltaic Cyclosword",
-  "Death's Dance",
   "Infinity Edge",
-  "Serylda's Grudge"
+  "Death's Dance"
  ],
  "fifth": [
   "Endless Hunger",
-  "Edge of Night",
   "Death's Dance",
+  "Edge of Night",
   "Infinity Edge"
  ],
  "sixth": [
@@ -41,11 +41,10 @@
   "Ionian Boots of Lucidity",
   "Manamune",
   "Lord Dominik's Regards",
-  "Voltaic Cyclosword",
-  "Death's Dance",
-  "Infinity Edge",
-  "Serylda's Grudge",
   "Endless Hunger",
+  "Voltaic Cyclosword",
+  "Infinity Edge",
+  "Death's Dance",
   "Edge of Night",
   "Youmuu's Ghostblade"
  ]

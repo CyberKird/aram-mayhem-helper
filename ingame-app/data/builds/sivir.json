@@ -18,20 +18,20 @@
  "fourth": [
   "Lord Dominik's Regards",
   "Bloodthirster",
-  "The Collector",
+  "Mortal Reminder",
   "Blade of The Ruined King"
  ],
  "fifth": [
   "Lord Dominik's Regards",
   "Bloodthirster",
   "Kraken Slayer",
-  "Statikk Shiv"
+  "Blade of The Ruined King"
  ],
  "sixth": [
   "Bloodthirster",
   "Phantom Dancer",
-  "Lord Dominik's Regards",
-  "Blade of The Ruined King"
+  "Blade of The Ruined King",
+  "Lord Dominik's Regards"
  ],
  "pool": [
   "B. F. Sword",
@@ -41,10 +41,9 @@
   "Navori Flickerblade",
   "Lord Dominik's Regards",
   "Bloodthirster",
-  "The Collector",
+  "Mortal Reminder",
   "Blade of The Ruined King",
   "Kraken Slayer",
-  "Statikk Shiv",
   "Phantom Dancer"
  ]
 }

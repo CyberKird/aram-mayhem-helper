@@ -7,8 +7,8 @@
   "Ghost"
  ],
  "starting": [
-  "Refillable Potion",
-  "Lost Chapter"
+  "Sapphire Crystal",
+  "Fated Ashes"
  ],
  "core": [
   "Blackfire Torch",
@@ -17,35 +17,34 @@
   "Rabadon's Deathcap"
  ],
  "fourth": [
-  "Horizon Focus",
   "Archangel's Staff",
+  "Horizon Focus",
   "Shadowflame",
-  "Rylai's Crystal Scepter"
+  "Cryptbloom"
  ],
  "fifth": [
   "Bloodletter's Curse",
-  "Horizon Focus",
   "Archangel's Staff",
-  "Cryptbloom"
+  "Horizon Focus",
+  "Shadowflame"
  ],
  "sixth": [
   "Horizon Focus",
   "Archangel's Staff",
-  "Bloodletter's Curse",
-  "Cryptbloom"
+  "Cryptbloom",
+  "Bloodletter's Curse"
  ],
  "pool": [
-  "Refillable Potion",
-  "Lost Chapter",
+  "Sapphire Crystal",
+  "Fated Ashes",
   "Blackfire Torch",
   "Sorcerer's Shoes",
   "Liandry's Torment",
   "Rabadon's Deathcap",
-  "Horizon Focus",
   "Archangel's Staff",
+  "Horizon Focus",
   "Shadowflame",
-  "Rylai's Crystal Scepter",
-  "Bloodletter's Curse",
-  "Cryptbloom"
+  "Cryptbloom",
+  "Bloodletter's Curse"
  ]
 }

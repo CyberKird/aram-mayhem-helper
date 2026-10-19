@@ -11,22 +11,22 @@
   "Guardian's Blade"
  ],
  "core": [
-  "Stridebreaker",
+  "Ravenous Hydra",
   "Boots of Swiftness",
   "Experimental Hexplate",
   "Death's Dance"
  ],
  "fourth": [
   "Endless Hunger",
-  "Ravenous Hydra",
+  "Sundered Sky",
   "Sterak's Gage",
-  "Sundered Sky"
+  "Blade of The Ruined King"
  ],
  "fifth": [
-  "Maw of Malmortius",
   "Endless Hunger",
   "Sterak's Gage",
-  "Sundered Sky"
+  "Spirit Visage",
+  "Blade of The Ruined King"
  ],
  "sixth": [
   "Endless Hunger",
@@ -37,15 +37,15 @@
  "pool": [
   "Long Sword",
   "Guardian's Blade",
-  "Stridebreaker",
+  "Ravenous Hydra",
   "Boots of Swiftness",
   "Experimental Hexplate",
   "Death's Dance",
   "Endless Hunger",
-  "Ravenous Hydra",
-  "Sterak's Gage",
   "Sundered Sky",
-  "Maw of Malmortius",
-  "Spirit Visage"
+  "Sterak's Gage",
+  "Blade of The Ruined King",
+  "Spirit Visage",
+  "Maw of Malmortius"
  ]
 }

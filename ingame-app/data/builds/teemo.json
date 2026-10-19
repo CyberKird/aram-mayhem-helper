@@ -16,21 +16,21 @@
   "Statikk Shiv"
  ],
  "fourth": [
-  "Nashor's Tooth",
   "Rabadon's Deathcap",
+  "Nashor's Tooth",
   "Blackfire Torch",
   "Shadowflame"
  ],
  "fifth": [
   "Shadowflame",
-  "Blackfire Torch",
   "Rabadon's Deathcap",
-  "Nashor's Tooth"
+  "Nashor's Tooth",
+  "Blackfire Torch"
  ],
  "sixth": [
   "Shadowflame",
-  "Bloodletter's Curse",
   "Void Staff",
+  "Nashor's Tooth",
   "Cryptbloom"
  ],
  "pool": [
@@ -39,11 +39,10 @@
   "Sorcerer's Shoes",
   "Liandry's Torment",
   "Statikk Shiv",
-  "Nashor's Tooth",
   "Rabadon's Deathcap",
+  "Nashor's Tooth",
   "Blackfire Torch",
   "Shadowflame",
-  "Bloodletter's Curse",
   "Void Staff",
   "Cryptbloom"
  ]

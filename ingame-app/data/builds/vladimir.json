@@ -11,40 +11,41 @@
   "Guardian's Orb"
  ],
  "core": [
-  "Shadowflame",
-  "Sorcerer's Shoes",
-  "Rabadon's Deathcap",
-  "Riftmaker"
+  "Cosmic Drive",
+  "Ionian Boots of Lucidity",
+  "Riftmaker",
+  "Rabadon's Deathcap"
  ],
  "fourth": [
   "Void Staff",
   "Warmog's Armor",
-  "Cryptbloom",
+  "Shadowflame",
   "Zhonya's Hourglass"
  ],
  "fifth": [
   "Void Staff",
   "Warmog's Armor",
-  "Zhonya's Hourglass",
-  "Cosmic Drive"
+  "Shadowflame",
+  "Zhonya's Hourglass"
  ],
  "sixth": [
+  "Stormsurge",
   "Warmog's Armor",
-  "Cosmic Drive",
   "Void Staff",
-  "Zhonya's Hourglass"
+  "Spirit Visage"
  ],
  "pool": [
   "Amplifying Tome",
   "Guardian's Orb",
-  "Shadowflame",
-  "Sorcerer's Shoes",
-  "Rabadon's Deathcap",
+  "Cosmic Drive",
+  "Ionian Boots of Lucidity",
   "Riftmaker",
+  "Rabadon's Deathcap",
   "Void Staff",
   "Warmog's Armor",
-  "Cryptbloom",
+  "Shadowflame",
   "Zhonya's Hourglass",
-  "Cosmic Drive"
+  "Stormsurge",
+  "Spirit Visage"
  ]
 }

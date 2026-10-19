@@ -17,21 +17,21 @@
  ],
  "fourth": [
   "Shadowflame",
-  "Lich Bane",
   "Void Staff",
+  "Lich Bane",
   "Stormsurge"
  ],
  "fifth": [
+  "Shadowflame",
   "Lich Bane",
   "Stormsurge",
-  "Shadowflame",
   "Void Staff"
  ],
  "sixth": [
   "Lich Bane",
+  "Banshee's Veil",
   "Stormsurge",
-  "Shadowflame",
-  "Banshee's Veil"
+  "Void Staff"
  ],
  "pool": [
   "Lost Chapter",
@@ -40,8 +40,8 @@
   "Liandry's Torment",
   "Rabadon's Deathcap",
   "Shadowflame",
-  "Lich Bane",
   "Void Staff",
+  "Lich Bane",
   "Stormsurge",
   "Banshee's Veil"
  ]

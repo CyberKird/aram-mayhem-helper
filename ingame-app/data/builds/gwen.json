@@ -7,20 +7,19 @@
   "Mark"
  ],
  "starting": [
-  "Boots",
+  "Blasting Wand",
   "Dagger",
-  "Fiendish Codex"
+  "Glowing Mote"
  ],
  "core": [
-  "Nashor's Tooth",
-  "Sorcerer's Shoes",
   "Dusk and Dawn",
+  "Sorcerer's Shoes",
+  "Nashor's Tooth",
   "Shadowflame"
  ],
  "fourth": [
   "Rabadon's Deathcap",
   "Riftmaker",
-  "Void Staff",
   "Spirit Visage"
  ],
  "fifth": [
@@ -32,21 +31,20 @@
  "sixth": [
   "Rabadon's Deathcap",
   "Void Staff",
-  "Cosmic Drive",
+  "Riftmaker",
   "Spirit Visage"
  ],
  "pool": [
-  "Boots",
+  "Blasting Wand",
   "Dagger",
-  "Fiendish Codex",
-  "Nashor's Tooth",
-  "Sorcerer's Shoes",
+  "Glowing Mote",
   "Dusk and Dawn",
+  "Sorcerer's Shoes",
+  "Nashor's Tooth",
   "Shadowflame",
   "Rabadon's Deathcap",
   "Riftmaker",
-  "Void Staff",
   "Spirit Visage",
-  "Cosmic Drive"
+  "Void Staff"
  ]
 }

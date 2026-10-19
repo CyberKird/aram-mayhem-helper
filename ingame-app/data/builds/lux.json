@@ -12,20 +12,20 @@
  ],
  "core": [
   "Luden's Echo",
-  "Ionian Boots of Lucidity",
+  "Sorcerer's Shoes",
   "Rabadon's Deathcap",
   "Shadowflame"
  ],
  "fourth": [
   "Archangel's Staff",
   "Stormsurge",
-  "Void Staff",
-  "Horizon Focus"
+  "Malignance",
+  "Void Staff"
  ],
  "fifth": [
-  "Horizon Focus",
   "Stormsurge",
   "Archangel's Staff",
+  "Horizon Focus",
   "Void Staff"
  ],
  "sixth": [
@@ -38,11 +38,12 @@
   "Refillable Potion",
   "Lost Chapter",
   "Luden's Echo",
-  "Ionian Boots of Lucidity",
+  "Sorcerer's Shoes",
   "Rabadon's Deathcap",
   "Shadowflame",
   "Archangel's Staff",
   "Stormsurge",
+  "Malignance",
   "Void Staff",
   "Horizon Focus",
   "Banshee's Veil"

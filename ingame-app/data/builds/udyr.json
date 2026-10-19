@@ -23,14 +23,14 @@
  "fifth": [
   "Stormsurge",
   "Void Staff",
-  "Bloodletter's Curse",
-  "Rylai's Crystal Scepter"
+  "Rylai's Crystal Scepter",
+  "Morellonomicon"
  ],
  "sixth": [
   "Stormsurge",
   "Void Staff",
   "Blackfire Torch",
-  "Bloodletter's Curse"
+  "Rylai's Crystal Scepter"
  ],
  "pool": [
   "Haunting Guise",
@@ -41,7 +41,7 @@
   "Stormsurge",
   "Void Staff",
   "Rylai's Crystal Scepter",
-  "Bloodletter's Curse",
+  "Morellonomicon",
   "Blackfire Torch"
  ]
 }

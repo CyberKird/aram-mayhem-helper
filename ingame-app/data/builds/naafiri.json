@@ -17,21 +17,21 @@
   "Death's Dance"
  ],
  "fourth": [
-  "Voltaic Cyclosword",
-  "Axiom Arc",
   "Serylda's Grudge",
+  "Axiom Arc",
+  "Voltaic Cyclosword",
   "Lord Dominik's Regards"
  ],
  "fifth": [
-  "Serylda's Grudge",
   "Axiom Arc",
-  "Lord Dominik's Regards",
-  "Voltaic Cyclosword"
+  "Serylda's Grudge",
+  "Voltaic Cyclosword",
+  "Lord Dominik's Regards"
  ],
  "sixth": [
   "Serylda's Grudge",
   "Axiom Arc",
-  "Voltaic Cyclosword",
+  "Lord Dominik's Regards",
   "Edge of Night"
  ],
  "pool": [
@@ -41,9 +41,9 @@
   "Mercury's Treads",
   "Endless Hunger",
   "Death's Dance",
-  "Voltaic Cyclosword",
-  "Axiom Arc",
   "Serylda's Grudge",
+  "Axiom Arc",
+  "Voltaic Cyclosword",
   "Lord Dominik's Regards",
   "Edge of Night"
  ]

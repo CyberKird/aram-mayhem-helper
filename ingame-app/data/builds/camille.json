@@ -18,21 +18,21 @@
  ],
  "fourth": [
   "Endless Hunger",
-  "Spear of Shojin",
   "Maw of Malmortius",
+  "Spear of Shojin",
   "Sterak's Gage"
  ],
  "fifth": [
   "Endless Hunger",
-  "Spirit Visage",
   "Spear of Shojin",
-  "Sterak's Gage"
+  "Sterak's Gage",
+  "Maw of Malmortius"
  ],
  "sixth": [
   "Endless Hunger",
   "Sterak's Gage",
-  "Eclipse",
-  "Maw of Malmortius"
+  "Spirit Visage",
+  "Spear of Shojin"
  ],
  "pool": [
   "Long Sword",
@@ -42,10 +42,9 @@
   "Ravenous Hydra",
   "Death's Dance",
   "Endless Hunger",
-  "Spear of Shojin",
   "Maw of Malmortius",
+  "Spear of Shojin",
   "Sterak's Gage",
-  "Spirit Visage",
-  "Eclipse"
+  "Spirit Visage"
  ]
 }

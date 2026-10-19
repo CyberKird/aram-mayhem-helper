@@ -17,22 +17,22 @@
   "Warmog's Armor"
  ],
  "fourth": [
-  "Force of Nature",
   "Jak'Sho, The Protean",
+  "Force of Nature",
   "Sunfire Aegis",
-  "Thornmail"
+  "Hollow Radiance"
  ],
  "fifth": [
   "Force of Nature",
-  "Hollow Radiance",
-  "Jak'Sho, The Protean",
-  "Thornmail"
+  "Thornmail",
+  "Sunfire Aegis",
+  "Jak'Sho, The Protean"
  ],
  "sixth": [
   "Jak'Sho, The Protean",
-  "Force of Nature",
   "Thornmail",
-  "Sunfire Aegis"
+  "Overlord's Bloodmail",
+  "Force of Nature"
  ],
  "pool": [
   "Giant's Belt",
@@ -41,10 +41,11 @@
   "Mercury's Treads",
   "Unending Despair",
   "Warmog's Armor",
-  "Force of Nature",
   "Jak'Sho, The Protean",
+  "Force of Nature",
   "Sunfire Aegis",
+  "Hollow Radiance",
   "Thornmail",
-  "Hollow Radiance"
+  "Overlord's Bloodmail"
  ]
 }

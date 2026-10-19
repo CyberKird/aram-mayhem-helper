@@ -11,41 +11,42 @@
   "Guardian's Blade"
  ],
  "core": [
-  "Ravenous Hydra",
+  "Blade of The Ruined King",
   "Mercury's Treads",
   "Death's Dance",
-  "Blade of The Ruined King"
+  "Terminus"
  ],
  "fourth": [
   "Endless Hunger",
+  "Ravenous Hydra",
   "Titanic Hydra",
-  "Trinity Force",
-  "Spirit Visage"
+  "Trinity Force"
  ],
  "fifth": [
   "Endless Hunger",
-  "Trinity Force",
+  "Ravenous Hydra",
   "Titanic Hydra",
   "Sundered Sky"
  ],
  "sixth": [
   "Endless Hunger",
-  "Titanic Hydra",
   "Spirit Visage",
-  "Sterak's Gage"
+  "Sterak's Gage",
+  "Ravenous Hydra"
  ],
  "pool": [
   "Long Sword",
   "Guardian's Blade",
-  "Ravenous Hydra",
+  "Blade of The Ruined King",
   "Mercury's Treads",
   "Death's Dance",
-  "Blade of The Ruined King",
+  "Terminus",
   "Endless Hunger",
+  "Ravenous Hydra",
   "Titanic Hydra",
   "Trinity Force",
-  "Spirit Visage",
   "Sundered Sky",
+  "Spirit Visage",
   "Sterak's Gage"
  ]
 }

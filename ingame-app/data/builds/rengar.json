@@ -18,21 +18,21 @@
  ],
  "fourth": [
   "Axiom Arc",
-  "Infinity Edge",
   "Death's Dance",
+  "Infinity Edge",
   "Voltaic Cyclosword"
  ],
  "fifth": [
   "Endless Hunger",
-  "Axiom Arc",
   "Death's Dance",
+  "Axiom Arc",
   "Infinity Edge"
  ],
  "sixth": [
   "Endless Hunger",
-  "Youmuu's Ghostblade",
   "Death's Dance",
-  "Axiom Arc"
+  "Axiom Arc",
+  "Voltaic Cyclosword"
  ],
  "pool": [
   "Long Sword",
@@ -42,10 +42,9 @@
   "The Collector",
   "Lord Dominik's Regards",
   "Axiom Arc",
-  "Infinity Edge",
   "Death's Dance",
+  "Infinity Edge",
   "Voltaic Cyclosword",
-  "Endless Hunger",
-  "Youmuu's Ghostblade"
+  "Endless Hunger"
  ]
 }

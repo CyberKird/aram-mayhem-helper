@@ -12,40 +12,40 @@
  ],
  "core": [
   "Hubris",
-  "Plated Steelcaps",
+  "Mercury's Treads",
   "Death's Dance",
   "Endless Hunger"
  ],
  "fourth": [
-  "Axiom Arc",
-  "Maw of Malmortius",
-  "Eclipse",
-  "The Collector"
- ],
- "fifth": [
-  "Serylda's Grudge",
+  "Voltaic Cyclosword",
   "Axiom Arc",
   "Maw of Malmortius",
   "Eclipse"
  ],
+ "fifth": [
+  "Axiom Arc",
+  "Maw of Malmortius",
+  "Eclipse",
+  "Ravenous Hydra"
+ ],
  "sixth": [
   "Axiom Arc",
-  "Serylda's Grudge",
-  "Edge of Night",
-  "Maw of Malmortius"
+  "Maw of Malmortius",
+  "Eclipse",
+  "Sterak's Gage"
  ],
  "pool": [
   "Long Sword",
   "Guardian's Blade",
   "Hubris",
-  "Plated Steelcaps",
+  "Mercury's Treads",
   "Death's Dance",
   "Endless Hunger",
+  "Voltaic Cyclosword",
   "Axiom Arc",
   "Maw of Malmortius",
   "Eclipse",
-  "The Collector",
-  "Serylda's Grudge",
-  "Edge of Night"
+  "Ravenous Hydra",
+  "Sterak's Gage"
  ]
 }

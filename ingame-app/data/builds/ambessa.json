@@ -24,15 +24,15 @@
  ],
  "fifth": [
   "Lord Dominik's Regards",
-  "Axiom Arc",
   "Endless Hunger",
-  "Maw of Malmortius"
+  "Maw of Malmortius",
+  "Spear of Shojin"
  ],
  "sixth": [
-  "Axiom Arc",
   "Lord Dominik's Regards",
-  "Serylda's Grudge",
-  "Maw of Malmortius"
+  "Axiom Arc",
+  "Endless Hunger",
+  "Spear of Shojin"
  ],
  "pool": [
   "Long Sword",
@@ -45,8 +45,7 @@
   "Endless Hunger",
   "Mortal Reminder",
   "Spear of Shojin",
-  "Axiom Arc",
   "Maw of Malmortius",
-  "Serylda's Grudge"
+  "Axiom Arc"
  ]
 }

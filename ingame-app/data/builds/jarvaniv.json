@@ -12,25 +12,25 @@
  ],
  "core": [
   "Heartsteel",
-  "Mercury's Treads",
+  "Plated Steelcaps",
   "Unending Despair",
   "Warmog's Armor"
  ],
  "fourth": [
-  "Endless Hunger",
   "Overlord's Bloodmail",
-  "Lord Dominik's Regards",
-  "Profane Hydra"
+  "Endless Hunger",
+  "Voltaic Cyclosword",
+  "Lord Dominik's Regards"
  ],
  "fifth": [
-  "Endless Hunger",
   "Overlord's Bloodmail",
-  "Lord Dominik's Regards",
-  "Profane Hydra"
+  "Endless Hunger",
+  "Voltaic Cyclosword",
+  "Lord Dominik's Regards"
  ],
  "sixth": [
   "Endless Hunger",
-  "Profane Hydra",
+  "Voltaic Cyclosword",
   "Lord Dominik's Regards",
   "Overlord's Bloodmail"
  ],
@@ -38,12 +38,12 @@
   "Giant's Belt",
   "Ruby Crystal",
   "Heartsteel",
-  "Mercury's Treads",
+  "Plated Steelcaps",
   "Unending Despair",
   "Warmog's Armor",
-  "Endless Hunger",
   "Overlord's Bloodmail",
-  "Lord Dominik's Regards",
-  "Profane Hydra"
+  "Endless Hunger",
+  "Voltaic Cyclosword",
+  "Lord Dominik's Regards"
  ]
 }

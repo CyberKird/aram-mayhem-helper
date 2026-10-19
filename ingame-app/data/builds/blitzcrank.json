@@ -7,43 +7,45 @@
   "Mark"
  ],
  "starting": [
-  "Lost Chapter"
+  "Blasting Wand",
+  "Tear of the Goddess"
  ],
  "core": [
-  "Luden's Echo",
+  "Malignance",
   "Ionian Boots of Lucidity",
   "Rabadon's Deathcap",
   "Shadowflame"
  ],
  "fourth": [
   "Warmog's Armor",
-  "Winter's Approach",
   "Frozen Heart",
-  "Unending Despair"
+  "Winter's Approach",
+  "Stormsurge"
  ],
  "fifth": [
   "Warmog's Armor",
-  "Frozen Heart",
-  "Winter's Approach",
-  "Stormsurge"
+  "Unending Despair",
+  "Stormsurge",
+  "Winter's Approach"
  ],
  "sixth": [
   "Warmog's Armor",
-  "Jak'Sho, The Protean",
-  "Winter's Approach",
-  "Stormsurge"
+  "Stormsurge",
+  "Spirit Visage",
+  "Unending Despair"
  ],
  "pool": [
-  "Lost Chapter",
-  "Luden's Echo",
+  "Blasting Wand",
+  "Tear of the Goddess",
+  "Malignance",
   "Ionian Boots of Lucidity",
   "Rabadon's Deathcap",
   "Shadowflame",
   "Warmog's Armor",
-  "Winter's Approach",
   "Frozen Heart",
-  "Unending Despair",
+  "Winter's Approach",
   "Stormsurge",
-  "Jak'Sho, The Protean"
+  "Unending Despair",
+  "Spirit Visage"
  ]
 }

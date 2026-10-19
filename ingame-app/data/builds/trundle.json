@@ -8,7 +8,9 @@
  ],
  "starting": [
   "Giant's Belt",
-  "Ruby Crystal"
+  "Ruby Crystal",
+  "Health Potion",
+  "Health Potion"
  ],
  "core": [
   "Heartsteel",
@@ -19,32 +21,28 @@
  "fourth": [
   "Warmog's Armor",
   "Spirit Visage",
-  "Sundered Sky",
   "Randuin's Omen"
  ],
  "fifth": [
   "Warmog's Armor",
   "Spirit Visage",
-  "Randuin's Omen",
-  "Thornmail"
+  "Randuin's Omen"
  ],
  "sixth": [
   "Warmog's Armor",
   "Spirit Visage",
-  "Thornmail",
   "Randuin's Omen"
  ],
  "pool": [
   "Giant's Belt",
   "Ruby Crystal",
+  "Health Potion",
   "Heartsteel",
   "Mercury's Treads",
   "Blade of The Ruined King",
   "Titanic Hydra",
   "Warmog's Armor",
   "Spirit Visage",
-  "Sundered Sky",
-  "Randuin's Omen",
-  "Thornmail"
+  "Randuin's Omen"
  ]
 }

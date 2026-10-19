@@ -7,9 +7,8 @@
   "Barrier"
  ],
  "starting": [
-  "Blasting Wand",
-  "Dagger",
-  "Glowing Mote"
+  "Amplifying Tome",
+  "Guardian's Orb"
  ],
  "core": [
   "Nashor's Tooth",
@@ -19,33 +18,32 @@
  ],
  "fourth": [
   "Void Staff",
-  "Dusk and Dawn",
   "Zhonya's Hourglass",
+  "Dusk and Dawn",
   "Liandry's Torment"
  ],
  "fifth": [
   "Void Staff",
-  "Zhonya's Hourglass",
   "Dusk and Dawn",
+  "Zhonya's Hourglass",
   "Riftmaker"
  ],
  "sixth": [
   "Void Staff",
-  "Zhonya's Hourglass",
   "Dusk and Dawn",
+  "Zhonya's Hourglass",
   "Riftmaker"
  ],
  "pool": [
-  "Blasting Wand",
-  "Dagger",
-  "Glowing Mote",
+  "Amplifying Tome",
+  "Guardian's Orb",
   "Nashor's Tooth",
   "Sorcerer's Shoes",
   "Shadowflame",
   "Rabadon's Deathcap",
   "Void Staff",
-  "Dusk and Dawn",
   "Zhonya's Hourglass",
+  "Dusk and Dawn",
   "Liandry's Torment",
   "Riftmaker"
  ]

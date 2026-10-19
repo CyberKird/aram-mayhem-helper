@@ -7,6 +7,7 @@
   "Mark"
  ],
  "starting": [
+  "Boots",
   "Hextech Alternator"
  ],
  "core": [
@@ -22,17 +23,18 @@
  ],
  "fifth": [
   "Banshee's Veil",
-  "Void Staff",
-  "Zhonya's Hourglass",
-  "Malignance"
- ],
- "sixth": [
-  "Banshee's Veil",
-  "Hextech Rocketbelt",
+  "Cryptbloom",
   "Void Staff",
   "Zhonya's Hourglass"
  ],
+ "sixth": [
+  "Banshee's Veil",
+  "Void Staff",
+  "Cryptbloom",
+  "Zhonya's Hourglass"
+ ],
  "pool": [
+  "Boots",
   "Hextech Alternator",
   "Stormsurge",
   "Sorcerer's Shoes",
@@ -42,6 +44,6 @@
   "Malignance",
   "Zhonya's Hourglass",
   "Banshee's Veil",
-  "Hextech Rocketbelt"
+  "Cryptbloom"
  ]
 }

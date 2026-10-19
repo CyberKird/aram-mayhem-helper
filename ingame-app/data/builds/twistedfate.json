@@ -7,6 +7,7 @@
   "Ghost"
  ],
  "starting": [
+  "Refillable Potion",
   "Lost Chapter"
  ],
  "core": [
@@ -17,8 +18,8 @@
  ],
  "fourth": [
   "Stormsurge",
-  "Void Staff",
   "Lich Bane",
+  "Void Staff",
   "Liandry's Torment"
  ],
  "fifth": [
@@ -34,14 +35,15 @@
   "Void Staff"
  ],
  "pool": [
+  "Refillable Potion",
   "Lost Chapter",
   "Luden's Echo",
   "Sorcerer's Shoes",
   "Rabadon's Deathcap",
   "Shadowflame",
   "Stormsurge",
-  "Void Staff",
   "Lich Bane",
+  "Void Staff",
   "Liandry's Torment",
   "Banshee's Veil"
  ]

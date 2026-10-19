@@ -12,40 +12,39 @@
  ],
  "core": [
   "Heartsteel",
-  "Mercury's Treads",
+  "Plated Steelcaps",
   "Blade of The Ruined King",
   "Titanic Hydra"
  ],
  "fourth": [
-  "Unending Despair",
   "Warmog's Armor",
+  "Unending Despair",
   "Death's Dance",
-  "Spirit Visage"
+  "Wit's End"
  ],
  "fifth": [
   "Warmog's Armor",
-  "Death's Dance",
+  "Endless Hunger",
   "Unending Despair",
-  "Spirit Visage"
+  "Death's Dance"
  ],
  "sixth": [
   "Warmog's Armor",
-  "Jak'Sho, The Protean",
   "Endless Hunger",
+  "Death's Dance",
   "Unending Despair"
  ],
  "pool": [
   "Giant's Belt",
   "Ruby Crystal",
   "Heartsteel",
-  "Mercury's Treads",
+  "Plated Steelcaps",
   "Blade of The Ruined King",
   "Titanic Hydra",
-  "Unending Despair",
   "Warmog's Armor",
+  "Unending Despair",
   "Death's Dance",
-  "Spirit Visage",
-  "Jak'Sho, The Protean",
+  "Wit's End",
   "Endless Hunger"
  ]
 }

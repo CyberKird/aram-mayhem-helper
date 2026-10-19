@@ -7,19 +7,20 @@
   "Mark"
  ],
  "starting": [
+  "Health Potion",
   "The Brutalizer"
  ],
  "core": [
   "Axiom Arc",
-  "Ionian Boots of Lucidity",
+  "Boots of Swiftness",
   "Hubris",
   "Voltaic Cyclosword"
  ],
  "fourth": [
+  "Endless Hunger",
   "Death's Dance",
   "Profane Hydra",
-  "Youmuu's Ghostblade",
-  "Lord Dominik's Regards"
+  "Youmuu's Ghostblade"
  ],
  "fifth": [
   "Endless Hunger",
@@ -28,21 +29,22 @@
   "Profane Hydra"
  ],
  "sixth": [
-  "Endless Hunger",
   "Youmuu's Ghostblade",
   "Death's Dance",
-  "Profane Hydra"
+  "Endless Hunger",
+  "Edge of Night"
  ],
  "pool": [
+  "Health Potion",
   "The Brutalizer",
   "Axiom Arc",
-  "Ionian Boots of Lucidity",
+  "Boots of Swiftness",
   "Hubris",
   "Voltaic Cyclosword",
+  "Endless Hunger",
   "Death's Dance",
   "Profane Hydra",
   "Youmuu's Ghostblade",
-  "Lord Dominik's Regards",
-  "Endless Hunger"
+  "Edge of Night"
  ]
 }

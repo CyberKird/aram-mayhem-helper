@@ -19,8 +19,8 @@
  "fourth": [
   "Riftmaker",
   "Spirit Visage",
-  "Winter's Approach",
-  "Jak'Sho, The Protean"
+  "Jak'Sho, The Protean",
+  "Kaenic Rookern"
  ],
  "fifth": [
   "Riftmaker",
@@ -32,7 +32,7 @@
   "Riftmaker",
   "Overlord's Bloodmail",
   "Jak'Sho, The Protean",
-  "Spirit Visage"
+  "Force of Nature"
  ],
  "pool": [
   "Giant's Belt",
@@ -43,8 +43,9 @@
   "Warmog's Armor",
   "Riftmaker",
   "Spirit Visage",
-  "Winter's Approach",
   "Jak'Sho, The Protean",
-  "Overlord's Bloodmail"
+  "Kaenic Rookern",
+  "Overlord's Bloodmail",
+  "Force of Nature"
  ]
 }

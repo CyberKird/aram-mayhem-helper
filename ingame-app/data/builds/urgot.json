@@ -18,9 +18,9 @@
  ],
  "fourth": [
   "Titanic Hydra",
+  "Unending Despair",
   "Black Cleaver",
-  "Sterak's Gage",
-  "Unending Despair"
+  "Sterak's Gage"
  ],
  "fifth": [
   "Unending Despair",
@@ -29,10 +29,10 @@
   "Black Cleaver"
  ],
  "sixth": [
+  "Sterak's Gage",
   "Unending Despair",
   "Black Cleaver",
-  "Spirit Visage",
-  "Sterak's Gage"
+  "Titanic Hydra"
  ],
  "pool": [
   "Giant's Belt",
@@ -42,9 +42,8 @@
   "Warmog's Armor",
   "Overlord's Bloodmail",
   "Titanic Hydra",
-  "Black Cleaver",
-  "Sterak's Gage",
   "Unending Despair",
-  "Spirit Visage"
+  "Black Cleaver",
+  "Sterak's Gage"
  ]
 }
