@@ -418,6 +418,7 @@ ipcMain.on('tip', (_e, t) => {
   if (!tip) {
     tip = overlay('aram://tip/overlay.html#tip')
     tip.ready = new Promise(r => tip.webContents.once('did-finish-load', r))
+    tip.setAlwaysOnTop(true, 'screen-saver', 1)      // un nivel peste panou
   }
   const seq = ++tipSeq, b = panel.getBounds(), z = ui.zoom || 1
   tipAnchor = { seq, x: b.x + t.rect.x * z, y: b.y + t.rect.y * z, w: t.rect.w * z, h: t.rect.h * z }
@@ -433,6 +434,7 @@ ipcMain.on('tip-size', (_e, s) => {
   const y = clamp(a.y, area.y, area.y + area.height - s.h)
   setBounds(tip, { x: clamp(x, area.x, area.x + area.width - s.w), y, width: s.w, height: s.h })
   tip.showInactive()
+  tip.moveTop()                       // un click pe panou il ridica: tooltip-ul trebuie sa ramana deasupra
 })
 
 ipcMain.on('tip-hide', hideTip)

@@ -243,9 +243,11 @@ class Engine:
         if box and box[3] - box[1] >= 300:
             l, t, r, b = box
             front = o.in_front(hwnd)
-            flipped = hud_settings.read().get("FlipMiniMap") == 1      # harta in stanga: nu e in golul nostru
-            mm = None if flipped else hud_settings.measured_minimap(box, o.grab, front)
-            x0, y0, x1, y1 = hud_settings.area(r - l, b - t, minimap_px=mm)
+            offer = bool(self.mon.augments or self.mon.stat_anvil)    # cartile de oferta acopera zona
+            hint = {1: True, 0: False}.get(hud_settings.read().get("FlipMiniMap"))
+            mm, seen = hud_settings.measured_minimap(box, o.grab, front and not offer, hud_settings.estimate_minimap(b - t), hint)
+            flipped = hint if seen is None else seen       # harta in stanga: golul merge pana la marginea ecranului
+            x0, y0, x1, y1 = hud_settings.area(r - l, b - t, minimap_px=mm, flipped=flipped)
             geo["game"] = {"box": list(box), "dock": [int(l + x0), int(t + y0), int(l + x1), int(t + y1)],
                            "front": front, "panel": panel_rect(), "minimap": mm}
             p, d = geo["game"]["panel"], geo["game"]["dock"]

@@ -14,7 +14,7 @@ import pathlib
 import time
 
 import psutil
-from PIL import Image, ImageChops
+from PIL import Image, ImageChops, ImageOps
 
 MINIMAP_PER_SCALE = 0.1446     # latimea hartii / (inaltimea jocului * MinimapScale)
 HUD_HALF_BASE = 0.228          # jumatatea HUD-ului (pana la aurul din dreapta), la GlobalScale 0
@@ -98,59 +98,91 @@ EDGE = 0.002           # cat lasam intre panou si chenarele vecine, din inaltime
 # Formula din setari e doar o estimare (alti jucatori, alta rezolutie, alte valori). Marginea
 # stanga a minimap-ului e o linie verticala dreapta, lunga cat harta, deci iese clar din
 # imagine: o cautam pe banda de deasupra panoului (panoul nu urca niciodata peste 0.255 din
-# inaltime), unde nu ne acopera propriul panou.
+# inaltime), unde nu ne acopera propriul panou. Banda e subtire (pana la 0.30) ca sa fie
+# toata in interiorul hartii, iar marginea trebuie sa fie o linie continua pe toata banda:
+# bare de viata, efecte, chenarele cartilor de augment au muchii tari, dar nu drepte si lungi.
 
-BAND_TOP, BAND_BOTTOM = 0.40, 0.255     # din inaltimea jocului, masurat de jos
-_mm = {"key": None, "px": None, "next": 0.0, "last": None}
+BAND_TOP, BAND_BOTTOM = 0.30, 0.255     # din inaltimea jocului, masurat de jos
+EDGE_MIN, COHERENCE = 20, 0.9           # diferenta de luminozitate, partea din banda
+_mm = {"key": None, "px": None, "next": 0.0, "last": None, "n": 0, "left": None}
 
 
-def detect_minimap(img, H):
-    """Latimea hartii in pixeli din banda `img` (de la W-0.8H pana la marginea dreapta), sau None."""
+def estimate_minimap(H, s=None):
+    """Latimea hartii dupa setari (estimare), sau valoarea implicita."""
+    s = read() if s is None else s
+    return (MINIMAP_PER_SCALE * s["MinimapScale"] if "MinimapScale" in s else 0.259) * H
+
+
+def detect_minimap(img, H, est=None):
+    """Latimea hartii in pixeli din banda `img` (de la W-0.8H pana la marginea dreapta), sau None.
+
+    Cautam doar aproape de estimare (0.75-1.35x): harta nu e niciodata de doua ori mai mare.
+    """
     w = img.width
+    est = est or 0.334 * H
     diff = ImageChops.difference(img, ImageChops.offset(img, 2, 0)).convert("L")
-    cols = list(diff.resize((w, 1), Image.BOX).getdata())
-    lo, hi = int(w - 0.6 * H), int(w - 0.2 * H)
-    window = sorted(cols[lo:hi])
-    peak = max(range(lo, hi), key=cols.__getitem__)
-    if cols[peak] < 15 or cols[peak] < 5 * max(window[len(window) // 2], 1):
+    mask = diff.point(lambda v: 255 if v > EDGE_MIN else 0)
+    cols = list(mask.resize((w, 1), Image.BOX).getdata())
+    lo, hi = max(2, int(w - 1.35 * est)), min(w - 2, int(w - 0.75 * est))
+    # cea mai continua linie (la egalitate, cea mai din stanga = marginea exterioara a ramei)
+    best = max(range(lo, hi), key=lambda x: (cols[x] // 13, -x), default=None)
+    if best is None or cols[best] < 255 * COHERENCE:
         return None                     # nicio margine clara: nu ghicim
-    return w - peak + 1
+    return w - best + 1
 
 
-def measured_minimap(box, grab, front):
-    """Latimea hartii masurata pe ecran (px), pastrata pana se schimba rezolutia.
+def measured_minimap(box, grab, front, est=None, hint=None):
+    """(latime px, harta_in_stanga) masurate pe ecran, pastrate pana se schimba rezolutia.
 
-    Doua masuratori la fel la rand (+-3 px) ca s-o credem; apoi o reverificam o data pe minut.
+    Cautam rama hartii in banda din dreapta si in cea din stanga (oglindita): jucatorul poate
+    avea harta pe oricare parte, iar setarile jocului nu se gasesc mereu. `hint` (din setari)
+    decide doar daca ambele benzi par sa aiba o rama. Doua masuratori la fel la rand (+-3 px)
+    ca s-o credem; o valoare noua, diferita de cea pastrata cu peste 0.03 din inaltime, are
+    nevoie de patru la rand. Reverificare pe minut.
     """
     l, t, r, b = box
     W, H = r - l, b - t
     key = (W, H)
     if _mm["key"] != key:
-        _mm.update(key=key, px=None, next=0.0, last=None)
+        _mm.update(key=key, px=None, next=0.0, last=None, n=0, left=None)
     now = time.monotonic()
     if not front or now < _mm["next"]:
-        return _mm["px"]
-    _mm["next"] = now + (60 if _mm["px"] else 1.5)
+        return _mm["px"], _mm["left"]
+    _mm["next"] = now + (60 if _mm["px"] else 1.0)
     try:
-        img = grab((int(r - 0.8 * H), int(b - BAND_TOP * H), r, int(b - BAND_BOTTOM * H)))
-        k = img.info.get("reduce", 1)
-        px = detect_minimap(img, H / k)
+        # banda urca doar cat e harta (estimarea poate fi mica: nu iesim din rama), dar cel putin 0.015 H
+        top = min(BAND_TOP, max(BAND_BOTTOM + 0.015, 0.97 * est / H)) if est else BAND_TOP
+        y0, y1 = int(b - top * H), int(b - BAND_BOTTOM * H)
+        found = {}
+        for left, band in ((False, (int(r - 0.8 * H), y0, r, y1)), (True, (l, y0, int(l + 0.8 * H), y1))):
+            img = grab(band)
+            k = img.info.get("reduce", 1)
+            px = detect_minimap(ImageOps.mirror(img) if left else img, H / k, est and est / k)
+            if px:
+                found[left] = px * k
     except Exception:
-        return _mm["px"]
-    px = px and px * k
-    if px and 0.2 * H <= px <= 0.6 * H:
-        if _mm["last"] and abs(_mm["last"] - px) <= 3:
-            _mm["px"] = px
-        _mm["last"] = px
-    return _mm["px"]
+        return _mm["px"], _mm["left"]
+    if not found:
+        _mm["last"], _mm["n"] = None, 0
+        return _mm["px"], _mm["left"]
+    side = next((c for c in (hint, _mm["left"], False, True) if c in found))   # indiciu, apoi ce stiam, apoi dreapta
+    px = found[side]
+    if _mm["left"] is not None and side != _mm["left"]:
+        _mm.update(px=None, last=None, n=0)          # alta parte: masuratorile vechi nu mai conteaza
+    same = _mm["last"] and abs(_mm["last"] - px) <= 3
+    _mm["n"] = _mm["n"] + 1 if same else 1
+    _mm["last"] = px
+    far = _mm["px"] and abs(_mm["px"] - px) > 0.03 * H
+    if _mm["n"] >= (4 if far else 2):
+        _mm.update(px=px, left=side)
+    return _mm["px"], _mm["left"]
 
 
-def area(box_w, box_h, settings=None, minimap_px=None):
+def area(box_w, box_h, settings=None, minimap_px=None, flipped=None):
     """(x0, y0, x1, y1) al spatiului dintre HUD si minimap, relativ la joc.
 
-    Lipit de marginea din dreapta a HUD-ului, de marginea din stanga a hartii
-    si de jos; in sus cel mult PANEL_TALL x inaltimea HUD-ului. HUD-ul creste
-    cu GlobalScale in aceeasi proportie pe latime si pe inaltime (masurat pe o
+    Lipit de HUD, de harta (pe oricare parte ar fi) si de jos; in sus cel mult
+    PANEL_TALL x inaltimea HUD-ului. HUD-ul creste cu GlobalScale in aceeasi proportie pe latime si pe inaltime (masurat pe o
     captura reala: 0.227 jumatate de latime, 0.092 inaltime, la GlobalScale 0).
 
     Fara setari folosim valorile de la capturile de referinta.
@@ -164,10 +196,13 @@ def area(box_w, box_h, settings=None, minimap_px=None):
         minimap, hud_half = minimap_px or 0.259 * H, 0.328 * H
     hud_tall = HUD_TALL_BASE * H * hud_half / (HUD_HALF_BASE * H)
     edge = EDGE * H
-    x0 = box_w / 2 + hud_half + edge
-    # harta in stanga: golul din dreapta HUD-ului merge pana la marginea ecranului
-    x1 = box_w if s.get("FlipMiniMap") == 1 else box_w - minimap - edge
-    x0 = min(x0, x1 - 0.18 * H)              # oricat de mare e HUD-ul, panoul ramane lizibil
+    flipped = s.get("FlipMiniMap") == 1 if flipped is None else flipped
+    if flipped:                              # harta in stanga: golul dintre harta si HUD
+        x0, x1 = minimap + edge, box_w / 2 - hud_half - edge
+        x1 = max(x1, x0 + 0.18 * H)
+    else:                                    # harta in dreapta: golul dintre HUD si harta
+        x0, x1 = box_w / 2 + hud_half + edge, box_w - minimap - edge
+        x0 = min(x0, x1 - 0.18 * H)          # oricat de mare e HUD-ul, panoul ramane lizibil
     return x0, box_h - min(hud_tall * PANEL_TALL, minimap), x1, box_h
 
 
