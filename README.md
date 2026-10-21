@@ -2,7 +2,7 @@
 
 Un overlay local pentru League of Legends, mod ARAM Mayhem. Arata tier-ul campionilor la champ select, plus build si augmente in timpul meciului. Fara Overwolf, fara cont, fara instalare de client separat.
 
-[![Support me on Ko-fi](https://raw.githubusercontent.com/CyberKird/.github/main/assets/ko-fi-button.svg)](https://ko-fi.com/joltarise)
+<a href="https://ko-fi.com/joltarise"><img src="https://raw.githubusercontent.com/CyberKird/.github/main/assets/ko-fi-button.svg" alt="Support me on Ko-fi" width="200"></a>
 
 ## Ce face
 
