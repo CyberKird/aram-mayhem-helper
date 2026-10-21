@@ -20,7 +20,7 @@
   "Voltaic Cyclosword",
   "Lord Dominik's Regards",
   "Death's Dance",
-  "Infinity Edge"
+  "Profane Hydra"
  ],
  "fifth": [
   "Voltaic Cyclosword",
@@ -31,8 +31,8 @@
  "sixth": [
   "Endless Hunger",
   "Lord Dominik's Regards",
-  "Death's Dance",
-  "Voltaic Cyclosword"
+  "Voltaic Cyclosword",
+  "Death's Dance"
  ],
  "pool": [
   "Refillable Potion",
@@ -44,7 +44,7 @@
   "Voltaic Cyclosword",
   "Lord Dominik's Regards",
   "Death's Dance",
-  "Infinity Edge",
+  "Profane Hydra",
   "Endless Hunger"
  ]
 }

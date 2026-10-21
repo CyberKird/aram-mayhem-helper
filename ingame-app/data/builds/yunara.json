@@ -7,7 +7,8 @@
   "Ghost"
  ],
  "starting": [
-  "B. F. Sword"
+  "Long Sword",
+  "Guardian's Blade"
  ],
  "core": [
   "Yun Tal Wildarrows",
@@ -18,8 +19,8 @@
  "fourth": [
   "Terminus",
   "Blade of The Ruined King",
-  "Lord Dominik's Regards",
-  "Bloodthirster"
+  "Bloodthirster",
+  "Lord Dominik's Regards"
  ],
  "fifth": [
   "Terminus",
@@ -31,18 +32,19 @@
   "Terminus",
   "Bloodthirster",
   "Mercurial Scimitar",
-  "Lord Dominik's Regards"
+  "Blade of The Ruined King"
  ],
  "pool": [
-  "B. F. Sword",
+  "Long Sword",
+  "Guardian's Blade",
   "Yun Tal Wildarrows",
   "Berserker's Greaves",
   "Runaan's Hurricane",
   "Infinity Edge",
   "Terminus",
   "Blade of The Ruined King",
-  "Lord Dominik's Regards",
   "Bloodthirster",
+  "Lord Dominik's Regards",
   "Mercurial Scimitar"
  ]
 }

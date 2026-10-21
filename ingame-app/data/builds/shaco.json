@@ -18,14 +18,14 @@
  "fourth": [
   "Shadowflame",
   "Lord Dominik's Regards",
-  "Essence Reaver",
-  "Infinity Edge"
+  "Infinity Edge",
+  "Voltaic Cyclosword"
  ],
  "fifth": [
   "Shadowflame",
   "Youmuu's Ghostblade",
-  "Lord Dominik's Regards",
-  "Essence Reaver"
+  "Essence Reaver",
+  "Lord Dominik's Regards"
  ],
  "sixth": [
   "Endless Hunger",
@@ -41,9 +41,10 @@
   "Rabadon's Deathcap",
   "Shadowflame",
   "Lord Dominik's Regards",
-  "Essence Reaver",
   "Infinity Edge",
+  "Voltaic Cyclosword",
   "Youmuu's Ghostblade",
+  "Essence Reaver",
   "Endless Hunger",
   "Edge of Night"
  ]

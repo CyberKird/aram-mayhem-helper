@@ -7,7 +7,6 @@
   "Mark"
  ],
  "starting": [
-  "Refillable Potion",
   "Lost Chapter"
  ],
  "core": [
@@ -23,10 +22,10 @@
   "Spirit Visage"
  ],
  "fifth": [
-  "Riftmaker",
   "Warmog's Armor",
-  "Spirit Visage",
-  "Shadowflame"
+  "Riftmaker",
+  "Shadowflame",
+  "Spirit Visage"
  ],
  "sixth": [
   "Riftmaker",
@@ -35,7 +34,6 @@
   "Warmog's Armor"
  ],
  "pool": [
-  "Refillable Potion",
   "Lost Chapter",
   "Blackfire Torch",
   "Ionian Boots of Lucidity",

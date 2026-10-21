@@ -7,12 +7,14 @@
   "Mark"
  ],
  "starting": [
-  "B. F. Sword"
+  "Cloak of Agility",
+  "Amplifying Tome",
+  "Amplifying Tome"
  ],
  "core": [
-  "Yun Tal Wildarrows",
-  "Berserker's Greaves",
   "Rite of Ruin",
+  "Berserker's Greaves",
+  "Yun Tal Wildarrows",
   "Death's Dance"
  ],
  "fourth": [
@@ -23,21 +25,22 @@
  ],
  "fifth": [
   "Spirit Visage",
-  "Phantom Dancer",
   "Infinity Edge",
+  "Phantom Dancer",
   "Bloodthirster"
  ],
  "sixth": [
   "Spirit Visage",
-  "Phantom Dancer",
   "Bloodthirster",
-  "Jak'Sho, The Protean"
+  "Jak'Sho, The Protean",
+  "Phantom Dancer"
  ],
  "pool": [
-  "B. F. Sword",
-  "Yun Tal Wildarrows",
-  "Berserker's Greaves",
+  "Cloak of Agility",
+  "Amplifying Tome",
   "Rite of Ruin",
+  "Berserker's Greaves",
+  "Yun Tal Wildarrows",
   "Death's Dance",
   "Spirit Visage",
   "Infinity Edge",

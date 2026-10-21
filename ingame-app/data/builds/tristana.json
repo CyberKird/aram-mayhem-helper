@@ -4,7 +4,7 @@
  "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
-  "Barrier"
+  "Ghost"
  ],
  "starting": [
   "Long Sword",
@@ -17,8 +17,8 @@
   "Infinity Edge"
  ],
  "fourth": [
-  "Lord Dominik's Regards",
   "Runaan's Hurricane",
+  "Lord Dominik's Regards",
   "Bloodthirster",
   "Blade of The Ruined King"
  ],
@@ -32,7 +32,7 @@
   "Bloodthirster",
   "Kraken Slayer",
   "Lord Dominik's Regards",
-  "Phantom Dancer"
+  "Blade of The Ruined King"
  ],
  "pool": [
   "Long Sword",
@@ -41,12 +41,11 @@
   "Berserker's Greaves",
   "Yun Tal Wildarrows",
   "Infinity Edge",
-  "Lord Dominik's Regards",
   "Runaan's Hurricane",
+  "Lord Dominik's Regards",
   "Bloodthirster",
   "Blade of The Ruined King",
   "Kraken Slayer",
-  "Navori Flickerblade",
-  "Phantom Dancer"
+  "Navori Flickerblade"
  ]
 }

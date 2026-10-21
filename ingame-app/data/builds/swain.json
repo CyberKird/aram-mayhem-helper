@@ -12,15 +12,15 @@
  ],
  "core": [
   "Heartsteel",
-  "Plated Steelcaps",
+  "Mercury's Treads",
   "Riftmaker",
   "Overlord's Bloodmail"
  ],
  "fourth": [
   "Unending Despair",
   "Warmog's Armor",
-  "Spirit Visage",
-  "Liandry's Torment"
+  "Liandry's Torment",
+  "Spirit Visage"
  ],
  "fifth": [
   "Unending Despair",
@@ -32,20 +32,20 @@
   "Unending Despair",
   "Warmog's Armor",
   "Spirit Visage",
-  "Jak'Sho, The Protean"
+  "Malignance"
  ],
  "pool": [
   "Giant's Belt",
   "Ruby Crystal",
   "Heartsteel",
-  "Plated Steelcaps",
+  "Mercury's Treads",
   "Riftmaker",
   "Overlord's Bloodmail",
   "Unending Despair",
   "Warmog's Armor",
-  "Spirit Visage",
   "Liandry's Torment",
+  "Spirit Visage",
   "Rylai's Crystal Scepter",
-  "Jak'Sho, The Protean"
+  "Malignance"
  ]
 }

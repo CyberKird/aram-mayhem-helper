@@ -8,8 +8,7 @@
  ],
  "starting": [
   "Blasting Wand",
-  "Dagger",
-  "Glowing Mote"
+  "Ruby Crystal"
  ],
  "core": [
   "Dusk and Dawn",
@@ -32,12 +31,11 @@
   "Rabadon's Deathcap",
   "Void Staff",
   "Riftmaker",
-  "Spirit Visage"
+  "Cosmic Drive"
  ],
  "pool": [
   "Blasting Wand",
-  "Dagger",
-  "Glowing Mote",
+  "Ruby Crystal",
   "Dusk and Dawn",
   "Sorcerer's Shoes",
   "Nashor's Tooth",
@@ -45,6 +43,7 @@
   "Rabadon's Deathcap",
   "Riftmaker",
   "Spirit Visage",
-  "Void Staff"
+  "Void Staff",
+  "Cosmic Drive"
  ]
 }

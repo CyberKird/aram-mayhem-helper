@@ -29,10 +29,10 @@
   "Bloodthirster"
  ],
  "sixth": [
+  "Voltaic Cyclosword",
   "Hexoptics C44",
   "Edge of Night",
-  "Essence Reaver",
-  "Lord Dominik's Regards"
+  "Essence Reaver"
  ],
  "pool": [
   "Long Sword",
@@ -46,6 +46,7 @@
   "Bloodthirster",
   "Mortal Reminder",
   "Hexoptics C44",
+  "Voltaic Cyclosword",
   "Edge of Night"
  ]
 }

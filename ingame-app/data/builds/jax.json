@@ -13,40 +13,41 @@
  "core": [
   "Dusk and Dawn",
   "Mercury's Treads",
-  "Statikk Shiv",
-  "Death's Dance"
+  "Blade of The Ruined King",
+  "Hextech Gunblade"
  ],
  "fourth": [
-  "Hextech Gunblade",
+  "Death's Dance",
   "Spear of Shojin",
   "Sundered Sky",
   "Wit's End"
  ],
  "fifth": [
-  "Hextech Gunblade",
+  "Death's Dance",
   "Sundered Sky",
   "Spear of Shojin",
   "Spirit Visage"
  ],
  "sixth": [
   "Endless Hunger",
-  "Hextech Gunblade",
   "Sterak's Gage",
-  "Spear of Shojin"
+  "Death's Dance",
+  "Jak'Sho, The Protean"
  ],
  "pool": [
   "Ruby Crystal",
   "Sheen",
   "Dusk and Dawn",
   "Mercury's Treads",
-  "Statikk Shiv",
-  "Death's Dance",
+  "Blade of The Ruined King",
   "Hextech Gunblade",
+  "Death's Dance",
   "Spear of Shojin",
   "Sundered Sky",
   "Wit's End",
   "Spirit Visage",
   "Endless Hunger",
-  "Sterak's Gage"
+  "Sterak's Gage",
+  "Jak'Sho, The Protean"
  ]
 }

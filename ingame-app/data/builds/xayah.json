@@ -19,13 +19,13 @@
   "Lord Dominik's Regards",
   "Bloodthirster",
   "Runaan's Hurricane",
-  "Blade of The Ruined King"
+  "The Collector"
  ],
  "fifth": [
   "Lord Dominik's Regards",
   "Bloodthirster",
-  "Blade of The Ruined King",
-  "Kraken Slayer"
+  "Kraken Slayer",
+  "Blade of The Ruined King"
  ],
  "sixth": [
   "Bloodthirster",
@@ -42,8 +42,9 @@
   "Lord Dominik's Regards",
   "Bloodthirster",
   "Runaan's Hurricane",
-  "Blade of The Ruined King",
+  "The Collector",
   "Kraken Slayer",
+  "Blade of The Ruined King",
   "Phantom Dancer"
  ]
 }

@@ -19,20 +19,20 @@
  "fourth": [
   "Bloodthirster",
   "Runaan's Hurricane",
-  "Blade of The Ruined King",
-  "Kraken Slayer"
+  "Kraken Slayer",
+  "Blade of The Ruined King"
  ],
  "fifth": [
-  "Bloodthirster",
   "Statikk Shiv",
+  "Bloodthirster",
   "Runaan's Hurricane",
-  "Blade of The Ruined King"
+  "Kraken Slayer"
  ],
  "sixth": [
   "Bloodthirster",
   "Statikk Shiv",
   "Kraken Slayer",
-  "Wit's End"
+  "Blade of The Ruined King"
  ],
  "pool": [
   "Long Sword",
@@ -43,9 +43,8 @@
   "Lord Dominik's Regards",
   "Bloodthirster",
   "Runaan's Hurricane",
-  "Blade of The Ruined King",
   "Kraken Slayer",
-  "Statikk Shiv",
-  "Wit's End"
+  "Blade of The Ruined King",
+  "Statikk Shiv"
  ]
 }

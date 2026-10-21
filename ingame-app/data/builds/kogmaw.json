@@ -17,8 +17,8 @@
   "Archangel's Staff"
  ],
  "fourth": [
-  "Runaan's Hurricane",
   "Rabadon's Deathcap",
+  "Runaan's Hurricane",
   "Guinsoo's Rageblade",
   "Terminus"
  ],
@@ -26,7 +26,7 @@
   "Terminus",
   "Guinsoo's Rageblade",
   "Rabadon's Deathcap",
-  "Kraken Slayer"
+  "Wit's End"
  ],
  "sixth": [
   "Terminus",
@@ -41,12 +41,12 @@
   "Sorcerer's Shoes",
   "Liandry's Torment",
   "Archangel's Staff",
-  "Runaan's Hurricane",
   "Rabadon's Deathcap",
+  "Runaan's Hurricane",
   "Guinsoo's Rageblade",
   "Terminus",
-  "Kraken Slayer",
   "Wit's End",
-  "Shadowflame"
+  "Shadowflame",
+  "Kraken Slayer"
  ]
 }

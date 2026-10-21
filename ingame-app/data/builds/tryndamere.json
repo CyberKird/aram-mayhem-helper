@@ -17,21 +17,21 @@
  ],
  "fourth": [
   "Lord Dominik's Regards",
-  "The Collector",
   "Fiendhunter Bolts",
-  "Navori Flickerblade"
+  "The Collector",
+  "Mortal Reminder"
  ],
  "fifth": [
   "Bloodthirster",
   "Lord Dominik's Regards",
   "Death's Dance",
-  "Fiendhunter Bolts"
+  "The Collector"
  ],
  "sixth": [
   "Endless Hunger",
   "Death's Dance",
   "Bloodthirster",
-  "Experimental Hexplate"
+  "Lord Dominik's Regards"
  ],
  "pool": [
   "Zeal",
@@ -40,12 +40,11 @@
   "Infinity Edge",
   "Blade of The Ruined King",
   "Lord Dominik's Regards",
-  "The Collector",
   "Fiendhunter Bolts",
-  "Navori Flickerblade",
+  "The Collector",
+  "Mortal Reminder",
   "Bloodthirster",
   "Death's Dance",
-  "Endless Hunger",
-  "Experimental Hexplate"
+  "Endless Hunger"
  ]
 }

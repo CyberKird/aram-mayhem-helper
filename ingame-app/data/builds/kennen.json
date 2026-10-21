@@ -23,15 +23,15 @@
  ],
  "fifth": [
   "Banshee's Veil",
-  "Cryptbloom",
   "Void Staff",
+  "Cryptbloom",
   "Zhonya's Hourglass"
  ],
  "sixth": [
   "Banshee's Veil",
-  "Void Staff",
   "Cryptbloom",
-  "Zhonya's Hourglass"
+  "Void Staff",
+  "Hextech Rocketbelt"
  ],
  "pool": [
   "Boots",
@@ -44,6 +44,7 @@
   "Malignance",
   "Zhonya's Hourglass",
   "Banshee's Veil",
-  "Cryptbloom"
+  "Cryptbloom",
+  "Hextech Rocketbelt"
  ]
 }

@@ -7,46 +7,46 @@
   "Mark"
  ],
  "starting": [
-  "Tunneler",
-  "Glowing Mote"
+  "Long Sword",
+  "Caulfield's Warhammer"
  ],
  "core": [
-  "Sundered Sky",
+  "Eclipse",
   "Mercury's Treads",
-  "Death's Dance",
-  "Eclipse"
+  "Sundered Sky",
+  "Death's Dance"
  ],
  "fourth": [
   "Endless Hunger",
   "Lord Dominik's Regards",
-  "Infinity Edge",
-  "Black Cleaver"
+  "Black Cleaver",
+  "Infinity Edge"
  ],
  "fifth": [
   "Endless Hunger",
   "Lord Dominik's Regards",
   "Infinity Edge",
-  "Sterak's Gage"
+  "Maw of Malmortius"
  ],
  "sixth": [
   "Endless Hunger",
-  "Axiom Arc",
+  "Lord Dominik's Regards",
   "Voltaic Cyclosword",
-  "Lord Dominik's Regards"
+  "Axiom Arc"
  ],
  "pool": [
-  "Tunneler",
-  "Glowing Mote",
-  "Sundered Sky",
-  "Mercury's Treads",
-  "Death's Dance",
+  "Long Sword",
+  "Caulfield's Warhammer",
   "Eclipse",
+  "Mercury's Treads",
+  "Sundered Sky",
+  "Death's Dance",
   "Endless Hunger",
   "Lord Dominik's Regards",
-  "Infinity Edge",
   "Black Cleaver",
-  "Sterak's Gage",
-  "Axiom Arc",
-  "Voltaic Cyclosword"
+  "Infinity Edge",
+  "Maw of Malmortius",
+  "Voltaic Cyclosword",
+  "Axiom Arc"
  ]
 }

@@ -18,15 +18,15 @@
  ],
  "fourth": [
   "Sterak's Gage",
-  "Black Cleaver",
+  "Warmog's Armor",
   "Spear of Shojin",
-  "Warmog's Armor"
+  "Black Cleaver"
  ],
  "fifth": [
-  "Warmog's Armor",
   "Sterak's Gage",
+  "Warmog's Armor",
   "Spear of Shojin",
-  "Spirit Visage"
+  "Black Cleaver"
  ],
  "sixth": [
   "Sterak's Gage",
@@ -42,9 +42,9 @@
   "Death's Dance",
   "Endless Hunger",
   "Sterak's Gage",
-  "Black Cleaver",
-  "Spear of Shojin",
   "Warmog's Armor",
+  "Spear of Shojin",
+  "Black Cleaver",
   "Spirit Visage"
  ]
 }

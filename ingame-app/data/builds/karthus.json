@@ -19,8 +19,8 @@
  "fourth": [
   "Rabadon's Deathcap",
   "Void Staff",
-  "Malignance",
-  "Stormsurge"
+  "Stormsurge",
+  "Malignance"
  ],
  "fifth": [
   "Stormsurge",
@@ -43,8 +43,8 @@
   "Shadowflame",
   "Rabadon's Deathcap",
   "Void Staff",
-  "Malignance",
   "Stormsurge",
+  "Malignance",
   "Horizon Focus"
  ]
 }

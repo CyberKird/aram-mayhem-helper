@@ -7,8 +7,7 @@
   "Mark"
  ],
  "starting": [
-  "Blasting Wand",
-  "Tear of the Goddess"
+  "Lost Chapter"
  ],
  "core": [
   "Malignance",
@@ -18,32 +17,31 @@
  ],
  "fourth": [
   "Warmog's Armor",
-  "Frozen Heart",
   "Winter's Approach",
+  "Frozen Heart",
   "Stormsurge"
  ],
  "fifth": [
   "Warmog's Armor",
-  "Unending Despair",
   "Stormsurge",
+  "Unending Despair",
   "Winter's Approach"
  ],
  "sixth": [
   "Warmog's Armor",
-  "Stormsurge",
-  "Spirit Visage",
-  "Unending Despair"
+  "Winter's Approach",
+  "Unending Despair",
+  "Spirit Visage"
  ],
  "pool": [
-  "Blasting Wand",
-  "Tear of the Goddess",
+  "Lost Chapter",
   "Malignance",
   "Ionian Boots of Lucidity",
   "Rabadon's Deathcap",
   "Shadowflame",
   "Warmog's Armor",
-  "Frozen Heart",
   "Winter's Approach",
+  "Frozen Heart",
   "Stormsurge",
   "Unending Despair",
   "Spirit Visage"

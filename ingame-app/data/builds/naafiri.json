@@ -13,12 +13,12 @@
  "core": [
   "Hubris",
   "Mercury's Treads",
-  "Endless Hunger",
-  "Death's Dance"
+  "Death's Dance",
+  "Endless Hunger"
  ],
  "fourth": [
-  "Serylda's Grudge",
   "Axiom Arc",
+  "Serylda's Grudge",
   "Voltaic Cyclosword",
   "Lord Dominik's Regards"
  ],
@@ -30,8 +30,8 @@
  ],
  "sixth": [
   "Serylda's Grudge",
-  "Axiom Arc",
   "Lord Dominik's Regards",
+  "Axiom Arc",
   "Edge of Night"
  ],
  "pool": [
@@ -39,10 +39,10 @@
   "Guardian's Blade",
   "Hubris",
   "Mercury's Treads",
-  "Endless Hunger",
   "Death's Dance",
-  "Serylda's Grudge",
+  "Endless Hunger",
   "Axiom Arc",
+  "Serylda's Grudge",
   "Voltaic Cyclosword",
   "Lord Dominik's Regards",
   "Edge of Night"

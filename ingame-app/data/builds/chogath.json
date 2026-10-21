@@ -25,14 +25,14 @@
  "fifth": [
   "Riftmaker",
   "Overlord's Bloodmail",
-  "Jak'Sho, The Protean",
-  "Spirit Visage"
+  "Spirit Visage",
+  "Jak'Sho, The Protean"
  ],
  "sixth": [
   "Riftmaker",
   "Overlord's Bloodmail",
   "Jak'Sho, The Protean",
-  "Force of Nature"
+  "Spirit Visage"
  ],
  "pool": [
   "Giant's Belt",
@@ -45,7 +45,6 @@
   "Spirit Visage",
   "Jak'Sho, The Protean",
   "Kaenic Rookern",
-  "Overlord's Bloodmail",
-  "Force of Nature"
+  "Overlord's Bloodmail"
  ]
 }
