@@ -8,42 +8,43 @@
  ],
  "starting": [
   "Long Sword",
-  "Pickaxe"
+  "Guardian's Blade"
  ],
  "core": [
   "The Collector",
   "Berserker's Greaves",
-  "Runaan's Hurricane",
+  "Lord Dominik's Regards",
   "Infinity Edge"
  ],
  "fourth": [
   "Bloodthirster",
-  "Lord Dominik's Regards",
   "Blade of The Ruined King",
-  "Kraken Slayer"
+  "Runaan's Hurricane",
+  "Mortal Reminder"
  ],
  "fifth": [
   "Bloodthirster",
-  "Lord Dominik's Regards",
+  "Runaan's Hurricane",
   "Blade of The Ruined King",
   "Kraken Slayer"
  ],
  "sixth": [
-  "Hexoptics C44",
   "Bloodthirster",
-  "Lord Dominik's Regards",
-  "Blade of The Ruined King"
+  "Hexoptics C44",
+  "Blade of The Ruined King",
+  "Runaan's Hurricane"
  ],
  "pool": [
   "Long Sword",
-  "Pickaxe",
+  "Guardian's Blade",
   "The Collector",
   "Berserker's Greaves",
-  "Runaan's Hurricane",
+  "Lord Dominik's Regards",
   "Infinity Edge",
   "Bloodthirster",
-  "Lord Dominik's Regards",
   "Blade of The Ruined King",
+  "Runaan's Hurricane",
+  "Mortal Reminder",
   "Kraken Slayer",
   "Hexoptics C44"
  ]

@@ -7,6 +7,7 @@
   "Mark"
  ],
  "starting": [
+  "Refillable Potion",
   "Lost Chapter"
  ],
  "core": [
@@ -18,22 +19,23 @@
  "fourth": [
   "Warmog's Armor",
   "Unending Despair",
-  "Winter's Approach",
-  "Spirit Visage"
+  "Spirit Visage",
+  "Winter's Approach"
  ],
  "fifth": [
   "Warmog's Armor",
-  "Riftmaker",
   "Shadowflame",
+  "Unending Despair",
   "Spirit Visage"
  ],
  "sixth": [
-  "Riftmaker",
   "Shadowflame",
-  "Jak'Sho, The Protean",
-  "Warmog's Armor"
+  "Unending Despair",
+  "Warmog's Armor",
+  "Spirit Visage"
  ],
  "pool": [
+  "Refillable Potion",
   "Lost Chapter",
   "Blackfire Torch",
   "Ionian Boots of Lucidity",
@@ -41,10 +43,8 @@
   "Rabadon's Deathcap",
   "Warmog's Armor",
   "Unending Despair",
-  "Winter's Approach",
   "Spirit Visage",
-  "Riftmaker",
-  "Shadowflame",
-  "Jak'Sho, The Protean"
+  "Winter's Approach",
+  "Shadowflame"
  ]
 }

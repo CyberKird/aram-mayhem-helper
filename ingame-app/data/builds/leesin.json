@@ -18,21 +18,21 @@
  ],
  "fourth": [
   "Voltaic Cyclosword",
-  "Axiom Arc",
+  "Lord Dominik's Regards",
   "Maw of Malmortius",
-  "Eclipse"
+  "Axiom Arc"
  ],
  "fifth": [
   "Axiom Arc",
-  "Maw of Malmortius",
-  "Eclipse",
-  "The Collector"
+  "Lord Dominik's Regards",
+  "Voltaic Cyclosword",
+  "Serylda's Grudge"
  ],
  "sixth": [
   "Axiom Arc",
-  "Edge of Night",
-  "Maw of Malmortius",
-  "Eclipse"
+  "Voltaic Cyclosword",
+  "Lord Dominik's Regards",
+  "Serylda's Grudge"
  ],
  "pool": [
   "Long Sword",
@@ -42,10 +42,9 @@
   "Death's Dance",
   "Endless Hunger",
   "Voltaic Cyclosword",
-  "Axiom Arc",
+  "Lord Dominik's Regards",
   "Maw of Malmortius",
-  "Eclipse",
-  "The Collector",
-  "Edge of Night"
+  "Axiom Arc",
+  "Serylda's Grudge"
  ]
 }

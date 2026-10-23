@@ -18,20 +18,20 @@
  "fourth": [
   "Shadowflame",
   "Nashor's Tooth",
-  "Guinsoo's Rageblade",
-  "Statikk Shiv"
+  "Blade of The Ruined King",
+  "Rapid Firecannon"
  ],
  "fifth": [
   "Shadowflame",
   "Terminus",
   "Nashor's Tooth",
-  "Statikk Shiv"
+  "Rapid Firecannon"
  ],
  "sixth": [
-  "Shadowflame",
   "Nashor's Tooth",
-  "Terminus",
-  "Rapid Firecannon"
+  "Rapid Firecannon",
+  "Shadowflame",
+  "Statikk Shiv"
  ],
  "pool": [
   "Lost Chapter",
@@ -41,9 +41,9 @@
   "Rabadon's Deathcap",
   "Shadowflame",
   "Nashor's Tooth",
-  "Guinsoo's Rageblade",
-  "Statikk Shiv",
+  "Blade of The Ruined King",
+  "Rapid Firecannon",
   "Terminus",
-  "Rapid Firecannon"
+  "Statikk Shiv"
  ]
 }

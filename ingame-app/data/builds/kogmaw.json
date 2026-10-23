@@ -7,46 +7,46 @@
   "Ghost"
  ],
  "starting": [
-  "Fated Ashes",
-  "Tear of the Goddess"
+  "Blasting Wand",
+  "Dagger",
+  "Glowing Mote"
  ],
  "core": [
-  "Blackfire Torch",
+  "Dusk and Dawn",
   "Sorcerer's Shoes",
-  "Liandry's Torment",
-  "Archangel's Staff"
+  "Shadowflame",
+  "Rabadon's Deathcap"
  ],
  "fourth": [
-  "Rabadon's Deathcap",
-  "Runaan's Hurricane",
+  "Void Staff",
+  "Archangel's Staff",
   "Guinsoo's Rageblade",
   "Terminus"
  ],
  "fifth": [
   "Terminus",
-  "Guinsoo's Rageblade",
-  "Rabadon's Deathcap",
+  "Void Staff",
+  "Archangel's Staff",
   "Wit's End"
  ],
  "sixth": [
-  "Terminus",
   "Wit's End",
-  "Shadowflame",
-  "Kraken Slayer"
+  "Void Staff",
+  "Archangel's Staff",
+  "Terminus"
  ],
  "pool": [
-  "Fated Ashes",
-  "Tear of the Goddess",
-  "Blackfire Torch",
+  "Blasting Wand",
+  "Dagger",
+  "Glowing Mote",
+  "Dusk and Dawn",
   "Sorcerer's Shoes",
-  "Liandry's Torment",
-  "Archangel's Staff",
+  "Shadowflame",
   "Rabadon's Deathcap",
-  "Runaan's Hurricane",
+  "Void Staff",
+  "Archangel's Staff",
   "Guinsoo's Rageblade",
   "Terminus",
-  "Wit's End",
-  "Shadowflame",
-  "Kraken Slayer"
+  "Wit's End"
  ]
 }

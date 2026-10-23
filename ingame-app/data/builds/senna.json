@@ -7,44 +7,45 @@
   "Ghost"
  ],
  "starting": [
-  "Dagger",
-  "Berserker's Greaves"
+  "Amplifying Tome",
+  "Scout's Slingshot"
  ],
  "core": [
-  "Runaan's Hurricane",
-  "Berserker's Greaves",
   "Statikk Shiv",
-  "Blade of The Ruined King"
+  "Boots of Swiftness",
+  "Sword of Blossoming Dawn",
+  "Runaan's Hurricane"
  ],
  "fourth": [
   "Hexoptics C44",
-  "Kraken Slayer",
   "Manamune",
-  "The Collector"
+  "Kraken Slayer",
+  "Blade of The Ruined King"
  ],
  "fifth": [
-  "Hexoptics C44",
   "Manamune",
+  "Hexoptics C44",
   "Bloodthirster",
-  "Kraken Slayer"
+  "Infinity Edge"
  ],
  "sixth": [
   "Hexoptics C44",
   "Bloodthirster",
   "Manamune",
-  "Rapid Firecannon"
+  "Kraken Slayer"
  ],
  "pool": [
-  "Dagger",
-  "Berserker's Greaves",
-  "Runaan's Hurricane",
+  "Amplifying Tome",
+  "Scout's Slingshot",
   "Statikk Shiv",
-  "Blade of The Ruined King",
+  "Boots of Swiftness",
+  "Sword of Blossoming Dawn",
+  "Runaan's Hurricane",
   "Hexoptics C44",
-  "Kraken Slayer",
   "Manamune",
-  "The Collector",
+  "Kraken Slayer",
+  "Blade of The Ruined King",
   "Bloodthirster",
-  "Rapid Firecannon"
+  "Infinity Edge"
  ]
 }

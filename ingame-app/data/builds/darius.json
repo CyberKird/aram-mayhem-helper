@@ -12,40 +12,39 @@
  ],
  "core": [
   "Heartsteel",
-  "Plated Steelcaps",
-  "Overlord's Bloodmail",
-  "Warmog's Armor"
+  "Boots of Swiftness",
+  "Warmog's Armor",
+  "Overlord's Bloodmail"
  ],
  "fourth": [
+  "Endless Hunger",
   "Unending Despair",
-  "Spirit Visage",
   "Sterak's Gage",
   "Death's Dance"
  ],
  "fifth": [
-  "Endless Hunger",
-  "Unending Despair",
+  "Force of Nature",
   "Sterak's Gage",
-  "Spirit Visage"
+  "Endless Hunger",
+  "Unending Despair"
  ],
  "sixth": [
-  "Unending Despair",
+  "Force of Nature",
   "Endless Hunger",
-  "Sterak's Gage",
-  "Force of Nature"
+  "Death's Dance",
+  "Unending Despair"
  ],
  "pool": [
   "Giant's Belt",
   "Ruby Crystal",
   "Heartsteel",
-  "Plated Steelcaps",
-  "Overlord's Bloodmail",
+  "Boots of Swiftness",
   "Warmog's Armor",
+  "Overlord's Bloodmail",
+  "Endless Hunger",
   "Unending Despair",
-  "Spirit Visage",
   "Sterak's Gage",
   "Death's Dance",
-  "Endless Hunger",
   "Force of Nature"
  ]
 }

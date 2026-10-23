@@ -8,45 +8,45 @@
  ],
  "starting": [
   "Long Sword",
-  "Guardian's Blade"
+  "Pickaxe"
  ],
  "core": [
   "Blade of The Ruined King",
   "Mercury's Treads",
-  "Death's Dance",
-  "Terminus"
+  "Kraken Slayer",
+  "Death's Dance"
  ],
  "fourth": [
   "Endless Hunger",
   "Ravenous Hydra",
-  "Titanic Hydra",
-  "Trinity Force"
+  "Trinity Force",
+  "Wit's End"
  ],
  "fifth": [
   "Endless Hunger",
+  "Terminus",
   "Ravenous Hydra",
-  "Titanic Hydra",
-  "Sundered Sky"
+  "Jak'Sho, The Protean"
  ],
  "sixth": [
-  "Endless Hunger",
-  "Spirit Visage",
   "Ravenous Hydra",
+  "Endless Hunger",
+  "Terminus",
   "Sterak's Gage"
  ],
  "pool": [
   "Long Sword",
-  "Guardian's Blade",
+  "Pickaxe",
   "Blade of The Ruined King",
   "Mercury's Treads",
+  "Kraken Slayer",
   "Death's Dance",
-  "Terminus",
   "Endless Hunger",
   "Ravenous Hydra",
-  "Titanic Hydra",
   "Trinity Force",
-  "Sundered Sky",
-  "Spirit Visage",
+  "Wit's End",
+  "Terminus",
+  "Jak'Sho, The Protean",
   "Sterak's Gage"
  ]
 }

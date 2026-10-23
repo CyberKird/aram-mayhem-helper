@@ -8,8 +8,7 @@
  ],
  "starting": [
   "Dagger",
-  "Dagger",
-  "Vampiric Scepter"
+  "Berserker's Greaves"
  ],
  "core": [
   "Blade of The Ruined King",
@@ -19,33 +18,33 @@
  ],
  "fourth": [
   "Guinsoo's Rageblade",
-  "Bloodthirster",
   "Wit's End",
-  "Lord Dominik's Regards"
+  "The Collector",
+  "Infinity Edge"
  ],
  "fifth": [
-  "Guinsoo's Rageblade",
   "Bloodthirster",
+  "Guinsoo's Rageblade",
   "Wit's End",
-  "Lord Dominik's Regards"
+  "Jak'Sho, The Protean"
  ],
  "sixth": [
-  "Bloodthirster",
-  "Guinsoo's Rageblade",
   "Jak'Sho, The Protean",
-  "Statikk Shiv"
+  "Statikk Shiv",
+  "Guinsoo's Rageblade",
+  "Bloodthirster"
  ],
  "pool": [
   "Dagger",
-  "Vampiric Scepter",
-  "Blade of The Ruined King",
   "Berserker's Greaves",
+  "Blade of The Ruined King",
   "Runaan's Hurricane",
   "Terminus",
   "Guinsoo's Rageblade",
-  "Bloodthirster",
   "Wit's End",
-  "Lord Dominik's Regards",
+  "The Collector",
+  "Infinity Edge",
+  "Bloodthirster",
   "Jak'Sho, The Protean",
   "Statikk Shiv"
  ]

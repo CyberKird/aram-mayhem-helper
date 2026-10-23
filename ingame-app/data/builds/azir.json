@@ -4,11 +4,12 @@
  "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
-  "Barrier"
+  "Ghost"
  ],
  "starting": [
+  "Recurve Bow",
   "Amplifying Tome",
-  "Guardian's Orb"
+  "Glowing Mote"
  ],
  "core": [
   "Nashor's Tooth",
@@ -20,23 +21,24 @@
   "Void Staff",
   "Zhonya's Hourglass",
   "Dusk and Dawn",
-  "Liandry's Torment"
+  "Rylai's Crystal Scepter"
  ],
  "fifth": [
   "Void Staff",
   "Zhonya's Hourglass",
   "Dusk and Dawn",
-  "Riftmaker"
+  "Rylai's Crystal Scepter"
  ],
  "sixth": [
   "Void Staff",
   "Dusk and Dawn",
-  "Zhonya's Hourglass",
-  "Riftmaker"
+  "Banshee's Veil",
+  "Rylai's Crystal Scepter"
  ],
  "pool": [
+  "Recurve Bow",
   "Amplifying Tome",
-  "Guardian's Orb",
+  "Glowing Mote",
   "Nashor's Tooth",
   "Sorcerer's Shoes",
   "Shadowflame",
@@ -44,7 +46,7 @@
   "Void Staff",
   "Zhonya's Hourglass",
   "Dusk and Dawn",
-  "Liandry's Torment",
-  "Riftmaker"
+  "Rylai's Crystal Scepter",
+  "Banshee's Veil"
  ]
 }

@@ -8,7 +8,7 @@
  ],
  "starting": [
   "Giant's Belt",
-  "Ruby Crystal"
+  "Tear of the Goddess"
  ],
  "core": [
   "Heartsteel",
@@ -20,23 +20,23 @@
   "Winter's Approach",
   "Spirit Visage",
   "Jak'Sho, The Protean",
-  "Randuin's Omen"
+  "Kaenic Rookern"
  ],
  "fifth": [
   "Winter's Approach",
   "Jak'Sho, The Protean",
-  "Spirit Visage",
-  "Force of Nature"
+  "Force of Nature",
+  "Spirit Visage"
  ],
  "sixth": [
   "Jak'Sho, The Protean",
-  "Force of Nature",
   "Spirit Visage",
+  "Kaenic Rookern",
   "Winter's Approach"
  ],
  "pool": [
   "Giant's Belt",
-  "Ruby Crystal",
+  "Tear of the Goddess",
   "Heartsteel",
   "Plated Steelcaps",
   "Unending Despair",
@@ -44,7 +44,7 @@
   "Winter's Approach",
   "Spirit Visage",
   "Jak'Sho, The Protean",
-  "Randuin's Omen",
+  "Kaenic Rookern",
   "Force of Nature"
  ]
 }

@@ -7,45 +7,43 @@
   "Ghost"
  ],
  "starting": [
-  "Amplifying Tome",
-  "Fated Ashes"
+  "Lost Chapter"
  ],
  "core": [
   "Blackfire Torch",
-  "Sorcerer's Shoes",
+  "Ionian Boots of Lucidity",
   "Liandry's Torment",
   "Rabadon's Deathcap"
  ],
  "fourth": [
   "Stormsurge",
-  "Archangel's Staff",
   "Shadowflame",
-  "Void Staff"
+  "Void Staff",
+  "Archangel's Staff"
  ],
  "fifth": [
   "Stormsurge",
   "Shadowflame",
-  "Archangel's Staff",
-  "Void Staff"
+  "Void Staff",
+  "Archangel's Staff"
  ],
  "sixth": [
   "Stormsurge",
-  "Cosmic Drive",
   "Banshee's Veil",
+  "Cosmic Drive",
   "Shadowflame"
  ],
  "pool": [
-  "Amplifying Tome",
-  "Fated Ashes",
+  "Lost Chapter",
   "Blackfire Torch",
-  "Sorcerer's Shoes",
+  "Ionian Boots of Lucidity",
   "Liandry's Torment",
   "Rabadon's Deathcap",
   "Stormsurge",
-  "Archangel's Staff",
   "Shadowflame",
   "Void Staff",
-  "Cosmic Drive",
-  "Banshee's Veil"
+  "Archangel's Staff",
+  "Banshee's Veil",
+  "Cosmic Drive"
  ]
 }

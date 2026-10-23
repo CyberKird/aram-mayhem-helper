@@ -7,43 +7,45 @@
   "Ghost"
  ],
  "starting": [
+  "Pickaxe",
   "Dagger",
-  "Berserker's Greaves"
+  "Dagger"
  ],
  "core": [
-  "Blade of The Ruined King",
+  "Statikk Shiv",
   "Berserker's Greaves",
-  "Runaan's Hurricane",
-  "Guinsoo's Rageblade"
+  "Guinsoo's Rageblade",
+  "Terminus"
  ],
  "fourth": [
-  "Terminus",
   "Lord Dominik's Regards",
-  "Infinity Edge",
-  "Serylda's Grudge"
- ],
- "fifth": [
-  "Terminus",
-  "Lord Dominik's Regards",
-  "Infinity Edge",
-  "Serylda's Grudge"
- ],
- "sixth": [
-  "Terminus",
-  "Lord Dominik's Regards",
-  "Manamune",
+  "Edge of Night",
+  "Serylda's Grudge",
   "Infinity Edge"
  ],
+ "fifth": [
+  "Edge of Night",
+  "Lord Dominik's Regards",
+  "Serylda's Grudge",
+  "Infinity Edge"
+ ],
+ "sixth": [
+  "Lord Dominik's Regards",
+  "Edge of Night",
+  "Serylda's Grudge",
+  "Rabadon's Deathcap"
+ ],
  "pool": [
+  "Pickaxe",
   "Dagger",
+  "Statikk Shiv",
   "Berserker's Greaves",
-  "Blade of The Ruined King",
-  "Runaan's Hurricane",
   "Guinsoo's Rageblade",
   "Terminus",
   "Lord Dominik's Regards",
-  "Infinity Edge",
+  "Edge of Night",
   "Serylda's Grudge",
-  "Manamune"
+  "Infinity Edge",
+  "Rabadon's Deathcap"
  ]
 }

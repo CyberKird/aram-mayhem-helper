@@ -8,43 +8,43 @@
  ],
  "starting": [
   "Long Sword",
-  "Guardian's Blade"
+  "Pickaxe"
  ],
  "core": [
   "The Collector",
-  "Berserker's Greaves",
-  "Lord Dominik's Regards",
-  "Infinity Edge"
+  "Mercury's Treads",
+  "Infinity Edge",
+  "Lord Dominik's Regards"
  ],
  "fourth": [
-  "Death's Dance",
   "Immortal Shieldbow",
+  "Death's Dance",
   "Blade of The Ruined King",
-  "Kraken Slayer"
+  "Mortal Reminder"
  ],
  "fifth": [
-  "Endless Hunger",
   "Death's Dance",
+  "Endless Hunger",
   "Immortal Shieldbow",
   "Blade of The Ruined King"
  ],
  "sixth": [
   "Endless Hunger",
   "Death's Dance",
-  "Maw of Malmortius",
-  "Immortal Shieldbow"
+  "Immortal Shieldbow",
+  "Maw of Malmortius"
  ],
  "pool": [
   "Long Sword",
-  "Guardian's Blade",
+  "Pickaxe",
   "The Collector",
-  "Berserker's Greaves",
-  "Lord Dominik's Regards",
+  "Mercury's Treads",
   "Infinity Edge",
-  "Death's Dance",
+  "Lord Dominik's Regards",
   "Immortal Shieldbow",
+  "Death's Dance",
   "Blade of The Ruined King",
-  "Kraken Slayer",
+  "Mortal Reminder",
   "Endless Hunger",
   "Maw of Malmortius"
  ]

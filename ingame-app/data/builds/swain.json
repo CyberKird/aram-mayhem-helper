@@ -7,45 +7,43 @@
   "Mark"
  ],
  "starting": [
-  "Giant's Belt",
-  "Ruby Crystal"
+  "Catalyst of Aeons"
  ],
  "core": [
-  "Heartsteel",
+  "Rod of Ages",
   "Mercury's Treads",
-  "Riftmaker",
-  "Overlord's Bloodmail"
+  "Rylai's Crystal Scepter",
+  "Riftmaker"
  ],
  "fourth": [
-  "Unending Despair",
-  "Warmog's Armor",
-  "Liandry's Torment",
-  "Spirit Visage"
- ],
- "fifth": [
-  "Unending Despair",
   "Warmog's Armor",
   "Spirit Visage",
-  "Rylai's Crystal Scepter"
+  "Unending Despair",
+  "Liandry's Torment"
+ ],
+ "fifth": [
+  "Spirit Visage",
+  "Unending Despair",
+  "Warmog's Armor",
+  "Winter's Approach"
  ],
  "sixth": [
   "Unending Despair",
+  "Jak'Sho, The Protean",
   "Warmog's Armor",
-  "Spirit Visage",
-  "Malignance"
+  "Spirit Visage"
  ],
  "pool": [
-  "Giant's Belt",
-  "Ruby Crystal",
-  "Heartsteel",
+  "Catalyst of Aeons",
+  "Rod of Ages",
   "Mercury's Treads",
-  "Riftmaker",
-  "Overlord's Bloodmail",
-  "Unending Despair",
-  "Warmog's Armor",
-  "Liandry's Torment",
-  "Spirit Visage",
   "Rylai's Crystal Scepter",
-  "Malignance"
+  "Riftmaker",
+  "Warmog's Armor",
+  "Spirit Visage",
+  "Unending Despair",
+  "Liandry's Torment",
+  "Winter's Approach",
+  "Jak'Sho, The Protean"
  ]
 }

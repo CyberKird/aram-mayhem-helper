@@ -7,13 +7,13 @@
   "Mark"
  ],
  "starting": [
-  "Ruby Crystal",
+  "Amplifying Tome",
   "Guardian's Orb"
  ],
  "core": [
-  "Dusk and Dawn",
-  "Sorcerer's Shoes",
   "Shadowflame",
+  "Sorcerer's Shoes",
+  "Dusk and Dawn",
   "Rabadon's Deathcap"
  ],
  "fourth": [
@@ -29,19 +29,20 @@
  "sixth": [
   "Nashor's Tooth",
   "Stormsurge",
-  "Void Staff",
-  "Zhonya's Hourglass"
+  "Banshee's Veil",
+  "Void Staff"
  ],
  "pool": [
-  "Ruby Crystal",
+  "Amplifying Tome",
   "Guardian's Orb",
-  "Dusk and Dawn",
-  "Sorcerer's Shoes",
   "Shadowflame",
+  "Sorcerer's Shoes",
+  "Dusk and Dawn",
   "Rabadon's Deathcap",
   "Void Staff",
   "Stormsurge",
   "Zhonya's Hourglass",
-  "Nashor's Tooth"
+  "Nashor's Tooth",
+  "Banshee's Veil"
  ]
 }

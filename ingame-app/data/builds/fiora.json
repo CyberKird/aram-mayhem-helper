@@ -13,25 +13,25 @@
  "core": [
   "Ravenous Hydra",
   "Mercury's Treads",
-  "Endless Hunger",
-  "Death's Dance"
+  "Death's Dance",
+  "Endless Hunger"
  ],
  "fourth": [
   "Spear of Shojin",
   "Maw of Malmortius",
   "Trinity Force",
-  "Blade of The Ruined King"
+  "Spirit Visage"
  ],
  "fifth": [
   "Spear of Shojin",
   "Maw of Malmortius",
-  "Sterak's Gage",
+  "Trinity Force",
   "Spirit Visage"
  ],
  "sixth": [
-  "Spear of Shojin",
   "Maw of Malmortius",
   "Sterak's Gage",
+  "Spear of Shojin",
   "Spirit Visage"
  ],
  "pool": [
@@ -39,13 +39,12 @@
   "Guardian's Blade",
   "Ravenous Hydra",
   "Mercury's Treads",
-  "Endless Hunger",
   "Death's Dance",
+  "Endless Hunger",
   "Spear of Shojin",
   "Maw of Malmortius",
   "Trinity Force",
-  "Blade of The Ruined King",
-  "Sterak's Gage",
-  "Spirit Visage"
+  "Spirit Visage",
+  "Sterak's Gage"
  ]
 }

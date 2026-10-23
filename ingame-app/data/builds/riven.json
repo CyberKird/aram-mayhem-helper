@@ -12,40 +12,40 @@
  ],
  "core": [
   "Hubris",
-  "Mercury's Treads",
+  "Ionian Boots of Lucidity",
   "Death's Dance",
   "Endless Hunger"
  ],
  "fourth": [
-  "Lord Dominik's Regards",
-  "Maw of Malmortius",
   "Spear of Shojin",
-  "Eclipse"
+  "Maw of Malmortius",
+  "Ravenous Hydra",
+  "Sundered Sky"
  ],
  "fifth": [
-  "Lord Dominik's Regards",
-  "Spear of Shojin",
   "Maw of Malmortius",
-  "Mortal Reminder"
+  "Spear of Shojin",
+  "Eclipse",
+  "Ravenous Hydra"
  ],
  "sixth": [
-  "Lord Dominik's Regards",
-  "Spear of Shojin",
   "Maw of Malmortius",
-  "Sterak's Gage"
+  "Ravenous Hydra",
+  "Black Cleaver",
+  "Spear of Shojin"
  ],
  "pool": [
   "Long Sword",
   "Guardian's Blade",
   "Hubris",
-  "Mercury's Treads",
+  "Ionian Boots of Lucidity",
   "Death's Dance",
   "Endless Hunger",
-  "Lord Dominik's Regards",
-  "Maw of Malmortius",
   "Spear of Shojin",
+  "Maw of Malmortius",
+  "Ravenous Hydra",
+  "Sundered Sky",
   "Eclipse",
-  "Mortal Reminder",
-  "Sterak's Gage"
+  "Black Cleaver"
  ]
 }

@@ -7,44 +7,46 @@
   "Mark"
  ],
  "starting": [
-  "Giant's Belt",
-  "Ruby Crystal"
+  "Long Sword",
+  "Guardian's Blade"
  ],
  "core": [
-  "Heartsteel",
-  "Plated Steelcaps",
-  "Overlord's Bloodmail",
-  "Warmog's Armor"
+  "Hubris",
+  "Mercury's Treads",
+  "Death's Dance",
+  "Endless Hunger"
  ],
  "fourth": [
-  "Endless Hunger",
-  "Trinity Force",
-  "Death's Dance",
-  "Infinity Edge"
+  "Maw of Malmortius",
+  "Lord Dominik's Regards",
+  "Warmog's Armor",
+  "Trinity Force"
  ],
  "fifth": [
-  "Endless Hunger",
+  "Lord Dominik's Regards",
   "Infinity Edge",
-  "Sterak's Gage",
-  "Death's Dance"
+  "Overlord's Bloodmail",
+  "Trinity Force"
  ],
  "sixth": [
-  "Endless Hunger",
-  "Death's Dance",
-  "Sterak's Gage",
-  "Infinity Edge"
+  "Lord Dominik's Regards",
+  "Overlord's Bloodmail",
+  "Infinity Edge",
+  "Sterak's Gage"
  ],
  "pool": [
-  "Giant's Belt",
-  "Ruby Crystal",
-  "Heartsteel",
-  "Plated Steelcaps",
-  "Overlord's Bloodmail",
-  "Warmog's Armor",
-  "Endless Hunger",
-  "Trinity Force",
+  "Long Sword",
+  "Guardian's Blade",
+  "Hubris",
+  "Mercury's Treads",
   "Death's Dance",
+  "Endless Hunger",
+  "Maw of Malmortius",
+  "Lord Dominik's Regards",
+  "Warmog's Armor",
+  "Trinity Force",
   "Infinity Edge",
+  "Overlord's Bloodmail",
   "Sterak's Gage"
  ]
 }

@@ -24,15 +24,15 @@
  ],
  "fifth": [
   "Stormsurge",
-  "Cryptbloom",
+  "Void Staff",
   "Banshee's Veil",
-  "Void Staff"
+  "Zhonya's Hourglass"
  ],
  "sixth": [
-  "Banshee's Veil",
   "Stormsurge",
-  "Cryptbloom",
-  "Void Staff"
+  "Banshee's Veil",
+  "Void Staff",
+  "Zhonya's Hourglass"
  ],
  "pool": [
   "Refillable Potion",
@@ -45,7 +45,6 @@
   "Stormsurge",
   "Liandry's Torment",
   "Zhonya's Hourglass",
-  "Cryptbloom",
   "Banshee's Veil"
  ]
 }

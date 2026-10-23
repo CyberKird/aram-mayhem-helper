@@ -7,7 +7,8 @@
   "Ghost"
  ],
  "starting": [
-  "Lost Chapter"
+  "Amplifying Tome",
+  "Guardian's Orb"
  ],
  "core": [
   "Blackfire Torch",
@@ -18,33 +19,34 @@
  "fourth": [
   "Archangel's Staff",
   "Void Staff",
-  "Zhonya's Hourglass",
-  "Rylai's Crystal Scepter"
+  "Rylai's Crystal Scepter",
+  "Stormsurge"
  ],
  "fifth": [
-  "Archangel's Staff",
-  "Void Staff",
-  "Cryptbloom",
-  "Zhonya's Hourglass"
- ],
- "sixth": [
   "Banshee's Veil",
   "Stormsurge",
   "Void Staff",
   "Cryptbloom"
  ],
+ "sixth": [
+  "Stormsurge",
+  "Zhonya's Hourglass",
+  "Void Staff",
+  "Cryptbloom"
+ ],
  "pool": [
-  "Lost Chapter",
+  "Amplifying Tome",
+  "Guardian's Orb",
   "Blackfire Torch",
   "Sorcerer's Shoes",
   "Shadowflame",
   "Rabadon's Deathcap",
   "Archangel's Staff",
   "Void Staff",
-  "Zhonya's Hourglass",
   "Rylai's Crystal Scepter",
-  "Cryptbloom",
+  "Stormsurge",
   "Banshee's Veil",
-  "Stormsurge"
+  "Cryptbloom",
+  "Zhonya's Hourglass"
  ]
 }

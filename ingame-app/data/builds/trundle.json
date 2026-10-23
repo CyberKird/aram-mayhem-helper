@@ -7,43 +7,46 @@
   "Mark"
  ],
  "starting": [
-  "Giant's Belt",
-  "Ruby Crystal"
+  "Ruby Crystal",
+  "Sheen"
  ],
  "core": [
-  "Heartsteel",
+  "Trinity Force",
   "Mercury's Treads",
-  "Blade of The Ruined King",
-  "Trinity Force"
+  "Ravenous Hydra",
+  "Blade of The Ruined King"
  ],
  "fourth": [
-  "Warmog's Armor",
+  "Death's Dance",
   "Titanic Hydra",
-  "Spirit Visage",
-  "Randuin's Omen"
+  "Liandry's Torment",
+  "Blackfire Torch"
  ],
  "fifth": [
-  "Warmog's Armor",
+  "Death's Dance",
   "Titanic Hydra",
-  "Spirit Visage",
-  "Randuin's Omen"
+  "Warmog's Armor",
+  "Spirit Visage"
  ],
  "sixth": [
-  "Titanic Hydra",
-  "Warmog's Armor",
   "Spirit Visage",
-  "Randuin's Omen"
+  "Warmog's Armor",
+  "Titanic Hydra",
+  "Thornmail"
  ],
  "pool": [
-  "Giant's Belt",
   "Ruby Crystal",
-  "Heartsteel",
-  "Mercury's Treads",
-  "Blade of The Ruined King",
+  "Sheen",
   "Trinity Force",
-  "Warmog's Armor",
+  "Mercury's Treads",
+  "Ravenous Hydra",
+  "Blade of The Ruined King",
+  "Death's Dance",
   "Titanic Hydra",
+  "Liandry's Torment",
+  "Blackfire Torch",
+  "Warmog's Armor",
   "Spirit Visage",
-  "Randuin's Omen"
+  "Thornmail"
  ]
 }

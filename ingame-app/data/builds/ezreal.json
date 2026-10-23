@@ -20,19 +20,19 @@
   "Archangel's Staff",
   "Spear of Shojin",
   "Lord Dominik's Regards",
-  "Serylda's Grudge"
+  "Rabadon's Deathcap"
  ],
  "fifth": [
-  "Archangel's Staff",
-  "Lord Dominik's Regards",
   "Serylda's Grudge",
-  "Spear of Shojin"
+  "Archangel's Staff",
+  "Rabadon's Deathcap",
+  "Shadowflame"
  ],
  "sixth": [
   "Archangel's Staff",
+  "Lord Dominik's Regards",
   "Shadowflame",
-  "Bloodthirster",
-  "Serylda's Grudge"
+  "Rabadon's Deathcap"
  ],
  "pool": [
   "Tear of the Goddess",
@@ -44,8 +44,8 @@
   "Archangel's Staff",
   "Spear of Shojin",
   "Lord Dominik's Regards",
+  "Rabadon's Deathcap",
   "Serylda's Grudge",
-  "Shadowflame",
-  "Bloodthirster"
+  "Shadowflame"
  ]
 }

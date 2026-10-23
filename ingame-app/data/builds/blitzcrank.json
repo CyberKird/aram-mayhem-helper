@@ -11,37 +11,37 @@
  ],
  "core": [
   "Malignance",
-  "Ionian Boots of Lucidity",
-  "Rabadon's Deathcap",
-  "Shadowflame"
+  "Sorcerer's Shoes",
+  "Shadowflame",
+  "Rabadon's Deathcap"
  ],
  "fourth": [
   "Warmog's Armor",
   "Winter's Approach",
-  "Frozen Heart",
+  "Kaenic Rookern",
   "Stormsurge"
  ],
  "fifth": [
   "Warmog's Armor",
-  "Stormsurge",
   "Unending Despair",
-  "Winter's Approach"
+  "Winter's Approach",
+  "Spirit Visage"
  ],
  "sixth": [
   "Warmog's Armor",
-  "Winter's Approach",
+  "Stormsurge",
   "Unending Despair",
   "Spirit Visage"
  ],
  "pool": [
   "Lost Chapter",
   "Malignance",
-  "Ionian Boots of Lucidity",
-  "Rabadon's Deathcap",
+  "Sorcerer's Shoes",
   "Shadowflame",
+  "Rabadon's Deathcap",
   "Warmog's Armor",
   "Winter's Approach",
-  "Frozen Heart",
+  "Kaenic Rookern",
   "Stormsurge",
   "Unending Despair",
   "Spirit Visage"

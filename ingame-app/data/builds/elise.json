@@ -7,41 +7,44 @@
   "Mark"
  ],
  "starting": [
-  "Hextech Alternator"
+  "Amplifying Tome",
+  "Sheen"
  ],
  "core": [
-  "Shadowflame",
-  "Sorcerer's Shoes",
   "Lich Bane",
+  "Sorcerer's Shoes",
+  "Shadowflame",
   "Rabadon's Deathcap"
  ],
  "fourth": [
-  "Stormsurge",
   "Void Staff",
-  "Liandry's Torment"
+  "Stormsurge",
+  "Liandry's Torment",
+  "Zhonya's Hourglass"
  ],
  "fifth": [
-  "Stormsurge",
   "Void Staff",
-  "Liandry's Torment",
-  "Morellonomicon"
+  "Stormsurge",
+  "Zhonya's Hourglass",
+  "Liandry's Torment"
  ],
  "sixth": [
   "Stormsurge",
   "Void Staff",
   "Banshee's Veil",
-  "Liandry's Torment"
+  "Zhonya's Hourglass"
  ],
  "pool": [
-  "Hextech Alternator",
-  "Shadowflame",
-  "Sorcerer's Shoes",
+  "Amplifying Tome",
+  "Sheen",
   "Lich Bane",
+  "Sorcerer's Shoes",
+  "Shadowflame",
   "Rabadon's Deathcap",
-  "Stormsurge",
   "Void Staff",
+  "Stormsurge",
   "Liandry's Torment",
-  "Morellonomicon",
+  "Zhonya's Hourglass",
   "Banshee's Veil"
  ]
 }

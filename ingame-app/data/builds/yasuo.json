@@ -7,46 +7,42 @@
   "Mark"
  ],
  "starting": [
-  "Cloak of Agility",
-  "Amplifying Tome",
-  "Amplifying Tome"
+  "B. F. Sword"
  ],
  "core": [
-  "Rite of Ruin",
-  "Berserker's Greaves",
   "Yun Tal Wildarrows",
+  "Berserker's Greaves",
+  "Rite of Ruin",
   "Death's Dance"
  ],
  "fourth": [
   "Spirit Visage",
   "Infinity Edge",
-  "Phantom Dancer",
-  "Blade of The Ruined King"
+  "Blade of The Ruined King",
+  "Bloodthirster"
  ],
  "fifth": [
   "Spirit Visage",
   "Infinity Edge",
-  "Phantom Dancer",
+  "Lord Dominik's Regards",
   "Bloodthirster"
  ],
  "sixth": [
   "Spirit Visage",
+  "Infinity Edge",
   "Bloodthirster",
-  "Jak'Sho, The Protean",
-  "Phantom Dancer"
+  "Lord Dominik's Regards"
  ],
  "pool": [
-  "Cloak of Agility",
-  "Amplifying Tome",
-  "Rite of Ruin",
-  "Berserker's Greaves",
+  "B. F. Sword",
   "Yun Tal Wildarrows",
+  "Berserker's Greaves",
+  "Rite of Ruin",
   "Death's Dance",
   "Spirit Visage",
   "Infinity Edge",
-  "Phantom Dancer",
   "Blade of The Ruined King",
   "Bloodthirster",
-  "Jak'Sho, The Protean"
+  "Lord Dominik's Regards"
  ]
 }

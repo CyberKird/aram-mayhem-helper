@@ -17,22 +17,22 @@
   "Warmog's Armor"
  ],
  "fourth": [
-  "Spirit Visage",
   "Riftmaker",
   "Dusk and Dawn",
-  "Rabadon's Deathcap"
+  "Rabadon's Deathcap",
+  "Nashor's Tooth"
  ],
  "fifth": [
-  "Spirit Visage",
-  "Riftmaker",
   "Dusk and Dawn",
+  "Riftmaker",
+  "Rabadon's Deathcap",
   "Nashor's Tooth"
  ],
  "sixth": [
-  "Spirit Visage",
   "Riftmaker",
-  "Dusk and Dawn",
-  "Nashor's Tooth"
+  "Rabadon's Deathcap",
+  "Zhonya's Hourglass",
+  "Void Staff"
  ],
  "pool": [
   "Giant's Belt",
@@ -41,10 +41,11 @@
   "Mercury's Treads",
   "Unending Despair",
   "Warmog's Armor",
-  "Spirit Visage",
   "Riftmaker",
   "Dusk and Dawn",
   "Rabadon's Deathcap",
-  "Nashor's Tooth"
+  "Nashor's Tooth",
+  "Zhonya's Hourglass",
+  "Void Staff"
  ]
 }

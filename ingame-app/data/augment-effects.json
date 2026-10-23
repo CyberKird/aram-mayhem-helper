@@ -2,6 +2,12 @@
  "Aim for the Head": {
   "likes": "crit"
  },
+ "BEES!!!": {
+  "likes": "onhit"
+ },
+ "Big Shot": {
+  "likes": "crit"
+ },
  "Blade Waltz": {
   "likes": "onhit"
  },
@@ -40,13 +46,13 @@
  "Ethereal Weapon": {
   "likes": "onhit"
  },
- "Fan The Hammer": {
-  "likes": "onhit"
- },
  "Fan the Hammer": {
   "likes": "onhit"
  },
  "Firebrand": {
+  "likes": "onhit"
+ },
+ "Hands off the Talent": {
   "likes": "onhit"
  },
  "Icathia's Fall": {
@@ -103,6 +109,9 @@
  "Reload": {
   "likes": "onhit"
  },
+ "Sap Magic": {
+  "likes": "onhit"
+ },
  "Shrink Ray": {
   "likes": "onhit"
  },
@@ -115,6 +124,12 @@
   ]
  },
  "Tap Dancer": {
+  "likes": "onhit"
+ },
+ "The Boom and the Bass": {
+  "likes": "onhit"
+ },
+ "Tickle Monster": {
   "likes": "onhit"
  },
  "Time Warp: Heartsteel": {

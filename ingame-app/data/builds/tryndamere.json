@@ -7,7 +7,8 @@
   "Mark"
  ],
  "starting": [
-  "Zeal"
+  "Dagger",
+  "Berserker's Greaves"
  ],
  "core": [
   "Phantom Dancer",
@@ -19,32 +20,33 @@
   "Lord Dominik's Regards",
   "Fiendhunter Bolts",
   "The Collector",
-  "Mortal Reminder"
+  "Navori Flickerblade"
  ],
  "fifth": [
-  "Bloodthirster",
   "Lord Dominik's Regards",
+  "Bloodthirster",
   "Death's Dance",
-  "The Collector"
+  "Experimental Hexplate"
  ],
  "sixth": [
   "Endless Hunger",
   "Death's Dance",
-  "Bloodthirster",
-  "Lord Dominik's Regards"
+  "Lord Dominik's Regards",
+  "Bloodthirster"
  ],
  "pool": [
-  "Zeal",
-  "Phantom Dancer",
+  "Dagger",
   "Berserker's Greaves",
+  "Phantom Dancer",
   "Infinity Edge",
   "Blade of The Ruined King",
   "Lord Dominik's Regards",
   "Fiendhunter Bolts",
   "The Collector",
-  "Mortal Reminder",
+  "Navori Flickerblade",
   "Bloodthirster",
   "Death's Dance",
+  "Experimental Hexplate",
   "Endless Hunger"
  ]
 }

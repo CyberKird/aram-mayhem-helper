@@ -4,7 +4,7 @@
  "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
-  "Ignite"
+  "Ghost"
  ],
  "starting": [
   "Lost Chapter"
@@ -18,8 +18,8 @@
  "fourth": [
   "Shadowflame",
   "Lord Dominik's Regards",
-  "Infinity Edge",
-  "Voltaic Cyclosword"
+  "Essence Reaver",
+  "Infinity Edge"
  ],
  "fifth": [
   "Shadowflame",
@@ -30,8 +30,8 @@
  "sixth": [
   "Endless Hunger",
   "Youmuu's Ghostblade",
-  "Shadowflame",
-  "Edge of Night"
+  "Essence Reaver",
+  "Voltaic Cyclosword"
  ],
  "pool": [
   "Lost Chapter",
@@ -41,11 +41,10 @@
   "Rabadon's Deathcap",
   "Shadowflame",
   "Lord Dominik's Regards",
-  "Infinity Edge",
-  "Voltaic Cyclosword",
-  "Youmuu's Ghostblade",
   "Essence Reaver",
+  "Infinity Edge",
+  "Youmuu's Ghostblade",
   "Endless Hunger",
-  "Edge of Night"
+  "Voltaic Cyclosword"
  ]
 }

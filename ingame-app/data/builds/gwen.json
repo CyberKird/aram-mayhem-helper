@@ -7,43 +7,45 @@
   "Mark"
  ],
  "starting": [
-  "Blasting Wand",
-  "Ruby Crystal"
+  "Recurve Bow",
+  "Amplifying Tome",
+  "Glowing Mote"
  ],
  "core": [
-  "Dusk and Dawn",
-  "Sorcerer's Shoes",
   "Nashor's Tooth",
+  "Sorcerer's Shoes",
+  "Dusk and Dawn",
   "Shadowflame"
  ],
  "fourth": [
   "Rabadon's Deathcap",
+  "Void Staff",
   "Riftmaker",
   "Spirit Visage"
  ],
  "fifth": [
   "Rabadon's Deathcap",
-  "Void Staff",
   "Riftmaker",
+  "Void Staff",
   "Spirit Visage"
  ],
  "sixth": [
-  "Rabadon's Deathcap",
   "Void Staff",
-  "Riftmaker",
-  "Cosmic Drive"
+  "Rabadon's Deathcap",
+  "Spirit Visage",
+  "Riftmaker"
  ],
  "pool": [
-  "Blasting Wand",
-  "Ruby Crystal",
-  "Dusk and Dawn",
-  "Sorcerer's Shoes",
+  "Recurve Bow",
+  "Amplifying Tome",
+  "Glowing Mote",
   "Nashor's Tooth",
+  "Sorcerer's Shoes",
+  "Dusk and Dawn",
   "Shadowflame",
   "Rabadon's Deathcap",
-  "Riftmaker",
-  "Spirit Visage",
   "Void Staff",
-  "Cosmic Drive"
+  "Riftmaker",
+  "Spirit Visage"
  ]
 }

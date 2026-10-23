@@ -13,39 +13,38 @@
  "core": [
   "Heartsteel",
   "Mercury's Treads",
-  "Unending Despair",
-  "Warmog's Armor"
+  "Thornmail",
+  "Unending Despair"
  ],
  "fourth": [
-  "Thornmail",
+  "Warmog's Armor",
   "Rabadon's Deathcap",
-  "Stormsurge",
-  "Shadowflame"
+  "Shadowflame",
+  "Stormsurge"
  ],
  "fifth": [
+  "Warmog's Armor",
   "Stormsurge",
-  "Thornmail",
-  "Cryptbloom",
+  "Shadowflame",
   "Rabadon's Deathcap"
  ],
  "sixth": [
-  "Cryptbloom",
-  "Stormsurge",
+  "Warmog's Armor",
   "Void Staff",
-  "Luden's Echo"
+  "Luden's Echo",
+  "Rabadon's Deathcap"
  ],
  "pool": [
   "Giant's Belt",
   "Ruby Crystal",
   "Heartsteel",
   "Mercury's Treads",
+  "Thornmail",
   "Unending Despair",
   "Warmog's Armor",
-  "Thornmail",
   "Rabadon's Deathcap",
-  "Stormsurge",
   "Shadowflame",
-  "Cryptbloom",
+  "Stormsurge",
   "Void Staff",
   "Luden's Echo"
  ]

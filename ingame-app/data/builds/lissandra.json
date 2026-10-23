@@ -10,10 +10,10 @@
   "Lost Chapter"
  ],
  "core": [
-  "Malignance",
+  "Luden's Echo",
   "Sorcerer's Shoes",
-  "Rabadon's Deathcap",
-  "Shadowflame"
+  "Shadowflame",
+  "Rabadon's Deathcap"
  ],
  "fourth": [
   "Void Staff",
@@ -24,25 +24,26 @@
  "fifth": [
   "Stormsurge",
   "Void Staff",
-  "Cryptbloom",
-  "Zhonya's Hourglass"
+  "Zhonya's Hourglass",
+  "Malignance"
  ],
  "sixth": [
   "Banshee's Veil",
   "Stormsurge",
-  "Zhonya's Hourglass",
+  "Void Staff",
   "Cryptbloom"
  ],
  "pool": [
   "Lost Chapter",
-  "Malignance",
+  "Luden's Echo",
   "Sorcerer's Shoes",
-  "Rabadon's Deathcap",
   "Shadowflame",
+  "Rabadon's Deathcap",
   "Void Staff",
   "Cryptbloom",
   "Stormsurge",
   "Zhonya's Hourglass",
+  "Malignance",
   "Banshee's Veil"
  ]
 }

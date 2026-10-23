@@ -7,43 +7,46 @@
   "Ghost"
  ],
  "starting": [
-  "B. F. Sword"
+  "B. F. Sword",
+  "Health Potion",
+  "Health Potion"
  ],
  "core": [
   "Yun Tal Wildarrows",
   "Berserker's Greaves",
-  "Runaan's Hurricane",
-  "Infinity Edge"
+  "Infinity Edge",
+  "Runaan's Hurricane"
  ],
  "fourth": [
   "Blade of The Ruined King",
+  "Rabadon's Deathcap",
   "Cryptbloom",
-  "Horizon Focus",
-  "Malignance"
+  "Horizon Focus"
  ],
  "fifth": [
+  "Rabadon's Deathcap",
   "Blade of The Ruined King",
   "Cryptbloom",
-  "Cosmic Drive",
-  "Blackfire Torch"
+  "Cosmic Drive"
  ],
  "sixth": [
+  "Rabadon's Deathcap",
+  "Stormsurge",
   "Cryptbloom",
-  "Blackfire Torch",
-  "Cosmic Drive",
-  "Blade of The Ruined King"
+  "Cosmic Drive"
  ],
  "pool": [
   "B. F. Sword",
+  "Health Potion",
   "Yun Tal Wildarrows",
   "Berserker's Greaves",
-  "Runaan's Hurricane",
   "Infinity Edge",
+  "Runaan's Hurricane",
   "Blade of The Ruined King",
+  "Rabadon's Deathcap",
   "Cryptbloom",
   "Horizon Focus",
-  "Malignance",
   "Cosmic Drive",
-  "Blackfire Torch"
+  "Stormsurge"
  ]
 }

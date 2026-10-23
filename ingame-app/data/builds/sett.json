@@ -12,36 +12,40 @@
  ],
  "core": [
   "Heartsteel",
+  "Mercury's Treads",
   "Warmog's Armor",
   "Overlord's Bloodmail"
  ],
  "fourth": [
-  "Endless Hunger",
   "Titanic Hydra",
+  "Unending Despair",
   "Sterak's Gage",
-  "Spear of Shojin"
+  "Spirit Visage"
  ],
  "fifth": [
-  "Endless Hunger",
-  "Titanic Hydra",
   "Sterak's Gage",
+  "Unending Despair",
+  "Titanic Hydra",
   "Spear of Shojin"
  ],
  "sixth": [
   "Sterak's Gage",
+  "Spear of Shojin",
   "Titanic Hydra",
-  "Endless Hunger",
-  "Spear of Shojin"
+  "Force of Nature"
  ],
  "pool": [
   "Giant's Belt",
   "Ruby Crystal",
   "Heartsteel",
+  "Mercury's Treads",
   "Warmog's Armor",
   "Overlord's Bloodmail",
-  "Endless Hunger",
   "Titanic Hydra",
+  "Unending Despair",
   "Sterak's Gage",
-  "Spear of Shojin"
+  "Spirit Visage",
+  "Spear of Shojin",
+  "Force of Nature"
  ]
 }

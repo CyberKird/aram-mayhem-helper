@@ -7,6 +7,7 @@
   "Mark"
  ],
  "starting": [
+  "Refillable Potion",
   "Lost Chapter"
  ],
  "core": [
@@ -19,21 +20,22 @@
   "Stormsurge",
   "Lich Bane",
   "Void Staff",
-  "Horizon Focus"
+  "Liandry's Torment"
  ],
  "fifth": [
   "Stormsurge",
-  "Horizon Focus",
   "Lich Bane",
+  "Horizon Focus",
   "Void Staff"
  ],
  "sixth": [
-  "Banshee's Veil",
   "Stormsurge",
+  "Banshee's Veil",
   "Horizon Focus",
   "Void Staff"
  ],
  "pool": [
+  "Refillable Potion",
   "Lost Chapter",
   "Luden's Echo",
   "Sorcerer's Shoes",
@@ -42,6 +44,7 @@
   "Stormsurge",
   "Lich Bane",
   "Void Staff",
+  "Liandry's Torment",
   "Horizon Focus",
   "Banshee's Veil"
  ]

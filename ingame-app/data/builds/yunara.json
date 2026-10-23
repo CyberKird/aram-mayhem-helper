@@ -7,8 +7,7 @@
   "Ghost"
  ],
  "starting": [
-  "Long Sword",
-  "Guardian's Blade"
+  "B. F. Sword"
  ],
  "core": [
   "Yun Tal Wildarrows",
@@ -18,33 +17,35 @@
  ],
  "fourth": [
   "Terminus",
-  "Blade of The Ruined King",
   "Bloodthirster",
-  "Lord Dominik's Regards"
+  "Lord Dominik's Regards",
+  "Blade of The Ruined King"
  ],
  "fifth": [
   "Terminus",
   "Bloodthirster",
-  "Blade of The Ruined King",
-  "Lord Dominik's Regards"
+  "Lord Dominik's Regards",
+  "Kraken Slayer"
  ],
  "sixth": [
-  "Terminus",
+  "Hexoptics C44",
   "Bloodthirster",
   "Mercurial Scimitar",
-  "Blade of The Ruined King"
+  "Fiendhunter Bolts"
  ],
  "pool": [
-  "Long Sword",
-  "Guardian's Blade",
+  "B. F. Sword",
   "Yun Tal Wildarrows",
   "Berserker's Greaves",
   "Runaan's Hurricane",
   "Infinity Edge",
   "Terminus",
-  "Blade of The Ruined King",
   "Bloodthirster",
   "Lord Dominik's Regards",
-  "Mercurial Scimitar"
+  "Blade of The Ruined King",
+  "Kraken Slayer",
+  "Hexoptics C44",
+  "Mercurial Scimitar",
+  "Fiendhunter Bolts"
  ]
 }

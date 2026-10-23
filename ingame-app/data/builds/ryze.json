@@ -7,46 +7,45 @@
   "Ghost"
  ],
  "starting": [
-  "Sapphire Crystal",
-  "Sapphire Crystal",
+  "Ruby Crystal",
   "Ruby Crystal",
   "Tear of the Goddess"
  ],
  "core": [
   "Rod of Ages",
-  "Sorcerer's Shoes",
+  "Mercury's Treads",
   "Archangel's Staff",
   "Rabadon's Deathcap"
  ],
  "fourth": [
-  "Winter's Approach",
   "Riftmaker",
+  "Winter's Approach",
   "Actualizer",
-  "Shadowflame"
+  "Void Staff"
  ],
  "fifth": [
-  "Winter's Approach",
   "Riftmaker",
+  "Winter's Approach",
   "Actualizer",
   "Shadowflame"
  ],
  "sixth": [
-  "Winter's Approach",
   "Riftmaker",
   "Actualizer",
+  "Winter's Approach",
   "Shadowflame"
  ],
  "pool": [
-  "Sapphire Crystal",
   "Ruby Crystal",
   "Tear of the Goddess",
   "Rod of Ages",
-  "Sorcerer's Shoes",
+  "Mercury's Treads",
   "Archangel's Staff",
   "Rabadon's Deathcap",
-  "Winter's Approach",
   "Riftmaker",
+  "Winter's Approach",
   "Actualizer",
+  "Void Staff",
   "Shadowflame"
  ]
 }

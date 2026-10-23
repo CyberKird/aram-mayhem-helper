@@ -13,38 +13,38 @@
  "core": [
   "Shadowflame",
   "Sorcerer's Shoes",
-  "Lich Bane",
-  "Rabadon's Deathcap"
+  "Rabadon's Deathcap",
+  "Lich Bane"
  ],
  "fourth": [
+  "Stormsurge",
   "Void Staff",
-  "Riftmaker",
   "Spirit Visage",
   "Zhonya's Hourglass"
  ],
  "fifth": [
+  "Stormsurge",
   "Void Staff",
   "Riftmaker",
-  "Spirit Visage",
-  "Zhonya's Hourglass"
+  "Spirit Visage"
  ],
  "sixth": [
-  "Stormsurge",
-  "Riftmaker",
   "Void Staff",
-  "Zhonya's Hourglass"
+  "Stormsurge",
+  "Zhonya's Hourglass",
+  "Riftmaker"
  ],
  "pool": [
   "Amplifying Tome",
   "Guardian's Orb",
   "Shadowflame",
   "Sorcerer's Shoes",
-  "Lich Bane",
   "Rabadon's Deathcap",
+  "Lich Bane",
+  "Stormsurge",
   "Void Staff",
-  "Riftmaker",
   "Spirit Visage",
   "Zhonya's Hourglass",
-  "Stormsurge"
+  "Riftmaker"
  ]
 }

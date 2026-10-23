@@ -10,39 +10,40 @@
   "Lost Chapter"
  ],
  "core": [
-  "Liandry's Torment",
-  "Sorcerer's Shoes",
   "Blackfire Torch",
+  "Mercury's Treads",
+  "Liandry's Torment",
   "Rabadon's Deathcap"
  ],
  "fourth": [
   "Bloodletter's Curse",
-  "Riftmaker",
   "Shadowflame",
+  "Riftmaker",
   "Rylai's Crystal Scepter"
  ],
  "fifth": [
   "Bloodletter's Curse",
   "Shadowflame",
-  "Riftmaker",
-  "Cosmic Drive"
+  "Void Staff",
+  "Riftmaker"
  ],
  "sixth": [
-  "Shadowflame",
+  "Cosmic Drive",
+  "Void Staff",
   "Bloodletter's Curse",
-  "Riftmaker",
-  "Cosmic Drive"
+  "Shadowflame"
  ],
  "pool": [
   "Lost Chapter",
-  "Liandry's Torment",
-  "Sorcerer's Shoes",
   "Blackfire Torch",
+  "Mercury's Treads",
+  "Liandry's Torment",
   "Rabadon's Deathcap",
   "Bloodletter's Curse",
-  "Riftmaker",
   "Shadowflame",
+  "Riftmaker",
   "Rylai's Crystal Scepter",
+  "Void Staff",
   "Cosmic Drive"
  ]
 }

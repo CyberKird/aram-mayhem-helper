@@ -12,40 +12,41 @@
  ],
  "core": [
   "Heartsteel",
-  "Berserker's Greaves",
+  "Mercury's Treads",
   "Warmog's Armor",
   "Overlord's Bloodmail"
  ],
  "fourth": [
-  "Unending Despair",
   "Kaenic Rookern",
-  "Sterak's Gage",
-  "Black Cleaver"
+  "Wit's End",
+  "Black Cleaver",
+  "Sterak's Gage"
  ],
  "fifth": [
-  "Unending Despair",
+  "Trinity Force",
+  "Force of Nature",
   "Sterak's Gage",
-  "Jak'Sho, The Protean",
-  "Force of Nature"
+  "Wit's End"
  ],
  "sixth": [
   "Sterak's Gage",
-  "Jak'Sho, The Protean",
+  "Black Cleaver",
   "Force of Nature",
-  "Kaenic Rookern"
+  "Death's Dance"
  ],
  "pool": [
   "Giant's Belt",
   "Ruby Crystal",
   "Heartsteel",
-  "Berserker's Greaves",
+  "Mercury's Treads",
   "Warmog's Armor",
   "Overlord's Bloodmail",
-  "Unending Despair",
   "Kaenic Rookern",
-  "Sterak's Gage",
+  "Wit's End",
   "Black Cleaver",
-  "Jak'Sho, The Protean",
-  "Force of Nature"
+  "Sterak's Gage",
+  "Trinity Force",
+  "Force of Nature",
+  "Death's Dance"
  ]
 }

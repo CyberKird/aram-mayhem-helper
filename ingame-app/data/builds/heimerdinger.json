@@ -16,21 +16,21 @@
   "Rabadon's Deathcap"
  ],
  "fourth": [
-  "Archangel's Staff",
-  "Shadowflame",
+  "Rylai's Crystal Scepter",
   "Void Staff",
-  "Rylai's Crystal Scepter"
+  "Shadowflame",
+  "Archangel's Staff"
  ],
  "fifth": [
-  "Bloodletter's Curse",
-  "Archangel's Staff",
   "Shadowflame",
+  "Archangel's Staff",
+  "Bloodletter's Curse",
   "Void Staff"
  ],
  "sixth": [
   "Shadowflame",
-  "Archangel's Staff",
   "Void Staff",
+  "Archangel's Staff",
   "Bloodletter's Curse"
  ],
  "pool": [
@@ -39,10 +39,10 @@
   "Sorcerer's Shoes",
   "Liandry's Torment",
   "Rabadon's Deathcap",
-  "Archangel's Staff",
-  "Shadowflame",
-  "Void Staff",
   "Rylai's Crystal Scepter",
+  "Void Staff",
+  "Shadowflame",
+  "Archangel's Staff",
   "Bloodletter's Curse"
  ]
 }

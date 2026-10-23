@@ -4,47 +4,52 @@
  "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
-  "Heal"
+  "Ghost"
  ],
  "starting": [
+  "Health Potion",
+  "Health Potion",
   "Tear of the Goddess",
   "Bandleglass Mirror"
  ],
  "core": [
   "Imperial Mandate",
   "Ionian Boots of Lucidity",
-  "Moonstone Renewer",
+  "Malignance",
   "Whispering Circlet"
  ],
  "fourth": [
   "Ardent Censer",
-  "Archangel's Staff",
+  "Moonstone Renewer",
+  "Locket of the Iron Solari",
+  "Morellonomicon"
+ ],
+ "fifth": [
+  "Staff of Flowing Water",
+  "Ardent Censer",
+  "Shurelya's Battlesong",
+  "Redemption"
+ ],
+ "sixth": [
+  "Staff of Flowing Water",
+  "Ardent Censer",
   "Redemption",
   "Shurelya's Battlesong"
  ],
- "fifth": [
-  "Ardent Censer",
-  "Shurelya's Battlesong",
-  "Archangel's Staff",
-  "Locket of the Iron Solari"
- ],
- "sixth": [
-  "Ardent Censer",
-  "Archangel's Staff",
-  "Redemption",
-  "Locket of the Iron Solari"
- ],
  "pool": [
+  "Health Potion",
   "Tear of the Goddess",
   "Bandleglass Mirror",
   "Imperial Mandate",
   "Ionian Boots of Lucidity",
-  "Moonstone Renewer",
+  "Malignance",
   "Whispering Circlet",
   "Ardent Censer",
-  "Archangel's Staff",
-  "Redemption",
+  "Moonstone Renewer",
+  "Locket of the Iron Solari",
+  "Morellonomicon",
+  "Staff of Flowing Water",
   "Shurelya's Battlesong",
-  "Locket of the Iron Solari"
+  "Redemption"
  ]
 }

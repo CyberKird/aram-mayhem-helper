@@ -8,45 +8,44 @@
  ],
  "starting": [
   "Long Sword",
-  "Caulfield's Warhammer"
+  "Guardian's Blade"
  ],
  "core": [
-  "Eclipse",
-  "Mercury's Treads",
-  "Sundered Sky",
-  "Death's Dance"
+  "Hubris",
+  "Plated Steelcaps",
+  "Death's Dance",
+  "Endless Hunger"
  ],
  "fourth": [
-  "Endless Hunger",
-  "Lord Dominik's Regards",
-  "Black Cleaver",
-  "Infinity Edge"
- ],
- "fifth": [
-  "Endless Hunger",
   "Lord Dominik's Regards",
   "Infinity Edge",
-  "Maw of Malmortius"
+  "Eclipse",
+  "The Collector"
+ ],
+ "fifth": [
+  "Lord Dominik's Regards",
+  "Maw of Malmortius",
+  "Infinity Edge",
+  "The Collector"
  ],
  "sixth": [
-  "Endless Hunger",
+  "Maw of Malmortius",
   "Lord Dominik's Regards",
   "Voltaic Cyclosword",
-  "Axiom Arc"
+  "Infinity Edge"
  ],
  "pool": [
   "Long Sword",
-  "Caulfield's Warhammer",
-  "Eclipse",
-  "Mercury's Treads",
-  "Sundered Sky",
+  "Guardian's Blade",
+  "Hubris",
+  "Plated Steelcaps",
   "Death's Dance",
   "Endless Hunger",
   "Lord Dominik's Regards",
-  "Black Cleaver",
   "Infinity Edge",
+  "Eclipse",
+  "The Collector",
   "Maw of Malmortius",
-  "Voltaic Cyclosword",
-  "Axiom Arc"
+  "Voltaic Cyclosword"
  ]
 }

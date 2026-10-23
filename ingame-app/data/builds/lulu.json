@@ -17,21 +17,21 @@
   "Whispering Circlet"
  ],
  "fourth": [
-  "Staff of Flowing Water",
   "Dawncore",
-  "Locket of the Iron Solari",
-  "Redemption"
- ],
- "fifth": [
   "Staff of Flowing Water",
-  "Dawncore",
-  "Mikael's Blessing",
+  "Sword of Blossoming Dawn",
   "Locket of the Iron Solari"
  ],
- "sixth": [
-  "Staff of Flowing Water",
+ "fifth": [
   "Dawncore",
+  "Staff of Flowing Water",
+  "Redemption",
+  "Shurelya's Battlesong"
+ ],
+ "sixth": [
   "Knight's Vow",
+  "Dawncore",
+  "Staff of Flowing Water",
   "Redemption"
  ],
  "pool": [
@@ -41,11 +41,12 @@
   "Ionian Boots of Lucidity",
   "Moonstone Renewer",
   "Whispering Circlet",
-  "Staff of Flowing Water",
   "Dawncore",
+  "Staff of Flowing Water",
+  "Sword of Blossoming Dawn",
   "Locket of the Iron Solari",
   "Redemption",
-  "Mikael's Blessing",
+  "Shurelya's Battlesong",
   "Knight's Vow"
  ]
 }

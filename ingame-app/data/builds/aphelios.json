@@ -7,47 +7,45 @@
   "Ghost"
  ],
  "starting": [
-  "Long Sword",
-  "Guardian's Blade"
+  "Boots",
+  "Serrated Dirk"
  ],
  "core": [
   "The Collector",
   "Berserker's Greaves",
-  "Lord Dominik's Regards",
-  "Infinity Edge"
+  "Infinity Edge",
+  "Lord Dominik's Regards"
  ],
  "fourth": [
-  "Bloodthirster",
-  "Runaan's Hurricane",
-  "Mortal Reminder",
-  "Blade of The Ruined King"
- ],
- "fifth": [
   "Hexoptics C44",
   "Bloodthirster",
   "Runaan's Hurricane",
-  "Immortal Shieldbow"
+  "Mortal Reminder"
+ ],
+ "fifth": [
+  "Phantom Dancer",
+  "Hexoptics C44",
+  "Bloodthirster",
+  "Runaan's Hurricane"
  ],
  "sixth": [
   "Bloodthirster",
+  "Phantom Dancer",
   "Hexoptics C44",
-  "Mercurial Scimitar",
-  "Kaenic Rookern"
+  "Blade of The Ruined King"
  ],
  "pool": [
-  "Long Sword",
-  "Guardian's Blade",
+  "Boots",
+  "Serrated Dirk",
   "The Collector",
   "Berserker's Greaves",
-  "Lord Dominik's Regards",
   "Infinity Edge",
+  "Lord Dominik's Regards",
+  "Hexoptics C44",
   "Bloodthirster",
   "Runaan's Hurricane",
   "Mortal Reminder",
-  "Blade of The Ruined King",
-  "Hexoptics C44",
-  "Immortal Shieldbow",
-  "Mercurial Scimitar",
-  "Kaenic Rookern"
+  "Phantom Dancer",
+  "Blade of The Ruined King"
  ]
 }

@@ -16,21 +16,21 @@
   "Riftmaker"
  ],
  "fourth": [
-  "Rabadon's Deathcap",
-  "Warmog's Armor",
+  "Death's Dance",
+  "Spear of Shojin",
   "Shadowflame",
-  "Unending Despair"
+  "Rabadon's Deathcap"
  ],
  "fifth": [
-  "Warmog's Armor",
-  "Rabadon's Deathcap",
   "Unending Despair",
-  "Shadowflame"
+  "Jak'Sho, The Protean",
+  "Death's Dance",
+  "Rabadon's Deathcap"
  ],
  "sixth": [
   "Warmog's Armor",
+  "Death's Dance",
   "Rabadon's Deathcap",
-  "Shadowflame",
   "Spirit Visage"
  ],
  "pool": [
@@ -39,10 +39,13 @@
   "Sorcerer's Shoes",
   "Dusk and Dawn",
   "Riftmaker",
-  "Rabadon's Deathcap",
-  "Warmog's Armor",
+  "Death's Dance",
+  "Spear of Shojin",
   "Shadowflame",
+  "Rabadon's Deathcap",
   "Unending Despair",
+  "Jak'Sho, The Protean",
+  "Warmog's Armor",
   "Spirit Visage"
  ]
 }

@@ -17,22 +17,22 @@
   "Lord Dominik's Regards"
  ],
  "fourth": [
-  "Axiom Arc",
   "Death's Dance",
   "Infinity Edge",
-  "Voltaic Cyclosword"
+  "Axiom Arc",
+  "Profane Hydra"
  ],
  "fifth": [
   "Endless Hunger",
-  "Axiom Arc",
   "Death's Dance",
-  "Infinity Edge"
+  "Axiom Arc",
+  "Voltaic Cyclosword"
  ],
  "sixth": [
   "Endless Hunger",
   "Death's Dance",
   "Axiom Arc",
-  "Voltaic Cyclosword"
+  "Bloodthirster"
  ],
  "pool": [
   "Long Sword",
@@ -41,10 +41,12 @@
   "Mercury's Treads",
   "The Collector",
   "Lord Dominik's Regards",
-  "Axiom Arc",
   "Death's Dance",
   "Infinity Edge",
+  "Axiom Arc",
+  "Profane Hydra",
+  "Endless Hunger",
   "Voltaic Cyclosword",
-  "Endless Hunger"
+  "Bloodthirster"
  ]
 }

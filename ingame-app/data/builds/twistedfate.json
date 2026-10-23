@@ -26,12 +26,12 @@
   "Lich Bane",
   "Stormsurge",
   "Void Staff",
-  "Liandry's Torment"
+  "Archangel's Staff"
  ],
  "sixth": [
-  "Banshee's Veil",
-  "Lich Bane",
   "Stormsurge",
+  "Lich Bane",
+  "Archangel's Staff",
   "Void Staff"
  ],
  "pool": [
@@ -45,6 +45,6 @@
   "Lich Bane",
   "Void Staff",
   "Liandry's Torment",
-  "Banshee's Veil"
+  "Archangel's Staff"
  ]
 }

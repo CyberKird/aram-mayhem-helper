@@ -14,25 +14,25 @@
   "Hubris",
   "Mercury's Treads",
   "Death's Dance",
-  "Voltaic Cyclosword"
+  "Endless Hunger"
  ],
  "fourth": [
-  "Lord Dominik's Regards",
-  "Endless Hunger",
+  "Voltaic Cyclosword",
+  "Spear of Shojin",
   "Mortal Reminder",
-  "Spear of Shojin"
+  "Eclipse"
  ],
  "fifth": [
-  "Lord Dominik's Regards",
-  "Endless Hunger",
-  "Maw of Malmortius",
-  "Mortal Reminder"
+  "Axiom Arc",
+  "Voltaic Cyclosword",
+  "Spear of Shojin",
+  "Maw of Malmortius"
  ],
  "sixth": [
-  "Lord Dominik's Regards",
   "Axiom Arc",
-  "Endless Hunger",
-  "Maw of Malmortius"
+  "Voltaic Cyclosword",
+  "Maw of Malmortius",
+  "Spear of Shojin"
  ],
  "pool": [
   "Long Sword",
@@ -40,12 +40,12 @@
   "Hubris",
   "Mercury's Treads",
   "Death's Dance",
-  "Voltaic Cyclosword",
-  "Lord Dominik's Regards",
   "Endless Hunger",
-  "Mortal Reminder",
+  "Voltaic Cyclosword",
   "Spear of Shojin",
-  "Maw of Malmortius",
-  "Axiom Arc"
+  "Mortal Reminder",
+  "Eclipse",
+  "Axiom Arc",
+  "Maw of Malmortius"
  ]
 }

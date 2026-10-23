@@ -7,46 +7,44 @@
   "Ghost"
  ],
  "starting": [
-  "Boots",
+  "Ruby Crystal",
   "Sheen"
  ],
  "core": [
   "Trinity Force",
-  "Plated Steelcaps",
-  "Death's Dance",
+  "Mercury's Treads",
+  "Frozen Heart",
   "Spirit Visage"
  ],
  "fourth": [
-  "Frozen Heart",
-  "Sundered Sky",
+  "Death's Dance",
   "Force of Nature",
-  "Rylai's Crystal Scepter"
+  "Sundered Sky",
+  "Warmog's Armor"
  ],
  "fifth": [
   "Endless Hunger",
-  "Warmog's Armor",
-  "Force of Nature",
-  "Sundered Sky"
+  "Death's Dance",
+  "Sundered Sky",
+  "Force of Nature"
  ],
  "sixth": [
+  "Death's Dance",
   "Endless Hunger",
-  "Jak'Sho, The Protean",
-  "Warmog's Armor",
-  "Sundered Sky"
+  "Force of Nature",
+  "Warmog's Armor"
  ],
  "pool": [
-  "Boots",
+  "Ruby Crystal",
   "Sheen",
   "Trinity Force",
-  "Plated Steelcaps",
-  "Death's Dance",
-  "Spirit Visage",
+  "Mercury's Treads",
   "Frozen Heart",
-  "Sundered Sky",
+  "Spirit Visage",
+  "Death's Dance",
   "Force of Nature",
-  "Rylai's Crystal Scepter",
-  "Endless Hunger",
+  "Sundered Sky",
   "Warmog's Armor",
-  "Jak'Sho, The Protean"
+  "Endless Hunger"
  ]
 }

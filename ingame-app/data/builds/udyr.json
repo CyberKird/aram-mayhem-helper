@@ -7,41 +7,42 @@
   "Mark"
  ],
  "starting": [
-  "Haunting Guise"
+  "Hextech Alternator"
  ],
  "core": [
-  "Liandry's Torment",
-  "Sorcerer's Shoes",
   "Shadowflame",
+  "Sorcerer's Shoes",
+  "Liandry's Torment",
   "Rabadon's Deathcap"
  ],
  "fourth": [
   "Stormsurge",
   "Void Staff",
+  "Infinity Edge",
   "Rylai's Crystal Scepter"
  ],
  "fifth": [
   "Stormsurge",
   "Void Staff",
-  "Rylai's Crystal Scepter",
-  "Morellonomicon"
+  "Infinity Edge",
+  "Rylai's Crystal Scepter"
  ],
  "sixth": [
-  "Stormsurge",
   "Void Staff",
+  "Stormsurge",
   "Blackfire Torch",
   "Rylai's Crystal Scepter"
  ],
  "pool": [
-  "Haunting Guise",
-  "Liandry's Torment",
-  "Sorcerer's Shoes",
+  "Hextech Alternator",
   "Shadowflame",
+  "Sorcerer's Shoes",
+  "Liandry's Torment",
   "Rabadon's Deathcap",
   "Stormsurge",
   "Void Staff",
+  "Infinity Edge",
   "Rylai's Crystal Scepter",
-  "Morellonomicon",
   "Blackfire Torch"
  ]
 }

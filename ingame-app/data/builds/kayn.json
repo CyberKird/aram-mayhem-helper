@@ -18,9 +18,9 @@
  ],
  "fourth": [
   "Lord Dominik's Regards",
-  "Serylda's Grudge",
   "Endless Hunger",
-  "Spear of Shojin"
+  "Serylda's Grudge",
+  "Voltaic Cyclosword"
  ],
  "fifth": [
   "Lord Dominik's Regards",
@@ -29,10 +29,10 @@
   "Spear of Shojin"
  ],
  "sixth": [
-  "Lord Dominik's Regards",
-  "Serylda's Grudge",
   "Endless Hunger",
-  "Spear of Shojin"
+  "Lord Dominik's Regards",
+  "Spear of Shojin",
+  "Serylda's Grudge"
  ],
  "pool": [
   "Long Sword",
@@ -42,8 +42,9 @@
   "Axiom Arc",
   "Death's Dance",
   "Lord Dominik's Regards",
-  "Serylda's Grudge",
   "Endless Hunger",
+  "Serylda's Grudge",
+  "Voltaic Cyclosword",
   "Spear of Shojin"
  ]
 }

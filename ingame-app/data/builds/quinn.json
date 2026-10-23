@@ -7,9 +7,7 @@
   "Ghost"
  ],
  "starting": [
-  "Long Sword",
-  "Pickaxe",
-  "Refillable Potion"
+  "Serrated Dirk"
  ],
  "core": [
   "The Collector",
@@ -19,34 +17,32 @@
  ],
  "fourth": [
   "Bloodthirster",
-  "Runaan's Hurricane",
-  "Voltaic Cyclosword",
-  "Blade of The Ruined King"
+  "Yun Tal Wildarrows",
+  "Blade of The Ruined King",
+  "Voltaic Cyclosword"
  ],
  "fifth": [
   "Bloodthirster",
   "Voltaic Cyclosword",
-  "Kraken Slayer",
-  "Blade of The Ruined King"
+  "Blade of The Ruined King",
+  "Kraken Slayer"
  ],
  "sixth": [
+  "Voltaic Cyclosword",
   "Edge of Night",
   "Bloodthirster",
-  "Voltaic Cyclosword",
   "Blade of The Ruined King"
  ],
  "pool": [
-  "Long Sword",
-  "Pickaxe",
-  "Refillable Potion",
+  "Serrated Dirk",
   "The Collector",
   "Berserker's Greaves",
   "Infinity Edge",
   "Lord Dominik's Regards",
   "Bloodthirster",
-  "Runaan's Hurricane",
-  "Voltaic Cyclosword",
+  "Yun Tal Wildarrows",
   "Blade of The Ruined King",
+  "Voltaic Cyclosword",
   "Kraken Slayer",
   "Edge of Night"
  ]

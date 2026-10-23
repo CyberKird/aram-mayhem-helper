@@ -7,7 +7,9 @@
   "Clarity"
  ],
  "starting": [
-  "Lost Chapter"
+  "Amplifying Tome",
+  "Amplifying Tome",
+  "Tear of the Goddess"
  ],
  "core": [
   "Luden's Echo",
@@ -16,35 +18,35 @@
   "Archangel's Staff"
  ],
  "fourth": [
+  "Nashor's Tooth",
   "Blackfire Torch",
   "Cosmic Drive",
-  "Cryptbloom",
-  "Horizon Focus"
+  "Cryptbloom"
  ],
  "fifth": [
   "Rod of Ages",
   "Blackfire Torch",
   "Malignance",
-  "Cosmic Drive"
+  "Cryptbloom"
  ],
  "sixth": [
   "Rod of Ages",
-  "Banshee's Veil",
   "Blackfire Torch",
-  "Malignance"
+  "Cryptbloom",
+  "Cosmic Drive"
  ],
  "pool": [
-  "Lost Chapter",
+  "Amplifying Tome",
+  "Tear of the Goddess",
   "Luden's Echo",
   "Sorcerer's Shoes",
   "Rabadon's Deathcap",
   "Archangel's Staff",
+  "Nashor's Tooth",
   "Blackfire Torch",
   "Cosmic Drive",
   "Cryptbloom",
-  "Horizon Focus",
   "Rod of Ages",
-  "Malignance",
-  "Banshee's Veil"
+  "Malignance"
  ]
 }

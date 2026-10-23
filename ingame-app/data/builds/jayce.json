@@ -19,19 +19,19 @@
  "fourth": [
   "Endless Hunger",
   "Voltaic Cyclosword",
-  "Infinity Edge",
-  "Death's Dance"
+  "Death's Dance",
+  "Infinity Edge"
  ],
  "fifth": [
   "Endless Hunger",
-  "Death's Dance",
   "Edge of Night",
-  "Infinity Edge"
+  "Infinity Edge",
+  "Voltaic Cyclosword"
  ],
  "sixth": [
   "Endless Hunger",
-  "Youmuu's Ghostblade",
   "Death's Dance",
+  "Youmuu's Ghostblade",
   "Edge of Night"
  ],
  "pool": [
@@ -43,8 +43,8 @@
   "Lord Dominik's Regards",
   "Endless Hunger",
   "Voltaic Cyclosword",
-  "Infinity Edge",
   "Death's Dance",
+  "Infinity Edge",
   "Edge of Night",
   "Youmuu's Ghostblade"
  ]

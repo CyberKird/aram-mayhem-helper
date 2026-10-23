@@ -10,20 +10,20 @@
   "Lost Chapter"
  ],
  "core": [
-  "Liandry's Torment",
-  "Sorcerer's Shoes",
   "Blackfire Torch",
-  "Rylai's Crystal Scepter"
+  "Sorcerer's Shoes",
+  "Rylai's Crystal Scepter",
+  "Liandry's Torment"
  ],
  "fourth": [
+  "Rabadon's Deathcap",
   "Bloodletter's Curse",
   "Archangel's Staff",
-  "Rabadon's Deathcap",
   "Shadowflame"
  ],
  "fifth": [
-  "Bloodletter's Curse",
   "Archangel's Staff",
+  "Bloodletter's Curse",
   "Shadowflame",
   "Rabadon's Deathcap"
  ],
@@ -35,13 +35,13 @@
  ],
  "pool": [
   "Lost Chapter",
-  "Liandry's Torment",
-  "Sorcerer's Shoes",
   "Blackfire Torch",
+  "Sorcerer's Shoes",
   "Rylai's Crystal Scepter",
+  "Liandry's Torment",
+  "Rabadon's Deathcap",
   "Bloodletter's Curse",
   "Archangel's Staff",
-  "Rabadon's Deathcap",
   "Shadowflame"
  ]
 }

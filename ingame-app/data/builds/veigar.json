@@ -18,19 +18,19 @@
  "fourth": [
   "Shadowflame",
   "Void Staff",
-  "Warmog's Armor",
-  "Stormsurge"
+  "Stormsurge",
+  "Zhonya's Hourglass"
  ],
  "fifth": [
-  "Banshee's Veil",
   "Shadowflame",
-  "Stormsurge",
-  "Void Staff"
+  "Banshee's Veil",
+  "Void Staff",
+  "Stormsurge"
  ],
  "sixth": [
   "Banshee's Veil",
-  "Stormsurge",
   "Shadowflame",
+  "Warmog's Armor",
   "Void Staff"
  ],
  "pool": [
@@ -41,8 +41,9 @@
   "Archangel's Staff",
   "Shadowflame",
   "Void Staff",
-  "Warmog's Armor",
   "Stormsurge",
-  "Banshee's Veil"
+  "Zhonya's Hourglass",
+  "Banshee's Veil",
+  "Warmog's Armor"
  ]
 }

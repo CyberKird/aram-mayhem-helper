@@ -4,45 +4,43 @@
  "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
-  "Ghost"
+  "Mark"
  ],
  "starting": [
-  "Refillable Potion",
   "Lost Chapter"
  ],
  "core": [
   "Malignance",
   "Sorcerer's Shoes",
   "Liandry's Torment",
-  "Rylai's Crystal Scepter"
+  "Shadowflame"
  ],
  "fourth": [
+  "Rylai's Crystal Scepter",
   "Rabadon's Deathcap",
-  "Shadowflame",
   "Stormsurge",
   "Zhonya's Hourglass"
  ],
  "fifth": [
-  "Shadowflame",
   "Rabadon's Deathcap",
+  "Stormsurge",
   "Void Staff",
-  "Stormsurge"
+  "Rylai's Crystal Scepter"
  ],
  "sixth": [
-  "Shadowflame",
-  "Stormsurge",
   "Rabadon's Deathcap",
-  "Void Staff"
+  "Void Staff",
+  "Stormsurge",
+  "Zhonya's Hourglass"
  ],
  "pool": [
-  "Refillable Potion",
   "Lost Chapter",
   "Malignance",
   "Sorcerer's Shoes",
   "Liandry's Torment",
+  "Shadowflame",
   "Rylai's Crystal Scepter",
   "Rabadon's Deathcap",
-  "Shadowflame",
   "Stormsurge",
   "Zhonya's Hourglass",
   "Void Staff"

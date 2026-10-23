@@ -17,22 +17,22 @@
   "Endless Hunger"
  ],
  "fourth": [
-  "Axiom Arc",
-  "Serylda's Grudge",
-  "Voltaic Cyclosword",
-  "Lord Dominik's Regards"
- ],
- "fifth": [
-  "Axiom Arc",
-  "Serylda's Grudge",
-  "Voltaic Cyclosword",
-  "Lord Dominik's Regards"
- ],
- "sixth": [
   "Serylda's Grudge",
   "Lord Dominik's Regards",
   "Axiom Arc",
-  "Edge of Night"
+  "Voltaic Cyclosword"
+ ],
+ "fifth": [
+  "Edge of Night",
+  "Serylda's Grudge",
+  "Lord Dominik's Regards",
+  "Axiom Arc"
+ ],
+ "sixth": [
+  "Axiom Arc",
+  "Voltaic Cyclosword",
+  "Maw of Malmortius",
+  "Serylda's Grudge"
  ],
  "pool": [
   "Long Sword",
@@ -41,10 +41,11 @@
   "Mercury's Treads",
   "Death's Dance",
   "Endless Hunger",
-  "Axiom Arc",
   "Serylda's Grudge",
-  "Voltaic Cyclosword",
   "Lord Dominik's Regards",
-  "Edge of Night"
+  "Axiom Arc",
+  "Voltaic Cyclosword",
+  "Edge of Night",
+  "Maw of Malmortius"
  ]
 }
