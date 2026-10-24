@@ -12,8 +12,8 @@
   "Dagger"
  ],
  "core": [
-  "Statikk Shiv",
-  "Berserker's Greaves",
+  "Blade of The Ruined King",
+  "Mercury's Treads",
   "Guinsoo's Rageblade",
   "Terminus"
  ],
@@ -27,25 +27,26 @@
   "Edge of Night",
   "Lord Dominik's Regards",
   "Serylda's Grudge",
-  "Infinity Edge"
+  "Void Staff"
  ],
  "sixth": [
-  "Lord Dominik's Regards",
+  "Youmuu's Ghostblade",
   "Edge of Night",
-  "Serylda's Grudge",
-  "Rabadon's Deathcap"
+  "Lord Dominik's Regards",
+  "Void Staff"
  ],
  "pool": [
   "Pickaxe",
   "Dagger",
-  "Statikk Shiv",
-  "Berserker's Greaves",
+  "Blade of The Ruined King",
+  "Mercury's Treads",
   "Guinsoo's Rageblade",
   "Terminus",
   "Lord Dominik's Regards",
   "Edge of Night",
   "Serylda's Grudge",
   "Infinity Edge",
-  "Rabadon's Deathcap"
+  "Void Staff",
+  "Youmuu's Ghostblade"
  ]
 }

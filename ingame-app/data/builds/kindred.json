@@ -13,8 +13,8 @@
  "core": [
   "The Collector",
   "Berserker's Greaves",
-  "Lord Dominik's Regards",
-  "Infinity Edge"
+  "Infinity Edge",
+  "Lord Dominik's Regards"
  ],
  "fourth": [
   "Bloodthirster",
@@ -23,9 +23,9 @@
   "Mortal Reminder"
  ],
  "fifth": [
+  "Hexoptics C44",
   "Bloodthirster",
   "Runaan's Hurricane",
-  "Blade of The Ruined King",
   "Kraken Slayer"
  ],
  "sixth": [
@@ -39,13 +39,13 @@
   "Guardian's Blade",
   "The Collector",
   "Berserker's Greaves",
-  "Lord Dominik's Regards",
   "Infinity Edge",
+  "Lord Dominik's Regards",
   "Bloodthirster",
   "Blade of The Ruined King",
   "Runaan's Hurricane",
   "Mortal Reminder",
-  "Kraken Slayer",
-  "Hexoptics C44"
+  "Hexoptics C44",
+  "Kraken Slayer"
  ]
 }

@@ -12,13 +12,13 @@
  ],
  "core": [
   "Hubris",
-  "Ionian Boots of Lucidity",
+  "Mercury's Treads",
   "Axiom Arc",
   "Voltaic Cyclosword"
  ],
  "fourth": [
-  "Death's Dance",
   "Endless Hunger",
+  "Death's Dance",
   "Profane Hydra",
   "Youmuu's Ghostblade"
  ],
@@ -26,25 +26,25 @@
   "Endless Hunger",
   "Death's Dance",
   "Youmuu's Ghostblade",
-  "Profane Hydra"
+  "Maw of Malmortius"
  ],
  "sixth": [
   "Endless Hunger",
   "Youmuu's Ghostblade",
-  "Lord Dominik's Regards",
-  "Profane Hydra"
+  "Profane Hydra",
+  "Death's Dance"
  ],
  "pool": [
   "Long Sword",
   "Serrated Dirk",
   "Hubris",
-  "Ionian Boots of Lucidity",
+  "Mercury's Treads",
   "Axiom Arc",
   "Voltaic Cyclosword",
-  "Death's Dance",
   "Endless Hunger",
+  "Death's Dance",
   "Profane Hydra",
   "Youmuu's Ghostblade",
-  "Lord Dominik's Regards"
+  "Maw of Malmortius"
  ]
 }

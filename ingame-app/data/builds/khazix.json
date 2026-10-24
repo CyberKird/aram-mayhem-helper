@@ -18,21 +18,21 @@
  ],
  "fourth": [
   "Lord Dominik's Regards",
+  "Infinity Edge",
   "Voltaic Cyclosword",
-  "Serylda's Grudge",
-  "Manamune"
+  "Serylda's Grudge"
  ],
  "fifth": [
   "Lord Dominik's Regards",
   "Youmuu's Ghostblade",
-  "Voltaic Cyclosword",
-  "Serylda's Grudge"
+  "Infinity Edge",
+  "Voltaic Cyclosword"
  ],
  "sixth": [
   "Youmuu's Ghostblade",
+  "Axiom Arc",
   "Lord Dominik's Regards",
-  "Edge of Night",
-  "Serylda's Grudge"
+  "Infinity Edge"
  ],
  "pool": [
   "Long Sword",
@@ -42,10 +42,10 @@
   "Death's Dance",
   "Endless Hunger",
   "Lord Dominik's Regards",
+  "Infinity Edge",
   "Voltaic Cyclosword",
   "Serylda's Grudge",
-  "Manamune",
   "Youmuu's Ghostblade",
-  "Edge of Night"
+  "Axiom Arc"
  ]
 }

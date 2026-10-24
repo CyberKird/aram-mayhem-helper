@@ -25,14 +25,14 @@
  "fifth": [
   "Lich Bane",
   "Stormsurge",
-  "Zhonya's Hourglass",
-  "Void Staff"
+  "Void Staff",
+  "Zhonya's Hourglass"
  ],
  "sixth": [
   "Lich Bane",
   "Banshee's Veil",
   "Void Staff",
-  "Hextech Rocketbelt"
+  "Stormsurge"
  ],
  "pool": [
   "Boots",
@@ -45,7 +45,6 @@
   "Lich Bane",
   "Stormsurge",
   "Zhonya's Hourglass",
-  "Banshee's Veil",
-  "Hextech Rocketbelt"
+  "Banshee's Veil"
  ]
 }

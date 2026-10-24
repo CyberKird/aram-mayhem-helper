@@ -18,21 +18,21 @@
  ],
  "fourth": [
   "Knight's Vow",
+  "Jak'Sho, The Protean",
   "Zeke's Convergence",
-  "Spirit Visage",
   "Randuin's Omen"
  ],
  "fifth": [
   "Knight's Vow",
   "Spirit Visage",
-  "Locket of the Iron Solari",
-  "Jak'Sho, The Protean"
+  "Jak'Sho, The Protean",
+  "Zeke's Convergence"
  ],
  "sixth": [
   "Jak'Sho, The Protean",
-  "Knight's Vow",
   "Zeke's Convergence",
-  "Kaenic Rookern"
+  "Knight's Vow",
+  "Randuin's Omen"
  ],
  "pool": [
   "Giant's Belt",
@@ -42,11 +42,9 @@
   "Unending Despair",
   "Warmog's Armor",
   "Knight's Vow",
-  "Zeke's Convergence",
-  "Spirit Visage",
-  "Randuin's Omen",
-  "Locket of the Iron Solari",
   "Jak'Sho, The Protean",
-  "Kaenic Rookern"
+  "Zeke's Convergence",
+  "Randuin's Omen",
+  "Spirit Visage"
  ]
 }

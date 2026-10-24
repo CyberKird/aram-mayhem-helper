@@ -7,8 +7,6 @@
   "Mark"
  ],
  "starting": [
-  "Health Potion",
-  "Health Potion",
   "Haunting Guise"
  ],
  "core": [
@@ -25,18 +23,17 @@
  ],
  "fifth": [
   "Dusk and Dawn",
-  "Warmog's Armor",
   "Spirit Visage",
+  "Warmog's Armor",
   "Unending Despair"
  ],
  "sixth": [
   "Dusk and Dawn",
   "Warmog's Armor",
   "Unending Despair",
-  "Spirit Visage"
+  "Rabadon's Deathcap"
  ],
  "pool": [
-  "Health Potion",
   "Haunting Guise",
   "Liandry's Torment",
   "Mercury's Treads",
@@ -45,6 +42,7 @@
   "Dusk and Dawn",
   "Spirit Visage",
   "Warmog's Armor",
-  "Unending Despair"
+  "Unending Despair",
+  "Rabadon's Deathcap"
  ]
 }

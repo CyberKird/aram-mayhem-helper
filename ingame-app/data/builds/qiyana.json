@@ -19,20 +19,20 @@
  "fourth": [
   "Manamune",
   "Lord Dominik's Regards",
-  "Mortal Reminder",
-  "Voltaic Cyclosword"
+  "Voltaic Cyclosword",
+  "Mortal Reminder"
  ],
  "fifth": [
-  "Lord Dominik's Regards",
   "Manamune",
-  "Serylda's Grudge",
-  "Profane Hydra"
+  "Lord Dominik's Regards",
+  "Infinity Edge",
+  "Voltaic Cyclosword"
  ],
  "sixth": [
-  "Manamune",
   "Youmuu's Ghostblade",
   "Serylda's Grudge",
-  "Maw of Malmortius"
+  "Manamune",
+  "Infinity Edge"
  ],
  "pool": [
   "Long Sword",
@@ -43,11 +43,10 @@
   "Endless Hunger",
   "Manamune",
   "Lord Dominik's Regards",
-  "Mortal Reminder",
   "Voltaic Cyclosword",
-  "Serylda's Grudge",
-  "Profane Hydra",
+  "Mortal Reminder",
+  "Infinity Edge",
   "Youmuu's Ghostblade",
-  "Maw of Malmortius"
+  "Serylda's Grudge"
  ]
 }

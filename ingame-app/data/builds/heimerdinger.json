@@ -18,20 +18,20 @@
  "fourth": [
   "Rylai's Crystal Scepter",
   "Void Staff",
-  "Shadowflame",
-  "Archangel's Staff"
+  "Archangel's Staff",
+  "Shadowflame"
  ],
  "fifth": [
+  "Bloodletter's Curse",
   "Shadowflame",
   "Archangel's Staff",
-  "Bloodletter's Curse",
   "Void Staff"
  ],
  "sixth": [
   "Shadowflame",
   "Void Staff",
   "Archangel's Staff",
-  "Bloodletter's Curse"
+  "Malignance"
  ],
  "pool": [
   "Lost Chapter",
@@ -41,8 +41,9 @@
   "Rabadon's Deathcap",
   "Rylai's Crystal Scepter",
   "Void Staff",
-  "Shadowflame",
   "Archangel's Staff",
-  "Bloodletter's Curse"
+  "Shadowflame",
+  "Bloodletter's Curse",
+  "Malignance"
  ]
 }

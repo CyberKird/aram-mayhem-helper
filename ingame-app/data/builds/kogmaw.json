@@ -20,20 +20,20 @@
  "fourth": [
   "Void Staff",
   "Archangel's Staff",
-  "Guinsoo's Rageblade",
-  "Terminus"
+  "Terminus",
+  "Runaan's Hurricane"
  ],
  "fifth": [
   "Terminus",
   "Void Staff",
   "Archangel's Staff",
-  "Wit's End"
+  "Guinsoo's Rageblade"
  ],
  "sixth": [
-  "Wit's End",
   "Void Staff",
-  "Archangel's Staff",
-  "Terminus"
+  "Kraken Slayer",
+  "Terminus",
+  "Wit's End"
  ],
  "pool": [
   "Blasting Wand",
@@ -45,8 +45,10 @@
   "Rabadon's Deathcap",
   "Void Staff",
   "Archangel's Staff",
-  "Guinsoo's Rageblade",
   "Terminus",
+  "Runaan's Hurricane",
+  "Guinsoo's Rageblade",
+  "Kraken Slayer",
   "Wit's End"
  ]
 }

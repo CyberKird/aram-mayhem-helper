@@ -13,38 +13,40 @@
  "core": [
   "Hubris",
   "Mercury's Treads",
-  "Endless Hunger",
-  "Death's Dance"
+  "Death's Dance",
+  "Endless Hunger"
  ],
  "fourth": [
-  "Sundered Sky",
+  "Overlord's Bloodmail",
   "Spear of Shojin",
-  "Spirit Visage",
+  "Sundered Sky",
   "Trinity Force"
  ],
  "fifth": [
-  "Spear of Shojin",
-  "Spirit Visage",
-  "Trinity Force",
-  "Sterak's Gage"
- ],
- "sixth": [
-  "Sundered Sky",
-  "Sterak's Gage",
+  "Overlord's Bloodmail",
+  "Lord Dominik's Regards",
   "Spirit Visage",
   "Spear of Shojin"
+ ],
+ "sixth": [
+  "Spirit Visage",
+  "Lord Dominik's Regards",
+  "Sterak's Gage",
+  "Overlord's Bloodmail"
  ],
  "pool": [
   "Long Sword",
   "Guardian's Blade",
   "Hubris",
   "Mercury's Treads",
-  "Endless Hunger",
   "Death's Dance",
-  "Sundered Sky",
+  "Endless Hunger",
+  "Overlord's Bloodmail",
   "Spear of Shojin",
-  "Spirit Visage",
+  "Sundered Sky",
   "Trinity Force",
+  "Lord Dominik's Regards",
+  "Spirit Visage",
   "Sterak's Gage"
  ]
 }

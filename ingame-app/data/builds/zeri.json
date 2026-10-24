@@ -18,14 +18,14 @@
  "fourth": [
   "Fiendhunter Bolts",
   "Lord Dominik's Regards",
-  "Bloodthirster",
-  "Mortal Reminder"
+  "Mortal Reminder",
+  "Bloodthirster"
  ],
  "fifth": [
   "Lord Dominik's Regards",
   "Bloodthirster",
   "Fiendhunter Bolts",
-  "Mortal Reminder"
+  "Statikk Shiv"
  ],
  "sixth": [
   "Mercurial Scimitar",
@@ -41,8 +41,9 @@
   "Infinity Edge",
   "Fiendhunter Bolts",
   "Lord Dominik's Regards",
-  "Bloodthirster",
   "Mortal Reminder",
+  "Bloodthirster",
+  "Statikk Shiv",
   "Mercurial Scimitar"
  ]
 }

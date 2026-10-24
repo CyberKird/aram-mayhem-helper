@@ -10,16 +10,16 @@
   "Lost Chapter"
  ],
  "core": [
-  "Blackfire Torch",
-  "Ionian Boots of Lucidity",
   "Liandry's Torment",
+  "Sorcerer's Shoes",
+  "Blackfire Torch",
   "Rabadon's Deathcap"
  ],
  "fourth": [
   "Stormsurge",
   "Shadowflame",
-  "Void Staff",
-  "Archangel's Staff"
+  "Archangel's Staff",
+  "Void Staff"
  ],
  "fifth": [
   "Stormsurge",
@@ -28,21 +28,21 @@
   "Archangel's Staff"
  ],
  "sixth": [
-  "Stormsurge",
   "Banshee's Veil",
+  "Stormsurge",
   "Cosmic Drive",
   "Shadowflame"
  ],
  "pool": [
   "Lost Chapter",
-  "Blackfire Torch",
-  "Ionian Boots of Lucidity",
   "Liandry's Torment",
+  "Sorcerer's Shoes",
+  "Blackfire Torch",
   "Rabadon's Deathcap",
   "Stormsurge",
   "Shadowflame",
-  "Void Staff",
   "Archangel's Staff",
+  "Void Staff",
   "Banshee's Veil",
   "Cosmic Drive"
  ]

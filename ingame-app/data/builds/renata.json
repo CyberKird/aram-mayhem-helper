@@ -4,7 +4,7 @@
  "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
-  "Ghost"
+  "Heal"
  ],
  "starting": [
   "Health Potion",
@@ -15,26 +15,26 @@
  "core": [
   "Imperial Mandate",
   "Ionian Boots of Lucidity",
-  "Malignance",
-  "Whispering Circlet"
+  "Whispering Circlet",
+  "Moonstone Renewer"
  ],
  "fourth": [
   "Ardent Censer",
-  "Moonstone Renewer",
-  "Locket of the Iron Solari",
-  "Morellonomicon"
+  "Archangel's Staff",
+  "Malignance",
+  "Rabadon's Deathcap"
  ],
  "fifth": [
+  "Dawncore",
   "Staff of Flowing Water",
   "Ardent Censer",
-  "Shurelya's Battlesong",
-  "Redemption"
+  "Archangel's Staff"
  ],
  "sixth": [
-  "Staff of Flowing Water",
+  "Dawncore",
   "Ardent Censer",
-  "Redemption",
-  "Shurelya's Battlesong"
+  "Staff of Flowing Water",
+  "Rabadon's Deathcap"
  ],
  "pool": [
   "Health Potion",
@@ -42,14 +42,13 @@
   "Bandleglass Mirror",
   "Imperial Mandate",
   "Ionian Boots of Lucidity",
-  "Malignance",
   "Whispering Circlet",
-  "Ardent Censer",
   "Moonstone Renewer",
-  "Locket of the Iron Solari",
-  "Morellonomicon",
-  "Staff of Flowing Water",
-  "Shurelya's Battlesong",
-  "Redemption"
+  "Ardent Censer",
+  "Archangel's Staff",
+  "Malignance",
+  "Rabadon's Deathcap",
+  "Dawncore",
+  "Staff of Flowing Water"
  ]
 }

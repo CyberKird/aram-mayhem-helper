@@ -7,43 +7,45 @@
   "Mark"
  ],
  "starting": [
-  "Amplifying Tome",
-  "Guardian's Blade"
+  "Dagger",
+  "Dagger",
+  "Aether Wisp"
  ],
  "core": [
   "Statikk Shiv",
-  "Mercury's Treads",
+  "Boots of Swiftness",
   "Dusk and Dawn",
   "Death's Dance"
  ],
  "fourth": [
-  "Riftmaker",
   "Nashor's Tooth",
+  "Riftmaker",
   "Rabadon's Deathcap",
   "Spirit Visage"
  ],
  "fifth": [
   "Nashor's Tooth",
-  "Rabadon's Deathcap",
   "Spirit Visage",
+  "Rabadon's Deathcap",
   "Riftmaker"
  ],
  "sixth": [
-  "Riftmaker",
   "Rabadon's Deathcap",
+  "Riftmaker",
   "Nashor's Tooth",
-  "Spirit Visage"
+  "Jak'Sho, The Protean"
  ],
  "pool": [
-  "Amplifying Tome",
-  "Guardian's Blade",
+  "Dagger",
+  "Aether Wisp",
   "Statikk Shiv",
-  "Mercury's Treads",
+  "Boots of Swiftness",
   "Dusk and Dawn",
   "Death's Dance",
-  "Riftmaker",
   "Nashor's Tooth",
+  "Riftmaker",
   "Rabadon's Deathcap",
-  "Spirit Visage"
+  "Spirit Visage",
+  "Jak'Sho, The Protean"
  ]
 }

@@ -23,16 +23,16 @@
   "Mortal Reminder"
  ],
  "fifth": [
-  "Phantom Dancer",
+  "Death's Dance",
   "Hexoptics C44",
-  "Bloodthirster",
-  "Runaan's Hurricane"
+  "Phantom Dancer",
+  "Bloodthirster"
  ],
  "sixth": [
+  "Death's Dance",
   "Bloodthirster",
   "Phantom Dancer",
-  "Hexoptics C44",
-  "Blade of The Ruined King"
+  "Kaenic Rookern"
  ],
  "pool": [
   "Boots",
@@ -45,7 +45,8 @@
   "Bloodthirster",
   "Runaan's Hurricane",
   "Mortal Reminder",
+  "Death's Dance",
   "Phantom Dancer",
-  "Blade of The Ruined King"
+  "Kaenic Rookern"
  ]
 }

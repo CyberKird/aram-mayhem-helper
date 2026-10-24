@@ -7,6 +7,7 @@
   "Ghost"
  ],
  "starting": [
+  "Refillable Potion",
   "Lost Chapter"
  ],
  "core": [
@@ -17,34 +18,34 @@
  ],
  "fourth": [
   "Shadowflame",
+  "Void Staff",
   "Lord Dominik's Regards",
-  "Essence Reaver",
-  "Infinity Edge"
+  "Essence Reaver"
  ],
  "fifth": [
+  "Void Staff",
   "Shadowflame",
   "Youmuu's Ghostblade",
-  "Essence Reaver",
   "Lord Dominik's Regards"
  ],
  "sixth": [
   "Endless Hunger",
   "Youmuu's Ghostblade",
   "Essence Reaver",
-  "Voltaic Cyclosword"
+  "Void Staff"
  ],
  "pool": [
+  "Refillable Potion",
   "Lost Chapter",
   "Blackfire Torch",
   "Ionian Boots of Lucidity",
   "Liandry's Torment",
   "Rabadon's Deathcap",
   "Shadowflame",
+  "Void Staff",
   "Lord Dominik's Regards",
   "Essence Reaver",
-  "Infinity Edge",
   "Youmuu's Ghostblade",
-  "Endless Hunger",
-  "Voltaic Cyclosword"
+  "Endless Hunger"
  ]
 }

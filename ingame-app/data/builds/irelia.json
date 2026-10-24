@@ -7,8 +7,8 @@
   "Mark"
  ],
  "starting": [
-  "Long Sword",
-  "Pickaxe"
+  "Dagger",
+  "Vampiric Scepter"
  ],
  "core": [
   "Blade of The Ruined King",
@@ -18,35 +18,34 @@
  ],
  "fourth": [
   "Endless Hunger",
+  "Terminus",
   "Ravenous Hydra",
-  "Trinity Force",
-  "Wit's End"
+  "Jak'Sho, The Protean"
  ],
  "fifth": [
   "Endless Hunger",
   "Terminus",
   "Ravenous Hydra",
-  "Jak'Sho, The Protean"
+  "Wit's End"
  ],
  "sixth": [
-  "Ravenous Hydra",
   "Endless Hunger",
+  "Ravenous Hydra",
   "Terminus",
-  "Sterak's Gage"
+  "Titanic Hydra"
  ],
  "pool": [
-  "Long Sword",
-  "Pickaxe",
+  "Dagger",
+  "Vampiric Scepter",
   "Blade of The Ruined King",
   "Mercury's Treads",
   "Kraken Slayer",
   "Death's Dance",
   "Endless Hunger",
-  "Ravenous Hydra",
-  "Trinity Force",
-  "Wit's End",
   "Terminus",
+  "Ravenous Hydra",
   "Jak'Sho, The Protean",
-  "Sterak's Gage"
+  "Wit's End",
+  "Titanic Hydra"
  ]
 }

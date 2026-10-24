@@ -7,9 +7,8 @@
   "Ghost"
  ],
  "starting": [
-  "Recurve Bow",
-  "Amplifying Tome",
-  "Glowing Mote"
+  "Blasting Wand",
+  "Amplifying Tome"
  ],
  "core": [
   "Nashor's Tooth",
@@ -25,20 +24,19 @@
  ],
  "fifth": [
   "Void Staff",
-  "Zhonya's Hourglass",
   "Dusk and Dawn",
-  "Rylai's Crystal Scepter"
+  "Zhonya's Hourglass",
+  "Riftmaker"
  ],
  "sixth": [
+  "Banshee's Veil",
   "Void Staff",
   "Dusk and Dawn",
-  "Banshee's Veil",
-  "Rylai's Crystal Scepter"
+  "Zhonya's Hourglass"
  ],
  "pool": [
-  "Recurve Bow",
+  "Blasting Wand",
   "Amplifying Tome",
-  "Glowing Mote",
   "Nashor's Tooth",
   "Sorcerer's Shoes",
   "Shadowflame",
@@ -47,6 +45,7 @@
   "Zhonya's Hourglass",
   "Dusk and Dawn",
   "Rylai's Crystal Scepter",
+  "Riftmaker",
   "Banshee's Veil"
  ]
 }

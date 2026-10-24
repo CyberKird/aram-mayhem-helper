@@ -11,38 +11,38 @@
  ],
  "core": [
   "Malignance",
-  "Sorcerer's Shoes",
-  "Liandry's Torment",
-  "Shadowflame"
+  "Ionian Boots of Lucidity",
+  "Rylai's Crystal Scepter",
+  "Liandry's Torment"
  ],
  "fourth": [
-  "Rylai's Crystal Scepter",
   "Rabadon's Deathcap",
   "Stormsurge",
-  "Zhonya's Hourglass"
+  "Shadowflame",
+  "Void Staff"
  ],
  "fifth": [
+  "Shadowflame",
   "Rabadon's Deathcap",
   "Stormsurge",
-  "Void Staff",
-  "Rylai's Crystal Scepter"
+  "Void Staff"
  ],
  "sixth": [
-  "Rabadon's Deathcap",
+  "Banshee's Veil",
   "Void Staff",
-  "Stormsurge",
-  "Zhonya's Hourglass"
+  "Shadowflame",
+  "Stormsurge"
  ],
  "pool": [
   "Lost Chapter",
   "Malignance",
-  "Sorcerer's Shoes",
-  "Liandry's Torment",
-  "Shadowflame",
+  "Ionian Boots of Lucidity",
   "Rylai's Crystal Scepter",
+  "Liandry's Torment",
   "Rabadon's Deathcap",
   "Stormsurge",
-  "Zhonya's Hourglass",
-  "Void Staff"
+  "Shadowflame",
+  "Void Staff",
+  "Banshee's Veil"
  ]
 }

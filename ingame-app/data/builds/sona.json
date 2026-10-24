@@ -23,16 +23,16 @@
   "Archangel's Staff"
  ],
  "fifth": [
+  "Sword of Blossoming Dawn",
   "Dawncore",
   "Ardent Censer",
-  "Echoes of Helia",
-  "Redemption"
+  "Echoes of Helia"
  ],
  "sixth": [
+  "Sword of Blossoming Dawn",
   "Echoes of Helia",
   "Dawncore",
-  "Redemption",
-  "Archangel's Staff"
+  "Redemption"
  ],
  "pool": [
   "Tear of the Goddess",
@@ -45,6 +45,7 @@
   "Ardent Censer",
   "Echoes of Helia",
   "Archangel's Staff",
+  "Sword of Blossoming Dawn",
   "Redemption"
  ]
 }

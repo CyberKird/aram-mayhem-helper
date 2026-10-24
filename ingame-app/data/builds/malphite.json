@@ -12,40 +12,40 @@
  ],
  "core": [
   "Heartsteel",
-  "Mercury's Treads",
+  "Plated Steelcaps",
   "Thornmail",
   "Unending Despair"
  ],
  "fourth": [
+  "Jak'Sho, The Protean",
+  "Randuin's Omen",
   "Warmog's Armor",
-  "Rabadon's Deathcap",
-  "Shadowflame",
-  "Stormsurge"
+  "Hollow Radiance"
  ],
  "fifth": [
+  "Jak'Sho, The Protean",
+  "Randuin's Omen",
   "Warmog's Armor",
-  "Stormsurge",
-  "Shadowflame",
-  "Rabadon's Deathcap"
+  "Stormsurge"
  ],
  "sixth": [
+  "Jak'Sho, The Protean",
+  "Randuin's Omen",
   "Warmog's Armor",
-  "Void Staff",
-  "Luden's Echo",
-  "Rabadon's Deathcap"
+  "Kaenic Rookern"
  ],
  "pool": [
   "Giant's Belt",
   "Ruby Crystal",
   "Heartsteel",
-  "Mercury's Treads",
+  "Plated Steelcaps",
   "Thornmail",
   "Unending Despair",
+  "Jak'Sho, The Protean",
+  "Randuin's Omen",
   "Warmog's Armor",
-  "Rabadon's Deathcap",
-  "Shadowflame",
+  "Hollow Radiance",
   "Stormsurge",
-  "Void Staff",
-  "Luden's Echo"
+  "Kaenic Rookern"
  ]
 }

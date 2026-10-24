@@ -7,45 +7,43 @@
   "Mark"
  ],
  "starting": [
-  "Giant's Belt",
-  "Ruby Crystal"
+  "Lost Chapter"
  ],
  "core": [
-  "Heartsteel",
-  "Mercury's Treads",
-  "Unending Despair",
-  "Warmog's Armor"
+  "Luden's Echo",
+  "Shadowflame",
+  "Rabadon's Deathcap"
  ],
  "fourth": [
-  "Winter's Approach",
-  "Jak'Sho, The Protean",
-  "Spirit Visage",
-  "Hollow Radiance"
- ],
- "fifth": [
-  "Jak'Sho, The Protean",
-  "Spirit Visage",
-  "Hollow Radiance",
-  "Winter's Approach"
- ],
- "sixth": [
-  "Force of Nature",
-  "Jak'Sho, The Protean",
-  "Overlord's Bloodmail",
-  "Hollow Radiance"
- ],
- "pool": [
-  "Giant's Belt",
-  "Ruby Crystal",
-  "Heartsteel",
-  "Mercury's Treads",
-  "Unending Despair",
   "Warmog's Armor",
   "Winter's Approach",
   "Jak'Sho, The Protean",
-  "Spirit Visage",
-  "Hollow Radiance",
+  "Unending Despair"
+ ],
+ "fifth": [
+  "Warmog's Armor",
+  "Jak'Sho, The Protean",
+  "Sunfire Aegis",
+  "Hollow Radiance"
+ ],
+ "sixth": [
+  "Riftmaker",
   "Force of Nature",
-  "Overlord's Bloodmail"
+  "Jak'Sho, The Protean",
+  "Unending Despair"
+ ],
+ "pool": [
+  "Lost Chapter",
+  "Luden's Echo",
+  "Shadowflame",
+  "Rabadon's Deathcap",
+  "Warmog's Armor",
+  "Winter's Approach",
+  "Jak'Sho, The Protean",
+  "Unending Despair",
+  "Sunfire Aegis",
+  "Hollow Radiance",
+  "Riftmaker",
+  "Force of Nature"
  ]
 }

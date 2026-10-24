@@ -12,38 +12,40 @@
  ],
  "core": [
   "Heartsteel",
-  "Mercury's Treads",
-  "Warmog's Armor",
-  "Dusk and Dawn"
+  "Ionian Boots of Lucidity",
+  "Dusk and Dawn",
+  "Riftmaker"
  ],
  "fourth": [
-  "Riftmaker",
+  "Overlord's Bloodmail",
   "Rabadon's Deathcap",
-  "Unending Despair",
-  "Spirit Visage"
+  "Warmog's Armor",
+  "Unending Despair"
  ],
  "fifth": [
-  "Riftmaker",
   "Rabadon's Deathcap",
-  "Spirit Visage",
-  "Unending Despair"
+  "Overlord's Bloodmail",
+  "Shadowflame",
+  "Warmog's Armor"
  ],
  "sixth": [
   "Rabadon's Deathcap",
-  "Riftmaker",
+  "Shadowflame",
   "Spirit Visage",
-  "Unending Despair"
+  "Warmog's Armor"
  ],
  "pool": [
   "Giant's Belt",
   "Ruby Crystal",
   "Heartsteel",
-  "Mercury's Treads",
-  "Warmog's Armor",
+  "Ionian Boots of Lucidity",
   "Dusk and Dawn",
   "Riftmaker",
+  "Overlord's Bloodmail",
   "Rabadon's Deathcap",
+  "Warmog's Armor",
   "Unending Despair",
+  "Shadowflame",
   "Spirit Visage"
  ]
 }

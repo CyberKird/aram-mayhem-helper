@@ -12,40 +12,41 @@
  ],
  "core": [
   "Blackfire Torch",
-  "Sorcerer's Shoes",
+  "Boots of Swiftness",
   "Liandry's Torment",
   "Rabadon's Deathcap"
  ],
  "fourth": [
+  "Bloodletter's Curse",
+  "Archangel's Staff",
   "Shadowflame",
-  "Horizon Focus",
-  "Lord Dominik's Regards",
-  "Cryptbloom"
+  "Horizon Focus"
  ],
  "fifth": [
+  "Archangel's Staff",
   "Lord Dominik's Regards",
-  "Horizon Focus",
-  "Shadowflame",
-  "Bloodletter's Curse"
+  "Bloodthirster",
+  "Horizon Focus"
  ],
  "sixth": [
   "Horizon Focus",
+  "Bloodthirster",
   "Shadowflame",
-  "Cryptbloom",
-  "Void Staff"
+  "Cryptbloom"
  ],
  "pool": [
   "Refillable Potion",
   "Lost Chapter",
   "Blackfire Torch",
-  "Sorcerer's Shoes",
+  "Boots of Swiftness",
   "Liandry's Torment",
   "Rabadon's Deathcap",
+  "Bloodletter's Curse",
+  "Archangel's Staff",
   "Shadowflame",
   "Horizon Focus",
   "Lord Dominik's Regards",
-  "Cryptbloom",
-  "Bloodletter's Curse",
-  "Void Staff"
+  "Bloodthirster",
+  "Cryptbloom"
  ]
 }

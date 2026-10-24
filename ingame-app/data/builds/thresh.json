@@ -23,16 +23,16 @@
   "Randuin's Omen"
  ],
  "fifth": [
+  "Frozen Heart",
   "Jak'Sho, The Protean",
   "Force of Nature",
-  "Winter's Approach",
-  "Spirit Visage"
+  "Overlord's Bloodmail"
  ],
  "sixth": [
+  "Frozen Heart",
   "Jak'Sho, The Protean",
-  "Winter's Approach",
-  "Spirit Visage",
-  "Kaenic Rookern"
+  "Overlord's Bloodmail",
+  "Riftmaker"
  ],
  "pool": [
   "Giant's Belt",
@@ -45,7 +45,8 @@
   "Winter's Approach",
   "Force of Nature",
   "Randuin's Omen",
-  "Spirit Visage",
-  "Kaenic Rookern"
+  "Frozen Heart",
+  "Overlord's Bloodmail",
+  "Riftmaker"
  ]
 }

@@ -7,9 +7,8 @@
   "Mark"
  ],
  "starting": [
-  "Dagger",
-  "Dagger",
-  "Aether Wisp"
+  "Amplifying Tome",
+  "Guardian's Orb"
  ],
  "core": [
   "Statikk Shiv",
@@ -19,35 +18,35 @@
  ],
  "fourth": [
   "Nashor's Tooth",
+  "Rabadon's Deathcap",
   "Navori Flickerblade",
-  "Spirit Visage",
-  "Warmog's Armor"
+  "Spirit Visage"
  ],
  "fifth": [
   "Overlord's Bloodmail",
+  "Rabadon's Deathcap",
   "Navori Flickerblade",
-  "Warmog's Armor",
-  "Spirit Visage"
+  "Warmog's Armor"
  ],
  "sixth": [
   "Overlord's Bloodmail",
+  "Rabadon's Deathcap",
   "Spirit Visage",
-  "Jak'Sho, The Protean",
-  "Unending Despair"
+  "Jak'Sho, The Protean"
  ],
  "pool": [
-  "Dagger",
-  "Aether Wisp",
+  "Amplifying Tome",
+  "Guardian's Orb",
   "Statikk Shiv",
   "Mercury's Treads",
   "Dusk and Dawn",
   "Riftmaker",
   "Nashor's Tooth",
+  "Rabadon's Deathcap",
   "Navori Flickerblade",
   "Spirit Visage",
-  "Warmog's Armor",
   "Overlord's Bloodmail",
-  "Jak'Sho, The Protean",
-  "Unending Despair"
+  "Warmog's Armor",
+  "Jak'Sho, The Protean"
  ]
 }

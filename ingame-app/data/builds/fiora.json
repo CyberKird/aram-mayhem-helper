@@ -17,22 +17,22 @@
   "Endless Hunger"
  ],
  "fourth": [
-  "Spear of Shojin",
   "Maw of Malmortius",
-  "Trinity Force",
-  "Spirit Visage"
+  "Spear of Shojin",
+  "Spirit Visage",
+  "Trinity Force"
  ],
  "fifth": [
+  "Jak'Sho, The Protean",
   "Spear of Shojin",
   "Maw of Malmortius",
-  "Trinity Force",
   "Spirit Visage"
  ],
  "sixth": [
+  "Jak'Sho, The Protean",
+  "Overlord's Bloodmail",
   "Maw of Malmortius",
-  "Sterak's Gage",
-  "Spear of Shojin",
-  "Spirit Visage"
+  "Spear of Shojin"
  ],
  "pool": [
   "Long Sword",
@@ -41,10 +41,11 @@
   "Mercury's Treads",
   "Death's Dance",
   "Endless Hunger",
-  "Spear of Shojin",
   "Maw of Malmortius",
-  "Trinity Force",
+  "Spear of Shojin",
   "Spirit Visage",
-  "Sterak's Gage"
+  "Trinity Force",
+  "Jak'Sho, The Protean",
+  "Overlord's Bloodmail"
  ]
 }

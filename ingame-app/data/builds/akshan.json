@@ -7,42 +7,46 @@
   "Ghost"
  ],
  "starting": [
-  "Hearthbound Axe"
+  "Long Sword",
+  "Guardian's Blade"
  ],
  "core": [
-  "Kraken Slayer",
+  "The Collector",
   "Berserker's Greaves",
-  "Blade of The Ruined King",
+  "Infinity Edge",
   "Lord Dominik's Regards"
  ],
  "fourth": [
   "Bloodthirster",
-  "Infinity Edge",
-  "Rapid Firecannon",
-  "Mortal Reminder"
+  "Runaan's Hurricane",
+  "Blade of The Ruined King",
+  "Kraken Slayer"
  ],
  "fifth": [
+  "Axiom Arc",
   "Bloodthirster",
-  "Infinity Edge",
-  "Rapid Firecannon",
-  "Mortal Reminder"
+  "Blade of The Ruined King",
+  "Kraken Slayer"
  ],
  "sixth": [
-  "Statikk Shiv",
   "Bloodthirster",
-  "Infinity Edge",
+  "Kraken Slayer",
+  "Statikk Shiv",
   "Rapid Firecannon"
  ],
  "pool": [
-  "Hearthbound Axe",
-  "Kraken Slayer",
+  "Long Sword",
+  "Guardian's Blade",
+  "The Collector",
   "Berserker's Greaves",
-  "Blade of The Ruined King",
+  "Infinity Edge",
   "Lord Dominik's Regards",
   "Bloodthirster",
-  "Infinity Edge",
-  "Rapid Firecannon",
-  "Mortal Reminder",
-  "Statikk Shiv"
+  "Runaan's Hurricane",
+  "Blade of The Ruined King",
+  "Kraken Slayer",
+  "Axiom Arc",
+  "Statikk Shiv",
+  "Rapid Firecannon"
  ]
 }

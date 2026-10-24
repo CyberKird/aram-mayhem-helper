@@ -18,8 +18,8 @@
  "fourth": [
   "Archangel's Staff",
   "Shadowflame",
-  "Cryptbloom",
-  "Void Staff"
+  "Void Staff",
+  "Cryptbloom"
  ],
  "fifth": [
   "Shadowflame",
@@ -28,9 +28,9 @@
   "Cryptbloom"
  ],
  "sixth": [
-  "Void Staff",
+  "Stormsurge",
   "Shadowflame",
-  "Archangel's Staff",
+  "Void Staff",
   "Cryptbloom"
  ],
  "pool": [
@@ -41,7 +41,8 @@
   "Rabadon's Deathcap",
   "Archangel's Staff",
   "Shadowflame",
+  "Void Staff",
   "Cryptbloom",
-  "Void Staff"
+  "Stormsurge"
  ]
 }

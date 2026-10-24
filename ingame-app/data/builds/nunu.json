@@ -4,7 +4,7 @@
  "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
-  "Ghost"
+  "Mark"
  ],
  "starting": [
   "Giant's Belt",
@@ -12,38 +12,41 @@
  ],
  "core": [
   "Heartsteel",
-  "Unending Despair",
-  "Warmog's Armor"
+  "Mercury's Treads",
+  "Warmog's Armor",
+  "Unending Despair"
  ],
  "fourth": [
   "Rabadon's Deathcap",
-  "Void Staff",
-  "Shadowflame",
-  "Banshee's Veil"
+  "Spirit Visage",
+  "Banshee's Veil",
+  "Void Staff"
  ],
  "fifth": [
+  "Jak'Sho, The Protean",
   "Banshee's Veil",
-  "Void Staff",
   "Rabadon's Deathcap",
-  "Stormsurge"
+  "Void Staff"
  ],
  "sixth": [
+  "Riftmaker",
   "Banshee's Veil",
   "Void Staff",
-  "Zhonya's Hourglass",
-  "Stormsurge"
+  "Shadowflame"
  ],
  "pool": [
   "Giant's Belt",
   "Ruby Crystal",
   "Heartsteel",
-  "Unending Despair",
+  "Mercury's Treads",
   "Warmog's Armor",
+  "Unending Despair",
   "Rabadon's Deathcap",
-  "Void Staff",
-  "Shadowflame",
+  "Spirit Visage",
   "Banshee's Veil",
-  "Stormsurge",
-  "Zhonya's Hourglass"
+  "Void Staff",
+  "Jak'Sho, The Protean",
+  "Riftmaker",
+  "Shadowflame"
  ]
 }

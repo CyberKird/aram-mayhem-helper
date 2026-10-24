@@ -17,21 +17,21 @@
  ],
  "fourth": [
   "Rabadon's Deathcap",
+  "Stormsurge",
   "Horizon Focus",
-  "Void Staff",
   "Manamune"
  ],
  "fifth": [
+  "Stormsurge",
   "Horizon Focus",
   "Rabadon's Deathcap",
-  "Void Staff",
-  "Manamune"
+  "Void Staff"
  ],
  "sixth": [
+  "Stormsurge",
   "Horizon Focus",
   "Void Staff",
-  "Rabadon's Deathcap",
-  "Cryptbloom"
+  "Rabadon's Deathcap"
  ],
  "pool": [
   "Lost Chapter",
@@ -40,9 +40,9 @@
   "Shadowflame",
   "Dusk and Dawn",
   "Rabadon's Deathcap",
+  "Stormsurge",
   "Horizon Focus",
-  "Void Staff",
   "Manamune",
-  "Cryptbloom"
+  "Void Staff"
  ]
 }

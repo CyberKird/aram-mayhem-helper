@@ -7,45 +7,44 @@
   "Mark"
  ],
  "starting": [
-  "Long Sword",
-  "Guardian's Blade"
+  "Giant's Belt",
+  "Ruby Crystal"
  ],
  "core": [
-  "Hubris",
+  "Heartsteel",
   "Mercury's Treads",
-  "Death's Dance",
-  "Endless Hunger"
+  "Warmog's Armor",
+  "Overlord's Bloodmail"
  ],
  "fourth": [
-  "Voltaic Cyclosword",
-  "Lord Dominik's Regards",
-  "Warmog's Armor",
-  "Spear of Shojin"
- ],
- "fifth": [
-  "Voltaic Cyclosword",
-  "Lord Dominik's Regards",
-  "Spear of Shojin",
-  "Maw of Malmortius"
- ],
- "sixth": [
-  "Voltaic Cyclosword",
-  "Lord Dominik's Regards",
-  "Spear of Shojin",
-  "Sundered Sky"
- ],
- "pool": [
-  "Long Sword",
-  "Guardian's Blade",
-  "Hubris",
-  "Mercury's Treads",
-  "Death's Dance",
   "Endless Hunger",
   "Voltaic Cyclosword",
   "Lord Dominik's Regards",
+  "Infinity Edge"
+ ],
+ "fifth": [
+  "Endless Hunger",
+  "Voltaic Cyclosword",
+  "Lord Dominik's Regards",
+  "Death's Dance"
+ ],
+ "sixth": [
+  "Endless Hunger",
+  "Death's Dance",
+  "Voltaic Cyclosword",
+  "Lord Dominik's Regards"
+ ],
+ "pool": [
+  "Giant's Belt",
+  "Ruby Crystal",
+  "Heartsteel",
+  "Mercury's Treads",
   "Warmog's Armor",
-  "Spear of Shojin",
-  "Maw of Malmortius",
-  "Sundered Sky"
+  "Overlord's Bloodmail",
+  "Endless Hunger",
+  "Voltaic Cyclosword",
+  "Lord Dominik's Regards",
+  "Infinity Edge",
+  "Death's Dance"
  ]
 }

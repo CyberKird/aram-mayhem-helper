@@ -7,45 +7,47 @@
   "Cleanse"
  ],
  "starting": [
+  "Pickaxe",
   "Dagger",
-  "Berserker's Greaves"
+  "Dagger"
  ],
  "core": [
-  "Blade of The Ruined King",
+  "Statikk Shiv",
   "Berserker's Greaves",
-  "Runaan's Hurricane",
+  "Guinsoo's Rageblade",
   "Terminus"
  ],
  "fourth": [
-  "Guinsoo's Rageblade",
   "Wit's End",
-  "The Collector",
-  "Infinity Edge"
+  "Blade of The Ruined King",
+  "Runaan's Hurricane",
+  "Lord Dominik's Regards"
  ],
  "fifth": [
   "Bloodthirster",
-  "Guinsoo's Rageblade",
   "Wit's End",
-  "Jak'Sho, The Protean"
+  "Jak'Sho, The Protean",
+  "Kraken Slayer"
  ],
  "sixth": [
   "Jak'Sho, The Protean",
-  "Statikk Shiv",
-  "Guinsoo's Rageblade",
-  "Bloodthirster"
+  "Bloodthirster",
+  "Wit's End",
+  "Runaan's Hurricane"
  ],
  "pool": [
+  "Pickaxe",
   "Dagger",
+  "Statikk Shiv",
   "Berserker's Greaves",
+  "Guinsoo's Rageblade",
+  "Terminus",
+  "Wit's End",
   "Blade of The Ruined King",
   "Runaan's Hurricane",
-  "Terminus",
-  "Guinsoo's Rageblade",
-  "Wit's End",
-  "The Collector",
-  "Infinity Edge",
+  "Lord Dominik's Regards",
   "Bloodthirster",
   "Jak'Sho, The Protean",
-  "Statikk Shiv"
+  "Kraken Slayer"
  ]
 }

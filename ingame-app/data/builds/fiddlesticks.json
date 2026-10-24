@@ -16,22 +16,22 @@
   "Rabadon's Deathcap"
  ],
  "fourth": [
+  "Stormsurge",
   "Void Staff",
   "Liandry's Torment",
-  "Rylai's Crystal Scepter",
-  "Zhonya's Hourglass"
+  "Rylai's Crystal Scepter"
  ],
  "fifth": [
+  "Stormsurge",
   "Void Staff",
   "Rylai's Crystal Scepter",
-  "Liandry's Torment",
-  "Zhonya's Hourglass"
+  "Riftmaker"
  ],
  "sixth": [
+  "Stormsurge",
+  "Banshee's Veil",
   "Void Staff",
-  "Rylai's Crystal Scepter",
-  "Zhonya's Hourglass",
-  "Liandry's Torment"
+  "Rylai's Crystal Scepter"
  ],
  "pool": [
   "Lost Chapter",
@@ -39,9 +39,11 @@
   "Sorcerer's Shoes",
   "Shadowflame",
   "Rabadon's Deathcap",
+  "Stormsurge",
   "Void Staff",
   "Liandry's Torment",
   "Rylai's Crystal Scepter",
-  "Zhonya's Hourglass"
+  "Riftmaker",
+  "Banshee's Veil"
  ]
 }

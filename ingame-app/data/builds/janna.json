@@ -4,7 +4,7 @@
  "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
-  "Ghost"
+  "Heal"
  ],
  "starting": [
   "Tear of the Goddess",
@@ -26,13 +26,13 @@
   "Staff of Flowing Water",
   "Dawncore",
   "Redemption",
-  "Imperial Mandate"
+  "Archangel's Staff"
  ],
  "sixth": [
   "Staff of Flowing Water",
   "Dawncore",
-  "Redemption",
-  "Rabadon's Deathcap"
+  "Mikael's Blessing",
+  "Redemption"
  ],
  "pool": [
   "Tear of the Goddess",
@@ -45,6 +45,7 @@
   "Dawncore",
   "Redemption",
   "Imperial Mandate",
-  "Rabadon's Deathcap"
+  "Archangel's Staff",
+  "Mikael's Blessing"
  ]
 }

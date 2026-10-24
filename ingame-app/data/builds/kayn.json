@@ -20,19 +20,19 @@
   "Lord Dominik's Regards",
   "Endless Hunger",
   "Serylda's Grudge",
-  "Voltaic Cyclosword"
+  "Infinity Edge"
  ],
  "fifth": [
   "Lord Dominik's Regards",
   "Endless Hunger",
-  "Serylda's Grudge",
-  "Spear of Shojin"
+  "Infinity Edge",
+  "Serylda's Grudge"
  ],
  "sixth": [
-  "Endless Hunger",
   "Lord Dominik's Regards",
-  "Spear of Shojin",
-  "Serylda's Grudge"
+  "Endless Hunger",
+  "Serylda's Grudge",
+  "Infinity Edge"
  ],
  "pool": [
   "Long Sword",
@@ -44,7 +44,6 @@
   "Lord Dominik's Regards",
   "Endless Hunger",
   "Serylda's Grudge",
-  "Voltaic Cyclosword",
-  "Spear of Shojin"
+  "Infinity Edge"
  ]
 }

@@ -7,44 +7,46 @@
   "Mark"
  ],
  "starting": [
-  "Refillable Potion",
-  "Lost Chapter"
+  "Amplifying Tome",
+  "Guardian's Orb"
  ],
  "core": [
-  "Luden's Echo",
-  "Sorcerer's Shoes",
   "Lich Bane",
-  "Shadowflame"
+  "Sorcerer's Shoes",
+  "Shadowflame",
+  "Rabadon's Deathcap"
  ],
  "fourth": [
-  "Rabadon's Deathcap",
   "Void Staff",
   "Stormsurge",
-  "Unending Despair"
+  "Unending Despair",
+  "Warmog's Armor"
  ],
  "fifth": [
   "Void Staff",
   "Stormsurge",
-  "Rabadon's Deathcap",
+  "Riftmaker",
   "Cryptbloom"
  ],
  "sixth": [
-  "Stormsurge",
   "Void Staff",
-  "Rabadon's Deathcap",
-  "Cryptbloom"
+  "Stormsurge",
+  "Cryptbloom",
+  "Zhonya's Hourglass"
  ],
  "pool": [
-  "Refillable Potion",
-  "Lost Chapter",
-  "Luden's Echo",
-  "Sorcerer's Shoes",
+  "Amplifying Tome",
+  "Guardian's Orb",
   "Lich Bane",
+  "Sorcerer's Shoes",
   "Shadowflame",
   "Rabadon's Deathcap",
   "Void Staff",
   "Stormsurge",
   "Unending Despair",
-  "Cryptbloom"
+  "Warmog's Armor",
+  "Riftmaker",
+  "Cryptbloom",
+  "Zhonya's Hourglass"
  ]
 }

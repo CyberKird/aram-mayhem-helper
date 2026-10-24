@@ -7,45 +7,45 @@
   "Mark"
  ],
  "starting": [
-  "Long Sword",
-  "Guardian's Blade"
+  "Giant's Belt",
+  "Ruby Crystal"
  ],
  "core": [
-  "Hubris",
-  "Plated Steelcaps",
-  "Death's Dance",
-  "Endless Hunger"
+  "Heartsteel",
+  "Mercury's Treads",
+  "Warmog's Armor",
+  "Overlord's Bloodmail"
  ],
  "fourth": [
-  "Lord Dominik's Regards",
-  "Infinity Edge",
-  "Eclipse",
-  "The Collector"
- ],
- "fifth": [
-  "Lord Dominik's Regards",
-  "Maw of Malmortius",
-  "Infinity Edge",
-  "The Collector"
- ],
- "sixth": [
-  "Maw of Malmortius",
-  "Lord Dominik's Regards",
-  "Voltaic Cyclosword",
-  "Infinity Edge"
- ],
- "pool": [
-  "Long Sword",
-  "Guardian's Blade",
-  "Hubris",
-  "Plated Steelcaps",
-  "Death's Dance",
   "Endless Hunger",
   "Lord Dominik's Regards",
-  "Infinity Edge",
-  "Eclipse",
-  "The Collector",
+  "Axiom Arc",
+  "Death's Dance"
+ ],
+ "fifth": [
+  "Endless Hunger",
+  "Voltaic Cyclosword",
+  "Lord Dominik's Regards",
+  "Death's Dance"
+ ],
+ "sixth": [
+  "Endless Hunger",
+  "Lord Dominik's Regards",
   "Maw of Malmortius",
-  "Voltaic Cyclosword"
+  "Death's Dance"
+ ],
+ "pool": [
+  "Giant's Belt",
+  "Ruby Crystal",
+  "Heartsteel",
+  "Mercury's Treads",
+  "Warmog's Armor",
+  "Overlord's Bloodmail",
+  "Endless Hunger",
+  "Lord Dominik's Regards",
+  "Axiom Arc",
+  "Death's Dance",
+  "Voltaic Cyclosword",
+  "Maw of Malmortius"
  ]
 }

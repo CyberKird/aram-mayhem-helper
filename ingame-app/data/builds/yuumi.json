@@ -12,39 +12,40 @@
  ],
  "core": [
   "Moonstone Renewer",
-  "Staff of Flowing Water",
-  "Whispering Circlet"
- ],
- "fourth": [
-  "Dawncore",
-  "Knight's Vow",
-  "Shurelya's Battlesong",
+  "Ionian Boots of Lucidity",
+  "Whispering Circlet",
   "Ardent Censer"
  ],
- "fifth": [
+ "fourth": [
+  "Staff of Flowing Water",
   "Dawncore",
   "Knight's Vow",
-  "Ardent Censer",
   "Mikael's Blessing"
+ ],
+ "fifth": [
+  "Staff of Flowing Water",
+  "Dawncore",
+  "Knight's Vow",
+  "Shurelya's Battlesong"
  ],
  "sixth": [
   "Echoes of Helia",
+  "Staff of Flowing Water",
   "Mikael's Blessing",
-  "Dawncore",
-  "Redemption"
+  "Dawncore"
  ],
  "pool": [
   "Tear of the Goddess",
   "Bandleglass Mirror",
   "Moonstone Renewer",
-  "Staff of Flowing Water",
+  "Ionian Boots of Lucidity",
   "Whispering Circlet",
+  "Ardent Censer",
+  "Staff of Flowing Water",
   "Dawncore",
   "Knight's Vow",
-  "Shurelya's Battlesong",
-  "Ardent Censer",
   "Mikael's Blessing",
-  "Echoes of Helia",
-  "Redemption"
+  "Shurelya's Battlesong",
+  "Echoes of Helia"
  ]
 }

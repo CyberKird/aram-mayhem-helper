@@ -8,7 +8,7 @@
  ],
  "starting": [
   "Giant's Belt",
-  "Tear of the Goddess"
+  "Ruby Crystal"
  ],
  "core": [
   "Heartsteel",
@@ -17,34 +17,35 @@
   "Warmog's Armor"
  ],
  "fourth": [
+  "Hollow Radiance",
   "Winter's Approach",
   "Spirit Visage",
-  "Jak'Sho, The Protean",
-  "Kaenic Rookern"
+  "Jak'Sho, The Protean"
  ],
  "fifth": [
+  "Hollow Radiance",
+  "Frozen Heart",
   "Winter's Approach",
-  "Jak'Sho, The Protean",
-  "Force of Nature",
-  "Spirit Visage"
+  "Riftmaker"
  ],
  "sixth": [
+  "Riftmaker",
   "Jak'Sho, The Protean",
-  "Spirit Visage",
-  "Kaenic Rookern",
-  "Winter's Approach"
+  "Hollow Radiance",
+  "Spirit Visage"
  ],
  "pool": [
   "Giant's Belt",
-  "Tear of the Goddess",
+  "Ruby Crystal",
   "Heartsteel",
   "Plated Steelcaps",
   "Unending Despair",
   "Warmog's Armor",
+  "Hollow Radiance",
   "Winter's Approach",
   "Spirit Visage",
   "Jak'Sho, The Protean",
-  "Kaenic Rookern",
-  "Force of Nature"
+  "Frozen Heart",
+  "Riftmaker"
  ]
 }

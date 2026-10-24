@@ -12,7 +12,7 @@
  ],
  "core": [
   "Trinity Force",
-  "Mercury's Treads",
+  "Ionian Boots of Lucidity",
   "Manamune",
   "Endless Hunger"
  ],
@@ -23,22 +23,22 @@
   "Rabadon's Deathcap"
  ],
  "fifth": [
-  "Serylda's Grudge",
   "Archangel's Staff",
+  "Serylda's Grudge",
   "Rabadon's Deathcap",
-  "Shadowflame"
+  "Spear of Shojin"
  ],
  "sixth": [
   "Archangel's Staff",
-  "Lord Dominik's Regards",
+  "Void Staff",
   "Shadowflame",
-  "Rabadon's Deathcap"
+  "Lord Dominik's Regards"
  ],
  "pool": [
   "Tear of the Goddess",
   "Guardian's Blade",
   "Trinity Force",
-  "Mercury's Treads",
+  "Ionian Boots of Lucidity",
   "Manamune",
   "Endless Hunger",
   "Archangel's Staff",
@@ -46,6 +46,7 @@
   "Lord Dominik's Regards",
   "Rabadon's Deathcap",
   "Serylda's Grudge",
+  "Void Staff",
   "Shadowflame"
  ]
 }

@@ -17,22 +17,22 @@
   "Rabadon's Deathcap"
  ],
  "fourth": [
-  "Riftmaker",
   "Bloodletter's Curse",
+  "Riftmaker",
   "Void Staff",
-  "Zhonya's Hourglass"
+  "Malignance"
  ],
  "fifth": [
+  "Stormsurge",
   "Bloodletter's Curse",
   "Void Staff",
-  "Riftmaker",
-  "Rylai's Crystal Scepter"
+  "Riftmaker"
  ],
  "sixth": [
-  "Void Staff",
+  "Stormsurge",
   "Riftmaker",
-  "Bloodletter's Curse",
-  "Zhonya's Hourglass"
+  "Void Staff",
+  "Bloodletter's Curse"
  ],
  "pool": [
   "Amplifying Tome",
@@ -41,10 +41,10 @@
   "Sorcerer's Shoes",
   "Shadowflame",
   "Rabadon's Deathcap",
-  "Riftmaker",
   "Bloodletter's Curse",
+  "Riftmaker",
   "Void Staff",
-  "Zhonya's Hourglass",
-  "Rylai's Crystal Scepter"
+  "Malignance",
+  "Stormsurge"
  ]
 }

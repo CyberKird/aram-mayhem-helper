@@ -20,17 +20,17 @@
   "Stormsurge",
   "Archangel's Staff",
   "Malignance",
-  "Horizon Focus"
+  "Void Staff"
  ],
  "fifth": [
   "Stormsurge",
-  "Horizon Focus",
   "Archangel's Staff",
+  "Horizon Focus",
   "Void Staff"
  ],
  "sixth": [
-  "Stormsurge",
   "Horizon Focus",
+  "Stormsurge",
   "Void Staff",
   "Banshee's Veil"
  ],
@@ -44,8 +44,8 @@
   "Stormsurge",
   "Archangel's Staff",
   "Malignance",
-  "Horizon Focus",
   "Void Staff",
+  "Horizon Focus",
   "Banshee's Veil"
  ]
 }

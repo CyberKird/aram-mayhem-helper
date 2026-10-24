@@ -7,42 +7,42 @@
   "Mark"
  ],
  "starting": [
-  "Giant's Belt",
-  "Ruby Crystal"
+  "Needlessly Large Rod"
  ],
  "core": [
-  "Heartsteel",
-  "Riftmaker",
-  "Shadowflame"
+  "Shadowflame",
+  "Sorcerer's Shoes",
+  "Rabadon's Deathcap",
+  "Stormsurge"
  ],
  "fourth": [
+  "Riftmaker",
   "Warmog's Armor",
   "Jak'Sho, The Protean",
-  "Rabadon's Deathcap",
   "Spirit Visage"
  ],
  "fifth": [
+  "Riftmaker",
   "Warmog's Armor",
-  "Jak'Sho, The Protean",
-  "Spirit Visage",
-  "Rabadon's Deathcap"
+  "Void Staff",
+  "Jak'Sho, The Protean"
  ],
  "sixth": [
-  "Rabadon's Deathcap",
+  "Riftmaker",
   "Spirit Visage",
-  "Jak'Sho, The Protean",
-  "Kaenic Rookern"
+  "Void Staff",
+  "Jak'Sho, The Protean"
  ],
  "pool": [
-  "Giant's Belt",
-  "Ruby Crystal",
-  "Heartsteel",
-  "Riftmaker",
+  "Needlessly Large Rod",
   "Shadowflame",
+  "Sorcerer's Shoes",
+  "Rabadon's Deathcap",
+  "Stormsurge",
+  "Riftmaker",
   "Warmog's Armor",
   "Jak'Sho, The Protean",
-  "Rabadon's Deathcap",
   "Spirit Visage",
-  "Kaenic Rookern"
+  "Void Staff"
  ]
 }

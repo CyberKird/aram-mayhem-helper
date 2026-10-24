@@ -19,19 +19,19 @@
  "fourth": [
   "Jak'Sho, The Protean",
   "Randuin's Omen",
-  "Hollow Radiance",
-  "Winter's Approach"
+  "Sunfire Aegis",
+  "Hollow Radiance"
  ],
  "fifth": [
+  "Frozen Heart",
   "Jak'Sho, The Protean",
-  "Spirit Visage",
-  "Hollow Radiance",
-  "Winter's Approach"
+  "Sunfire Aegis",
+  "Overlord's Bloodmail"
  ],
  "sixth": [
+  "Frozen Heart",
   "Jak'Sho, The Protean",
-  "Hollow Radiance",
-  "Randuin's Omen",
+  "Overlord's Bloodmail",
   "Force of Nature"
  ],
  "pool": [
@@ -43,9 +43,10 @@
   "Warmog's Armor",
   "Jak'Sho, The Protean",
   "Randuin's Omen",
+  "Sunfire Aegis",
   "Hollow Radiance",
-  "Winter's Approach",
-  "Spirit Visage",
+  "Frozen Heart",
+  "Overlord's Bloodmail",
   "Force of Nature"
  ]
 }

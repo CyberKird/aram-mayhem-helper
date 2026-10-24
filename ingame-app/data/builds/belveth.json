@@ -18,8 +18,8 @@
  ],
  "fourth": [
   "Terminus",
-  "Infinity Edge",
   "Guinsoo's Rageblade",
+  "Infinity Edge",
   "Blade of The Ruined King"
  ],
  "fifth": [
@@ -29,9 +29,9 @@
   "Guinsoo's Rageblade"
  ],
  "sixth": [
-  "Terminus",
   "Endless Hunger",
-  "Bloodthirster",
+  "Infinity Edge",
+  "Terminus",
   "Guinsoo's Rageblade"
  ],
  "pool": [
@@ -42,10 +42,9 @@
   "Death's Dance",
   "Lord Dominik's Regards",
   "Terminus",
-  "Infinity Edge",
   "Guinsoo's Rageblade",
+  "Infinity Edge",
   "Blade of The Ruined King",
-  "Endless Hunger",
-  "Bloodthirster"
+  "Endless Hunger"
  ]
 }

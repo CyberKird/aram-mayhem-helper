@@ -26,13 +26,13 @@
   "Winter's Approach",
   "Rabadon's Deathcap",
   "Manamune",
-  "Frozen Heart"
+  "Riftmaker"
  ],
  "sixth": [
   "Winter's Approach",
-  "Void Staff",
-  "Rabadon's Deathcap",
-  "Lich Bane"
+  "Manamune",
+  "Riftmaker",
+  "Void Staff"
  ],
  "pool": [
   "Blasting Wand",
@@ -45,7 +45,7 @@
   "Rabadon's Deathcap",
   "Frozen Heart",
   "Winter's Approach",
-  "Void Staff",
-  "Lich Bane"
+  "Riftmaker",
+  "Void Staff"
  ]
 }

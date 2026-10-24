@@ -7,45 +7,43 @@
   "Ghost"
  ],
  "starting": [
-  "Ruby Crystal",
-  "Fiendish Codex"
+  "Haunting Guise"
  ],
  "core": [
-  "Cosmic Drive",
-  "Sorcerer's Shoes",
   "Riftmaker",
-  "Rabadon's Deathcap"
+  "Sorcerer's Shoes",
+  "Rabadon's Deathcap",
+  "Shadowflame"
  ],
  "fourth": [
   "Void Staff",
-  "Shadowflame",
   "Warmog's Armor",
-  "Spirit Visage"
+  "Spirit Visage",
+  "Zhonya's Hourglass"
  ],
  "fifth": [
   "Void Staff",
   "Warmog's Armor",
-  "Shadowflame",
-  "Spirit Visage"
+  "Cosmic Drive",
+  "Zhonya's Hourglass"
  ],
  "sixth": [
   "Warmog's Armor",
   "Stormsurge",
-  "Cryptbloom",
-  "Void Staff"
+  "Void Staff",
+  "Cosmic Drive"
  ],
  "pool": [
-  "Ruby Crystal",
-  "Fiendish Codex",
-  "Cosmic Drive",
-  "Sorcerer's Shoes",
+  "Haunting Guise",
   "Riftmaker",
+  "Sorcerer's Shoes",
   "Rabadon's Deathcap",
-  "Void Staff",
   "Shadowflame",
+  "Void Staff",
   "Warmog's Armor",
   "Spirit Visage",
-  "Stormsurge",
-  "Cryptbloom"
+  "Zhonya's Hourglass",
+  "Cosmic Drive",
+  "Stormsurge"
  ]
 }

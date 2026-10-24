@@ -18,22 +18,22 @@
   "Archangel's Staff"
  ],
  "fourth": [
-  "Nashor's Tooth",
   "Blackfire Torch",
   "Cosmic Drive",
-  "Cryptbloom"
+  "Cryptbloom",
+  "Shadowflame"
  ],
  "fifth": [
+  "Winter's Approach",
   "Rod of Ages",
   "Blackfire Torch",
-  "Malignance",
-  "Cryptbloom"
+  "Malignance"
  ],
  "sixth": [
+  "Winter's Approach",
   "Rod of Ages",
   "Blackfire Torch",
-  "Cryptbloom",
-  "Cosmic Drive"
+  "Cryptbloom"
  ],
  "pool": [
   "Amplifying Tome",
@@ -42,10 +42,11 @@
   "Sorcerer's Shoes",
   "Rabadon's Deathcap",
   "Archangel's Staff",
-  "Nashor's Tooth",
   "Blackfire Torch",
   "Cosmic Drive",
   "Cryptbloom",
+  "Shadowflame",
+  "Winter's Approach",
   "Rod of Ages",
   "Malignance"
  ]

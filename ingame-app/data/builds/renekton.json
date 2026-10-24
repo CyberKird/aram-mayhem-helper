@@ -18,21 +18,21 @@
  ],
  "fourth": [
   "Spear of Shojin",
+  "Overlord's Bloodmail",
   "Sterak's Gage",
-  "Eclipse",
-  "Spirit Visage"
+  "Eclipse"
  ],
  "fifth": [
-  "Spear of Shojin",
+  "Jak'Sho, The Protean",
   "Black Cleaver",
   "Sterak's Gage",
-  "Spirit Visage"
+  "Spear of Shojin"
  ],
  "sixth": [
   "Black Cleaver",
-  "Spirit Visage",
-  "Eclipse",
-  "Maw of Malmortius"
+  "Overlord's Bloodmail",
+  "Spear of Shojin",
+  "Spirit Visage"
  ],
  "pool": [
   "Long Sword",
@@ -42,10 +42,11 @@
   "Death's Dance",
   "Endless Hunger",
   "Spear of Shojin",
+  "Overlord's Bloodmail",
   "Sterak's Gage",
   "Eclipse",
-  "Spirit Visage",
+  "Jak'Sho, The Protean",
   "Black Cleaver",
-  "Maw of Malmortius"
+  "Spirit Visage"
  ]
 }

@@ -17,22 +17,22 @@
   "Lord Dominik's Regards"
  ],
  "fourth": [
-  "Bloodthirster",
-  "Manamune",
-  "Essence Reaver",
-  "Trinity Force"
- ],
- "fifth": [
-  "Endless Hunger",
+  "Death's Dance",
   "Bloodthirster",
   "Essence Reaver",
   "Manamune"
  ],
+ "fifth": [
+  "Death's Dance",
+  "Endless Hunger",
+  "Bloodthirster",
+  "Essence Reaver"
+ ],
  "sixth": [
+  "Death's Dance",
   "Endless Hunger",
   "Maw of Malmortius",
-  "Bloodthirster",
-  "Trinity Force"
+  "Bloodthirster"
  ],
  "pool": [
   "Long Sword",
@@ -41,10 +41,10 @@
   "Berserker's Greaves",
   "Infinity Edge",
   "Lord Dominik's Regards",
+  "Death's Dance",
   "Bloodthirster",
-  "Manamune",
   "Essence Reaver",
-  "Trinity Force",
+  "Manamune",
   "Endless Hunger",
   "Maw of Malmortius"
  ]

@@ -13,25 +13,25 @@
  "core": [
   "Heartsteel",
   "Mercury's Treads",
-  "Warmog's Armor",
-  "Unending Despair"
+  "Unending Despair",
+  "Warmog's Armor"
  ],
  "fourth": [
   "Overlord's Bloodmail",
   "Iceborn Gauntlet",
-  "Trinity Force",
-  "Spirit Visage"
+  "Spirit Visage",
+  "Trinity Force"
  ],
  "fifth": [
-  "Overlord's Bloodmail",
-  "Iceborn Gauntlet",
-  "Spear of Shojin",
-  "Spirit Visage"
- ],
- "sixth": [
+  "Jak'Sho, The Protean",
   "Overlord's Bloodmail",
   "Spirit Visage",
-  "Iceborn Gauntlet",
+  "Spear of Shojin"
+ ],
+ "sixth": [
+  "Spirit Visage",
+  "Overlord's Bloodmail",
+  "Jak'Sho, The Protean",
   "Spear of Shojin"
  ],
  "pool": [
@@ -39,12 +39,13 @@
   "Ruby Crystal",
   "Heartsteel",
   "Mercury's Treads",
-  "Warmog's Armor",
   "Unending Despair",
+  "Warmog's Armor",
   "Overlord's Bloodmail",
   "Iceborn Gauntlet",
-  "Trinity Force",
   "Spirit Visage",
+  "Trinity Force",
+  "Jak'Sho, The Protean",
   "Spear of Shojin"
  ]
 }

@@ -7,46 +7,45 @@
   "Mark"
  ],
  "starting": [
-  "Ruby Crystal",
-  "Sheen"
+  "Hearthbound Axe"
  ],
  "core": [
   "Trinity Force",
   "Mercury's Treads",
-  "Ravenous Hydra",
-  "Blade of The Ruined King"
+  "Blade of The Ruined King",
+  "Ravenous Hydra"
  ],
  "fourth": [
   "Death's Dance",
   "Titanic Hydra",
-  "Liandry's Torment",
-  "Blackfire Torch"
+  "Blackfire Torch",
+  "Liandry's Torment"
  ],
  "fifth": [
+  "Jak'Sho, The Protean",
   "Death's Dance",
-  "Titanic Hydra",
+  "Overlord's Bloodmail",
+  "Titanic Hydra"
+ ],
+ "sixth": [
+  "Overlord's Bloodmail",
+  "Jak'Sho, The Protean",
   "Warmog's Armor",
   "Spirit Visage"
  ],
- "sixth": [
-  "Spirit Visage",
-  "Warmog's Armor",
-  "Titanic Hydra",
-  "Thornmail"
- ],
  "pool": [
-  "Ruby Crystal",
-  "Sheen",
+  "Hearthbound Axe",
   "Trinity Force",
   "Mercury's Treads",
-  "Ravenous Hydra",
   "Blade of The Ruined King",
+  "Ravenous Hydra",
   "Death's Dance",
   "Titanic Hydra",
-  "Liandry's Torment",
   "Blackfire Torch",
+  "Liandry's Torment",
+  "Jak'Sho, The Protean",
+  "Overlord's Bloodmail",
   "Warmog's Armor",
-  "Spirit Visage",
-  "Thornmail"
+  "Spirit Visage"
  ]
 }

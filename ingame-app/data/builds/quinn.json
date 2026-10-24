@@ -7,43 +7,46 @@
   "Ghost"
  ],
  "starting": [
-  "Serrated Dirk"
+  "Long Sword",
+  "Pickaxe"
  ],
  "core": [
   "The Collector",
   "Berserker's Greaves",
-  "Infinity Edge",
-  "Lord Dominik's Regards"
+  "Lord Dominik's Regards",
+  "Infinity Edge"
  ],
  "fourth": [
   "Bloodthirster",
-  "Yun Tal Wildarrows",
   "Blade of The Ruined King",
-  "Voltaic Cyclosword"
+  "Voltaic Cyclosword",
+  "Yun Tal Wildarrows"
  ],
  "fifth": [
-  "Bloodthirster",
   "Voltaic Cyclosword",
-  "Blade of The Ruined King",
-  "Kraken Slayer"
+  "Bloodthirster",
+  "Kraken Slayer",
+  "Runaan's Hurricane"
  ],
  "sixth": [
   "Voltaic Cyclosword",
-  "Edge of Night",
   "Bloodthirster",
+  "Edge of Night",
   "Blade of The Ruined King"
  ],
  "pool": [
-  "Serrated Dirk",
+  "Long Sword",
+  "Pickaxe",
   "The Collector",
   "Berserker's Greaves",
-  "Infinity Edge",
   "Lord Dominik's Regards",
+  "Infinity Edge",
   "Bloodthirster",
-  "Yun Tal Wildarrows",
   "Blade of The Ruined King",
   "Voltaic Cyclosword",
+  "Yun Tal Wildarrows",
   "Kraken Slayer",
+  "Runaan's Hurricane",
   "Edge of Night"
  ]
 }

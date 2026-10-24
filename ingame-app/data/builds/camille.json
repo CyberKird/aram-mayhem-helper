@@ -17,22 +17,22 @@
   "Death's Dance"
  ],
  "fourth": [
+  "Randuin's Omen",
   "Endless Hunger",
-  "Maw of Malmortius",
   "Spear of Shojin",
-  "Sterak's Gage"
+  "Maw of Malmortius"
  ],
  "fifth": [
+  "Jak'Sho, The Protean",
   "Endless Hunger",
   "Maw of Malmortius",
-  "Sterak's Gage",
   "Spear of Shojin"
  ],
  "sixth": [
-  "Spirit Visage",
-  "Sterak's Gage",
+  "Jak'Sho, The Protean",
   "Endless Hunger",
-  "Maw of Malmortius"
+  "Randuin's Omen",
+  "Overlord's Bloodmail"
  ],
  "pool": [
   "Long Sword",
@@ -41,10 +41,11 @@
   "Mercury's Treads",
   "Ravenous Hydra",
   "Death's Dance",
+  "Randuin's Omen",
   "Endless Hunger",
-  "Maw of Malmortius",
   "Spear of Shojin",
-  "Sterak's Gage",
-  "Spirit Visage"
+  "Maw of Malmortius",
+  "Jak'Sho, The Protean",
+  "Overlord's Bloodmail"
  ]
 }

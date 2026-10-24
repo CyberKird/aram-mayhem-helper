@@ -17,22 +17,22 @@
   "Rabadon's Deathcap"
  ],
  "fourth": [
+  "Hollow Radiance",
   "Warmog's Armor",
-  "Unending Despair",
-  "Spirit Visage",
-  "Winter's Approach"
+  "Winter's Approach",
+  "Unending Despair"
  ],
  "fifth": [
   "Warmog's Armor",
-  "Shadowflame",
+  "Riftmaker",
   "Unending Despair",
-  "Spirit Visage"
+  "Jak'Sho, The Protean"
  ],
  "sixth": [
-  "Shadowflame",
-  "Unending Despair",
-  "Warmog's Armor",
-  "Spirit Visage"
+  "Cryptbloom",
+  "Riftmaker",
+  "Horizon Focus",
+  "Jak'Sho, The Protean"
  ],
  "pool": [
   "Refillable Potion",
@@ -41,10 +41,13 @@
   "Ionian Boots of Lucidity",
   "Liandry's Torment",
   "Rabadon's Deathcap",
+  "Hollow Radiance",
   "Warmog's Armor",
-  "Unending Despair",
-  "Spirit Visage",
   "Winter's Approach",
-  "Shadowflame"
+  "Unending Despair",
+  "Riftmaker",
+  "Jak'Sho, The Protean",
+  "Cryptbloom",
+  "Horizon Focus"
  ]
 }

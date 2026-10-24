@@ -7,42 +7,44 @@
   "Ghost"
  ],
  "starting": [
-  "Lost Chapter"
+  "Amplifying Tome",
+  "Guardian's Orb"
  ],
  "core": [
   "Blackfire Torch",
   "Sorcerer's Shoes",
-  "Shadowflame",
-  "Rabadon's Deathcap"
+  "Rabadon's Deathcap",
+  "Shadowflame"
  ],
  "fourth": [
-  "Lich Bane",
+  "Archangel's Staff",
   "Void Staff",
-  "Liandry's Torment",
-  "Zhonya's Hourglass"
+  "Lich Bane",
+  "Stormsurge"
  ],
  "fifth": [
   "Lich Bane",
+  "Stormsurge",
   "Void Staff",
-  "Zhonya's Hourglass",
-  "Liandry's Torment"
+  "Archangel's Staff"
  ],
  "sixth": [
   "Lich Bane",
-  "Void Staff",
+  "Stormsurge",
   "Banshee's Veil",
-  "Zhonya's Hourglass"
+  "Void Staff"
  ],
  "pool": [
-  "Lost Chapter",
+  "Amplifying Tome",
+  "Guardian's Orb",
   "Blackfire Torch",
   "Sorcerer's Shoes",
-  "Shadowflame",
   "Rabadon's Deathcap",
-  "Lich Bane",
+  "Shadowflame",
+  "Archangel's Staff",
   "Void Staff",
-  "Liandry's Torment",
-  "Zhonya's Hourglass",
+  "Lich Bane",
+  "Stormsurge",
   "Banshee's Veil"
  ]
 }

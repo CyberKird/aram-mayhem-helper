@@ -8,7 +8,7 @@
  ],
  "starting": [
   "Long Sword",
-  "Pickaxe"
+  "Guardian's Blade"
  ],
  "core": [
   "The Collector",
@@ -17,35 +17,35 @@
   "Hubris"
  ],
  "fourth": [
+  "Death's Dance",
   "Lord Dominik's Regards",
   "Bloodthirster",
-  "Immortal Shieldbow",
-  "Mortal Reminder"
+  "Immortal Shieldbow"
  ],
  "fifth": [
+  "Axiom Arc",
+  "Death's Dance",
   "Endless Hunger",
-  "Lord Dominik's Regards",
-  "Bloodthirster",
-  "Maw of Malmortius"
+  "Lord Dominik's Regards"
  ],
  "sixth": [
+  "Axiom Arc",
   "Endless Hunger",
-  "Bloodthirster",
-  "Lord Dominik's Regards",
-  "Maw of Malmortius"
+  "Death's Dance",
+  "Bloodthirster"
  ],
  "pool": [
   "Long Sword",
-  "Pickaxe",
+  "Guardian's Blade",
   "The Collector",
   "Mercury's Treads",
   "Infinity Edge",
   "Hubris",
+  "Death's Dance",
   "Lord Dominik's Regards",
   "Bloodthirster",
   "Immortal Shieldbow",
-  "Mortal Reminder",
-  "Endless Hunger",
-  "Maw of Malmortius"
+  "Axiom Arc",
+  "Endless Hunger"
  ]
 }

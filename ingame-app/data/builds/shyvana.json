@@ -7,43 +7,47 @@
   "Mark"
  ],
  "starting": [
-  "Haunting Guise"
+  "Giant's Belt",
+  "Ruby Crystal",
+  "Health Potion",
+  "Health Potion"
  ],
  "core": [
-  "Liandry's Torment",
-  "Sorcerer's Shoes",
+  "Heartsteel",
+  "Mercury's Treads",
   "Dusk and Dawn",
   "Riftmaker"
  ],
  "fourth": [
+  "Overlord's Bloodmail",
+  "Unending Despair",
   "Death's Dance",
-  "Spear of Shojin",
-  "Shadowflame",
-  "Rabadon's Deathcap"
+  "Shadowflame"
  ],
  "fifth": [
+  "Overlord's Bloodmail",
   "Unending Despair",
   "Jak'Sho, The Protean",
-  "Death's Dance",
-  "Rabadon's Deathcap"
+  "Death's Dance"
  ],
  "sixth": [
+  "Overlord's Bloodmail",
   "Warmog's Armor",
-  "Death's Dance",
-  "Rabadon's Deathcap",
-  "Spirit Visage"
+  "Spirit Visage",
+  "Death's Dance"
  ],
  "pool": [
-  "Haunting Guise",
-  "Liandry's Torment",
-  "Sorcerer's Shoes",
+  "Giant's Belt",
+  "Ruby Crystal",
+  "Health Potion",
+  "Heartsteel",
+  "Mercury's Treads",
   "Dusk and Dawn",
   "Riftmaker",
-  "Death's Dance",
-  "Spear of Shojin",
-  "Shadowflame",
-  "Rabadon's Deathcap",
+  "Overlord's Bloodmail",
   "Unending Despair",
+  "Death's Dance",
+  "Shadowflame",
   "Jak'Sho, The Protean",
   "Warmog's Armor",
   "Spirit Visage"

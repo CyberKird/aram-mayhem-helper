@@ -13,8 +13,8 @@
  "core": [
   "Lich Bane",
   "Sorcerer's Shoes",
-  "Shadowflame",
-  "Rabadon's Deathcap"
+  "Rabadon's Deathcap",
+  "Shadowflame"
  ],
  "fourth": [
   "Stormsurge",
@@ -24,13 +24,13 @@
  "fifth": [
   "Void Staff",
   "Stormsurge",
-  "Banshee's Veil",
+  "Malignance",
   "Zhonya's Hourglass"
  ],
  "sixth": [
-  "Banshee's Veil",
   "Zhonya's Hourglass",
   "Stormsurge",
+  "Banshee's Veil",
   "Void Staff"
  ],
  "pool": [
@@ -38,11 +38,12 @@
   "Amplifying Tome",
   "Lich Bane",
   "Sorcerer's Shoes",
-  "Shadowflame",
   "Rabadon's Deathcap",
+  "Shadowflame",
   "Stormsurge",
   "Void Staff",
   "Zhonya's Hourglass",
+  "Malignance",
   "Banshee's Veil"
  ]
 }

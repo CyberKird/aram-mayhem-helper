@@ -7,7 +7,6 @@
   "Ghost"
  ],
  "starting": [
-  "Refillable Potion",
   "Lost Chapter"
  ],
  "core": [
@@ -18,33 +17,33 @@
  ],
  "fourth": [
   "Stormsurge",
-  "Lich Bane",
   "Void Staff",
+  "Lich Bane",
   "Liandry's Torment"
  ],
  "fifth": [
-  "Lich Bane",
-  "Stormsurge",
-  "Void Staff",
-  "Archangel's Staff"
- ],
- "sixth": [
   "Stormsurge",
   "Lich Bane",
   "Archangel's Staff",
   "Void Staff"
  ],
+ "sixth": [
+  "Stormsurge",
+  "Lich Bane",
+  "Banshee's Veil",
+  "Archangel's Staff"
+ ],
  "pool": [
-  "Refillable Potion",
   "Lost Chapter",
   "Luden's Echo",
   "Sorcerer's Shoes",
   "Rabadon's Deathcap",
   "Shadowflame",
   "Stormsurge",
-  "Lich Bane",
   "Void Staff",
+  "Lich Bane",
   "Liandry's Torment",
-  "Archangel's Staff"
+  "Archangel's Staff",
+  "Banshee's Veil"
  ]
 }

@@ -7,44 +7,44 @@
   "Ghost"
  ],
  "starting": [
-  "Refillable Potion",
-  "Lost Chapter"
+  "Blasting Wand",
+  "Tear of the Goddess"
  ],
  "core": [
-  "Blackfire Torch",
-  "Sorcerer's Shoes",
+  "Rod of Ages",
+  "Mercury's Treads",
   "Liandry's Torment",
-  "Rylai's Crystal Scepter"
+  "Archangel's Staff"
  ],
  "fourth": [
   "Rabadon's Deathcap",
-  "Archangel's Staff",
-  "Bloodletter's Curse",
-  "Riftmaker"
+  "Blackfire Torch",
+  "Riftmaker",
+  "Bloodletter's Curse"
  ],
  "fifth": [
   "Rabadon's Deathcap",
-  "Bloodletter's Curse",
-  "Archangel's Staff",
-  "Riftmaker"
+  "Blackfire Torch",
+  "Riftmaker",
+  "Bloodletter's Curse"
  ],
  "sixth": [
   "Bloodletter's Curse",
   "Rabadon's Deathcap",
   "Riftmaker",
-  "Void Staff"
+  "Rylai's Crystal Scepter"
  ],
  "pool": [
-  "Refillable Potion",
-  "Lost Chapter",
-  "Blackfire Torch",
-  "Sorcerer's Shoes",
+  "Blasting Wand",
+  "Tear of the Goddess",
+  "Rod of Ages",
+  "Mercury's Treads",
   "Liandry's Torment",
-  "Rylai's Crystal Scepter",
-  "Rabadon's Deathcap",
   "Archangel's Staff",
-  "Bloodletter's Curse",
+  "Rabadon's Deathcap",
+  "Blackfire Torch",
   "Riftmaker",
-  "Void Staff"
+  "Bloodletter's Curse",
+  "Rylai's Crystal Scepter"
  ]
 }

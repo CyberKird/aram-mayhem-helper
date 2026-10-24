@@ -20,19 +20,19 @@
   "Archangel's Staff",
   "Void Staff",
   "Rylai's Crystal Scepter",
-  "Stormsurge"
+  "Zhonya's Hourglass"
  ],
  "fifth": [
   "Banshee's Veil",
   "Stormsurge",
   "Void Staff",
-  "Cryptbloom"
+  "Archangel's Staff"
  ],
  "sixth": [
   "Stormsurge",
   "Zhonya's Hourglass",
-  "Void Staff",
-  "Cryptbloom"
+  "Cryptbloom",
+  "Void Staff"
  ],
  "pool": [
   "Amplifying Tome",
@@ -44,9 +44,9 @@
   "Archangel's Staff",
   "Void Staff",
   "Rylai's Crystal Scepter",
-  "Stormsurge",
+  "Zhonya's Hourglass",
   "Banshee's Veil",
-  "Cryptbloom",
-  "Zhonya's Hourglass"
+  "Stormsurge",
+  "Cryptbloom"
  ]
 }
