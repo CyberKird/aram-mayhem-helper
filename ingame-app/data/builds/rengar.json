@@ -4,7 +4,7 @@
  "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
-  "Mark"
+  "Ghost"
  ],
  "starting": [
   "Long Sword",
@@ -13,14 +13,14 @@
  "core": [
   "Hubris",
   "Mercury's Treads",
-  "The Collector",
+  "Infinity Edge",
   "Lord Dominik's Regards"
  ],
  "fourth": [
   "Death's Dance",
-  "Infinity Edge",
   "Axiom Arc",
-  "Voltaic Cyclosword"
+  "Voltaic Cyclosword",
+  "Profane Hydra"
  ],
  "fifth": [
   "Endless Hunger",
@@ -39,12 +39,12 @@
   "Guardian's Blade",
   "Hubris",
   "Mercury's Treads",
-  "The Collector",
+  "Infinity Edge",
   "Lord Dominik's Regards",
   "Death's Dance",
-  "Infinity Edge",
   "Axiom Arc",
   "Voltaic Cyclosword",
+  "Profane Hydra",
   "Endless Hunger",
   "Bloodthirster"
  ]

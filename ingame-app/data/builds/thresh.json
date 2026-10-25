@@ -18,8 +18,8 @@
  ],
  "fourth": [
   "Jak'Sho, The Protean",
-  "Winter's Approach",
   "Force of Nature",
+  "Winter's Approach",
   "Randuin's Omen"
  ],
  "fifth": [
@@ -32,7 +32,7 @@
   "Frozen Heart",
   "Jak'Sho, The Protean",
   "Overlord's Bloodmail",
-  "Riftmaker"
+  "Force of Nature"
  ],
  "pool": [
   "Giant's Belt",
@@ -42,11 +42,10 @@
   "Unending Despair",
   "Warmog's Armor",
   "Jak'Sho, The Protean",
-  "Winter's Approach",
   "Force of Nature",
+  "Winter's Approach",
   "Randuin's Omen",
   "Frozen Heart",
-  "Overlord's Bloodmail",
-  "Riftmaker"
+  "Overlord's Bloodmail"
  ]
 }

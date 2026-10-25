@@ -7,21 +7,18 @@
   "Heal"
  ],
  "starting": [
-  "Health Potion",
-  "Health Potion",
-  "Tear of the Goddess",
-  "Bandleglass Mirror"
+  "Lost Chapter"
  ],
  "core": [
-  "Imperial Mandate",
+  "Malignance",
   "Ionian Boots of Lucidity",
-  "Whispering Circlet",
+  "Imperial Mandate",
   "Moonstone Renewer"
  ],
  "fourth": [
   "Ardent Censer",
   "Archangel's Staff",
-  "Malignance",
+  "Whispering Circlet",
   "Rabadon's Deathcap"
  ],
  "fifth": [
@@ -37,16 +34,14 @@
   "Rabadon's Deathcap"
  ],
  "pool": [
-  "Health Potion",
-  "Tear of the Goddess",
-  "Bandleglass Mirror",
-  "Imperial Mandate",
+  "Lost Chapter",
+  "Malignance",
   "Ionian Boots of Lucidity",
-  "Whispering Circlet",
+  "Imperial Mandate",
   "Moonstone Renewer",
   "Ardent Censer",
   "Archangel's Staff",
-  "Malignance",
+  "Whispering Circlet",
   "Rabadon's Deathcap",
   "Dawncore",
   "Staff of Flowing Water"

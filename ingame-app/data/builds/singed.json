@@ -3,10 +3,12 @@
  "source": "https://aramkit.com/en-US/champions/singed",
  "mode": "ARAM Mayhem",
  "summoners": [
-  "Flash",
+  "Ghost",
   "Mark"
  ],
  "starting": [
+  "Health Potion",
+  "Health Potion",
   "Catalyst of Aeons"
  ],
  "core": [
@@ -30,10 +32,11 @@
  "sixth": [
   "Riftmaker",
   "Rabadon's Deathcap",
-  "Warmog's Armor",
-  "Bloodletter's Curse"
+  "Bloodletter's Curse",
+  "Warmog's Armor"
  ],
  "pool": [
+  "Health Potion",
   "Catalyst of Aeons",
   "Rod of Ages",
   "Boots of Swiftness",

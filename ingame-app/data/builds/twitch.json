@@ -26,13 +26,13 @@
   "Bloodthirster",
   "Lord Dominik's Regards",
   "Fiendhunter Bolts",
-  "Blade of The Ruined King"
+  "Kraken Slayer"
  ],
  "sixth": [
   "Bloodthirster",
   "Lord Dominik's Regards",
-  "Fiendhunter Bolts",
-  "Blade of The Ruined King"
+  "Kraken Slayer",
+  "Fiendhunter Bolts"
  ],
  "pool": [
   "Long Sword",
@@ -45,6 +45,7 @@
   "Fiendhunter Bolts",
   "Blade of The Ruined King",
   "Mortal Reminder",
-  "Bloodthirster"
+  "Bloodthirster",
+  "Kraken Slayer"
  ]
 }

@@ -12,38 +12,37 @@
  "core": [
   "Luden's Echo",
   "Sorcerer's Shoes",
-  "Rabadon's Deathcap",
-  "Shadowflame"
+  "Shadowflame",
+  "Lich Bane"
  ],
  "fourth": [
-  "Lich Bane",
+  "Rabadon's Deathcap",
   "Stormsurge",
   "Void Staff",
-  "Zhonya's Hourglass"
+  "Horizon Focus"
  ],
  "fifth": [
   "Stormsurge",
-  "Lich Bane",
+  "Rabadon's Deathcap",
   "Banshee's Veil",
-  "Horizon Focus"
+  "Void Staff"
  ],
  "sixth": [
   "Stormsurge",
   "Void Staff",
-  "Lich Bane",
-  "Horizon Focus"
+  "Horizon Focus",
+  "Banshee's Veil"
  ],
  "pool": [
   "Lost Chapter",
   "Luden's Echo",
   "Sorcerer's Shoes",
-  "Rabadon's Deathcap",
   "Shadowflame",
   "Lich Bane",
+  "Rabadon's Deathcap",
   "Stormsurge",
   "Void Staff",
-  "Zhonya's Hourglass",
-  "Banshee's Veil",
-  "Horizon Focus"
+  "Horizon Focus",
+  "Banshee's Veil"
  ]
 }

@@ -7,9 +7,8 @@
   "Ghost"
  ],
  "starting": [
-  "Blasting Wand",
-  "Dagger",
-  "Glowing Mote"
+  "Ruby Crystal",
+  "Sheen"
  ],
  "core": [
   "Dusk and Dawn",
@@ -20,35 +19,33 @@
  "fourth": [
   "Void Staff",
   "Archangel's Staff",
-  "Terminus",
-  "Runaan's Hurricane"
+  "Guinsoo's Rageblade",
+  "Terminus"
  ],
  "fifth": [
-  "Terminus",
   "Void Staff",
+  "Terminus",
   "Archangel's Staff",
-  "Guinsoo's Rageblade"
+  "Nashor's Tooth"
  ],
  "sixth": [
   "Void Staff",
-  "Kraken Slayer",
   "Terminus",
-  "Wit's End"
+  "Kraken Slayer",
+  "Archangel's Staff"
  ],
  "pool": [
-  "Blasting Wand",
-  "Dagger",
-  "Glowing Mote",
+  "Ruby Crystal",
+  "Sheen",
   "Dusk and Dawn",
   "Sorcerer's Shoes",
   "Shadowflame",
   "Rabadon's Deathcap",
   "Void Staff",
   "Archangel's Staff",
-  "Terminus",
-  "Runaan's Hurricane",
   "Guinsoo's Rageblade",
-  "Kraken Slayer",
-  "Wit's End"
+  "Terminus",
+  "Nashor's Tooth",
+  "Kraken Slayer"
  ]
 }

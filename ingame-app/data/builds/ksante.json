@@ -20,13 +20,13 @@
   "Iceborn Gauntlet",
   "Spirit Visage",
   "Warmog's Armor",
-  "Force of Nature"
+  "Thornmail"
  ],
  "fifth": [
   "Frozen Heart",
-  "Spirit Visage",
   "Iceborn Gauntlet",
-  "Randuin's Omen"
+  "Spirit Visage",
+  "Warmog's Armor"
  ],
  "sixth": [
   "Frozen Heart",
@@ -44,8 +44,8 @@
   "Iceborn Gauntlet",
   "Spirit Visage",
   "Warmog's Armor",
-  "Force of Nature",
+  "Thornmail",
   "Frozen Heart",
-  "Randuin's Omen"
+  "Force of Nature"
  ]
 }

@@ -7,42 +7,42 @@
   "Mark"
  ],
  "starting": [
-  "Hearthbound Axe"
+  "Tiamat"
  ],
  "core": [
-  "Trinity Force",
+  "Ravenous Hydra",
   "Mercury's Treads",
-  "Blade of The Ruined King",
-  "Ravenous Hydra"
+  "Trinity Force",
+  "Blade of The Ruined King"
  ],
  "fourth": [
   "Death's Dance",
   "Titanic Hydra",
   "Blackfire Torch",
-  "Liandry's Torment"
+  "Randuin's Omen"
  ],
  "fifth": [
   "Jak'Sho, The Protean",
   "Death's Dance",
   "Overlord's Bloodmail",
-  "Titanic Hydra"
+  "Warmog's Armor"
  ],
  "sixth": [
-  "Overlord's Bloodmail",
   "Jak'Sho, The Protean",
+  "Overlord's Bloodmail",
   "Warmog's Armor",
   "Spirit Visage"
  ],
  "pool": [
-  "Hearthbound Axe",
-  "Trinity Force",
-  "Mercury's Treads",
-  "Blade of The Ruined King",
+  "Tiamat",
   "Ravenous Hydra",
+  "Mercury's Treads",
+  "Trinity Force",
+  "Blade of The Ruined King",
   "Death's Dance",
   "Titanic Hydra",
   "Blackfire Torch",
-  "Liandry's Torment",
+  "Randuin's Omen",
   "Jak'Sho, The Protean",
   "Overlord's Bloodmail",
   "Warmog's Armor",

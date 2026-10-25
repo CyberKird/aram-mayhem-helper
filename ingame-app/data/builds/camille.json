@@ -7,14 +7,15 @@
   "Mark"
  ],
  "starting": [
-  "Long Sword",
-  "Guardian's Blade"
+  "Cloth Armor",
+  "Cloth Armor",
+  "Chain Vest"
  ],
  "core": [
-  "Trinity Force",
-  "Mercury's Treads",
-  "Ravenous Hydra",
-  "Death's Dance"
+  "Iceborn Gauntlet",
+  "Plated Steelcaps",
+  "Thornmail",
+  "Jak'Sho, The Protean"
  ],
  "fourth": [
   "Randuin's Omen",
@@ -23,29 +24,29 @@
   "Maw of Malmortius"
  ],
  "fifth": [
-  "Jak'Sho, The Protean",
   "Endless Hunger",
   "Maw of Malmortius",
+  "Death's Dance",
   "Spear of Shojin"
  ],
  "sixth": [
-  "Jak'Sho, The Protean",
   "Endless Hunger",
   "Randuin's Omen",
-  "Overlord's Bloodmail"
+  "Overlord's Bloodmail",
+  "Death's Dance"
  ],
  "pool": [
-  "Long Sword",
-  "Guardian's Blade",
-  "Trinity Force",
-  "Mercury's Treads",
-  "Ravenous Hydra",
-  "Death's Dance",
+  "Cloth Armor",
+  "Chain Vest",
+  "Iceborn Gauntlet",
+  "Plated Steelcaps",
+  "Thornmail",
+  "Jak'Sho, The Protean",
   "Randuin's Omen",
   "Endless Hunger",
   "Spear of Shojin",
   "Maw of Malmortius",
-  "Jak'Sho, The Protean",
+  "Death's Dance",
   "Overlord's Bloodmail"
  ]
 }

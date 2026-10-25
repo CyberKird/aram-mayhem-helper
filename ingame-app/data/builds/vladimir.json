@@ -18,18 +18,18 @@
  "fourth": [
   "Void Staff",
   "Warmog's Armor",
-  "Spirit Visage",
-  "Zhonya's Hourglass"
+  "Zhonya's Hourglass",
+  "Spirit Visage"
  ],
  "fifth": [
   "Void Staff",
   "Warmog's Armor",
-  "Cosmic Drive",
+  "Cryptbloom",
   "Zhonya's Hourglass"
  ],
  "sixth": [
-  "Warmog's Armor",
   "Stormsurge",
+  "Warmog's Armor",
   "Void Staff",
   "Cosmic Drive"
  ],
@@ -41,9 +41,10 @@
   "Shadowflame",
   "Void Staff",
   "Warmog's Armor",
-  "Spirit Visage",
   "Zhonya's Hourglass",
-  "Cosmic Drive",
-  "Stormsurge"
+  "Spirit Visage",
+  "Cryptbloom",
+  "Stormsurge",
+  "Cosmic Drive"
  ]
 }

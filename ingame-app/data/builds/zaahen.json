@@ -18,20 +18,20 @@
  ],
  "fourth": [
   "Overlord's Bloodmail",
-  "Spear of Shojin",
   "Sundered Sky",
+  "Spear of Shojin",
   "Trinity Force"
  ],
  "fifth": [
   "Overlord's Bloodmail",
+  "Jak'Sho, The Protean",
   "Lord Dominik's Regards",
-  "Spirit Visage",
   "Spear of Shojin"
  ],
  "sixth": [
-  "Spirit Visage",
-  "Lord Dominik's Regards",
   "Sterak's Gage",
+  "Lord Dominik's Regards",
+  "Spirit Visage",
   "Overlord's Bloodmail"
  ],
  "pool": [
@@ -42,11 +42,12 @@
   "Death's Dance",
   "Endless Hunger",
   "Overlord's Bloodmail",
-  "Spear of Shojin",
   "Sundered Sky",
+  "Spear of Shojin",
   "Trinity Force",
+  "Jak'Sho, The Protean",
   "Lord Dominik's Regards",
-  "Spirit Visage",
-  "Sterak's Gage"
+  "Sterak's Gage",
+  "Spirit Visage"
  ]
 }

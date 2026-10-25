@@ -18,21 +18,21 @@
  ],
  "fourth": [
   "Overlord's Bloodmail",
+  "Jak'Sho, The Protean",
   "Iceborn Gauntlet",
-  "Spirit Visage",
-  "Trinity Force"
+  "Spirit Visage"
  ],
  "fifth": [
-  "Jak'Sho, The Protean",
   "Overlord's Bloodmail",
-  "Spirit Visage",
-  "Spear of Shojin"
+  "Jak'Sho, The Protean",
+  "Iceborn Gauntlet",
+  "Spirit Visage"
  ],
  "sixth": [
-  "Spirit Visage",
-  "Overlord's Bloodmail",
   "Jak'Sho, The Protean",
-  "Spear of Shojin"
+  "Overlord's Bloodmail",
+  "Spirit Visage",
+  "Kaenic Rookern"
  ],
  "pool": [
   "Giant's Belt",
@@ -42,10 +42,9 @@
   "Unending Despair",
   "Warmog's Armor",
   "Overlord's Bloodmail",
+  "Jak'Sho, The Protean",
   "Iceborn Gauntlet",
   "Spirit Visage",
-  "Trinity Force",
-  "Jak'Sho, The Protean",
-  "Spear of Shojin"
+  "Kaenic Rookern"
  ]
 }

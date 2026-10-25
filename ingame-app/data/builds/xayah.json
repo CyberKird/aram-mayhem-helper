@@ -7,20 +7,19 @@
   "Ghost"
  ],
  "starting": [
-  "Long Sword",
-  "Pickaxe"
+  "B. F. Sword"
  ],
  "core": [
-  "The Collector",
+  "Yun Tal Wildarrows",
   "Berserker's Greaves",
-  "Infinity Edge",
-  "Lord Dominik's Regards"
+  "Lord Dominik's Regards",
+  "Infinity Edge"
  ],
  "fourth": [
   "Navori Flickerblade",
   "Bloodthirster",
-  "Blade of The Ruined King",
-  "Runaan's Hurricane"
+  "The Collector",
+  "Blade of The Ruined King"
  ],
  "fifth": [
   "Bloodthirster",
@@ -31,18 +30,18 @@
  "sixth": [
   "Bloodthirster",
   "Mercurial Scimitar",
-  "Blade of The Ruined King",
-  "Kraken Slayer"
+  "Kraken Slayer",
+  "Blade of The Ruined King"
  ],
  "pool": [
-  "Long Sword",
-  "Pickaxe",
-  "The Collector",
+  "B. F. Sword",
+  "Yun Tal Wildarrows",
   "Berserker's Greaves",
-  "Infinity Edge",
   "Lord Dominik's Regards",
+  "Infinity Edge",
   "Navori Flickerblade",
   "Bloodthirster",
+  "The Collector",
   "Blade of The Ruined King",
   "Runaan's Hurricane",
   "Mercurial Scimitar",

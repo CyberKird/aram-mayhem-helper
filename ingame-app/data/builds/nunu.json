@@ -24,15 +24,15 @@
  ],
  "fifth": [
   "Jak'Sho, The Protean",
+  "Void Staff",
   "Banshee's Veil",
-  "Rabadon's Deathcap",
-  "Void Staff"
+  "Stormsurge"
  ],
  "sixth": [
   "Riftmaker",
   "Banshee's Veil",
   "Void Staff",
-  "Shadowflame"
+  "Jak'Sho, The Protean"
  ],
  "pool": [
   "Giant's Belt",
@@ -46,7 +46,7 @@
   "Banshee's Veil",
   "Void Staff",
   "Jak'Sho, The Protean",
-  "Riftmaker",
-  "Shadowflame"
+  "Stormsurge",
+  "Riftmaker"
  ]
 }

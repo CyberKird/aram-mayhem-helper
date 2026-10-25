@@ -4,7 +4,7 @@
  "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
-  "Ghost"
+  "Mark"
  ],
  "starting": [
   "Refillable Potion",
@@ -12,7 +12,7 @@
  ],
  "core": [
   "Blackfire Torch",
-  "Ionian Boots of Lucidity",
+  "Sorcerer's Shoes",
   "Liandry's Torment",
   "Rabadon's Deathcap"
  ],
@@ -23,10 +23,10 @@
   "Essence Reaver"
  ],
  "fifth": [
-  "Void Staff",
   "Shadowflame",
+  "Void Staff",
   "Youmuu's Ghostblade",
-  "Lord Dominik's Regards"
+  "Essence Reaver"
  ],
  "sixth": [
   "Endless Hunger",
@@ -38,7 +38,7 @@
   "Refillable Potion",
   "Lost Chapter",
   "Blackfire Torch",
-  "Ionian Boots of Lucidity",
+  "Sorcerer's Shoes",
   "Liandry's Torment",
   "Rabadon's Deathcap",
   "Shadowflame",

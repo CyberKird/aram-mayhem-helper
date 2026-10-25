@@ -18,15 +18,15 @@
  ],
  "fourth": [
   "Frozen Heart",
-  "Randuin's Omen",
   "Jak'Sho, The Protean",
-  "Hollow Radiance"
+  "Randuin's Omen",
+  "Winter's Approach"
  ],
  "fifth": [
   "Frozen Heart",
   "Jak'Sho, The Protean",
   "Force of Nature",
-  "Spirit Visage"
+  "Winter's Approach"
  ],
  "sixth": [
   "Frozen Heart",
@@ -42,11 +42,11 @@
   "Unending Despair",
   "Warmog's Armor",
   "Frozen Heart",
-  "Randuin's Omen",
   "Jak'Sho, The Protean",
-  "Hollow Radiance",
+  "Randuin's Omen",
+  "Winter's Approach",
   "Force of Nature",
-  "Spirit Visage",
-  "Overlord's Bloodmail"
+  "Overlord's Bloodmail",
+  "Spirit Visage"
  ]
 }

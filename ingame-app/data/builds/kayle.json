@@ -8,8 +8,7 @@
  ],
  "starting": [
   "Blasting Wand",
-  "Dagger",
-  "Glowing Mote"
+  "Amplifying Tome"
  ],
  "core": [
   "Nashor's Tooth",
@@ -20,8 +19,8 @@
  "fourth": [
   "Shadowflame",
   "Statikk Shiv",
-  "Terminus",
-  "Runaan's Hurricane"
+  "Runaan's Hurricane",
+  "Terminus"
  ],
  "fifth": [
   "Shadowflame",
@@ -37,16 +36,15 @@
  ],
  "pool": [
   "Blasting Wand",
-  "Dagger",
-  "Glowing Mote",
+  "Amplifying Tome",
   "Nashor's Tooth",
   "Berserker's Greaves",
   "Dusk and Dawn",
   "Rabadon's Deathcap",
   "Shadowflame",
   "Statikk Shiv",
-  "Terminus",
   "Runaan's Hurricane",
+  "Terminus",
   "Void Staff",
   "Riftmaker"
  ]

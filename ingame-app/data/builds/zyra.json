@@ -22,16 +22,16 @@
   "Shadowflame"
  ],
  "fifth": [
-  "Archangel's Staff",
   "Bloodletter's Curse",
+  "Archangel's Staff",
   "Shadowflame",
-  "Rylai's Crystal Scepter"
+  "Cryptbloom"
  ],
  "sixth": [
   "Bloodletter's Curse",
   "Archangel's Staff",
   "Shadowflame",
-  "Void Staff"
+  "Cryptbloom"
  ],
  "pool": [
   "Lost Chapter",
@@ -43,6 +43,6 @@
   "Rylai's Crystal Scepter",
   "Archangel's Staff",
   "Shadowflame",
-  "Void Staff"
+  "Cryptbloom"
  ]
 }

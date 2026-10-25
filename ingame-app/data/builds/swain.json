@@ -10,39 +10,40 @@
   "Catalyst of Aeons"
  ],
  "core": [
-  "Rylai's Crystal Scepter",
-  "Mercury's Treads",
   "Rod of Ages",
-  "Liandry's Torment"
+  "Mercury's Treads",
+  "Rylai's Crystal Scepter",
+  "Riftmaker"
  ],
  "fourth": [
   "Warmog's Armor",
-  "Riftmaker",
   "Unending Despair",
-  "Spirit Visage"
+  "Spirit Visage",
+  "Liandry's Torment"
  ],
  "fifth": [
-  "Riftmaker",
   "Warmog's Armor",
+  "Rabadon's Deathcap",
   "Unending Despair",
   "Spirit Visage"
  ],
  "sixth": [
-  "Riftmaker",
   "Unending Despair",
+  "Jak'Sho, The Protean",
   "Warmog's Armor",
-  "Jak'Sho, The Protean"
+  "Spirit Visage"
  ],
  "pool": [
   "Catalyst of Aeons",
-  "Rylai's Crystal Scepter",
-  "Mercury's Treads",
   "Rod of Ages",
-  "Liandry's Torment",
-  "Warmog's Armor",
+  "Mercury's Treads",
+  "Rylai's Crystal Scepter",
   "Riftmaker",
+  "Warmog's Armor",
   "Unending Despair",
   "Spirit Visage",
+  "Liandry's Torment",
+  "Rabadon's Deathcap",
   "Jak'Sho, The Protean"
  ]
 }

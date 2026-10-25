@@ -19,8 +19,8 @@
  "fourth": [
   "Shadowflame",
   "Archangel's Staff",
-  "Malignance",
-  "Stormsurge"
+  "Stormsurge",
+  "Malignance"
  ],
  "fifth": [
   "Shadowflame",
@@ -31,8 +31,8 @@
  "sixth": [
   "Banshee's Veil",
   "Shadowflame",
-  "Horizon Focus",
-  "Stormsurge"
+  "Stormsurge",
+  "Horizon Focus"
  ],
  "pool": [
   "Refillable Potion",
@@ -43,8 +43,8 @@
   "Rabadon's Deathcap",
   "Shadowflame",
   "Archangel's Staff",
-  "Malignance",
   "Stormsurge",
+  "Malignance",
   "Horizon Focus",
   "Banshee's Veil"
  ]

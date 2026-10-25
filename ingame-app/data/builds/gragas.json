@@ -7,26 +7,25 @@
   "Mark"
  ],
  "starting": [
-  "Amplifying Tome",
-  "Guardian's Orb"
+  "Needlessly Large Rod"
  ],
  "core": [
-  "Lich Bane",
-  "Sorcerer's Shoes",
   "Shadowflame",
+  "Sorcerer's Shoes",
+  "Lich Bane",
   "Rabadon's Deathcap"
  ],
  "fourth": [
-  "Void Staff",
   "Stormsurge",
-  "Unending Despair",
-  "Warmog's Armor"
+  "Void Staff",
+  "Warmog's Armor",
+  "Unending Despair"
  ],
  "fifth": [
-  "Void Staff",
   "Stormsurge",
-  "Riftmaker",
-  "Cryptbloom"
+  "Void Staff",
+  "Cryptbloom",
+  "Jak'Sho, The Protean"
  ],
  "sixth": [
   "Void Staff",
@@ -35,18 +34,17 @@
   "Zhonya's Hourglass"
  ],
  "pool": [
-  "Amplifying Tome",
-  "Guardian's Orb",
-  "Lich Bane",
-  "Sorcerer's Shoes",
+  "Needlessly Large Rod",
   "Shadowflame",
+  "Sorcerer's Shoes",
+  "Lich Bane",
   "Rabadon's Deathcap",
-  "Void Staff",
   "Stormsurge",
-  "Unending Despair",
+  "Void Staff",
   "Warmog's Armor",
-  "Riftmaker",
+  "Unending Despair",
   "Cryptbloom",
+  "Jak'Sho, The Protean",
   "Zhonya's Hourglass"
  ]
 }

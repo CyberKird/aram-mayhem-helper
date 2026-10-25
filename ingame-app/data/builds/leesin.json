@@ -18,21 +18,21 @@
  ],
  "fourth": [
   "Voltaic Cyclosword",
-  "Infinity Edge",
   "Lord Dominik's Regards",
+  "Infinity Edge",
   "Axiom Arc"
  ],
  "fifth": [
   "Axiom Arc",
-  "Infinity Edge",
   "Lord Dominik's Regards",
-  "Serylda's Grudge"
+  "Infinity Edge",
+  "Voltaic Cyclosword"
  ],
  "sixth": [
   "Axiom Arc",
+  "Serylda's Grudge",
   "Voltaic Cyclosword",
-  "Lord Dominik's Regards",
-  "Infinity Edge"
+  "Lord Dominik's Regards"
  ],
  "pool": [
   "Long Sword",
@@ -42,8 +42,8 @@
   "Death's Dance",
   "Endless Hunger",
   "Voltaic Cyclosword",
-  "Infinity Edge",
   "Lord Dominik's Regards",
+  "Infinity Edge",
   "Axiom Arc",
   "Serylda's Grudge"
  ]

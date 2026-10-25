@@ -7,7 +7,7 @@
   "Ghost"
  ],
  "starting": [
-  "Boots",
+  "Ruby Crystal",
   "Sheen"
  ],
  "core": [
@@ -19,23 +19,23 @@
  "fourth": [
   "Jak'Sho, The Protean",
   "Death's Dance",
-  "Infinity Edge",
-  "Force of Nature"
+  "Force of Nature",
+  "Infinity Edge"
  ],
  "fifth": [
   "Jak'Sho, The Protean",
   "Endless Hunger",
-  "Death's Dance",
-  "Lord Dominik's Regards"
+  "Lord Dominik's Regards",
+  "Death's Dance"
  ],
  "sixth": [
   "Death's Dance",
   "Endless Hunger",
-  "Lord Dominik's Regards",
-  "Jak'Sho, The Protean"
+  "Jak'Sho, The Protean",
+  "Lord Dominik's Regards"
  ],
  "pool": [
-  "Boots",
+  "Ruby Crystal",
   "Sheen",
   "Trinity Force",
   "Mercury's Treads",
@@ -43,8 +43,8 @@
   "Spirit Visage",
   "Jak'Sho, The Protean",
   "Death's Dance",
-  "Infinity Edge",
   "Force of Nature",
+  "Infinity Edge",
   "Endless Hunger",
   "Lord Dominik's Regards"
  ]

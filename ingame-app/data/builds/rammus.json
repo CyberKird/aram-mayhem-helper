@@ -19,20 +19,20 @@
  "fourth": [
   "Frozen Heart",
   "Randuin's Omen",
-  "Unending Despair",
-  "Warmog's Armor"
+  "Warmog's Armor",
+  "Force of Nature"
  ],
  "fifth": [
   "Frozen Heart",
-  "Warmog's Armor",
   "Force of Nature",
+  "Warmog's Armor",
   "Randuin's Omen"
  ],
  "sixth": [
   "Frozen Heart",
   "Warmog's Armor",
-  "Randuin's Omen",
-  "Unending Despair"
+  "Unending Despair",
+  "Randuin's Omen"
  ],
  "pool": [
   "Giant's Belt",
@@ -43,8 +43,8 @@
   "Jak'Sho, The Protean",
   "Frozen Heart",
   "Randuin's Omen",
-  "Unending Despair",
   "Warmog's Armor",
-  "Force of Nature"
+  "Force of Nature",
+  "Unending Despair"
  ]
 }

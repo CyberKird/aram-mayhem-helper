@@ -25,14 +25,14 @@
  "fifth": [
   "Axiom Arc",
   "Bloodthirster",
-  "Blade of The Ruined King",
-  "Kraken Slayer"
+  "Kraken Slayer",
+  "Blade of The Ruined King"
  ],
  "sixth": [
+  "Axiom Arc",
   "Bloodthirster",
-  "Kraken Slayer",
   "Statikk Shiv",
-  "Rapid Firecannon"
+  "Kraken Slayer"
  ],
  "pool": [
   "Long Sword",
@@ -46,7 +46,6 @@
   "Blade of The Ruined King",
   "Kraken Slayer",
   "Axiom Arc",
-  "Statikk Shiv",
-  "Rapid Firecannon"
+  "Statikk Shiv"
  ]
 }

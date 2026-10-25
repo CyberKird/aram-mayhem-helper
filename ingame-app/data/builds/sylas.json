@@ -20,19 +20,19 @@
   "Rabadon's Deathcap",
   "Void Staff",
   "Lich Bane",
-  "Spirit Visage"
+  "Stormsurge"
  ],
  "fifth": [
-  "Rabadon's Deathcap",
   "Lich Bane",
   "Stormsurge",
+  "Rabadon's Deathcap",
   "Void Staff"
  ],
  "sixth": [
   "Jak'Sho, The Protean",
   "Void Staff",
-  "Stormsurge",
-  "Rabadon's Deathcap"
+  "Rabadon's Deathcap",
+  "Stormsurge"
  ],
  "pool": [
   "Giant's Belt",
@@ -44,7 +44,6 @@
   "Rabadon's Deathcap",
   "Void Staff",
   "Lich Bane",
-  "Spirit Visage",
   "Stormsurge",
   "Jak'Sho, The Protean"
  ]

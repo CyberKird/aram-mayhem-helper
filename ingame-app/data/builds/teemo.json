@@ -16,10 +16,10 @@
   "Nashor's Tooth"
  ],
  "fourth": [
-  "Liandry's Torment",
   "Rabadon's Deathcap",
-  "Shadowflame",
-  "Blackfire Torch"
+  "Liandry's Torment",
+  "Blackfire Torch",
+  "Shadowflame"
  ],
  "fifth": [
   "Shadowflame",
@@ -30,8 +30,8 @@
  "sixth": [
   "Shadowflame",
   "Void Staff",
-  "Rabadon's Deathcap",
-  "Archangel's Staff"
+  "Archangel's Staff",
+  "Rabadon's Deathcap"
  ],
  "pool": [
   "Lost Chapter",
@@ -39,10 +39,10 @@
   "Ionian Boots of Lucidity",
   "Statikk Shiv",
   "Nashor's Tooth",
-  "Liandry's Torment",
   "Rabadon's Deathcap",
-  "Shadowflame",
+  "Liandry's Torment",
   "Blackfire Torch",
+  "Shadowflame",
   "Void Staff",
   "Archangel's Staff"
  ]

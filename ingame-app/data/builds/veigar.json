@@ -17,21 +17,21 @@
  ],
  "fourth": [
   "Shadowflame",
-  "Void Staff",
   "Stormsurge",
-  "Zhonya's Hourglass"
+  "Void Staff",
+  "Warmog's Armor"
  ],
  "fifth": [
-  "Shadowflame",
   "Banshee's Veil",
-  "Void Staff",
-  "Stormsurge"
+  "Shadowflame",
+  "Stormsurge",
+  "Void Staff"
  ],
  "sixth": [
   "Banshee's Veil",
   "Shadowflame",
   "Warmog's Armor",
-  "Void Staff"
+  "Stormsurge"
  ],
  "pool": [
   "Catalyst of Aeons",
@@ -40,10 +40,9 @@
   "Rabadon's Deathcap",
   "Archangel's Staff",
   "Shadowflame",
-  "Void Staff",
   "Stormsurge",
-  "Zhonya's Hourglass",
-  "Banshee's Veil",
-  "Warmog's Armor"
+  "Void Staff",
+  "Warmog's Armor",
+  "Banshee's Veil"
  ]
 }

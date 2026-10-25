@@ -17,22 +17,22 @@
   "Overlord's Bloodmail"
  ],
  "fourth": [
-  "Unending Despair",
   "Endless Hunger",
+  "Unending Despair",
   "Jak'Sho, The Protean",
   "Death's Dance"
  ],
  "fifth": [
   "Jak'Sho, The Protean",
   "Endless Hunger",
-  "Dead Man's Plate",
-  "Unending Despair"
+  "Unending Despair",
+  "Sterak's Gage"
  ],
  "sixth": [
-  "Unending Despair",
   "Endless Hunger",
-  "Force of Nature",
-  "Jak'Sho, The Protean"
+  "Unending Despair",
+  "Jak'Sho, The Protean",
+  "Death's Dance"
  ],
  "pool": [
   "Giant's Belt",
@@ -41,11 +41,10 @@
   "Boots of Swiftness",
   "Warmog's Armor",
   "Overlord's Bloodmail",
-  "Unending Despair",
   "Endless Hunger",
+  "Unending Despair",
   "Jak'Sho, The Protean",
   "Death's Dance",
-  "Dead Man's Plate",
-  "Force of Nature"
+  "Sterak's Gage"
  ]
 }

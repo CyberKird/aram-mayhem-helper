@@ -8,12 +8,13 @@
  ],
  "starting": [
   "Blasting Wand",
-  "Ruby Crystal"
+  "Dagger",
+  "Glowing Mote"
  ],
  "core": [
-  "Dusk and Dawn",
-  "Mercury's Treads",
   "Nashor's Tooth",
+  "Sorcerer's Shoes",
+  "Dusk and Dawn",
   "Shadowflame"
  ],
  "fourth": [
@@ -24,22 +25,23 @@
  ],
  "fifth": [
   "Rabadon's Deathcap",
-  "Riftmaker",
   "Void Staff",
+  "Riftmaker",
   "Spirit Visage"
  ],
  "sixth": [
   "Void Staff",
   "Rabadon's Deathcap",
-  "Cosmic Drive",
-  "Spirit Visage"
+  "Riftmaker",
+  "Cosmic Drive"
  ],
  "pool": [
   "Blasting Wand",
-  "Ruby Crystal",
-  "Dusk and Dawn",
-  "Mercury's Treads",
+  "Dagger",
+  "Glowing Mote",
   "Nashor's Tooth",
+  "Sorcerer's Shoes",
+  "Dusk and Dawn",
   "Shadowflame",
   "Rabadon's Deathcap",
   "Void Staff",

@@ -8,7 +8,7 @@
  ],
  "starting": [
   "Long Sword",
-  "Guardian's Blade"
+  "Pickaxe"
  ],
  "core": [
   "The Collector",
@@ -20,7 +20,7 @@
   "Death's Dance",
   "Immortal Shieldbow",
   "Bloodthirster",
-  "Mortal Reminder"
+  "Navori Flickerblade"
  ],
  "fifth": [
   "Death's Dance",
@@ -30,13 +30,13 @@
  ],
  "sixth": [
   "Death's Dance",
-  "Yun Tal Wildarrows",
+  "Endless Hunger",
   "Ravenous Hydra",
-  "Endless Hunger"
+  "Yun Tal Wildarrows"
  ],
  "pool": [
   "Long Sword",
-  "Guardian's Blade",
+  "Pickaxe",
   "The Collector",
   "Berserker's Greaves",
   "Infinity Edge",
@@ -44,10 +44,9 @@
   "Death's Dance",
   "Immortal Shieldbow",
   "Bloodthirster",
-  "Mortal Reminder",
   "Navori Flickerblade",
-  "Yun Tal Wildarrows",
+  "Endless Hunger",
   "Ravenous Hydra",
-  "Endless Hunger"
+  "Yun Tal Wildarrows"
  ]
 }

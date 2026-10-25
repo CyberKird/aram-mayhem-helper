@@ -24,12 +24,12 @@
  "fifth": [
   "Void Staff",
   "Stormsurge",
-  "Malignance",
+  "Banshee's Veil",
   "Zhonya's Hourglass"
  ],
  "sixth": [
-  "Zhonya's Hourglass",
   "Stormsurge",
+  "Zhonya's Hourglass",
   "Banshee's Veil",
   "Void Staff"
  ],
@@ -43,7 +43,6 @@
   "Stormsurge",
   "Void Staff",
   "Zhonya's Hourglass",
-  "Malignance",
   "Banshee's Veil"
  ]
 }

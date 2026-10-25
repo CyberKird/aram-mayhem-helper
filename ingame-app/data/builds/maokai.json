@@ -7,47 +7,45 @@
   "Mark"
  ],
  "starting": [
-  "Refillable Potion",
   "Lost Chapter"
  ],
  "core": [
   "Blackfire Torch",
-  "Ionian Boots of Lucidity",
+  "Sorcerer's Shoes",
   "Liandry's Torment",
   "Rabadon's Deathcap"
  ],
  "fourth": [
   "Hollow Radiance",
   "Warmog's Armor",
-  "Winter's Approach",
-  "Unending Despair"
+  "Unending Despair",
+  "Spirit Visage"
  ],
  "fifth": [
   "Warmog's Armor",
-  "Riftmaker",
+  "Shadowflame",
   "Unending Despair",
-  "Jak'Sho, The Protean"
+  "Riftmaker"
  ],
  "sixth": [
+  "Shadowflame",
   "Cryptbloom",
-  "Riftmaker",
-  "Horizon Focus",
-  "Jak'Sho, The Protean"
+  "Jak'Sho, The Protean",
+  "Riftmaker"
  ],
  "pool": [
-  "Refillable Potion",
   "Lost Chapter",
   "Blackfire Torch",
-  "Ionian Boots of Lucidity",
+  "Sorcerer's Shoes",
   "Liandry's Torment",
   "Rabadon's Deathcap",
   "Hollow Radiance",
   "Warmog's Armor",
-  "Winter's Approach",
   "Unending Despair",
+  "Spirit Visage",
+  "Shadowflame",
   "Riftmaker",
-  "Jak'Sho, The Protean",
   "Cryptbloom",
-  "Horizon Focus"
+  "Jak'Sho, The Protean"
  ]
 }

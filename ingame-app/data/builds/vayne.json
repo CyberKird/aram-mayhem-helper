@@ -7,21 +7,21 @@
   "Ghost"
  ],
  "starting": [
-  "Pickaxe",
-  "Dagger",
-  "Dagger"
+  "Boots",
+  "Long Sword",
+  "Recurve Bow"
  ],
  "core": [
-  "Guinsoo's Rageblade",
-  "Berserker's Greaves",
   "Blade of The Ruined King",
+  "Berserker's Greaves",
+  "Guinsoo's Rageblade",
   "Terminus"
  ],
  "fourth": [
   "Lord Dominik's Regards",
   "Fiendhunter Bolts",
-  "Kraken Slayer",
-  "Infinity Edge"
+  "Infinity Edge",
+  "Experimental Hexplate"
  ],
  "fifth": [
   "Lord Dominik's Regards",
@@ -36,18 +36,18 @@
   "Kaenic Rookern"
  ],
  "pool": [
-  "Pickaxe",
-  "Dagger",
-  "Guinsoo's Rageblade",
-  "Berserker's Greaves",
+  "Boots",
+  "Long Sword",
+  "Recurve Bow",
   "Blade of The Ruined King",
+  "Berserker's Greaves",
+  "Guinsoo's Rageblade",
   "Terminus",
   "Lord Dominik's Regards",
   "Fiendhunter Bolts",
-  "Kraken Slayer",
   "Infinity Edge",
-  "Bloodthirster",
   "Experimental Hexplate",
+  "Bloodthirster",
   "Phantom Dancer",
   "Kaenic Rookern"
  ]

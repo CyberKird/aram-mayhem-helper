@@ -25,14 +25,14 @@
  "fifth": [
   "Dawncore",
   "Staff of Flowing Water",
-  "Rabadon's Deathcap",
-  "Archangel's Staff"
+  "Archangel's Staff",
+  "Rabadon's Deathcap"
  ],
  "sixth": [
   "Dawncore",
-  "Rabadon's Deathcap",
   "Staff of Flowing Water",
-  "Imperial Mandate"
+  "Rabadon's Deathcap",
+  "Mikael's Blessing"
  ],
  "pool": [
   "Tear of the Goddess",
@@ -45,6 +45,6 @@
   "Dawncore",
   "Archangel's Staff",
   "Rabadon's Deathcap",
-  "Imperial Mandate"
+  "Mikael's Blessing"
  ]
 }

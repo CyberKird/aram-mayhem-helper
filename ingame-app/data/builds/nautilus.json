@@ -7,43 +7,42 @@
   "Mark"
  ],
  "starting": [
-  "Lost Chapter"
+  "Hextech Alternator"
  ],
  "core": [
-  "Luden's Echo",
+  "Stormsurge",
   "Shadowflame",
   "Rabadon's Deathcap"
  ],
  "fourth": [
   "Warmog's Armor",
-  "Winter's Approach",
   "Jak'Sho, The Protean",
+  "Winter's Approach",
   "Unending Despair"
  ],
  "fifth": [
   "Warmog's Armor",
   "Jak'Sho, The Protean",
   "Sunfire Aegis",
-  "Hollow Radiance"
+  "Force of Nature"
  ],
  "sixth": [
   "Riftmaker",
   "Force of Nature",
-  "Jak'Sho, The Protean",
-  "Unending Despair"
+  "Warmog's Armor",
+  "Jak'Sho, The Protean"
  ],
  "pool": [
-  "Lost Chapter",
-  "Luden's Echo",
+  "Hextech Alternator",
+  "Stormsurge",
   "Shadowflame",
   "Rabadon's Deathcap",
   "Warmog's Armor",
-  "Winter's Approach",
   "Jak'Sho, The Protean",
+  "Winter's Approach",
   "Unending Despair",
   "Sunfire Aegis",
-  "Hollow Radiance",
-  "Riftmaker",
-  "Force of Nature"
+  "Force of Nature",
+  "Riftmaker"
  ]
 }

@@ -8,9 +8,7 @@
  ],
  "starting": [
   "Giant's Belt",
-  "Ruby Crystal",
-  "Health Potion",
-  "Health Potion"
+  "Ruby Crystal"
  ],
  "core": [
   "Heartsteel",
@@ -22,24 +20,23 @@
   "Endless Hunger",
   "Overlord's Bloodmail",
   "Lord Dominik's Regards",
-  "Death's Dance"
+  "Voltaic Cyclosword"
  ],
  "fifth": [
   "Endless Hunger",
   "Lord Dominik's Regards",
-  "Infinity Edge",
-  "Voltaic Cyclosword"
+  "Voltaic Cyclosword",
+  "Infinity Edge"
  ],
  "sixth": [
   "Endless Hunger",
   "Lord Dominik's Regards",
-  "Voltaic Cyclosword",
-  "Death's Dance"
+  "Death's Dance",
+  "Voltaic Cyclosword"
  ],
  "pool": [
   "Giant's Belt",
   "Ruby Crystal",
-  "Health Potion",
   "Heartsteel",
   "Mercury's Treads",
   "Unending Despair",
@@ -47,8 +44,8 @@
   "Endless Hunger",
   "Overlord's Bloodmail",
   "Lord Dominik's Regards",
-  "Death's Dance",
+  "Voltaic Cyclosword",
   "Infinity Edge",
-  "Voltaic Cyclosword"
+  "Death's Dance"
  ]
 }

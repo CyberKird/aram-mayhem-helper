@@ -25,14 +25,14 @@
  "fifth": [
   "Staff of Flowing Water",
   "Ardent Censer",
-  "Redemption",
-  "Echoes of Helia"
+  "Echoes of Helia",
+  "Redemption"
  ],
  "sixth": [
   "Staff of Flowing Water",
   "Mikael's Blessing",
-  "Ardent Censer",
-  "Echoes of Helia"
+  "Warmog's Armor",
+  "Ardent Censer"
  ],
  "pool": [
   "Tear of the Goddess",
@@ -45,6 +45,7 @@
   "Ardent Censer",
   "Redemption",
   "Echoes of Helia",
-  "Mikael's Blessing"
+  "Mikael's Blessing",
+  "Warmog's Armor"
  ]
 }

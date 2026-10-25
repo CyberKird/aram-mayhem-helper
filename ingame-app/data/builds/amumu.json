@@ -12,40 +12,40 @@
  ],
  "core": [
   "Heartsteel",
-  "Plated Steelcaps",
+  "Mercury's Treads",
   "Unending Despair",
   "Warmog's Armor"
  ],
  "fourth": [
   "Riftmaker",
+  "Sunfire Aegis",
   "Abyssal Mask",
-  "Jak'Sho, The Protean",
-  "Sunfire Aegis"
+  "Hollow Radiance"
  ],
  "fifth": [
   "Riftmaker",
-  "Jak'Sho, The Protean",
   "Hollow Radiance",
+  "Jak'Sho, The Protean",
   "Liandry's Torment"
  ],
  "sixth": [
   "Riftmaker",
   "Jak'Sho, The Protean",
-  "Abyssal Mask",
-  "Liandry's Torment"
+  "Liandry's Torment",
+  "Abyssal Mask"
  ],
  "pool": [
   "Giant's Belt",
   "Ruby Crystal",
   "Heartsteel",
-  "Plated Steelcaps",
+  "Mercury's Treads",
   "Unending Despair",
   "Warmog's Armor",
   "Riftmaker",
-  "Abyssal Mask",
-  "Jak'Sho, The Protean",
   "Sunfire Aegis",
+  "Abyssal Mask",
   "Hollow Radiance",
+  "Jak'Sho, The Protean",
   "Liandry's Torment"
  ]
 }

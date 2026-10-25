@@ -17,16 +17,16 @@
   "Rabadon's Deathcap"
  ],
  "fourth": [
+  "Stormsurge",
   "Bloodletter's Curse",
   "Riftmaker",
-  "Void Staff",
-  "Malignance"
+  "Void Staff"
  ],
  "fifth": [
   "Stormsurge",
-  "Bloodletter's Curse",
   "Void Staff",
-  "Riftmaker"
+  "Riftmaker",
+  "Bloodletter's Curse"
  ],
  "sixth": [
   "Stormsurge",
@@ -41,10 +41,9 @@
   "Sorcerer's Shoes",
   "Shadowflame",
   "Rabadon's Deathcap",
+  "Stormsurge",
   "Bloodletter's Curse",
   "Riftmaker",
-  "Void Staff",
-  "Malignance",
-  "Stormsurge"
+  "Void Staff"
  ]
 }

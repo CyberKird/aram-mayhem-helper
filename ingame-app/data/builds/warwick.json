@@ -12,40 +12,40 @@
  ],
  "core": [
   "Heartsteel",
-  "Mercury's Treads",
+  "Plated Steelcaps",
   "Blade of The Ruined King",
   "Titanic Hydra"
  ],
  "fourth": [
   "Wit's End",
-  "Overlord's Bloodmail",
   "Death's Dance",
+  "Overlord's Bloodmail",
   "Spirit Visage"
  ],
  "fifth": [
   "Endless Hunger",
   "Overlord's Bloodmail",
-  "Death's Dance",
-  "Wit's End"
+  "Wit's End",
+  "Death's Dance"
  ],
  "sixth": [
   "Overlord's Bloodmail",
+  "Jak'Sho, The Protean",
   "Endless Hunger",
-  "Death's Dance",
-  "Winter's Approach"
+  "Wit's End"
  ],
  "pool": [
   "Giant's Belt",
   "Ruby Crystal",
   "Heartsteel",
-  "Mercury's Treads",
+  "Plated Steelcaps",
   "Blade of The Ruined King",
   "Titanic Hydra",
   "Wit's End",
-  "Overlord's Bloodmail",
   "Death's Dance",
+  "Overlord's Bloodmail",
   "Spirit Visage",
   "Endless Hunger",
-  "Winter's Approach"
+  "Jak'Sho, The Protean"
  ]
 }

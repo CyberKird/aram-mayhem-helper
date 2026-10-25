@@ -18,20 +18,20 @@
  ],
  "fourth": [
   "Dawncore",
-  "Ardent Censer",
+  "Sword of Blossoming Dawn",
   "Echoes of Helia",
-  "Archangel's Staff"
+  "Ardent Censer"
  ],
  "fifth": [
   "Sword of Blossoming Dawn",
   "Dawncore",
-  "Ardent Censer",
-  "Echoes of Helia"
+  "Echoes of Helia",
+  "Ardent Censer"
  ],
  "sixth": [
   "Sword of Blossoming Dawn",
-  "Echoes of Helia",
   "Dawncore",
+  "Echoes of Helia",
   "Redemption"
  ],
  "pool": [
@@ -42,10 +42,9 @@
   "Whispering Circlet",
   "Staff of Flowing Water",
   "Dawncore",
-  "Ardent Censer",
-  "Echoes of Helia",
-  "Archangel's Staff",
   "Sword of Blossoming Dawn",
+  "Echoes of Helia",
+  "Ardent Censer",
   "Redemption"
  ]
 }

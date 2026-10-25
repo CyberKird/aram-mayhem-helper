@@ -22,16 +22,16 @@
   "Jak'Sho, The Protean"
  ],
  "fifth": [
-  "Jak'Sho, The Protean",
   "Warmog's Armor",
-  "Unending Despair",
-  "Spirit Visage"
+  "Spirit Visage",
+  "Jak'Sho, The Protean",
+  "Unending Despair"
  ],
  "sixth": [
-  "Warmog's Armor",
   "Stormsurge",
   "Void Staff",
-  "Zhonya's Hourglass"
+  "Jak'Sho, The Protean",
+  "Warmog's Armor"
  ],
  "pool": [
   "Lost Chapter",
@@ -43,10 +43,9 @@
   "Warmog's Armor",
   "Winter's Approach",
   "Jak'Sho, The Protean",
-  "Unending Despair",
   "Spirit Visage",
+  "Unending Despair",
   "Stormsurge",
-  "Void Staff",
-  "Zhonya's Hourglass"
+  "Void Staff"
  ]
 }
