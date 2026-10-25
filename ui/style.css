@@ -90,9 +90,7 @@ header button, #augs > * { -webkit-app-region: no-drag; }
   text-transform: uppercase;
   color: var(--gold);
   white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  min-width: 0;
+  flex: none;       /* numele campionului nu se mai taie: augmentele sunt in lista derulanta */
 }
 #augs { display: flex; gap: 3px; margin-left: 5px; }
 #augs img {

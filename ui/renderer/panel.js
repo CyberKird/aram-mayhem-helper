@@ -308,13 +308,6 @@ function chrome() {
     : v === 'in_game' ? `IN JOC  ·  ${(d.champ || '?').toUpperCase()}` + (d.enemies ? `  ·  VS ${d.enemies}` : '')
       : 'IDLE  ·  ASTEPT'
 
-  // augmentele luate, langa nume; click pe una o scoate (ai ales gresit)
-  $('augs').replaceChildren(...(v === 'in_game' ? d.taken || [] : []).map(a => {
-    const el = tip(icon(a.icon, a.name), a.name, 'Click: scoate din lista (ai ales gresit)')
-    el.addEventListener('click', () => api.send('cmd', { cmd: 'drop', name: a.name }))
-    return el
-  }))
-
   const u = S.update || {}
   $('upd').hidden = !u.tag
   $('upd').textContent = u.tag ? `UPDATE ${u.tag}` : ''
