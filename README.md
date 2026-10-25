@@ -127,3 +127,7 @@ aram-mayhem-helper/
     rules_engine.py         # logica de recomandare, pe date reale de meci
     ocr_augments.py         # citirea augmentelor de pe ecran
 ```
+
+## Licenta
+
+Codul meu e sub [GPL-3.0-or-later](LICENSE). Datele si resursele de joc (statistici ARAMKit si u.gg, fonturile si texturile Riot) apartin proprietarilor lor si nu intra sub aceasta licenta. Proiect neoficial, neafiliat cu Riot Games.
