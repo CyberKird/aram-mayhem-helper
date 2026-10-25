@@ -1,0 +1,34 @@
+{
+ "K/DA": {
+  "effect": "Aduna 4 K/DA Cards si primesti un augment in plus.",
+  "tip": "Un augment in plus valoreaza mai mult la campionii de scalare: aduna cardurile."
+ },
+ "HEARTSTEEL": {
+  "effect": "Augmentele pot veni cu modificatori unici care le fac mai puternice.",
+  "tip": "Citeste modificatorul inainte sa alegi: poate ridica un augment mai slab peste unul clasat mai sus."
+ },
+ "True Damage": {
+  "effect": "Takedown-urile si turnurile distruse pot lasa Anvils pentru echipa.",
+  "tip": "Lupte devreme si presiune pe turnuri aduc Stat Anvil: joaca pentru takedown-uri."
+ },
+ "Pentakill": {
+  "effect": "Una din abilitatile tale devine mai puternica la inceputul meciului si din nou la nivelul 18.",
+  "tip": "Alege abilitatea cu care faci damage sau controlezi cel mai des."
+ },
+ "Disco": {
+  "effect": "Danseaza sub discoball ca sa dai aur intregii echipe.",
+  "tip": "Aur pentru toti: nu lasa discoball-ul necules cand e liber."
+ },
+ "Cafe Cuties": {
+  "effect": "Relicvele de viata sunt mult mai puternice.",
+  "tip": "Culege relicvele de viata cand te lupti prelungit; vindecarea conteaza mai mult."
+ },
+ "Bees": {
+  "effect": "Aduna vasele cu miere si evita albinele care zboara pe harta.",
+  "tip": "Nu sta in calea albinelor in lupta; mierea merita luata cand e sigur."
+ },
+ "Command Line": {
+  "effect": "La fiecare selectie poti face reroll la un augment ca sa fie de tier mai mare.",
+  "tip": "Foloseste reroll-ul pe slotul de care depinde campionul tau, nu pe unul de umplutura."
+ }
+}

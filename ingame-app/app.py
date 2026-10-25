@@ -23,6 +23,7 @@ import threading
 import time
 
 import augment_tier
+import elixir
 import live_client
 import ocr_augments
 import rules_engine
@@ -124,6 +125,10 @@ class Monitor:
         self._last_stat_anvil = ()
         self._slot = {}
         self.live_range = None       # raza de atac din joc (Draw Your Sword o schimba)
+        self.game_time = None        # secunde de joc, pentru indicatorul de elixir
+        self._elixir = elixir.Tracker()
+        self.elixir_until = 0.0
+        self.headliner = None        # ales de tine din panou: jocul nu expune regula meciului
         self._game = None            # cheia meciului, pentru augmentele salvate
         self._saved_taken = []
         # OCR-ul costa cel mai mult procesor din toata aplicatia, deci il rulam
@@ -151,6 +156,7 @@ class Monitor:
             if m:
                 self._aug_gold[name] = int(m.group(1))
         self._recent_offer, self._recent_at = [], 0.0
+        self._seen_offers = set()    # augmentele oferite in meciul asta, pentru quest-uri
         self._prev_own, self._last_jump = None, 0
 
     @staticmethod
@@ -242,6 +248,26 @@ class Monitor:
             self.taken_augments.append(cands[0])
             self._recent_offer, self._recent_at = [], 0.0
 
+    def _quest_pick(self, own_items):
+        """Augmentul de quest (Ultra Hydra), dedus din itemele pe care le ai.
+
+        Nu da nimic pe loc, deci nu se vede din aur sau inventar la alegere. Dar jocul
+        nu te lasa sa ai doua Hydra diferite fara el: doua din cele cerute = l-ai luat.
+        Cu un singur item cerut, doar daca augmentul a fost oferit in meciul asta si
+        itemul nu face parte din build-ul campionului (altfel e cumparatura normala).
+        """
+        own = {rules_engine.item_key(n) for n in own_items or ()}
+        build = self.build or {}
+        planned = {rules_engine.item_key(n) for k in ("core", "fourth", "fifth", "sixth", "pool")
+                   for n in build.get(k) or ()}
+        for name, eff in (self._static.get("effects") or {}).items():
+            need = {rules_engine.item_key(n) for n in eff.get("needs") or ()}
+            if not need or eff.get("combine") or name in self.taken_augments:
+                continue
+            have = need & own
+            if len(have) >= 2 or (have and name in self._seen_offers and not have & planned):
+                self.taken_augments.append(name)
+
     def ocr_interval(self):
         if self.augments or self.stat_anvil:
             return OCR_OFFER
@@ -290,7 +316,11 @@ class Monitor:
             self.live_range = (ap.get("championStats") or {}).get("attackRange")
         roster = normalize_roster(raw, self.champ_id_map)
         self.roster = roster
+        gs = live_client.get("/gamestats")
+        self.game_time = gs.get("gameTime") if isinstance(gs, dict) else None
+        self.elixir_until = self._elixir.update(roster.get("own_items"), self.game_time)
         self._item_pick(roster.get("own_items"), time.monotonic())
+        self._quest_pick(roster.get("own_items"))
 
         # augmentele alese supravietuiesc unei reporniri a aplicatiei in meci
         game = "|".join([str((ap or {}).get("riotId")), str(roster.get("local_champion"))]
@@ -375,6 +405,7 @@ class Monitor:
         for name in fresh:
             self._offer_pool.setdefault(name, now)
         self._recent_offer, self._recent_at = list(self._offer_pool), now
+        self._seen_offers.update(self._offer_pool)
 
         champ = (self.roster or {}).get("local_champion")
         names = sorted(self._offer_pool, key=self._offer_pool.get)[:ocr_augments.MAX_OFFER]
@@ -447,8 +478,27 @@ class Monitor:
             self.build, self.roster, self.champion_tags, self.rules,
             self.item_stats, self.taken_augments, self.augment_items, extra)
 
+    def elixir_advice(self):
+        """Potiunea de 500g: care Elixir si cand, sau None cat timp nu avem roster."""
+        r = self.roster
+        if not r or not r.get("local_champion"):
+            return None
+        own = rules_engine.slot_items(r.get("own_items"), self.item_stats)
+        stats = self.item_stats
+        core = sum(1 for n in own
+                   if not (stats.get(n) or {}).get("component") and not (stats.get(n) or {}).get("boots")
+                   and not rules_engine.item_key(n).startswith(rules_engine.STARTER_PREFIXES))
+        return elixir.advise(
+            self.champion_tags, r["local_champion"], r.get("allies"), r.get("enemies"),
+            r.get("enemy_items"), r.get("own_items"), stats, self._last_level, self._last_gold,
+            self.game_time, self.elixir_until, rules_engine.build_full(own, stats), core)
+
     def _reset(self):
         self.phase = "waiting_for_game"
+        self.game_time = None
+        self._elixir.reset()
+        self.elixir_until = 0.0
+        self.headliner = None
         self.roster = None
         self.build = None
         self.resolved_build = None
@@ -472,6 +522,7 @@ class Monitor:
         self._last_gold = None
         self._last_full, self._single, self._single_n = [], None, 0
         self._recent_offer, self._recent_at = [], 0.0
+        self._seen_offers = set()
         self._prev_own, self._last_jump = None, 0
         self._known_champion = None
         self.status = ""
@@ -1124,6 +1175,44 @@ def selfcheck():
     # Force of Nature (MR) trebuie sa apara, e in pool si se potriveste regulii
     assert "Force of Nature" in picks, picks
 
+    # Ultra Hydra: cele trei Hydra sunt din acelasi grup exclusiv, dar questul le cere pe toate;
+    # dupa prima, celelalte doua trebuie sa ramana de cumparat (nu sa dispara din build)
+    hydra_extra = {"effects": load_json("augment-effects.json"), "item_groups": load_json("item-groups.json")}
+    hydra_build = {"core": ["Berserker's Greaves"], "pool": [], "starting": []}
+    for own, nxt in (([], "Titanic Hydra"), (["Titanic Hydra"], "Ravenous Hydra"),
+                     (["Titanic Hydra", "Ravenous Hydra"], "Profane Hydra")):
+        got = rules_engine.resolve_build(
+            hydra_build, {"local_champion": "Garen", "enemies": [], "own_items": own}, champion_tags,
+            rules, load_json("item-stats.json"),
+            ["Ultra Hydra"], load_json("augment-items.json"), hydra_extra)
+        assert next(e["item"] for e in got["core"] if e["next"]) == nxt, (own, got["core"])
+
+    # quest fara item pe loc: dedus din inventar (doua Hydra diferite) sau din oferta + itemul din afara build-ului
+    def quest_mon():
+        m = Monitor({}, champion_tags, rules, load_json("augments-global.json"), load_json("item-stats.json"))
+        m.build = {"core": ["Berserker's Greaves"], "pool": ["Infinity Edge"]}
+        return m
+    m = quest_mon()
+    m._quest_pick(["Titanic Hydra"])
+    assert not m.taken_augments, "un singur Hydra, fara oferta: cumparatura normala"
+    m._quest_pick(["Titanic Hydra", "Ravenous Hydra"])
+    assert m.taken_augments == ["Ultra Hydra"], m.taken_augments
+    m = quest_mon()
+    m._seen_offers.add("Ultra Hydra")
+    m._quest_pick(["Titanic Hydra"])
+    assert m.taken_augments == ["Ultra Hydra"]
+    m = quest_mon()
+    m.build["pool"].append("Titanic Hydra")
+    m._seen_offers.add("Ultra Hydra")
+    m._quest_pick(["Titanic Hydra"])
+    assert not m.taken_augments, "Hydra din build-ul campionului nu dovedeste augmentul"
+
+    # 26.21: augmentele noi se recunosc, cele scoase nu mai intra in vocabularul OCR
+    vocab = {n.lower() for n in augment_tier.flatten_names(load_json("augments-global.json"))}
+    assert {"lich brain", "totentanz", "tickle monster", "no mana, no problem"} <= vocab
+    assert not vocab & augment_tier.REMOVED, vocab & augment_tier.REMOVED
+    assert set(load_json("headliners.json")) >= {"K/DA", "Command Line", "True Damage"}
+    elixir.selfcheck()
     print(f"selfcheck OK ({len(champ_id_map)} id-uri, {len(champion_tags)} campioni, "
           f"{len(rules['rules'])} reguli)")
 

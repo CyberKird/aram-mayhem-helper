@@ -286,6 +286,15 @@ header button, #augs > * { -webkit-app-region: no-drag; }
 .hero .k { font: 700 9.5px/1 var(--head); letter-spacing: .14em; color: var(--teal); }
 .hero .nm { margin: 2px 0 1px; font: 700 16px/1.15 var(--head); color: var(--cream); }
 .hero .why { color: var(--gold); }
+.chips { display: flex; flex-wrap: wrap; gap: 4px; margin: 3px 0; }
+.chip {
+  padding: 3px 7px; background: transparent; cursor: pointer;
+  border: 1px solid var(--row-line); color: var(--dim);
+  font: 600 10.5px/1 var(--text);
+}
+.chip:hover { color: var(--cream); }
+.chip.on { color: var(--teal); border-color: var(--teal); }
+.row .k { font: 700 9.5px/1 var(--head); letter-spacing: .14em; color: var(--teal); margin-bottom: 2px; }
 
 .sell { border-color: var(--teal); }
 .sell .ic.out { border-color: #6b2b33; filter: saturate(.6) brightness(.8); }

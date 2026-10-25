@@ -711,6 +711,14 @@
   "name": "Apex Inventor",
   "rarity": "gold"
  },
+ "ArcaneAxiom": {
+  "name": "Arcane Axiom",
+  "rarity": "gold"
+ },
+ "ArmoredImpact": {
+  "name": "Armored Impact",
+  "rarity": "gold"
+ },
  "Augment404": {
   "name": "404 Augment Not Found",
   "rarity": "silver"
@@ -722,6 +730,10 @@
  "AugmentedPower": {
   "name": "Augmented Power",
   "rarity": "silver"
+ },
+ "BEES": {
+  "name": "BEES!!!",
+  "rarity": "gold"
  },
  "BabyKitty": {
   "name": "I'm a Baby Kitty Where is Mama",
@@ -743,6 +755,10 @@
   "name": "Big Dragon Energy",
   "rarity": "gold"
  },
+ "BigShot": {
+  "name": "Big Shot",
+  "rarity": "prismatic"
+ },
  "BiggestSnowballEver": {
   "name": "Biggest Snowball Ever",
   "rarity": "prismatic"
@@ -763,6 +779,10 @@
   "name": "Combusting Interest",
   "rarity": "gold"
  },
+ "BlueBarrier": {
+  "name": "Blue Barrier",
+  "rarity": "silver"
+ },
  "BluntForce": {
   "name": "Blunt Force",
   "rarity": "silver"
@@ -773,6 +793,14 @@
  },
  "Bonk": {
   "name": "BONK!",
+  "rarity": "gold"
+ },
+ "BouncingBees": {
+  "name": "Bouncing Bees",
+  "rarity": "prismatic"
+ },
+ "BrassBlast": {
+  "name": "Brass Blast",
   "rarity": "gold"
  },
  "BravestoftheBrave": {
@@ -899,6 +927,10 @@
   "name": "Level Augments",
   "rarity": "unknown"
  },
+ "CrimsonCobalt": {
+  "name": "CRIMSON COBALT",
+  "rarity": "gold"
+ },
  "CritNCast": {
   "name": "Crit 'n Cast",
   "rarity": "silver"
@@ -1023,6 +1055,10 @@
   "name": "Double Strike",
   "rarity": "silver"
  },
+ "DoubleTime": {
+  "name": "Double Time",
+  "rarity": "gold"
+ },
  "DrawYourSword": {
   "name": "Draw Your Sword",
   "rarity": "prismatic"
@@ -1054,6 +1090,10 @@
  "EmpyreanPromise": {
   "name": "Empyrean Promise",
   "rarity": "prismatic"
+ },
+ "EnchantingButterflies": {
+  "name": "Enchanting Butterflies",
+  "rarity": "gold"
  },
  "Endgame_Gold": {
   "name": "Full Build! +25 Gold",
@@ -1163,6 +1203,10 @@
   "name": "Flashy",
   "rarity": "gold"
  },
+ "FlowOfSpirit": {
+  "name": "Flow of Spirit",
+  "rarity": "silver"
+ },
  "ForgedByTheMaster": {
   "name": "Forged By The Master",
   "rarity": "silver"
@@ -1177,6 +1221,10 @@
  },
  "FrozenFoundations": {
   "name": "Frozen Foundations",
+  "rarity": "silver"
+ },
+ "Fruitify": {
+  "name": "Fruitify",
   "rarity": "silver"
  },
  "FruitsOfYourLabor": {
@@ -1203,9 +1251,17 @@
   "name": "Gash",
   "rarity": "prismatic"
  },
+ "GetJinxed": {
+  "name": "Get Jinxed",
+  "rarity": "gold"
+ },
  "GiantSlayer": {
   "name": "Giant Slayer",
   "rarity": "prismatic"
+ },
+ "GiftoftheDrowned": {
+  "name": "Gift of the Drowned",
+  "rarity": "silver"
  },
  "GlassCannon": {
   "name": "Glass Cannon",
@@ -1327,6 +1383,10 @@
   "name": "Grievous Venom",
   "rarity": "silver"
  },
+ "GroupHug": {
+  "name": "Group Hug",
+  "rarity": "prismatic"
+ },
  "GrowthSpurt": {
   "name": "Growth Spurt",
   "rarity": "gold"
@@ -1343,6 +1403,10 @@
   "name": "Hand of Baron",
   "rarity": "prismatic"
  },
+ "HandsOffTheTalent": {
+  "name": "Hands off the Talent",
+  "rarity": "silver"
+ },
  "HasteMakesWaste": {
   "name": "Haste Makes Waste",
   "rarity": "prismatic"
@@ -1358,6 +1422,10 @@
  "HeavyHitter": {
   "name": "Heavy Hitter",
   "rarity": "silver"
+ },
+ "HeavyIsTheCrown": {
+  "name": "Heavy Is The Crown",
+  "rarity": "gold"
  },
  "HexCore": {
   "name": "The Hex Core",
@@ -1419,6 +1487,10 @@
   "name": "It's Killing Time",
   "rarity": "gold"
  },
+ "JeweledBracelet": {
+  "name": "Jeweled Bracelet",
+  "rarity": "gold"
+ },
  "JeweledGauntlet": {
   "name": "Jeweled Gauntlet",
   "rarity": "prismatic"
@@ -1459,6 +1531,10 @@
   "name": "Leg Day",
   "rarity": "silver"
  },
+ "LichBrain": {
+  "name": "Lich Brain",
+  "rarity": "silver"
+ },
  "LightWarden": {
   "name": "Light Warden",
   "rarity": "gold"
@@ -1474,6 +1550,10 @@
  "LittleExtraHelp": {
   "name": "Lil' Extra Help",
   "rarity": "gold"
+ },
+ "LonelyWarrior": {
+  "name": "Lonely Warrior",
+  "rarity": "silver"
  },
  "MadScientist": {
   "name": "Mad Scientist",
@@ -1527,6 +1607,10 @@
   "name": "Spell Split",
   "rarity": "prismatic"
  },
+ "MoshMonster": {
+  "name": "Mosh Monster",
+  "rarity": "prismatic"
+ },
  "MountainSoul": {
   "name": "Mountain Soul",
   "rarity": "silver"
@@ -1558,6 +1642,10 @@
  "Nightstalking": {
   "name": "Nightstalking",
   "rarity": "gold"
+ },
+ "NoManaNoProblem": {
+  "name": "No Mana, No Problem",
+  "rarity": "silver"
  },
  "NowYouSeeMe": {
   "name": "Now You See Me",
@@ -1731,6 +1819,10 @@
   "name": "ReEnergize",
   "rarity": "silver"
  },
+ "Recoil": {
+  "name": "Recoil",
+  "rarity": "gold"
+ },
  "Recursion": {
   "name": "Recursion",
   "rarity": "gold"
@@ -1770,6 +1862,14 @@
  "RighteousFury": {
   "name": "Righteous Fury",
   "rarity": "prismatic"
+ },
+ "Salvation": {
+  "name": "Salvation",
+  "rarity": "gold"
+ },
+ "SapMagic": {
+  "name": "Sap Magic",
+  "rarity": "gold"
  },
  "Scavenger": {
   "name": "Scavenger",
@@ -1882,6 +1982,10 @@
  "SoulSiphon": {
   "name": "Soul Siphon",
   "rarity": "gold"
+ },
+ "Sound_Barrier": {
+  "name": "Sound Barrier",
+  "rarity": "silver"
  },
  "Special_ArmorUp": {
   "name": "Armor Up",
@@ -2119,6 +2223,10 @@
   "name": "Stats on Stats on Stats!",
   "rarity": "prismatic"
  },
+ "StillHere": {
+  "name": "Still Here",
+  "rarity": "gold"
+ },
  "Strawberry_Aurora": {
   "name": "Guiding Hex",
   "rarity": "silver"
@@ -2223,6 +2331,10 @@
   "name": "Symphony of War",
   "rarity": "prismatic"
  },
+ "TakeemDownDownDown": {
+  "name": "Take'em Down Down Down",
+  "rarity": "gold"
+ },
  "TankEngine": {
   "name": "Tank Engine",
   "rarity": "gold"
@@ -2239,6 +2351,10 @@
   "name": "Terrain'd",
   "rarity": "gold"
  },
+ "TheBoomAndTheBass": {
+  "name": "The Boom and the Bass",
+  "rarity": "gold"
+ },
  "TheBrutalizer": {
   "name": "The Brutalizer",
   "rarity": "silver"
@@ -2247,8 +2363,16 @@
   "name": "Thief's Gloves",
   "rarity": "prismatic"
  },
+ "ThirdTimesTheHarm": {
+  "name": "Third Times the Harm",
+  "rarity": "prismatic"
+ },
  "ThreadtheNeedle": {
   "name": "Thread the Needle",
+  "rarity": "gold"
+ },
+ "TickleMonster": {
+  "name": "Tickle Monster",
   "rarity": "gold"
  },
  "TitansPulse": {
@@ -2258,6 +2382,10 @@
  "Tormentor": {
   "name": "Tormentor",
   "rarity": "silver"
+ },
+ "Totentanz": {
+  "name": "Totentanz",
+  "rarity": "prismatic"
  },
  "Trailblazer": {
   "name": "Trailblazer",
@@ -2319,6 +2447,10 @@
   "name": "Ultimate Awakening",
   "rarity": "prismatic"
  },
+ "UltimateRecursion": {
+  "name": "Ultimate Recursion",
+  "rarity": "silver"
+ },
  "UltimateRevolution": {
   "name": "Ultimate Revolution",
   "rarity": "prismatic"
@@ -2357,6 +2489,10 @@
  },
  "Upgrade_Ravenous": {
   "name": "Upgrade Ravenous Hydra",
+  "rarity": "gold"
+ },
+ "Upgrade_Stormsurge": {
+  "name": "Upgrade Stormsurge",
   "rarity": "gold"
  },
  "Upgrade_SunderedSky": {
@@ -2414,6 +2550,10 @@
  "WarmupRoutine": {
   "name": "Warmup Routine",
   "rarity": "silver"
+ },
+ "WeaponOfDestiny": {
+  "name": "Weapon of Destiny",
+  "rarity": "gold"
  },
  "Weapon_Boomerang": {
   "name": "Blade-o-rang",

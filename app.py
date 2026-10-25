@@ -129,6 +129,7 @@ class Engine:
         self.item_desc = ingame.load_json("item-desc.json")
         self.augment_desc = ingame.load_json("augment-desc.json")
         self.augment_items = ingame.load_json("augment-items.json")
+        self.headliners = ingame.load_json("headliners.json")
         self._top = (None, {})
         self.reader = champ_ocr.ChampSelectReader(
             lcu.load_champion_data().values(),
@@ -231,6 +232,11 @@ class Engine:
                 "complete": [] if left or not rb["picks"] else
                 [self.item(e) for e in items if e["owned"] or not full],
                 "unavailable": rb.get("unavailable") or [], "range": rb.get("range")}
+        adv = m.elixir_advice()
+        if adv:
+            out["elixir"] = dict(adv, icon=ic("items", adv["pick"]))
+        out["headliner"] = dict(self.headliners.get(m.headliner) or {}, options=list(self.headliners),
+                                picked=m.headliner)
         return out
 
     # --- unde sunt jocul, clientul si cardurile ----------------------------
@@ -292,6 +298,10 @@ class Engine:
         elif cmd == "drop" and msg.get("name") in m.taken_augments:
             m.taken_augments.remove(msg["name"])
             m._recompute_build()
+        elif cmd == "headliner":
+            # acelasi click il alege sau il scoate
+            name = msg.get("name")
+            m.headliner = None if m.headliner == name or name not in self.headliners else name
         elif cmd == "diag":
             emit({"t": "reply", "id": msg.get("id"),
                   "text": bug_report.build_diagnostics(VERSION, HOME, self.lcu_mon, m)})
@@ -378,6 +388,11 @@ def selfcheck():
         augments = [{"name": names[0], "tier": "S", "is_best": True, "slot": 0}]
         stat_anvil, taken_augments = [], [names[1]]
         global_augments = tiers
+        headliner = None
+        _tags = json.loads((ROOT / "ingame-app" / "data" / "champion-tags.json").read_text(encoding="utf-8"))
+
+        def elixir_advice(self):
+            return ingame.elixir.advise(self._tags, "Ahri", ["Ahri"], ["Jinx"], [], [], {}, 12, 900, 840, core=3)
         resolved_build = {"starting": ["Doran's Ring"], "sell": None, "full": False,
                           "core": [{"item": "Luden's Echo", "owned": False, "next": True}],
                           "picks": [{"item": "Zhonya's Hourglass", "reason": "x", "owned": False,
@@ -388,8 +403,45 @@ def selfcheck():
     game = eng.in_game()
     assert game["build"]["next"][0]["item"] == "Luden's Echo", game["build"]
     assert game["offer"][0]["icon"] and game["taken"][0]["name"] == names[1], game
+    assert game["elixir"]["state"] == "buy" and game["elixir"]["pick"] in ingame.elixir.ELIXIRS         and game["elixir"]["icon"], game["elixir"]
+    eng.command({"cmd": "headliner", "name": "K/DA"})
+    hl = eng.in_game()["headliner"]
+    assert hl["picked"] == "K/DA" and hl["effect"] and "Command Line" in hl["options"], hl
+    eng.command({"cmd": "headliner", "name": "K/DA"})        # al doilea click il scoate
+    assert eng.in_game()["headliner"]["picked"] is None
     json.dumps(eng.state())
     print("selfcheck OK (stare pentru interfata)")
+
+    # raportul de bug: FormSubmit respinge cererile fara Origin/Referer, deci trebuie sa plece cu ele
+    sent = {}
+
+    class Reply:
+        status_code, content = 200, b"x"
+
+        def __init__(self, data):
+            self.data = data
+
+        def json(self):
+            return self.data
+
+    def fake_post(url, json=None, headers=None, timeout=None):
+        sent.update(headers=headers, json=json)
+        return Reply(sent["reply"])
+
+    real_post, bug_report.requests.post = bug_report.requests.post, fake_post
+    try:
+        sent["reply"] = {"success": "false", "message": "This form needs Activation. We've sent you an email"}
+        ok, text = bug_report.send("descriere suficient de lunga", "", "diag", "test")
+        assert not ok and "DESCHIDE EMAIL" in text, text
+        assert sent["headers"]["Origin"].startswith("https://") and sent["headers"]["Referer"], sent["headers"]
+        sent["reply"] = {"success": "true"}
+        bug_report._last_sent = 0.0
+        assert bug_report.send("descriere suficient de lunga", "a@b.ro", "diag", "test") == (True, "Trimis. Multumim!")
+        assert sent["json"]["email"] == "a@b.ro" and sent["json"]["message"].startswith("descriere")
+        assert bug_report.send("a doua imediat", "", "", "test")[1].startswith("Asteapta")     # cooldown
+    finally:
+        bug_report.requests.post, bug_report._last_sent = real_post, 0.0
+    print("selfcheck OK (bug report)")
 
     # OCR-ul real functioneaza si in exe (winrt e incarcat dinamic)
     import ocr_augments

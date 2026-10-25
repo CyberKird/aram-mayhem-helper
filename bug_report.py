@@ -21,6 +21,9 @@ import requests
 
 TO = "contact@joltarise.com"
 ENDPOINT = f"https://formsubmit.co/ajax/{TO}"
+# FormSubmit respinge cererile fara Origin/Referer ("open this page through a
+# web server"): un POST din Python nu le trimite singur.
+ORIGIN = "https://joltarise.com"
 MAX_TEXT = 2000
 COOLDOWN = 60          # secunde intre doua trimiteri, impotriva apasarilor repetate
 _last_sent = 0.0
@@ -82,12 +85,16 @@ def send(description, email, diagnostics, version, timeout=10):
         payload["email"] = email.strip()      # FormSubmit il foloseste ca Reply-To
     try:
         r = requests.post(ENDPOINT, json=payload, timeout=timeout,
-                          headers={"Accept": "application/json"})
+                          headers={"Accept": "application/json", "Origin": ORIGIN,
+                                   "Referer": ORIGIN + "/"})
         data = r.json() if r.content else {}
         if r.status_code == 200 and str(data.get("success")).lower() == "true":
             _last_sent = time.monotonic()
             return True, "Trimis. Multumim!"
-        return False, data.get("message") or f"Serverul a raspuns {r.status_code}."
+        msg = data.get("message") or ""
+        if "Activation" in msg:
+            return False, "Raportarea nu e activata inca pe server. Foloseste DESCHIDE EMAIL."
+        return False, msg or f"Serverul a raspuns {r.status_code}."
     except Exception as e:
         return False, f"Nu am putut trimite ({type(e).__name__})."
 

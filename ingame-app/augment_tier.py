@@ -48,6 +48,13 @@ UI_WORDS = {
 }
 
 
+# Scoase din Mayhem la patch 26.21: CommunityDragon le mai are in fisier, iar in
+# vocabularul OCR ar produce augmente care nu mai pot aparea.
+REMOVED = {"combusting interest", "crit 'n cast", "critical missile", "dimension shift",
+           "dropbear", "dropkick", "fan the hammer", "hide on bush", "high roller",
+           "our healing", "poro stampede", "spiritual purification", "ult bot"}
+
+
 def flatten_names(global_augments):
     """Toate numele pe care OCR-ul incearca sa le potriveasca.
 
@@ -67,13 +74,14 @@ def flatten_names(global_augments):
 
     # dedupe fara majuscule: Riot are si "Ok Boomerang" si "OK Boomerang",
     # iar amandoua ajungeau in lista si apareau ca doua augmente diferite
+    names = [n for n in names if n.lower() not in REMOVED]
     seen = {n.lower() for n in names}
     if AUGMENT_MAP.exists():
         riot = json.loads(AUGMENT_MAP.read_text(encoding="utf-8"))
         for entry in riot.values():
             name = entry.get("name")
             key = (name or "").lower()
-            if name and key not in seen and key not in UI_WORDS:
+            if name and key not in seen and key not in UI_WORDS and key not in REMOVED:
                 seen.add(key)
                 names.append(name)
     return names

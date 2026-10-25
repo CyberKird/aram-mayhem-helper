@@ -32,6 +32,7 @@ class Mon:
     phase, status, ocr_status = "in_game", "", ""
     roster = {"local_champion": "Ahri", "enemies": ["Jinx", "Sett", "Lux", "Garen", "Ezreal"], "own_items": []}
     augments, stat_anvil, taken_augments = [], [], []
+    headliner = "Command Line"
     global_augments = None
     resolved_build = {
         "starting": [], "full": False, "range": "ranged", "unavailable": [],
@@ -41,6 +42,12 @@ class Mon:
         "picks": [{"item": "Morellonomicon", "reason": "inamicii se vindeca", "owned": False, "next": False},
                   {"item": "Zhonya's Hourglass", "reason": None, "owned": False, "next": False},
                   {"item": "Rabadon's Deathcap", "reason": None, "owned": False, "next": False}]}
+
+    def elixir_advice(self):
+        r = self.roster
+        return ingame.elixir.advise(
+            ingame.load_json("champion-tags.json"), r["local_champion"], ["Ahri", "Garen", "Lux", "Jinx", "Sett"],
+            r["enemies"], [], [], {}, 12, 900, 840, core=3)
 
 
 Mon.global_augments = ingame.load_json("augments-global.json")

@@ -208,10 +208,14 @@ def resolve_build(build, roster, champion_tags, rule_set, item_stats=None,
                     for g in groups.get(n) or ()}
 
     have = owned_keys(roster.get("own_items"), item_stats)
+    # Ultra Hydra cere Titanic + Ravenous + Profane, desi sunt din acelasi grup
+    # exclusiv: itemele unui quest nu se blocheaza intre ele.
+    quest = {item_key(n) for a in taken_augments or ()
+             for n in ((extra.get("effects") or {}).get(a) or {}).get("needs") or ()}
 
     def ok(name):
         # ce ai deja ramane ok, altfel l-ar bloca propriul grup si ar parea de vandut
-        return fits(name) and (item_key(name) in have
+        return fits(name) and (item_key(name) in have or item_key(name) in quest
                                or not taken_groups & set(groups.get(name) or ()))
 
     # itemele indisponibile (ex. Runaan's dupa Draw Your Sword) nu mai apar
@@ -314,7 +318,12 @@ def resolve_build(build, roster, champion_tags, rule_set, item_stats=None,
         core_entries = [e for e in core_entries if item_key(e["item"]) != key]
         picks = [e for e in picks if item_key(e["item"]) != key]
         forced.append({"item": name, "owned": False, "reason": why})
-    core_entries = forced + core_entries
+    # itemele de quest deja cumparate raman in lista, bifate: se vede progresul (1/3)
+    done = [{"item": n, "owned": True, "reason": f"quest {aug}"}
+            for eff, aug in effects if not eff.get("combine")
+            for n in eff.get("needs") or () if item_key(n) in owned]
+    core_entries = [e for e in core_entries if item_key(e["item"]) not in {item_key(d["item"]) for d in done}]
+    core_entries = done + forced + core_entries
     # itemul care se cumuleaza (Don't Stop Cleavin'): dupa primul, inca unul
     # la coada build-ului, ca sa nu ramana sloturi "terminate" degeaba
     for eff, aug in effects:

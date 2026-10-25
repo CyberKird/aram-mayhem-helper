@@ -24,6 +24,8 @@ import pathlib
 import re
 import urllib.request
 
+import elixir
+
 HERE = pathlib.Path(__file__).parent
 BUILDS = HERE / "data" / "builds"
 ICONS = HERE / "data" / "icons"
@@ -98,6 +100,8 @@ def item_sources(version):
         build = json.loads(path.read_text(encoding="utf-8"))
         for key in ("starting", "core", "fourth", "fifth", "sixth", "pool"):
             wanted.update(build.get(key) or [])
+
+    wanted.update(elixir.ELIXIRS)       # indicatorul de 500g nu apare in build-uri
 
     catalog = fetch_json(f"{DDRAGON}/cdn/{version}/data/en_US/item.json")["data"]
     by_name = {}

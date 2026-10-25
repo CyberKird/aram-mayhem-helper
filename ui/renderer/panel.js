@@ -121,6 +121,33 @@ function anvilRow(s) {
     s.is_best && h('span.tag', { text: 'BEST' }))
 }
 
+// potiunea de 500g: care Elixir si cand. Mare si incadrat doar cand e momentul (ia-l / bea-l)
+const ELIXIR_K = { buy: 'CUMPARA ACUM', use: 'BEA-L', active: 'ACTIV', gold: 'AUR', wait: 'MAI TARZIU', locked: 'BLOCAT' }
+function elixirRow(e) {
+  const go = e.state === 'buy' || e.state === 'use'
+  const scores = Object.entries(e.scores).map(([n, v]) => `${n.replace('Elixir of ', '')}: ${v}`).join('\n')
+  return h('div.' + (go ? 'hero' : 'row'), {},
+    tip(icon(e.icon, e.pick), e.pick, scores),
+    h('div.txt', {},
+      h('div.k', { text: `ELIXIR 500g  ·  ${ELIXIR_K[e.state] || ''}` }),
+      h('div.nm', { text: e.pick }),
+      e.why && h('div.why', { text: e.why }),
+      h('div.desc', { text: e.when })))
+}
+
+// regula meciului (Headliner): jocul nu o expune, o alegi tu cu un click; apasat din nou o scoate
+function headlinerRow(hl) {
+  return [
+    sec('HEADLINER'),
+    h('div.chips', {}, hl.options.map(n => {
+      const b = h('button.chip' + (n === hl.picked ? '.on' : ''), { text: n })
+      b.addEventListener('click', () => api.send('cmd', { cmd: 'headliner', name: n }))
+      return b
+    })),
+    hl.picked && [h('div.desc', { text: hl.effect }), h('div.why', { text: hl.tip })],
+  ]
+}
+
 function stateRow(label, value, ok) {
   return h('div.state', {}, h('span', { text: label }), h('b' + (ok ? '.ok' : ''), { text: value }))
 }
@@ -194,6 +221,8 @@ function inGame(d) {
       out.push(note('Indisponibil: ' + b.unavailable.join(', ') + (b.range ? ` (esti ${b.range})` : '')))
     }
   }
+  if (d.elixir) out.push(elixirRow(d.elixir))
+  if (d.headliner) out.push(headlinerRow(d.headliner))
   if (d.loading) out.push(note('se incarca...'))
   return out
 }

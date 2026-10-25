@@ -17,6 +17,8 @@ Un overlay local pentru League of Legends, mod ARAM Mayhem. Arata tier-ul campio
 - **Raport de bug** direct din aplicatie (butonul `BUG`), trimis la contact@joltarise.com, cu un diagnostic pe care il vezi inainte sa pleace.
 - **Stat Anvil** arata in panou si motivul recomandarii pentru campionul tau.
 - **Itemele care evolueaza** (Manamune -> Muramana, Archangel's -> Seraph's etc.) conteaza ca detinute dupa transformare.
+- **Indicator pentru potiunea de 500g** (Elixir of Iron / Sorcery / Wrath, nivel 9, 3 minute): alege elixirul dupa campionul tau, compozitia inamica (CC, burst, tancuri, itemi de aparare) si a echipei tale (linie intai, heal), iar starea (`BLOCAT` / `MAI TARZIU` / `AUR` / `CUMPARA ACUM` / `BEA-L` / `ACTIV`) din nivel, aur, iteme terminate si timpul de joc. Logica e in `ingame-app/elixir.py`.
+- **Headliner** (patch 26.21): jocul nu expune regula meciului, deci o alegi cu un click din panou si vezi efectul si un sfat; click din nou o scoate.
 - **Se actualizeaza singur**: exe-ul din Releases, iar tier-urile si statisticile de patch se iau din repo la pornire, fara exe nou.
 
 ## Cum functioneaza
