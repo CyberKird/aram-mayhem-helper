@@ -138,6 +138,7 @@ class Monitor:
         self.pending = []            # ultima oferta disparuta fara alegere cunoscuta
         self._ttl_names = []         # oferta ascunsa dupa OFFER_TTL, dar poate inca pe ecran
         self._cursor = None          # (cardul 0-2 sub cursor, moment): cardul pe care dai click
+        self._last_slots = {}        # {nume: card 0-2} din ultima citire cu cel putin 2 carduri
         self._augment_ids = None     # id intern -> nume, incarcat la prima nevoie
         self._game = None            # cheia meciului, pentru augmentele salvate
         self._saved_taken = []
@@ -399,6 +400,9 @@ class Monitor:
         found = [n for n in found if n not in self._shards]
         if len(found) >= 2:
             self._note_cursor()
+            # unde stau cardurile ACUM (nu amestecat cu citiri vechi, dupa reroll): doar pe ele ne bazam
+            matches = ocr_augments.last_read.get("matches") or []
+            self._last_slots = {n: i for i, n in enumerate(matches) if n and n not in self._shards}
         self._anvil(shards)
         if len(shards) >= 2:
             found = []          # ecran de Stat Anvil, nu oferta de augment
@@ -569,7 +573,7 @@ class Monitor:
         if len(names) < 2 or set(names) & set(self.taken_augments):
             return
         if self._cursor and time.monotonic() - self._cursor[1] < CURSOR_FRESH:
-            chosen = [n for n in names if self._slot.get(n) == self._cursor[0]]
+            chosen = [n for n in names if self._last_slots.get(n) == self._cursor[0]]
             if len(chosen) == 1:
                 self.taken_augments.append(chosen[0])
                 self._cursor = None
@@ -597,6 +601,7 @@ class Monitor:
         self.pending = []
         self._ttl_names = []
         self._cursor = None
+        self._last_slots = {}
         self.roster = None
         self.build = None
         self.resolved_build = None
@@ -1326,13 +1331,19 @@ def selfcheck():
 
     # alegerea = cardul de sub cursor cand oferta dispare
     m = quest_mon()
-    m._offer_pool, m._slot, m._cursor = {"Lich Brain": 1, "Totentanz": 2, "Group Hug": 3},         {"Lich Brain": 0, "Totentanz": 1, "Group Hug": 2}, (1, time.monotonic())
+    m._offer_pool, m._last_slots, m._cursor = {"Lich Brain": 1, "Totentanz": 2, "Group Hug": 3},         {"Lich Brain": 0, "Totentanz": 1, "Group Hug": 2}, (1, time.monotonic())
     m._offer_gone()
     assert m.taken_augments == ["Totentanz"] and m.pending == [], (m.taken_augments, m.pending)
     m = quest_mon()
-    m._offer_pool, m._slot, m._cursor = {"Lich Brain": 1, "Totentanz": 2}, {"Lich Brain": 0, "Totentanz": 1},         (1, time.monotonic() - 60)
+    m._offer_pool, m._last_slots, m._cursor = {"Lich Brain": 1, "Totentanz": 2},         {"Lich Brain": 0, "Totentanz": 1}, (1, time.monotonic() - 60)
     m._offer_gone()
     assert not m.taken_augments and m.pending == ["Lich Brain", "Totentanz"], "cursor vechi nu decide"
+
+    # dupa reroll, cardul de sub cursor poate fi unul necitit: nu ghicim dupa un nume ramas din oferta veche
+    m = quest_mon()
+    m._offer_pool, m._last_slots, m._cursor = {"Archmage": 1, "Blade Waltz": 2},         {"Blade Waltz": 0, "Final Form": 1}, (2, time.monotonic())
+    m._offer_gone()
+    assert not m.taken_augments and m.pending == ["Archmage", "Blade Waltz"], (m.taken_augments, m.pending)
 
     # cat mai ai pana la build complet: componentele din inventar scad din pret
     rec = load_json("item-recipes.json")

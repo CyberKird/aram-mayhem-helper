@@ -88,7 +88,7 @@ function strip(items, label, extra = []) {
 const tipText = e => [e.reason && e.reason[0].toUpperCase() + e.reason.slice(1), e.desc].filter(Boolean).join('\n\n')
 
 // itemul de cumparat ACUM, mare si incadrat; restul ordinii ca sloturi mici
-function nextItems(items, extra = []) {
+function nextItems(items, extra = [], extraLabel = null) {
   const [head, ...rest] = items
   return [
     h('div.hero', {},
@@ -97,7 +97,7 @@ function nextItems(items, extra = []) {
         h('div.k', { text: 'CUMPARA ACUM' }),
         h('div.nm', { text: head.item }),
         head.reason && h('div.why', { text: head.reason }))),
-    (rest.length || extra.length) && strip(rest, rest.length ? 'APOI' : 'IA ACUM', extra),
+    (rest.length || extra.length) && strip(rest, rest.length ? 'APOI' : extraLabel, extra),
   ]
 }
 
@@ -161,12 +161,6 @@ function buyIcons(d) {
 function headlinerRow(hl) {
   const send = name => api.send('cmd', { cmd: 'headliner', name })
   const info = (el, n) => tip(el, n, `${hl.info[n].effect}\n\n${hl.info[n].tip}`)
-  if (hl.picked) {
-    const edit = h('button.chip', { text: 'EDIT' })
-    edit.addEventListener('click', () => send(hl.picked))
-    const cur = hl.options.find(o => o.name === hl.picked)
-    return h('div.state.iconic', {}, info(icon(cur.icon, cur.name), hl.picked), h('span.grow', {}), edit)
-  }
   return [
     sec('ALEGE HEADLINER'),
     h('div.chips', {}, hl.options.map(o => {
@@ -174,6 +168,18 @@ function headlinerRow(hl) {
       b.addEventListener('click', () => send(o.name))
       return b
     })),
+  ]
+}
+
+// dupa alegere nu mai ocupa un rand: iconita lui si un creion de editare, in coada randului de iteme
+function headlinerInline(hl) {
+  const cur = hl.options.find(o => o.name === hl.picked)
+  const edit = h('button.edit', {})
+  edit.append(pencilIcon())
+  edit.addEventListener('click', () => api.send('cmd', { cmd: 'headliner', name: hl.picked }))
+  return [
+    tip(icon(cur.icon, cur.name, '.hl'), cur.name, `${hl.info[cur.name].effect}\n\n${hl.info[cur.name].tip}`),
+    tip(edit, 'Schimba headliner', null),
   ]
 }
 
@@ -242,19 +248,22 @@ function inGame(d) {
   if (d.anvil.length) out.push(sec('STAT ANVIL'), d.anvil.map(anvilRow))
   const b = d.build
   const buy = buyIcons(d)
+  const picked = d.headliner && d.headliner.picked ? headlinerInline(d.headliner) : []
+  const extra = buy.concat(picked)
+  const label = buy.length ? 'IA ACUM' : null
   if (b) {
     if (b.starting.length) out.push(sec('START'), strip(b.starting))
     // vanzarea e cel mai urgent lucru de pe ecran: sta prima
     if (b.sell) out.push(b.sell && sellRow(b.sell))
-    if (b.next.length) out.push(nextItems(b.next, buy))
-    else if (b.complete.length) out.push(sec('BUILD COMPLET'), strip(b.complete, null, buy))
-    else if (buy.length) out.push(strip([], 'IA ACUM', buy))
+    if (b.next.length) out.push(nextItems(b.next, extra, label))
+    else if (b.complete.length) out.push(sec('BUILD COMPLET'), strip(b.complete, null, extra))
+    else if (extra.length) out.push(strip([], label, extra))
     if (b.unavailable.length) {
       out.push(note('Indisponibil: ' + b.unavailable.join(', ') + (b.range ? ` (esti ${b.range})` : '')))
     }
   }
-  if (!b && buy.length) out.push(strip([], 'IA ACUM', buy))
-  if (d.headliner) out.push(headlinerRow(d.headliner))
+  if (!b && extra.length) out.push(strip([], label, extra))
+  if (d.headliner && !d.headliner.picked) out.push(headlinerRow(d.headliner))
   if (d.loading) out.push(note('se incarca...'))
   return out
 }
@@ -275,6 +284,18 @@ function bugIcon() {
   add('ellipse', { cx: 32, cy: 41, rx: 13, ry: 19 })
   add('circle', { cx: 32, cy: 16, r: 7, class: 'solid' })
   add('path', { d: 'M32 26v32M19 32 7 26M45 32l12-6M19 42H7m38 0h12M19 52 7 58m38-6 12 6M28 12l-7-10m15 10 7-10' })
+  return svg
+}
+
+function pencilIcon() {
+  const ns = 'http://www.w3.org/2000/svg'
+  const svg = document.createElementNS(ns, 'svg')
+  svg.setAttribute('viewBox', '0 0 64 64')
+  for (const d of ['M12 52l3-13L44 10l10 10-29 29z', 'M38 16l10 10', 'M12 52l13-3']) {
+    const el = document.createElementNS(ns, 'path')
+    el.setAttribute('d', d)
+    svg.append(el)
+  }
   return svg
 }
 
