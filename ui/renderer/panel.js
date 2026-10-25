@@ -177,10 +177,10 @@ function headlinerInline(hl) {
   const edit = h('button.edit', {})
   edit.append(pencilIcon())
   edit.addEventListener('click', () => api.send('cmd', { cmd: 'headliner', name: hl.picked }))
-  return [
-    tip(icon(cur.icon, cur.name, '.hl'), cur.name, `${hl.info[cur.name].effect}\n\n${hl.info[cur.name].tip}`),
-    tip(edit, 'Schimba headliner', null),
-  ]
+  // creionul sta pe coltul iconitei: un singur obiect, nu doua
+  return [h('div.hlwrap', {},
+    tip(icon(cur.icon, cur.name, '.hl'), cur.name, [hl.info[cur.name].effect, hl.info[cur.name].tip].join('\n\n')),
+    tip(edit, 'Schimba headliner', null))]
 }
 
 function stateRow(label, value, ok) {
