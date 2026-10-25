@@ -213,7 +213,8 @@ class Engine:
         out = {"champ": champ, "enemies": len(roster.get("enemies") or []),
                "loading": not m.roster, "status": m.status or "",
                "ocr": (m.ocr_status or "").split(" (")[0],
-               "taken": [{"name": n, "icon": ic("augments", n)} for n in m.taken_augments],
+               "taken": [{"name": n, "icon": ic("augments", n), "desc": self.augment_desc.get(n)}
+                         for n in m.taken_augments],
                "offer": [self.aug(a) for a in m.augments],
                "anvil": self.anvil(),
                "top": self.top_augments(champ),

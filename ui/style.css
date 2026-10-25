@@ -305,6 +305,12 @@ header button, #augs > * { -webkit-app-region: no-drag; }
 }
 .chip:hover { color: var(--cream); }
 .chip.on { color: var(--teal); border-color: var(--teal); }
+.state.drop { cursor: pointer; padding: 3px 6px; border: 1px solid var(--row-line); background: var(--row); }
+.state.drop:hover { border-color: var(--gold-dk); }
+.state.drop b { color: var(--gold); }
+.droplist { margin: 2px 0 4px; }
+.droplist .row { cursor: default; }
+.droplist .chip { margin-left: auto; }
 .hlwrap { position: relative; flex: none; width: 32px; height: 32px; margin-left: auto; margin-right: 6px; }
 .strip .ic.hl { width: 32px; height: 32px; object-fit: contain; }
 .hlwrap .edit {

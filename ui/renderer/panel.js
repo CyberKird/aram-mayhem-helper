@@ -10,7 +10,7 @@ const panel = $('panel'), body = $('body')
 let S = null           // ultima stare
 let layout = null      // { zoom, w, maxH, shrink } de la procesul principal
 let collapsed = false
-let augOn = false      // augmentele bune ale campionului, cand OCR-ul nu vede oferta
+let takenOpen = false   // lista derulanta cu augmentele alese
 let shown = ''         // amprenta a ce e desenat acum
 let shownView = ''
 let verNote = null     // raspunsul scurt dupa o cautare de update ("ESTI LA ZI")
@@ -225,26 +225,28 @@ function champSelect(d) {
   ]
 }
 
-function topAugments(d) {
-  const out = [sec('TOP AUGMENTE' + (d.champ ? `  ·  ${d.champ}` : ''))]
-  if (d.ocr) out.push(note('OCR: ' + d.ocr))
-  for (const [rarity, label] of [['prismatic', 'PRISM'], ['gold', 'AUR'], ['silver', 'ARGINT']]) {
-    const list = (d.top || {})[rarity]
-    if (list && list.length) {
-      out.push(h('div.top', {}, h('span.k', { text: label }),
-        h('span.v', { text: list.map(a => `${a.name} (${a.tier})`).join('  ·  ') })))
-    }
-  }
-  return out
+// augmentele alese, intr-o lista derulanta sus; X scoate unul pus gresit
+function takenDrop(list) {
+  const head = h('div.state.drop' + (takenOpen ? '.open' : ''), {},
+    h('span', { text: 'AUGMENTE ALESE' }), h('b', { text: `${list.length}  ${takenOpen ? '▴' : '▾'}` }))
+  head.addEventListener('click', () => { takenOpen = !takenOpen; render(true) })
+  if (!takenOpen) return head
+  return [head, h('div.droplist', {}, list.length
+    ? list.map(a => {
+      const x = h('button.chip', { text: 'X' })
+      x.addEventListener('click', () => api.send('cmd', { cmd: 'drop', name: a.name }))
+      return tip(h('div.row', {}, icon(a.icon, a.name), h('div.txt', {}, h('div.nm', { text: a.name })), x), a.name, a.desc)
+    })
+    : [note('niciun augment ales inca')])]
 }
 
 // Doar ce te ajuta sa castigi meciul: ce cumperi, ce vinzi, ce shard iei.
 function inGame(d) {
   const out = []
   if (d.status) out.push(note(d.status))
+  out.push(takenDrop(d.taken || []))
   if (d.pending && d.pending.length) out.push(pendingRows(d.pending))
   if (d.offer.length) out.push(sec('OFERTA'), d.offer.map(a => tierRow(a, 'aug')))
-  else if (augOn) out.push(topAugments(d))
   if (d.anvil.length) out.push(sec('STAT ANVIL'), d.anvil.map(anvilRow))
   const b = d.build
   const buy = buyIcons(d)
@@ -322,8 +324,6 @@ function chrome() {
   }
   wasBusy = !!u.busy
   $('ver').textContent = u.busy ? '...' : verNote || `v${S.version}`
-  $('aug').hidden = v !== 'in_game'
-  $('aug').classList.toggle('on', augOn)
 
   const status = []
   if (S.error) status.push(S.error)
@@ -336,7 +336,7 @@ function chrome() {
 
 function render(force) {
   if (!S) return
-  const key = JSON.stringify([S.view, S.data, S.update, S.error, S.hotkey, augOn, verNote])
+  const key = JSON.stringify([S.view, S.data, S.update, S.error, S.hotkey, takenOpen, verNote])
   if (!force && key === shown) return
   shown = key
   const view = S.view
@@ -398,9 +398,7 @@ click('snap', () => api.send('cmd', { cmd: 'snap' }))
 click('bug', () => api.send('cmd', { cmd: 'report' }))
 click('ver', () => api.send('cmd', { cmd: 'update' }))
 click('upd', () => api.send('cmd', { cmd: 'restart' }))
-click('aug', () => { augOn = !augOn; render(true) })
 tip($('bug'), 'Raporteaza un bug', 'Trimite ce vede aplicatia acum, ca sa pot repara.')
 tip($('snap'), 'Aseaza in gol', 'Pune panoul inapoi intre HUD si minimap. Il poti trage si pe alt ecran: ramane acolo.')
 tip($('ver'), 'Versiunea', 'Click: cauta si instaleaza acum o versiune noua.')
 tip($('upd'), 'Versiune noua instalata', 'Click: reporneste pe ea acum. In afara meciului se reporneste singura.')
-tip($('aug'), 'Top augmente', 'Cele mai bune augmente pentru campionul tau, cand insignele nu apar pe carduri.')
