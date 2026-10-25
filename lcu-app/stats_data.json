@@ -3528,695 +3528,868 @@
   "champions": {
    "Annie": {
     "wr": 49.0,
-    "pr": 2.3
+    "pr": 2.3,
+    "tier": "B"
    },
    "Olaf": {
     "wr": 46.2,
-    "pr": 1.5
+    "pr": 1.5,
+    "tier": "C"
    },
    "Galio": {
     "wr": 50.4,
-    "pr": 6.6
+    "pr": 6.6,
+    "tier": "B"
    },
    "Twisted Fate": {
     "wr": 56.5,
-    "pr": 11.3
+    "pr": 11.3,
+    "tier": "S"
    },
    "Xin Zhao": {
     "wr": 53.5,
-    "pr": 8.3
+    "pr": 8.3,
+    "tier": "A"
    },
    "Urgot": {
     "wr": 45.8,
-    "pr": 4.1
+    "pr": 4.1,
+    "tier": "C"
    },
    "LeBlanc": {
     "wr": 43.3,
-    "pr": 3.1
+    "pr": 3.1,
+    "tier": "D"
    },
    "Vladimir": {
     "wr": 47.5,
-    "pr": 6.9
+    "pr": 6.9,
+    "tier": "B"
    },
    "Fiddlesticks": {
     "wr": 48.5,
-    "pr": 4.2
+    "pr": 4.2,
+    "tier": "B"
    },
    "Kayle": {
     "wr": 55.5,
-    "pr": 6.9
+    "pr": 6.9,
+    "tier": "S"
    },
    "Master Yi": {
     "wr": 54.6,
-    "pr": 10.7
+    "pr": 10.7,
+    "tier": "S"
    },
    "Alistar": {
     "wr": 51.9,
-    "pr": 6.1
+    "pr": 6.1,
+    "tier": "A"
    },
    "Ryze": {
     "wr": 52.3,
-    "pr": 11.1
+    "pr": 11.1,
+    "tier": "A"
    },
    "Sion": {
     "wr": 51.0,
-    "pr": 7.9
+    "pr": 7.9,
+    "tier": "A"
    },
    "Sivir": {
     "wr": 47.4,
-    "pr": 5.3
+    "pr": 5.3,
+    "tier": "B"
    },
    "Soraka": {
     "wr": 49.5,
-    "pr": 3.7
+    "pr": 3.7,
+    "tier": "B"
    },
    "Teemo": {
     "wr": 53.5,
-    "pr": 13.6
+    "pr": 13.6,
+    "tier": "A"
    },
    "Tristana": {
     "wr": 48.9,
-    "pr": 8.3
+    "pr": 8.3,
+    "tier": "B"
    },
    "Warwick": {
     "wr": 46.8,
-    "pr": 2.1
+    "pr": 2.1,
+    "tier": "C"
    },
    "Nunu & Willump": {
     "wr": 45.3,
-    "pr": 2.7
+    "pr": 2.7,
+    "tier": "C"
    },
    "Miss Fortune": {
     "wr": 50.8,
-    "pr": 13.8
+    "pr": 13.8,
+    "tier": "A"
    },
    "Ashe": {
     "wr": 44.5,
-    "pr": 14.5
+    "pr": 14.5,
+    "tier": "C"
    },
    "Tryndamere": {
     "wr": 49.6,
-    "pr": 7.4
+    "pr": 7.4,
+    "tier": "B"
    },
    "Jax": {
     "wr": 50.9,
-    "pr": 5.5
+    "pr": 5.5,
+    "tier": "A"
    },
    "Morgana": {
     "wr": 55.4,
-    "pr": 11.0
+    "pr": 11.0,
+    "tier": "S"
    },
    "Zilean": {
     "wr": 52.4,
-    "pr": 4.7
+    "pr": 4.7,
+    "tier": "A"
    },
    "Singed": {
     "wr": 52.0,
-    "pr": 8.0
+    "pr": 8.0,
+    "tier": "A"
    },
    "Evelynn": {
     "wr": 47.7,
-    "pr": 0.8
+    "pr": 0.8,
+    "tier": "B"
    },
    "Twitch": {
     "wr": 48.4,
-    "pr": 8.3
+    "pr": 8.3,
+    "tier": "B"
    },
    "Karthus": {
     "wr": 48.4,
-    "pr": 11.8
+    "pr": 11.8,
+    "tier": "B"
    },
    "Cho'Gath": {
     "wr": 47.1,
-    "pr": 8.2
+    "pr": 8.2,
+    "tier": "C"
    },
    "Amumu": {
     "wr": 48.8,
-    "pr": 5.6
+    "pr": 5.6,
+    "tier": "B"
    },
    "Rammus": {
     "wr": 44.9,
-    "pr": 2.1
+    "pr": 2.1,
+    "tier": "C"
    },
    "Anivia": {
     "wr": 45.2,
-    "pr": 2.7
+    "pr": 2.7,
+    "tier": "C"
    },
    "Shaco": {
     "wr": 46.6,
-    "pr": 10.9
+    "pr": 10.9,
+    "tier": "C"
    },
    "Dr. Mundo": {
     "wr": 49.4,
-    "pr": 10.5
+    "pr": 10.5,
+    "tier": "B"
    },
    "Sona": {
     "wr": 52.7,
-    "pr": 3.0
+    "pr": 3.0,
+    "tier": "A"
    },
    "Kassadin": {
     "wr": 50.3,
-    "pr": 2.9
+    "pr": 2.9,
+    "tier": "B"
    },
    "Irelia": {
     "wr": 46.5,
-    "pr": 1.8
+    "pr": 1.8,
+    "tier": "C"
    },
    "Janna": {
     "wr": 52.8,
-    "pr": 2.3
+    "pr": 2.3,
+    "tier": "A"
    },
    "Gangplank": {
     "wr": 50.4,
-    "pr": 8.5
+    "pr": 8.5,
+    "tier": "B"
    },
    "Corki": {
     "wr": 51.2,
-    "pr": 6.6
+    "pr": 6.6,
+    "tier": "A"
    },
    "Karma": {
     "wr": 47.9,
-    "pr": 3.9
+    "pr": 3.9,
+    "tier": "B"
    },
    "Taric": {
     "wr": 49.6,
-    "pr": 1.2
+    "pr": 1.2,
+    "tier": "B"
    },
    "Veigar": {
     "wr": 50.3,
-    "pr": 7.4
+    "pr": 7.4,
+    "tier": "B"
    },
    "Trundle": {
     "wr": 50.6,
-    "pr": 10.7
+    "pr": 10.7,
+    "tier": "A"
    },
    "Swain": {
     "wr": 50.2,
-    "pr": 10.3
+    "pr": 10.3,
+    "tier": "B"
    },
    "Caitlyn": {
     "wr": 52.9,
-    "pr": 12.9
+    "pr": 12.9,
+    "tier": "A"
    },
    "Blitzcrank": {
     "wr": 45.6,
-    "pr": 8.1
+    "pr": 8.1,
+    "tier": "C"
    },
    "Malphite": {
     "wr": 47.0,
-    "pr": 10.0
+    "pr": 10.0,
+    "tier": "C"
    },
    "Katarina": {
     "wr": 48.8,
-    "pr": 8.1
+    "pr": 8.1,
+    "tier": "B"
    },
    "Nocturne": {
     "wr": 48.5,
-    "pr": 3.2
+    "pr": 3.2,
+    "tier": "B"
    },
    "Maokai": {
     "wr": 49.5,
-    "pr": 8.2
+    "pr": 8.2,
+    "tier": "B"
    },
    "Renekton": {
     "wr": 44.7,
-    "pr": 2.2
+    "pr": 2.2,
+    "tier": "C"
    },
    "Jarvan IV": {
     "wr": 46.6,
-    "pr": 9.3
+    "pr": 9.3,
+    "tier": "C"
    },
    "Elise": {
     "wr": 47.2,
-    "pr": 0.9
+    "pr": 0.9,
+    "tier": "C"
    },
    "Orianna": {
     "wr": 47.4,
-    "pr": 3.2
+    "pr": 3.2,
+    "tier": "B"
    },
    "Wukong": {
     "wr": 48.6,
-    "pr": 4.8
+    "pr": 4.8,
+    "tier": "B"
    },
    "Brand": {
     "wr": 51.8,
-    "pr": 13.4
+    "pr": 13.4,
+    "tier": "A"
    },
    "Lee Sin": {
     "wr": 44.0,
-    "pr": 6.6
+    "pr": 6.6,
+    "tier": "D"
    },
    "Vayne": {
     "wr": 51.9,
-    "pr": 11.3
+    "pr": 11.3,
+    "tier": "A"
    },
    "Rumble": {
     "wr": 50.0,
-    "pr": 5.8
+    "pr": 5.8,
+    "tier": "B"
    },
    "Cassiopeia": {
     "wr": 46.0,
-    "pr": 2.2
+    "pr": 2.2,
+    "tier": "C"
    },
    "Skarner": {
     "wr": 48.1,
-    "pr": 2.0
+    "pr": 2.0,
+    "tier": "B"
    },
    "Heimerdinger": {
     "wr": 50.7,
-    "pr": 3.6
+    "pr": 3.6,
+    "tier": "A"
    },
    "Nasus": {
     "wr": 48.9,
-    "pr": 6.2
+    "pr": 6.2,
+    "tier": "B"
    },
    "Nidalee": {
     "wr": 46.7,
-    "pr": 6.7
+    "pr": 6.7,
+    "tier": "C"
    },
    "Udyr": {
     "wr": 48.5,
-    "pr": 6.8
+    "pr": 6.8,
+    "tier": "B"
    },
    "Poppy": {
     "wr": 50.3,
-    "pr": 3.6
+    "pr": 3.6,
+    "tier": "B"
    },
    "Gragas": {
     "wr": 48.3,
-    "pr": 5.5
+    "pr": 5.5,
+    "tier": "B"
    },
    "Pantheon": {
     "wr": 49.3,
-    "pr": 5.7
+    "pr": 5.7,
+    "tier": "B"
    },
    "Ezreal": {
     "wr": 46.7,
-    "pr": 11.3
+    "pr": 11.3,
+    "tier": "C"
    },
    "Mordekaiser": {
     "wr": 46.7,
-    "pr": 7.9
+    "pr": 7.9,
+    "tier": "C"
    },
    "Yorick": {
     "wr": 45.2,
-    "pr": 0.9
+    "pr": 0.9,
+    "tier": "C"
    },
    "Akali": {
     "wr": 42.9,
-    "pr": 2.5
+    "pr": 2.5,
+    "tier": "D"
    },
    "Kennen": {
     "wr": 44.8,
-    "pr": 2.2
+    "pr": 2.2,
+    "tier": "C"
    },
    "Garen": {
     "wr": 45.9,
-    "pr": 7.5
+    "pr": 7.5,
+    "tier": "C"
    },
    "Leona": {
     "wr": 48.7,
-    "pr": 5.4
+    "pr": 5.4,
+    "tier": "B"
    },
    "Malzahar": {
     "wr": 51.7,
-    "pr": 6.9
+    "pr": 6.9,
+    "tier": "A"
    },
    "Talon": {
     "wr": 49.6,
-    "pr": 4.7
+    "pr": 4.7,
+    "tier": "B"
    },
    "Riven": {
     "wr": 46.6,
-    "pr": 2.7
+    "pr": 2.7,
+    "tier": "C"
    },
    "Kog'Maw": {
     "wr": 49.2,
-    "pr": 4.7
+    "pr": 4.7,
+    "tier": "B"
    },
    "Shen": {
     "wr": 51.3,
-    "pr": 4.7
+    "pr": 4.7,
+    "tier": "A"
    },
    "Lux": {
     "wr": 48.3,
-    "pr": 5.8
+    "pr": 5.8,
+    "tier": "B"
    },
    "Xerath": {
     "wr": 48.5,
-    "pr": 6.6
+    "pr": 6.6,
+    "tier": "B"
    },
    "Shyvana": {
     "wr": 51.9,
-    "pr": 3.8
+    "pr": 3.8,
+    "tier": "A"
    },
    "Ahri": {
     "wr": 52.3,
-    "pr": 5.2
+    "pr": 5.2,
+    "tier": "A"
    },
    "Graves": {
     "wr": 51.9,
-    "pr": 11.5
+    "pr": 11.5,
+    "tier": "A"
    },
    "Fizz": {
     "wr": 49.2,
-    "pr": 8.0
+    "pr": 8.0,
+    "tier": "B"
    },
    "Volibear": {
     "wr": 49.9,
-    "pr": 4.1
+    "pr": 4.1,
+    "tier": "B"
    },
    "Rengar": {
     "wr": 48.2,
-    "pr": 6.1
+    "pr": 6.1,
+    "tier": "B"
    },
    "Varus": {
     "wr": 46.7,
-    "pr": 8.0
+    "pr": 8.0,
+    "tier": "C"
    },
    "Nautilus": {
     "wr": 48.4,
-    "pr": 6.2
+    "pr": 6.2,
+    "tier": "B"
    },
    "Viktor": {
     "wr": 54.1,
-    "pr": 5.1
+    "pr": 5.1,
+    "tier": "S"
    },
    "Sejuani": {
     "wr": 48.2,
-    "pr": 4.1
+    "pr": 4.1,
+    "tier": "B"
    },
    "Fiora": {
     "wr": 54.6,
-    "pr": 5.1
+    "pr": 5.1,
+    "tier": "S"
    },
    "Ziggs": {
     "wr": 48.5,
-    "pr": 5.1
+    "pr": 5.1,
+    "tier": "B"
    },
    "Lulu": {
     "wr": 49.0,
-    "pr": 1.5
+    "pr": 1.5,
+    "tier": "B"
    },
    "Draven": {
     "wr": 49.5,
-    "pr": 5.7
+    "pr": 5.7,
+    "tier": "B"
    },
    "Hecarim": {
     "wr": 56.1,
-    "pr": 11.8
+    "pr": 11.8,
+    "tier": "S"
    },
    "Kha'Zix": {
     "wr": 47.2,
-    "pr": 6.4
+    "pr": 6.4,
+    "tier": "C"
    },
    "Darius": {
     "wr": 47.7,
-    "pr": 7.4
+    "pr": 7.4,
+    "tier": "B"
    },
    "Jayce": {
     "wr": 46.1,
-    "pr": 8.7
+    "pr": 8.7,
+    "tier": "C"
    },
    "Lissandra": {
     "wr": 45.1,
-    "pr": 3.0
+    "pr": 3.0,
+    "tier": "C"
    },
    "Diana": {
     "wr": 47.3,
-    "pr": 3.6
+    "pr": 3.6,
+    "tier": "C"
    },
    "Quinn": {
     "wr": 47.6,
-    "pr": 2.3
+    "pr": 2.3,
+    "tier": "B"
    },
    "Syndra": {
     "wr": 50.9,
-    "pr": 5.6
+    "pr": 5.6,
+    "tier": "A"
    },
    "Aurelion Sol": {
     "wr": 54.7,
-    "pr": 12.1
+    "pr": 12.1,
+    "tier": "S"
    },
    "Kayn": {
     "wr": 54.2,
-    "pr": 8.2
+    "pr": 8.2,
+    "tier": "S"
    },
    "Zoe": {
     "wr": 47.2,
-    "pr": 2.3
+    "pr": 2.3,
+    "tier": "C"
    },
    "Zyra": {
     "wr": 50.5,
-    "pr": 4.6
+    "pr": 4.6,
+    "tier": "B"
    },
    "Kai'Sa": {
     "wr": 45.9,
-    "pr": 11.7
+    "pr": 11.7,
+    "tier": "C"
    },
    "Seraphine": {
     "wr": 53.5,
-    "pr": 7.0
+    "pr": 7.0,
+    "tier": "A"
    },
    "Gnar": {
     "wr": 47.0,
-    "pr": 3.1
+    "pr": 3.1,
+    "tier": "C"
    },
    "Zac": {
     "wr": 45.3,
-    "pr": 2.2
+    "pr": 2.2,
+    "tier": "C"
    },
    "Yasuo": {
     "wr": 57.9,
-    "pr": 11.0
+    "pr": 11.0,
+    "tier": "S"
    },
    "Vel'Koz": {
     "wr": 50.6,
-    "pr": 6.3
+    "pr": 6.3,
+    "tier": "A"
    },
    "Taliyah": {
     "wr": 48.3,
-    "pr": 2.1
+    "pr": 2.1,
+    "tier": "B"
    },
    "Camille": {
     "wr": 46.1,
-    "pr": 1.5
+    "pr": 1.5,
+    "tier": "C"
    },
    "Akshan": {
     "wr": 46.5,
-    "pr": 2.9
+    "pr": 2.9,
+    "tier": "C"
    },
    "Bel'Veth": {
     "wr": 57.0,
-    "pr": 4.2
+    "pr": 4.2,
+    "tier": "S"
    },
    "Braum": {
     "wr": 45.7,
-    "pr": 1.7
+    "pr": 1.7,
+    "tier": "C"
    },
    "Jhin": {
     "wr": 48.6,
-    "pr": 11.2
+    "pr": 11.2,
+    "tier": "B"
    },
    "Kindred": {
     "wr": 47.4,
-    "pr": 3.5
+    "pr": 3.5,
+    "tier": "B"
    },
    "Zeri": {
     "wr": 48.1,
-    "pr": 2.2
+    "pr": 2.2,
+    "tier": "B"
    },
    "Jinx": {
     "wr": 51.4,
-    "pr": 9.2
+    "pr": 9.2,
+    "tier": "A"
    },
    "Tahm Kench": {
     "wr": 53.2,
-    "pr": 13.0
+    "pr": 13.0,
+    "tier": "A"
    },
    "Briar": {
     "wr": 52.7,
-    "pr": 3.1
+    "pr": 3.1,
+    "tier": "A"
    },
    "Viego": {
     "wr": 51.2,
-    "pr": 4.7
+    "pr": 4.7,
+    "tier": "A"
    },
    "Senna": {
     "wr": 47.8,
-    "pr": 9.0
+    "pr": 9.0,
+    "tier": "B"
    },
    "Lucian": {
     "wr": 50.4,
-    "pr": 12.9
+    "pr": 12.9,
+    "tier": "B"
    },
    "Zed": {
     "wr": 49.5,
-    "pr": 8.3
+    "pr": 8.3,
+    "tier": "B"
    },
    "Kled": {
     "wr": 48.6,
-    "pr": 0.8
+    "pr": 0.8,
+    "tier": "B"
    },
    "Ekko": {
     "wr": 53.7,
-    "pr": 7.3
+    "pr": 7.3,
+    "tier": "S"
    },
    "Qiyana": {
     "wr": 46.2,
-    "pr": 3.2
+    "pr": 3.2,
+    "tier": "C"
    },
    "Vi": {
     "wr": 45.5,
-    "pr": 2.8
+    "pr": 2.8,
+    "tier": "C"
    },
    "Aatrox": {
     "wr": 45.7,
-    "pr": 6.0
+    "pr": 6.0,
+    "tier": "C"
    },
    "Nami": {
     "wr": 49.8,
-    "pr": 1.8
+    "pr": 1.8,
+    "tier": "B"
    },
    "Azir": {
     "wr": 47.9,
-    "pr": 2.3
+    "pr": 2.3,
+    "tier": "B"
    },
    "Yuumi": {
     "wr": 51.4,
-    "pr": 2.8
+    "pr": 2.8,
+    "tier": "A"
    },
    "Samira": {
     "wr": 47.5,
-    "pr": 5.9
+    "pr": 5.9,
+    "tier": "B"
    },
    "Thresh": {
     "wr": 50.0,
-    "pr": 6.0
+    "pr": 6.0,
+    "tier": "B"
    },
    "Illaoi": {
     "wr": 47.9,
-    "pr": 4.5
+    "pr": 4.5,
+    "tier": "B"
    },
    "Rek'Sai": {
     "wr": 50.0,
-    "pr": 0.7
+    "pr": 0.7,
+    "tier": "B"
    },
    "Ivern": {
     "wr": 50.3,
-    "pr": 0.8
+    "pr": 0.8,
+    "tier": "B"
    },
    "Kalista": {
     "wr": 50.0,
-    "pr": 2.4
+    "pr": 2.4,
+    "tier": "B"
    },
    "Bard": {
     "wr": 46.4,
-    "pr": 0.8
+    "pr": 0.8,
+    "tier": "C"
    },
    "Rakan": {
     "wr": 46.2,
-    "pr": 1.1
+    "pr": 1.1,
+    "tier": "C"
    },
    "Xayah": {
     "wr": 49.2,
-    "pr": 4.6
+    "pr": 4.6,
+    "tier": "B"
    },
    "Ornn": {
     "wr": 48.4,
-    "pr": 5.5
+    "pr": 5.5,
+    "tier": "B"
    },
    "Sylas": {
     "wr": 48.4,
-    "pr": 8.1
+    "pr": 8.1,
+    "tier": "B"
    },
    "Neeko": {
     "wr": 45.5,
-    "pr": 2.5
+    "pr": 2.5,
+    "tier": "C"
    },
    "Aphelios": {
     "wr": 51.5,
-    "pr": 4.4
+    "pr": 4.4,
+    "tier": "A"
    },
    "Rell": {
     "wr": 52.0,
-    "pr": 5.4
+    "pr": 5.4,
+    "tier": "A"
    },
    "Pyke": {
     "wr": 46.3,
-    "pr": 5.1
+    "pr": 5.1,
+    "tier": "C"
    },
    "Vex": {
     "wr": 49.4,
-    "pr": 1.9
+    "pr": 1.9,
+    "tier": "B"
    },
    "Yone": {
     "wr": 56.4,
-    "pr": 8.6
+    "pr": 8.6,
+    "tier": "S"
    },
    "Ambessa": {
     "wr": 52.9,
-    "pr": 3.9
+    "pr": 3.9,
+    "tier": "A"
    },
    "Mel": {
     "wr": 46.9,
-    "pr": 8.2
+    "pr": 8.2,
+    "tier": "C"
    },
    "Yunara": {
     "wr": 52.8,
-    "pr": 6.8
+    "pr": 6.8,
+    "tier": "A"
    },
    "Locke": {
     "wr": 43.6,
-    "pr": 2.8
+    "pr": 2.8,
+    "tier": "D"
    },
    "Sett": {
     "wr": 51.8,
-    "pr": 11.3
+    "pr": 11.3,
+    "tier": "A"
    },
    "Lillia": {
     "wr": 56.8,
-    "pr": 9.8
+    "pr": 9.8,
+    "tier": "S"
    },
    "Gwen": {
     "wr": 56.5,
-    "pr": 3.8
+    "pr": 3.8,
+    "tier": "S"
    },
    "Renata Glasc": {
     "wr": 50.8,
-    "pr": 1.7
+    "pr": 1.7,
+    "tier": "A"
    },
    "Aurora": {
     "wr": 51.6,
-    "pr": 6.5
+    "pr": 6.5,
+    "tier": "A"
    },
    "Nilah": {
     "wr": 50.3,
-    "pr": 0.9
+    "pr": 0.9,
+    "tier": "B"
    },
    "K'Sante": {
     "wr": 41.8,
-    "pr": 1.8
+    "pr": 1.8,
+    "tier": "D"
    },
    "Smolder": {
     "wr": 50.8,
-    "pr": 12.5
+    "pr": 12.5,
+    "tier": "A"
    },
    "Milio": {
     "wr": 51.0,
-    "pr": 1.9
+    "pr": 1.9,
+    "tier": "A"
    },
    "Zaahen": {
     "wr": 52.7,
-    "pr": 2.5
+    "pr": 2.5,
+    "tier": "A"
    },
    "Hwei": {
     "wr": 54.7,
-    "pr": 5.1
+    "pr": 5.1,
+    "tier": "S"
    },
    "Naafiri": {
     "wr": 44.0,
-    "pr": 2.9
+    "pr": 2.9,
+    "tier": "D"
    }
   }
  }

@@ -348,6 +348,28 @@ def resolve_build(build, roster, champion_tags, rule_set, item_stats=None,
             "full": build_full(slot_items(roster.get("own_items"), stats), stats)}
 
 
+def remaining_gold(targets, own_items, recipes):
+    """Aurul care mai trebuie ca sa ai toti itemii din `targets`, cu ce ai deja.
+
+    Un item cumparat nu se plateste iar, iar o componenta din inventar scade din pret
+    (reteta din item-recipes.json, recursiv). O componenta se foloseste o singura data.
+    """
+    pool = {}
+    for n in own_items or ():
+        pool[n] = pool.get(n, 0) + 1
+
+    def cost(name):
+        if pool.get(name):
+            pool[name] -= 1
+            return 0
+        r = recipes.get(name) or {}
+        parts = r.get("from") or []
+        combine = max(0, (r.get("gold") or 0) - sum((recipes.get(c) or {}).get("gold") or 0 for c in parts))
+        return combine + sum(cost(c) for c in parts)
+
+    return sum(cost(t) for t in targets)
+
+
 def starting_left(starting, own_items, item_stats=None):
     """Itemii de start inca necumparati; nimic dupa ce ai luat altceva.
 

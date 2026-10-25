@@ -103,7 +103,7 @@ Versiunea e una singura, in `ui/package.json`: ridic-o INAINTE de build, egala c
 
 ## Ce NU face
 
-- Nu citeste alegerea ta de augment, doar oferta. Riot nu expune asta pe niciun API local.
+- Nu citeste alegerea de augment din niciun API (Riot nu o expune): o deduce din cardul pe care dai click, din spell-urile primite de la augment si din itemele de quest, iar cand nu e sigura te intreaba cu un click.
 - Nu garanteaza recunoasterea OCR pe orice rezolutie sau limba a clientului. Testat pe engleza, 4K si 1440p.
 - Nu are date de tier pentru toate augmentele. Cateva zeci nu sunt clasate de nicio sursa publica gasita; pentru alea arata descrierea, nu un rank inventat.
 

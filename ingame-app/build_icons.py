@@ -44,8 +44,10 @@ def slug(name):
 
 
 def fetch(url):
+    # wiki-ul oficial da 403 la "Mozilla/5.0" si accepta un user-agent care se prezinta
+    headers = {"User-Agent": "aram-mayhem-helper icon fetch (contact@joltarise.com)"} if "wiki." in url else HEADERS
     with urllib.request.urlopen(
-            urllib.request.Request(url, headers=HEADERS), timeout=60) as r:
+            urllib.request.Request(url, headers=headers), timeout=60) as r:
         return r.read()
 
 
@@ -110,7 +112,34 @@ def item_sources(version):
         if name and img:
             # Data Dragon are intrari duplicate per harta; imaginea e aceeasi
             by_name.setdefault(name, f"{DDRAGON}/cdn/{version}/img/item/{img}")
-    return {n: u for n, u in by_name.items() if n in wanted}
+    out = {n: u for n, u in by_name.items() if n in wanted}
+    # Stat Anvil ("Stat Bonus" in datele de Mayhem) nu e in Data Dragon: iconita vine de la CommunityDragon
+    for row in fetch_json(f"{CDRAGON}/v1/items.json"):
+        if row.get("name") == "Stat Bonus" and row.get("iconPath"):
+            out["Stat Bonus"] = CDRAGON + row["iconPath"].replace("/lol-game-data/assets", "").lower()
+            break
+    return out
+
+
+WIKI = "https://wiki.leagueoflegends.com/en-us/images/thumb"
+WIKI_HEADLINERS = {
+    "Disco": f"{WIKI}/Space_Groove_Logo.png/125px-Space_Groove_Logo.png",
+    "Cafe Cuties": f"{WIKI}/Cafe_Cuties_Logo.png/85px-Cafe_Cuties_Logo.png",
+    "Bees": f"{WIKI}/Bee_Happy_Emote.png/85px-Bee_Happy_Emote.png",
+    "Command Line": f"{WIKI}/Command_Line_PROJECT_Logo.png/85px-Command_Line_PROJECT_Logo.png",
+}
+
+
+def headliner_sources():
+    """Logo-urile trupelor: din hub-ul Mayhem cand exista, altfel de pe wiki-ul oficial
+    (Disco = "Space Groove", Bees = "The Bee Band" acolo)."""
+    out = dict(WIKI_HEADLINERS)
+    for hub in fetch_json(f"{CDRAGON}/v1/kiwi-hub.json"):
+        for group in (hub.get("modesObjectiveGroupList") or {}).get("ModesObjectiveGroups") or []:
+            data = group.get("displayData") or {}
+            if data.get("name") and data.get("logoImagePath") and data["name"] != "Worlds":
+                out[data["name"]] = (CDRAGON + data["logoImagePath"].replace("/lol-game-data/assets", "").lower())
+    return out
 
 
 def champion_sources(version):
@@ -157,6 +186,7 @@ def main():
     save_all("champions", champion_sources(version))
     save_all("summoners", summoner_sources(version))
     save_all("augments", augment_sources())
+    save_all("headliners", headliner_sources())
 
 
 if __name__ == "__main__":

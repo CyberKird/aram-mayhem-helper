@@ -7,6 +7,7 @@ nu doar echipa proprie -- exact ce ne trebuie pentru build adaptat la comp.
 
 import json
 import pathlib
+import re
 
 import requests
 import urllib3
@@ -81,7 +82,7 @@ def get_roster():
             local_name = active_full.get("summonerName") or local_name
 
     allies, enemies, local_champ = [], [], None
-    enemy_items, ally_items, own_items = [], [], []
+    enemy_items, ally_items, own_items, spell_augments = [], [], [], []
     for p in players:
         champ = p.get("championName")
         if not champ:
@@ -98,6 +99,10 @@ def get_roster():
             allies.append(champ)
             if is_local:
                 own_items.extend(names)     # ce ai deja cumparat
+                # augmentele care dau un summoner spell (Clown College, Brass Blast...) se vad in numele lui
+                spell_augments = [m.group(1) for sp in (p.get("summonerSpells") or {}).values()
+                                  for m in [re.search(r"Augment_ARAM_([A-Za-z0-9]+?)_",
+                                                      str(sp.get("rawDisplayName") or ""))] if m]
             else:
                 # itemii coechipierilor conteaza pentru golurile de echipa:
                 # daca nimeni n-a luat anti-heal, trebuie sa-l iei tu
@@ -111,8 +116,8 @@ def get_roster():
     if local_team is None:
         # nu am putut determina echipa: mai bine gol decat gresit
         return {"allies": [], "enemies": [], "enemy_items": [], "ally_items": [],
-                "own_items": own_items, "local_champion": local_champ}
+                "own_items": own_items, "spell_augments": spell_augments, "local_champion": local_champ}
 
     return {"allies": allies, "enemies": enemies, "enemy_items": enemy_items,
-            "ally_items": ally_items, "own_items": own_items,
+            "ally_items": ally_items, "own_items": own_items, "spell_augments": spell_augments,
             "local_champion": local_champ}

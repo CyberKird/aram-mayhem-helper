@@ -67,4 +67,24 @@ def change(name, current, previous):
     return TIER_ORDER.index(before) - TIER_ORDER.index(now)
 
 
+def aramkit_tiers():
+    """(tier-uri acum, tier-uri anterioare) din ARAMKit: aceeasi sursa si acelasi patch cu
+    win rate-ul afisat. Tier list-ul u.gg ramane in urma (nu il reface botul zilnic) si ajunge
+    sa dea alt tier decat cifrele de langa el (Sejuani 48.1% B, Xayah 48.1% A)."""
+    stats = pathlib.Path(__file__).with_name("stats_data.json")
+    try:
+        raw = json.loads(newest(stats, "revision").read_text(encoding="utf-8"))
+    except (OSError, ValueError):
+        return {}, {}
+
+    def pick(champions):
+        return {n: c["tier"] for n, c in (champions or {}).items() if c.get("tier") in TIER_ORDER}
+    return pick(raw.get("champions")), pick((raw.get("previous") or {}).get("champions"))
+
+
 PATCH, TIER_DATA, PREVIOUS_PATCH, PREVIOUS_TIERS = load(newest(BUNDLED, "patch"))
+_NOW, _BEFORE = aramkit_tiers()
+if _NOW:
+    # u.gg doar completeaza ce ARAMKit nu are; sagetile de tier se compara tot ARAMKit cu ARAMKit
+    TIER_DATA = {**TIER_DATA, **_NOW}
+    PREVIOUS_TIERS = _BEFORE

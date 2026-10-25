@@ -111,6 +111,11 @@ class Tracker:
         self.had = now
         return self.until
 
+    def mark(self, game_time):
+        """Marcat de tine sau dedus din aur: elixirul a fost baut acum."""
+        if isinstance(game_time, (int, float)):
+            self.until = game_time + DURATION
+
     def reset(self):
         self.had, self.until = None, 0.0
 

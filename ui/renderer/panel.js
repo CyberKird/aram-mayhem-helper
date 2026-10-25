@@ -3,7 +3,7 @@
 // si latimea le decide procesul principal (layout); aici alegem doar zoom-ul
 // la care incape continutul in golul dintre HUD si minimap.
 
-const ZOOM_MIN = 0.55
+const ZOOM_MIN = 0.85     // sub asta textul nu se mai citeste: ce nu incape se deruleaza
 const $ = id => document.getElementById(id)
 const panel = $('panel'), body = $('body')
 
@@ -78,17 +78,17 @@ function tierRow(e, kind) {
     label && h('span.tag', { text: label }))
 }
 
-function strip(items, label) {
+function strip(items, label, extra = []) {
   return h('div.strip', {}, label && h('span.k', { text: label }), items.map(e => {
     const cls = (e.owned ? '.owned' : '') + (e.next ? '.next' : '') + (e.reason ? '.hot' : '')
     return tip(icon(e.icon, e.item, cls), e.item, tipText(e))
-  }))
+  }), extra)
 }
 
 const tipText = e => [e.reason && e.reason[0].toUpperCase() + e.reason.slice(1), e.desc].filter(Boolean).join('\n\n')
 
 // itemul de cumparat ACUM, mare si incadrat; restul ordinii ca sloturi mici
-function nextItems(items) {
+function nextItems(items, extra = []) {
   const [head, ...rest] = items
   return [
     h('div.hero', {},
@@ -97,7 +97,7 @@ function nextItems(items) {
         h('div.k', { text: 'CUMPARA ACUM' }),
         h('div.nm', { text: head.item }),
         head.reason && h('div.why', { text: head.reason }))),
-    rest.length && strip(rest, 'APOI'),
+    (rest.length || extra.length) && strip(rest, rest.length ? 'APOI' : 'IA ACUM', extra),
   ]
 }
 
@@ -121,30 +121,59 @@ function anvilRow(s) {
     s.is_best && h('span.tag', { text: 'BEST' }))
 }
 
-// potiunea de 500g: care Elixir si cand. Mare si incadrat doar cand e momentul (ia-l / bea-l)
-const ELIXIR_K = { buy: 'CUMPARA ACUM', use: 'BEA-L', active: 'ACTIV', gold: 'AUR', wait: 'MAI TARZIU', locked: 'BLOCAT' }
-function elixirRow(e) {
-  const go = e.state === 'buy' || e.state === 'use'
-  const scores = Object.entries(e.scores).map(([n, v]) => `${n.replace('Elixir of ', '')}: ${v}`).join('\n')
-  return h('div.' + (go ? 'hero' : 'row'), {},
-    tip(icon(e.icon, e.pick), e.pick, scores),
-    h('div.txt', {},
-      h('div.k', { text: `ELIXIR 500g  ·  ${ELIXIR_K[e.state] || ''}` }),
-      h('div.nm', { text: e.pick }),
-      e.why && h('div.why', { text: e.why }),
-      h('div.desc', { text: e.when })))
+// oferta de augmente disparuta fara alegere cunoscuta: un click pe cel pe care l-ai luat
+function pendingRows(list) {
+  const skip = h('button.chip', { text: 'NICIUNUL / NU STIU' })
+  skip.addEventListener('click', () => api.send('cmd', { cmd: 'skip' }))
+  return [
+    sec('CE AUGMENT AI ALES?'),
+    list.map(a => {
+      const el = tierRow(a, 'aug')
+      el.classList.add('pick')
+      el.addEventListener('click', () => api.send('cmd', { cmd: 'took', name: a.name }))
+      return el
+    }),
+    h('div.chips', {}, skip),
+  ]
 }
 
-// regula meciului (Headliner): jocul nu o expune, o alegi tu cu un click; apasat din nou o scoate
+// Stat Anvil si Elixir: doar cand e momentul sa le iei, ca iconita cu glow langa iteme
+function buyIcons(d) {
+  const out = []
+  const a = d.anvil_buy
+  if (a && (a.state === 'buy' || a.state === 'use')) {
+    out.push(tip(icon(a.icon, 'Stat Anvil', '.glow'), `Stat Anvil 750g  ·  ${a.state === 'use' ? 'deschide-l' : 'ia-l acum'}`, a.when))
+  }
+  const e = d.elixir
+  if (e && (e.state === 'buy' || e.state === 'use')) {
+    const scores = Object.entries(e.scores).map(([n, v]) => `${n.replace('Elixir of ', '')}: ${v}`).join('\n')
+    const el = tip(icon(e.icon, e.pick, '.glow.pickable'), `${e.pick} 500g`,
+      `${e.when}\n${e.why || ''}\n\n${scores}\n\nClick: l-am baut`)
+    // aplicatia nu vede mereu cand il bei (poate fi intre doua citiri): click = l-am baut
+    el.addEventListener('click', () => api.send('cmd', { cmd: 'elixir' }))
+    out.push(el)
+  }
+  return out
+}
+
+// regula meciului (Headliner): jocul nu o expune. Pana o alegi: doar numele, efectul la hover.
+// Dupa alegere: un singur rand cu numele (hover = efectul) si EDIT, care redeschide alegerea.
 function headlinerRow(hl) {
+  const send = name => api.send('cmd', { cmd: 'headliner', name })
+  const info = (el, n) => tip(el, n, `${hl.info[n].effect}\n\n${hl.info[n].tip}`)
+  if (hl.picked) {
+    const edit = h('button.chip', { text: 'EDIT' })
+    edit.addEventListener('click', () => send(hl.picked))
+    const cur = hl.options.find(o => o.name === hl.picked)
+    return h('div.state.iconic', {}, info(icon(cur.icon, cur.name), hl.picked), h('span.grow', {}), edit)
+  }
   return [
-    sec('HEADLINER'),
-    h('div.chips', {}, hl.options.map(n => {
-      const b = h('button.chip' + (n === hl.picked ? '.on' : ''), { text: n })
-      b.addEventListener('click', () => api.send('cmd', { cmd: 'headliner', name: n }))
+    sec('ALEGE HEADLINER'),
+    h('div.chips', {}, hl.options.map(o => {
+      const b = info(icon(o.icon, o.name, '.pickable'), o.name)
+      b.addEventListener('click', () => send(o.name))
       return b
     })),
-    hl.picked && [h('div.desc', { text: hl.effect }), h('div.why', { text: hl.tip })],
   ]
 }
 
@@ -207,21 +236,24 @@ function topAugments(d) {
 function inGame(d) {
   const out = []
   if (d.status) out.push(note(d.status))
+  if (d.pending && d.pending.length) out.push(pendingRows(d.pending))
   if (d.offer.length) out.push(sec('OFERTA'), d.offer.map(a => tierRow(a, 'aug')))
   else if (augOn) out.push(topAugments(d))
   if (d.anvil.length) out.push(sec('STAT ANVIL'), d.anvil.map(anvilRow))
   const b = d.build
+  const buy = buyIcons(d)
   if (b) {
     if (b.starting.length) out.push(sec('START'), strip(b.starting))
     // vanzarea e cel mai urgent lucru de pe ecran: sta prima
     if (b.sell) out.push(b.sell && sellRow(b.sell))
-    if (b.next.length) out.push(nextItems(b.next))
-    else if (b.complete.length) out.push(sec('BUILD COMPLET'), strip(b.complete))
+    if (b.next.length) out.push(nextItems(b.next, buy))
+    else if (b.complete.length) out.push(sec('BUILD COMPLET'), strip(b.complete, null, buy))
+    else if (buy.length) out.push(strip([], 'IA ACUM', buy))
     if (b.unavailable.length) {
       out.push(note('Indisponibil: ' + b.unavailable.join(', ') + (b.range ? ` (esti ${b.range})` : '')))
     }
   }
-  if (d.elixir) out.push(elixirRow(d.elixir))
+  if (!b && buy.length) out.push(strip([], 'IA ACUM', buy))
   if (d.headliner) out.push(headlinerRow(d.headliner))
   if (d.loading) out.push(note('se incarca...'))
   return out

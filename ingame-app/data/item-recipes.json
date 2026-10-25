@@ -1,0 +1,1333 @@
+{
+ "Abyssal Mask": {
+  "from": [
+   "Kindlegem",
+   "Negatron Cloak"
+  ],
+  "gold": 2650
+ },
+ "Actualizer": {
+  "from": [
+   "Lost Chapter",
+   "Blasting Wand"
+  ],
+  "gold": 2800
+ },
+ "Aether Wisp": {
+  "from": [
+   "Amplifying Tome"
+  ],
+  "gold": 900
+ },
+ "Amplifying Tome": {
+  "from": [],
+  "gold": 400
+ },
+ "Archangel's Staff": {
+  "from": [
+   "Tear of the Goddess",
+   "Lost Chapter",
+   "Fiendish Codex"
+  ],
+  "gold": 2900
+ },
+ "Ardent Censer": {
+  "from": [
+   "Aether Wisp",
+   "Forbidden Idol"
+  ],
+  "gold": 2200
+ },
+ "Atma's Reckoning": {
+  "from": [
+   "Giant's Belt",
+   "Cloak of Agility",
+   "Giant's Belt"
+  ],
+  "gold": 2900
+ },
+ "Axiom Arc": {
+  "from": [
+   "The Brutalizer",
+   "Caulfield's Warhammer"
+  ],
+  "gold": 2750
+ },
+ "B. F. Sword": {
+  "from": [],
+  "gold": 1300
+ },
+ "Bami's Cinder": {
+  "from": [
+   "Ruby Crystal",
+   "Glowing Mote"
+  ],
+  "gold": 900
+ },
+ "Bandleglass Mirror": {
+  "from": [
+   "Faerie Charm",
+   "Amplifying Tome",
+   "Glowing Mote"
+  ],
+  "gold": 900
+ },
+ "Bandlepipes": {
+  "from": [
+   "Kindlegem",
+   "Cloth Armor",
+   "Null-Magic Mantle"
+  ],
+  "gold": 2300
+ },
+ "Banshee's Veil": {
+  "from": [
+   "Needlessly Large Rod",
+   "Verdant Barrier"
+  ],
+  "gold": 3000
+ },
+ "Berserker's Greaves": {
+  "from": [
+   "Boots",
+   "Dagger",
+   "Dagger"
+  ],
+  "gold": 1100
+ },
+ "Black Cleaver": {
+  "from": [
+   "Phage",
+   "Kindlegem",
+   "Pickaxe"
+  ],
+  "gold": 3000
+ },
+ "Blackfire Torch": {
+  "from": [
+   "Lost Chapter",
+   "Fated Ashes"
+  ],
+  "gold": 2800
+ },
+ "Blade of The Ruined King": {
+  "from": [
+   "Vampiric Scepter",
+   "Recurve Bow",
+   "Pickaxe"
+  ],
+  "gold": 3200
+ },
+ "Blasting Wand": {
+  "from": [],
+  "gold": 850
+ },
+ "Blighting Jewel": {
+  "from": [
+   "Amplifying Tome"
+  ],
+  "gold": 1100
+ },
+ "Bloodletter's Curse": {
+  "from": [
+   "Haunting Guise",
+   "Fiendish Codex"
+  ],
+  "gold": 2900
+ },
+ "Bloodthirster": {
+  "from": [
+   "B. F. Sword",
+   "Pickaxe",
+   "Vampiric Scepter"
+  ],
+  "gold": 3400
+ },
+ "Boots": {
+  "from": [],
+  "gold": 300
+ },
+ "Boots of Swiftness": {
+  "from": [
+   "Boots"
+  ],
+  "gold": 1000
+ },
+ "Bramble Vest": {
+  "from": [
+   "Cloth Armor",
+   "Cloth Armor"
+  ],
+  "gold": 800
+ },
+ "Cappa Juice": {
+  "from": [],
+  "gold": 300
+ },
+ "Catalyst of Aeons": {
+  "from": [
+   "Ruby Crystal",
+   "Ruby Crystal",
+   "Sapphire Crystal"
+  ],
+  "gold": 1300
+ },
+ "Caulfield's Warhammer": {
+  "from": [
+   "Long Sword",
+   "Glowing Mote",
+   "Long Sword"
+  ],
+  "gold": 1050
+ },
+ "Chain Vest": {
+  "from": [
+   "Cloth Armor"
+  ],
+  "gold": 800
+ },
+ "Chempunk Chainsword": {
+  "from": [
+   "Executioner's Calling",
+   "Giant's Belt",
+   "Caulfield's Warhammer"
+  ],
+  "gold": 3000
+ },
+ "Cloak of Agility": {
+  "from": [],
+  "gold": 600
+ },
+ "Cloth Armor": {
+  "from": [],
+  "gold": 300
+ },
+ "Cosmic Drive": {
+  "from": [
+   "Kindlegem",
+   "Aether Wisp",
+   "Fiendish Codex"
+  ],
+  "gold": 3000
+ },
+ "Cryptbloom": {
+  "from": [
+   "Blighting Jewel",
+   "Fiendish Codex",
+   "Fiendish Codex"
+  ],
+  "gold": 3000
+ },
+ "Crystalline Bracer": {
+  "from": [
+   "Ruby Crystal",
+   "Rejuvenation Bead"
+  ],
+  "gold": 800
+ },
+ "Dagger": {
+  "from": [],
+  "gold": 250
+ },
+ "Dawncore": {
+  "from": [
+   "Blasting Wand",
+   "Forbidden Idol",
+   "Forbidden Idol"
+  ],
+  "gold": 2500
+ },
+ "Dead Man's Plate": {
+  "from": [
+   "Winged Moonplate",
+   "Ruby Crystal",
+   "Chain Vest"
+  ],
+  "gold": 2900
+ },
+ "Death's Dance": {
+  "from": [
+   "Steel Sigil",
+   "Pickaxe",
+   "Caulfield's Warhammer"
+  ],
+  "gold": 3300
+ },
+ "Diadem of Songs": {
+  "from": [
+   "Whispering Circlet"
+  ],
+  "gold": 2250
+ },
+ "Dusk and Dawn": {
+  "from": [
+   "Sheen",
+   "Blasting Wand",
+   "Kindlegem",
+   "Dagger"
+  ],
+  "gold": 3100
+ },
+ "Echoes of Helia": {
+  "from": [
+   "Kindlegem",
+   "Bandleglass Mirror"
+  ],
+  "gold": 2200
+ },
+ "Eclipse": {
+  "from": [
+   "Caulfield's Warhammer",
+   "Pickaxe",
+   "Long Sword"
+  ],
+  "gold": 2900
+ },
+ "Edge of Night": {
+  "from": [
+   "Serrated Dirk",
+   "Tunneler"
+  ],
+  "gold": 3000
+ },
+ "Elixir of Iron": {
+  "from": [],
+  "gold": 500
+ },
+ "Elixir of Sorcery": {
+  "from": [],
+  "gold": 500
+ },
+ "Elixir of Wrath": {
+  "from": [],
+  "gold": 500
+ },
+ "Endless Hunger": {
+  "from": [
+   "Caulfield's Warhammer",
+   "Pickaxe",
+   "Long Sword"
+  ],
+  "gold": 3100
+ },
+ "Essence Reaver": {
+  "from": [
+   "Sheen",
+   "Caulfield's Warhammer",
+   "Cloak of Agility"
+  ],
+  "gold": 3050
+ },
+ "Executioner's Calling": {
+  "from": [
+   "Long Sword"
+  ],
+  "gold": 800
+ },
+ "Experimental Hexplate": {
+  "from": [
+   "Tunneler",
+   "Dagger",
+   "Phage"
+  ],
+  "gold": 3000
+ },
+ "Faerie Charm": {
+  "from": [],
+  "gold": 200
+ },
+ "Fated Ashes": {
+  "from": [
+   "Amplifying Tome"
+  ],
+  "gold": 900
+ },
+ "Fiendhunter Bolts": {
+  "from": [
+   "Zeal",
+   "Scout's Slingshot"
+  ],
+  "gold": 2650
+ },
+ "Fiendish Codex": {
+  "from": [
+   "Amplifying Tome",
+   "Glowing Mote"
+  ],
+  "gold": 850
+ },
+ "Fimbulwinter": {
+  "from": [
+   "Winter's Approach"
+  ],
+  "gold": 2400
+ },
+ "Forbidden Idol": {
+  "from": [
+   "Faerie Charm"
+  ],
+  "gold": 600
+ },
+ "Force of Nature": {
+  "from": [
+   "Negatron Cloak",
+   "Ruby Crystal",
+   "Winged Moonplate"
+  ],
+  "gold": 2800
+ },
+ "Frozen Heart": {
+  "from": [
+   "Warden's Mail",
+   "Glacial Buckler"
+  ],
+  "gold": 2500
+ },
+ "Giant's Belt": {
+  "from": [
+   "Ruby Crystal"
+  ],
+  "gold": 900
+ },
+ "Glacial Buckler": {
+  "from": [
+   "Cloth Armor",
+   "Sapphire Crystal",
+   "Glowing Mote"
+  ],
+  "gold": 900
+ },
+ "Glowing Mote": {
+  "from": [],
+  "gold": 250
+ },
+ "Gluttonous Greaves": {
+  "from": [
+   "Boots"
+  ],
+  "gold": 1100
+ },
+ "Golden Spatula": {
+  "from": [],
+  "gold": 2500
+ },
+ "Guardian's Blade": {
+  "from": [],
+  "gold": 950
+ },
+ "Guardian's Hammer": {
+  "from": [],
+  "gold": 950
+ },
+ "Guardian's Horn": {
+  "from": [],
+  "gold": 950
+ },
+ "Guardian's Orb": {
+  "from": [],
+  "gold": 950
+ },
+ "Guinsoo's Rageblade": {
+  "from": [
+   "Amplifying Tome",
+   "Recurve Bow",
+   "Pickaxe"
+  ],
+  "gold": 3000
+ },
+ "Haunting Guise": {
+  "from": [
+   "Amplifying Tome",
+   "Ruby Crystal"
+  ],
+  "gold": 1300
+ },
+ "Health Potion": {
+  "from": [],
+  "gold": 50
+ },
+ "Hearthbound Axe": {
+  "from": [
+   "Long Sword",
+   "Dagger",
+   "Long Sword"
+  ],
+  "gold": 1200
+ },
+ "Heartsteel": {
+  "from": [
+   "Giant's Belt",
+   "Crystalline Bracer",
+   "Giant's Belt"
+  ],
+  "gold": 3000
+ },
+ "Hexdrinker": {
+  "from": [
+   "Long Sword",
+   "Null-Magic Mantle",
+   "Long Sword"
+  ],
+  "gold": 1300
+ },
+ "Hexoptics C44": {
+  "from": [
+   "Pickaxe",
+   "Noonquiver",
+   "Long Sword"
+  ],
+  "gold": 2800
+ },
+ "Hextech Alternator": {
+  "from": [
+   "Amplifying Tome",
+   "Amplifying Tome"
+  ],
+  "gold": 1100
+ },
+ "Hextech Gunblade": {
+  "from": [
+   "Vampiric Scepter",
+   "Hextech Alternator",
+   "Amplifying Tome"
+  ],
+  "gold": 3000
+ },
+ "Hextech Rocketbelt": {
+  "from": [
+   "Hextech Alternator",
+   "Kindlegem",
+   "Ruby Crystal"
+  ],
+  "gold": 2650
+ },
+ "Hollow Radiance": {
+  "from": [
+   "Bami's Cinder",
+   "Spectre's Cowl"
+  ],
+  "gold": 2800
+ },
+ "Horizon Focus": {
+  "from": [
+   "Fiendish Codex",
+   "Fiendish Codex",
+   "Amplifying Tome"
+  ],
+  "gold": 2700
+ },
+ "Hubris": {
+  "from": [
+   "Serrated Dirk",
+   "Caulfield's Warhammer"
+  ],
+  "gold": 2950
+ },
+ "Hullbreaker": {
+  "from": [
+   "Tunneler",
+   "Winged Moonplate",
+   "Pickaxe"
+  ],
+  "gold": 3000
+ },
+ "Iceborn Gauntlet": {
+  "from": [
+   "Sheen",
+   "Ruby Crystal",
+   "Chain Vest"
+  ],
+  "gold": 2900
+ },
+ "Immortal Shieldbow": {
+  "from": [
+   "Pickaxe",
+   "Noonquiver"
+  ],
+  "gold": 3000
+ },
+ "Imperial Mandate": {
+  "from": [
+   "Amplifying Tome",
+   "Bandleglass Mirror",
+   "Amplifying Tome"
+  ],
+  "gold": 2400
+ },
+ "Infinity Edge": {
+  "from": [
+   "B. F. Sword",
+   "Pickaxe",
+   "Cloak of Agility"
+  ],
+  "gold": 3500
+ },
+ "Ionian Boots of Lucidity": {
+  "from": [
+   "Boots",
+   "Glowing Mote"
+  ],
+  "gold": 900
+ },
+ "Jak'Sho, The Protean": {
+  "from": [
+   "Giant's Belt",
+   "Chain Vest",
+   "Negatron Cloak"
+  ],
+  "gold": 3200
+ },
+ "Jarvan I's": {
+  "from": [],
+  "gold": 300
+ },
+ "Kaenic Rookern": {
+  "from": [
+   "Spectre's Cowl",
+   "Negatron Cloak"
+  ],
+  "gold": 2900
+ },
+ "Kindlegem": {
+  "from": [
+   "Ruby Crystal",
+   "Glowing Mote"
+  ],
+  "gold": 800
+ },
+ "Knight's Vow": {
+  "from": [
+   "Kindlegem",
+   "Chain Vest",
+   "Rejuvenation Bead"
+  ],
+  "gold": 2300
+ },
+ "Kraken Slayer": {
+  "from": [
+   "Rectrix",
+   "Hearthbound Axe",
+   "Recurve Bow"
+  ],
+  "gold": 3000
+ },
+ "Last Whisper": {
+  "from": [
+   "Long Sword",
+   "Long Sword"
+  ],
+  "gold": 1450
+ },
+ "Liandry's Torment": {
+  "from": [
+   "Haunting Guise",
+   "Fated Ashes"
+  ],
+  "gold": 3000
+ },
+ "Lich Bane": {
+  "from": [
+   "Sheen",
+   "Aether Wisp",
+   "Blasting Wand"
+  ],
+  "gold": 2900
+ },
+ "Lifeline": {
+  "from": [
+   "Rectrix",
+   "Long Sword"
+  ],
+  "gold": 1600
+ },
+ "Locket of the Iron Solari": {
+  "from": [
+   "Kindlegem",
+   "Cloth Armor",
+   "Null-Magic Mantle"
+  ],
+  "gold": 2200
+ },
+ "Long Sword": {
+  "from": [],
+  "gold": 350
+ },
+ "Lord Dominik's Regards": {
+  "from": [
+   "Last Whisper",
+   "Noonquiver"
+  ],
+  "gold": 3300
+ },
+ "Lost Chapter": {
+  "from": [
+   "Amplifying Tome",
+   "Sapphire Crystal",
+   "Glowing Mote"
+  ],
+  "gold": 1200
+ },
+ "Luden's Echo": {
+  "from": [
+   "Lost Chapter",
+   "Hextech Alternator"
+  ],
+  "gold": 2750
+ },
+ "Malignance": {
+  "from": [
+   "Lost Chapter",
+   "Blasting Wand"
+  ],
+  "gold": 2700
+ },
+ "Manamune": {
+  "from": [
+   "Tear of the Goddess",
+   "Caulfield's Warhammer",
+   "Long Sword"
+  ],
+  "gold": 2900
+ },
+ "Maw of Malmortius": {
+  "from": [
+   "Hexdrinker",
+   "Caulfield's Warhammer"
+  ],
+  "gold": 3100
+ },
+ "Mercurial Scimitar": {
+  "from": [
+   "Quicksilver Sash",
+   "Pickaxe",
+   "Vampiric Scepter"
+  ],
+  "gold": 3200
+ },
+ "Mercury's Treads": {
+  "from": [
+   "Boots",
+   "Null-Magic Mantle"
+  ],
+  "gold": 1250
+ },
+ "Mikael's Blessing": {
+  "from": [
+   "Kindlegem",
+   "Forbidden Idol"
+  ],
+  "gold": 2300
+ },
+ "Moonstone Renewer": {
+  "from": [
+   "Kindlegem",
+   "Bandleglass Mirror"
+  ],
+  "gold": 2200
+ },
+ "Morellonomicon": {
+  "from": [
+   "Oblivion Orb",
+   "Blasting Wand",
+   "Kindlegem"
+  ],
+  "gold": 2850
+ },
+ "Mortal Reminder": {
+  "from": [
+   "Executioner's Calling",
+   "Last Whisper",
+   "Cloak of Agility"
+  ],
+  "gold": 3000
+ },
+ "Muramana": {
+  "from": [
+   "Manamune"
+  ],
+  "gold": 2900
+ },
+ "Nashor's Tooth": {
+  "from": [
+   "Recurve Bow",
+   "Blasting Wand",
+   "Fiendish Codex"
+  ],
+  "gold": 2900
+ },
+ "Navori Flickerblade": {
+  "from": [
+   "Dagger",
+   "Zeal",
+   "Dagger"
+  ],
+  "gold": 2650
+ },
+ "Needlessly Large Rod": {
+  "from": [],
+  "gold": 1200
+ },
+ "Negatron Cloak": {
+  "from": [
+   "Null-Magic Mantle"
+  ],
+  "gold": 850
+ },
+ "No Boots": {
+  "from": [],
+  "gold": 0
+ },
+ "Noonquiver": {
+  "from": [
+   "Long Sword",
+   "Cloak of Agility"
+  ],
+  "gold": 1300
+ },
+ "Null-Magic Mantle": {
+  "from": [],
+  "gold": 400
+ },
+ "Oblivion Orb": {
+  "from": [
+   "Amplifying Tome"
+  ],
+  "gold": 800
+ },
+ "Overlord's Bloodmail": {
+  "from": [
+   "Tunneler",
+   "Tunneler"
+  ],
+  "gold": 3300
+ },
+ "Phage": {
+  "from": [
+   "Ruby Crystal",
+   "Long Sword"
+  ],
+  "gold": 1100
+ },
+ "Phantom Dancer": {
+  "from": [
+   "Dagger",
+   "Zeal",
+   "Dagger"
+  ],
+  "gold": 2650
+ },
+ "Pickaxe": {
+  "from": [],
+  "gold": 875
+ },
+ "Plated Steelcaps": {
+  "from": [
+   "Boots",
+   "Cloth Armor"
+  ],
+  "gold": 1200
+ },
+ "Profane Hydra": {
+  "from": [
+   "Tiamat",
+   "The Brutalizer"
+  ],
+  "gold": 2850
+ },
+ "Protoplasm Harness": {
+  "from": [
+   "Kindlegem",
+   "Giant's Belt"
+  ],
+  "gold": 2600
+ },
+ "Quicksilver Sash": {
+  "from": [
+   "Null-Magic Mantle"
+  ],
+  "gold": 1300
+ },
+ "Rabadon's Deathcap": {
+  "from": [
+   "Needlessly Large Rod",
+   "Needlessly Large Rod"
+  ],
+  "gold": 3500
+ },
+ "Randuin's Omen": {
+  "from": [
+   "Warden's Mail",
+   "Giant's Belt"
+  ],
+  "gold": 2700
+ },
+ "Rapid Firecannon": {
+  "from": [
+   "Zeal",
+   "Scout's Slingshot"
+  ],
+  "gold": 2650
+ },
+ "Ravenous Hydra": {
+  "from": [
+   "Tiamat",
+   "Vampiric Scepter",
+   "Caulfield's Warhammer"
+  ],
+  "gold": 3300
+ },
+ "Rectrix": {
+  "from": [
+   "Long Sword"
+  ],
+  "gold": 775
+ },
+ "Recurve Bow": {
+  "from": [
+   "Dagger"
+  ],
+  "gold": 700
+ },
+ "Redemption": {
+  "from": [
+   "Fiendish Codex",
+   "Forbidden Idol"
+  ],
+  "gold": 2300
+ },
+ "Refillable Potion": {
+  "from": [],
+  "gold": 150
+ },
+ "Rejuvenation Bead": {
+  "from": [],
+  "gold": 300
+ },
+ "Riftmaker": {
+  "from": [
+   "Haunting Guise",
+   "Fiendish Codex"
+  ],
+  "gold": 3100
+ },
+ "Rite of Ruin": {
+  "from": [
+   "Cloak of Agility",
+   "Aether Wisp",
+   "Fiendish Codex"
+  ],
+  "gold": 3000
+ },
+ "Rod of Ages": {
+  "from": [
+   "Blasting Wand",
+   "Catalyst of Aeons"
+  ],
+  "gold": 2600
+ },
+ "Ruby Crystal": {
+  "from": [],
+  "gold": 400
+ },
+ "Runaan's Hurricane": {
+  "from": [
+   "Zeal",
+   "Scout's Slingshot"
+  ],
+  "gold": 2650
+ },
+ "Rylai's Crystal Scepter": {
+  "from": [
+   "Blasting Wand",
+   "Giant's Belt",
+   "Amplifying Tome"
+  ],
+  "gold": 2600
+ },
+ "Sapphire Crystal": {
+  "from": [],
+  "gold": 300
+ },
+ "Scout's Slingshot": {
+  "from": [
+   "Dagger",
+   "Dagger"
+  ],
+  "gold": 600
+ },
+ "Seeker's Armguard": {
+  "from": [
+   "Amplifying Tome",
+   "Cloth Armor",
+   "Amplifying Tome"
+  ],
+  "gold": 1600
+ },
+ "Seraph's Embrace": {
+  "from": [
+   "Archangel's Staff"
+  ],
+  "gold": 2900
+ },
+ "Serpent's Fang": {
+  "from": [
+   "Serrated Dirk",
+   "Pickaxe"
+  ],
+  "gold": 2500
+ },
+ "Serrated Dirk": {
+  "from": [
+   "Long Sword",
+   "Long Sword"
+  ],
+  "gold": 1000
+ },
+ "Serylda's Grudge": {
+  "from": [
+   "Caulfield's Warhammer",
+   "Last Whisper"
+  ],
+  "gold": 3000
+ },
+ "Shadowflame": {
+  "from": [
+   "Hextech Alternator",
+   "Needlessly Large Rod"
+  ],
+  "gold": 3200
+ },
+ "Sheen": {
+  "from": [
+   "Glowing Mote"
+  ],
+  "gold": 900
+ },
+ "Shurelya's Battlesong": {
+  "from": [
+   "Aether Wisp",
+   "Bandleglass Mirror"
+  ],
+  "gold": 2200
+ },
+ "Sorcerer's Shoes": {
+  "from": [
+   "Boots"
+  ],
+  "gold": 1100
+ },
+ "Spear of Shojin": {
+  "from": [
+   "Pickaxe",
+   "Tunneler",
+   "Ruby Crystal"
+  ],
+  "gold": 3100
+ },
+ "Spectral Cutlass": {
+  "from": [
+   "Lifeline",
+   "Serrated Dirk"
+  ],
+  "gold": 2800
+ },
+ "Spectre's Cowl": {
+  "from": [
+   "Ruby Crystal",
+   "Null-Magic Mantle",
+   "Rejuvenation Bead"
+  ],
+  "gold": 1250
+ },
+ "Spirit Visage": {
+  "from": [
+   "Spectre's Cowl",
+   "Kindlegem"
+  ],
+  "gold": 2700
+ },
+ "Staff of Flowing Water": {
+  "from": [
+   "Fiendish Codex",
+   "Forbidden Idol"
+  ],
+  "gold": 2250
+ },
+ "Stat Bonus": {
+  "from": [],
+  "gold": 750
+ },
+ "Statikk Shiv": {
+  "from": [
+   "Scout's Slingshot",
+   "Aether Wisp",
+   "Pickaxe"
+  ],
+  "gold": 3000
+ },
+ "Steel Sigil": {
+  "from": [
+   "Cloth Armor",
+   "Long Sword",
+   "Cloth Armor"
+  ],
+  "gold": 1100
+ },
+ "Sterak's Gage": {
+  "from": [
+   "Pickaxe",
+   "Tunneler",
+   "Ruby Crystal"
+  ],
+  "gold": 3200
+ },
+ "Stormrazor": {
+  "from": [
+   "B. F. Sword",
+   "Cloak of Agility",
+   "Scout's Slingshot"
+  ],
+  "gold": 3200
+ },
+ "Stormsurge": {
+  "from": [
+   "Hextech Alternator",
+   "Aether Wisp"
+  ],
+  "gold": 2800
+ },
+ "Stridebreaker": {
+  "from": [
+   "Tiamat",
+   "Phage",
+   "Dagger"
+  ],
+  "gold": 3300
+ },
+ "Sundered Sky": {
+  "from": [
+   "Tunneler",
+   "Caulfield's Warhammer"
+  ],
+  "gold": 3100
+ },
+ "Sunfire Aegis": {
+  "from": [
+   "Bami's Cinder",
+   "Chain Vest",
+   "Ruby Crystal"
+  ],
+  "gold": 2800
+ },
+ "Sword of Blossoming Dawn": {
+  "from": [
+   "Forbidden Idol",
+   "Amplifying Tome",
+   "Kindlegem"
+  ],
+  "gold": 2350
+ },
+ "Tear of the Goddess": {
+  "from": [],
+  "gold": 400
+ },
+ "Terminus": {
+  "from": [
+   "Hearthbound Axe",
+   "Recurve Bow"
+  ],
+  "gold": 3000
+ },
+ "The Brutalizer": {
+  "from": [
+   "Glowing Mote",
+   "Pickaxe"
+  ],
+  "gold": 1337
+ },
+ "The Collector": {
+  "from": [
+   "Pickaxe",
+   "Serrated Dirk",
+   "Cloak of Agility"
+  ],
+  "gold": 3000
+ },
+ "Thornmail": {
+  "from": [
+   "Bramble Vest",
+   "Chain Vest",
+   "Ruby Crystal"
+  ],
+  "gold": 2450
+ },
+ "Tiamat": {
+  "from": [
+   "Long Sword",
+   "Long Sword"
+  ],
+  "gold": 1200
+ },
+ "Titanic Hydra": {
+  "from": [
+   "Tiamat",
+   "Tunneler",
+   "Giant's Belt"
+  ],
+  "gold": 3300
+ },
+ "Trinity Force": {
+  "from": [
+   "Sheen",
+   "Phage",
+   "Hearthbound Axe"
+  ],
+  "gold": 3333
+ },
+ "Tunneler": {
+  "from": [
+   "Long Sword",
+   "Ruby Crystal"
+  ],
+  "gold": 1150
+ },
+ "Ultra Hydra": {
+  "from": [],
+  "gold": 6000
+ },
+ "Umbral Glaive": {
+  "from": [
+   "Serrated Dirk",
+   "Caulfield's Warhammer"
+  ],
+  "gold": 2800
+ },
+ "Unending Despair": {
+  "from": [
+   "Chain Vest",
+   "Kindlegem",
+   "Ruby Crystal"
+  ],
+  "gold": 2800
+ },
+ "Vampiric Scepter": {
+  "from": [
+   "Long Sword"
+  ],
+  "gold": 900
+ },
+ "Verdant Barrier": {
+  "from": [
+   "Amplifying Tome",
+   "Null-Magic Mantle",
+   "Amplifying Tome"
+  ],
+  "gold": 1600
+ },
+ "Void Immolation": {
+  "from": [],
+  "gold": 6000
+ },
+ "Void Staff": {
+  "from": [
+   "Blighting Jewel",
+   "Blasting Wand"
+  ],
+  "gold": 3000
+ },
+ "Voltaic Cyclosword": {
+  "from": [
+   "The Brutalizer",
+   "Long Sword",
+   "Long Sword"
+  ],
+  "gold": 3000
+ },
+ "Warden's Mail": {
+  "from": [
+   "Cloth Armor",
+   "Cloth Armor"
+  ],
+  "gold": 1000
+ },
+ "Warmog's Armor": {
+  "from": [
+   "Giant's Belt",
+   "Giant's Belt",
+   "Crystalline Bracer"
+  ],
+  "gold": 3100
+ },
+ "Whispering Circlet": {
+  "from": [
+   "Forbidden Idol",
+   "Ruby Crystal",
+   "Tear of the Goddess"
+  ],
+  "gold": 2250
+ },
+ "Winged Moonplate": {
+  "from": [
+   "Ruby Crystal"
+  ],
+  "gold": 800
+ },
+ "Winter's Approach": {
+  "from": [
+   "Tear of the Goddess",
+   "Giant's Belt",
+   "Kindlegem"
+  ],
+  "gold": 2400
+ },
+ "Wit's End": {
+  "from": [
+   "Recurve Bow",
+   "Negatron Cloak",
+   "Recurve Bow"
+  ],
+  "gold": 2800
+ },
+ "Wooglet's Witchcap": {
+  "from": [],
+  "gold": 6000
+ },
+ "Youmuu's Ghostblade": {
+  "from": [
+   "Serrated Dirk",
+   "Rectrix",
+   "Long Sword"
+  ],
+  "gold": 2800
+ },
+ "Yun Tal Wildarrows": {
+  "from": [
+   "B. F. Sword",
+   "Scout's Slingshot",
+   "Long Sword"
+  ],
+  "gold": 3000
+ },
+ "Zeal": {
+  "from": [
+   "Cloak of Agility",
+   "Dagger"
+  ],
+  "gold": 1200
+ },
+ "Zeke's Convergence": {
+  "from": [
+   "Kindlegem",
+   "Cloth Armor",
+   "Null-Magic Mantle"
+  ],
+  "gold": 2200
+ },
+ "Zhonya's Hourglass": {
+  "from": [
+   "Needlessly Large Rod",
+   "Seeker's Armguard"
+  ],
+  "gold": 3250
+ }
+}

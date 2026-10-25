@@ -396,6 +396,13 @@ def main():
         json.dumps(desc, indent=1, sort_keys=True, ensure_ascii=False), encoding="utf-8")
     (DATA / "item-stats.json").write_text(
         json.dumps(istats, indent=1, sort_keys=True, ensure_ascii=False), encoding="utf-8")
+    # pret total + componente, ca sa stim cat mai ai de platit pana la build complet
+    names = {k: v["name"] for k, v in res["items"].items()}
+    recipes = {it["name"]: {"gold": it.get("priceTotal") or 0,
+                            "from": [names[str(c)] for c in it.get("from") or () if str(c) in names]}
+               for it in res["items"].values()}
+    (DATA / "item-recipes.json").write_text(
+        json.dumps(recipes, indent=1, sort_keys=True, ensure_ascii=False), encoding="utf-8")
     (DATA / "item-ids.json").write_text(
         json.dumps({k: v["name"] for k, v in res["items"].items()}, sort_keys=True,
                    ensure_ascii=False), encoding="utf-8")
@@ -481,11 +488,12 @@ def main():
         pstats = {}
         for cid, meta in pchamps.items():
             try:
-                ps = details(pdata, cid)["champion"]["stats"]
+                pc = details(pdata, cid)["champion"]
+                ps = pc["stats"]
             except Exception:
                 continue
             pstats[meta["name"]] = {"wr": round(ps["winRate"] * 100, 1),
-                                    "pr": round(ps["pickRate"] * 100, 1)}
+                                    "pr": round(ps["pickRate"] * 100, 1), "tier": pc.get("tier")}
             time.sleep(0.15)
         previous = {"version": pp, "champions": pstats}
 

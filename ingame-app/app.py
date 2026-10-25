@@ -22,6 +22,8 @@ import sys
 import threading
 import time
 
+import win32api
+
 import augment_tier
 import elixir
 import live_client
@@ -40,6 +42,9 @@ DATA = pathlib.Path(__file__).with_name("data")
 # afisat degeaba -- iar panoul de augmente acoperea build-ul pana dadeai
 # alt-tab (unfocus-ul golea lista, si asa se "repara" singur).
 OFFER_TTL = 25.0
+# cardurile de augment, ca fractii din fereastra jocului (masurate pe o captura reala)
+CARD_TOP_Y, CARD_BOTTOM_Y, CARD_HALF_W = 0.17, 0.68, 0.085
+CURSOR_FRESH = 8.0          # secunde cat un cursor lasat pe un card mai conteaza ca alegere
 OFFER_GOLD_WINDOW = 12.0   # secunde dupa oferta in care un salt de aur = augmentul ales
 
 # secunde intre doua citiri OCR. Cu oferta pe ecran citim des (un reroll se vede
@@ -75,6 +80,7 @@ def normalize_roster(raw, champ_id_map):
         "enemy_items": list(raw.get("enemy_items") or []),
         "ally_items": list(raw.get("ally_items") or []),
         "own_items": list(raw.get("own_items") or []),
+        "spell_augments": list(raw.get("spell_augments") or []),
         "local_champion": fix(raw["local_champion"]) if raw.get("local_champion") else None,
     }
 
@@ -129,6 +135,10 @@ class Monitor:
         self._elixir = elixir.Tracker()
         self.elixir_until = 0.0
         self.headliner = None        # ales de tine din panou: jocul nu expune regula meciului
+        self.pending = []            # ultima oferta disparuta fara alegere cunoscuta
+        self._ttl_names = []         # oferta ascunsa dupa OFFER_TTL, dar poate inca pe ecran
+        self._cursor = None          # (cardul 0-2 sub cursor, moment): cardul pe care dai click
+        self._augment_ids = None     # id intern -> nume, incarcat la prima nevoie
         self._game = None            # cheia meciului, pentru augmentele salvate
         self._saved_taken = []
         # OCR-ul costa cel mai mult procesor din toata aplicatia, deci il rulam
@@ -138,7 +148,8 @@ class Monitor:
         self._last_level = None
         self._last_gold = None
         # date pentru disponibilitatea itemelor si itemi buni cu augmentul ales
-        self._static = {"ranges": self._optional("champion-range.json"),
+        self._static = {"recipes": self._optional("item-recipes.json"),
+                        "ranges": self._optional("champion-range.json"),
                         "effects": self._optional("augment-effects.json"),
                         "item_names": self._optional("item-ids.json"),
                         "item_groups": self._optional("item-groups.json")}
@@ -248,6 +259,38 @@ class Monitor:
             self.taken_augments.append(cands[0])
             self._recent_offer, self._recent_at = [], 0.0
 
+    def _elixir_bought(self, own_items):
+        """Elixir cumparat si baut intre doua citiri (4s): n-a apucat sa apara in inventar.
+
+        Aurul scade cu ~500 fara ca inventarul sa se schimbe (un item nou sau o reteta
+        ar schimba setul de iteme), iar elixirul nu e in inventar acum.
+        """
+        own = {rules_engine.item_key(n) for n in own_items or ()}
+        if (self._prev_own is not None and own == self._prev_own
+                and elixir.PRICE - 70 <= -self._last_jump <= elixir.PRICE + 100
+                and (self._last_level or 0) >= elixir.LEVEL and not elixir.owned(own_items)):
+            self._elixir.mark(self.game_time)
+
+    def mark_elixir(self):
+        """Click pe panou: l-ai baut deja."""
+        self._elixir.mark(self.game_time)
+        self.elixir_until = self._elixir.until
+
+    def _spell_pick(self, ids):
+        """Augmentele care dau un summoner spell, citite direct din spell-urile tale (ex. ClownCollege)."""
+        if not ids:
+            return
+        if self._augment_ids is None:
+            try:
+                raw = json.loads(augment_tier.AUGMENT_MAP.read_text(encoding="utf-8"))
+            except (OSError, ValueError):
+                raw = {}
+            self._augment_ids = {k: v.get("name") for k, v in raw.items()}
+        for aid in ids:
+            name = self._augment_ids.get("ARAM_" + aid)
+            if name and name not in self.taken_augments:
+                self.taken_augments.append(name)
+
     def _quest_pick(self, own_items):
         """Augmentul de quest (Ultra Hydra), dedus din itemele pe care le ai.
 
@@ -318,9 +361,11 @@ class Monitor:
         self.roster = roster
         gs = live_client.get("/gamestats")
         self.game_time = gs.get("gameTime") if isinstance(gs, dict) else None
+        self._elixir_bought(roster.get("own_items"))
         self.elixir_until = self._elixir.update(roster.get("own_items"), self.game_time)
         self._item_pick(roster.get("own_items"), time.monotonic())
         self._quest_pick(roster.get("own_items"))
+        self._spell_pick(roster.get("spell_augments"))
 
         # augmentele alese supravietuiesc unei reporniri a aplicatiei in meci
         game = "|".join([str((ap or {}).get("riotId")), str(roster.get("local_champion"))]
@@ -352,6 +397,8 @@ class Monitor:
                            if n})
         shards = [n for n in found if n in self._shards]
         found = [n for n in found if n not in self._shards]
+        if len(found) >= 2:
+            self._note_cursor()
         self._anvil(shards)
         if len(shards) >= 2:
             found = []          # ecran de Stat Anvil, nu oferta de augment
@@ -361,7 +408,8 @@ class Monitor:
         # afisata la nesfarsit si impingea build-ul in afara ferestrei
         if not found:
             self._empty_reads += 1
-            if self._empty_reads >= 2 and (self.augments or self._offer_pool):
+            if self._empty_reads >= 2 and (self.augments or self._offer_pool or self._ttl_names):
+                self._offer_gone()
                 self.augments = []
                 self._offer_pool = {}
                 self._last_augments = ()
@@ -419,6 +467,7 @@ class Monitor:
             # mai ai de ales. Le ascundem ca sa nu acopere build-ul.
             if now - self._offer_since > OFFER_TTL:
                 self._expired_names = set(self._offer_pool)
+                self._ttl_names = list(self._offer_pool)     # inca pe ecran: intrebarea vine cand dispar
                 self.augments = []
                 self._offer_pool = {}
                 self._last_augments = ()
@@ -478,16 +527,62 @@ class Monitor:
             self.build, self.roster, self.champion_tags, self.rules,
             self.item_stats, self.taken_augments, self.augment_items, extra)
 
+    def anvil_advice(self):
+        """Stat Anvil (750g): cand sa-l iei, cu aurul si cat mai ai pana la build complet."""
+        r, rb = self.roster, self.resolved_build
+        if not r or not rb:
+            return None
+        recipes = self._static.get("recipes") or {}
+        own = r.get("own_items") or []
+        left = [e["item"] for e in rb["core"] + rb["picks"] if not e["owned"]]
+        return stat_anvil.advise(
+            self._last_level, self._last_gold, own, bool(rb.get("full")), self._core_count(),
+            rules_engine.remaining_gold(left, own, recipes), len(left),
+            rules_engine.remaining_gold(left[:1], own, recipes))
+
+    def _core_count(self):
+        stats = self.item_stats
+        return sum(1 for n in rules_engine.slot_items((self.roster or {}).get("own_items"), stats)
+                   if not (stats.get(n) or {}).get("component") and not (stats.get(n) or {}).get("boots")
+                   and not rules_engine.item_key(n).startswith(rules_engine.STARTER_PREFIXES))
+
+    def _note_cursor(self):
+        """Cardul de sub cursor, cat timp oferta e pe ecran: alegerea e un click pe card, deci
+        cand oferta dispare, cursorul sta pe cel ales. Butoanele de reroll (sub carduri) nu conteaza."""
+        rect = ocr_augments.find_game_window_rect()
+        if not rect:
+            return
+        W, H = rect[2] - rect[0], rect[3] - rect[1]
+        x, y = win32api.GetCursorPos()
+        x, y = x - rect[0], y - rect[1]
+        if not CARD_TOP_Y * H <= y <= CARD_BOTTOM_Y * H:
+            return
+        for i, fx in enumerate(ocr_augments.layout_for(W, H)["fx"][:ocr_augments.MAX_OFFER]):
+            if abs(x - fx * W) <= CARD_HALF_W * W:
+                self._cursor = (i, time.monotonic())
+
+    def _offer_gone(self):
+        """Oferta a disparut. Cardul de sub cursor e cel ales; fara cursor pe un card (tastatura,
+        click ratat) o tinem ca sa o poti confirma cu un click."""
+        names = list(self._offer_pool) or self._ttl_names
+        self._ttl_names = []
+        if len(names) < 2 or set(names) & set(self.taken_augments):
+            return
+        if self._cursor and time.monotonic() - self._cursor[1] < CURSOR_FRESH:
+            chosen = [n for n in names if self._slot.get(n) == self._cursor[0]]
+            if len(chosen) == 1:
+                self.taken_augments.append(chosen[0])
+                self._cursor = None
+                return
+        self.pending = names
+
     def elixir_advice(self):
         """Potiunea de 500g: care Elixir si cand, sau None cat timp nu avem roster."""
         r = self.roster
         if not r or not r.get("local_champion"):
             return None
         own = rules_engine.slot_items(r.get("own_items"), self.item_stats)
-        stats = self.item_stats
-        core = sum(1 for n in own
-                   if not (stats.get(n) or {}).get("component") and not (stats.get(n) or {}).get("boots")
-                   and not rules_engine.item_key(n).startswith(rules_engine.STARTER_PREFIXES))
+        stats, core = self.item_stats, self._core_count()
         return elixir.advise(
             self.champion_tags, r["local_champion"], r.get("allies"), r.get("enemies"),
             r.get("enemy_items"), r.get("own_items"), stats, self._last_level, self._last_gold,
@@ -499,6 +594,9 @@ class Monitor:
         self._elixir.reset()
         self.elixir_until = 0.0
         self.headliner = None
+        self.pending = []
+        self._ttl_names = []
+        self._cursor = None
         self.roster = None
         self.build = None
         self.resolved_build = None
@@ -1212,6 +1310,53 @@ def selfcheck():
     assert {"lich brain", "totentanz", "tickle monster", "no mana, no problem"} <= vocab
     assert not vocab & augment_tier.REMOVED, vocab & augment_tier.REMOVED
     assert set(load_json("headliners.json")) >= {"K/DA", "Command Line", "True Damage"}
+    m = quest_mon()
+    m._last_level, m.game_time, m._prev_own, m._last_jump = 12, 900, {"doransblade"}, -480
+    m._elixir_bought(["Doran's Blade"])
+    assert m._elixir.until == 900 + elixir.DURATION, "aur -500 fara iteme noi = elixir baut"
+    m = quest_mon()
+    m._last_level, m.game_time, m._prev_own, m._last_jump = 12, 900, {"doransblade"}, -480
+    m._elixir_bought(["Doran's Blade", "Long Sword"])
+    assert m._elixir.until == 0.0, "item nou: cumparatura normala"
+    m.mark_elixir()
+    assert m.elixir_until == 900 + elixir.DURATION
+    m = quest_mon()
+    m._spell_pick(["ClownCollege", "NuExiste"])
+    assert m.taken_augments == ["Clown College"], m.taken_augments
+
+    # alegerea = cardul de sub cursor cand oferta dispare
+    m = quest_mon()
+    m._offer_pool, m._slot, m._cursor = {"Lich Brain": 1, "Totentanz": 2, "Group Hug": 3},         {"Lich Brain": 0, "Totentanz": 1, "Group Hug": 2}, (1, time.monotonic())
+    m._offer_gone()
+    assert m.taken_augments == ["Totentanz"] and m.pending == [], (m.taken_augments, m.pending)
+    m = quest_mon()
+    m._offer_pool, m._slot, m._cursor = {"Lich Brain": 1, "Totentanz": 2}, {"Lich Brain": 0, "Totentanz": 1},         (1, time.monotonic() - 60)
+    m._offer_gone()
+    assert not m.taken_augments and m.pending == ["Lich Brain", "Totentanz"], "cursor vechi nu decide"
+
+    # cat mai ai pana la build complet: componentele din inventar scad din pret
+    rec = load_json("item-recipes.json")
+    assert rules_engine.remaining_gold(["Zhonya's Hourglass"], [], rec) == rec["Zhonya's Hourglass"]["gold"]
+    assert rules_engine.remaining_gold(["Zhonya's Hourglass"], ["Zhonya's Hourglass"], rec) == 0
+    part = rules_engine.remaining_gold(["Zhonya's Hourglass"], ["Seeker's Armguard"], rec)
+    assert 0 < part < rec["Zhonya's Hourglass"]["gold"] - rec["Seeker's Armguard"]["gold"] + 1, part
+    adv = lambda **kw: stat_anvil.advise(**dict(dict(level=12, gold=900, own_items=[], full=False, core=3,
+                                                     left_gold=4000, left_items=3, next_gold=3000), **kw))
+    assert adv(level=8)["state"] == "locked" and adv(core=1)["state"] == "wait"
+    assert adv(gold=300)["state"] == "gold" and adv(gold=300)["need"] == 450
+    assert adv()["state"] == "buy" and "mai lipsesc 2850g" in adv()["when"]
+    assert adv(gold=4000)["state"] == "buy" and "ajunge" in adv(gold=4000)["when"]
+    assert adv(core=0, full=True, left_items=0, left_gold=0, next_gold=0)["state"] == "buy"
+    assert adv(own_items=["Stat Bonus"])["state"] == "use"
+    # oferta disparuta fara alegere se pastreaza pentru confirmare; cu o alegere cunoscuta nu
+    m = quest_mon()
+    m._offer_pool = {"Lich Brain": 1, "Totentanz": 2, "Group Hug": 3}
+    m._offer_gone()
+    assert m.pending == ["Lich Brain", "Totentanz", "Group Hug"]
+    m = quest_mon()
+    m._offer_pool, m.taken_augments = {"Lich Brain": 1, "Totentanz": 2}, ["Lich Brain"]
+    m._offer_gone()
+    assert m.pending == []
     elixir.selfcheck()
     print(f"selfcheck OK ({len(champ_id_map)} id-uri, {len(champion_tags)} campioni, "
           f"{len(rules['rules'])} reguli)")

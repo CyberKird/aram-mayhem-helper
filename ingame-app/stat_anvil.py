@@ -99,6 +99,38 @@ def score_shard(category, damage_type, tags, enemy_ad, enemy_ap):
     return sum(p for p, _ in score_parts(category, damage_type, tags, enemy_ad, enemy_ap))
 
 
+PRICE = 750
+LEVEL = 9
+ITEM = "Stat Bonus"           # numele itemului Stat Anvil in datele de Mayhem
+MIN_CORE = 2
+
+
+def advise(level, gold, own_items, full, core, left_gold, left_items, next_gold):
+    """Cand sa cumperi Stat Anvil, in functie de aur si de cat mai ai pana la build complet.
+
+      locked  nivel < 9     wait  prea putine iteme terminate   gold  nu ai 750g
+      buy     ia-l acum     use   il ai deja: deschide-l
+    `left_gold`/`left_items`: ce mai lipseste din build; `next_gold`: itemul urmator.
+    """
+    out = {"left_gold": left_gold, "left_items": left_items}
+    progress = "Build complet." if not left_items else f"Pana la build complet: {left_items} iteme, ~{left_gold}g."
+    if ITEM in (own_items or ()):
+        out.update(state="use", when="Ai deja Stat Anvil: deschide-l si alege un shard.")
+    elif not isinstance(level, int) or level < LEVEL:
+        out.update(state="locked", when=f"Se deschide la nivel {LEVEL}. {progress}")
+    elif core < MIN_CORE and not full:
+        out.update(state="wait", when=f"Mai intai {MIN_CORE} iteme terminate ({core} acum). {progress}")
+    elif not isinstance(gold, (int, float)) or gold < PRICE:
+        need = PRICE - int(gold or 0)
+        out.update(state="gold", need=need, when=f"Mai ai nevoie de {need}g. {progress}")
+    else:
+        after = int(gold) - PRICE
+        tail = ("" if not next_gold else
+                f" Dupa el ai {after}g: itemul urmator costa ~{next_gold}g" + (" (ajunge)." if after >= next_gold else f" (mai lipsesc {next_gold - after}g)."))
+        out.update(state="buy", when=f"Ia-l la urmatorul recall (750g). {progress}{tail}")
+    return out
+
+
 def recommend(names, champion_tags, champ, enemies):
     """[{name, category, score, is_best}] in ordinea primita (a cardurilor).
 

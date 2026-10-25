@@ -168,7 +168,8 @@ class Engine:
                   for n in self.reader.offers if n not in known]
         pool = ([self.champ(lm.assigned, "AL TAU")] if lm.assigned else []) + (
             [self.champ(e, "CARTE") for e in offers] or [self.champ(e, "BENCH") for e in lm.bench])
-        pool.sort(key=lambda e: logic.tier_rank(e["tier"]))      # stabil: la egalitate ramane al tau
+        # in acelasi tier decide win rate-ul (Xin Zhao 56% inaintea Sonei 53%); la egalitate ramane al tau
+        pool.sort(key=lambda e: (logic.tier_rank(e["tier"]), -(e.get("wr") or 0)))
         if pool:
             pool[0]["is_best"] = True
         return pool
@@ -235,8 +236,14 @@ class Engine:
         adv = m.elixir_advice()
         if adv:
             out["elixir"] = dict(adv, icon=ic("items", adv["pick"]))
-        out["headliner"] = dict(self.headliners.get(m.headliner) or {}, options=list(self.headliners),
-                                picked=m.headliner)
+        import augment_tier
+        anvil = None if m.stat_anvil else m.anvil_advice()
+        out["anvil_buy"] = anvil and dict(anvil, icon=ic("items", "Stat Bonus"))
+        taken = set(m.taken_augments)
+        pend = [] if (m.augments or taken & set(m.pending)) else list(m.pending)
+        out["pending"] = [self.aug(a) for a in augment_tier.rate(pend, m.global_augments, champ)] if pend else []
+        out["headliner"] = {"options": [{"name": n, "icon": ic("headliners", n)} for n in self.headliners],
+                            "picked": m.headliner, "info": self.headliners}
         return out
 
     # --- unde sunt jocul, clientul si cardurile ----------------------------
@@ -298,6 +305,10 @@ class Engine:
         elif cmd == "drop" and msg.get("name") in m.taken_augments:
             m.taken_augments.remove(msg["name"])
             m._recompute_build()
+        elif cmd == "skip":
+            m.pending = []
+        elif cmd == "elixir":
+            m.mark_elixir()
         elif cmd == "headliner":
             # acelasi click il alege sau il scoate
             name = msg.get("name")
@@ -389,7 +400,11 @@ def selfcheck():
         stat_anvil, taken_augments = [], [names[1]]
         global_augments = tiers
         headliner = None
+        pending = []
         _tags = json.loads((ROOT / "ingame-app" / "data" / "champion-tags.json").read_text(encoding="utf-8"))
+
+        def anvil_advice(self):
+            return ingame.stat_anvil.advise(12, 900, [], False, 3, 4200, 3, 3100)
 
         def elixir_advice(self):
             return ingame.elixir.advise(self._tags, "Ahri", ["Ahri"], ["Jinx"], [], [], {}, 12, 900, 840, core=3)
@@ -404,9 +419,20 @@ def selfcheck():
     assert game["build"]["next"][0]["item"] == "Luden's Echo", game["build"]
     assert game["offer"][0]["icon"] and game["taken"][0]["name"] == names[1], game
     assert game["elixir"]["state"] == "buy" and game["elixir"]["pick"] in ingame.elixir.ELIXIRS         and game["elixir"]["icon"], game["elixir"]
+    assert game["anvil_buy"]["state"] == "buy" and "4200" in game["anvil_buy"]["when"], game["anvil_buy"]
+    assert game["pending"] == []
+    assert eng.in_game()["offer"], "oferta pe ecran ascunde intrebarea"
+    eng.mon.augments, eng.mon.pending = [], [names[0], names[2]]
+    pend = eng.in_game()["pending"]
+    assert [p["name"] for p in pend] == [names[0], names[2]] and all(p["icon"] for p in pend), pend
+    eng.mon.taken_augments.append(names[0])
+    assert eng.in_game()["pending"] == []        # alegerea confirmata inchide intrebarea
+    eng.command({"cmd": "skip"})
+    assert eng.mon.pending == []
     eng.command({"cmd": "headliner", "name": "K/DA"})
     hl = eng.in_game()["headliner"]
-    assert hl["picked"] == "K/DA" and hl["effect"] and "Command Line" in hl["options"], hl
+    assert hl["picked"] == "K/DA" and hl["info"]["K/DA"]["effect"], hl
+    assert "Command Line" in [o["name"] for o in hl["options"]] and hl["options"][0]["icon"], hl
     eng.command({"cmd": "headliner", "name": "K/DA"})        # al doilea click il scoate
     assert eng.in_game()["headliner"]["picked"] is None
     json.dumps(eng.state())

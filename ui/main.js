@@ -489,7 +489,7 @@ ipcMain.on('cmd', (_e, c) => {
   else if (c.cmd === 'report') openReport()
   else if (c.cmd === 'update') update.tag ? restart() : checkUpdate(true)
   else if (c.cmd === 'restart') restart()
-  else if (c.cmd === 'drop' || c.cmd === 'took' || c.cmd === 'headliner') command({ cmd: c.cmd, name: String(c.name) })
+  else if (c.cmd === 'drop' || c.cmd === 'took' || c.cmd === 'headliner' || c.cmd === 'elixir' || c.cmd === 'skip') command({ cmd: c.cmd, name: String(c.name) })
 })
 
 ipcMain.handle('fonts', () => FONT_FILES.filter(f => fs.existsSync(path.join(FONTS_DIR, f))))

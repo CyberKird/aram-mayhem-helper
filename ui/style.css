@@ -286,7 +286,18 @@ header button, #augs > * { -webkit-app-region: no-drag; }
 .hero .k { font: 700 9.5px/1 var(--head); letter-spacing: .14em; color: var(--teal); }
 .hero .nm { margin: 2px 0 1px; font: 700 16px/1.15 var(--head); color: var(--cream); }
 .hero .why { color: var(--gold); }
-.chips { display: flex; flex-wrap: wrap; gap: 4px; margin: 3px 0; }
+/* oferta disparuta: click pe cea pe care ai ales-o */
+.row.pick { cursor: pointer; }
+.row.pick:hover { border-color: var(--teal); }
+.chips { display: flex; flex-wrap: wrap; gap: 6px; margin: 3px 0; }
+.chips .ic { width: 34px; height: 34px; object-fit: contain; }
+.ic.pickable { cursor: pointer; }
+.ic.pickable:hover { border-color: var(--teal); }
+.state.iconic { align-items: center; gap: 8px; }
+.strip .ic.glow { width: 32px; height: 32px; object-fit: contain; border-color: var(--gold-hi); animation: glow 1.3s ease-in-out infinite alternate; }
+@keyframes glow { from { box-shadow: 0 0 0 1px #050b0b, 0 0 3px rgba(240, 214, 140, .4); } to { box-shadow: 0 0 0 1px #050b0b, 0 0 11px 2px rgba(240, 214, 140, .95); } }
+.state.iconic .ic { width: 24px; height: 24px; object-fit: contain; }
+.state .grow { flex: 1; }
 .chip {
   padding: 3px 7px; background: transparent; cursor: pointer;
   border: 1px solid var(--row-line); color: var(--dim);

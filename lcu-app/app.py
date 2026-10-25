@@ -266,20 +266,26 @@ def selfcheck():
                                                "myTeam": [{"cellId": 1}]}) is None
 
     # tier: nume exact, nume prin override, nume necunoscut
-    assert logic.get_tier("Sett", tiers, over) == "S+"
+    assert logic.get_tier("Sett", tiers, over) in tier_list.TIER_ORDER
     assert logic.get_tier("Poro", tiers, over) == logic.UNRANKED
     assert logic.get_tier(None, tiers, over) == logic.UNRANKED
     assert logic.get_tier("X", {"Y": "S"}, {"X": "Y"}) == "S"
 
     # best pick: cel mai bun tier castiga, la egalitate primul din lista
     ids = {n: int(k) for k, n in data.items()}
-    picks = [ids["Yorick"], ids["Sett"], ids["Aatrox"]]      # C, S+, D
-    assert logic.best_pick(picks, data, tiers, over) == ids["Sett"]
+    # campioni alesi dupa tier, nu dupa nume: tier-urile se schimba la fiecare patch
+    ranked = sorted((n for n in tiers if n in ids), key=lambda n: logic.tier_rank(tiers[n]))
+    top, low = ranked[0], ranked[-1]
+    mid = next(n for n in ranked if logic.tier_rank(tiers[n]) not in (logic.tier_rank(tiers[top]),
+                                                                       logic.tier_rank(tiers[low])))
+    twin = next(n for n in ranked[1:] if tiers[n] == tiers[top])         # acelasi tier cu `top`
+    picks = [ids[mid], ids[top], ids[low]]
+    assert logic.best_pick(picks, data, tiers, over) == ids[top]
     assert logic.best_pick([], data, tiers, over) is None
-    tie = [ids["Jinx"], ids["Vayne"]]                        # ambii S+
-    assert logic.best_pick(tie, data, tiers, over) == ids["Jinx"]
+    tie = [ids[top], ids[twin]]
+    assert logic.best_pick(tie, data, tiers, over) == ids[top]
     # un campion fara tier nu trebuie sa castige in fata unuia clasat
-    assert logic.best_pick([999999, ids["Aatrox"]], data, tiers, over) == ids["Aatrox"]
+    assert logic.best_pick([999999, ids[low]], data, tiers, over) == ids[low]
 
     # id-urile de varianta (60000 + id de baza) trebuie sa dea acelasi nume
     assert logic.resolve_champion_name(60001, data) == logic.resolve_champion_name(1, data)
@@ -288,27 +294,27 @@ def selfcheck():
     # altfel te trimite la reroll chiar cand ai deja cel mai bun pick
     mon = Monitor(data)
     mon._read_session({"localPlayerCellId": 1,
-                       "myTeam": [{"cellId": 1, "championId": ids["Sett"]}],
-                       "benchChampionIds": [ids["Yorick"], ids["Aatrox"]]})
-    assert mon.assigned["is_best"], mon.assigned          # Sett S+ bate C si D
+                       "myTeam": [{"cellId": 1, "championId": ids[top]}],
+                       "benchChampionIds": [ids[mid], ids[low]]})
+    assert mon.assigned["is_best"], mon.assigned          # tier-ul cel mai bun bate restul
     assert not any(e["is_best"] for e in mon.bench), mon.bench
 
     mon._read_session({"localPlayerCellId": 1,
-                       "myTeam": [{"cellId": 1, "championId": ids["Aatrox"]}],
-                       "benchChampionIds": [ids["Sett"], ids["Yorick"]]})
-    assert not mon.assigned["is_best"]                    # Aatrox D pierde
-    assert [e["name"] for e in mon.bench if e["is_best"]] == ["Sett"]
+                       "myTeam": [{"cellId": 1, "championId": ids[low]}],
+                       "benchChampionIds": [ids[top], ids[mid]]})
+    assert not mon.assigned["is_best"]                    # tier-ul cel mai slab pierde
+    assert [e["name"] for e in mon.bench if e["is_best"]] == [top]
     # coechipierii: tinuti separat, ca OCR-ul sa nu-i ia drept cartile tale
     mon._read_session({"localPlayerCellId": 1,
-                       "myTeam": [{"cellId": 1, "championId": ids["Sett"]},
-                                  {"cellId": 2, "championId": ids["Jinx"]}, {"cellId": 3}],
+                       "myTeam": [{"cellId": 1, "championId": ids[top]},
+                                  {"cellId": 2, "championId": ids[mid]}, {"cellId": 3}],
                        "benchChampionIds": []})
-    assert mon.team == ["Jinx"], mon.team
+    assert mon.team == [mid], mon.team
 
     # la tier egal ramane pe al tau: un reroll lateral nu castiga nimic
     mon._read_session({"localPlayerCellId": 1,
-                       "myTeam": [{"cellId": 1, "championId": ids["Jinx"]}],
-                       "benchChampionIds": [ids["Vayne"]]})   # ambii S+
+                       "myTeam": [{"cellId": 1, "championId": ids[top]}],
+                       "benchChampionIds": [ids[twin]]})      # acelasi tier
     assert mon.assigned["is_best"] and not mon.bench[0]["is_best"]
 
     # reconciliere: fiecare campion din Data Dragon trebuie sa aiba tier.

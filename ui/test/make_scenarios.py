@@ -33,6 +33,10 @@ class Mon:
     roster = {"local_champion": "Ahri", "enemies": ["Jinx", "Sett", "Lux", "Garen", "Ezreal"], "own_items": []}
     augments, stat_anvil, taken_augments = [], [], []
     headliner = "Command Line"
+    pending = []
+
+    def anvil_advice(self):
+        return ingame.stat_anvil.advise(12, 900, [], False, 3, 4200, 3, 3100)
     global_augments = None
     resolved_build = {
         "starting": [], "full": False, "range": "ranged", "unavailable": [],
