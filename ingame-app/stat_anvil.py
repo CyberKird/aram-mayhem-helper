@@ -123,10 +123,13 @@ def advise(level, gold, own_items, full, core, left_gold, left_items, next_gold)
     elif not isinstance(gold, (int, float)) or gold < PRICE:
         need = PRICE - int(gold or 0)
         out.update(state="gold", need=need, when=f"Mai ai nevoie de {need}g. {progress}")
+    elif left_items and int(gold) - PRICE < next_gold:
+        # itemele inainte de consumabile: Anvil doar cand ajung banii si pentru itemul urmator
+        out.update(state="wait", when=f"Mai intai itemul urmator (~{next_gold}g, ai {int(gold)}g). "
+                                       f"Anvil cand ai {next_gold + PRICE}g. {progress}")
     else:
         after = int(gold) - PRICE
-        tail = ("" if not next_gold else
-                f" Dupa el ai {after}g: itemul urmator costa ~{next_gold}g" + (" (ajunge)." if after >= next_gold else f" (mai lipsesc {next_gold - after}g)."))
+        tail = f" Dupa el ai {after}g: itemul urmator (~{next_gold}g) ajunge." if left_items and next_gold else ""
         out.update(state="buy", when=f"Ia-l la urmatorul recall (750g). {progress}{tail}")
     return out
 

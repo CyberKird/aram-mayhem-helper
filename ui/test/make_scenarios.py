@@ -36,7 +36,7 @@ class Mon:
     pending = []
 
     def anvil_advice(self):
-        return ingame.stat_anvil.advise(12, 900, [], False, 3, 4200, 3, 3100)
+        return ingame.stat_anvil.advise(12, 5000, [], False, 3, 4200, 3, 3100)
     global_augments = None
     resolved_build = {
         "starting": [], "full": False, "range": "ranged", "unavailable": [],

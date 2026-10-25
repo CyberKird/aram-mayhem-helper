@@ -536,13 +536,20 @@ class Monitor:
         r, rb = self.roster, self.resolved_build
         if not r or not rb:
             return None
-        recipes = self._static.get("recipes") or {}
-        own = r.get("own_items") or []
-        left = [e["item"] for e in rb["core"] + rb["picks"] if not e["owned"]]
+        left_items, left_gold, next_gold = self._build_cost()
         return stat_anvil.advise(
-            self._last_level, self._last_gold, own, bool(rb.get("full")), self._core_count(),
-            rules_engine.remaining_gold(left, own, recipes), len(left),
-            rules_engine.remaining_gold(left[:1], own, recipes))
+            self._last_level, self._last_gold, r.get("own_items") or [], bool(rb.get("full")),
+            self._core_count(), left_gold, left_items, next_gold)
+
+    def _build_cost(self):
+        """(iteme ramase, aurul pentru ele, aurul pentru itemul urmator): ce mai ai de cumparat din build."""
+        r, rb = self.roster, self.resolved_build
+        if not r or not rb:
+            return 0, 0, 0
+        recipes, own = self._static.get("recipes") or {}, r.get("own_items") or []
+        left = [e["item"] for e in rb["core"] + rb["picks"] if not e["owned"]]
+        return (len(left), rules_engine.remaining_gold(left, own, recipes),
+                rules_engine.remaining_gold(left[:1], own, recipes))
 
     def _core_count(self):
         stats = self.item_stats
@@ -587,10 +594,14 @@ class Monitor:
             return None
         own = rules_engine.slot_items(r.get("own_items"), self.item_stats)
         stats, core = self.item_stats, self._core_count()
+        left_items, _, next_gold = self._build_cost()
+        # itemul urmator are prioritate; daca e si randul lui Stat Anvil, ii rezervam si lui banii
+        anvil = self.anvil_advice()
+        reserve = next_gold + (stat_anvil.PRICE if anvil and anvil.get("state") == "buy" else 0)
         return elixir.advise(
             self.champion_tags, r["local_champion"], r.get("allies"), r.get("enemies"),
             r.get("enemy_items"), r.get("own_items"), stats, self._last_level, self._last_gold,
-            self.game_time, self.elixir_until, rules_engine.build_full(own, stats), core)
+            self.game_time, self.elixir_until, rules_engine.build_full(own, stats), core, left_items, reserve)
 
     def _reset(self):
         self.phase = "waiting_for_game"
@@ -1355,8 +1366,10 @@ def selfcheck():
                                                      left_gold=4000, left_items=3, next_gold=3000), **kw))
     assert adv(level=8)["state"] == "locked" and adv(core=1)["state"] == "wait"
     assert adv(gold=300)["state"] == "gold" and adv(gold=300)["need"] == 450
-    assert adv()["state"] == "buy" and "mai lipsesc 2850g" in adv()["when"]
+    assert adv()["state"] == "wait" and "itemul urmator" in adv()["when"], adv()    # 900g: itemul urmator primul
+    assert adv(gold=3600)["state"] == "wait"                                      # 3600 - 750 < 3000
     assert adv(gold=4000)["state"] == "buy" and "ajunge" in adv(gold=4000)["when"]
+    assert adv(left_items=0, left_gold=0, next_gold=0)["state"] == "buy"          # fara iteme ramase: ia-l
     assert adv(core=0, full=True, left_items=0, left_gold=0, next_gold=0)["state"] == "buy"
     assert adv(own_items=["Stat Bonus"])["state"] == "use"
     # oferta disparuta fara alegere se pastreaza pentru confirmare; cu o alegere cunoscuta nu
@@ -1369,6 +1382,13 @@ def selfcheck():
     m._offer_gone()
     assert m.pending == []
     elixir.selfcheck()
+    # elixirul asteapta itemele: cu itemul urmator nefacut si fara bani pentru amandoua nu apare
+    e_adv = lambda **kw: elixir.advise(**dict(dict(
+        tags=champion_tags, champ="Jinx", allies=["Jinx"], enemies=["Zed"], enemy_items=[], own_items=[],
+        item_stats={}, level=12, gold=900, game_time=600, core=3, left_items=2, reserve=3000), **kw))
+    assert e_adv()["state"] == "wait" and "itemele" in e_adv()["when"]
+    assert e_adv(gold=3600)["state"] == "buy"
+    assert e_adv(left_items=0)["state"] == "buy" and e_adv(full=True)["state"] == "buy"
     print(f"selfcheck OK ({len(champ_id_map)} id-uri, {len(champion_tags)} campioni, "
           f"{len(rules['rules'])} reguli)")
 

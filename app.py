@@ -404,7 +404,7 @@ def selfcheck():
         _tags = json.loads((ROOT / "ingame-app" / "data" / "champion-tags.json").read_text(encoding="utf-8"))
 
         def anvil_advice(self):
-            return ingame.stat_anvil.advise(12, 900, [], False, 3, 4200, 3, 3100)
+            return ingame.stat_anvil.advise(12, 5000, [], False, 3, 4200, 3, 3100)
 
         def elixir_advice(self):
             return ingame.elixir.advise(self._tags, "Ahri", ["Ahri"], ["Jinx"], [], [], {}, 12, 900, 840, core=3)

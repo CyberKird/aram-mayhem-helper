@@ -121,11 +121,13 @@ class Tracker:
 
 
 def advise(tags, champ, allies, enemies, enemy_items, own_items, item_stats,
-           level, gold, game_time, active_until=0.0, full=False, core=0):
+           level, gold, game_time, active_until=0.0, full=False, core=0, left_items=0, reserve=0):
     """Starea pentru panou:
       locked  nivel < 9           wait  prea putine iteme terminate
       gold    nu ai 500g          buy   ia-l acum (la recall)
       use     il ai in inventar   active  efectul inca tine
+    `reserve`: aurul care trebuie sa ramana pentru itemul urmator (si Stat Anvil, daca e randul lui);
+    cat build-ul nu e complet, itemele au prioritate.
     Plus elixirul recomandat, motivul si clasamentul complet."""
     best, totals, why = pick(score(tags, champ, allies, enemies, enemy_items, item_stats))
     out = {"pick": best, "why": ", ".join(why), "scores": {n: round(totals[n], 1) for n in ELIXIRS}}
@@ -144,6 +146,9 @@ def advise(tags, champ, allies, enemies, enemy_items, own_items, item_stats,
     elif not isinstance(gold, (int, float)) or gold < PRICE:
         out.update(state="gold", need=max(0, PRICE - int(gold or 0)),
                    when=f"Mai ai nevoie de {max(0, PRICE - int(gold or 0))}g.")
+    elif left_items and not full and gold < reserve + PRICE:
+        out.update(state="wait", when=f"Mai intai itemele: ai nevoie de ~{reserve}g pentru ele, "
+                                       f"elixirul (500g) cand ai {reserve + PRICE}g.")
     else:
         late = t >= LATE
         out.update(state="buy", when=("Build plin: e cea mai buna cheltuiala de aur, ia-l la fiecare recall." if full
