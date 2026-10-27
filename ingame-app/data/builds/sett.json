@@ -25,14 +25,14 @@
  "fifth": [
   "Endless Hunger",
   "Sterak's Gage",
-  "Unending Despair",
-  "Titanic Hydra"
+  "Titanic Hydra",
+  "Unending Despair"
  ],
  "sixth": [
   "Endless Hunger",
   "Sterak's Gage",
   "Titanic Hydra",
-  "Spear of Shojin"
+  "Unending Despair"
  ],
  "pool": [
   "Giant's Belt",
@@ -44,7 +44,6 @@
   "Endless Hunger",
   "Titanic Hydra",
   "Unending Despair",
-  "Sterak's Gage",
-  "Spear of Shojin"
+  "Sterak's Gage"
  ]
 }

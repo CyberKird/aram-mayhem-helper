@@ -13,24 +13,24 @@
  "core": [
   "Heartsteel",
   "Boots of Swiftness",
-  "Warmog's Armor",
-  "Overlord's Bloodmail"
+  "Overlord's Bloodmail",
+  "Warmog's Armor"
  ],
  "fourth": [
-  "Endless Hunger",
-  "Unending Despair",
   "Jak'Sho, The Protean",
-  "Death's Dance"
+  "Unending Despair",
+  "Death's Dance",
+  "Spirit Visage"
  ],
  "fifth": [
+  "Unending Despair",
   "Jak'Sho, The Protean",
   "Endless Hunger",
-  "Unending Despair",
   "Sterak's Gage"
  ],
  "sixth": [
-  "Endless Hunger",
   "Unending Despair",
+  "Endless Hunger",
   "Jak'Sho, The Protean",
   "Death's Dance"
  ],
@@ -39,12 +39,13 @@
   "Ruby Crystal",
   "Heartsteel",
   "Boots of Swiftness",
-  "Warmog's Armor",
   "Overlord's Bloodmail",
-  "Endless Hunger",
-  "Unending Despair",
+  "Warmog's Armor",
   "Jak'Sho, The Protean",
+  "Unending Despair",
   "Death's Dance",
+  "Spirit Visage",
+  "Endless Hunger",
   "Sterak's Gage"
  ]
 }

@@ -13,8 +13,8 @@
  "core": [
   "The Collector",
   "Berserker's Greaves",
-  "Lord Dominik's Regards",
-  "Infinity Edge"
+  "Infinity Edge",
+  "Lord Dominik's Regards"
  ],
  "fourth": [
   "Bloodthirster",
@@ -26,27 +26,27 @@
   "Bloodthirster",
   "Voltaic Cyclosword",
   "Kraken Slayer",
-  "Statikk Shiv"
+  "Yun Tal Wildarrows"
  ],
  "sixth": [
   "Bloodthirster",
-  "Voltaic Cyclosword",
   "Edge of Night",
-  "Blade of The Ruined King"
+  "Voltaic Cyclosword",
+  "Phantom Dancer"
  ],
  "pool": [
   "Long Sword",
   "Pickaxe",
   "The Collector",
   "Berserker's Greaves",
-  "Lord Dominik's Regards",
   "Infinity Edge",
+  "Lord Dominik's Regards",
   "Bloodthirster",
   "Voltaic Cyclosword",
   "Blade of The Ruined King",
   "Yun Tal Wildarrows",
   "Kraken Slayer",
-  "Statikk Shiv",
-  "Edge of Night"
+  "Edge of Night",
+  "Phantom Dancer"
  ]
 }

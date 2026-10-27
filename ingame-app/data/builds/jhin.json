@@ -7,8 +7,8 @@
   "Ghost"
  ],
  "starting": [
-  "Boots",
-  "Serrated Dirk"
+  "Long Sword",
+  "Caulfield's Warhammer"
  ],
  "core": [
   "Hubris",
@@ -20,13 +20,13 @@
   "Hexoptics C44",
   "Lord Dominik's Regards",
   "Infinity Edge",
-  "Bloodthirster"
+  "Phantom Dancer"
  ],
  "fifth": [
   "Hexoptics C44",
   "Lord Dominik's Regards",
-  "Stormrazor",
-  "Edge of Night"
+  "Edge of Night",
+  "Stormrazor"
  ],
  "sixth": [
   "Endless Hunger",
@@ -35,8 +35,8 @@
   "Lord Dominik's Regards"
  ],
  "pool": [
-  "Boots",
-  "Serrated Dirk",
+  "Long Sword",
+  "Caulfield's Warhammer",
   "Hubris",
   "Berserker's Greaves",
   "The Collector",
@@ -44,9 +44,9 @@
   "Hexoptics C44",
   "Lord Dominik's Regards",
   "Infinity Edge",
-  "Bloodthirster",
-  "Stormrazor",
+  "Phantom Dancer",
   "Edge of Night",
+  "Stormrazor",
   "Endless Hunger",
   "Youmuu's Ghostblade"
  ]

@@ -7,12 +7,14 @@
   "Mark"
  ],
  "starting": [
+  "Health Potion",
+  "Health Potion",
   "Haunting Guise"
  ],
  "core": [
-  "Liandry's Torment",
-  "Mercury's Treads",
   "Riftmaker",
+  "Mercury's Treads",
+  "Liandry's Torment",
   "Rylai's Crystal Scepter"
  ],
  "fourth": [
@@ -23,8 +25,8 @@
  ],
  "fifth": [
   "Dusk and Dawn",
-  "Warmog's Armor",
   "Spirit Visage",
+  "Warmog's Armor",
   "Unending Despair"
  ],
  "sixth": [
@@ -34,10 +36,11 @@
   "Rabadon's Deathcap"
  ],
  "pool": [
+  "Health Potion",
   "Haunting Guise",
-  "Liandry's Torment",
-  "Mercury's Treads",
   "Riftmaker",
+  "Mercury's Treads",
+  "Liandry's Torment",
   "Rylai's Crystal Scepter",
   "Dusk and Dawn",
   "Spirit Visage",

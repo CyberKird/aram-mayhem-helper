@@ -21,19 +21,19 @@
  "fourth": [
   "Overlord's Bloodmail",
   "Unending Despair",
-  "Spear of Shojin",
-  "Jak'Sho, The Protean"
+  "Jak'Sho, The Protean",
+  "Death's Dance"
  ],
  "fifth": [
   "Overlord's Bloodmail",
   "Unending Despair",
-  "Death's Dance",
-  "Jak'Sho, The Protean"
+  "Jak'Sho, The Protean",
+  "Death's Dance"
  ],
  "sixth": [
+  "Unending Despair",
   "Overlord's Bloodmail",
   "Warmog's Armor",
-  "Spirit Visage",
   "Death's Dance"
  ],
  "pool": [
@@ -46,10 +46,8 @@
   "Riftmaker",
   "Overlord's Bloodmail",
   "Unending Despair",
-  "Spear of Shojin",
   "Jak'Sho, The Protean",
   "Death's Dance",
-  "Warmog's Armor",
-  "Spirit Visage"
+  "Warmog's Armor"
  ]
 }

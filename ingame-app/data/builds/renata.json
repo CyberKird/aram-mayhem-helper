@@ -7,43 +7,45 @@
   "Heal"
  ],
  "starting": [
-  "Lost Chapter"
+  "Tear of the Goddess",
+  "Bandleglass Mirror"
  ],
  "core": [
-  "Malignance",
-  "Ionian Boots of Lucidity",
   "Imperial Mandate",
-  "Moonstone Renewer"
+  "Ionian Boots of Lucidity",
+  "Moonstone Renewer",
+  "Whispering Circlet"
  ],
  "fourth": [
   "Ardent Censer",
   "Archangel's Staff",
-  "Whispering Circlet",
-  "Rabadon's Deathcap"
+  "Rabadon's Deathcap",
+  "Redemption"
  ],
  "fifth": [
-  "Dawncore",
   "Staff of Flowing Water",
+  "Dawncore",
   "Ardent Censer",
   "Archangel's Staff"
  ],
  "sixth": [
+  "Staff of Flowing Water",
   "Dawncore",
   "Ardent Censer",
-  "Staff of Flowing Water",
-  "Rabadon's Deathcap"
+  "Redemption"
  ],
  "pool": [
-  "Lost Chapter",
-  "Malignance",
-  "Ionian Boots of Lucidity",
+  "Tear of the Goddess",
+  "Bandleglass Mirror",
   "Imperial Mandate",
+  "Ionian Boots of Lucidity",
   "Moonstone Renewer",
+  "Whispering Circlet",
   "Ardent Censer",
   "Archangel's Staff",
-  "Whispering Circlet",
   "Rabadon's Deathcap",
-  "Dawncore",
-  "Staff of Flowing Water"
+  "Redemption",
+  "Staff of Flowing Water",
+  "Dawncore"
  ]
 }

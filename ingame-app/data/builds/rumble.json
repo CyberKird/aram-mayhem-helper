@@ -11,22 +11,22 @@
   "Guardian's Orb"
  ],
  "core": [
-  "Liandry's Torment",
-  "Sorcerer's Shoes",
   "Shadowflame",
+  "Sorcerer's Shoes",
+  "Liandry's Torment",
   "Rabadon's Deathcap"
  ],
  "fourth": [
   "Stormsurge",
   "Bloodletter's Curse",
-  "Riftmaker",
-  "Void Staff"
+  "Void Staff",
+  "Riftmaker"
  ],
  "fifth": [
   "Stormsurge",
   "Void Staff",
-  "Riftmaker",
-  "Bloodletter's Curse"
+  "Bloodletter's Curse",
+  "Riftmaker"
  ],
  "sixth": [
   "Stormsurge",
@@ -37,13 +37,13 @@
  "pool": [
   "Amplifying Tome",
   "Guardian's Orb",
-  "Liandry's Torment",
-  "Sorcerer's Shoes",
   "Shadowflame",
+  "Sorcerer's Shoes",
+  "Liandry's Torment",
   "Rabadon's Deathcap",
   "Stormsurge",
   "Bloodletter's Curse",
-  "Riftmaker",
-  "Void Staff"
+  "Void Staff",
+  "Riftmaker"
  ]
 }

@@ -19,14 +19,14 @@
  "fourth": [
   "Frozen Heart",
   "Randuin's Omen",
-  "Warmog's Armor",
+  "Unending Despair",
   "Force of Nature"
  ],
  "fifth": [
   "Frozen Heart",
-  "Force of Nature",
   "Warmog's Armor",
-  "Randuin's Omen"
+  "Randuin's Omen",
+  "Force of Nature"
  ],
  "sixth": [
   "Frozen Heart",
@@ -43,8 +43,8 @@
   "Jak'Sho, The Protean",
   "Frozen Heart",
   "Randuin's Omen",
-  "Warmog's Armor",
+  "Unending Despair",
   "Force of Nature",
-  "Unending Despair"
+  "Warmog's Armor"
  ]
 }

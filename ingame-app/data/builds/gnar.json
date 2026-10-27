@@ -18,8 +18,8 @@
  ],
  "fourth": [
   "Unending Despair",
-  "Kaenic Rookern",
   "Jak'Sho, The Protean",
+  "Kaenic Rookern",
   "Wit's End"
  ],
  "fifth": [
@@ -29,10 +29,10 @@
   "Sterak's Gage"
  ],
  "sixth": [
+  "Unending Despair",
   "Jak'Sho, The Protean",
-  "Black Cleaver",
-  "Force of Nature",
-  "Sterak's Gage"
+  "Sterak's Gage",
+  "Force of Nature"
  ],
  "pool": [
   "Giant's Belt",
@@ -42,11 +42,10 @@
   "Warmog's Armor",
   "Overlord's Bloodmail",
   "Unending Despair",
-  "Kaenic Rookern",
   "Jak'Sho, The Protean",
+  "Kaenic Rookern",
   "Wit's End",
   "Force of Nature",
-  "Sterak's Gage",
-  "Black Cleaver"
+  "Sterak's Gage"
  ]
 }

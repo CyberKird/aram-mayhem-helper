@@ -18,21 +18,21 @@
  ],
  "fourth": [
   "Overlord's Bloodmail",
-  "Unending Despair",
   "Jak'Sho, The Protean",
+  "Unending Despair",
   "Endless Hunger"
  ],
  "fifth": [
-  "Overlord's Bloodmail",
   "Unending Despair",
-  "Endless Hunger",
-  "Sundered Sky"
+  "Overlord's Bloodmail",
+  "Sterak's Gage",
+  "Endless Hunger"
  ],
  "sixth": [
-  "Sterak's Gage",
   "Unending Despair",
-  "Overlord's Bloodmail",
-  "Death's Dance"
+  "Death's Dance",
+  "Sterak's Gage",
+  "Endless Hunger"
  ],
  "pool": [
   "Giant's Belt",
@@ -42,10 +42,9 @@
   "Titanic Hydra",
   "Warmog's Armor",
   "Overlord's Bloodmail",
-  "Unending Despair",
   "Jak'Sho, The Protean",
+  "Unending Despair",
   "Endless Hunger",
-  "Sundered Sky",
   "Sterak's Gage",
   "Death's Dance"
  ]

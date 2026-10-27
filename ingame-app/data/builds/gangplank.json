@@ -8,13 +8,13 @@
  ],
  "starting": [
   "Long Sword",
-  "Guardian's Blade"
+  "Sheen"
  ],
  "core": [
   "Essence Reaver",
   "Ionian Boots of Lucidity",
-  "The Collector",
-  "Infinity Edge"
+  "Infinity Edge",
+  "The Collector"
  ],
  "fourth": [
   "Lord Dominik's Regards",
@@ -24,23 +24,23 @@
  ],
  "fifth": [
   "Endless Hunger",
-  "Lord Dominik's Regards",
   "Hubris",
+  "Lord Dominik's Regards",
   "Death's Dance"
  ],
  "sixth": [
   "Voltaic Cyclosword",
   "Endless Hunger",
-  "Hubris",
-  "Death's Dance"
+  "Death's Dance",
+  "Hubris"
  ],
  "pool": [
   "Long Sword",
-  "Guardian's Blade",
+  "Sheen",
   "Essence Reaver",
   "Ionian Boots of Lucidity",
-  "The Collector",
   "Infinity Edge",
+  "The Collector",
   "Lord Dominik's Regards",
   "Axiom Arc",
   "Mortal Reminder",

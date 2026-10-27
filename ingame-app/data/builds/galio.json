@@ -7,7 +7,8 @@
   "Mark"
  ],
  "starting": [
-  "Needlessly Large Rod"
+  "Amplifying Tome",
+  "Guardian's Orb"
  ],
  "core": [
   "Shadowflame",
@@ -19,13 +20,13 @@
   "Riftmaker",
   "Warmog's Armor",
   "Jak'Sho, The Protean",
-  "Void Staff"
+  "Spirit Visage"
  ],
  "fifth": [
   "Riftmaker",
   "Warmog's Armor",
-  "Void Staff",
-  "Jak'Sho, The Protean"
+  "Jak'Sho, The Protean",
+  "Spirit Visage"
  ],
  "sixth": [
   "Riftmaker",
@@ -34,7 +35,8 @@
   "Jak'Sho, The Protean"
  ],
  "pool": [
-  "Needlessly Large Rod",
+  "Amplifying Tome",
+  "Guardian's Orb",
   "Shadowflame",
   "Sorcerer's Shoes",
   "Rabadon's Deathcap",
@@ -42,7 +44,7 @@
   "Riftmaker",
   "Warmog's Armor",
   "Jak'Sho, The Protean",
-  "Void Staff",
-  "Spirit Visage"
+  "Spirit Visage",
+  "Void Staff"
  ]
 }

@@ -12,12 +12,12 @@
  "core": [
   "Luden's Echo",
   "Sorcerer's Shoes",
-  "Shadowflame",
-  "Dusk and Dawn"
+  "Dusk and Dawn",
+  "Shadowflame"
  ],
  "fourth": [
-  "Rabadon's Deathcap",
   "Stormsurge",
+  "Rabadon's Deathcap",
   "Horizon Focus",
   "Manamune"
  ],
@@ -37,10 +37,10 @@
   "Lost Chapter",
   "Luden's Echo",
   "Sorcerer's Shoes",
-  "Shadowflame",
   "Dusk and Dawn",
-  "Rabadon's Deathcap",
+  "Shadowflame",
   "Stormsurge",
+  "Rabadon's Deathcap",
   "Horizon Focus",
   "Manamune",
   "Void Staff",

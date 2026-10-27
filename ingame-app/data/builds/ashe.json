@@ -16,8 +16,8 @@
   "Runaan's Hurricane"
  ],
  "fourth": [
-  "Terminus",
   "Lord Dominik's Regards",
+  "Terminus",
   "Blade of The Ruined King",
   "Rabadon's Deathcap"
  ],
@@ -31,7 +31,7 @@
   "Archangel's Staff",
   "Shadowflame",
   "Bloodthirster",
-  "Lord Dominik's Regards"
+  "Phantom Dancer"
  ],
  "pool": [
   "B. F. Sword",
@@ -39,12 +39,13 @@
   "Berserker's Greaves",
   "Infinity Edge",
   "Runaan's Hurricane",
-  "Terminus",
   "Lord Dominik's Regards",
+  "Terminus",
   "Blade of The Ruined King",
   "Rabadon's Deathcap",
   "Archangel's Staff",
   "Bloodthirster",
-  "Shadowflame"
+  "Shadowflame",
+  "Phantom Dancer"
  ]
 }

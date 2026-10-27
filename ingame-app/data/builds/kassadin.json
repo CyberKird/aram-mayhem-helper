@@ -18,21 +18,21 @@
  ],
  "fourth": [
   "Manamune",
-  "Rabadon's Deathcap",
   "Winter's Approach",
+  "Rabadon's Deathcap",
   "Frozen Heart"
  ],
  "fifth": [
   "Winter's Approach",
   "Manamune",
-  "Rabadon's Deathcap",
-  "Riftmaker"
+  "Riftmaker",
+  "Rabadon's Deathcap"
  ],
  "sixth": [
   "Winter's Approach",
   "Manamune",
   "Riftmaker",
-  "Rabadon's Deathcap"
+  "Lich Bane"
  ],
  "pool": [
   "Blasting Wand",
@@ -42,9 +42,10 @@
   "Malignance",
   "Archangel's Staff",
   "Manamune",
-  "Rabadon's Deathcap",
   "Winter's Approach",
+  "Rabadon's Deathcap",
   "Frozen Heart",
-  "Riftmaker"
+  "Riftmaker",
+  "Lich Bane"
  ]
 }

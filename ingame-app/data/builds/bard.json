@@ -24,12 +24,12 @@
  "fifth": [
   "Void Staff",
   "Shadowflame",
-  "Nashor's Tooth",
-  "Rapid Firecannon"
+  "Terminus",
+  "Nashor's Tooth"
  ],
  "sixth": [
-  "Shadowflame",
   "Void Staff",
+  "Shadowflame",
   "Nashor's Tooth",
   "Rapid Firecannon"
  ],
@@ -44,6 +44,7 @@
   "Guinsoo's Rageblade",
   "Statikk Shiv",
   "Void Staff",
+  "Terminus",
   "Rapid Firecannon"
  ]
 }

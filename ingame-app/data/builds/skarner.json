@@ -7,46 +7,46 @@
   "Mark"
  ],
  "starting": [
-  "Tear of the Goddess",
-  "Guardian's Blade"
+  "Giant's Belt",
+  "Ruby Crystal"
  ],
  "core": [
-  "Liandry's Torment",
+  "Heartsteel",
   "Mercury's Treads",
-  "Manamune",
-  "Spear of Shojin"
+  "Unending Despair",
+  "Warmog's Armor"
  ],
  "fourth": [
-  "Warmog's Armor",
   "Winter's Approach",
   "Jak'Sho, The Protean",
-  "Unending Despair"
+  "Hollow Radiance",
+  "Spirit Visage"
  ],
  "fifth": [
-  "Spirit Visage",
-  "Warmog's Armor",
   "Overlord's Bloodmail",
-  "Frozen Heart"
+  "Spirit Visage",
+  "Frozen Heart",
+  "Jak'Sho, The Protean"
  ],
  "sixth": [
-  "Unending Despair",
   "Jak'Sho, The Protean",
-  "Winter's Approach",
-  "Overlord's Bloodmail"
+  "Overlord's Bloodmail",
+  "Frozen Heart",
+  "Force of Nature"
  ],
  "pool": [
-  "Tear of the Goddess",
-  "Guardian's Blade",
-  "Liandry's Torment",
+  "Giant's Belt",
+  "Ruby Crystal",
+  "Heartsteel",
   "Mercury's Treads",
-  "Manamune",
-  "Spear of Shojin",
+  "Unending Despair",
   "Warmog's Armor",
   "Winter's Approach",
   "Jak'Sho, The Protean",
-  "Unending Despair",
+  "Hollow Radiance",
   "Spirit Visage",
   "Overlord's Bloodmail",
-  "Frozen Heart"
+  "Frozen Heart",
+  "Force of Nature"
  ]
 }

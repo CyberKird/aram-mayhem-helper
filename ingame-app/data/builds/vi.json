@@ -20,19 +20,19 @@
   "Endless Hunger",
   "Lord Dominik's Regards",
   "Death's Dance",
-  "Axiom Arc"
+  "Infinity Edge"
  ],
  "fifth": [
   "Endless Hunger",
   "Lord Dominik's Regards",
-  "Death's Dance",
-  "Axiom Arc"
+  "Axiom Arc",
+  "Death's Dance"
  ],
  "sixth": [
   "Endless Hunger",
   "Death's Dance",
-  "Voltaic Cyclosword",
-  "Lord Dominik's Regards"
+  "Lord Dominik's Regards",
+  "Maw of Malmortius"
  ],
  "pool": [
   "Giant's Belt",
@@ -44,7 +44,8 @@
   "Endless Hunger",
   "Lord Dominik's Regards",
   "Death's Dance",
+  "Infinity Edge",
   "Axiom Arc",
-  "Voltaic Cyclosword"
+  "Maw of Malmortius"
  ]
 }

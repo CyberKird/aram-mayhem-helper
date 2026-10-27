@@ -8,43 +8,43 @@
  ],
  "starting": [
   "Long Sword",
-  "Guardian's Blade"
+  "Serrated Dirk"
  ],
  "core": [
   "Hubris",
   "Ionian Boots of Lucidity",
   "Axiom Arc",
-  "Profane Hydra"
+  "The Collector"
  ],
  "fourth": [
   "Voltaic Cyclosword",
   "Death's Dance",
   "Lord Dominik's Regards",
-  "Infinity Edge"
+  "Profane Hydra"
  ],
  "fifth": [
   "Endless Hunger",
+  "Voltaic Cyclosword",
   "Lord Dominik's Regards",
-  "Death's Dance",
-  "Voltaic Cyclosword"
+  "Death's Dance"
  ],
  "sixth": [
-  "Endless Hunger",
   "Death's Dance",
-  "Voltaic Cyclosword",
-  "Lord Dominik's Regards"
+  "Endless Hunger",
+  "Lord Dominik's Regards",
+  "Voltaic Cyclosword"
  ],
  "pool": [
   "Long Sword",
-  "Guardian's Blade",
+  "Serrated Dirk",
   "Hubris",
   "Ionian Boots of Lucidity",
   "Axiom Arc",
-  "Profane Hydra",
+  "The Collector",
   "Voltaic Cyclosword",
   "Death's Dance",
   "Lord Dominik's Regards",
-  "Infinity Edge",
+  "Profane Hydra",
   "Endless Hunger"
  ]
 }

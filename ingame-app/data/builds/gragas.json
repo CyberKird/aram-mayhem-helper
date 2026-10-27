@@ -12,18 +12,18 @@
  "core": [
   "Shadowflame",
   "Sorcerer's Shoes",
-  "Lich Bane",
-  "Rabadon's Deathcap"
+  "Rabadon's Deathcap",
+  "Lich Bane"
  ],
  "fourth": [
-  "Stormsurge",
   "Void Staff",
-  "Warmog's Armor",
-  "Unending Despair"
+  "Stormsurge",
+  "Unending Despair",
+  "Warmog's Armor"
  ],
  "fifth": [
-  "Stormsurge",
   "Void Staff",
+  "Stormsurge",
   "Cryptbloom",
   "Jak'Sho, The Protean"
  ],
@@ -37,12 +37,12 @@
   "Needlessly Large Rod",
   "Shadowflame",
   "Sorcerer's Shoes",
-  "Lich Bane",
   "Rabadon's Deathcap",
-  "Stormsurge",
+  "Lich Bane",
   "Void Staff",
-  "Warmog's Armor",
+  "Stormsurge",
   "Unending Despair",
+  "Warmog's Armor",
   "Cryptbloom",
   "Jak'Sho, The Protean",
   "Zhonya's Hourglass"

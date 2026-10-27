@@ -7,7 +7,6 @@
   "Mark"
  ],
  "starting": [
-  "Boots",
   "Amplifying Tome",
   "Scout's Slingshot"
  ],
@@ -20,8 +19,8 @@
  "fourth": [
   "Riftmaker",
   "Rabadon's Deathcap",
-  "Navori Flickerblade",
-  "Spirit Visage"
+  "Shadowflame",
+  "Navori Flickerblade"
  ],
  "fifth": [
   "Riftmaker",
@@ -36,7 +35,6 @@
   "Spirit Visage"
  ],
  "pool": [
-  "Boots",
   "Amplifying Tome",
   "Scout's Slingshot",
   "Statikk Shiv",
@@ -45,8 +43,9 @@
   "Nashor's Tooth",
   "Riftmaker",
   "Rabadon's Deathcap",
+  "Shadowflame",
   "Navori Flickerblade",
-  "Spirit Visage",
-  "Overlord's Bloodmail"
+  "Overlord's Bloodmail",
+  "Spirit Visage"
  ]
 }

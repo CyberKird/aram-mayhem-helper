@@ -18,20 +18,20 @@
  ],
  "fourth": [
   "Riftmaker",
-  "Jak'Sho, The Protean",
   "Hollow Radiance",
+  "Jak'Sho, The Protean",
   "Spirit Visage"
  ],
  "fifth": [
   "Riftmaker",
   "Hollow Radiance",
   "Jak'Sho, The Protean",
-  "Spirit Visage"
+  "Kaenic Rookern"
  ],
  "sixth": [
   "Riftmaker",
-  "Jak'Sho, The Protean",
   "Hollow Radiance",
+  "Jak'Sho, The Protean",
   "Spirit Visage"
  ],
  "pool": [
@@ -42,8 +42,9 @@
   "Unending Despair",
   "Warmog's Armor",
   "Riftmaker",
-  "Jak'Sho, The Protean",
   "Hollow Radiance",
-  "Spirit Visage"
+  "Jak'Sho, The Protean",
+  "Spirit Visage",
+  "Kaenic Rookern"
  ]
 }

@@ -8,7 +8,7 @@
  ],
  "starting": [
   "Long Sword",
-  "Serrated Dirk"
+  "Guardian's Blade"
  ],
  "core": [
   "Hubris",
@@ -30,13 +30,13 @@
  ],
  "sixth": [
   "Voltaic Cyclosword",
-  "Endless Hunger",
   "Axiom Arc",
-  "Lord Dominik's Regards"
+  "Endless Hunger",
+  "Edge of Night"
  ],
  "pool": [
   "Long Sword",
-  "Serrated Dirk",
+  "Guardian's Blade",
   "Hubris",
   "Mercury's Treads",
   "The Collector",
@@ -47,6 +47,7 @@
   "Essence Reaver",
   "Hexoptics C44",
   "Voltaic Cyclosword",
-  "Endless Hunger"
+  "Endless Hunger",
+  "Edge of Night"
  ]
 }

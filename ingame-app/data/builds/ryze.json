@@ -7,7 +7,7 @@
   "Ghost"
  ],
  "starting": [
-  "Boots",
+  "Sapphire Crystal",
   "Sapphire Crystal",
   "Ruby Crystal",
   "Tear of the Goddess"
@@ -22,7 +22,7 @@
   "Winter's Approach",
   "Riftmaker",
   "Actualizer",
-  "Void Staff"
+  "Shadowflame"
  ],
  "fifth": [
   "Riftmaker",
@@ -37,7 +37,6 @@
   "Shadowflame"
  ],
  "pool": [
-  "Boots",
   "Sapphire Crystal",
   "Ruby Crystal",
   "Tear of the Goddess",
@@ -48,7 +47,6 @@
   "Winter's Approach",
   "Riftmaker",
   "Actualizer",
-  "Void Staff",
   "Shadowflame"
  ]
 }

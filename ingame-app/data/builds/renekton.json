@@ -18,20 +18,20 @@
  ],
  "fourth": [
   "Spear of Shojin",
-  "Sterak's Gage",
   "Overlord's Bloodmail",
-  "Eclipse"
+  "Black Cleaver",
+  "Sterak's Gage"
  ],
  "fifth": [
   "Jak'Sho, The Protean",
   "Spear of Shojin",
   "Sterak's Gage",
-  "Black Cleaver"
+  "Overlord's Bloodmail"
  ],
  "sixth": [
   "Overlord's Bloodmail",
+  "Sterak's Gage",
   "Black Cleaver",
-  "Jak'Sho, The Protean",
   "Maw of Malmortius"
  ],
  "pool": [
@@ -42,11 +42,10 @@
   "Death's Dance",
   "Endless Hunger",
   "Spear of Shojin",
-  "Sterak's Gage",
   "Overlord's Bloodmail",
-  "Eclipse",
-  "Jak'Sho, The Protean",
   "Black Cleaver",
+  "Sterak's Gage",
+  "Jak'Sho, The Protean",
   "Maw of Malmortius"
  ]
 }

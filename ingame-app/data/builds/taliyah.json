@@ -7,14 +7,14 @@
   "Ghost"
  ],
  "starting": [
-  "Amplifying Tome",
-  "Guardian's Orb"
+  "Refillable Potion",
+  "Lost Chapter"
  ],
  "core": [
   "Blackfire Torch",
   "Sorcerer's Shoes",
-  "Shadowflame",
-  "Rabadon's Deathcap"
+  "Rabadon's Deathcap",
+  "Shadowflame"
  ],
  "fourth": [
   "Archangel's Staff",
@@ -23,29 +23,28 @@
   "Zhonya's Hourglass"
  ],
  "fifth": [
+  "Banshee's Veil",
   "Stormsurge",
   "Void Staff",
-  "Archangel's Staff",
-  "Cryptbloom"
+  "Archangel's Staff"
  ],
  "sixth": [
-  "Stormsurge",
   "Banshee's Veil",
   "Void Staff",
+  "Stormsurge",
   "Zhonya's Hourglass"
  ],
  "pool": [
-  "Amplifying Tome",
-  "Guardian's Orb",
+  "Refillable Potion",
+  "Lost Chapter",
   "Blackfire Torch",
   "Sorcerer's Shoes",
-  "Shadowflame",
   "Rabadon's Deathcap",
+  "Shadowflame",
   "Archangel's Staff",
   "Void Staff",
   "Stormsurge",
   "Zhonya's Hourglass",
-  "Cryptbloom",
   "Banshee's Veil"
  ]
 }

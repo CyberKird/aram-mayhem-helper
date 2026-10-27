@@ -19,20 +19,20 @@
  "fourth": [
   "Iceborn Gauntlet",
   "Spirit Visage",
-  "Warmog's Armor",
-  "Thornmail"
+  "Thornmail",
+  "Warmog's Armor"
  ],
  "fifth": [
   "Frozen Heart",
   "Iceborn Gauntlet",
   "Spirit Visage",
-  "Warmog's Armor"
+  "Force of Nature"
  ],
  "sixth": [
   "Frozen Heart",
   "Force of Nature",
-  "Iceborn Gauntlet",
-  "Spirit Visage"
+  "Spirit Visage",
+  "Iceborn Gauntlet"
  ],
  "pool": [
   "Giant's Belt",
@@ -43,8 +43,8 @@
   "Jak'Sho, The Protean",
   "Iceborn Gauntlet",
   "Spirit Visage",
-  "Warmog's Armor",
   "Thornmail",
+  "Warmog's Armor",
   "Frozen Heart",
   "Force of Nature"
  ]

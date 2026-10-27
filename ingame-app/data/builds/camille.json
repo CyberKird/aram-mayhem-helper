@@ -12,41 +12,41 @@
   "Chain Vest"
  ],
  "core": [
-  "Iceborn Gauntlet",
-  "Plated Steelcaps",
   "Thornmail",
+  "Plated Steelcaps",
+  "Iceborn Gauntlet",
   "Jak'Sho, The Protean"
  ],
  "fourth": [
   "Randuin's Omen",
   "Endless Hunger",
-  "Spear of Shojin",
-  "Maw of Malmortius"
+  "Maw of Malmortius",
+  "Spear of Shojin"
  ],
  "fifth": [
   "Endless Hunger",
-  "Maw of Malmortius",
+  "Randuin's Omen",
   "Death's Dance",
-  "Spear of Shojin"
+  "Maw of Malmortius"
  ],
  "sixth": [
-  "Endless Hunger",
+  "Death's Dance",
   "Randuin's Omen",
-  "Overlord's Bloodmail",
-  "Death's Dance"
+  "Endless Hunger",
+  "Kaenic Rookern"
  ],
  "pool": [
   "Cloth Armor",
   "Chain Vest",
-  "Iceborn Gauntlet",
-  "Plated Steelcaps",
   "Thornmail",
+  "Plated Steelcaps",
+  "Iceborn Gauntlet",
   "Jak'Sho, The Protean",
   "Randuin's Omen",
   "Endless Hunger",
-  "Spear of Shojin",
   "Maw of Malmortius",
+  "Spear of Shojin",
   "Death's Dance",
-  "Overlord's Bloodmail"
+  "Kaenic Rookern"
  ]
 }

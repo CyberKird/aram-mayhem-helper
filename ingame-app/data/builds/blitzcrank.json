@@ -23,15 +23,15 @@
  ],
  "fifth": [
   "Warmog's Armor",
-  "Spirit Visage",
   "Jak'Sho, The Protean",
-  "Unending Despair"
+  "Frozen Heart",
+  "Spirit Visage"
  ],
  "sixth": [
-  "Stormsurge",
+  "Warmog's Armor",
   "Void Staff",
   "Jak'Sho, The Protean",
-  "Warmog's Armor"
+  "Stormsurge"
  ],
  "pool": [
   "Lost Chapter",
@@ -44,8 +44,7 @@
   "Winter's Approach",
   "Jak'Sho, The Protean",
   "Spirit Visage",
-  "Unending Despair",
-  "Stormsurge",
-  "Void Staff"
+  "Void Staff",
+  "Stormsurge"
  ]
 }

@@ -8,13 +8,14 @@
  ],
  "starting": [
   "Long Sword",
-  "Guardian's Blade"
+  "Long Sword",
+  "Recurve Bow"
  ],
  "core": [
   "Kraken Slayer",
   "Berserker's Greaves",
-  "Blade of The Ruined King",
-  "Terminus"
+  "Terminus",
+  "Blade of The Ruined King"
  ],
  "fourth": [
   "Death's Dance",
@@ -36,11 +37,11 @@
  ],
  "pool": [
   "Long Sword",
-  "Guardian's Blade",
+  "Recurve Bow",
   "Kraken Slayer",
   "Berserker's Greaves",
-  "Blade of The Ruined King",
   "Terminus",
+  "Blade of The Ruined King",
   "Death's Dance",
   "Experimental Hexplate",
   "Titanic Hydra",

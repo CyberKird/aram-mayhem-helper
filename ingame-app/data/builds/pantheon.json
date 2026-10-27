@@ -18,9 +18,9 @@
  ],
  "fourth": [
   "Endless Hunger",
+  "Unending Despair",
   "Voltaic Cyclosword",
-  "Lord Dominik's Regards",
-  "Death's Dance"
+  "Lord Dominik's Regards"
  ],
  "fifth": [
   "Endless Hunger",
@@ -30,8 +30,8 @@
  ],
  "sixth": [
   "Endless Hunger",
-  "Death's Dance",
   "Voltaic Cyclosword",
+  "Death's Dance",
   "Lord Dominik's Regards"
  ],
  "pool": [
@@ -42,9 +42,10 @@
   "Overlord's Bloodmail",
   "Warmog's Armor",
   "Endless Hunger",
+  "Unending Despair",
   "Voltaic Cyclosword",
   "Lord Dominik's Regards",
-  "Death's Dance",
-  "Infinity Edge"
+  "Infinity Edge",
+  "Death's Dance"
  ]
 }

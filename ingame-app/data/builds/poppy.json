@@ -18,15 +18,15 @@
  ],
  "fourth": [
   "Jak'Sho, The Protean",
-  "Overlord's Bloodmail",
   "Sunfire Aegis",
-  "Randuin's Omen"
+  "Randuin's Omen",
+  "Overlord's Bloodmail"
  ],
  "fifth": [
   "Jak'Sho, The Protean",
   "Frozen Heart",
   "Overlord's Bloodmail",
-  "Hollow Radiance"
+  "Randuin's Omen"
  ],
  "sixth": [
   "Frozen Heart",
@@ -42,10 +42,9 @@
   "Unending Despair",
   "Warmog's Armor",
   "Jak'Sho, The Protean",
-  "Overlord's Bloodmail",
   "Sunfire Aegis",
   "Randuin's Omen",
-  "Frozen Heart",
-  "Hollow Radiance"
+  "Overlord's Bloodmail",
+  "Frozen Heart"
  ]
 }

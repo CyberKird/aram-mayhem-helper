@@ -18,9 +18,9 @@
  ],
  "fourth": [
   "Rabadon's Deathcap",
-  "Bloodletter's Curse",
   "Malignance",
-  "Shadowflame"
+  "Shadowflame",
+  "Zhonya's Hourglass"
  ],
  "fifth": [
   "Bloodletter's Curse",
@@ -42,10 +42,10 @@
   "Liandry's Torment",
   "Archangel's Staff",
   "Rabadon's Deathcap",
-  "Bloodletter's Curse",
   "Malignance",
   "Shadowflame",
-  "Blackfire Torch",
-  "Zhonya's Hourglass"
+  "Zhonya's Hourglass",
+  "Bloodletter's Curse",
+  "Blackfire Torch"
  ]
 }

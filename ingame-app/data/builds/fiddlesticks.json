@@ -4,7 +4,7 @@
  "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
-  "Mark"
+  "Ghost"
  ],
  "starting": [
   "Lost Chapter"
@@ -28,8 +28,8 @@
   "Riftmaker"
  ],
  "sixth": [
-  "Banshee's Veil",
   "Stormsurge",
+  "Banshee's Veil",
   "Void Staff",
   "Rylai's Crystal Scepter"
  ],

@@ -7,8 +7,8 @@
   "Ghost"
  ],
  "starting": [
-  "Boots",
-  "Serrated Dirk"
+  "Long Sword",
+  "Pickaxe"
  ],
  "core": [
   "The Collector",
@@ -32,11 +32,11 @@
   "Death's Dance",
   "Bloodthirster",
   "Phantom Dancer",
-  "Kaenic Rookern"
+  "Hexoptics C44"
  ],
  "pool": [
-  "Boots",
-  "Serrated Dirk",
+  "Long Sword",
+  "Pickaxe",
   "The Collector",
   "Berserker's Greaves",
   "Infinity Edge",
@@ -46,7 +46,6 @@
   "Runaan's Hurricane",
   "Mortal Reminder",
   "Death's Dance",
-  "Phantom Dancer",
-  "Kaenic Rookern"
+  "Phantom Dancer"
  ]
 }

@@ -20,19 +20,19 @@
   "Warmog's Armor",
   "Black Cleaver",
   "Sterak's Gage",
-  "Kaenic Rookern"
+  "Unending Despair"
  ],
  "fifth": [
   "Warmog's Armor",
   "Sterak's Gage",
-  "Unending Despair",
-  "Black Cleaver"
+  "Black Cleaver",
+  "Unending Despair"
  ],
  "sixth": [
   "Sterak's Gage",
   "Warmog's Armor",
   "Spirit Visage",
-  "Jak'Sho, The Protean"
+  "Unending Despair"
  ],
  "pool": [
   "Giant's Belt",
@@ -44,9 +44,7 @@
   "Warmog's Armor",
   "Black Cleaver",
   "Sterak's Gage",
-  "Kaenic Rookern",
   "Unending Despair",
-  "Spirit Visage",
-  "Jak'Sho, The Protean"
+  "Spirit Visage"
  ]
 }

@@ -24,15 +24,15 @@
  ],
  "fifth": [
   "Bloodletter's Curse",
-  "Riftmaker",
   "Warmog's Armor",
+  "Riftmaker",
   "Rabadon's Deathcap"
  ],
  "sixth": [
-  "Warmog's Armor",
   "Bloodletter's Curse",
-  "Archangel's Staff",
-  "Riftmaker"
+  "Warmog's Armor",
+  "Riftmaker",
+  "Shadowflame"
  ],
  "pool": [
   "Refillable Potion",
@@ -45,7 +45,6 @@
   "Rabadon's Deathcap",
   "Warmog's Armor",
   "Shadowflame",
-  "Riftmaker",
-  "Archangel's Staff"
+  "Riftmaker"
  ]
 }

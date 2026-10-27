@@ -7,8 +7,9 @@
   "Ghost"
  ],
  "starting": [
-  "Blasting Wand",
-  "Amplifying Tome"
+  "Boots",
+  "Dagger",
+  "Fiendish Codex"
  ],
  "core": [
   "Nashor's Tooth",
@@ -19,7 +20,7 @@
  "fourth": [
   "Shadowflame",
   "Statikk Shiv",
-  "Runaan's Hurricane",
+  "Guinsoo's Rageblade",
   "Terminus"
  ],
  "fifth": [
@@ -30,20 +31,21 @@
  ],
  "sixth": [
   "Void Staff",
-  "Statikk Shiv",
   "Shadowflame",
+  "Statikk Shiv",
   "Terminus"
  ],
  "pool": [
-  "Blasting Wand",
-  "Amplifying Tome",
+  "Boots",
+  "Dagger",
+  "Fiendish Codex",
   "Nashor's Tooth",
   "Berserker's Greaves",
   "Dusk and Dawn",
   "Rabadon's Deathcap",
   "Shadowflame",
   "Statikk Shiv",
-  "Runaan's Hurricane",
+  "Guinsoo's Rageblade",
   "Terminus",
   "Void Staff",
   "Riftmaker"

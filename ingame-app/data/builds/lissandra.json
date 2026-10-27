@@ -13,37 +13,38 @@
  "core": [
   "Malignance",
   "Sorcerer's Shoes",
-  "Shadowflame",
-  "Rabadon's Deathcap"
+  "Rabadon's Deathcap",
+  "Shadowflame"
  ],
  "fourth": [
-  "Void Staff",
   "Stormsurge",
+  "Void Staff",
   "Zhonya's Hourglass",
-  "Cryptbloom"
+  "Liandry's Torment"
  ],
  "fifth": [
   "Stormsurge",
   "Void Staff",
-  "Zhonya's Hourglass",
-  "Cryptbloom"
+  "Cryptbloom",
+  "Zhonya's Hourglass"
  ],
  "sixth": [
   "Banshee's Veil",
   "Stormsurge",
   "Void Staff",
-  "Cryptbloom"
+  "Zhonya's Hourglass"
  ],
  "pool": [
   "Refillable Potion",
   "Lost Chapter",
   "Malignance",
   "Sorcerer's Shoes",
-  "Shadowflame",
   "Rabadon's Deathcap",
-  "Void Staff",
+  "Shadowflame",
   "Stormsurge",
+  "Void Staff",
   "Zhonya's Hourglass",
+  "Liandry's Torment",
   "Cryptbloom",
   "Banshee's Veil"
  ]

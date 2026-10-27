@@ -23,16 +23,16 @@
   "Liandry's Torment"
  ],
  "fifth": [
-  "Stormsurge",
   "Void Staff",
+  "Stormsurge",
   "Zhonya's Hourglass",
   "Liandry's Torment"
  ],
  "sixth": [
   "Stormsurge",
-  "Void Staff",
   "Nashor's Tooth",
-  "Zhonya's Hourglass"
+  "Void Staff",
+  "Banshee's Veil"
  ],
  "pool": [
   "Blasting Wand",
@@ -45,6 +45,7 @@
   "Void Staff",
   "Zhonya's Hourglass",
   "Liandry's Torment",
-  "Nashor's Tooth"
+  "Nashor's Tooth",
+  "Banshee's Veil"
  ]
 }

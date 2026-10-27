@@ -17,21 +17,21 @@
   "Warmog's Armor"
  ],
  "fourth": [
-  "Jak'Sho, The Protean",
-  "Randuin's Omen",
-  "Sunfire Aegis",
-  "Hollow Radiance"
- ],
- "fifth": [
   "Frozen Heart",
   "Jak'Sho, The Protean",
   "Sunfire Aegis",
+  "Randuin's Omen"
+ ],
+ "fifth": [
+  "Frozen Heart",
+  "Sunfire Aegis",
+  "Jak'Sho, The Protean",
   "Overlord's Bloodmail"
  ],
  "sixth": [
   "Frozen Heart",
   "Jak'Sho, The Protean",
-  "Overlord's Bloodmail",
+  "Sunfire Aegis",
   "Force of Nature"
  ],
  "pool": [
@@ -41,11 +41,10 @@
   "Mercury's Treads",
   "Unending Despair",
   "Warmog's Armor",
-  "Jak'Sho, The Protean",
-  "Randuin's Omen",
-  "Sunfire Aegis",
-  "Hollow Radiance",
   "Frozen Heart",
+  "Jak'Sho, The Protean",
+  "Sunfire Aegis",
+  "Randuin's Omen",
   "Overlord's Bloodmail",
   "Force of Nature"
  ]

@@ -12,40 +12,40 @@
  ],
  "core": [
   "Blade of The Ruined King",
-  "Mercury's Treads",
-  "Kraken Slayer",
+  "Plated Steelcaps",
+  "Death's Dance",
   "Terminus"
  ],
  "fourth": [
   "Endless Hunger",
   "Ravenous Hydra",
-  "Death's Dance",
-  "Jak'Sho, The Protean"
+  "Jak'Sho, The Protean",
+  "Randuin's Omen"
  ],
  "fifth": [
   "Endless Hunger",
   "Ravenous Hydra",
-  "Death's Dance",
-  "Trinity Force"
+  "Spirit Visage",
+  "Jak'Sho, The Protean"
  ],
  "sixth": [
   "Endless Hunger",
-  "Death's Dance",
   "Ravenous Hydra",
-  "Overlord's Bloodmail"
+  "Overlord's Bloodmail",
+  "Spirit Visage"
  ],
  "pool": [
   "Long Sword",
   "Guardian's Blade",
   "Blade of The Ruined King",
-  "Mercury's Treads",
-  "Kraken Slayer",
+  "Plated Steelcaps",
+  "Death's Dance",
   "Terminus",
   "Endless Hunger",
   "Ravenous Hydra",
-  "Death's Dance",
   "Jak'Sho, The Protean",
-  "Trinity Force",
+  "Randuin's Omen",
+  "Spirit Visage",
   "Overlord's Bloodmail"
  ]
 }

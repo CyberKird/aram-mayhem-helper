@@ -18,8 +18,8 @@
  "fourth": [
   "Archangel's Staff",
   "Rabadon's Deathcap",
-  "Malignance",
-  "Shadowflame"
+  "Shadowflame",
+  "Stormsurge"
  ],
  "fifth": [
   "Archangel's Staff",
@@ -29,8 +29,8 @@
  ],
  "sixth": [
   "Archangel's Staff",
-  "Shadowflame",
   "Cryptbloom",
+  "Shadowflame",
   "Rabadon's Deathcap"
  ],
  "pool": [
@@ -41,8 +41,8 @@
   "Rylai's Crystal Scepter",
   "Archangel's Staff",
   "Rabadon's Deathcap",
-  "Malignance",
   "Shadowflame",
+  "Stormsurge",
   "Cryptbloom"
  ]
 }

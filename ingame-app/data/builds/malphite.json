@@ -20,13 +20,13 @@
   "Jak'Sho, The Protean",
   "Randuin's Omen",
   "Warmog's Armor",
-  "Hollow Radiance"
+  "Rabadon's Deathcap"
  ],
  "fifth": [
+  "Frozen Heart",
   "Jak'Sho, The Protean",
   "Randuin's Omen",
-  "Warmog's Armor",
-  "Stormsurge"
+  "Warmog's Armor"
  ],
  "sixth": [
   "Frozen Heart",
@@ -44,8 +44,7 @@
   "Jak'Sho, The Protean",
   "Randuin's Omen",
   "Warmog's Armor",
-  "Hollow Radiance",
-  "Stormsurge",
+  "Rabadon's Deathcap",
   "Frozen Heart"
  ]
 }

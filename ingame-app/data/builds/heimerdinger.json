@@ -22,16 +22,16 @@
   "Rylai's Crystal Scepter"
  ],
  "fifth": [
-  "Shadowflame",
   "Bloodletter's Curse",
+  "Shadowflame",
   "Archangel's Staff",
   "Void Staff"
  ],
  "sixth": [
+  "Void Staff",
   "Shadowflame",
   "Archangel's Staff",
-  "Void Staff",
-  "Zhonya's Hourglass"
+  "Rylai's Crystal Scepter"
  ],
  "pool": [
   "Lost Chapter",
@@ -43,7 +43,6 @@
   "Void Staff",
   "Archangel's Staff",
   "Rylai's Crystal Scepter",
-  "Bloodletter's Curse",
-  "Zhonya's Hourglass"
+  "Bloodletter's Curse"
  ]
 }

@@ -7,7 +7,9 @@
   "Ghost"
  ],
  "starting": [
-  "B. F. Sword"
+  "Boots",
+  "Long Sword",
+  "Scout's Slingshot"
  ],
  "core": [
   "Yun Tal Wildarrows",
@@ -34,7 +36,9 @@
   "Mercurial Scimitar"
  ],
  "pool": [
-  "B. F. Sword",
+  "Boots",
+  "Long Sword",
+  "Scout's Slingshot",
   "Yun Tal Wildarrows",
   "Berserker's Greaves",
   "Runaan's Hurricane",

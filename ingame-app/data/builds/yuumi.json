@@ -7,13 +7,13 @@
   "Ignite"
  ],
  "starting": [
+  "Ruby Crystal",
   "Tear of the Goddess",
-  "Bandleglass Mirror"
+  "Forbidden Idol"
  ],
  "core": [
-  "Moonstone Renewer",
-  "Ionian Boots of Lucidity",
   "Whispering Circlet",
+  "Moonstone Renewer",
   "Staff of Flowing Water"
  ],
  "fourth": [
@@ -26,25 +26,26 @@
   "Dawncore",
   "Knight's Vow",
   "Ardent Censer",
-  "Mikael's Blessing"
+  "Shurelya's Battlesong"
  ],
  "sixth": [
   "Echoes of Helia",
   "Dawncore",
-  "Mikael's Blessing",
-  "Knight's Vow"
+  "Ardent Censer",
+  "Mikael's Blessing"
  ],
  "pool": [
+  "Ruby Crystal",
   "Tear of the Goddess",
-  "Bandleglass Mirror",
-  "Moonstone Renewer",
-  "Ionian Boots of Lucidity",
+  "Forbidden Idol",
   "Whispering Circlet",
+  "Moonstone Renewer",
   "Staff of Flowing Water",
   "Dawncore",
   "Knight's Vow",
   "Ardent Censer",
   "Mikael's Blessing",
+  "Shurelya's Battlesong",
   "Echoes of Helia"
  ]
 }
