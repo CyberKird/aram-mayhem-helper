@@ -7,9 +7,7 @@
   "Ghost"
  ],
  "starting": [
-  "Boots",
-  "Long Sword",
-  "Scout's Slingshot"
+  "B. F. Sword"
  ],
  "core": [
   "Yun Tal Wildarrows",
@@ -27,18 +25,16 @@
   "Terminus",
   "Bloodthirster",
   "Lord Dominik's Regards",
-  "Kraken Slayer"
+  "Blade of The Ruined King"
  ],
  "sixth": [
   "Hexoptics C44",
-  "Bloodthirster",
   "Terminus",
-  "Mercurial Scimitar"
+  "Bloodthirster",
+  "Lord Dominik's Regards"
  ],
  "pool": [
-  "Boots",
-  "Long Sword",
-  "Scout's Slingshot",
+  "B. F. Sword",
   "Yun Tal Wildarrows",
   "Berserker's Greaves",
   "Runaan's Hurricane",
@@ -47,8 +43,6 @@
   "Bloodthirster",
   "Lord Dominik's Regards",
   "Blade of The Ruined King",
-  "Kraken Slayer",
-  "Hexoptics C44",
-  "Mercurial Scimitar"
+  "Hexoptics C44"
  ]
 }

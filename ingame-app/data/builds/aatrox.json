@@ -13,40 +13,38 @@
  "core": [
   "Heartsteel",
   "Mercury's Treads",
-  "Overlord's Bloodmail",
+  "Unending Despair",
   "Warmog's Armor"
  ],
  "fourth": [
+  "Overlord's Bloodmail",
   "Endless Hunger",
   "Lord Dominik's Regards",
-  "Death's Dance",
-  "Infinity Edge"
+  "Death's Dance"
  ],
  "fifth": [
   "Serylda's Grudge",
+  "Overlord's Bloodmail",
   "Lord Dominik's Regards",
-  "Endless Hunger",
-  "Death's Dance"
+  "Endless Hunger"
  ],
  "sixth": [
+  "Overlord's Bloodmail",
   "Death's Dance",
-  "Voltaic Cyclosword",
-  "Serylda's Grudge",
-  "Jak'Sho, The Protean"
+  "Lord Dominik's Regards",
+  "Serylda's Grudge"
  ],
  "pool": [
   "Giant's Belt",
   "Ruby Crystal",
   "Heartsteel",
   "Mercury's Treads",
-  "Overlord's Bloodmail",
+  "Unending Despair",
   "Warmog's Armor",
+  "Overlord's Bloodmail",
   "Endless Hunger",
   "Lord Dominik's Regards",
   "Death's Dance",
-  "Infinity Edge",
-  "Serylda's Grudge",
-  "Voltaic Cyclosword",
-  "Jak'Sho, The Protean"
+  "Serylda's Grudge"
  ]
 }

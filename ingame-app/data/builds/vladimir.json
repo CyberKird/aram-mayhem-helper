@@ -16,20 +16,20 @@
   "Shadowflame"
  ],
  "fourth": [
+  "Stormsurge",
   "Void Staff",
   "Warmog's Armor",
-  "Zhonya's Hourglass",
   "Cryptbloom"
  ],
  "fifth": [
   "Stormsurge",
   "Void Staff",
   "Warmog's Armor",
-  "Cosmic Drive"
+  "Cryptbloom"
  ],
  "sixth": [
-  "Stormsurge",
   "Warmog's Armor",
+  "Stormsurge",
   "Void Staff",
   "Cosmic Drive"
  ],
@@ -39,11 +39,10 @@
   "Sorcerer's Shoes",
   "Rabadon's Deathcap",
   "Shadowflame",
+  "Stormsurge",
   "Void Staff",
   "Warmog's Armor",
-  "Zhonya's Hourglass",
   "Cryptbloom",
-  "Stormsurge",
   "Cosmic Drive"
  ]
 }

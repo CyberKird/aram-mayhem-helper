@@ -7,8 +7,9 @@
   "Mark"
  ],
  "starting": [
-  "Amplifying Tome",
-  "Scout's Slingshot"
+  "Dagger",
+  "Dagger",
+  "Aether Wisp"
  ],
  "core": [
   "Statikk Shiv",
@@ -32,11 +33,11 @@
   "Riftmaker",
   "Overlord's Bloodmail",
   "Rabadon's Deathcap",
-  "Spirit Visage"
+  "Navori Flickerblade"
  ],
  "pool": [
-  "Amplifying Tome",
-  "Scout's Slingshot",
+  "Dagger",
+  "Aether Wisp",
   "Statikk Shiv",
   "Mercury's Treads",
   "Dusk and Dawn",
@@ -45,7 +46,6 @@
   "Rabadon's Deathcap",
   "Shadowflame",
   "Navori Flickerblade",
-  "Overlord's Bloodmail",
-  "Spirit Visage"
+  "Overlord's Bloodmail"
  ]
 }

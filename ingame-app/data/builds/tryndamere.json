@@ -7,14 +7,14 @@
   "Mark"
  ],
  "starting": [
-  "Dagger",
-  "Berserker's Greaves"
+  "Long Sword",
+  "Guardian's Blade"
  ],
  "core": [
-  "Phantom Dancer",
+  "Blade of The Ruined King",
   "Berserker's Greaves",
-  "Infinity Edge",
-  "Blade of The Ruined King"
+  "Phantom Dancer",
+  "Infinity Edge"
  ],
  "fourth": [
   "Lord Dominik's Regards",
@@ -23,10 +23,10 @@
   "Navori Flickerblade"
  ],
  "fifth": [
+  "Endless Hunger",
   "Bloodthirster",
-  "Lord Dominik's Regards",
   "Death's Dance",
-  "Experimental Hexplate"
+  "Lord Dominik's Regards"
  ],
  "sixth": [
   "Endless Hunger",
@@ -35,18 +35,19 @@
   "Bloodthirster"
  ],
  "pool": [
-  "Dagger",
+  "Long Sword",
+  "Guardian's Blade",
+  "Blade of The Ruined King",
   "Berserker's Greaves",
   "Phantom Dancer",
   "Infinity Edge",
-  "Blade of The Ruined King",
   "Lord Dominik's Regards",
   "Fiendhunter Bolts",
   "The Collector",
   "Navori Flickerblade",
+  "Endless Hunger",
   "Bloodthirster",
   "Death's Dance",
-  "Experimental Hexplate",
-  "Endless Hunger"
+  "Experimental Hexplate"
  ]
 }

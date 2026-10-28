@@ -24,15 +24,15 @@
  ],
  "fifth": [
   "Frozen Heart",
+  "Sunfire Aegis",
   "Hollow Radiance",
-  "Jak'Sho, The Protean",
-  "Spirit Visage"
+  "Jak'Sho, The Protean"
  ],
  "sixth": [
   "Riftmaker",
   "Jak'Sho, The Protean",
-  "Frozen Heart",
-  "Spirit Visage"
+  "Sunfire Aegis",
+  "Frozen Heart"
  ],
  "pool": [
   "Giant's Belt",
@@ -46,6 +46,7 @@
   "Spirit Visage",
   "Winter's Approach",
   "Frozen Heart",
+  "Sunfire Aegis",
   "Riftmaker"
  ]
 }

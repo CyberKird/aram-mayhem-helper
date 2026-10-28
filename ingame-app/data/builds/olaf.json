@@ -24,15 +24,15 @@
  ],
  "fifth": [
   "Endless Hunger",
-  "Maw of Malmortius",
   "Overlord's Bloodmail",
-  "Sterak's Gage"
+  "Sterak's Gage",
+  "Maw of Malmortius"
  ],
  "sixth": [
   "Endless Hunger",
   "Maw of Malmortius",
-  "Overlord's Bloodmail",
-  "Sterak's Gage"
+  "Sterak's Gage",
+  "Overlord's Bloodmail"
  ],
  "pool": [
   "Long Sword",
@@ -45,7 +45,7 @@
   "Sterak's Gage",
   "Spirit Visage",
   "Blade of The Ruined King",
-  "Maw of Malmortius",
-  "Overlord's Bloodmail"
+  "Overlord's Bloodmail",
+  "Maw of Malmortius"
  ]
 }

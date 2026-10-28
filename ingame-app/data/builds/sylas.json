@@ -12,9 +12,9 @@
  ],
  "core": [
   "Heartsteel",
-  "Plated Steelcaps",
+  "Mercury's Treads",
   "Unending Despair",
-  "Riftmaker"
+  "Warmog's Armor"
  ],
  "fourth": [
   "Rabadon's Deathcap",
@@ -24,27 +24,28 @@
  ],
  "fifth": [
   "Lich Bane",
-  "Stormsurge",
   "Rabadon's Deathcap",
+  "Stormsurge",
   "Void Staff"
  ],
  "sixth": [
   "Jak'Sho, The Protean",
   "Void Staff",
-  "Stormsurge",
-  "Lich Bane"
+  "Lich Bane",
+  "Riftmaker"
  ],
  "pool": [
   "Giant's Belt",
   "Ruby Crystal",
   "Heartsteel",
-  "Plated Steelcaps",
+  "Mercury's Treads",
   "Unending Despair",
-  "Riftmaker",
+  "Warmog's Armor",
   "Rabadon's Deathcap",
   "Void Staff",
   "Lich Bane",
   "Stormsurge",
-  "Jak'Sho, The Protean"
+  "Jak'Sho, The Protean",
+  "Riftmaker"
  ]
 }

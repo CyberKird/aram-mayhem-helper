@@ -13,37 +13,38 @@
  "core": [
   "Hubris",
   "Mercury's Treads",
-  "Endless Hunger",
-  "Death's Dance"
+  "Death's Dance",
+  "Endless Hunger"
  ],
  "fourth": [
   "Lord Dominik's Regards",
-  "Maw of Malmortius",
   "Spear of Shojin",
+  "Ravenous Hydra",
   "Infinity Edge"
  ],
  "fifth": [
   "Lord Dominik's Regards",
-  "Maw of Malmortius",
   "Spear of Shojin",
+  "Maw of Malmortius",
   "Infinity Edge"
  ],
  "sixth": [
   "Infinity Edge",
-  "Maw of Malmortius",
+  "Spear of Shojin",
   "Lord Dominik's Regards",
-  "Spear of Shojin"
+  "Maw of Malmortius"
  ],
  "pool": [
   "Long Sword",
   "Guardian's Blade",
   "Hubris",
   "Mercury's Treads",
-  "Endless Hunger",
   "Death's Dance",
+  "Endless Hunger",
   "Lord Dominik's Regards",
-  "Maw of Malmortius",
   "Spear of Shojin",
-  "Infinity Edge"
+  "Ravenous Hydra",
+  "Infinity Edge",
+  "Maw of Malmortius"
  ]
 }

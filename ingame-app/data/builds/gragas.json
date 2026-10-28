@@ -12,12 +12,12 @@
  "core": [
   "Shadowflame",
   "Sorcerer's Shoes",
-  "Rabadon's Deathcap",
-  "Lich Bane"
+  "Lich Bane",
+  "Rabadon's Deathcap"
  ],
  "fourth": [
-  "Void Staff",
   "Stormsurge",
+  "Void Staff",
   "Unending Despair",
   "Warmog's Armor"
  ],
@@ -29,22 +29,22 @@
  ],
  "sixth": [
   "Void Staff",
-  "Stormsurge",
   "Cryptbloom",
-  "Zhonya's Hourglass"
+  "Stormsurge",
+  "Riftmaker"
  ],
  "pool": [
   "Needlessly Large Rod",
   "Shadowflame",
   "Sorcerer's Shoes",
-  "Rabadon's Deathcap",
   "Lich Bane",
-  "Void Staff",
+  "Rabadon's Deathcap",
   "Stormsurge",
+  "Void Staff",
   "Unending Despair",
   "Warmog's Armor",
   "Cryptbloom",
   "Jak'Sho, The Protean",
-  "Zhonya's Hourglass"
+  "Riftmaker"
  ]
 }

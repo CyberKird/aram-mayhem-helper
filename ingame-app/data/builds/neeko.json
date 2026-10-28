@@ -7,8 +7,8 @@
   "Mark"
  ],
  "starting": [
-  "Boots",
-  "Hextech Alternator"
+  "Refillable Potion",
+  "Lost Chapter"
  ],
  "core": [
   "Luden's Echo",
@@ -19,8 +19,8 @@
  "fourth": [
   "Stormsurge",
   "Void Staff",
-  "Liandry's Torment",
-  "Zhonya's Hourglass"
+  "Zhonya's Hourglass",
+  "Liandry's Torment"
  ],
  "fifth": [
   "Stormsurge",
@@ -31,20 +31,20 @@
  "sixth": [
   "Banshee's Veil",
   "Stormsurge",
-  "Void Staff",
-  "Cryptbloom"
+  "Cryptbloom",
+  "Void Staff"
  ],
  "pool": [
-  "Boots",
-  "Hextech Alternator",
+  "Refillable Potion",
+  "Lost Chapter",
   "Luden's Echo",
   "Sorcerer's Shoes",
   "Rabadon's Deathcap",
   "Shadowflame",
   "Stormsurge",
   "Void Staff",
-  "Liandry's Torment",
   "Zhonya's Hourglass",
+  "Liandry's Torment",
   "Cryptbloom",
   "Banshee's Veil"
  ]

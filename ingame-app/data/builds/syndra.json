@@ -7,6 +7,7 @@
   "Ghost"
  ],
  "starting": [
+  "Refillable Potion",
   "Lost Chapter"
  ],
  "core": [
@@ -29,10 +30,11 @@
  "sixth": [
   "Banshee's Veil",
   "Stormsurge",
-  "Cryptbloom",
-  "Void Staff"
+  "Void Staff",
+  "Cryptbloom"
  ],
  "pool": [
+  "Refillable Potion",
   "Lost Chapter",
   "Luden's Echo",
   "Sorcerer's Shoes",

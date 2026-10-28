@@ -7,13 +7,15 @@
   "Clarity"
  ],
  "starting": [
-  "Lost Chapter"
+  "Refillable Potion",
+  "Tear of the Goddess",
+  "Fiendish Codex"
  ],
  "core": [
-  "Luden's Echo",
+  "Archangel's Staff",
   "Sorcerer's Shoes",
-  "Rabadon's Deathcap",
-  "Archangel's Staff"
+  "Luden's Echo",
+  "Rabadon's Deathcap"
  ],
  "fourth": [
   "Blackfire Torch",
@@ -34,11 +36,13 @@
   "Malignance"
  ],
  "pool": [
-  "Lost Chapter",
-  "Luden's Echo",
-  "Sorcerer's Shoes",
-  "Rabadon's Deathcap",
+  "Refillable Potion",
+  "Tear of the Goddess",
+  "Fiendish Codex",
   "Archangel's Staff",
+  "Sorcerer's Shoes",
+  "Luden's Echo",
+  "Rabadon's Deathcap",
   "Blackfire Torch",
   "Cosmic Drive",
   "Cryptbloom",

@@ -12,40 +12,41 @@
  ],
  "core": [
   "Heartsteel",
-  "Plated Steelcaps",
+  "Mercury's Treads",
   "Unending Despair",
   "Warmog's Armor"
  ],
  "fourth": [
-  "Overlord's Bloodmail",
   "Jak'Sho, The Protean",
+  "Overlord's Bloodmail",
   "Randuin's Omen",
-  "Spirit Visage"
+  "Thornmail"
  ],
  "fifth": [
   "Jak'Sho, The Protean",
   "Overlord's Bloodmail",
-  "Titanic Hydra",
-  "Randuin's Omen"
+  "Randuin's Omen",
+  "Titanic Hydra"
  ],
  "sixth": [
   "Jak'Sho, The Protean",
   "Overlord's Bloodmail",
-  "Spirit Visage",
-  "Kaenic Rookern"
+  "Endless Hunger",
+  "Spirit Visage"
  ],
  "pool": [
   "Giant's Belt",
   "Ruby Crystal",
   "Heartsteel",
-  "Plated Steelcaps",
+  "Mercury's Treads",
   "Unending Despair",
   "Warmog's Armor",
-  "Overlord's Bloodmail",
   "Jak'Sho, The Protean",
+  "Overlord's Bloodmail",
   "Randuin's Omen",
-  "Spirit Visage",
+  "Thornmail",
   "Titanic Hydra",
-  "Kaenic Rookern"
+  "Endless Hunger",
+  "Spirit Visage"
  ]
 }

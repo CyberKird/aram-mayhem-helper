@@ -7,8 +7,7 @@
   "Mark"
  ],
  "starting": [
-  "Amplifying Tome",
-  "Guardian's Orb"
+  "Needlessly Large Rod"
  ],
  "core": [
   "Shadowflame",
@@ -18,15 +17,15 @@
  ],
  "fourth": [
   "Stormsurge",
-  "Bloodletter's Curse",
   "Void Staff",
-  "Riftmaker"
+  "Riftmaker",
+  "Bloodletter's Curse"
  ],
  "fifth": [
   "Stormsurge",
   "Void Staff",
-  "Bloodletter's Curse",
-  "Riftmaker"
+  "Riftmaker",
+  "Bloodletter's Curse"
  ],
  "sixth": [
   "Stormsurge",
@@ -35,15 +34,14 @@
   "Bloodletter's Curse"
  ],
  "pool": [
-  "Amplifying Tome",
-  "Guardian's Orb",
+  "Needlessly Large Rod",
   "Shadowflame",
   "Sorcerer's Shoes",
   "Liandry's Torment",
   "Rabadon's Deathcap",
   "Stormsurge",
-  "Bloodletter's Curse",
   "Void Staff",
-  "Riftmaker"
+  "Riftmaker",
+  "Bloodletter's Curse"
  ]
 }

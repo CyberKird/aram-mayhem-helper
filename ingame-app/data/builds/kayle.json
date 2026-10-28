@@ -8,8 +8,8 @@
  ],
  "starting": [
   "Boots",
-  "Dagger",
-  "Fiendish Codex"
+  "Recurve Bow",
+  "Amplifying Tome"
  ],
  "core": [
   "Nashor's Tooth",
@@ -21,7 +21,7 @@
   "Shadowflame",
   "Statikk Shiv",
   "Guinsoo's Rageblade",
-  "Terminus"
+  "Runaan's Hurricane"
  ],
  "fifth": [
   "Shadowflame",
@@ -33,12 +33,12 @@
   "Void Staff",
   "Shadowflame",
   "Statikk Shiv",
-  "Terminus"
+  "Riftmaker"
  ],
  "pool": [
   "Boots",
-  "Dagger",
-  "Fiendish Codex",
+  "Recurve Bow",
+  "Amplifying Tome",
   "Nashor's Tooth",
   "Berserker's Greaves",
   "Dusk and Dawn",
@@ -46,7 +46,7 @@
   "Shadowflame",
   "Statikk Shiv",
   "Guinsoo's Rageblade",
-  "Terminus",
+  "Runaan's Hurricane",
   "Void Staff",
   "Riftmaker"
  ]

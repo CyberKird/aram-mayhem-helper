@@ -11,7 +11,7 @@
  ],
  "core": [
   "Blackfire Torch",
-  "Mercury's Treads",
+  "Sorcerer's Shoes",
   "Liandry's Torment",
   "Rabadon's Deathcap"
  ],
@@ -31,19 +31,18 @@
   "Shadowflame",
   "Void Staff",
   "Bloodletter's Curse",
-  "Cosmic Drive"
+  "Riftmaker"
  ],
  "pool": [
   "Lost Chapter",
   "Blackfire Torch",
-  "Mercury's Treads",
+  "Sorcerer's Shoes",
   "Liandry's Torment",
   "Rabadon's Deathcap",
   "Bloodletter's Curse",
   "Shadowflame",
   "Riftmaker",
   "Rylai's Crystal Scepter",
-  "Void Staff",
-  "Cosmic Drive"
+  "Void Staff"
  ]
 }

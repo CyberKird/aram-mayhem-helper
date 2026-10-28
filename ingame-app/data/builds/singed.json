@@ -20,18 +20,18 @@
  "fourth": [
   "Riftmaker",
   "Winter's Approach",
-  "Force of Nature",
-  "Warmog's Armor"
+  "Warmog's Armor",
+  "Force of Nature"
  ],
  "fifth": [
-  "Bloodletter's Curse",
-  "Rabadon's Deathcap",
   "Riftmaker",
-  "Warmog's Armor"
+  "Rabadon's Deathcap",
+  "Warmog's Armor",
+  "Winter's Approach"
  ],
  "sixth": [
-  "Rabadon's Deathcap",
   "Bloodletter's Curse",
+  "Rabadon's Deathcap",
   "Riftmaker",
   "Warmog's Armor"
  ],
@@ -44,9 +44,9 @@
   "Rylai's Crystal Scepter",
   "Riftmaker",
   "Winter's Approach",
-  "Force of Nature",
   "Warmog's Armor",
-  "Bloodletter's Curse",
-  "Rabadon's Deathcap"
+  "Force of Nature",
+  "Rabadon's Deathcap",
+  "Bloodletter's Curse"
  ]
 }

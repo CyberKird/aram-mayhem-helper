@@ -13,8 +13,8 @@
  "core": [
   "Heartsteel",
   "Mercury's Treads",
-  "Unending Despair",
-  "Warmog's Armor"
+  "Warmog's Armor",
+  "Unending Despair"
  ],
  "fourth": [
   "Rabadon's Deathcap",
@@ -25,13 +25,13 @@
  "fifth": [
   "Jak'Sho, The Protean",
   "Void Staff",
-  "Stormsurge",
-  "Banshee's Veil"
+  "Banshee's Veil",
+  "Shadowflame"
  ],
  "sixth": [
   "Banshee's Veil",
-  "Riftmaker",
   "Jak'Sho, The Protean",
+  "Riftmaker",
   "Void Staff"
  ],
  "pool": [
@@ -39,14 +39,14 @@
   "Ruby Crystal",
   "Heartsteel",
   "Mercury's Treads",
-  "Unending Despair",
   "Warmog's Armor",
+  "Unending Despair",
   "Rabadon's Deathcap",
   "Spirit Visage",
   "Banshee's Veil",
   "Void Staff",
   "Jak'Sho, The Protean",
-  "Stormsurge",
+  "Shadowflame",
   "Riftmaker"
  ]
 }

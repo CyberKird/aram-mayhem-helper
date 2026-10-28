@@ -19,19 +19,19 @@
   "Blackfire Torch",
   "Rabadon's Deathcap",
   "Shadowflame",
-  "Bloodletter's Curse"
+  "Riftmaker"
  ],
  "fifth": [
   "Rabadon's Deathcap",
-  "Blackfire Torch",
   "Riftmaker",
-  "Rylai's Crystal Scepter"
+  "Rylai's Crystal Scepter",
+  "Blackfire Torch"
  ],
  "sixth": [
-  "Bloodletter's Curse",
   "Riftmaker",
   "Rabadon's Deathcap",
-  "Shadowflame"
+  "Shadowflame",
+  "Bloodletter's Curse"
  ],
  "pool": [
   "Catalyst of Aeons",
@@ -42,8 +42,8 @@
   "Blackfire Torch",
   "Rabadon's Deathcap",
   "Shadowflame",
-  "Bloodletter's Curse",
   "Riftmaker",
-  "Rylai's Crystal Scepter"
+  "Rylai's Crystal Scepter",
+  "Bloodletter's Curse"
  ]
 }

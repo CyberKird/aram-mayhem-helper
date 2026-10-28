@@ -13,8 +13,8 @@
  "core": [
   "Moonstone Renewer",
   "Ionian Boots of Lucidity",
-  "Whispering Circlet",
-  "Ardent Censer"
+  "Ardent Censer",
+  "Whispering Circlet"
  ],
  "fourth": [
   "Staff of Flowing Water",
@@ -25,26 +25,26 @@
  "fifth": [
   "Dawncore",
   "Staff of Flowing Water",
-  "Rabadon's Deathcap",
-  "Archangel's Staff"
+  "Archangel's Staff",
+  "Rabadon's Deathcap"
  ],
  "sixth": [
   "Dawncore",
   "Staff of Flowing Water",
   "Rabadon's Deathcap",
-  "Mikael's Blessing"
+  "Imperial Mandate"
  ],
  "pool": [
   "Tear of the Goddess",
   "Bandleglass Mirror",
   "Moonstone Renewer",
   "Ionian Boots of Lucidity",
-  "Whispering Circlet",
   "Ardent Censer",
+  "Whispering Circlet",
   "Staff of Flowing Water",
   "Dawncore",
   "Rabadon's Deathcap",
   "Archangel's Staff",
-  "Mikael's Blessing"
+  "Imperial Mandate"
  ]
 }

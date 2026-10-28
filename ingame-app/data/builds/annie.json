@@ -28,10 +28,10 @@
   "Zhonya's Hourglass"
  ],
  "sixth": [
+  "Banshee's Veil",
   "Stormsurge",
   "Archangel's Staff",
-  "Void Staff",
-  "Zhonya's Hourglass"
+  "Void Staff"
  ],
  "pool": [
   "Lost Chapter",
@@ -44,6 +44,7 @@
   "Stormsurge",
   "Void Staff",
   "Zhonya's Hourglass",
+  "Banshee's Veil",
   "Archangel's Staff"
  ]
 }

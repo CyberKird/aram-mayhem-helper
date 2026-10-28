@@ -8,9 +8,7 @@
  ],
  "starting": [
   "Giant's Belt",
-  "Ruby Crystal",
-  "Health Potion",
-  "Health Potion"
+  "Ruby Crystal"
  ],
  "core": [
   "Heartsteel",
@@ -33,13 +31,12 @@
  "sixth": [
   "Unending Despair",
   "Overlord's Bloodmail",
-  "Warmog's Armor",
+  "Jak'Sho, The Protean",
   "Death's Dance"
  ],
  "pool": [
   "Giant's Belt",
   "Ruby Crystal",
-  "Health Potion",
   "Heartsteel",
   "Mercury's Treads",
   "Dusk and Dawn",
@@ -47,7 +44,6 @@
   "Overlord's Bloodmail",
   "Unending Despair",
   "Jak'Sho, The Protean",
-  "Death's Dance",
-  "Warmog's Armor"
+  "Death's Dance"
  ]
 }

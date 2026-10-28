@@ -20,13 +20,13 @@
   "Overlord's Bloodmail",
   "Lord Dominik's Regards",
   "Death's Dance",
-  "The Collector"
+  "Unending Despair"
  ],
  "fifth": [
   "Endless Hunger",
   "Lord Dominik's Regards",
-  "Death's Dance",
-  "The Collector"
+  "The Collector",
+  "Overlord's Bloodmail"
  ],
  "sixth": [
   "Endless Hunger",
@@ -44,7 +44,8 @@
   "Overlord's Bloodmail",
   "Lord Dominik's Regards",
   "Death's Dance",
-  "The Collector",
-  "Endless Hunger"
+  "Unending Despair",
+  "Endless Hunger",
+  "The Collector"
  ]
 }

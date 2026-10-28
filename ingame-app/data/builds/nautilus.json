@@ -16,22 +16,22 @@
   "Rabadon's Deathcap"
  ],
  "fourth": [
-  "Warmog's Armor",
   "Frozen Heart",
+  "Warmog's Armor",
   "Jak'Sho, The Protean",
-  "Winter's Approach"
+  "Sunfire Aegis"
  ],
  "fifth": [
-  "Warmog's Armor",
   "Sunfire Aegis",
-  "Jak'Sho, The Protean",
-  "Unending Despair"
+  "Warmog's Armor",
+  "Frozen Heart",
+  "Jak'Sho, The Protean"
  ],
  "sixth": [
   "Riftmaker",
   "Force of Nature",
-  "Warmog's Armor",
-  "Unending Despair"
+  "Jak'Sho, The Protean",
+  "Warmog's Armor"
  ],
  "pool": [
   "Hextech Alternator",
@@ -39,12 +39,10 @@
   "Ionian Boots of Lucidity",
   "Shadowflame",
   "Rabadon's Deathcap",
-  "Warmog's Armor",
   "Frozen Heart",
+  "Warmog's Armor",
   "Jak'Sho, The Protean",
-  "Winter's Approach",
   "Sunfire Aegis",
-  "Unending Despair",
   "Riftmaker",
   "Force of Nature"
  ]

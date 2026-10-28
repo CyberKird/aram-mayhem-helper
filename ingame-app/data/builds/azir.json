@@ -13,15 +13,15 @@
  ],
  "core": [
   "Nashor's Tooth",
-  "Sorcerer's Shoes",
-  "Shadowflame",
-  "Rabadon's Deathcap"
+  "Berserker's Greaves",
+  "Rabadon's Deathcap",
+  "Shadowflame"
  ],
  "fourth": [
   "Void Staff",
   "Zhonya's Hourglass",
   "Dusk and Dawn",
-  "Liandry's Torment"
+  "Rylai's Crystal Scepter"
  ],
  "fifth": [
   "Void Staff",
@@ -40,13 +40,13 @@
   "Recurve Bow",
   "Amplifying Tome",
   "Nashor's Tooth",
-  "Sorcerer's Shoes",
-  "Shadowflame",
+  "Berserker's Greaves",
   "Rabadon's Deathcap",
+  "Shadowflame",
   "Void Staff",
   "Zhonya's Hourglass",
   "Dusk and Dawn",
-  "Liandry's Torment",
+  "Rylai's Crystal Scepter",
   "Riftmaker",
   "Banshee's Veil"
  ]

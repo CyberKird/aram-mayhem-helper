@@ -8,7 +8,7 @@
  ],
  "starting": [
   "Long Sword",
-  "Guardian's Blade"
+  "Pickaxe"
  ],
  "core": [
   "The Collector",
@@ -19,8 +19,8 @@
  "fourth": [
   "Death's Dance",
   "Bloodthirster",
-  "Immortal Shieldbow",
-  "Navori Flickerblade"
+  "Navori Flickerblade",
+  "Immortal Shieldbow"
  ],
  "fifth": [
   "Death's Dance",
@@ -29,22 +29,22 @@
   "Navori Flickerblade"
  ],
  "sixth": [
-  "Death's Dance",
   "Endless Hunger",
+  "Death's Dance",
   "Ravenous Hydra",
   "Bloodthirster"
  ],
  "pool": [
   "Long Sword",
-  "Guardian's Blade",
+  "Pickaxe",
   "The Collector",
   "Berserker's Greaves",
   "Infinity Edge",
   "Lord Dominik's Regards",
   "Death's Dance",
   "Bloodthirster",
-  "Immortal Shieldbow",
   "Navori Flickerblade",
+  "Immortal Shieldbow",
   "Endless Hunger",
   "Ravenous Hydra"
  ]

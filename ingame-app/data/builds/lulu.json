@@ -25,13 +25,13 @@
  "fifth": [
   "Staff of Flowing Water",
   "Dawncore",
-  "Redemption",
-  "Mikael's Blessing"
+  "Mikael's Blessing",
+  "Locket of the Iron Solari"
  ],
  "sixth": [
   "Staff of Flowing Water",
-  "Knight's Vow",
   "Dawncore",
+  "Knight's Vow",
   "Redemption"
  ],
  "pool": [
@@ -45,8 +45,8 @@
   "Dawncore",
   "Sword of Blossoming Dawn",
   "Locket of the Iron Solari",
-  "Redemption",
   "Mikael's Blessing",
-  "Knight's Vow"
+  "Knight's Vow",
+  "Redemption"
  ]
 }

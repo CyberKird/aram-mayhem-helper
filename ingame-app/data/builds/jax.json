@@ -17,16 +17,16 @@
   "Nashor's Tooth"
  ],
  "fourth": [
-  "Hextech Gunblade",
-  "Death's Dance",
+  "Jak'Sho, The Protean",
   "Spear of Shojin",
-  "Rabadon's Deathcap"
+  "Hextech Gunblade",
+  "Death's Dance"
  ],
  "fifth": [
   "Endless Hunger",
   "Jak'Sho, The Protean",
   "Spear of Shojin",
-  "Hextech Gunblade"
+  "Death's Dance"
  ],
  "sixth": [
   "Endless Hunger",
@@ -41,12 +41,11 @@
   "Mercury's Treads",
   "Riftmaker",
   "Nashor's Tooth",
+  "Jak'Sho, The Protean",
+  "Spear of Shojin",
   "Hextech Gunblade",
   "Death's Dance",
-  "Spear of Shojin",
-  "Rabadon's Deathcap",
   "Endless Hunger",
-  "Jak'Sho, The Protean",
   "Sterak's Gage"
  ]
 }

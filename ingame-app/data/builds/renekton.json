@@ -12,13 +12,13 @@
  ],
  "core": [
   "Hubris",
-  "Mercury's Treads",
+  "Plated Steelcaps",
   "Death's Dance",
   "Endless Hunger"
  ],
  "fourth": [
+  "Jak'Sho, The Protean",
   "Spear of Shojin",
-  "Overlord's Bloodmail",
   "Black Cleaver",
   "Sterak's Gage"
  ],
@@ -29,23 +29,22 @@
   "Overlord's Bloodmail"
  ],
  "sixth": [
-  "Overlord's Bloodmail",
+  "Jak'Sho, The Protean",
   "Sterak's Gage",
-  "Black Cleaver",
-  "Maw of Malmortius"
+  "Overlord's Bloodmail",
+  "Black Cleaver"
  ],
  "pool": [
   "Long Sword",
   "Guardian's Blade",
   "Hubris",
-  "Mercury's Treads",
+  "Plated Steelcaps",
   "Death's Dance",
   "Endless Hunger",
+  "Jak'Sho, The Protean",
   "Spear of Shojin",
-  "Overlord's Bloodmail",
   "Black Cleaver",
   "Sterak's Gage",
-  "Jak'Sho, The Protean",
-  "Maw of Malmortius"
+  "Overlord's Bloodmail"
  ]
 }

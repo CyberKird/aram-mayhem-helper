@@ -7,20 +7,19 @@
   "Mark"
  ],
  "starting": [
-  "Health Potion",
-  "Health Potion",
-  "Haunting Guise"
+  "Giant's Belt",
+  "Amplifying Tome"
  ],
  "core": [
-  "Riftmaker",
+  "Rylai's Crystal Scepter",
   "Mercury's Treads",
-  "Liandry's Torment",
-  "Rylai's Crystal Scepter"
+  "Riftmaker",
+  "Liandry's Torment"
  ],
  "fourth": [
   "Dusk and Dawn",
-  "Spirit Visage",
   "Warmog's Armor",
+  "Spirit Visage",
   "Unending Despair"
  ],
  "fifth": [
@@ -33,19 +32,19 @@
   "Dusk and Dawn",
   "Warmog's Armor",
   "Unending Despair",
-  "Rabadon's Deathcap"
+  "Jak'Sho, The Protean"
  ],
  "pool": [
-  "Health Potion",
-  "Haunting Guise",
-  "Riftmaker",
-  "Mercury's Treads",
-  "Liandry's Torment",
+  "Giant's Belt",
+  "Amplifying Tome",
   "Rylai's Crystal Scepter",
+  "Mercury's Treads",
+  "Riftmaker",
+  "Liandry's Torment",
   "Dusk and Dawn",
-  "Spirit Visage",
   "Warmog's Armor",
+  "Spirit Visage",
   "Unending Despair",
-  "Rabadon's Deathcap"
+  "Jak'Sho, The Protean"
  ]
 }

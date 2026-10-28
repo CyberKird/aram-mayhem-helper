@@ -18,21 +18,21 @@
  ],
  "fourth": [
   "Jak'Sho, The Protean",
+  "Randuin's Omen",
   "Unending Despair",
-  "Thornmail",
-  "Lord Dominik's Regards"
+  "Thornmail"
  ],
  "fifth": [
   "Jak'Sho, The Protean",
   "Unending Despair",
-  "Lord Dominik's Regards",
-  "Randuin's Omen"
+  "Randuin's Omen",
+  "Lord Dominik's Regards"
  ],
  "sixth": [
   "Jak'Sho, The Protean",
   "Lord Dominik's Regards",
   "Infinity Edge",
-  "Maw of Malmortius"
+  "Randuin's Omen"
  ],
  "pool": [
   "Long Sword",
@@ -42,11 +42,10 @@
   "Death's Dance",
   "Endless Hunger",
   "Jak'Sho, The Protean",
+  "Randuin's Omen",
   "Unending Despair",
   "Thornmail",
   "Lord Dominik's Regards",
-  "Randuin's Omen",
-  "Infinity Edge",
-  "Maw of Malmortius"
+  "Infinity Edge"
  ]
 }

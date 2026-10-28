@@ -7,6 +7,7 @@
   "Ignite"
  ],
  "starting": [
+  "Refillable Potion",
   "Lost Chapter"
  ],
  "core": [
@@ -24,8 +25,8 @@
  "fifth": [
   "Shadowflame",
   "Lich Bane",
-  "Horizon Focus",
-  "Banshee's Veil"
+  "Banshee's Veil",
+  "Horizon Focus"
  ],
  "sixth": [
   "Lich Bane",
@@ -34,6 +35,7 @@
   "Banshee's Veil"
  ],
  "pool": [
+  "Refillable Potion",
   "Lost Chapter",
   "Luden's Echo",
   "Sorcerer's Shoes",

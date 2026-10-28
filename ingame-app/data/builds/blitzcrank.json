@@ -11,9 +11,9 @@
  ],
  "core": [
   "Malignance",
-  "Sorcerer's Shoes",
-  "Shadowflame",
-  "Rabadon's Deathcap"
+  "Ionian Boots of Lucidity",
+  "Rabadon's Deathcap",
+  "Shadowflame"
  ],
  "fourth": [
   "Frozen Heart",
@@ -25,26 +25,25 @@
   "Warmog's Armor",
   "Jak'Sho, The Protean",
   "Frozen Heart",
-  "Spirit Visage"
+  "Winter's Approach"
  ],
  "sixth": [
-  "Warmog's Armor",
   "Void Staff",
+  "Unending Despair",
   "Jak'Sho, The Protean",
-  "Stormsurge"
+  "Warmog's Armor"
  ],
  "pool": [
   "Lost Chapter",
   "Malignance",
-  "Sorcerer's Shoes",
-  "Shadowflame",
+  "Ionian Boots of Lucidity",
   "Rabadon's Deathcap",
+  "Shadowflame",
   "Frozen Heart",
   "Warmog's Armor",
   "Winter's Approach",
   "Jak'Sho, The Protean",
-  "Spirit Visage",
   "Void Staff",
-  "Stormsurge"
+  "Unending Despair"
  ]
 }

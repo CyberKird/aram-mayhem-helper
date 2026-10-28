@@ -7,8 +7,6 @@
   "Cleanse"
  ],
  "starting": [
-  "Pickaxe",
-  "Dagger",
   "Dagger"
  ],
  "core": [
@@ -18,14 +16,14 @@
   "Terminus"
  ],
  "fourth": [
-  "Wit's End",
   "Runaan's Hurricane",
+  "Wit's End",
   "Blade of The Ruined King",
   "Infinity Edge"
  ],
  "fifth": [
-  "Bloodthirster",
   "Wit's End",
+  "Bloodthirster",
   "Jak'Sho, The Protean",
   "Runaan's Hurricane"
  ],
@@ -33,21 +31,20 @@
   "Jak'Sho, The Protean",
   "Bloodthirster",
   "Wit's End",
-  "Lord Dominik's Regards"
+  "Kraken Slayer"
  ],
  "pool": [
-  "Pickaxe",
   "Dagger",
   "Statikk Shiv",
   "Berserker's Greaves",
   "Guinsoo's Rageblade",
   "Terminus",
-  "Wit's End",
   "Runaan's Hurricane",
+  "Wit's End",
   "Blade of The Ruined King",
   "Infinity Edge",
   "Bloodthirster",
   "Jak'Sho, The Protean",
-  "Lord Dominik's Regards"
+  "Kraken Slayer"
  ]
 }

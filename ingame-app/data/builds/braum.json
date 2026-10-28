@@ -20,7 +20,7 @@
   "Frozen Heart",
   "Jak'Sho, The Protean",
   "Randuin's Omen",
-  "Hollow Radiance"
+  "Winter's Approach"
  ],
  "fifth": [
   "Frozen Heart",
@@ -29,10 +29,10 @@
   "Randuin's Omen"
  ],
  "sixth": [
-  "Frozen Heart",
   "Sunfire Aegis",
-  "Jak'Sho, The Protean",
-  "Overlord's Bloodmail"
+  "Frozen Heart",
+  "Force of Nature",
+  "Jak'Sho, The Protean"
  ],
  "pool": [
   "Giant's Belt",
@@ -44,9 +44,8 @@
   "Frozen Heart",
   "Jak'Sho, The Protean",
   "Randuin's Omen",
-  "Hollow Radiance",
+  "Winter's Approach",
   "Force of Nature",
-  "Sunfire Aegis",
-  "Overlord's Bloodmail"
+  "Sunfire Aegis"
  ]
 }

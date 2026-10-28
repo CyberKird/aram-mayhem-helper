@@ -7,13 +7,15 @@
   "Ghost"
  ],
  "starting": [
-  "Lost Chapter"
+  "Dagger",
+  "Dagger",
+  "Aether Wisp"
  ],
  "core": [
-  "Malignance",
-  "Ionian Boots of Lucidity",
   "Statikk Shiv",
-  "Nashor's Tooth"
+  "Sorcerer's Shoes",
+  "Nashor's Tooth",
+  "Dusk and Dawn"
  ],
  "fourth": [
   "Rabadon's Deathcap",
@@ -25,20 +27,21 @@
   "Shadowflame",
   "Rabadon's Deathcap",
   "Liandry's Torment",
-  "Blackfire Torch"
+  "Void Staff"
  ],
  "sixth": [
   "Shadowflame",
   "Void Staff",
-  "Archangel's Staff",
-  "Rabadon's Deathcap"
+  "Rabadon's Deathcap",
+  "Archangel's Staff"
  ],
  "pool": [
-  "Lost Chapter",
-  "Malignance",
-  "Ionian Boots of Lucidity",
+  "Dagger",
+  "Aether Wisp",
   "Statikk Shiv",
+  "Sorcerer's Shoes",
   "Nashor's Tooth",
+  "Dusk and Dawn",
   "Rabadon's Deathcap",
   "Liandry's Torment",
   "Blackfire Torch",

@@ -7,26 +7,26 @@
   "Mark"
  ],
  "starting": [
-  "Long Sword",
-  "Guardian's Blade"
+  "Dagger",
+  "Vampiric Scepter"
  ],
  "core": [
   "Blade of The Ruined King",
-  "Plated Steelcaps",
-  "Death's Dance",
-  "Terminus"
+  "Mercury's Treads",
+  "Kraken Slayer",
+  "Death's Dance"
  ],
  "fourth": [
   "Endless Hunger",
+  "Terminus",
   "Ravenous Hydra",
-  "Jak'Sho, The Protean",
-  "Randuin's Omen"
+  "Jak'Sho, The Protean"
  ],
  "fifth": [
   "Endless Hunger",
+  "Terminus",
   "Ravenous Hydra",
-  "Spirit Visage",
-  "Jak'Sho, The Protean"
+  "Thornmail"
  ],
  "sixth": [
   "Endless Hunger",
@@ -35,17 +35,18 @@
   "Spirit Visage"
  ],
  "pool": [
-  "Long Sword",
-  "Guardian's Blade",
+  "Dagger",
+  "Vampiric Scepter",
   "Blade of The Ruined King",
-  "Plated Steelcaps",
+  "Mercury's Treads",
+  "Kraken Slayer",
   "Death's Dance",
-  "Terminus",
   "Endless Hunger",
+  "Terminus",
   "Ravenous Hydra",
   "Jak'Sho, The Protean",
-  "Randuin's Omen",
-  "Spirit Visage",
-  "Overlord's Bloodmail"
+  "Thornmail",
+  "Overlord's Bloodmail",
+  "Spirit Visage"
  ]
 }

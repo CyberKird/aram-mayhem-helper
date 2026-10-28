@@ -23,15 +23,15 @@
   "Redemption"
  ],
  "fifth": [
-  "Staff of Flowing Water",
   "Dawncore",
+  "Staff of Flowing Water",
   "Ardent Censer",
   "Archangel's Staff"
  ],
  "sixth": [
   "Staff of Flowing Water",
-  "Dawncore",
   "Ardent Censer",
+  "Dawncore",
   "Redemption"
  ],
  "pool": [
@@ -45,7 +45,7 @@
   "Archangel's Staff",
   "Rabadon's Deathcap",
   "Redemption",
-  "Staff of Flowing Water",
-  "Dawncore"
+  "Dawncore",
+  "Staff of Flowing Water"
  ]
 }

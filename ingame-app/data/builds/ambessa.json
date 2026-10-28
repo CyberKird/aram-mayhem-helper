@@ -23,14 +23,14 @@
   "Spear of Shojin"
  ],
  "fifth": [
-  "Axiom Arc",
-  "Voltaic Cyclosword",
   "Lord Dominik's Regards",
-  "Maw of Malmortius"
+  "Voltaic Cyclosword",
+  "Maw of Malmortius",
+  "Spear of Shojin"
  ],
  "sixth": [
-  "Axiom Arc",
   "Voltaic Cyclosword",
+  "Axiom Arc",
   "Lord Dominik's Regards",
   "Maw of Malmortius"
  ],
@@ -45,7 +45,7 @@
   "Lord Dominik's Regards",
   "Mortal Reminder",
   "Spear of Shojin",
-  "Axiom Arc",
-  "Maw of Malmortius"
+  "Maw of Malmortius",
+  "Axiom Arc"
  ]
 }

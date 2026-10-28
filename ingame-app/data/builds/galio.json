@@ -14,7 +14,7 @@
   "Shadowflame",
   "Sorcerer's Shoes",
   "Rabadon's Deathcap",
-  "Stormsurge"
+  "Void Staff"
  ],
  "fourth": [
   "Riftmaker",
@@ -31,8 +31,8 @@
  "sixth": [
   "Riftmaker",
   "Spirit Visage",
-  "Void Staff",
-  "Jak'Sho, The Protean"
+  "Jak'Sho, The Protean",
+  "Warmog's Armor"
  ],
  "pool": [
   "Amplifying Tome",
@@ -40,11 +40,10 @@
   "Shadowflame",
   "Sorcerer's Shoes",
   "Rabadon's Deathcap",
-  "Stormsurge",
+  "Void Staff",
   "Riftmaker",
   "Warmog's Armor",
   "Jak'Sho, The Protean",
-  "Spirit Visage",
-  "Void Staff"
+  "Spirit Visage"
  ]
 }

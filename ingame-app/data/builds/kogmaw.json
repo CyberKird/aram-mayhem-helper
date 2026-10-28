@@ -8,13 +8,12 @@
  ],
  "starting": [
   "Boots",
-  "Blasting Wand",
-  "Dagger"
+  "Hextech Alternator"
  ],
  "core": [
-  "Dusk and Dawn",
-  "Sorcerer's Shoes",
   "Shadowflame",
+  "Sorcerer's Shoes",
+  "Dusk and Dawn",
   "Rabadon's Deathcap"
  ],
  "fourth": [
@@ -31,17 +30,16 @@
  ],
  "sixth": [
   "Void Staff",
+  "Nashor's Tooth",
   "Terminus",
-  "Archangel's Staff",
-  "Nashor's Tooth"
+  "Archangel's Staff"
  ],
  "pool": [
   "Boots",
-  "Blasting Wand",
-  "Dagger",
-  "Dusk and Dawn",
-  "Sorcerer's Shoes",
+  "Hextech Alternator",
   "Shadowflame",
+  "Sorcerer's Shoes",
+  "Dusk and Dawn",
   "Rabadon's Deathcap",
   "Void Staff",
   "Archangel's Staff",

@@ -28,10 +28,10 @@
   "Zhonya's Hourglass"
  ],
  "sixth": [
-  "Banshee's Veil",
   "Stormsurge",
+  "Banshee's Veil",
   "Zhonya's Hourglass",
-  "Void Staff"
+  "Hextech Rocketbelt"
  ],
  "pool": [
   "Blasting Wand",
@@ -43,6 +43,7 @@
   "Void Staff",
   "Stormsurge",
   "Zhonya's Hourglass",
-  "Banshee's Veil"
+  "Banshee's Veil",
+  "Hextech Rocketbelt"
  ]
 }

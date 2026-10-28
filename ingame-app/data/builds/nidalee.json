@@ -4,16 +4,16 @@
  "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
-  "Mark"
+  "Ghost"
  ],
  "starting": [
   "Lost Chapter"
  ],
  "core": [
-  "Luden's Echo",
+  "Stormsurge",
   "Sorcerer's Shoes",
-  "Rabadon's Deathcap",
-  "Stormsurge"
+  "Luden's Echo",
+  "Rabadon's Deathcap"
  ],
  "fourth": [
   "Shadowflame",
@@ -30,21 +30,20 @@
  "sixth": [
   "Horizon Focus",
   "Shadowflame",
-  "Banshee's Veil",
-  "Archangel's Staff"
+  "Archangel's Staff",
+  "Void Staff"
  ],
  "pool": [
   "Lost Chapter",
-  "Luden's Echo",
-  "Sorcerer's Shoes",
-  "Rabadon's Deathcap",
   "Stormsurge",
+  "Sorcerer's Shoes",
+  "Luden's Echo",
+  "Rabadon's Deathcap",
   "Shadowflame",
   "Lich Bane",
   "Void Staff",
   "Liandry's Torment",
   "Archangel's Staff",
-  "Horizon Focus",
-  "Banshee's Veil"
+  "Horizon Focus"
  ]
 }

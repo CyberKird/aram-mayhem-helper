@@ -21,7 +21,7 @@
   "Lord Dominik's Regards",
   "Edge of Night",
   "Serylda's Grudge",
-  "Infinity Edge"
+  "Rabadon's Deathcap"
  ],
  "fifth": [
   "Edge of Night",
@@ -33,7 +33,7 @@
   "Youmuu's Ghostblade",
   "Edge of Night",
   "Void Staff",
-  "Lord Dominik's Regards"
+  "Wit's End"
  ],
  "pool": [
   "Pickaxe",
@@ -45,8 +45,9 @@
   "Lord Dominik's Regards",
   "Edge of Night",
   "Serylda's Grudge",
-  "Infinity Edge",
+  "Rabadon's Deathcap",
   "Void Staff",
-  "Youmuu's Ghostblade"
+  "Youmuu's Ghostblade",
+  "Wit's End"
  ]
 }

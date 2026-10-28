@@ -7,7 +7,8 @@
   "Ghost"
  ],
  "starting": [
-  "Catalyst of Aeons"
+  "Blasting Wand",
+  "Tear of the Goddess"
  ],
  "core": [
   "Rod of Ages",
@@ -22,19 +23,20 @@
   "Warmog's Armor"
  ],
  "fifth": [
-  "Banshee's Veil",
   "Shadowflame",
+  "Banshee's Veil",
   "Stormsurge",
   "Void Staff"
  ],
  "sixth": [
   "Banshee's Veil",
-  "Shadowflame",
   "Stormsurge",
-  "Warmog's Armor"
+  "Shadowflame",
+  "Void Staff"
  ],
  "pool": [
-  "Catalyst of Aeons",
+  "Blasting Wand",
+  "Tear of the Goddess",
   "Rod of Ages",
   "Sorcerer's Shoes",
   "Rabadon's Deathcap",

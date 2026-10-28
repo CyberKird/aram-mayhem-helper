@@ -8,7 +8,9 @@
  ],
  "starting": [
   "Long Sword",
-  "Guardian's Blade"
+  "Long Sword",
+  "Long Sword",
+  "Long Sword"
  ],
  "core": [
   "Hubris",
@@ -20,23 +22,22 @@
   "Axiom Arc",
   "Lord Dominik's Regards",
   "Infinity Edge",
-  "Essence Reaver"
+  "Bloodthirster"
  ],
  "fifth": [
   "Axiom Arc",
-  "Hexoptics C44",
   "Lord Dominik's Regards",
+  "Hexoptics C44",
   "Essence Reaver"
  ],
  "sixth": [
   "Voltaic Cyclosword",
-  "Axiom Arc",
   "Endless Hunger",
+  "Axiom Arc",
   "Edge of Night"
  ],
  "pool": [
   "Long Sword",
-  "Guardian's Blade",
   "Hubris",
   "Mercury's Treads",
   "The Collector",
@@ -44,8 +45,9 @@
   "Axiom Arc",
   "Lord Dominik's Regards",
   "Infinity Edge",
-  "Essence Reaver",
+  "Bloodthirster",
   "Hexoptics C44",
+  "Essence Reaver",
   "Voltaic Cyclosword",
   "Endless Hunger",
   "Edge of Night"

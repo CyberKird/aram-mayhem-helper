@@ -12,40 +12,39 @@
  ],
  "core": [
   "Heartsteel",
-  "Mercury's Treads",
+  "Plated Steelcaps",
   "Overlord's Bloodmail",
-  "Warmog's Armor"
+  "Sundered Sky"
  ],
  "fourth": [
+  "Warmog's Armor",
   "Unending Despair",
   "Sterak's Gage",
-  "Jak'Sho, The Protean",
-  "Death's Dance"
+  "Jak'Sho, The Protean"
  ],
  "fifth": [
   "Endless Hunger",
-  "Unending Despair",
   "Sterak's Gage",
-  "Sundered Sky"
+  "Unending Despair",
+  "Warmog's Armor"
  ],
  "sixth": [
   "Endless Hunger",
   "Unending Despair",
-  "Jak'Sho, The Protean",
-  "Sterak's Gage"
+  "Sterak's Gage",
+  "Jak'Sho, The Protean"
  ],
  "pool": [
   "Giant's Belt",
   "Ruby Crystal",
   "Heartsteel",
-  "Mercury's Treads",
+  "Plated Steelcaps",
   "Overlord's Bloodmail",
+  "Sundered Sky",
   "Warmog's Armor",
   "Unending Despair",
   "Sterak's Gage",
   "Jak'Sho, The Protean",
-  "Death's Dance",
-  "Endless Hunger",
-  "Sundered Sky"
+  "Endless Hunger"
  ]
 }
