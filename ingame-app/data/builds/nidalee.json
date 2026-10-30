@@ -19,19 +19,19 @@
   "Shadowflame",
   "Lich Bane",
   "Void Staff",
-  "Liandry's Torment"
+  "Horizon Focus"
  ],
  "fifth": [
-  "Shadowflame",
   "Archangel's Staff",
+  "Shadowflame",
   "Horizon Focus",
   "Lich Bane"
  ],
  "sixth": [
   "Horizon Focus",
   "Shadowflame",
-  "Archangel's Staff",
-  "Void Staff"
+  "Banshee's Veil",
+  "Archangel's Staff"
  ],
  "pool": [
   "Lost Chapter",
@@ -42,8 +42,8 @@
   "Shadowflame",
   "Lich Bane",
   "Void Staff",
-  "Liandry's Torment",
+  "Horizon Focus",
   "Archangel's Staff",
-  "Horizon Focus"
+  "Banshee's Veil"
  ]
 }

@@ -12,39 +12,39 @@
  ],
  "core": [
   "Ravenous Hydra",
-  "Boots of Swiftness",
+  "Mercury's Treads",
   "Death's Dance",
   "Experimental Hexplate"
  ],
  "fourth": [
   "Endless Hunger",
   "Sterak's Gage",
-  "Spirit Visage",
-  "Blade of The Ruined King"
+  "Blade of The Ruined King",
+  "Spirit Visage"
  ],
  "fifth": [
   "Endless Hunger",
   "Overlord's Bloodmail",
-  "Sterak's Gage",
-  "Maw of Malmortius"
+  "Maw of Malmortius",
+  "Sterak's Gage"
  ],
  "sixth": [
-  "Endless Hunger",
-  "Maw of Malmortius",
   "Sterak's Gage",
-  "Overlord's Bloodmail"
+  "Overlord's Bloodmail",
+  "Endless Hunger",
+  "Maw of Malmortius"
  ],
  "pool": [
   "Long Sword",
   "Guardian's Blade",
   "Ravenous Hydra",
-  "Boots of Swiftness",
+  "Mercury's Treads",
   "Death's Dance",
   "Experimental Hexplate",
   "Endless Hunger",
   "Sterak's Gage",
-  "Spirit Visage",
   "Blade of The Ruined King",
+  "Spirit Visage",
   "Overlord's Bloodmail",
   "Maw of Malmortius"
  ]

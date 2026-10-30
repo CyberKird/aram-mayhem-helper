@@ -7,7 +7,6 @@
   "Ghost"
  ],
  "starting": [
-  "Refillable Potion",
   "Lost Chapter"
  ],
  "core": [
@@ -32,10 +31,9 @@
   "Stormsurge",
   "Banshee's Veil",
   "Cosmic Drive",
-  "Void Staff"
+  "Cryptbloom"
  ],
  "pool": [
-  "Refillable Potion",
   "Lost Chapter",
   "Luden's Echo",
   "Sorcerer's Shoes",
@@ -46,6 +44,7 @@
   "Void Staff",
   "Liandry's Torment",
   "Banshee's Veil",
-  "Cosmic Drive"
+  "Cosmic Drive",
+  "Cryptbloom"
  ]
 }

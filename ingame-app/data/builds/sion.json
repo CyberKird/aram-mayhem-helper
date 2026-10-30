@@ -18,13 +18,13 @@
  ],
  "fourth": [
   "Warmog's Armor",
+  "Sunfire Aegis",
   "Overlord's Bloodmail",
-  "Titanic Hydra",
-  "Jak'Sho, The Protean"
+  "Titanic Hydra"
  ],
  "fifth": [
-  "Warmog's Armor",
   "Overlord's Bloodmail",
+  "Warmog's Armor",
   "Titanic Hydra",
   "Spirit Visage"
  ],
@@ -42,9 +42,10 @@
   "Hollow Radiance",
   "Unending Despair",
   "Warmog's Armor",
+  "Sunfire Aegis",
   "Overlord's Bloodmail",
   "Titanic Hydra",
-  "Jak'Sho, The Protean",
-  "Spirit Visage"
+  "Spirit Visage",
+  "Jak'Sho, The Protean"
  ]
 }

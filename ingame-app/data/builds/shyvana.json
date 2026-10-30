@@ -20,19 +20,19 @@
   "Overlord's Bloodmail",
   "Unending Despair",
   "Jak'Sho, The Protean",
-  "Death's Dance"
+  "Shadowflame"
  ],
  "fifth": [
   "Overlord's Bloodmail",
   "Unending Despair",
-  "Jak'Sho, The Protean",
-  "Death's Dance"
+  "Death's Dance",
+  "Jak'Sho, The Protean"
  ],
  "sixth": [
   "Unending Despair",
   "Overlord's Bloodmail",
-  "Jak'Sho, The Protean",
-  "Death's Dance"
+  "Death's Dance",
+  "Spirit Visage"
  ],
  "pool": [
   "Giant's Belt",
@@ -44,6 +44,8 @@
   "Overlord's Bloodmail",
   "Unending Despair",
   "Jak'Sho, The Protean",
-  "Death's Dance"
+  "Shadowflame",
+  "Death's Dance",
+  "Spirit Visage"
  ]
 }

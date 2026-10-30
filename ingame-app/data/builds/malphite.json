@@ -24,15 +24,15 @@
  ],
  "fifth": [
   "Frozen Heart",
-  "Jak'Sho, The Protean",
   "Randuin's Omen",
+  "Jak'Sho, The Protean",
   "Warmog's Armor"
  ],
  "sixth": [
+  "Iceborn Gauntlet",
   "Frozen Heart",
   "Jak'Sho, The Protean",
-  "Randuin's Omen",
-  "Warmog's Armor"
+  "Randuin's Omen"
  ],
  "pool": [
   "Giant's Belt",
@@ -44,6 +44,7 @@
   "Frozen Heart",
   "Randuin's Omen",
   "Jak'Sho, The Protean",
-  "Warmog's Armor"
+  "Warmog's Armor",
+  "Iceborn Gauntlet"
  ]
 }

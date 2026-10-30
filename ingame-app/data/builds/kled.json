@@ -25,14 +25,14 @@
  "fifth": [
   "Overlord's Bloodmail",
   "Unending Despair",
-  "Jak'Sho, The Protean",
-  "Sterak's Gage"
+  "Sterak's Gage",
+  "Jak'Sho, The Protean"
  ],
  "sixth": [
   "Unending Despair",
-  "Overlord's Bloodmail",
+  "Endless Hunger",
   "Sterak's Gage",
-  "Death's Dance"
+  "Sundered Sky"
  ],
  "pool": [
   "Giant's Belt",
@@ -46,6 +46,7 @@
   "Jak'Sho, The Protean",
   "Lord Dominik's Regards",
   "Sterak's Gage",
-  "Death's Dance"
+  "Endless Hunger",
+  "Sundered Sky"
  ]
 }

@@ -13,13 +13,13 @@
  "core": [
   "Trinity Force",
   "Ionian Boots of Lucidity",
-  "Spirit Visage",
-  "Frozen Heart"
+  "Frozen Heart",
+  "Spirit Visage"
  ],
  "fourth": [
   "Jak'Sho, The Protean",
   "Death's Dance",
-  "Force of Nature",
+  "Lord Dominik's Regards",
   "Unending Despair"
  ],
  "fifth": [
@@ -30,22 +30,21 @@
  ],
  "sixth": [
   "Death's Dance",
-  "Endless Hunger",
   "Jak'Sho, The Protean",
-  "Lord Dominik's Regards"
+  "Endless Hunger",
+  "Unending Despair"
  ],
  "pool": [
   "Ruby Crystal",
   "Sheen",
   "Trinity Force",
   "Ionian Boots of Lucidity",
-  "Spirit Visage",
   "Frozen Heart",
+  "Spirit Visage",
   "Jak'Sho, The Protean",
   "Death's Dance",
-  "Force of Nature",
+  "Lord Dominik's Regards",
   "Unending Despair",
-  "Endless Hunger",
-  "Lord Dominik's Regards"
+  "Endless Hunger"
  ]
 }

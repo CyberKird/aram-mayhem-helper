@@ -7,15 +7,14 @@
   "Heal"
  ],
  "starting": [
-  "Ruby Crystal",
   "Tear of the Goddess",
-  "Forbidden Idol"
+  "Bandleglass Mirror"
  ],
  "core": [
-  "Whispering Circlet",
-  "Ionian Boots of Lucidity",
   "Moonstone Renewer",
-  "Ardent Censer"
+  "Ionian Boots of Lucidity",
+  "Ardent Censer",
+  "Whispering Circlet"
  ],
  "fourth": [
   "Staff of Flowing Water",
@@ -27,7 +26,7 @@
   "Staff of Flowing Water",
   "Dawncore",
   "Redemption",
-  "Archangel's Staff"
+  "Imperial Mandate"
  ],
  "sixth": [
   "Staff of Flowing Water",
@@ -36,18 +35,17 @@
   "Shurelya's Battlesong"
  ],
  "pool": [
-  "Ruby Crystal",
   "Tear of the Goddess",
-  "Forbidden Idol",
-  "Whispering Circlet",
-  "Ionian Boots of Lucidity",
+  "Bandleglass Mirror",
   "Moonstone Renewer",
+  "Ionian Boots of Lucidity",
   "Ardent Censer",
+  "Whispering Circlet",
   "Staff of Flowing Water",
   "Dawncore",
   "Redemption",
   "Rabadon's Deathcap",
-  "Archangel's Staff",
+  "Imperial Mandate",
   "Mikael's Blessing",
   "Shurelya's Battlesong"
  ]

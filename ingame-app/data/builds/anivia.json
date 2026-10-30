@@ -19,8 +19,8 @@
  "fourth": [
   "Rabadon's Deathcap",
   "Malignance",
-  "Zhonya's Hourglass",
-  "Shadowflame"
+  "Shadowflame",
+  "Blackfire Torch"
  ],
  "fifth": [
   "Bloodletter's Curse",
@@ -30,9 +30,9 @@
  ],
  "sixth": [
   "Bloodletter's Curse",
-  "Blackfire Torch",
+  "Zhonya's Hourglass",
   "Shadowflame",
-  "Zhonya's Hourglass"
+  "Rabadon's Deathcap"
  ],
  "pool": [
   "Blasting Wand",
@@ -43,9 +43,9 @@
   "Archangel's Staff",
   "Rabadon's Deathcap",
   "Malignance",
-  "Zhonya's Hourglass",
   "Shadowflame",
+  "Blackfire Torch",
   "Bloodletter's Curse",
-  "Blackfire Torch"
+  "Zhonya's Hourglass"
  ]
 }

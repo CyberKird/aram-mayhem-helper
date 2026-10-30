@@ -8,19 +8,19 @@
  ],
  "starting": [
   "Long Sword",
-  "Guardian's Blade"
+  "Pickaxe"
  ],
  "core": [
-  "Ravenous Hydra",
+  "Endless Hunger",
   "Mercury's Treads",
-  "Death's Dance",
-  "Endless Hunger"
+  "Ravenous Hydra",
+  "Death's Dance"
  ],
  "fourth": [
   "Jak'Sho, The Protean",
+  "Thornmail",
   "Maw of Malmortius",
-  "Spear of Shojin",
-  "Spirit Visage"
+  "Spear of Shojin"
  ],
  "fifth": [
   "Jak'Sho, The Protean",
@@ -30,22 +30,21 @@
  ],
  "sixth": [
   "Jak'Sho, The Protean",
-  "Overlord's Bloodmail",
   "Maw of Malmortius",
-  "Spear of Shojin"
+  "Spear of Shojin",
+  "Spirit Visage"
  ],
  "pool": [
   "Long Sword",
-  "Guardian's Blade",
-  "Ravenous Hydra",
-  "Mercury's Treads",
-  "Death's Dance",
+  "Pickaxe",
   "Endless Hunger",
+  "Mercury's Treads",
+  "Ravenous Hydra",
+  "Death's Dance",
   "Jak'Sho, The Protean",
+  "Thornmail",
   "Maw of Malmortius",
   "Spear of Shojin",
-  "Spirit Visage",
-  "Thornmail",
-  "Overlord's Bloodmail"
+  "Spirit Visage"
  ]
 }

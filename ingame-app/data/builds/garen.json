@@ -7,14 +7,14 @@
   "Mark"
  ],
  "starting": [
-  "Long Sword",
-  "Guardian's Blade"
+  "Boots",
+  "Phage"
  ],
  "core": [
   "Stridebreaker",
   "Berserker's Greaves",
-  "Phantom Dancer",
-  "Infinity Edge"
+  "Infinity Edge",
+  "Phantom Dancer"
  ],
  "fourth": [
   "Overlord's Bloodmail",
@@ -25,8 +25,8 @@
  "fifth": [
   "Endless Hunger",
   "Lord Dominik's Regards",
-  "The Collector",
-  "Overlord's Bloodmail"
+  "Overlord's Bloodmail",
+  "The Collector"
  ],
  "sixth": [
   "Endless Hunger",
@@ -35,12 +35,12 @@
   "Overlord's Bloodmail"
  ],
  "pool": [
-  "Long Sword",
-  "Guardian's Blade",
+  "Boots",
+  "Phage",
   "Stridebreaker",
   "Berserker's Greaves",
-  "Phantom Dancer",
   "Infinity Edge",
+  "Phantom Dancer",
   "Overlord's Bloodmail",
   "Lord Dominik's Regards",
   "Death's Dance",

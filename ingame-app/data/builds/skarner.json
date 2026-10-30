@@ -7,46 +7,46 @@
   "Mark"
  ],
  "starting": [
-  "Fated Ashes",
-  "Tear of the Goddess"
+  "Giant's Belt",
+  "Ruby Crystal"
  ],
  "core": [
-  "Liandry's Torment",
+  "Heartsteel",
   "Mercury's Treads",
-  "Winter's Approach",
-  "Riftmaker"
+  "Unending Despair",
+  "Warmog's Armor"
  ],
  "fourth": [
-  "Warmog's Armor",
+  "Winter's Approach",
   "Jak'Sho, The Protean",
-  "Unending Despair",
-  "Hollow Radiance"
+  "Hollow Radiance",
+  "Spirit Visage"
  ],
  "fifth": [
   "Overlord's Bloodmail",
   "Spirit Visage",
-  "Warmog's Armor",
-  "Jak'Sho, The Protean"
+  "Jak'Sho, The Protean",
+  "Frozen Heart"
  ],
  "sixth": [
   "Jak'Sho, The Protean",
-  "Force of Nature",
   "Overlord's Bloodmail",
-  "Unending Despair"
+  "Frozen Heart",
+  "Force of Nature"
  ],
  "pool": [
-  "Fated Ashes",
-  "Tear of the Goddess",
-  "Liandry's Torment",
+  "Giant's Belt",
+  "Ruby Crystal",
+  "Heartsteel",
   "Mercury's Treads",
-  "Winter's Approach",
-  "Riftmaker",
-  "Warmog's Armor",
-  "Jak'Sho, The Protean",
   "Unending Despair",
+  "Warmog's Armor",
+  "Winter's Approach",
+  "Jak'Sho, The Protean",
   "Hollow Radiance",
-  "Overlord's Bloodmail",
   "Spirit Visage",
+  "Overlord's Bloodmail",
+  "Frozen Heart",
   "Force of Nature"
  ]
 }

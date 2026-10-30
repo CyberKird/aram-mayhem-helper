@@ -7,44 +7,45 @@
   "Mark"
  ],
  "starting": [
-  "Lost Chapter"
+  "Ruby Crystal",
+  "Guardian's Horn"
  ],
  "core": [
-  "Luden's Echo",
-  "Sorcerer's Shoes",
-  "Shadowflame",
-  "Rabadon's Deathcap"
+  "Zeke's Convergence",
+  "Mercury's Treads",
+  "Knight's Vow",
+  "Locket of the Iron Solari"
  ],
  "fourth": [
-  "Knight's Vow",
-  "Jak'Sho, The Protean",
-  "Warmog's Armor",
-  "Randuin's Omen"
- ],
- "fifth": [
-  "Warmog's Armor",
-  "Zeke's Convergence",
-  "Jak'Sho, The Protean",
-  "Winter's Approach"
- ],
- "sixth": [
-  "Knight's Vow",
-  "Warmog's Armor",
-  "Jak'Sho, The Protean",
-  "Spirit Visage"
- ],
- "pool": [
-  "Lost Chapter",
-  "Luden's Echo",
-  "Sorcerer's Shoes",
-  "Shadowflame",
-  "Rabadon's Deathcap",
-  "Knight's Vow",
   "Jak'Sho, The Protean",
   "Warmog's Armor",
   "Randuin's Omen",
-  "Zeke's Convergence",
+  "Winter's Approach"
+ ],
+ "fifth": [
+  "Warmog's Armor",
+  "Jak'Sho, The Protean",
   "Winter's Approach",
   "Spirit Visage"
+ ],
+ "sixth": [
+  "Warmog's Armor",
+  "Jak'Sho, The Protean",
+  "Spirit Visage",
+  "Frozen Heart"
+ ],
+ "pool": [
+  "Ruby Crystal",
+  "Guardian's Horn",
+  "Zeke's Convergence",
+  "Mercury's Treads",
+  "Knight's Vow",
+  "Locket of the Iron Solari",
+  "Jak'Sho, The Protean",
+  "Warmog's Armor",
+  "Randuin's Omen",
+  "Winter's Approach",
+  "Spirit Visage",
+  "Frozen Heart"
  ]
 }

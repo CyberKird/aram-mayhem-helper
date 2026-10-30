@@ -8,24 +8,26 @@
  ],
  "starting": [
   "Giant's Belt",
-  "Ruby Crystal"
+  "Ruby Crystal",
+  "Health Potion",
+  "Health Potion"
  ],
  "core": [
   "Heartsteel",
-  "Plated Steelcaps",
-  "Overlord's Bloodmail",
-  "Sundered Sky"
+  "Mercury's Treads",
+  "Sundered Sky",
+  "Overlord's Bloodmail"
  ],
  "fourth": [
-  "Warmog's Armor",
   "Unending Despair",
+  "Warmog's Armor",
   "Sterak's Gage",
   "Jak'Sho, The Protean"
  ],
  "fifth": [
   "Endless Hunger",
-  "Sterak's Gage",
   "Unending Despair",
+  "Sterak's Gage",
   "Warmog's Armor"
  ],
  "sixth": [
@@ -37,12 +39,13 @@
  "pool": [
   "Giant's Belt",
   "Ruby Crystal",
+  "Health Potion",
   "Heartsteel",
-  "Plated Steelcaps",
-  "Overlord's Bloodmail",
+  "Mercury's Treads",
   "Sundered Sky",
-  "Warmog's Armor",
+  "Overlord's Bloodmail",
   "Unending Despair",
+  "Warmog's Armor",
   "Sterak's Gage",
   "Jak'Sho, The Protean",
   "Endless Hunger"

@@ -24,14 +24,14 @@
  "fifth": [
   "Warmog's Armor",
   "Riftmaker",
-  "Shadowflame",
+  "Unending Despair",
   "Jak'Sho, The Protean"
  ],
  "sixth": [
   "Shadowflame",
-  "Horizon Focus",
+  "Jak'Sho, The Protean",
   "Void Staff",
-  "Jak'Sho, The Protean"
+  "Horizon Focus"
  ],
  "pool": [
   "Lost Chapter",
@@ -45,7 +45,7 @@
   "Spirit Visage",
   "Riftmaker",
   "Shadowflame",
-  "Horizon Focus",
-  "Void Staff"
+  "Void Staff",
+  "Horizon Focus"
  ]
 }

@@ -7,7 +7,8 @@
   "Ghost"
  ],
  "starting": [
-  "Haunting Guise"
+  "Amplifying Tome",
+  "Guardian's Orb"
  ],
  "core": [
   "Riftmaker",
@@ -28,13 +29,14 @@
   "Cryptbloom"
  ],
  "sixth": [
-  "Warmog's Armor",
   "Stormsurge",
+  "Warmog's Armor",
   "Void Staff",
   "Cosmic Drive"
  ],
  "pool": [
-  "Haunting Guise",
+  "Amplifying Tome",
+  "Guardian's Orb",
   "Riftmaker",
   "Sorcerer's Shoes",
   "Rabadon's Deathcap",

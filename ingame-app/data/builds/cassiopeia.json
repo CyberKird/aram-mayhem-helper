@@ -19,13 +19,13 @@
   "Blackfire Torch",
   "Rabadon's Deathcap",
   "Shadowflame",
-  "Riftmaker"
+  "Bloodletter's Curse"
  ],
  "fifth": [
   "Rabadon's Deathcap",
   "Riftmaker",
   "Rylai's Crystal Scepter",
-  "Blackfire Torch"
+  "Shadowflame"
  ],
  "sixth": [
   "Riftmaker",
@@ -42,8 +42,8 @@
   "Blackfire Torch",
   "Rabadon's Deathcap",
   "Shadowflame",
+  "Bloodletter's Curse",
   "Riftmaker",
-  "Rylai's Crystal Scepter",
-  "Bloodletter's Curse"
+  "Rylai's Crystal Scepter"
  ]
 }

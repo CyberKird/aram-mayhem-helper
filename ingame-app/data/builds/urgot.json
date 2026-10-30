@@ -19,8 +19,8 @@
  "fourth": [
   "Warmog's Armor",
   "Black Cleaver",
-  "Sterak's Gage",
-  "Unending Despair"
+  "Unending Despair",
+  "Death's Dance"
  ],
  "fifth": [
   "Warmog's Armor",
@@ -29,10 +29,10 @@
   "Unending Despair"
  ],
  "sixth": [
+  "Warmog's Armor",
   "Sterak's Gage",
   "Spirit Visage",
-  "Warmog's Armor",
-  "Black Cleaver"
+  "Unending Despair"
  ],
  "pool": [
   "Giant's Belt",
@@ -43,8 +43,9 @@
   "Overlord's Bloodmail",
   "Warmog's Armor",
   "Black Cleaver",
-  "Sterak's Gage",
   "Unending Despair",
+  "Death's Dance",
+  "Sterak's Gage",
   "Spirit Visage"
  ]
 }

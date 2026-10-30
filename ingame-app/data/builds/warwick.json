@@ -23,16 +23,16 @@
   "Titanic Hydra"
  ],
  "fifth": [
-  "Overlord's Bloodmail",
   "Endless Hunger",
+  "Overlord's Bloodmail",
   "Jak'Sho, The Protean",
   "Unending Despair"
  ],
  "sixth": [
   "Overlord's Bloodmail",
-  "Endless Hunger",
+  "Jak'Sho, The Protean",
   "Terminus",
-  "Jak'Sho, The Protean"
+  "Endless Hunger"
  ],
  "pool": [
   "Dagger",
@@ -45,8 +45,8 @@
   "Wit's End",
   "Unending Despair",
   "Titanic Hydra",
-  "Overlord's Bloodmail",
   "Endless Hunger",
+  "Overlord's Bloodmail",
   "Terminus"
  ]
 }

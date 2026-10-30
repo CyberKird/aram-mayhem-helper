@@ -7,7 +7,6 @@
   "Ghost"
  ],
  "starting": [
-  "Refillable Potion",
   "Lost Chapter"
  ],
  "core": [
@@ -30,12 +29,11 @@
  ],
  "sixth": [
   "Stormsurge",
-  "Malignance",
   "Banshee's Veil",
+  "Malignance",
   "Horizon Focus"
  ],
  "pool": [
-  "Refillable Potion",
   "Lost Chapter",
   "Luden's Echo",
   "Sorcerer's Shoes",

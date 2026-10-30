@@ -17,10 +17,10 @@
   "Warmog's Armor"
  ],
  "fourth": [
+  "Sunfire Aegis",
   "Jak'Sho, The Protean",
   "Hollow Radiance",
-  "Spirit Visage",
-  "Winter's Approach"
+  "Spirit Visage"
  ],
  "fifth": [
   "Frozen Heart",
@@ -30,8 +30,8 @@
  ],
  "sixth": [
   "Riftmaker",
-  "Jak'Sho, The Protean",
   "Sunfire Aegis",
+  "Jak'Sho, The Protean",
   "Frozen Heart"
  ],
  "pool": [
@@ -41,12 +41,11 @@
   "Mercury's Treads",
   "Unending Despair",
   "Warmog's Armor",
+  "Sunfire Aegis",
   "Jak'Sho, The Protean",
   "Hollow Radiance",
   "Spirit Visage",
-  "Winter's Approach",
   "Frozen Heart",
-  "Sunfire Aegis",
   "Riftmaker"
  ]
 }

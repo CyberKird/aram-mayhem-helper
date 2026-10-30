@@ -12,41 +12,40 @@
  ],
  "core": [
   "Rod of Ages",
-  "Mercury's Treads",
-  "Manamune",
+  "Sorcerer's Shoes",
+  "Malignance",
   "Archangel's Staff"
  ],
  "fourth": [
+  "Manamune",
   "Winter's Approach",
   "Rabadon's Deathcap",
-  "Frozen Heart",
-  "Malignance"
+  "Frozen Heart"
  ],
  "fifth": [
   "Winter's Approach",
-  "Malignance",
+  "Manamune",
   "Riftmaker",
   "Rabadon's Deathcap"
  ],
  "sixth": [
   "Winter's Approach",
+  "Manamune",
   "Riftmaker",
-  "Lich Bane",
-  "Void Staff"
+  "Lich Bane"
  ],
  "pool": [
   "Blasting Wand",
   "Tear of the Goddess",
   "Rod of Ages",
-  "Mercury's Treads",
-  "Manamune",
+  "Sorcerer's Shoes",
+  "Malignance",
   "Archangel's Staff",
+  "Manamune",
   "Winter's Approach",
   "Rabadon's Deathcap",
   "Frozen Heart",
-  "Malignance",
   "Riftmaker",
-  "Lich Bane",
-  "Void Staff"
+  "Lich Bane"
  ]
 }

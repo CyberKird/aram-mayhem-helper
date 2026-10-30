@@ -19,19 +19,19 @@
  "fourth": [
   "Rabadon's Deathcap",
   "Spirit Visage",
-  "Banshee's Veil",
-  "Void Staff"
+  "Void Staff",
+  "Banshee's Veil"
  ],
  "fifth": [
   "Jak'Sho, The Protean",
   "Void Staff",
-  "Banshee's Veil",
-  "Shadowflame"
+  "Stormsurge",
+  "Banshee's Veil"
  ],
  "sixth": [
+  "Riftmaker",
   "Banshee's Veil",
   "Jak'Sho, The Protean",
-  "Riftmaker",
   "Void Staff"
  ],
  "pool": [
@@ -43,10 +43,10 @@
   "Unending Despair",
   "Rabadon's Deathcap",
   "Spirit Visage",
-  "Banshee's Veil",
   "Void Staff",
+  "Banshee's Veil",
   "Jak'Sho, The Protean",
-  "Shadowflame",
+  "Stormsurge",
   "Riftmaker"
  ]
 }

@@ -18,14 +18,14 @@
  "fourth": [
   "Archangel's Staff",
   "Lich Bane",
-  "Stormsurge",
-  "Void Staff"
+  "Void Staff",
+  "Stormsurge"
  ],
  "fifth": [
-  "Lich Bane",
   "Stormsurge",
-  "Void Staff",
-  "Archangel's Staff"
+  "Lich Bane",
+  "Archangel's Staff",
+  "Void Staff"
  ],
  "sixth": [
   "Lich Bane",
@@ -41,8 +41,8 @@
   "Shadowflame",
   "Archangel's Staff",
   "Lich Bane",
-  "Stormsurge",
   "Void Staff",
+  "Stormsurge",
   "Banshee's Veil"
  ]
 }

@@ -12,40 +12,41 @@
  ],
  "core": [
   "Heartsteel",
-  "Plated Steelcaps",
+  "Mercury's Treads",
   "Warmog's Armor",
   "Unending Despair"
  ],
  "fourth": [
   "Overlord's Bloodmail",
-  "Titanic Hydra",
   "Sunfire Aegis",
+  "Titanic Hydra",
   "Hollow Radiance"
  ],
  "fifth": [
   "Overlord's Bloodmail",
-  "Titanic Hydra",
   "Sunfire Aegis",
+  "Titanic Hydra",
   "Jak'Sho, The Protean"
  ],
  "sixth": [
   "Overlord's Bloodmail",
   "Spirit Visage",
   "Jak'Sho, The Protean",
-  "Titanic Hydra"
+  "Frozen Heart"
  ],
  "pool": [
   "Giant's Belt",
   "Ruby Crystal",
   "Heartsteel",
-  "Plated Steelcaps",
+  "Mercury's Treads",
   "Warmog's Armor",
   "Unending Despair",
   "Overlord's Bloodmail",
-  "Titanic Hydra",
   "Sunfire Aegis",
+  "Titanic Hydra",
   "Hollow Radiance",
   "Jak'Sho, The Protean",
-  "Spirit Visage"
+  "Spirit Visage",
+  "Frozen Heart"
  ]
 }

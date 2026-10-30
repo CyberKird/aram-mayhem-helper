@@ -7,15 +7,13 @@
   "Clarity"
  ],
  "starting": [
-  "Refillable Potion",
-  "Tear of the Goddess",
-  "Fiendish Codex"
+  "Lost Chapter"
  ],
  "core": [
-  "Archangel's Staff",
-  "Sorcerer's Shoes",
   "Luden's Echo",
-  "Rabadon's Deathcap"
+  "Sorcerer's Shoes",
+  "Rabadon's Deathcap",
+  "Archangel's Staff"
  ],
  "fourth": [
   "Blackfire Torch",
@@ -33,22 +31,21 @@
   "Winter's Approach",
   "Rod of Ages",
   "Blackfire Torch",
-  "Malignance"
+  "Banshee's Veil"
  ],
  "pool": [
-  "Refillable Potion",
-  "Tear of the Goddess",
-  "Fiendish Codex",
-  "Archangel's Staff",
-  "Sorcerer's Shoes",
+  "Lost Chapter",
   "Luden's Echo",
+  "Sorcerer's Shoes",
   "Rabadon's Deathcap",
+  "Archangel's Staff",
   "Blackfire Torch",
   "Cosmic Drive",
   "Cryptbloom",
   "Horizon Focus",
   "Winter's Approach",
   "Rod of Ages",
-  "Malignance"
+  "Malignance",
+  "Banshee's Veil"
  ]
 }

@@ -8,7 +8,7 @@
  ],
  "starting": [
   "Long Sword",
-  "Pickaxe"
+  "Guardian's Blade"
  ],
  "core": [
   "The Collector",
@@ -20,12 +20,12 @@
   "Axiom Arc",
   "Bloodthirster",
   "Hexoptics C44",
-  "Runaan's Hurricane"
+  "Rapid Firecannon"
  ],
  "fifth": [
   "Axiom Arc",
-  "Hexoptics C44",
   "Bloodthirster",
+  "Hexoptics C44",
   "Kraken Slayer"
  ],
  "sixth": [
@@ -36,7 +36,7 @@
  ],
  "pool": [
   "Long Sword",
-  "Pickaxe",
+  "Guardian's Blade",
   "The Collector",
   "Berserker's Greaves",
   "Infinity Edge",
@@ -44,7 +44,7 @@
   "Axiom Arc",
   "Bloodthirster",
   "Hexoptics C44",
-  "Runaan's Hurricane",
+  "Rapid Firecannon",
   "Kraken Slayer",
   "Edge of Night",
   "Phantom Dancer"

@@ -19,20 +19,20 @@
  "fourth": [
   "Riftmaker",
   "Warmog's Armor",
-  "Jak'Sho, The Protean",
-  "Spirit Visage"
+  "Spirit Visage",
+  "Jak'Sho, The Protean"
  ],
  "fifth": [
   "Riftmaker",
   "Warmog's Armor",
-  "Jak'Sho, The Protean",
-  "Spirit Visage"
+  "Spirit Visage",
+  "Jak'Sho, The Protean"
  ],
  "sixth": [
   "Riftmaker",
-  "Spirit Visage",
   "Jak'Sho, The Protean",
-  "Warmog's Armor"
+  "Spirit Visage",
+  "Winter's Approach"
  ],
  "pool": [
   "Amplifying Tome",
@@ -43,7 +43,8 @@
   "Void Staff",
   "Riftmaker",
   "Warmog's Armor",
+  "Spirit Visage",
   "Jak'Sho, The Protean",
-  "Spirit Visage"
+  "Winter's Approach"
  ]
 }

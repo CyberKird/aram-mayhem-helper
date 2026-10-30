@@ -8,17 +8,19 @@
  ],
  "starting": [
   "Long Sword",
-  "Serrated Dirk"
+  "Long Sword",
+  "Long Sword",
+  "Long Sword"
  ],
  "core": [
   "Hubris",
-  "Mercury's Treads",
+  "Ionian Boots of Lucidity",
   "Axiom Arc",
   "The Collector"
  ],
  "fourth": [
-  "Death's Dance",
   "Voltaic Cyclosword",
+  "Death's Dance",
   "Lord Dominik's Regards",
   "Profane Hydra"
  ],
@@ -36,13 +38,12 @@
  ],
  "pool": [
   "Long Sword",
-  "Serrated Dirk",
   "Hubris",
-  "Mercury's Treads",
+  "Ionian Boots of Lucidity",
   "Axiom Arc",
   "The Collector",
-  "Death's Dance",
   "Voltaic Cyclosword",
+  "Death's Dance",
   "Lord Dominik's Regards",
   "Profane Hydra",
   "Endless Hunger"

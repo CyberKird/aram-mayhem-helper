@@ -7,6 +7,7 @@
   "Ghost"
  ],
  "starting": [
+  "Refillable Potion",
   "Lost Chapter"
  ],
  "core": [
@@ -28,12 +29,13 @@
   "Zhonya's Hourglass"
  ],
  "sixth": [
-  "Banshee's Veil",
-  "Stormsurge",
   "Archangel's Staff",
-  "Void Staff"
+  "Stormsurge",
+  "Void Staff",
+  "Rylai's Crystal Scepter"
  ],
  "pool": [
+  "Refillable Potion",
   "Lost Chapter",
   "Malignance",
   "Sorcerer's Shoes",
@@ -44,7 +46,6 @@
   "Stormsurge",
   "Void Staff",
   "Zhonya's Hourglass",
-  "Banshee's Veil",
   "Archangel's Staff"
  ]
 }

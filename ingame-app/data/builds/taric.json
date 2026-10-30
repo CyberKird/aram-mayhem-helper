@@ -13,14 +13,14 @@
  "core": [
   "Heartsteel",
   "Mercury's Treads",
-  "Sword of Blossoming Dawn",
+  "Moonstone Renewer",
   "Whispering Circlet"
  ],
  "fourth": [
   "Frozen Heart",
   "Jak'Sho, The Protean",
   "Unending Despair",
-  "Winter's Approach"
+  "Randuin's Omen"
  ],
  "fifth": [
   "Iceborn Gauntlet",
@@ -30,8 +30,8 @@
  ],
  "sixth": [
   "Iceborn Gauntlet",
-  "Unending Despair",
   "Jak'Sho, The Protean",
+  "Unending Despair",
   "Winter's Approach"
  ],
  "pool": [
@@ -39,12 +39,13 @@
   "Tear of the Goddess",
   "Heartsteel",
   "Mercury's Treads",
-  "Sword of Blossoming Dawn",
+  "Moonstone Renewer",
   "Whispering Circlet",
   "Frozen Heart",
   "Jak'Sho, The Protean",
   "Unending Despair",
-  "Winter's Approach",
-  "Iceborn Gauntlet"
+  "Randuin's Omen",
+  "Iceborn Gauntlet",
+  "Winter's Approach"
  ]
 }

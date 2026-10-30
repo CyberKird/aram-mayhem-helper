@@ -7,44 +7,46 @@
   "Mark"
  ],
  "starting": [
-  "Ruby Crystal",
+  "Dagger",
+  "Glowing Mote",
   "Sheen"
  ],
  "core": [
   "Dusk and Dawn",
   "Mercury's Treads",
-  "Riftmaker",
-  "Nashor's Tooth"
+  "Statikk Shiv",
+  "Death's Dance"
  ],
  "fourth": [
   "Jak'Sho, The Protean",
+  "Riftmaker",
   "Spear of Shojin",
-  "Hextech Gunblade",
-  "Death's Dance"
+  "Hextech Gunblade"
  ],
  "fifth": [
   "Endless Hunger",
+  "Riftmaker",
   "Jak'Sho, The Protean",
-  "Spear of Shojin",
-  "Death's Dance"
+  "Spear of Shojin"
  ],
  "sixth": [
   "Endless Hunger",
+  "Riftmaker",
   "Jak'Sho, The Protean",
-  "Sterak's Gage",
-  "Death's Dance"
+  "Sterak's Gage"
  ],
  "pool": [
-  "Ruby Crystal",
+  "Dagger",
+  "Glowing Mote",
   "Sheen",
   "Dusk and Dawn",
   "Mercury's Treads",
-  "Riftmaker",
-  "Nashor's Tooth",
+  "Statikk Shiv",
+  "Death's Dance",
   "Jak'Sho, The Protean",
+  "Riftmaker",
   "Spear of Shojin",
   "Hextech Gunblade",
-  "Death's Dance",
   "Endless Hunger",
   "Sterak's Gage"
  ]

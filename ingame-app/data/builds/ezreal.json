@@ -19,19 +19,19 @@
  "fourth": [
   "Archangel's Staff",
   "Spear of Shojin",
-  "Lord Dominik's Regards",
-  "Rabadon's Deathcap"
+  "Rabadon's Deathcap",
+  "Lord Dominik's Regards"
  ],
  "fifth": [
   "Archangel's Staff",
   "Spear of Shojin",
   "Rabadon's Deathcap",
-  "Infinity Edge"
+  "Shadowflame"
  ],
  "sixth": [
   "Archangel's Staff",
-  "Shadowflame",
   "Void Staff",
+  "Shadowflame",
   "Rabadon's Deathcap"
  ],
  "pool": [
@@ -43,9 +43,8 @@
   "Endless Hunger",
   "Archangel's Staff",
   "Spear of Shojin",
-  "Lord Dominik's Regards",
   "Rabadon's Deathcap",
-  "Infinity Edge",
+  "Lord Dominik's Regards",
   "Shadowflame",
   "Void Staff"
  ]

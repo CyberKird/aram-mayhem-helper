@@ -17,21 +17,21 @@
   "Iceborn Gauntlet"
  ],
  "fourth": [
-  "Jak'Sho, The Protean",
   "Unending Despair",
+  "Jak'Sho, The Protean",
   "Spirit Visage",
-  "Force of Nature"
+  "Warmog's Armor"
  ],
  "fifth": [
   "Frozen Heart",
   "Unending Despair",
   "Jak'Sho, The Protean",
-  "Force of Nature"
+  "Warmog's Armor"
  ],
  "sixth": [
   "Frozen Heart",
-  "Jak'Sho, The Protean",
   "Unending Despair",
+  "Jak'Sho, The Protean",
   "Force of Nature"
  ],
  "pool": [
@@ -41,10 +41,11 @@
   "Plated Steelcaps",
   "Thornmail",
   "Iceborn Gauntlet",
-  "Jak'Sho, The Protean",
   "Unending Despair",
+  "Jak'Sho, The Protean",
   "Spirit Visage",
-  "Force of Nature",
-  "Frozen Heart"
+  "Warmog's Armor",
+  "Frozen Heart",
+  "Force of Nature"
  ]
 }

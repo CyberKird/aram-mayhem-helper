@@ -7,42 +7,41 @@
   "Mark"
  ],
  "starting": [
-  "Dagger",
-  "Dagger",
-  "Aether Wisp"
+  "Amplifying Tome",
+  "Scout's Slingshot"
  ],
  "core": [
   "Statikk Shiv",
   "Mercury's Treads",
   "Dusk and Dawn",
-  "Nashor's Tooth"
+  "Riftmaker"
  ],
  "fourth": [
-  "Riftmaker",
+  "Nashor's Tooth",
   "Rabadon's Deathcap",
   "Shadowflame",
   "Navori Flickerblade"
  ],
  "fifth": [
-  "Riftmaker",
   "Overlord's Bloodmail",
   "Rabadon's Deathcap",
-  "Navori Flickerblade"
+  "Nashor's Tooth",
+  "Shadowflame"
  ],
  "sixth": [
-  "Riftmaker",
   "Overlord's Bloodmail",
   "Rabadon's Deathcap",
+  "Nashor's Tooth",
   "Navori Flickerblade"
  ],
  "pool": [
-  "Dagger",
-  "Aether Wisp",
+  "Amplifying Tome",
+  "Scout's Slingshot",
   "Statikk Shiv",
   "Mercury's Treads",
   "Dusk and Dawn",
-  "Nashor's Tooth",
   "Riftmaker",
+  "Nashor's Tooth",
   "Rabadon's Deathcap",
   "Shadowflame",
   "Navori Flickerblade",

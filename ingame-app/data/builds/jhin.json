@@ -8,13 +8,13 @@
  ],
  "starting": [
   "Long Sword",
-  "Serrated Dirk"
+  "Caulfield's Warhammer"
  ],
  "core": [
   "Hubris",
-  "Boots of Swiftness",
-  "Axiom Arc",
-  "The Collector"
+  "Berserker's Greaves",
+  "The Collector",
+  "Axiom Arc"
  ],
  "fourth": [
   "Hexoptics C44",
@@ -32,15 +32,15 @@
   "Endless Hunger",
   "Youmuu's Ghostblade",
   "Edge of Night",
-  "Phantom Dancer"
+  "Lord Dominik's Regards"
  ],
  "pool": [
   "Long Sword",
-  "Serrated Dirk",
+  "Caulfield's Warhammer",
   "Hubris",
-  "Boots of Swiftness",
-  "Axiom Arc",
+  "Berserker's Greaves",
   "The Collector",
+  "Axiom Arc",
   "Hexoptics C44",
   "Infinity Edge",
   "Lord Dominik's Regards",
@@ -48,7 +48,6 @@
   "Edge of Night",
   "Stormrazor",
   "Endless Hunger",
-  "Youmuu's Ghostblade",
-  "Phantom Dancer"
+  "Youmuu's Ghostblade"
  ]
 }
