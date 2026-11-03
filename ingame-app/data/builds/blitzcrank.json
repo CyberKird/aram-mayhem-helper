@@ -7,6 +7,7 @@
   "Mark"
  ],
  "starting": [
+  "Refillable Potion",
   "Lost Chapter"
  ],
  "core": [
@@ -17,8 +18,8 @@
  ],
  "fourth": [
   "Frozen Heart",
-  "Winter's Approach",
   "Warmog's Armor",
+  "Winter's Approach",
   "Jak'Sho, The Protean"
  ],
  "fifth": [
@@ -29,21 +30,23 @@
  ],
  "sixth": [
   "Void Staff",
-  "Jak'Sho, The Protean",
+  "Warmog's Armor",
   "Unending Despair",
-  "Warmog's Armor"
+  "Zhonya's Hourglass"
  ],
  "pool": [
+  "Refillable Potion",
   "Lost Chapter",
   "Malignance",
   "Ionian Boots of Lucidity",
   "Rabadon's Deathcap",
   "Shadowflame",
   "Frozen Heart",
-  "Winter's Approach",
   "Warmog's Armor",
+  "Winter's Approach",
   "Jak'Sho, The Protean",
   "Void Staff",
-  "Unending Despair"
+  "Unending Despair",
+  "Zhonya's Hourglass"
  ]
 }

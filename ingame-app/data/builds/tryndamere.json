@@ -24,15 +24,15 @@
  ],
  "fifth": [
   "Endless Hunger",
-  "Bloodthirster",
   "Death's Dance",
+  "Bloodthirster",
   "Lord Dominik's Regards"
  ],
  "sixth": [
   "Endless Hunger",
   "Death's Dance",
   "Experimental Hexplate",
-  "Bloodthirster"
+  "Lord Dominik's Regards"
  ],
  "pool": [
   "Long Sword",
@@ -46,8 +46,8 @@
   "The Collector",
   "Navori Flickerblade",
   "Endless Hunger",
-  "Bloodthirster",
   "Death's Dance",
+  "Bloodthirster",
   "Experimental Hexplate"
  ]
 }

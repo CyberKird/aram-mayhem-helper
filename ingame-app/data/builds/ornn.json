@@ -19,8 +19,8 @@
  "fourth": [
   "Sunfire Aegis",
   "Hollow Radiance",
-  "Spirit Visage",
-  "Jak'Sho, The Protean"
+  "Jak'Sho, The Protean",
+  "Spirit Visage"
  ],
  "fifth": [
   "Overlord's Bloodmail",
@@ -29,10 +29,10 @@
   "Jak'Sho, The Protean"
  ],
  "sixth": [
-  "Overlord's Bloodmail",
   "Hollow Radiance",
+  "Overlord's Bloodmail",
   "Jak'Sho, The Protean",
-  "Sunfire Aegis"
+  "Spirit Visage"
  ],
  "pool": [
   "Giant's Belt",
@@ -43,8 +43,8 @@
   "Unending Despair",
   "Sunfire Aegis",
   "Hollow Radiance",
-  "Spirit Visage",
   "Jak'Sho, The Protean",
+  "Spirit Visage",
   "Overlord's Bloodmail"
  ]
 }

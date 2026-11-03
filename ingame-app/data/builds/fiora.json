@@ -8,7 +8,7 @@
  ],
  "starting": [
   "Long Sword",
-  "Pickaxe"
+  "Caulfield's Warhammer"
  ],
  "core": [
   "Endless Hunger",
@@ -32,11 +32,11 @@
   "Jak'Sho, The Protean",
   "Maw of Malmortius",
   "Spear of Shojin",
-  "Spirit Visage"
+  "Trinity Force"
  ],
  "pool": [
   "Long Sword",
-  "Pickaxe",
+  "Caulfield's Warhammer",
   "Endless Hunger",
   "Mercury's Treads",
   "Ravenous Hydra",
@@ -45,6 +45,6 @@
   "Thornmail",
   "Maw of Malmortius",
   "Spear of Shojin",
-  "Spirit Visage"
+  "Trinity Force"
  ]
 }

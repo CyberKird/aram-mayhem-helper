@@ -18,8 +18,8 @@
  ],
  "fourth": [
   "Lord Dominik's Regards",
-  "Bloodthirster",
   "Essence Reaver",
+  "Bloodthirster",
   "Navori Flickerblade"
  ],
  "fifth": [
@@ -32,7 +32,7 @@
   "Endless Hunger",
   "Edge of Night",
   "Lord Dominik's Regards",
-  "Bloodthirster"
+  "Maw of Malmortius"
  ],
  "pool": [
   "Long Sword",
@@ -42,10 +42,11 @@
   "Infinity Edge",
   "Axiom Arc",
   "Lord Dominik's Regards",
-  "Bloodthirster",
   "Essence Reaver",
+  "Bloodthirster",
   "Navori Flickerblade",
   "Endless Hunger",
-  "Edge of Night"
+  "Edge of Night",
+  "Maw of Malmortius"
  ]
 }

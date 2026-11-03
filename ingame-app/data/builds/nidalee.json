@@ -11,7 +11,7 @@
  ],
  "core": [
   "Stormsurge",
-  "Sorcerer's Shoes",
+  "Ionian Boots of Lucidity",
   "Luden's Echo",
   "Rabadon's Deathcap"
  ],
@@ -19,7 +19,7 @@
   "Shadowflame",
   "Lich Bane",
   "Void Staff",
-  "Horizon Focus"
+  "Liandry's Torment"
  ],
  "fifth": [
   "Archangel's Staff",
@@ -30,20 +30,21 @@
  "sixth": [
   "Horizon Focus",
   "Shadowflame",
-  "Banshee's Veil",
-  "Archangel's Staff"
+  "Archangel's Staff",
+  "Banshee's Veil"
  ],
  "pool": [
   "Lost Chapter",
   "Stormsurge",
-  "Sorcerer's Shoes",
+  "Ionian Boots of Lucidity",
   "Luden's Echo",
   "Rabadon's Deathcap",
   "Shadowflame",
   "Lich Bane",
   "Void Staff",
-  "Horizon Focus",
+  "Liandry's Torment",
   "Archangel's Staff",
+  "Horizon Focus",
   "Banshee's Veil"
  ]
 }

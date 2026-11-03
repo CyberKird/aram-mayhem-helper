@@ -7,10 +7,11 @@
   "Ghost"
  ],
  "starting": [
+  "Refillable Potion",
   "Lost Chapter"
  ],
  "core": [
-  "Blackfire Torch",
+  "Luden's Echo",
   "Sorcerer's Shoes",
   "Rabadon's Deathcap",
   "Shadowflame"
@@ -22,20 +23,21 @@
   "Zhonya's Hourglass"
  ],
  "fifth": [
-  "Archangel's Staff",
   "Stormsurge",
+  "Archangel's Staff",
   "Cryptbloom",
   "Void Staff"
  ],
  "sixth": [
   "Banshee's Veil",
   "Cryptbloom",
-  "Archangel's Staff",
-  "Stormsurge"
+  "Stormsurge",
+  "Archangel's Staff"
  ],
  "pool": [
+  "Refillable Potion",
   "Lost Chapter",
-  "Blackfire Torch",
+  "Luden's Echo",
   "Sorcerer's Shoes",
   "Rabadon's Deathcap",
   "Shadowflame",

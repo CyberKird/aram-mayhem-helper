@@ -7,7 +7,6 @@
   "Mark"
  ],
  "starting": [
-  "Refillable Potion",
   "Lost Chapter"
  ],
  "core": [
@@ -19,8 +18,8 @@
  "fourth": [
   "Stormsurge",
   "Void Staff",
-  "Zhonya's Hourglass",
-  "Liandry's Torment"
+  "Cryptbloom",
+  "Zhonya's Hourglass"
  ],
  "fifth": [
   "Stormsurge",
@@ -29,13 +28,12 @@
   "Zhonya's Hourglass"
  ],
  "sixth": [
-  "Stormsurge",
   "Banshee's Veil",
+  "Stormsurge",
   "Void Staff",
   "Cryptbloom"
  ],
  "pool": [
-  "Refillable Potion",
   "Lost Chapter",
   "Malignance",
   "Sorcerer's Shoes",
@@ -43,9 +41,8 @@
   "Shadowflame",
   "Stormsurge",
   "Void Staff",
-  "Zhonya's Hourglass",
-  "Liandry's Torment",
   "Cryptbloom",
+  "Zhonya's Hourglass",
   "Banshee's Veil"
  ]
 }

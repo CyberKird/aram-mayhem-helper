@@ -12,7 +12,7 @@
  ],
  "core": [
   "Heartsteel",
-  "Mercury's Treads",
+  "Berserker's Greaves",
   "Titanic Hydra",
   "Warmog's Armor"
  ],
@@ -20,33 +20,32 @@
   "Overlord's Bloodmail",
   "Unending Despair",
   "Jak'Sho, The Protean",
-  "Lord Dominik's Regards"
+  "Black Cleaver"
  ],
  "fifth": [
-  "Overlord's Bloodmail",
   "Unending Despair",
-  "Sterak's Gage",
-  "Jak'Sho, The Protean"
+  "Overlord's Bloodmail",
+  "Jak'Sho, The Protean",
+  "Endless Hunger"
  ],
  "sixth": [
   "Unending Despair",
   "Endless Hunger",
   "Sterak's Gage",
-  "Sundered Sky"
+  "Jak'Sho, The Protean"
  ],
  "pool": [
   "Giant's Belt",
   "Ruby Crystal",
   "Heartsteel",
-  "Mercury's Treads",
+  "Berserker's Greaves",
   "Titanic Hydra",
   "Warmog's Armor",
   "Overlord's Bloodmail",
   "Unending Despair",
   "Jak'Sho, The Protean",
-  "Lord Dominik's Regards",
-  "Sterak's Gage",
+  "Black Cleaver",
   "Endless Hunger",
-  "Sundered Sky"
+  "Sterak's Gage"
  ]
 }

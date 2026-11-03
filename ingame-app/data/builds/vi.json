@@ -7,14 +7,14 @@
   "Mark"
  ],
  "starting": [
-  "Giant's Belt",
-  "Ruby Crystal"
+  "Cloth Armor",
+  "Warden's Mail"
  ],
  "core": [
-  "Heartsteel",
-  "Mercury's Treads",
-  "Warmog's Armor",
-  "Overlord's Bloodmail"
+  "Thornmail",
+  "Plated Steelcaps",
+  "Randuin's Omen",
+  "Jak'Sho, The Protean"
  ],
  "fourth": [
   "Endless Hunger",
@@ -24,9 +24,9 @@
  ],
  "fifth": [
   "Endless Hunger",
-  "Jak'Sho, The Protean",
   "Lord Dominik's Regards",
-  "Axiom Arc"
+  "Axiom Arc",
+  "Death's Dance"
  ],
  "sixth": [
   "Endless Hunger",
@@ -35,17 +35,16 @@
   "Maw of Malmortius"
  ],
  "pool": [
-  "Giant's Belt",
-  "Ruby Crystal",
-  "Heartsteel",
-  "Mercury's Treads",
-  "Warmog's Armor",
-  "Overlord's Bloodmail",
+  "Cloth Armor",
+  "Warden's Mail",
+  "Thornmail",
+  "Plated Steelcaps",
+  "Randuin's Omen",
+  "Jak'Sho, The Protean",
   "Endless Hunger",
   "Lord Dominik's Regards",
   "Death's Dance",
   "Infinity Edge",
-  "Jak'Sho, The Protean",
   "Axiom Arc",
   "Maw of Malmortius"
  ]

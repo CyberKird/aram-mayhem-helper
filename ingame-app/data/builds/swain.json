@@ -7,42 +7,44 @@
   "Mark"
  ],
  "starting": [
-  "Catalyst of Aeons"
+  "Giant's Belt",
+  "Ruby Crystal"
  ],
  "core": [
-  "Rod of Ages",
+  "Heartsteel",
   "Mercury's Treads",
-  "Rylai's Crystal Scepter",
-  "Riftmaker"
+  "Spirit Visage",
+  "Unending Despair"
  ],
  "fourth": [
+  "Riftmaker",
   "Warmog's Armor",
-  "Unending Despair",
   "Winter's Approach",
-  "Spirit Visage"
+  "Rylai's Crystal Scepter"
  ],
  "fifth": [
   "Rabadon's Deathcap",
-  "Warmog's Armor",
-  "Unending Despair",
-  "Spirit Visage"
- ],
- "sixth": [
-  "Unending Despair",
-  "Jak'Sho, The Protean",
-  "Rabadon's Deathcap",
-  "Warmog's Armor"
- ],
- "pool": [
-  "Catalyst of Aeons",
-  "Rod of Ages",
-  "Mercury's Treads",
-  "Rylai's Crystal Scepter",
   "Riftmaker",
   "Warmog's Armor",
-  "Unending Despair",
-  "Winter's Approach",
+  "Rylai's Crystal Scepter"
+ ],
+ "sixth": [
+  "Riftmaker",
+  "Rabadon's Deathcap",
+  "Warmog's Armor",
+  "Jak'Sho, The Protean"
+ ],
+ "pool": [
+  "Giant's Belt",
+  "Ruby Crystal",
+  "Heartsteel",
+  "Mercury's Treads",
   "Spirit Visage",
+  "Unending Despair",
+  "Riftmaker",
+  "Warmog's Armor",
+  "Winter's Approach",
+  "Rylai's Crystal Scepter",
   "Rabadon's Deathcap",
   "Jak'Sho, The Protean"
  ]

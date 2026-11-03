@@ -19,14 +19,14 @@
  "fourth": [
   "Rabadon's Deathcap",
   "Void Staff",
-  "Stormsurge",
-  "Lich Bane"
+  "Lich Bane",
+  "Stormsurge"
  ],
  "fifth": [
   "Jak'Sho, The Protean",
   "Lich Bane",
-  "Rabadon's Deathcap",
-  "Stormsurge"
+  "Stormsurge",
+  "Rabadon's Deathcap"
  ],
  "sixth": [
   "Jak'Sho, The Protean",
@@ -43,8 +43,8 @@
   "Warmog's Armor",
   "Rabadon's Deathcap",
   "Void Staff",
-  "Stormsurge",
   "Lich Bane",
+  "Stormsurge",
   "Jak'Sho, The Protean",
   "Riftmaker"
  ]

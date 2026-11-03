@@ -18,20 +18,20 @@
  "fourth": [
   "Void Staff",
   "Shadowflame",
-  "Lord Dominik's Regards",
-  "Essence Reaver"
+  "Essence Reaver",
+  "Lord Dominik's Regards"
  ],
  "fifth": [
-  "Shadowflame",
   "Void Staff",
+  "Shadowflame",
   "Cryptbloom",
   "Youmuu's Ghostblade"
  ],
  "sixth": [
   "Endless Hunger",
-  "Youmuu's Ghostblade",
   "Void Staff",
-  "Voltaic Cyclosword"
+  "Youmuu's Ghostblade",
+  "Shadowflame"
  ],
  "pool": [
   "Lost Chapter",
@@ -41,11 +41,10 @@
   "Rabadon's Deathcap",
   "Void Staff",
   "Shadowflame",
-  "Lord Dominik's Regards",
   "Essence Reaver",
+  "Lord Dominik's Regards",
   "Cryptbloom",
   "Youmuu's Ghostblade",
-  "Endless Hunger",
-  "Voltaic Cyclosword"
+  "Endless Hunger"
  ]
 }

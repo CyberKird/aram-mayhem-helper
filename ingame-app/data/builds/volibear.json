@@ -23,16 +23,16 @@
   "Navori Flickerblade"
  ],
  "fifth": [
-  "Overlord's Bloodmail",
-  "Rabadon's Deathcap",
   "Nashor's Tooth",
-  "Shadowflame"
+  "Rabadon's Deathcap",
+  "Shadowflame",
+  "Navori Flickerblade"
  ],
  "sixth": [
   "Overlord's Bloodmail",
   "Rabadon's Deathcap",
   "Nashor's Tooth",
-  "Navori Flickerblade"
+  "Spirit Visage"
  ],
  "pool": [
   "Amplifying Tome",
@@ -45,6 +45,7 @@
   "Rabadon's Deathcap",
   "Shadowflame",
   "Navori Flickerblade",
-  "Overlord's Bloodmail"
+  "Overlord's Bloodmail",
+  "Spirit Visage"
  ]
 }

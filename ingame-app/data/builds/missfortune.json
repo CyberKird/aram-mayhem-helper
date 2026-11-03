@@ -22,16 +22,16 @@
   "Lord Dominik's Regards"
  ],
  "fifth": [
-  "Bloodletter's Curse",
   "Archangel's Staff",
   "Horizon Focus",
-  "Lord Dominik's Regards"
+  "Bloodletter's Curse",
+  "Shadowflame"
  ],
  "sixth": [
   "Edge of Night",
   "Banshee's Veil",
   "Horizon Focus",
-  "Bloodthirster"
+  "Cryptbloom"
  ],
  "pool": [
   "Lost Chapter",
@@ -46,6 +46,6 @@
   "Bloodletter's Curse",
   "Edge of Night",
   "Banshee's Veil",
-  "Bloodthirster"
+  "Cryptbloom"
  ]
 }

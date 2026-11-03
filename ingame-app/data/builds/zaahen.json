@@ -19,20 +19,20 @@
  "fourth": [
   "Jak'Sho, The Protean",
   "Overlord's Bloodmail",
-  "Sundered Sky",
-  "Spear of Shojin"
+  "Trinity Force",
+  "Sundered Sky"
  ],
  "fifth": [
   "Jak'Sho, The Protean",
-  "Overlord's Bloodmail",
   "Lord Dominik's Regards",
+  "Overlord's Bloodmail",
   "Spear of Shojin"
  ],
  "sixth": [
-  "Sterak's Gage",
   "Jak'Sho, The Protean",
-  "Lord Dominik's Regards",
-  "Spirit Visage"
+  "Sterak's Gage",
+  "Sundered Sky",
+  "Lord Dominik's Regards"
  ],
  "pool": [
   "Long Sword",
@@ -43,10 +43,10 @@
   "Endless Hunger",
   "Jak'Sho, The Protean",
   "Overlord's Bloodmail",
+  "Trinity Force",
   "Sundered Sky",
-  "Spear of Shojin",
   "Lord Dominik's Regards",
-  "Sterak's Gage",
-  "Spirit Visage"
+  "Spear of Shojin",
+  "Sterak's Gage"
  ]
 }

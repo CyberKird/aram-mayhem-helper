@@ -7,13 +7,12 @@
   "Mark"
  ],
  "starting": [
-  "Blasting Wand",
-  "Amplifying Tome"
+  "Needlessly Large Rod"
  ],
  "core": [
-  "Lich Bane",
-  "Sorcerer's Shoes",
   "Shadowflame",
+  "Sorcerer's Shoes",
+  "Lich Bane",
   "Rabadon's Deathcap"
  ],
  "fourth": [
@@ -23,28 +22,28 @@
   "Liandry's Torment"
  ],
  "fifth": [
-  "Void Staff",
   "Stormsurge",
+  "Void Staff",
   "Zhonya's Hourglass",
   "Liandry's Torment"
  ],
  "sixth": [
-  "Stormsurge",
   "Void Staff",
   "Nashor's Tooth",
-  "Zhonya's Hourglass"
+  "Stormsurge",
+  "Banshee's Veil"
  ],
  "pool": [
-  "Blasting Wand",
-  "Amplifying Tome",
-  "Lich Bane",
-  "Sorcerer's Shoes",
+  "Needlessly Large Rod",
   "Shadowflame",
+  "Sorcerer's Shoes",
+  "Lich Bane",
   "Rabadon's Deathcap",
   "Stormsurge",
   "Void Staff",
   "Zhonya's Hourglass",
   "Liandry's Torment",
-  "Nashor's Tooth"
+  "Nashor's Tooth",
+  "Banshee's Veil"
  ]
 }

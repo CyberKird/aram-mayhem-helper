@@ -20,19 +20,19 @@
   "Jak'Sho, The Protean",
   "Warmog's Armor",
   "Randuin's Omen",
-  "Winter's Approach"
+  "Spirit Visage"
  ],
  "fifth": [
   "Warmog's Armor",
   "Jak'Sho, The Protean",
-  "Winter's Approach",
-  "Spirit Visage"
+  "Spirit Visage",
+  "Winter's Approach"
  ],
  "sixth": [
+  "Frozen Heart",
   "Warmog's Armor",
   "Jak'Sho, The Protean",
-  "Spirit Visage",
-  "Frozen Heart"
+  "Spirit Visage"
  ],
  "pool": [
   "Ruby Crystal",
@@ -44,8 +44,8 @@
   "Jak'Sho, The Protean",
   "Warmog's Armor",
   "Randuin's Omen",
-  "Winter's Approach",
   "Spirit Visage",
+  "Winter's Approach",
   "Frozen Heart"
  ]
 }

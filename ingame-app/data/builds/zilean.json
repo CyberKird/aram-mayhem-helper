@@ -7,11 +7,14 @@
   "Clarity"
  ],
  "starting": [
-  "Lost Chapter"
+  "Sapphire Crystal",
+  "Amplifying Tome",
+  "Glowing Mote",
+  "Tear of the Goddess"
  ],
  "core": [
   "Luden's Echo",
-  "Sorcerer's Shoes",
+  "Ionian Boots of Lucidity",
   "Rabadon's Deathcap",
   "Archangel's Staff"
  ],
@@ -22,8 +25,8 @@
   "Horizon Focus"
  ],
  "fifth": [
-  "Winter's Approach",
   "Rod of Ages",
+  "Winter's Approach",
   "Blackfire Torch",
   "Malignance"
  ],
@@ -34,17 +37,20 @@
   "Banshee's Veil"
  ],
  "pool": [
-  "Lost Chapter",
+  "Sapphire Crystal",
+  "Amplifying Tome",
+  "Glowing Mote",
+  "Tear of the Goddess",
   "Luden's Echo",
-  "Sorcerer's Shoes",
+  "Ionian Boots of Lucidity",
   "Rabadon's Deathcap",
   "Archangel's Staff",
   "Blackfire Torch",
   "Cosmic Drive",
   "Cryptbloom",
   "Horizon Focus",
-  "Winter's Approach",
   "Rod of Ages",
+  "Winter's Approach",
   "Malignance",
   "Banshee's Veil"
  ]

@@ -7,6 +7,7 @@
   "Mark"
  ],
  "starting": [
+  "Refillable Potion",
   "Lost Chapter"
  ],
  "core": [
@@ -24,8 +25,8 @@
  "fifth": [
   "Stormsurge",
   "Void Staff",
-  "Cryptbloom",
-  "Zhonya's Hourglass"
+  "Archangel's Staff",
+  "Cryptbloom"
  ],
  "sixth": [
   "Stormsurge",
@@ -34,6 +35,7 @@
   "Void Staff"
  ],
  "pool": [
+  "Refillable Potion",
   "Lost Chapter",
   "Luden's Echo",
   "Sorcerer's Shoes",
@@ -43,6 +45,7 @@
   "Void Staff",
   "Zhonya's Hourglass",
   "Liandry's Torment",
+  "Archangel's Staff",
   "Cryptbloom",
   "Banshee's Veil"
  ]

@@ -11,7 +11,7 @@
  ],
  "core": [
   "Luden's Echo",
-  "Berserker's Greaves",
+  "Sorcerer's Shoes",
   "Lich Bane",
   "Rabadon's Deathcap"
  ],
@@ -24,19 +24,19 @@
  "fifth": [
   "Void Staff",
   "Shadowflame",
-  "Terminus",
+  "Stormsurge",
   "Nashor's Tooth"
  ],
  "sixth": [
   "Shadowflame",
   "Void Staff",
-  "Nashor's Tooth",
-  "Rapid Firecannon"
+  "Terminus",
+  "Nashor's Tooth"
  ],
  "pool": [
   "Lost Chapter",
   "Luden's Echo",
-  "Berserker's Greaves",
+  "Sorcerer's Shoes",
   "Lich Bane",
   "Rabadon's Deathcap",
   "Shadowflame",
@@ -44,7 +44,7 @@
   "Guinsoo's Rageblade",
   "Statikk Shiv",
   "Void Staff",
-  "Terminus",
-  "Rapid Firecannon"
+  "Stormsurge",
+  "Terminus"
  ]
 }

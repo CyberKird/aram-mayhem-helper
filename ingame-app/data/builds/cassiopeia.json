@@ -16,22 +16,22 @@
   "Archangel's Staff"
  ],
  "fourth": [
-  "Blackfire Torch",
   "Rabadon's Deathcap",
+  "Blackfire Torch",
   "Shadowflame",
   "Bloodletter's Curse"
  ],
  "fifth": [
   "Rabadon's Deathcap",
   "Riftmaker",
-  "Rylai's Crystal Scepter",
-  "Shadowflame"
+  "Blackfire Torch",
+  "Bloodletter's Curse"
  ],
  "sixth": [
-  "Riftmaker",
   "Rabadon's Deathcap",
+  "Bloodletter's Curse",
   "Shadowflame",
-  "Bloodletter's Curse"
+  "Riftmaker"
  ],
  "pool": [
   "Catalyst of Aeons",
@@ -39,11 +39,10 @@
   "Boots of Swiftness",
   "Liandry's Torment",
   "Archangel's Staff",
-  "Blackfire Torch",
   "Rabadon's Deathcap",
+  "Blackfire Torch",
   "Shadowflame",
   "Bloodletter's Curse",
-  "Riftmaker",
-  "Rylai's Crystal Scepter"
+  "Riftmaker"
  ]
 }

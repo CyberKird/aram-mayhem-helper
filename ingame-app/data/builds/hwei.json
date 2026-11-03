@@ -19,12 +19,12 @@
   "Archangel's Staff",
   "Shadowflame",
   "Stormsurge",
-  "Void Staff"
+  "Cryptbloom"
  ],
  "fifth": [
-  "Shadowflame",
-  "Archangel's Staff",
   "Stormsurge",
+  "Archangel's Staff",
+  "Shadowflame",
   "Void Staff"
  ],
  "sixth": [
@@ -42,8 +42,8 @@
   "Archangel's Staff",
   "Shadowflame",
   "Stormsurge",
+  "Cryptbloom",
   "Void Staff",
-  "Banshee's Veil",
-  "Cryptbloom"
+  "Banshee's Veil"
  ]
 }

@@ -20,7 +20,7 @@
   "Ardent Censer",
   "Archangel's Staff",
   "Rabadon's Deathcap",
-  "Redemption"
+  "Shurelya's Battlesong"
  ],
  "fifth": [
   "Dawncore",
@@ -32,7 +32,7 @@
   "Dawncore",
   "Staff of Flowing Water",
   "Ardent Censer",
-  "Archangel's Staff"
+  "Redemption"
  ],
  "pool": [
   "Tear of the Goddess",
@@ -44,8 +44,9 @@
   "Ardent Censer",
   "Archangel's Staff",
   "Rabadon's Deathcap",
-  "Redemption",
+  "Shurelya's Battlesong",
   "Dawncore",
-  "Staff of Flowing Water"
+  "Staff of Flowing Water",
+  "Redemption"
  ]
 }

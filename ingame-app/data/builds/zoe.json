@@ -18,20 +18,20 @@
  "fourth": [
   "Lich Bane",
   "Shadowflame",
-  "Void Staff",
-  "Horizon Focus"
+  "Horizon Focus",
+  "Void Staff"
  ],
  "fifth": [
   "Shadowflame",
   "Lich Bane",
   "Banshee's Veil",
-  "Void Staff"
+  "Horizon Focus"
  ],
  "sixth": [
   "Lich Bane",
   "Void Staff",
-  "Banshee's Veil",
-  "Horizon Focus"
+  "Horizon Focus",
+  "Banshee's Veil"
  ],
  "pool": [
   "Lost Chapter",
@@ -41,8 +41,8 @@
   "Rabadon's Deathcap",
   "Lich Bane",
   "Shadowflame",
-  "Void Staff",
   "Horizon Focus",
+  "Void Staff",
   "Banshee's Veil"
  ]
 }

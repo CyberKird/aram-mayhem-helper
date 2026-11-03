@@ -7,13 +7,13 @@
   "Mark"
  ],
  "starting": [
-  "Hextech Alternator"
+  "Refillable Potion",
+  "Lost Chapter"
  ],
  "core": [
-  "Stormsurge",
-  "Ionian Boots of Lucidity",
+  "Luden's Echo",
   "Shadowflame",
-  "Rabadon's Deathcap"
+  "Stormsurge"
  ],
  "fourth": [
   "Frozen Heart",
@@ -22,23 +22,23 @@
   "Sunfire Aegis"
  ],
  "fifth": [
-  "Sunfire Aegis",
   "Warmog's Armor",
-  "Jak'Sho, The Protean",
-  "Unending Despair"
+  "Sunfire Aegis",
+  "Unending Despair",
+  "Jak'Sho, The Protean"
  ],
  "sixth": [
   "Riftmaker",
-  "Force of Nature",
   "Jak'Sho, The Protean",
-  "Warmog's Armor"
+  "Force of Nature",
+  "Frozen Heart"
  ],
  "pool": [
-  "Hextech Alternator",
-  "Stormsurge",
-  "Ionian Boots of Lucidity",
+  "Refillable Potion",
+  "Lost Chapter",
+  "Luden's Echo",
   "Shadowflame",
-  "Rabadon's Deathcap",
+  "Stormsurge",
   "Frozen Heart",
   "Warmog's Armor",
   "Jak'Sho, The Protean",

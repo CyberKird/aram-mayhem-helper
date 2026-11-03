@@ -7,47 +7,46 @@
   "Ghost"
  ],
  "starting": [
-  "Long Sword",
-  "Guardian's Blade"
+  "Serrated Dirk"
  ],
  "core": [
-  "Hubris",
-  "Mercury's Treads",
+  "Serpent's Fang",
+  "Berserker's Greaves",
   "The Collector",
-  "Death's Dance"
+  "Axiom Arc"
  ],
  "fourth": [
-  "Axiom Arc",
   "Infinity Edge",
   "Lord Dominik's Regards",
-  "Essence Reaver"
+  "Essence Reaver",
+  "Bloodthirster"
  ],
  "fifth": [
-  "Axiom Arc",
-  "Hexoptics C44",
+  "Hubris",
   "Lord Dominik's Regards",
+  "Hexoptics C44",
   "Essence Reaver"
  ],
  "sixth": [
   "Voltaic Cyclosword",
-  "Axiom Arc",
   "Endless Hunger",
-  "Edge of Night"
+  "Death's Dance",
+  "Hubris"
  ],
  "pool": [
-  "Long Sword",
-  "Guardian's Blade",
-  "Hubris",
-  "Mercury's Treads",
+  "Serrated Dirk",
+  "Serpent's Fang",
+  "Berserker's Greaves",
   "The Collector",
-  "Death's Dance",
   "Axiom Arc",
   "Infinity Edge",
   "Lord Dominik's Regards",
   "Essence Reaver",
+  "Bloodthirster",
+  "Hubris",
   "Hexoptics C44",
   "Voltaic Cyclosword",
   "Endless Hunger",
-  "Edge of Night"
+  "Death's Dance"
  ]
 }

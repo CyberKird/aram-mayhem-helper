@@ -21,19 +21,19 @@
   "Lord Dominik's Regards",
   "Fiendhunter Bolts",
   "Infinity Edge",
-  "Experimental Hexplate"
+  "Kraken Slayer"
  ],
  "fifth": [
   "Lord Dominik's Regards",
   "Bloodthirster",
-  "Fiendhunter Bolts",
-  "Experimental Hexplate"
+  "Experimental Hexplate",
+  "Fiendhunter Bolts"
  ],
  "sixth": [
   "Lord Dominik's Regards",
   "Kaenic Rookern",
-  "Bloodthirster",
-  "Phantom Dancer"
+  "Phantom Dancer",
+  "Bloodthirster"
  ],
  "pool": [
   "Boots",
@@ -46,8 +46,9 @@
   "Lord Dominik's Regards",
   "Fiendhunter Bolts",
   "Infinity Edge",
-  "Experimental Hexplate",
+  "Kraken Slayer",
   "Bloodthirster",
+  "Experimental Hexplate",
   "Kaenic Rookern",
   "Phantom Dancer"
  ]

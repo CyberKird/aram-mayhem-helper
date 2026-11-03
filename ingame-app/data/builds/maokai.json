@@ -11,41 +11,40 @@
  ],
  "core": [
   "Blackfire Torch",
-  "Sorcerer's Shoes",
+  "Ionian Boots of Lucidity",
   "Liandry's Torment",
   "Rabadon's Deathcap"
  ],
  "fourth": [
   "Warmog's Armor",
-  "Unending Despair",
   "Jak'Sho, The Protean",
+  "Unending Despair",
   "Spirit Visage"
  ],
  "fifth": [
   "Warmog's Armor",
   "Riftmaker",
   "Unending Despair",
-  "Jak'Sho, The Protean"
+  "Shadowflame"
  ],
  "sixth": [
   "Shadowflame",
+  "Riftmaker",
   "Jak'Sho, The Protean",
-  "Void Staff",
-  "Horizon Focus"
+  "Void Staff"
  ],
  "pool": [
   "Lost Chapter",
   "Blackfire Torch",
-  "Sorcerer's Shoes",
+  "Ionian Boots of Lucidity",
   "Liandry's Torment",
   "Rabadon's Deathcap",
   "Warmog's Armor",
-  "Unending Despair",
   "Jak'Sho, The Protean",
+  "Unending Despair",
   "Spirit Visage",
   "Riftmaker",
   "Shadowflame",
-  "Void Staff",
-  "Horizon Focus"
+  "Void Staff"
  ]
 }

@@ -7,7 +7,6 @@
   "Ghost"
  ],
  "starting": [
-  "Refillable Potion",
   "Lost Chapter"
  ],
  "core": [
@@ -31,10 +30,9 @@
   "Banshee's Veil",
   "Stormsurge",
   "Void Staff",
-  "Cryptbloom"
+  "Archangel's Staff"
  ],
  "pool": [
-  "Refillable Potion",
   "Lost Chapter",
   "Luden's Echo",
   "Sorcerer's Shoes",
@@ -44,6 +42,7 @@
   "Void Staff",
   "Zhonya's Hourglass",
   "Banshee's Veil",
-  "Cryptbloom"
+  "Cryptbloom",
+  "Archangel's Staff"
  ]
 }
