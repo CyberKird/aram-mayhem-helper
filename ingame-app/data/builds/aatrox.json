@@ -20,19 +20,19 @@
   "Endless Hunger",
   "Lord Dominik's Regards",
   "Death's Dance",
-  "Infinity Edge"
+  "Spear of Shojin"
  ],
  "fifth": [
   "Serylda's Grudge",
+  "Death's Dance",
   "Lord Dominik's Regards",
-  "Endless Hunger",
-  "Death's Dance"
+  "Maw of Malmortius"
  ],
  "sixth": [
   "Serylda's Grudge",
+  "Lord Dominik's Regards",
   "Death's Dance",
-  "Voltaic Cyclosword",
-  "Lord Dominik's Regards"
+  "Voltaic Cyclosword"
  ],
  "pool": [
   "Giant's Belt",
@@ -44,8 +44,9 @@
   "Endless Hunger",
   "Lord Dominik's Regards",
   "Death's Dance",
-  "Infinity Edge",
+  "Spear of Shojin",
   "Serylda's Grudge",
+  "Maw of Malmortius",
   "Voltaic Cyclosword"
  ]
 }

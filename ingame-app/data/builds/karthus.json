@@ -7,14 +7,13 @@
   "Mark"
  ],
  "starting": [
-  "Amplifying Tome",
-  "Fated Ashes"
+  "Needlessly Large Rod"
  ],
  "core": [
-  "Blackfire Torch",
+  "Shadowflame",
   "Sorcerer's Shoes",
-  "Liandry's Torment",
-  "Shadowflame"
+  "Blackfire Torch",
+  "Liandry's Torment"
  ],
  "fourth": [
   "Stormsurge",
@@ -24,23 +23,22 @@
  ],
  "fifth": [
   "Stormsurge",
-  "Malignance",
   "Void Staff",
+  "Malignance",
   "Rabadon's Deathcap"
  ],
  "sixth": [
   "Stormsurge",
+  "Horizon Focus",
   "Void Staff",
-  "Malignance",
-  "Horizon Focus"
+  "Malignance"
  ],
  "pool": [
-  "Amplifying Tome",
-  "Fated Ashes",
-  "Blackfire Torch",
-  "Sorcerer's Shoes",
-  "Liandry's Torment",
+  "Needlessly Large Rod",
   "Shadowflame",
+  "Sorcerer's Shoes",
+  "Blackfire Torch",
+  "Liandry's Torment",
   "Stormsurge",
   "Rabadon's Deathcap",
   "Void Staff",

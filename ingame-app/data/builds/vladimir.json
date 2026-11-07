@@ -11,10 +11,10 @@
   "Guardian's Orb"
  ],
  "core": [
-  "Riftmaker",
-  "Sorcerer's Shoes",
+  "Shadowflame",
+  "Ionian Boots of Lucidity",
   "Rabadon's Deathcap",
-  "Shadowflame"
+  "Riftmaker"
  ],
  "fourth": [
   "Void Staff",
@@ -24,27 +24,28 @@
  ],
  "fifth": [
   "Stormsurge",
-  "Void Staff",
   "Warmog's Armor",
-  "Cosmic Drive"
+  "Void Staff",
+  "Spirit Visage"
  ],
  "sixth": [
-  "Stormsurge",
   "Warmog's Armor",
-  "Void Staff",
-  "Cosmic Drive"
+  "Stormsurge",
+  "Cosmic Drive",
+  "Void Staff"
  ],
  "pool": [
   "Amplifying Tome",
   "Guardian's Orb",
-  "Riftmaker",
-  "Sorcerer's Shoes",
-  "Rabadon's Deathcap",
   "Shadowflame",
+  "Ionian Boots of Lucidity",
+  "Rabadon's Deathcap",
+  "Riftmaker",
   "Void Staff",
   "Stormsurge",
   "Warmog's Armor",
   "Cryptbloom",
+  "Spirit Visage",
   "Cosmic Drive"
  ]
 }

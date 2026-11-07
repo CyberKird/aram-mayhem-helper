@@ -12,25 +12,25 @@
  ],
  "core": [
   "The Collector",
-  "Mercury's Treads",
+  "Berserker's Greaves",
   "Infinity Edge",
   "Hubris"
  ],
  "fourth": [
   "Death's Dance",
+  "Axiom Arc",
   "Lord Dominik's Regards",
-  "Bloodthirster",
-  "Immortal Shieldbow"
+  "Bloodthirster"
  ],
  "fifth": [
-  "Axiom Arc",
-  "Endless Hunger",
   "Death's Dance",
+  "Endless Hunger",
+  "Axiom Arc",
   "Lord Dominik's Regards"
  ],
  "sixth": [
-  "Axiom Arc",
   "Endless Hunger",
+  "Axiom Arc",
   "Death's Dance",
   "Lord Dominik's Regards"
  ],
@@ -38,14 +38,13 @@
   "Long Sword",
   "Pickaxe",
   "The Collector",
-  "Mercury's Treads",
+  "Berserker's Greaves",
   "Infinity Edge",
   "Hubris",
   "Death's Dance",
+  "Axiom Arc",
   "Lord Dominik's Regards",
   "Bloodthirster",
-  "Immortal Shieldbow",
-  "Axiom Arc",
   "Endless Hunger"
  ]
 }

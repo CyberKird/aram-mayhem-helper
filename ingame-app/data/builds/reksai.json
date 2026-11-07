@@ -18,21 +18,21 @@
  ],
  "fourth": [
   "Jak'Sho, The Protean",
+  "Spirit Visage",
   "Overlord's Bloodmail",
-  "Randuin's Omen",
-  "Spirit Visage"
+  "Titanic Hydra"
  ],
  "fifth": [
-  "Jak'Sho, The Protean",
+  "Spirit Visage",
   "Overlord's Bloodmail",
-  "Randuin's Omen",
-  "Spirit Visage"
+  "Spear of Shojin",
+  "Jak'Sho, The Protean"
  ],
  "sixth": [
-  "Jak'Sho, The Protean",
   "Overlord's Bloodmail",
-  "Spirit Visage",
-  "Sterak's Gage"
+  "Sterak's Gage",
+  "Titanic Hydra",
+  "Jak'Sho, The Protean"
  ],
  "pool": [
   "Giant's Belt",
@@ -42,9 +42,10 @@
   "Unending Despair",
   "Warmog's Armor",
   "Jak'Sho, The Protean",
-  "Overlord's Bloodmail",
-  "Randuin's Omen",
   "Spirit Visage",
+  "Overlord's Bloodmail",
+  "Titanic Hydra",
+  "Spear of Shojin",
   "Sterak's Gage"
  ]
 }

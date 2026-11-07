@@ -7,44 +7,45 @@
   "Heal"
  ],
  "starting": [
+  "Ruby Crystal",
   "Tear of the Goddess",
-  "Bandleglass Mirror"
+  "Forbidden Idol"
  ],
  "core": [
-  "Moonstone Renewer",
-  "Ionian Boots of Lucidity",
   "Whispering Circlet",
-  "Staff of Flowing Water"
+  "Ionian Boots of Lucidity",
+  "Moonstone Renewer",
+  "Ardent Censer"
  ],
  "fourth": [
-  "Dawncore",
-  "Rabadon's Deathcap",
-  "Ardent Censer",
-  "Archangel's Staff"
- ],
- "fifth": [
-  "Dawncore",
-  "Archangel's Staff",
-  "Ardent Censer",
-  "Rabadon's Deathcap"
- ],
- "sixth": [
-  "Dawncore",
-  "Rabadon's Deathcap",
-  "Ardent Censer",
-  "Mikael's Blessing"
- ],
- "pool": [
-  "Tear of the Goddess",
-  "Bandleglass Mirror",
-  "Moonstone Renewer",
-  "Ionian Boots of Lucidity",
-  "Whispering Circlet",
   "Staff of Flowing Water",
   "Dawncore",
   "Rabadon's Deathcap",
-  "Ardent Censer",
+  "Archangel's Staff"
+ ],
+ "fifth": [
+  "Staff of Flowing Water",
   "Archangel's Staff",
-  "Mikael's Blessing"
+  "Dawncore",
+  "Rabadon's Deathcap"
+ ],
+ "sixth": [
+  "Archangel's Staff",
+  "Rabadon's Deathcap",
+  "Dawncore",
+  "Staff of Flowing Water"
+ ],
+ "pool": [
+  "Ruby Crystal",
+  "Tear of the Goddess",
+  "Forbidden Idol",
+  "Whispering Circlet",
+  "Ionian Boots of Lucidity",
+  "Moonstone Renewer",
+  "Ardent Censer",
+  "Staff of Flowing Water",
+  "Dawncore",
+  "Rabadon's Deathcap",
+  "Archangel's Staff"
  ]
 }

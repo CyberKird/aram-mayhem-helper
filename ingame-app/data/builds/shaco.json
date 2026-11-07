@@ -4,22 +4,22 @@
  "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
-  "Ghost"
+  "Mark"
  ],
  "starting": [
   "Lost Chapter"
  ],
  "core": [
   "Blackfire Torch",
-  "Sorcerer's Shoes",
+  "Ionian Boots of Lucidity",
   "Liandry's Torment",
   "Rabadon's Deathcap"
  ],
  "fourth": [
-  "Void Staff",
   "Shadowflame",
-  "Essence Reaver",
-  "Lord Dominik's Regards"
+  "Void Staff",
+  "Lord Dominik's Regards",
+  "Infinity Edge"
  ],
  "fifth": [
   "Void Staff",
@@ -31,20 +31,21 @@
   "Endless Hunger",
   "Void Staff",
   "Youmuu's Ghostblade",
-  "Shadowflame"
+  "Essence Reaver"
  ],
  "pool": [
   "Lost Chapter",
   "Blackfire Torch",
-  "Sorcerer's Shoes",
+  "Ionian Boots of Lucidity",
   "Liandry's Torment",
   "Rabadon's Deathcap",
-  "Void Staff",
   "Shadowflame",
-  "Essence Reaver",
+  "Void Staff",
   "Lord Dominik's Regards",
+  "Infinity Edge",
   "Cryptbloom",
   "Youmuu's Ghostblade",
-  "Endless Hunger"
+  "Endless Hunger",
+  "Essence Reaver"
  ]
 }

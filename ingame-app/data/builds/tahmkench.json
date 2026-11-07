@@ -12,40 +12,38 @@
  ],
  "core": [
   "Heartsteel",
-  "Ionian Boots of Lucidity",
-  "Dusk and Dawn",
+  "Warmog's Armor",
   "Riftmaker"
  ],
  "fourth": [
   "Overlord's Bloodmail",
+  "Dusk and Dawn",
   "Rabadon's Deathcap",
-  "Warmog's Armor",
   "Unending Despair"
  ],
  "fifth": [
   "Rabadon's Deathcap",
+  "Dusk and Dawn",
   "Overlord's Bloodmail",
-  "Shadowflame",
-  "Warmog's Armor"
+  "Shadowflame"
  ],
  "sixth": [
   "Rabadon's Deathcap",
   "Shadowflame",
-  "Overlord's Bloodmail",
-  "Spirit Visage"
+  "Dusk and Dawn",
+  "Hollow Radiance"
  ],
  "pool": [
   "Giant's Belt",
   "Ruby Crystal",
   "Heartsteel",
-  "Ionian Boots of Lucidity",
-  "Dusk and Dawn",
+  "Warmog's Armor",
   "Riftmaker",
   "Overlord's Bloodmail",
+  "Dusk and Dawn",
   "Rabadon's Deathcap",
-  "Warmog's Armor",
   "Unending Despair",
   "Shadowflame",
-  "Spirit Visage"
+  "Hollow Radiance"
  ]
 }

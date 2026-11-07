@@ -12,38 +12,40 @@
  ],
  "core": [
   "Heartsteel",
-  "Plated Steelcaps",
+  "Mercury's Treads",
   "Unending Despair",
-  "Jak'Sho, The Protean"
+  "Warmog's Armor"
  ],
  "fourth": [
   "Frozen Heart",
   "Sunfire Aegis",
-  "Warmog's Armor",
-  "Randuin's Omen"
+  "Jak'Sho, The Protean",
+  "Hollow Radiance"
  ],
  "fifth": [
   "Frozen Heart",
   "Sunfire Aegis",
-  "Warmog's Armor",
-  "Randuin's Omen"
+  "Jak'Sho, The Protean",
+  "Hollow Radiance"
  ],
  "sixth": [
   "Frozen Heart",
-  "Sunfire Aegis",
-  "Warmog's Armor",
-  "Randuin's Omen"
+  "Jak'Sho, The Protean",
+  "Force of Nature",
+  "Overlord's Bloodmail"
  ],
  "pool": [
   "Giant's Belt",
   "Ruby Crystal",
   "Heartsteel",
-  "Plated Steelcaps",
+  "Mercury's Treads",
   "Unending Despair",
-  "Jak'Sho, The Protean",
+  "Warmog's Armor",
   "Frozen Heart",
   "Sunfire Aegis",
-  "Warmog's Armor",
-  "Randuin's Omen"
+  "Jak'Sho, The Protean",
+  "Hollow Radiance",
+  "Force of Nature",
+  "Overlord's Bloodmail"
  ]
 }

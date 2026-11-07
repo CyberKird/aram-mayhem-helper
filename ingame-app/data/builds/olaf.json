@@ -7,45 +7,44 @@
   "Mark"
  ],
  "starting": [
-  "Long Sword",
-  "Guardian's Blade"
+  "Tiamat"
  ],
  "core": [
-  "Ravenous Hydra",
-  "Boots of Swiftness",
-  "Death's Dance",
-  "Experimental Hexplate"
+  "Stridebreaker",
+  "Mercury's Treads",
+  "Experimental Hexplate",
+  "Death's Dance"
  ],
  "fourth": [
   "Endless Hunger",
+  "Spirit Visage",
   "Sterak's Gage",
-  "Stridebreaker",
   "Blade of The Ruined King"
  ],
  "fifth": [
   "Endless Hunger",
+  "Sterak's Gage",
   "Maw of Malmortius",
-  "Overlord's Bloodmail",
-  "Sterak's Gage"
+  "Sundered Sky"
  ],
  "sixth": [
   "Overlord's Bloodmail",
-  "Sterak's Gage",
   "Endless Hunger",
+  "Sterak's Gage",
   "Maw of Malmortius"
  ],
  "pool": [
-  "Long Sword",
-  "Guardian's Blade",
-  "Ravenous Hydra",
-  "Boots of Swiftness",
-  "Death's Dance",
-  "Experimental Hexplate",
-  "Endless Hunger",
-  "Sterak's Gage",
+  "Tiamat",
   "Stridebreaker",
+  "Mercury's Treads",
+  "Experimental Hexplate",
+  "Death's Dance",
+  "Endless Hunger",
+  "Spirit Visage",
+  "Sterak's Gage",
   "Blade of The Ruined King",
   "Maw of Malmortius",
+  "Sundered Sky",
   "Overlord's Bloodmail"
  ]
 }

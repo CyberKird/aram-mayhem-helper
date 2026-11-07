@@ -7,45 +7,42 @@
   "Mark"
  ],
  "starting": [
-  "Giant's Belt",
-  "Ruby Crystal"
+  "Lost Chapter"
  ],
  "core": [
-  "Heartsteel",
-  "Mercury's Treads",
-  "Unending Despair",
-  "Warmog's Armor"
+  "Malignance",
+  "Sorcerer's Shoes",
+  "Shadowflame",
+  "Rabadon's Deathcap"
  ],
  "fourth": [
-  "Sunfire Aegis",
+  "Warmog's Armor",
   "Jak'Sho, The Protean",
-  "Hollow Radiance",
+  "Unending Despair",
   "Spirit Visage"
  ],
  "fifth": [
-  "Frozen Heart",
-  "Sunfire Aegis",
-  "Jak'Sho, The Protean",
-  "Hollow Radiance"
- ],
- "sixth": [
-  "Riftmaker",
-  "Sunfire Aegis",
-  "Jak'Sho, The Protean",
-  "Spirit Visage"
- ],
- "pool": [
-  "Giant's Belt",
-  "Ruby Crystal",
-  "Heartsteel",
-  "Mercury's Treads",
   "Unending Despair",
   "Warmog's Armor",
   "Sunfire Aegis",
+  "Jak'Sho, The Protean"
+ ],
+ "sixth": [
+  "Sunfire Aegis",
   "Jak'Sho, The Protean",
-  "Hollow Radiance",
   "Spirit Visage",
-  "Frozen Heart",
-  "Riftmaker"
+  "Unending Despair"
+ ],
+ "pool": [
+  "Lost Chapter",
+  "Malignance",
+  "Sorcerer's Shoes",
+  "Shadowflame",
+  "Rabadon's Deathcap",
+  "Warmog's Armor",
+  "Jak'Sho, The Protean",
+  "Unending Despair",
+  "Spirit Visage",
+  "Sunfire Aegis"
  ]
 }

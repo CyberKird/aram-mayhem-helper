@@ -4,7 +4,7 @@
  "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
-  "Mark"
+  "Ghost"
  ],
  "starting": [
   "Giant's Belt",
@@ -12,39 +12,41 @@
  ],
  "core": [
   "Heartsteel",
-  "Plated Steelcaps",
-  "Unending Despair",
-  "Warmog's Armor"
+  "Mercury's Treads",
+  "Warmog's Armor",
+  "Unending Despair"
  ],
  "fourth": [
   "Overlord's Bloodmail",
-  "Jak'Sho, The Protean",
   "Iceborn Gauntlet",
-  "Death's Dance"
+  "Serylda's Grudge",
+  "Spear of Shojin"
  ],
  "fifth": [
-  "Jak'Sho, The Protean",
+  "Sundered Sky",
+  "Spirit Visage",
   "Overlord's Bloodmail",
-  "Iceborn Gauntlet",
-  "Death's Dance"
+  "Spear of Shojin"
  ],
  "sixth": [
-  "Jak'Sho, The Protean",
   "Overlord's Bloodmail",
-  "Kaenic Rookern",
-  "Iceborn Gauntlet"
+  "Spirit Visage",
+  "Spear of Shojin",
+  "Jak'Sho, The Protean"
  ],
  "pool": [
   "Giant's Belt",
   "Ruby Crystal",
   "Heartsteel",
-  "Plated Steelcaps",
-  "Unending Despair",
+  "Mercury's Treads",
   "Warmog's Armor",
+  "Unending Despair",
   "Overlord's Bloodmail",
-  "Jak'Sho, The Protean",
   "Iceborn Gauntlet",
-  "Death's Dance",
-  "Kaenic Rookern"
+  "Serylda's Grudge",
+  "Spear of Shojin",
+  "Sundered Sky",
+  "Spirit Visage",
+  "Jak'Sho, The Protean"
  ]
 }

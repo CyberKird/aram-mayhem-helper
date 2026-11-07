@@ -8,45 +8,44 @@
  ],
  "starting": [
   "Long Sword",
-  "Guardian's Blade"
+  "Pickaxe"
  ],
  "core": [
   "The Collector",
   "Mercury's Treads",
   "Infinity Edge",
-  "Lord Dominik's Regards"
+  "Hubris"
  ],
  "fourth": [
   "Death's Dance",
+  "Lord Dominik's Regards",
   "Bloodthirster",
-  "Immortal Shieldbow",
-  "Mortal Reminder"
+  "Immortal Shieldbow"
  ],
  "fifth": [
   "Endless Hunger",
   "Death's Dance",
-  "Bloodthirster",
-  "Immortal Shieldbow"
+  "Lord Dominik's Regards",
+  "Bloodthirster"
  ],
  "sixth": [
   "Endless Hunger",
   "Maw of Malmortius",
   "Death's Dance",
-  "Mercurial Scimitar"
+  "Lord Dominik's Regards"
  ],
  "pool": [
   "Long Sword",
-  "Guardian's Blade",
+  "Pickaxe",
   "The Collector",
   "Mercury's Treads",
   "Infinity Edge",
-  "Lord Dominik's Regards",
+  "Hubris",
   "Death's Dance",
+  "Lord Dominik's Regards",
   "Bloodthirster",
   "Immortal Shieldbow",
-  "Mortal Reminder",
   "Endless Hunger",
-  "Maw of Malmortius",
-  "Mercurial Scimitar"
+  "Maw of Malmortius"
  ]
 }

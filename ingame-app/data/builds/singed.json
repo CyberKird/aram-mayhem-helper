@@ -3,7 +3,7 @@
  "source": "https://aramkit.com/en-US/champions/singed",
  "mode": "ARAM Mayhem",
  "summoners": [
-  "Ghost",
+  "Flash",
   "Mark"
  ],
  "starting": [
@@ -22,16 +22,16 @@
   "Force of Nature"
  ],
  "fifth": [
-  "Rabadon's Deathcap",
   "Riftmaker",
+  "Rabadon's Deathcap",
   "Warmog's Armor",
   "Winter's Approach"
  ],
  "sixth": [
-  "Bloodletter's Curse",
   "Rabadon's Deathcap",
-  "Riftmaker",
-  "Warmog's Armor"
+  "Bloodletter's Curse",
+  "Warmog's Armor",
+  "Riftmaker"
  ],
  "pool": [
   "Catalyst of Aeons",

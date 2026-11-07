@@ -13,38 +13,38 @@
  "core": [
   "Moonstone Renewer",
   "Ionian Boots of Lucidity",
-  "Staff of Flowing Water",
+  "Ardent Censer",
   "Whispering Circlet"
  ],
  "fourth": [
+  "Staff of Flowing Water",
   "Dawncore",
-  "Ardent Censer",
-  "Redemption",
-  "Sword of Blossoming Dawn"
+  "Sword of Blossoming Dawn",
+  "Redemption"
  ],
  "fifth": [
+  "Staff of Flowing Water",
+  "Sword of Blossoming Dawn",
   "Dawncore",
-  "Ardent Censer",
-  "Redemption",
-  "Shurelya's Battlesong"
+  "Redemption"
  ],
  "sixth": [
   "Dawncore",
-  "Shurelya's Battlesong",
-  "Ardent Censer",
-  "Redemption"
+  "Staff of Flowing Water",
+  "Redemption",
+  "Locket of the Iron Solari"
  ],
  "pool": [
   "Tear of the Goddess",
   "Bandleglass Mirror",
   "Moonstone Renewer",
   "Ionian Boots of Lucidity",
-  "Staff of Flowing Water",
-  "Whispering Circlet",
-  "Dawncore",
   "Ardent Censer",
-  "Redemption",
+  "Whispering Circlet",
+  "Staff of Flowing Water",
+  "Dawncore",
   "Sword of Blossoming Dawn",
-  "Shurelya's Battlesong"
+  "Redemption",
+  "Locket of the Iron Solari"
  ]
 }

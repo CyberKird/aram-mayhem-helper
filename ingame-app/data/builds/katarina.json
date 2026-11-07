@@ -13,8 +13,8 @@
  "core": [
   "Kraken Slayer",
   "Berserker's Greaves",
-  "Terminus",
-  "Blade of The Ruined King"
+  "Blade of The Ruined King",
+  "Terminus"
  ],
  "fourth": [
   "Death's Dance",
@@ -23,14 +23,14 @@
   "Hextech Gunblade"
  ],
  "fifth": [
-  "Endless Hunger",
   "Death's Dance",
+  "Endless Hunger",
   "Experimental Hexplate",
   "Wit's End"
  ],
  "sixth": [
-  "Endless Hunger",
   "Death's Dance",
+  "Endless Hunger",
   "Experimental Hexplate",
   "Wit's End"
  ],
@@ -39,8 +39,8 @@
   "Guardian's Blade",
   "Kraken Slayer",
   "Berserker's Greaves",
-  "Terminus",
   "Blade of The Ruined King",
+  "Terminus",
   "Death's Dance",
   "Experimental Hexplate",
   "Titanic Hydra",

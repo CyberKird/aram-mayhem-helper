@@ -18,16 +18,16 @@
   "Terminus"
  ],
  "fourth": [
-  "Lord Dominik's Regards",
   "Edge of Night",
-  "Serylda's Grudge",
-  "Rabadon's Deathcap"
+  "Lord Dominik's Regards",
+  "Infinity Edge",
+  "Serylda's Grudge"
  ],
  "fifth": [
   "Edge of Night",
   "Lord Dominik's Regards",
-  "Void Staff",
-  "Serylda's Grudge"
+  "Serylda's Grudge",
+  "Manamune"
  ],
  "sixth": [
   "Youmuu's Ghostblade",
@@ -42,11 +42,12 @@
   "Berserker's Greaves",
   "Guinsoo's Rageblade",
   "Terminus",
-  "Lord Dominik's Regards",
   "Edge of Night",
+  "Lord Dominik's Regards",
+  "Infinity Edge",
   "Serylda's Grudge",
-  "Rabadon's Deathcap",
-  "Void Staff",
-  "Youmuu's Ghostblade"
+  "Manamune",
+  "Youmuu's Ghostblade",
+  "Void Staff"
  ]
 }

@@ -16,21 +16,22 @@
   "Shadowflame"
  ],
  "fourth": [
+  "Archangel's Staff",
   "Stormsurge",
   "Void Staff",
   "Zhonya's Hourglass"
  ],
  "fifth": [
   "Stormsurge",
+  "Archangel's Staff",
   "Banshee's Veil",
-  "Void Staff",
-  "Cryptbloom"
+  "Void Staff"
  ],
  "sixth": [
   "Banshee's Veil",
   "Stormsurge",
   "Void Staff",
-  "Archangel's Staff"
+  "Zhonya's Hourglass"
  ],
  "pool": [
   "Lost Chapter",
@@ -38,11 +39,10 @@
   "Sorcerer's Shoes",
   "Rabadon's Deathcap",
   "Shadowflame",
+  "Archangel's Staff",
   "Stormsurge",
   "Void Staff",
   "Zhonya's Hourglass",
-  "Banshee's Veil",
-  "Cryptbloom",
-  "Archangel's Staff"
+  "Banshee's Veil"
  ]
 }

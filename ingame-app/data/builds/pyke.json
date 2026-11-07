@@ -7,25 +7,26 @@
   "Mark"
  ],
  "starting": [
-  "The Brutalizer"
+  "Long Sword",
+  "Serrated Dirk"
  ],
  "core": [
-  "Axiom Arc",
-  "Boots of Swiftness",
   "Hubris",
+  "Mercury's Treads",
+  "Axiom Arc",
   "Voltaic Cyclosword"
  ],
  "fourth": [
-  "Endless Hunger",
   "Death's Dance",
+  "Endless Hunger",
   "Profane Hydra",
   "Youmuu's Ghostblade"
  ],
  "fifth": [
   "Endless Hunger",
   "Death's Dance",
-  "Youmuu's Ghostblade",
-  "Profane Hydra"
+  "Profane Hydra",
+  "Youmuu's Ghostblade"
  ],
  "sixth": [
   "Endless Hunger",
@@ -34,13 +35,14 @@
   "Edge of Night"
  ],
  "pool": [
-  "The Brutalizer",
-  "Axiom Arc",
-  "Boots of Swiftness",
+  "Long Sword",
+  "Serrated Dirk",
   "Hubris",
+  "Mercury's Treads",
+  "Axiom Arc",
   "Voltaic Cyclosword",
-  "Endless Hunger",
   "Death's Dance",
+  "Endless Hunger",
   "Profane Hydra",
   "Youmuu's Ghostblade",
   "Edge of Night"

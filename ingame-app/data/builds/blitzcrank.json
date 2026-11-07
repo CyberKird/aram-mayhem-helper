@@ -7,46 +7,48 @@
   "Mark"
  ],
  "starting": [
-  "Refillable Potion",
-  "Lost Chapter"
+  "Giant's Belt",
+  "Ruby Crystal"
  ],
  "core": [
-  "Malignance",
-  "Ionian Boots of Lucidity",
-  "Rabadon's Deathcap",
-  "Shadowflame"
+  "Heartsteel",
+  "Mercury's Treads",
+  "Unending Despair",
+  "Warmog's Armor"
  ],
  "fourth": [
   "Frozen Heart",
-  "Warmog's Armor",
+  "Winter's Approach",
+  "Jak'Sho, The Protean",
+  "Kaenic Rookern"
+ ],
+ "fifth": [
+  "Archangel's Staff",
+  "Frozen Heart",
   "Winter's Approach",
   "Jak'Sho, The Protean"
  ],
- "fifth": [
-  "Warmog's Armor",
-  "Jak'Sho, The Protean",
-  "Frozen Heart",
-  "Winter's Approach"
- ],
  "sixth": [
+  "Zhonya's Hourglass",
+  "Rabadon's Deathcap",
   "Void Staff",
-  "Warmog's Armor",
-  "Unending Despair",
-  "Zhonya's Hourglass"
+  "Stormsurge"
  ],
  "pool": [
-  "Refillable Potion",
-  "Lost Chapter",
-  "Malignance",
-  "Ionian Boots of Lucidity",
-  "Rabadon's Deathcap",
-  "Shadowflame",
-  "Frozen Heart",
+  "Giant's Belt",
+  "Ruby Crystal",
+  "Heartsteel",
+  "Mercury's Treads",
+  "Unending Despair",
   "Warmog's Armor",
+  "Frozen Heart",
   "Winter's Approach",
   "Jak'Sho, The Protean",
+  "Kaenic Rookern",
+  "Archangel's Staff",
+  "Zhonya's Hourglass",
+  "Rabadon's Deathcap",
   "Void Staff",
-  "Unending Despair",
-  "Zhonya's Hourglass"
+  "Stormsurge"
  ]
 }

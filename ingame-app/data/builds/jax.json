@@ -7,47 +7,46 @@
   "Mark"
  ],
  "starting": [
-  "Dagger",
-  "Glowing Mote",
+  "Ruby Crystal",
   "Sheen"
  ],
  "core": [
   "Dusk and Dawn",
-  "Mercury's Treads",
-  "Statikk Shiv",
+  "Plated Steelcaps",
+  "Blade of The Ruined King",
   "Death's Dance"
  ],
  "fourth": [
-  "Jak'Sho, The Protean",
   "Riftmaker",
   "Spear of Shojin",
-  "Hextech Gunblade"
+  "Hextech Gunblade",
+  "Rabadon's Deathcap"
  ],
  "fifth": [
   "Endless Hunger",
   "Riftmaker",
-  "Jak'Sho, The Protean",
-  "Spear of Shojin"
+  "Spear of Shojin",
+  "Sundered Sky"
  ],
  "sixth": [
   "Endless Hunger",
   "Riftmaker",
-  "Jak'Sho, The Protean",
-  "Sterak's Gage"
+  "Spirit Visage",
+  "Rabadon's Deathcap"
  ],
  "pool": [
-  "Dagger",
-  "Glowing Mote",
+  "Ruby Crystal",
   "Sheen",
   "Dusk and Dawn",
-  "Mercury's Treads",
-  "Statikk Shiv",
+  "Plated Steelcaps",
+  "Blade of The Ruined King",
   "Death's Dance",
-  "Jak'Sho, The Protean",
   "Riftmaker",
   "Spear of Shojin",
   "Hextech Gunblade",
+  "Rabadon's Deathcap",
   "Endless Hunger",
-  "Sterak's Gage"
+  "Sundered Sky",
+  "Spirit Visage"
  ]
 }

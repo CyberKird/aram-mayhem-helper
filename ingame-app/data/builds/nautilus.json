@@ -7,44 +7,43 @@
   "Mark"
  ],
  "starting": [
-  "Refillable Potion",
   "Lost Chapter"
  ],
  "core": [
   "Luden's Echo",
   "Shadowflame",
-  "Stormsurge"
+  "Rabadon's Deathcap"
  ],
  "fourth": [
-  "Frozen Heart",
   "Warmog's Armor",
-  "Jak'Sho, The Protean",
-  "Sunfire Aegis"
+  "Frozen Heart",
+  "Sunfire Aegis",
+  "Winter's Approach"
  ],
  "fifth": [
+  "Hollow Radiance",
   "Warmog's Armor",
-  "Sunfire Aegis",
   "Unending Despair",
   "Jak'Sho, The Protean"
  ],
  "sixth": [
   "Riftmaker",
-  "Jak'Sho, The Protean",
-  "Force of Nature",
-  "Frozen Heart"
+  "Unending Despair",
+  "Hollow Radiance",
+  "Jak'Sho, The Protean"
  ],
  "pool": [
-  "Refillable Potion",
   "Lost Chapter",
   "Luden's Echo",
   "Shadowflame",
-  "Stormsurge",
-  "Frozen Heart",
+  "Rabadon's Deathcap",
   "Warmog's Armor",
-  "Jak'Sho, The Protean",
+  "Frozen Heart",
   "Sunfire Aegis",
+  "Winter's Approach",
+  "Hollow Radiance",
   "Unending Despair",
-  "Riftmaker",
-  "Force of Nature"
+  "Jak'Sho, The Protean",
+  "Riftmaker"
  ]
 }

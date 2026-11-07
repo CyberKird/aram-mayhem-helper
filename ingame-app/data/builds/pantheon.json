@@ -19,18 +19,18 @@
  "fourth": [
   "Endless Hunger",
   "Voltaic Cyclosword",
-  "Unending Despair",
-  "Lord Dominik's Regards"
+  "Lord Dominik's Regards",
+  "Death's Dance"
  ],
  "fifth": [
   "Endless Hunger",
   "Voltaic Cyclosword",
   "Lord Dominik's Regards",
-  "Jak'Sho, The Protean"
+  "Infinity Edge"
  ],
  "sixth": [
-  "Endless Hunger",
   "Voltaic Cyclosword",
+  "Endless Hunger",
   "Death's Dance",
   "Lord Dominik's Regards"
  ],
@@ -43,9 +43,8 @@
   "Warmog's Armor",
   "Endless Hunger",
   "Voltaic Cyclosword",
-  "Unending Despair",
   "Lord Dominik's Regards",
-  "Jak'Sho, The Protean",
-  "Death's Dance"
+  "Death's Dance",
+  "Infinity Edge"
  ]
 }

@@ -20,20 +20,20 @@
  "fourth": [
   "Spirit Visage",
   "Infinity Edge",
-  "Jak'Sho, The Protean",
+  "Phantom Dancer",
   "Blade of The Ruined King"
  ],
  "fifth": [
   "Spirit Visage",
   "Infinity Edge",
-  "Jak'Sho, The Protean",
-  "Bloodthirster"
+  "Phantom Dancer",
+  "Lord Dominik's Regards"
  ],
  "sixth": [
   "Spirit Visage",
-  "Jak'Sho, The Protean",
-  "Bloodthirster",
-  "Infinity Edge"
+  "Endless Hunger",
+  "Phantom Dancer",
+  "Jak'Sho, The Protean"
  ],
  "pool": [
   "Cloak of Agility",
@@ -44,8 +44,10 @@
   "Death's Dance",
   "Spirit Visage",
   "Infinity Edge",
-  "Jak'Sho, The Protean",
+  "Phantom Dancer",
   "Blade of The Ruined King",
-  "Bloodthirster"
+  "Lord Dominik's Regards",
+  "Endless Hunger",
+  "Jak'Sho, The Protean"
  ]
 }

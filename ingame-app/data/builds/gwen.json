@@ -11,14 +11,14 @@
  ],
  "core": [
   "Shadowflame",
-  "Mercury's Treads",
-  "Dusk and Dawn",
-  "Nashor's Tooth"
+  "Sorcerer's Shoes",
+  "Nashor's Tooth",
+  "Dusk and Dawn"
  ],
  "fourth": [
   "Rabadon's Deathcap",
-  "Void Staff",
   "Riftmaker",
+  "Void Staff",
   "Spirit Visage"
  ],
  "fifth": [
@@ -28,20 +28,20 @@
   "Spirit Visage"
  ],
  "sixth": [
-  "Void Staff",
   "Rabadon's Deathcap",
+  "Void Staff",
   "Riftmaker",
   "Cosmic Drive"
  ],
  "pool": [
   "Needlessly Large Rod",
   "Shadowflame",
-  "Mercury's Treads",
-  "Dusk and Dawn",
+  "Sorcerer's Shoes",
   "Nashor's Tooth",
+  "Dusk and Dawn",
   "Rabadon's Deathcap",
-  "Void Staff",
   "Riftmaker",
+  "Void Staff",
   "Spirit Visage",
   "Cosmic Drive"
  ]

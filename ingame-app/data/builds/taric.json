@@ -13,39 +13,39 @@
  "core": [
   "Heartsteel",
   "Plated Steelcaps",
-  "Whispering Circlet",
-  "Sword of Blossoming Dawn"
+  "Unending Despair",
+  "Warmog's Armor"
  ],
  "fourth": [
-  "Frozen Heart",
   "Jak'Sho, The Protean",
-  "Unending Despair",
-  "Randuin's Omen"
+  "Winter's Approach",
+  "Frozen Heart",
+  "Spirit Visage"
  ],
  "fifth": [
   "Iceborn Gauntlet",
-  "Jak'Sho, The Protean",
   "Frozen Heart",
-  "Unending Despair"
- ],
- "sixth": [
-  "Iceborn Gauntlet",
-  "Unending Despair",
   "Jak'Sho, The Protean",
   "Winter's Approach"
+ ],
+ "sixth": [
+  "Jak'Sho, The Protean",
+  "Iceborn Gauntlet",
+  "Frozen Heart",
+  "Kaenic Rookern"
  ],
  "pool": [
   "Giant's Belt",
   "Tear of the Goddess",
   "Heartsteel",
   "Plated Steelcaps",
-  "Whispering Circlet",
-  "Sword of Blossoming Dawn",
-  "Frozen Heart",
-  "Jak'Sho, The Protean",
   "Unending Despair",
-  "Randuin's Omen",
+  "Warmog's Armor",
+  "Jak'Sho, The Protean",
+  "Winter's Approach",
+  "Frozen Heart",
+  "Spirit Visage",
   "Iceborn Gauntlet",
-  "Winter's Approach"
+  "Kaenic Rookern"
  ]
 }

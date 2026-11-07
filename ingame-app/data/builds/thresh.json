@@ -12,15 +12,15 @@
  ],
  "core": [
   "Heartsteel",
-  "Plated Steelcaps",
+  "Mercury's Treads",
   "Unending Despair",
   "Warmog's Armor"
  ],
  "fourth": [
   "Frozen Heart",
   "Jak'Sho, The Protean",
-  "Randuin's Omen",
-  "Winter's Approach"
+  "Winter's Approach",
+  "Force of Nature"
  ],
  "fifth": [
   "Frozen Heart",
@@ -30,22 +30,22 @@
  ],
  "sixth": [
   "Frozen Heart",
+  "Force of Nature",
   "Jak'Sho, The Protean",
-  "Overlord's Bloodmail",
-  "Force of Nature"
+  "Spirit Visage"
  ],
  "pool": [
   "Giant's Belt",
   "Ruby Crystal",
   "Heartsteel",
-  "Plated Steelcaps",
+  "Mercury's Treads",
   "Unending Despair",
   "Warmog's Armor",
   "Frozen Heart",
   "Jak'Sho, The Protean",
-  "Randuin's Omen",
   "Winter's Approach",
+  "Force of Nature",
   "Overlord's Bloodmail",
-  "Force of Nature"
+  "Spirit Visage"
  ]
 }

@@ -8,7 +8,7 @@
  ],
  "starting": [
   "Long Sword",
-  "Guardian's Blade"
+  "Pickaxe"
  ],
  "core": [
   "The Collector",
@@ -24,9 +24,9 @@
  ],
  "fifth": [
   "Bloodthirster",
+  "Lord Dominik's Regards",
   "Fiendhunter Bolts",
-  "Kraken Slayer",
-  "Lord Dominik's Regards"
+  "Blade of The Ruined King"
  ],
  "sixth": [
   "Bloodthirster",
@@ -36,7 +36,7 @@
  ],
  "pool": [
   "Long Sword",
-  "Guardian's Blade",
+  "Pickaxe",
   "The Collector",
   "Berserker's Greaves",
   "Runaan's Hurricane",

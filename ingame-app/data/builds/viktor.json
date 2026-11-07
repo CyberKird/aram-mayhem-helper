@@ -7,42 +7,41 @@
   "Ghost"
  ],
  "starting": [
-  "Lost Chapter"
+  "Needlessly Large Rod"
  ],
  "core": [
-  "Blackfire Torch",
+  "Shadowflame",
   "Sorcerer's Shoes",
-  "Rabadon's Deathcap",
-  "Shadowflame"
+  "Blackfire Torch",
+  "Rabadon's Deathcap"
  ],
  "fourth": [
   "Archangel's Staff",
-  "Lich Bane",
   "Void Staff",
+  "Lich Bane",
   "Stormsurge"
  ],
  "fifth": [
-  "Stormsurge",
   "Lich Bane",
-  "Archangel's Staff",
-  "Void Staff"
+  "Stormsurge",
+  "Void Staff",
+  "Archangel's Staff"
  ],
  "sixth": [
   "Lich Bane",
   "Stormsurge",
   "Void Staff",
-  "Banshee's Veil"
+  "Archangel's Staff"
  ],
  "pool": [
-  "Lost Chapter",
-  "Blackfire Torch",
-  "Sorcerer's Shoes",
-  "Rabadon's Deathcap",
+  "Needlessly Large Rod",
   "Shadowflame",
+  "Sorcerer's Shoes",
+  "Blackfire Torch",
+  "Rabadon's Deathcap",
   "Archangel's Staff",
-  "Lich Bane",
   "Void Staff",
-  "Stormsurge",
-  "Banshee's Veil"
+  "Lich Bane",
+  "Stormsurge"
  ]
 }

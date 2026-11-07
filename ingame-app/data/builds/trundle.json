@@ -7,43 +7,46 @@
   "Mark"
  ],
  "starting": [
-  "Tiamat"
+  "Long Sword",
+  "Sheen"
  ],
  "core": [
-  "Ravenous Hydra",
-  "Berserker's Greaves",
   "Trinity Force",
+  "Mercury's Treads",
+  "Ravenous Hydra",
   "Blade of The Ruined King"
  ],
  "fourth": [
-  "Jak'Sho, The Protean",
-  "Unending Despair",
   "Death's Dance",
-  "Randuin's Omen"
+  "Titanic Hydra",
+  "Spirit Visage",
+  "Liandry's Torment"
  ],
  "fifth": [
-  "Jak'Sho, The Protean",
-  "Unending Despair",
   "Death's Dance",
-  "Overlord's Bloodmail"
+  "Overlord's Bloodmail",
+  "Titanic Hydra",
+  "Spirit Visage"
  ],
  "sixth": [
-  "Death's Dance",
-  "Jak'Sho, The Protean",
+  "Cosmic Drive",
   "Overlord's Bloodmail",
+  "Death's Dance",
   "Cryptbloom"
  ],
  "pool": [
-  "Tiamat",
-  "Ravenous Hydra",
-  "Berserker's Greaves",
+  "Long Sword",
+  "Sheen",
   "Trinity Force",
+  "Mercury's Treads",
+  "Ravenous Hydra",
   "Blade of The Ruined King",
-  "Jak'Sho, The Protean",
-  "Unending Despair",
   "Death's Dance",
-  "Randuin's Omen",
+  "Titanic Hydra",
+  "Spirit Visage",
+  "Liandry's Torment",
   "Overlord's Bloodmail",
+  "Cosmic Drive",
   "Cryptbloom"
  ]
 }

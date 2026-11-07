@@ -12,6 +12,7 @@
  ],
  "core": [
   "Heartsteel",
+  "Mercury's Treads",
   "Overlord's Bloodmail",
   "Warmog's Armor"
  ],
@@ -23,13 +24,13 @@
  ],
  "fifth": [
   "Endless Hunger",
-  "Titanic Hydra",
   "Sterak's Gage",
+  "Titanic Hydra",
   "Unending Despair"
  ],
  "sixth": [
-  "Sterak's Gage",
   "Endless Hunger",
+  "Sterak's Gage",
   "Titanic Hydra",
   "Unending Despair"
  ],
@@ -37,6 +38,7 @@
   "Giant's Belt",
   "Ruby Crystal",
   "Heartsteel",
+  "Mercury's Treads",
   "Overlord's Bloodmail",
   "Warmog's Armor",
   "Endless Hunger",

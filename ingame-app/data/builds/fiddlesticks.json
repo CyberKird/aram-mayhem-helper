@@ -4,7 +4,7 @@
  "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
-  "Ghost"
+  "Mark"
  ],
  "starting": [
   "Lost Chapter"
@@ -12,8 +12,8 @@
  "core": [
   "Malignance",
   "Sorcerer's Shoes",
-  "Rabadon's Deathcap",
-  "Shadowflame"
+  "Shadowflame",
+  "Rabadon's Deathcap"
  ],
  "fourth": [
   "Stormsurge",
@@ -25,25 +25,26 @@
   "Stormsurge",
   "Void Staff",
   "Rylai's Crystal Scepter",
-  "Riftmaker"
+  "Zhonya's Hourglass"
  ],
  "sixth": [
   "Stormsurge",
-  "Banshee's Veil",
+  "Blackfire Torch",
   "Void Staff",
-  "Rylai's Crystal Scepter"
+  "Banshee's Veil"
  ],
  "pool": [
   "Lost Chapter",
   "Malignance",
   "Sorcerer's Shoes",
-  "Rabadon's Deathcap",
   "Shadowflame",
+  "Rabadon's Deathcap",
   "Stormsurge",
   "Void Staff",
   "Rylai's Crystal Scepter",
   "Liandry's Torment",
-  "Riftmaker",
+  "Zhonya's Hourglass",
+  "Blackfire Torch",
   "Banshee's Veil"
  ]
 }

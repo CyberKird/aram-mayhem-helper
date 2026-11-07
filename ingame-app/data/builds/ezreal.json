@@ -17,22 +17,22 @@
   "Endless Hunger"
  ],
  "fourth": [
-  "Archangel's Staff",
   "Spear of Shojin",
-  "Rabadon's Deathcap",
+  "Serylda's Grudge",
+  "Archangel's Staff",
   "Lord Dominik's Regards"
  ],
  "fifth": [
-  "Archangel's Staff",
+  "Serylda's Grudge",
   "Spear of Shojin",
-  "Rabadon's Deathcap",
+  "Archangel's Staff",
   "Lord Dominik's Regards"
  ],
  "sixth": [
   "Archangel's Staff",
   "Void Staff",
   "Shadowflame",
-  "Rabadon's Deathcap"
+  "Horizon Focus"
  ],
  "pool": [
   "Tear of the Goddess",
@@ -41,11 +41,12 @@
   "Ionian Boots of Lucidity",
   "Manamune",
   "Endless Hunger",
-  "Archangel's Staff",
   "Spear of Shojin",
-  "Rabadon's Deathcap",
+  "Serylda's Grudge",
+  "Archangel's Staff",
   "Lord Dominik's Regards",
   "Void Staff",
-  "Shadowflame"
+  "Shadowflame",
+  "Horizon Focus"
  ]
 }

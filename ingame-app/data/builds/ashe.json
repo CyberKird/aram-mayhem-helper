@@ -17,21 +17,21 @@
  ],
  "fourth": [
   "Terminus",
-  "Lord Dominik's Regards",
   "Blade of The Ruined King",
+  "Lord Dominik's Regards",
   "Rabadon's Deathcap"
  ],
  "fifth": [
   "Archangel's Staff",
   "Lord Dominik's Regards",
   "Rabadon's Deathcap",
-  "Kraken Slayer"
+  "Shadowflame"
  ],
  "sixth": [
   "Archangel's Staff",
   "Shadowflame",
-  "Bloodthirster",
-  "Rabadon's Deathcap"
+  "Rabadon's Deathcap",
+  "Bloodthirster"
  ],
  "pool": [
   "B. F. Sword",
@@ -40,11 +40,10 @@
   "Runaan's Hurricane",
   "Infinity Edge",
   "Terminus",
-  "Lord Dominik's Regards",
   "Blade of The Ruined King",
+  "Lord Dominik's Regards",
   "Rabadon's Deathcap",
   "Archangel's Staff",
-  "Kraken Slayer",
   "Shadowflame",
   "Bloodthirster"
  ]

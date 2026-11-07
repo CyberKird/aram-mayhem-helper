@@ -7,42 +7,41 @@
   "Mark"
  ],
  "starting": [
-  "Lost Chapter"
+  "Needlessly Large Rod"
  ],
  "core": [
-  "Malignance",
+  "Shadowflame",
   "Sorcerer's Shoes",
-  "Rabadon's Deathcap",
-  "Shadowflame"
+  "Malignance",
+  "Rabadon's Deathcap"
  ],
  "fourth": [
   "Stormsurge",
+  "Zhonya's Hourglass",
   "Void Staff",
-  "Cryptbloom",
-  "Zhonya's Hourglass"
+  "Cryptbloom"
  ],
  "fifth": [
   "Stormsurge",
   "Void Staff",
+  "Zhonya's Hourglass",
+  "Cryptbloom"
+ ],
+ "sixth": [
+  "Stormsurge",
+  "Void Staff",
   "Cryptbloom",
   "Zhonya's Hourglass"
  ],
- "sixth": [
-  "Banshee's Veil",
+ "pool": [
+  "Needlessly Large Rod",
+  "Shadowflame",
+  "Sorcerer's Shoes",
+  "Malignance",
+  "Rabadon's Deathcap",
   "Stormsurge",
+  "Zhonya's Hourglass",
   "Void Staff",
   "Cryptbloom"
- ],
- "pool": [
-  "Lost Chapter",
-  "Malignance",
-  "Sorcerer's Shoes",
-  "Rabadon's Deathcap",
-  "Shadowflame",
-  "Stormsurge",
-  "Void Staff",
-  "Cryptbloom",
-  "Zhonya's Hourglass",
-  "Banshee's Veil"
  ]
 }

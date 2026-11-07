@@ -8,11 +8,13 @@
  ],
  "starting": [
   "Long Sword",
-  "Guardian's Blade"
+  "Long Sword",
+  "Long Sword",
+  "Long Sword"
  ],
  "core": [
   "Hubris",
-  "Mercury's Treads",
+  "Ionian Boots of Lucidity",
   "Voltaic Cyclosword",
   "Axiom Arc"
  ],
@@ -32,18 +34,18 @@
   "Death's Dance",
   "Endless Hunger",
   "Lord Dominik's Regards",
-  "Infinity Edge"
+  "Maw of Malmortius"
  ],
  "pool": [
   "Long Sword",
-  "Guardian's Blade",
   "Hubris",
-  "Mercury's Treads",
+  "Ionian Boots of Lucidity",
   "Voltaic Cyclosword",
   "Axiom Arc",
   "Endless Hunger",
   "Death's Dance",
   "Lord Dominik's Regards",
-  "Infinity Edge"
+  "Infinity Edge",
+  "Maw of Malmortius"
  ]
 }

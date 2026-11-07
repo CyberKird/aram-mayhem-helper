@@ -19,20 +19,20 @@
  "fourth": [
   "Bloodthirster",
   "Lord Dominik's Regards",
-  "Blade of The Ruined King",
-  "Kraken Slayer"
+  "Kraken Slayer",
+  "Blade of The Ruined King"
  ],
  "fifth": [
   "Bloodthirster",
   "Lord Dominik's Regards",
-  "Kraken Slayer",
-  "Blade of The Ruined King"
+  "Blade of The Ruined King",
+  "Kraken Slayer"
  ],
  "sixth": [
-  "Bloodthirster",
   "Hexoptics C44",
+  "Bloodthirster",
   "Lord Dominik's Regards",
-  "Kraken Slayer"
+  "Yun Tal Wildarrows"
  ],
  "pool": [
   "Long Sword",
@@ -43,8 +43,9 @@
   "Infinity Edge",
   "Bloodthirster",
   "Lord Dominik's Regards",
-  "Blade of The Ruined King",
   "Kraken Slayer",
-  "Hexoptics C44"
+  "Blade of The Ruined King",
+  "Hexoptics C44",
+  "Yun Tal Wildarrows"
  ]
 }

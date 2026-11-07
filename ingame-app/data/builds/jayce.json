@@ -7,46 +7,46 @@
   "Mark"
  ],
  "starting": [
-  "Long Sword",
+  "Tear of the Goddess",
   "Guardian's Blade"
  ],
  "core": [
   "Hubris",
   "Ionian Boots of Lucidity",
-  "The Collector",
-  "Infinity Edge"
+  "Manamune",
+  "Voltaic Cyclosword"
  ],
  "fourth": [
   "Endless Hunger",
-  "Voltaic Cyclosword",
   "Lord Dominik's Regards",
-  "Manamune"
+  "Infinity Edge",
+  "Serylda's Grudge"
  ],
  "fifth": [
   "Endless Hunger",
   "Lord Dominik's Regards",
   "Edge of Night",
-  "Death's Dance"
+  "Infinity Edge"
  ],
  "sixth": [
-  "Endless Hunger",
   "Youmuu's Ghostblade",
+  "Endless Hunger",
   "Death's Dance",
-  "Lord Dominik's Regards"
+  "Edge of Night"
  ],
  "pool": [
-  "Long Sword",
+  "Tear of the Goddess",
   "Guardian's Blade",
   "Hubris",
   "Ionian Boots of Lucidity",
-  "The Collector",
-  "Infinity Edge",
-  "Endless Hunger",
-  "Voltaic Cyclosword",
-  "Lord Dominik's Regards",
   "Manamune",
+  "Voltaic Cyclosword",
+  "Endless Hunger",
+  "Lord Dominik's Regards",
+  "Infinity Edge",
+  "Serylda's Grudge",
   "Edge of Night",
-  "Death's Dance",
-  "Youmuu's Ghostblade"
+  "Youmuu's Ghostblade",
+  "Death's Dance"
  ]
 }

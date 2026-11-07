@@ -13,37 +13,38 @@
   "Yun Tal Wildarrows",
   "Berserker's Greaves",
   "Infinity Edge",
-  "Navori Flickerblade"
+  "Lord Dominik's Regards"
  ],
  "fourth": [
-  "Lord Dominik's Regards",
+  "Navori Flickerblade",
   "Bloodthirster",
   "The Collector",
-  "Blade of The Ruined King"
+  "Mortal Reminder"
  ],
  "fifth": [
   "Bloodthirster",
-  "Lord Dominik's Regards",
+  "Navori Flickerblade",
   "Phantom Dancer",
-  "The Collector"
+  "Kraken Slayer"
  ],
  "sixth": [
   "Bloodthirster",
   "Phantom Dancer",
-  "Lord Dominik's Regards",
-  "Kraken Slayer"
+  "Kraken Slayer",
+  "Blade of The Ruined King"
  ],
  "pool": [
   "B. F. Sword",
   "Yun Tal Wildarrows",
   "Berserker's Greaves",
   "Infinity Edge",
-  "Navori Flickerblade",
   "Lord Dominik's Regards",
+  "Navori Flickerblade",
   "Bloodthirster",
   "The Collector",
-  "Blade of The Ruined King",
+  "Mortal Reminder",
   "Phantom Dancer",
-  "Kraken Slayer"
+  "Kraken Slayer",
+  "Blade of The Ruined King"
  ]
 }

@@ -13,14 +13,14 @@
  "core": [
   "Moonstone Renewer",
   "Ionian Boots of Lucidity",
-  "Staff of Flowing Water",
-  "Whispering Circlet"
+  "Whispering Circlet",
+  "Staff of Flowing Water"
  ],
  "fourth": [
   "Dawncore",
   "Sword of Blossoming Dawn",
-  "Echoes of Helia",
-  "Ardent Censer"
+  "Ardent Censer",
+  "Redemption"
  ],
  "fifth": [
   "Sword of Blossoming Dawn",
@@ -31,19 +31,20 @@
  "sixth": [
   "Sword of Blossoming Dawn",
   "Dawncore",
-  "Echoes of Helia",
-  "Ardent Censer"
+  "Ardent Censer",
+  "Echoes of Helia"
  ],
  "pool": [
   "Tear of the Goddess",
   "Bandleglass Mirror",
   "Moonstone Renewer",
   "Ionian Boots of Lucidity",
-  "Staff of Flowing Water",
   "Whispering Circlet",
+  "Staff of Flowing Water",
   "Dawncore",
   "Sword of Blossoming Dawn",
-  "Echoes of Helia",
-  "Ardent Censer"
+  "Ardent Censer",
+  "Redemption",
+  "Echoes of Helia"
  ]
 }

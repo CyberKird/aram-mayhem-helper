@@ -12,15 +12,15 @@
  ],
  "core": [
   "Hubris",
-  "Ionian Boots of Lucidity",
+  "Mercury's Treads",
   "Axiom Arc",
   "Voltaic Cyclosword"
  ],
  "fourth": [
   "Endless Hunger",
   "Death's Dance",
-  "Infinity Edge",
-  "Lord Dominik's Regards"
+  "Lord Dominik's Regards",
+  "Infinity Edge"
  ],
  "fifth": [
   "Endless Hunger",
@@ -38,13 +38,13 @@
   "Long Sword",
   "Guardian's Blade",
   "Hubris",
-  "Ionian Boots of Lucidity",
+  "Mercury's Treads",
   "Axiom Arc",
   "Voltaic Cyclosword",
   "Endless Hunger",
   "Death's Dance",
-  "Infinity Edge",
   "Lord Dominik's Regards",
+  "Infinity Edge",
   "Youmuu's Ghostblade"
  ]
 }

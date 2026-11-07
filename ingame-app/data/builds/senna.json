@@ -7,26 +7,27 @@
   "Ghost"
  ],
  "starting": [
-  "Kindlegem",
-  "Forbidden Idol"
+  "Dagger",
+  "Dagger",
+  "Aether Wisp"
  ],
  "core": [
-  "Sword of Blossoming Dawn",
-  "Berserker's Greaves",
   "Statikk Shiv",
+  "Boots of Swiftness",
+  "Sword of Blossoming Dawn",
   "Runaan's Hurricane"
  ],
  "fourth": [
   "Hexoptics C44",
   "Manamune",
   "Kraken Slayer",
-  "Infinity Edge"
+  "The Collector"
  ],
  "fifth": [
   "Hexoptics C44",
   "Manamune",
   "Bloodthirster",
-  "Kraken Slayer"
+  "Rapid Firecannon"
  ],
  "sixth": [
   "Hexoptics C44",
@@ -35,17 +36,18 @@
   "Lord Dominik's Regards"
  ],
  "pool": [
-  "Kindlegem",
-  "Forbidden Idol",
-  "Sword of Blossoming Dawn",
-  "Berserker's Greaves",
+  "Dagger",
+  "Aether Wisp",
   "Statikk Shiv",
+  "Boots of Swiftness",
+  "Sword of Blossoming Dawn",
   "Runaan's Hurricane",
   "Hexoptics C44",
   "Manamune",
   "Kraken Slayer",
-  "Infinity Edge",
+  "The Collector",
   "Bloodthirster",
+  "Rapid Firecannon",
   "Lord Dominik's Regards"
  ]
 }

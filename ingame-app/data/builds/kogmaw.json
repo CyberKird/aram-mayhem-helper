@@ -16,21 +16,21 @@
   "Rabadon's Deathcap"
  ],
  "fourth": [
-  "Void Staff",
   "Archangel's Staff",
-  "Guinsoo's Rageblade",
-  "Terminus"
+  "Void Staff",
+  "Runaan's Hurricane",
+  "Guinsoo's Rageblade"
  ],
  "fifth": [
-  "Void Staff",
-  "Archangel's Staff",
   "Terminus",
-  "Wit's End"
+  "Void Staff",
+  "Guinsoo's Rageblade",
+  "Archangel's Staff"
  ],
  "sixth": [
-  "Void Staff",
-  "Archangel's Staff",
+  "Nashor's Tooth",
   "Terminus",
+  "Void Staff",
   "Kraken Slayer"
  ],
  "pool": [
@@ -39,11 +39,12 @@
   "Sorcerer's Shoes",
   "Dusk and Dawn",
   "Rabadon's Deathcap",
-  "Void Staff",
   "Archangel's Staff",
+  "Void Staff",
+  "Runaan's Hurricane",
   "Guinsoo's Rageblade",
   "Terminus",
-  "Wit's End",
+  "Nashor's Tooth",
   "Kraken Slayer"
  ]
 }

@@ -7,45 +7,45 @@
   "Mark"
  ],
  "starting": [
-  "Giant's Belt",
-  "Ruby Crystal"
+  "Long Sword",
+  "Caulfield's Warhammer"
  ],
  "core": [
-  "Heartsteel",
-  "Plated Steelcaps",
-  "Unending Despair",
-  "Warmog's Armor"
+  "Endless Hunger",
+  "Mercury's Treads",
+  "Hubris",
+  "Death's Dance"
  ],
  "fourth": [
-  "Jak'Sho, The Protean",
-  "Randuin's Omen",
-  "Endless Hunger",
-  "Thornmail"
+  "Lord Dominik's Regards",
+  "Overlord's Bloodmail",
+  "Maw of Malmortius",
+  "Trinity Force"
  ],
  "fifth": [
-  "Jak'Sho, The Protean",
-  "Endless Hunger",
-  "Randuin's Omen",
-  "Lord Dominik's Regards"
+  "Lord Dominik's Regards",
+  "Infinity Edge",
+  "Sterak's Gage",
+  "Overlord's Bloodmail"
  ],
  "sixth": [
-  "Jak'Sho, The Protean",
-  "Endless Hunger",
   "Lord Dominik's Regards",
-  "Death's Dance"
+  "Infinity Edge",
+  "Overlord's Bloodmail",
+  "Maw of Malmortius"
  ],
  "pool": [
-  "Giant's Belt",
-  "Ruby Crystal",
-  "Heartsteel",
-  "Plated Steelcaps",
-  "Unending Despair",
-  "Warmog's Armor",
-  "Jak'Sho, The Protean",
-  "Randuin's Omen",
+  "Long Sword",
+  "Caulfield's Warhammer",
   "Endless Hunger",
-  "Thornmail",
+  "Mercury's Treads",
+  "Hubris",
+  "Death's Dance",
   "Lord Dominik's Regards",
-  "Death's Dance"
+  "Overlord's Bloodmail",
+  "Maw of Malmortius",
+  "Trinity Force",
+  "Infinity Edge",
+  "Sterak's Gage"
  ]
 }

@@ -30,9 +30,9 @@
  ],
  "sixth": [
   "Bloodletter's Curse",
-  "Archangel's Staff",
   "Shadowflame",
-  "Void Staff"
+  "Rabadon's Deathcap",
+  "Archangel's Staff"
  ],
  "pool": [
   "Refillable Potion",
@@ -44,7 +44,6 @@
   "Bloodletter's Curse",
   "Archangel's Staff",
   "Rabadon's Deathcap",
-  "Shadowflame",
-  "Void Staff"
+  "Shadowflame"
  ]
 }

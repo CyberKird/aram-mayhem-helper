@@ -12,39 +12,39 @@
  ],
  "core": [
   "Heartsteel",
-  "Plated Steelcaps",
-  "Overlord's Bloodmail",
-  "Warmog's Armor"
+  "Berserker's Greaves",
+  "Warmog's Armor",
+  "Overlord's Bloodmail"
  ],
  "fourth": [
   "Unending Despair",
-  "Jak'Sho, The Protean",
+  "Sterak's Gage",
   "Kaenic Rookern",
-  "Sterak's Gage"
+  "Jak'Sho, The Protean"
  ],
  "fifth": [
   "Unending Despair",
   "Jak'Sho, The Protean",
   "Sterak's Gage",
-  "Kaenic Rookern"
+  "Death's Dance"
  ],
  "sixth": [
   "Unending Despair",
   "Jak'Sho, The Protean",
-  "Force of Nature",
-  "Sterak's Gage"
+  "Sterak's Gage",
+  "Death's Dance"
  ],
  "pool": [
   "Giant's Belt",
   "Ruby Crystal",
   "Heartsteel",
-  "Plated Steelcaps",
-  "Overlord's Bloodmail",
+  "Berserker's Greaves",
   "Warmog's Armor",
+  "Overlord's Bloodmail",
   "Unending Despair",
-  "Jak'Sho, The Protean",
-  "Kaenic Rookern",
   "Sterak's Gage",
-  "Force of Nature"
+  "Kaenic Rookern",
+  "Jak'Sho, The Protean",
+  "Death's Dance"
  ]
 }

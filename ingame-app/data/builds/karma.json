@@ -7,13 +7,14 @@
   "Ghost"
  ],
  "starting": [
+  "Ruby Crystal",
   "Tear of the Goddess",
-  "Bandleglass Mirror"
+  "Forbidden Idol"
  ],
  "core": [
-  "Moonstone Renewer",
-  "Ionian Boots of Lucidity",
   "Whispering Circlet",
+  "Ionian Boots of Lucidity",
+  "Moonstone Renewer",
   "Staff of Flowing Water"
  ],
  "fourth": [
@@ -26,25 +27,27 @@
   "Dawncore",
   "Ardent Censer",
   "Redemption",
-  "Archangel's Staff"
+  "Stormsurge"
  ],
  "sixth": [
-  "Dawncore",
   "Redemption",
+  "Dawncore",
   "Ardent Censer",
-  "Cryptbloom"
+  "Mikael's Blessing"
  ],
  "pool": [
+  "Ruby Crystal",
   "Tear of the Goddess",
-  "Bandleglass Mirror",
-  "Moonstone Renewer",
-  "Ionian Boots of Lucidity",
+  "Forbidden Idol",
   "Whispering Circlet",
+  "Ionian Boots of Lucidity",
+  "Moonstone Renewer",
   "Staff of Flowing Water",
   "Dawncore",
   "Ardent Censer",
   "Redemption",
   "Archangel's Staff",
-  "Cryptbloom"
+  "Stormsurge",
+  "Mikael's Blessing"
  ]
 }

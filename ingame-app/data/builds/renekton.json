@@ -8,44 +8,45 @@
  ],
  "starting": [
   "Long Sword",
-  "Guardian's Blade"
+  "Serrated Dirk"
  ],
  "core": [
   "Hubris",
-  "Plated Steelcaps",
+  "Mercury's Treads",
   "Death's Dance",
   "Endless Hunger"
  ],
  "fourth": [
-  "Jak'Sho, The Protean",
   "Spear of Shojin",
+  "Sterak's Gage",
   "Black Cleaver",
-  "Sterak's Gage"
+  "Eclipse"
  ],
  "fifth": [
-  "Spear of Shojin",
   "Sterak's Gage",
-  "Overlord's Bloodmail",
-  "Jak'Sho, The Protean"
+  "Spear of Shojin",
+  "Maw of Malmortius",
+  "Overlord's Bloodmail"
  ],
  "sixth": [
-  "Jak'Sho, The Protean",
   "Sterak's Gage",
   "Overlord's Bloodmail",
-  "Maw of Malmortius"
+  "Spear of Shojin",
+  "Spirit Visage"
  ],
  "pool": [
   "Long Sword",
-  "Guardian's Blade",
+  "Serrated Dirk",
   "Hubris",
-  "Plated Steelcaps",
+  "Mercury's Treads",
   "Death's Dance",
   "Endless Hunger",
-  "Jak'Sho, The Protean",
   "Spear of Shojin",
-  "Black Cleaver",
   "Sterak's Gage",
+  "Black Cleaver",
+  "Eclipse",
+  "Maw of Malmortius",
   "Overlord's Bloodmail",
-  "Maw of Malmortius"
+  "Spirit Visage"
  ]
 }

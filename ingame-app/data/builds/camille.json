@@ -7,45 +7,46 @@
   "Mark"
  ],
  "starting": [
-  "Cloth Armor",
-  "Cloth Armor",
-  "Chain Vest"
+  "Long Sword",
+  "Guardian's Blade"
  ],
  "core": [
-  "Thornmail",
-  "Plated Steelcaps",
-  "Iceborn Gauntlet",
-  "Jak'Sho, The Protean"
+  "Trinity Force",
+  "Mercury's Treads",
+  "Ravenous Hydra",
+  "Death's Dance"
  ],
  "fourth": [
-  "Randuin's Omen",
   "Endless Hunger",
+  "Maw of Malmortius",
   "Spear of Shojin",
-  "Death's Dance"
+  "Sterak's Gage"
  ],
  "fifth": [
   "Endless Hunger",
-  "Randuin's Omen",
-  "Death's Dance",
-  "Maw of Malmortius"
+  "Spear of Shojin",
+  "Maw of Malmortius",
+  "Spirit Visage"
  ],
  "sixth": [
-  "Death's Dance",
-  "Endless Hunger",
-  "Randuin's Omen",
-  "Maw of Malmortius"
+  "Kaenic Rookern",
+  "Maw of Malmortius",
+  "Overlord's Bloodmail",
+  "Sterak's Gage"
  ],
  "pool": [
-  "Cloth Armor",
-  "Chain Vest",
-  "Thornmail",
-  "Plated Steelcaps",
-  "Iceborn Gauntlet",
-  "Jak'Sho, The Protean",
-  "Randuin's Omen",
-  "Endless Hunger",
-  "Spear of Shojin",
+  "Long Sword",
+  "Guardian's Blade",
+  "Trinity Force",
+  "Mercury's Treads",
+  "Ravenous Hydra",
   "Death's Dance",
-  "Maw of Malmortius"
+  "Endless Hunger",
+  "Maw of Malmortius",
+  "Spear of Shojin",
+  "Sterak's Gage",
+  "Spirit Visage",
+  "Kaenic Rookern",
+  "Overlord's Bloodmail"
  ]
 }

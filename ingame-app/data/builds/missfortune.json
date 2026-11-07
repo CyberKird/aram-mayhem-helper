@@ -7,45 +7,46 @@
   "Ghost"
  ],
  "starting": [
+  "Refillable Potion",
   "Lost Chapter"
  ],
  "core": [
   "Blackfire Torch",
-  "Sorcerer's Shoes",
+  "Boots of Swiftness",
   "Liandry's Torment",
   "Rabadon's Deathcap"
  ],
  "fourth": [
   "Archangel's Staff",
-  "Horizon Focus",
   "Shadowflame",
+  "Horizon Focus",
   "Lord Dominik's Regards"
  ],
  "fifth": [
   "Archangel's Staff",
+  "Lord Dominik's Regards",
   "Horizon Focus",
-  "Bloodletter's Curse",
-  "Shadowflame"
+  "Bloodthirster"
  ],
  "sixth": [
   "Edge of Night",
   "Banshee's Veil",
-  "Horizon Focus",
-  "Cryptbloom"
+  "Archangel's Staff",
+  "Bloodthirster"
  ],
  "pool": [
+  "Refillable Potion",
   "Lost Chapter",
   "Blackfire Torch",
-  "Sorcerer's Shoes",
+  "Boots of Swiftness",
   "Liandry's Torment",
   "Rabadon's Deathcap",
   "Archangel's Staff",
-  "Horizon Focus",
   "Shadowflame",
+  "Horizon Focus",
   "Lord Dominik's Regards",
-  "Bloodletter's Curse",
+  "Bloodthirster",
   "Edge of Night",
-  "Banshee's Veil",
-  "Cryptbloom"
+  "Banshee's Veil"
  ]
 }

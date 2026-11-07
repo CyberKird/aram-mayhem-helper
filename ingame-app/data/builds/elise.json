@@ -13,24 +13,24 @@
   "Shadowflame",
   "Sorcerer's Shoes",
   "Lich Bane",
-  "Rabadon's Deathcap"
+  "Stormsurge"
  ],
  "fourth": [
-  "Stormsurge",
+  "Rabadon's Deathcap",
   "Void Staff",
   "Zhonya's Hourglass",
   "Liandry's Torment"
  ],
  "fifth": [
-  "Stormsurge",
+  "Rabadon's Deathcap",
   "Void Staff",
   "Zhonya's Hourglass",
   "Liandry's Torment"
  ],
  "sixth": [
   "Void Staff",
-  "Nashor's Tooth",
-  "Stormsurge",
+  "Archangel's Staff",
+  "Rabadon's Deathcap",
   "Banshee's Veil"
  ],
  "pool": [
@@ -38,12 +38,12 @@
   "Shadowflame",
   "Sorcerer's Shoes",
   "Lich Bane",
-  "Rabadon's Deathcap",
   "Stormsurge",
+  "Rabadon's Deathcap",
   "Void Staff",
   "Zhonya's Hourglass",
   "Liandry's Torment",
-  "Nashor's Tooth",
+  "Archangel's Staff",
   "Banshee's Veil"
  ]
 }

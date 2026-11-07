@@ -17,21 +17,20 @@
   "Manamune"
  ],
  "fourth": [
-  "Jak'Sho, The Protean",
   "Death's Dance",
   "Spirit Visage"
  ],
  "fifth": [
   "Death's Dance",
-  "Jak'Sho, The Protean",
   "Black Cleaver",
-  "Spirit Visage"
+  "Spirit Visage",
+  "Eclipse"
  ],
  "sixth": [
   "Death's Dance",
   "Black Cleaver",
   "Spirit Visage",
-  "Jak'Sho, The Protean"
+  "Eclipse"
  ],
  "pool": [
   "Tear of the Goddess",
@@ -40,9 +39,9 @@
   "Mercury's Treads",
   "Endless Hunger",
   "Manamune",
-  "Jak'Sho, The Protean",
   "Death's Dance",
   "Spirit Visage",
-  "Black Cleaver"
+  "Black Cleaver",
+  "Eclipse"
  ]
 }

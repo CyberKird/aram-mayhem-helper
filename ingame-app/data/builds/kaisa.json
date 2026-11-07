@@ -7,25 +7,27 @@
   "Ghost"
  ],
  "starting": [
-  "Lost Chapter"
+  "Amplifying Tome",
+  "Amplifying Tome",
+  "Tear of the Goddess"
  ],
  "core": [
-  "Luden's Echo",
+  "Shadowflame",
   "Sorcerer's Shoes",
-  "Dusk and Dawn",
-  "Shadowflame"
+  "Luden's Echo",
+  "Dusk and Dawn"
  ],
  "fourth": [
-  "Stormsurge",
   "Rabadon's Deathcap",
+  "Stormsurge",
   "Horizon Focus",
-  "Manamune"
+  "Void Staff"
  ],
  "fifth": [
   "Stormsurge",
   "Horizon Focus",
   "Rabadon's Deathcap",
-  "Void Staff"
+  "Manamune"
  ],
  "sixth": [
   "Stormsurge",
@@ -34,16 +36,17 @@
   "Cryptbloom"
  ],
  "pool": [
-  "Lost Chapter",
-  "Luden's Echo",
-  "Sorcerer's Shoes",
-  "Dusk and Dawn",
+  "Amplifying Tome",
+  "Tear of the Goddess",
   "Shadowflame",
-  "Stormsurge",
+  "Sorcerer's Shoes",
+  "Luden's Echo",
+  "Dusk and Dawn",
   "Rabadon's Deathcap",
+  "Stormsurge",
   "Horizon Focus",
-  "Manamune",
   "Void Staff",
+  "Manamune",
   "Cryptbloom"
  ]
 }

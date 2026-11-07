@@ -7,45 +7,47 @@
   "Mark"
  ],
  "starting": [
-  "Cloth Armor",
-  "Cloth Armor",
-  "Chain Vest"
+  "Long Sword",
+  "Caulfield's Warhammer"
  ],
  "core": [
-  "Thornmail",
-  "Plated Steelcaps",
-  "Randuin's Omen",
-  "Jak'Sho, The Protean"
+  "Endless Hunger",
+  "Mercury's Treads",
+  "Blade of The Ruined King",
+  "Death's Dance"
  ],
  "fourth": [
-  "Endless Hunger",
   "Ravenous Hydra",
-  "Death's Dance",
+  "Titanic Hydra",
+  "Sundered Sky",
   "Spirit Visage"
  ],
  "fifth": [
-  "Endless Hunger",
-  "Terminus",
   "Ravenous Hydra",
-  "Death's Dance"
+  "Spirit Visage",
+  "Terminus",
+  "Trinity Force"
  ],
  "sixth": [
-  "Death's Dance",
-  "Endless Hunger",
+  "Overlord's Bloodmail",
   "Spirit Visage",
-  "Ravenous Hydra"
+  "Sterak's Gage",
+  "Titanic Hydra"
  ],
  "pool": [
-  "Cloth Armor",
-  "Chain Vest",
-  "Thornmail",
-  "Plated Steelcaps",
-  "Randuin's Omen",
-  "Jak'Sho, The Protean",
+  "Long Sword",
+  "Caulfield's Warhammer",
   "Endless Hunger",
-  "Ravenous Hydra",
+  "Mercury's Treads",
+  "Blade of The Ruined King",
   "Death's Dance",
+  "Ravenous Hydra",
+  "Titanic Hydra",
+  "Sundered Sky",
   "Spirit Visage",
-  "Terminus"
+  "Terminus",
+  "Trinity Force",
+  "Overlord's Bloodmail",
+  "Sterak's Gage"
  ]
 }

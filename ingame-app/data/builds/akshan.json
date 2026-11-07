@@ -19,8 +19,8 @@
  "fourth": [
   "Axiom Arc",
   "Bloodthirster",
-  "Runaan's Hurricane",
-  "Kraken Slayer"
+  "Kraken Slayer",
+  "Blade of The Ruined King"
  ],
  "fifth": [
   "Axiom Arc",
@@ -30,9 +30,9 @@
  ],
  "sixth": [
   "Axiom Arc",
+  "Endless Hunger",
   "Bloodthirster",
-  "Statikk Shiv",
-  "Kraken Slayer"
+  "Blade of The Ruined King"
  ],
  "pool": [
   "Long Sword",
@@ -43,9 +43,8 @@
   "Lord Dominik's Regards",
   "Axiom Arc",
   "Bloodthirster",
-  "Runaan's Hurricane",
   "Kraken Slayer",
   "Blade of The Ruined King",
-  "Statikk Shiv"
+  "Endless Hunger"
  ]
 }

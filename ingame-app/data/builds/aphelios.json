@@ -8,7 +8,7 @@
  ],
  "starting": [
   "Long Sword",
-  "Pickaxe"
+  "Guardian's Blade"
  ],
  "core": [
   "The Collector",
@@ -23,20 +23,20 @@
   "Mortal Reminder"
  ],
  "fifth": [
-  "Phantom Dancer",
+  "Death's Dance",
   "Hexoptics C44",
   "Bloodthirster",
-  "Immortal Shieldbow"
+  "Phantom Dancer"
  ],
  "sixth": [
   "Death's Dance",
   "Bloodthirster",
   "Hexoptics C44",
-  "Mercurial Scimitar"
+  "Phantom Dancer"
  ],
  "pool": [
   "Long Sword",
-  "Pickaxe",
+  "Guardian's Blade",
   "The Collector",
   "Berserker's Greaves",
   "Infinity Edge",
@@ -45,9 +45,7 @@
   "Bloodthirster",
   "Runaan's Hurricane",
   "Mortal Reminder",
-  "Phantom Dancer",
-  "Immortal Shieldbow",
   "Death's Dance",
-  "Mercurial Scimitar"
+  "Phantom Dancer"
  ]
 }

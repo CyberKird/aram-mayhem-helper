@@ -18,21 +18,21 @@
  ],
  "fourth": [
   "Warmog's Armor",
+  "Sterak's Gage",
   "Black Cleaver",
-  "Unending Despair",
-  "Kaenic Rookern"
+  "Unending Despair"
  ],
  "fifth": [
   "Warmog's Armor",
-  "Sterak's Gage",
   "Black Cleaver",
-  "Unending Despair"
+  "Unending Despair",
+  "Spirit Visage"
  ],
  "sixth": [
   "Warmog's Armor",
-  "Spirit Visage",
   "Sterak's Gage",
-  "Unending Despair"
+  "Unending Despair",
+  "Endless Hunger"
  ],
  "pool": [
   "Giant's Belt",
@@ -42,10 +42,10 @@
   "Titanic Hydra",
   "Overlord's Bloodmail",
   "Warmog's Armor",
+  "Sterak's Gage",
   "Black Cleaver",
   "Unending Despair",
-  "Kaenic Rookern",
-  "Sterak's Gage",
-  "Spirit Visage"
+  "Spirit Visage",
+  "Endless Hunger"
  ]
 }

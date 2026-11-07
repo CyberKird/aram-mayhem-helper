@@ -7,44 +7,47 @@
   "Mark"
  ],
  "starting": [
-  "Lost Chapter"
+  "Giant's Belt",
+  "Ruby Crystal"
  ],
  "core": [
-  "Blackfire Torch",
-  "Ionian Boots of Lucidity",
-  "Liandry's Torment",
-  "Rabadon's Deathcap"
+  "Heartsteel",
+  "Mercury's Treads",
+  "Unending Despair",
+  "Warmog's Armor"
  ],
  "fourth": [
-  "Warmog's Armor",
+  "Winter's Approach",
   "Jak'Sho, The Protean",
-  "Unending Despair",
-  "Spirit Visage"
+  "Spirit Visage",
+  "Malignance"
  ],
  "fifth": [
-  "Warmog's Armor",
+  "Jak'Sho, The Protean",
   "Riftmaker",
-  "Unending Despair",
+  "Rabadon's Deathcap",
   "Shadowflame"
  ],
  "sixth": [
-  "Shadowflame",
   "Riftmaker",
-  "Jak'Sho, The Protean",
-  "Void Staff"
+  "Shadowflame",
+  "Cryptbloom",
+  "Jak'Sho, The Protean"
  ],
  "pool": [
-  "Lost Chapter",
-  "Blackfire Torch",
-  "Ionian Boots of Lucidity",
-  "Liandry's Torment",
-  "Rabadon's Deathcap",
-  "Warmog's Armor",
-  "Jak'Sho, The Protean",
+  "Giant's Belt",
+  "Ruby Crystal",
+  "Heartsteel",
+  "Mercury's Treads",
   "Unending Despair",
+  "Warmog's Armor",
+  "Winter's Approach",
+  "Jak'Sho, The Protean",
   "Spirit Visage",
+  "Malignance",
   "Riftmaker",
+  "Rabadon's Deathcap",
   "Shadowflame",
-  "Void Staff"
+  "Cryptbloom"
  ]
 }

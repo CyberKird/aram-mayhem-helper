@@ -7,44 +7,44 @@
   "Mark"
  ],
  "starting": [
-  "Ruby Crystal",
-  "Bami's Cinder"
+  "Giant's Belt",
+  "Ruby Crystal"
  ],
  "core": [
   "Heartsteel",
-  "Mercury's Treads",
-  "Hollow Radiance",
-  "Unending Despair"
+  "Plated Steelcaps",
+  "Unending Despair",
+  "Warmog's Armor"
  ],
  "fourth": [
-  "Sunfire Aegis",
-  "Warmog's Armor",
   "Overlord's Bloodmail",
-  "Titanic Hydra"
+  "Hollow Radiance",
+  "Titanic Hydra",
+  "Jak'Sho, The Protean"
  ],
  "fifth": [
   "Overlord's Bloodmail",
-  "Warmog's Armor",
   "Titanic Hydra",
-  "Jak'Sho, The Protean"
+  "Jak'Sho, The Protean",
+  "Spirit Visage"
  ],
  "sixth": [
   "Overlord's Bloodmail",
   "Titanic Hydra",
-  "Warmog's Armor",
+  "Spirit Visage",
   "Jak'Sho, The Protean"
  ],
  "pool": [
+  "Giant's Belt",
   "Ruby Crystal",
-  "Bami's Cinder",
   "Heartsteel",
-  "Mercury's Treads",
-  "Hollow Radiance",
+  "Plated Steelcaps",
   "Unending Despair",
-  "Sunfire Aegis",
   "Warmog's Armor",
   "Overlord's Bloodmail",
+  "Hollow Radiance",
   "Titanic Hydra",
-  "Jak'Sho, The Protean"
+  "Jak'Sho, The Protean",
+  "Spirit Visage"
  ]
 }

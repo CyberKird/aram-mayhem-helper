@@ -17,15 +17,15 @@
  ],
  "fourth": [
   "Stormsurge",
-  "Void Staff",
   "Riftmaker",
+  "Void Staff",
   "Bloodletter's Curse"
  ],
  "fifth": [
   "Stormsurge",
   "Void Staff",
   "Riftmaker",
-  "Bloodletter's Curse"
+  "Malignance"
  ],
  "sixth": [
   "Stormsurge",
@@ -40,8 +40,9 @@
   "Liandry's Torment",
   "Rabadon's Deathcap",
   "Stormsurge",
-  "Void Staff",
   "Riftmaker",
-  "Bloodletter's Curse"
+  "Void Staff",
+  "Bloodletter's Curse",
+  "Malignance"
  ]
 }

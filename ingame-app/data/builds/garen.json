@@ -7,43 +7,46 @@
   "Mark"
  ],
  "starting": [
-  "Tiamat"
+  "Long Sword",
+  "Guardian's Blade"
  ],
  "core": [
   "Stridebreaker",
   "Berserker's Greaves",
-  "Infinity Edge",
-  "Phantom Dancer"
+  "Phantom Dancer",
+  "Infinity Edge"
  ],
  "fourth": [
+  "Jak'Sho, The Protean",
   "Overlord's Bloodmail",
   "Lord Dominik's Regards",
-  "Death's Dance",
   "Unending Despair"
  ],
  "fifth": [
   "Endless Hunger",
   "Lord Dominik's Regards",
-  "Overlord's Bloodmail",
-  "The Collector"
+  "Death's Dance",
+  "Overlord's Bloodmail"
  ],
  "sixth": [
   "Endless Hunger",
   "Death's Dance",
   "Lord Dominik's Regards",
-  "Overlord's Bloodmail"
+  "The Collector"
  ],
  "pool": [
-  "Tiamat",
+  "Long Sword",
+  "Guardian's Blade",
   "Stridebreaker",
   "Berserker's Greaves",
-  "Infinity Edge",
   "Phantom Dancer",
+  "Infinity Edge",
+  "Jak'Sho, The Protean",
   "Overlord's Bloodmail",
   "Lord Dominik's Regards",
-  "Death's Dance",
   "Unending Despair",
   "Endless Hunger",
+  "Death's Dance",
   "The Collector"
  ]
 }

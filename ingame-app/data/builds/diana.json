@@ -17,22 +17,22 @@
   "Warmog's Armor"
  ],
  "fourth": [
-  "Jak'Sho, The Protean",
   "Spirit Visage",
   "Hollow Radiance",
+  "Jak'Sho, The Protean",
   "Riftmaker"
  ],
  "fifth": [
-  "Jak'Sho, The Protean",
   "Spirit Visage",
   "Riftmaker",
-  "Dusk and Dawn"
+  "Dusk and Dawn",
+  "Jak'Sho, The Protean"
  ],
  "sixth": [
   "Spirit Visage",
-  "Jak'Sho, The Protean",
   "Riftmaker",
-  "Nashor's Tooth"
+  "Jak'Sho, The Protean",
+  "Dusk and Dawn"
  ],
  "pool": [
   "Giant's Belt",
@@ -41,11 +41,10 @@
   "Mercury's Treads",
   "Unending Despair",
   "Warmog's Armor",
-  "Jak'Sho, The Protean",
   "Spirit Visage",
   "Hollow Radiance",
+  "Jak'Sho, The Protean",
   "Riftmaker",
-  "Dusk and Dawn",
-  "Nashor's Tooth"
+  "Dusk and Dawn"
  ]
 }

@@ -7,44 +7,45 @@
   "Mark"
  ],
  "starting": [
-  "Ruby Crystal",
-  "Bami's Cinder"
+  "Giant's Belt",
+  "Ruby Crystal"
  ],
  "core": [
   "Heartsteel",
   "Plated Steelcaps",
-  "Sunfire Aegis",
-  "Thornmail"
+  "Thornmail",
+  "Unending Despair"
  ],
  "fourth": [
   "Frozen Heart",
   "Randuin's Omen",
   "Jak'Sho, The Protean",
-  "Unending Despair"
+  "Warmog's Armor"
  ],
  "fifth": [
   "Frozen Heart",
   "Warmog's Armor",
-  "Unending Despair",
-  "Randuin's Omen"
+  "Randuin's Omen",
+  "Jak'Sho, The Protean"
  ],
  "sixth": [
-  "Frozen Heart",
+  "Spirit Visage",
   "Jak'Sho, The Protean",
-  "Unending Despair",
-  "Warmog's Armor"
+  "Frozen Heart",
+  "Force of Nature"
  ],
  "pool": [
+  "Giant's Belt",
   "Ruby Crystal",
-  "Bami's Cinder",
   "Heartsteel",
   "Plated Steelcaps",
-  "Sunfire Aegis",
   "Thornmail",
+  "Unending Despair",
   "Frozen Heart",
   "Randuin's Omen",
   "Jak'Sho, The Protean",
-  "Unending Despair",
-  "Warmog's Armor"
+  "Warmog's Armor",
+  "Spirit Visage",
+  "Force of Nature"
  ]
 }

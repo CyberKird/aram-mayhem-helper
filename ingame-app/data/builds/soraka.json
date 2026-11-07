@@ -7,6 +7,8 @@
   "Heal"
  ],
  "starting": [
+  "Health Potion",
+  "Health Potion",
   "Tear of the Goddess",
   "Bandleglass Mirror"
  ],
@@ -25,16 +27,17 @@
  "fifth": [
   "Staff of Flowing Water",
   "Ardent Censer",
-  "Echoes of Helia",
+  "Warmog's Armor",
   "Redemption"
  ],
  "sixth": [
   "Staff of Flowing Water",
-  "Mikael's Blessing",
+  "Warmog's Armor",
   "Ardent Censer",
-  "Warmog's Armor"
+  "Mikael's Blessing"
  ],
  "pool": [
+  "Health Potion",
   "Tear of the Goddess",
   "Bandleglass Mirror",
   "Moonstone Renewer",
@@ -45,7 +48,7 @@
   "Ardent Censer",
   "Redemption",
   "Echoes of Helia",
-  "Mikael's Blessing",
-  "Warmog's Armor"
+  "Warmog's Armor",
+  "Mikael's Blessing"
  ]
 }

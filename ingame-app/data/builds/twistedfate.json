@@ -17,19 +17,19 @@
  ],
  "fourth": [
   "Stormsurge",
-  "Lich Bane",
-  "Void Staff",
-  "Liandry's Torment"
- ],
- "fifth": [
-  "Stormsurge",
-  "Lich Bane",
   "Archangel's Staff",
+  "Lich Bane",
   "Void Staff"
  ],
- "sixth": [
+ "fifth": [
   "Lich Bane",
+  "Stormsurge",
+  "Void Staff",
+  "Archangel's Staff"
+ ],
+ "sixth": [
   "Banshee's Veil",
+  "Lich Bane",
   "Stormsurge",
   "Void Staff"
  ],
@@ -40,10 +40,9 @@
   "Rabadon's Deathcap",
   "Shadowflame",
   "Stormsurge",
+  "Archangel's Staff",
   "Lich Bane",
   "Void Staff",
-  "Liandry's Torment",
-  "Archangel's Staff",
   "Banshee's Veil"
  ]
 }

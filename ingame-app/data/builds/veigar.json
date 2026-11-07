@@ -7,6 +7,8 @@
   "Ghost"
  ],
  "starting": [
+  "Health Potion",
+  "Health Potion",
   "Catalyst of Aeons"
  ],
  "core": [
@@ -22,18 +24,19 @@
   "Warmog's Armor"
  ],
  "fifth": [
-  "Banshee's Veil",
-  "Shadowflame",
   "Stormsurge",
+  "Shadowflame",
+  "Banshee's Veil",
   "Void Staff"
  ],
  "sixth": [
   "Banshee's Veil",
-  "Stormsurge",
   "Void Staff",
-  "Shadowflame"
+  "Shadowflame",
+  "Stormsurge"
  ],
  "pool": [
+  "Health Potion",
   "Catalyst of Aeons",
   "Rod of Ages",
   "Sorcerer's Shoes",

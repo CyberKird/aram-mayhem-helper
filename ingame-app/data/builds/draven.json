@@ -7,6 +7,7 @@
   "Ghost"
  ],
  "starting": [
+  "Boots",
   "Serrated Dirk"
  ],
  "core": [
@@ -22,10 +23,10 @@
   "Bloodthirster"
  ],
  "fifth": [
+  "Endless Hunger",
   "Hubris",
   "Lord Dominik's Regards",
-  "Hexoptics C44",
-  "Essence Reaver"
+  "Infinity Edge"
  ],
  "sixth": [
   "Voltaic Cyclosword",
@@ -34,6 +35,7 @@
   "Hubris"
  ],
  "pool": [
+  "Boots",
   "Serrated Dirk",
   "Serpent's Fang",
   "Berserker's Greaves",
@@ -43,10 +45,9 @@
   "Lord Dominik's Regards",
   "Essence Reaver",
   "Bloodthirster",
-  "Hubris",
-  "Hexoptics C44",
-  "Voltaic Cyclosword",
   "Endless Hunger",
+  "Hubris",
+  "Voltaic Cyclosword",
   "Death's Dance"
  ]
 }

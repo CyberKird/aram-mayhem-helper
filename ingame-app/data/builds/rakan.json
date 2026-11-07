@@ -7,45 +7,46 @@
   "Mark"
  ],
  "starting": [
-  "Ruby Crystal",
-  "Guardian's Horn"
+  "Giant's Belt",
+  "Ruby Crystal"
  ],
  "core": [
-  "Zeke's Convergence",
+  "Heartsteel",
   "Mercury's Treads",
+  "Warmog's Armor",
+  "Unending Despair"
+ ],
+ "fourth": [
+  "Knight's Vow",
+  "Spirit Visage",
+  "Jak'Sho, The Protean",
+  "Winter's Approach"
+ ],
+ "fifth": [
+  "Jak'Sho, The Protean",
+  "Spirit Visage",
   "Knight's Vow",
   "Locket of the Iron Solari"
  ],
- "fourth": [
-  "Jak'Sho, The Protean",
-  "Warmog's Armor",
-  "Randuin's Omen",
-  "Spirit Visage"
- ],
- "fifth": [
-  "Warmog's Armor",
-  "Jak'Sho, The Protean",
-  "Spirit Visage",
-  "Winter's Approach"
- ],
  "sixth": [
-  "Frozen Heart",
-  "Warmog's Armor",
+  "Kaenic Rookern",
   "Jak'Sho, The Protean",
-  "Spirit Visage"
+  "Frozen Heart",
+  "Knight's Vow"
  ],
  "pool": [
+  "Giant's Belt",
   "Ruby Crystal",
-  "Guardian's Horn",
-  "Zeke's Convergence",
+  "Heartsteel",
   "Mercury's Treads",
-  "Knight's Vow",
-  "Locket of the Iron Solari",
-  "Jak'Sho, The Protean",
   "Warmog's Armor",
-  "Randuin's Omen",
+  "Unending Despair",
+  "Knight's Vow",
   "Spirit Visage",
+  "Jak'Sho, The Protean",
   "Winter's Approach",
+  "Locket of the Iron Solari",
+  "Kaenic Rookern",
   "Frozen Heart"
  ]
 }
