@@ -23,16 +23,16 @@
   "Mortal Reminder"
  ],
  "fifth": [
-  "Death's Dance",
   "Hexoptics C44",
   "Bloodthirster",
-  "Phantom Dancer"
+  "Immortal Shieldbow",
+  "Runaan's Hurricane"
  ],
  "sixth": [
   "Death's Dance",
   "Bloodthirster",
-  "Hexoptics C44",
-  "Phantom Dancer"
+  "Phantom Dancer",
+  "Hexoptics C44"
  ],
  "pool": [
   "Long Sword",
@@ -45,6 +45,7 @@
   "Bloodthirster",
   "Runaan's Hurricane",
   "Mortal Reminder",
+  "Immortal Shieldbow",
   "Death's Dance",
   "Phantom Dancer"
  ]

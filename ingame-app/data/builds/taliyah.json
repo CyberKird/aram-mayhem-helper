@@ -24,14 +24,14 @@
  "fifth": [
   "Stormsurge",
   "Void Staff",
-  "Archangel's Staff",
-  "Zhonya's Hourglass"
+  "Cryptbloom",
+  "Archangel's Staff"
  ],
  "sixth": [
   "Banshee's Veil",
+  "Void Staff",
   "Stormsurge",
-  "Zhonya's Hourglass",
-  "Void Staff"
+  "Zhonya's Hourglass"
  ],
  "pool": [
   "Lost Chapter",
@@ -43,6 +43,7 @@
   "Zhonya's Hourglass",
   "Void Staff",
   "Stormsurge",
+  "Cryptbloom",
   "Banshee's Veil"
  ]
 }

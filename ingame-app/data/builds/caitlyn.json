@@ -7,9 +7,8 @@
   "Ghost"
  ],
  "starting": [
-  "Long Sword",
-  "Pickaxe",
-  "Refillable Potion"
+  "Boots",
+  "Serrated Dirk"
  ],
  "core": [
   "The Collector",
@@ -33,12 +32,11 @@
   "Hubris",
   "Voltaic Cyclosword",
   "Endless Hunger",
-  "Edge of Night"
+  "Axiom Arc"
  ],
  "pool": [
-  "Long Sword",
-  "Pickaxe",
-  "Refillable Potion",
+  "Boots",
+  "Serrated Dirk",
   "The Collector",
   "Berserker's Greaves",
   "Infinity Edge",
@@ -50,7 +48,6 @@
   "Yun Tal Wildarrows",
   "Hubris",
   "Voltaic Cyclosword",
-  "Endless Hunger",
-  "Edge of Night"
+  "Endless Hunger"
  ]
 }

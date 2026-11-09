@@ -19,20 +19,20 @@
  "fourth": [
   "Unending Despair",
   "Jak'Sho, The Protean",
-  "Death's Dance",
-  "Spirit Visage"
+  "Endless Hunger",
+  "Death's Dance"
  ],
  "fifth": [
-  "Endless Hunger",
   "Unending Despair",
-  "Dead Man's Plate",
+  "Endless Hunger",
+  "Jak'Sho, The Protean",
   "Sterak's Gage"
  ],
  "sixth": [
   "Unending Despair",
-  "Jak'Sho, The Protean",
   "Sterak's Gage",
-  "Dead Man's Plate"
+  "Jak'Sho, The Protean",
+  "Endless Hunger"
  ],
  "pool": [
   "Giant's Belt",
@@ -43,10 +43,8 @@
   "Overlord's Bloodmail",
   "Unending Despair",
   "Jak'Sho, The Protean",
-  "Death's Dance",
-  "Spirit Visage",
   "Endless Hunger",
-  "Dead Man's Plate",
+  "Death's Dance",
   "Sterak's Gage"
  ]
 }

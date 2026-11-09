@@ -8,44 +8,43 @@
  ],
  "starting": [
   "Long Sword",
-  "Caulfield's Warhammer"
+  "Guardian's Blade"
  ],
  "core": [
   "Hubris",
   "Mercury's Treads",
-  "Endless Hunger",
-  "Death's Dance"
+  "Death's Dance",
+  "Endless Hunger"
  ],
  "fourth": [
   "Overlord's Bloodmail",
+  "Lord Dominik's Regards",
   "Spear of Shojin",
-  "Sundered Sky",
   "Trinity Force"
  ],
  "fifth": [
-  "Overlord's Bloodmail",
   "Lord Dominik's Regards",
+  "Overlord's Bloodmail",
   "Ravenous Hydra",
-  "Trinity Force"
+  "Spirit Visage"
  ],
  "sixth": [
   "Overlord's Bloodmail",
   "Spirit Visage",
-  "Spear of Shojin",
-  "Sterak's Gage"
+  "Sterak's Gage",
+  "Lord Dominik's Regards"
  ],
  "pool": [
   "Long Sword",
-  "Caulfield's Warhammer",
+  "Guardian's Blade",
   "Hubris",
   "Mercury's Treads",
-  "Endless Hunger",
   "Death's Dance",
+  "Endless Hunger",
   "Overlord's Bloodmail",
-  "Spear of Shojin",
-  "Sundered Sky",
-  "Trinity Force",
   "Lord Dominik's Regards",
+  "Spear of Shojin",
+  "Trinity Force",
   "Ravenous Hydra",
   "Spirit Visage",
   "Sterak's Gage"

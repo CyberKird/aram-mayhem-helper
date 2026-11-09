@@ -24,14 +24,14 @@
  ],
  "fifth": [
   "Stormsurge",
-  "Horizon Focus",
   "Archangel's Staff",
+  "Horizon Focus",
   "Malignance"
  ],
  "sixth": [
-  "Cryptbloom",
   "Stormsurge",
   "Banshee's Veil",
+  "Cryptbloom",
   "Horizon Focus"
  ],
  "pool": [
@@ -46,7 +46,7 @@
   "Malignance",
   "Void Staff",
   "Horizon Focus",
-  "Cryptbloom",
-  "Banshee's Veil"
+  "Banshee's Veil",
+  "Cryptbloom"
  ]
 }

@@ -19,20 +19,20 @@
  "fourth": [
   "Death's Dance",
   "Titanic Hydra",
-  "Spirit Visage",
-  "Liandry's Torment"
- ],
- "fifth": [
-  "Death's Dance",
-  "Overlord's Bloodmail",
-  "Titanic Hydra",
+  "Liandry's Torment",
   "Spirit Visage"
  ],
- "sixth": [
-  "Cosmic Drive",
+ "fifth": [
   "Overlord's Bloodmail",
   "Death's Dance",
-  "Cryptbloom"
+  "Titanic Hydra",
+  "Warmog's Armor"
+ ],
+ "sixth": [
+  "Overlord's Bloodmail",
+  "Death's Dance",
+  "Cryptbloom",
+  "Shadowflame"
  ],
  "pool": [
   "Long Sword",
@@ -43,10 +43,11 @@
   "Blade of The Ruined King",
   "Death's Dance",
   "Titanic Hydra",
-  "Spirit Visage",
   "Liandry's Torment",
+  "Spirit Visage",
   "Overlord's Bloodmail",
-  "Cosmic Drive",
-  "Cryptbloom"
+  "Warmog's Armor",
+  "Cryptbloom",
+  "Shadowflame"
  ]
 }

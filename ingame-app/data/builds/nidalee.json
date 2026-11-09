@@ -7,42 +7,42 @@
   "Ghost"
  ],
  "starting": [
-  "Hextech Alternator"
+  "Lost Chapter"
  ],
  "core": [
-  "Stormsurge",
-  "Sorcerer's Shoes",
   "Luden's Echo",
-  "Rabadon's Deathcap"
+  "Sorcerer's Shoes",
+  "Rabadon's Deathcap",
+  "Stormsurge"
  ],
  "fourth": [
   "Archangel's Staff",
   "Shadowflame",
-  "Void Staff",
-  "Lich Bane"
+  "Lich Bane",
+  "Void Staff"
  ],
  "fifth": [
   "Shadowflame",
-  "Archangel's Staff",
   "Horizon Focus",
+  "Archangel's Staff",
   "Void Staff"
  ],
  "sixth": [
   "Horizon Focus",
-  "Shadowflame",
-  "Void Staff",
-  "Archangel's Staff"
- ],
- "pool": [
-  "Hextech Alternator",
-  "Stormsurge",
-  "Sorcerer's Shoes",
-  "Luden's Echo",
-  "Rabadon's Deathcap",
   "Archangel's Staff",
   "Shadowflame",
-  "Void Staff",
+  "Void Staff"
+ ],
+ "pool": [
+  "Lost Chapter",
+  "Luden's Echo",
+  "Sorcerer's Shoes",
+  "Rabadon's Deathcap",
+  "Stormsurge",
+  "Archangel's Staff",
+  "Shadowflame",
   "Lich Bane",
+  "Void Staff",
   "Horizon Focus"
  ]
 }

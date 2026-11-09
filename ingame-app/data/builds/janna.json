@@ -13,25 +13,25 @@
  "core": [
   "Moonstone Renewer",
   "Ionian Boots of Lucidity",
-  "Ardent Censer",
-  "Whispering Circlet"
+  "Whispering Circlet",
+  "Dawncore"
  ],
  "fourth": [
   "Staff of Flowing Water",
-  "Dawncore",
+  "Ardent Censer",
   "Redemption",
   "Imperial Mandate"
  ],
  "fifth": [
   "Staff of Flowing Water",
-  "Dawncore",
+  "Ardent Censer",
   "Redemption",
-  "Imperial Mandate"
+  "Rabadon's Deathcap"
  ],
  "sixth": [
   "Staff of Flowing Water",
   "Mikael's Blessing",
-  "Dawncore",
+  "Redemption",
   "Shurelya's Battlesong"
  ],
  "pool": [
@@ -39,12 +39,13 @@
   "Bandleglass Mirror",
   "Moonstone Renewer",
   "Ionian Boots of Lucidity",
-  "Ardent Censer",
   "Whispering Circlet",
-  "Staff of Flowing Water",
   "Dawncore",
+  "Staff of Flowing Water",
+  "Ardent Censer",
   "Redemption",
   "Imperial Mandate",
+  "Rabadon's Deathcap",
   "Mikael's Blessing",
   "Shurelya's Battlesong"
  ]

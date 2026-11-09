@@ -18,8 +18,8 @@
  ],
  "fourth": [
   "Bloodletter's Curse",
-  "Archangel's Staff",
   "Rabadon's Deathcap",
+  "Archangel's Staff",
   "Shadowflame"
  ],
  "fifth": [
@@ -31,8 +31,8 @@
  "sixth": [
   "Bloodletter's Curse",
   "Shadowflame",
-  "Rabadon's Deathcap",
-  "Archangel's Staff"
+  "Archangel's Staff",
+  "Rabadon's Deathcap"
  ],
  "pool": [
   "Refillable Potion",
@@ -42,8 +42,8 @@
   "Blackfire Torch",
   "Rylai's Crystal Scepter",
   "Bloodletter's Curse",
-  "Archangel's Staff",
   "Rabadon's Deathcap",
+  "Archangel's Staff",
   "Shadowflame"
  ]
 }

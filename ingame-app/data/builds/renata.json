@@ -13,12 +13,12 @@
  "core": [
   "Imperial Mandate",
   "Ionian Boots of Lucidity",
-  "Whispering Circlet",
-  "Moonstone Renewer"
+  "Moonstone Renewer",
+  "Whispering Circlet"
  ],
  "fourth": [
-  "Ardent Censer",
   "Dawncore",
+  "Ardent Censer",
   "Rabadon's Deathcap",
   "Shurelya's Battlesong"
  ],
@@ -26,11 +26,11 @@
   "Ardent Censer",
   "Staff of Flowing Water",
   "Dawncore",
-  "Rabadon's Deathcap"
+  "Shurelya's Battlesong"
  ],
  "sixth": [
-  "Staff of Flowing Water",
   "Dawncore",
+  "Staff of Flowing Water",
   "Ardent Censer",
   "Archangel's Staff"
  ],
@@ -39,10 +39,10 @@
   "Bandleglass Mirror",
   "Imperial Mandate",
   "Ionian Boots of Lucidity",
-  "Whispering Circlet",
   "Moonstone Renewer",
-  "Ardent Censer",
+  "Whispering Circlet",
   "Dawncore",
+  "Ardent Censer",
   "Rabadon's Deathcap",
   "Shurelya's Battlesong",
   "Staff of Flowing Water",

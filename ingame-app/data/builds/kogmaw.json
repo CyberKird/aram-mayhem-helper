@@ -18,20 +18,20 @@
  "fourth": [
   "Archangel's Staff",
   "Void Staff",
-  "Runaan's Hurricane",
-  "Guinsoo's Rageblade"
+  "Liandry's Torment",
+  "Runaan's Hurricane"
  ],
  "fifth": [
-  "Terminus",
   "Void Staff",
-  "Guinsoo's Rageblade",
-  "Archangel's Staff"
+  "Terminus",
+  "Archangel's Staff",
+  "Wit's End"
  ],
  "sixth": [
-  "Nashor's Tooth",
   "Terminus",
   "Void Staff",
-  "Kraken Slayer"
+  "Nashor's Tooth",
+  "Archangel's Staff"
  ],
  "pool": [
   "Needlessly Large Rod",
@@ -41,10 +41,10 @@
   "Rabadon's Deathcap",
   "Archangel's Staff",
   "Void Staff",
+  "Liandry's Torment",
   "Runaan's Hurricane",
-  "Guinsoo's Rageblade",
   "Terminus",
-  "Nashor's Tooth",
-  "Kraken Slayer"
+  "Wit's End",
+  "Nashor's Tooth"
  ]
 }

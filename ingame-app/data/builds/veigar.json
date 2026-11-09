@@ -7,9 +7,7 @@
   "Ghost"
  ],
  "starting": [
-  "Health Potion",
-  "Health Potion",
-  "Catalyst of Aeons"
+  "Lost Chapter"
  ],
  "core": [
   "Rod of Ages",
@@ -21,7 +19,7 @@
   "Shadowflame",
   "Stormsurge",
   "Void Staff",
-  "Warmog's Armor"
+  "Luden's Echo"
  ],
  "fifth": [
   "Stormsurge",
@@ -31,13 +29,12 @@
  ],
  "sixth": [
   "Banshee's Veil",
-  "Void Staff",
+  "Stormsurge",
   "Shadowflame",
-  "Stormsurge"
+  "Void Staff"
  ],
  "pool": [
-  "Health Potion",
-  "Catalyst of Aeons",
+  "Lost Chapter",
   "Rod of Ages",
   "Sorcerer's Shoes",
   "Rabadon's Deathcap",
@@ -45,7 +42,7 @@
   "Shadowflame",
   "Stormsurge",
   "Void Staff",
-  "Warmog's Armor",
+  "Luden's Echo",
   "Banshee's Veil"
  ]
 }

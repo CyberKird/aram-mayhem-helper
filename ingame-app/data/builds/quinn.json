@@ -8,7 +8,8 @@
  ],
  "starting": [
   "Long Sword",
-  "Pickaxe"
+  "Pickaxe",
+  "Refillable Potion"
  ],
  "core": [
   "The Collector",
@@ -18,15 +19,15 @@
  ],
  "fourth": [
   "Voltaic Cyclosword",
-  "Yun Tal Wildarrows",
   "Bloodthirster",
+  "Yun Tal Wildarrows",
   "Blade of The Ruined King"
  ],
  "fifth": [
   "Bloodthirster",
-  "Edge of Night",
   "Voltaic Cyclosword",
-  "Runaan's Hurricane"
+  "Edge of Night",
+  "Kraken Slayer"
  ],
  "sixth": [
   "Edge of Night",
@@ -37,16 +38,16 @@
  "pool": [
   "Long Sword",
   "Pickaxe",
+  "Refillable Potion",
   "The Collector",
   "Berserker's Greaves",
   "Infinity Edge",
   "Lord Dominik's Regards",
   "Voltaic Cyclosword",
-  "Yun Tal Wildarrows",
   "Bloodthirster",
+  "Yun Tal Wildarrows",
   "Blade of The Ruined King",
   "Edge of Night",
-  "Runaan's Hurricane",
   "Kraken Slayer"
  ]
 }

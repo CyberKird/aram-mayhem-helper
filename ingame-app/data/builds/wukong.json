@@ -8,7 +8,7 @@
  ],
  "starting": [
   "Long Sword",
-  "Caulfield's Warhammer"
+  "Pickaxe"
  ],
  "core": [
   "Endless Hunger",
@@ -24,19 +24,19 @@
  ],
  "fifth": [
   "Lord Dominik's Regards",
+  "Overlord's Bloodmail",
   "Infinity Edge",
-  "Sterak's Gage",
-  "Overlord's Bloodmail"
+  "Trinity Force"
  ],
  "sixth": [
   "Lord Dominik's Regards",
   "Infinity Edge",
-  "Overlord's Bloodmail",
-  "Maw of Malmortius"
+  "Maw of Malmortius",
+  "Overlord's Bloodmail"
  ],
  "pool": [
   "Long Sword",
-  "Caulfield's Warhammer",
+  "Pickaxe",
   "Endless Hunger",
   "Mercury's Treads",
   "Hubris",
@@ -45,7 +45,6 @@
   "Overlord's Bloodmail",
   "Maw of Malmortius",
   "Trinity Force",
-  "Infinity Edge",
-  "Sterak's Gage"
+  "Infinity Edge"
  ]
 }

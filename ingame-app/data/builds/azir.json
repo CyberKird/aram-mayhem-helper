@@ -7,46 +7,42 @@
   "Ghost"
  ],
  "starting": [
-  "Boots",
-  "Recurve Bow",
-  "Amplifying Tome"
+  "Needlessly Large Rod"
  ],
  "core": [
-  "Nashor's Tooth",
-  "Sorcerer's Shoes",
   "Shadowflame",
+  "Sorcerer's Shoes",
+  "Nashor's Tooth",
   "Rabadon's Deathcap"
  ],
  "fourth": [
   "Void Staff",
   "Dusk and Dawn",
-  "Rylai's Crystal Scepter",
-  "Zhonya's Hourglass"
+  "Zhonya's Hourglass",
+  "Rylai's Crystal Scepter"
  ],
  "fifth": [
   "Void Staff",
-  "Zhonya's Hourglass",
   "Dusk and Dawn",
+  "Zhonya's Hourglass",
   "Riftmaker"
  ],
  "sixth": [
   "Void Staff",
-  "Zhonya's Hourglass",
   "Banshee's Veil",
-  "Riftmaker"
+  "Zhonya's Hourglass",
+  "Dusk and Dawn"
  ],
  "pool": [
-  "Boots",
-  "Recurve Bow",
-  "Amplifying Tome",
-  "Nashor's Tooth",
-  "Sorcerer's Shoes",
+  "Needlessly Large Rod",
   "Shadowflame",
+  "Sorcerer's Shoes",
+  "Nashor's Tooth",
   "Rabadon's Deathcap",
   "Void Staff",
   "Dusk and Dawn",
-  "Rylai's Crystal Scepter",
   "Zhonya's Hourglass",
+  "Rylai's Crystal Scepter",
   "Riftmaker",
   "Banshee's Veil"
  ]

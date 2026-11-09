@@ -17,21 +17,21 @@
   "Unending Despair"
  ],
  "fourth": [
-  "Rabadon's Deathcap",
   "Spirit Visage",
-  "Void Staff",
-  "Stormsurge"
- ],
- "fifth": [
-  "Jak'Sho, The Protean",
-  "Void Staff",
+  "Rabadon's Deathcap",
   "Stormsurge",
   "Banshee's Veil"
  ],
- "sixth": [
-  "Riftmaker",
+ "fifth": [
+  "Jak'Sho, The Protean",
   "Banshee's Veil",
   "Void Staff",
+  "Stormsurge"
+ ],
+ "sixth": [
+  "Riftmaker",
+  "Void Staff",
+  "Banshee's Veil",
   "Luden's Echo"
  ],
  "pool": [
@@ -41,12 +41,12 @@
   "Mercury's Treads",
   "Warmog's Armor",
   "Unending Despair",
-  "Rabadon's Deathcap",
   "Spirit Visage",
-  "Void Staff",
+  "Rabadon's Deathcap",
   "Stormsurge",
-  "Jak'Sho, The Protean",
   "Banshee's Veil",
+  "Jak'Sho, The Protean",
+  "Void Staff",
   "Riftmaker",
   "Luden's Echo"
  ]

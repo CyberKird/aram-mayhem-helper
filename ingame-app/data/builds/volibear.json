@@ -19,21 +19,21 @@
  ],
  "fourth": [
   "Nashor's Tooth",
-  "Rabadon's Deathcap",
   "Shadowflame",
-  "Spirit Visage"
+  "Rabadon's Deathcap",
+  "Navori Flickerblade"
  ],
  "fifth": [
   "Nashor's Tooth",
   "Rabadon's Deathcap",
-  "Shadowflame",
-  "Spirit Visage"
+  "Spirit Visage",
+  "Hextech Gunblade"
  ],
  "sixth": [
   "Overlord's Bloodmail",
   "Nashor's Tooth",
-  "Hextech Gunblade",
-  "Spirit Visage"
+  "Spirit Visage",
+  "Rabadon's Deathcap"
  ],
  "pool": [
   "Dagger",
@@ -43,10 +43,11 @@
   "Dusk and Dawn",
   "Riftmaker",
   "Nashor's Tooth",
-  "Rabadon's Deathcap",
   "Shadowflame",
+  "Rabadon's Deathcap",
+  "Navori Flickerblade",
   "Spirit Visage",
-  "Overlord's Bloodmail",
-  "Hextech Gunblade"
+  "Hextech Gunblade",
+  "Overlord's Bloodmail"
  ]
 }

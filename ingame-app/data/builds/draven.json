@@ -7,8 +7,8 @@
   "Ghost"
  ],
  "starting": [
-  "Boots",
-  "Serrated Dirk"
+  "Long Sword",
+  "Pickaxe"
  ],
  "core": [
   "Serpent's Fang",
@@ -26,7 +26,7 @@
   "Endless Hunger",
   "Hubris",
   "Lord Dominik's Regards",
-  "Infinity Edge"
+  "Hexoptics C44"
  ],
  "sixth": [
   "Voltaic Cyclosword",
@@ -35,8 +35,8 @@
   "Hubris"
  ],
  "pool": [
-  "Boots",
-  "Serrated Dirk",
+  "Long Sword",
+  "Pickaxe",
   "Serpent's Fang",
   "Berserker's Greaves",
   "The Collector",
@@ -47,6 +47,7 @@
   "Bloodthirster",
   "Endless Hunger",
   "Hubris",
+  "Hexoptics C44",
   "Voltaic Cyclosword",
   "Death's Dance"
  ]

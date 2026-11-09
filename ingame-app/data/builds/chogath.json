@@ -20,18 +20,18 @@
   "Riftmaker",
   "Hollow Radiance",
   "Jak'Sho, The Protean",
-  "Spirit Visage"
+  "Winter's Approach"
  ],
  "fifth": [
   "Riftmaker",
   "Overlord's Bloodmail",
-  "Force of Nature",
-  "Spirit Visage"
+  "Spirit Visage",
+  "Jak'Sho, The Protean"
  ],
  "sixth": [
   "Riftmaker",
   "Spirit Visage",
-  "Jak'Sho, The Protean",
+  "Overlord's Bloodmail",
   "Force of Nature"
  ],
  "pool": [
@@ -44,8 +44,9 @@
   "Riftmaker",
   "Hollow Radiance",
   "Jak'Sho, The Protean",
-  "Spirit Visage",
+  "Winter's Approach",
   "Overlord's Bloodmail",
+  "Spirit Visage",
   "Force of Nature"
  ]
 }

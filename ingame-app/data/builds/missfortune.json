@@ -7,7 +7,6 @@
   "Ghost"
  ],
  "starting": [
-  "Refillable Potion",
   "Lost Chapter"
  ],
  "core": [
@@ -18,9 +17,9 @@
  ],
  "fourth": [
   "Archangel's Staff",
-  "Shadowflame",
   "Horizon Focus",
-  "Lord Dominik's Regards"
+  "Shadowflame",
+  "Infinity Edge"
  ],
  "fifth": [
   "Archangel's Staff",
@@ -31,19 +30,19 @@
  "sixth": [
   "Edge of Night",
   "Banshee's Veil",
-  "Archangel's Staff",
+  "Horizon Focus",
   "Bloodthirster"
  ],
  "pool": [
-  "Refillable Potion",
   "Lost Chapter",
   "Blackfire Torch",
   "Boots of Swiftness",
   "Liandry's Torment",
   "Rabadon's Deathcap",
   "Archangel's Staff",
-  "Shadowflame",
   "Horizon Focus",
+  "Shadowflame",
+  "Infinity Edge",
   "Lord Dominik's Regards",
   "Bloodthirster",
   "Edge of Night",

@@ -17,22 +17,22 @@
   "Death's Dance"
  ],
  "fourth": [
-  "Unending Despair",
+  "Endless Hunger",
   "Sterak's Gage",
-  "Warmog's Armor",
-  "Iceborn Gauntlet"
+  "Unending Despair",
+  "Warmog's Armor"
  ],
  "fifth": [
   "Endless Hunger",
-  "Unending Despair",
   "Sterak's Gage",
+  "Unending Despair",
   "Warmog's Armor"
  ],
  "sixth": [
   "Endless Hunger",
   "Sterak's Gage",
   "Unending Despair",
-  "Warmog's Armor"
+  "Spirit Visage"
  ],
  "pool": [
   "Giant's Belt",
@@ -41,10 +41,10 @@
   "Mercury's Treads",
   "Overlord's Bloodmail",
   "Death's Dance",
-  "Unending Despair",
+  "Endless Hunger",
   "Sterak's Gage",
+  "Unending Despair",
   "Warmog's Armor",
-  "Iceborn Gauntlet",
-  "Endless Hunger"
+  "Spirit Visage"
  ]
 }

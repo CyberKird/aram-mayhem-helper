@@ -11,41 +11,42 @@
   "Guardian's Blade"
  ],
  "core": [
-  "Lord Dominik's Regards",
-  "Ionian Boots of Lucidity",
   "Essence Reaver",
-  "Infinity Edge"
+  "Ionian Boots of Lucidity",
+  "Infinity Edge",
+  "Lord Dominik's Regards"
  ],
  "fourth": [
-  "Manamune",
   "Bloodthirster",
+  "Manamune",
   "Spear of Shojin",
-  "The Collector"
+  "Rapid Firecannon"
  ],
  "fifth": [
   "Endless Hunger",
-  "Liandry's Torment",
   "Bloodthirster",
-  "Manamune"
+  "Liandry's Torment",
+  "Spear of Shojin"
  ],
  "sixth": [
   "Endless Hunger",
+  "Edge of Night",
   "Spear of Shojin",
-  "Bloodthirster",
-  "Manamune"
+  "Bloodthirster"
  ],
  "pool": [
   "Long Sword",
   "Guardian's Blade",
-  "Lord Dominik's Regards",
-  "Ionian Boots of Lucidity",
   "Essence Reaver",
+  "Ionian Boots of Lucidity",
   "Infinity Edge",
-  "Manamune",
+  "Lord Dominik's Regards",
   "Bloodthirster",
+  "Manamune",
   "Spear of Shojin",
-  "The Collector",
+  "Rapid Firecannon",
   "Endless Hunger",
-  "Liandry's Torment"
+  "Liandry's Torment",
+  "Edge of Night"
  ]
 }

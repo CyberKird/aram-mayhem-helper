@@ -12,15 +12,15 @@
  ],
  "core": [
   "Statikk Shiv",
-  "Mercury's Treads",
+  "Boots of Swiftness",
   "Dusk and Dawn",
   "Death's Dance"
  ],
  "fourth": [
   "Nashor's Tooth",
   "Rabadon's Deathcap",
-  "Riftmaker",
-  "Spirit Visage"
+  "Spirit Visage",
+  "Riftmaker"
  ],
  "fifth": [
   "Nashor's Tooth",
@@ -29,8 +29,8 @@
   "Riftmaker"
  ],
  "sixth": [
-  "Nashor's Tooth",
   "Riftmaker",
+  "Nashor's Tooth",
   "Rabadon's Deathcap",
   "Endless Hunger"
  ],
@@ -38,13 +38,13 @@
   "Amplifying Tome",
   "Guardian's Blade",
   "Statikk Shiv",
-  "Mercury's Treads",
+  "Boots of Swiftness",
   "Dusk and Dawn",
   "Death's Dance",
   "Nashor's Tooth",
   "Rabadon's Deathcap",
-  "Riftmaker",
   "Spirit Visage",
+  "Riftmaker",
   "Endless Hunger"
  ]
 }

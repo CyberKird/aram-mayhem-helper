@@ -7,26 +7,27 @@
   "Mark"
  ],
  "starting": [
-  "Giant's Belt",
-  "Ruby Crystal"
+  "Cloth Armor",
+  "Cloth Armor",
+  "Chain Vest"
  ],
  "core": [
   "Heartsteel",
   "Plated Steelcaps",
-  "Unending Despair",
-  "Thornmail"
+  "Thornmail",
+  "Unending Despair"
  ],
  "fourth": [
-  "Randuin's Omen",
   "Jak'Sho, The Protean",
+  "Randuin's Omen",
   "Warmog's Armor",
   "Rabadon's Deathcap"
  ],
  "fifth": [
-  "Frozen Heart",
   "Jak'Sho, The Protean",
   "Randuin's Omen",
-  "Warmog's Armor"
+  "Warmog's Armor",
+  "Stormsurge"
  ],
  "sixth": [
   "Frozen Heart",
@@ -35,16 +36,17 @@
   "Warmog's Armor"
  ],
  "pool": [
-  "Giant's Belt",
-  "Ruby Crystal",
+  "Cloth Armor",
+  "Chain Vest",
   "Heartsteel",
   "Plated Steelcaps",
-  "Unending Despair",
   "Thornmail",
-  "Randuin's Omen",
+  "Unending Despair",
   "Jak'Sho, The Protean",
+  "Randuin's Omen",
   "Warmog's Armor",
   "Rabadon's Deathcap",
+  "Stormsurge",
   "Frozen Heart"
  ]
 }

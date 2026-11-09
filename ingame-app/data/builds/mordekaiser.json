@@ -23,15 +23,15 @@
  ],
  "fifth": [
   "Dusk and Dawn",
+  "Warmog's Armor",
   "Spirit Visage",
-  "Unending Despair",
-  "Warmog's Armor"
+  "Unending Despair"
  ],
  "sixth": [
   "Warmog's Armor",
-  "Jak'Sho, The Protean",
   "Dusk and Dawn",
-  "Spirit Visage"
+  "Spirit Visage",
+  "Unending Despair"
  ],
  "pool": [
   "Haunting Guise",
@@ -42,7 +42,6 @@
   "Dusk and Dawn",
   "Warmog's Armor",
   "Spirit Visage",
-  "Unending Despair",
-  "Jak'Sho, The Protean"
+  "Unending Despair"
  ]
 }

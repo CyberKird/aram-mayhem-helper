@@ -14,13 +14,13 @@
   "Moonstone Renewer",
   "Ionian Boots of Lucidity",
   "Whispering Circlet",
-  "Dawncore"
+  "Ardent Censer"
  ],
  "fourth": [
   "Archangel's Staff",
   "Rabadon's Deathcap",
-  "Liandry's Torment",
-  "Rylai's Crystal Scepter"
+  "Rylai's Crystal Scepter",
+  "Stormsurge"
  ],
  "fifth": [
   "Archangel's Staff",
@@ -32,7 +32,7 @@
   "Cryptbloom",
   "Archangel's Staff",
   "Rabadon's Deathcap",
-  "Shadowflame"
+  "Malignance"
  ],
  "pool": [
   "Tear of the Goddess",
@@ -40,12 +40,13 @@
   "Moonstone Renewer",
   "Ionian Boots of Lucidity",
   "Whispering Circlet",
-  "Dawncore",
+  "Ardent Censer",
   "Archangel's Staff",
   "Rabadon's Deathcap",
-  "Liandry's Torment",
   "Rylai's Crystal Scepter",
+  "Stormsurge",
   "Shadowflame",
-  "Cryptbloom"
+  "Cryptbloom",
+  "Malignance"
  ]
 }

@@ -7,46 +7,45 @@
   "Mark"
  ],
  "starting": [
-  "Giant's Belt",
-  "Ruby Crystal"
+  "Null-Magic Mantle",
+  "Kindlegem"
  ],
  "core": [
-  "Heartsteel",
+  "Locket of the Iron Solari",
   "Mercury's Treads",
-  "Warmog's Armor",
-  "Unending Despair"
- ],
- "fourth": [
-  "Knight's Vow",
-  "Spirit Visage",
-  "Jak'Sho, The Protean",
-  "Winter's Approach"
- ],
- "fifth": [
-  "Jak'Sho, The Protean",
-  "Spirit Visage",
-  "Knight's Vow",
-  "Locket of the Iron Solari"
- ],
- "sixth": [
-  "Kaenic Rookern",
-  "Jak'Sho, The Protean",
-  "Frozen Heart",
+  "Zeke's Convergence",
   "Knight's Vow"
  ],
- "pool": [
-  "Giant's Belt",
-  "Ruby Crystal",
-  "Heartsteel",
-  "Mercury's Treads",
-  "Warmog's Armor",
-  "Unending Despair",
-  "Knight's Vow",
-  "Spirit Visage",
+ "fourth": [
   "Jak'Sho, The Protean",
   "Winter's Approach",
+  "Spirit Visage",
+  "Warmog's Armor"
+ ],
+ "fifth": [
+  "Warmog's Armor",
+  "Spirit Visage",
+  "Jak'Sho, The Protean",
+  "Unending Despair"
+ ],
+ "sixth": [
+  "Frozen Heart",
+  "Warmog's Armor",
+  "Jak'Sho, The Protean",
+  "Spirit Visage"
+ ],
+ "pool": [
+  "Null-Magic Mantle",
+  "Kindlegem",
   "Locket of the Iron Solari",
-  "Kaenic Rookern",
+  "Mercury's Treads",
+  "Zeke's Convergence",
+  "Knight's Vow",
+  "Jak'Sho, The Protean",
+  "Winter's Approach",
+  "Spirit Visage",
+  "Warmog's Armor",
+  "Unending Despair",
   "Frozen Heart"
  ]
 }

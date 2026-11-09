@@ -13,14 +13,14 @@
  "core": [
   "Heartsteel",
   "Mercury's Treads",
-  "Overlord's Bloodmail",
-  "Warmog's Armor"
+  "Warmog's Armor",
+  "Overlord's Bloodmail"
  ],
  "fourth": [
   "Endless Hunger",
   "Voltaic Cyclosword",
   "Lord Dominik's Regards",
-  "Death's Dance"
+  "Infinity Edge"
  ],
  "fifth": [
   "Endless Hunger",
@@ -29,22 +29,22 @@
   "Infinity Edge"
  ],
  "sixth": [
-  "Voltaic Cyclosword",
   "Endless Hunger",
-  "Death's Dance",
-  "Lord Dominik's Regards"
+  "Voltaic Cyclosword",
+  "Lord Dominik's Regards",
+  "Death's Dance"
  ],
  "pool": [
   "Giant's Belt",
   "Ruby Crystal",
   "Heartsteel",
   "Mercury's Treads",
-  "Overlord's Bloodmail",
   "Warmog's Armor",
+  "Overlord's Bloodmail",
   "Endless Hunger",
   "Voltaic Cyclosword",
   "Lord Dominik's Regards",
-  "Death's Dance",
-  "Infinity Edge"
+  "Infinity Edge",
+  "Death's Dance"
  ]
 }

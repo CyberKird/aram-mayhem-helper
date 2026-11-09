@@ -8,13 +8,13 @@
  ],
  "starting": [
   "Long Sword",
-  "Guardian's Blade"
+  "Pickaxe"
  ],
  "core": [
-  "Hubris",
+  "Endless Hunger",
   "Mercury's Treads",
-  "Death's Dance",
-  "Endless Hunger"
+  "Hubris",
+  "Death's Dance"
  ],
  "fourth": [
   "Voltaic Cyclosword",
@@ -23,30 +23,29 @@
   "Maw of Malmortius"
  ],
  "fifth": [
-  "Lord Dominik's Regards",
   "Voltaic Cyclosword",
+  "Lord Dominik's Regards",
   "Maw of Malmortius",
   "Spear of Shojin"
  ],
  "sixth": [
   "Lord Dominik's Regards",
-  "Voltaic Cyclosword",
   "Axiom Arc",
-  "Spirit Visage"
+  "Voltaic Cyclosword",
+  "Maw of Malmortius"
  ],
  "pool": [
   "Long Sword",
-  "Guardian's Blade",
-  "Hubris",
-  "Mercury's Treads",
-  "Death's Dance",
+  "Pickaxe",
   "Endless Hunger",
+  "Mercury's Treads",
+  "Hubris",
+  "Death's Dance",
   "Voltaic Cyclosword",
   "Lord Dominik's Regards",
   "Mortal Reminder",
   "Maw of Malmortius",
   "Spear of Shojin",
-  "Axiom Arc",
-  "Spirit Visage"
+  "Axiom Arc"
  ]
 }

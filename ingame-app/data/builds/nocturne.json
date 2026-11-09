@@ -11,6 +11,7 @@
  ],
  "core": [
   "Axiom Arc",
+  "Mercury's Treads",
   "Hubris",
   "Profane Hydra"
  ],
@@ -23,18 +24,19 @@
  "fifth": [
   "Endless Hunger",
   "Voltaic Cyclosword",
-  "Death's Dance",
-  "Lord Dominik's Regards"
+  "Lord Dominik's Regards",
+  "Death's Dance"
  ],
  "sixth": [
-  "Lord Dominik's Regards",
   "Voltaic Cyclosword",
-  "Death's Dance",
-  "Endless Hunger"
+  "Lord Dominik's Regards",
+  "Endless Hunger",
+  "Death's Dance"
  ],
  "pool": [
   "The Brutalizer",
   "Axiom Arc",
+  "Mercury's Treads",
   "Hubris",
   "Profane Hydra",
   "Endless Hunger",

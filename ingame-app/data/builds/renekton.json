@@ -20,18 +20,18 @@
   "Spear of Shojin",
   "Sterak's Gage",
   "Black Cleaver",
-  "Eclipse"
+  "Overlord's Bloodmail"
  ],
  "fifth": [
+  "Maw of Malmortius",
   "Sterak's Gage",
   "Spear of Shojin",
-  "Maw of Malmortius",
   "Overlord's Bloodmail"
  ],
  "sixth": [
-  "Sterak's Gage",
   "Overlord's Bloodmail",
-  "Spear of Shojin",
+  "Sterak's Gage",
+  "Maw of Malmortius",
   "Spirit Visage"
  ],
  "pool": [
@@ -44,9 +44,8 @@
   "Spear of Shojin",
   "Sterak's Gage",
   "Black Cleaver",
-  "Eclipse",
-  "Maw of Malmortius",
   "Overlord's Bloodmail",
+  "Maw of Malmortius",
   "Spirit Visage"
  ]
 }

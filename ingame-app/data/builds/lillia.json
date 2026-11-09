@@ -7,7 +7,6 @@
   "Mark"
  ],
  "starting": [
-  "Refillable Potion",
   "Lost Chapter"
  ],
  "core": [
@@ -23,19 +22,18 @@
   "Cosmic Drive"
  ],
  "fifth": [
-  "Void Staff",
-  "Shadowflame",
   "Bloodletter's Curse",
+  "Shadowflame",
+  "Void Staff",
   "Riftmaker"
  ],
  "sixth": [
   "Shadowflame",
-  "Bloodletter's Curse",
+  "Void Staff",
   "Archangel's Staff",
-  "Void Staff"
+  "Bloodletter's Curse"
  ],
  "pool": [
-  "Refillable Potion",
   "Lost Chapter",
   "Blackfire Torch",
   "Sorcerer's Shoes",

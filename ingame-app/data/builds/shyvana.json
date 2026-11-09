@@ -13,39 +13,38 @@
  "core": [
   "Heartsteel",
   "Mercury's Treads",
-  "Riftmaker",
-  "Warmog's Armor"
+  "Unending Despair",
+  "Dusk and Dawn"
  ],
  "fourth": [
   "Overlord's Bloodmail",
-  "Unending Despair",
+  "Riftmaker",
   "Jak'Sho, The Protean",
-  "Death's Dance"
+  "Warmog's Armor"
  ],
  "fifth": [
-  "Unending Despair",
   "Overlord's Bloodmail",
+  "Riftmaker",
   "Death's Dance",
-  "Spirit Visage"
+  "Jak'Sho, The Protean"
  ],
  "sixth": [
   "Overlord's Bloodmail",
-  "Unending Despair",
   "Death's Dance",
-  "Shadowflame"
+  "Warmog's Armor",
+  "Riftmaker"
  ],
  "pool": [
   "Giant's Belt",
   "Ruby Crystal",
   "Heartsteel",
   "Mercury's Treads",
-  "Riftmaker",
-  "Warmog's Armor",
-  "Overlord's Bloodmail",
   "Unending Despair",
+  "Dusk and Dawn",
+  "Overlord's Bloodmail",
+  "Riftmaker",
   "Jak'Sho, The Protean",
-  "Death's Dance",
-  "Spirit Visage",
-  "Shadowflame"
+  "Warmog's Armor",
+  "Death's Dance"
  ]
 }

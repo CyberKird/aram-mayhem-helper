@@ -17,21 +17,21 @@
  ],
  "fourth": [
   "Archangel's Staff",
-  "Void Staff",
   "Lich Bane",
+  "Void Staff",
   "Stormsurge"
  ],
  "fifth": [
   "Lich Bane",
   "Stormsurge",
-  "Void Staff",
-  "Archangel's Staff"
+  "Archangel's Staff",
+  "Void Staff"
  ],
  "sixth": [
   "Lich Bane",
   "Stormsurge",
   "Void Staff",
-  "Archangel's Staff"
+  "Banshee's Veil"
  ],
  "pool": [
   "Needlessly Large Rod",
@@ -40,8 +40,9 @@
   "Blackfire Torch",
   "Rabadon's Deathcap",
   "Archangel's Staff",
-  "Void Staff",
   "Lich Bane",
-  "Stormsurge"
+  "Void Staff",
+  "Stormsurge",
+  "Banshee's Veil"
  ]
 }

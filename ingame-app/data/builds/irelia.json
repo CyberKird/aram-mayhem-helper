@@ -18,21 +18,21 @@
  ],
  "fourth": [
   "Ravenous Hydra",
-  "Titanic Hydra",
   "Sundered Sky",
+  "Titanic Hydra",
   "Spirit Visage"
  ],
  "fifth": [
-  "Ravenous Hydra",
   "Spirit Visage",
+  "Ravenous Hydra",
   "Terminus",
   "Trinity Force"
  ],
  "sixth": [
-  "Overlord's Bloodmail",
   "Spirit Visage",
-  "Sterak's Gage",
-  "Titanic Hydra"
+  "Overlord's Bloodmail",
+  "Ravenous Hydra",
+  "Sterak's Gage"
  ],
  "pool": [
   "Long Sword",
@@ -42,8 +42,8 @@
   "Blade of The Ruined King",
   "Death's Dance",
   "Ravenous Hydra",
-  "Titanic Hydra",
   "Sundered Sky",
+  "Titanic Hydra",
   "Spirit Visage",
   "Terminus",
   "Trinity Force",

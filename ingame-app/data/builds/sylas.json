@@ -13,7 +13,7 @@
  "core": [
   "Heartsteel",
   "Mercury's Treads",
-  "Riftmaker",
+  "Unending Despair",
   "Warmog's Armor"
  ],
  "fourth": [
@@ -23,29 +23,28 @@
   "Lich Bane"
  ],
  "fifth": [
+  "Stormsurge",
   "Rabadon's Deathcap",
   "Void Staff",
-  "Stormsurge",
   "Lich Bane"
  ],
  "sixth": [
   "Void Staff",
+  "Stormsurge",
   "Rabadon's Deathcap",
-  "Spirit Visage",
-  "Zhonya's Hourglass"
+  "Spirit Visage"
  ],
  "pool": [
   "Giant's Belt",
   "Ruby Crystal",
   "Heartsteel",
   "Mercury's Treads",
-  "Riftmaker",
+  "Unending Despair",
   "Warmog's Armor",
   "Rabadon's Deathcap",
   "Void Staff",
   "Stormsurge",
   "Lich Bane",
-  "Spirit Visage",
-  "Zhonya's Hourglass"
+  "Spirit Visage"
  ]
 }

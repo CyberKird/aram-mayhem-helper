@@ -7,6 +7,7 @@
   "Ignite"
  ],
  "starting": [
+  "Refillable Potion",
   "Lost Chapter"
  ],
  "core": [
@@ -18,8 +19,8 @@
  "fourth": [
   "Shadowflame",
   "Lich Bane",
-  "Void Staff",
-  "Horizon Focus"
+  "Horizon Focus",
+  "Void Staff"
  ],
  "fifth": [
   "Lich Bane",
@@ -28,12 +29,13 @@
   "Void Staff"
  ],
  "sixth": [
-  "Lich Bane",
   "Cryptbloom",
+  "Lich Bane",
   "Void Staff",
-  "Horizon Focus"
+  "Banshee's Veil"
  ],
  "pool": [
+  "Refillable Potion",
   "Lost Chapter",
   "Luden's Echo",
   "Sorcerer's Shoes",
@@ -41,8 +43,8 @@
   "Rabadon's Deathcap",
   "Shadowflame",
   "Lich Bane",
-  "Void Staff",
   "Horizon Focus",
+  "Void Staff",
   "Banshee's Veil",
   "Cryptbloom"
  ]

@@ -7,9 +7,7 @@
   "Ghost"
  ],
  "starting": [
-  "Amplifying Tome",
-  "Amplifying Tome",
-  "Tear of the Goddess"
+  "Needlessly Large Rod"
  ],
  "core": [
   "Shadowflame",
@@ -27,7 +25,7 @@
   "Stormsurge",
   "Horizon Focus",
   "Rabadon's Deathcap",
-  "Manamune"
+  "Void Staff"
  ],
  "sixth": [
   "Stormsurge",
@@ -36,8 +34,7 @@
   "Cryptbloom"
  ],
  "pool": [
-  "Amplifying Tome",
-  "Tear of the Goddess",
+  "Needlessly Large Rod",
   "Shadowflame",
   "Sorcerer's Shoes",
   "Luden's Echo",
@@ -46,7 +43,6 @@
   "Stormsurge",
   "Horizon Focus",
   "Void Staff",
-  "Manamune",
   "Cryptbloom"
  ]
 }

@@ -16,8 +16,8 @@
   "Rabadon's Deathcap"
  ],
  "fourth": [
-  "Shadowflame",
   "Void Staff",
+  "Shadowflame",
   "Lord Dominik's Regards",
   "Infinity Edge"
  ],
@@ -29,9 +29,9 @@
  ],
  "sixth": [
   "Endless Hunger",
-  "Void Staff",
   "Youmuu's Ghostblade",
-  "Essence Reaver"
+  "Void Staff",
+  "Shadowflame"
  ],
  "pool": [
   "Lost Chapter",
@@ -39,13 +39,12 @@
   "Ionian Boots of Lucidity",
   "Liandry's Torment",
   "Rabadon's Deathcap",
-  "Shadowflame",
   "Void Staff",
+  "Shadowflame",
   "Lord Dominik's Regards",
   "Infinity Edge",
   "Cryptbloom",
   "Youmuu's Ghostblade",
-  "Endless Hunger",
-  "Essence Reaver"
+  "Endless Hunger"
  ]
 }

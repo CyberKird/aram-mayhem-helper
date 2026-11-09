@@ -7,8 +7,7 @@
   "Ghost"
  ],
  "starting": [
-  "Amplifying Tome",
-  "Guardian's Orb"
+  "Needlessly Large Rod"
  ],
  "core": [
   "Shadowflame",
@@ -17,8 +16,8 @@
   "Riftmaker"
  ],
  "fourth": [
-  "Void Staff",
   "Stormsurge",
+  "Void Staff",
   "Warmog's Armor",
   "Cryptbloom"
  ],
@@ -26,26 +25,24 @@
   "Stormsurge",
   "Warmog's Armor",
   "Void Staff",
-  "Spirit Visage"
+  "Cosmic Drive"
  ],
  "sixth": [
   "Warmog's Armor",
   "Stormsurge",
-  "Cosmic Drive",
-  "Void Staff"
+  "Void Staff",
+  "Cosmic Drive"
  ],
  "pool": [
-  "Amplifying Tome",
-  "Guardian's Orb",
+  "Needlessly Large Rod",
   "Shadowflame",
   "Ionian Boots of Lucidity",
   "Rabadon's Deathcap",
   "Riftmaker",
-  "Void Staff",
   "Stormsurge",
+  "Void Staff",
   "Warmog's Armor",
   "Cryptbloom",
-  "Spirit Visage",
   "Cosmic Drive"
  ]
 }

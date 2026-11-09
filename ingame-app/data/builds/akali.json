@@ -7,7 +7,6 @@
   "Mark"
  ],
  "starting": [
-  "Boots",
   "Hextech Alternator"
  ],
  "core": [
@@ -19,7 +18,7 @@
  "fourth": [
   "Lich Bane",
   "Void Staff",
-  "Riftmaker",
+  "Hextech Gunblade",
   "Zhonya's Hourglass"
  ],
  "fifth": [
@@ -32,10 +31,9 @@
   "Lich Bane",
   "Void Staff",
   "Zhonya's Hourglass",
-  "Hextech Gunblade"
+  "Banshee's Veil"
  ],
  "pool": [
-  "Boots",
   "Hextech Alternator",
   "Stormsurge",
   "Sorcerer's Shoes",
@@ -43,8 +41,8 @@
   "Rabadon's Deathcap",
   "Lich Bane",
   "Void Staff",
-  "Riftmaker",
+  "Hextech Gunblade",
   "Zhonya's Hourglass",
-  "Hextech Gunblade"
+  "Banshee's Veil"
  ]
 }

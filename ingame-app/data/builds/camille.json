@@ -20,19 +20,19 @@
   "Endless Hunger",
   "Maw of Malmortius",
   "Spear of Shojin",
-  "Sterak's Gage"
+  "Spirit Visage"
  ],
  "fifth": [
   "Endless Hunger",
   "Spear of Shojin",
   "Maw of Malmortius",
-  "Spirit Visage"
+  "Sundered Sky"
  ],
  "sixth": [
-  "Kaenic Rookern",
-  "Maw of Malmortius",
   "Overlord's Bloodmail",
-  "Sterak's Gage"
+  "Endless Hunger",
+  "Sterak's Gage",
+  "Maw of Malmortius"
  ],
  "pool": [
   "Long Sword",
@@ -44,9 +44,9 @@
   "Endless Hunger",
   "Maw of Malmortius",
   "Spear of Shojin",
-  "Sterak's Gage",
   "Spirit Visage",
-  "Kaenic Rookern",
-  "Overlord's Bloodmail"
+  "Sundered Sky",
+  "Overlord's Bloodmail",
+  "Sterak's Gage"
  ]
 }

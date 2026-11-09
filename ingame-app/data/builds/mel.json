@@ -31,8 +31,8 @@
  "sixth": [
   "Stormsurge",
   "Banshee's Veil",
-  "Void Staff",
-  "Archangel's Staff"
+  "Cosmic Drive",
+  "Cryptbloom"
  ],
  "pool": [
   "Refillable Potion",
@@ -46,6 +46,8 @@
   "Void Staff",
   "Liandry's Torment",
   "Blackfire Torch",
-  "Banshee's Veil"
+  "Banshee's Veil",
+  "Cosmic Drive",
+  "Cryptbloom"
  ]
 }

@@ -7,47 +7,45 @@
   "Ghost"
  ],
  "starting": [
-  "Ruby Crystal",
-  "Health Potion",
-  "Health Potion",
-  "Sheen"
+  "Cloth Armor",
+  "Cloth Armor",
+  "Cloth Armor",
+  "Cloth Armor"
  ],
  "core": [
-  "Trinity Force",
-  "Mercury's Treads",
-  "Death's Dance",
-  "Endless Hunger"
+  "Iceborn Gauntlet",
+  "Plated Steelcaps",
+  "Thornmail",
+  "Jak'Sho, The Protean"
  ],
  "fourth": [
-  "Jak'Sho, The Protean",
-  "Force of Nature",
+  "Endless Hunger",
+  "Death's Dance",
   "Lord Dominik's Regards",
-  "Unending Despair"
+  "Force of Nature"
  ],
  "fifth": [
-  "Jak'Sho, The Protean",
+  "Endless Hunger",
   "Lord Dominik's Regards",
-  "Unending Despair",
-  "Frozen Heart"
+  "Death's Dance",
+  "Unending Despair"
  ],
  "sixth": [
+  "Endless Hunger",
   "Lord Dominik's Regards",
-  "Jak'Sho, The Protean",
-  "Unending Despair",
-  "Frozen Heart"
+  "Death's Dance",
+  "Unending Despair"
  ],
  "pool": [
-  "Ruby Crystal",
-  "Health Potion",
-  "Sheen",
-  "Trinity Force",
-  "Mercury's Treads",
-  "Death's Dance",
-  "Endless Hunger",
+  "Cloth Armor",
+  "Iceborn Gauntlet",
+  "Plated Steelcaps",
+  "Thornmail",
   "Jak'Sho, The Protean",
-  "Force of Nature",
+  "Endless Hunger",
+  "Death's Dance",
   "Lord Dominik's Regards",
-  "Unending Despair",
-  "Frozen Heart"
+  "Force of Nature",
+  "Unending Despair"
  ]
 }

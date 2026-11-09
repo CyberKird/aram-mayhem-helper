@@ -7,36 +7,38 @@
   "Ignite"
  ],
  "starting": [
-  "Needlessly Large Rod"
+  "Lost Chapter"
  ],
  "core": [
-  "Shadowflame",
-  "Sorcerer's Shoes",
   "Stormsurge",
+  "Sorcerer's Shoes",
+  "Luden's Echo",
   "Rabadon's Deathcap"
  ],
  "fourth": [
+  "Shadowflame",
   "Void Staff",
   "Zhonya's Hourglass"
  ],
  "fifth": [
-  "Void Staff",
   "Banshee's Veil",
+  "Shadowflame",
   "Cryptbloom",
-  "Zhonya's Hourglass"
+  "Void Staff"
  ],
  "sixth": [
   "Banshee's Veil",
   "Void Staff",
-  "Zhonya's Hourglass",
-  "Malignance"
+  "Malignance",
+  "Cryptbloom"
  ],
  "pool": [
-  "Needlessly Large Rod",
-  "Shadowflame",
-  "Sorcerer's Shoes",
+  "Lost Chapter",
   "Stormsurge",
+  "Sorcerer's Shoes",
+  "Luden's Echo",
   "Rabadon's Deathcap",
+  "Shadowflame",
   "Void Staff",
   "Zhonya's Hourglass",
   "Banshee's Veil",

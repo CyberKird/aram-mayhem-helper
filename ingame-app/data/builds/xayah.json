@@ -16,22 +16,22 @@
   "Infinity Edge"
  ],
  "fourth": [
-  "Bloodthirster",
   "Navori Flickerblade",
+  "Bloodthirster",
   "The Collector",
-  "Blade of The Ruined King"
+  "Mortal Reminder"
  ],
  "fifth": [
   "Bloodthirster",
   "Navori Flickerblade",
   "Kraken Slayer",
-  "Runaan's Hurricane"
+  "Blade of The Ruined King"
  ],
  "sixth": [
   "Bloodthirster",
-  "Blade of The Ruined King",
-  "Phantom Dancer",
-  "Mercurial Scimitar"
+  "Mercurial Scimitar",
+  "Navori Flickerblade",
+  "Blade of The Ruined King"
  ],
  "pool": [
   "Noonquiver",
@@ -39,13 +39,12 @@
   "Berserker's Greaves",
   "Yun Tal Wildarrows",
   "Infinity Edge",
-  "Bloodthirster",
   "Navori Flickerblade",
+  "Bloodthirster",
   "The Collector",
-  "Blade of The Ruined King",
+  "Mortal Reminder",
   "Kraken Slayer",
-  "Runaan's Hurricane",
-  "Phantom Dancer",
+  "Blade of The Ruined King",
   "Mercurial Scimitar"
  ]
 }

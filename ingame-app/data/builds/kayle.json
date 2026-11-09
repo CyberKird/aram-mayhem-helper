@@ -8,7 +8,8 @@
  ],
  "starting": [
   "Blasting Wand",
-  "Amplifying Tome"
+  "Dagger",
+  "Glowing Mote"
  ],
  "core": [
   "Nashor's Tooth",
@@ -23,8 +24,8 @@
   "Terminus"
  ],
  "fifth": [
-  "Void Staff",
   "Shadowflame",
+  "Void Staff",
   "Statikk Shiv",
   "Riftmaker"
  ],
@@ -32,11 +33,12 @@
   "Void Staff",
   "Statikk Shiv",
   "Riftmaker",
-  "Shadowflame"
+  "Terminus"
  ],
  "pool": [
   "Blasting Wand",
-  "Amplifying Tome",
+  "Dagger",
+  "Glowing Mote",
   "Nashor's Tooth",
   "Berserker's Greaves",
   "Dusk and Dawn",

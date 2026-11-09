@@ -20,18 +20,18 @@
   "Winter's Approach",
   "Jak'Sho, The Protean",
   "Spirit Visage",
-  "Malignance"
+  "Rabadon's Deathcap"
  ],
  "fifth": [
-  "Jak'Sho, The Protean",
   "Riftmaker",
-  "Rabadon's Deathcap",
+  "Jak'Sho, The Protean",
+  "Spirit Visage",
   "Shadowflame"
  ],
  "sixth": [
   "Riftmaker",
+  "Horizon Focus",
   "Shadowflame",
-  "Cryptbloom",
   "Jak'Sho, The Protean"
  ],
  "pool": [
@@ -44,10 +44,9 @@
   "Winter's Approach",
   "Jak'Sho, The Protean",
   "Spirit Visage",
-  "Malignance",
-  "Riftmaker",
   "Rabadon's Deathcap",
+  "Riftmaker",
   "Shadowflame",
-  "Cryptbloom"
+  "Horizon Focus"
  ]
 }

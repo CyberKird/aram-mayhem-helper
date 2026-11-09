@@ -26,13 +26,13 @@
   "Death's Dance",
   "Endless Hunger",
   "Bloodthirster",
-  "Essence Reaver"
+  "Trinity Force"
  ],
  "sixth": [
   "Death's Dance",
   "Endless Hunger",
   "Maw of Malmortius",
-  "Bloodthirster"
+  "Trinity Force"
  ],
  "pool": [
   "Long Sword",
@@ -46,6 +46,7 @@
   "Essence Reaver",
   "Manamune",
   "Endless Hunger",
+  "Trinity Force",
   "Maw of Malmortius"
  ]
 }
