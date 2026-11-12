@@ -26,13 +26,13 @@
   "Frozen Heart",
   "Warmog's Armor",
   "Unending Despair",
-  "Hollow Radiance"
+  "Kaenic Rookern"
  ],
  "sixth": [
   "Unending Despair",
-  "Force of Nature",
   "Warmog's Armor",
-  "Spirit Visage"
+  "Frozen Heart",
+  "Force of Nature"
  ],
  "pool": [
   "Giant's Belt",
@@ -45,8 +45,7 @@
   "Randuin's Omen",
   "Unending Despair",
   "Warmog's Armor",
-  "Hollow Radiance",
-  "Force of Nature",
-  "Spirit Visage"
+  "Kaenic Rookern",
+  "Force of Nature"
  ]
 }

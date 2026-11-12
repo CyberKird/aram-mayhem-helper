@@ -26,13 +26,13 @@
   "Winter's Approach",
   "Manamune",
   "Rabadon's Deathcap",
-  "Shadowflame"
+  "Frozen Heart"
  ],
  "sixth": [
   "Winter's Approach",
-  "Shadowflame",
   "Riftmaker",
-  "Void Staff"
+  "Rabadon's Deathcap",
+  "Shadowflame"
  ],
  "pool": [
   "Blasting Wand",
@@ -45,8 +45,7 @@
   "Winter's Approach",
   "Rabadon's Deathcap",
   "Frozen Heart",
-  "Shadowflame",
   "Riftmaker",
-  "Void Staff"
+  "Shadowflame"
  ]
 }

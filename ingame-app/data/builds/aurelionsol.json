@@ -19,18 +19,18 @@
   "Bloodletter's Curse",
   "Rabadon's Deathcap",
   "Warmog's Armor",
-  "Shadowflame"
+  "Archangel's Staff"
  ],
  "fifth": [
   "Bloodletter's Curse",
+  "Warmog's Armor",
   "Riftmaker",
-  "Rabadon's Deathcap",
-  "Warmog's Armor"
+  "Rabadon's Deathcap"
  ],
  "sixth": [
+  "Riftmaker",
   "Warmog's Armor",
   "Bloodletter's Curse",
-  "Riftmaker",
   "Archangel's Staff"
  ],
  "pool": [
@@ -42,8 +42,7 @@
   "Bloodletter's Curse",
   "Rabadon's Deathcap",
   "Warmog's Armor",
-  "Shadowflame",
-  "Riftmaker",
-  "Archangel's Staff"
+  "Archangel's Staff",
+  "Riftmaker"
  ]
 }

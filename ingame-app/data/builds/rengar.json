@@ -7,26 +7,25 @@
   "Mark"
  ],
  "starting": [
-  "Long Sword",
-  "Guardian's Blade"
+  "Tiamat"
  ],
  "core": [
-  "Hubris",
-  "Mercury's Treads",
   "The Collector",
+  "Ionian Boots of Lucidity",
+  "Infinity Edge",
   "Lord Dominik's Regards"
  ],
  "fourth": [
   "Endless Hunger",
   "Axiom Arc",
   "Death's Dance",
-  "Infinity Edge"
+  "Voltaic Cyclosword"
  ],
  "fifth": [
   "Endless Hunger",
   "Death's Dance",
   "Axiom Arc",
-  "Edge of Night"
+  "Voltaic Cyclosword"
  ],
  "sixth": [
   "Endless Hunger",
@@ -35,17 +34,14 @@
   "Voltaic Cyclosword"
  ],
  "pool": [
-  "Long Sword",
-  "Guardian's Blade",
-  "Hubris",
-  "Mercury's Treads",
+  "Tiamat",
   "The Collector",
+  "Ionian Boots of Lucidity",
+  "Infinity Edge",
   "Lord Dominik's Regards",
   "Endless Hunger",
   "Axiom Arc",
   "Death's Dance",
-  "Infinity Edge",
-  "Edge of Night",
   "Voltaic Cyclosword"
  ]
 }

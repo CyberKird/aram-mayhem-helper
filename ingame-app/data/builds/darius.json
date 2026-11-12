@@ -13,8 +13,8 @@
  "core": [
   "Heartsteel",
   "Boots of Swiftness",
-  "Warmog's Armor",
-  "Overlord's Bloodmail"
+  "Overlord's Bloodmail",
+  "Warmog's Armor"
  ],
  "fourth": [
   "Unending Despair",
@@ -24,23 +24,23 @@
  ],
  "fifth": [
   "Unending Despair",
-  "Endless Hunger",
   "Jak'Sho, The Protean",
+  "Endless Hunger",
   "Sterak's Gage"
  ],
  "sixth": [
   "Unending Despair",
+  "Endless Hunger",
   "Sterak's Gage",
-  "Jak'Sho, The Protean",
-  "Endless Hunger"
+  "Jak'Sho, The Protean"
  ],
  "pool": [
   "Giant's Belt",
   "Ruby Crystal",
   "Heartsteel",
   "Boots of Swiftness",
-  "Warmog's Armor",
   "Overlord's Bloodmail",
+  "Warmog's Armor",
   "Unending Despair",
   "Jak'Sho, The Protean",
   "Endless Hunger",

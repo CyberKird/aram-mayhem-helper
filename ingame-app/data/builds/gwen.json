@@ -7,44 +7,41 @@
   "Mark"
  ],
  "starting": [
-  "Amplifying Tome",
-  "Guardian's Orb"
+  "Needlessly Large Rod"
  ],
  "core": [
-  "Dusk and Dawn",
-  "Sorcerer's Shoes",
   "Shadowflame",
-  "Rabadon's Deathcap"
+  "Mercury's Treads",
+  "Nashor's Tooth",
+  "Dusk and Dawn"
  ],
  "fourth": [
-  "Void Staff",
-  "Riftmaker",
-  "Nashor's Tooth",
-  "Spirit Visage"
- ],
- "fifth": [
-  "Void Staff",
-  "Riftmaker",
-  "Nashor's Tooth",
-  "Spirit Visage"
- ],
- "sixth": [
-  "Void Staff",
-  "Riftmaker",
-  "Spirit Visage",
-  "Cosmic Drive"
- ],
- "pool": [
-  "Amplifying Tome",
-  "Guardian's Orb",
-  "Dusk and Dawn",
-  "Sorcerer's Shoes",
-  "Shadowflame",
   "Rabadon's Deathcap",
   "Void Staff",
   "Riftmaker",
+  "Spirit Visage"
+ ],
+ "fifth": [
+  "Rabadon's Deathcap",
+  "Void Staff",
+  "Riftmaker",
+  "Spirit Visage"
+ ],
+ "sixth": [
+  "Rabadon's Deathcap",
+  "Void Staff",
+  "Riftmaker",
+  "Spirit Visage"
+ ],
+ "pool": [
+  "Needlessly Large Rod",
+  "Shadowflame",
+  "Mercury's Treads",
   "Nashor's Tooth",
-  "Spirit Visage",
-  "Cosmic Drive"
+  "Dusk and Dawn",
+  "Rabadon's Deathcap",
+  "Void Staff",
+  "Riftmaker",
+  "Spirit Visage"
  ]
 }

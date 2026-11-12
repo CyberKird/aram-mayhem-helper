@@ -17,22 +17,22 @@
   "Death's Dance"
  ],
  "fourth": [
+  "Endless Hunger",
   "Riftmaker",
   "Spear of Shojin",
-  "Hextech Gunblade",
-  "Rabadon's Deathcap"
+  "Hextech Gunblade"
  ],
  "fifth": [
   "Endless Hunger",
   "Riftmaker",
-  "Spear of Shojin",
-  "Sterak's Gage"
+  "Sterak's Gage",
+  "Spear of Shojin"
  ],
  "sixth": [
   "Endless Hunger",
   "Riftmaker",
-  "Rabadon's Deathcap",
-  "Sterak's Gage"
+  "Sterak's Gage",
+  "Spear of Shojin"
  ],
  "pool": [
   "Ruby Crystal",
@@ -41,11 +41,10 @@
   "Plated Steelcaps",
   "Blade of The Ruined King",
   "Death's Dance",
+  "Endless Hunger",
   "Riftmaker",
   "Spear of Shojin",
   "Hextech Gunblade",
-  "Rabadon's Deathcap",
-  "Endless Hunger",
   "Sterak's Gage"
  ]
 }

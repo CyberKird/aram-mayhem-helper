@@ -19,18 +19,18 @@
   "Warmog's Armor",
   "Frozen Heart",
   "Jak'Sho, The Protean",
-  "Unending Despair"
+  "Sunfire Aegis"
  ],
  "fifth": [
   "Warmog's Armor",
   "Hollow Radiance",
-  "Unending Despair",
-  "Jak'Sho, The Protean"
+  "Sunfire Aegis",
+  "Unending Despair"
  ],
  "sixth": [
   "Riftmaker",
   "Unending Despair",
-  "Hollow Radiance",
+  "Force of Nature",
   "Jak'Sho, The Protean"
  ],
  "pool": [
@@ -42,8 +42,10 @@
   "Warmog's Armor",
   "Frozen Heart",
   "Jak'Sho, The Protean",
-  "Unending Despair",
+  "Sunfire Aegis",
   "Hollow Radiance",
-  "Riftmaker"
+  "Unending Despair",
+  "Riftmaker",
+  "Force of Nature"
  ]
 }

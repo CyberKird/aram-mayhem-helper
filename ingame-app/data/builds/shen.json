@@ -19,13 +19,13 @@
  "fourth": [
   "Overlord's Bloodmail",
   "Titanic Hydra",
-  "Hollow Radiance",
-  "Sunfire Aegis"
+  "Sunfire Aegis",
+  "Spirit Visage"
  ],
  "fifth": [
   "Overlord's Bloodmail",
-  "Titanic Hydra",
   "Jak'Sho, The Protean",
+  "Titanic Hydra",
   "Hollow Radiance"
  ],
  "sixth": [
@@ -43,9 +43,9 @@
   "Unending Despair",
   "Overlord's Bloodmail",
   "Titanic Hydra",
-  "Hollow Radiance",
   "Sunfire Aegis",
+  "Spirit Visage",
   "Jak'Sho, The Protean",
-  "Spirit Visage"
+  "Hollow Radiance"
  ]
 }

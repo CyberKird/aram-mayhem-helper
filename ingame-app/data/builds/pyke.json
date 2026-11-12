@@ -25,14 +25,14 @@
  "fifth": [
   "Endless Hunger",
   "Death's Dance",
-  "Profane Hydra",
-  "Youmuu's Ghostblade"
+  "Youmuu's Ghostblade",
+  "Profane Hydra"
  ],
  "sixth": [
-  "Youmuu's Ghostblade",
   "Endless Hunger",
+  "Youmuu's Ghostblade",
   "Death's Dance",
-  "Edge of Night"
+  "Profane Hydra"
  ],
  "pool": [
   "Long Sword",
@@ -44,7 +44,6 @@
   "Endless Hunger",
   "Death's Dance",
   "Profane Hydra",
-  "Youmuu's Ghostblade",
-  "Edge of Night"
+  "Youmuu's Ghostblade"
  ]
 }

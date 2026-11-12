@@ -23,16 +23,16 @@
   "Locket of the Iron Solari"
  ],
  "fifth": [
-  "Dawncore",
   "Staff of Flowing Water",
-  "Locket of the Iron Solari",
-  "Mikael's Blessing"
+  "Dawncore",
+  "Mikael's Blessing",
+  "Locket of the Iron Solari"
  ],
  "sixth": [
   "Staff of Flowing Water",
   "Dawncore",
   "Redemption",
-  "Shurelya's Battlesong"
+  "Mikael's Blessing"
  ],
  "pool": [
   "Tear of the Goddess",
@@ -46,7 +46,6 @@
   "Sword of Blossoming Dawn",
   "Locket of the Iron Solari",
   "Mikael's Blessing",
-  "Redemption",
-  "Shurelya's Battlesong"
+  "Redemption"
  ]
 }

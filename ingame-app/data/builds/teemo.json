@@ -11,40 +11,40 @@
  ],
  "core": [
   "Malignance",
-  "Ionian Boots of Lucidity",
+  "Sorcerer's Shoes",
   "Liandry's Torment",
   "Statikk Shiv"
  ],
  "fourth": [
   "Rabadon's Deathcap",
-  "Shadowflame",
   "Nashor's Tooth",
+  "Shadowflame",
   "Blackfire Torch"
  ],
  "fifth": [
   "Shadowflame",
   "Rabadon's Deathcap",
-  "Void Staff",
-  "Nashor's Tooth"
+  "Nashor's Tooth",
+  "Void Staff"
  ],
  "sixth": [
   "Stormsurge",
   "Shadowflame",
   "Void Staff",
-  "Cryptbloom"
+  "Archangel's Staff"
  ],
  "pool": [
   "Lost Chapter",
   "Malignance",
-  "Ionian Boots of Lucidity",
+  "Sorcerer's Shoes",
   "Liandry's Torment",
   "Statikk Shiv",
   "Rabadon's Deathcap",
-  "Shadowflame",
   "Nashor's Tooth",
+  "Shadowflame",
   "Blackfire Torch",
   "Void Staff",
   "Stormsurge",
-  "Cryptbloom"
+  "Archangel's Staff"
  ]
 }

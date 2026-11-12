@@ -20,18 +20,18 @@
   "Frozen Heart",
   "Jak'Sho, The Protean",
   "Winter's Approach",
-  "Force of Nature"
+  "Randuin's Omen"
  ],
  "fifth": [
   "Frozen Heart",
   "Jak'Sho, The Protean",
-  "Overlord's Bloodmail",
-  "Force of Nature"
+  "Force of Nature",
+  "Overlord's Bloodmail"
  ],
  "sixth": [
   "Frozen Heart",
-  "Jak'Sho, The Protean",
   "Overlord's Bloodmail",
+  "Jak'Sho, The Protean",
   "Force of Nature"
  ],
  "pool": [
@@ -44,6 +44,7 @@
   "Frozen Heart",
   "Jak'Sho, The Protean",
   "Winter's Approach",
+  "Randuin's Omen",
   "Force of Nature",
   "Overlord's Bloodmail"
  ]

@@ -7,47 +7,45 @@
   "Clarity"
  ],
  "starting": [
-  "Amplifying Tome",
-  "Amplifying Tome",
-  "Tear of the Goddess"
+  "Lost Chapter"
  ],
  "core": [
   "Luden's Echo",
-  "Sorcerer's Shoes",
-  "Rabadon's Deathcap",
+  "Ionian Boots of Lucidity",
+  "Cosmic Drive",
   "Archangel's Staff"
  ],
  "fourth": [
   "Blackfire Torch",
-  "Cosmic Drive",
   "Cryptbloom",
-  "Malignance"
+  "Rabadon's Deathcap",
+  "Horizon Focus"
  ],
  "fifth": [
   "Winter's Approach",
   "Rod of Ages",
   "Blackfire Torch",
-  "Cryptbloom"
+  "Malignance"
  ],
  "sixth": [
-  "Rod of Ages",
   "Winter's Approach",
+  "Rod of Ages",
   "Blackfire Torch",
   "Banshee's Veil"
  ],
  "pool": [
-  "Amplifying Tome",
-  "Tear of the Goddess",
+  "Lost Chapter",
   "Luden's Echo",
-  "Sorcerer's Shoes",
-  "Rabadon's Deathcap",
+  "Ionian Boots of Lucidity",
+  "Cosmic Drive",
   "Archangel's Staff",
   "Blackfire Torch",
-  "Cosmic Drive",
   "Cryptbloom",
-  "Malignance",
+  "Rabadon's Deathcap",
+  "Horizon Focus",
   "Winter's Approach",
   "Rod of Ages",
+  "Malignance",
   "Banshee's Veil"
  ]
 }

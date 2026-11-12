@@ -19,13 +19,13 @@
   "Archangel's Staff",
   "Horizon Focus",
   "Shadowflame",
-  "Infinity Edge"
+  "Lord Dominik's Regards"
  ],
  "fifth": [
   "Archangel's Staff",
   "Lord Dominik's Regards",
   "Horizon Focus",
-  "Bloodthirster"
+  "Shadowflame"
  ],
  "sixth": [
   "Edge of Night",
@@ -42,10 +42,9 @@
   "Archangel's Staff",
   "Horizon Focus",
   "Shadowflame",
-  "Infinity Edge",
   "Lord Dominik's Regards",
-  "Bloodthirster",
   "Edge of Night",
-  "Banshee's Veil"
+  "Banshee's Veil",
+  "Bloodthirster"
  ]
 }

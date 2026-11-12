@@ -18,21 +18,21 @@
  ],
  "fourth": [
   "Rabadon's Deathcap",
-  "Blackfire Torch",
   "Bloodletter's Curse",
+  "Blackfire Torch",
   "Riftmaker"
  ],
  "fifth": [
-  "Rabadon's Deathcap",
   "Blackfire Torch",
+  "Rabadon's Deathcap",
   "Riftmaker",
   "Bloodletter's Curse"
  ],
  "sixth": [
-  "Rabadon's Deathcap",
   "Bloodletter's Curse",
-  "Rylai's Crystal Scepter",
-  "Shadowflame"
+  "Rabadon's Deathcap",
+  "Riftmaker",
+  "Rylai's Crystal Scepter"
  ],
  "pool": [
   "Blasting Wand",
@@ -42,10 +42,9 @@
   "Liandry's Torment",
   "Archangel's Staff",
   "Rabadon's Deathcap",
-  "Blackfire Torch",
   "Bloodletter's Curse",
+  "Blackfire Torch",
   "Riftmaker",
-  "Rylai's Crystal Scepter",
-  "Shadowflame"
+  "Rylai's Crystal Scepter"
  ]
 }

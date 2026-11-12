@@ -8,8 +8,7 @@
  ],
  "starting": [
   "Long Sword",
-  "Pickaxe",
-  "Refillable Potion"
+  "Pickaxe"
  ],
  "core": [
   "The Collector",
@@ -24,21 +23,20 @@
   "Blade of The Ruined King"
  ],
  "fifth": [
-  "Bloodthirster",
   "Voltaic Cyclosword",
+  "Bloodthirster",
   "Edge of Night",
   "Kraken Slayer"
  ],
  "sixth": [
   "Edge of Night",
   "Bloodthirster",
-  "Kraken Slayer",
-  "Voltaic Cyclosword"
+  "Voltaic Cyclosword",
+  "Kraken Slayer"
  ],
  "pool": [
   "Long Sword",
   "Pickaxe",
-  "Refillable Potion",
   "The Collector",
   "Berserker's Greaves",
   "Infinity Edge",

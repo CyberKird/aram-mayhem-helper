@@ -19,20 +19,20 @@
  "fourth": [
   "Archangel's Staff",
   "Rabadon's Deathcap",
-  "Rylai's Crystal Scepter",
-  "Stormsurge"
+  "Blackfire Torch",
+  "Liandry's Torment"
  ],
  "fifth": [
   "Archangel's Staff",
+  "Stormsurge",
   "Rabadon's Deathcap",
-  "Shadowflame",
   "Cryptbloom"
  ],
  "sixth": [
   "Cryptbloom",
   "Archangel's Staff",
   "Rabadon's Deathcap",
-  "Malignance"
+  "Shadowflame"
  ],
  "pool": [
   "Tear of the Goddess",
@@ -43,10 +43,10 @@
   "Ardent Censer",
   "Archangel's Staff",
   "Rabadon's Deathcap",
-  "Rylai's Crystal Scepter",
+  "Blackfire Torch",
+  "Liandry's Torment",
   "Stormsurge",
-  "Shadowflame",
   "Cryptbloom",
-  "Malignance"
+  "Shadowflame"
  ]
 }

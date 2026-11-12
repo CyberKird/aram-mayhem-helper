@@ -7,19 +7,20 @@
   "Ghost"
  ],
  "starting": [
-  "Noonquiver"
+  "Long Sword",
+  "Guardian's Blade"
  ],
  "core": [
-  "Lord Dominik's Regards",
-  "Berserker's Greaves",
   "Yun Tal Wildarrows",
-  "Infinity Edge"
+  "Berserker's Greaves",
+  "Infinity Edge",
+  "Lord Dominik's Regards"
  ],
  "fourth": [
   "Navori Flickerblade",
   "Bloodthirster",
   "The Collector",
-  "Mortal Reminder"
+  "Blade of The Ruined King"
  ],
  "fifth": [
   "Bloodthirster",
@@ -30,21 +31,22 @@
  "sixth": [
   "Bloodthirster",
   "Mercurial Scimitar",
-  "Navori Flickerblade",
-  "Blade of The Ruined King"
+  "Phantom Dancer",
+  "Navori Flickerblade"
  ],
  "pool": [
-  "Noonquiver",
-  "Lord Dominik's Regards",
-  "Berserker's Greaves",
+  "Long Sword",
+  "Guardian's Blade",
   "Yun Tal Wildarrows",
+  "Berserker's Greaves",
   "Infinity Edge",
+  "Lord Dominik's Regards",
   "Navori Flickerblade",
   "Bloodthirster",
   "The Collector",
-  "Mortal Reminder",
-  "Kraken Slayer",
   "Blade of The Ruined King",
-  "Mercurial Scimitar"
+  "Kraken Slayer",
+  "Mercurial Scimitar",
+  "Phantom Dancer"
  ]
 }

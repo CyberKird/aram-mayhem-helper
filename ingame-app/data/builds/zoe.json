@@ -23,14 +23,14 @@
   "Void Staff"
  ],
  "fifth": [
-  "Lich Bane",
   "Shadowflame",
-  "Banshee's Veil",
-  "Void Staff"
+  "Lich Bane",
+  "Cryptbloom",
+  "Banshee's Veil"
  ],
  "sixth": [
-  "Cryptbloom",
   "Lich Bane",
+  "Cryptbloom",
   "Void Staff",
   "Banshee's Veil"
  ],
@@ -45,7 +45,7 @@
   "Lich Bane",
   "Horizon Focus",
   "Void Staff",
-  "Banshee's Veil",
-  "Cryptbloom"
+  "Cryptbloom",
+  "Banshee's Veil"
  ]
 }

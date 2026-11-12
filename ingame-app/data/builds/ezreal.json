@@ -7,8 +7,8 @@
   "Ghost"
  ],
  "starting": [
-  "Sheen",
-  "Tear of the Goddess"
+  "Long Sword",
+  "Pickaxe"
  ],
  "core": [
   "Endless Hunger",
@@ -23,20 +23,20 @@
   "Lord Dominik's Regards"
  ],
  "fifth": [
-  "Serylda's Grudge",
   "Archangel's Staff",
   "Spear of Shojin",
+  "Serylda's Grudge",
   "Lord Dominik's Regards"
  ],
  "sixth": [
   "Archangel's Staff",
   "Horizon Focus",
   "Void Staff",
-  "Shadowflame"
+  "Serylda's Grudge"
  ],
  "pool": [
-  "Sheen",
-  "Tear of the Goddess",
+  "Long Sword",
+  "Pickaxe",
   "Endless Hunger",
   "Mercury's Treads",
   "Trinity Force",
@@ -46,7 +46,6 @@
   "Serylda's Grudge",
   "Lord Dominik's Regards",
   "Horizon Focus",
-  "Void Staff",
-  "Shadowflame"
+  "Void Staff"
  ]
 }

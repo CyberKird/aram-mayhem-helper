@@ -3,7 +3,7 @@
  "source": "https://aramkit.com/en-US/champions/singed",
  "mode": "ARAM Mayhem",
  "summoners": [
-  "Flash",
+  "Ghost",
   "Mark"
  ],
  "starting": [
@@ -24,16 +24,16 @@
   "Warmog's Armor"
  ],
  "fifth": [
-  "Riftmaker",
   "Rabadon's Deathcap",
+  "Riftmaker",
   "Warmog's Armor",
   "Winter's Approach"
  ],
  "sixth": [
   "Rabadon's Deathcap",
   "Bloodletter's Curse",
-  "Riftmaker",
-  "Warmog's Armor"
+  "Warmog's Armor",
+  "Riftmaker"
  ],
  "pool": [
   "Health Potion",

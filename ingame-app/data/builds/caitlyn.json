@@ -7,8 +7,8 @@
   "Ghost"
  ],
  "starting": [
-  "Boots",
-  "Serrated Dirk"
+  "Long Sword",
+  "Guardian's Blade"
  ],
  "core": [
   "The Collector",
@@ -30,13 +30,13 @@
  ],
  "sixth": [
   "Hubris",
-  "Voltaic Cyclosword",
   "Endless Hunger",
+  "Voltaic Cyclosword",
   "Axiom Arc"
  ],
  "pool": [
-  "Boots",
-  "Serrated Dirk",
+  "Long Sword",
+  "Guardian's Blade",
   "The Collector",
   "Berserker's Greaves",
   "Infinity Edge",
@@ -47,7 +47,7 @@
   "Rapid Firecannon",
   "Yun Tal Wildarrows",
   "Hubris",
-  "Voltaic Cyclosword",
-  "Endless Hunger"
+  "Endless Hunger",
+  "Voltaic Cyclosword"
  ]
 }

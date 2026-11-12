@@ -8,7 +8,6 @@
  ],
  "starting": [
   "Blasting Wand",
-  "Refillable Potion",
   "Tear of the Goddess"
  ],
  "core": [
@@ -19,33 +18,32 @@
  ],
  "fourth": [
   "Rabadon's Deathcap",
-  "Shadowflame",
   "Malignance",
+  "Shadowflame",
   "Blackfire Torch"
  ],
  "fifth": [
   "Rabadon's Deathcap",
-  "Shadowflame",
+  "Bloodletter's Curse",
   "Blackfire Torch",
-  "Bloodletter's Curse"
+  "Zhonya's Hourglass"
  ],
  "sixth": [
-  "Shadowflame",
-  "Zhonya's Hourglass",
   "Bloodletter's Curse",
+  "Zhonya's Hourglass",
+  "Shadowflame",
   "Rabadon's Deathcap"
  ],
  "pool": [
   "Blasting Wand",
-  "Refillable Potion",
   "Tear of the Goddess",
   "Rod of Ages",
   "Sorcerer's Shoes",
   "Liandry's Torment",
   "Archangel's Staff",
   "Rabadon's Deathcap",
-  "Shadowflame",
   "Malignance",
+  "Shadowflame",
   "Blackfire Torch",
   "Bloodletter's Curse",
   "Zhonya's Hourglass"

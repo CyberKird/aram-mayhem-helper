@@ -7,6 +7,7 @@
   "Ghost"
  ],
  "starting": [
+  "Refillable Potion",
   "Lost Chapter"
  ],
  "core": [
@@ -17,31 +18,32 @@
  ],
  "fourth": [
   "Archangel's Staff",
-  "Stormsurge",
   "Rabadon's Deathcap",
+  "Stormsurge",
   "Horizon Focus"
  ],
  "fifth": [
-  "Stormsurge",
-  "Archangel's Staff",
   "Horizon Focus",
+  "Archangel's Staff",
+  "Stormsurge",
   "Rabadon's Deathcap"
  ],
  "sixth": [
-  "Horizon Focus",
   "Stormsurge",
   "Banshee's Veil",
+  "Horizon Focus",
   "Archangel's Staff"
  ],
  "pool": [
+  "Refillable Potion",
   "Lost Chapter",
   "Blackfire Torch",
   "Sorcerer's Shoes",
   "Liandry's Torment",
   "Shadowflame",
   "Archangel's Staff",
-  "Stormsurge",
   "Rabadon's Deathcap",
+  "Stormsurge",
   "Horizon Focus",
   "Banshee's Veil"
  ]

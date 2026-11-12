@@ -7,42 +7,45 @@
   "Ghost"
  ],
  "starting": [
-  "Needlessly Large Rod"
+  "Amplifying Tome",
+  "Fiendish Codex"
  ],
  "core": [
-  "Shadowflame",
-  "Ionian Boots of Lucidity",
+  "Riftmaker",
+  "Sorcerer's Shoes",
   "Rabadon's Deathcap",
-  "Riftmaker"
+  "Shadowflame"
  ],
  "fourth": [
   "Stormsurge",
   "Void Staff",
   "Warmog's Armor",
-  "Cryptbloom"
+  "Zhonya's Hourglass"
  ],
  "fifth": [
   "Stormsurge",
   "Warmog's Armor",
   "Void Staff",
-  "Cosmic Drive"
+  "Spirit Visage"
  ],
  "sixth": [
   "Warmog's Armor",
   "Stormsurge",
-  "Void Staff",
-  "Cosmic Drive"
+  "Cosmic Drive",
+  "Void Staff"
  ],
  "pool": [
-  "Needlessly Large Rod",
-  "Shadowflame",
-  "Ionian Boots of Lucidity",
-  "Rabadon's Deathcap",
+  "Amplifying Tome",
+  "Fiendish Codex",
   "Riftmaker",
+  "Sorcerer's Shoes",
+  "Rabadon's Deathcap",
+  "Shadowflame",
   "Stormsurge",
   "Void Staff",
   "Warmog's Armor",
-  "Cryptbloom",
+  "Zhonya's Hourglass",
+  "Spirit Visage",
   "Cosmic Drive"
  ]
 }

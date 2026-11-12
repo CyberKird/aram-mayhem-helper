@@ -19,8 +19,8 @@
  "fourth": [
   "Iceborn Gauntlet",
   "Force of Nature",
-  "Spirit Visage",
-  "Warmog's Armor"
+  "Warmog's Armor",
+  "Randuin's Omen"
  ],
  "fifth": [
   "Frozen Heart",
@@ -43,8 +43,9 @@
   "Jak'Sho, The Protean",
   "Iceborn Gauntlet",
   "Force of Nature",
-  "Spirit Visage",
   "Warmog's Armor",
-  "Frozen Heart"
+  "Randuin's Omen",
+  "Frozen Heart",
+  "Spirit Visage"
  ]
 }

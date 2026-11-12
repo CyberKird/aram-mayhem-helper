@@ -19,8 +19,8 @@
  "fourth": [
   "Unending Despair",
   "Kaenic Rookern",
-  "Sterak's Gage",
-  "Jak'Sho, The Protean"
+  "Jak'Sho, The Protean",
+  "Sterak's Gage"
  ],
  "fifth": [
   "Unending Despair",
@@ -29,10 +29,10 @@
   "Death's Dance"
  ],
  "sixth": [
-  "Unending Despair",
-  "Sterak's Gage",
   "Jak'Sho, The Protean",
-  "Force of Nature"
+  "Force of Nature",
+  "Sterak's Gage",
+  "Kaenic Rookern"
  ],
  "pool": [
   "Giant's Belt",
@@ -43,8 +43,8 @@
   "Overlord's Bloodmail",
   "Unending Despair",
   "Kaenic Rookern",
-  "Sterak's Gage",
   "Jak'Sho, The Protean",
+  "Sterak's Gage",
   "Death's Dance",
   "Force of Nature"
  ]

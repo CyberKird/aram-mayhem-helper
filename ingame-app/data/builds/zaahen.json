@@ -20,19 +20,19 @@
   "Overlord's Bloodmail",
   "Lord Dominik's Regards",
   "Spear of Shojin",
-  "Trinity Force"
+  "Sundered Sky"
  ],
  "fifth": [
-  "Lord Dominik's Regards",
   "Overlord's Bloodmail",
-  "Ravenous Hydra",
-  "Spirit Visage"
+  "Lord Dominik's Regards",
+  "Trinity Force",
+  "Spear of Shojin"
  ],
  "sixth": [
   "Overlord's Bloodmail",
   "Spirit Visage",
-  "Sterak's Gage",
-  "Lord Dominik's Regards"
+  "Lord Dominik's Regards",
+  "Sterak's Gage"
  ],
  "pool": [
   "Long Sword",
@@ -44,8 +44,8 @@
   "Overlord's Bloodmail",
   "Lord Dominik's Regards",
   "Spear of Shojin",
+  "Sundered Sky",
   "Trinity Force",
-  "Ravenous Hydra",
   "Spirit Visage",
   "Sterak's Gage"
  ]

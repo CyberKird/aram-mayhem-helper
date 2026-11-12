@@ -7,14 +7,14 @@
   "Mark"
  ],
  "starting": [
-  "Null-Magic Mantle",
-  "Kindlegem"
+  "Ruby Crystal",
+  "Guardian's Horn"
  ],
  "core": [
-  "Locket of the Iron Solari",
-  "Mercury's Treads",
   "Zeke's Convergence",
-  "Knight's Vow"
+  "Mercury's Treads",
+  "Knight's Vow",
+  "Locket of the Iron Solari"
  ],
  "fourth": [
   "Jak'Sho, The Protean",
@@ -23,29 +23,28 @@
   "Warmog's Armor"
  ],
  "fifth": [
-  "Warmog's Armor",
   "Spirit Visage",
+  "Warmog's Armor",
   "Jak'Sho, The Protean",
-  "Unending Despair"
+  "Winter's Approach"
  ],
  "sixth": [
   "Frozen Heart",
+  "Spirit Visage",
   "Warmog's Armor",
-  "Jak'Sho, The Protean",
-  "Spirit Visage"
+  "Jak'Sho, The Protean"
  ],
  "pool": [
-  "Null-Magic Mantle",
-  "Kindlegem",
-  "Locket of the Iron Solari",
-  "Mercury's Treads",
+  "Ruby Crystal",
+  "Guardian's Horn",
   "Zeke's Convergence",
+  "Mercury's Treads",
   "Knight's Vow",
+  "Locket of the Iron Solari",
   "Jak'Sho, The Protean",
   "Winter's Approach",
   "Spirit Visage",
   "Warmog's Armor",
-  "Unending Despair",
   "Frozen Heart"
  ]
 }

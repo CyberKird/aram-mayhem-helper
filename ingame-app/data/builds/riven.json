@@ -8,17 +8,17 @@
  ],
  "starting": [
   "Long Sword",
-  "Guardian's Blade"
+  "Pickaxe"
  ],
  "core": [
+  "Endless Hunger",
+  "Mercury's Treads",
   "Hubris",
-  "Ionian Boots of Lucidity",
-  "Death's Dance",
-  "Endless Hunger"
+  "Death's Dance"
  ],
  "fourth": [
-  "Lord Dominik's Regards",
   "Maw of Malmortius",
+  "Lord Dominik's Regards",
   "Spear of Shojin",
   "Ravenous Hydra"
  ],
@@ -30,19 +30,19 @@
  ],
  "sixth": [
   "Spirit Visage",
+  "Infinity Edge",
   "Lord Dominik's Regards",
-  "Maw of Malmortius",
   "Spear of Shojin"
  ],
  "pool": [
   "Long Sword",
-  "Guardian's Blade",
-  "Hubris",
-  "Ionian Boots of Lucidity",
-  "Death's Dance",
+  "Pickaxe",
   "Endless Hunger",
-  "Lord Dominik's Regards",
+  "Mercury's Treads",
+  "Hubris",
+  "Death's Dance",
   "Maw of Malmortius",
+  "Lord Dominik's Regards",
   "Spear of Shojin",
   "Ravenous Hydra",
   "Infinity Edge",

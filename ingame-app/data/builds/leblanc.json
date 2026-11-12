@@ -7,7 +7,7 @@
   "Ignite"
  ],
  "starting": [
-  "Lost Chapter"
+  "Hextech Alternator"
  ],
  "core": [
   "Stormsurge",
@@ -21,19 +21,19 @@
   "Zhonya's Hourglass"
  ],
  "fifth": [
+  "Cryptbloom",
   "Banshee's Veil",
   "Shadowflame",
-  "Cryptbloom",
   "Void Staff"
  ],
  "sixth": [
   "Banshee's Veil",
   "Void Staff",
-  "Malignance",
-  "Cryptbloom"
+  "Cryptbloom",
+  "Malignance"
  ],
  "pool": [
-  "Lost Chapter",
+  "Hextech Alternator",
   "Stormsurge",
   "Sorcerer's Shoes",
   "Luden's Echo",
@@ -41,8 +41,8 @@
   "Shadowflame",
   "Void Staff",
   "Zhonya's Hourglass",
-  "Banshee's Veil",
   "Cryptbloom",
+  "Banshee's Veil",
   "Malignance"
  ]
 }

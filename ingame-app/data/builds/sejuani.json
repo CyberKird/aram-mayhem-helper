@@ -18,21 +18,21 @@
  ],
  "fourth": [
   "Hollow Radiance",
-  "Jak'Sho, The Protean",
   "Sunfire Aegis",
+  "Jak'Sho, The Protean",
   "Spirit Visage"
  ],
  "fifth": [
   "Hollow Radiance",
   "Spirit Visage",
-  "Jak'Sho, The Protean",
-  "Frozen Heart"
+  "Frozen Heart",
+  "Jak'Sho, The Protean"
  ],
  "sixth": [
   "Riftmaker",
+  "Overlord's Bloodmail",
   "Frozen Heart",
-  "Force of Nature",
-  "Overlord's Bloodmail"
+  "Force of Nature"
  ],
  "pool": [
   "Giant's Belt",
@@ -42,12 +42,12 @@
   "Unending Despair",
   "Warmog's Armor",
   "Hollow Radiance",
-  "Jak'Sho, The Protean",
   "Sunfire Aegis",
+  "Jak'Sho, The Protean",
   "Spirit Visage",
   "Frozen Heart",
   "Riftmaker",
-  "Force of Nature",
-  "Overlord's Bloodmail"
+  "Overlord's Bloodmail",
+  "Force of Nature"
  ]
 }

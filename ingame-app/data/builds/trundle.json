@@ -7,47 +7,44 @@
   "Mark"
  ],
  "starting": [
-  "Long Sword",
-  "Sheen"
+  "Hearthbound Axe"
  ],
  "core": [
   "Trinity Force",
   "Mercury's Treads",
-  "Ravenous Hydra",
-  "Blade of The Ruined King"
+  "Blade of The Ruined King",
+  "Ravenous Hydra"
  ],
  "fourth": [
   "Death's Dance",
   "Titanic Hydra",
-  "Liandry's Torment",
-  "Spirit Visage"
+  "Spirit Visage",
+  "Liandry's Torment"
  ],
  "fifth": [
-  "Overlord's Bloodmail",
   "Death's Dance",
-  "Titanic Hydra",
-  "Warmog's Armor"
+  "Overlord's Bloodmail",
+  "Warmog's Armor",
+  "Titanic Hydra"
  ],
  "sixth": [
   "Overlord's Bloodmail",
   "Death's Dance",
   "Cryptbloom",
-  "Shadowflame"
+  "Warmog's Armor"
  ],
  "pool": [
-  "Long Sword",
-  "Sheen",
+  "Hearthbound Axe",
   "Trinity Force",
   "Mercury's Treads",
-  "Ravenous Hydra",
   "Blade of The Ruined King",
+  "Ravenous Hydra",
   "Death's Dance",
   "Titanic Hydra",
-  "Liandry's Torment",
   "Spirit Visage",
+  "Liandry's Torment",
   "Overlord's Bloodmail",
   "Warmog's Armor",
-  "Cryptbloom",
-  "Shadowflame"
+  "Cryptbloom"
  ]
 }

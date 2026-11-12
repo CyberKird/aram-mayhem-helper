@@ -23,15 +23,15 @@
  ],
  "fifth": [
   "Stormsurge",
-  "Malignance",
   "Void Staff",
+  "Malignance",
   "Rabadon's Deathcap"
  ],
  "sixth": [
   "Stormsurge",
-  "Luden's Echo",
+  "Malignance",
   "Void Staff",
-  "Horizon Focus"
+  "Luden's Echo"
  ],
  "pool": [
   "Needlessly Large Rod",
@@ -43,7 +43,6 @@
   "Rabadon's Deathcap",
   "Void Staff",
   "Malignance",
-  "Luden's Echo",
-  "Horizon Focus"
+  "Luden's Echo"
  ]
 }

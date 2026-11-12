@@ -11,16 +11,16 @@
   "Guardian's Blade"
  ],
  "core": [
-  "Hubris",
+  "Endless Hunger",
   "Mercury's Treads",
-  "Death's Dance",
-  "Endless Hunger"
+  "Hubris",
+  "Death's Dance"
  ],
  "fourth": [
   "Infinity Edge",
   "Lord Dominik's Regards",
   "Voltaic Cyclosword",
-  "Serylda's Grudge"
+  "Manamune"
  ],
  "fifth": [
   "Lord Dominik's Regards",
@@ -31,21 +31,22 @@
  "sixth": [
   "Youmuu's Ghostblade",
   "Lord Dominik's Regards",
-  "Serylda's Grudge",
-  "Edge of Night"
+  "Maw of Malmortius",
+  "Serylda's Grudge"
  ],
  "pool": [
   "Long Sword",
   "Guardian's Blade",
-  "Hubris",
-  "Mercury's Treads",
-  "Death's Dance",
   "Endless Hunger",
+  "Mercury's Treads",
+  "Hubris",
+  "Death's Dance",
   "Infinity Edge",
   "Lord Dominik's Regards",
   "Voltaic Cyclosword",
-  "Serylda's Grudge",
+  "Manamune",
   "Youmuu's Ghostblade",
-  "Edge of Night"
+  "Serylda's Grudge",
+  "Maw of Malmortius"
  ]
 }

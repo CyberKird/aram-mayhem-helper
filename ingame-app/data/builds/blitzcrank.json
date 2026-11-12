@@ -12,7 +12,7 @@
  ],
  "core": [
   "Heartsteel",
-  "Ionian Boots of Lucidity",
+  "Mercury's Treads",
   "Unending Despair",
   "Warmog's Armor"
  ],
@@ -26,19 +26,19 @@
   "Archangel's Staff",
   "Frozen Heart",
   "Jak'Sho, The Protean",
-  "Winter's Approach"
+  "Rabadon's Deathcap"
  ],
  "sixth": [
   "Zhonya's Hourglass",
   "Stormsurge",
-  "Void Staff",
-  "Spirit Visage"
+  "Spirit Visage",
+  "Rabadon's Deathcap"
  ],
  "pool": [
   "Giant's Belt",
   "Ruby Crystal",
   "Heartsteel",
-  "Ionian Boots of Lucidity",
+  "Mercury's Treads",
   "Unending Despair",
   "Warmog's Armor",
   "Frozen Heart",
@@ -46,9 +46,9 @@
   "Jak'Sho, The Protean",
   "Kaenic Rookern",
   "Archangel's Staff",
+  "Rabadon's Deathcap",
   "Zhonya's Hourglass",
   "Stormsurge",
-  "Void Staff",
   "Spirit Visage"
  ]
 }

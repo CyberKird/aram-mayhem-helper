@@ -13,13 +13,13 @@
  "core": [
   "Heartsteel",
   "Mercury's Treads",
-  "Overlord's Bloodmail",
-  "Death's Dance"
+  "Sundered Sky",
+  "Overlord's Bloodmail"
  ],
  "fourth": [
   "Endless Hunger",
-  "Sterak's Gage",
   "Unending Despair",
+  "Sterak's Gage",
   "Warmog's Armor"
  ],
  "fifth": [
@@ -39,11 +39,11 @@
   "Ruby Crystal",
   "Heartsteel",
   "Mercury's Treads",
+  "Sundered Sky",
   "Overlord's Bloodmail",
-  "Death's Dance",
   "Endless Hunger",
-  "Sterak's Gage",
   "Unending Despair",
+  "Sterak's Gage",
   "Warmog's Armor",
   "Spirit Visage"
  ]

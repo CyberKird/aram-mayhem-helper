@@ -7,45 +7,44 @@
   "Mark"
  ],
  "starting": [
-  "Long Sword",
-  "Caulfield's Warhammer"
+  "Giant's Belt",
+  "Ruby Crystal"
  ],
  "core": [
-  "Endless Hunger",
+  "Heartsteel",
   "Mercury's Treads",
-  "Hubris",
-  "Death's Dance"
+  "Warmog's Armor",
+  "Overlord's Bloodmail"
  ],
  "fourth": [
+  "Endless Hunger",
   "Lord Dominik's Regards",
-  "Axiom Arc",
-  "Infinity Edge",
-  "Black Cleaver"
- ],
- "fifth": [
-  "Lord Dominik's Regards",
-  "Voltaic Cyclosword",
-  "Infinity Edge",
+  "Death's Dance",
   "Axiom Arc"
  ],
- "sixth": [
-  "Axiom Arc",
+ "fifth": [
+  "Endless Hunger",
   "Lord Dominik's Regards",
-  "Infinity Edge",
-  "Maw of Malmortius"
+  "Voltaic Cyclosword",
+  "Death's Dance"
+ ],
+ "sixth": [
+  "Endless Hunger",
+  "Death's Dance",
+  "Axiom Arc",
+  "Lord Dominik's Regards"
  ],
  "pool": [
-  "Long Sword",
-  "Caulfield's Warhammer",
-  "Endless Hunger",
+  "Giant's Belt",
+  "Ruby Crystal",
+  "Heartsteel",
   "Mercury's Treads",
-  "Hubris",
-  "Death's Dance",
+  "Warmog's Armor",
+  "Overlord's Bloodmail",
+  "Endless Hunger",
   "Lord Dominik's Regards",
+  "Death's Dance",
   "Axiom Arc",
-  "Infinity Edge",
-  "Black Cleaver",
-  "Voltaic Cyclosword",
-  "Maw of Malmortius"
+  "Voltaic Cyclosword"
  ]
 }

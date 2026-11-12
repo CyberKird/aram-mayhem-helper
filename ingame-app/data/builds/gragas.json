@@ -7,13 +7,13 @@
   "Mark"
  ],
  "starting": [
-  "Amplifying Tome",
-  "Guardian's Orb"
+  "Blasting Wand",
+  "Amplifying Tome"
  ],
  "core": [
-  "Shadowflame",
-  "Sorcerer's Shoes",
   "Lich Bane",
+  "Sorcerer's Shoes",
+  "Shadowflame",
   "Rabadon's Deathcap"
  ],
  "fourth": [
@@ -25,8 +25,8 @@
  "fifth": [
   "Stormsurge",
   "Void Staff",
-  "Jak'Sho, The Protean",
-  "Warmog's Armor"
+  "Warmog's Armor",
+  "Jak'Sho, The Protean"
  ],
  "sixth": [
   "Void Staff",
@@ -35,11 +35,11 @@
   "Malignance"
  ],
  "pool": [
+  "Blasting Wand",
   "Amplifying Tome",
-  "Guardian's Orb",
-  "Shadowflame",
-  "Sorcerer's Shoes",
   "Lich Bane",
+  "Sorcerer's Shoes",
+  "Shadowflame",
   "Rabadon's Deathcap",
   "Stormsurge",
   "Void Staff",
