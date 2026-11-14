@@ -74,7 +74,7 @@ def send(description, email, diagnostics, version, timeout=10):
     if _last_sent and wait > 0:
         return False, f"Asteapta {int(wait)}s inainte de un nou raport."
     payload = {
-        "_subject": f"[ARAM Mayhem Helper {version}] bug report",
+        "_subject": f"[Mayhem Oracle {version}] bug report",
         "_template": "box",
         "_captcha": "false",
         "_honey": "",
@@ -102,7 +102,7 @@ def send(description, email, diagnostics, version, timeout=10):
 def mailto(description, diagnostics, version):
     """Rezerva: un mailto: precompletat (limitat ca lungime de Windows)."""
     q = urllib.parse.urlencode(
-        {"subject": f"[ARAM Mayhem Helper {version}] bug report",
+        {"subject": f"[Mayhem Oracle {version}] bug report",
          "body": description.strip()[:900] + "\n\n--\n" + diagnostics[:600]},
         quote_via=urllib.parse.quote)
     webbrowser.open(f"mailto:{TO}?{q}")

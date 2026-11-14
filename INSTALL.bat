@@ -1,8 +1,8 @@
 @echo off
 setlocal EnableDelayedExpansion
 cd /d "%~dp0"
-title ARAM Mayhem Helper - instalare
-echo === ARAM Mayhem Helper: instalare ===
+title Mayhem Oracle - instalare
+echo === Mayhem Oracle: instalare ===
 echo.
 
 rem 1) Gaseste Python (launcherul "py", apoi "python", apoi foldere standard).
@@ -98,10 +98,10 @@ if errorlevel 1 (
 )
 
 rem 6) Lasa o scurtatura pe desktop.
-powershell -NoProfile -ExecutionPolicy Bypass -Command "$ws = New-Object -ComObject WScript.Shell; $lnk = $ws.CreateShortcut((Join-Path ([Environment]::GetFolderPath('Desktop')) 'ARAM Mayhem Helper.lnk')); $lnk.TargetPath = '%cd%\ui\node_modules\electron\dist\electron.exe'; $lnk.Arguments = 'ui'; $lnk.WorkingDirectory = '%cd%'; $lnk.IconLocation = '%cd%\icon.ico'; $lnk.Save()"
+powershell -NoProfile -ExecutionPolicy Bypass -Command "$ws = New-Object -ComObject WScript.Shell; $lnk = $ws.CreateShortcut((Join-Path ([Environment]::GetFolderPath('Desktop')) 'Mayhem Oracle.lnk')); $lnk.TargetPath = '%cd%\ui\node_modules\electron\dist\electron.exe'; $lnk.Arguments = 'ui'; $lnk.WorkingDirectory = '%cd%'; $lnk.IconLocation = '%cd%\icon.ico'; $lnk.Save()"
 
 echo.
 echo === Gata! ===
-echo Porneste aplicatia din scurtatura "ARAM Mayhem Helper" de pe desktop
+echo Porneste aplicatia din scurtatura "Mayhem Oracle" de pe desktop
 echo (sau cu START.bat din acest folder).
 pause

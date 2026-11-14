@@ -1,4 +1,6 @@
-# ARAM Mayhem Helper
+# Mayhem Oracle
+
+(fost ARAM Mayhem Helper)
 
 Un overlay local pentru League of Legends, mod ARAM Mayhem. Arata tier-ul campionilor la champ select, plus build si augmente in timpul meciului. Fara Overwolf, fara cont, fara instalare de client separat.
 
@@ -52,7 +54,7 @@ Versiunile 1.x (exe-ul Python) se muta singure pe 2.x: updater-ul lor descarca `
 1. Descarca proiectul: butonul verde `Code` -> `Download ZIP`, apoi dezarhiveaza.
 2. Dublu-click pe `INSTALL.bat` (sau direct pe `START.bat`, care porneste instalarea singur daca lipseste venv-ul).
 
-Instalatorul face tot: instaleaza Python si Node.js daca lipsesc (via winget), creeaza mediul virtual, pune dependentele (Python si interfata), ruleaza selfcheck-ul de verificare si lasa o scurtatura `ARAM Mayhem Helper` pe desktop. O singura data, dureaza cateva minute. Datele (build-uri, tier-uri, iconite) vin deja in repo, nu trebuie descarcate separat.
+Instalatorul face tot: instaleaza Python si Node.js daca lipsesc (via winget), creeaza mediul virtual, pune dependentele (Python si interfata), ruleaza selfcheck-ul de verificare si lasa o scurtatura `Mayhem Oracle` pe desktop. O singura data, dureaza cateva minute. Datele (build-uri, tier-uri, iconite) vin deja in repo, nu trebuie descarcate separat.
 
 ## Verificare
 

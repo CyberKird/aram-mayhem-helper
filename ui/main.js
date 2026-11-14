@@ -1,5 +1,5 @@
 'use strict'
-// Interfata ARAM Mayhem Helper: panoul, insignele de pe carduri, tooltip-ul si
+// Interfata Mayhem Oracle (fost ARAM Mayhem Helper): panoul, insignele de pe carduri, tooltip-ul si
 // raportul de bug. Logica ramane in motorul Python (../app.py), pornit ca proces
 // copil: el scrie starea pe stdout (JSON pe linie), noi ii trimitem comenzi pe stdin.
 //
@@ -23,7 +23,9 @@ const MOVED_MAXH = 0.31   // fractie din inaltimea jocului cand l-ai scos din go
 const CARD_1080 = 378     // distanta dintre cardurile de augment la 1080p: scara insignelor
 
 const ROOT = path.join(__dirname, '..')
-// setari, date sincronizate, jurnal: in %APPDATA%, nu langa exe (un update il reinstaleaza)
+// setari, date sincronizate, jurnal: in %APPDATA%, nu langa exe (un update il reinstaleaza).
+// Numele afisat s-a schimbat (Mayhem Oracle); folderul ramane cel vechi, cu setarile tale.
+app.setPath('userData', path.join(app.getPath('appData'), 'ARAM Mayhem Helper'))
 const HOME = app.getPath('userData')
 const ICON = app.isPackaged ? path.join(process.resourcesPath, 'icon.ico') : path.join(ROOT, 'icon.ico')
 const FONTS_DIR = path.join(app.getPath('userData'), 'fonts')
@@ -150,7 +152,7 @@ function overlay(url, extra = {}) {
   const win = new BrowserWindow({
     show: false, frame: false, transparent: true, resizable: false, maximizable: false,
     minimizable: false, fullscreenable: false, hasShadow: false, skipTaskbar: true, thickFrame: false,
-    alwaysOnTop: true, backgroundColor: '#00000000', icon: ICON, title: 'ARAM Mayhem Helper',
+    alwaysOnTop: true, backgroundColor: '#00000000', icon: ICON, title: 'Mayhem Oracle',
     // focusable: false = un click pe panou nu ia focusul jocului (nu iesi din meci)
     focusable: false, width: 10, height: 10,
     webPreferences: { preload, backgroundThrottling: false, spellcheck: false },

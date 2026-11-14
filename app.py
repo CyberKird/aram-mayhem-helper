@@ -1,4 +1,4 @@
-"""ARAM Mayhem Helper: motorul, fara interfata.
+"""Mayhem Oracle (fost ARAM Mayhem Helper): motorul, fara interfata.
 
 Ruleaza monitoarele (champ select prin LCU, roster + build + augmente in joc
 prin Live Client Data + OCR) si scrie starea pe stdout, JSON pe o linie, de

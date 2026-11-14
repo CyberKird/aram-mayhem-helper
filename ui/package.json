@@ -1,8 +1,8 @@
 {
   "name": "aram-mayhem-helper",
-  "productName": "ARAM Mayhem Helper",
-  "version": "2.0.7",
-  "description": "Overlay local pentru ARAM Mayhem: tier la champ select, build si augmente in meci.",
+  "productName": "Mayhem Oracle",
+  "version": "2.0.8",
+  "description": "Mayhem Oracle (fost ARAM Mayhem Helper): overlay local pentru ARAM Mayhem, tier la champ select, build si augmente in meci.",
   "author": "Joltarise",
   "license": "UNLICENSED",
   "private": true,
@@ -17,7 +17,7 @@
   },
   "build": {
     "appId": "com.joltarise.arammayhemhelper",
-    "productName": "ARAM Mayhem Helper",
+    "productName": "Mayhem Oracle",
     "directories": {
       "output": "../dist"
     },
@@ -49,11 +49,12 @@
       "oneClick": true,
       "perMachine": false,
       "artifactName": "ARAM-Mayhem-Helper.exe",
-      "shortcutName": "ARAM Mayhem Helper",
+      "shortcutName": "Mayhem Oracle",
       "createDesktopShortcut": true,
       "createStartMenuShortcut": true,
       "runAfterFinish": true,
-      "deleteAppDataOnUninstall": false
+      "deleteAppDataOnUninstall": false,
+      "include": "nsis/installer.nsh"
     },
     "publish": [
       {
@@ -61,7 +62,8 @@
         "owner": "CyberKird",
         "repo": "aram-mayhem-helper"
       }
-    ]
+    ],
+    "executableName": "ARAM Mayhem Helper"
   },
   "dependencies": {
     "electron-updater": "^6.8.9"

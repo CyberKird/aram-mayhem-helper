@@ -303,7 +303,7 @@ function pencilIcon() {
 
 function chrome() {
   const v = S.view, d = S.data || {}
-  $('title').textContent = v === 'in_game' && d.champ ? d.champ.toUpperCase() : 'ARAM MAYHEM'
+  $('title').textContent = v === 'in_game' && d.champ ? d.champ.toUpperCase() : 'MAYHEM ORACLE'
   $('sub').textContent = v === 'champ_select' ? 'CHAMP SELECT  ·  REROLL'
     : v === 'in_game' ? `IN JOC  ·  ${(d.champ || '?').toUpperCase()}` + (d.enemies ? `  ·  VS ${d.enemies}` : '')
       : 'IDLE  ·  ASTEPT'
