@@ -8,43 +8,43 @@
  ],
  "starting": [
   "Long Sword",
-  "Pickaxe"
+  "Guardian's Blade"
  ],
  "core": [
-  "Endless Hunger",
+  "The Collector",
   "Mercury's Treads",
-  "Hubris",
-  "The Collector"
+  "Death's Dance",
+  "Lord Dominik's Regards"
  ],
  "fourth": [
-  "Lord Dominik's Regards",
+  "Endless Hunger",
   "Infinity Edge",
-  "Death's Dance",
-  "Mortal Reminder"
+  "Mortal Reminder",
+  "Spirit Visage"
  ],
  "fifth": [
-  "Lord Dominik's Regards",
-  "Death's Dance",
+  "Endless Hunger",
   "Infinity Edge",
-  "Spirit Visage"
+  "Spirit Visage",
+  "Mortal Reminder"
  ],
  "sixth": [
-  "Death's Dance",
-  "Lord Dominik's Regards",
+  "Endless Hunger",
   "Infinity Edge",
-  "Spirit Visage"
+  "Spirit Visage",
+  "Sterak's Gage"
  ],
  "pool": [
   "Long Sword",
-  "Pickaxe",
-  "Endless Hunger",
-  "Mercury's Treads",
-  "Hubris",
+  "Guardian's Blade",
   "The Collector",
-  "Lord Dominik's Regards",
-  "Infinity Edge",
+  "Mercury's Treads",
   "Death's Dance",
+  "Lord Dominik's Regards",
+  "Endless Hunger",
+  "Infinity Edge",
   "Mortal Reminder",
-  "Spirit Visage"
+  "Spirit Visage",
+  "Sterak's Gage"
  ]
 }

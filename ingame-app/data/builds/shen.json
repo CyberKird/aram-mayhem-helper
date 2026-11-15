@@ -13,20 +13,20 @@
  "core": [
   "Heartsteel",
   "Mercury's Treads",
-  "Warmog's Armor",
-  "Unending Despair"
+  "Unending Despair",
+  "Warmog's Armor"
  ],
  "fourth": [
   "Overlord's Bloodmail",
   "Titanic Hydra",
   "Sunfire Aegis",
-  "Spirit Visage"
+  "Hollow Radiance"
  ],
  "fifth": [
   "Overlord's Bloodmail",
   "Jak'Sho, The Protean",
-  "Titanic Hydra",
-  "Hollow Radiance"
+  "Hollow Radiance",
+  "Titanic Hydra"
  ],
  "sixth": [
   "Overlord's Bloodmail",
@@ -39,13 +39,13 @@
   "Ruby Crystal",
   "Heartsteel",
   "Mercury's Treads",
-  "Warmog's Armor",
   "Unending Despair",
+  "Warmog's Armor",
   "Overlord's Bloodmail",
   "Titanic Hydra",
   "Sunfire Aegis",
-  "Spirit Visage",
+  "Hollow Radiance",
   "Jak'Sho, The Protean",
-  "Hollow Radiance"
+  "Spirit Visage"
  ]
 }

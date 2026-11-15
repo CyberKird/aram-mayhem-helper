@@ -19,20 +19,20 @@
  "fourth": [
   "Nashor's Tooth",
   "Rabadon's Deathcap",
-  "Spirit Visage",
-  "Riftmaker"
+  "Riftmaker",
+  "Spirit Visage"
  ],
  "fifth": [
   "Nashor's Tooth",
   "Riftmaker",
-  "Spirit Visage",
-  "Rabadon's Deathcap"
+  "Rabadon's Deathcap",
+  "Spirit Visage"
  ],
  "sixth": [
   "Nashor's Tooth",
   "Riftmaker",
   "Rabadon's Deathcap",
-  "Endless Hunger"
+  "Wit's End"
  ],
  "pool": [
   "Amplifying Tome",
@@ -43,8 +43,8 @@
   "Death's Dance",
   "Nashor's Tooth",
   "Rabadon's Deathcap",
-  "Spirit Visage",
   "Riftmaker",
-  "Endless Hunger"
+  "Spirit Visage",
+  "Wit's End"
  ]
 }

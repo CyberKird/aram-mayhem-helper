@@ -24,9 +24,9 @@
  ],
  "fifth": [
   "Sunfire Aegis",
-  "Jak'Sho, The Protean",
   "Spirit Visage",
-  "Hollow Radiance"
+  "Jak'Sho, The Protean",
+  "Frozen Heart"
  ],
  "sixth": [
   "Riftmaker",
@@ -46,6 +46,7 @@
   "Hollow Radiance",
   "Winter's Approach",
   "Sunfire Aegis",
+  "Frozen Heart",
   "Riftmaker"
  ]
 }

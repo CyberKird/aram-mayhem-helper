@@ -24,13 +24,13 @@
  "fifth": [
   "Shadowflame",
   "Archangel's Staff",
-  "Void Staff",
-  "Rylai's Crystal Scepter"
+  "Bloodletter's Curse",
+  "Void Staff"
  ],
  "sixth": [
+  "Banshee's Veil",
   "Archangel's Staff",
   "Void Staff",
-  "Banshee's Veil",
   "Shadowflame"
  ],
  "pool": [
@@ -43,6 +43,7 @@
   "Shadowflame",
   "Rylai's Crystal Scepter",
   "Void Staff",
+  "Bloodletter's Curse",
   "Banshee's Veil"
  ]
 }

@@ -11,20 +11,20 @@
   "Lost Chapter"
  ],
  "core": [
-  "Luden's Echo",
-  "Sorcerer's Shoes",
   "Stormsurge",
+  "Sorcerer's Shoes",
+  "Luden's Echo",
   "Rabadon's Deathcap"
  ],
  "fourth": [
-  "Shadowflame",
   "Lich Bane",
+  "Shadowflame",
   "Horizon Focus",
   "Void Staff"
  ],
  "fifth": [
-  "Shadowflame",
   "Lich Bane",
+  "Shadowflame",
   "Cryptbloom",
   "Banshee's Veil"
  ],
@@ -32,17 +32,17 @@
   "Lich Bane",
   "Cryptbloom",
   "Void Staff",
-  "Banshee's Veil"
+  "Horizon Focus"
  ],
  "pool": [
   "Refillable Potion",
   "Lost Chapter",
-  "Luden's Echo",
-  "Sorcerer's Shoes",
   "Stormsurge",
+  "Sorcerer's Shoes",
+  "Luden's Echo",
   "Rabadon's Deathcap",
-  "Shadowflame",
   "Lich Bane",
+  "Shadowflame",
   "Horizon Focus",
   "Void Staff",
   "Cryptbloom",

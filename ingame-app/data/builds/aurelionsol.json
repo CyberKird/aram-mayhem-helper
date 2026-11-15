@@ -4,7 +4,7 @@
  "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
-  "Ghost"
+  "Barrier"
  ],
  "starting": [
   "Lost Chapter"
@@ -19,7 +19,7 @@
   "Bloodletter's Curse",
   "Rabadon's Deathcap",
   "Warmog's Armor",
-  "Archangel's Staff"
+  "Shadowflame"
  ],
  "fifth": [
   "Bloodletter's Curse",
@@ -28,9 +28,9 @@
   "Rabadon's Deathcap"
  ],
  "sixth": [
+  "Bloodletter's Curse",
   "Riftmaker",
   "Warmog's Armor",
-  "Bloodletter's Curse",
   "Archangel's Staff"
  ],
  "pool": [
@@ -42,7 +42,8 @@
   "Bloodletter's Curse",
   "Rabadon's Deathcap",
   "Warmog's Armor",
-  "Archangel's Staff",
-  "Riftmaker"
+  "Shadowflame",
+  "Riftmaker",
+  "Archangel's Staff"
  ]
 }

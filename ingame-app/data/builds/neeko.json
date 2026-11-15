@@ -18,8 +18,8 @@
  "fourth": [
   "Stormsurge",
   "Void Staff",
-  "Malignance",
-  "Zhonya's Hourglass"
+  "Zhonya's Hourglass",
+  "Malignance"
  ],
  "fifth": [
   "Stormsurge",
@@ -29,9 +29,9 @@
  ],
  "sixth": [
   "Banshee's Veil",
-  "Zhonya's Hourglass",
   "Stormsurge",
-  "Void Staff"
+  "Void Staff",
+  "Zhonya's Hourglass"
  ],
  "pool": [
   "Lost Chapter",
@@ -41,8 +41,8 @@
   "Shadowflame",
   "Stormsurge",
   "Void Staff",
-  "Malignance",
   "Zhonya's Hourglass",
+  "Malignance",
   "Cryptbloom",
   "Banshee's Veil"
  ]

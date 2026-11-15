@@ -11,14 +11,14 @@
  ],
  "core": [
   "The Collector",
-  "Ionian Boots of Lucidity",
+  "Boots of Swiftness",
   "Infinity Edge",
   "Lord Dominik's Regards"
  ],
  "fourth": [
   "Endless Hunger",
-  "Axiom Arc",
   "Death's Dance",
+  "Axiom Arc",
   "Voltaic Cyclosword"
  ],
  "fifth": [
@@ -36,12 +36,12 @@
  "pool": [
   "Tiamat",
   "The Collector",
-  "Ionian Boots of Lucidity",
+  "Boots of Swiftness",
   "Infinity Edge",
   "Lord Dominik's Regards",
   "Endless Hunger",
-  "Axiom Arc",
   "Death's Dance",
+  "Axiom Arc",
   "Voltaic Cyclosword"
  ]
 }

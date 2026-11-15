@@ -8,7 +8,7 @@
  ],
  "starting": [
   "Long Sword",
-  "Pickaxe"
+  "Caulfield's Warhammer"
  ],
  "core": [
   "Endless Hunger",
@@ -26,17 +26,17 @@
   "Axiom Arc",
   "Lord Dominik's Regards",
   "Serylda's Grudge",
-  "Maw of Malmortius"
+  "Voltaic Cyclosword"
  ],
  "sixth": [
-  "Axiom Arc",
-  "Lord Dominik's Regards",
   "Serylda's Grudge",
+  "Lord Dominik's Regards",
+  "Axiom Arc",
   "Voltaic Cyclosword"
  ],
  "pool": [
   "Long Sword",
-  "Pickaxe",
+  "Caulfield's Warhammer",
   "Endless Hunger",
   "Mercury's Treads",
   "Hubris",
@@ -44,7 +44,6 @@
   "Serylda's Grudge",
   "Axiom Arc",
   "Lord Dominik's Regards",
-  "Voltaic Cyclosword",
-  "Maw of Malmortius"
+  "Voltaic Cyclosword"
  ]
 }

@@ -7,9 +7,7 @@
   "Ghost"
  ],
  "starting": [
-  "Cloak of Agility",
-  "Long Sword",
-  "Long Sword"
+  "Noonquiver"
  ],
  "core": [
   "Lord Dominik's Regards",
@@ -21,23 +19,22 @@
   "Bloodthirster",
   "Navori Flickerblade",
   "Runaan's Hurricane",
-  "Blade of The Ruined King"
+  "The Collector"
  ],
  "fifth": [
   "Bloodthirster",
-  "Navori Flickerblade",
   "Kraken Slayer",
+  "Navori Flickerblade",
   "Phantom Dancer"
  ],
  "sixth": [
   "Bloodthirster",
   "Kraken Slayer",
-  "Blade of The Ruined King",
-  "Phantom Dancer"
+  "Phantom Dancer",
+  "Blade of The Ruined King"
  ],
  "pool": [
-  "Cloak of Agility",
-  "Long Sword",
+  "Noonquiver",
   "Lord Dominik's Regards",
   "Berserker's Greaves",
   "Yun Tal Wildarrows",
@@ -45,8 +42,9 @@
   "Bloodthirster",
   "Navori Flickerblade",
   "Runaan's Hurricane",
-  "Blade of The Ruined King",
+  "The Collector",
   "Kraken Slayer",
-  "Phantom Dancer"
+  "Phantom Dancer",
+  "Blade of The Ruined King"
  ]
 }

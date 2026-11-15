@@ -13,13 +13,13 @@
  "core": [
   "Heartsteel",
   "Mercury's Treads",
-  "Warmog's Armor",
-  "Overlord's Bloodmail"
+  "Overlord's Bloodmail",
+  "Warmog's Armor"
  ],
  "fourth": [
   "Unending Despair",
-  "Kaenic Rookern",
   "Jak'Sho, The Protean",
+  "Kaenic Rookern",
   "Sterak's Gage"
  ],
  "fifth": [
@@ -39,11 +39,11 @@
   "Ruby Crystal",
   "Heartsteel",
   "Mercury's Treads",
-  "Warmog's Armor",
   "Overlord's Bloodmail",
+  "Warmog's Armor",
   "Unending Despair",
-  "Kaenic Rookern",
   "Jak'Sho, The Protean",
+  "Kaenic Rookern",
   "Sterak's Gage",
   "Death's Dance",
   "Force of Nature"

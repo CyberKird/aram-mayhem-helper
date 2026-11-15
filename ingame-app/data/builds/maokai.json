@@ -19,20 +19,20 @@
  "fourth": [
   "Jak'Sho, The Protean",
   "Rabadon's Deathcap",
-  "Spirit Visage",
-  "Winter's Approach"
+  "Winter's Approach",
+  "Spirit Visage"
  ],
  "fifth": [
   "Jak'Sho, The Protean",
   "Riftmaker",
   "Shadowflame",
-  "Spirit Visage"
+  "Winter's Approach"
  ],
  "sixth": [
-  "Shadowflame",
   "Riftmaker",
   "Void Staff",
-  "Cryptbloom"
+  "Cryptbloom",
+  "Shadowflame"
  ],
  "pool": [
   "Giant's Belt",
@@ -43,8 +43,8 @@
   "Warmog's Armor",
   "Jak'Sho, The Protean",
   "Rabadon's Deathcap",
-  "Spirit Visage",
   "Winter's Approach",
+  "Spirit Visage",
   "Riftmaker",
   "Shadowflame",
   "Void Staff",

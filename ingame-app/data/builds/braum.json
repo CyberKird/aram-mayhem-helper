@@ -8,9 +8,7 @@
  ],
  "starting": [
   "Giant's Belt",
-  "Ruby Crystal",
-  "Health Potion",
-  "Health Potion"
+  "Ruby Crystal"
  ],
  "core": [
   "Heartsteel",
@@ -19,37 +17,36 @@
   "Warmog's Armor"
  ],
  "fourth": [
-  "Frozen Heart",
   "Jak'Sho, The Protean",
+  "Frozen Heart",
   "Hollow Radiance",
   "Winter's Approach"
  ],
  "fifth": [
   "Jak'Sho, The Protean",
   "Frozen Heart",
-  "Hollow Radiance",
-  "Spirit Visage"
+  "Spirit Visage",
+  "Hollow Radiance"
  ],
  "sixth": [
-  "Jak'Sho, The Protean",
+  "Overlord's Bloodmail",
   "Frozen Heart",
   "Knight's Vow",
-  "Overlord's Bloodmail"
+  "Jak'Sho, The Protean"
  ],
  "pool": [
   "Giant's Belt",
   "Ruby Crystal",
-  "Health Potion",
   "Heartsteel",
   "Plated Steelcaps",
   "Unending Despair",
   "Warmog's Armor",
-  "Frozen Heart",
   "Jak'Sho, The Protean",
+  "Frozen Heart",
   "Hollow Radiance",
   "Winter's Approach",
   "Spirit Visage",
-  "Knight's Vow",
-  "Overlord's Bloodmail"
+  "Overlord's Bloodmail",
+  "Knight's Vow"
  ]
 }

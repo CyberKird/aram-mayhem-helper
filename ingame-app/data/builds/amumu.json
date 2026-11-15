@@ -19,14 +19,14 @@
  "fourth": [
   "Riftmaker",
   "Hollow Radiance",
-  "Spirit Visage",
-  "Abyssal Mask"
+  "Abyssal Mask",
+  "Spirit Visage"
  ],
  "fifth": [
   "Riftmaker",
   "Jak'Sho, The Protean",
-  "Abyssal Mask",
-  "Hollow Radiance"
+  "Hollow Radiance",
+  "Winter's Approach"
  ],
  "sixth": [
   "Riftmaker",
@@ -43,8 +43,9 @@
   "Warmog's Armor",
   "Riftmaker",
   "Hollow Radiance",
-  "Spirit Visage",
   "Abyssal Mask",
-  "Jak'Sho, The Protean"
+  "Spirit Visage",
+  "Jak'Sho, The Protean",
+  "Winter's Approach"
  ]
 }

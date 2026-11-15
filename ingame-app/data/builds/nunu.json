@@ -13,38 +13,38 @@
  "core": [
   "Heartsteel",
   "Mercury's Treads",
-  "Warmog's Armor",
-  "Unending Despair"
+  "Unending Despair",
+  "Warmog's Armor"
  ],
  "fourth": [
   "Rabadon's Deathcap",
   "Spirit Visage",
-  "Stormsurge",
-  "Banshee's Veil"
+  "Banshee's Veil",
+  "Stormsurge"
  ],
  "fifth": [
   "Jak'Sho, The Protean",
-  "Void Staff",
   "Stormsurge",
-  "Rabadon's Deathcap"
+  "Void Staff",
+  "Banshee's Veil"
  ],
  "sixth": [
   "Riftmaker",
   "Luden's Echo",
-  "Void Staff",
-  "Banshee's Veil"
+  "Banshee's Veil",
+  "Void Staff"
  ],
  "pool": [
   "Giant's Belt",
   "Ruby Crystal",
   "Heartsteel",
   "Mercury's Treads",
-  "Warmog's Armor",
   "Unending Despair",
+  "Warmog's Armor",
   "Rabadon's Deathcap",
   "Spirit Visage",
-  "Stormsurge",
   "Banshee's Veil",
+  "Stormsurge",
   "Jak'Sho, The Protean",
   "Void Staff",
   "Riftmaker",

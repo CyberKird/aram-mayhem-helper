@@ -21,8 +21,8 @@
   "Zhonya's Hourglass"
  ],
  "fifth": [
-  "Cryptbloom",
   "Banshee's Veil",
+  "Cryptbloom",
   "Shadowflame",
   "Void Staff"
  ],
@@ -30,7 +30,7 @@
   "Banshee's Veil",
   "Void Staff",
   "Cryptbloom",
-  "Malignance"
+  "Zhonya's Hourglass"
  ],
  "pool": [
   "Hextech Alternator",
@@ -41,8 +41,7 @@
   "Shadowflame",
   "Void Staff",
   "Zhonya's Hourglass",
-  "Cryptbloom",
   "Banshee's Veil",
-  "Malignance"
+  "Cryptbloom"
  ]
 }

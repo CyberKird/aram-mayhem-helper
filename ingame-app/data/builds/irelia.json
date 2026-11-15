@@ -19,14 +19,14 @@
  "fourth": [
   "Ravenous Hydra",
   "Spirit Visage",
-  "Titanic Hydra",
-  "Trinity Force"
+  "Trinity Force",
+  "Titanic Hydra"
  ],
  "fifth": [
   "Ravenous Hydra",
-  "Spirit Visage",
   "Terminus",
-  "Sterak's Gage"
+  "Spirit Visage",
+  "Trinity Force"
  ],
  "sixth": [
   "Spirit Visage",
@@ -43,10 +43,9 @@
   "Death's Dance",
   "Ravenous Hydra",
   "Spirit Visage",
-  "Titanic Hydra",
   "Trinity Force",
+  "Titanic Hydra",
   "Terminus",
-  "Sterak's Gage",
   "Overlord's Bloodmail"
  ]
 }

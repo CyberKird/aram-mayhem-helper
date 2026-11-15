@@ -7,13 +7,13 @@
   "Mark"
  ],
  "starting": [
-  "Needlessly Large Rod"
+  "Lost Chapter"
  ],
  "core": [
-  "Shadowflame",
-  "Sorcerer's Shoes",
   "Blackfire Torch",
-  "Liandry's Torment"
+  "Sorcerer's Shoes",
+  "Liandry's Torment",
+  "Shadowflame"
  ],
  "fourth": [
   "Stormsurge",
@@ -23,22 +23,22 @@
  ],
  "fifth": [
   "Stormsurge",
-  "Void Staff",
   "Malignance",
+  "Void Staff",
   "Rabadon's Deathcap"
  ],
  "sixth": [
   "Stormsurge",
-  "Malignance",
+  "Luden's Echo",
   "Void Staff",
-  "Luden's Echo"
+  "Malignance"
  ],
  "pool": [
-  "Needlessly Large Rod",
-  "Shadowflame",
-  "Sorcerer's Shoes",
+  "Lost Chapter",
   "Blackfire Torch",
+  "Sorcerer's Shoes",
   "Liandry's Torment",
+  "Shadowflame",
   "Stormsurge",
   "Rabadon's Deathcap",
   "Void Staff",

@@ -26,13 +26,13 @@
   "Jak'Sho, The Protean",
   "Lord Dominik's Regards",
   "Unending Despair",
-  "Force of Nature"
+  "Sundered Sky"
  ],
  "sixth": [
-  "Jak'Sho, The Protean",
   "Lord Dominik's Regards",
+  "Jak'Sho, The Protean",
   "Unending Despair",
-  "Frozen Heart"
+  "Randuin's Omen"
  ],
  "pool": [
   "Ruby Crystal",
@@ -45,6 +45,8 @@
   "Frozen Heart",
   "Lord Dominik's Regards",
   "Force of Nature",
-  "Unending Despair"
+  "Unending Despair",
+  "Sundered Sky",
+  "Randuin's Omen"
  ]
 }

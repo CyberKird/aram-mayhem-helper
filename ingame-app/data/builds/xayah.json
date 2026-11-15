@@ -13,14 +13,14 @@
  "core": [
   "Yun Tal Wildarrows",
   "Berserker's Greaves",
-  "Infinity Edge",
-  "Lord Dominik's Regards"
+  "Lord Dominik's Regards",
+  "Infinity Edge"
  ],
  "fourth": [
   "Navori Flickerblade",
   "Bloodthirster",
   "The Collector",
-  "Blade of The Ruined King"
+  "Runaan's Hurricane"
  ],
  "fifth": [
   "Bloodthirster",
@@ -32,20 +32,21 @@
   "Bloodthirster",
   "Mercurial Scimitar",
   "Phantom Dancer",
-  "Navori Flickerblade"
+  "Blade of The Ruined King"
  ],
  "pool": [
   "Long Sword",
   "Guardian's Blade",
   "Yun Tal Wildarrows",
   "Berserker's Greaves",
-  "Infinity Edge",
   "Lord Dominik's Regards",
+  "Infinity Edge",
   "Navori Flickerblade",
   "Bloodthirster",
   "The Collector",
-  "Blade of The Ruined King",
+  "Runaan's Hurricane",
   "Kraken Slayer",
+  "Blade of The Ruined King",
   "Mercurial Scimitar",
   "Phantom Dancer"
  ]

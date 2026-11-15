@@ -18,14 +18,14 @@
  "fourth": [
   "Rylai's Crystal Scepter",
   "Liandry's Torment",
-  "Void Staff",
-  "Stormsurge"
+  "Stormsurge",
+  "Void Staff"
  ],
  "fifth": [
   "Archangel's Staff",
   "Stormsurge",
-  "Void Staff",
-  "Rylai's Crystal Scepter"
+  "Rylai's Crystal Scepter",
+  "Void Staff"
  ],
  "sixth": [
   "Stormsurge",
@@ -41,8 +41,8 @@
   "Shadowflame",
   "Rylai's Crystal Scepter",
   "Liandry's Torment",
-  "Void Staff",
   "Stormsurge",
+  "Void Staff",
   "Archangel's Staff",
   "Zhonya's Hourglass"
  ]

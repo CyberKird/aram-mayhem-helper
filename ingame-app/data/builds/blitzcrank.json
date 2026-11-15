@@ -12,7 +12,7 @@
  ],
  "core": [
   "Heartsteel",
-  "Mercury's Treads",
+  "Plated Steelcaps",
   "Unending Despair",
   "Warmog's Armor"
  ],
@@ -31,14 +31,14 @@
  "sixth": [
   "Zhonya's Hourglass",
   "Stormsurge",
-  "Spirit Visage",
+  "Void Staff",
   "Rabadon's Deathcap"
  ],
  "pool": [
   "Giant's Belt",
   "Ruby Crystal",
   "Heartsteel",
-  "Mercury's Treads",
+  "Plated Steelcaps",
   "Unending Despair",
   "Warmog's Armor",
   "Frozen Heart",
@@ -49,6 +49,6 @@
   "Rabadon's Deathcap",
   "Zhonya's Hourglass",
   "Stormsurge",
-  "Spirit Visage"
+  "Void Staff"
  ]
 }

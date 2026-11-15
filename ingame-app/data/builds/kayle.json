@@ -13,7 +13,7 @@
  ],
  "core": [
   "Nashor's Tooth",
-  "Berserker's Greaves",
+  "Sorcerer's Shoes",
   "Dusk and Dawn",
   "Rabadon's Deathcap"
  ],
@@ -32,15 +32,15 @@
  "sixth": [
   "Void Staff",
   "Statikk Shiv",
-  "Riftmaker",
-  "Terminus"
+  "Shadowflame",
+  "Hextech Gunblade"
  ],
  "pool": [
   "Blasting Wand",
   "Dagger",
   "Glowing Mote",
   "Nashor's Tooth",
-  "Berserker's Greaves",
+  "Sorcerer's Shoes",
   "Dusk and Dawn",
   "Rabadon's Deathcap",
   "Shadowflame",
@@ -48,6 +48,7 @@
   "Guinsoo's Rageblade",
   "Terminus",
   "Void Staff",
-  "Riftmaker"
+  "Riftmaker",
+  "Hextech Gunblade"
  ]
 }

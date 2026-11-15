@@ -17,8 +17,8 @@
   "Liandry's Torment"
  ],
  "fourth": [
-  "Rabadon's Deathcap",
   "Bloodletter's Curse",
+  "Rabadon's Deathcap",
   "Archangel's Staff",
   "Shadowflame"
  ],
@@ -30,9 +30,9 @@
  ],
  "sixth": [
   "Bloodletter's Curse",
-  "Archangel's Staff",
   "Rabadon's Deathcap",
-  "Void Staff"
+  "Archangel's Staff",
+  "Shadowflame"
  ],
  "pool": [
   "Refillable Potion",
@@ -41,10 +41,9 @@
   "Sorcerer's Shoes",
   "Rylai's Crystal Scepter",
   "Liandry's Torment",
-  "Rabadon's Deathcap",
   "Bloodletter's Curse",
+  "Rabadon's Deathcap",
   "Archangel's Staff",
-  "Shadowflame",
-  "Void Staff"
+  "Shadowflame"
  ]
 }

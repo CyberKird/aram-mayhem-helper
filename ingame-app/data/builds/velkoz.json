@@ -17,21 +17,21 @@
   "Shadowflame"
  ],
  "fourth": [
-  "Archangel's Staff",
   "Rabadon's Deathcap",
+  "Archangel's Staff",
   "Stormsurge",
-  "Horizon Focus"
+  "Malignance"
  ],
  "fifth": [
   "Horizon Focus",
-  "Archangel's Staff",
   "Stormsurge",
+  "Archangel's Staff",
   "Rabadon's Deathcap"
  ],
  "sixth": [
-  "Stormsurge",
   "Banshee's Veil",
   "Horizon Focus",
+  "Stormsurge",
   "Archangel's Staff"
  ],
  "pool": [
@@ -41,9 +41,10 @@
   "Sorcerer's Shoes",
   "Liandry's Torment",
   "Shadowflame",
-  "Archangel's Staff",
   "Rabadon's Deathcap",
+  "Archangel's Staff",
   "Stormsurge",
+  "Malignance",
   "Horizon Focus",
   "Banshee's Veil"
  ]

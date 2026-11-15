@@ -7,19 +7,19 @@
   "Mark"
  ],
  "starting": [
-  "Lost Chapter"
+  "Needlessly Large Rod"
  ],
  "core": [
-  "Luden's Echo",
-  "Sorcerer's Shoes",
   "Shadowflame",
+  "Sorcerer's Shoes",
+  "Stormsurge",
   "Rabadon's Deathcap"
  ],
  "fourth": [
   "Riftmaker",
   "Warmog's Armor",
-  "Winter's Approach",
-  "Unending Despair"
+  "Spirit Visage",
+  "Winter's Approach"
  ],
  "fifth": [
   "Riftmaker",
@@ -29,22 +29,21 @@
  ],
  "sixth": [
   "Riftmaker",
-  "Spirit Visage",
   "Void Staff",
+  "Spirit Visage",
   "Jak'Sho, The Protean"
  ],
  "pool": [
-  "Lost Chapter",
-  "Luden's Echo",
-  "Sorcerer's Shoes",
+  "Needlessly Large Rod",
   "Shadowflame",
+  "Sorcerer's Shoes",
+  "Stormsurge",
   "Rabadon's Deathcap",
   "Riftmaker",
   "Warmog's Armor",
-  "Winter's Approach",
-  "Unending Despair",
-  "Void Staff",
   "Spirit Visage",
+  "Winter's Approach",
+  "Void Staff",
   "Jak'Sho, The Protean"
  ]
 }

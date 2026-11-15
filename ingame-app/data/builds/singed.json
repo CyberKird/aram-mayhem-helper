@@ -20,8 +20,8 @@
  "fourth": [
   "Riftmaker",
   "Winter's Approach",
-  "Force of Nature",
-  "Warmog's Armor"
+  "Warmog's Armor",
+  "Force of Nature"
  ],
  "fifth": [
   "Rabadon's Deathcap",
@@ -30,10 +30,10 @@
   "Winter's Approach"
  ],
  "sixth": [
-  "Rabadon's Deathcap",
   "Bloodletter's Curse",
-  "Warmog's Armor",
-  "Riftmaker"
+  "Rabadon's Deathcap",
+  "Riftmaker",
+  "Warmog's Armor"
  ],
  "pool": [
   "Health Potion",
@@ -44,8 +44,8 @@
   "Rylai's Crystal Scepter",
   "Riftmaker",
   "Winter's Approach",
-  "Force of Nature",
   "Warmog's Armor",
+  "Force of Nature",
   "Rabadon's Deathcap",
   "Bloodletter's Curse"
  ]

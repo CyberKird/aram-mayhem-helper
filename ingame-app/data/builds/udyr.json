@@ -7,12 +7,12 @@
   "Mark"
  ],
  "starting": [
-  "Haunting Guise"
+  "Needlessly Large Rod"
  ],
  "core": [
-  "Liandry's Torment",
-  "Sorcerer's Shoes",
   "Shadowflame",
+  "Sorcerer's Shoes",
+  "Liandry's Torment",
   "Rabadon's Deathcap"
  ],
  "fourth": [
@@ -31,19 +31,19 @@
   "Stormsurge",
   "Void Staff",
   "Dusk and Dawn",
-  "Zhonya's Hourglass"
+  "Blackfire Torch"
  ],
  "pool": [
-  "Haunting Guise",
-  "Liandry's Torment",
-  "Sorcerer's Shoes",
+  "Needlessly Large Rod",
   "Shadowflame",
+  "Sorcerer's Shoes",
+  "Liandry's Torment",
   "Rabadon's Deathcap",
   "Stormsurge",
   "Void Staff",
   "Lord Dominik's Regards",
   "Infinity Edge",
   "Dusk and Dawn",
-  "Zhonya's Hourglass"
+  "Blackfire Torch"
  ]
 }

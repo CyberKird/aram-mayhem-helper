@@ -25,13 +25,13 @@
  "fifth": [
   "Endless Hunger",
   "Overlord's Bloodmail",
-  "Sterak's Gage",
-  "Jak'Sho, The Protean"
+  "Jak'Sho, The Protean",
+  "Sterak's Gage"
  ],
  "sixth": [
-  "Jak'Sho, The Protean",
   "Spirit Visage",
   "Sterak's Gage",
+  "Jak'Sho, The Protean",
   "Endless Hunger"
  ],
  "pool": [
@@ -45,8 +45,8 @@
   "Endless Hunger",
   "Black Cleaver",
   "Death's Dance",
-  "Sterak's Gage",
   "Jak'Sho, The Protean",
+  "Sterak's Gage",
   "Spirit Visage"
  ]
 }

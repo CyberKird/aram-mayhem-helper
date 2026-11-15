@@ -7,7 +7,8 @@
   "Ghost"
  ],
  "starting": [
-  "Serrated Dirk"
+  "Long Sword",
+  "Pickaxe"
  ],
  "core": [
   "Serpent's Fang",
@@ -17,31 +18,32 @@
  ],
  "fourth": [
   "Hexoptics C44",
-  "Infinity Edge",
   "Lord Dominik's Regards",
+  "Infinity Edge",
   "Phantom Dancer"
  ],
  "fifth": [
   "Hubris",
-  "Edge of Night",
   "Lord Dominik's Regards",
+  "Edge of Night",
   "Hexoptics C44"
  ],
  "sixth": [
   "Endless Hunger",
   "Youmuu's Ghostblade",
-  "Lord Dominik's Regards",
-  "Edge of Night"
+  "Edge of Night",
+  "Lord Dominik's Regards"
  ],
  "pool": [
-  "Serrated Dirk",
+  "Long Sword",
+  "Pickaxe",
   "Serpent's Fang",
   "Boots of Swiftness",
   "The Collector",
   "Axiom Arc",
   "Hexoptics C44",
-  "Infinity Edge",
   "Lord Dominik's Regards",
+  "Infinity Edge",
   "Phantom Dancer",
   "Hubris",
   "Edge of Night",
