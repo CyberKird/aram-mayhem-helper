@@ -4,47 +4,48 @@
  "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
-  "Cleanse"
+  "Ghost"
  ],
  "starting": [
-  "Dagger"
+  "Long Sword",
+  "Recurve Bow"
  ],
  "core": [
-  "Statikk Shiv",
+  "Blade of The Ruined King",
   "Berserker's Greaves",
-  "Guinsoo's Rageblade",
+  "Runaan's Hurricane",
   "Terminus"
  ],
  "fourth": [
-  "Runaan's Hurricane",
-  "Blade of The Ruined King",
+  "Guinsoo's Rageblade",
   "Wit's End",
-  "Infinity Edge"
+  "The Collector",
+  "Lord Dominik's Regards"
  ],
  "fifth": [
-  "Wit's End",
-  "Bloodthirster",
+  "Guinsoo's Rageblade",
   "Jak'Sho, The Protean",
-  "Kraken Slayer"
+  "Wit's End",
+  "Bloodthirster"
  ],
  "sixth": [
-  "Jak'Sho, The Protean",
-  "Wit's End",
   "Bloodthirster",
-  "Kraken Slayer"
+  "Wit's End",
+  "Jak'Sho, The Protean",
+  "Guinsoo's Rageblade"
  ],
  "pool": [
-  "Dagger",
-  "Statikk Shiv",
-  "Berserker's Greaves",
-  "Guinsoo's Rageblade",
-  "Terminus",
-  "Runaan's Hurricane",
+  "Long Sword",
+  "Recurve Bow",
   "Blade of The Ruined King",
+  "Berserker's Greaves",
+  "Runaan's Hurricane",
+  "Terminus",
+  "Guinsoo's Rageblade",
   "Wit's End",
-  "Infinity Edge",
-  "Bloodthirster",
+  "The Collector",
+  "Lord Dominik's Regards",
   "Jak'Sho, The Protean",
-  "Kraken Slayer"
+  "Bloodthirster"
  ]
 }

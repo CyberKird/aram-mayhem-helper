@@ -12,7 +12,7 @@
  ],
  "core": [
   "Dusk and Dawn",
-  "Plated Steelcaps",
+  "Mercury's Treads",
   "Blade of The Ruined King",
   "Death's Dance"
  ],
@@ -25,26 +25,29 @@
  "fifth": [
   "Endless Hunger",
   "Riftmaker",
-  "Spear of Shojin",
-  "Sterak's Gage"
+  "Sundered Sky",
+  "Rabadon's Deathcap"
  ],
  "sixth": [
   "Endless Hunger",
-  "Riftmaker",
   "Sterak's Gage",
-  "Hextech Gunblade"
+  "Spear of Shojin",
+  "Spirit Visage"
  ],
  "pool": [
   "Ruby Crystal",
   "Sheen",
   "Dusk and Dawn",
-  "Plated Steelcaps",
+  "Mercury's Treads",
   "Blade of The Ruined King",
   "Death's Dance",
   "Endless Hunger",
   "Riftmaker",
   "Spear of Shojin",
   "Hextech Gunblade",
-  "Sterak's Gage"
+  "Sundered Sky",
+  "Rabadon's Deathcap",
+  "Sterak's Gage",
+  "Spirit Visage"
  ]
 }

@@ -13,25 +13,25 @@
  "core": [
   "Essence Reaver",
   "Ionian Boots of Lucidity",
-  "Infinity Edge",
-  "The Collector"
+  "The Collector",
+  "Infinity Edge"
  ],
  "fourth": [
   "Lord Dominik's Regards",
   "Axiom Arc",
   "Mortal Reminder",
-  "Rabadon's Deathcap"
+  "Malignance"
  ],
  "fifth": [
   "Endless Hunger",
   "Hubris",
-  "Death's Dance",
-  "Lord Dominik's Regards"
+  "Lord Dominik's Regards",
+  "Death's Dance"
  ],
  "sixth": [
   "Voltaic Cyclosword",
-  "Endless Hunger",
   "Death's Dance",
+  "Endless Hunger",
   "Hubris"
  ],
  "pool": [
@@ -39,12 +39,12 @@
   "Sheen",
   "Essence Reaver",
   "Ionian Boots of Lucidity",
-  "Infinity Edge",
   "The Collector",
+  "Infinity Edge",
   "Lord Dominik's Regards",
   "Axiom Arc",
   "Mortal Reminder",
-  "Rabadon's Deathcap",
+  "Malignance",
   "Endless Hunger",
   "Hubris",
   "Death's Dance",

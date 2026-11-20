@@ -7,44 +7,44 @@
   "Mark"
  ],
  "starting": [
-  "Long Sword",
-  "Guardian's Blade"
+  "Dagger",
+  "Vampiric Scepter"
  ],
  "core": [
-  "Yun Tal Wildarrows",
+  "Blade of The Ruined King",
   "Mercury's Treads",
-  "Death's Dance",
-  "Infinity Edge"
+  "Kraken Slayer",
+  "Death's Dance"
  ],
  "fourth": [
   "Lord Dominik's Regards",
+  "Infinity Edge",
   "Endless Hunger",
-  "Guinsoo's Rageblade",
   "Terminus"
  ],
  "fifth": [
-  "Lord Dominik's Regards",
-  "Endless Hunger",
+  "Infinity Edge",
   "Guinsoo's Rageblade",
-  "Terminus"
+  "Lord Dominik's Regards",
+  "Endless Hunger"
  ],
  "sixth": [
   "Endless Hunger",
   "Guinsoo's Rageblade",
   "Terminus",
-  "Spirit Visage"
+  "Infinity Edge"
  ],
  "pool": [
-  "Long Sword",
-  "Guardian's Blade",
-  "Yun Tal Wildarrows",
+  "Dagger",
+  "Vampiric Scepter",
+  "Blade of The Ruined King",
   "Mercury's Treads",
+  "Kraken Slayer",
   "Death's Dance",
-  "Infinity Edge",
   "Lord Dominik's Regards",
+  "Infinity Edge",
   "Endless Hunger",
-  "Guinsoo's Rageblade",
   "Terminus",
-  "Spirit Visage"
+  "Guinsoo's Rageblade"
  ]
 }

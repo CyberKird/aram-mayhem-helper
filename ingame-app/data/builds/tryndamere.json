@@ -8,45 +8,46 @@
  ],
  "starting": [
   "Long Sword",
-  "Recurve Bow"
+  "Pickaxe"
  ],
  "core": [
   "Blade of The Ruined King",
   "Berserker's Greaves",
-  "Infinity Edge",
-  "Phantom Dancer"
+  "Phantom Dancer",
+  "Infinity Edge"
  ],
  "fourth": [
   "Lord Dominik's Regards",
-  "The Collector",
   "Fiendhunter Bolts",
+  "The Collector",
   "Navori Flickerblade"
  ],
  "fifth": [
   "Endless Hunger",
   "Death's Dance",
   "Lord Dominik's Regards",
-  "The Collector"
+  "Bloodthirster"
  ],
  "sixth": [
-  "Endless Hunger",
   "Death's Dance",
+  "Endless Hunger",
   "Lord Dominik's Regards",
   "Experimental Hexplate"
  ],
  "pool": [
   "Long Sword",
-  "Recurve Bow",
+  "Pickaxe",
   "Blade of The Ruined King",
   "Berserker's Greaves",
-  "Infinity Edge",
   "Phantom Dancer",
+  "Infinity Edge",
   "Lord Dominik's Regards",
-  "The Collector",
   "Fiendhunter Bolts",
+  "The Collector",
   "Navori Flickerblade",
   "Endless Hunger",
   "Death's Dance",
+  "Bloodthirster",
   "Experimental Hexplate"
  ]
 }

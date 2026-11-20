@@ -7,26 +7,25 @@
   "Ghost"
  ],
  "starting": [
-  "Tear of the Goddess",
-  "Bandleglass Mirror"
+  "Lost Chapter"
  ],
  "core": [
-  "Moonstone Renewer",
+  "Malignance",
   "Ionian Boots of Lucidity",
-  "Whispering Circlet",
-  "Ardent Censer"
+  "Ardent Censer",
+  "Moonstone Renewer"
  ],
  "fourth": [
-  "Staff of Flowing Water",
   "Dawncore",
+  "Staff of Flowing Water",
   "Redemption",
-  "Archangel's Staff"
+  "Whispering Circlet"
  ],
  "fifth": [
   "Staff of Flowing Water",
   "Dawncore",
   "Redemption",
-  "Archangel's Staff"
+  "Whispering Circlet"
  ],
  "sixth": [
   "Staff of Flowing Water",
@@ -35,16 +34,15 @@
   "Mikael's Blessing"
  ],
  "pool": [
-  "Tear of the Goddess",
-  "Bandleglass Mirror",
-  "Moonstone Renewer",
+  "Lost Chapter",
+  "Malignance",
   "Ionian Boots of Lucidity",
-  "Whispering Circlet",
   "Ardent Censer",
-  "Staff of Flowing Water",
+  "Moonstone Renewer",
   "Dawncore",
+  "Staff of Flowing Water",
   "Redemption",
-  "Archangel's Staff",
+  "Whispering Circlet",
   "Mikael's Blessing"
  ]
 }

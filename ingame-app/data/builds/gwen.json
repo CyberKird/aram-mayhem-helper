@@ -7,19 +7,20 @@
   "Mark"
  ],
  "starting": [
-  "Needlessly Large Rod"
+  "Ruby Crystal",
+  "Sheen"
  ],
  "core": [
-  "Shadowflame",
-  "Sorcerer's Shoes",
+  "Dusk and Dawn",
+  "Mercury's Treads",
   "Nashor's Tooth",
-  "Dusk and Dawn"
+  "Shadowflame"
  ],
  "fourth": [
   "Rabadon's Deathcap",
   "Riftmaker",
   "Void Staff",
-  "Spirit Visage"
+  "Zhonya's Hourglass"
  ],
  "fifth": [
   "Rabadon's Deathcap",
@@ -28,20 +29,22 @@
   "Spirit Visage"
  ],
  "sixth": [
-  "Rabadon's Deathcap",
   "Void Staff",
+  "Rabadon's Deathcap",
   "Riftmaker",
   "Cosmic Drive"
  ],
  "pool": [
-  "Needlessly Large Rod",
-  "Shadowflame",
-  "Sorcerer's Shoes",
-  "Nashor's Tooth",
+  "Ruby Crystal",
+  "Sheen",
   "Dusk and Dawn",
+  "Mercury's Treads",
+  "Nashor's Tooth",
+  "Shadowflame",
   "Rabadon's Deathcap",
   "Riftmaker",
   "Void Staff",
+  "Zhonya's Hourglass",
   "Spirit Visage",
   "Cosmic Drive"
  ]

@@ -13,38 +13,37 @@
   "Malignance",
   "Sorcerer's Shoes",
   "Liandry's Torment",
-  "Statikk Shiv"
- ],
- "fourth": [
-  "Rabadon's Deathcap",
-  "Nashor's Tooth",
-  "Shadowflame",
   "Blackfire Torch"
  ],
+ "fourth": [
+  "Statikk Shiv",
+  "Rabadon's Deathcap",
+  "Shadowflame",
+  "Nashor's Tooth"
+ ],
  "fifth": [
+  "Statikk Shiv",
   "Shadowflame",
   "Rabadon's Deathcap",
-  "Nashor's Tooth",
-  "Void Staff"
+  "Nashor's Tooth"
  ],
  "sixth": [
-  "Stormsurge",
   "Shadowflame",
-  "Void Staff",
-  "Archangel's Staff"
+  "Stormsurge",
+  "Rabadon's Deathcap",
+  "Void Staff"
  ],
  "pool": [
   "Lost Chapter",
   "Malignance",
   "Sorcerer's Shoes",
   "Liandry's Torment",
+  "Blackfire Torch",
   "Statikk Shiv",
   "Rabadon's Deathcap",
-  "Nashor's Tooth",
   "Shadowflame",
-  "Blackfire Torch",
-  "Void Staff",
+  "Nashor's Tooth",
   "Stormsurge",
-  "Archangel's Staff"
+  "Void Staff"
  ]
 }

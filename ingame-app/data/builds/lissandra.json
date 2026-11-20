@@ -7,12 +7,12 @@
   "Mark"
  ],
  "starting": [
-  "Needlessly Large Rod"
+  "Lost Chapter"
  ],
  "core": [
-  "Shadowflame",
+  "Luden's Echo",
   "Sorcerer's Shoes",
-  "Malignance",
+  "Shadowflame",
   "Rabadon's Deathcap"
  ],
  "fourth": [
@@ -23,21 +23,21 @@
  ],
  "fifth": [
   "Stormsurge",
-  "Void Staff",
   "Zhonya's Hourglass",
+  "Void Staff",
   "Cryptbloom"
  ],
  "sixth": [
   "Banshee's Veil",
   "Stormsurge",
-  "Void Staff",
-  "Zhonya's Hourglass"
+  "Cryptbloom",
+  "Void Staff"
  ],
  "pool": [
-  "Needlessly Large Rod",
-  "Shadowflame",
+  "Lost Chapter",
+  "Luden's Echo",
   "Sorcerer's Shoes",
-  "Malignance",
+  "Shadowflame",
   "Rabadon's Deathcap",
   "Stormsurge",
   "Void Staff",

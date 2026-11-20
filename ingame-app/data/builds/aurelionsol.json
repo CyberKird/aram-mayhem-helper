@@ -18,20 +18,20 @@
  "fourth": [
   "Bloodletter's Curse",
   "Rabadon's Deathcap",
-  "Warmog's Armor",
-  "Shadowflame"
+  "Archangel's Staff",
+  "Warmog's Armor"
  ],
  "fifth": [
-  "Bloodletter's Curse",
   "Warmog's Armor",
+  "Bloodletter's Curse",
   "Riftmaker",
   "Rabadon's Deathcap"
  ],
  "sixth": [
-  "Bloodletter's Curse",
-  "Riftmaker",
   "Warmog's Armor",
-  "Archangel's Staff"
+  "Riftmaker",
+  "Bloodletter's Curse",
+  "Shadowflame"
  ],
  "pool": [
   "Lost Chapter",
@@ -41,9 +41,9 @@
   "Liandry's Torment",
   "Bloodletter's Curse",
   "Rabadon's Deathcap",
+  "Archangel's Staff",
   "Warmog's Armor",
-  "Shadowflame",
   "Riftmaker",
-  "Archangel's Staff"
+  "Shadowflame"
  ]
 }

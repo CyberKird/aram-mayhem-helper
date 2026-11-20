@@ -7,42 +7,42 @@
   "Ghost"
  ],
  "starting": [
-  "Needlessly Large Rod"
+  "Lost Chapter"
  ],
  "core": [
-  "Shadowflame",
-  "Sorcerer's Shoes",
   "Luden's Echo",
+  "Sorcerer's Shoes",
+  "Shadowflame",
   "Rabadon's Deathcap"
  ],
  "fourth": [
-  "Stormsurge",
   "Void Staff",
+  "Stormsurge",
   "Zhonya's Hourglass"
  ],
  "fifth": [
-  "Banshee's Veil",
   "Stormsurge",
   "Void Staff",
-  "Cryptbloom"
+  "Banshee's Veil",
+  "Malignance"
  ],
  "sixth": [
-  "Banshee's Veil",
   "Stormsurge",
   "Void Staff",
-  "Archangel's Staff"
+  "Banshee's Veil",
+  "Cryptbloom"
  ],
  "pool": [
-  "Needlessly Large Rod",
-  "Shadowflame",
-  "Sorcerer's Shoes",
+  "Lost Chapter",
   "Luden's Echo",
+  "Sorcerer's Shoes",
+  "Shadowflame",
   "Rabadon's Deathcap",
-  "Stormsurge",
   "Void Staff",
+  "Stormsurge",
   "Zhonya's Hourglass",
   "Banshee's Veil",
-  "Cryptbloom",
-  "Archangel's Staff"
+  "Malignance",
+  "Cryptbloom"
  ]
 }

@@ -4,7 +4,7 @@
  "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
-  "Ghost"
+  "Mark"
  ],
  "starting": [
   "Lost Chapter"
@@ -17,21 +17,21 @@
  ],
  "fourth": [
   "Rylai's Crystal Scepter",
-  "Liandry's Torment",
   "Stormsurge",
+  "Liandry's Torment",
   "Void Staff"
  ],
  "fifth": [
   "Archangel's Staff",
   "Stormsurge",
-  "Rylai's Crystal Scepter",
-  "Void Staff"
+  "Liandry's Torment",
+  "Rylai's Crystal Scepter"
  ],
  "sixth": [
-  "Stormsurge",
-  "Archangel's Staff",
+  "Rylai's Crystal Scepter",
   "Void Staff",
-  "Zhonya's Hourglass"
+  "Archangel's Staff",
+  "Stormsurge"
  ],
  "pool": [
   "Lost Chapter",
@@ -40,10 +40,9 @@
   "Rabadon's Deathcap",
   "Shadowflame",
   "Rylai's Crystal Scepter",
-  "Liandry's Torment",
   "Stormsurge",
+  "Liandry's Torment",
   "Void Staff",
-  "Archangel's Staff",
-  "Zhonya's Hourglass"
+  "Archangel's Staff"
  ]
 }

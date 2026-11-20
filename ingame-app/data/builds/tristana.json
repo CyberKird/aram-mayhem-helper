@@ -7,44 +7,45 @@
   "Ghost"
  ],
  "starting": [
-  "Noonquiver"
+  "Dagger",
+  "Serrated Dirk"
  ],
  "core": [
-  "Lord Dominik's Regards",
+  "The Collector",
   "Berserker's Greaves",
   "Yun Tal Wildarrows",
   "Infinity Edge"
  ],
  "fourth": [
+  "Lord Dominik's Regards",
   "Bloodthirster",
   "Navori Flickerblade",
-  "Runaan's Hurricane",
-  "The Collector"
+  "Runaan's Hurricane"
  ],
  "fifth": [
   "Bloodthirster",
+  "Lord Dominik's Regards",
   "Kraken Slayer",
-  "Navori Flickerblade",
-  "Phantom Dancer"
+  "Navori Flickerblade"
  ],
  "sixth": [
   "Bloodthirster",
-  "Kraken Slayer",
   "Phantom Dancer",
-  "Blade of The Ruined King"
+  "Lord Dominik's Regards",
+  "Kraken Slayer"
  ],
  "pool": [
-  "Noonquiver",
-  "Lord Dominik's Regards",
+  "Dagger",
+  "Serrated Dirk",
+  "The Collector",
   "Berserker's Greaves",
   "Yun Tal Wildarrows",
   "Infinity Edge",
+  "Lord Dominik's Regards",
   "Bloodthirster",
   "Navori Flickerblade",
   "Runaan's Hurricane",
-  "The Collector",
   "Kraken Slayer",
-  "Phantom Dancer",
-  "Blade of The Ruined King"
+  "Phantom Dancer"
  ]
 }

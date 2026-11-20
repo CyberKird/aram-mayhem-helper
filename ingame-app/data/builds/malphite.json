@@ -7,46 +7,41 @@
   "Mark"
  ],
  "starting": [
-  "Cloth Armor",
-  "Cloth Armor",
-  "Chain Vest"
+  "Lost Chapter"
  ],
  "core": [
-  "Heartsteel",
-  "Plated Steelcaps",
-  "Thornmail",
-  "Unending Despair"
+  "Malignance",
+  "Sorcerer's Shoes",
+  "Shadowflame",
+  "Rabadon's Deathcap"
  ],
  "fourth": [
   "Jak'Sho, The Protean",
   "Randuin's Omen",
-  "Warmog's Armor",
-  "Rabadon's Deathcap"
+  "Unending Despair",
+  "Warmog's Armor"
  ],
  "fifth": [
   "Jak'Sho, The Protean",
   "Randuin's Omen",
-  "Warmog's Armor",
-  "Stormsurge"
+  "Unending Despair",
+  "Warmog's Armor"
  ],
  "sixth": [
-  "Frozen Heart",
-  "Jak'Sho, The Protean",
   "Randuin's Omen",
+  "Unending Despair",
+  "Jak'Sho, The Protean",
   "Warmog's Armor"
  ],
  "pool": [
-  "Cloth Armor",
-  "Chain Vest",
-  "Heartsteel",
-  "Plated Steelcaps",
-  "Thornmail",
-  "Unending Despair",
+  "Lost Chapter",
+  "Malignance",
+  "Sorcerer's Shoes",
+  "Shadowflame",
+  "Rabadon's Deathcap",
   "Jak'Sho, The Protean",
   "Randuin's Omen",
-  "Warmog's Armor",
-  "Rabadon's Deathcap",
-  "Stormsurge",
-  "Frozen Heart"
+  "Unending Despair",
+  "Warmog's Armor"
  ]
 }

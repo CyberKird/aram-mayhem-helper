@@ -18,20 +18,20 @@
  "fourth": [
   "Shadowflame",
   "Nashor's Tooth",
-  "Guinsoo's Rageblade",
-  "Statikk Shiv"
+  "Statikk Shiv",
+  "Guinsoo's Rageblade"
  ],
  "fifth": [
-  "Void Staff",
   "Shadowflame",
-  "Terminus",
+  "Void Staff",
+  "Statikk Shiv",
   "Nashor's Tooth"
  ],
  "sixth": [
   "Void Staff",
+  "Zhonya's Hourglass",
   "Shadowflame",
-  "Nashor's Tooth",
-  "Statikk Shiv"
+  "Nashor's Tooth"
  ],
  "pool": [
   "Lost Chapter",
@@ -41,9 +41,9 @@
   "Rabadon's Deathcap",
   "Shadowflame",
   "Nashor's Tooth",
-  "Guinsoo's Rageblade",
   "Statikk Shiv",
+  "Guinsoo's Rageblade",
   "Void Staff",
-  "Terminus"
+  "Zhonya's Hourglass"
  ]
 }

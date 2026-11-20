@@ -8,43 +8,43 @@
  ],
  "starting": [
   "Long Sword",
-  "Pickaxe"
+  "Caulfield's Warhammer"
  ],
  "core": [
-  "Endless Hunger",
-  "Mercury's Treads",
   "Hubris",
-  "Death's Dance"
+  "Mercury's Treads",
+  "Axiom Arc",
+  "Endless Hunger"
  ],
  "fourth": [
   "Lord Dominik's Regards",
   "Serylda's Grudge",
   "Infinity Edge",
-  "Spear of Shojin"
+  "Death's Dance"
  ],
  "fifth": [
   "Lord Dominik's Regards",
   "Serylda's Grudge",
-  "Infinity Edge",
-  "Axiom Arc"
+  "Death's Dance",
+  "Infinity Edge"
  ],
  "sixth": [
-  "Lord Dominik's Regards",
+  "Death's Dance",
   "Serylda's Grudge",
-  "Spear of Shojin",
-  "Axiom Arc"
+  "Lord Dominik's Regards",
+  "Spear of Shojin"
  ],
  "pool": [
   "Long Sword",
-  "Pickaxe",
-  "Endless Hunger",
-  "Mercury's Treads",
+  "Caulfield's Warhammer",
   "Hubris",
-  "Death's Dance",
+  "Mercury's Treads",
+  "Axiom Arc",
+  "Endless Hunger",
   "Lord Dominik's Regards",
   "Serylda's Grudge",
   "Infinity Edge",
-  "Spear of Shojin",
-  "Axiom Arc"
+  "Death's Dance",
+  "Spear of Shojin"
  ]
 }

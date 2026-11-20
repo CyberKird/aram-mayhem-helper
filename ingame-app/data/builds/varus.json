@@ -7,47 +7,45 @@
   "Ghost"
  ],
  "starting": [
-  "Boots",
-  "Amplifying Tome",
-  "Scout's Slingshot"
+  "Tear of the Goddess",
+  "Guardian's Blade"
  ],
  "core": [
-  "Statikk Shiv",
-  "Berserker's Greaves",
-  "Guinsoo's Rageblade",
-  "Terminus"
+  "Hubris",
+  "Ionian Boots of Lucidity",
+  "Manamune",
+  "Endless Hunger"
  ],
  "fourth": [
-  "Edge of Night",
+  "Terminus",
   "Lord Dominik's Regards",
-  "Serylda's Grudge",
-  "Infinity Edge"
+  "Edge of Night",
+  "Serylda's Grudge"
  ],
  "fifth": [
+  "Terminus",
   "Edge of Night",
-  "Lord Dominik's Regards",
   "Serylda's Grudge",
-  "Void Staff"
+  "Lord Dominik's Regards"
  ],
  "sixth": [
   "Edge of Night",
-  "Youmuu's Ghostblade",
-  "Void Staff",
-  "Lord Dominik's Regards"
+  "Terminus",
+  "Voltaic Cyclosword",
+  "Youmuu's Ghostblade"
  ],
  "pool": [
-  "Boots",
-  "Amplifying Tome",
-  "Scout's Slingshot",
-  "Statikk Shiv",
-  "Berserker's Greaves",
-  "Guinsoo's Rageblade",
+  "Tear of the Goddess",
+  "Guardian's Blade",
+  "Hubris",
+  "Ionian Boots of Lucidity",
+  "Manamune",
+  "Endless Hunger",
   "Terminus",
-  "Edge of Night",
   "Lord Dominik's Regards",
+  "Edge of Night",
   "Serylda's Grudge",
-  "Infinity Edge",
-  "Void Staff",
+  "Voltaic Cyclosword",
   "Youmuu's Ghostblade"
  ]
 }

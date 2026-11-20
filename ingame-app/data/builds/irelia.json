@@ -8,44 +8,47 @@
  ],
  "starting": [
   "Long Sword",
-  "Caulfield's Warhammer"
+  "Pickaxe",
+  "Refillable Potion"
  ],
  "core": [
-  "Endless Hunger",
-  "Mercury's Treads",
   "Blade of The Ruined King",
-  "Death's Dance"
+  "Mercury's Treads",
+  "Death's Dance",
+  "Endless Hunger"
  ],
  "fourth": [
   "Ravenous Hydra",
-  "Spirit Visage",
   "Trinity Force",
-  "Titanic Hydra"
+  "Spirit Visage",
+  "Wit's End"
  ],
  "fifth": [
   "Ravenous Hydra",
   "Terminus",
   "Spirit Visage",
-  "Trinity Force"
+  "Sundered Sky"
  ],
  "sixth": [
   "Spirit Visage",
-  "Overlord's Bloodmail",
-  "Ravenous Hydra",
-  "Terminus"
+  "Terminus",
+  "Sundered Sky",
+  "Titanic Hydra"
  ],
  "pool": [
   "Long Sword",
-  "Caulfield's Warhammer",
-  "Endless Hunger",
-  "Mercury's Treads",
+  "Pickaxe",
+  "Refillable Potion",
   "Blade of The Ruined King",
+  "Mercury's Treads",
   "Death's Dance",
+  "Endless Hunger",
   "Ravenous Hydra",
-  "Spirit Visage",
   "Trinity Force",
-  "Titanic Hydra",
+  "Spirit Visage",
+  "Wit's End",
   "Terminus",
-  "Overlord's Bloodmail"
+  "Sundered Sky",
+  "Titanic Hydra"
  ]
 }

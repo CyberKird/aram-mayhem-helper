@@ -7,13 +7,14 @@
   "Mark"
  ],
  "starting": [
-  "Needlessly Large Rod"
+  "Boots",
+  "Hextech Alternator"
  ],
  "core": [
-  "Shadowflame",
+  "Stormsurge",
   "Sorcerer's Shoes",
-  "Rabadon's Deathcap",
-  "Stormsurge"
+  "Shadowflame",
+  "Rabadon's Deathcap"
  ],
  "fourth": [
   "Void Staff",
@@ -23,8 +24,8 @@
  "fifth": [
   "Banshee's Veil",
   "Void Staff",
-  "Zhonya's Hourglass",
-  "Malignance"
+  "Malignance",
+  "Zhonya's Hourglass"
  ],
  "sixth": [
   "Banshee's Veil",
@@ -33,11 +34,12 @@
   "Zhonya's Hourglass"
  ],
  "pool": [
-  "Needlessly Large Rod",
-  "Shadowflame",
-  "Sorcerer's Shoes",
-  "Rabadon's Deathcap",
+  "Boots",
+  "Hextech Alternator",
   "Stormsurge",
+  "Sorcerer's Shoes",
+  "Shadowflame",
+  "Rabadon's Deathcap",
   "Void Staff",
   "Malignance",
   "Zhonya's Hourglass",

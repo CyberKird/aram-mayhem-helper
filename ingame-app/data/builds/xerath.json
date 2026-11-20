@@ -7,8 +7,9 @@
   "Ghost"
  ],
  "starting": [
-  "Refillable Potion",
-  "Lost Chapter"
+  "Amplifying Tome",
+  "Amplifying Tome",
+  "Tear of the Goddess"
  ],
  "core": [
   "Luden's Echo",
@@ -24,19 +25,19 @@
  ],
  "fifth": [
   "Stormsurge",
-  "Horizon Focus",
   "Malignance",
-  "Archangel's Staff"
+  "Horizon Focus",
+  "Void Staff"
  ],
  "sixth": [
-  "Banshee's Veil",
   "Stormsurge",
-  "Malignance",
-  "Horizon Focus"
+  "Banshee's Veil",
+  "Horizon Focus",
+  "Malignance"
  ],
  "pool": [
-  "Refillable Potion",
-  "Lost Chapter",
+  "Amplifying Tome",
+  "Tear of the Goddess",
   "Luden's Echo",
   "Sorcerer's Shoes",
   "Rabadon's Deathcap",

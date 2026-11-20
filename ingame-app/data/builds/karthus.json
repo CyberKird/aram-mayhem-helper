@@ -7,7 +7,8 @@
   "Mark"
  ],
  "starting": [
-  "Lost Chapter"
+  "Amplifying Tome",
+  "Fated Ashes"
  ],
  "core": [
   "Blackfire Torch",
@@ -23,18 +24,19 @@
  ],
  "fifth": [
   "Stormsurge",
-  "Malignance",
   "Void Staff",
+  "Malignance",
   "Rabadon's Deathcap"
  ],
  "sixth": [
   "Stormsurge",
-  "Luden's Echo",
-  "Void Staff",
-  "Malignance"
+  "Malignance",
+  "Horizon Focus",
+  "Void Staff"
  ],
  "pool": [
-  "Lost Chapter",
+  "Amplifying Tome",
+  "Fated Ashes",
   "Blackfire Torch",
   "Sorcerer's Shoes",
   "Liandry's Torment",
@@ -43,6 +45,6 @@
   "Rabadon's Deathcap",
   "Void Staff",
   "Malignance",
-  "Luden's Echo"
+  "Horizon Focus"
  ]
 }

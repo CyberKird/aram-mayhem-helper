@@ -17,20 +17,20 @@
  ],
  "fourth": [
   "Terminus",
-  "Bloodthirster",
   "Lord Dominik's Regards",
-  "Fiendhunter Bolts"
+  "Bloodthirster",
+  "The Collector"
  ],
  "fifth": [
   "Terminus",
-  "Bloodthirster",
   "Lord Dominik's Regards",
+  "Bloodthirster",
   "Fiendhunter Bolts"
  ],
  "sixth": [
-  "Hexoptics C44",
-  "Terminus",
   "Bloodthirster",
+  "Hexoptics C44",
+  "Lord Dominik's Regards",
   "Mercurial Scimitar"
  ],
  "pool": [
@@ -40,8 +40,9 @@
   "Runaan's Hurricane",
   "Infinity Edge",
   "Terminus",
-  "Bloodthirster",
   "Lord Dominik's Regards",
+  "Bloodthirster",
+  "The Collector",
   "Fiendhunter Bolts",
   "Hexoptics C44",
   "Mercurial Scimitar"

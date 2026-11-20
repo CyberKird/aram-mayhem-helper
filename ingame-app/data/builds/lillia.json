@@ -19,19 +19,19 @@
   "Bloodletter's Curse",
   "Shadowflame",
   "Riftmaker",
-  "Cosmic Drive"
+  "Rylai's Crystal Scepter"
  ],
  "fifth": [
-  "Shadowflame",
   "Bloodletter's Curse",
+  "Shadowflame",
   "Void Staff",
   "Riftmaker"
  ],
  "sixth": [
   "Shadowflame",
+  "Bloodletter's Curse",
   "Void Staff",
-  "Archangel's Staff",
-  "Bloodletter's Curse"
+  "Riftmaker"
  ],
  "pool": [
   "Lost Chapter",
@@ -42,8 +42,7 @@
   "Bloodletter's Curse",
   "Shadowflame",
   "Riftmaker",
-  "Cosmic Drive",
-  "Void Staff",
-  "Archangel's Staff"
+  "Rylai's Crystal Scepter",
+  "Void Staff"
  ]
 }

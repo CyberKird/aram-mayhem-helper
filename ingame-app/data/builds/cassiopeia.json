@@ -13,25 +13,25 @@
  "core": [
   "Rod of Ages",
   "Sorcerer's Shoes",
-  "Liandry's Torment",
-  "Archangel's Staff"
+  "Archangel's Staff",
+  "Liandry's Torment"
  ],
  "fourth": [
-  "Rabadon's Deathcap",
   "Bloodletter's Curse",
+  "Rabadon's Deathcap",
   "Blackfire Torch",
-  "Riftmaker"
+  "Rylai's Crystal Scepter"
  ],
  "fifth": [
-  "Blackfire Torch",
   "Rabadon's Deathcap",
-  "Bloodletter's Curse",
-  "Riftmaker"
+  "Riftmaker",
+  "Blackfire Torch",
+  "Rylai's Crystal Scepter"
  ],
  "sixth": [
-  "Bloodletter's Curse",
   "Riftmaker",
-  "Rabadon's Deathcap",
+  "Bloodletter's Curse",
+  "Shadowflame",
   "Rylai's Crystal Scepter"
  ],
  "pool": [
@@ -39,12 +39,13 @@
   "Tear of the Goddess",
   "Rod of Ages",
   "Sorcerer's Shoes",
-  "Liandry's Torment",
   "Archangel's Staff",
-  "Rabadon's Deathcap",
+  "Liandry's Torment",
   "Bloodletter's Curse",
+  "Rabadon's Deathcap",
   "Blackfire Torch",
+  "Rylai's Crystal Scepter",
   "Riftmaker",
-  "Rylai's Crystal Scepter"
+  "Shadowflame"
  ]
 }

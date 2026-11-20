@@ -7,45 +7,45 @@
   "Ghost"
  ],
  "starting": [
-  "Long Sword",
-  "Pickaxe"
+  "Tear of the Goddess",
+  "Guardian's Blade"
  ],
  "core": [
-  "Endless Hunger",
-  "Mercury's Treads",
   "Trinity Force",
-  "Manamune"
+  "Ionian Boots of Lucidity",
+  "Manamune",
+  "Endless Hunger"
  ],
  "fourth": [
   "Spear of Shojin",
   "Archangel's Staff",
-  "Serylda's Grudge",
-  "Lord Dominik's Regards"
+  "Lord Dominik's Regards",
+  "Infinity Edge"
  ],
  "fifth": [
-  "Archangel's Staff",
   "Spear of Shojin",
   "Serylda's Grudge",
+  "Archangel's Staff",
   "Lord Dominik's Regards"
  ],
  "sixth": [
-  "Horizon Focus",
   "Archangel's Staff",
-  "Void Staff",
+  "Horizon Focus",
+  "Lord Dominik's Regards",
   "Serylda's Grudge"
  ],
  "pool": [
-  "Long Sword",
-  "Pickaxe",
-  "Endless Hunger",
-  "Mercury's Treads",
+  "Tear of the Goddess",
+  "Guardian's Blade",
   "Trinity Force",
+  "Ionian Boots of Lucidity",
   "Manamune",
+  "Endless Hunger",
   "Spear of Shojin",
   "Archangel's Staff",
-  "Serylda's Grudge",
   "Lord Dominik's Regards",
-  "Horizon Focus",
-  "Void Staff"
+  "Infinity Edge",
+  "Serylda's Grudge",
+  "Horizon Focus"
  ]
 }

@@ -7,44 +7,43 @@
   "Ghost"
  ],
  "starting": [
-  "Needlessly Large Rod"
+  "Lost Chapter"
  ],
  "core": [
-  "Shadowflame",
+  "Luden's Echo",
   "Sorcerer's Shoes",
-  "Dusk and Dawn",
+  "Shadowflame",
   "Rabadon's Deathcap"
  ],
  "fourth": [
-  "Archangel's Staff",
   "Void Staff",
-  "Guinsoo's Rageblade",
-  "Runaan's Hurricane"
+  "Archangel's Staff",
+  "Runaan's Hurricane",
+  "Terminus"
  ],
  "fifth": [
-  "Terminus",
-  "Void Staff",
   "Archangel's Staff",
+  "Void Staff",
+  "Terminus",
   "Wit's End"
  ],
  "sixth": [
-  "Terminus",
   "Void Staff",
-  "Nashor's Tooth",
-  "Archangel's Staff"
+  "Terminus",
+  "Archangel's Staff",
+  "Kraken Slayer"
  ],
  "pool": [
-  "Needlessly Large Rod",
-  "Shadowflame",
+  "Lost Chapter",
+  "Luden's Echo",
   "Sorcerer's Shoes",
-  "Dusk and Dawn",
+  "Shadowflame",
   "Rabadon's Deathcap",
-  "Archangel's Staff",
   "Void Staff",
-  "Guinsoo's Rageblade",
+  "Archangel's Staff",
   "Runaan's Hurricane",
   "Terminus",
   "Wit's End",
-  "Nashor's Tooth"
+  "Kraken Slayer"
  ]
 }

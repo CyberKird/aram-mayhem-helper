@@ -12,13 +12,13 @@
  ],
  "core": [
   "Heartsteel",
-  "Plated Steelcaps",
+  "Mercury's Treads",
   "Unending Despair",
   "Warmog's Armor"
  ],
  "fourth": [
-  "Hollow Radiance",
   "Winter's Approach",
+  "Hollow Radiance",
   "Spirit Visage",
   "Jak'Sho, The Protean"
  ],
@@ -26,27 +26,26 @@
   "Riftmaker",
   "Hollow Radiance",
   "Winter's Approach",
-  "Frozen Heart"
+  "Jak'Sho, The Protean"
  ],
  "sixth": [
   "Riftmaker",
   "Force of Nature",
   "Jak'Sho, The Protean",
-  "Spirit Visage"
+  "Winter's Approach"
  ],
  "pool": [
   "Giant's Belt",
   "Ruby Crystal",
   "Heartsteel",
-  "Plated Steelcaps",
+  "Mercury's Treads",
   "Unending Despair",
   "Warmog's Armor",
-  "Hollow Radiance",
   "Winter's Approach",
+  "Hollow Radiance",
   "Spirit Visage",
   "Jak'Sho, The Protean",
   "Riftmaker",
-  "Frozen Heart",
   "Force of Nature"
  ]
 }

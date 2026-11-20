@@ -11,7 +11,7 @@
  ],
  "core": [
   "Blackfire Torch",
-  "Sorcerer's Shoes",
+  "Ionian Boots of Lucidity",
   "Liandry's Torment",
   "Rabadon's Deathcap"
  ],
@@ -28,15 +28,15 @@
   "Void Staff"
  ],
  "sixth": [
-  "Banshee's Veil",
   "Archangel's Staff",
   "Void Staff",
-  "Shadowflame"
+  "Shadowflame",
+  "Zhonya's Hourglass"
  ],
  "pool": [
   "Lost Chapter",
   "Blackfire Torch",
-  "Sorcerer's Shoes",
+  "Ionian Boots of Lucidity",
   "Liandry's Torment",
   "Rabadon's Deathcap",
   "Archangel's Staff",
@@ -44,6 +44,6 @@
   "Rylai's Crystal Scepter",
   "Void Staff",
   "Bloodletter's Curse",
-  "Banshee's Veil"
+  "Zhonya's Hourglass"
  ]
 }

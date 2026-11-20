@@ -13,39 +13,40 @@
  "core": [
   "Heartsteel",
   "Mercury's Treads",
-  "Titanic Hydra",
-  "Overlord's Bloodmail"
+  "Overlord's Bloodmail",
+  "Warmog's Armor"
  ],
  "fourth": [
-  "Warmog's Armor",
-  "Sterak's Gage",
+  "Titanic Hydra",
   "Black Cleaver",
-  "Spirit Visage"
+  "Spirit Visage",
+  "Kaenic Rookern"
  ],
  "fifth": [
-  "Warmog's Armor",
-  "Sterak's Gage",
+  "Unending Despair",
   "Spirit Visage",
-  "Unending Despair"
+  "Sterak's Gage",
+  "Black Cleaver"
  ],
  "sixth": [
-  "Warmog's Armor",
-  "Endless Hunger",
   "Sterak's Gage",
-  "Spirit Visage"
+  "Endless Hunger",
+  "Unending Despair",
+  "Kaenic Rookern"
  ],
  "pool": [
   "Giant's Belt",
   "Ruby Crystal",
   "Heartsteel",
   "Mercury's Treads",
-  "Titanic Hydra",
   "Overlord's Bloodmail",
   "Warmog's Armor",
-  "Sterak's Gage",
+  "Titanic Hydra",
   "Black Cleaver",
   "Spirit Visage",
+  "Kaenic Rookern",
   "Unending Despair",
+  "Sterak's Gage",
   "Endless Hunger"
  ]
 }

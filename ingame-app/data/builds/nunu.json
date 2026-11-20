@@ -7,47 +7,44 @@
   "Mark"
  ],
  "starting": [
-  "Giant's Belt",
-  "Ruby Crystal"
+  "Hextech Alternator"
  ],
  "core": [
-  "Heartsteel",
-  "Mercury's Treads",
-  "Unending Despair",
-  "Warmog's Armor"
+  "Stormsurge",
+  "Sorcerer's Shoes",
+  "Rabadon's Deathcap",
+  "Shadowflame"
  ],
  "fourth": [
-  "Rabadon's Deathcap",
+  "Unending Despair",
+  "Warmog's Armor",
   "Spirit Visage",
-  "Banshee's Veil",
-  "Stormsurge"
+  "Void Staff"
  ],
  "fifth": [
   "Jak'Sho, The Protean",
-  "Stormsurge",
-  "Void Staff",
+  "Warmog's Armor",
+  "Unending Despair",
   "Banshee's Veil"
  ],
  "sixth": [
   "Riftmaker",
-  "Luden's Echo",
   "Banshee's Veil",
-  "Void Staff"
+  "Void Staff",
+  "Jak'Sho, The Protean"
  ],
  "pool": [
-  "Giant's Belt",
-  "Ruby Crystal",
-  "Heartsteel",
-  "Mercury's Treads",
+  "Hextech Alternator",
+  "Stormsurge",
+  "Sorcerer's Shoes",
+  "Rabadon's Deathcap",
+  "Shadowflame",
   "Unending Despair",
   "Warmog's Armor",
-  "Rabadon's Deathcap",
   "Spirit Visage",
-  "Banshee's Veil",
-  "Stormsurge",
-  "Jak'Sho, The Protean",
   "Void Staff",
-  "Riftmaker",
-  "Luden's Echo"
+  "Jak'Sho, The Protean",
+  "Banshee's Veil",
+  "Riftmaker"
  ]
 }

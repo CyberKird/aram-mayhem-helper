@@ -14,25 +14,25 @@
   "Voltaic Cyclosword",
   "Ionian Boots of Lucidity",
   "Manamune",
-  "Lord Dominik's Regards"
+  "Mortal Reminder"
  ],
  "fourth": [
   "Endless Hunger",
+  "Lord Dominik's Regards",
   "Infinity Edge",
-  "Serylda's Grudge",
-  "The Collector"
+  "Serylda's Grudge"
  ],
  "fifth": [
   "Endless Hunger",
-  "Edge of Night",
+  "Lord Dominik's Regards",
   "Death's Dance",
   "Infinity Edge"
  ],
  "sixth": [
   "Endless Hunger",
-  "Youmuu's Ghostblade",
   "Death's Dance",
-  "Edge of Night"
+  "Lord Dominik's Regards",
+  "Youmuu's Ghostblade"
  ],
  "pool": [
   "Tear of the Goddess",
@@ -40,12 +40,11 @@
   "Voltaic Cyclosword",
   "Ionian Boots of Lucidity",
   "Manamune",
-  "Lord Dominik's Regards",
+  "Mortal Reminder",
   "Endless Hunger",
+  "Lord Dominik's Regards",
   "Infinity Edge",
   "Serylda's Grudge",
-  "The Collector",
-  "Edge of Night",
   "Death's Dance",
   "Youmuu's Ghostblade"
  ]

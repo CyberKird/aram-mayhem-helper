@@ -4,7 +4,7 @@
  "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
-  "Heal"
+  "Ghost"
  ],
  "starting": [
   "Tear of the Goddess",
@@ -13,38 +13,38 @@
  "core": [
   "Moonstone Renewer",
   "Ionian Boots of Lucidity",
-  "Staff of Flowing Water",
-  "Whispering Circlet"
+  "Whispering Circlet",
+  "Ardent Censer"
  ],
  "fourth": [
+  "Staff of Flowing Water",
+  "Archangel's Staff",
   "Dawncore",
-  "Rabadon's Deathcap",
-  "Ardent Censer",
-  "Archangel's Staff"
+  "Rabadon's Deathcap"
  ],
  "fifth": [
   "Dawncore",
-  "Archangel's Staff",
+  "Staff of Flowing Water",
   "Rabadon's Deathcap",
-  "Ardent Censer"
+  "Archangel's Staff"
  ],
  "sixth": [
   "Dawncore",
+  "Staff of Flowing Water",
   "Rabadon's Deathcap",
-  "Ardent Censer",
-  "Mikael's Blessing"
+  "Redemption"
  ],
  "pool": [
   "Tear of the Goddess",
   "Bandleglass Mirror",
   "Moonstone Renewer",
   "Ionian Boots of Lucidity",
-  "Staff of Flowing Water",
   "Whispering Circlet",
+  "Ardent Censer",
+  "Staff of Flowing Water",
+  "Archangel's Staff",
   "Dawncore",
   "Rabadon's Deathcap",
-  "Ardent Censer",
-  "Archangel's Staff",
-  "Mikael's Blessing"
+  "Redemption"
  ]
 }

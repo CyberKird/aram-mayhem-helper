@@ -7,44 +7,43 @@
   "Mark"
  ],
  "starting": [
-  "Blasting Wand",
-  "Amplifying Tome"
+  "Lost Chapter"
  ],
  "core": [
-  "Lich Bane",
+  "Luden's Echo",
   "Sorcerer's Shoes",
   "Shadowflame",
-  "Stormsurge"
+  "Rabadon's Deathcap"
  ],
  "fourth": [
-  "Rabadon's Deathcap",
+  "Lich Bane",
+  "Stormsurge",
   "Void Staff",
-  "Zhonya's Hourglass",
-  "Liandry's Torment"
+  "Zhonya's Hourglass"
  ],
  "fifth": [
-  "Rabadon's Deathcap",
+  "Lich Bane",
+  "Stormsurge",
   "Void Staff",
-  "Zhonya's Hourglass",
-  "Liandry's Torment"
+  "Zhonya's Hourglass"
  ],
  "sixth": [
   "Void Staff",
-  "Banshee's Veil",
+  "Nashor's Tooth",
   "Zhonya's Hourglass",
-  "Rabadon's Deathcap"
+  "Archangel's Staff"
  ],
  "pool": [
-  "Blasting Wand",
-  "Amplifying Tome",
-  "Lich Bane",
+  "Lost Chapter",
+  "Luden's Echo",
   "Sorcerer's Shoes",
   "Shadowflame",
-  "Stormsurge",
   "Rabadon's Deathcap",
+  "Lich Bane",
+  "Stormsurge",
   "Void Staff",
   "Zhonya's Hourglass",
-  "Liandry's Torment",
-  "Banshee's Veil"
+  "Nashor's Tooth",
+  "Archangel's Staff"
  ]
 }

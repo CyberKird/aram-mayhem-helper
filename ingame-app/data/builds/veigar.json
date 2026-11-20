@@ -7,7 +7,8 @@
   "Ghost"
  ],
  "starting": [
-  "Lost Chapter"
+  "Blasting Wand",
+  "Tear of the Goddess"
  ],
  "core": [
   "Rod of Ages",
@@ -17,32 +18,33 @@
  ],
  "fourth": [
   "Shadowflame",
-  "Stormsurge",
   "Void Staff",
-  "Luden's Echo"
+  "Stormsurge",
+  "Warmog's Armor"
  ],
  "fifth": [
   "Stormsurge",
-  "Banshee's Veil",
   "Shadowflame",
+  "Banshee's Veil",
   "Void Staff"
  ],
  "sixth": [
-  "Banshee's Veil",
-  "Stormsurge",
   "Shadowflame",
-  "Void Staff"
+  "Stormsurge",
+  "Void Staff",
+  "Banshee's Veil"
  ],
  "pool": [
-  "Lost Chapter",
+  "Blasting Wand",
+  "Tear of the Goddess",
   "Rod of Ages",
   "Sorcerer's Shoes",
   "Rabadon's Deathcap",
   "Archangel's Staff",
   "Shadowflame",
-  "Stormsurge",
   "Void Staff",
-  "Luden's Echo",
+  "Stormsurge",
+  "Warmog's Armor",
   "Banshee's Veil"
  ]
 }

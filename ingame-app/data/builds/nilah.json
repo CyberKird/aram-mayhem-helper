@@ -18,8 +18,8 @@
  ],
  "fourth": [
   "Death's Dance",
-  "Bloodthirster",
   "Navori Flickerblade",
+  "Bloodthirster",
   "Mortal Reminder"
  ],
  "fifth": [
@@ -29,10 +29,10 @@
   "Navori Flickerblade"
  ],
  "sixth": [
-  "Endless Hunger",
   "Death's Dance",
-  "Ravenous Hydra",
-  "Bloodthirster"
+  "Endless Hunger",
+  "Bloodthirster",
+  "Navori Flickerblade"
  ],
  "pool": [
   "Long Sword",
@@ -42,10 +42,9 @@
   "Infinity Edge",
   "Lord Dominik's Regards",
   "Death's Dance",
-  "Bloodthirster",
   "Navori Flickerblade",
+  "Bloodthirster",
   "Mortal Reminder",
-  "Endless Hunger",
-  "Ravenous Hydra"
+  "Endless Hunger"
  ]
 }

@@ -12,39 +12,39 @@
  ],
  "core": [
   "Heartsteel",
-  "Plated Steelcaps",
+  "Mercury's Treads",
   "Unending Despair",
   "Warmog's Armor"
  ],
  "fourth": [
   "Riftmaker",
   "Hollow Radiance",
-  "Spirit Visage",
-  "Jak'Sho, The Protean"
+  "Jak'Sho, The Protean",
+  "Spirit Visage"
  ],
  "fifth": [
   "Riftmaker",
   "Overlord's Bloodmail",
-  "Jak'Sho, The Protean",
-  "Force of Nature"
+  "Spirit Visage",
+  "Jak'Sho, The Protean"
  ],
  "sixth": [
   "Riftmaker",
-  "Overlord's Bloodmail",
   "Force of Nature",
-  "Spirit Visage"
+  "Overlord's Bloodmail",
+  "Jak'Sho, The Protean"
  ],
  "pool": [
   "Giant's Belt",
   "Ruby Crystal",
   "Heartsteel",
-  "Plated Steelcaps",
+  "Mercury's Treads",
   "Unending Despair",
   "Warmog's Armor",
   "Riftmaker",
   "Hollow Radiance",
-  "Spirit Visage",
   "Jak'Sho, The Protean",
+  "Spirit Visage",
   "Overlord's Bloodmail",
   "Force of Nature"
  ]

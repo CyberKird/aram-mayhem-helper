@@ -4,7 +4,7 @@
  "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
-  "Ghost"
+  "Mark"
  ],
  "starting": [
   "Giant's Belt",
@@ -12,7 +12,7 @@
  ],
  "core": [
   "Heartsteel",
-  "Sorcerer's Shoes",
+  "Mercury's Treads",
   "Unending Despair",
   "Spirit Visage"
  ],
@@ -23,28 +23,29 @@
   "Rylai's Crystal Scepter"
  ],
  "fifth": [
-  "Riftmaker",
-  "Warmog's Armor",
   "Rabadon's Deathcap",
-  "Rylai's Crystal Scepter"
+  "Warmog's Armor",
+  "Riftmaker",
+  "Winter's Approach"
  ],
  "sixth": [
   "Rabadon's Deathcap",
-  "Warmog's Armor",
   "Riftmaker",
-  "Rylai's Crystal Scepter"
+  "Warmog's Armor",
+  "Jak'Sho, The Protean"
  ],
  "pool": [
   "Giant's Belt",
   "Ruby Crystal",
   "Heartsteel",
-  "Sorcerer's Shoes",
+  "Mercury's Treads",
   "Unending Despair",
   "Spirit Visage",
   "Warmog's Armor",
   "Riftmaker",
   "Winter's Approach",
   "Rylai's Crystal Scepter",
-  "Rabadon's Deathcap"
+  "Rabadon's Deathcap",
+  "Jak'Sho, The Protean"
  ]
 }

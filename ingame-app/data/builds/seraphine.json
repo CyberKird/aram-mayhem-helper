@@ -7,46 +7,45 @@
   "Ghost"
  ],
  "starting": [
-  "Tear of the Goddess",
-  "Bandleglass Mirror"
+  "Refillable Potion",
+  "Lost Chapter"
  ],
  "core": [
-  "Moonstone Renewer",
-  "Ionian Boots of Lucidity",
-  "Whispering Circlet",
-  "Ardent Censer"
+  "Blackfire Torch",
+  "Sorcerer's Shoes",
+  "Liandry's Torment",
+  "Rylai's Crystal Scepter"
  ],
  "fourth": [
-  "Archangel's Staff",
   "Rabadon's Deathcap",
-  "Blackfire Torch",
-  "Rylai's Crystal Scepter"
+  "Archangel's Staff",
+  "Stormsurge",
+  "Shadowflame"
  ],
  "fifth": [
   "Archangel's Staff",
-  "Stormsurge",
   "Rabadon's Deathcap",
-  "Cryptbloom"
+  "Cryptbloom",
+  "Shadowflame"
  ],
  "sixth": [
   "Cryptbloom",
-  "Archangel's Staff",
   "Rabadon's Deathcap",
-  "Shadowflame"
+  "Archangel's Staff",
+  "Malignance"
  ],
  "pool": [
-  "Tear of the Goddess",
-  "Bandleglass Mirror",
-  "Moonstone Renewer",
-  "Ionian Boots of Lucidity",
-  "Whispering Circlet",
-  "Ardent Censer",
-  "Archangel's Staff",
-  "Rabadon's Deathcap",
+  "Refillable Potion",
+  "Lost Chapter",
   "Blackfire Torch",
+  "Sorcerer's Shoes",
+  "Liandry's Torment",
   "Rylai's Crystal Scepter",
+  "Rabadon's Deathcap",
+  "Archangel's Staff",
   "Stormsurge",
+  "Shadowflame",
   "Cryptbloom",
-  "Shadowflame"
+  "Malignance"
  ]
 }

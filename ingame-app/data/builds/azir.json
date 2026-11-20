@@ -4,28 +4,30 @@
  "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
-  "Ghost"
+  "Barrier"
  ],
  "starting": [
-  "Needlessly Large Rod"
+  "Recurve Bow",
+  "Amplifying Tome",
+  "Glowing Mote"
  ],
  "core": [
-  "Shadowflame",
-  "Sorcerer's Shoes",
   "Nashor's Tooth",
+  "Berserker's Greaves",
+  "Shadowflame",
   "Rabadon's Deathcap"
  ],
  "fourth": [
   "Void Staff",
-  "Dusk and Dawn",
   "Zhonya's Hourglass",
+  "Dusk and Dawn",
   "Liandry's Torment"
  ],
  "fifth": [
   "Void Staff",
-  "Dusk and Dawn",
+  "Riftmaker",
   "Zhonya's Hourglass",
-  "Riftmaker"
+  "Dusk and Dawn"
  ],
  "sixth": [
   "Void Staff",
@@ -34,14 +36,16 @@
   "Dusk and Dawn"
  ],
  "pool": [
-  "Needlessly Large Rod",
-  "Shadowflame",
-  "Sorcerer's Shoes",
+  "Recurve Bow",
+  "Amplifying Tome",
+  "Glowing Mote",
   "Nashor's Tooth",
+  "Berserker's Greaves",
+  "Shadowflame",
   "Rabadon's Deathcap",
   "Void Staff",
-  "Dusk and Dawn",
   "Zhonya's Hourglass",
+  "Dusk and Dawn",
   "Liandry's Torment",
   "Riftmaker",
   "Banshee's Veil"

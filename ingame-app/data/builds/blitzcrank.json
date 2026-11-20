@@ -7,48 +7,46 @@
   "Mark"
  ],
  "starting": [
-  "Giant's Belt",
-  "Ruby Crystal"
+  "Refillable Potion",
+  "Lost Chapter"
  ],
  "core": [
-  "Heartsteel",
-  "Plated Steelcaps",
+  "Malignance",
+  "Sorcerer's Shoes",
+  "Luden's Echo",
+  "Shadowflame"
+ ],
+ "fourth": [
+  "Jak'Sho, The Protean",
+  "Winter's Approach",
   "Unending Despair",
   "Warmog's Armor"
  ],
- "fourth": [
-  "Frozen Heart",
-  "Winter's Approach",
-  "Jak'Sho, The Protean",
-  "Kaenic Rookern"
- ],
  "fifth": [
-  "Archangel's Staff",
+  "Warmog's Armor",
   "Frozen Heart",
   "Jak'Sho, The Protean",
   "Rabadon's Deathcap"
  ],
  "sixth": [
-  "Zhonya's Hourglass",
-  "Stormsurge",
-  "Void Staff",
-  "Rabadon's Deathcap"
+  "Jak'Sho, The Protean",
+  "Cryptbloom",
+  "Warmog's Armor",
+  "Unending Despair"
  ],
  "pool": [
-  "Giant's Belt",
-  "Ruby Crystal",
-  "Heartsteel",
-  "Plated Steelcaps",
+  "Refillable Potion",
+  "Lost Chapter",
+  "Malignance",
+  "Sorcerer's Shoes",
+  "Luden's Echo",
+  "Shadowflame",
+  "Jak'Sho, The Protean",
+  "Winter's Approach",
   "Unending Despair",
   "Warmog's Armor",
   "Frozen Heart",
-  "Winter's Approach",
-  "Jak'Sho, The Protean",
-  "Kaenic Rookern",
-  "Archangel's Staff",
   "Rabadon's Deathcap",
-  "Zhonya's Hourglass",
-  "Stormsurge",
-  "Void Staff"
+  "Cryptbloom"
  ]
 }

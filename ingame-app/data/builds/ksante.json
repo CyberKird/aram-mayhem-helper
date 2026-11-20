@@ -12,15 +12,15 @@
  ],
  "core": [
   "Heartsteel",
-  "Mercury's Treads",
+  "Plated Steelcaps",
   "Unending Despair",
   "Jak'Sho, The Protean"
  ],
  "fourth": [
+  "Spirit Visage",
   "Iceborn Gauntlet",
   "Warmog's Armor",
-  "Force of Nature",
-  "Spirit Visage"
+  "Randuin's Omen"
  ],
  "fifth": [
   "Frozen Heart",
@@ -38,13 +38,13 @@
   "Giant's Belt",
   "Ruby Crystal",
   "Heartsteel",
-  "Mercury's Treads",
+  "Plated Steelcaps",
   "Unending Despair",
   "Jak'Sho, The Protean",
+  "Spirit Visage",
   "Iceborn Gauntlet",
   "Warmog's Armor",
-  "Force of Nature",
-  "Spirit Visage",
+  "Randuin's Omen",
   "Frozen Heart"
  ]
 }

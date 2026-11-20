@@ -7,8 +7,6 @@
   "Mark"
  ],
  "starting": [
-  "Health Potion",
-  "Health Potion",
   "Catalyst of Aeons"
  ],
  "core": [
@@ -24,19 +22,18 @@
   "Force of Nature"
  ],
  "fifth": [
-  "Rabadon's Deathcap",
   "Riftmaker",
   "Warmog's Armor",
+  "Rabadon's Deathcap",
   "Winter's Approach"
  ],
  "sixth": [
   "Bloodletter's Curse",
   "Rabadon's Deathcap",
-  "Riftmaker",
-  "Warmog's Armor"
+  "Warmog's Armor",
+  "Dead Man's Plate"
  ],
  "pool": [
-  "Health Potion",
   "Catalyst of Aeons",
   "Rod of Ages",
   "Boots of Swiftness",
@@ -47,6 +44,7 @@
   "Warmog's Armor",
   "Force of Nature",
   "Rabadon's Deathcap",
-  "Bloodletter's Curse"
+  "Bloodletter's Curse",
+  "Dead Man's Plate"
  ]
 }

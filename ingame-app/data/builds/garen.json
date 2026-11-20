@@ -7,8 +7,8 @@
   "Mark"
  ],
  "starting": [
-  "Long Sword",
-  "Guardian's Blade"
+  "Dagger",
+  "Phage"
  ],
  "core": [
   "Stridebreaker",
@@ -17,15 +17,15 @@
   "Infinity Edge"
  ],
  "fourth": [
-  "Jak'Sho, The Protean",
   "Overlord's Bloodmail",
+  "Jak'Sho, The Protean",
   "Lord Dominik's Regards",
-  "Unending Despair"
+  "Death's Dance"
  ],
  "fifth": [
   "Endless Hunger",
-  "Lord Dominik's Regards",
   "Overlord's Bloodmail",
+  "Lord Dominik's Regards",
   "Death's Dance"
  ],
  "sixth": [
@@ -35,17 +35,16 @@
   "Overlord's Bloodmail"
  ],
  "pool": [
-  "Long Sword",
-  "Guardian's Blade",
+  "Dagger",
+  "Phage",
   "Stridebreaker",
   "Berserker's Greaves",
   "Phantom Dancer",
   "Infinity Edge",
-  "Jak'Sho, The Protean",
   "Overlord's Bloodmail",
+  "Jak'Sho, The Protean",
   "Lord Dominik's Regards",
-  "Unending Despair",
-  "Endless Hunger",
-  "Death's Dance"
+  "Death's Dance",
+  "Endless Hunger"
  ]
 }

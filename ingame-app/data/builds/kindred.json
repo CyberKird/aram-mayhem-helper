@@ -7,8 +7,8 @@
   "Ghost"
  ],
  "starting": [
-  "Long Sword",
-  "Pickaxe"
+  "Boots",
+  "Serrated Dirk"
  ],
  "core": [
   "The Collector",
@@ -17,34 +17,35 @@
   "Infinity Edge"
  ],
  "fourth": [
-  "Bloodthirster",
   "Lord Dominik's Regards",
+  "Bloodthirster",
   "Blade of The Ruined King",
   "Kraken Slayer"
  ],
  "fifth": [
-  "Lord Dominik's Regards",
-  "Bloodthirster",
-  "Kraken Slayer",
-  "Blade of The Ruined King"
- ],
- "sixth": [
   "Hexoptics C44",
-  "Bloodthirster",
   "Lord Dominik's Regards",
+  "Bloodthirster",
   "Kraken Slayer"
  ],
+ "sixth": [
+  "Bloodthirster",
+  "Hexoptics C44",
+  "Lord Dominik's Regards",
+  "Yun Tal Wildarrows"
+ ],
  "pool": [
-  "Long Sword",
-  "Pickaxe",
+  "Boots",
+  "Serrated Dirk",
   "The Collector",
   "Berserker's Greaves",
   "Runaan's Hurricane",
   "Infinity Edge",
-  "Bloodthirster",
   "Lord Dominik's Regards",
+  "Bloodthirster",
   "Blade of The Ruined King",
   "Kraken Slayer",
-  "Hexoptics C44"
+  "Hexoptics C44",
+  "Yun Tal Wildarrows"
  ]
 }

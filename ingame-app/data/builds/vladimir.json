@@ -4,48 +4,48 @@
  "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
-  "Ghost"
+  "Mark"
  ],
  "starting": [
-  "Amplifying Tome",
-  "Fiendish Codex"
+  "Giant's Belt",
+  "Ruby Crystal"
  ],
  "core": [
-  "Riftmaker",
-  "Sorcerer's Shoes",
+  "Heartsteel",
+  "Mercury's Treads",
+  "Warmog's Armor",
+  "Riftmaker"
+ ],
+ "fourth": [
+  "Void Staff",
+  "Rabadon's Deathcap",
+  "Stormsurge",
+  "Shadowflame"
+ ],
+ "fifth": [
+  "Void Staff",
+  "Stormsurge",
   "Rabadon's Deathcap",
   "Shadowflame"
  ],
- "fourth": [
-  "Stormsurge",
-  "Void Staff",
-  "Warmog's Armor",
-  "Zhonya's Hourglass"
- ],
- "fifth": [
-  "Stormsurge",
-  "Warmog's Armor",
-  "Void Staff",
-  "Spirit Visage"
- ],
  "sixth": [
-  "Warmog's Armor",
+  "Spirit Visage",
   "Stormsurge",
-  "Cosmic Drive",
-  "Void Staff"
+  "Void Staff",
+  "Cryptbloom"
  ],
  "pool": [
-  "Amplifying Tome",
-  "Fiendish Codex",
-  "Riftmaker",
-  "Sorcerer's Shoes",
-  "Rabadon's Deathcap",
-  "Shadowflame",
-  "Stormsurge",
-  "Void Staff",
+  "Giant's Belt",
+  "Ruby Crystal",
+  "Heartsteel",
+  "Mercury's Treads",
   "Warmog's Armor",
-  "Zhonya's Hourglass",
+  "Riftmaker",
+  "Void Staff",
+  "Rabadon's Deathcap",
+  "Stormsurge",
+  "Shadowflame",
   "Spirit Visage",
-  "Cosmic Drive"
+  "Cryptbloom"
  ]
 }

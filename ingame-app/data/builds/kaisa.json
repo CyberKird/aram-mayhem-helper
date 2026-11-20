@@ -7,42 +7,46 @@
   "Ghost"
  ],
  "starting": [
-  "Lost Chapter"
+  "Dagger",
+  "Dagger",
+  "Aether Wisp"
  ],
  "core": [
-  "Dusk and Dawn",
+  "Statikk Shiv",
   "Sorcerer's Shoes",
-  "Luden's Echo",
+  "Nashor's Tooth",
   "Shadowflame"
  ],
  "fourth": [
+  "Dusk and Dawn",
   "Rabadon's Deathcap",
   "Stormsurge",
-  "Horizon Focus",
-  "Void Staff"
+  "Manamune"
  ],
  "fifth": [
   "Stormsurge",
   "Horizon Focus",
-  "Rabadon's Deathcap",
-  "Void Staff"
+  "Dusk and Dawn",
+  "Rabadon's Deathcap"
  ],
  "sixth": [
   "Stormsurge",
-  "Horizon Focus",
   "Void Staff",
-  "Cryptbloom"
+  "Horizon Focus",
+  "Dusk and Dawn"
  ],
  "pool": [
-  "Lost Chapter",
-  "Dusk and Dawn",
+  "Dagger",
+  "Aether Wisp",
+  "Statikk Shiv",
   "Sorcerer's Shoes",
-  "Luden's Echo",
+  "Nashor's Tooth",
   "Shadowflame",
+  "Dusk and Dawn",
   "Rabadon's Deathcap",
   "Stormsurge",
+  "Manamune",
   "Horizon Focus",
-  "Void Staff",
-  "Cryptbloom"
+  "Void Staff"
  ]
 }

@@ -7,46 +7,47 @@
   "Mark"
  ],
  "starting": [
-  "Long Sword",
-  "Sheen"
+  "Giant's Belt",
+  "Ruby Crystal"
  ],
  "core": [
-  "Trinity Force",
+  "Heartsteel",
   "Mercury's Treads",
-  "Ravenous Hydra",
-  "Blade of The Ruined King"
+  "Overlord's Bloodmail",
+  "Titanic Hydra"
  ],
  "fourth": [
   "Death's Dance",
-  "Titanic Hydra",
   "Spirit Visage",
+  "Trinity Force",
   "Liandry's Torment"
  ],
  "fifth": [
   "Death's Dance",
-  "Overlord's Bloodmail",
-  "Titanic Hydra",
-  "Warmog's Armor"
+  "Trinity Force",
+  "Horizon Focus",
+  "Spirit Visage"
  ],
  "sixth": [
-  "Overlord's Bloodmail",
+  "Endless Hunger",
   "Death's Dance",
-  "Cryptbloom",
-  "Warmog's Armor"
+  "Warmog's Armor",
+  "Jak'Sho, The Protean"
  ],
  "pool": [
-  "Long Sword",
-  "Sheen",
-  "Trinity Force",
+  "Giant's Belt",
+  "Ruby Crystal",
+  "Heartsteel",
   "Mercury's Treads",
-  "Ravenous Hydra",
-  "Blade of The Ruined King",
-  "Death's Dance",
-  "Titanic Hydra",
-  "Spirit Visage",
-  "Liandry's Torment",
   "Overlord's Bloodmail",
+  "Titanic Hydra",
+  "Death's Dance",
+  "Spirit Visage",
+  "Trinity Force",
+  "Liandry's Torment",
+  "Horizon Focus",
+  "Endless Hunger",
   "Warmog's Armor",
-  "Cryptbloom"
+  "Jak'Sho, The Protean"
  ]
 }

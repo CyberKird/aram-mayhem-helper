@@ -12,42 +12,41 @@
  ],
  "core": [
   "Heartsteel",
-  "Mercury's Treads",
+  "Plated Steelcaps",
   "Unending Despair",
   "Warmog's Armor"
  ],
  "fourth": [
+  "Spirit Visage",
   "Jak'Sho, The Protean",
   "Rabadon's Deathcap",
-  "Winter's Approach",
-  "Spirit Visage"
+  "Winter's Approach"
  ],
  "fifth": [
   "Jak'Sho, The Protean",
   "Riftmaker",
-  "Shadowflame",
-  "Winter's Approach"
+  "Winter's Approach",
+  "Cryptbloom"
  ],
  "sixth": [
   "Riftmaker",
-  "Void Staff",
-  "Cryptbloom",
-  "Shadowflame"
+  "Shadowflame",
+  "Jak'Sho, The Protean",
+  "Cryptbloom"
  ],
  "pool": [
   "Giant's Belt",
   "Ruby Crystal",
   "Heartsteel",
-  "Mercury's Treads",
+  "Plated Steelcaps",
   "Unending Despair",
   "Warmog's Armor",
+  "Spirit Visage",
   "Jak'Sho, The Protean",
   "Rabadon's Deathcap",
   "Winter's Approach",
-  "Spirit Visage",
   "Riftmaker",
-  "Shadowflame",
-  "Void Staff",
-  "Cryptbloom"
+  "Cryptbloom",
+  "Shadowflame"
  ]
 }

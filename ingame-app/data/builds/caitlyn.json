@@ -8,7 +8,7 @@
  ],
  "starting": [
   "Long Sword",
-  "Guardian's Blade"
+  "Pickaxe"
  ],
  "core": [
   "The Collector",
@@ -20,7 +20,7 @@
   "Axiom Arc",
   "Bloodthirster",
   "Hexoptics C44",
-  "Rapid Firecannon"
+  "Yun Tal Wildarrows"
  ],
  "fifth": [
   "Axiom Arc",
@@ -29,14 +29,14 @@
   "Yun Tal Wildarrows"
  ],
  "sixth": [
-  "Hubris",
   "Endless Hunger",
   "Voltaic Cyclosword",
-  "Axiom Arc"
+  "Hubris",
+  "Edge of Night"
  ],
  "pool": [
   "Long Sword",
-  "Guardian's Blade",
+  "Pickaxe",
   "The Collector",
   "Berserker's Greaves",
   "Infinity Edge",
@@ -44,10 +44,10 @@
   "Axiom Arc",
   "Bloodthirster",
   "Hexoptics C44",
-  "Rapid Firecannon",
   "Yun Tal Wildarrows",
-  "Hubris",
   "Endless Hunger",
-  "Voltaic Cyclosword"
+  "Voltaic Cyclosword",
+  "Hubris",
+  "Edge of Night"
  ]
 }

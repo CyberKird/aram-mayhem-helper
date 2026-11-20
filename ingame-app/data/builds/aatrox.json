@@ -7,46 +7,46 @@
   "Mark"
  ],
  "starting": [
-  "Giant's Belt",
-  "Ruby Crystal"
+  "Long Sword",
+  "Guardian's Blade"
  ],
  "core": [
-  "Heartsteel",
+  "Hubris",
   "Mercury's Treads",
-  "Overlord's Bloodmail",
-  "Warmog's Armor"
+  "Death's Dance",
+  "Endless Hunger"
  ],
  "fourth": [
-  "Endless Hunger",
+  "Overlord's Bloodmail",
   "Lord Dominik's Regards",
-  "Death's Dance",
-  "Spear of Shojin"
+  "Spear of Shojin",
+  "Spirit Visage"
  ],
  "fifth": [
+  "Overlord's Bloodmail",
   "Serylda's Grudge",
-  "Lord Dominik's Regards",
   "Maw of Malmortius",
-  "Death's Dance"
+  "Lord Dominik's Regards"
  ],
  "sixth": [
-  "Serylda's Grudge",
-  "Death's Dance",
-  "Lord Dominik's Regards",
-  "Voltaic Cyclosword"
- ],
- "pool": [
-  "Giant's Belt",
-  "Ruby Crystal",
-  "Heartsteel",
-  "Mercury's Treads",
   "Overlord's Bloodmail",
-  "Warmog's Armor",
-  "Endless Hunger",
-  "Lord Dominik's Regards",
-  "Death's Dance",
-  "Spear of Shojin",
   "Serylda's Grudge",
   "Maw of Malmortius",
-  "Voltaic Cyclosword"
+  "Jak'Sho, The Protean"
+ ],
+ "pool": [
+  "Long Sword",
+  "Guardian's Blade",
+  "Hubris",
+  "Mercury's Treads",
+  "Death's Dance",
+  "Endless Hunger",
+  "Overlord's Bloodmail",
+  "Lord Dominik's Regards",
+  "Spear of Shojin",
+  "Spirit Visage",
+  "Serylda's Grudge",
+  "Maw of Malmortius",
+  "Jak'Sho, The Protean"
  ]
 }

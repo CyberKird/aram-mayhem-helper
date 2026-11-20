@@ -7,41 +7,44 @@
   "Mark"
  ],
  "starting": [
-  "Haunting Guise"
+  "Giant's Belt",
+  "Amplifying Tome"
  ],
  "core": [
-  "Liandry's Torment",
+  "Rylai's Crystal Scepter",
   "Mercury's Treads",
   "Riftmaker",
-  "Rylai's Crystal Scepter"
+  "Spirit Visage"
  ],
  "fourth": [
-  "Dusk and Dawn",
   "Warmog's Armor",
+  "Dusk and Dawn",
   "Unending Despair",
-  "Spirit Visage"
+  "Rabadon's Deathcap"
  ],
  "fifth": [
-  "Dusk and Dawn",
   "Warmog's Armor",
+  "Dusk and Dawn",
   "Unending Despair",
-  "Spirit Visage"
+  "Rabadon's Deathcap"
  ],
  "sixth": [
   "Dusk and Dawn",
   "Warmog's Armor",
-  "Unending Despair",
-  "Spirit Visage"
+  "Rabadon's Deathcap",
+  "Jak'Sho, The Protean"
  ],
  "pool": [
-  "Haunting Guise",
-  "Liandry's Torment",
+  "Giant's Belt",
+  "Amplifying Tome",
+  "Rylai's Crystal Scepter",
   "Mercury's Treads",
   "Riftmaker",
-  "Rylai's Crystal Scepter",
-  "Dusk and Dawn",
+  "Spirit Visage",
   "Warmog's Armor",
+  "Dusk and Dawn",
   "Unending Despair",
-  "Spirit Visage"
+  "Rabadon's Deathcap",
+  "Jak'Sho, The Protean"
  ]
 }

@@ -11,37 +11,38 @@
  ],
  "core": [
   "Blackfire Torch",
-  "Boots of Swiftness",
-  "Rylai's Crystal Scepter",
-  "Liandry's Torment"
+  "Ionian Boots of Lucidity",
+  "Liandry's Torment",
+  "Rabadon's Deathcap"
  ],
  "fourth": [
-  "Rabadon's Deathcap",
-  "Archangel's Staff",
   "Bloodletter's Curse",
+  "Archangel's Staff",
+  "Rylai's Crystal Scepter",
   "Shadowflame"
  ],
  "fifth": [
   "Archangel's Staff",
   "Bloodletter's Curse",
-  "Rabadon's Deathcap",
-  "Shadowflame"
+  "Shadowflame",
+  "Void Staff"
  ],
  "sixth": [
-  "Archangel's Staff",
   "Bloodletter's Curse",
-  "Shadowflame",
-  "Rabadon's Deathcap"
+  "Archangel's Staff",
+  "Void Staff",
+  "Shadowflame"
  ],
  "pool": [
   "Lost Chapter",
   "Blackfire Torch",
-  "Boots of Swiftness",
-  "Rylai's Crystal Scepter",
+  "Ionian Boots of Lucidity",
   "Liandry's Torment",
   "Rabadon's Deathcap",
-  "Archangel's Staff",
   "Bloodletter's Curse",
-  "Shadowflame"
+  "Archangel's Staff",
+  "Rylai's Crystal Scepter",
+  "Shadowflame",
+  "Void Staff"
  ]
 }

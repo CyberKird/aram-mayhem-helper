@@ -21,13 +21,13 @@
   "Nashor's Tooth",
   "Hextech Gunblade",
   "Rabadon's Deathcap",
-  "Shadowflame"
+  "Spirit Visage"
  ],
  "fifth": [
-  "Nashor's Tooth",
   "Rabadon's Deathcap",
-  "Hextech Gunblade",
-  "Navori Flickerblade"
+  "Navori Flickerblade",
+  "Nashor's Tooth",
+  "Shadowflame"
  ],
  "sixth": [
   "Overlord's Bloodmail",
@@ -45,9 +45,9 @@
   "Nashor's Tooth",
   "Hextech Gunblade",
   "Rabadon's Deathcap",
-  "Shadowflame",
+  "Spirit Visage",
   "Navori Flickerblade",
-  "Overlord's Bloodmail",
-  "Spirit Visage"
+  "Shadowflame",
+  "Overlord's Bloodmail"
  ]
 }

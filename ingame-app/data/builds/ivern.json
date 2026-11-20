@@ -14,25 +14,25 @@
   "Moonstone Renewer",
   "Ionian Boots of Lucidity",
   "Whispering Circlet",
-  "Dawncore"
+  "Staff of Flowing Water"
  ],
  "fourth": [
-  "Staff of Flowing Water",
+  "Dawncore",
   "Ardent Censer",
   "Sword of Blossoming Dawn",
   "Redemption"
  ],
  "fifth": [
-  "Staff of Flowing Water",
-  "Sword of Blossoming Dawn",
-  "Ardent Censer",
-  "Mikael's Blessing"
+  "Dawncore",
+  "Mikael's Blessing",
+  "Redemption",
+  "Ardent Censer"
  ],
  "sixth": [
-  "Staff of Flowing Water",
+  "Dawncore",
   "Sword of Blossoming Dawn",
-  "Redemption",
-  "Mikael's Blessing"
+  "Ardent Censer",
+  "Redemption"
  ],
  "pool": [
   "Tear of the Goddess",
@@ -40,8 +40,8 @@
   "Moonstone Renewer",
   "Ionian Boots of Lucidity",
   "Whispering Circlet",
-  "Dawncore",
   "Staff of Flowing Water",
+  "Dawncore",
   "Ardent Censer",
   "Sword of Blossoming Dawn",
   "Redemption",

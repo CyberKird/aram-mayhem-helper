@@ -17,22 +17,22 @@
   "Warmog's Armor"
  ],
  "fourth": [
-  "Frozen Heart",
   "Jak'Sho, The Protean",
   "Winter's Approach",
+  "Spirit Visage",
   "Force of Nature"
  ],
  "fifth": [
   "Frozen Heart",
   "Jak'Sho, The Protean",
-  "Overlord's Bloodmail",
-  "Force of Nature"
+  "Spirit Visage",
+  "Winter's Approach"
  ],
  "sixth": [
   "Frozen Heart",
   "Jak'Sho, The Protean",
-  "Overlord's Bloodmail",
-  "Force of Nature"
+  "Force of Nature",
+  "Winter's Approach"
  ],
  "pool": [
   "Giant's Belt",
@@ -41,10 +41,10 @@
   "Mercury's Treads",
   "Unending Despair",
   "Warmog's Armor",
-  "Frozen Heart",
   "Jak'Sho, The Protean",
   "Winter's Approach",
+  "Spirit Visage",
   "Force of Nature",
-  "Overlord's Bloodmail"
+  "Frozen Heart"
  ]
 }

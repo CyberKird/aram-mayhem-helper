@@ -8,13 +8,13 @@
  ],
  "starting": [
   "Long Sword",
-  "Pickaxe"
+  "Guardian's Blade"
  ],
  "core": [
-  "Endless Hunger",
-  "Mercury's Treads",
   "Ravenous Hydra",
-  "Death's Dance"
+  "Mercury's Treads",
+  "Death's Dance",
+  "Endless Hunger"
  ],
  "fourth": [
   "Spear of Shojin",
@@ -24,27 +24,28 @@
  ],
  "fifth": [
   "Spear of Shojin",
+  "Sterak's Gage",
   "Maw of Malmortius",
-  "Spirit Visage",
-  "Trinity Force"
+  "Spirit Visage"
  ],
  "sixth": [
   "Overlord's Bloodmail",
   "Maw of Malmortius",
-  "Spear of Shojin",
-  "Spirit Visage"
+  "Trinity Force",
+  "Spear of Shojin"
  ],
  "pool": [
   "Long Sword",
-  "Pickaxe",
-  "Endless Hunger",
-  "Mercury's Treads",
+  "Guardian's Blade",
   "Ravenous Hydra",
+  "Mercury's Treads",
   "Death's Dance",
+  "Endless Hunger",
   "Spear of Shojin",
   "Maw of Malmortius",
   "Trinity Force",
   "Spirit Visage",
+  "Sterak's Gage",
   "Overlord's Bloodmail"
  ]
 }

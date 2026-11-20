@@ -7,44 +7,46 @@
   "Mark"
  ],
  "starting": [
-  "Giant's Belt",
-  "Ruby Crystal"
+  "Long Sword",
+  "Serrated Dirk"
  ],
  "core": [
-  "Heartsteel",
+  "Hubris",
   "Mercury's Treads",
-  "Overlord's Bloodmail",
-  "Warmog's Armor"
+  "Endless Hunger",
+  "Death's Dance"
  ],
  "fourth": [
-  "Endless Hunger",
   "Lord Dominik's Regards",
-  "Death's Dance",
+  "Infinity Edge",
+  "The Collector",
   "Axiom Arc"
  ],
  "fifth": [
-  "Endless Hunger",
   "Lord Dominik's Regards",
-  "Death's Dance",
-  "Axiom Arc"
+  "Axiom Arc",
+  "Infinity Edge",
+  "Eclipse"
  ],
  "sixth": [
-  "Endless Hunger",
-  "Death's Dance",
+  "Voltaic Cyclosword",
   "Lord Dominik's Regards",
-  "Voltaic Cyclosword"
+  "Spirit Visage",
+  "Infinity Edge"
  ],
  "pool": [
-  "Giant's Belt",
-  "Ruby Crystal",
-  "Heartsteel",
+  "Long Sword",
+  "Serrated Dirk",
+  "Hubris",
   "Mercury's Treads",
-  "Overlord's Bloodmail",
-  "Warmog's Armor",
   "Endless Hunger",
-  "Lord Dominik's Regards",
   "Death's Dance",
+  "Lord Dominik's Regards",
+  "Infinity Edge",
+  "The Collector",
   "Axiom Arc",
-  "Voltaic Cyclosword"
+  "Eclipse",
+  "Voltaic Cyclosword",
+  "Spirit Visage"
  ]
 }

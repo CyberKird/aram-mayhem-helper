@@ -8,13 +8,13 @@
  ],
  "starting": [
   "Long Sword",
-  "Pickaxe"
+  "Guardian's Blade"
  ],
  "core": [
-  "Endless Hunger",
-  "Mercury's Treads",
   "Hubris",
-  "Death's Dance"
+  "Mercury's Treads",
+  "Death's Dance",
+  "Endless Hunger"
  ],
  "fourth": [
   "Maw of Malmortius",
@@ -23,29 +23,29 @@
   "Ravenous Hydra"
  ],
  "fifth": [
+  "Infinity Edge",
   "Lord Dominik's Regards",
-  "Maw of Malmortius",
   "Spear of Shojin",
-  "Infinity Edge"
+  "Ravenous Hydra"
  ],
  "sixth": [
-  "Spirit Visage",
   "Lord Dominik's Regards",
-  "Infinity Edge",
-  "Spear of Shojin"
+  "Jak'Sho, The Protean",
+  "Spear of Shojin",
+  "Maw of Malmortius"
  ],
  "pool": [
   "Long Sword",
-  "Pickaxe",
-  "Endless Hunger",
-  "Mercury's Treads",
+  "Guardian's Blade",
   "Hubris",
+  "Mercury's Treads",
   "Death's Dance",
+  "Endless Hunger",
   "Maw of Malmortius",
   "Lord Dominik's Regards",
   "Spear of Shojin",
   "Ravenous Hydra",
   "Infinity Edge",
-  "Spirit Visage"
+  "Jak'Sho, The Protean"
  ]
 }

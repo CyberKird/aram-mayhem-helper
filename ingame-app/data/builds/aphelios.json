@@ -13,40 +13,40 @@
  "core": [
   "The Collector",
   "Berserker's Greaves",
-  "Lord Dominik's Regards",
-  "Infinity Edge"
+  "Infinity Edge",
+  "Lord Dominik's Regards"
  ],
  "fourth": [
-  "Hexoptics C44",
   "Bloodthirster",
+  "Hexoptics C44",
   "Runaan's Hurricane",
   "Mortal Reminder"
  ],
  "fifth": [
-  "Hexoptics C44",
+  "Death's Dance",
   "Bloodthirster",
-  "Immortal Shieldbow",
+  "Hexoptics C44",
   "Runaan's Hurricane"
  ],
  "sixth": [
   "Death's Dance",
   "Bloodthirster",
-  "Phantom Dancer",
-  "Hexoptics C44"
+  "Mercurial Scimitar",
+  "Phantom Dancer"
  ],
  "pool": [
   "Long Sword",
   "Guardian's Blade",
   "The Collector",
   "Berserker's Greaves",
-  "Lord Dominik's Regards",
   "Infinity Edge",
-  "Hexoptics C44",
+  "Lord Dominik's Regards",
   "Bloodthirster",
+  "Hexoptics C44",
   "Runaan's Hurricane",
   "Mortal Reminder",
-  "Immortal Shieldbow",
   "Death's Dance",
+  "Mercurial Scimitar",
   "Phantom Dancer"
  ]
 }

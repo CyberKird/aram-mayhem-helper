@@ -7,46 +7,43 @@
   "Mark"
  ],
  "starting": [
-  "Amplifying Tome",
-  "Guardian's Orb"
+  "Lost Chapter"
  ],
  "core": [
-  "Shadowflame",
+  "Luden's Echo",
   "Sorcerer's Shoes",
-  "Rabadon's Deathcap",
-  "Lich Bane"
+  "Shadowflame",
+  "Rabadon's Deathcap"
  ],
  "fourth": [
-  "Stormsurge",
   "Void Staff",
   "Unending Despair",
-  "Warmog's Armor"
+  "Lich Bane",
+  "Stormsurge"
  ],
  "fifth": [
   "Stormsurge",
+  "Lich Bane",
   "Void Staff",
-  "Cryptbloom",
-  "Jak'Sho, The Protean"
- ],
- "sixth": [
-  "Void Staff",
-  "Stormsurge",
-  "Malignance",
   "Cryptbloom"
  ],
- "pool": [
-  "Amplifying Tome",
-  "Guardian's Orb",
-  "Shadowflame",
-  "Sorcerer's Shoes",
-  "Rabadon's Deathcap",
+ "sixth": [
+  "Malignance",
+  "Void Staff",
   "Lich Bane",
-  "Stormsurge",
+  "Stormsurge"
+ ],
+ "pool": [
+  "Lost Chapter",
+  "Luden's Echo",
+  "Sorcerer's Shoes",
+  "Shadowflame",
+  "Rabadon's Deathcap",
   "Void Staff",
   "Unending Despair",
-  "Warmog's Armor",
+  "Lich Bane",
+  "Stormsurge",
   "Cryptbloom",
-  "Jak'Sho, The Protean",
   "Malignance"
  ]
 }

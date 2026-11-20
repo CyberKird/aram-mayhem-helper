@@ -10,38 +10,37 @@
   "Lost Chapter"
  ],
  "core": [
-  "Stormsurge",
-  "Sorcerer's Shoes",
   "Luden's Echo",
+  "Sorcerer's Shoes",
+  "Stormsurge",
   "Rabadon's Deathcap"
  ],
  "fourth": [
-  "Archangel's Staff",
   "Shadowflame",
-  "Lich Bane",
-  "Void Staff"
+  "Archangel's Staff",
+  "Void Staff",
+  "Horizon Focus"
  ],
  "fifth": [
   "Shadowflame",
-  "Archangel's Staff",
   "Horizon Focus",
-  "Lich Bane"
- ],
- "sixth": [
-  "Horizon Focus",
-  "Banshee's Veil",
   "Archangel's Staff",
   "Void Staff"
  ],
+ "sixth": [
+  "Horizon Focus",
+  "Shadowflame",
+  "Void Staff",
+  "Banshee's Veil"
+ ],
  "pool": [
   "Lost Chapter",
-  "Stormsurge",
-  "Sorcerer's Shoes",
   "Luden's Echo",
+  "Sorcerer's Shoes",
+  "Stormsurge",
   "Rabadon's Deathcap",
-  "Archangel's Staff",
   "Shadowflame",
-  "Lich Bane",
+  "Archangel's Staff",
   "Void Staff",
   "Horizon Focus",
   "Banshee's Veil"
