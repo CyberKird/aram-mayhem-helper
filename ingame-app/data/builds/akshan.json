@@ -7,7 +7,6 @@
   "Ghost"
  ],
  "starting": [
-  "Boots",
   "Serrated Dirk"
  ],
  "core": [
@@ -20,13 +19,13 @@
   "Axiom Arc",
   "Lord Dominik's Regards",
   "Infinity Edge",
-  "Kraken Slayer"
+  "Bloodthirster"
  ],
  "fifth": [
   "Axiom Arc",
   "Bloodthirster",
   "Lord Dominik's Regards",
-  "Yun Tal Wildarrows"
+  "Rapid Firecannon"
  ],
  "sixth": [
   "Endless Hunger",
@@ -35,7 +34,6 @@
   "Yun Tal Wildarrows"
  ],
  "pool": [
-  "Boots",
   "Serrated Dirk",
   "The Collector",
   "Berserker's Greaves",
@@ -44,9 +42,9 @@
   "Axiom Arc",
   "Lord Dominik's Regards",
   "Infinity Edge",
-  "Kraken Slayer",
   "Bloodthirster",
-  "Yun Tal Wildarrows",
-  "Endless Hunger"
+  "Rapid Firecannon",
+  "Endless Hunger",
+  "Yun Tal Wildarrows"
  ]
 }

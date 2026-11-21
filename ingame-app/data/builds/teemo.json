@@ -25,13 +25,13 @@
   "Statikk Shiv",
   "Shadowflame",
   "Rabadon's Deathcap",
-  "Nashor's Tooth"
+  "Void Staff"
  ],
  "sixth": [
-  "Shadowflame",
   "Stormsurge",
-  "Rabadon's Deathcap",
-  "Void Staff"
+  "Shadowflame",
+  "Void Staff",
+  "Rabadon's Deathcap"
  ],
  "pool": [
   "Lost Chapter",
@@ -43,7 +43,7 @@
   "Rabadon's Deathcap",
   "Shadowflame",
   "Nashor's Tooth",
-  "Stormsurge",
-  "Void Staff"
+  "Void Staff",
+  "Stormsurge"
  ]
 }

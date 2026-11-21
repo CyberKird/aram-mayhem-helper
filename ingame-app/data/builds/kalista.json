@@ -4,7 +4,7 @@
  "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
-  "Ghost"
+  "Cleanse"
  ],
  "starting": [
   "Long Sword",
@@ -20,7 +20,7 @@
   "Guinsoo's Rageblade",
   "Wit's End",
   "The Collector",
-  "Lord Dominik's Regards"
+  "Jak'Sho, The Protean"
  ],
  "fifth": [
   "Guinsoo's Rageblade",
@@ -32,7 +32,7 @@
   "Bloodthirster",
   "Wit's End",
   "Jak'Sho, The Protean",
-  "Guinsoo's Rageblade"
+  "Kraken Slayer"
  ],
  "pool": [
   "Long Sword",
@@ -44,8 +44,8 @@
   "Guinsoo's Rageblade",
   "Wit's End",
   "The Collector",
-  "Lord Dominik's Regards",
   "Jak'Sho, The Protean",
-  "Bloodthirster"
+  "Bloodthirster",
+  "Kraken Slayer"
  ]
 }

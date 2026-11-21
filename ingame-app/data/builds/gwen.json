@@ -7,8 +7,8 @@
   "Mark"
  ],
  "starting": [
-  "Ruby Crystal",
-  "Sheen"
+  "Blasting Wand",
+  "Ruby Crystal"
  ],
  "core": [
   "Dusk and Dawn",
@@ -18,9 +18,9 @@
  ],
  "fourth": [
   "Rabadon's Deathcap",
-  "Riftmaker",
   "Void Staff",
-  "Zhonya's Hourglass"
+  "Riftmaker",
+  "Spirit Visage"
  ],
  "fifth": [
   "Rabadon's Deathcap",
@@ -31,20 +31,19 @@
  "sixth": [
   "Void Staff",
   "Rabadon's Deathcap",
-  "Riftmaker",
-  "Cosmic Drive"
+  "Cosmic Drive",
+  "Riftmaker"
  ],
  "pool": [
+  "Blasting Wand",
   "Ruby Crystal",
-  "Sheen",
   "Dusk and Dawn",
   "Mercury's Treads",
   "Nashor's Tooth",
   "Shadowflame",
   "Rabadon's Deathcap",
-  "Riftmaker",
   "Void Staff",
-  "Zhonya's Hourglass",
+  "Riftmaker",
   "Spirit Visage",
   "Cosmic Drive"
  ]

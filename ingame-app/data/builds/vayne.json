@@ -18,21 +18,21 @@
  ],
  "fourth": [
   "Lord Dominik's Regards",
-  "Fiendhunter Bolts",
   "Infinity Edge",
+  "Fiendhunter Bolts",
   "Kraken Slayer"
  ],
  "fifth": [
   "Lord Dominik's Regards",
   "Fiendhunter Bolts",
   "Bloodthirster",
-  "Kraken Slayer"
+  "Phantom Dancer"
  ],
  "sixth": [
   "Lord Dominik's Regards",
   "Bloodthirster",
-  "Experimental Hexplate",
-  "Fiendhunter Bolts"
+  "Fiendhunter Bolts",
+  "Phantom Dancer"
  ],
  "pool": [
   "Dagger",
@@ -42,10 +42,10 @@
   "Guinsoo's Rageblade",
   "Terminus",
   "Lord Dominik's Regards",
-  "Fiendhunter Bolts",
   "Infinity Edge",
+  "Fiendhunter Bolts",
   "Kraken Slayer",
   "Bloodthirster",
-  "Experimental Hexplate"
+  "Phantom Dancer"
  ]
 }

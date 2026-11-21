@@ -20,19 +20,19 @@
   "Titanic Hydra",
   "Black Cleaver",
   "Spirit Visage",
-  "Kaenic Rookern"
+  "Sterak's Gage"
  ],
  "fifth": [
-  "Unending Despair",
-  "Spirit Visage",
   "Sterak's Gage",
-  "Black Cleaver"
+  "Unending Despair",
+  "Black Cleaver",
+  "Titanic Hydra"
  ],
  "sixth": [
   "Sterak's Gage",
   "Endless Hunger",
-  "Unending Despair",
-  "Kaenic Rookern"
+  "Spirit Visage",
+  "Black Cleaver"
  ],
  "pool": [
   "Giant's Belt",
@@ -44,9 +44,8 @@
   "Titanic Hydra",
   "Black Cleaver",
   "Spirit Visage",
-  "Kaenic Rookern",
-  "Unending Despair",
   "Sterak's Gage",
+  "Unending Despair",
   "Endless Hunger"
  ]
 }

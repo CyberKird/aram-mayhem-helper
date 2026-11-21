@@ -20,19 +20,19 @@
   "Infinity Edge",
   "Lord Dominik's Regards",
   "Voltaic Cyclosword",
-  "Axiom Arc"
+  "Maw of Malmortius"
  ],
  "fifth": [
   "Axiom Arc",
-  "Serylda's Grudge",
-  "Voltaic Cyclosword",
-  "Lord Dominik's Regards"
- ],
- "sixth": [
   "Lord Dominik's Regards",
   "Voltaic Cyclosword",
-  "Serylda's Grudge",
-  "Axiom Arc"
+  "Infinity Edge"
+ ],
+ "sixth": [
+  "Voltaic Cyclosword",
+  "Lord Dominik's Regards",
+  "Axiom Arc",
+  "Infinity Edge"
  ],
  "pool": [
   "Long Sword",
@@ -44,7 +44,7 @@
   "Infinity Edge",
   "Lord Dominik's Regards",
   "Voltaic Cyclosword",
-  "Axiom Arc",
-  "Serylda's Grudge"
+  "Maw of Malmortius",
+  "Axiom Arc"
  ]
 }

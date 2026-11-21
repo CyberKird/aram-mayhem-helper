@@ -7,9 +7,8 @@
   "Clarity"
  ],
  "starting": [
-  "Amplifying Tome",
-  "Amplifying Tome",
-  "Tear of the Goddess"
+  "Refillable Potion",
+  "Lost Chapter"
  ],
  "core": [
   "Luden's Echo",
@@ -18,35 +17,34 @@
   "Archangel's Staff"
  ],
  "fourth": [
+  "Winter's Approach",
+  "Rod of Ages",
   "Blackfire Torch",
-  "Cryptbloom",
-  "Malignance",
-  "Cosmic Drive"
+  "Malignance"
  ],
  "fifth": [
   "Winter's Approach",
   "Rod of Ages",
   "Blackfire Torch",
-  "Cosmic Drive"
+  "Malignance"
  ],
  "sixth": [
   "Winter's Approach",
   "Rod of Ages",
   "Blackfire Torch",
-  "Cryptbloom"
+  "Banshee's Veil"
  ],
  "pool": [
-  "Amplifying Tome",
-  "Tear of the Goddess",
+  "Refillable Potion",
+  "Lost Chapter",
   "Luden's Echo",
   "Sorcerer's Shoes",
   "Rabadon's Deathcap",
   "Archangel's Staff",
-  "Blackfire Torch",
-  "Cryptbloom",
-  "Malignance",
-  "Cosmic Drive",
   "Winter's Approach",
-  "Rod of Ages"
+  "Rod of Ages",
+  "Blackfire Torch",
+  "Malignance",
+  "Banshee's Veil"
  ]
 }

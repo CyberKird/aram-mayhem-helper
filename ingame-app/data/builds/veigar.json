@@ -20,19 +20,19 @@
   "Shadowflame",
   "Void Staff",
   "Stormsurge",
-  "Warmog's Armor"
+  "Luden's Echo"
  ],
  "fifth": [
-  "Stormsurge",
   "Shadowflame",
+  "Stormsurge",
   "Banshee's Veil",
   "Void Staff"
  ],
  "sixth": [
   "Shadowflame",
-  "Stormsurge",
+  "Banshee's Veil",
   "Void Staff",
-  "Banshee's Veil"
+  "Stormsurge"
  ],
  "pool": [
   "Blasting Wand",
@@ -44,7 +44,7 @@
   "Shadowflame",
   "Void Staff",
   "Stormsurge",
-  "Warmog's Armor",
+  "Luden's Echo",
   "Banshee's Veil"
  ]
 }

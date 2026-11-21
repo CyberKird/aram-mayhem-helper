@@ -4,29 +4,29 @@
  "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
-  "Ghost"
+  "Mark"
  ],
  "starting": [
-  "Sheen",
-  "Tear of the Goddess"
+  "Long Sword",
+  "Guardian's Blade"
  ],
  "core": [
-  "Trinity Force",
+  "The Collector",
   "Berserker's Greaves",
   "Infinity Edge",
-  "Manamune"
+  "Lord Dominik's Regards"
  ],
  "fourth": [
   "Death's Dance",
   "Endless Hunger",
-  "Lord Dominik's Regards",
-  "Bloodthirster"
+  "Bloodthirster",
+  "Essence Reaver"
  ],
  "fifth": [
   "Death's Dance",
   "Endless Hunger",
-  "Lord Dominik's Regards",
-  "Bloodthirster"
+  "Bloodthirster",
+  "Essence Reaver"
  ],
  "sixth": [
   "Death's Dance",
@@ -35,16 +35,16 @@
   "Bloodthirster"
  ],
  "pool": [
-  "Sheen",
-  "Tear of the Goddess",
-  "Trinity Force",
+  "Long Sword",
+  "Guardian's Blade",
+  "The Collector",
   "Berserker's Greaves",
   "Infinity Edge",
-  "Manamune",
+  "Lord Dominik's Regards",
   "Death's Dance",
   "Endless Hunger",
-  "Lord Dominik's Regards",
   "Bloodthirster",
+  "Essence Reaver",
   "Maw of Malmortius"
  ]
 }

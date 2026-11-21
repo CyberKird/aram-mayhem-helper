@@ -7,9 +7,7 @@
   "Ghost"
  ],
  "starting": [
-  "Amplifying Tome",
-  "Amplifying Tome",
-  "Tear of the Goddess"
+  "Lost Chapter"
  ],
  "core": [
   "Luden's Echo",
@@ -20,32 +18,31 @@
  "fourth": [
   "Stormsurge",
   "Horizon Focus",
-  "Archangel's Staff",
-  "Void Staff"
+  "Void Staff",
+  "Archangel's Staff"
  ],
  "fifth": [
   "Stormsurge",
   "Malignance",
   "Horizon Focus",
-  "Void Staff"
+  "Archangel's Staff"
  ],
  "sixth": [
-  "Stormsurge",
   "Banshee's Veil",
+  "Stormsurge",
   "Horizon Focus",
   "Malignance"
  ],
  "pool": [
-  "Amplifying Tome",
-  "Tear of the Goddess",
+  "Lost Chapter",
   "Luden's Echo",
   "Sorcerer's Shoes",
   "Rabadon's Deathcap",
   "Shadowflame",
   "Stormsurge",
   "Horizon Focus",
-  "Archangel's Staff",
   "Void Staff",
+  "Archangel's Staff",
   "Malignance",
   "Banshee's Veil"
  ]

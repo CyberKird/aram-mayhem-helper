@@ -7,18 +7,19 @@
   "Ghost"
  ],
  "starting": [
-  "B. F. Sword"
+  "Long Sword",
+  "Pickaxe"
  ],
  "core": [
-  "Yun Tal Wildarrows",
+  "The Collector",
   "Berserker's Greaves",
   "Runaan's Hurricane",
   "Infinity Edge"
  ],
  "fourth": [
-  "The Collector",
   "Lord Dominik's Regards",
   "Bloodthirster",
+  "Yun Tal Wildarrows",
   "Blade of The Ruined King"
  ],
  "fifth": [
@@ -34,14 +35,15 @@
   "Kraken Slayer"
  ],
  "pool": [
-  "B. F. Sword",
-  "Yun Tal Wildarrows",
+  "Long Sword",
+  "Pickaxe",
+  "The Collector",
   "Berserker's Greaves",
   "Runaan's Hurricane",
   "Infinity Edge",
-  "The Collector",
   "Lord Dominik's Regards",
   "Bloodthirster",
+  "Yun Tal Wildarrows",
   "Blade of The Ruined King",
   "Hexoptics C44",
   "Phantom Dancer",

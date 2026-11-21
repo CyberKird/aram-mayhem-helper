@@ -17,16 +17,16 @@
   "Warmog's Armor"
  ],
  "fourth": [
-  "Unending Despair",
   "Endless Hunger",
+  "Unending Despair",
   "Sterak's Gage",
   "Death's Dance"
  ],
  "fifth": [
   "Endless Hunger",
   "Unending Despair",
-  "Jak'Sho, The Protean",
-  "Spirit Visage"
+  "Sterak's Gage",
+  "Jak'Sho, The Protean"
  ],
  "sixth": [
   "Endless Hunger",
@@ -41,11 +41,10 @@
   "Mercury's Treads",
   "Overlord's Bloodmail",
   "Warmog's Armor",
-  "Unending Despair",
   "Endless Hunger",
+  "Unending Despair",
   "Sterak's Gage",
   "Death's Dance",
-  "Jak'Sho, The Protean",
-  "Spirit Visage"
+  "Jak'Sho, The Protean"
  ]
 }

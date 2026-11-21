@@ -7,9 +7,7 @@
   "Mark"
  ],
  "starting": [
-  "Boots",
-  "Long Sword",
-  "Scout's Slingshot"
+  "B. F. Sword"
  ],
  "core": [
   "Yun Tal Wildarrows",
@@ -26,19 +24,17 @@
  "fifth": [
   "Spirit Visage",
   "Infinity Edge",
-  "Phantom Dancer",
+  "Lord Dominik's Regards",
   "Bloodthirster"
  ],
  "sixth": [
   "Spirit Visage",
   "Endless Hunger",
   "Jak'Sho, The Protean",
-  "Infinity Edge"
+  "Bloodthirster"
  ],
  "pool": [
-  "Boots",
-  "Long Sword",
-  "Scout's Slingshot",
+  "B. F. Sword",
   "Yun Tal Wildarrows",
   "Berserker's Greaves",
   "Rite of Ruin",
@@ -47,6 +43,7 @@
   "Infinity Edge",
   "Blade of The Ruined King",
   "Phantom Dancer",
+  "Lord Dominik's Regards",
   "Bloodthirster",
   "Endless Hunger",
   "Jak'Sho, The Protean"

@@ -23,15 +23,15 @@
  ],
  "fifth": [
   "Riftmaker",
-  "Warmog's Armor",
   "Rabadon's Deathcap",
+  "Warmog's Armor",
   "Winter's Approach"
  ],
  "sixth": [
   "Bloodletter's Curse",
   "Rabadon's Deathcap",
-  "Warmog's Armor",
-  "Dead Man's Plate"
+  "Riftmaker",
+  "Warmog's Armor"
  ],
  "pool": [
   "Catalyst of Aeons",
@@ -44,7 +44,6 @@
   "Warmog's Armor",
   "Force of Nature",
   "Rabadon's Deathcap",
-  "Bloodletter's Curse",
-  "Dead Man's Plate"
+  "Bloodletter's Curse"
  ]
 }

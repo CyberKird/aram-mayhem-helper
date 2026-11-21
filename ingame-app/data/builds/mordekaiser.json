@@ -8,43 +8,42 @@
  ],
  "starting": [
   "Giant's Belt",
-  "Amplifying Tome"
+  "Ruby Crystal"
  ],
  "core": [
-  "Rylai's Crystal Scepter",
+  "Heartsteel",
   "Mercury's Treads",
-  "Riftmaker",
-  "Spirit Visage"
+  "Liandry's Torment",
+  "Riftmaker"
  ],
  "fourth": [
   "Warmog's Armor",
   "Dusk and Dawn",
-  "Unending Despair",
-  "Rabadon's Deathcap"
+  "Spirit Visage",
+  "Unending Despair"
  ],
  "fifth": [
   "Warmog's Armor",
-  "Dusk and Dawn",
   "Unending Despair",
-  "Rabadon's Deathcap"
+  "Dusk and Dawn",
+  "Spirit Visage"
  ],
  "sixth": [
   "Dusk and Dawn",
   "Warmog's Armor",
-  "Rabadon's Deathcap",
-  "Jak'Sho, The Protean"
+  "Unending Despair",
+  "Spirit Visage"
  ],
  "pool": [
   "Giant's Belt",
-  "Amplifying Tome",
-  "Rylai's Crystal Scepter",
+  "Ruby Crystal",
+  "Heartsteel",
   "Mercury's Treads",
+  "Liandry's Torment",
   "Riftmaker",
-  "Spirit Visage",
   "Warmog's Armor",
   "Dusk and Dawn",
-  "Unending Despair",
-  "Rabadon's Deathcap",
-  "Jak'Sho, The Protean"
+  "Spirit Visage",
+  "Unending Despair"
  ]
 }

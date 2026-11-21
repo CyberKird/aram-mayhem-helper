@@ -7,6 +7,7 @@
   "Ghost"
  ],
  "starting": [
+  "Long Sword",
   "Serrated Dirk"
  ],
  "core": [
@@ -30,10 +31,11 @@
  "sixth": [
   "Endless Hunger",
   "Axiom Arc",
-  "Edge of Night",
-  "Youmuu's Ghostblade"
+  "Youmuu's Ghostblade",
+  "Edge of Night"
  ],
  "pool": [
+  "Long Sword",
   "Serrated Dirk",
   "Hubris",
   "Berserker's Greaves",
@@ -44,7 +46,7 @@
   "Lord Dominik's Regards",
   "Rapid Firecannon",
   "Endless Hunger",
-  "Edge of Night",
-  "Youmuu's Ghostblade"
+  "Youmuu's Ghostblade",
+  "Edge of Night"
  ]
 }

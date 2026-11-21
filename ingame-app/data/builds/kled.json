@@ -12,40 +12,41 @@
  ],
  "core": [
   "Heartsteel",
-  "Plated Steelcaps",
-  "Titanic Hydra",
-  "Overlord's Bloodmail"
+  "Mercury's Treads",
+  "Overlord's Bloodmail",
+  "Titanic Hydra"
  ],
  "fourth": [
   "Warmog's Armor",
   "Endless Hunger",
   "Black Cleaver",
-  "Death's Dance"
+  "Lord Dominik's Regards"
  ],
  "fifth": [
   "Warmog's Armor",
-  "Jak'Sho, The Protean",
+  "Endless Hunger",
   "Death's Dance",
-  "Endless Hunger"
+  "Black Cleaver"
  ],
  "sixth": [
-  "Endless Hunger",
   "Sterak's Gage",
+  "Endless Hunger",
   "Warmog's Armor",
-  "Death's Dance"
+  "Jak'Sho, The Protean"
  ],
  "pool": [
   "Giant's Belt",
   "Ruby Crystal",
   "Heartsteel",
-  "Plated Steelcaps",
-  "Titanic Hydra",
+  "Mercury's Treads",
   "Overlord's Bloodmail",
+  "Titanic Hydra",
   "Warmog's Armor",
   "Endless Hunger",
   "Black Cleaver",
+  "Lord Dominik's Regards",
   "Death's Dance",
-  "Jak'Sho, The Protean",
-  "Sterak's Gage"
+  "Sterak's Gage",
+  "Jak'Sho, The Protean"
  ]
 }

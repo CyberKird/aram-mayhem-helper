@@ -12,21 +12,21 @@
  ],
  "core": [
   "Heartsteel",
-  "Mercury's Treads",
-  "Overlord's Bloodmail",
-  "Titanic Hydra"
+  "Plated Steelcaps",
+  "Titanic Hydra",
+  "Overlord's Bloodmail"
  ],
  "fourth": [
   "Death's Dance",
-  "Spirit Visage",
   "Trinity Force",
-  "Liandry's Torment"
+  "Spirit Visage",
+  "Warmog's Armor"
  ],
  "fifth": [
   "Death's Dance",
   "Trinity Force",
-  "Horizon Focus",
-  "Spirit Visage"
+  "Spirit Visage",
+  "Liandry's Torment"
  ],
  "sixth": [
   "Endless Hunger",
@@ -38,16 +38,15 @@
   "Giant's Belt",
   "Ruby Crystal",
   "Heartsteel",
-  "Mercury's Treads",
-  "Overlord's Bloodmail",
+  "Plated Steelcaps",
   "Titanic Hydra",
+  "Overlord's Bloodmail",
   "Death's Dance",
-  "Spirit Visage",
   "Trinity Force",
-  "Liandry's Torment",
-  "Horizon Focus",
-  "Endless Hunger",
+  "Spirit Visage",
   "Warmog's Armor",
+  "Liandry's Torment",
+  "Endless Hunger",
   "Jak'Sho, The Protean"
  ]
 }

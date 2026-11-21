@@ -7,38 +7,40 @@
   "Ignite"
  ],
  "starting": [
+  "Refillable Potion",
   "Lost Chapter"
  ],
  "core": [
   "Luden's Echo",
   "Sorcerer's Shoes",
-  "Stormsurge",
+  "Shadowflame",
   "Rabadon's Deathcap"
  ],
  "fourth": [
-  "Shadowflame",
+  "Stormsurge",
   "Void Staff",
   "Zhonya's Hourglass"
  ],
  "fifth": [
   "Banshee's Veil",
-  "Void Staff",
-  "Shadowflame",
-  "Cryptbloom"
+  "Stormsurge",
+  "Cryptbloom",
+  "Void Staff"
  ],
  "sixth": [
-  "Zhonya's Hourglass",
   "Banshee's Veil",
-  "Void Staff",
-  "Cryptbloom"
+  "Stormsurge",
+  "Zhonya's Hourglass",
+  "Void Staff"
  ],
  "pool": [
+  "Refillable Potion",
   "Lost Chapter",
   "Luden's Echo",
   "Sorcerer's Shoes",
-  "Stormsurge",
-  "Rabadon's Deathcap",
   "Shadowflame",
+  "Rabadon's Deathcap",
+  "Stormsurge",
   "Void Staff",
   "Zhonya's Hourglass",
   "Banshee's Veil",

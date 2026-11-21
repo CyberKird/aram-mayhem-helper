@@ -22,14 +22,14 @@
  ],
  "fifth": [
   "Stormsurge",
-  "Void Staff",
   "Banshee's Veil",
-  "Malignance"
+  "Void Staff",
+  "Cryptbloom"
  ],
  "sixth": [
   "Stormsurge",
-  "Void Staff",
   "Banshee's Veil",
+  "Void Staff",
   "Cryptbloom"
  ],
  "pool": [
@@ -42,7 +42,6 @@
   "Stormsurge",
   "Zhonya's Hourglass",
   "Banshee's Veil",
-  "Malignance",
   "Cryptbloom"
  ]
 }

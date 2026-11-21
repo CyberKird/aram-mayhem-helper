@@ -7,9 +7,8 @@
   "Mark"
  ],
  "starting": [
-  "Dagger",
-  "Dagger",
-  "Aether Wisp"
+  "Amplifying Tome",
+  "Scout's Slingshot"
  ],
  "core": [
   "Statikk Shiv",
@@ -21,23 +20,23 @@
   "Nashor's Tooth",
   "Hextech Gunblade",
   "Rabadon's Deathcap",
-  "Spirit Visage"
+  "Navori Flickerblade"
  ],
  "fifth": [
-  "Rabadon's Deathcap",
-  "Navori Flickerblade",
   "Nashor's Tooth",
-  "Shadowflame"
+  "Spirit Visage",
+  "Rabadon's Deathcap",
+  "Navori Flickerblade"
  ],
  "sixth": [
   "Overlord's Bloodmail",
-  "Nashor's Tooth",
   "Rabadon's Deathcap",
+  "Nashor's Tooth",
   "Spirit Visage"
  ],
  "pool": [
-  "Dagger",
-  "Aether Wisp",
+  "Amplifying Tome",
+  "Scout's Slingshot",
   "Statikk Shiv",
   "Mercury's Treads",
   "Dusk and Dawn",
@@ -45,9 +44,8 @@
   "Nashor's Tooth",
   "Hextech Gunblade",
   "Rabadon's Deathcap",
-  "Spirit Visage",
   "Navori Flickerblade",
-  "Shadowflame",
+  "Spirit Visage",
   "Overlord's Bloodmail"
  ]
 }

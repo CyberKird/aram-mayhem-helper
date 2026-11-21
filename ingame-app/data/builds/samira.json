@@ -8,7 +8,7 @@
  ],
  "starting": [
   "Long Sword",
-  "Pickaxe"
+  "Guardian's Blade"
  ],
  "core": [
   "The Collector",
@@ -26,17 +26,17 @@
   "Endless Hunger",
   "Lord Dominik's Regards",
   "Bloodthirster",
-  "Immortal Shieldbow"
+  "Mercurial Scimitar"
  ],
  "sixth": [
   "Endless Hunger",
   "Lord Dominik's Regards",
-  "Spirit Visage",
-  "Bloodthirster"
+  "Maw of Malmortius",
+  "Immortal Shieldbow"
  ],
  "pool": [
   "Long Sword",
-  "Pickaxe",
+  "Guardian's Blade",
   "The Collector",
   "Mercury's Treads",
   "Hubris",
@@ -46,6 +46,7 @@
   "Bloodthirster",
   "Immortal Shieldbow",
   "Endless Hunger",
-  "Spirit Visage"
+  "Mercurial Scimitar",
+  "Maw of Malmortius"
  ]
 }

@@ -17,21 +17,21 @@
  ],
  "fourth": [
   "Horizon Focus",
-  "Shadowflame",
   "Stormsurge",
+  "Shadowflame",
   "Archangel's Staff"
  ],
  "fifth": [
   "Stormsurge",
   "Horizon Focus",
-  "Shadowflame",
-  "Archangel's Staff"
+  "Archangel's Staff",
+  "Shadowflame"
  ],
  "sixth": [
   "Stormsurge",
   "Horizon Focus",
-  "Shadowflame",
-  "Cryptbloom"
+  "Cryptbloom",
+  "Void Staff"
  ],
  "pool": [
   "Lost Chapter",
@@ -40,9 +40,10 @@
   "Liandry's Torment",
   "Rabadon's Deathcap",
   "Horizon Focus",
-  "Shadowflame",
   "Stormsurge",
+  "Shadowflame",
   "Archangel's Staff",
-  "Cryptbloom"
+  "Cryptbloom",
+  "Void Staff"
  ]
 }

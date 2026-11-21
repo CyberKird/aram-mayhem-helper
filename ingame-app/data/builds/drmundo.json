@@ -25,13 +25,13 @@
  "fifth": [
   "Unending Despair",
   "Overlord's Bloodmail",
-  "Hollow Radiance",
+  "Kaenic Rookern",
   "Jak'Sho, The Protean"
  ],
  "sixth": [
   "Endless Hunger",
-  "Jak'Sho, The Protean",
   "Unending Despair",
+  "Jak'Sho, The Protean",
   "Overlord's Bloodmail"
  ],
  "pool": [
@@ -45,7 +45,6 @@
   "Unending Despair",
   "Jak'Sho, The Protean",
   "Kaenic Rookern",
-  "Hollow Radiance",
   "Endless Hunger"
  ]
 }

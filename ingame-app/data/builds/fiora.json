@@ -24,15 +24,15 @@
  ],
  "fifth": [
   "Spear of Shojin",
+  "Spirit Visage",
   "Sterak's Gage",
-  "Maw of Malmortius",
-  "Spirit Visage"
+  "Maw of Malmortius"
  ],
  "sixth": [
-  "Overlord's Bloodmail",
   "Maw of Malmortius",
-  "Trinity Force",
-  "Spear of Shojin"
+  "Spear of Shojin",
+  "Spirit Visage",
+  "Sterak's Gage"
  ],
  "pool": [
   "Long Sword",
@@ -45,7 +45,6 @@
   "Maw of Malmortius",
   "Trinity Force",
   "Spirit Visage",
-  "Sterak's Gage",
-  "Overlord's Bloodmail"
+  "Sterak's Gage"
  ]
 }

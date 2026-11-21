@@ -17,21 +17,21 @@
  ],
  "fourth": [
   "Infinity Edge",
+  "Rabadon's Deathcap",
   "Lord Dominik's Regards",
-  "Runaan's Hurricane",
-  "Rabadon's Deathcap"
+  "Runaan's Hurricane"
  ],
  "fifth": [
-  "Lord Dominik's Regards",
   "Archangel's Staff",
-  "Infinity Edge",
-  "Rabadon's Deathcap"
+  "Lord Dominik's Regards",
+  "Rabadon's Deathcap",
+  "Infinity Edge"
  ],
  "sixth": [
   "Archangel's Staff",
   "Shadowflame",
-  "Bloodthirster",
-  "Rabadon's Deathcap"
+  "Rabadon's Deathcap",
+  "Blackfire Torch"
  ],
  "pool": [
   "Lost Chapter",
@@ -40,11 +40,11 @@
   "Axiom Arc",
   "Experimental Hexplate",
   "Infinity Edge",
+  "Rabadon's Deathcap",
   "Lord Dominik's Regards",
   "Runaan's Hurricane",
-  "Rabadon's Deathcap",
   "Archangel's Staff",
   "Shadowflame",
-  "Bloodthirster"
+  "Blackfire Torch"
  ]
 }

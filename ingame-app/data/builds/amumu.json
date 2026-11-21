@@ -20,19 +20,19 @@
   "Riftmaker",
   "Jak'Sho, The Protean",
   "Hollow Radiance",
-  "Winter's Approach"
+  "Abyssal Mask"
  ],
  "fifth": [
   "Riftmaker",
+  "Hollow Radiance",
   "Jak'Sho, The Protean",
-  "Spirit Visage",
-  "Abyssal Mask"
+  "Kaenic Rookern"
  ],
  "sixth": [
   "Riftmaker",
   "Jak'Sho, The Protean",
-  "Winter's Approach",
-  "Sunfire Aegis"
+  "Spirit Visage",
+  "Winter's Approach"
  ],
  "pool": [
   "Giant's Belt",
@@ -44,9 +44,9 @@
   "Riftmaker",
   "Jak'Sho, The Protean",
   "Hollow Radiance",
-  "Winter's Approach",
-  "Spirit Visage",
   "Abyssal Mask",
-  "Sunfire Aegis"
+  "Kaenic Rookern",
+  "Spirit Visage",
+  "Winter's Approach"
  ]
 }

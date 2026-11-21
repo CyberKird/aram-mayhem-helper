@@ -16,14 +16,14 @@
   "Rabadon's Deathcap"
  ],
  "fourth": [
-  "Bloodletter's Curse",
   "Shadowflame",
+  "Bloodletter's Curse",
   "Riftmaker",
   "Rylai's Crystal Scepter"
  ],
  "fifth": [
-  "Bloodletter's Curse",
   "Shadowflame",
+  "Bloodletter's Curse",
   "Void Staff",
   "Riftmaker"
  ],
@@ -31,7 +31,7 @@
   "Shadowflame",
   "Bloodletter's Curse",
   "Void Staff",
-  "Riftmaker"
+  "Cosmic Drive"
  ],
  "pool": [
   "Lost Chapter",
@@ -39,10 +39,11 @@
   "Sorcerer's Shoes",
   "Liandry's Torment",
   "Rabadon's Deathcap",
-  "Bloodletter's Curse",
   "Shadowflame",
+  "Bloodletter's Curse",
   "Riftmaker",
   "Rylai's Crystal Scepter",
-  "Void Staff"
+  "Void Staff",
+  "Cosmic Drive"
  ]
 }

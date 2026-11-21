@@ -17,8 +17,8 @@
   "Endless Hunger"
  ],
  "fourth": [
-  "Voltaic Cyclosword",
   "Lord Dominik's Regards",
+  "Voltaic Cyclosword",
   "Maw of Malmortius",
   "Spear of Shojin"
  ],
@@ -26,13 +26,13 @@
   "Lord Dominik's Regards",
   "Voltaic Cyclosword",
   "Spear of Shojin",
-  "Eclipse"
+  "Spirit Visage"
  ],
  "sixth": [
-  "Axiom Arc",
   "Lord Dominik's Regards",
+  "Axiom Arc",
   "Voltaic Cyclosword",
-  "Spear of Shojin"
+  "Maw of Malmortius"
  ],
  "pool": [
   "Long Sword",
@@ -41,11 +41,11 @@
   "Mercury's Treads",
   "Death's Dance",
   "Endless Hunger",
-  "Voltaic Cyclosword",
   "Lord Dominik's Regards",
+  "Voltaic Cyclosword",
   "Maw of Malmortius",
   "Spear of Shojin",
-  "Eclipse",
+  "Spirit Visage",
   "Axiom Arc"
  ]
 }

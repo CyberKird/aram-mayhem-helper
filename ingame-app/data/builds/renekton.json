@@ -19,20 +19,20 @@
  "fourth": [
   "Black Cleaver",
   "Spear of Shojin",
-  "Overlord's Bloodmail",
-  "Sterak's Gage"
+  "Sterak's Gage",
+  "Overlord's Bloodmail"
  ],
  "fifth": [
   "Maw of Malmortius",
   "Spear of Shojin",
   "Black Cleaver",
-  "Spirit Visage"
+  "Overlord's Bloodmail"
  ],
  "sixth": [
   "Sterak's Gage",
-  "Jak'Sho, The Protean",
+  "Overlord's Bloodmail",
   "Maw of Malmortius",
-  "Spear of Shojin"
+  "Jak'Sho, The Protean"
  ],
  "pool": [
   "Long Sword",
@@ -43,10 +43,9 @@
   "Endless Hunger",
   "Black Cleaver",
   "Spear of Shojin",
-  "Overlord's Bloodmail",
   "Sterak's Gage",
+  "Overlord's Bloodmail",
   "Maw of Malmortius",
-  "Spirit Visage",
   "Jak'Sho, The Protean"
  ]
 }

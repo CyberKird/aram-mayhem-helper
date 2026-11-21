@@ -7,43 +7,45 @@
   "Mark"
  ],
  "starting": [
-  "Giant's Belt",
-  "Ruby Crystal"
+  "Amplifying Tome",
+  "Guardian's Orb"
  ],
  "core": [
-  "Heartsteel",
-  "Mercury's Treads",
-  "Riftmaker",
-  "Jak'Sho, The Protean"
+  "Shadowflame",
+  "Sorcerer's Shoes",
+  "Lich Bane",
+  "Rabadon's Deathcap"
  ],
  "fourth": [
-  "Rabadon's Deathcap",
-  "Stormsurge",
   "Void Staff",
-  "Lich Bane"
+  "Stormsurge",
+  "Spirit Visage",
+  "Riftmaker"
  ],
  "fifth": [
-  "Rabadon's Deathcap",
-  "Lich Bane",
-  "Void Staff",
-  "Stormsurge"
- ],
- "sixth": [
-  "Void Staff",
-  "Rabadon's Deathcap",
-  "Lich Bane",
-  "Stormsurge"
- ],
- "pool": [
-  "Giant's Belt",
-  "Ruby Crystal",
-  "Heartsteel",
-  "Mercury's Treads",
-  "Riftmaker",
-  "Jak'Sho, The Protean",
-  "Rabadon's Deathcap",
   "Stormsurge",
   "Void Staff",
-  "Lich Bane"
+  "Spirit Visage",
+  "Riftmaker"
+ ],
+ "sixth": [
+  "Riftmaker",
+  "Void Staff",
+  "Jak'Sho, The Protean",
+  "Zhonya's Hourglass"
+ ],
+ "pool": [
+  "Amplifying Tome",
+  "Guardian's Orb",
+  "Shadowflame",
+  "Sorcerer's Shoes",
+  "Lich Bane",
+  "Rabadon's Deathcap",
+  "Void Staff",
+  "Stormsurge",
+  "Spirit Visage",
+  "Riftmaker",
+  "Jak'Sho, The Protean",
+  "Zhonya's Hourglass"
  ]
 }

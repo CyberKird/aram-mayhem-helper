@@ -8,7 +8,7 @@
  ],
  "starting": [
   "Long Sword",
-  "Caulfield's Warhammer"
+  "Serrated Dirk"
  ],
  "core": [
   "Hubris",
@@ -20,23 +20,23 @@
   "Lord Dominik's Regards",
   "Serylda's Grudge",
   "Infinity Edge",
-  "Death's Dance"
+  "Spear of Shojin"
  ],
  "fifth": [
   "Lord Dominik's Regards",
   "Serylda's Grudge",
-  "Death's Dance",
-  "Infinity Edge"
+  "Infinity Edge",
+  "Death's Dance"
  ],
  "sixth": [
   "Death's Dance",
-  "Serylda's Grudge",
   "Lord Dominik's Regards",
+  "Serylda's Grudge",
   "Spear of Shojin"
  ],
  "pool": [
   "Long Sword",
-  "Caulfield's Warhammer",
+  "Serrated Dirk",
   "Hubris",
   "Mercury's Treads",
   "Axiom Arc",
@@ -44,7 +44,7 @@
   "Lord Dominik's Regards",
   "Serylda's Grudge",
   "Infinity Edge",
-  "Death's Dance",
-  "Spear of Shojin"
+  "Spear of Shojin",
+  "Death's Dance"
  ]
 }

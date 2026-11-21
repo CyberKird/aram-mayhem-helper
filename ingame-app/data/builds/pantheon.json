@@ -13,39 +13,38 @@
  "core": [
   "Hubris",
   "Mercury's Treads",
-  "Endless Hunger",
-  "Death's Dance"
+  "Death's Dance",
+  "Endless Hunger"
  ],
  "fourth": [
   "Overlord's Bloodmail",
-  "Warmog's Armor",
-  "Voltaic Cyclosword",
-  "Infinity Edge"
+  "Lord Dominik's Regards",
+  "Infinity Edge",
+  "Voltaic Cyclosword"
  ],
  "fifth": [
   "Lord Dominik's Regards",
-  "Overlord's Bloodmail",
   "Voltaic Cyclosword",
+  "Overlord's Bloodmail",
   "Infinity Edge"
  ],
  "sixth": [
   "Lord Dominik's Regards",
   "Voltaic Cyclosword",
-  "Spear of Shojin",
-  "Infinity Edge"
+  "Infinity Edge",
+  "Spear of Shojin"
  ],
  "pool": [
   "Long Sword",
   "Guardian's Blade",
   "Hubris",
   "Mercury's Treads",
-  "Endless Hunger",
   "Death's Dance",
+  "Endless Hunger",
   "Overlord's Bloodmail",
-  "Warmog's Armor",
-  "Voltaic Cyclosword",
-  "Infinity Edge",
   "Lord Dominik's Regards",
+  "Infinity Edge",
+  "Voltaic Cyclosword",
   "Spear of Shojin"
  ]
 }

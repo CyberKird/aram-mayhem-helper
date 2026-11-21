@@ -8,7 +8,7 @@
  ],
  "starting": [
   "Long Sword",
-  "Serrated Dirk"
+  "Guardian's Blade"
  ],
  "core": [
   "Hubris",
@@ -19,34 +19,34 @@
  "fourth": [
   "Lord Dominik's Regards",
   "Infinity Edge",
-  "The Collector",
-  "Axiom Arc"
+  "Axiom Arc",
+  "Black Cleaver"
  ],
  "fifth": [
-  "Lord Dominik's Regards",
   "Axiom Arc",
+  "Lord Dominik's Regards",
   "Infinity Edge",
-  "Eclipse"
+  "Sterak's Gage"
  ],
  "sixth": [
   "Voltaic Cyclosword",
   "Lord Dominik's Regards",
-  "Spirit Visage",
-  "Infinity Edge"
+  "Edge of Night",
+  "Axiom Arc"
  ],
  "pool": [
   "Long Sword",
-  "Serrated Dirk",
+  "Guardian's Blade",
   "Hubris",
   "Mercury's Treads",
   "Endless Hunger",
   "Death's Dance",
   "Lord Dominik's Regards",
   "Infinity Edge",
-  "The Collector",
   "Axiom Arc",
-  "Eclipse",
+  "Black Cleaver",
+  "Sterak's Gage",
   "Voltaic Cyclosword",
-  "Spirit Visage"
+  "Edge of Night"
  ]
 }

@@ -19,21 +19,21 @@
  ],
  "fourth": [
   "Void Staff",
-  "Zhonya's Hourglass",
   "Dusk and Dawn",
+  "Zhonya's Hourglass",
   "Liandry's Torment"
  ],
  "fifth": [
   "Void Staff",
-  "Riftmaker",
+  "Dusk and Dawn",
   "Zhonya's Hourglass",
-  "Dusk and Dawn"
+  "Riftmaker"
  ],
  "sixth": [
-  "Void Staff",
   "Banshee's Veil",
+  "Void Staff",
   "Zhonya's Hourglass",
-  "Dusk and Dawn"
+  "Rylai's Crystal Scepter"
  ],
  "pool": [
   "Recurve Bow",
@@ -44,10 +44,11 @@
   "Shadowflame",
   "Rabadon's Deathcap",
   "Void Staff",
-  "Zhonya's Hourglass",
   "Dusk and Dawn",
+  "Zhonya's Hourglass",
   "Liandry's Torment",
   "Riftmaker",
-  "Banshee's Veil"
+  "Banshee's Veil",
+  "Rylai's Crystal Scepter"
  ]
 }

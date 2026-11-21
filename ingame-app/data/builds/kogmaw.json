@@ -18,20 +18,20 @@
  "fourth": [
   "Void Staff",
   "Archangel's Staff",
-  "Runaan's Hurricane",
-  "Terminus"
+  "Guinsoo's Rageblade",
+  "Runaan's Hurricane"
  ],
  "fifth": [
-  "Archangel's Staff",
   "Void Staff",
   "Terminus",
-  "Wit's End"
+  "Archangel's Staff",
+  "Nashor's Tooth"
  ],
  "sixth": [
   "Void Staff",
-  "Terminus",
   "Archangel's Staff",
-  "Kraken Slayer"
+  "Terminus",
+  "Wit's End"
  ],
  "pool": [
   "Lost Chapter",
@@ -41,9 +41,10 @@
   "Rabadon's Deathcap",
   "Void Staff",
   "Archangel's Staff",
+  "Guinsoo's Rageblade",
   "Runaan's Hurricane",
   "Terminus",
-  "Wit's End",
-  "Kraken Slayer"
+  "Nashor's Tooth",
+  "Wit's End"
  ]
 }

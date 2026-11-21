@@ -24,14 +24,14 @@
  "fifth": [
   "Shadowflame",
   "Void Staff",
-  "Statikk Shiv",
-  "Nashor's Tooth"
+  "Nashor's Tooth",
+  "Statikk Shiv"
  ],
  "sixth": [
   "Void Staff",
-  "Zhonya's Hourglass",
   "Shadowflame",
-  "Nashor's Tooth"
+  "Nashor's Tooth",
+  "Statikk Shiv"
  ],
  "pool": [
   "Lost Chapter",
@@ -43,7 +43,6 @@
   "Nashor's Tooth",
   "Statikk Shiv",
   "Guinsoo's Rageblade",
-  "Void Staff",
-  "Zhonya's Hourglass"
+  "Void Staff"
  ]
 }

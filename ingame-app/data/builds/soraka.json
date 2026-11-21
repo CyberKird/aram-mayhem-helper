@@ -26,13 +26,13 @@
   "Staff of Flowing Water",
   "Ardent Censer",
   "Mikael's Blessing",
-  "Redemption"
+  "Jak'Sho, The Protean"
  ],
  "sixth": [
   "Staff of Flowing Water",
-  "Warmog's Armor",
   "Mikael's Blessing",
-  "Redemption"
+  "Warmog's Armor",
+  "Ardent Censer"
  ],
  "pool": [
   "Tear of the Goddess",
@@ -46,6 +46,7 @@
   "Redemption",
   "Echoes of Helia",
   "Mikael's Blessing",
+  "Jak'Sho, The Protean",
   "Warmog's Armor"
  ]
 }

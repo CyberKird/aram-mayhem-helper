@@ -4,7 +4,7 @@
  "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
-  "Mark"
+  "Ignite"
  ],
  "starting": [
   "Refillable Potion",
@@ -13,38 +13,39 @@
  "core": [
   "Luden's Echo",
   "Sorcerer's Shoes",
-  "Rabadon's Deathcap",
-  "Shadowflame"
+  "Stormsurge",
+  "Rabadon's Deathcap"
  ],
  "fourth": [
   "Lich Bane",
-  "Stormsurge",
+  "Shadowflame",
   "Void Staff",
   "Horizon Focus"
  ],
  "fifth": [
   "Lich Bane",
-  "Stormsurge",
-  "Horizon Focus",
-  "Void Staff"
+  "Shadowflame",
+  "Banshee's Veil",
+  "Horizon Focus"
  ],
  "sixth": [
   "Lich Bane",
-  "Stormsurge",
-  "Horizon Focus",
-  "Cryptbloom"
+  "Cryptbloom",
+  "Void Staff",
+  "Horizon Focus"
  ],
  "pool": [
   "Refillable Potion",
   "Lost Chapter",
   "Luden's Echo",
   "Sorcerer's Shoes",
-  "Rabadon's Deathcap",
-  "Shadowflame",
-  "Lich Bane",
   "Stormsurge",
+  "Rabadon's Deathcap",
+  "Lich Bane",
+  "Shadowflame",
   "Void Staff",
   "Horizon Focus",
+  "Banshee's Veil",
   "Cryptbloom"
  ]
 }

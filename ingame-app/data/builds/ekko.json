@@ -27,10 +27,10 @@
   "Zhonya's Hourglass"
  ],
  "sixth": [
-  "Nashor's Tooth",
   "Stormsurge",
   "Void Staff",
-  "Banshee's Veil"
+  "Banshee's Veil",
+  "Zhonya's Hourglass"
  ],
  "pool": [
   "Amplifying Tome",
@@ -42,7 +42,6 @@
   "Stormsurge",
   "Void Staff",
   "Zhonya's Hourglass",
-  "Nashor's Tooth",
   "Banshee's Veil"
  ]
 }

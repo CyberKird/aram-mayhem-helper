@@ -7,8 +7,7 @@
   "Mark"
  ],
  "starting": [
-  "Amplifying Tome",
-  "Guardian's Orb"
+  "Needlessly Large Rod"
  ],
  "core": [
   "Shadowflame",
@@ -22,20 +21,19 @@
   "Zhonya's Hourglass"
  ],
  "fifth": [
-  "Void Staff",
   "Stormsurge",
-  "Zhonya's Hourglass",
-  "Cryptbloom"
+  "Void Staff",
+  "Cryptbloom",
+  "Zhonya's Hourglass"
  ],
  "sixth": [
+  "Cryptbloom",
   "Void Staff",
   "Zhonya's Hourglass",
-  "Stormsurge",
-  "Cryptbloom"
+  "Stormsurge"
  ],
  "pool": [
-  "Amplifying Tome",
-  "Guardian's Orb",
+  "Needlessly Large Rod",
   "Shadowflame",
   "Sorcerer's Shoes",
   "Lich Bane",

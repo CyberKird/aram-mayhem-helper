@@ -17,22 +17,22 @@
   "Warmog's Armor"
  ],
  "fourth": [
-  "Titanic Hydra",
   "Endless Hunger",
+  "Titanic Hydra",
   "Unending Despair",
   "Sterak's Gage"
  ],
  "fifth": [
   "Titanic Hydra",
-  "Unending Despair",
+  "Sterak's Gage",
   "Endless Hunger",
-  "Sterak's Gage"
+  "Unending Despair"
  ],
  "sixth": [
   "Sterak's Gage",
   "Endless Hunger",
   "Unending Despair",
-  "Titanic Hydra"
+  "Spear of Shojin"
  ],
  "pool": [
   "Giant's Belt",
@@ -41,9 +41,10 @@
   "Mercury's Treads",
   "Overlord's Bloodmail",
   "Warmog's Armor",
-  "Titanic Hydra",
   "Endless Hunger",
+  "Titanic Hydra",
   "Unending Despair",
-  "Sterak's Gage"
+  "Sterak's Gage",
+  "Spear of Shojin"
  ]
 }

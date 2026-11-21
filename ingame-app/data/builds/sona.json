@@ -18,10 +18,10 @@
   "Staff of Flowing Water"
  ],
  "fourth": [
-  "Sword of Blossoming Dawn",
   "Dawncore",
-  "Echoes of Helia",
-  "Ardent Censer"
+  "Sword of Blossoming Dawn",
+  "Ardent Censer",
+  "Echoes of Helia"
  ],
  "fifth": [
   "Sword of Blossoming Dawn",
@@ -31,9 +31,9 @@
  ],
  "sixth": [
   "Sword of Blossoming Dawn",
-  "Echoes of Helia",
   "Dawncore",
-  "Ardent Censer"
+  "Ardent Censer",
+  "Echoes of Helia"
  ],
  "pool": [
   "Ruby Crystal",
@@ -43,9 +43,9 @@
   "Ionian Boots of Lucidity",
   "Moonstone Renewer",
   "Staff of Flowing Water",
-  "Sword of Blossoming Dawn",
   "Dawncore",
-  "Echoes of Helia",
-  "Ardent Censer"
+  "Sword of Blossoming Dawn",
+  "Ardent Censer",
+  "Echoes of Helia"
  ]
 }

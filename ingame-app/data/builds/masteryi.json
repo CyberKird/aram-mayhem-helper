@@ -20,7 +20,7 @@
   "Endless Hunger",
   "Essence Reaver",
   "Death's Dance",
-  "Navori Flickerblade"
+  "Experimental Hexplate"
  ],
  "fifth": [
   "Endless Hunger",
@@ -32,7 +32,7 @@
   "Endless Hunger",
   "Death's Dance",
   "Experimental Hexplate",
-  "Navori Flickerblade"
+  "Terminus"
  ],
  "pool": [
   "Long Sword",
@@ -44,8 +44,7 @@
   "Endless Hunger",
   "Essence Reaver",
   "Death's Dance",
-  "Navori Flickerblade",
-  "Terminus",
-  "Experimental Hexplate"
+  "Experimental Hexplate",
+  "Terminus"
  ]
 }

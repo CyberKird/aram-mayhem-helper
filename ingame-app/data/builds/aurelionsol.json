@@ -7,7 +7,8 @@
   "Barrier"
  ],
  "starting": [
-  "Lost Chapter"
+  "Giant's Belt",
+  "Amplifying Tome"
  ],
  "core": [
   "Rylai's Crystal Scepter",
@@ -19,22 +20,23 @@
   "Bloodletter's Curse",
   "Rabadon's Deathcap",
   "Archangel's Staff",
-  "Warmog's Armor"
+  "Shadowflame"
  ],
  "fifth": [
   "Warmog's Armor",
-  "Bloodletter's Curse",
   "Riftmaker",
+  "Bloodletter's Curse",
   "Rabadon's Deathcap"
  ],
  "sixth": [
   "Warmog's Armor",
-  "Riftmaker",
   "Bloodletter's Curse",
-  "Shadowflame"
+  "Riftmaker",
+  "Void Staff"
  ],
  "pool": [
-  "Lost Chapter",
+  "Giant's Belt",
+  "Amplifying Tome",
   "Rylai's Crystal Scepter",
   "Sorcerer's Shoes",
   "Blackfire Torch",
@@ -42,8 +44,9 @@
   "Bloodletter's Curse",
   "Rabadon's Deathcap",
   "Archangel's Staff",
+  "Shadowflame",
   "Warmog's Armor",
   "Riftmaker",
-  "Shadowflame"
+  "Void Staff"
  ]
 }

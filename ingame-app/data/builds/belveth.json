@@ -12,7 +12,7 @@
  ],
  "core": [
   "Blade of The Ruined King",
-  "Mercury's Treads",
+  "Plated Steelcaps",
   "Kraken Slayer",
   "Death's Dance"
  ],
@@ -20,17 +20,17 @@
   "Lord Dominik's Regards",
   "Infinity Edge",
   "Endless Hunger",
-  "Terminus"
+  "Guinsoo's Rageblade"
  ],
  "fifth": [
   "Infinity Edge",
-  "Guinsoo's Rageblade",
+  "Endless Hunger",
   "Lord Dominik's Regards",
-  "Endless Hunger"
+  "Guinsoo's Rageblade"
  ],
  "sixth": [
-  "Endless Hunger",
   "Guinsoo's Rageblade",
+  "Endless Hunger",
   "Terminus",
   "Infinity Edge"
  ],
@@ -38,13 +38,13 @@
   "Dagger",
   "Vampiric Scepter",
   "Blade of The Ruined King",
-  "Mercury's Treads",
+  "Plated Steelcaps",
   "Kraken Slayer",
   "Death's Dance",
   "Lord Dominik's Regards",
   "Infinity Edge",
   "Endless Hunger",
-  "Terminus",
-  "Guinsoo's Rageblade"
+  "Guinsoo's Rageblade",
+  "Terminus"
  ]
 }

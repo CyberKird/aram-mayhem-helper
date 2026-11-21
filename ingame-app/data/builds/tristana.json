@@ -7,13 +7,12 @@
   "Ghost"
  ],
  "starting": [
-  "Dagger",
-  "Serrated Dirk"
+  "B. F. Sword"
  ],
  "core": [
-  "The Collector",
-  "Berserker's Greaves",
   "Yun Tal Wildarrows",
+  "Berserker's Greaves",
+  "The Collector",
   "Infinity Edge"
  ],
  "fourth": [
@@ -23,23 +22,22 @@
   "Runaan's Hurricane"
  ],
  "fifth": [
-  "Bloodthirster",
   "Lord Dominik's Regards",
+  "Bloodthirster",
   "Kraken Slayer",
   "Navori Flickerblade"
  ],
  "sixth": [
   "Bloodthirster",
-  "Phantom Dancer",
   "Lord Dominik's Regards",
+  "Phantom Dancer",
   "Kraken Slayer"
  ],
  "pool": [
-  "Dagger",
-  "Serrated Dirk",
-  "The Collector",
-  "Berserker's Greaves",
+  "B. F. Sword",
   "Yun Tal Wildarrows",
+  "Berserker's Greaves",
+  "The Collector",
   "Infinity Edge",
   "Lord Dominik's Regards",
   "Bloodthirster",

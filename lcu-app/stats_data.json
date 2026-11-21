@@ -4,10 +4,10 @@
  "source": "aramkit.com (ARAM Mayhem)",
  "champions": {
   "Annie": {
-   "wr": 49.7,
-   "pr": 2.6,
+   "wr": 50.1,
+   "pr": 2.3,
    "tier": "B",
-   "games": 125347,
+   "games": 205999,
    "balance": {
     "modifiers": [
      {
@@ -20,10 +20,10 @@
    }
   },
   "Olaf": {
-   "wr": 47.5,
-   "pr": 2.0,
+   "wr": 48.0,
+   "pr": 1.8,
    "tier": "C",
-   "games": 96367,
+   "games": 161676,
    "balance": {
     "modifiers": [
      {
@@ -36,10 +36,10 @@
    }
   },
   "Galio": {
-   "wr": 53.0,
-   "pr": 5.8,
+   "wr": 52.9,
+   "pr": 5.6,
    "tier": "A",
-   "games": 275908,
+   "games": 493805,
    "balance": {
     "modifiers": [
      {
@@ -57,31 +57,31 @@
    }
   },
   "Twisted Fate": {
-   "wr": 56.7,
-   "pr": 12.3,
+   "wr": 57.3,
+   "pr": 12.9,
    "tier": "S",
-   "games": 586149,
+   "games": 1136638,
    "balance": {}
   },
   "Xin Zhao": {
-   "wr": 55.1,
-   "pr": 9.8,
+   "wr": 55.6,
+   "pr": 9.7,
    "tier": "S",
-   "games": 465922,
+   "games": 853903,
    "balance": {}
   },
   "Urgot": {
-   "wr": 45.5,
-   "pr": 3.3,
+   "wr": 45.8,
+   "pr": 3.1,
    "tier": "C",
-   "games": 158601,
+   "games": 272676,
    "balance": {}
   },
   "LeBlanc": {
    "wr": 43.6,
-   "pr": 3.6,
+   "pr": 3.3,
    "tier": "D",
-   "games": 171910,
+   "games": 290530,
    "balance": {
     "modifiers": [
      {
@@ -104,24 +104,24 @@
    }
   },
   "Vladimir": {
-   "wr": 48.4,
+   "wr": 48.9,
    "pr": 6.9,
    "tier": "B",
-   "games": 328539,
+   "games": 607142,
    "balance": {}
   },
   "Fiddlesticks": {
    "wr": 47.3,
-   "pr": 3.7,
+   "pr": 3.5,
    "tier": "C",
-   "games": 175821,
+   "games": 305911,
    "balance": {}
   },
   "Kayle": {
-   "wr": 55.5,
-   "pr": 6.2,
+   "wr": 55.4,
+   "pr": 6.1,
    "tier": "S",
-   "games": 297250,
+   "games": 535721,
    "balance": {
     "modifiers": [
      {
@@ -139,17 +139,17 @@
    }
   },
   "Master Yi": {
-   "wr": 53.6,
-   "pr": 10.6,
+   "wr": 54.5,
+   "pr": 11.1,
    "tier": "S",
-   "games": 507428,
+   "games": 974578,
    "balance": {}
   },
   "Alistar": {
    "wr": 52.8,
-   "pr": 5.4,
+   "pr": 5.3,
    "tier": "A",
-   "games": 259184,
+   "games": 462674,
    "balance": {
     "modifiers": [
      {
@@ -162,17 +162,17 @@
    }
   },
   "Ryze": {
-   "wr": 52.5,
-   "pr": 10.3,
+   "wr": 52.4,
+   "pr": 10.6,
    "tier": "A",
-   "games": 490179,
+   "games": 929684,
    "balance": {}
   },
   "Sion": {
    "wr": 50.0,
-   "pr": 5.0,
+   "pr": 4.7,
    "tier": "B",
-   "games": 236809,
+   "games": 416289,
    "balance": {
     "modifiers": [
      {
@@ -209,10 +209,10 @@
    }
   },
   "Sivir": {
-   "wr": 48.3,
-   "pr": 4.8,
+   "wr": 48.0,
+   "pr": 4.5,
    "tier": "B",
-   "games": 228209,
+   "games": 394527,
    "balance": {
     "modifiers": [
      {
@@ -234,10 +234,10 @@
    }
   },
   "Soraka": {
-   "wr": 51.2,
+   "wr": 51.3,
    "pr": 3.4,
    "tier": "A",
-   "games": 163349,
+   "games": 295426,
    "balance": {
     "modifiers": [
      {
@@ -269,9 +269,9 @@
   },
   "Teemo": {
    "wr": 53.9,
-   "pr": 13.4,
+   "pr": 14.3,
    "tier": "S",
-   "games": 638846,
+   "games": 1260595,
    "balance": {
     "modifiers": [
      {
@@ -301,17 +301,17 @@
    }
   },
   "Tristana": {
-   "wr": 46.8,
-   "pr": 6.6,
+   "wr": 46.9,
+   "pr": 6.4,
    "tier": "C",
-   "games": 316148,
+   "games": 562945,
    "balance": {}
   },
   "Warwick": {
-   "wr": 48.8,
-   "pr": 2.2,
+   "wr": 49.2,
+   "pr": 2.1,
    "tier": "B",
-   "games": 105813,
+   "games": 180062,
    "balance": {
     "modifiers": [
      {
@@ -338,10 +338,10 @@
    }
   },
   "Nunu & Willump": {
-   "wr": 45.9,
-   "pr": 2.3,
+   "wr": 46.0,
+   "pr": 2.1,
    "tier": "C",
-   "games": 111483,
+   "games": 188199,
    "balance": {
     "modifiers": [
      {
@@ -391,10 +391,10 @@
    }
   },
   "Miss Fortune": {
-   "wr": 50.7,
-   "pr": 13.4,
-   "tier": "A",
-   "games": 641809,
+   "wr": 50.1,
+   "pr": 14.4,
+   "tier": "B",
+   "games": 1267613,
    "balance": {
     "modifiers": [
      {
@@ -407,10 +407,10 @@
    }
   },
   "Ashe": {
-   "wr": 44.0,
-   "pr": 14.3,
+   "wr": 44.6,
+   "pr": 15.4,
    "tier": "D",
-   "games": 684386,
+   "games": 1357639,
    "balance": {
     "modifiers": [],
     "abilityChanges": [
@@ -426,10 +426,10 @@
    }
   },
   "Tryndamere": {
-   "wr": 51.1,
-   "pr": 7.1,
+   "wr": 50.9,
+   "pr": 7.0,
    "tier": "A",
-   "games": 337644,
+   "games": 618782,
    "balance": {
     "modifiers": [
      {
@@ -452,17 +452,17 @@
    }
   },
   "Jax": {
-   "wr": 49.9,
-   "pr": 6.4,
+   "wr": 50.1,
+   "pr": 6.2,
    "tier": "B",
-   "games": 307350,
+   "games": 549433,
    "balance": {}
   },
   "Morgana": {
-   "wr": 54.3,
-   "pr": 10.1,
+   "wr": 54.0,
+   "pr": 10.3,
    "tier": "S",
-   "games": 481506,
+   "games": 903761,
    "balance": {
     "modifiers": [
      {
@@ -475,10 +475,10 @@
    }
   },
   "Zilean": {
-   "wr": 52.6,
+   "wr": 53.1,
    "pr": 4.1,
-   "tier": "A",
-   "games": 196969,
+   "tier": "S",
+   "games": 357705,
    "balance": {
     "modifiers": [],
     "abilityChanges": [
@@ -518,10 +518,10 @@
    }
   },
   "Singed": {
-   "wr": 50.7,
-   "pr": 5.5,
+   "wr": 50.8,
+   "pr": 5.6,
    "tier": "A",
-   "games": 263172,
+   "games": 495955,
    "balance": {
     "modifiers": [],
     "abilityChanges": [
@@ -538,10 +538,10 @@
    }
   },
   "Evelynn": {
-   "wr": 47.0,
-   "pr": 1.2,
+   "wr": 46.9,
+   "pr": 1.1,
    "tier": "C",
-   "games": 56563,
+   "games": 95992,
    "balance": {
     "modifiers": [
      {
@@ -573,17 +573,17 @@
    }
   },
   "Twitch": {
-   "wr": 47.3,
-   "pr": 7.6,
+   "wr": 47.2,
+   "pr": 7.5,
    "tier": "C",
-   "games": 362793,
+   "games": 663399,
    "balance": {}
   },
   "Karthus": {
-   "wr": 46.1,
-   "pr": 12.4,
+   "wr": 46.3,
+   "pr": 12.7,
    "tier": "C",
-   "games": 591119,
+   "games": 1112368,
    "balance": {
     "modifiers": [
      {
@@ -610,10 +610,10 @@
    }
   },
   "Cho'Gath": {
-   "wr": 47.2,
-   "pr": 7.6,
+   "wr": 46.7,
+   "pr": 7.2,
    "tier": "C",
-   "games": 363442,
+   "games": 637259,
    "balance": {
     "modifiers": [
      {
@@ -626,24 +626,24 @@
    }
   },
   "Amumu": {
-   "wr": 48.5,
-   "pr": 4.2,
+   "wr": 48.4,
+   "pr": 3.9,
    "tier": "B",
-   "games": 199763,
+   "games": 341552,
    "balance": {}
   },
   "Rammus": {
-   "wr": 46.7,
-   "pr": 1.8,
+   "wr": 46.6,
+   "pr": 1.6,
    "tier": "C",
-   "games": 86713,
+   "games": 143931,
    "balance": {}
   },
   "Anivia": {
-   "wr": 44.8,
-   "pr": 2.2,
+   "wr": 44.6,
+   "pr": 2.1,
    "tier": "D",
-   "games": 107309,
+   "games": 180896,
    "balance": {
     "modifiers": [
      {
@@ -656,10 +656,10 @@
    }
   },
   "Shaco": {
-   "wr": 47.9,
-   "pr": 9.8,
-   "tier": "C",
-   "games": 469473,
+   "wr": 48.4,
+   "pr": 10.2,
+   "tier": "B",
+   "games": 898753,
    "balance": {
     "modifiers": [
      {
@@ -706,10 +706,10 @@
    }
   },
   "Dr. Mundo": {
-   "wr": 51.3,
-   "pr": 8.5,
+   "wr": 51.6,
+   "pr": 8.4,
    "tier": "A",
-   "games": 405455,
+   "games": 741928,
    "balance": {
     "modifiers": [
      {
@@ -732,10 +732,10 @@
    }
   },
   "Sona": {
-   "wr": 54.2,
-   "pr": 4.3,
+   "wr": 54.3,
+   "pr": 4.2,
    "tier": "S",
-   "games": 203861,
+   "games": 372266,
    "balance": {
     "modifiers": [],
     "abilityChanges": [
@@ -770,10 +770,10 @@
    }
   },
   "Kassadin": {
-   "wr": 50.8,
-   "pr": 3.4,
+   "wr": 51.0,
+   "pr": 3.2,
    "tier": "A",
-   "games": 161152,
+   "games": 279354,
    "balance": {
     "modifiers": [
      {
@@ -796,10 +796,10 @@
    }
   },
   "Irelia": {
-   "wr": 49.8,
-   "pr": 3.8,
+   "wr": 50.0,
+   "pr": 3.7,
    "tier": "B",
-   "games": 182589,
+   "games": 325129,
    "balance": {
     "modifiers": [
      {
@@ -817,10 +817,10 @@
    }
   },
   "Janna": {
-   "wr": 54.1,
-   "pr": 2.0,
+   "wr": 54.3,
+   "pr": 1.9,
    "tier": "S",
-   "games": 96401,
+   "games": 167525,
    "balance": {
     "modifiers": [],
     "abilityChanges": [
@@ -836,10 +836,10 @@
    }
   },
   "Gangplank": {
-   "wr": 49.2,
-   "pr": 9.3,
+   "wr": 49.6,
+   "pr": 10.3,
    "tier": "B",
-   "games": 444673,
+   "games": 903575,
    "balance": {
     "modifiers": [
      {
@@ -852,10 +852,10 @@
    }
   },
   "Corki": {
-   "wr": 52.4,
-   "pr": 7.4,
+   "wr": 52.7,
+   "pr": 7.8,
    "tier": "A",
-   "games": 351486,
+   "games": 687182,
    "balance": {
     "modifiers": [
      {
@@ -873,10 +873,10 @@
    }
   },
   "Karma": {
-   "wr": 49.0,
-   "pr": 3.6,
+   "wr": 49.5,
+   "pr": 3.4,
    "tier": "B",
-   "games": 170262,
+   "games": 297209,
    "balance": {
     "modifiers": [],
     "abilityChanges": [
@@ -892,10 +892,10 @@
    }
   },
   "Taric": {
-   "wr": 53.0,
-   "pr": 1.0,
+   "wr": 52.9,
+   "pr": 0.9,
    "tier": "A",
-   "games": 49190,
+   "games": 82906,
    "balance": {
     "modifiers": [
      {
@@ -908,10 +908,10 @@
    }
   },
   "Veigar": {
-   "wr": 50.0,
-   "pr": 6.4,
+   "wr": 49.9,
+   "pr": 6.3,
    "tier": "B",
-   "games": 306824,
+   "games": 550358,
    "balance": {
     "modifiers": [
      {
@@ -946,24 +946,24 @@
    }
   },
   "Trundle": {
-   "wr": 51.1,
-   "pr": 9.4,
+   "wr": 50.7,
+   "pr": 9.7,
    "tier": "A",
-   "games": 448984,
+   "games": 850536,
    "balance": {}
   },
   "Swain": {
-   "wr": 49.3,
-   "pr": 8.4,
+   "wr": 49.1,
+   "pr": 8.8,
    "tier": "B",
-   "games": 401793,
+   "games": 776243,
    "balance": {}
   },
   "Caitlyn": {
-   "wr": 49.9,
-   "pr": 13.3,
+   "wr": 50.3,
+   "pr": 14.2,
    "tier": "B",
-   "games": 634210,
+   "games": 1246384,
    "balance": {
     "modifiers": [],
     "abilityChanges": [
@@ -979,24 +979,24 @@
    }
   },
   "Blitzcrank": {
-   "wr": 46.9,
+   "wr": 47.0,
    "pr": 6.9,
    "tier": "C",
-   "games": 331583,
+   "games": 604297,
    "balance": {}
   },
   "Malphite": {
-   "wr": 48.2,
-   "pr": 9.9,
-   "tier": "B",
-   "games": 473373,
+   "wr": 47.9,
+   "pr": 10.2,
+   "tier": "C",
+   "games": 901635,
    "balance": {}
   },
   "Katarina": {
-   "wr": 49.8,
-   "pr": 7.6,
+   "wr": 50.0,
+   "pr": 7.9,
    "tier": "B",
-   "games": 365764,
+   "games": 691801,
    "balance": {
     "modifiers": [
      {
@@ -1014,10 +1014,10 @@
    }
   },
   "Nocturne": {
-   "wr": 48.8,
-   "pr": 3.7,
+   "wr": 49.0,
+   "pr": 3.5,
    "tier": "B",
-   "games": 177476,
+   "games": 309488,
    "balance": {
     "modifiers": [
      {
@@ -1040,10 +1040,10 @@
    }
   },
   "Maokai": {
-   "wr": 50.0,
-   "pr": 7.0,
+   "wr": 50.1,
+   "pr": 6.9,
    "tier": "B",
-   "games": 335419,
+   "games": 608352,
    "balance": {
     "modifiers": [
      {
@@ -1082,10 +1082,10 @@
    }
   },
   "Renekton": {
-   "wr": 45.9,
-   "pr": 3.8,
+   "wr": 46.2,
+   "pr": 3.6,
    "tier": "C",
-   "games": 183109,
+   "games": 317303,
    "balance": {
     "modifiers": [
      {
@@ -1098,17 +1098,17 @@
    }
   },
   "Jarvan IV": {
-   "wr": 45.8,
-   "pr": 9.1,
+   "wr": 46.1,
+   "pr": 9.2,
    "tier": "C",
-   "games": 433510,
+   "games": 805398,
    "balance": {}
   },
   "Elise": {
-   "wr": 48.6,
+   "wr": 47.7,
    "pr": 1.0,
-   "tier": "B",
-   "games": 47971,
+   "tier": "C",
+   "games": 89696,
    "balance": {
     "modifiers": [
      {
@@ -1131,17 +1131,17 @@
    }
   },
   "Orianna": {
-   "wr": 48.9,
-   "pr": 4.2,
+   "wr": 48.7,
+   "pr": 4.0,
    "tier": "B",
-   "games": 200151,
+   "games": 350586,
    "balance": {}
   },
   "Wukong": {
-   "wr": 49.6,
-   "pr": 5.9,
+   "wr": 49.8,
+   "pr": 5.6,
    "tier": "B",
-   "games": 279927,
+   "games": 493525,
    "balance": {
     "modifiers": [],
     "abilityChanges": [
@@ -1165,10 +1165,10 @@
    }
   },
   "Brand": {
-   "wr": 49.8,
-   "pr": 11.1,
+   "wr": 49.5,
+   "pr": 11.5,
    "tier": "B",
-   "games": 531563,
+   "games": 1008579,
    "balance": {
     "modifiers": [
      {
@@ -1191,10 +1191,10 @@
    }
   },
   "Lee Sin": {
-   "wr": 45.5,
+   "wr": 45.4,
    "pr": 7.4,
    "tier": "C",
-   "games": 355783,
+   "games": 652549,
    "balance": {
     "modifiers": [
      {
@@ -1227,31 +1227,31 @@
    }
   },
   "Vayne": {
-   "wr": 50.7,
-   "pr": 9.5,
+   "wr": 50.5,
+   "pr": 9.8,
    "tier": "A",
-   "games": 454913,
+   "games": 857412,
    "balance": {}
   },
   "Rumble": {
-   "wr": 49.3,
-   "pr": 5.9,
+   "wr": 49.1,
+   "pr": 5.8,
    "tier": "B",
-   "games": 281467,
+   "games": 512429,
    "balance": {}
   },
   "Cassiopeia": {
-   "wr": 45.5,
-   "pr": 2.3,
+   "wr": 45.6,
+   "pr": 2.1,
    "tier": "C",
-   "games": 111849,
+   "games": 188322,
    "balance": {}
   },
   "Skarner": {
-   "wr": 48.4,
+   "wr": 47.9,
    "pr": 1.9,
-   "tier": "B",
-   "games": 89692,
+   "tier": "C",
+   "games": 165605,
    "balance": {
     "modifiers": [
      {
@@ -1269,10 +1269,10 @@
    }
   },
   "Heimerdinger": {
-   "wr": 50.2,
-   "pr": 3.2,
+   "wr": 49.7,
+   "pr": 3.0,
    "tier": "B",
-   "games": 151119,
+   "games": 261638,
    "balance": {
     "modifiers": [
      {
@@ -1290,10 +1290,10 @@
    }
   },
   "Nasus": {
-   "wr": 50.0,
-   "pr": 5.6,
+   "wr": 49.6,
+   "pr": 5.2,
    "tier": "B",
-   "games": 268363,
+   "games": 454287,
    "balance": {
     "modifiers": [],
     "abilityChanges": [
@@ -1310,10 +1310,10 @@
    }
   },
   "Nidalee": {
-   "wr": 47.4,
+   "wr": 47.5,
    "pr": 7.0,
    "tier": "C",
-   "games": 334159,
+   "games": 616658,
    "balance": {
     "modifiers": [
      {
@@ -1326,24 +1326,24 @@
    }
   },
   "Udyr": {
-   "wr": 47.5,
+   "wr": 47.6,
    "pr": 5.0,
    "tier": "C",
-   "games": 238478,
+   "games": 436923,
    "balance": {}
   },
   "Poppy": {
-   "wr": 54.3,
-   "pr": 3.2,
+   "wr": 53.8,
+   "pr": 3.0,
    "tier": "S",
-   "games": 154166,
+   "games": 264280,
    "balance": {}
   },
   "Gragas": {
-   "wr": 48.9,
-   "pr": 5.2,
+   "wr": 48.7,
+   "pr": 5.1,
    "tier": "B",
-   "games": 247365,
+   "games": 446111,
    "balance": {
     "modifiers": [
      {
@@ -1356,31 +1356,31 @@
    }
   },
   "Pantheon": {
-   "wr": 50.6,
-   "pr": 6.9,
-   "tier": "B",
-   "games": 328756,
+   "wr": 51.1,
+   "pr": 6.6,
+   "tier": "A",
+   "games": 575976,
    "balance": {}
   },
   "Ezreal": {
-   "wr": 47.6,
-   "pr": 12.8,
-   "tier": "C",
-   "games": 612058,
+   "wr": 48.0,
+   "pr": 14.0,
+   "tier": "B",
+   "games": 1227081,
    "balance": {}
   },
   "Mordekaiser": {
-   "wr": 45.8,
-   "pr": 7.0,
-   "tier": "C",
-   "games": 332036,
+   "wr": 45.2,
+   "pr": 6.8,
+   "tier": "D",
+   "games": 595201,
    "balance": {}
   },
   "Yorick": {
-   "wr": 44.9,
-   "pr": 0.7,
+   "wr": 44.7,
+   "pr": 0.6,
    "tier": "D",
-   "games": 34238,
+   "games": 55854,
    "balance": {
     "modifiers": [],
     "abilityChanges": [
@@ -1397,10 +1397,10 @@
    }
   },
   "Akali": {
-   "wr": 44.0,
-   "pr": 4.3,
+   "wr": 43.8,
+   "pr": 4.2,
    "tier": "D",
-   "games": 206700,
+   "games": 366318,
    "balance": {
     "modifiers": [
      {
@@ -1450,10 +1450,10 @@
    }
   },
   "Kennen": {
-   "wr": 44.9,
-   "pr": 2.2,
+   "wr": 45.2,
+   "pr": 2.1,
    "tier": "D",
-   "games": 107097,
+   "games": 181993,
    "balance": {
     "modifiers": [
      {
@@ -1466,10 +1466,10 @@
    }
   },
   "Garen": {
-   "wr": 45.5,
-   "pr": 6.3,
+   "wr": 45.4,
+   "pr": 6.0,
    "tier": "C",
-   "games": 300555,
+   "games": 530423,
    "balance": {
     "modifiers": [
      {
@@ -1491,10 +1491,10 @@
    }
   },
   "Leona": {
-   "wr": 51.1,
-   "pr": 4.8,
+   "wr": 50.7,
+   "pr": 4.5,
    "tier": "A",
-   "games": 227238,
+   "games": 396880,
    "balance": {
     "modifiers": [
      {
@@ -1512,10 +1512,10 @@
    }
   },
   "Malzahar": {
-   "wr": 51.3,
-   "pr": 5.8,
+   "wr": 51.2,
+   "pr": 5.7,
    "tier": "A",
-   "games": 278444,
+   "games": 503857,
    "balance": {
     "modifiers": [
      {
@@ -1533,10 +1533,10 @@
    }
   },
   "Talon": {
-   "wr": 49.3,
-   "pr": 5.6,
+   "wr": 49.5,
+   "pr": 5.2,
    "tier": "B",
-   "games": 267793,
+   "games": 457065,
    "balance": {
     "modifiers": [
      {
@@ -1593,10 +1593,10 @@
    }
   },
   "Riven": {
-   "wr": 48.8,
-   "pr": 3.0,
+   "wr": 48.9,
+   "pr": 2.8,
    "tier": "B",
-   "games": 145691,
+   "games": 249152,
    "balance": {
     "modifiers": [
      {
@@ -1614,10 +1614,10 @@
    }
   },
   "Kog'Maw": {
-   "wr": 48.1,
-   "pr": 4.4,
-   "tier": "B",
-   "games": 210591,
+   "wr": 47.8,
+   "pr": 4.2,
+   "tier": "C",
+   "games": 366085,
    "balance": {
     "modifiers": [
      {
@@ -1652,10 +1652,10 @@
    }
   },
   "Shen": {
-   "wr": 51.5,
-   "pr": 4.6,
+   "wr": 51.0,
+   "pr": 4.4,
    "tier": "A",
-   "games": 221844,
+   "games": 389718,
    "balance": {
     "modifiers": [
      {
@@ -1673,10 +1673,10 @@
    }
   },
   "Lux": {
-   "wr": 48.7,
-   "pr": 6.6,
+   "wr": 48.4,
+   "pr": 6.4,
    "tier": "B",
-   "games": 313092,
+   "games": 559670,
    "balance": {
     "modifiers": [
      {
@@ -1703,10 +1703,10 @@
    }
   },
   "Xerath": {
-   "wr": 49.5,
-   "pr": 6.9,
+   "wr": 49.0,
+   "pr": 6.8,
    "tier": "B",
-   "games": 330684,
+   "games": 598977,
    "balance": {
     "modifiers": [
      {
@@ -1724,38 +1724,38 @@
    }
   },
   "Shyvana": {
-   "wr": 52.8,
-   "pr": 4.0,
+   "wr": 52.5,
+   "pr": 3.7,
    "tier": "A",
-   "games": 188894,
+   "games": 328082,
    "balance": {}
   },
   "Ahri": {
    "wr": 52.2,
-   "pr": 6.8,
+   "pr": 6.3,
    "tier": "A",
-   "games": 325907,
+   "games": 554632,
    "balance": {}
   },
   "Graves": {
-   "wr": 51.1,
-   "pr": 11.4,
+   "wr": 51.6,
+   "pr": 12.0,
    "tier": "A",
-   "games": 545033,
+   "games": 1054109,
    "balance": {}
   },
   "Fizz": {
-   "wr": 50.0,
+   "wr": 50.1,
    "pr": 8.0,
    "tier": "B",
-   "games": 383469,
+   "games": 703560,
    "balance": {}
   },
   "Volibear": {
-   "wr": 51.7,
-   "pr": 6.6,
+   "wr": 51.8,
+   "pr": 6.5,
    "tier": "A",
-   "games": 313448,
+   "games": 569714,
    "balance": {
     "modifiers": [],
     "abilityChanges": [
@@ -1771,10 +1771,10 @@
    }
   },
   "Rengar": {
-   "wr": 50.0,
+   "wr": 50.5,
    "pr": 5.9,
    "tier": "B",
-   "games": 280625,
+   "games": 520352,
    "balance": {
     "modifiers": [
      {
@@ -1824,24 +1824,24 @@
    }
   },
   "Varus": {
-   "wr": 47.8,
-   "pr": 8.9,
+   "wr": 47.6,
+   "pr": 9.0,
    "tier": "C",
-   "games": 427041,
+   "games": 794494,
    "balance": {}
   },
   "Nautilus": {
-   "wr": 50.0,
-   "pr": 5.5,
+   "wr": 49.9,
+   "pr": 5.3,
    "tier": "B",
-   "games": 261641,
+   "games": 464844,
    "balance": {}
   },
   "Viktor": {
    "wr": 52.1,
-   "pr": 6.7,
+   "pr": 6.3,
    "tier": "A",
-   "games": 320434,
+   "games": 551941,
    "balance": {
     "modifiers": [],
     "abilityChanges": [
@@ -1867,17 +1867,17 @@
    }
   },
   "Sejuani": {
-   "wr": 48.4,
-   "pr": 3.0,
+   "wr": 48.0,
+   "pr": 2.7,
    "tier": "B",
-   "games": 141359,
+   "games": 241158,
    "balance": {}
   },
   "Fiora": {
-   "wr": 56.0,
+   "wr": 56.8,
    "pr": 7.1,
    "tier": "S",
-   "games": 340620,
+   "games": 624622,
    "balance": {
     "modifiers": [
      {
@@ -1890,10 +1890,10 @@
    }
   },
   "Ziggs": {
-   "wr": 49.5,
-   "pr": 7.2,
+   "wr": 49.2,
+   "pr": 6.6,
    "tier": "B",
-   "games": 342527,
+   "games": 578518,
    "balance": {
     "modifiers": [
      {
@@ -1950,17 +1950,17 @@
    }
   },
   "Lulu": {
-   "wr": 48.3,
-   "pr": 2.0,
+   "wr": 49.0,
+   "pr": 1.8,
    "tier": "B",
-   "games": 94029,
+   "games": 154152,
    "balance": {}
   },
   "Draven": {
-   "wr": 51.3,
-   "pr": 8.2,
+   "wr": 51.5,
+   "pr": 8.5,
    "tier": "A",
-   "games": 392574,
+   "games": 749138,
    "balance": {
     "modifiers": [
      {
@@ -1988,10 +1988,10 @@
    }
   },
   "Hecarim": {
-   "wr": 48.2,
-   "pr": 9.4,
+   "wr": 48.9,
+   "pr": 9.7,
    "tier": "B",
-   "games": 449412,
+   "games": 851474,
    "balance": {
     "modifiers": [
      {
@@ -2026,7 +2026,7 @@
    "wr": 48.9,
    "pr": 6.2,
    "tier": "B",
-   "games": 298130,
+   "games": 540929,
    "balance": {
     "modifiers": [
      {
@@ -2054,10 +2054,10 @@
    }
   },
   "Darius": {
-   "wr": 50.1,
-   "pr": 7.0,
+   "wr": 49.7,
+   "pr": 6.9,
    "tier": "B",
-   "games": 336190,
+   "games": 606921,
    "balance": {
     "modifiers": [
      {
@@ -2071,9 +2071,9 @@
   },
   "Jayce": {
    "wr": 47.8,
-   "pr": 10.3,
+   "pr": 10.6,
    "tier": "C",
-   "games": 492607,
+   "games": 933904,
    "balance": {
     "modifiers": [
      {
@@ -2086,10 +2086,10 @@
    }
   },
   "Lissandra": {
-   "wr": 48.7,
-   "pr": 2.8,
+   "wr": 48.5,
+   "pr": 2.6,
    "tier": "B",
-   "games": 133417,
+   "games": 229136,
    "balance": {
     "modifiers": [
      {
@@ -2107,17 +2107,17 @@
    }
   },
   "Diana": {
-   "wr": 46.8,
-   "pr": 3.5,
+   "wr": 46.7,
+   "pr": 3.2,
    "tier": "C",
-   "games": 167374,
+   "games": 283684,
    "balance": {}
   },
   "Quinn": {
-   "wr": 46.9,
-   "pr": 1.9,
+   "wr": 46.8,
+   "pr": 1.8,
    "tier": "C",
-   "games": 92470,
+   "games": 154307,
    "balance": {
     "modifiers": [
      {
@@ -2145,10 +2145,10 @@
    }
   },
   "Syndra": {
-   "wr": 50.2,
-   "pr": 6.4,
-   "tier": "B",
-   "games": 305287,
+   "wr": 50.5,
+   "pr": 6.3,
+   "tier": "A",
+   "games": 554126,
    "balance": {
     "modifiers": [
      {
@@ -2183,10 +2183,10 @@
    }
   },
   "Aurelion Sol": {
-   "wr": 50.8,
-   "pr": 11.4,
-   "tier": "A",
-   "games": 543179,
+   "wr": 49.9,
+   "pr": 11.9,
+   "tier": "B",
+   "games": 1046229,
    "balance": {
     "modifiers": [],
     "abilityChanges": [
@@ -2202,10 +2202,10 @@
    }
   },
   "Kayn": {
-   "wr": 52.5,
-   "pr": 8.0,
+   "wr": 52.3,
+   "pr": 7.9,
    "tier": "A",
-   "games": 380653,
+   "games": 697282,
    "balance": {
     "modifiers": [
      {
@@ -2252,10 +2252,10 @@
    }
   },
   "Zoe": {
-   "wr": 47.6,
-   "pr": 2.8,
+   "wr": 47.7,
+   "pr": 2.7,
    "tier": "C",
-   "games": 133404,
+   "games": 235429,
    "balance": {
     "modifiers": [
      {
@@ -2273,10 +2273,10 @@
    }
   },
   "Zyra": {
-   "wr": 50.4,
-   "pr": 4.1,
+   "wr": 50.1,
+   "pr": 4.2,
    "tier": "B",
-   "games": 195561,
+   "games": 369032,
    "balance": {
     "modifiers": [
      {
@@ -2299,10 +2299,10 @@
    }
   },
   "Kai'Sa": {
-   "wr": 48.7,
-   "pr": 13.5,
+   "wr": 48.4,
+   "pr": 14.5,
    "tier": "B",
-   "games": 643735,
+   "games": 1278800,
    "balance": {
     "modifiers": [
      {
@@ -2324,10 +2324,10 @@
    }
   },
   "Seraphine": {
-   "wr": 51.7,
+   "wr": 51.4,
    "pr": 7.0,
    "tier": "A",
-   "games": 335343,
+   "games": 617071,
    "balance": {
     "modifiers": [
      {
@@ -2350,10 +2350,10 @@
    }
   },
   "Gnar": {
-   "wr": 46.6,
-   "pr": 3.4,
+   "wr": 46.2,
+   "pr": 3.5,
    "tier": "C",
-   "games": 164086,
+   "games": 305792,
    "balance": {
     "modifiers": [
      {
@@ -2376,10 +2376,10 @@
    }
   },
   "Zac": {
-   "wr": 45.6,
-   "pr": 1.7,
+   "wr": 45.8,
+   "pr": 1.5,
    "tier": "C",
-   "games": 80081,
+   "games": 134628,
    "balance": {
     "modifiers": [
      {
@@ -2397,10 +2397,10 @@
    }
   },
   "Yasuo": {
-   "wr": 58.8,
-   "pr": 11.8,
+   "wr": 58.6,
+   "pr": 12.5,
    "tier": "S",
-   "games": 561340,
+   "games": 1095462,
    "balance": {
     "modifiers": [],
     "abilityChanges": [
@@ -2416,10 +2416,10 @@
    }
   },
   "Vel'Koz": {
-   "wr": 50.5,
-   "pr": 4.9,
+   "wr": 50.2,
+   "pr": 4.8,
    "tier": "B",
-   "games": 234343,
+   "games": 419057,
    "balance": {
     "modifiers": [
      {
@@ -2437,17 +2437,17 @@
    }
   },
   "Taliyah": {
-   "wr": 49.6,
-   "pr": 3.4,
+   "wr": 49.8,
+   "pr": 3.2,
    "tier": "B",
-   "games": 160566,
+   "games": 279423,
    "balance": {}
   },
   "Camille": {
-   "wr": 48.4,
-   "pr": 2.6,
+   "wr": 48.7,
+   "pr": 2.5,
    "tier": "B",
-   "games": 123511,
+   "games": 216340,
    "balance": {
     "modifiers": [
      {
@@ -2480,10 +2480,10 @@
    }
   },
   "Akshan": {
-   "wr": 44.6,
-   "pr": 2.9,
+   "wr": 44.8,
+   "pr": 2.7,
    "tier": "D",
-   "games": 138079,
+   "games": 239447,
    "balance": {
     "modifiers": [],
     "abilityChanges": [
@@ -2499,10 +2499,10 @@
    }
   },
   "Bel'Veth": {
-   "wr": 55.6,
+   "wr": 55.5,
    "pr": 4.8,
    "tier": "S",
-   "games": 228268,
+   "games": 419738,
    "balance": {
     "modifiers": [],
     "abilityChanges": [
@@ -2518,17 +2518,17 @@
    }
   },
   "Braum": {
-   "wr": 48.4,
+   "wr": 47.9,
    "pr": 1.6,
-   "tier": "B",
-   "games": 76613,
+   "tier": "C",
+   "games": 142475,
    "balance": {}
   },
   "Jhin": {
-   "wr": 48.9,
-   "pr": 12.8,
+   "wr": 48.7,
+   "pr": 13.4,
    "tier": "B",
-   "games": 609696,
+   "games": 1179299,
    "balance": {
     "modifiers": [
      {
@@ -2541,10 +2541,10 @@
    }
   },
   "Kindred": {
-   "wr": 46.6,
-   "pr": 3.2,
+   "wr": 46.3,
+   "pr": 3.1,
    "tier": "C",
-   "games": 151704,
+   "games": 274198,
    "balance": {
     "modifiers": [
      {
@@ -2562,10 +2562,10 @@
    }
   },
   "Zeri": {
-   "wr": 46.9,
-   "pr": 2.1,
+   "wr": 46.4,
+   "pr": 1.9,
    "tier": "C",
-   "games": 99389,
+   "games": 169281,
    "balance": {
     "modifiers": [
      {
@@ -2592,10 +2592,10 @@
    }
   },
   "Jinx": {
-   "wr": 48.0,
+   "wr": 47.5,
    "pr": 9.0,
-   "tier": "B",
-   "games": 430523,
+   "tier": "C",
+   "games": 794382,
    "balance": {
     "modifiers": [
      {
@@ -2613,17 +2613,17 @@
    }
   },
   "Tahm Kench": {
-   "wr": 55.1,
-   "pr": 13.7,
+   "wr": 54.7,
+   "pr": 14.5,
    "tier": "S",
-   "games": 654084,
+   "games": 1271594,
    "balance": {}
   },
   "Briar": {
-   "wr": 49.6,
-   "pr": 2.6,
+   "wr": 50.1,
+   "pr": 2.5,
    "tier": "B",
-   "games": 122382,
+   "games": 219629,
    "balance": {
     "modifiers": [
      {
@@ -2650,10 +2650,10 @@
    }
   },
   "Viego": {
-   "wr": 52.8,
-   "pr": 5.4,
+   "wr": 52.6,
+   "pr": 5.3,
    "tier": "A",
-   "games": 257035,
+   "games": 464348,
    "balance": {
     "modifiers": [
      {
@@ -2666,10 +2666,10 @@
    }
   },
   "Senna": {
-   "wr": 46.9,
-   "pr": 8.1,
+   "wr": 46.7,
+   "pr": 8.2,
    "tier": "C",
-   "games": 387996,
+   "games": 717106,
    "balance": {
     "modifiers": [
      {
@@ -2682,10 +2682,10 @@
    }
   },
   "Lucian": {
-   "wr": 52.3,
-   "pr": 13.8,
+   "wr": 52.0,
+   "pr": 14.8,
    "tier": "A",
-   "games": 658213,
+   "games": 1306022,
    "balance": {
     "modifiers": [
      {
@@ -2709,9 +2709,9 @@
   },
   "Zed": {
    "wr": 49.2,
-   "pr": 8.7,
+   "pr": 8.9,
    "tier": "B",
-   "games": 413977,
+   "games": 784051,
    "balance": {
     "modifiers": [
      {
@@ -2740,9 +2740,9 @@
   },
   "Kled": {
    "wr": 49.9,
-   "pr": 1.1,
+   "pr": 0.9,
    "tier": "B",
-   "games": 54993,
+   "games": 83018,
    "balance": {
     "modifiers": [
      {
@@ -2755,10 +2755,10 @@
    }
   },
   "Ekko": {
-   "wr": 54.2,
-   "pr": 8.1,
+   "wr": 53.8,
+   "pr": 8.6,
    "tier": "S",
-   "games": 388530,
+   "games": 751751,
    "balance": {
     "modifiers": [
      {
@@ -2776,10 +2776,10 @@
    }
   },
   "Qiyana": {
-   "wr": 47.2,
-   "pr": 3.5,
-   "tier": "C",
-   "games": 167973,
+   "wr": 48.2,
+   "pr": 3.4,
+   "tier": "B",
+   "games": 301788,
    "balance": {
     "modifiers": [
      {
@@ -2807,10 +2807,10 @@
    }
   },
   "Vi": {
-   "wr": 47.2,
-   "pr": 3.2,
+   "wr": 47.4,
+   "pr": 3.1,
    "tier": "C",
-   "games": 151825,
+   "games": 271585,
    "balance": {
     "modifiers": [
      {
@@ -2828,10 +2828,10 @@
    }
   },
   "Aatrox": {
-   "wr": 47.3,
+   "wr": 46.9,
    "pr": 6.4,
    "tier": "C",
-   "games": 307041,
+   "games": 560892,
    "balance": {
     "modifiers": [
      {
@@ -2845,16 +2845,16 @@
   },
   "Nami": {
    "wr": 50.7,
-   "pr": 1.7,
-   "tier": "B",
-   "games": 82784,
+   "pr": 1.6,
+   "tier": "A",
+   "games": 142768,
    "balance": {}
   },
   "Azir": {
-   "wr": 48.3,
-   "pr": 2.2,
-   "tier": "B",
-   "games": 105571,
+   "wr": 47.6,
+   "pr": 2.3,
+   "tier": "C",
+   "games": 199606,
    "balance": {
     "modifiers": [
      {
@@ -2880,21 +2880,21 @@
    "wr": 52.9,
    "pr": 3.0,
    "tier": "A",
-   "games": 144975,
+   "games": 268366,
    "balance": {}
   },
   "Samira": {
-   "wr": 47.9,
-   "pr": 4.6,
-   "tier": "C",
-   "games": 218955,
+   "wr": 48.6,
+   "pr": 4.5,
+   "tier": "B",
+   "games": 393670,
    "balance": {}
   },
   "Thresh": {
-   "wr": 51.5,
-   "pr": 7.4,
+   "wr": 51.1,
+   "pr": 7.3,
    "tier": "A",
-   "games": 354247,
+   "games": 639073,
    "balance": {
     "modifiers": [],
     "abilityChanges": [
@@ -2910,10 +2910,10 @@
    }
   },
   "Illaoi": {
-   "wr": 47.0,
-   "pr": 3.7,
+   "wr": 46.8,
+   "pr": 3.4,
    "tier": "C",
-   "games": 177351,
+   "games": 302925,
    "balance": {
     "modifiers": [
      {
@@ -2931,10 +2931,10 @@
    }
   },
   "Rek'Sai": {
-   "wr": 50.0,
-   "pr": 0.7,
+   "wr": 50.2,
+   "pr": 0.6,
    "tier": "B",
-   "games": 32217,
+   "games": 53410,
    "balance": {
     "modifiers": [
      {
@@ -2952,17 +2952,17 @@
    }
   },
   "Ivern": {
-   "wr": 52.7,
+   "wr": 53.0,
    "pr": 0.7,
    "tier": "A",
-   "games": 34786,
+   "games": 59972,
    "balance": {}
   },
   "Kalista": {
-   "wr": 48.4,
-   "pr": 2.5,
+   "wr": 48.2,
+   "pr": 2.3,
    "tier": "B",
-   "games": 118825,
+   "games": 204178,
    "balance": {
     "modifiers": [
      {
@@ -2980,10 +2980,10 @@
    }
   },
   "Bard": {
-   "wr": 47.7,
-   "pr": 1.0,
+   "wr": 47.5,
+   "pr": 0.9,
    "tier": "C",
-   "games": 47442,
+   "games": 80544,
    "balance": {
     "modifiers": [
      {
@@ -3037,9 +3037,9 @@
   },
   "Rakan": {
    "wr": 47.9,
-   "pr": 1.5,
+   "pr": 1.2,
    "tier": "C",
-   "games": 70825,
+   "games": 107605,
    "balance": {
     "modifiers": [
      {
@@ -3057,17 +3057,17 @@
    }
   },
   "Xayah": {
-   "wr": 48.1,
-   "pr": 5.4,
-   "tier": "B",
-   "games": 256511,
+   "wr": 47.9,
+   "pr": 4.8,
+   "tier": "C",
+   "games": 421740,
    "balance": {}
   },
   "Ornn": {
-   "wr": 47.4,
-   "pr": 4.1,
+   "wr": 46.9,
+   "pr": 3.9,
    "tier": "C",
-   "games": 196555,
+   "games": 346082,
    "balance": {
     "modifiers": [
      {
@@ -3085,10 +3085,10 @@
    }
   },
   "Sylas": {
-   "wr": 49.3,
-   "pr": 8.3,
+   "wr": 49.1,
+   "pr": 8.6,
    "tier": "B",
-   "games": 395647,
+   "games": 760128,
    "balance": {
     "modifiers": [
      {
@@ -3101,24 +3101,24 @@
    }
   },
   "Neeko": {
-   "wr": 45.9,
-   "pr": 2.8,
+   "wr": 45.8,
+   "pr": 2.5,
    "tier": "C",
-   "games": 132761,
+   "games": 224034,
    "balance": {}
   },
   "Aphelios": {
-   "wr": 49.2,
-   "pr": 4.0,
+   "wr": 48.9,
+   "pr": 3.9,
    "tier": "B",
-   "games": 192421,
+   "games": 340027,
    "balance": {}
   },
   "Rell": {
-   "wr": 54.4,
-   "pr": 3.4,
+   "wr": 54.0,
+   "pr": 3.3,
    "tier": "S",
-   "games": 164160,
+   "games": 288022,
    "balance": {
     "modifiers": [
      {
@@ -3137,9 +3137,9 @@
   },
   "Pyke": {
    "wr": 47.8,
-   "pr": 5.8,
+   "pr": 5.7,
    "tier": "C",
-   "games": 277143,
+   "games": 504750,
    "balance": {
     "modifiers": [
      {
@@ -3162,10 +3162,10 @@
    }
   },
   "Vex": {
-   "wr": 49.1,
-   "pr": 2.6,
+   "wr": 49.2,
+   "pr": 2.4,
    "tier": "B",
-   "games": 123633,
+   "games": 207623,
    "balance": {
     "modifiers": [
      {
@@ -3178,10 +3178,10 @@
    }
   },
   "Yone": {
-   "wr": 53.2,
-   "pr": 10.1,
+   "wr": 52.8,
+   "pr": 10.4,
    "tier": "A",
-   "games": 480271,
+   "games": 912404,
    "balance": {
     "modifiers": [
      {
@@ -3197,14 +3197,14 @@
    "wr": 53.5,
    "pr": 4.9,
    "tier": "S",
-   "games": 233252,
+   "games": 426854,
    "balance": {}
   },
   "Mel": {
-   "wr": 49.3,
-   "pr": 5.6,
+   "wr": 49.0,
+   "pr": 5.8,
    "tier": "B",
-   "games": 268923,
+   "games": 512401,
    "balance": {
     "modifiers": [
      {
@@ -3226,10 +3226,10 @@
    }
   },
   "Yunara": {
-   "wr": 49.3,
-   "pr": 6.8,
+   "wr": 49.1,
+   "pr": 6.3,
    "tier": "B",
-   "games": 325518,
+   "games": 555880,
    "balance": {
     "modifiers": [],
     "abilityChanges": [
@@ -3253,10 +3253,10 @@
    }
   },
   "Locke": {
-   "wr": 45.6,
+   "wr": 45.5,
    "pr": 4.7,
    "tier": "C",
-   "games": 225134,
+   "games": 413317,
    "balance": {
     "modifiers": [
      {
@@ -3279,10 +3279,10 @@
    }
   },
   "Sett": {
-   "wr": 51.0,
-   "pr": 10.5,
+   "wr": 50.7,
+   "pr": 10.8,
    "tier": "A",
-   "games": 501258,
+   "games": 952101,
    "balance": {
     "modifiers": [],
     "abilityChanges": [
@@ -3308,10 +3308,10 @@
    }
   },
   "Lillia": {
-   "wr": 53.9,
-   "pr": 7.9,
+   "wr": 53.7,
+   "pr": 8.1,
    "tier": "S",
-   "games": 379629,
+   "games": 709412,
    "balance": {
     "modifiers": [
      {
@@ -3338,10 +3338,10 @@
    }
   },
   "Gwen": {
-   "wr": 54.9,
-   "pr": 5.2,
+   "wr": 54.3,
+   "pr": 5.1,
    "tier": "S",
-   "games": 247075,
+   "games": 445104,
    "balance": {
     "modifiers": [
      {
@@ -3371,10 +3371,10 @@
    }
   },
   "Renata Glasc": {
-   "wr": 51.3,
-   "pr": 1.7,
+   "wr": 51.2,
+   "pr": 1.6,
    "tier": "A",
-   "games": 80291,
+   "games": 139831,
    "balance": {
     "modifiers": [
      {
@@ -3387,10 +3387,10 @@
    }
   },
   "Aurora": {
-   "wr": 50.6,
+   "wr": 50.4,
    "pr": 6.2,
    "tier": "B",
-   "games": 297757,
+   "games": 542003,
    "balance": {
     "modifiers": [
      {
@@ -3404,16 +3404,16 @@
   },
   "Nilah": {
    "wr": 51.0,
-   "pr": 1.2,
+   "pr": 1.1,
    "tier": "A",
-   "games": 58573,
+   "games": 95104,
    "balance": {}
   },
   "K'Sante": {
-   "wr": 44.5,
-   "pr": 2.9,
+   "wr": 44.2,
+   "pr": 2.5,
    "tier": "D",
-   "games": 138657,
+   "games": 222005,
    "balance": {
     "modifiers": [
      {
@@ -3426,24 +3426,24 @@
    }
   },
   "Smolder": {
-   "wr": 49.9,
-   "pr": 11.7,
+   "wr": 49.6,
+   "pr": 12.3,
    "tier": "B",
-   "games": 560977,
+   "games": 1080072,
    "balance": {}
   },
   "Milio": {
-   "wr": 51.3,
-   "pr": 1.9,
+   "wr": 51.5,
+   "pr": 1.8,
    "tier": "A",
-   "games": 90250,
+   "games": 159064,
    "balance": {}
   },
   "Zaahen": {
-   "wr": 52.8,
-   "pr": 3.7,
+   "wr": 52.6,
+   "pr": 3.6,
    "tier": "A",
-   "games": 178461,
+   "games": 315665,
    "balance": {
     "modifiers": [
      {
@@ -3456,10 +3456,10 @@
    }
   },
   "Hwei": {
-   "wr": 53.2,
-   "pr": 4.6,
+   "wr": 52.7,
+   "pr": 4.5,
    "tier": "A",
-   "games": 218117,
+   "games": 393974,
    "balance": {
     "modifiers": [
      {
@@ -3472,10 +3472,10 @@
    }
   },
   "Naafiri": {
-   "wr": 45.3,
-   "pr": 3.7,
-   "tier": "C",
-   "games": 176507,
+   "wr": 45.0,
+   "pr": 3.5,
+   "tier": "D",
+   "games": 310693,
    "balance": {
     "modifiers": [
      {

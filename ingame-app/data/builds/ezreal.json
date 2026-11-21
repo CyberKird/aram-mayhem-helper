@@ -24,14 +24,14 @@
  ],
  "fifth": [
   "Spear of Shojin",
+  "Lord Dominik's Regards",
   "Serylda's Grudge",
-  "Archangel's Staff",
-  "Lord Dominik's Regards"
+  "Archangel's Staff"
  ],
  "sixth": [
   "Archangel's Staff",
   "Horizon Focus",
-  "Lord Dominik's Regards",
+  "Axiom Arc",
   "Serylda's Grudge"
  ],
  "pool": [
@@ -46,6 +46,7 @@
   "Lord Dominik's Regards",
   "Infinity Edge",
   "Serylda's Grudge",
-  "Horizon Focus"
+  "Horizon Focus",
+  "Axiom Arc"
  ]
 }

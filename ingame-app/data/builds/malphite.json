@@ -7,12 +7,13 @@
   "Mark"
  ],
  "starting": [
+  "Refillable Potion",
   "Lost Chapter"
  ],
  "core": [
   "Malignance",
   "Sorcerer's Shoes",
-  "Shadowflame",
+  "Stormsurge",
   "Rabadon's Deathcap"
  ],
  "fourth": [
@@ -28,20 +29,22 @@
   "Warmog's Armor"
  ],
  "sixth": [
-  "Randuin's Omen",
-  "Unending Despair",
   "Jak'Sho, The Protean",
-  "Warmog's Armor"
+  "Randuin's Omen",
+  "Warmog's Armor",
+  "Banshee's Veil"
  ],
  "pool": [
+  "Refillable Potion",
   "Lost Chapter",
   "Malignance",
   "Sorcerer's Shoes",
-  "Shadowflame",
+  "Stormsurge",
   "Rabadon's Deathcap",
   "Jak'Sho, The Protean",
   "Randuin's Omen",
   "Unending Despair",
-  "Warmog's Armor"
+  "Warmog's Armor",
+  "Banshee's Veil"
  ]
 }

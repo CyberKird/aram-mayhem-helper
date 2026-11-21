@@ -19,18 +19,18 @@
   "Unending Despair",
   "Warmog's Armor",
   "Spirit Visage",
-  "Void Staff"
+  "Luden's Echo"
  ],
  "fifth": [
   "Jak'Sho, The Protean",
   "Warmog's Armor",
-  "Unending Despair",
+  "Void Staff",
   "Banshee's Veil"
  ],
  "sixth": [
-  "Riftmaker",
   "Banshee's Veil",
   "Void Staff",
+  "Luden's Echo",
   "Jak'Sho, The Protean"
  ],
  "pool": [
@@ -42,9 +42,9 @@
   "Unending Despair",
   "Warmog's Armor",
   "Spirit Visage",
-  "Void Staff",
+  "Luden's Echo",
   "Jak'Sho, The Protean",
-  "Banshee's Veil",
-  "Riftmaker"
+  "Void Staff",
+  "Banshee's Veil"
  ]
 }

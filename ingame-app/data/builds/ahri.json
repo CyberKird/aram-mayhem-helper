@@ -20,19 +20,19 @@
   "Stormsurge",
   "Cryptbloom",
   "Void Staff",
-  "Zhonya's Hourglass"
+  "Malignance"
  ],
  "fifth": [
   "Archangel's Staff",
   "Stormsurge",
-  "Cryptbloom",
-  "Banshee's Veil"
+  "Void Staff",
+  "Cryptbloom"
  ],
  "sixth": [
   "Banshee's Veil",
   "Cryptbloom",
   "Stormsurge",
-  "Void Staff"
+  "Archangel's Staff"
  ],
  "pool": [
   "Amplifying Tome",
@@ -44,7 +44,7 @@
   "Stormsurge",
   "Cryptbloom",
   "Void Staff",
-  "Zhonya's Hourglass",
+  "Malignance",
   "Archangel's Staff",
   "Banshee's Veil"
  ]

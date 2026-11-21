@@ -18,21 +18,21 @@
  ],
  "fourth": [
   "Rabadon's Deathcap",
+  "Liandry's Torment",
   "Blackfire Torch",
-  "Bloodletter's Curse",
-  "Liandry's Torment"
+  "Shadowflame"
  ],
  "fifth": [
   "Bloodletter's Curse",
   "Rabadon's Deathcap",
-  "Zhonya's Hourglass",
-  "Shadowflame"
+  "Shadowflame",
+  "Blackfire Torch"
  ],
  "sixth": [
+  "Bloodletter's Curse",
   "Rabadon's Deathcap",
-  "Void Staff",
   "Zhonya's Hourglass",
-  "Bloodletter's Curse"
+  "Void Staff"
  ],
  "pool": [
   "Blasting Wand",
@@ -42,11 +42,11 @@
   "Malignance",
   "Archangel's Staff",
   "Rabadon's Deathcap",
-  "Blackfire Torch",
-  "Bloodletter's Curse",
   "Liandry's Torment",
-  "Zhonya's Hourglass",
+  "Blackfire Torch",
   "Shadowflame",
+  "Bloodletter's Curse",
+  "Zhonya's Hourglass",
   "Void Staff"
  ]
 }

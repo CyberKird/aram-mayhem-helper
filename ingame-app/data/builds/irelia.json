@@ -8,8 +8,7 @@
  ],
  "starting": [
   "Long Sword",
-  "Pickaxe",
-  "Refillable Potion"
+  "Guardian's Blade"
  ],
  "core": [
   "Blade of The Ruined King",
@@ -19,36 +18,36 @@
  ],
  "fourth": [
   "Ravenous Hydra",
-  "Trinity Force",
   "Spirit Visage",
+  "Trinity Force",
   "Wit's End"
  ],
  "fifth": [
   "Ravenous Hydra",
   "Terminus",
   "Spirit Visage",
-  "Sundered Sky"
+  "Titanic Hydra"
  ],
  "sixth": [
-  "Spirit Visage",
   "Terminus",
+  "Spirit Visage",
   "Sundered Sky",
-  "Titanic Hydra"
+  "Sterak's Gage"
  ],
  "pool": [
   "Long Sword",
-  "Pickaxe",
-  "Refillable Potion",
+  "Guardian's Blade",
   "Blade of The Ruined King",
   "Mercury's Treads",
   "Death's Dance",
   "Endless Hunger",
   "Ravenous Hydra",
-  "Trinity Force",
   "Spirit Visage",
+  "Trinity Force",
   "Wit's End",
   "Terminus",
+  "Titanic Hydra",
   "Sundered Sky",
-  "Titanic Hydra"
+  "Sterak's Gage"
  ]
 }

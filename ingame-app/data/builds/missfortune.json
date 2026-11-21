@@ -19,19 +19,19 @@
   "Rabadon's Deathcap",
   "Archangel's Staff",
   "Shadowflame",
-  "Rylai's Crystal Scepter"
+  "Void Staff"
  ],
  "fifth": [
-  "Rabadon's Deathcap",
   "Archangel's Staff",
+  "Rabadon's Deathcap",
   "Shadowflame",
   "Lord Dominik's Regards"
  ],
  "sixth": [
+  "Banshee's Veil",
   "Edge of Night",
   "Cryptbloom",
-  "Archangel's Staff",
-  "Shadowflame"
+  "Archangel's Staff"
  ],
  "pool": [
   "Lost Chapter",
@@ -42,8 +42,9 @@
   "Rabadon's Deathcap",
   "Archangel's Staff",
   "Shadowflame",
-  "Rylai's Crystal Scepter",
+  "Void Staff",
   "Lord Dominik's Regards",
+  "Banshee's Veil",
   "Edge of Night",
   "Cryptbloom"
  ]

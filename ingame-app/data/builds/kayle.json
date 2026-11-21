@@ -19,20 +19,20 @@
  "fourth": [
   "Shadowflame",
   "Statikk Shiv",
-  "Runaan's Hurricane",
-  "Terminus"
+  "Terminus",
+  "Guinsoo's Rageblade"
  ],
  "fifth": [
   "Shadowflame",
-  "Void Staff",
   "Statikk Shiv",
+  "Void Staff",
   "Terminus"
  ],
  "sixth": [
   "Void Staff",
-  "Shadowflame",
   "Statikk Shiv",
-  "Terminus"
+  "Shadowflame",
+  "Hextech Gunblade"
  ],
  "pool": [
   "Blasting Wand",
@@ -43,8 +43,9 @@
   "Dusk and Dawn",
   "Shadowflame",
   "Statikk Shiv",
-  "Runaan's Hurricane",
   "Terminus",
-  "Void Staff"
+  "Guinsoo's Rageblade",
+  "Void Staff",
+  "Hextech Gunblade"
  ]
 }

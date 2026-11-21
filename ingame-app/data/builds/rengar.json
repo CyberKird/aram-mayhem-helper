@@ -8,25 +8,25 @@
  ],
  "starting": [
   "Long Sword",
-  "Serrated Dirk"
+  "Guardian's Blade"
  ],
  "core": [
   "Hubris",
   "Mercury's Treads",
   "The Collector",
-  "Infinity Edge"
+  "Lord Dominik's Regards"
  ],
  "fourth": [
   "Endless Hunger",
   "Death's Dance",
-  "Lord Dominik's Regards",
+  "Infinity Edge",
   "Axiom Arc"
  ],
  "fifth": [
   "Endless Hunger",
   "Death's Dance",
   "Axiom Arc",
-  "Lord Dominik's Regards"
+  "Infinity Edge"
  ],
  "sixth": [
   "Death's Dance",
@@ -36,14 +36,14 @@
  ],
  "pool": [
   "Long Sword",
-  "Serrated Dirk",
+  "Guardian's Blade",
   "Hubris",
   "Mercury's Treads",
   "The Collector",
-  "Infinity Edge",
+  "Lord Dominik's Regards",
   "Endless Hunger",
   "Death's Dance",
-  "Lord Dominik's Regards",
+  "Infinity Edge",
   "Axiom Arc",
   "Voltaic Cyclosword"
  ]

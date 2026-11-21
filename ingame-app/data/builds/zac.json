@@ -13,40 +13,38 @@
  "core": [
   "Heartsteel",
   "Mercury's Treads",
-  "Warmog's Armor",
-  "Unending Despair"
+  "Spirit Visage",
+  "Warmog's Armor"
  ],
  "fourth": [
-  "Sunfire Aegis",
   "Riftmaker",
-  "Spirit Visage",
-  "Jak'Sho, The Protean"
+  "Unending Despair",
+  "Jak'Sho, The Protean",
+  "Hollow Radiance"
  ],
  "fifth": [
   "Riftmaker",
-  "Hollow Radiance",
+  "Unending Despair",
   "Jak'Sho, The Protean",
-  "Spirit Visage"
+  "Kaenic Rookern"
  ],
  "sixth": [
   "Riftmaker",
   "Jak'Sho, The Protean",
-  "Kaenic Rookern",
-  "Thornmail"
+  "Hollow Radiance",
+  "Kaenic Rookern"
  ],
  "pool": [
   "Giant's Belt",
   "Ruby Crystal",
   "Heartsteel",
   "Mercury's Treads",
-  "Warmog's Armor",
-  "Unending Despair",
-  "Sunfire Aegis",
-  "Riftmaker",
   "Spirit Visage",
+  "Warmog's Armor",
+  "Riftmaker",
+  "Unending Despair",
   "Jak'Sho, The Protean",
   "Hollow Radiance",
-  "Kaenic Rookern",
-  "Thornmail"
+  "Kaenic Rookern"
  ]
 }

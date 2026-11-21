@@ -7,7 +7,7 @@
   "Mark"
  ],
  "starting": [
-  "Ruby Crystal",
+  "Boots",
   "Sheen"
  ],
  "core": [
@@ -20,22 +20,22 @@
   "Jak'Sho, The Protean",
   "Endless Hunger",
   "Death's Dance",
-  "Unending Despair"
+  "Lord Dominik's Regards"
  ],
  "fifth": [
-  "Lord Dominik's Regards",
   "Endless Hunger",
+  "Lord Dominik's Regards",
   "Jak'Sho, The Protean",
-  "Death's Dance"
+  "Unending Despair"
  ],
  "sixth": [
   "Endless Hunger",
   "Death's Dance",
-  "Jak'Sho, The Protean",
-  "Unending Despair"
+  "Unending Despair",
+  "Jak'Sho, The Protean"
  ],
  "pool": [
-  "Ruby Crystal",
+  "Boots",
   "Sheen",
   "Trinity Force",
   "Ionian Boots of Lucidity",
@@ -44,7 +44,7 @@
   "Jak'Sho, The Protean",
   "Endless Hunger",
   "Death's Dance",
-  "Unending Despair",
-  "Lord Dominik's Regards"
+  "Lord Dominik's Regards",
+  "Unending Despair"
  ]
 }

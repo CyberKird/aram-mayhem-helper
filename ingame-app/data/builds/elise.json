@@ -7,6 +7,7 @@
   "Mark"
  ],
  "starting": [
+  "Refillable Potion",
   "Lost Chapter"
  ],
  "core": [
@@ -23,17 +24,18 @@
  ],
  "fifth": [
   "Lich Bane",
-  "Stormsurge",
   "Void Staff",
+  "Stormsurge",
   "Zhonya's Hourglass"
  ],
  "sixth": [
+  "Lich Bane",
   "Void Staff",
-  "Nashor's Tooth",
   "Zhonya's Hourglass",
-  "Archangel's Staff"
+  "Stormsurge"
  ],
  "pool": [
+  "Refillable Potion",
   "Lost Chapter",
   "Luden's Echo",
   "Sorcerer's Shoes",
@@ -42,8 +44,6 @@
   "Lich Bane",
   "Stormsurge",
   "Void Staff",
-  "Zhonya's Hourglass",
-  "Nashor's Tooth",
-  "Archangel's Staff"
+  "Zhonya's Hourglass"
  ]
 }

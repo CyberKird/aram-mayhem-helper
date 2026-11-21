@@ -25,14 +25,14 @@
  "fifth": [
   "Endless Hunger",
   "Riftmaker",
-  "Sundered Sky",
-  "Rabadon's Deathcap"
+  "Spear of Shojin",
+  "Sundered Sky"
  ],
  "sixth": [
   "Endless Hunger",
   "Sterak's Gage",
-  "Spear of Shojin",
-  "Spirit Visage"
+  "Riftmaker",
+  "Spear of Shojin"
  ],
  "pool": [
   "Ruby Crystal",
@@ -46,8 +46,6 @@
   "Spear of Shojin",
   "Hextech Gunblade",
   "Sundered Sky",
-  "Rabadon's Deathcap",
-  "Sterak's Gage",
-  "Spirit Visage"
+  "Sterak's Gage"
  ]
 }

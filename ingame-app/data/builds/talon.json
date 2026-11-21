@@ -7,10 +7,12 @@
   "Mark"
  ],
  "starting": [
-  "The Brutalizer"
+  "Long Sword",
+  "Serrated Dirk"
  ],
  "core": [
-  "Axiom Arc",
+  "Hubris",
+  "Ionian Boots of Lucidity",
   "The Collector",
   "Lord Dominik's Regards"
  ],
@@ -23,18 +25,20 @@
  "fifth": [
   "Endless Hunger",
   "Death's Dance",
-  "Infinity Edge",
-  "Youmuu's Ghostblade"
+  "Youmuu's Ghostblade",
+  "Infinity Edge"
  ],
  "sixth": [
-  "Youmuu's Ghostblade",
   "Death's Dance",
+  "Youmuu's Ghostblade",
   "Endless Hunger",
   "Infinity Edge"
  ],
  "pool": [
-  "The Brutalizer",
-  "Axiom Arc",
+  "Long Sword",
+  "Serrated Dirk",
+  "Hubris",
+  "Ionian Boots of Lucidity",
   "The Collector",
   "Lord Dominik's Regards",
   "Death's Dance",

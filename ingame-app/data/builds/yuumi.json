@@ -7,8 +7,6 @@
   "Ignite"
  ],
  "starting": [
-  "Health Potion",
-  "Health Potion",
   "Tear of the Goddess",
   "Bandleglass Mirror"
  ],
@@ -26,17 +24,16 @@
  "fifth": [
   "Dawncore",
   "Ardent Censer",
-  "Knight's Vow",
-  "Shurelya's Battlesong"
+  "Mikael's Blessing",
+  "Rabadon's Deathcap"
  ],
  "sixth": [
-  "Ardent Censer",
-  "Mikael's Blessing",
   "Dawncore",
+  "Mikael's Blessing",
+  "Ardent Censer",
   "Shurelya's Battlesong"
  ],
  "pool": [
-  "Health Potion",
   "Tear of the Goddess",
   "Bandleglass Mirror",
   "Moonstone Renewer",
@@ -46,6 +43,7 @@
   "Ardent Censer",
   "Mikael's Blessing",
   "Knight's Vow",
+  "Rabadon's Deathcap",
   "Shurelya's Battlesong"
  ]
 }

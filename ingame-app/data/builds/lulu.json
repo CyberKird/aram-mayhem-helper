@@ -29,10 +29,10 @@
   "Shurelya's Battlesong"
  ],
  "sixth": [
-  "Dawncore",
   "Staff of Flowing Water",
-  "Redemption",
-  "Shurelya's Battlesong"
+  "Dawncore",
+  "Knight's Vow",
+  "Redemption"
  ],
  "pool": [
   "Tear of the Goddess",
@@ -44,6 +44,7 @@
   "Dawncore",
   "Staff of Flowing Water",
   "Redemption",
-  "Shurelya's Battlesong"
+  "Shurelya's Battlesong",
+  "Knight's Vow"
  ]
 }

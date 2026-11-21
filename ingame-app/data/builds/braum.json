@@ -17,22 +17,22 @@
   "Warmog's Armor"
  ],
  "fourth": [
-  "Winter's Approach",
   "Jak'Sho, The Protean",
+  "Winter's Approach",
   "Frozen Heart",
   "Randuin's Omen"
  ],
  "fifth": [
   "Jak'Sho, The Protean",
+  "Randuin's Omen",
   "Frozen Heart",
-  "Winter's Approach",
-  "Randuin's Omen"
+  "Winter's Approach"
  ],
  "sixth": [
   "Force of Nature",
   "Frozen Heart",
-  "Knight's Vow",
-  "Kaenic Rookern"
+  "Jak'Sho, The Protean",
+  "Knight's Vow"
  ],
  "pool": [
   "Giant's Belt",
@@ -41,12 +41,11 @@
   "Mercury's Treads",
   "Unending Despair",
   "Warmog's Armor",
-  "Winter's Approach",
   "Jak'Sho, The Protean",
+  "Winter's Approach",
   "Frozen Heart",
   "Randuin's Omen",
   "Force of Nature",
-  "Knight's Vow",
-  "Kaenic Rookern"
+  "Knight's Vow"
  ]
 }

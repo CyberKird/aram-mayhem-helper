@@ -12,37 +12,38 @@
  "core": [
   "Malignance",
   "Sorcerer's Shoes",
-  "Rabadon's Deathcap",
-  "Shadowflame"
+  "Liandry's Torment",
+  "Blackfire Torch"
  ],
  "fourth": [
+  "Rabadon's Deathcap",
   "Rylai's Crystal Scepter",
   "Stormsurge",
-  "Liandry's Torment",
-  "Void Staff"
+  "Shadowflame"
  ],
  "fifth": [
   "Archangel's Staff",
-  "Stormsurge",
-  "Liandry's Torment",
-  "Rylai's Crystal Scepter"
+  "Shadowflame",
+  "Rabadon's Deathcap",
+  "Stormsurge"
  ],
  "sixth": [
-  "Rylai's Crystal Scepter",
-  "Void Staff",
+  "Shadowflame",
   "Archangel's Staff",
-  "Stormsurge"
+  "Void Staff",
+  "Rabadon's Deathcap"
  ],
  "pool": [
   "Lost Chapter",
   "Malignance",
   "Sorcerer's Shoes",
+  "Liandry's Torment",
+  "Blackfire Torch",
   "Rabadon's Deathcap",
-  "Shadowflame",
   "Rylai's Crystal Scepter",
   "Stormsurge",
-  "Liandry's Torment",
-  "Void Staff",
-  "Archangel's Staff"
+  "Shadowflame",
+  "Archangel's Staff",
+  "Void Staff"
  ]
 }

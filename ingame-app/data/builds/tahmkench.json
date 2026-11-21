@@ -17,9 +17,9 @@
  ],
  "fourth": [
   "Dusk and Dawn",
-  "Overlord's Bloodmail",
   "Rabadon's Deathcap",
-  "Unending Despair"
+  "Unending Despair",
+  "Spirit Visage"
  ],
  "fifth": [
   "Rabadon's Deathcap",
@@ -30,8 +30,8 @@
  "sixth": [
   "Rabadon's Deathcap",
   "Shadowflame",
-  "Dusk and Dawn",
-  "Spirit Visage"
+  "Void Staff",
+  "Dusk and Dawn"
  ],
  "pool": [
   "Giant's Belt",
@@ -40,10 +40,11 @@
   "Warmog's Armor",
   "Riftmaker",
   "Dusk and Dawn",
-  "Overlord's Bloodmail",
   "Rabadon's Deathcap",
   "Unending Despair",
+  "Spirit Visage",
+  "Overlord's Bloodmail",
   "Shadowflame",
-  "Spirit Visage"
+  "Void Staff"
  ]
 }

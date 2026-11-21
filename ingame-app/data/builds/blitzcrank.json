@@ -7,46 +7,43 @@
   "Mark"
  ],
  "starting": [
-  "Refillable Potion",
   "Lost Chapter"
  ],
  "core": [
   "Malignance",
-  "Sorcerer's Shoes",
-  "Luden's Echo",
+  "Ionian Boots of Lucidity",
+  "Winter's Approach",
   "Shadowflame"
  ],
  "fourth": [
   "Jak'Sho, The Protean",
-  "Winter's Approach",
-  "Unending Despair",
-  "Warmog's Armor"
- ],
- "fifth": [
-  "Warmog's Armor",
   "Frozen Heart",
-  "Jak'Sho, The Protean",
-  "Rabadon's Deathcap"
- ],
- "sixth": [
-  "Jak'Sho, The Protean",
-  "Cryptbloom",
   "Warmog's Armor",
   "Unending Despair"
  ],
+ "fifth": [
+  "Warmog's Armor",
+  "Archangel's Staff",
+  "Frozen Heart",
+  "Jak'Sho, The Protean"
+ ],
+ "sixth": [
+  "Jak'Sho, The Protean",
+  "Unending Despair",
+  "Cryptbloom",
+  "Warmog's Armor"
+ ],
  "pool": [
-  "Refillable Potion",
   "Lost Chapter",
   "Malignance",
-  "Sorcerer's Shoes",
-  "Luden's Echo",
+  "Ionian Boots of Lucidity",
+  "Winter's Approach",
   "Shadowflame",
   "Jak'Sho, The Protean",
-  "Winter's Approach",
-  "Unending Despair",
-  "Warmog's Armor",
   "Frozen Heart",
-  "Rabadon's Deathcap",
+  "Warmog's Armor",
+  "Unending Despair",
+  "Archangel's Staff",
   "Cryptbloom"
  ]
 }
