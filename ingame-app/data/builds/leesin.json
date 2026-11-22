@@ -17,22 +17,22 @@
   "Endless Hunger"
  ],
  "fourth": [
-  "Infinity Edge",
   "Lord Dominik's Regards",
+  "Infinity Edge",
   "Voltaic Cyclosword",
   "Maw of Malmortius"
  ],
  "fifth": [
-  "Axiom Arc",
-  "Lord Dominik's Regards",
   "Voltaic Cyclosword",
+  "Lord Dominik's Regards",
+  "Axiom Arc",
   "Infinity Edge"
  ],
  "sixth": [
   "Voltaic Cyclosword",
   "Lord Dominik's Regards",
-  "Axiom Arc",
-  "Infinity Edge"
+  "Infinity Edge",
+  "Axiom Arc"
  ],
  "pool": [
   "Long Sword",
@@ -41,8 +41,8 @@
   "Mercury's Treads",
   "Death's Dance",
   "Endless Hunger",
-  "Infinity Edge",
   "Lord Dominik's Regards",
+  "Infinity Edge",
   "Voltaic Cyclosword",
   "Maw of Malmortius",
   "Axiom Arc"

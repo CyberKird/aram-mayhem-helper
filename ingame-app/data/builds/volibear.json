@@ -19,19 +19,19 @@
  "fourth": [
   "Nashor's Tooth",
   "Hextech Gunblade",
-  "Rabadon's Deathcap",
-  "Navori Flickerblade"
+  "Spirit Visage",
+  "Rabadon's Deathcap"
  ],
  "fifth": [
-  "Nashor's Tooth",
   "Spirit Visage",
-  "Rabadon's Deathcap",
-  "Navori Flickerblade"
+  "Nashor's Tooth",
+  "Hextech Gunblade",
+  "Rabadon's Deathcap"
  ],
  "sixth": [
   "Overlord's Bloodmail",
-  "Rabadon's Deathcap",
   "Nashor's Tooth",
+  "Rabadon's Deathcap",
   "Spirit Visage"
  ],
  "pool": [
@@ -43,9 +43,8 @@
   "Riftmaker",
   "Nashor's Tooth",
   "Hextech Gunblade",
-  "Rabadon's Deathcap",
-  "Navori Flickerblade",
   "Spirit Visage",
+  "Rabadon's Deathcap",
   "Overlord's Bloodmail"
  ]
 }

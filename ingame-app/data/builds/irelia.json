@@ -20,19 +20,19 @@
   "Ravenous Hydra",
   "Spirit Visage",
   "Trinity Force",
-  "Wit's End"
+  "Sundered Sky"
  ],
  "fifth": [
   "Ravenous Hydra",
+  "Spear of Shojin",
   "Terminus",
-  "Spirit Visage",
-  "Titanic Hydra"
+  "Spirit Visage"
  ],
  "sixth": [
-  "Terminus",
   "Spirit Visage",
-  "Sundered Sky",
-  "Sterak's Gage"
+  "Terminus",
+  "Sterak's Gage",
+  "Ravenous Hydra"
  ],
  "pool": [
   "Long Sword",
@@ -44,10 +44,9 @@
   "Ravenous Hydra",
   "Spirit Visage",
   "Trinity Force",
-  "Wit's End",
-  "Terminus",
-  "Titanic Hydra",
   "Sundered Sky",
+  "Spear of Shojin",
+  "Terminus",
   "Sterak's Gage"
  ]
 }

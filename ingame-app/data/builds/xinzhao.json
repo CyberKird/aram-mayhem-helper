@@ -8,8 +8,7 @@
  ],
  "starting": [
   "Pickaxe",
-  "Dagger",
-  "Dagger"
+  "Amplifying Tome"
  ],
  "core": [
   "Statikk Shiv",
@@ -32,12 +31,12 @@
  "sixth": [
   "Nashor's Tooth",
   "Riftmaker",
-  "Wit's End",
+  "Death's Dance",
   "Rabadon's Deathcap"
  ],
  "pool": [
   "Pickaxe",
-  "Dagger",
+  "Amplifying Tome",
   "Statikk Shiv",
   "Mercury's Treads",
   "Dusk and Dawn",
@@ -45,7 +44,6 @@
   "Nashor's Tooth",
   "Rabadon's Deathcap",
   "Riftmaker",
-  "Death's Dance",
-  "Wit's End"
+  "Death's Dance"
  ]
 }

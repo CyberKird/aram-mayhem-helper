@@ -24,14 +24,14 @@
  "fifth": [
   "Endless Hunger",
   "Maw of Malmortius",
-  "Spirit Visage",
+  "Overlord's Bloodmail",
   "Sterak's Gage"
  ],
  "sixth": [
+  "Endless Hunger",
   "Sterak's Gage",
-  "Spirit Visage",
-  "Maw of Malmortius",
-  "Endless Hunger"
+  "Overlord's Bloodmail",
+  "Spirit Visage"
  ],
  "pool": [
   "Tiamat",
@@ -44,6 +44,7 @@
   "Ravenous Hydra",
   "Sundered Sky",
   "Maw of Malmortius",
+  "Overlord's Bloodmail",
   "Spirit Visage"
  ]
 }

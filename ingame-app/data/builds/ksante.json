@@ -20,7 +20,7 @@
   "Spirit Visage",
   "Warmog's Armor",
   "Iceborn Gauntlet",
-  "Randuin's Omen"
+  "Force of Nature"
  ],
  "fifth": [
   "Frozen Heart",
@@ -29,10 +29,10 @@
   "Warmog's Armor"
  ],
  "sixth": [
-  "Frozen Heart",
+  "Spirit Visage",
   "Warmog's Armor",
   "Iceborn Gauntlet",
-  "Force of Nature"
+  "Frozen Heart"
  ],
  "pool": [
   "Giant's Belt",
@@ -44,8 +44,7 @@
   "Spirit Visage",
   "Warmog's Armor",
   "Iceborn Gauntlet",
-  "Randuin's Omen",
-  "Frozen Heart",
-  "Force of Nature"
+  "Force of Nature",
+  "Frozen Heart"
  ]
 }

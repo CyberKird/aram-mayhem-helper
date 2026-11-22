@@ -22,16 +22,16 @@
   "Infinity Edge"
  ],
  "fifth": [
-  "Stormsurge",
   "Lord Dominik's Regards",
-  "Void Staff",
-  "Infinity Edge"
+  "Stormsurge",
+  "Infinity Edge",
+  "Void Staff"
  ],
  "sixth": [
-  "Stormsurge",
   "Void Staff",
-  "Blackfire Torch",
-  "Zhonya's Hourglass"
+  "Stormsurge",
+  "Zhonya's Hourglass",
+  "Rylai's Crystal Scepter"
  ],
  "pool": [
   "Haunting Guise",
@@ -43,7 +43,7 @@
   "Lord Dominik's Regards",
   "Void Staff",
   "Infinity Edge",
-  "Blackfire Torch",
-  "Zhonya's Hourglass"
+  "Zhonya's Hourglass",
+  "Rylai's Crystal Scepter"
  ]
 }

@@ -18,8 +18,8 @@
  ],
  "fourth": [
   "Spear of Shojin",
-  "Archangel's Staff",
   "Lord Dominik's Regards",
+  "Archangel's Staff",
   "Infinity Edge"
  ],
  "fifth": [
@@ -29,9 +29,9 @@
   "Archangel's Staff"
  ],
  "sixth": [
+  "Axiom Arc",
   "Archangel's Staff",
   "Horizon Focus",
-  "Axiom Arc",
   "Serylda's Grudge"
  ],
  "pool": [
@@ -42,11 +42,11 @@
   "Manamune",
   "Endless Hunger",
   "Spear of Shojin",
-  "Archangel's Staff",
   "Lord Dominik's Regards",
+  "Archangel's Staff",
   "Infinity Edge",
   "Serylda's Grudge",
-  "Horizon Focus",
-  "Axiom Arc"
+  "Axiom Arc",
+  "Horizon Focus"
  ]
 }

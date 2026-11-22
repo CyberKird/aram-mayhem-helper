@@ -4,11 +4,11 @@
  "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
-  "Ghost"
+  "Mark"
  ],
  "starting": [
   "Long Sword",
-  "Serrated Dirk"
+  "Guardian's Blade"
  ],
  "core": [
   "Hubris",
@@ -32,11 +32,11 @@
   "Endless Hunger",
   "Voltaic Cyclosword",
   "Axiom Arc",
-  "Hexoptics C44"
+  "Lord Dominik's Regards"
  ],
  "pool": [
   "Long Sword",
-  "Serrated Dirk",
+  "Guardian's Blade",
   "Hubris",
   "Berserker's Greaves",
   "The Collector",
@@ -46,7 +46,6 @@
   "Infinity Edge",
   "Essence Reaver",
   "Endless Hunger",
-  "Voltaic Cyclosword",
-  "Hexoptics C44"
+  "Voltaic Cyclosword"
  ]
 }

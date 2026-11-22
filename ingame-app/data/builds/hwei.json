@@ -7,7 +7,8 @@
   "Ghost"
  ],
  "starting": [
-  "Lost Chapter"
+  "Fated Ashes",
+  "Tear of the Goddess"
  ],
  "core": [
   "Blackfire Torch",
@@ -24,17 +25,18 @@
  "fifth": [
   "Shadowflame",
   "Archangel's Staff",
-  "Void Staff",
-  "Stormsurge"
+  "Stormsurge",
+  "Cryptbloom"
  ],
  "sixth": [
   "Shadowflame",
-  "Banshee's Veil",
   "Stormsurge",
+  "Banshee's Veil",
   "Void Staff"
  ],
  "pool": [
-  "Lost Chapter",
+  "Fated Ashes",
+  "Tear of the Goddess",
   "Blackfire Torch",
   "Sorcerer's Shoes",
   "Liandry's Torment",

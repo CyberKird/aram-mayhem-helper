@@ -18,21 +18,21 @@
  ],
  "fourth": [
   "Dawncore",
-  "Sword of Blossoming Dawn",
   "Ardent Censer",
+  "Sword of Blossoming Dawn",
   "Redemption"
  ],
  "fifth": [
   "Dawncore",
   "Mikael's Blessing",
-  "Ardent Censer",
-  "Redemption"
+  "Redemption",
+  "Ardent Censer"
  ],
  "sixth": [
   "Dawncore",
   "Sword of Blossoming Dawn",
   "Redemption",
-  "Mikael's Blessing"
+  "Shurelya's Battlesong"
  ],
  "pool": [
   "Tear of the Goddess",
@@ -42,9 +42,10 @@
   "Whispering Circlet",
   "Staff of Flowing Water",
   "Dawncore",
-  "Sword of Blossoming Dawn",
   "Ardent Censer",
+  "Sword of Blossoming Dawn",
   "Redemption",
-  "Mikael's Blessing"
+  "Mikael's Blessing",
+  "Shurelya's Battlesong"
  ]
 }

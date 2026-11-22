@@ -8,13 +8,13 @@
  ],
  "starting": [
   "Long Sword",
-  "Serrated Dirk"
+  "Pickaxe"
  ],
  "core": [
-  "Hubris",
-  "Berserker's Greaves",
   "The Collector",
-  "Infinity Edge"
+  "Boots of Swiftness",
+  "Infinity Edge",
+  "Hubris"
  ],
  "fourth": [
   "Axiom Arc",
@@ -25,22 +25,22 @@
  "fifth": [
   "Endless Hunger",
   "Axiom Arc",
-  "Lord Dominik's Regards",
-  "Hexoptics C44"
+  "Hexoptics C44",
+  "Lord Dominik's Regards"
  ],
  "sixth": [
   "Endless Hunger",
-  "Axiom Arc",
   "Youmuu's Ghostblade",
+  "Axiom Arc",
   "Edge of Night"
  ],
  "pool": [
   "Long Sword",
-  "Serrated Dirk",
-  "Hubris",
-  "Berserker's Greaves",
+  "Pickaxe",
   "The Collector",
+  "Boots of Swiftness",
   "Infinity Edge",
+  "Hubris",
   "Axiom Arc",
   "Hexoptics C44",
   "Lord Dominik's Regards",

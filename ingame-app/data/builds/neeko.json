@@ -19,20 +19,20 @@
  "fourth": [
   "Stormsurge",
   "Void Staff",
-  "Zhonya's Hourglass",
-  "Liandry's Torment"
+  "Malignance",
+  "Zhonya's Hourglass"
  ],
  "fifth": [
   "Cryptbloom",
   "Stormsurge",
-  "Malignance",
-  "Void Staff"
+  "Void Staff",
+  "Malignance"
  ],
  "sixth": [
   "Void Staff",
-  "Banshee's Veil",
   "Cryptbloom",
-  "Zhonya's Hourglass"
+  "Banshee's Veil",
+  "Stormsurge"
  ],
  "pool": [
   "Refillable Potion",
@@ -43,10 +43,9 @@
   "Rabadon's Deathcap",
   "Stormsurge",
   "Void Staff",
-  "Zhonya's Hourglass",
-  "Liandry's Torment",
-  "Cryptbloom",
   "Malignance",
+  "Zhonya's Hourglass",
+  "Cryptbloom",
   "Banshee's Veil"
  ]
 }

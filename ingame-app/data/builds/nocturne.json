@@ -11,38 +11,37 @@
  ],
  "core": [
   "Axiom Arc",
-  "Mercury's Treads",
+  "Ionian Boots of Lucidity",
   "The Collector",
   "Lord Dominik's Regards"
  ],
  "fourth": [
   "Endless Hunger",
-  "Death's Dance",
   "Voltaic Cyclosword",
-  "Profane Hydra"
+  "Death's Dance",
+  "Infinity Edge"
  ],
  "fifth": [
   "Endless Hunger",
-  "Infinity Edge",
   "Voltaic Cyclosword",
+  "Infinity Edge",
   "Death's Dance"
  ],
  "sixth": [
   "Endless Hunger",
   "Death's Dance",
-  "Infinity Edge",
-  "Voltaic Cyclosword"
+  "Voltaic Cyclosword",
+  "Infinity Edge"
  ],
  "pool": [
   "Tiamat",
   "Axiom Arc",
-  "Mercury's Treads",
+  "Ionian Boots of Lucidity",
   "The Collector",
   "Lord Dominik's Regards",
   "Endless Hunger",
-  "Death's Dance",
   "Voltaic Cyclosword",
-  "Profane Hydra",
+  "Death's Dance",
   "Infinity Edge"
  ]
 }

@@ -7,45 +7,45 @@
   "Ghost"
  ],
  "starting": [
-  "Pickaxe",
-  "Dagger",
-  "Dagger"
+  "Amplifying Tome",
+  "Scout's Slingshot"
  ],
  "core": [
   "Statikk Shiv",
   "Boots of Swiftness",
-  "Black Cleaver",
-  "Infinity Edge"
+  "Runaan's Hurricane",
+  "Blade of The Ruined King"
  ],
  "fourth": [
-  "Runaan's Hurricane",
   "Hexoptics C44",
   "Kraken Slayer",
-  "Manamune"
+  "Manamune",
+  "Lord Dominik's Regards"
  ],
  "fifth": [
   "Hexoptics C44",
   "Manamune",
-  "Runaan's Hurricane",
-  "Bloodthirster"
+  "Bloodthirster",
+  "Infinity Edge"
  ],
  "sixth": [
   "Hexoptics C44",
   "Manamune",
   "Bloodthirster",
-  "Kraken Slayer"
+  "Lord Dominik's Regards"
  ],
  "pool": [
-  "Pickaxe",
-  "Dagger",
+  "Amplifying Tome",
+  "Scout's Slingshot",
   "Statikk Shiv",
   "Boots of Swiftness",
-  "Black Cleaver",
-  "Infinity Edge",
   "Runaan's Hurricane",
+  "Blade of The Ruined King",
   "Hexoptics C44",
   "Kraken Slayer",
   "Manamune",
-  "Bloodthirster"
+  "Lord Dominik's Regards",
+  "Bloodthirster",
+  "Infinity Edge"
  ]
 }

@@ -12,15 +12,15 @@
  ],
  "core": [
   "Heartsteel",
-  "Plated Steelcaps",
+  "Mercury's Treads",
   "Warmog's Armor",
   "Unending Despair"
  ],
  "fourth": [
   "Overlord's Bloodmail",
-  "Spirit Visage",
   "Iceborn Gauntlet",
-  "Death's Dance"
+  "Spirit Visage",
+  "Sundered Sky"
  ],
  "fifth": [
   "Overlord's Bloodmail",
@@ -30,24 +30,24 @@
  ],
  "sixth": [
   "Overlord's Bloodmail",
-  "Jak'Sho, The Protean",
   "Liandry's Torment",
+  "Jak'Sho, The Protean",
   "Spear of Shojin"
  ],
  "pool": [
   "Giant's Belt",
   "Ruby Crystal",
   "Heartsteel",
-  "Plated Steelcaps",
+  "Mercury's Treads",
   "Warmog's Armor",
   "Unending Despair",
   "Overlord's Bloodmail",
-  "Spirit Visage",
   "Iceborn Gauntlet",
-  "Death's Dance",
+  "Spirit Visage",
+  "Sundered Sky",
   "Spear of Shojin",
   "Kaenic Rookern",
-  "Jak'Sho, The Protean",
-  "Liandry's Torment"
+  "Liandry's Torment",
+  "Jak'Sho, The Protean"
  ]
 }

@@ -26,13 +26,13 @@
   "Endless Hunger",
   "Death's Dance",
   "Immortal Shieldbow",
-  "Blade of The Ruined King"
+  "Kraken Slayer"
  ],
  "sixth": [
   "Endless Hunger",
   "Death's Dance",
-  "Immortal Shieldbow",
-  "Kraken Slayer"
+  "Kraken Slayer",
+  "Bloodthirster"
  ],
  "pool": [
   "Long Sword",
@@ -45,6 +45,7 @@
   "Death's Dance",
   "Immortal Shieldbow",
   "Blade of The Ruined King",
-  "Kraken Slayer"
+  "Kraken Slayer",
+  "Bloodthirster"
  ]
 }

@@ -12,15 +12,15 @@
  ],
  "core": [
   "Hubris",
-  "Mercury's Treads",
+  "Ionian Boots of Lucidity",
   "Axiom Arc",
-  "Profane Hydra"
+  "Voltaic Cyclosword"
  ],
  "fourth": [
   "Endless Hunger",
   "Overlord's Bloodmail",
   "Warmog's Armor",
-  "Unending Despair"
+  "Lord Dominik's Regards"
  ],
  "fifth": [
   "Endless Hunger",
@@ -31,22 +31,21 @@
  "sixth": [
   "Endless Hunger",
   "Lord Dominik's Regards",
-  "Voltaic Cyclosword",
-  "Death's Dance"
+  "Death's Dance",
+  "Infinity Edge"
  ],
  "pool": [
   "Long Sword",
   "Serrated Dirk",
   "Hubris",
-  "Mercury's Treads",
+  "Ionian Boots of Lucidity",
   "Axiom Arc",
-  "Profane Hydra",
+  "Voltaic Cyclosword",
   "Endless Hunger",
   "Overlord's Bloodmail",
   "Warmog's Armor",
-  "Unending Despair",
   "Lord Dominik's Regards",
   "Death's Dance",
-  "Voltaic Cyclosword"
+  "Infinity Edge"
  ]
 }

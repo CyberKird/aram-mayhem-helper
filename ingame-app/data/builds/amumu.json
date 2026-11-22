@@ -12,21 +12,21 @@
  ],
  "core": [
   "Heartsteel",
-  "Plated Steelcaps",
+  "Mercury's Treads",
   "Unending Despair",
   "Warmog's Armor"
  ],
  "fourth": [
   "Riftmaker",
-  "Jak'Sho, The Protean",
   "Hollow Radiance",
-  "Abyssal Mask"
+  "Jak'Sho, The Protean",
+  "Winter's Approach"
  ],
  "fifth": [
   "Riftmaker",
-  "Hollow Radiance",
   "Jak'Sho, The Protean",
-  "Kaenic Rookern"
+  "Hollow Radiance",
+  "Winter's Approach"
  ],
  "sixth": [
   "Riftmaker",
@@ -38,15 +38,13 @@
   "Giant's Belt",
   "Ruby Crystal",
   "Heartsteel",
-  "Plated Steelcaps",
+  "Mercury's Treads",
   "Unending Despair",
   "Warmog's Armor",
   "Riftmaker",
-  "Jak'Sho, The Protean",
   "Hollow Radiance",
-  "Abyssal Mask",
-  "Kaenic Rookern",
-  "Spirit Visage",
-  "Winter's Approach"
+  "Jak'Sho, The Protean",
+  "Winter's Approach",
+  "Spirit Visage"
  ]
 }

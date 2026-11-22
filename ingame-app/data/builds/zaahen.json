@@ -19,20 +19,20 @@
  "fourth": [
   "Overlord's Bloodmail",
   "Lord Dominik's Regards",
-  "Sundered Sky",
-  "Spear of Shojin"
+  "Spear of Shojin",
+  "Sundered Sky"
  ],
  "fifth": [
   "Lord Dominik's Regards",
   "Overlord's Bloodmail",
   "Spear of Shojin",
-  "Infinity Edge"
+  "Spirit Visage"
  ],
  "sixth": [
   "Overlord's Bloodmail",
-  "Maw of Malmortius",
-  "Spear of Shojin",
-  "Spirit Visage"
+  "Lord Dominik's Regards",
+  "Spirit Visage",
+  "Spear of Shojin"
  ],
  "pool": [
   "Long Sword",
@@ -43,10 +43,8 @@
   "Endless Hunger",
   "Overlord's Bloodmail",
   "Lord Dominik's Regards",
-  "Sundered Sky",
   "Spear of Shojin",
-  "Infinity Edge",
-  "Maw of Malmortius",
+  "Sundered Sky",
   "Spirit Visage"
  ]
 }

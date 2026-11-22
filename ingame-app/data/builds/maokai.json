@@ -17,22 +17,22 @@
   "Warmog's Armor"
  ],
  "fourth": [
-  "Jak'Sho, The Protean",
   "Rabadon's Deathcap",
-  "Spirit Visage",
-  "Winter's Approach"
+  "Jak'Sho, The Protean",
+  "Bloodletter's Curse",
+  "Malignance"
  ],
  "fifth": [
-  "Jak'Sho, The Protean",
   "Riftmaker",
-  "Cryptbloom",
-  "Shadowflame"
+  "Jak'Sho, The Protean",
+  "Shadowflame",
+  "Cryptbloom"
  ],
  "sixth": [
-  "Riftmaker",
+  "Archangel's Staff",
   "Void Staff",
-  "Cryptbloom",
-  "Jak'Sho, The Protean"
+  "Shadowflame",
+  "Cryptbloom"
  ],
  "pool": [
   "Giant's Belt",
@@ -41,13 +41,14 @@
   "Mercury's Treads",
   "Unending Despair",
   "Warmog's Armor",
-  "Jak'Sho, The Protean",
   "Rabadon's Deathcap",
-  "Spirit Visage",
-  "Winter's Approach",
+  "Jak'Sho, The Protean",
+  "Bloodletter's Curse",
+  "Malignance",
   "Riftmaker",
-  "Cryptbloom",
   "Shadowflame",
+  "Cryptbloom",
+  "Archangel's Staff",
   "Void Staff"
  ]
 }

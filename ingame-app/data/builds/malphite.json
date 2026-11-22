@@ -18,9 +18,9 @@
  ],
  "fourth": [
   "Jak'Sho, The Protean",
-  "Randuin's Omen",
   "Unending Despair",
-  "Warmog's Armor"
+  "Warmog's Armor",
+  "Thornmail"
  ],
  "fifth": [
   "Jak'Sho, The Protean",
@@ -30,8 +30,8 @@
  ],
  "sixth": [
   "Jak'Sho, The Protean",
+  "Lich Bane",
   "Randuin's Omen",
-  "Warmog's Armor",
   "Banshee's Veil"
  ],
  "pool": [
@@ -42,9 +42,11 @@
   "Stormsurge",
   "Rabadon's Deathcap",
   "Jak'Sho, The Protean",
-  "Randuin's Omen",
   "Unending Despair",
   "Warmog's Armor",
+  "Thornmail",
+  "Randuin's Omen",
+  "Lich Bane",
   "Banshee's Veil"
  ]
 }

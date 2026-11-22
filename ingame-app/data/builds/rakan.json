@@ -7,45 +7,45 @@
   "Mark"
  ],
  "starting": [
-  "Giant's Belt",
-  "Ruby Crystal"
+  "Null-Magic Mantle",
+  "Kindlegem"
  ],
  "core": [
-  "Heartsteel",
+  "Zeke's Convergence",
   "Mercury's Treads",
-  "Warmog's Armor",
-  "Unending Despair"
+  "Locket of the Iron Solari",
+  "Knight's Vow"
  ],
  "fourth": [
-  "Knight's Vow",
+  "Warmog's Armor",
   "Jak'Sho, The Protean",
   "Winter's Approach",
-  "Spirit Visage"
+  "Unending Despair"
  ],
  "fifth": [
   "Spirit Visage",
-  "Knight's Vow",
-  "Zeke's Convergence",
-  "Jak'Sho, The Protean"
+  "Warmog's Armor",
+  "Jak'Sho, The Protean",
+  "Unending Despair"
  ],
  "sixth": [
   "Frozen Heart",
-  "Knight's Vow",
-  "Winter's Approach",
-  "Zeke's Convergence"
- ],
- "pool": [
-  "Giant's Belt",
-  "Ruby Crystal",
-  "Heartsteel",
-  "Mercury's Treads",
-  "Warmog's Armor",
-  "Unending Despair",
-  "Knight's Vow",
-  "Jak'Sho, The Protean",
   "Winter's Approach",
   "Spirit Visage",
+  "Jak'Sho, The Protean"
+ ],
+ "pool": [
+  "Null-Magic Mantle",
+  "Kindlegem",
   "Zeke's Convergence",
+  "Mercury's Treads",
+  "Locket of the Iron Solari",
+  "Knight's Vow",
+  "Warmog's Armor",
+  "Jak'Sho, The Protean",
+  "Winter's Approach",
+  "Unending Despair",
+  "Spirit Visage",
   "Frozen Heart"
  ]
 }

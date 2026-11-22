@@ -26,13 +26,13 @@
   "Lord Dominik's Regards",
   "Voltaic Cyclosword",
   "Spear of Shojin",
-  "Spirit Visage"
+  "Maw of Malmortius"
  ],
  "sixth": [
   "Lord Dominik's Regards",
-  "Axiom Arc",
   "Voltaic Cyclosword",
-  "Maw of Malmortius"
+  "Maw of Malmortius",
+  "Spirit Visage"
  ],
  "pool": [
   "Long Sword",
@@ -45,7 +45,6 @@
   "Voltaic Cyclosword",
   "Maw of Malmortius",
   "Spear of Shojin",
-  "Spirit Visage",
-  "Axiom Arc"
+  "Spirit Visage"
  ]
 }

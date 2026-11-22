@@ -7,44 +7,46 @@
   "Clarity"
  ],
  "starting": [
-  "Refillable Potion",
-  "Lost Chapter"
+  "Ruby Crystal",
+  "Ruby Crystal",
+  "Tear of the Goddess"
  ],
  "core": [
-  "Luden's Echo",
-  "Sorcerer's Shoes",
-  "Rabadon's Deathcap",
-  "Archangel's Staff"
+  "Rod of Ages",
+  "Ionian Boots of Lucidity",
+  "Archangel's Staff",
+  "Cosmic Drive"
  ],
  "fourth": [
   "Winter's Approach",
-  "Rod of Ages",
   "Blackfire Torch",
+  "Luden's Echo",
   "Malignance"
  ],
  "fifth": [
   "Winter's Approach",
-  "Rod of Ages",
   "Blackfire Torch",
+  "Luden's Echo",
   "Malignance"
  ],
  "sixth": [
   "Winter's Approach",
-  "Rod of Ages",
   "Blackfire Torch",
-  "Banshee's Veil"
+  "Banshee's Veil",
+  "Cryptbloom"
  ],
  "pool": [
-  "Refillable Potion",
-  "Lost Chapter",
-  "Luden's Echo",
-  "Sorcerer's Shoes",
-  "Rabadon's Deathcap",
-  "Archangel's Staff",
-  "Winter's Approach",
+  "Ruby Crystal",
+  "Tear of the Goddess",
   "Rod of Ages",
+  "Ionian Boots of Lucidity",
+  "Archangel's Staff",
+  "Cosmic Drive",
+  "Winter's Approach",
   "Blackfire Torch",
+  "Luden's Echo",
   "Malignance",
-  "Banshee's Veil"
+  "Banshee's Veil",
+  "Cryptbloom"
  ]
 }

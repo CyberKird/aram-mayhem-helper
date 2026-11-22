@@ -8,12 +8,12 @@
  ],
  "starting": [
   "Long Sword",
-  "Guardian's Blade"
+  "Serrated Dirk"
  ],
  "core": [
-  "The Collector",
-  "Mercury's Treads",
   "Hubris",
+  "Mercury's Treads",
+  "The Collector",
   "Death's Dance"
  ],
  "fourth": [
@@ -26,7 +26,7 @@
   "Endless Hunger",
   "Lord Dominik's Regards",
   "Bloodthirster",
-  "Mercurial Scimitar"
+  "Immortal Shieldbow"
  ],
  "sixth": [
   "Endless Hunger",
@@ -36,17 +36,16 @@
  ],
  "pool": [
   "Long Sword",
-  "Guardian's Blade",
-  "The Collector",
-  "Mercury's Treads",
+  "Serrated Dirk",
   "Hubris",
+  "Mercury's Treads",
+  "The Collector",
   "Death's Dance",
   "Lord Dominik's Regards",
   "Infinity Edge",
   "Bloodthirster",
   "Immortal Shieldbow",
   "Endless Hunger",
-  "Mercurial Scimitar",
   "Maw of Malmortius"
  ]
 }

@@ -19,18 +19,18 @@
   "Void Staff",
   "Archangel's Staff",
   "Guinsoo's Rageblade",
-  "Runaan's Hurricane"
+  "Kraken Slayer"
  ],
  "fifth": [
-  "Void Staff",
   "Terminus",
+  "Void Staff",
   "Archangel's Staff",
-  "Nashor's Tooth"
+  "Wit's End"
  ],
  "sixth": [
+  "Terminus",
   "Void Staff",
   "Archangel's Staff",
-  "Terminus",
   "Wit's End"
  ],
  "pool": [
@@ -42,9 +42,8 @@
   "Void Staff",
   "Archangel's Staff",
   "Guinsoo's Rageblade",
-  "Runaan's Hurricane",
+  "Kraken Slayer",
   "Terminus",
-  "Nashor's Tooth",
   "Wit's End"
  ]
 }

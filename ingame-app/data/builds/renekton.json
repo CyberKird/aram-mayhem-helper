@@ -25,14 +25,14 @@
  "fifth": [
   "Maw of Malmortius",
   "Spear of Shojin",
-  "Black Cleaver",
-  "Overlord's Bloodmail"
+  "Overlord's Bloodmail",
+  "Sterak's Gage"
  ],
  "sixth": [
   "Sterak's Gage",
-  "Overlord's Bloodmail",
   "Maw of Malmortius",
-  "Jak'Sho, The Protean"
+  "Overlord's Bloodmail",
+  "Spear of Shojin"
  ],
  "pool": [
   "Long Sword",
@@ -45,7 +45,6 @@
   "Spear of Shojin",
   "Sterak's Gage",
   "Overlord's Bloodmail",
-  "Maw of Malmortius",
-  "Jak'Sho, The Protean"
+  "Maw of Malmortius"
  ]
 }

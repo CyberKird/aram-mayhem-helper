@@ -11,7 +11,7 @@
  ],
  "core": [
   "Blackfire Torch",
-  "Sorcerer's Shoes",
+  "Ionian Boots of Lucidity",
   "Liandry's Torment",
   "Rabadon's Deathcap"
  ],
@@ -23,20 +23,20 @@
  ],
  "fifth": [
   "Shadowflame",
-  "Bloodletter's Curse",
   "Void Staff",
+  "Bloodletter's Curse",
   "Riftmaker"
  ],
  "sixth": [
   "Shadowflame",
   "Bloodletter's Curse",
   "Void Staff",
-  "Cosmic Drive"
+  "Archangel's Staff"
  ],
  "pool": [
   "Lost Chapter",
   "Blackfire Torch",
-  "Sorcerer's Shoes",
+  "Ionian Boots of Lucidity",
   "Liandry's Torment",
   "Rabadon's Deathcap",
   "Shadowflame",
@@ -44,6 +44,6 @@
   "Riftmaker",
   "Rylai's Crystal Scepter",
   "Void Staff",
-  "Cosmic Drive"
+  "Archangel's Staff"
  ]
 }

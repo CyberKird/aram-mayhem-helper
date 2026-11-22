@@ -26,13 +26,13 @@
   "Endless Hunger",
   "Riftmaker",
   "Spear of Shojin",
-  "Sundered Sky"
+  "Hextech Gunblade"
  ],
  "sixth": [
   "Endless Hunger",
-  "Sterak's Gage",
   "Riftmaker",
-  "Spear of Shojin"
+  "Sterak's Gage",
+  "Hextech Gunblade"
  ],
  "pool": [
   "Ruby Crystal",
@@ -45,7 +45,6 @@
   "Riftmaker",
   "Spear of Shojin",
   "Hextech Gunblade",
-  "Sundered Sky",
   "Sterak's Gage"
  ]
 }

@@ -20,18 +20,18 @@
   "Lord Dominik's Regards",
   "Infinity Edge",
   "Axiom Arc",
-  "Black Cleaver"
+  "The Collector"
  ],
  "fifth": [
-  "Axiom Arc",
   "Lord Dominik's Regards",
+  "Axiom Arc",
   "Infinity Edge",
-  "Sterak's Gage"
+  "Maw of Malmortius"
  ],
  "sixth": [
-  "Voltaic Cyclosword",
   "Lord Dominik's Regards",
-  "Edge of Night",
+  "Voltaic Cyclosword",
+  "Maw of Malmortius",
   "Axiom Arc"
  ],
  "pool": [
@@ -44,9 +44,8 @@
   "Lord Dominik's Regards",
   "Infinity Edge",
   "Axiom Arc",
-  "Black Cleaver",
-  "Sterak's Gage",
-  "Voltaic Cyclosword",
-  "Edge of Night"
+  "The Collector",
+  "Maw of Malmortius",
+  "Voltaic Cyclosword"
  ]
 }

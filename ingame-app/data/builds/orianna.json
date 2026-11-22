@@ -7,7 +7,8 @@
   "Ghost"
  ],
  "starting": [
-  "Lost Chapter"
+  "Amplifying Tome",
+  "Guardian's Orb"
  ],
  "core": [
   "Blackfire Torch",
@@ -23,18 +24,19 @@
  ],
  "fifth": [
   "Stormsurge",
-  "Banshee's Veil",
   "Archangel's Staff",
-  "Cryptbloom"
+  "Banshee's Veil",
+  "Void Staff"
  ],
  "sixth": [
   "Void Staff",
-  "Stormsurge",
   "Banshee's Veil",
-  "Archangel's Staff"
+  "Archangel's Staff",
+  "Stormsurge"
  ],
  "pool": [
-  "Lost Chapter",
+  "Amplifying Tome",
+  "Guardian's Orb",
   "Blackfire Torch",
   "Sorcerer's Shoes",
   "Shadowflame",

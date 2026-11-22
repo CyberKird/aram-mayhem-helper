@@ -7,43 +7,41 @@
   "Ghost"
  ],
  "starting": [
-  "Amplifying Tome",
-  "Guardian's Orb"
+  "Lost Chapter"
  ],
  "core": [
-  "Blackfire Torch",
+  "Luden's Echo",
   "Sorcerer's Shoes",
-  "Shadowflame",
-  "Rabadon's Deathcap"
+  "Rabadon's Deathcap",
+  "Shadowflame"
  ],
  "fourth": [
   "Stormsurge",
-  "Cryptbloom",
   "Void Staff",
+  "Cryptbloom",
   "Malignance"
  ],
  "fifth": [
   "Archangel's Staff",
   "Stormsurge",
-  "Void Staff",
-  "Cryptbloom"
+  "Cryptbloom",
+  "Void Staff"
  ],
  "sixth": [
   "Banshee's Veil",
   "Cryptbloom",
-  "Stormsurge",
-  "Archangel's Staff"
+  "Archangel's Staff",
+  "Stormsurge"
  ],
  "pool": [
-  "Amplifying Tome",
-  "Guardian's Orb",
-  "Blackfire Torch",
+  "Lost Chapter",
+  "Luden's Echo",
   "Sorcerer's Shoes",
-  "Shadowflame",
   "Rabadon's Deathcap",
+  "Shadowflame",
   "Stormsurge",
-  "Cryptbloom",
   "Void Staff",
+  "Cryptbloom",
   "Malignance",
   "Archangel's Staff",
   "Banshee's Veil"

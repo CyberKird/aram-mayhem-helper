@@ -18,15 +18,15 @@
  ],
  "fourth": [
   "Warmog's Armor",
-  "Riftmaker",
   "Jak'Sho, The Protean",
+  "Riftmaker",
   "Hollow Radiance"
  ],
  "fifth": [
   "Warmog's Armor",
-  "Jak'Sho, The Protean",
   "Riftmaker",
-  "Stormsurge"
+  "Jak'Sho, The Protean",
+  "Dusk and Dawn"
  ],
  "sixth": [
   "Warmog's Armor",
@@ -42,10 +42,9 @@
   "Unending Despair",
   "Spirit Visage",
   "Warmog's Armor",
-  "Riftmaker",
   "Jak'Sho, The Protean",
+  "Riftmaker",
   "Hollow Radiance",
-  "Stormsurge",
   "Dusk and Dawn"
  ]
 }

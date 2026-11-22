@@ -29,10 +29,10 @@
   "Spirit Visage"
  ],
  "sixth": [
-  "Maw of Malmortius",
   "Spear of Shojin",
-  "Sundered Sky",
-  "Spirit Visage"
+  "Spirit Visage",
+  "Maw of Malmortius",
+  "Sterak's Gage"
  ],
  "pool": [
   "Long Sword",
@@ -45,7 +45,6 @@
   "Maw of Malmortius",
   "Ravenous Hydra",
   "Sterak's Gage",
-  "Spirit Visage",
-  "Sundered Sky"
+  "Spirit Visage"
  ]
 }

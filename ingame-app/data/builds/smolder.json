@@ -20,7 +20,7 @@
   "Bloodthirster",
   "Manamune",
   "Spear of Shojin",
-  "The Collector"
+  "Rapid Firecannon"
  ],
  "fifth": [
   "Endless Hunger",
@@ -30,9 +30,9 @@
  ],
  "sixth": [
   "Endless Hunger",
-  "Spear of Shojin",
   "Edge of Night",
-  "Liandry's Torment"
+  "Spear of Shojin",
+  "Manamune"
  ],
  "pool": [
   "Long Sword",
@@ -44,9 +44,8 @@
   "Bloodthirster",
   "Manamune",
   "Spear of Shojin",
-  "The Collector",
+  "Rapid Firecannon",
   "Endless Hunger",
-  "Edge of Night",
-  "Liandry's Torment"
+  "Edge of Night"
  ]
 }

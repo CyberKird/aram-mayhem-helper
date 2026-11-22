@@ -19,13 +19,13 @@
  "fourth": [
   "Overlord's Bloodmail",
   "Lord Dominik's Regards",
-  "Infinity Edge",
-  "Voltaic Cyclosword"
+  "Voltaic Cyclosword",
+  "Infinity Edge"
  ],
  "fifth": [
   "Lord Dominik's Regards",
-  "Voltaic Cyclosword",
   "Overlord's Bloodmail",
+  "Voltaic Cyclosword",
   "Infinity Edge"
  ],
  "sixth": [
@@ -43,8 +43,8 @@
   "Endless Hunger",
   "Overlord's Bloodmail",
   "Lord Dominik's Regards",
-  "Infinity Edge",
   "Voltaic Cyclosword",
+  "Infinity Edge",
   "Spear of Shojin"
  ]
 }

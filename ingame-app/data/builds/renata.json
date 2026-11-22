@@ -4,7 +4,7 @@
  "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
-  "Ghost"
+  "Heal"
  ],
  "starting": [
   "Amplifying Tome",
@@ -13,20 +13,20 @@
  "core": [
   "Imperial Mandate",
   "Ionian Boots of Lucidity",
-  "Whispering Circlet",
-  "Moonstone Renewer"
+  "Moonstone Renewer",
+  "Whispering Circlet"
  ],
  "fourth": [
-  "Staff of Flowing Water",
   "Ardent Censer",
   "Dawncore",
+  "Staff of Flowing Water",
   "Rabadon's Deathcap"
  ],
  "fifth": [
-  "Staff of Flowing Water",
   "Dawncore",
+  "Staff of Flowing Water",
   "Ardent Censer",
-  "Archangel's Staff"
+  "Shurelya's Battlesong"
  ],
  "sixth": [
   "Dawncore",
@@ -39,13 +39,13 @@
   "Bandleglass Mirror",
   "Imperial Mandate",
   "Ionian Boots of Lucidity",
-  "Whispering Circlet",
   "Moonstone Renewer",
-  "Staff of Flowing Water",
+  "Whispering Circlet",
   "Ardent Censer",
   "Dawncore",
+  "Staff of Flowing Water",
   "Rabadon's Deathcap",
-  "Archangel's Staff",
+  "Shurelya's Battlesong",
   "Redemption"
  ]
 }

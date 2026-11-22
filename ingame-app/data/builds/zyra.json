@@ -7,6 +7,7 @@
   "Ghost"
  ],
  "starting": [
+  "Refillable Potion",
   "Lost Chapter"
  ],
  "core": [
@@ -22,18 +23,19 @@
   "Void Staff"
  ],
  "fifth": [
-  "Bloodletter's Curse",
   "Archangel's Staff",
+  "Bloodletter's Curse",
   "Rabadon's Deathcap",
   "Shadowflame"
  ],
  "sixth": [
   "Bloodletter's Curse",
   "Archangel's Staff",
-  "Cryptbloom",
-  "Rabadon's Deathcap"
+  "Rabadon's Deathcap",
+  "Shadowflame"
  ],
  "pool": [
+  "Refillable Potion",
   "Lost Chapter",
   "Blackfire Torch",
   "Sorcerer's Shoes",
@@ -43,7 +45,6 @@
   "Rabadon's Deathcap",
   "Archangel's Staff",
   "Void Staff",
-  "Shadowflame",
-  "Cryptbloom"
+  "Shadowflame"
  ]
 }

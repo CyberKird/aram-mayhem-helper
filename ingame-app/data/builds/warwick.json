@@ -17,22 +17,22 @@
   "Titanic Hydra"
  ],
  "fourth": [
-  "Endless Hunger",
   "Death's Dance",
   "Unending Despair",
+  "Endless Hunger",
   "Spirit Visage"
  ],
  "fifth": [
+  "Overlord's Bloodmail",
   "Jak'Sho, The Protean",
   "Unending Despair",
-  "Overlord's Bloodmail",
   "Death's Dance"
  ],
  "sixth": [
+  "Unending Despair",
   "Endless Hunger",
   "Overlord's Bloodmail",
-  "Unending Despair",
-  "Spirit Visage"
+  "Death's Dance"
  ],
  "pool": [
   "Giant's Belt",
@@ -41,11 +41,11 @@
   "Mercury's Treads",
   "Blade of The Ruined King",
   "Titanic Hydra",
-  "Endless Hunger",
   "Death's Dance",
   "Unending Despair",
+  "Endless Hunger",
   "Spirit Visage",
-  "Jak'Sho, The Protean",
-  "Overlord's Bloodmail"
+  "Overlord's Bloodmail",
+  "Jak'Sho, The Protean"
  ]
 }

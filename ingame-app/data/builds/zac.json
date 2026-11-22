@@ -20,19 +20,19 @@
   "Riftmaker",
   "Unending Despair",
   "Jak'Sho, The Protean",
-  "Hollow Radiance"
+  "Kaenic Rookern"
  ],
  "fifth": [
   "Riftmaker",
-  "Unending Despair",
   "Jak'Sho, The Protean",
-  "Kaenic Rookern"
+  "Unending Despair",
+  "Hollow Radiance"
  ],
  "sixth": [
   "Riftmaker",
   "Jak'Sho, The Protean",
-  "Hollow Radiance",
-  "Kaenic Rookern"
+  "Unending Despair",
+  "Hollow Radiance"
  ],
  "pool": [
   "Giant's Belt",
@@ -44,7 +44,7 @@
   "Riftmaker",
   "Unending Despair",
   "Jak'Sho, The Protean",
-  "Hollow Radiance",
-  "Kaenic Rookern"
+  "Kaenic Rookern",
+  "Hollow Radiance"
  ]
 }

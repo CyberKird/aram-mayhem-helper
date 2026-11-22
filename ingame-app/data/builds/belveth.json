@@ -7,12 +7,12 @@
   "Mark"
  ],
  "starting": [
-  "Dagger",
-  "Vampiric Scepter"
+  "Long Sword",
+  "Recurve Bow"
  ],
  "core": [
   "Blade of The Ruined King",
-  "Plated Steelcaps",
+  "Mercury's Treads",
   "Kraken Slayer",
   "Death's Dance"
  ],
@@ -24,27 +24,28 @@
  ],
  "fifth": [
   "Infinity Edge",
-  "Endless Hunger",
   "Lord Dominik's Regards",
+  "Endless Hunger",
   "Guinsoo's Rageblade"
  ],
  "sixth": [
-  "Guinsoo's Rageblade",
   "Endless Hunger",
+  "Guinsoo's Rageblade",
   "Terminus",
-  "Infinity Edge"
+  "Spirit Visage"
  ],
  "pool": [
-  "Dagger",
-  "Vampiric Scepter",
+  "Long Sword",
+  "Recurve Bow",
   "Blade of The Ruined King",
-  "Plated Steelcaps",
+  "Mercury's Treads",
   "Kraken Slayer",
   "Death's Dance",
   "Lord Dominik's Regards",
   "Infinity Edge",
   "Endless Hunger",
   "Guinsoo's Rageblade",
-  "Terminus"
+  "Terminus",
+  "Spirit Visage"
  ]
 }

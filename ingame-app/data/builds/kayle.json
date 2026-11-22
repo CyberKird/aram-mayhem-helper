@@ -8,7 +8,8 @@
  ],
  "starting": [
   "Blasting Wand",
-  "Amplifying Tome"
+  "Amplifying Tome",
+  "Refillable Potion"
  ],
  "core": [
   "Nashor's Tooth",
@@ -23,10 +24,10 @@
   "Guinsoo's Rageblade"
  ],
  "fifth": [
-  "Shadowflame",
   "Statikk Shiv",
   "Void Staff",
-  "Terminus"
+  "Shadowflame",
+  "Riftmaker"
  ],
  "sixth": [
   "Void Staff",
@@ -37,6 +38,7 @@
  "pool": [
   "Blasting Wand",
   "Amplifying Tome",
+  "Refillable Potion",
   "Nashor's Tooth",
   "Berserker's Greaves",
   "Rabadon's Deathcap",
@@ -46,6 +48,7 @@
   "Terminus",
   "Guinsoo's Rageblade",
   "Void Staff",
+  "Riftmaker",
   "Hextech Gunblade"
  ]
 }

@@ -7,13 +7,12 @@
   "Barrier"
  ],
  "starting": [
-  "Recurve Bow",
   "Amplifying Tome",
-  "Glowing Mote"
+  "Guardian's Orb"
  ],
  "core": [
   "Nashor's Tooth",
-  "Berserker's Greaves",
+  "Sorcerer's Shoes",
   "Shadowflame",
   "Rabadon's Deathcap"
  ],
@@ -30,17 +29,16 @@
   "Riftmaker"
  ],
  "sixth": [
-  "Banshee's Veil",
   "Void Staff",
+  "Banshee's Veil",
   "Zhonya's Hourglass",
-  "Rylai's Crystal Scepter"
+  "Dusk and Dawn"
  ],
  "pool": [
-  "Recurve Bow",
   "Amplifying Tome",
-  "Glowing Mote",
+  "Guardian's Orb",
   "Nashor's Tooth",
-  "Berserker's Greaves",
+  "Sorcerer's Shoes",
   "Shadowflame",
   "Rabadon's Deathcap",
   "Void Staff",
@@ -48,7 +46,6 @@
   "Zhonya's Hourglass",
   "Liandry's Torment",
   "Riftmaker",
-  "Banshee's Veil",
-  "Rylai's Crystal Scepter"
+  "Banshee's Veil"
  ]
 }

@@ -4,9 +4,10 @@
  "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
-  "Mark"
+  "Ghost"
  ],
  "starting": [
+  "Refillable Potion",
   "Lost Chapter"
  ],
  "core": [
@@ -23,17 +24,18 @@
  ],
  "fifth": [
   "Archangel's Staff",
-  "Shadowflame",
   "Rabadon's Deathcap",
+  "Shadowflame",
   "Stormsurge"
  ],
  "sixth": [
   "Shadowflame",
   "Archangel's Staff",
   "Void Staff",
-  "Rabadon's Deathcap"
+  "Rylai's Crystal Scepter"
  ],
  "pool": [
+  "Refillable Potion",
   "Lost Chapter",
   "Malignance",
   "Sorcerer's Shoes",

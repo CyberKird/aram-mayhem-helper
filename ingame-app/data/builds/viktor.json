@@ -22,8 +22,8 @@
   "Stormsurge"
  ],
  "fifth": [
-  "Lich Bane",
   "Stormsurge",
+  "Lich Bane",
   "Archangel's Staff",
   "Void Staff"
  ],
@@ -31,7 +31,7 @@
   "Lich Bane",
   "Stormsurge",
   "Void Staff",
-  "Archangel's Staff"
+  "Banshee's Veil"
  ],
  "pool": [
   "Lost Chapter",
@@ -42,6 +42,7 @@
   "Archangel's Staff",
   "Lich Bane",
   "Void Staff",
-  "Stormsurge"
+  "Stormsurge",
+  "Banshee's Veil"
  ]
 }

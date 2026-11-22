@@ -16,10 +16,10 @@
   "Rabadon's Deathcap"
  ],
  "fourth": [
-  "Unending Despair",
-  "Lich Bane",
   "Void Staff",
-  "Stormsurge"
+  "Lich Bane",
+  "Stormsurge",
+  "Unending Despair"
  ],
  "fifth": [
   "Stormsurge",
@@ -28,9 +28,9 @@
   "Cryptbloom"
  ],
  "sixth": [
-  "Malignance",
   "Lich Bane",
   "Void Staff",
+  "Malignance",
   "Stormsurge"
  ],
  "pool": [
@@ -39,10 +39,10 @@
   "Sorcerer's Shoes",
   "Shadowflame",
   "Rabadon's Deathcap",
-  "Unending Despair",
-  "Lich Bane",
   "Void Staff",
+  "Lich Bane",
   "Stormsurge",
+  "Unending Despair",
   "Cryptbloom",
   "Malignance"
  ]

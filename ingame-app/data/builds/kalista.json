@@ -7,8 +7,8 @@
   "Cleanse"
  ],
  "starting": [
-  "Long Sword",
-  "Recurve Bow"
+  "Dagger",
+  "Berserker's Greaves"
  ],
  "core": [
   "Blade of The Ruined King",
@@ -20,13 +20,13 @@
   "Guinsoo's Rageblade",
   "Wit's End",
   "The Collector",
-  "Jak'Sho, The Protean"
+  "Infinity Edge"
  ],
  "fifth": [
   "Guinsoo's Rageblade",
   "Jak'Sho, The Protean",
-  "Wit's End",
-  "Bloodthirster"
+  "Bloodthirster",
+  "Wit's End"
  ],
  "sixth": [
   "Bloodthirster",
@@ -35,15 +35,15 @@
   "Kraken Slayer"
  ],
  "pool": [
-  "Long Sword",
-  "Recurve Bow",
-  "Blade of The Ruined King",
+  "Dagger",
   "Berserker's Greaves",
+  "Blade of The Ruined King",
   "Runaan's Hurricane",
   "Terminus",
   "Guinsoo's Rageblade",
   "Wit's End",
   "The Collector",
+  "Infinity Edge",
   "Jak'Sho, The Protean",
   "Bloodthirster",
   "Kraken Slayer"

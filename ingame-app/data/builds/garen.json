@@ -14,25 +14,25 @@
   "Stridebreaker",
   "Berserker's Greaves",
   "Phantom Dancer",
-  "Lord Dominik's Regards"
+  "Infinity Edge"
  ],
  "fourth": [
   "Overlord's Bloodmail",
-  "Jak'Sho, The Protean",
-  "Death's Dance",
-  "Infinity Edge"
+  "Lord Dominik's Regards",
+  "The Collector",
+  "Death's Dance"
  ],
  "fifth": [
   "Endless Hunger",
+  "Lord Dominik's Regards",
   "Overlord's Bloodmail",
-  "Death's Dance",
-  "The Collector"
+  "Death's Dance"
  ],
  "sixth": [
   "Endless Hunger",
   "Death's Dance",
-  "Overlord's Bloodmail",
-  "The Collector"
+  "Lord Dominik's Regards",
+  "Overlord's Bloodmail"
  ],
  "pool": [
   "Long Sword",
@@ -40,12 +40,11 @@
   "Stridebreaker",
   "Berserker's Greaves",
   "Phantom Dancer",
-  "Lord Dominik's Regards",
-  "Overlord's Bloodmail",
-  "Jak'Sho, The Protean",
-  "Death's Dance",
   "Infinity Edge",
-  "Endless Hunger",
-  "The Collector"
+  "Overlord's Bloodmail",
+  "Lord Dominik's Regards",
+  "The Collector",
+  "Death's Dance",
+  "Endless Hunger"
  ]
 }

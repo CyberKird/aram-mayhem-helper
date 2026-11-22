@@ -7,43 +7,44 @@
   "Mark"
  ],
  "starting": [
-  "Giant's Belt",
-  "Ruby Crystal"
+  "Health Potion",
+  "Health Potion",
+  "Haunting Guise"
  ],
  "core": [
-  "Heartsteel",
+  "Riftmaker",
   "Mercury's Treads",
-  "Liandry's Torment",
-  "Riftmaker"
+  "Spirit Visage",
+  "Rylai's Crystal Scepter"
  ],
  "fourth": [
   "Warmog's Armor",
   "Dusk and Dawn",
-  "Spirit Visage",
-  "Unending Despair"
+  "Unending Despair",
+  "Rabadon's Deathcap"
  ],
  "fifth": [
   "Warmog's Armor",
-  "Unending Despair",
   "Dusk and Dawn",
-  "Spirit Visage"
+  "Unending Despair",
+  "Rabadon's Deathcap"
  ],
  "sixth": [
   "Dusk and Dawn",
   "Warmog's Armor",
   "Unending Despair",
-  "Spirit Visage"
+  "Rabadon's Deathcap"
  ],
  "pool": [
-  "Giant's Belt",
-  "Ruby Crystal",
-  "Heartsteel",
-  "Mercury's Treads",
-  "Liandry's Torment",
+  "Health Potion",
+  "Haunting Guise",
   "Riftmaker",
+  "Mercury's Treads",
+  "Spirit Visage",
+  "Rylai's Crystal Scepter",
   "Warmog's Armor",
   "Dusk and Dawn",
-  "Spirit Visage",
-  "Unending Despair"
+  "Unending Despair",
+  "Rabadon's Deathcap"
  ]
 }
