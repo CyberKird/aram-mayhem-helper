@@ -22,8 +22,8 @@
   "Horizon Focus"
  ],
  "fifth": [
-  "Archangel's Staff",
   "Horizon Focus",
+  "Archangel's Staff",
   "Rabadon's Deathcap",
   "Shadowflame"
  ],
@@ -31,7 +31,7 @@
   "Banshee's Veil",
   "Edge of Night",
   "Horizon Focus",
-  "Archangel's Staff"
+  "Cryptbloom"
  ],
  "pool": [
   "Lost Chapter",
@@ -44,6 +44,7 @@
   "Shadowflame",
   "Horizon Focus",
   "Banshee's Veil",
-  "Edge of Night"
+  "Edge of Night",
+  "Cryptbloom"
  ]
 }

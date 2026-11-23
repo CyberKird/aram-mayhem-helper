@@ -7,20 +7,20 @@
   "Mark"
  ],
  "starting": [
-  "Giant's Belt",
-  "Ruby Crystal"
+  "Dagger",
+  "Vampiric Scepter"
  ],
  "core": [
-  "Heartsteel",
-  "Mercury's Treads",
   "Blade of The Ruined King",
-  "Titanic Hydra"
+  "Mercury's Treads",
+  "Wit's End",
+  "Spirit Visage"
  ],
  "fourth": [
   "Death's Dance",
-  "Unending Despair",
   "Endless Hunger",
-  "Spirit Visage"
+  "Unending Despair",
+  "Titanic Hydra"
  ],
  "fifth": [
   "Overlord's Bloodmail",
@@ -29,22 +29,22 @@
   "Death's Dance"
  ],
  "sixth": [
-  "Unending Despair",
   "Endless Hunger",
+  "Unending Despair",
   "Overlord's Bloodmail",
   "Death's Dance"
  ],
  "pool": [
-  "Giant's Belt",
-  "Ruby Crystal",
-  "Heartsteel",
-  "Mercury's Treads",
+  "Dagger",
+  "Vampiric Scepter",
   "Blade of The Ruined King",
-  "Titanic Hydra",
-  "Death's Dance",
-  "Unending Despair",
-  "Endless Hunger",
+  "Mercury's Treads",
+  "Wit's End",
   "Spirit Visage",
+  "Death's Dance",
+  "Endless Hunger",
+  "Unending Despair",
+  "Titanic Hydra",
   "Overlord's Bloodmail",
   "Jak'Sho, The Protean"
  ]

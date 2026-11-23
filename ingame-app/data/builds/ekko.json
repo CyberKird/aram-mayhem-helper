@@ -17,8 +17,8 @@
   "Rabadon's Deathcap"
  ],
  "fourth": [
-  "Stormsurge",
   "Void Staff",
+  "Stormsurge",
   "Zhonya's Hourglass"
  ],
  "fifth": [
@@ -27,10 +27,10 @@
   "Zhonya's Hourglass"
  ],
  "sixth": [
-  "Void Staff",
   "Stormsurge",
+  "Void Staff",
   "Banshee's Veil",
-  "Zhonya's Hourglass"
+  "Luden's Echo"
  ],
  "pool": [
   "Amplifying Tome",
@@ -39,9 +39,10 @@
   "Sorcerer's Shoes",
   "Dusk and Dawn",
   "Rabadon's Deathcap",
-  "Stormsurge",
   "Void Staff",
+  "Stormsurge",
   "Zhonya's Hourglass",
-  "Banshee's Veil"
+  "Banshee's Veil",
+  "Luden's Echo"
  ]
 }

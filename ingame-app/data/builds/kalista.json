@@ -8,42 +8,43 @@
  ],
  "starting": [
   "Dagger",
-  "Berserker's Greaves"
+  "Guardian's Blade"
  ],
  "core": [
-  "Blade of The Ruined King",
+  "Statikk Shiv",
   "Berserker's Greaves",
-  "Runaan's Hurricane",
+  "Guinsoo's Rageblade",
   "Terminus"
  ],
  "fourth": [
-  "Guinsoo's Rageblade",
+  "Runaan's Hurricane",
   "Wit's End",
-  "The Collector",
-  "Infinity Edge"
+  "Blade of The Ruined King",
+  "The Collector"
  ],
  "fifth": [
-  "Guinsoo's Rageblade",
   "Jak'Sho, The Protean",
-  "Bloodthirster",
-  "Wit's End"
+  "Wit's End",
+  "Runaan's Hurricane",
+  "Bloodthirster"
  ],
  "sixth": [
   "Bloodthirster",
-  "Wit's End",
   "Jak'Sho, The Protean",
+  "Wit's End",
   "Kraken Slayer"
  ],
  "pool": [
   "Dagger",
+  "Guardian's Blade",
+  "Statikk Shiv",
   "Berserker's Greaves",
-  "Blade of The Ruined King",
-  "Runaan's Hurricane",
-  "Terminus",
   "Guinsoo's Rageblade",
+  "Terminus",
+  "Runaan's Hurricane",
   "Wit's End",
+  "Blade of The Ruined King",
   "The Collector",
-  "Infinity Edge",
   "Jak'Sho, The Protean",
   "Bloodthirster",
   "Kraken Slayer"

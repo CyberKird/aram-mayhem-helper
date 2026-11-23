@@ -12,14 +12,14 @@
  "core": [
   "Rod of Ages",
   "Sorcerer's Shoes",
-  "Archangel's Staff",
-  "Liandry's Torment"
+  "Liandry's Torment",
+  "Archangel's Staff"
  ],
  "fourth": [
   "Rabadon's Deathcap",
   "Bloodletter's Curse",
-  "Shadowflame",
-  "Riftmaker"
+  "Blackfire Torch",
+  "Shadowflame"
  ],
  "fifth": [
   "Rabadon's Deathcap",
@@ -28,21 +28,21 @@
   "Riftmaker"
  ],
  "sixth": [
-  "Riftmaker",
   "Bloodletter's Curse",
-  "Shadowflame",
-  "Blackfire Torch"
+  "Riftmaker",
+  "Blackfire Torch",
+  "Rabadon's Deathcap"
  ],
  "pool": [
   "Catalyst of Aeons",
   "Rod of Ages",
   "Sorcerer's Shoes",
-  "Archangel's Staff",
   "Liandry's Torment",
+  "Archangel's Staff",
   "Rabadon's Deathcap",
   "Bloodletter's Curse",
+  "Blackfire Torch",
   "Shadowflame",
-  "Riftmaker",
-  "Blackfire Torch"
+  "Riftmaker"
  ]
 }

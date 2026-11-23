@@ -7,13 +7,14 @@
   "Ghost"
  ],
  "starting": [
+  "Refillable Potion",
   "Lost Chapter"
  ],
  "core": [
   "Malignance",
   "Sorcerer's Shoes",
-  "Liandry's Torment",
-  "Blackfire Torch"
+  "Blackfire Torch",
+  "Liandry's Torment"
  ],
  "fourth": [
   "Statikk Shiv",
@@ -34,11 +35,12 @@
   "Cryptbloom"
  ],
  "pool": [
+  "Refillable Potion",
   "Lost Chapter",
   "Malignance",
   "Sorcerer's Shoes",
-  "Liandry's Torment",
   "Blackfire Torch",
+  "Liandry's Torment",
   "Statikk Shiv",
   "Rabadon's Deathcap",
   "Shadowflame",

@@ -7,9 +7,8 @@
   "Heal"
  ],
  "starting": [
-  "Ruby Crystal",
   "Tear of the Goddess",
-  "Forbidden Idol"
+  "Bandleglass Mirror"
  ],
  "core": [
   "Whispering Circlet",
@@ -20,8 +19,8 @@
  "fourth": [
   "Dawncore",
   "Sword of Blossoming Dawn",
-  "Echoes of Helia",
-  "Ardent Censer"
+  "Ardent Censer",
+  "Echoes of Helia"
  ],
  "fifth": [
   "Sword of Blossoming Dawn",
@@ -36,16 +35,15 @@
   "Ardent Censer"
  ],
  "pool": [
-  "Ruby Crystal",
   "Tear of the Goddess",
-  "Forbidden Idol",
+  "Bandleglass Mirror",
   "Whispering Circlet",
   "Ionian Boots of Lucidity",
   "Moonstone Renewer",
   "Staff of Flowing Water",
   "Dawncore",
   "Sword of Blossoming Dawn",
-  "Echoes of Helia",
-  "Ardent Censer"
+  "Ardent Censer",
+  "Echoes of Helia"
  ]
 }

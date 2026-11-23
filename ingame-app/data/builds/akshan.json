@@ -7,45 +7,48 @@
   "Ghost"
  ],
  "starting": [
-  "Boots",
-  "Serrated Dirk"
+  "Long Sword",
+  "Pickaxe",
+  "Refillable Potion"
  ],
  "core": [
   "The Collector",
   "Berserker's Greaves",
-  "Statikk Shiv",
-  "Blade of The Ruined King"
+  "Infinity Edge",
+  "Lord Dominik's Regards"
  ],
  "fourth": [
   "Axiom Arc",
-  "Lord Dominik's Regards",
   "Bloodthirster",
-  "Infinity Edge"
+  "Yun Tal Wildarrows",
+  "Kraken Slayer"
  ],
  "fifth": [
   "Axiom Arc",
   "Bloodthirster",
-  "Lord Dominik's Regards",
-  "Yun Tal Wildarrows"
+  "Yun Tal Wildarrows",
+  "Rapid Firecannon"
  ],
  "sixth": [
   "Axiom Arc",
   "Endless Hunger",
-  "Bloodthirster",
-  "Yun Tal Wildarrows"
+  "Edge of Night",
+  "Bloodthirster"
  ],
  "pool": [
-  "Boots",
-  "Serrated Dirk",
+  "Long Sword",
+  "Pickaxe",
+  "Refillable Potion",
   "The Collector",
   "Berserker's Greaves",
-  "Statikk Shiv",
-  "Blade of The Ruined King",
-  "Axiom Arc",
-  "Lord Dominik's Regards",
-  "Bloodthirster",
   "Infinity Edge",
+  "Lord Dominik's Regards",
+  "Axiom Arc",
+  "Bloodthirster",
   "Yun Tal Wildarrows",
-  "Endless Hunger"
+  "Kraken Slayer",
+  "Rapid Firecannon",
+  "Endless Hunger",
+  "Edge of Night"
  ]
 }

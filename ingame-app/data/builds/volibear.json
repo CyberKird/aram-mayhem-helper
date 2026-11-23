@@ -23,16 +23,16 @@
   "Rabadon's Deathcap"
  ],
  "fifth": [
-  "Spirit Visage",
   "Nashor's Tooth",
+  "Spirit Visage",
   "Hextech Gunblade",
-  "Rabadon's Deathcap"
+  "Navori Flickerblade"
  ],
  "sixth": [
-  "Overlord's Bloodmail",
   "Nashor's Tooth",
   "Rabadon's Deathcap",
-  "Spirit Visage"
+  "Spirit Visage",
+  "Jak'Sho, The Protean"
  ],
  "pool": [
   "Amplifying Tome",
@@ -45,6 +45,7 @@
   "Hextech Gunblade",
   "Spirit Visage",
   "Rabadon's Deathcap",
-  "Overlord's Bloodmail"
+  "Navori Flickerblade",
+  "Jak'Sho, The Protean"
  ]
 }

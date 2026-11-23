@@ -8,43 +8,45 @@
  ],
  "starting": [
   "Giant's Belt",
-  "Ruby Crystal"
+  "Health Potion",
+  "Health Potion",
+  "Tear of the Goddess"
  ],
  "core": [
   "Heartsteel",
   "Plated Steelcaps",
-  "Warmog's Armor",
+  "Winter's Approach",
   "Unending Despair"
  ],
  "fourth": [
   "Jak'Sho, The Protean",
   "Frozen Heart",
-  "Winter's Approach",
+  "Warmog's Armor",
   "Spirit Visage"
  ],
  "fifth": [
   "Jak'Sho, The Protean",
   "Spirit Visage",
-  "Winter's Approach",
-  "Randuin's Omen"
+  "Warmog's Armor",
+  "Frozen Heart"
  ],
  "sixth": [
   "Jak'Sho, The Protean",
   "Frozen Heart",
   "Spirit Visage",
-  "Winter's Approach"
+  "Warmog's Armor"
  ],
  "pool": [
   "Giant's Belt",
-  "Ruby Crystal",
+  "Health Potion",
+  "Tear of the Goddess",
   "Heartsteel",
   "Plated Steelcaps",
-  "Warmog's Armor",
+  "Winter's Approach",
   "Unending Despair",
   "Jak'Sho, The Protean",
   "Frozen Heart",
-  "Winter's Approach",
-  "Spirit Visage",
-  "Randuin's Omen"
+  "Warmog's Armor",
+  "Spirit Visage"
  ]
 }

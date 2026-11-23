@@ -19,19 +19,19 @@
  "fourth": [
   "Frozen Heart",
   "Jak'Sho, The Protean",
-  "Unending Despair",
-  "Rabadon's Deathcap"
+  "Archangel's Staff",
+  "Unending Despair"
  ],
  "fifth": [
   "Archangel's Staff",
   "Jak'Sho, The Protean",
   "Frozen Heart",
-  "Stormsurge"
+  "Spirit Visage"
  ],
  "sixth": [
   "Archangel's Staff",
-  "Jak'Sho, The Protean",
   "Cryptbloom",
+  "Jak'Sho, The Protean",
   "Unending Despair"
  ],
  "pool": [
@@ -43,10 +43,9 @@
   "Kaenic Rookern",
   "Frozen Heart",
   "Jak'Sho, The Protean",
-  "Unending Despair",
-  "Rabadon's Deathcap",
   "Archangel's Staff",
-  "Stormsurge",
+  "Unending Despair",
+  "Spirit Visage",
   "Cryptbloom"
  ]
 }

@@ -17,22 +17,22 @@
   "Shadowflame"
  ],
  "fourth": [
-  "Rabadon's Deathcap",
   "Archangel's Staff",
+  "Rabadon's Deathcap",
   "Stormsurge",
   "Void Staff"
  ],
  "fifth": [
+  "Banshee's Veil",
   "Stormsurge",
   "Archangel's Staff",
-  "Rabadon's Deathcap",
   "Horizon Focus"
  ],
  "sixth": [
   "Horizon Focus",
   "Banshee's Veil",
-  "Void Staff",
-  "Stormsurge"
+  "Stormsurge",
+  "Void Staff"
  ],
  "pool": [
   "Refillable Potion",
@@ -41,11 +41,11 @@
   "Sorcerer's Shoes",
   "Liandry's Torment",
   "Shadowflame",
-  "Rabadon's Deathcap",
   "Archangel's Staff",
+  "Rabadon's Deathcap",
   "Stormsurge",
   "Void Staff",
-  "Horizon Focus",
-  "Banshee's Veil"
+  "Banshee's Veil",
+  "Horizon Focus"
  ]
 }

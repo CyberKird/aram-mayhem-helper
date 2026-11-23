@@ -13,25 +13,25 @@
  "core": [
   "Hubris",
   "Mercury's Treads",
-  "Death's Dance",
-  "Endless Hunger"
+  "Endless Hunger",
+  "Death's Dance"
  ],
  "fourth": [
   "Lord Dominik's Regards",
   "Overlord's Bloodmail",
-  "Trinity Force",
-  "Warmog's Armor"
+  "Warmog's Armor",
+  "Maw of Malmortius"
  ],
  "fifth": [
   "Lord Dominik's Regards",
   "Infinity Edge",
   "Maw of Malmortius",
-  "Overlord's Bloodmail"
+  "Trinity Force"
  ],
  "sixth": [
   "Lord Dominik's Regards",
-  "Overlord's Bloodmail",
   "Infinity Edge",
+  "Overlord's Bloodmail",
   "Trinity Force"
  ],
  "pool": [
@@ -39,13 +39,13 @@
   "Guardian's Blade",
   "Hubris",
   "Mercury's Treads",
-  "Death's Dance",
   "Endless Hunger",
+  "Death's Dance",
   "Lord Dominik's Regards",
   "Overlord's Bloodmail",
-  "Trinity Force",
   "Warmog's Armor",
+  "Maw of Malmortius",
   "Infinity Edge",
-  "Maw of Malmortius"
+  "Trinity Force"
  ]
 }

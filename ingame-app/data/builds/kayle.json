@@ -7,46 +7,42 @@
   "Ghost"
  ],
  "starting": [
-  "Blasting Wand",
-  "Amplifying Tome",
-  "Refillable Potion"
+  "Needlessly Large Rod"
  ],
  "core": [
   "Nashor's Tooth",
   "Berserker's Greaves",
-  "Rabadon's Deathcap",
-  "Dusk and Dawn"
+  "Dusk and Dawn",
+  "Shadowflame"
  ],
  "fourth": [
-  "Shadowflame",
+  "Rabadon's Deathcap",
   "Statikk Shiv",
-  "Terminus",
-  "Guinsoo's Rageblade"
+  "Guinsoo's Rageblade",
+  "Terminus"
  ],
  "fifth": [
-  "Statikk Shiv",
+  "Rabadon's Deathcap",
   "Void Staff",
-  "Shadowflame",
+  "Statikk Shiv",
   "Riftmaker"
  ],
  "sixth": [
   "Void Staff",
   "Statikk Shiv",
-  "Shadowflame",
+  "Terminus",
   "Hextech Gunblade"
  ],
  "pool": [
-  "Blasting Wand",
-  "Amplifying Tome",
-  "Refillable Potion",
+  "Needlessly Large Rod",
   "Nashor's Tooth",
   "Berserker's Greaves",
-  "Rabadon's Deathcap",
   "Dusk and Dawn",
   "Shadowflame",
+  "Rabadon's Deathcap",
   "Statikk Shiv",
-  "Terminus",
   "Guinsoo's Rageblade",
+  "Terminus",
   "Void Staff",
   "Riftmaker",
   "Hextech Gunblade"

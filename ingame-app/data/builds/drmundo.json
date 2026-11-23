@@ -19,20 +19,20 @@
  "fourth": [
   "Unending Despair",
   "Overlord's Bloodmail",
-  "Kaenic Rookern",
-  "Jak'Sho, The Protean"
+  "Jak'Sho, The Protean",
+  "Kaenic Rookern"
  ],
  "fifth": [
   "Unending Despair",
   "Overlord's Bloodmail",
   "Kaenic Rookern",
-  "Titanic Hydra"
+  "Jak'Sho, The Protean"
  ],
  "sixth": [
   "Endless Hunger",
   "Overlord's Bloodmail",
-  "Unending Despair",
-  "Jak'Sho, The Protean"
+  "Jak'Sho, The Protean",
+  "Unending Despair"
  ],
  "pool": [
   "Giant's Belt",
@@ -43,9 +43,8 @@
   "Warmog's Armor",
   "Unending Despair",
   "Overlord's Bloodmail",
-  "Kaenic Rookern",
   "Jak'Sho, The Protean",
-  "Titanic Hydra",
+  "Kaenic Rookern",
   "Endless Hunger"
  ]
 }

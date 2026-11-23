@@ -18,8 +18,8 @@
  "fourth": [
   "Stormsurge",
   "Horizon Focus",
-  "Void Staff",
-  "Archangel's Staff"
+  "Archangel's Staff",
+  "Void Staff"
  ],
  "fifth": [
   "Stormsurge",
@@ -31,7 +31,7 @@
   "Banshee's Veil",
   "Stormsurge",
   "Horizon Focus",
-  "Void Staff"
+  "Malignance"
  ],
  "pool": [
   "Lost Chapter",
@@ -41,8 +41,8 @@
   "Shadowflame",
   "Stormsurge",
   "Horizon Focus",
-  "Void Staff",
   "Archangel's Staff",
+  "Void Staff",
   "Malignance",
   "Banshee's Veil"
  ]

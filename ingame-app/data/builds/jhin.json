@@ -8,25 +8,25 @@
  ],
  "starting": [
   "Long Sword",
-  "Pickaxe"
+  "Guardian's Blade"
  ],
  "core": [
   "The Collector",
-  "Boots of Swiftness",
+  "Berserker's Greaves",
   "Infinity Edge",
-  "Hubris"
+  "Lord Dominik's Regards"
  ],
  "fourth": [
   "Axiom Arc",
   "Hexoptics C44",
-  "Lord Dominik's Regards",
-  "Rapid Firecannon"
+  "Rapid Firecannon",
+  "Phantom Dancer"
  ],
  "fifth": [
   "Endless Hunger",
   "Axiom Arc",
-  "Hexoptics C44",
-  "Lord Dominik's Regards"
+  "Hubris",
+  "Hexoptics C44"
  ],
  "sixth": [
   "Endless Hunger",
@@ -36,16 +36,17 @@
  ],
  "pool": [
   "Long Sword",
-  "Pickaxe",
+  "Guardian's Blade",
   "The Collector",
-  "Boots of Swiftness",
+  "Berserker's Greaves",
   "Infinity Edge",
-  "Hubris",
+  "Lord Dominik's Regards",
   "Axiom Arc",
   "Hexoptics C44",
-  "Lord Dominik's Regards",
   "Rapid Firecannon",
+  "Phantom Dancer",
   "Endless Hunger",
+  "Hubris",
   "Youmuu's Ghostblade",
   "Edge of Night"
  ]

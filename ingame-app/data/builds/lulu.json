@@ -7,6 +7,8 @@
   "Heal"
  ],
  "starting": [
+  "Health Potion",
+  "Health Potion",
   "Tear of the Goddess",
   "Bandleglass Mirror"
  ],
@@ -19,22 +21,23 @@
  "fourth": [
   "Dawncore",
   "Staff of Flowing Water",
-  "Shurelya's Battlesong",
-  "Redemption"
+  "Redemption",
+  "Shurelya's Battlesong"
  ],
  "fifth": [
   "Staff of Flowing Water",
   "Dawncore",
   "Redemption",
-  "Locket of the Iron Solari"
+  "Mikael's Blessing"
  ],
  "sixth": [
   "Staff of Flowing Water",
-  "Knight's Vow",
   "Dawncore",
+  "Knight's Vow",
   "Redemption"
  ],
  "pool": [
+  "Health Potion",
   "Tear of the Goddess",
   "Bandleglass Mirror",
   "Moonstone Renewer",
@@ -43,9 +46,9 @@
   "Whispering Circlet",
   "Dawncore",
   "Staff of Flowing Water",
-  "Shurelya's Battlesong",
   "Redemption",
-  "Locket of the Iron Solari",
+  "Shurelya's Battlesong",
+  "Mikael's Blessing",
   "Knight's Vow"
  ]
 }

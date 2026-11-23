@@ -7,26 +7,25 @@
   "Heal"
  ],
  "starting": [
-  "Amplifying Tome",
-  "Bandleglass Mirror"
+  "Lost Chapter"
  ],
  "core": [
-  "Imperial Mandate",
+  "Malignance",
   "Ionian Boots of Lucidity",
-  "Moonstone Renewer",
-  "Whispering Circlet"
+  "Axiom Arc",
+  "Experimental Hexplate"
  ],
  "fourth": [
-  "Ardent Censer",
   "Dawncore",
-  "Staff of Flowing Water",
-  "Rabadon's Deathcap"
+  "Ardent Censer",
+  "Rabadon's Deathcap",
+  "Moonstone Renewer"
  ],
  "fifth": [
   "Dawncore",
   "Staff of Flowing Water",
   "Ardent Censer",
-  "Shurelya's Battlesong"
+  "Moonstone Renewer"
  ],
  "sixth": [
   "Dawncore",
@@ -35,17 +34,16 @@
   "Redemption"
  ],
  "pool": [
-  "Amplifying Tome",
-  "Bandleglass Mirror",
-  "Imperial Mandate",
+  "Lost Chapter",
+  "Malignance",
   "Ionian Boots of Lucidity",
-  "Moonstone Renewer",
-  "Whispering Circlet",
-  "Ardent Censer",
+  "Axiom Arc",
+  "Experimental Hexplate",
   "Dawncore",
-  "Staff of Flowing Water",
+  "Ardent Censer",
   "Rabadon's Deathcap",
-  "Shurelya's Battlesong",
+  "Moonstone Renewer",
+  "Staff of Flowing Water",
   "Redemption"
  ]
 }

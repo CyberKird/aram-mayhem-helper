@@ -7,6 +7,7 @@
   "Ghost"
  ],
  "starting": [
+  "Refillable Potion",
   "Lost Chapter"
  ],
  "core": [
@@ -19,21 +20,22 @@
   "Void Staff",
   "Archangel's Staff",
   "Guinsoo's Rageblade",
-  "Kraken Slayer"
+  "Terminus"
  ],
  "fifth": [
   "Terminus",
   "Void Staff",
   "Archangel's Staff",
-  "Wit's End"
+  "Kraken Slayer"
  ],
  "sixth": [
   "Terminus",
   "Void Staff",
-  "Archangel's Staff",
-  "Wit's End"
+  "Wit's End",
+  "Nashor's Tooth"
  ],
  "pool": [
+  "Refillable Potion",
   "Lost Chapter",
   "Luden's Echo",
   "Sorcerer's Shoes",
@@ -42,8 +44,9 @@
   "Void Staff",
   "Archangel's Staff",
   "Guinsoo's Rageblade",
-  "Kraken Slayer",
   "Terminus",
-  "Wit's End"
+  "Kraken Slayer",
+  "Wit's End",
+  "Nashor's Tooth"
  ]
 }

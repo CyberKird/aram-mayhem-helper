@@ -8,44 +8,46 @@
  ],
  "starting": [
   "Long Sword",
-  "Guardian's Blade"
+  "Pickaxe"
  ],
  "core": [
-  "Hubris",
-  "Berserker's Greaves",
   "The Collector",
-  "Death's Dance"
+  "Berserker's Greaves",
+  "Infinity Edge",
+  "Hubris"
  ],
  "fourth": [
   "Axiom Arc",
   "Lord Dominik's Regards",
-  "Infinity Edge",
-  "Essence Reaver"
+  "Essence Reaver",
+  "Bloodthirster"
  ],
  "fifth": [
   "Endless Hunger",
   "Axiom Arc",
   "Lord Dominik's Regards",
-  "Essence Reaver"
+  "Hexoptics C44"
  ],
  "sixth": [
   "Endless Hunger",
   "Voltaic Cyclosword",
-  "Axiom Arc",
-  "Lord Dominik's Regards"
+  "Death's Dance",
+  "Axiom Arc"
  ],
  "pool": [
   "Long Sword",
-  "Guardian's Blade",
-  "Hubris",
-  "Berserker's Greaves",
+  "Pickaxe",
   "The Collector",
-  "Death's Dance",
+  "Berserker's Greaves",
+  "Infinity Edge",
+  "Hubris",
   "Axiom Arc",
   "Lord Dominik's Regards",
-  "Infinity Edge",
   "Essence Reaver",
+  "Bloodthirster",
   "Endless Hunger",
-  "Voltaic Cyclosword"
+  "Hexoptics C44",
+  "Voltaic Cyclosword",
+  "Death's Dance"
  ]
 }

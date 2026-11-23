@@ -17,10 +17,10 @@
   "Warmog's Armor"
  ],
  "fourth": [
-  "Unending Despair",
   "Jak'Sho, The Protean",
   "Kaenic Rookern",
-  "Sterak's Gage"
+  "Sterak's Gage",
+  "Death's Dance"
  ],
  "fifth": [
   "Jak'Sho, The Protean",
@@ -30,8 +30,8 @@
  ],
  "sixth": [
   "Jak'Sho, The Protean",
-  "Kaenic Rookern",
   "Sterak's Gage",
+  "Kaenic Rookern",
   "Death's Dance"
  ],
  "pool": [
@@ -41,11 +41,10 @@
   "Plated Steelcaps",
   "Overlord's Bloodmail",
   "Warmog's Armor",
-  "Unending Despair",
   "Jak'Sho, The Protean",
   "Kaenic Rookern",
   "Sterak's Gage",
-  "Force of Nature",
-  "Death's Dance"
+  "Death's Dance",
+  "Force of Nature"
  ]
 }

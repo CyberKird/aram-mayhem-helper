@@ -18,15 +18,15 @@
  ],
  "fourth": [
   "Spirit Visage",
-  "Jak'Sho, The Protean",
+  "Winter's Approach",
   "Hollow Radiance",
-  "Winter's Approach"
+  "Jak'Sho, The Protean"
  ],
  "fifth": [
-  "Hollow Radiance",
   "Spirit Visage",
-  "Winter's Approach",
-  "Jak'Sho, The Protean"
+  "Hollow Radiance",
+  "Jak'Sho, The Protean",
+  "Winter's Approach"
  ],
  "sixth": [
   "Riftmaker",
@@ -42,9 +42,9 @@
   "Unending Despair",
   "Warmog's Armor",
   "Spirit Visage",
-  "Jak'Sho, The Protean",
-  "Hollow Radiance",
   "Winter's Approach",
+  "Hollow Radiance",
+  "Jak'Sho, The Protean",
   "Riftmaker",
   "Force of Nature"
  ]

@@ -18,15 +18,15 @@
  ],
  "fourth": [
   "Endless Hunger",
-  "Death's Dance",
   "Jak'Sho, The Protean",
+  "Death's Dance",
   "Lord Dominik's Regards"
  ],
  "fifth": [
   "Endless Hunger",
   "Lord Dominik's Regards",
-  "Death's Dance",
-  "Jak'Sho, The Protean"
+  "Jak'Sho, The Protean",
+  "Death's Dance"
  ],
  "sixth": [
   "Endless Hunger",
@@ -42,8 +42,8 @@
   "Frozen Heart",
   "Spirit Visage",
   "Endless Hunger",
-  "Death's Dance",
   "Jak'Sho, The Protean",
+  "Death's Dance",
   "Lord Dominik's Regards"
  ]
 }

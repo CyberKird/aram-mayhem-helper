@@ -7,7 +7,6 @@
   "Barrier"
  ],
  "starting": [
-  "Refillable Potion",
   "Lost Chapter"
  ],
  "core": [
@@ -25,8 +24,8 @@
  "fifth": [
   "Warmog's Armor",
   "Bloodletter's Curse",
-  "Riftmaker",
-  "Rabadon's Deathcap"
+  "Rabadon's Deathcap",
+  "Shadowflame"
  ],
  "sixth": [
   "Riftmaker",
@@ -35,7 +34,6 @@
   "Void Staff"
  ],
  "pool": [
-  "Refillable Potion",
   "Lost Chapter",
   "Rylai's Crystal Scepter",
   "Sorcerer's Shoes",

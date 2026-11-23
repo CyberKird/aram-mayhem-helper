@@ -26,13 +26,13 @@
   "Death's Dance",
   "Endless Hunger",
   "Bloodthirster",
-  "Blade of The Ruined King"
+  "Immortal Shieldbow"
  ],
  "sixth": [
-  "Death's Dance",
   "Endless Hunger",
-  "Navori Flickerblade",
-  "Bloodthirster"
+  "Death's Dance",
+  "Bloodthirster",
+  "Navori Flickerblade"
  ],
  "pool": [
   "Long Sword",
@@ -46,6 +46,6 @@
   "Yun Tal Wildarrows",
   "Navori Flickerblade",
   "Endless Hunger",
-  "Blade of The Ruined King"
+  "Immortal Shieldbow"
  ]
 }

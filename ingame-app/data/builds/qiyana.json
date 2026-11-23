@@ -26,13 +26,13 @@
   "Death's Dance",
   "Manamune",
   "Serylda's Grudge",
-  "Voltaic Cyclosword"
+  "Profane Hydra"
  ],
  "sixth": [
   "Death's Dance",
   "Manamune",
-  "Serylda's Grudge",
-  "Maw of Malmortius"
+  "Maw of Malmortius",
+  "Serylda's Grudge"
  ],
  "pool": [
   "Tear of the Goddess",
@@ -45,6 +45,7 @@
   "Manamune",
   "Voltaic Cyclosword",
   "Serylda's Grudge",
+  "Profane Hydra",
   "Maw of Malmortius"
  ]
 }

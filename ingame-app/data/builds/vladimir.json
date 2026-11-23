@@ -7,7 +7,8 @@
   "Ghost"
  ],
  "starting": [
-  "Haunting Guise"
+  "Amplifying Tome",
+  "Guardian's Orb"
  ],
  "core": [
   "Riftmaker",
@@ -22,8 +23,8 @@
   "Zhonya's Hourglass"
  ],
  "fifth": [
-  "Stormsurge",
   "Warmog's Armor",
+  "Stormsurge",
   "Void Staff",
   "Cosmic Drive"
  ],
@@ -31,10 +32,11 @@
   "Stormsurge",
   "Warmog's Armor",
   "Void Staff",
-  "Spirit Visage"
+  "Cosmic Drive"
  ],
  "pool": [
-  "Haunting Guise",
+  "Amplifying Tome",
+  "Guardian's Orb",
   "Riftmaker",
   "Sorcerer's Shoes",
   "Rabadon's Deathcap",
@@ -43,7 +45,6 @@
   "Stormsurge",
   "Warmog's Armor",
   "Zhonya's Hourglass",
-  "Cosmic Drive",
-  "Spirit Visage"
+  "Cosmic Drive"
  ]
 }

@@ -18,19 +18,19 @@
  ],
  "fourth": [
   "Jak'Sho, The Protean",
-  "Winter's Approach",
   "Frozen Heart",
-  "Randuin's Omen"
- ],
- "fifth": [
-  "Jak'Sho, The Protean",
-  "Force of Nature",
   "Winter's Approach",
   "Spirit Visage"
  ],
- "sixth": [
-  "Knight's Vow",
+ "fifth": [
+  "Jak'Sho, The Protean",
+  "Spirit Visage",
   "Force of Nature",
+  "Winter's Approach"
+ ],
+ "sixth": [
+  "Force of Nature",
+  "Knight's Vow",
   "Jak'Sho, The Protean",
   "Frozen Heart"
  ],
@@ -42,11 +42,10 @@
   "Unending Despair",
   "Warmog's Armor",
   "Jak'Sho, The Protean",
-  "Winter's Approach",
   "Frozen Heart",
-  "Randuin's Omen",
-  "Force of Nature",
+  "Winter's Approach",
   "Spirit Visage",
+  "Force of Nature",
   "Knight's Vow"
  ]
 }

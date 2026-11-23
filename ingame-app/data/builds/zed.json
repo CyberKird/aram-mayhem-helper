@@ -19,20 +19,20 @@
  "fourth": [
   "Death's Dance",
   "Infinity Edge",
-  "Voltaic Cyclosword",
-  "Serylda's Grudge"
+  "Serylda's Grudge",
+  "Voltaic Cyclosword"
  ],
  "fifth": [
   "Death's Dance",
   "Infinity Edge",
-  "Voltaic Cyclosword",
-  "Axiom Arc"
+  "Axiom Arc",
+  "Voltaic Cyclosword"
  ],
  "sixth": [
   "Death's Dance",
-  "Maw of Malmortius",
+  "Axiom Arc",
   "Infinity Edge",
-  "Axiom Arc"
+  "Maw of Malmortius"
  ],
  "pool": [
   "Long Sword",
@@ -43,8 +43,8 @@
   "Lord Dominik's Regards",
   "Death's Dance",
   "Infinity Edge",
-  "Voltaic Cyclosword",
   "Serylda's Grudge",
+  "Voltaic Cyclosword",
   "Axiom Arc",
   "Maw of Malmortius"
  ]

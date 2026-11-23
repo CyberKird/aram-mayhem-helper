@@ -8,8 +8,7 @@
  ],
  "starting": [
   "Long Sword",
-  "Pickaxe",
-  "Refillable Potion"
+  "Guardian's Blade"
  ],
  "core": [
   "The Collector",
@@ -25,9 +24,9 @@
  ],
  "fifth": [
   "Endless Hunger",
+  "Hubris",
   "Axiom Arc",
-  "Phantom Dancer",
-  "Bloodthirster"
+  "Phantom Dancer"
  ],
  "sixth": [
   "Endless Hunger",
@@ -37,8 +36,7 @@
  ],
  "pool": [
   "Long Sword",
-  "Pickaxe",
-  "Refillable Potion",
+  "Guardian's Blade",
   "The Collector",
   "Berserker's Greaves",
   "Infinity Edge",
@@ -48,8 +46,8 @@
   "Hexoptics C44",
   "Yun Tal Wildarrows",
   "Endless Hunger",
-  "Phantom Dancer",
   "Hubris",
+  "Phantom Dancer",
   "Voltaic Cyclosword"
  ]
 }

@@ -18,15 +18,15 @@
  ],
  "fourth": [
   "Overlord's Bloodmail",
-  "Lord Dominik's Regards",
   "Spear of Shojin",
-  "Sundered Sky"
+  "Lord Dominik's Regards",
+  "Trinity Force"
  ],
  "fifth": [
   "Lord Dominik's Regards",
   "Overlord's Bloodmail",
   "Spear of Shojin",
-  "Spirit Visage"
+  "Ravenous Hydra"
  ],
  "sixth": [
   "Overlord's Bloodmail",
@@ -42,9 +42,10 @@
   "Death's Dance",
   "Endless Hunger",
   "Overlord's Bloodmail",
-  "Lord Dominik's Regards",
   "Spear of Shojin",
-  "Sundered Sky",
+  "Lord Dominik's Regards",
+  "Trinity Force",
+  "Ravenous Hydra",
   "Spirit Visage"
  ]
 }

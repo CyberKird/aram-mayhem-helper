@@ -20,17 +20,17 @@
   "Spirit Visage",
   "Void Staff",
   "Jak'Sho, The Protean",
-  "Unending Despair"
+  "Rabadon's Deathcap"
  ],
  "fifth": [
   "Spirit Visage",
-  "Jak'Sho, The Protean",
+  "Void Staff",
   "Rabadon's Deathcap",
-  "Void Staff"
+  "Jak'Sho, The Protean"
  ],
  "sixth": [
-  "Rabadon's Deathcap",
   "Spirit Visage",
+  "Rabadon's Deathcap",
   "Void Staff",
   "Jak'Sho, The Protean"
  ],
@@ -44,7 +44,6 @@
   "Spirit Visage",
   "Void Staff",
   "Jak'Sho, The Protean",
-  "Unending Despair",
   "Rabadon's Deathcap"
  ]
 }

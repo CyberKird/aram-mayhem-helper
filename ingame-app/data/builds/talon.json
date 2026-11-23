@@ -7,42 +7,44 @@
   "Mark"
  ],
  "starting": [
-  "The Brutalizer"
+  "Long Sword",
+  "Guardian's Blade"
  ],
  "core": [
-  "The Collector",
-  "Mercury's Treads",
+  "Hubris",
+  "Ionian Boots of Lucidity",
   "Axiom Arc",
-  "Lord Dominik's Regards"
+  "Voltaic Cyclosword"
  ],
  "fourth": [
   "Endless Hunger",
   "Death's Dance",
   "Infinity Edge",
-  "Voltaic Cyclosword"
+  "Lord Dominik's Regards"
  ],
  "fifth": [
   "Endless Hunger",
   "Youmuu's Ghostblade",
-  "Death's Dance",
-  "Infinity Edge"
+  "Lord Dominik's Regards",
+  "Death's Dance"
  ],
  "sixth": [
   "Youmuu's Ghostblade",
   "Death's Dance",
-  "Endless Hunger",
-  "Infinity Edge"
+  "Lord Dominik's Regards",
+  "Endless Hunger"
  ],
  "pool": [
-  "The Brutalizer",
-  "The Collector",
-  "Mercury's Treads",
+  "Long Sword",
+  "Guardian's Blade",
+  "Hubris",
+  "Ionian Boots of Lucidity",
   "Axiom Arc",
-  "Lord Dominik's Regards",
+  "Voltaic Cyclosword",
   "Endless Hunger",
   "Death's Dance",
   "Infinity Edge",
-  "Voltaic Cyclosword",
+  "Lord Dominik's Regards",
   "Youmuu's Ghostblade"
  ]
 }

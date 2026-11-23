@@ -23,16 +23,16 @@
   "Infinity Edge"
  ],
  "fifth": [
-  "Spear of Shojin",
   "Lord Dominik's Regards",
+  "Spear of Shojin",
   "Serylda's Grudge",
   "Archangel's Staff"
  ],
  "sixth": [
-  "Axiom Arc",
   "Archangel's Staff",
-  "Horizon Focus",
-  "Serylda's Grudge"
+  "Axiom Arc",
+  "Serylda's Grudge",
+  "Lord Dominik's Regards"
  ],
  "pool": [
   "Tear of the Goddess",
@@ -46,7 +46,6 @@
   "Archangel's Staff",
   "Infinity Edge",
   "Serylda's Grudge",
-  "Axiom Arc",
-  "Horizon Focus"
+  "Axiom Arc"
  ]
 }
