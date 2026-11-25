@@ -17,22 +17,22 @@
   "Archangel's Staff"
  ],
  "fourth": [
+  "Rabadon's Deathcap",
   "Winter's Approach",
   "Manamune",
-  "Rabadon's Deathcap",
-  "Frozen Heart"
+  "Shadowflame"
  ],
  "fifth": [
   "Winter's Approach",
   "Manamune",
-  "Riftmaker",
-  "Rabadon's Deathcap"
+  "Rabadon's Deathcap",
+  "Riftmaker"
  ],
  "sixth": [
   "Winter's Approach",
-  "Riftmaker",
   "Shadowflame",
-  "Void Staff"
+  "Riftmaker",
+  "Lich Bane"
  ],
  "pool": [
   "Blasting Wand",
@@ -41,12 +41,11 @@
   "Sorcerer's Shoes",
   "Malignance",
   "Archangel's Staff",
+  "Rabadon's Deathcap",
   "Winter's Approach",
   "Manamune",
-  "Rabadon's Deathcap",
-  "Frozen Heart",
-  "Riftmaker",
   "Shadowflame",
-  "Void Staff"
+  "Riftmaker",
+  "Lich Bane"
  ]
 }

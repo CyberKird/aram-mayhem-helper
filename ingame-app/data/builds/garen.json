@@ -19,20 +19,20 @@
  "fourth": [
   "Overlord's Bloodmail",
   "Lord Dominik's Regards",
-  "Death's Dance",
-  "The Collector"
+  "Jak'Sho, The Protean",
+  "Death's Dance"
  ],
  "fifth": [
   "Endless Hunger",
   "Lord Dominik's Regards",
   "Overlord's Bloodmail",
-  "The Collector"
+  "Death's Dance"
  ],
  "sixth": [
   "Endless Hunger",
   "Death's Dance",
-  "Lord Dominik's Regards",
-  "Overlord's Bloodmail"
+  "Overlord's Bloodmail",
+  "Lord Dominik's Regards"
  ],
  "pool": [
   "Long Sword",
@@ -43,8 +43,8 @@
   "Infinity Edge",
   "Overlord's Bloodmail",
   "Lord Dominik's Regards",
+  "Jak'Sho, The Protean",
   "Death's Dance",
-  "The Collector",
   "Endless Hunger"
  ]
 }

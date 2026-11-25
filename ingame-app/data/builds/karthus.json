@@ -17,8 +17,8 @@
   "Shadowflame"
  ],
  "fourth": [
-  "Stormsurge",
   "Rabadon's Deathcap",
+  "Stormsurge",
   "Void Staff",
   "Malignance"
  ],
@@ -30,9 +30,9 @@
  ],
  "sixth": [
   "Stormsurge",
+  "Luden's Echo",
   "Malignance",
-  "Void Staff",
-  "Horizon Focus"
+  "Void Staff"
  ],
  "pool": [
   "Amplifying Tome",
@@ -41,10 +41,10 @@
   "Sorcerer's Shoes",
   "Liandry's Torment",
   "Shadowflame",
-  "Stormsurge",
   "Rabadon's Deathcap",
+  "Stormsurge",
   "Void Staff",
   "Malignance",
-  "Horizon Focus"
+  "Luden's Echo"
  ]
 }

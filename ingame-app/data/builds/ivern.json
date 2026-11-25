@@ -25,14 +25,14 @@
  "fifth": [
   "Dawncore",
   "Mikael's Blessing",
-  "Redemption",
-  "Ardent Censer"
+  "Ardent Censer",
+  "Redemption"
  ],
  "sixth": [
   "Dawncore",
-  "Sword of Blossoming Dawn",
   "Redemption",
-  "Shurelya's Battlesong"
+  "Ardent Censer",
+  "Mikael's Blessing"
  ],
  "pool": [
   "Tear of the Goddess",
@@ -45,7 +45,6 @@
   "Ardent Censer",
   "Sword of Blossoming Dawn",
   "Redemption",
-  "Mikael's Blessing",
-  "Shurelya's Battlesong"
+  "Mikael's Blessing"
  ]
 }

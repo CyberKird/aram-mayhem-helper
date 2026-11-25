@@ -8,44 +8,44 @@
  ],
  "starting": [
   "Tear of the Goddess",
-  "Guardian's Blade"
+  "Serrated Dirk"
  ],
  "core": [
   "Hubris",
   "Ionian Boots of Lucidity",
   "Manamune",
-  "Serylda's Grudge"
+  "Endless Hunger"
  ],
  "fourth": [
   "Terminus",
   "Lord Dominik's Regards",
   "Edge of Night",
-  "Infinity Edge"
+  "Serylda's Grudge"
  ],
  "fifth": [
+  "Voltaic Cyclosword",
   "Terminus",
-  "Lord Dominik's Regards",
   "Edge of Night",
-  "Infinity Edge"
+  "Serylda's Grudge"
  ],
  "sixth": [
-  "Endless Hunger",
   "Edge of Night",
-  "Youmuu's Ghostblade",
-  "Terminus"
+  "Terminus",
+  "Voltaic Cyclosword",
+  "Youmuu's Ghostblade"
  ],
  "pool": [
   "Tear of the Goddess",
-  "Guardian's Blade",
+  "Serrated Dirk",
   "Hubris",
   "Ionian Boots of Lucidity",
   "Manamune",
-  "Serylda's Grudge",
+  "Endless Hunger",
   "Terminus",
   "Lord Dominik's Regards",
   "Edge of Night",
-  "Infinity Edge",
-  "Endless Hunger",
+  "Serylda's Grudge",
+  "Voltaic Cyclosword",
   "Youmuu's Ghostblade"
  ]
 }

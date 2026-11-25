@@ -13,19 +13,19 @@
  "core": [
   "Heartsteel",
   "Plated Steelcaps",
-  "Titanic Hydra",
-  "Overlord's Bloodmail"
+  "Overlord's Bloodmail",
+  "Titanic Hydra"
  ],
  "fourth": [
   "Death's Dance",
   "Trinity Force",
-  "Spirit Visage",
-  "Warmog's Armor"
+  "Warmog's Armor",
+  "Spirit Visage"
  ],
  "fifth": [
-  "Endless Hunger",
   "Death's Dance",
   "Trinity Force",
+  "Liandry's Torment",
   "Spirit Visage"
  ],
  "sixth": [
@@ -39,12 +39,13 @@
   "Ruby Crystal",
   "Heartsteel",
   "Plated Steelcaps",
-  "Titanic Hydra",
   "Overlord's Bloodmail",
+  "Titanic Hydra",
   "Death's Dance",
   "Trinity Force",
-  "Spirit Visage",
   "Warmog's Armor",
+  "Spirit Visage",
+  "Liandry's Torment",
   "Endless Hunger",
   "Jak'Sho, The Protean"
  ]

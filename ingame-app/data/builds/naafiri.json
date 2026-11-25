@@ -8,43 +8,44 @@
  ],
  "starting": [
   "Long Sword",
-  "Serrated Dirk"
+  "Caulfield's Warhammer"
  ],
  "core": [
   "Hubris",
   "Mercury's Treads",
-  "Endless Hunger",
-  "Lord Dominik's Regards"
+  "Eclipse",
+  "Endless Hunger"
  ],
  "fourth": [
   "Axiom Arc",
-  "Serylda's Grudge",
   "Death's Dance",
+  "Serylda's Grudge",
   "Voltaic Cyclosword"
  ],
  "fifth": [
   "Axiom Arc",
   "Serylda's Grudge",
-  "Voltaic Cyclosword",
-  "Death's Dance"
+  "Death's Dance",
+  "Lord Dominik's Regards"
  ],
  "sixth": [
-  "Death's Dance",
   "Axiom Arc",
+  "Death's Dance",
   "Serylda's Grudge",
   "Infinity Edge"
  ],
  "pool": [
   "Long Sword",
-  "Serrated Dirk",
+  "Caulfield's Warhammer",
   "Hubris",
   "Mercury's Treads",
+  "Eclipse",
   "Endless Hunger",
-  "Lord Dominik's Regards",
   "Axiom Arc",
-  "Serylda's Grudge",
   "Death's Dance",
+  "Serylda's Grudge",
   "Voltaic Cyclosword",
+  "Lord Dominik's Regards",
   "Infinity Edge"
  ]
 }

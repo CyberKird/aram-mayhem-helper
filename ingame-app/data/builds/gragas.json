@@ -17,22 +17,22 @@
   "Rabadon's Deathcap"
  ],
  "fourth": [
-  "Lich Bane",
+  "Unending Despair",
   "Void Staff",
   "Stormsurge",
-  "Unending Despair"
+  "Lich Bane"
  ],
  "fifth": [
-  "Stormsurge",
   "Lich Bane",
+  "Stormsurge",
   "Void Staff",
   "Cryptbloom"
  ],
  "sixth": [
-  "Void Staff",
+  "Malignance",
   "Lich Bane",
-  "Stormsurge",
-  "Malignance"
+  "Void Staff",
+  "Stormsurge"
  ],
  "pool": [
   "Amplifying Tome",
@@ -41,10 +41,10 @@
   "Sorcerer's Shoes",
   "Shadowflame",
   "Rabadon's Deathcap",
-  "Lich Bane",
+  "Unending Despair",
   "Void Staff",
   "Stormsurge",
-  "Unending Despair",
+  "Lich Bane",
   "Cryptbloom",
   "Malignance"
  ]

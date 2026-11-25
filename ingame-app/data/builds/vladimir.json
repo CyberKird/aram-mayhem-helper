@@ -4,47 +4,48 @@
  "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
-  "Ghost"
+  "Mark"
  ],
  "starting": [
-  "Amplifying Tome",
-  "Guardian's Orb"
+  "Giant's Belt",
+  "Ruby Crystal"
  ],
  "core": [
-  "Riftmaker",
-  "Sorcerer's Shoes",
-  "Rabadon's Deathcap",
-  "Shadowflame"
+  "Heartsteel",
+  "Mercury's Treads",
+  "Warmog's Armor",
+  "Riftmaker"
  ],
  "fourth": [
   "Void Staff",
-  "Stormsurge",
-  "Warmog's Armor",
-  "Zhonya's Hourglass"
+  "Rabadon's Deathcap",
+  "Shadowflame",
+  "Stormsurge"
  ],
  "fifth": [
-  "Warmog's Armor",
-  "Stormsurge",
   "Void Staff",
-  "Cosmic Drive"
+  "Stormsurge",
+  "Rabadon's Deathcap",
+  "Shadowflame"
  ],
  "sixth": [
   "Stormsurge",
-  "Warmog's Armor",
+  "Spirit Visage",
   "Void Staff",
   "Cosmic Drive"
  ],
  "pool": [
-  "Amplifying Tome",
-  "Guardian's Orb",
+  "Giant's Belt",
+  "Ruby Crystal",
+  "Heartsteel",
+  "Mercury's Treads",
+  "Warmog's Armor",
   "Riftmaker",
-  "Sorcerer's Shoes",
+  "Void Staff",
   "Rabadon's Deathcap",
   "Shadowflame",
-  "Void Staff",
   "Stormsurge",
-  "Warmog's Armor",
-  "Zhonya's Hourglass",
+  "Spirit Visage",
   "Cosmic Drive"
  ]
 }

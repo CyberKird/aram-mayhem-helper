@@ -18,21 +18,21 @@
  ],
  "fourth": [
   "Overlord's Bloodmail",
+  "Trinity Force",
   "Spear of Shojin",
-  "Lord Dominik's Regards",
-  "Trinity Force"
+  "Sundered Sky"
  ],
  "fifth": [
   "Lord Dominik's Regards",
   "Overlord's Bloodmail",
   "Spear of Shojin",
-  "Ravenous Hydra"
+  "Infinity Edge"
  ],
  "sixth": [
   "Overlord's Bloodmail",
-  "Lord Dominik's Regards",
-  "Spirit Visage",
-  "Spear of Shojin"
+  "Maw of Malmortius",
+  "Spear of Shojin",
+  "Spirit Visage"
  ],
  "pool": [
   "Long Sword",
@@ -42,10 +42,12 @@
   "Death's Dance",
   "Endless Hunger",
   "Overlord's Bloodmail",
-  "Spear of Shojin",
-  "Lord Dominik's Regards",
   "Trinity Force",
-  "Ravenous Hydra",
+  "Spear of Shojin",
+  "Sundered Sky",
+  "Lord Dominik's Regards",
+  "Infinity Edge",
+  "Maw of Malmortius",
   "Spirit Visage"
  ]
 }

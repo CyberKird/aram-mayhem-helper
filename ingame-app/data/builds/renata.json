@@ -4,46 +4,47 @@
  "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
-  "Heal"
+  "Ghost"
  ],
  "starting": [
-  "Lost Chapter"
+  "Amplifying Tome",
+  "Bandleglass Mirror"
  ],
  "core": [
-  "Malignance",
+  "Imperial Mandate",
   "Ionian Boots of Lucidity",
-  "Axiom Arc",
-  "Experimental Hexplate"
+  "Whispering Circlet",
+  "Moonstone Renewer"
  ],
  "fourth": [
-  "Dawncore",
+  "Staff of Flowing Water",
   "Ardent Censer",
-  "Rabadon's Deathcap",
-  "Moonstone Renewer"
+  "Dawncore",
+  "Rabadon's Deathcap"
  ],
  "fifth": [
   "Dawncore",
   "Staff of Flowing Water",
   "Ardent Censer",
-  "Moonstone Renewer"
+  "Redemption"
  ],
  "sixth": [
-  "Dawncore",
   "Ardent Censer",
+  "Dawncore",
   "Staff of Flowing Water",
   "Redemption"
  ],
  "pool": [
-  "Lost Chapter",
-  "Malignance",
+  "Amplifying Tome",
+  "Bandleglass Mirror",
+  "Imperial Mandate",
   "Ionian Boots of Lucidity",
-  "Axiom Arc",
-  "Experimental Hexplate",
-  "Dawncore",
-  "Ardent Censer",
-  "Rabadon's Deathcap",
+  "Whispering Circlet",
   "Moonstone Renewer",
   "Staff of Flowing Water",
+  "Ardent Censer",
+  "Dawncore",
+  "Rabadon's Deathcap",
   "Redemption"
  ]
 }

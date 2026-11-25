@@ -7,8 +7,8 @@
   "Ghost"
  ],
  "starting": [
-  "Dagger",
-  "Vampiric Scepter"
+  "Pickaxe",
+  "Dagger"
  ],
  "core": [
   "Blade of The Ruined King",
@@ -18,34 +18,35 @@
  ],
  "fourth": [
   "Lord Dominik's Regards",
-  "Infinity Edge",
   "Fiendhunter Bolts",
+  "Infinity Edge",
   "Kraken Slayer"
  ],
  "fifth": [
   "Lord Dominik's Regards",
   "Fiendhunter Bolts",
   "Bloodthirster",
-  "Kraken Slayer"
+  "Infinity Edge"
  ],
  "sixth": [
-  "Lord Dominik's Regards",
   "Bloodthirster",
-  "Fiendhunter Bolts",
-  "Experimental Hexplate"
+  "Lord Dominik's Regards",
+  "Experimental Hexplate",
+  "Kaenic Rookern"
  ],
  "pool": [
+  "Pickaxe",
   "Dagger",
-  "Vampiric Scepter",
   "Blade of The Ruined King",
   "Berserker's Greaves",
   "Guinsoo's Rageblade",
   "Terminus",
   "Lord Dominik's Regards",
-  "Infinity Edge",
   "Fiendhunter Bolts",
+  "Infinity Edge",
   "Kraken Slayer",
   "Bloodthirster",
-  "Experimental Hexplate"
+  "Experimental Hexplate",
+  "Kaenic Rookern"
  ]
 }

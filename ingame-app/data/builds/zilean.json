@@ -7,46 +7,50 @@
   "Clarity"
  ],
  "starting": [
-  "Ruby Crystal",
-  "Ruby Crystal",
+  "Sapphire Crystal",
+  "Amplifying Tome",
+  "Glowing Mote",
   "Tear of the Goddess"
  ],
  "core": [
-  "Rod of Ages",
+  "Luden's Echo",
   "Ionian Boots of Lucidity",
-  "Archangel's Staff",
-  "Cosmic Drive"
+  "Rabadon's Deathcap",
+  "Archangel's Staff"
  ],
  "fourth": [
-  "Winter's Approach",
   "Blackfire Torch",
-  "Luden's Echo",
-  "Malignance"
+  "Cryptbloom",
+  "Cosmic Drive",
+  "Horizon Focus"
  ],
  "fifth": [
   "Winter's Approach",
-  "Luden's Echo",
+  "Rod of Ages",
   "Blackfire Torch",
   "Malignance"
  ],
  "sixth": [
   "Winter's Approach",
-  "Blackfire Torch",
-  "Banshee's Veil",
+  "Rod of Ages",
+  "Cosmic Drive",
   "Cryptbloom"
  ],
  "pool": [
-  "Ruby Crystal",
+  "Sapphire Crystal",
+  "Amplifying Tome",
+  "Glowing Mote",
   "Tear of the Goddess",
-  "Rod of Ages",
-  "Ionian Boots of Lucidity",
-  "Archangel's Staff",
-  "Cosmic Drive",
-  "Winter's Approach",
-  "Blackfire Torch",
   "Luden's Echo",
-  "Malignance",
-  "Banshee's Veil",
-  "Cryptbloom"
+  "Ionian Boots of Lucidity",
+  "Rabadon's Deathcap",
+  "Archangel's Staff",
+  "Blackfire Torch",
+  "Cryptbloom",
+  "Cosmic Drive",
+  "Horizon Focus",
+  "Winter's Approach",
+  "Rod of Ages",
+  "Malignance"
  ]
 }

@@ -4,7 +4,7 @@
  "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
-  "Mark"
+  "Ghost"
  ],
  "starting": [
   "Lost Chapter"
@@ -12,14 +12,14 @@
  "core": [
   "Blackfire Torch",
   "Ionian Boots of Lucidity",
-  "Liandry's Torment",
-  "Imperial Mandate"
+  "Imperial Mandate",
+  "Liandry's Torment"
  ],
  "fourth": [
   "Rabadon's Deathcap",
   "Shadowflame",
   "Void Staff",
-  "Lord Dominik's Regards"
+  "Essence Reaver"
  ],
  "fifth": [
   "Void Staff",
@@ -37,12 +37,12 @@
   "Lost Chapter",
   "Blackfire Torch",
   "Ionian Boots of Lucidity",
-  "Liandry's Torment",
   "Imperial Mandate",
+  "Liandry's Torment",
   "Rabadon's Deathcap",
   "Shadowflame",
   "Void Staff",
-  "Lord Dominik's Regards",
+  "Essence Reaver",
   "Cryptbloom",
   "Endless Hunger",
   "Youmuu's Ghostblade"

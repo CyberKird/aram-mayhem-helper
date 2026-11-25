@@ -7,7 +7,8 @@
   "Ghost"
  ],
  "starting": [
-  "Lost Chapter"
+  "Fated Ashes",
+  "Tear of the Goddess"
  ],
  "core": [
   "Blackfire Torch",
@@ -16,34 +17,34 @@
   "Liandry's Torment"
  ],
  "fourth": [
-  "Archangel's Staff",
   "Rabadon's Deathcap",
-  "Stormsurge",
+  "Archangel's Staff",
+  "Shadowflame",
   "Cryptbloom"
  ],
  "fifth": [
   "Archangel's Staff",
-  "Stormsurge",
   "Rabadon's Deathcap",
+  "Cryptbloom",
   "Shadowflame"
  ],
  "sixth": [
-  "Archangel's Staff",
   "Cryptbloom",
   "Rabadon's Deathcap",
+  "Archangel's Staff",
   "Void Staff"
  ],
  "pool": [
-  "Lost Chapter",
+  "Fated Ashes",
+  "Tear of the Goddess",
   "Blackfire Torch",
   "Sorcerer's Shoes",
   "Rylai's Crystal Scepter",
   "Liandry's Torment",
-  "Archangel's Staff",
   "Rabadon's Deathcap",
-  "Stormsurge",
-  "Cryptbloom",
+  "Archangel's Staff",
   "Shadowflame",
+  "Cryptbloom",
   "Void Staff"
  ]
 }

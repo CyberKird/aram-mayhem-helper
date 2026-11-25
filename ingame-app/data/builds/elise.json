@@ -23,16 +23,16 @@
   "Zhonya's Hourglass"
  ],
  "fifth": [
-  "Lich Bane",
   "Void Staff",
+  "Lich Bane",
   "Stormsurge",
   "Zhonya's Hourglass"
  ],
  "sixth": [
+  "Lich Bane",
+  "Archangel's Staff",
   "Void Staff",
-  "Stormsurge",
-  "Zhonya's Hourglass",
-  "Lich Bane"
+  "Zhonya's Hourglass"
  ],
  "pool": [
   "Refillable Potion",
@@ -44,6 +44,7 @@
   "Lich Bane",
   "Stormsurge",
   "Void Staff",
-  "Zhonya's Hourglass"
+  "Zhonya's Hourglass",
+  "Archangel's Staff"
  ]
 }

@@ -7,6 +7,7 @@
   "Ghost"
  ],
  "starting": [
+  "Refillable Potion",
   "Lost Chapter"
  ],
  "core": [
@@ -31,9 +32,10 @@
   "Staff of Flowing Water",
   "Dawncore",
   "Redemption",
-  "Whispering Circlet"
+  "Mikael's Blessing"
  ],
  "pool": [
+  "Refillable Potion",
   "Lost Chapter",
   "Malignance",
   "Ionian Boots of Lucidity",
@@ -42,6 +44,7 @@
   "Staff of Flowing Water",
   "Dawncore",
   "Whispering Circlet",
-  "Redemption"
+  "Redemption",
+  "Mikael's Blessing"
  ]
 }

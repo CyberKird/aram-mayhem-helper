@@ -7,8 +7,7 @@
   "Ghost"
  ],
  "starting": [
-  "Ruby Crystal",
-  "Ruby Crystal",
+  "Blasting Wand",
   "Tear of the Goddess"
  ],
  "core": [
@@ -19,9 +18,9 @@
  ],
  "fourth": [
   "Shadowflame",
-  "Void Staff",
   "Stormsurge",
-  "Warmog's Armor"
+  "Void Staff",
+  "Luden's Echo"
  ],
  "fifth": [
   "Shadowflame",
@@ -30,22 +29,22 @@
   "Void Staff"
  ],
  "sixth": [
-  "Banshee's Veil",
   "Shadowflame",
   "Stormsurge",
-  "Void Staff"
+  "Void Staff",
+  "Banshee's Veil"
  ],
  "pool": [
-  "Ruby Crystal",
+  "Blasting Wand",
   "Tear of the Goddess",
   "Rod of Ages",
   "Sorcerer's Shoes",
   "Rabadon's Deathcap",
   "Archangel's Staff",
   "Shadowflame",
-  "Void Staff",
   "Stormsurge",
-  "Warmog's Armor",
+  "Void Staff",
+  "Luden's Echo",
   "Banshee's Veil"
  ]
 }

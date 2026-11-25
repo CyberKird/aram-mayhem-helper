@@ -7,41 +7,42 @@
   "Mark"
  ],
  "starting": [
-  "Tiamat"
+  "The Brutalizer"
  ],
  "core": [
   "Axiom Arc",
-  "Ionian Boots of Lucidity",
-  "The Collector",
-  "Lord Dominik's Regards"
+  "Mercury's Treads",
+  "Experimental Hexplate",
+  "Stridebreaker"
  ],
  "fourth": [
   "Endless Hunger",
-  "Voltaic Cyclosword",
   "Death's Dance",
-  "Infinity Edge"
+  "Voltaic Cyclosword",
+  "Lord Dominik's Regards"
  ],
  "fifth": [
   "Endless Hunger",
+  "Lord Dominik's Regards",
   "Voltaic Cyclosword",
-  "Death's Dance",
-  "Infinity Edge"
+  "Death's Dance"
  ],
  "sixth": [
   "Endless Hunger",
+  "Lord Dominik's Regards",
   "Death's Dance",
-  "Voltaic Cyclosword",
   "Infinity Edge"
  ],
  "pool": [
-  "Tiamat",
+  "The Brutalizer",
   "Axiom Arc",
-  "Ionian Boots of Lucidity",
-  "The Collector",
-  "Lord Dominik's Regards",
+  "Mercury's Treads",
+  "Experimental Hexplate",
+  "Stridebreaker",
   "Endless Hunger",
-  "Voltaic Cyclosword",
   "Death's Dance",
+  "Voltaic Cyclosword",
+  "Lord Dominik's Regards",
   "Infinity Edge"
  ]
 }

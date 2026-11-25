@@ -19,7 +19,7 @@
   "Terminus",
   "Lord Dominik's Regards",
   "Bloodthirster",
-  "Blade of The Ruined King"
+  "The Collector"
  ],
  "fifth": [
   "Terminus",
@@ -28,10 +28,10 @@
   "Fiendhunter Bolts"
  ],
  "sixth": [
-  "Terminus",
-  "Bloodthirster",
   "Hexoptics C44",
-  "Mercurial Scimitar"
+  "Bloodthirster",
+  "Lord Dominik's Regards",
+  "Terminus"
  ],
  "pool": [
   "B. F. Sword",
@@ -42,9 +42,8 @@
   "Terminus",
   "Lord Dominik's Regards",
   "Bloodthirster",
-  "Blade of The Ruined King",
+  "The Collector",
   "Fiendhunter Bolts",
-  "Hexoptics C44",
-  "Mercurial Scimitar"
+  "Hexoptics C44"
  ]
 }

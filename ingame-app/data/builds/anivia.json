@@ -13,38 +13,40 @@
  "core": [
   "Rod of Ages",
   "Sorcerer's Shoes",
-  "Archangel's Staff",
-  "Malignance"
+  "Liandry's Torment",
+  "Archangel's Staff"
  ],
  "fourth": [
   "Rabadon's Deathcap",
-  "Liandry's Torment",
   "Blackfire Torch",
+  "Malignance",
   "Shadowflame"
  ],
  "fifth": [
   "Bloodletter's Curse",
   "Rabadon's Deathcap",
-  "Shadowflame",
-  "Blackfire Torch"
+  "Zhonya's Hourglass",
+  "Shadowflame"
  ],
  "sixth": [
-  "Bloodletter's Curse",
   "Rabadon's Deathcap",
-  "Liandry's Torment",
-  "Blackfire Torch"
+  "Void Staff",
+  "Zhonya's Hourglass",
+  "Bloodletter's Curse"
  ],
  "pool": [
   "Blasting Wand",
   "Tear of the Goddess",
   "Rod of Ages",
   "Sorcerer's Shoes",
-  "Archangel's Staff",
-  "Malignance",
-  "Rabadon's Deathcap",
   "Liandry's Torment",
+  "Archangel's Staff",
+  "Rabadon's Deathcap",
   "Blackfire Torch",
+  "Malignance",
   "Shadowflame",
-  "Bloodletter's Curse"
+  "Bloodletter's Curse",
+  "Zhonya's Hourglass",
+  "Void Staff"
  ]
 }

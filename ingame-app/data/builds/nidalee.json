@@ -25,12 +25,12 @@
   "Shadowflame",
   "Horizon Focus",
   "Archangel's Staff",
-  "Void Staff"
+  "Lich Bane"
  ],
  "sixth": [
   "Horizon Focus",
-  "Archangel's Staff",
   "Shadowflame",
+  "Banshee's Veil",
   "Void Staff"
  ],
  "pool": [
@@ -43,6 +43,7 @@
   "Archangel's Staff",
   "Void Staff",
   "Lich Bane",
-  "Horizon Focus"
+  "Horizon Focus",
+  "Banshee's Veil"
  ]
 }

@@ -4,49 +4,51 @@
  "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
-  "Mark"
+  "Ghost"
  ],
  "starting": [
-  "Long Sword",
-  "Pickaxe"
+  "Boots",
+  "Health Potion",
+  "Health Potion",
+  "Serrated Dirk"
  ],
  "core": [
-  "The Collector",
+  "Hubris",
   "Berserker's Greaves",
-  "Infinity Edge",
-  "Hubris"
+  "The Collector",
+  "Bloodthirster"
  ],
  "fourth": [
   "Axiom Arc",
+  "Infinity Edge",
   "Lord Dominik's Regards",
-  "Essence Reaver",
-  "Bloodthirster"
+  "Essence Reaver"
  ],
  "fifth": [
   "Endless Hunger",
   "Axiom Arc",
   "Lord Dominik's Regards",
-  "Hexoptics C44"
+  "Essence Reaver"
  ],
  "sixth": [
-  "Endless Hunger",
   "Voltaic Cyclosword",
+  "Endless Hunger",
   "Death's Dance",
   "Axiom Arc"
  ],
  "pool": [
-  "Long Sword",
-  "Pickaxe",
-  "The Collector",
-  "Berserker's Greaves",
-  "Infinity Edge",
+  "Boots",
+  "Health Potion",
+  "Serrated Dirk",
   "Hubris",
+  "Berserker's Greaves",
+  "The Collector",
+  "Bloodthirster",
   "Axiom Arc",
+  "Infinity Edge",
   "Lord Dominik's Regards",
   "Essence Reaver",
-  "Bloodthirster",
   "Endless Hunger",
-  "Hexoptics C44",
   "Voltaic Cyclosword",
   "Death's Dance"
  ]

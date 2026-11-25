@@ -7,46 +7,41 @@
   "Mark"
  ],
  "starting": [
-  "Refillable Potion",
   "Lost Chapter"
  ],
  "core": [
   "Malignance",
-  "Sorcerer's Shoes",
+  "Ionian Boots of Lucidity",
   "Stormsurge",
   "Rabadon's Deathcap"
  ],
  "fourth": [
   "Jak'Sho, The Protean",
+  "Randuin's Omen",
   "Unending Despair",
-  "Warmog's Armor",
-  "Thornmail"
+  "Warmog's Armor"
  ],
  "fifth": [
   "Jak'Sho, The Protean",
-  "Unending Despair",
   "Randuin's Omen",
+  "Unending Despair",
   "Warmog's Armor"
  ],
  "sixth": [
-  "Jak'Sho, The Protean",
-  "Lich Bane",
   "Randuin's Omen",
-  "Banshee's Veil"
+  "Jak'Sho, The Protean",
+  "Unending Despair",
+  "Warmog's Armor"
  ],
  "pool": [
-  "Refillable Potion",
   "Lost Chapter",
   "Malignance",
-  "Sorcerer's Shoes",
+  "Ionian Boots of Lucidity",
   "Stormsurge",
   "Rabadon's Deathcap",
   "Jak'Sho, The Protean",
-  "Unending Despair",
-  "Warmog's Armor",
-  "Thornmail",
   "Randuin's Omen",
-  "Lich Bane",
-  "Banshee's Veil"
+  "Unending Despair",
+  "Warmog's Armor"
  ]
 }

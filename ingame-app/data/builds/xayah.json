@@ -26,13 +26,13 @@
   "Bloodthirster",
   "Navori Flickerblade",
   "Kraken Slayer",
-  "Blade of The Ruined King"
+  "Runaan's Hurricane"
  ],
  "sixth": [
   "Bloodthirster",
-  "Phantom Dancer",
+  "Mercurial Scimitar",
   "Blade of The Ruined King",
-  "Kraken Slayer"
+  "Phantom Dancer"
  ],
  "pool": [
   "Long Sword",
@@ -46,6 +46,8 @@
   "The Collector",
   "Mortal Reminder",
   "Kraken Slayer",
+  "Runaan's Hurricane",
+  "Mercurial Scimitar",
   "Blade of The Ruined King",
   "Phantom Dancer"
  ]

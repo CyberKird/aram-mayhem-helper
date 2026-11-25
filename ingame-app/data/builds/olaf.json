@@ -7,13 +7,12 @@
   "Mark"
  ],
  "starting": [
-  "Dagger",
-  "Tunneler"
+  "Tiamat"
  ],
  "core": [
-  "Experimental Hexplate",
-  "Boots of Swiftness",
   "Stridebreaker",
+  "Mercury's Treads",
+  "Experimental Hexplate",
   "Death's Dance"
  ],
  "fourth": [
@@ -25,21 +24,20 @@
  "fifth": [
   "Endless Hunger",
   "Maw of Malmortius",
-  "Sterak's Gage",
-  "Overlord's Bloodmail"
- ],
- "sixth": [
   "Overlord's Bloodmail",
-  "Endless Hunger",
-  "Sterak's Gage",
   "Spirit Visage"
  ],
+ "sixth": [
+  "Spirit Visage",
+  "Overlord's Bloodmail",
+  "Sterak's Gage",
+  "Endless Hunger"
+ ],
  "pool": [
-  "Dagger",
-  "Tunneler",
-  "Experimental Hexplate",
-  "Boots of Swiftness",
+  "Tiamat",
   "Stridebreaker",
+  "Mercury's Treads",
+  "Experimental Hexplate",
   "Death's Dance",
   "Endless Hunger",
   "Sterak's Gage",

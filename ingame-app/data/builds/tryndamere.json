@@ -7,7 +7,8 @@
   "Mark"
  ],
  "starting": [
-  "Tiamat"
+  "Long Sword",
+  "Pickaxe"
  ],
  "core": [
   "Blade of The Ruined King",
@@ -23,18 +24,19 @@
  ],
  "fifth": [
   "Endless Hunger",
-  "Lord Dominik's Regards",
   "Death's Dance",
+  "Lord Dominik's Regards",
   "Bloodthirster"
  ],
  "sixth": [
   "Endless Hunger",
   "Death's Dance",
   "Lord Dominik's Regards",
-  "Bloodthirster"
+  "Experimental Hexplate"
  ],
  "pool": [
-  "Tiamat",
+  "Long Sword",
+  "Pickaxe",
   "Blade of The Ruined King",
   "Berserker's Greaves",
   "Phantom Dancer",
@@ -45,6 +47,7 @@
   "Navori Flickerblade",
   "Endless Hunger",
   "Death's Dance",
-  "Bloodthirster"
+  "Bloodthirster",
+  "Experimental Hexplate"
  ]
 }

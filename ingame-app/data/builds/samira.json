@@ -7,13 +7,13 @@
   "Mark"
  ],
  "starting": [
-  "Long Sword",
+  "Boots",
   "Serrated Dirk"
  ],
  "core": [
-  "Hubris",
-  "Mercury's Treads",
   "The Collector",
+  "Mercury's Treads",
+  "Hubris",
   "Death's Dance"
  ],
  "fourth": [
@@ -26,26 +26,28 @@
   "Endless Hunger",
   "Lord Dominik's Regards",
   "Bloodthirster",
-  "Immortal Shieldbow"
+  "Mercurial Scimitar"
  ],
  "sixth": [
   "Endless Hunger",
-  "Lord Dominik's Regards",
   "Maw of Malmortius",
-  "Immortal Shieldbow"
+  "Immortal Shieldbow",
+  "Spirit Visage"
  ],
  "pool": [
-  "Long Sword",
+  "Boots",
   "Serrated Dirk",
-  "Hubris",
-  "Mercury's Treads",
   "The Collector",
+  "Mercury's Treads",
+  "Hubris",
   "Death's Dance",
   "Lord Dominik's Regards",
   "Infinity Edge",
   "Bloodthirster",
   "Immortal Shieldbow",
   "Endless Hunger",
-  "Maw of Malmortius"
+  "Mercurial Scimitar",
+  "Maw of Malmortius",
+  "Spirit Visage"
  ]
 }

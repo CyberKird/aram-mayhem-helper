@@ -4,10 +4,10 @@
  "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
-  "Ghost"
+  "Mark"
  ],
  "starting": [
-  "Ruby Crystal",
+  "Boots",
   "Sheen"
  ],
  "core": [
@@ -17,33 +17,34 @@
   "Spirit Visage"
  ],
  "fourth": [
-  "Endless Hunger",
   "Jak'Sho, The Protean",
+  "Endless Hunger",
   "Death's Dance",
-  "Lord Dominik's Regards"
+  "Unending Despair"
  ],
  "fifth": [
-  "Endless Hunger",
   "Lord Dominik's Regards",
+  "Endless Hunger",
   "Jak'Sho, The Protean",
-  "Death's Dance"
+  "Unending Despair"
  ],
  "sixth": [
   "Endless Hunger",
   "Death's Dance",
   "Jak'Sho, The Protean",
-  "Lord Dominik's Regards"
+  "Unending Despair"
  ],
  "pool": [
-  "Ruby Crystal",
+  "Boots",
   "Sheen",
   "Trinity Force",
   "Ionian Boots of Lucidity",
   "Frozen Heart",
   "Spirit Visage",
-  "Endless Hunger",
   "Jak'Sho, The Protean",
+  "Endless Hunger",
   "Death's Dance",
+  "Unending Despair",
   "Lord Dominik's Regards"
  ]
 }

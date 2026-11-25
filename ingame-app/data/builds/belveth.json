@@ -7,8 +7,8 @@
   "Mark"
  ],
  "starting": [
-  "Long Sword",
-  "Recurve Bow"
+  "Dagger",
+  "Vampiric Scepter"
  ],
  "core": [
   "Blade of The Ruined King",
@@ -20,23 +20,23 @@
   "Lord Dominik's Regards",
   "Infinity Edge",
   "Endless Hunger",
-  "Guinsoo's Rageblade"
+  "Terminus"
  ],
  "fifth": [
   "Infinity Edge",
-  "Lord Dominik's Regards",
   "Endless Hunger",
+  "Lord Dominik's Regards",
   "Guinsoo's Rageblade"
  ],
  "sixth": [
-  "Endless Hunger",
   "Guinsoo's Rageblade",
+  "Endless Hunger",
   "Terminus",
   "Infinity Edge"
  ],
  "pool": [
-  "Long Sword",
-  "Recurve Bow",
+  "Dagger",
+  "Vampiric Scepter",
   "Blade of The Ruined King",
   "Mercury's Treads",
   "Kraken Slayer",
@@ -44,7 +44,7 @@
   "Lord Dominik's Regards",
   "Infinity Edge",
   "Endless Hunger",
-  "Guinsoo's Rageblade",
-  "Terminus"
+  "Terminus",
+  "Guinsoo's Rageblade"
  ]
 }

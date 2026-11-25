@@ -8,7 +8,7 @@
  ],
  "starting": [
   "Long Sword",
-  "Guardian's Blade"
+  "Serrated Dirk"
  ],
  "core": [
   "Hubris",
@@ -20,23 +20,23 @@
   "Lord Dominik's Regards",
   "Infinity Edge",
   "Axiom Arc",
-  "Black Cleaver"
+  "The Collector"
  ],
  "fifth": [
   "Lord Dominik's Regards",
   "Axiom Arc",
-  "Infinity Edge",
-  "Maw of Malmortius"
+  "Maw of Malmortius",
+  "Infinity Edge"
  ],
  "sixth": [
   "Lord Dominik's Regards",
   "Voltaic Cyclosword",
-  "Maw of Malmortius",
-  "Infinity Edge"
+  "Infinity Edge",
+  "Axiom Arc"
  ],
  "pool": [
   "Long Sword",
-  "Guardian's Blade",
+  "Serrated Dirk",
   "Hubris",
   "Mercury's Treads",
   "Endless Hunger",
@@ -44,7 +44,7 @@
   "Lord Dominik's Regards",
   "Infinity Edge",
   "Axiom Arc",
-  "Black Cleaver",
+  "The Collector",
   "Maw of Malmortius",
   "Voltaic Cyclosword"
  ]

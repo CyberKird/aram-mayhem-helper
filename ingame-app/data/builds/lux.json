@@ -7,10 +7,8 @@
   "Ghost"
  ],
  "starting": [
-  "Sapphire Crystal",
-  "Amplifying Tome",
-  "Glowing Mote",
-  "Tear of the Goddess"
+  "Refillable Potion",
+  "Lost Chapter"
  ],
  "core": [
   "Luden's Echo",
@@ -21,35 +19,33 @@
  "fourth": [
   "Archangel's Staff",
   "Stormsurge",
-  "Malignance",
+  "Horizon Focus",
   "Void Staff"
  ],
  "fifth": [
   "Stormsurge",
   "Archangel's Staff",
   "Horizon Focus",
-  "Void Staff"
+  "Cryptbloom"
  ],
  "sixth": [
-  "Banshee's Veil",
   "Stormsurge",
-  "Horizon Focus",
-  "Void Staff"
+  "Banshee's Veil",
+  "Cryptbloom",
+  "Horizon Focus"
  ],
  "pool": [
-  "Sapphire Crystal",
-  "Amplifying Tome",
-  "Glowing Mote",
-  "Tear of the Goddess",
+  "Refillable Potion",
+  "Lost Chapter",
   "Luden's Echo",
   "Sorcerer's Shoes",
   "Rabadon's Deathcap",
   "Shadowflame",
   "Archangel's Staff",
   "Stormsurge",
-  "Malignance",
-  "Void Staff",
   "Horizon Focus",
+  "Void Staff",
+  "Cryptbloom",
   "Banshee's Veil"
  ]
 }

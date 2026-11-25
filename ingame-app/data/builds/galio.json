@@ -13,37 +13,38 @@
  "core": [
   "Heartsteel",
   "Mercury's Treads",
-  "Warmog's Armor",
-  "Riftmaker"
+  "Unending Despair",
+  "Warmog's Armor"
  ],
  "fourth": [
+  "Riftmaker",
   "Spirit Visage",
-  "Void Staff",
-  "Jak'Sho, The Protean",
-  "Rabadon's Deathcap"
+  "Rabadon's Deathcap",
+  "Jak'Sho, The Protean"
  ],
  "fifth": [
-  "Spirit Visage",
+  "Riftmaker",
+  "Jak'Sho, The Protean",
   "Void Staff",
-  "Rabadon's Deathcap",
-  "Jak'Sho, The Protean"
+  "Spirit Visage"
  ],
  "sixth": [
+  "Riftmaker",
   "Spirit Visage",
   "Rabadon's Deathcap",
-  "Void Staff",
-  "Jak'Sho, The Protean"
+  "Void Staff"
  ],
  "pool": [
   "Giant's Belt",
   "Ruby Crystal",
   "Heartsteel",
   "Mercury's Treads",
+  "Unending Despair",
   "Warmog's Armor",
   "Riftmaker",
   "Spirit Visage",
-  "Void Staff",
+  "Rabadon's Deathcap",
   "Jak'Sho, The Protean",
-  "Rabadon's Deathcap"
+  "Void Staff"
  ]
 }

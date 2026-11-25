@@ -13,25 +13,25 @@
  "core": [
   "Heartsteel",
   "Mercury's Treads",
-  "Unending Despair",
-  "Spirit Visage"
+  "Spirit Visage",
+  "Unending Despair"
  ],
  "fourth": [
   "Warmog's Armor",
   "Riftmaker",
-  "Winter's Approach",
-  "Rylai's Crystal Scepter"
+  "Rylai's Crystal Scepter",
+  "Winter's Approach"
  ],
  "fifth": [
   "Warmog's Armor",
-  "Riftmaker",
   "Rabadon's Deathcap",
-  "Rylai's Crystal Scepter"
+  "Riftmaker",
+  "Winter's Approach"
  ],
  "sixth": [
+  "Rabadon's Deathcap",
   "Riftmaker",
   "Warmog's Armor",
-  "Rabadon's Deathcap",
   "Jak'Sho, The Protean"
  ],
  "pool": [
@@ -39,12 +39,12 @@
   "Ruby Crystal",
   "Heartsteel",
   "Mercury's Treads",
-  "Unending Despair",
   "Spirit Visage",
+  "Unending Despair",
   "Warmog's Armor",
   "Riftmaker",
-  "Winter's Approach",
   "Rylai's Crystal Scepter",
+  "Winter's Approach",
   "Rabadon's Deathcap",
   "Jak'Sho, The Protean"
  ]

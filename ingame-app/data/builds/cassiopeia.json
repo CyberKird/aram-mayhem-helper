@@ -7,42 +7,45 @@
   "Ghost"
  ],
  "starting": [
-  "Catalyst of Aeons"
+  "Blasting Wand",
+  "Tear of the Goddess"
  ],
  "core": [
   "Rod of Ages",
   "Sorcerer's Shoes",
-  "Liandry's Torment",
-  "Archangel's Staff"
+  "Archangel's Staff",
+  "Liandry's Torment"
  ],
  "fourth": [
-  "Rabadon's Deathcap",
   "Bloodletter's Curse",
+  "Rabadon's Deathcap",
   "Blackfire Torch",
   "Shadowflame"
  ],
  "fifth": [
   "Rabadon's Deathcap",
   "Bloodletter's Curse",
-  "Shadowflame",
-  "Riftmaker"
+  "Riftmaker",
+  "Rylai's Crystal Scepter"
  ],
  "sixth": [
   "Bloodletter's Curse",
+  "Rylai's Crystal Scepter",
   "Riftmaker",
-  "Blackfire Torch",
-  "Rabadon's Deathcap"
+  "Blackfire Torch"
  ],
  "pool": [
-  "Catalyst of Aeons",
+  "Blasting Wand",
+  "Tear of the Goddess",
   "Rod of Ages",
   "Sorcerer's Shoes",
-  "Liandry's Torment",
   "Archangel's Staff",
-  "Rabadon's Deathcap",
+  "Liandry's Torment",
   "Bloodletter's Curse",
+  "Rabadon's Deathcap",
   "Blackfire Torch",
   "Shadowflame",
-  "Riftmaker"
+  "Riftmaker",
+  "Rylai's Crystal Scepter"
  ]
 }

@@ -13,8 +13,8 @@
  "core": [
   "Heartsteel",
   "Mercury's Treads",
-  "Overlord's Bloodmail",
-  "Warmog's Armor"
+  "Warmog's Armor",
+  "Overlord's Bloodmail"
  ],
  "fourth": [
   "Titanic Hydra",
@@ -23,24 +23,24 @@
   "Sterak's Gage"
  ],
  "fifth": [
-  "Unending Despair",
   "Titanic Hydra",
-  "Sterak's Gage",
-  "Endless Hunger"
+  "Unending Despair",
+  "Endless Hunger",
+  "Sterak's Gage"
  ],
  "sixth": [
-  "Unending Despair",
   "Sterak's Gage",
-  "Spear of Shojin",
-  "Endless Hunger"
+  "Endless Hunger",
+  "Unending Despair",
+  "Spear of Shojin"
  ],
  "pool": [
   "Giant's Belt",
   "Ruby Crystal",
   "Heartsteel",
   "Mercury's Treads",
-  "Overlord's Bloodmail",
   "Warmog's Armor",
+  "Overlord's Bloodmail",
   "Titanic Hydra",
   "Endless Hunger",
   "Unending Despair",

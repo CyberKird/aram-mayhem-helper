@@ -7,44 +7,44 @@
   "Mark"
  ],
  "starting": [
-  "Pickaxe",
-  "Dagger",
-  "Dagger"
+  "Amplifying Tome",
+  "Guardian's Blade"
  ],
  "core": [
   "Statikk Shiv",
   "Mercury's Treads",
   "Dusk and Dawn",
-  "Spirit Visage"
+  "Death's Dance"
  ],
  "fourth": [
   "Nashor's Tooth",
   "Rabadon's Deathcap",
   "Riftmaker",
-  "Death's Dance"
+  "Spirit Visage"
  ],
  "fifth": [
   "Nashor's Tooth",
   "Riftmaker",
-  "Death's Dance",
-  "Rabadon's Deathcap"
+  "Rabadon's Deathcap",
+  "Spirit Visage"
  ],
  "sixth": [
   "Nashor's Tooth",
   "Riftmaker",
-  "Death's Dance",
-  "Rabadon's Deathcap"
+  "Rabadon's Deathcap",
+  "Guinsoo's Rageblade"
  ],
  "pool": [
-  "Pickaxe",
-  "Dagger",
+  "Amplifying Tome",
+  "Guardian's Blade",
   "Statikk Shiv",
   "Mercury's Treads",
   "Dusk and Dawn",
-  "Spirit Visage",
+  "Death's Dance",
   "Nashor's Tooth",
   "Rabadon's Deathcap",
   "Riftmaker",
-  "Death's Dance"
+  "Spirit Visage",
+  "Guinsoo's Rageblade"
  ]
 }

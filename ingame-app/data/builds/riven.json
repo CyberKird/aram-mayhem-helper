@@ -19,20 +19,20 @@
  "fourth": [
   "Lord Dominik's Regards",
   "Maw of Malmortius",
-  "Mortal Reminder",
-  "Spear of Shojin"
+  "Spear of Shojin",
+  "Ravenous Hydra"
  ],
  "fifth": [
-  "Lord Dominik's Regards",
   "Infinity Edge",
-  "Ravenous Hydra",
-  "Spear of Shojin"
+  "Lord Dominik's Regards",
+  "Spear of Shojin",
+  "Ravenous Hydra"
  ],
  "sixth": [
-  "Lord Dominik's Regards",
-  "Spirit Visage",
+  "Jak'Sho, The Protean",
   "Maw of Malmortius",
-  "Jak'Sho, The Protean"
+  "Lord Dominik's Regards",
+  "Spirit Visage"
  ],
  "pool": [
   "Long Sword",
@@ -43,11 +43,10 @@
   "Endless Hunger",
   "Lord Dominik's Regards",
   "Maw of Malmortius",
-  "Mortal Reminder",
   "Spear of Shojin",
-  "Infinity Edge",
   "Ravenous Hydra",
-  "Spirit Visage",
-  "Jak'Sho, The Protean"
+  "Infinity Edge",
+  "Jak'Sho, The Protean",
+  "Spirit Visage"
  ]
 }

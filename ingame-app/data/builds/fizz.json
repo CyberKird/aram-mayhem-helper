@@ -17,21 +17,21 @@
   "Rabadon's Deathcap"
  ],
  "fourth": [
-  "Void Staff",
   "Stormsurge",
+  "Void Staff",
   "Zhonya's Hourglass"
  ],
  "fifth": [
-  "Stormsurge",
   "Void Staff",
-  "Zhonya's Hourglass",
-  "Cryptbloom"
+  "Stormsurge",
+  "Cryptbloom",
+  "Zhonya's Hourglass"
  ],
  "sixth": [
   "Cryptbloom",
+  "Stormsurge",
   "Void Staff",
-  "Zhonya's Hourglass",
-  "Stormsurge"
+  "Zhonya's Hourglass"
  ],
  "pool": [
   "Amplifying Tome",
@@ -40,8 +40,8 @@
   "Sorcerer's Shoes",
   "Lich Bane",
   "Rabadon's Deathcap",
-  "Void Staff",
   "Stormsurge",
+  "Void Staff",
   "Zhonya's Hourglass",
   "Cryptbloom"
  ]

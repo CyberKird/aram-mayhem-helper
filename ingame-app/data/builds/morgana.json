@@ -16,10 +16,10 @@
   "Rabadon's Deathcap"
  ],
  "fourth": [
-  "Bloodletter's Curse",
   "Archangel's Staff",
-  "Rylai's Crystal Scepter",
-  "Shadowflame"
+  "Bloodletter's Curse",
+  "Shadowflame",
+  "Rylai's Crystal Scepter"
  ],
  "fifth": [
   "Archangel's Staff",
@@ -39,10 +39,10 @@
   "Sorcerer's Shoes",
   "Liandry's Torment",
   "Rabadon's Deathcap",
-  "Bloodletter's Curse",
   "Archangel's Staff",
-  "Rylai's Crystal Scepter",
+  "Bloodletter's Curse",
   "Shadowflame",
+  "Rylai's Crystal Scepter",
   "Void Staff"
  ]
 }

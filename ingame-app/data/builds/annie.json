@@ -7,6 +7,7 @@
   "Ghost"
  ],
  "starting": [
+  "Refillable Potion",
   "Lost Chapter"
  ],
  "core": [
@@ -16,35 +17,35 @@
   "Blackfire Torch"
  ],
  "fourth": [
-  "Rabadon's Deathcap",
   "Rylai's Crystal Scepter",
+  "Rabadon's Deathcap",
+  "Stormsurge",
+  "Shadowflame"
+ ],
+ "fifth": [
+  "Shadowflame",
+  "Rabadon's Deathcap",
   "Stormsurge",
   "Void Staff"
  ],
- "fifth": [
-  "Archangel's Staff",
-  "Stormsurge",
-  "Shadowflame",
-  "Rabadon's Deathcap"
- ],
  "sixth": [
-  "Archangel's Staff",
   "Shadowflame",
   "Void Staff",
-  "Zhonya's Hourglass"
+  "Archangel's Staff",
+  "Rylai's Crystal Scepter"
  ],
  "pool": [
+  "Refillable Potion",
   "Lost Chapter",
   "Malignance",
   "Sorcerer's Shoes",
   "Liandry's Torment",
   "Blackfire Torch",
-  "Rabadon's Deathcap",
   "Rylai's Crystal Scepter",
+  "Rabadon's Deathcap",
   "Stormsurge",
-  "Void Staff",
-  "Archangel's Staff",
   "Shadowflame",
-  "Zhonya's Hourglass"
+  "Void Staff",
+  "Archangel's Staff"
  ]
 }

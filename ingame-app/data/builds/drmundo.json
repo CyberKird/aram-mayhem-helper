@@ -17,22 +17,22 @@
   "Warmog's Armor"
  ],
  "fourth": [
-  "Unending Despair",
   "Overlord's Bloodmail",
+  "Unending Despair",
   "Jak'Sho, The Protean",
   "Kaenic Rookern"
  ],
  "fifth": [
   "Unending Despair",
   "Overlord's Bloodmail",
-  "Kaenic Rookern",
-  "Jak'Sho, The Protean"
+  "Hollow Radiance",
+  "Titanic Hydra"
  ],
  "sixth": [
   "Endless Hunger",
-  "Overlord's Bloodmail",
   "Jak'Sho, The Protean",
-  "Unending Despair"
+  "Unending Despair",
+  "Overlord's Bloodmail"
  ],
  "pool": [
   "Giant's Belt",
@@ -41,10 +41,12 @@
   "Boots of Swiftness",
   "Spirit Visage",
   "Warmog's Armor",
-  "Unending Despair",
   "Overlord's Bloodmail",
+  "Unending Despair",
   "Jak'Sho, The Protean",
   "Kaenic Rookern",
+  "Hollow Radiance",
+  "Titanic Hydra",
   "Endless Hunger"
  ]
 }

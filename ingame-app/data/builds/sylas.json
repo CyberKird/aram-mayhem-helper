@@ -19,20 +19,20 @@
  "fourth": [
   "Void Staff",
   "Stormsurge",
-  "Spirit Visage",
-  "Riftmaker"
+  "Unending Despair",
+  "Spirit Visage"
  ],
  "fifth": [
   "Stormsurge",
   "Void Staff",
-  "Spirit Visage",
-  "Riftmaker"
+  "Riftmaker",
+  "Spirit Visage"
  ],
  "sixth": [
-  "Void Staff",
-  "Jak'Sho, The Protean",
   "Riftmaker",
-  "Stormsurge"
+  "Void Staff",
+  "Stormsurge",
+  "Spirit Visage"
  ],
  "pool": [
   "Amplifying Tome",
@@ -43,8 +43,8 @@
   "Rabadon's Deathcap",
   "Void Staff",
   "Stormsurge",
+  "Unending Despair",
   "Spirit Visage",
-  "Riftmaker",
-  "Jak'Sho, The Protean"
+  "Riftmaker"
  ]
 }

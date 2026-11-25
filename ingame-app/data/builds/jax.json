@@ -19,14 +19,14 @@
  "fourth": [
   "Endless Hunger",
   "Riftmaker",
-  "Spear of Shojin",
-  "Hextech Gunblade"
+  "Hextech Gunblade",
+  "Spear of Shojin"
  ],
  "fifth": [
   "Endless Hunger",
   "Riftmaker",
   "Spear of Shojin",
-  "Sterak's Gage"
+  "Hextech Gunblade"
  ],
  "sixth": [
   "Endless Hunger",
@@ -43,8 +43,8 @@
   "Death's Dance",
   "Endless Hunger",
   "Riftmaker",
-  "Spear of Shojin",
   "Hextech Gunblade",
+  "Spear of Shojin",
   "Sterak's Gage"
  ]
 }

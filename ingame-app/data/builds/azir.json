@@ -18,21 +18,21 @@
  ],
  "fourth": [
   "Void Staff",
-  "Dusk and Dawn",
   "Zhonya's Hourglass",
+  "Dusk and Dawn",
   "Liandry's Torment"
  ],
  "fifth": [
   "Void Staff",
-  "Dusk and Dawn",
+  "Zhonya's Hourglass",
   "Riftmaker",
-  "Zhonya's Hourglass"
+  "Dusk and Dawn"
  ],
  "sixth": [
   "Void Staff",
   "Banshee's Veil",
-  "Zhonya's Hourglass",
-  "Dusk and Dawn"
+  "Dusk and Dawn",
+  "Zhonya's Hourglass"
  ],
  "pool": [
   "Amplifying Tome",
@@ -42,8 +42,8 @@
   "Shadowflame",
   "Rabadon's Deathcap",
   "Void Staff",
-  "Dusk and Dawn",
   "Zhonya's Hourglass",
+  "Dusk and Dawn",
   "Liandry's Torment",
   "Riftmaker",
   "Banshee's Veil"

@@ -7,14 +7,13 @@
   "Mark"
  ],
  "starting": [
-  "Amplifying Tome",
-  "Guardian's Orb"
+  "Hextech Alternator"
  ],
  "core": [
-  "Shadowflame",
+  "Stormsurge",
   "Sorcerer's Shoes",
-  "Rabadon's Deathcap",
-  "Stormsurge"
+  "Shadowflame",
+  "Rabadon's Deathcap"
  ],
  "fourth": [
   "Void Staff",
@@ -24,7 +23,7 @@
  "fifth": [
   "Banshee's Veil",
   "Void Staff",
-  "Hextech Rocketbelt",
+  "Zhonya's Hourglass",
   "Malignance"
  ],
  "sixth": [
@@ -34,12 +33,11 @@
   "Zhonya's Hourglass"
  ],
  "pool": [
-  "Amplifying Tome",
-  "Guardian's Orb",
-  "Shadowflame",
-  "Sorcerer's Shoes",
-  "Rabadon's Deathcap",
+  "Hextech Alternator",
   "Stormsurge",
+  "Sorcerer's Shoes",
+  "Shadowflame",
+  "Rabadon's Deathcap",
   "Void Staff",
   "Malignance",
   "Zhonya's Hourglass",

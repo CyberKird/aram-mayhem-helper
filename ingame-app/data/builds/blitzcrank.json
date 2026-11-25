@@ -7,45 +7,44 @@
   "Mark"
  ],
  "starting": [
-  "Giant's Belt",
-  "Tear of the Goddess"
+  "Lost Chapter"
  ],
  "core": [
+  "Malignance",
+  "Ionian Boots of Lucidity",
   "Winter's Approach",
-  "Mercury's Treads",
-  "Warmog's Armor",
-  "Kaenic Rookern"
+  "Shadowflame"
  ],
  "fourth": [
-  "Frozen Heart",
   "Jak'Sho, The Protean",
-  "Archangel's Staff",
+  "Warmog's Armor",
+  "Frozen Heart",
   "Unending Despair"
  ],
  "fifth": [
   "Archangel's Staff",
+  "Warmog's Armor",
   "Jak'Sho, The Protean",
-  "Frozen Heart",
-  "Spirit Visage"
+  "Frozen Heart"
  ],
  "sixth": [
-  "Archangel's Staff",
-  "Cryptbloom",
   "Jak'Sho, The Protean",
-  "Unending Despair"
+  "Unending Despair",
+  "Zhonya's Hourglass",
+  "Rabadon's Deathcap"
  ],
  "pool": [
-  "Giant's Belt",
-  "Tear of the Goddess",
+  "Lost Chapter",
+  "Malignance",
+  "Ionian Boots of Lucidity",
   "Winter's Approach",
-  "Mercury's Treads",
-  "Warmog's Armor",
-  "Kaenic Rookern",
-  "Frozen Heart",
+  "Shadowflame",
   "Jak'Sho, The Protean",
-  "Archangel's Staff",
+  "Warmog's Armor",
+  "Frozen Heart",
   "Unending Despair",
-  "Spirit Visage",
-  "Cryptbloom"
+  "Archangel's Staff",
+  "Zhonya's Hourglass",
+  "Rabadon's Deathcap"
  ]
 }

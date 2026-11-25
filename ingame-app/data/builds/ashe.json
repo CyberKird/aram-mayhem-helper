@@ -16,22 +16,22 @@
   "Experimental Hexplate"
  ],
  "fourth": [
-  "Rabadon's Deathcap",
-  "Lord Dominik's Regards",
   "Infinity Edge",
-  "Cryptbloom"
+  "Lord Dominik's Regards",
+  "Rabadon's Deathcap",
+  "Terminus"
  ],
  "fifth": [
   "Archangel's Staff",
-  "Rabadon's Deathcap",
   "Lord Dominik's Regards",
-  "Shadowflame"
+  "Infinity Edge",
+  "Rabadon's Deathcap"
  ],
  "sixth": [
   "Archangel's Staff",
   "Shadowflame",
-  "Rabadon's Deathcap",
-  "Blackfire Torch"
+  "Bloodthirster",
+  "Rabadon's Deathcap"
  ],
  "pool": [
   "Lost Chapter",
@@ -39,12 +39,12 @@
   "Ionian Boots of Lucidity",
   "Axiom Arc",
   "Experimental Hexplate",
-  "Rabadon's Deathcap",
-  "Lord Dominik's Regards",
   "Infinity Edge",
-  "Cryptbloom",
+  "Lord Dominik's Regards",
+  "Rabadon's Deathcap",
+  "Terminus",
   "Archangel's Staff",
   "Shadowflame",
-  "Blackfire Torch"
+  "Bloodthirster"
  ]
 }

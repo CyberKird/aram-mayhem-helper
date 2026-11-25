@@ -17,20 +17,20 @@
   "Warmog's Armor"
  ],
  "fourth": [
-  "Rabadon's Deathcap",
   "Jak'Sho, The Protean",
-  "Bloodletter's Curse",
-  "Spirit Visage"
+  "Spirit Visage",
+  "Rabadon's Deathcap",
+  "Winter's Approach"
  ],
  "fifth": [
+  "Jak'Sho, The Protean",
   "Riftmaker",
-  "Shadowflame",
-  "Rabadon's Deathcap",
-  "Cryptbloom"
+  "Winter's Approach",
+  "Horizon Focus"
  ],
  "sixth": [
-  "Archangel's Staff",
-  "Void Staff",
+  "Riftmaker",
+  "Jak'Sho, The Protean",
   "Cryptbloom",
   "Shadowflame"
  ],
@@ -41,14 +41,13 @@
   "Mercury's Treads",
   "Unending Despair",
   "Warmog's Armor",
-  "Rabadon's Deathcap",
   "Jak'Sho, The Protean",
-  "Bloodletter's Curse",
   "Spirit Visage",
+  "Rabadon's Deathcap",
+  "Winter's Approach",
   "Riftmaker",
-  "Shadowflame",
+  "Horizon Focus",
   "Cryptbloom",
-  "Archangel's Staff",
-  "Void Staff"
+  "Shadowflame"
  ]
 }

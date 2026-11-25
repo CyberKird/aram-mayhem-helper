@@ -14,25 +14,25 @@
   "Heartsteel",
   "Mercury's Treads",
   "Unending Despair",
-  "Jak'Sho, The Protean"
+  "Warmog's Armor"
  ],
  "fourth": [
-  "Spirit Visage",
-  "Warmog's Armor",
   "Iceborn Gauntlet",
-  "Force of Nature"
+  "Spirit Visage",
+  "Jak'Sho, The Protean",
+  "Randuin's Omen"
  ],
  "fifth": [
   "Frozen Heart",
-  "Spirit Visage",
-  "Warmog's Armor",
-  "Iceborn Gauntlet"
+  "Iceborn Gauntlet",
+  "Jak'Sho, The Protean",
+  "Spirit Visage"
  ],
  "sixth": [
+  "Frozen Heart",
   "Iceborn Gauntlet",
   "Spirit Visage",
-  "Warmog's Armor",
-  "Frozen Heart"
+  "Jak'Sho, The Protean"
  ],
  "pool": [
   "Giant's Belt",
@@ -40,11 +40,11 @@
   "Heartsteel",
   "Mercury's Treads",
   "Unending Despair",
-  "Jak'Sho, The Protean",
-  "Spirit Visage",
   "Warmog's Armor",
   "Iceborn Gauntlet",
-  "Force of Nature",
+  "Spirit Visage",
+  "Jak'Sho, The Protean",
+  "Randuin's Omen",
   "Frozen Heart"
  ]
 }

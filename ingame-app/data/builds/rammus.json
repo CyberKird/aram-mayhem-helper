@@ -14,25 +14,25 @@
   "Heartsteel",
   "Plated Steelcaps",
   "Thornmail",
-  "Jak'Sho, The Protean"
+  "Unending Despair"
  ],
  "fourth": [
-  "Unending Despair",
-  "Warmog's Armor",
+  "Frozen Heart",
+  "Jak'Sho, The Protean",
   "Randuin's Omen",
-  "Force of Nature"
+  "Warmog's Armor"
  ],
  "fifth": [
+  "Force of Nature",
   "Frozen Heart",
   "Warmog's Armor",
-  "Force of Nature",
-  "Unending Despair"
+  "Jak'Sho, The Protean"
  ],
  "sixth": [
+  "Jak'Sho, The Protean",
   "Frozen Heart",
-  "Warmog's Armor",
-  "Force of Nature",
-  "Unending Despair"
+  "Randuin's Omen",
+  "Warmog's Armor"
  ],
  "pool": [
   "Giant's Belt",
@@ -40,11 +40,11 @@
   "Heartsteel",
   "Plated Steelcaps",
   "Thornmail",
-  "Jak'Sho, The Protean",
   "Unending Despair",
-  "Warmog's Armor",
+  "Frozen Heart",
+  "Jak'Sho, The Protean",
   "Randuin's Omen",
-  "Force of Nature",
-  "Frozen Heart"
+  "Warmog's Armor",
+  "Force of Nature"
  ]
 }

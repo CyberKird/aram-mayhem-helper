@@ -19,20 +19,20 @@
  "fourth": [
   "Spear of Shojin",
   "Maw of Malmortius",
-  "Spirit Visage",
-  "Trinity Force"
+  "Trinity Force",
+  "Spirit Visage"
  ],
  "fifth": [
   "Spear of Shojin",
+  "Maw of Malmortius",
   "Spirit Visage",
-  "Trinity Force",
-  "Maw of Malmortius"
+  "Sterak's Gage"
  ],
  "sixth": [
+  "Overlord's Bloodmail",
+  "Maw of Malmortius",
   "Spear of Shojin",
-  "Spirit Visage",
-  "Sterak's Gage",
-  "Maw of Malmortius"
+  "Spirit Visage"
  ],
  "pool": [
   "Long Sword",
@@ -43,8 +43,9 @@
   "Endless Hunger",
   "Spear of Shojin",
   "Maw of Malmortius",
-  "Spirit Visage",
   "Trinity Force",
-  "Sterak's Gage"
+  "Spirit Visage",
+  "Sterak's Gage",
+  "Overlord's Bloodmail"
  ]
 }

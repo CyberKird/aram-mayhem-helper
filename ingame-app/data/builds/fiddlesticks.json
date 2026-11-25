@@ -17,9 +17,9 @@
  ],
  "fourth": [
   "Stormsurge",
-  "Rylai's Crystal Scepter",
   "Void Staff",
-  "Liandry's Torment"
+  "Liandry's Torment",
+  "Rylai's Crystal Scepter"
  ],
  "fifth": [
   "Stormsurge",
@@ -29,9 +29,9 @@
  ],
  "sixth": [
   "Stormsurge",
-  "Banshee's Veil",
   "Void Staff",
-  "Blackfire Torch"
+  "Banshee's Veil",
+  "Rylai's Crystal Scepter"
  ],
  "pool": [
   "Lost Chapter",
@@ -40,11 +40,10 @@
   "Rabadon's Deathcap",
   "Shadowflame",
   "Stormsurge",
-  "Rylai's Crystal Scepter",
   "Void Staff",
   "Liandry's Torment",
+  "Rylai's Crystal Scepter",
   "Zhonya's Hourglass",
-  "Banshee's Veil",
-  "Blackfire Torch"
+  "Banshee's Veil"
  ]
 }

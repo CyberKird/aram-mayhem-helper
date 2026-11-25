@@ -11,38 +11,39 @@
  ],
  "core": [
   "Blackfire Torch",
-  "Boots of Swiftness",
+  "Sorcerer's Shoes",
   "Liandry's Torment",
-  "Bloodletter's Curse"
+  "Horizon Focus"
  ],
  "fourth": [
   "Rabadon's Deathcap",
   "Archangel's Staff",
   "Shadowflame",
-  "Horizon Focus"
+  "Rylai's Crystal Scepter"
  ],
  "fifth": [
-  "Horizon Focus",
   "Archangel's Staff",
   "Rabadon's Deathcap",
-  "Shadowflame"
+  "Shadowflame",
+  "Lord Dominik's Regards"
  ],
  "sixth": [
   "Banshee's Veil",
   "Edge of Night",
-  "Horizon Focus",
-  "Cryptbloom"
+  "Cryptbloom",
+  "Archangel's Staff"
  ],
  "pool": [
   "Lost Chapter",
   "Blackfire Torch",
-  "Boots of Swiftness",
+  "Sorcerer's Shoes",
   "Liandry's Torment",
-  "Bloodletter's Curse",
+  "Horizon Focus",
   "Rabadon's Deathcap",
   "Archangel's Staff",
   "Shadowflame",
-  "Horizon Focus",
+  "Rylai's Crystal Scepter",
+  "Lord Dominik's Regards",
   "Banshee's Veil",
   "Edge of Night",
   "Cryptbloom"

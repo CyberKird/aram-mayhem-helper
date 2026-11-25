@@ -7,8 +7,8 @@
   "Mark"
  ],
  "starting": [
-  "Long Sword",
-  "Guardian's Blade"
+  "Boots",
+  "Vampiric Scepter"
  ],
  "core": [
   "Blade of The Ruined King",
@@ -18,34 +18,34 @@
  ],
  "fourth": [
   "Ravenous Hydra",
-  "Spirit Visage",
   "Trinity Force",
-  "Sterak's Gage"
+  "Spirit Visage",
+  "Titanic Hydra"
  ],
  "fifth": [
-  "Spear of Shojin",
   "Ravenous Hydra",
   "Terminus",
-  "Spirit Visage"
+  "Spirit Visage",
+  "Sterak's Gage"
  ],
  "sixth": [
   "Spirit Visage",
+  "Sterak's Gage",
   "Terminus",
-  "Ravenous Hydra",
-  "Sterak's Gage"
+  "Ravenous Hydra"
  ],
  "pool": [
-  "Long Sword",
-  "Guardian's Blade",
+  "Boots",
+  "Vampiric Scepter",
   "Blade of The Ruined King",
   "Mercury's Treads",
   "Death's Dance",
   "Endless Hunger",
   "Ravenous Hydra",
-  "Spirit Visage",
   "Trinity Force",
-  "Sterak's Gage",
-  "Spear of Shojin",
-  "Terminus"
+  "Spirit Visage",
+  "Titanic Hydra",
+  "Terminus",
+  "Sterak's Gage"
  ]
 }

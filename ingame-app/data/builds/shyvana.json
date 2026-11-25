@@ -7,45 +7,45 @@
   "Mark"
  ],
  "starting": [
-  "Giant's Belt",
-  "Ruby Crystal"
+  "Ruby Crystal",
+  "Sheen"
  ],
  "core": [
-  "Heartsteel",
-  "Mercury's Treads",
   "Dusk and Dawn",
+  "Sorcerer's Shoes",
+  "Liandry's Torment",
   "Riftmaker"
  ],
  "fourth": [
-  "Overlord's Bloodmail",
   "Unending Despair",
-  "Spear of Shojin",
+  "Overlord's Bloodmail",
+  "Jak'Sho, The Protean",
   "Warmog's Armor"
  ],
  "fifth": [
   "Overlord's Bloodmail",
   "Unending Despair",
   "Warmog's Armor",
-  "Death's Dance"
+  "Jak'Sho, The Protean"
  ],
  "sixth": [
   "Overlord's Bloodmail",
-  "Warmog's Armor",
-  "Death's Dance",
-  "Void Staff"
+  "Unending Despair",
+  "Spirit Visage",
+  "Death's Dance"
  ],
  "pool": [
-  "Giant's Belt",
   "Ruby Crystal",
-  "Heartsteel",
-  "Mercury's Treads",
+  "Sheen",
   "Dusk and Dawn",
+  "Sorcerer's Shoes",
+  "Liandry's Torment",
   "Riftmaker",
-  "Overlord's Bloodmail",
   "Unending Despair",
-  "Spear of Shojin",
+  "Overlord's Bloodmail",
+  "Jak'Sho, The Protean",
   "Warmog's Armor",
-  "Death's Dance",
-  "Void Staff"
+  "Spirit Visage",
+  "Death's Dance"
  ]
 }

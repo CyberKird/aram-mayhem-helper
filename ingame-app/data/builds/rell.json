@@ -23,16 +23,16 @@
   "Winter's Approach"
  ],
  "fifth": [
-  "Spirit Visage",
   "Jak'Sho, The Protean",
-  "Hollow Radiance",
-  "Frozen Heart"
+  "Spirit Visage",
+  "Frozen Heart",
+  "Hollow Radiance"
  ],
  "sixth": [
   "Riftmaker",
-  "Spirit Visage",
+  "Overlord's Bloodmail",
   "Frozen Heart",
-  "Overlord's Bloodmail"
+  "Sunfire Aegis"
  ],
  "pool": [
   "Giant's Belt",
@@ -47,6 +47,7 @@
   "Winter's Approach",
   "Frozen Heart",
   "Riftmaker",
-  "Overlord's Bloodmail"
+  "Overlord's Bloodmail",
+  "Sunfire Aegis"
  ]
 }

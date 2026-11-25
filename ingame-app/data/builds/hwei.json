@@ -7,8 +7,8 @@
   "Ghost"
  ],
  "starting": [
-  "Fated Ashes",
-  "Tear of the Goddess"
+  "Refillable Potion",
+  "Lost Chapter"
  ],
  "core": [
   "Blackfire Torch",
@@ -18,34 +18,33 @@
  ],
  "fourth": [
   "Archangel's Staff",
-  "Shadowflame",
+  "Void Staff",
   "Cryptbloom",
-  "Void Staff"
+  "Shadowflame"
  ],
  "fifth": [
   "Shadowflame",
   "Archangel's Staff",
-  "Stormsurge",
+  "Cryptbloom",
   "Void Staff"
  ],
  "sixth": [
   "Shadowflame",
-  "Banshee's Veil",
   "Stormsurge",
+  "Void Staff",
   "Cryptbloom"
  ],
  "pool": [
-  "Fated Ashes",
-  "Tear of the Goddess",
+  "Refillable Potion",
+  "Lost Chapter",
   "Blackfire Torch",
   "Sorcerer's Shoes",
   "Liandry's Torment",
   "Rabadon's Deathcap",
   "Archangel's Staff",
-  "Shadowflame",
-  "Cryptbloom",
   "Void Staff",
-  "Stormsurge",
-  "Banshee's Veil"
+  "Cryptbloom",
+  "Shadowflame",
+  "Stormsurge"
  ]
 }

@@ -7,14 +7,13 @@
   "Ghost"
  ],
  "starting": [
-  "Amplifying Tome",
-  "Fated Ashes"
+  "Lost Chapter"
  ],
  "core": [
   "Blackfire Torch",
   "Sorcerer's Shoes",
-  "Liandry's Torment",
-  "Rylai's Crystal Scepter"
+  "Rylai's Crystal Scepter",
+  "Liandry's Torment"
  ],
  "fourth": [
   "Bloodletter's Curse",
@@ -32,19 +31,17 @@
   "Bloodletter's Curse",
   "Archangel's Staff",
   "Shadowflame",
-  "Void Staff"
+  "Rabadon's Deathcap"
  ],
  "pool": [
-  "Amplifying Tome",
-  "Fated Ashes",
+  "Lost Chapter",
   "Blackfire Torch",
   "Sorcerer's Shoes",
-  "Liandry's Torment",
   "Rylai's Crystal Scepter",
+  "Liandry's Torment",
   "Bloodletter's Curse",
   "Archangel's Staff",
   "Rabadon's Deathcap",
-  "Shadowflame",
-  "Void Staff"
+  "Shadowflame"
  ]
 }

@@ -14,25 +14,25 @@
   "Hubris",
   "Mercury's Treads",
   "The Collector",
-  "Infinity Edge"
+  "Death's Dance"
  ],
  "fourth": [
-  "Death's Dance",
-  "Lord Dominik's Regards",
   "Axiom Arc",
+  "Lord Dominik's Regards",
+  "Infinity Edge",
   "Bloodthirster"
  ],
  "fifth": [
-  "Death's Dance",
   "Endless Hunger",
   "Axiom Arc",
-  "Lord Dominik's Regards"
+  "Lord Dominik's Regards",
+  "Infinity Edge"
  ],
  "sixth": [
   "Endless Hunger",
-  "Death's Dance",
   "Axiom Arc",
-  "Lord Dominik's Regards"
+  "Lord Dominik's Regards",
+  "Phantom Dancer"
  ],
  "pool": [
   "Long Sword",
@@ -40,11 +40,12 @@
   "Hubris",
   "Mercury's Treads",
   "The Collector",
-  "Infinity Edge",
   "Death's Dance",
-  "Lord Dominik's Regards",
   "Axiom Arc",
+  "Lord Dominik's Regards",
+  "Infinity Edge",
   "Bloodthirster",
-  "Endless Hunger"
+  "Endless Hunger",
+  "Phantom Dancer"
  ]
 }

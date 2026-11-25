@@ -25,14 +25,14 @@
  "fifth": [
   "Warmog's Armor",
   "Overlord's Bloodmail",
-  "Jak'Sho, The Protean",
-  "Titanic Hydra"
+  "Titanic Hydra",
+  "Jak'Sho, The Protean"
  ],
  "sixth": [
   "Overlord's Bloodmail",
-  "Warmog's Armor",
   "Titanic Hydra",
-  "Jak'Sho, The Protean"
+  "Jak'Sho, The Protean",
+  "Endless Hunger"
  ],
  "pool": [
   "Giant's Belt",
@@ -44,6 +44,7 @@
   "Warmog's Armor",
   "Overlord's Bloodmail",
   "Jak'Sho, The Protean",
-  "Titanic Hydra"
+  "Titanic Hydra",
+  "Endless Hunger"
  ]
 }

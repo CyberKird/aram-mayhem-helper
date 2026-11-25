@@ -18,21 +18,21 @@
  ],
  "fourth": [
   "Overlord's Bloodmail",
-  "Iceborn Gauntlet",
   "Spirit Visage",
-  "Death's Dance"
+  "Iceborn Gauntlet",
+  "Sundered Sky"
  ],
  "fifth": [
   "Overlord's Bloodmail",
-  "Spear of Shojin",
   "Spirit Visage",
-  "Kaenic Rookern"
+  "Kaenic Rookern",
+  "Spear of Shojin"
  ],
  "sixth": [
   "Overlord's Bloodmail",
-  "Liandry's Torment",
   "Jak'Sho, The Protean",
-  "Kaenic Rookern"
+  "Endless Hunger",
+  "Liandry's Torment"
  ],
  "pool": [
   "Giant's Belt",
@@ -42,12 +42,13 @@
   "Warmog's Armor",
   "Unending Despair",
   "Overlord's Bloodmail",
-  "Iceborn Gauntlet",
   "Spirit Visage",
-  "Death's Dance",
-  "Spear of Shojin",
+  "Iceborn Gauntlet",
+  "Sundered Sky",
   "Kaenic Rookern",
-  "Liandry's Torment",
-  "Jak'Sho, The Protean"
+  "Spear of Shojin",
+  "Jak'Sho, The Protean",
+  "Endless Hunger",
+  "Liandry's Torment"
  ]
 }

@@ -7,8 +7,7 @@
   "Mark"
  ],
  "starting": [
-  "Amplifying Tome",
-  "Guardian's Orb"
+  "Haunting Guise"
  ],
  "core": [
   "Liandry's Torment",
@@ -18,34 +17,33 @@
  ],
  "fourth": [
   "Stormsurge",
-  "Lord Dominik's Regards",
   "Void Staff",
+  "Lord Dominik's Regards",
   "Infinity Edge"
  ],
  "fifth": [
-  "Lord Dominik's Regards",
-  "Infinity Edge",
+  "Void Staff",
   "Stormsurge",
-  "Void Staff"
+  "Lord Dominik's Regards",
+  "Infinity Edge"
  ],
  "sixth": [
   "Void Staff",
   "Stormsurge",
-  "Zhonya's Hourglass",
-  "Rylai's Crystal Scepter"
+  "Dusk and Dawn",
+  "Blackfire Torch"
  ],
  "pool": [
-  "Amplifying Tome",
-  "Guardian's Orb",
+  "Haunting Guise",
   "Liandry's Torment",
   "Sorcerer's Shoes",
   "Shadowflame",
   "Rabadon's Deathcap",
   "Stormsurge",
-  "Lord Dominik's Regards",
   "Void Staff",
+  "Lord Dominik's Regards",
   "Infinity Edge",
-  "Zhonya's Hourglass",
-  "Rylai's Crystal Scepter"
+  "Dusk and Dawn",
+  "Blackfire Torch"
  ]
 }

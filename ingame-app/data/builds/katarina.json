@@ -7,40 +7,43 @@
   "Mark"
  ],
  "starting": [
-  "Tiamat"
+  "Long Sword",
+  "Long Sword",
+  "Recurve Bow"
  ],
  "core": [
   "Kraken Slayer",
-  "Berserker's Greaves",
-  "Terminus",
-  "Blade of The Ruined King"
+  "Mercury's Treads",
+  "Blade of The Ruined King",
+  "Death's Dance"
  ],
  "fourth": [
-  "Death's Dance",
   "Experimental Hexplate",
+  "Terminus",
   "Titanic Hydra",
   "Hextech Gunblade"
  ],
  "fifth": [
   "Endless Hunger",
-  "Death's Dance",
   "Experimental Hexplate",
-  "Titanic Hydra"
+  "Titanic Hydra",
+  "Wit's End"
  ],
  "sixth": [
   "Endless Hunger",
-  "Death's Dance",
   "Experimental Hexplate",
+  "Titanic Hydra",
   "Wit's End"
  ],
  "pool": [
-  "Tiamat",
+  "Long Sword",
+  "Recurve Bow",
   "Kraken Slayer",
-  "Berserker's Greaves",
-  "Terminus",
+  "Mercury's Treads",
   "Blade of The Ruined King",
   "Death's Dance",
   "Experimental Hexplate",
+  "Terminus",
   "Titanic Hydra",
   "Hextech Gunblade",
   "Endless Hunger",

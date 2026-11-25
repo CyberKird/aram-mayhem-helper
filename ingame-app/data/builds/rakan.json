@@ -7,45 +7,42 @@
   "Mark"
  ],
  "starting": [
-  "Ruby Crystal",
-  "Guardian's Horn"
+  "Lost Chapter"
  ],
  "core": [
-  "Zeke's Convergence",
-  "Mercury's Treads",
-  "Locket of the Iron Solari",
-  "Knight's Vow"
+  "Malignance",
+  "Shadowflame",
+  "Rabadon's Deathcap"
  ],
  "fourth": [
+  "Knight's Vow",
   "Warmog's Armor",
-  "Jak'Sho, The Protean",
   "Winter's Approach",
-  "Spirit Visage"
+  "Jak'Sho, The Protean"
  ],
  "fifth": [
-  "Warmog's Armor",
+  "Knight's Vow",
   "Spirit Visage",
-  "Unending Despair",
+  "Warmog's Armor",
   "Jak'Sho, The Protean"
  ],
  "sixth": [
   "Frozen Heart",
-  "Spirit Visage",
-  "Winter's Approach",
-  "Jak'Sho, The Protean"
+  "Knight's Vow",
+  "Zeke's Convergence",
+  "Winter's Approach"
  ],
  "pool": [
-  "Ruby Crystal",
-  "Guardian's Horn",
-  "Zeke's Convergence",
-  "Mercury's Treads",
-  "Locket of the Iron Solari",
+  "Lost Chapter",
+  "Malignance",
+  "Shadowflame",
+  "Rabadon's Deathcap",
   "Knight's Vow",
   "Warmog's Armor",
-  "Jak'Sho, The Protean",
   "Winter's Approach",
+  "Jak'Sho, The Protean",
   "Spirit Visage",
-  "Unending Despair",
-  "Frozen Heart"
+  "Frozen Heart",
+  "Zeke's Convergence"
  ]
 }

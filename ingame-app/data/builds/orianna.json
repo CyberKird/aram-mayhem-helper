@@ -7,8 +7,8 @@
   "Ghost"
  ],
  "starting": [
-  "Amplifying Tome",
-  "Guardian's Orb"
+  "Refillable Potion",
+  "Lost Chapter"
  ],
  "core": [
   "Blackfire Torch",
@@ -20,12 +20,12 @@
   "Archangel's Staff",
   "Stormsurge",
   "Void Staff",
-  "Cryptbloom"
+  "Malignance"
  ],
  "fifth": [
   "Stormsurge",
   "Archangel's Staff",
-  "Banshee's Veil",
+  "Cryptbloom",
   "Void Staff"
  ],
  "sixth": [
@@ -35,8 +35,8 @@
   "Archangel's Staff"
  ],
  "pool": [
-  "Amplifying Tome",
-  "Guardian's Orb",
+  "Refillable Potion",
+  "Lost Chapter",
   "Blackfire Torch",
   "Sorcerer's Shoes",
   "Shadowflame",
@@ -44,6 +44,7 @@
   "Archangel's Staff",
   "Stormsurge",
   "Void Staff",
+  "Malignance",
   "Cryptbloom",
   "Banshee's Veil"
  ]

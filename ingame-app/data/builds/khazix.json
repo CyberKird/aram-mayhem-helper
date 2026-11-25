@@ -8,43 +8,41 @@
  ],
  "starting": [
   "Long Sword",
-  "Serrated Dirk"
+  "Guardian's Blade"
  ],
  "core": [
   "Hubris",
-  "Mercury's Treads",
-  "The Collector",
+  "Endless Hunger",
   "Lord Dominik's Regards"
  ],
  "fourth": [
-  "Endless Hunger",
   "Death's Dance",
   "Infinity Edge",
-  "Edge of Night"
+  "Voltaic Cyclosword",
+  "Manamune"
  ],
  "fifth": [
-  "Endless Hunger",
   "Death's Dance",
   "Youmuu's Ghostblade",
-  "Infinity Edge"
+  "Infinity Edge",
+  "Voltaic Cyclosword"
  ],
  "sixth": [
   "Death's Dance",
-  "Endless Hunger",
   "Youmuu's Ghostblade",
-  "Maw of Malmortius"
+  "Maw of Malmortius",
+  "Infinity Edge"
  ],
  "pool": [
   "Long Sword",
-  "Serrated Dirk",
+  "Guardian's Blade",
   "Hubris",
-  "Mercury's Treads",
-  "The Collector",
-  "Lord Dominik's Regards",
   "Endless Hunger",
+  "Lord Dominik's Regards",
   "Death's Dance",
   "Infinity Edge",
-  "Edge of Night",
+  "Voltaic Cyclosword",
+  "Manamune",
   "Youmuu's Ghostblade",
   "Maw of Malmortius"
  ]

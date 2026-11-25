@@ -8,7 +8,9 @@
  ],
  "starting": [
   "Giant's Belt",
-  "Ruby Crystal"
+  "Ruby Crystal",
+  "Health Potion",
+  "Health Potion"
  ],
  "core": [
   "Heartsteel",
@@ -17,36 +19,39 @@
   "Unending Despair"
  ],
  "fourth": [
-  "Winter's Approach",
-  "Jak'Sho, The Protean",
-  "Spirit Visage",
-  "Hollow Radiance"
- ],
- "fifth": [
   "Hollow Radiance",
-  "Spirit Visage",
   "Jak'Sho, The Protean",
+  "Spirit Visage",
   "Winter's Approach"
  ],
- "sixth": [
-  "Riftmaker",
+ "fifth": [
   "Spirit Visage",
+  "Jak'Sho, The Protean",
   "Force of Nature",
-  "Overlord's Bloodmail"
+  "Frozen Heart"
+ ],
+ "sixth": [
+  "Overlord's Bloodmail",
+  "Sunfire Aegis",
+  "Riftmaker",
+  "Jak'Sho, The Protean"
  ],
  "pool": [
   "Giant's Belt",
   "Ruby Crystal",
+  "Health Potion",
   "Heartsteel",
   "Mercury's Treads",
   "Warmog's Armor",
   "Unending Despair",
-  "Winter's Approach",
+  "Hollow Radiance",
   "Jak'Sho, The Protean",
   "Spirit Visage",
-  "Hollow Radiance",
-  "Riftmaker",
+  "Winter's Approach",
   "Force of Nature",
-  "Overlord's Bloodmail"
+  "Frozen Heart",
+  "Overlord's Bloodmail",
+  "Sunfire Aegis",
+  "Riftmaker"
  ]
 }

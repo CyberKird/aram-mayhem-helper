@@ -7,45 +7,46 @@
   "Mark"
  ],
  "starting": [
-  "Long Sword",
-  "Serrated Dirk"
+  "Giant's Belt",
+  "Ruby Crystal"
  ],
  "core": [
-  "Hubris",
-  "Ionian Boots of Lucidity",
-  "Axiom Arc",
-  "Voltaic Cyclosword"
+  "Heartsteel",
+  "Mercury's Treads",
+  "Thornmail",
+  "Kaenic Rookern"
  ],
  "fourth": [
   "Endless Hunger",
   "Overlord's Bloodmail",
   "Warmog's Armor",
-  "Lord Dominik's Regards"
+  "Unending Despair"
  ],
  "fifth": [
   "Endless Hunger",
-  "Lord Dominik's Regards",
   "Overlord's Bloodmail",
+  "Lord Dominik's Regards",
   "Death's Dance"
  ],
  "sixth": [
   "Endless Hunger",
   "Lord Dominik's Regards",
-  "Death's Dance",
-  "Infinity Edge"
+  "Voltaic Cyclosword",
+  "Death's Dance"
  ],
  "pool": [
-  "Long Sword",
-  "Serrated Dirk",
-  "Hubris",
-  "Ionian Boots of Lucidity",
-  "Axiom Arc",
-  "Voltaic Cyclosword",
+  "Giant's Belt",
+  "Ruby Crystal",
+  "Heartsteel",
+  "Mercury's Treads",
+  "Thornmail",
+  "Kaenic Rookern",
   "Endless Hunger",
   "Overlord's Bloodmail",
   "Warmog's Armor",
+  "Unending Despair",
   "Lord Dominik's Regards",
   "Death's Dance",
-  "Infinity Edge"
+  "Voltaic Cyclosword"
  ]
 }

@@ -7,25 +7,26 @@
   "Mark"
  ],
  "starting": [
-  "The Brutalizer"
+  "Long Sword",
+  "Guardian's Blade"
  ],
  "core": [
-  "The Collector",
+  "Hubris",
   "Mercury's Treads",
-  "Infinity Edge",
-  "Lord Dominik's Regards"
+  "The Collector",
+  "Infinity Edge"
  ],
  "fourth": [
   "Endless Hunger",
   "Death's Dance",
-  "Axiom Arc",
-  "Voltaic Cyclosword"
+  "Lord Dominik's Regards",
+  "Axiom Arc"
  ],
  "fifth": [
   "Endless Hunger",
   "Death's Dance",
-  "Axiom Arc",
-  "Voltaic Cyclosword"
+  "Lord Dominik's Regards",
+  "Axiom Arc"
  ],
  "sixth": [
   "Death's Dance",
@@ -34,13 +35,15 @@
   "Voltaic Cyclosword"
  ],
  "pool": [
-  "The Brutalizer",
-  "The Collector",
+  "Long Sword",
+  "Guardian's Blade",
+  "Hubris",
   "Mercury's Treads",
+  "The Collector",
   "Infinity Edge",
-  "Lord Dominik's Regards",
   "Endless Hunger",
   "Death's Dance",
+  "Lord Dominik's Regards",
   "Axiom Arc",
   "Voltaic Cyclosword"
  ]

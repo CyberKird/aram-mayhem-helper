@@ -18,21 +18,21 @@
  ],
  "fourth": [
   "Spear of Shojin",
-  "Lord Dominik's Regards",
   "Archangel's Staff",
+  "Lord Dominik's Regards",
   "Infinity Edge"
  ],
  "fifth": [
-  "Lord Dominik's Regards",
   "Spear of Shojin",
+  "Archangel's Staff",
   "Serylda's Grudge",
-  "Archangel's Staff"
+  "Lord Dominik's Regards"
  ],
  "sixth": [
   "Archangel's Staff",
+  "Horizon Focus",
   "Axiom Arc",
-  "Serylda's Grudge",
-  "Lord Dominik's Regards"
+  "Serylda's Grudge"
  ],
  "pool": [
   "Tear of the Goddess",
@@ -42,10 +42,11 @@
   "Manamune",
   "Endless Hunger",
   "Spear of Shojin",
-  "Lord Dominik's Regards",
   "Archangel's Staff",
+  "Lord Dominik's Regards",
   "Infinity Edge",
   "Serylda's Grudge",
+  "Horizon Focus",
   "Axiom Arc"
  ]
 }

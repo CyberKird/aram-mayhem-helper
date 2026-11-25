@@ -7,45 +7,47 @@
   "Mark"
  ],
  "starting": [
-  "Needlessly Large Rod"
+  "Boots",
+  "Hextech Alternator"
  ],
  "core": [
-  "Shadowflame",
+  "Stormsurge",
   "Sorcerer's Shoes",
-  "Rabadon's Deathcap",
-  "Stormsurge"
+  "Shadowflame",
+  "Rabadon's Deathcap"
  ],
  "fourth": [
   "Unending Despair",
   "Warmog's Armor",
-  "Luden's Echo",
-  "Spirit Visage"
+  "Spirit Visage",
+  "Void Staff"
  ],
  "fifth": [
   "Jak'Sho, The Protean",
-  "Banshee's Veil",
-  "Void Staff",
-  "Warmog's Armor"
- ],
- "sixth": [
-  "Luden's Echo",
-  "Banshee's Veil",
-  "Void Staff",
-  "Zhonya's Hourglass"
- ],
- "pool": [
-  "Needlessly Large Rod",
-  "Shadowflame",
-  "Sorcerer's Shoes",
-  "Rabadon's Deathcap",
-  "Stormsurge",
   "Unending Despair",
   "Warmog's Armor",
+  "Void Staff"
+ ],
+ "sixth": [
+  "Riftmaker",
   "Luden's Echo",
-  "Spirit Visage",
-  "Jak'Sho, The Protean",
   "Banshee's Veil",
+  "Void Staff"
+ ],
+ "pool": [
+  "Boots",
+  "Hextech Alternator",
+  "Stormsurge",
+  "Sorcerer's Shoes",
+  "Shadowflame",
+  "Rabadon's Deathcap",
+  "Unending Despair",
+  "Warmog's Armor",
+  "Spirit Visage",
   "Void Staff",
-  "Zhonya's Hourglass"
+  "Jak'Sho, The Protean",
+  "Riftmaker",
+  "Luden's Echo",
+  "Banshee's Veil"
  ]
 }
