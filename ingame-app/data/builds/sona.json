@@ -7,9 +7,10 @@
   "Heal"
  ],
  "starting": [
-  "Ruby Crystal",
+  "Health Potion",
+  "Health Potion",
   "Tear of the Goddess",
-  "Forbidden Idol"
+  "Bandleglass Mirror"
  ],
  "core": [
   "Whispering Circlet",
@@ -26,8 +27,8 @@
  "fifth": [
   "Sword of Blossoming Dawn",
   "Dawncore",
-  "Ardent Censer",
-  "Echoes of Helia"
+  "Echoes of Helia",
+  "Ardent Censer"
  ],
  "sixth": [
   "Sword of Blossoming Dawn",
@@ -36,9 +37,9 @@
   "Dawncore"
  ],
  "pool": [
-  "Ruby Crystal",
+  "Health Potion",
   "Tear of the Goddess",
-  "Forbidden Idol",
+  "Bandleglass Mirror",
   "Whispering Circlet",
   "Ionian Boots of Lucidity",
   "Moonstone Renewer",

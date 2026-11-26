@@ -20,7 +20,7 @@
   "Lord Dominik's Regards",
   "Infinity Edge",
   "Endless Hunger",
-  "Terminus"
+  "Guinsoo's Rageblade"
  ],
  "fifth": [
   "Infinity Edge",
@@ -29,10 +29,10 @@
   "Guinsoo's Rageblade"
  ],
  "sixth": [
-  "Guinsoo's Rageblade",
   "Endless Hunger",
-  "Terminus",
-  "Infinity Edge"
+  "Guinsoo's Rageblade",
+  "Infinity Edge",
+  "Terminus"
  ],
  "pool": [
   "Dagger",
@@ -44,7 +44,7 @@
   "Lord Dominik's Regards",
   "Infinity Edge",
   "Endless Hunger",
-  "Terminus",
-  "Guinsoo's Rageblade"
+  "Guinsoo's Rageblade",
+  "Terminus"
  ]
 }

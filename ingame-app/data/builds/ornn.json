@@ -12,7 +12,7 @@
  ],
  "core": [
   "Heartsteel",
-  "Plated Steelcaps",
+  "Mercury's Treads",
   "Warmog's Armor",
   "Unending Despair"
  ],
@@ -25,20 +25,20 @@
  "fifth": [
   "Overlord's Bloodmail",
   "Hollow Radiance",
-  "Jak'Sho, The Protean",
-  "Spirit Visage"
+  "Spirit Visage",
+  "Jak'Sho, The Protean"
  ],
  "sixth": [
   "Overlord's Bloodmail",
-  "Sunfire Aegis",
   "Spirit Visage",
-  "Force of Nature"
+  "Sunfire Aegis",
+  "Jak'Sho, The Protean"
  ],
  "pool": [
   "Giant's Belt",
   "Ruby Crystal",
   "Heartsteel",
-  "Plated Steelcaps",
+  "Mercury's Treads",
   "Warmog's Armor",
   "Unending Despair",
   "Spirit Visage",
@@ -46,7 +46,6 @@
   "Hollow Radiance",
   "Kaenic Rookern",
   "Overlord's Bloodmail",
-  "Sunfire Aegis",
-  "Force of Nature"
+  "Sunfire Aegis"
  ]
 }

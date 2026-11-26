@@ -12,40 +12,38 @@
  "core": [
   "Blackfire Torch",
   "Sorcerer's Shoes",
-  "Rabadon's Deathcap",
+  "Liandry's Torment",
   "Shadowflame"
  ],
  "fourth": [
+  "Rabadon's Deathcap",
   "Archangel's Staff",
   "Stormsurge",
-  "Malignance",
-  "Liandry's Torment"
+  "Void Staff"
  ],
  "fifth": [
   "Stormsurge",
   "Archangel's Staff",
-  "Horizon Focus",
-  "Cryptbloom"
+  "Rabadon's Deathcap",
+  "Horizon Focus"
  ],
  "sixth": [
   "Stormsurge",
   "Horizon Focus",
   "Banshee's Veil",
-  "Void Staff"
+  "Archangel's Staff"
  ],
  "pool": [
   "Lost Chapter",
   "Blackfire Torch",
   "Sorcerer's Shoes",
-  "Rabadon's Deathcap",
+  "Liandry's Torment",
   "Shadowflame",
+  "Rabadon's Deathcap",
   "Archangel's Staff",
   "Stormsurge",
-  "Malignance",
-  "Liandry's Torment",
+  "Void Staff",
   "Horizon Focus",
-  "Cryptbloom",
-  "Banshee's Veil",
-  "Void Staff"
+  "Banshee's Veil"
  ]
 }

@@ -7,8 +7,8 @@
   "Mark"
  ],
  "starting": [
-  "Boots",
-  "Serrated Dirk"
+  "Long Sword",
+  "Guardian's Blade"
  ],
  "core": [
   "The Collector",
@@ -26,17 +26,17 @@
   "Endless Hunger",
   "Lord Dominik's Regards",
   "Bloodthirster",
-  "Mercurial Scimitar"
+  "Immortal Shieldbow"
  ],
  "sixth": [
   "Endless Hunger",
   "Maw of Malmortius",
   "Immortal Shieldbow",
-  "Spirit Visage"
+  "Lord Dominik's Regards"
  ],
  "pool": [
-  "Boots",
-  "Serrated Dirk",
+  "Long Sword",
+  "Guardian's Blade",
   "The Collector",
   "Mercury's Treads",
   "Hubris",
@@ -46,8 +46,6 @@
   "Bloodthirster",
   "Immortal Shieldbow",
   "Endless Hunger",
-  "Mercurial Scimitar",
-  "Maw of Malmortius",
-  "Spirit Visage"
+  "Maw of Malmortius"
  ]
 }

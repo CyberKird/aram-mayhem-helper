@@ -4,7 +4,7 @@
  "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
-  "Mark"
+  "Ghost"
  ],
  "starting": [
   "Giant's Belt",
@@ -19,12 +19,12 @@
  "fourth": [
   "Void Staff",
   "Rabadon's Deathcap",
-  "Shadowflame",
-  "Stormsurge"
+  "Stormsurge",
+  "Shadowflame"
  ],
  "fifth": [
-  "Void Staff",
   "Stormsurge",
+  "Void Staff",
   "Rabadon's Deathcap",
   "Shadowflame"
  ],
@@ -43,8 +43,8 @@
   "Riftmaker",
   "Void Staff",
   "Rabadon's Deathcap",
-  "Shadowflame",
   "Stormsurge",
+  "Shadowflame",
   "Spirit Visage",
   "Cosmic Drive"
  ]

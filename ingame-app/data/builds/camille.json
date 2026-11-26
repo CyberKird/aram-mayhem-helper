@@ -20,7 +20,7 @@
   "Endless Hunger",
   "Spear of Shojin",
   "Maw of Malmortius",
-  "Sterak's Gage"
+  "Spirit Visage"
  ],
  "fifth": [
   "Endless Hunger",
@@ -29,10 +29,10 @@
   "Spirit Visage"
  ],
  "sixth": [
-  "Sterak's Gage",
-  "Spirit Visage",
   "Spear of Shojin",
-  "Endless Hunger"
+  "Maw of Malmortius",
+  "Overlord's Bloodmail",
+  "Sterak's Gage"
  ],
  "pool": [
   "Long Sword",
@@ -44,7 +44,8 @@
   "Endless Hunger",
   "Spear of Shojin",
   "Maw of Malmortius",
-  "Sterak's Gage",
-  "Spirit Visage"
+  "Spirit Visage",
+  "Overlord's Bloodmail",
+  "Sterak's Gage"
  ]
 }

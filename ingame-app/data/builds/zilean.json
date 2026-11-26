@@ -7,16 +7,13 @@
   "Clarity"
  ],
  "starting": [
-  "Sapphire Crystal",
-  "Amplifying Tome",
-  "Glowing Mote",
-  "Tear of the Goddess"
+  "Lost Chapter"
  ],
  "core": [
   "Luden's Echo",
   "Ionian Boots of Lucidity",
-  "Rabadon's Deathcap",
-  "Archangel's Staff"
+  "Archangel's Staff",
+  "Rabadon's Deathcap"
  ],
  "fourth": [
   "Blackfire Torch",
@@ -34,17 +31,14 @@
   "Winter's Approach",
   "Rod of Ages",
   "Cosmic Drive",
-  "Cryptbloom"
+  "Blackfire Torch"
  ],
  "pool": [
-  "Sapphire Crystal",
-  "Amplifying Tome",
-  "Glowing Mote",
-  "Tear of the Goddess",
+  "Lost Chapter",
   "Luden's Echo",
   "Ionian Boots of Lucidity",
-  "Rabadon's Deathcap",
   "Archangel's Staff",
+  "Rabadon's Deathcap",
   "Blackfire Torch",
   "Cryptbloom",
   "Cosmic Drive",

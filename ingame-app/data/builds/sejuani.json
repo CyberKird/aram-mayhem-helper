@@ -19,22 +19,22 @@
   "Unending Despair"
  ],
  "fourth": [
-  "Hollow Radiance",
   "Jak'Sho, The Protean",
+  "Hollow Radiance",
   "Spirit Visage",
   "Winter's Approach"
  ],
  "fifth": [
-  "Spirit Visage",
+  "Frozen Heart",
   "Jak'Sho, The Protean",
-  "Force of Nature",
-  "Frozen Heart"
+  "Spirit Visage",
+  "Force of Nature"
  ],
  "sixth": [
-  "Overlord's Bloodmail",
-  "Sunfire Aegis",
+  "Jak'Sho, The Protean",
   "Riftmaker",
-  "Jak'Sho, The Protean"
+  "Sunfire Aegis",
+  "Overlord's Bloodmail"
  ],
  "pool": [
   "Giant's Belt",
@@ -44,14 +44,14 @@
   "Mercury's Treads",
   "Warmog's Armor",
   "Unending Despair",
-  "Hollow Radiance",
   "Jak'Sho, The Protean",
+  "Hollow Radiance",
   "Spirit Visage",
   "Winter's Approach",
-  "Force of Nature",
   "Frozen Heart",
-  "Overlord's Bloodmail",
+  "Force of Nature",
+  "Riftmaker",
   "Sunfire Aegis",
-  "Riftmaker"
+  "Overlord's Bloodmail"
  ]
 }

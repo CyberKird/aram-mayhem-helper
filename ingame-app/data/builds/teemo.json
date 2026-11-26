@@ -12,14 +12,14 @@
  "core": [
   "Malignance",
   "Sorcerer's Shoes",
-  "Liandry's Torment",
-  "Blackfire Torch"
+  "Blackfire Torch",
+  "Liandry's Torment"
  ],
  "fourth": [
   "Statikk Shiv",
   "Rabadon's Deathcap",
-  "Lich Bane",
-  "Shadowflame"
+  "Shadowflame",
+  "Nashor's Tooth"
  ],
  "fifth": [
   "Statikk Shiv",
@@ -37,11 +37,10 @@
   "Lost Chapter",
   "Malignance",
   "Sorcerer's Shoes",
-  "Liandry's Torment",
   "Blackfire Torch",
+  "Liandry's Torment",
   "Statikk Shiv",
   "Rabadon's Deathcap",
-  "Lich Bane",
   "Shadowflame",
   "Nashor's Tooth",
   "Stormsurge",

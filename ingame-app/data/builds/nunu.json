@@ -7,24 +7,23 @@
   "Mark"
  ],
  "starting": [
-  "Boots",
   "Hextech Alternator"
  ],
  "core": [
   "Stormsurge",
   "Sorcerer's Shoes",
-  "Shadowflame",
-  "Rabadon's Deathcap"
+  "Rabadon's Deathcap",
+  "Shadowflame"
  ],
  "fourth": [
-  "Unending Despair",
   "Warmog's Armor",
+  "Unending Despair",
   "Spirit Visage",
   "Void Staff"
  ],
  "fifth": [
-  "Jak'Sho, The Protean",
   "Unending Despair",
+  "Jak'Sho, The Protean",
   "Warmog's Armor",
   "Void Staff"
  ],
@@ -35,14 +34,13 @@
   "Void Staff"
  ],
  "pool": [
-  "Boots",
   "Hextech Alternator",
   "Stormsurge",
   "Sorcerer's Shoes",
-  "Shadowflame",
   "Rabadon's Deathcap",
-  "Unending Despair",
+  "Shadowflame",
   "Warmog's Armor",
+  "Unending Despair",
   "Spirit Visage",
   "Void Staff",
   "Jak'Sho, The Protean",

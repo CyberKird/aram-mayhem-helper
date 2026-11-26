@@ -7,8 +7,6 @@
   "Cleanse"
  ],
  "starting": [
-  "Pickaxe",
-  "Dagger",
   "Dagger"
  ],
  "core": [
@@ -30,13 +28,12 @@
   "Lord Dominik's Regards"
  ],
  "sixth": [
+  "Jak'Sho, The Protean",
   "Bloodthirster",
   "Wit's End",
-  "Jak'Sho, The Protean",
   "Kraken Slayer"
  ],
  "pool": [
-  "Pickaxe",
   "Dagger",
   "Statikk Shiv",
   "Berserker's Greaves",

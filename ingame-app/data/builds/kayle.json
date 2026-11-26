@@ -8,43 +8,45 @@
  ],
  "starting": [
   "Blasting Wand",
-  "Amplifying Tome"
+  "Amplifying Tome",
+  "Refillable Potion"
  ],
  "core": [
   "Nashor's Tooth",
   "Berserker's Greaves",
   "Rabadon's Deathcap",
-  "Shadowflame"
+  "Dusk and Dawn"
  ],
  "fourth": [
-  "Dusk and Dawn",
+  "Shadowflame",
   "Statikk Shiv",
   "Runaan's Hurricane",
-  "Terminus"
+  "Guinsoo's Rageblade"
  ],
  "fifth": [
+  "Shadowflame",
   "Void Staff",
   "Statikk Shiv",
-  "Dusk and Dawn",
   "Riftmaker"
  ],
  "sixth": [
   "Void Staff",
   "Hextech Gunblade",
-  "Terminus",
-  "Statikk Shiv"
+  "Statikk Shiv",
+  "Shadowflame"
  ],
  "pool": [
   "Blasting Wand",
   "Amplifying Tome",
+  "Refillable Potion",
   "Nashor's Tooth",
   "Berserker's Greaves",
   "Rabadon's Deathcap",
-  "Shadowflame",
   "Dusk and Dawn",
+  "Shadowflame",
   "Statikk Shiv",
   "Runaan's Hurricane",
-  "Terminus",
+  "Guinsoo's Rageblade",
   "Void Staff",
   "Riftmaker",
   "Hextech Gunblade"

@@ -7,7 +7,7 @@
   "Mark"
  ],
  "starting": [
-  "Boots",
+  "Dagger",
   "Vampiric Scepter"
  ],
  "core": [
@@ -18,34 +18,35 @@
  ],
  "fourth": [
   "Ravenous Hydra",
-  "Trinity Force",
   "Spirit Visage",
+  "Trinity Force",
   "Titanic Hydra"
  ],
  "fifth": [
   "Ravenous Hydra",
-  "Terminus",
   "Spirit Visage",
+  "Terminus",
   "Sterak's Gage"
  ],
  "sixth": [
+  "Overlord's Bloodmail",
   "Spirit Visage",
-  "Sterak's Gage",
-  "Terminus",
-  "Ravenous Hydra"
+  "Ravenous Hydra",
+  "Terminus"
  ],
  "pool": [
-  "Boots",
+  "Dagger",
   "Vampiric Scepter",
   "Blade of The Ruined King",
   "Mercury's Treads",
   "Death's Dance",
   "Endless Hunger",
   "Ravenous Hydra",
-  "Trinity Force",
   "Spirit Visage",
+  "Trinity Force",
   "Titanic Hydra",
   "Terminus",
-  "Sterak's Gage"
+  "Sterak's Gage",
+  "Overlord's Bloodmail"
  ]
 }

@@ -11,14 +11,15 @@
  ],
  "core": [
   "Malignance",
+  "Sorcerer's Shoes",
   "Shadowflame",
   "Rabadon's Deathcap"
  ],
  "fourth": [
   "Knight's Vow",
   "Warmog's Armor",
-  "Winter's Approach",
-  "Jak'Sho, The Protean"
+  "Jak'Sho, The Protean",
+  "Winter's Approach"
  ],
  "fifth": [
   "Knight's Vow",
@@ -27,22 +28,22 @@
   "Jak'Sho, The Protean"
  ],
  "sixth": [
-  "Frozen Heart",
   "Knight's Vow",
-  "Zeke's Convergence",
-  "Winter's Approach"
+  "Frozen Heart",
+  "Spirit Visage",
+  "Jak'Sho, The Protean"
  ],
  "pool": [
   "Lost Chapter",
   "Malignance",
+  "Sorcerer's Shoes",
   "Shadowflame",
   "Rabadon's Deathcap",
   "Knight's Vow",
   "Warmog's Armor",
-  "Winter's Approach",
   "Jak'Sho, The Protean",
+  "Winter's Approach",
   "Spirit Visage",
-  "Frozen Heart",
-  "Zeke's Convergence"
+  "Frozen Heart"
  ]
 }

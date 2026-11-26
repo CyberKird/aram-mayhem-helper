@@ -7,44 +7,43 @@
   "Mark"
  ],
  "starting": [
-  "Amplifying Tome",
-  "Guardian's Orb"
+  "Giant's Belt",
+  "Ruby Crystal"
  ],
  "core": [
-  "Shadowflame",
-  "Sorcerer's Shoes",
-  "Lich Bane",
-  "Rabadon's Deathcap"
+  "Heartsteel",
+  "Mercury's Treads",
+  "Spirit Visage",
+  "Riftmaker"
  ],
  "fourth": [
+  "Rabadon's Deathcap",
   "Void Staff",
-  "Stormsurge",
-  "Unending Despair",
-  "Spirit Visage"
+  "Lich Bane",
+  "Stormsurge"
  ],
  "fifth": [
-  "Stormsurge",
-  "Void Staff",
-  "Riftmaker",
-  "Spirit Visage"
- ],
- "sixth": [
-  "Riftmaker",
-  "Void Staff",
-  "Stormsurge",
-  "Spirit Visage"
- ],
- "pool": [
-  "Amplifying Tome",
-  "Guardian's Orb",
-  "Shadowflame",
-  "Sorcerer's Shoes",
   "Lich Bane",
   "Rabadon's Deathcap",
   "Void Staff",
-  "Stormsurge",
-  "Unending Despair",
+  "Stormsurge"
+ ],
+ "sixth": [
+  "Void Staff",
+  "Lich Bane",
+  "Rabadon's Deathcap",
+  "Stormsurge"
+ ],
+ "pool": [
+  "Giant's Belt",
+  "Ruby Crystal",
+  "Heartsteel",
+  "Mercury's Treads",
   "Spirit Visage",
-  "Riftmaker"
+  "Riftmaker",
+  "Rabadon's Deathcap",
+  "Void Staff",
+  "Lich Bane",
+  "Stormsurge"
  ]
 }

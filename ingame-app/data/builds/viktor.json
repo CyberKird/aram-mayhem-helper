@@ -16,8 +16,8 @@
   "Rabadon's Deathcap"
  ],
  "fourth": [
-  "Lich Bane",
   "Archangel's Staff",
+  "Lich Bane",
   "Void Staff",
   "Stormsurge"
  ],
@@ -25,13 +25,13 @@
   "Lich Bane",
   "Stormsurge",
   "Archangel's Staff",
-  "Cryptbloom"
+  "Void Staff"
  ],
  "sixth": [
   "Lich Bane",
   "Stormsurge",
-  "Cryptbloom",
-  "Banshee's Veil"
+  "Banshee's Veil",
+  "Cryptbloom"
  ],
  "pool": [
   "Lost Chapter",
@@ -39,11 +39,11 @@
   "Sorcerer's Shoes",
   "Shadowflame",
   "Rabadon's Deathcap",
-  "Lich Bane",
   "Archangel's Staff",
+  "Lich Bane",
   "Void Staff",
   "Stormsurge",
-  "Cryptbloom",
-  "Banshee's Veil"
+  "Banshee's Veil",
+  "Cryptbloom"
  ]
 }

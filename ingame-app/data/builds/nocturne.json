@@ -7,42 +7,43 @@
   "Mark"
  ],
  "starting": [
-  "The Brutalizer"
+  "Refillable Potion",
+  "Tiamat"
  ],
  "core": [
-  "Axiom Arc",
+  "Stridebreaker",
   "Mercury's Treads",
   "Experimental Hexplate",
-  "Stridebreaker"
+  "Axiom Arc"
  ],
  "fourth": [
-  "Endless Hunger",
   "Death's Dance",
+  "Endless Hunger",
   "Voltaic Cyclosword",
   "Lord Dominik's Regards"
  ],
  "fifth": [
   "Endless Hunger",
   "Lord Dominik's Regards",
-  "Voltaic Cyclosword",
-  "Death's Dance"
+  "Death's Dance",
+  "Voltaic Cyclosword"
  ],
  "sixth": [
-  "Endless Hunger",
   "Lord Dominik's Regards",
   "Death's Dance",
-  "Infinity Edge"
+  "Endless Hunger",
+  "Voltaic Cyclosword"
  ],
  "pool": [
-  "The Brutalizer",
-  "Axiom Arc",
+  "Refillable Potion",
+  "Tiamat",
+  "Stridebreaker",
   "Mercury's Treads",
   "Experimental Hexplate",
-  "Stridebreaker",
-  "Endless Hunger",
+  "Axiom Arc",
   "Death's Dance",
+  "Endless Hunger",
   "Voltaic Cyclosword",
-  "Lord Dominik's Regards",
-  "Infinity Edge"
+  "Lord Dominik's Regards"
  ]
 }

@@ -17,21 +17,21 @@
  ],
  "fourth": [
   "Shadowflame",
-  "Void Staff",
   "Archangel's Staff",
+  "Void Staff",
   "Rylai's Crystal Scepter"
  ],
  "fifth": [
-  "Shadowflame",
   "Archangel's Staff",
-  "Bloodletter's Curse",
-  "Void Staff"
+  "Shadowflame",
+  "Void Staff",
+  "Bloodletter's Curse"
  ],
  "sixth": [
   "Archangel's Staff",
-  "Void Staff",
-  "Bloodletter's Curse",
-  "Banshee's Veil"
+  "Shadowflame",
+  "Banshee's Veil",
+  "Void Staff"
  ],
  "pool": [
   "Lost Chapter",
@@ -40,8 +40,8 @@
   "Liandry's Torment",
   "Rabadon's Deathcap",
   "Shadowflame",
-  "Void Staff",
   "Archangel's Staff",
+  "Void Staff",
   "Rylai's Crystal Scepter",
   "Bloodletter's Curse",
   "Banshee's Veil"

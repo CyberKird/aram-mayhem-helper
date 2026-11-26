@@ -26,13 +26,13 @@
   "Stormsurge",
   "Void Staff",
   "Riftmaker",
-  "Malignance"
+  "Bloodletter's Curse"
  ],
  "sixth": [
   "Stormsurge",
-  "Void Staff",
   "Riftmaker",
-  "Malignance"
+  "Void Staff",
+  "Bloodletter's Curse"
  ],
  "pool": [
   "Amplifying Tome",
@@ -44,7 +44,6 @@
   "Stormsurge",
   "Void Staff",
   "Riftmaker",
-  "Bloodletter's Curse",
-  "Malignance"
+  "Bloodletter's Curse"
  ]
 }

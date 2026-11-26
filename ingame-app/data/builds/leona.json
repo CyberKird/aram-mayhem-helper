@@ -20,19 +20,19 @@
   "Jak'Sho, The Protean",
   "Sunfire Aegis",
   "Spirit Visage",
-  "Randuin's Omen"
+  "Hollow Radiance"
  ],
  "fifth": [
   "Frozen Heart",
   "Sunfire Aegis",
-  "Jak'Sho, The Protean",
-  "Hollow Radiance"
+  "Overlord's Bloodmail",
+  "Jak'Sho, The Protean"
  ],
  "sixth": [
   "Frozen Heart",
-  "Overlord's Bloodmail",
-  "Jak'Sho, The Protean",
-  "Sunfire Aegis"
+  "Sunfire Aegis",
+  "Spirit Visage",
+  "Jak'Sho, The Protean"
  ],
  "pool": [
   "Giant's Belt",
@@ -44,9 +44,8 @@
   "Jak'Sho, The Protean",
   "Sunfire Aegis",
   "Spirit Visage",
-  "Randuin's Omen",
-  "Frozen Heart",
   "Hollow Radiance",
+  "Frozen Heart",
   "Overlord's Bloodmail"
  ]
 }

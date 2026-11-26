@@ -8,7 +8,8 @@
  ],
  "starting": [
   "Long Sword",
-  "Pickaxe"
+  "Pickaxe",
+  "Refillable Potion"
  ],
  "core": [
   "The Collector",
@@ -20,13 +21,13 @@
   "Axiom Arc",
   "Hexoptics C44",
   "Lord Dominik's Regards",
-  "Bloodthirster"
+  "Phantom Dancer"
  ],
  "fifth": [
   "Endless Hunger",
   "Axiom Arc",
-  "Lord Dominik's Regards",
-  "Hexoptics C44"
+  "Hexoptics C44",
+  "Lord Dominik's Regards"
  ],
  "sixth": [
   "Endless Hunger",
@@ -37,6 +38,7 @@
  "pool": [
   "Long Sword",
   "Pickaxe",
+  "Refillable Potion",
   "The Collector",
   "Berserker's Greaves",
   "Infinity Edge",
@@ -44,7 +46,7 @@
   "Axiom Arc",
   "Hexoptics C44",
   "Lord Dominik's Regards",
-  "Bloodthirster",
+  "Phantom Dancer",
   "Endless Hunger",
   "Youmuu's Ghostblade",
   "Edge of Night"

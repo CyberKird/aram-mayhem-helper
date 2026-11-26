@@ -18,21 +18,21 @@
  ],
  "fourth": [
   "Archangel's Staff",
+  "Shadowflame",
   "Void Staff",
-  "Cryptbloom",
-  "Shadowflame"
+  "Cryptbloom"
  ],
  "fifth": [
   "Shadowflame",
   "Archangel's Staff",
   "Cryptbloom",
-  "Void Staff"
+  "Stormsurge"
  ],
  "sixth": [
   "Shadowflame",
   "Stormsurge",
-  "Void Staff",
-  "Cryptbloom"
+  "Cryptbloom",
+  "Void Staff"
  ],
  "pool": [
   "Refillable Potion",
@@ -42,9 +42,9 @@
   "Liandry's Torment",
   "Rabadon's Deathcap",
   "Archangel's Staff",
+  "Shadowflame",
   "Void Staff",
   "Cryptbloom",
-  "Shadowflame",
   "Stormsurge"
  ]
 }

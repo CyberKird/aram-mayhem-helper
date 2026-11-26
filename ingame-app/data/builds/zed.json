@@ -19,14 +19,14 @@
  "fourth": [
   "Death's Dance",
   "Infinity Edge",
-  "Serylda's Grudge",
-  "Voltaic Cyclosword"
+  "Voltaic Cyclosword",
+  "Serylda's Grudge"
  ],
  "fifth": [
   "Death's Dance",
   "Infinity Edge",
   "Axiom Arc",
-  "Voltaic Cyclosword"
+  "Serylda's Grudge"
  ],
  "sixth": [
   "Death's Dance",
@@ -43,8 +43,8 @@
   "Lord Dominik's Regards",
   "Death's Dance",
   "Infinity Edge",
-  "Serylda's Grudge",
   "Voltaic Cyclosword",
+  "Serylda's Grudge",
   "Axiom Arc",
   "Maw of Malmortius"
  ]

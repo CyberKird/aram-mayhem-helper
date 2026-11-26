@@ -24,14 +24,14 @@
  "fifth": [
   "Bloodthirster",
   "Navori Flickerblade",
-  "Kraken Slayer",
+  "The Collector",
   "Phantom Dancer"
  ],
  "sixth": [
   "Bloodthirster",
-  "Navori Flickerblade",
   "Phantom Dancer",
-  "Blade of The Ruined King"
+  "Kraken Slayer",
+  "Navori Flickerblade"
  ],
  "pool": [
   "B. F. Sword",
@@ -43,8 +43,7 @@
   "The Collector",
   "Bloodthirster",
   "Mortal Reminder",
-  "Kraken Slayer",
   "Phantom Dancer",
-  "Blade of The Ruined King"
+  "Kraken Slayer"
  ]
 }

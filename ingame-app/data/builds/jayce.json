@@ -11,16 +11,16 @@
   "Guardian's Blade"
  ],
  "core": [
-  "Hubris",
-  "Ionian Boots of Lucidity",
+  "Voltaic Cyclosword",
+  "Mercury's Treads",
   "Manamune",
   "Lord Dominik's Regards"
  ],
  "fourth": [
   "Endless Hunger",
-  "Voltaic Cyclosword",
   "Infinity Edge",
-  "Serylda's Grudge"
+  "Serylda's Grudge",
+  "The Collector"
  ],
  "fifth": [
   "Endless Hunger",
@@ -37,16 +37,15 @@
  "pool": [
   "Tear of the Goddess",
   "Guardian's Blade",
-  "Hubris",
-  "Ionian Boots of Lucidity",
+  "Voltaic Cyclosword",
+  "Mercury's Treads",
   "Manamune",
   "Lord Dominik's Regards",
   "Endless Hunger",
-  "Voltaic Cyclosword",
   "Infinity Edge",
   "Serylda's Grudge",
-  "Death's Dance",
   "The Collector",
+  "Death's Dance",
   "Youmuu's Ghostblade",
   "Maw of Malmortius"
  ]

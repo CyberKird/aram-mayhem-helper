@@ -7,8 +7,8 @@
   "Ghost"
  ],
  "starting": [
-  "Pickaxe",
-  "Dagger"
+  "Long Sword",
+  "Pickaxe"
  ],
  "core": [
   "Blade of The Ruined King",
@@ -29,14 +29,14 @@
   "Infinity Edge"
  ],
  "sixth": [
-  "Bloodthirster",
   "Lord Dominik's Regards",
-  "Experimental Hexplate",
-  "Kaenic Rookern"
+  "Bloodthirster",
+  "Phantom Dancer",
+  "Kraken Slayer"
  ],
  "pool": [
+  "Long Sword",
   "Pickaxe",
-  "Dagger",
   "Blade of The Ruined King",
   "Berserker's Greaves",
   "Guinsoo's Rageblade",
@@ -46,7 +46,6 @@
   "Infinity Edge",
   "Kraken Slayer",
   "Bloodthirster",
-  "Experimental Hexplate",
-  "Kaenic Rookern"
+  "Phantom Dancer"
  ]
 }

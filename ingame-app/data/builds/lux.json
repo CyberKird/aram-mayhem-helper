@@ -19,20 +19,20 @@
  "fourth": [
   "Archangel's Staff",
   "Stormsurge",
-  "Horizon Focus",
+  "Malignance",
   "Void Staff"
  ],
  "fifth": [
   "Stormsurge",
-  "Archangel's Staff",
   "Horizon Focus",
+  "Archangel's Staff",
   "Cryptbloom"
  ],
  "sixth": [
-  "Stormsurge",
   "Banshee's Veil",
-  "Cryptbloom",
-  "Horizon Focus"
+  "Stormsurge",
+  "Horizon Focus",
+  "Cryptbloom"
  ],
  "pool": [
   "Refillable Potion",
@@ -43,8 +43,9 @@
   "Shadowflame",
   "Archangel's Staff",
   "Stormsurge",
-  "Horizon Focus",
+  "Malignance",
   "Void Staff",
+  "Horizon Focus",
   "Cryptbloom",
   "Banshee's Veil"
  ]

@@ -12,7 +12,7 @@
  ],
  "core": [
   "Trinity Force",
-  "Ionian Boots of Lucidity",
+  "Mercury's Treads",
   "Manamune",
   "Endless Hunger"
  ],
@@ -20,33 +20,32 @@
   "Spear of Shojin",
   "Archangel's Staff",
   "Lord Dominik's Regards",
-  "Infinity Edge"
+  "Serylda's Grudge"
  ],
  "fifth": [
-  "Spear of Shojin",
   "Archangel's Staff",
+  "Spear of Shojin",
   "Serylda's Grudge",
   "Lord Dominik's Regards"
  ],
  "sixth": [
   "Archangel's Staff",
-  "Horizon Focus",
   "Axiom Arc",
-  "Serylda's Grudge"
+  "Horizon Focus",
+  "Lord Dominik's Regards"
  ],
  "pool": [
   "Tear of the Goddess",
   "Guardian's Blade",
   "Trinity Force",
-  "Ionian Boots of Lucidity",
+  "Mercury's Treads",
   "Manamune",
   "Endless Hunger",
   "Spear of Shojin",
   "Archangel's Staff",
   "Lord Dominik's Regards",
-  "Infinity Edge",
   "Serylda's Grudge",
-  "Horizon Focus",
-  "Axiom Arc"
+  "Axiom Arc",
+  "Horizon Focus"
  ]
 }

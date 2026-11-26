@@ -7,7 +7,8 @@
   "Ghost"
  ],
  "starting": [
-  "Blasting Wand",
+  "Sapphire Crystal",
+  "Ruby Crystal",
   "Tear of the Goddess"
  ],
  "core": [
@@ -23,8 +24,8 @@
   "Shadowflame"
  ],
  "fifth": [
-  "Riftmaker",
   "Winter's Approach",
+  "Riftmaker",
   "Actualizer",
   "Shadowflame"
  ],
@@ -35,7 +36,8 @@
   "Shadowflame"
  ],
  "pool": [
-  "Blasting Wand",
+  "Sapphire Crystal",
+  "Ruby Crystal",
   "Tear of the Goddess",
   "Rod of Ages",
   "Sorcerer's Shoes",

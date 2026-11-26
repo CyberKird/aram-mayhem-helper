@@ -7,7 +7,8 @@
   "Ghost"
  ],
  "starting": [
-  "Serrated Dirk"
+  "Long Sword",
+  "Pickaxe"
  ],
  "core": [
   "The Collector",
@@ -18,8 +19,8 @@
  "fourth": [
   "Axiom Arc",
   "Lord Dominik's Regards",
-  "Infinity Edge",
-  "Bloodthirster"
+  "Bloodthirster",
+  "Infinity Edge"
  ],
  "fifth": [
   "Axiom Arc",
@@ -28,23 +29,24 @@
   "Rapid Firecannon"
  ],
  "sixth": [
-  "Endless Hunger",
   "Axiom Arc",
+  "Endless Hunger",
   "Bloodthirster",
-  "Kraken Slayer"
+  "Edge of Night"
  ],
  "pool": [
-  "Serrated Dirk",
+  "Long Sword",
+  "Pickaxe",
   "The Collector",
   "Berserker's Greaves",
   "Statikk Shiv",
   "Blade of The Ruined King",
   "Axiom Arc",
   "Lord Dominik's Regards",
-  "Infinity Edge",
   "Bloodthirster",
+  "Infinity Edge",
   "Rapid Firecannon",
   "Endless Hunger",
-  "Kraken Slayer"
+  "Edge of Night"
  ]
 }

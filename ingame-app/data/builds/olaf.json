@@ -19,19 +19,19 @@
   "Endless Hunger",
   "Sterak's Gage",
   "Ravenous Hydra",
-  "Blade of The Ruined King"
+  "Sundered Sky"
  ],
  "fifth": [
-  "Endless Hunger",
   "Maw of Malmortius",
-  "Overlord's Bloodmail",
+  "Endless Hunger",
+  "Sterak's Gage",
   "Spirit Visage"
  ],
  "sixth": [
-  "Spirit Visage",
-  "Overlord's Bloodmail",
+  "Endless Hunger",
   "Sterak's Gage",
-  "Endless Hunger"
+  "Spirit Visage",
+  "Maw of Malmortius"
  ],
  "pool": [
   "Tiamat",
@@ -42,9 +42,8 @@
   "Endless Hunger",
   "Sterak's Gage",
   "Ravenous Hydra",
-  "Blade of The Ruined King",
+  "Sundered Sky",
   "Maw of Malmortius",
-  "Overlord's Bloodmail",
   "Spirit Visage"
  ]
 }

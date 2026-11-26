@@ -19,20 +19,20 @@
  "fourth": [
   "Lord Dominik's Regards",
   "Overlord's Bloodmail",
-  "Maw of Malmortius",
-  "Warmog's Armor"
+  "Warmog's Armor",
+  "Maw of Malmortius"
  ],
  "fifth": [
   "Lord Dominik's Regards",
-  "Maw of Malmortius",
   "Overlord's Bloodmail",
+  "Maw of Malmortius",
   "Infinity Edge"
  ],
  "sixth": [
   "Lord Dominik's Regards",
   "Overlord's Bloodmail",
-  "Sterak's Gage",
-  "Infinity Edge"
+  "Infinity Edge",
+  "Sterak's Gage"
  ],
  "pool": [
   "Long Sword",
@@ -43,8 +43,8 @@
   "Endless Hunger",
   "Lord Dominik's Regards",
   "Overlord's Bloodmail",
-  "Maw of Malmortius",
   "Warmog's Armor",
+  "Maw of Malmortius",
   "Infinity Edge",
   "Sterak's Gage"
  ]

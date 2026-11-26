@@ -17,22 +17,22 @@
   "Warmog's Armor"
  ],
  "fourth": [
-  "Unending Despair",
-  "Endless Hunger",
-  "Sterak's Gage",
-  "Death's Dance"
- ],
- "fifth": [
-  "Endless Hunger",
-  "Unending Despair",
-  "Jak'Sho, The Protean",
-  "Iceborn Gauntlet"
- ],
- "sixth": [
   "Endless Hunger",
   "Unending Despair",
   "Sterak's Gage",
   "Jak'Sho, The Protean"
+ ],
+ "fifth": [
+  "Endless Hunger",
+  "Unending Despair",
+  "Sterak's Gage",
+  "Jak'Sho, The Protean"
+ ],
+ "sixth": [
+  "Endless Hunger",
+  "Sterak's Gage",
+  "Unending Despair",
+  "Sundered Sky"
  ],
  "pool": [
   "Giant's Belt",
@@ -41,11 +41,10 @@
   "Mercury's Treads",
   "Overlord's Bloodmail",
   "Warmog's Armor",
-  "Unending Despair",
   "Endless Hunger",
+  "Unending Despair",
   "Sterak's Gage",
-  "Death's Dance",
   "Jak'Sho, The Protean",
-  "Iceborn Gauntlet"
+  "Sundered Sky"
  ]
 }

@@ -7,19 +7,20 @@
   "Mark"
  ],
  "starting": [
-  "Haunting Guise"
+  "Giant's Belt",
+  "Ruby Crystal"
  ],
  "core": [
-  "Riftmaker",
+  "Heartsteel",
   "Mercury's Treads",
-  "Spirit Visage",
-  "Rylai's Crystal Scepter"
+  "Riftmaker",
+  "Spirit Visage"
  ],
  "fourth": [
   "Warmog's Armor",
   "Dusk and Dawn",
   "Unending Despair",
-  "Rabadon's Deathcap"
+  "Liandry's Torment"
  ],
  "fifth": [
   "Dusk and Dawn",
@@ -31,17 +32,20 @@
   "Dusk and Dawn",
   "Warmog's Armor",
   "Unending Despair",
-  "Rabadon's Deathcap"
+  "Jak'Sho, The Protean"
  ],
  "pool": [
-  "Haunting Guise",
-  "Riftmaker",
+  "Giant's Belt",
+  "Ruby Crystal",
+  "Heartsteel",
   "Mercury's Treads",
+  "Riftmaker",
   "Spirit Visage",
-  "Rylai's Crystal Scepter",
   "Warmog's Armor",
   "Dusk and Dawn",
   "Unending Despair",
-  "Rabadon's Deathcap"
+  "Liandry's Torment",
+  "Rabadon's Deathcap",
+  "Jak'Sho, The Protean"
  ]
 }

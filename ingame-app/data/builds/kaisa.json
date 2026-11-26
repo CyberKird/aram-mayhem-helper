@@ -7,24 +7,25 @@
   "Ghost"
  ],
  "starting": [
-  "Lost Chapter"
+  "Pickaxe",
+  "Tear of the Goddess"
  ],
  "core": [
-  "Luden's Echo",
-  "Sorcerer's Shoes",
   "Statikk Shiv",
+  "Sorcerer's Shoes",
+  "Shadowflame",
   "Manamune"
  ],
  "fourth": [
   "Dusk and Dawn",
   "Rabadon's Deathcap",
   "Stormsurge",
-  "Shadowflame"
+  "Horizon Focus"
  ],
  "fifth": [
   "Stormsurge",
-  "Dusk and Dawn",
   "Horizon Focus",
+  "Dusk and Dawn",
   "Rabadon's Deathcap"
  ],
  "sixth": [
@@ -34,15 +35,15 @@
   "Dusk and Dawn"
  ],
  "pool": [
-  "Lost Chapter",
-  "Luden's Echo",
-  "Sorcerer's Shoes",
+  "Pickaxe",
+  "Tear of the Goddess",
   "Statikk Shiv",
+  "Sorcerer's Shoes",
+  "Shadowflame",
   "Manamune",
   "Dusk and Dawn",
   "Rabadon's Deathcap",
   "Stormsurge",
-  "Shadowflame",
   "Horizon Focus",
   "Void Staff"
  ]

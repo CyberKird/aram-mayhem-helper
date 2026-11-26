@@ -7,8 +7,8 @@
   "Mark"
  ],
  "starting": [
-  "Blasting Wand",
-  "Amplifying Tome"
+  "Amplifying Tome",
+  "Guardian's Orb"
  ],
  "core": [
   "Lich Bane",
@@ -31,11 +31,11 @@
   "Void Staff",
   "Banshee's Veil",
   "Zhonya's Hourglass",
-  "Stormsurge"
+  "Luden's Echo"
  ],
  "pool": [
-  "Blasting Wand",
   "Amplifying Tome",
+  "Guardian's Orb",
   "Lich Bane",
   "Sorcerer's Shoes",
   "Rabadon's Deathcap",
@@ -43,6 +43,7 @@
   "Void Staff",
   "Stormsurge",
   "Zhonya's Hourglass",
-  "Banshee's Veil"
+  "Banshee's Veil",
+  "Luden's Echo"
  ]
 }

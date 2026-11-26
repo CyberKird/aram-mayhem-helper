@@ -16,8 +16,8 @@
   "Rabadon's Deathcap"
  ],
  "fourth": [
-  "Archangel's Staff",
   "Void Staff",
+  "Archangel's Staff",
   "Terminus",
   "Liandry's Torment"
  ],
@@ -25,13 +25,13 @@
   "Void Staff",
   "Archangel's Staff",
   "Terminus",
-  "Guinsoo's Rageblade"
+  "Kraken Slayer"
  ],
  "sixth": [
   "Terminus",
   "Void Staff",
   "Archangel's Staff",
-  "Kraken Slayer"
+  "Wit's End"
  ],
  "pool": [
   "Lost Chapter",
@@ -39,11 +39,11 @@
   "Sorcerer's Shoes",
   "Shadowflame",
   "Rabadon's Deathcap",
-  "Archangel's Staff",
   "Void Staff",
+  "Archangel's Staff",
   "Terminus",
   "Liandry's Torment",
-  "Guinsoo's Rageblade",
-  "Kraken Slayer"
+  "Kraken Slayer",
+  "Wit's End"
  ]
 }

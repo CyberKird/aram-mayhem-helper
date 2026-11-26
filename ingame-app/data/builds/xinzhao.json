@@ -18,21 +18,21 @@
  ],
  "fourth": [
   "Nashor's Tooth",
-  "Rabadon's Deathcap",
   "Riftmaker",
+  "Rabadon's Deathcap",
   "Spirit Visage"
  ],
  "fifth": [
   "Nashor's Tooth",
   "Riftmaker",
-  "Rabadon's Deathcap",
-  "Spirit Visage"
+  "Spirit Visage",
+  "Rabadon's Deathcap"
  ],
  "sixth": [
   "Nashor's Tooth",
-  "Riftmaker",
   "Rabadon's Deathcap",
-  "Guinsoo's Rageblade"
+  "Riftmaker",
+  "Wit's End"
  ],
  "pool": [
   "Amplifying Tome",
@@ -42,9 +42,9 @@
   "Dusk and Dawn",
   "Death's Dance",
   "Nashor's Tooth",
-  "Rabadon's Deathcap",
   "Riftmaker",
+  "Rabadon's Deathcap",
   "Spirit Visage",
-  "Guinsoo's Rageblade"
+  "Wit's End"
  ]
 }

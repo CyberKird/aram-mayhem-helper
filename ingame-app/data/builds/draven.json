@@ -7,9 +7,7 @@
   "Ghost"
  ],
  "starting": [
-  "Boots",
-  "Health Potion",
-  "Health Potion",
+  "Long Sword",
   "Serrated Dirk"
  ],
  "core": [
@@ -33,12 +31,11 @@
  "sixth": [
   "Voltaic Cyclosword",
   "Endless Hunger",
-  "Death's Dance",
-  "Axiom Arc"
+  "Axiom Arc",
+  "Death's Dance"
  ],
  "pool": [
-  "Boots",
-  "Health Potion",
+  "Long Sword",
   "Serrated Dirk",
   "Hubris",
   "Berserker's Greaves",

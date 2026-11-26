@@ -7,8 +7,9 @@
   "Mark"
  ],
  "starting": [
-  "Long Sword",
-  "Pickaxe"
+  "Dagger",
+  "Dagger",
+  "Vampiric Scepter"
  ],
  "core": [
   "Blade of The Ruined King",
@@ -35,8 +36,8 @@
   "Experimental Hexplate"
  ],
  "pool": [
-  "Long Sword",
-  "Pickaxe",
+  "Dagger",
+  "Vampiric Scepter",
   "Blade of The Ruined King",
   "Berserker's Greaves",
   "Phantom Dancer",

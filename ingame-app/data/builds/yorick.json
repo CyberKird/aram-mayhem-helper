@@ -8,47 +8,48 @@
  ],
  "starting": [
   "Giant's Belt",
-  "Ruby Crystal"
+  "Ruby Crystal",
+  "Health Potion",
+  "Health Potion"
  ],
  "core": [
   "Heartsteel",
-  "Plated Steelcaps",
+  "Mercury's Treads",
   "Warmog's Armor",
   "Unending Despair"
  ],
  "fourth": [
   "Overlord's Bloodmail",
-  "Spirit Visage",
   "Iceborn Gauntlet",
+  "Spirit Visage",
   "Sundered Sky"
  ],
  "fifth": [
   "Overlord's Bloodmail",
   "Spirit Visage",
   "Kaenic Rookern",
-  "Spear of Shojin"
+  "Iceborn Gauntlet"
  ],
  "sixth": [
   "Overlord's Bloodmail",
   "Jak'Sho, The Protean",
-  "Endless Hunger",
-  "Liandry's Torment"
+  "Spirit Visage",
+  "Death's Dance"
  ],
  "pool": [
   "Giant's Belt",
   "Ruby Crystal",
+  "Health Potion",
   "Heartsteel",
-  "Plated Steelcaps",
+  "Mercury's Treads",
   "Warmog's Armor",
   "Unending Despair",
   "Overlord's Bloodmail",
-  "Spirit Visage",
   "Iceborn Gauntlet",
+  "Spirit Visage",
   "Sundered Sky",
   "Kaenic Rookern",
-  "Spear of Shojin",
   "Jak'Sho, The Protean",
-  "Endless Hunger",
-  "Liandry's Torment"
+  "Death's Dance"
  ]
 }

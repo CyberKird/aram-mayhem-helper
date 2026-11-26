@@ -19,14 +19,14 @@
  "fourth": [
   "Riftmaker",
   "Spirit Visage",
-  "Rabadon's Deathcap",
-  "Jak'Sho, The Protean"
+  "Jak'Sho, The Protean",
+  "Rabadon's Deathcap"
  ],
  "fifth": [
   "Riftmaker",
   "Jak'Sho, The Protean",
-  "Void Staff",
-  "Spirit Visage"
+  "Spirit Visage",
+  "Void Staff"
  ],
  "sixth": [
   "Riftmaker",
@@ -43,8 +43,8 @@
   "Warmog's Armor",
   "Riftmaker",
   "Spirit Visage",
-  "Rabadon's Deathcap",
   "Jak'Sho, The Protean",
+  "Rabadon's Deathcap",
   "Void Staff"
  ]
 }

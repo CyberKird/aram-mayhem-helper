@@ -11,9 +11,9 @@
  ],
  "core": [
   "Blackfire Torch",
-  "Ionian Boots of Lucidity",
-  "Imperial Mandate",
-  "Liandry's Torment"
+  "Sorcerer's Shoes",
+  "Liandry's Torment",
+  "Imperial Mandate"
  ],
  "fourth": [
   "Rabadon's Deathcap",
@@ -23,22 +23,22 @@
  ],
  "fifth": [
   "Void Staff",
-  "Shadowflame",
   "Rabadon's Deathcap",
+  "Shadowflame",
   "Cryptbloom"
  ],
  "sixth": [
-  "Void Staff",
   "Endless Hunger",
+  "Void Staff",
   "Youmuu's Ghostblade",
   "Shadowflame"
  ],
  "pool": [
   "Lost Chapter",
   "Blackfire Torch",
-  "Ionian Boots of Lucidity",
-  "Imperial Mandate",
+  "Sorcerer's Shoes",
   "Liandry's Torment",
+  "Imperial Mandate",
   "Rabadon's Deathcap",
   "Shadowflame",
   "Void Staff",
