@@ -7,18 +7,19 @@
   "Clarity"
  ],
  "starting": [
+  "Refillable Potion",
   "Lost Chapter"
  ],
  "core": [
   "Luden's Echo",
   "Ionian Boots of Lucidity",
-  "Archangel's Staff",
-  "Rabadon's Deathcap"
+  "Rabadon's Deathcap",
+  "Archangel's Staff"
  ],
  "fourth": [
   "Blackfire Torch",
-  "Cryptbloom",
   "Cosmic Drive",
+  "Cryptbloom",
   "Horizon Focus"
  ],
  "fifth": [
@@ -30,18 +31,19 @@
  "sixth": [
   "Winter's Approach",
   "Rod of Ages",
-  "Cosmic Drive",
-  "Blackfire Torch"
+  "Blackfire Torch",
+  "Cosmic Drive"
  ],
  "pool": [
+  "Refillable Potion",
   "Lost Chapter",
   "Luden's Echo",
   "Ionian Boots of Lucidity",
-  "Archangel's Staff",
   "Rabadon's Deathcap",
+  "Archangel's Staff",
   "Blackfire Torch",
-  "Cryptbloom",
   "Cosmic Drive",
+  "Cryptbloom",
   "Horizon Focus",
   "Winter's Approach",
   "Rod of Ages",

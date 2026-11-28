@@ -7,16 +7,14 @@
   "Heal"
  ],
  "starting": [
-  "Health Potion",
-  "Health Potion",
   "Tear of the Goddess",
   "Bandleglass Mirror"
  ],
  "core": [
-  "Whispering Circlet",
-  "Ionian Boots of Lucidity",
   "Moonstone Renewer",
-  "Staff of Flowing Water"
+  "Ionian Boots of Lucidity",
+  "Staff of Flowing Water",
+  "Whispering Circlet"
  ],
  "fourth": [
   "Sword of Blossoming Dawn",
@@ -32,18 +30,17 @@
  ],
  "sixth": [
   "Sword of Blossoming Dawn",
-  "Ardent Censer",
   "Echoes of Helia",
+  "Ardent Censer",
   "Dawncore"
  ],
  "pool": [
-  "Health Potion",
   "Tear of the Goddess",
   "Bandleglass Mirror",
-  "Whispering Circlet",
-  "Ionian Boots of Lucidity",
   "Moonstone Renewer",
+  "Ionian Boots of Lucidity",
   "Staff of Flowing Water",
+  "Whispering Circlet",
   "Sword of Blossoming Dawn",
   "Dawncore",
   "Echoes of Helia",

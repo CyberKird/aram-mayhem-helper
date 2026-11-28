@@ -19,8 +19,8 @@
  "fourth": [
   "Voltaic Cyclosword",
   "Lord Dominik's Regards",
-  "Maw of Malmortius",
-  "Spear of Shojin"
+  "Spear of Shojin",
+  "Mortal Reminder"
  ],
  "fifth": [
   "Lord Dominik's Regards",
@@ -29,8 +29,8 @@
   "Maw of Malmortius"
  ],
  "sixth": [
-  "Lord Dominik's Regards",
   "Axiom Arc",
+  "Lord Dominik's Regards",
   "Voltaic Cyclosword",
   "Maw of Malmortius"
  ],
@@ -43,8 +43,9 @@
   "Endless Hunger",
   "Voltaic Cyclosword",
   "Lord Dominik's Regards",
-  "Maw of Malmortius",
   "Spear of Shojin",
+  "Mortal Reminder",
+  "Maw of Malmortius",
   "Axiom Arc"
  ]
 }

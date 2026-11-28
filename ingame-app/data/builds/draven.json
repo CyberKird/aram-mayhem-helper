@@ -13,24 +13,24 @@
  "core": [
   "Hubris",
   "Berserker's Greaves",
-  "The Collector",
+  "Infinity Edge",
   "Bloodthirster"
  ],
  "fourth": [
   "Axiom Arc",
-  "Infinity Edge",
   "Lord Dominik's Regards",
-  "Essence Reaver"
+  "Essence Reaver",
+  "Mortal Reminder"
  ],
  "fifth": [
   "Endless Hunger",
   "Axiom Arc",
   "Lord Dominik's Regards",
-  "Essence Reaver"
+  "Hexoptics C44"
  ],
  "sixth": [
-  "Voltaic Cyclosword",
   "Endless Hunger",
+  "Voltaic Cyclosword",
   "Axiom Arc",
   "Death's Dance"
  ],
@@ -39,13 +39,14 @@
   "Serrated Dirk",
   "Hubris",
   "Berserker's Greaves",
-  "The Collector",
+  "Infinity Edge",
   "Bloodthirster",
   "Axiom Arc",
-  "Infinity Edge",
   "Lord Dominik's Regards",
   "Essence Reaver",
+  "Mortal Reminder",
   "Endless Hunger",
+  "Hexoptics C44",
   "Voltaic Cyclosword",
   "Death's Dance"
  ]

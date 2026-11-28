@@ -7,8 +7,8 @@
   "Ghost"
  ],
  "starting": [
-  "Blasting Wand",
-  "Tear of the Goddess"
+  "Tear of the Goddess",
+  "Guardian's Orb"
  ],
  "core": [
   "Rod of Ages",
@@ -24,19 +24,19 @@
  ],
  "fifth": [
   "Rabadon's Deathcap",
-  "Bloodletter's Curse",
   "Riftmaker",
+  "Bloodletter's Curse",
   "Blackfire Torch"
  ],
  "sixth": [
+  "Rabadon's Deathcap",
   "Rylai's Crystal Scepter",
-  "Riftmaker",
-  "Bloodletter's Curse",
-  "Shadowflame"
+  "Shadowflame",
+  "Riftmaker"
  ],
  "pool": [
-  "Blasting Wand",
   "Tear of the Goddess",
+  "Guardian's Orb",
   "Rod of Ages",
   "Sorcerer's Shoes",
   "Liandry's Torment",

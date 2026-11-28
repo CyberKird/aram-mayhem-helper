@@ -25,15 +25,15 @@
   "Winter's Approach"
  ],
  "fifth": [
-  "Frozen Heart",
   "Jak'Sho, The Protean",
   "Spirit Visage",
+  "Frozen Heart",
   "Force of Nature"
  ],
  "sixth": [
-  "Jak'Sho, The Protean",
   "Riftmaker",
-  "Sunfire Aegis",
+  "Jak'Sho, The Protean",
+  "Force of Nature",
   "Overlord's Bloodmail"
  ],
  "pool": [
@@ -51,7 +51,6 @@
   "Frozen Heart",
   "Force of Nature",
   "Riftmaker",
-  "Sunfire Aegis",
   "Overlord's Bloodmail"
  ]
 }

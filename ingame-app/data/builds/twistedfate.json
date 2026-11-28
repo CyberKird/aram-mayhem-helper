@@ -18,20 +18,20 @@
  "fourth": [
   "Archangel's Staff",
   "Stormsurge",
-  "Void Staff",
-  "Lich Bane"
+  "Lich Bane",
+  "Void Staff"
  ],
  "fifth": [
   "Stormsurge",
   "Lich Bane",
-  "Cryptbloom",
-  "Archangel's Staff"
+  "Archangel's Staff",
+  "Cryptbloom"
  ],
  "sixth": [
   "Lich Bane",
   "Banshee's Veil",
   "Stormsurge",
-  "Void Staff"
+  "Cryptbloom"
  ],
  "pool": [
   "Lost Chapter",
@@ -41,8 +41,8 @@
   "Shadowflame",
   "Archangel's Staff",
   "Stormsurge",
-  "Void Staff",
   "Lich Bane",
+  "Void Staff",
   "Cryptbloom",
   "Banshee's Veil"
  ]

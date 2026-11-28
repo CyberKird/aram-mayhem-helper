@@ -19,14 +19,14 @@
  "fourth": [
   "Frozen Heart",
   "Jak'Sho, The Protean",
-  "Hollow Radiance",
-  "Winter's Approach"
+  "Winter's Approach",
+  "Hollow Radiance"
  ],
  "fifth": [
   "Spirit Visage",
+  "Sunfire Aegis",
   "Jak'Sho, The Protean",
-  "Hollow Radiance",
-  "Winter's Approach"
+  "Hollow Radiance"
  ],
  "sixth": [
   "Riftmaker",
@@ -43,9 +43,10 @@
   "Warmog's Armor",
   "Frozen Heart",
   "Jak'Sho, The Protean",
-  "Hollow Radiance",
   "Winter's Approach",
+  "Hollow Radiance",
   "Spirit Visage",
+  "Sunfire Aegis",
   "Riftmaker",
   "Force of Nature"
  ]

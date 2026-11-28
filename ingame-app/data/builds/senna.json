@@ -7,9 +7,9 @@
   "Ghost"
  ],
  "starting": [
-  "Boots",
-  "Amplifying Tome",
-  "Scout's Slingshot"
+  "Pickaxe",
+  "Dagger",
+  "Dagger"
  ],
  "core": [
   "Statikk Shiv",
@@ -36,9 +36,8 @@
   "Lord Dominik's Regards"
  ],
  "pool": [
-  "Boots",
-  "Amplifying Tome",
-  "Scout's Slingshot",
+  "Pickaxe",
+  "Dagger",
   "Statikk Shiv",
   "Berserker's Greaves",
   "Blade of The Ruined King",

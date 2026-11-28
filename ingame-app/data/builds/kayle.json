@@ -7,9 +7,9 @@
   "Ghost"
  ],
  "starting": [
-  "Blasting Wand",
-  "Amplifying Tome",
-  "Refillable Potion"
+  "Boots",
+  "Recurve Bow",
+  "Amplifying Tome"
  ],
  "core": [
   "Nashor's Tooth",
@@ -20,8 +20,8 @@
  "fourth": [
   "Shadowflame",
   "Statikk Shiv",
-  "Runaan's Hurricane",
-  "Guinsoo's Rageblade"
+  "Guinsoo's Rageblade",
+  "Runaan's Hurricane"
  ],
  "fifth": [
   "Shadowflame",
@@ -36,17 +36,17 @@
   "Shadowflame"
  ],
  "pool": [
-  "Blasting Wand",
+  "Boots",
+  "Recurve Bow",
   "Amplifying Tome",
-  "Refillable Potion",
   "Nashor's Tooth",
   "Berserker's Greaves",
   "Rabadon's Deathcap",
   "Dusk and Dawn",
   "Shadowflame",
   "Statikk Shiv",
-  "Runaan's Hurricane",
   "Guinsoo's Rageblade",
+  "Runaan's Hurricane",
   "Void Staff",
   "Riftmaker",
   "Hextech Gunblade"

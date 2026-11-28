@@ -18,21 +18,21 @@
  ],
  "fourth": [
   "Stormsurge",
-  "Void Staff",
   "Riftmaker",
+  "Void Staff",
   "Bloodletter's Curse"
  ],
  "fifth": [
   "Stormsurge",
   "Void Staff",
   "Riftmaker",
-  "Bloodletter's Curse"
+  "Malignance"
  ],
  "sixth": [
   "Stormsurge",
   "Riftmaker",
   "Void Staff",
-  "Bloodletter's Curse"
+  "Malignance"
  ],
  "pool": [
   "Amplifying Tome",
@@ -42,8 +42,9 @@
   "Shadowflame",
   "Rabadon's Deathcap",
   "Stormsurge",
-  "Void Staff",
   "Riftmaker",
-  "Bloodletter's Curse"
+  "Void Staff",
+  "Bloodletter's Curse",
+  "Malignance"
  ]
 }

@@ -14,25 +14,25 @@
   "Heartsteel",
   "Mercury's Treads",
   "Riftmaker",
-  "Spirit Visage"
+  "Unending Despair"
  ],
  "fourth": [
   "Warmog's Armor",
   "Dusk and Dawn",
-  "Unending Despair",
+  "Spirit Visage",
   "Liandry's Torment"
  ],
  "fifth": [
-  "Dusk and Dawn",
   "Warmog's Armor",
-  "Unending Despair",
-  "Rabadon's Deathcap"
+  "Dusk and Dawn",
+  "Spirit Visage",
+  "Rylai's Crystal Scepter"
  ],
  "sixth": [
   "Dusk and Dawn",
   "Warmog's Armor",
-  "Unending Despair",
-  "Jak'Sho, The Protean"
+  "Spirit Visage",
+  "Rabadon's Deathcap"
  ],
  "pool": [
   "Giant's Belt",
@@ -40,12 +40,12 @@
   "Heartsteel",
   "Mercury's Treads",
   "Riftmaker",
-  "Spirit Visage",
+  "Unending Despair",
   "Warmog's Armor",
   "Dusk and Dawn",
-  "Unending Despair",
+  "Spirit Visage",
   "Liandry's Torment",
-  "Rabadon's Deathcap",
-  "Jak'Sho, The Protean"
+  "Rylai's Crystal Scepter",
+  "Rabadon's Deathcap"
  ]
 }

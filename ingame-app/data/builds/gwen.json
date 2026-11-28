@@ -8,42 +8,43 @@
  ],
  "starting": [
   "Ruby Crystal",
-  "Sheen"
+  "Guardian's Orb"
  ],
  "core": [
   "Dusk and Dawn",
   "Sorcerer's Shoes",
-  "Nashor's Tooth",
-  "Shadowflame"
+  "Shadowflame",
+  "Rabadon's Deathcap"
  ],
  "fourth": [
-  "Rabadon's Deathcap",
   "Void Staff",
   "Riftmaker",
+  "Nashor's Tooth",
   "Spirit Visage"
  ],
  "fifth": [
-  "Rabadon's Deathcap",
   "Void Staff",
   "Riftmaker",
+  "Nashor's Tooth",
   "Spirit Visage"
  ],
  "sixth": [
   "Void Staff",
-  "Rabadon's Deathcap",
   "Riftmaker",
-  "Spirit Visage"
+  "Nashor's Tooth",
+  "Cosmic Drive"
  ],
  "pool": [
   "Ruby Crystal",
-  "Sheen",
+  "Guardian's Orb",
   "Dusk and Dawn",
   "Sorcerer's Shoes",
-  "Nashor's Tooth",
   "Shadowflame",
   "Rabadon's Deathcap",
   "Void Staff",
   "Riftmaker",
-  "Spirit Visage"
+  "Nashor's Tooth",
+  "Spirit Visage",
+  "Cosmic Drive"
  ]
 }

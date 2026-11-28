@@ -22,8 +22,8 @@
   "Shadowflame"
  ],
  "fifth": [
-  "Archangel's Staff",
   "Bloodletter's Curse",
+  "Archangel's Staff",
   "Rabadon's Deathcap",
   "Shadowflame"
  ],
@@ -31,7 +31,7 @@
   "Bloodletter's Curse",
   "Archangel's Staff",
   "Rabadon's Deathcap",
-  "Cryptbloom"
+  "Shadowflame"
  ],
  "pool": [
   "Lost Chapter",
@@ -42,7 +42,6 @@
   "Rabadon's Deathcap",
   "Bloodletter's Curse",
   "Archangel's Staff",
-  "Shadowflame",
-  "Cryptbloom"
+  "Shadowflame"
  ]
 }

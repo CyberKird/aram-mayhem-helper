@@ -13,8 +13,8 @@
  "core": [
   "Heartsteel",
   "Mercury's Treads",
-  "Overlord's Bloodmail",
-  "Spirit Visage"
+  "Spirit Visage",
+  "Overlord's Bloodmail"
  ],
  "fourth": [
   "Warmog's Armor",
@@ -23,15 +23,15 @@
   "Endless Hunger"
  ],
  "fifth": [
-  "Unending Despair",
   "Warmog's Armor",
-  "Jak'Sho, The Protean",
-  "Endless Hunger"
+  "Unending Despair",
+  "Endless Hunger",
+  "Jak'Sho, The Protean"
  ],
  "sixth": [
   "Unending Despair",
-  "Warmog's Armor",
   "Endless Hunger",
+  "Warmog's Armor",
   "Sterak's Gage"
  ],
  "pool": [
@@ -39,8 +39,8 @@
   "Ruby Crystal",
   "Heartsteel",
   "Mercury's Treads",
-  "Overlord's Bloodmail",
   "Spirit Visage",
+  "Overlord's Bloodmail",
   "Warmog's Armor",
   "Unending Despair",
   "Jak'Sho, The Protean",

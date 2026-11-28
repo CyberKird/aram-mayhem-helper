@@ -7,43 +7,45 @@
   "Mark"
  ],
  "starting": [
-  "Lost Chapter"
+  "Null-Magic Mantle",
+  "Kindlegem"
  ],
  "core": [
-  "Malignance",
-  "Sorcerer's Shoes",
-  "Shadowflame",
-  "Rabadon's Deathcap"
+  "Locket of the Iron Solari",
+  "Mercury's Treads",
+  "Zeke's Convergence",
+  "Knight's Vow"
  ],
  "fourth": [
-  "Knight's Vow",
   "Warmog's Armor",
   "Jak'Sho, The Protean",
+  "Spirit Visage",
   "Winter's Approach"
  ],
  "fifth": [
-  "Knight's Vow",
-  "Spirit Visage",
   "Warmog's Armor",
-  "Jak'Sho, The Protean"
+  "Spirit Visage",
+  "Jak'Sho, The Protean",
+  "Unending Despair"
  ],
  "sixth": [
-  "Knight's Vow",
-  "Frozen Heart",
   "Spirit Visage",
-  "Jak'Sho, The Protean"
+  "Frozen Heart",
+  "Jak'Sho, The Protean",
+  "Warmog's Armor"
  ],
  "pool": [
-  "Lost Chapter",
-  "Malignance",
-  "Sorcerer's Shoes",
-  "Shadowflame",
-  "Rabadon's Deathcap",
+  "Null-Magic Mantle",
+  "Kindlegem",
+  "Locket of the Iron Solari",
+  "Mercury's Treads",
+  "Zeke's Convergence",
   "Knight's Vow",
   "Warmog's Armor",
   "Jak'Sho, The Protean",
-  "Winter's Approach",
   "Spirit Visage",
+  "Winter's Approach",
+  "Unending Despair",
   "Frozen Heart"
  ]
 }

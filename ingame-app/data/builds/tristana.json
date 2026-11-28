@@ -4,7 +4,7 @@
  "mode": "ARAM Mayhem",
  "summoners": [
   "Flash",
-  "Ghost"
+  "Barrier"
  ],
  "starting": [
   "B. F. Sword"
@@ -31,7 +31,7 @@
   "Bloodthirster",
   "Phantom Dancer",
   "Kraken Slayer",
-  "Blade of The Ruined King"
+  "Navori Flickerblade"
  ],
  "pool": [
   "B. F. Sword",
@@ -44,7 +44,6 @@
   "The Collector",
   "Runaan's Hurricane",
   "Kraken Slayer",
-  "Phantom Dancer",
-  "Blade of The Ruined King"
+  "Phantom Dancer"
  ]
 }

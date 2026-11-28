@@ -12,14 +12,14 @@
  "core": [
   "Malignance",
   "Sorcerer's Shoes",
-  "Shadowflame",
-  "Rabadon's Deathcap"
+  "Rabadon's Deathcap",
+  "Shadowflame"
  ],
  "fourth": [
   "Rylai's Crystal Scepter",
   "Liandry's Torment",
   "Stormsurge",
-  "Zhonya's Hourglass"
+  "Void Staff"
  ],
  "fifth": [
   "Archangel's Staff",
@@ -37,13 +37,12 @@
   "Lost Chapter",
   "Malignance",
   "Sorcerer's Shoes",
-  "Shadowflame",
   "Rabadon's Deathcap",
+  "Shadowflame",
   "Rylai's Crystal Scepter",
   "Liandry's Torment",
   "Stormsurge",
-  "Zhonya's Hourglass",
-  "Archangel's Staff",
-  "Void Staff"
+  "Void Staff",
+  "Archangel's Staff"
  ]
 }

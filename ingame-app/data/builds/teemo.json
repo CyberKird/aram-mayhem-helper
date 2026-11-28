@@ -18,7 +18,7 @@
  "fourth": [
   "Statikk Shiv",
   "Rabadon's Deathcap",
-  "Shadowflame",
+  "Lich Bane",
   "Nashor's Tooth"
  ],
  "fifth": [
@@ -31,7 +31,7 @@
   "Stormsurge",
   "Shadowflame",
   "Void Staff",
-  "Rabadon's Deathcap"
+  "Cryptbloom"
  ],
  "pool": [
   "Lost Chapter",
@@ -41,9 +41,11 @@
   "Liandry's Torment",
   "Statikk Shiv",
   "Rabadon's Deathcap",
-  "Shadowflame",
+  "Lich Bane",
   "Nashor's Tooth",
+  "Shadowflame",
   "Stormsurge",
-  "Void Staff"
+  "Void Staff",
+  "Cryptbloom"
  ]
 }

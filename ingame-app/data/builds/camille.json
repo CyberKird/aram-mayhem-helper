@@ -14,25 +14,25 @@
   "Trinity Force",
   "Mercury's Treads",
   "Death's Dance",
-  "Ravenous Hydra"
+  "Endless Hunger"
  ],
  "fourth": [
-  "Endless Hunger",
   "Spear of Shojin",
+  "Ravenous Hydra",
   "Maw of Malmortius",
-  "Spirit Visage"
+  "Sterak's Gage"
  ],
  "fifth": [
-  "Endless Hunger",
-  "Maw of Malmortius",
   "Spear of Shojin",
+  "Maw of Malmortius",
+  "Sterak's Gage",
   "Spirit Visage"
  ],
  "sixth": [
-  "Spear of Shojin",
+  "Spirit Visage",
   "Maw of Malmortius",
-  "Overlord's Bloodmail",
-  "Sterak's Gage"
+  "Sterak's Gage",
+  "Overlord's Bloodmail"
  ],
  "pool": [
   "Long Sword",
@@ -40,12 +40,12 @@
   "Trinity Force",
   "Mercury's Treads",
   "Death's Dance",
-  "Ravenous Hydra",
   "Endless Hunger",
   "Spear of Shojin",
+  "Ravenous Hydra",
   "Maw of Malmortius",
+  "Sterak's Gage",
   "Spirit Visage",
-  "Overlord's Bloodmail",
-  "Sterak's Gage"
+  "Overlord's Bloodmail"
  ]
 }

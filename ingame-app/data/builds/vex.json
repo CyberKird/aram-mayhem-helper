@@ -16,10 +16,10 @@
   "Rabadon's Deathcap"
  ],
  "fourth": [
+  "Archangel's Staff",
   "Stormsurge",
   "Void Staff",
-  "Zhonya's Hourglass",
-  "Liandry's Torment"
+  "Zhonya's Hourglass"
  ],
  "fifth": [
   "Stormsurge",
@@ -30,8 +30,8 @@
  "sixth": [
   "Cryptbloom",
   "Banshee's Veil",
-  "Zhonya's Hourglass",
-  "Stormsurge"
+  "Stormsurge",
+  "Zhonya's Hourglass"
  ],
  "pool": [
   "Lost Chapter",
@@ -39,12 +39,11 @@
   "Sorcerer's Shoes",
   "Shadowflame",
   "Rabadon's Deathcap",
+  "Archangel's Staff",
   "Stormsurge",
   "Void Staff",
   "Zhonya's Hourglass",
-  "Liandry's Torment",
   "Cryptbloom",
-  "Archangel's Staff",
   "Banshee's Veil"
  ]
 }

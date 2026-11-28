@@ -7,43 +7,44 @@
   "Ghost"
  ],
  "starting": [
+  "Refillable Potion",
   "Lost Chapter"
  ],
  "core": [
-  "Luden's Echo",
+  "Blackfire Torch",
   "Sorcerer's Shoes",
-  "Rabadon's Deathcap",
-  "Shadowflame"
+  "Shadowflame",
+  "Rabadon's Deathcap"
  ],
  "fourth": [
   "Archangel's Staff",
   "Stormsurge",
-  "Void Staff",
-  "Malignance"
+  "Cryptbloom",
+  "Void Staff"
  ],
  "fifth": [
-  "Stormsurge",
   "Archangel's Staff",
+  "Stormsurge",
   "Cryptbloom",
   "Void Staff"
  ],
  "sixth": [
-  "Void Staff",
   "Stormsurge",
+  "Void Staff",
   "Banshee's Veil",
-  "Archangel's Staff"
+  "Cryptbloom"
  ],
  "pool": [
+  "Refillable Potion",
   "Lost Chapter",
-  "Luden's Echo",
+  "Blackfire Torch",
   "Sorcerer's Shoes",
-  "Rabadon's Deathcap",
   "Shadowflame",
+  "Rabadon's Deathcap",
   "Archangel's Staff",
   "Stormsurge",
-  "Void Staff",
-  "Malignance",
   "Cryptbloom",
+  "Void Staff",
   "Banshee's Veil"
  ]
 }

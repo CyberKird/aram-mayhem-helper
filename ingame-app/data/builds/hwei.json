@@ -26,13 +26,13 @@
   "Shadowflame",
   "Archangel's Staff",
   "Cryptbloom",
-  "Stormsurge"
+  "Void Staff"
  ],
  "sixth": [
   "Shadowflame",
-  "Stormsurge",
   "Cryptbloom",
-  "Void Staff"
+  "Stormsurge",
+  "Banshee's Veil"
  ],
  "pool": [
   "Refillable Potion",
@@ -45,6 +45,7 @@
   "Shadowflame",
   "Void Staff",
   "Cryptbloom",
-  "Stormsurge"
+  "Stormsurge",
+  "Banshee's Veil"
  ]
 }

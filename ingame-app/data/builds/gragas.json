@@ -7,8 +7,8 @@
   "Mark"
  ],
  "starting": [
-  "Refillable Potion",
-  "Lost Chapter"
+  "Amplifying Tome",
+  "Guardian's Orb"
  ],
  "core": [
   "Luden's Echo",
@@ -18,9 +18,9 @@
  ],
  "fourth": [
   "Lich Bane",
-  "Void Staff",
   "Warmog's Armor",
-  "Stormsurge"
+  "Stormsurge",
+  "Void Staff"
  ],
  "fifth": [
   "Lich Bane",
@@ -29,22 +29,22 @@
   "Cryptbloom"
  ],
  "sixth": [
-  "Malignance",
   "Void Staff",
   "Lich Bane",
+  "Malignance",
   "Stormsurge"
  ],
  "pool": [
-  "Refillable Potion",
-  "Lost Chapter",
+  "Amplifying Tome",
+  "Guardian's Orb",
   "Luden's Echo",
   "Sorcerer's Shoes",
   "Shadowflame",
   "Rabadon's Deathcap",
   "Lich Bane",
-  "Void Staff",
   "Warmog's Armor",
   "Stormsurge",
+  "Void Staff",
   "Cryptbloom",
   "Malignance"
  ]

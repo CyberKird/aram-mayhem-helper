@@ -12,15 +12,15 @@
  ],
  "core": [
   "Heartsteel",
-  "Mercury's Treads",
+  "Plated Steelcaps",
   "Unending Despair",
   "Warmog's Armor"
  ],
  "fourth": [
   "Jak'Sho, The Protean",
-  "Sunfire Aegis",
   "Randuin's Omen",
-  "Overlord's Bloodmail"
+  "Overlord's Bloodmail",
+  "Spirit Visage"
  ],
  "fifth": [
   "Jak'Sho, The Protean",
@@ -38,13 +38,14 @@
   "Giant's Belt",
   "Ruby Crystal",
   "Heartsteel",
-  "Mercury's Treads",
+  "Plated Steelcaps",
   "Unending Despair",
   "Warmog's Armor",
   "Jak'Sho, The Protean",
-  "Sunfire Aegis",
   "Randuin's Omen",
   "Overlord's Bloodmail",
-  "Frozen Heart"
+  "Spirit Visage",
+  "Frozen Heart",
+  "Sunfire Aegis"
  ]
 }

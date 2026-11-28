@@ -19,19 +19,19 @@
  "fourth": [
   "Warmog's Armor",
   "Riftmaker",
-  "Rylai's Crystal Scepter",
-  "Winter's Approach"
+  "Winter's Approach",
+  "Rylai's Crystal Scepter"
  ],
  "fifth": [
   "Warmog's Armor",
   "Rabadon's Deathcap",
   "Riftmaker",
-  "Rylai's Crystal Scepter"
+  "Winter's Approach"
  ],
  "sixth": [
-  "Rabadon's Deathcap",
-  "Riftmaker",
   "Warmog's Armor",
+  "Riftmaker",
+  "Rabadon's Deathcap",
   "Jak'Sho, The Protean"
  ],
  "pool": [
@@ -43,8 +43,8 @@
   "Unending Despair",
   "Warmog's Armor",
   "Riftmaker",
-  "Rylai's Crystal Scepter",
   "Winter's Approach",
+  "Rylai's Crystal Scepter",
   "Rabadon's Deathcap",
   "Jak'Sho, The Protean"
  ]

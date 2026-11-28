@@ -12,7 +12,7 @@
  ],
  "core": [
   "Hubris",
-  "Mercury's Treads",
+  "Plated Steelcaps",
   "Death's Dance",
   "Endless Hunger"
  ],
@@ -23,22 +23,22 @@
   "Mortal Reminder"
  ],
  "fifth": [
-  "Infinity Edge",
   "Lord Dominik's Regards",
+  "Infinity Edge",
   "Spear of Shojin",
   "Maw of Malmortius"
  ],
  "sixth": [
-  "Jak'Sho, The Protean",
-  "Maw of Malmortius",
   "Spirit Visage",
-  "Infinity Edge"
+  "Lord Dominik's Regards",
+  "Infinity Edge",
+  "Maw of Malmortius"
  ],
  "pool": [
   "Long Sword",
   "Guardian's Blade",
   "Hubris",
-  "Mercury's Treads",
+  "Plated Steelcaps",
   "Death's Dance",
   "Endless Hunger",
   "Lord Dominik's Regards",
@@ -46,7 +46,6 @@
   "Spear of Shojin",
   "Mortal Reminder",
   "Infinity Edge",
-  "Jak'Sho, The Protean",
   "Spirit Visage"
  ]
 }

@@ -13,40 +13,39 @@
  ],
  "core": [
   "Kraken Slayer",
-  "Mercury's Treads",
+  "Berserker's Greaves",
   "Blade of The Ruined King",
-  "Death's Dance"
+  "Terminus"
  ],
  "fourth": [
+  "Death's Dance",
   "Experimental Hexplate",
-  "Terminus",
   "Titanic Hydra",
   "Hextech Gunblade"
  ],
  "fifth": [
   "Endless Hunger",
+  "Death's Dance",
   "Experimental Hexplate",
-  "Titanic Hydra",
-  "Wit's End"
+  "Titanic Hydra"
  ],
  "sixth": [
   "Endless Hunger",
+  "Death's Dance",
   "Experimental Hexplate",
-  "Titanic Hydra",
-  "Wit's End"
+  "Titanic Hydra"
  ],
  "pool": [
   "Long Sword",
   "Recurve Bow",
   "Kraken Slayer",
-  "Mercury's Treads",
+  "Berserker's Greaves",
   "Blade of The Ruined King",
+  "Terminus",
   "Death's Dance",
   "Experimental Hexplate",
-  "Terminus",
   "Titanic Hydra",
   "Hextech Gunblade",
-  "Endless Hunger",
-  "Wit's End"
+  "Endless Hunger"
  ]
 }

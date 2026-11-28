@@ -19,13 +19,13 @@
  "fourth": [
   "Overlord's Bloodmail",
   "Hollow Radiance",
-  "Spirit Visage",
-  "Titanic Hydra"
+  "Titanic Hydra",
+  "Spirit Visage"
  ],
  "fifth": [
   "Overlord's Bloodmail",
-  "Titanic Hydra",
   "Spirit Visage",
+  "Titanic Hydra",
   "Jak'Sho, The Protean"
  ],
  "sixth": [
@@ -43,8 +43,8 @@
   "Warmog's Armor",
   "Overlord's Bloodmail",
   "Hollow Radiance",
-  "Spirit Visage",
   "Titanic Hydra",
+  "Spirit Visage",
   "Jak'Sho, The Protean"
  ]
 }

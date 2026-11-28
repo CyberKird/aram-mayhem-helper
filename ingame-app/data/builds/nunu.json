@@ -7,11 +7,12 @@
   "Mark"
  ],
  "starting": [
+  "Boots",
   "Hextech Alternator"
  ],
  "core": [
   "Stormsurge",
-  "Sorcerer's Shoes",
+  "Boots of Swiftness",
   "Rabadon's Deathcap",
   "Shadowflame"
  ],
@@ -22,21 +23,22 @@
   "Void Staff"
  ],
  "fifth": [
-  "Unending Despair",
   "Jak'Sho, The Protean",
+  "Unending Despair",
   "Warmog's Armor",
   "Void Staff"
  ],
  "sixth": [
   "Riftmaker",
-  "Luden's Echo",
   "Banshee's Veil",
+  "Luden's Echo",
   "Void Staff"
  ],
  "pool": [
+  "Boots",
   "Hextech Alternator",
   "Stormsurge",
-  "Sorcerer's Shoes",
+  "Boots of Swiftness",
   "Rabadon's Deathcap",
   "Shadowflame",
   "Warmog's Armor",
@@ -45,7 +47,7 @@
   "Void Staff",
   "Jak'Sho, The Protean",
   "Riftmaker",
-  "Luden's Echo",
-  "Banshee's Veil"
+  "Banshee's Veil",
+  "Luden's Echo"
  ]
 }

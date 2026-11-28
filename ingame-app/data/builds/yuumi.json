@@ -7,12 +7,14 @@
   "Ignite"
  ],
  "starting": [
+  "Health Potion",
+  "Health Potion",
   "Tear of the Goddess",
   "Bandleglass Mirror"
  ],
  "core": [
-  "Moonstone Renewer",
   "Whispering Circlet",
+  "Moonstone Renewer",
   "Dawncore"
  ],
  "fourth": [
@@ -24,8 +26,8 @@
  "fifth": [
   "Staff of Flowing Water",
   "Ardent Censer",
-  "Mikael's Blessing",
-  "Shurelya's Battlesong"
+  "Shurelya's Battlesong",
+  "Mikael's Blessing"
  ],
  "sixth": [
   "Staff of Flowing Water",
@@ -34,10 +36,11 @@
   "Rabadon's Deathcap"
  ],
  "pool": [
+  "Health Potion",
   "Tear of the Goddess",
   "Bandleglass Mirror",
-  "Moonstone Renewer",
   "Whispering Circlet",
+  "Moonstone Renewer",
   "Dawncore",
   "Staff of Flowing Water",
   "Ardent Censer",

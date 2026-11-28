@@ -19,8 +19,8 @@
  "fourth": [
   "Overlord's Bloodmail",
   "Unending Despair",
-  "Jak'Sho, The Protean",
-  "Warmog's Armor"
+  "Warmog's Armor",
+  "Jak'Sho, The Protean"
  ],
  "fifth": [
   "Overlord's Bloodmail",
@@ -31,8 +31,8 @@
  "sixth": [
   "Overlord's Bloodmail",
   "Unending Despair",
-  "Warmog's Armor",
-  "Spirit Visage"
+  "Spirit Visage",
+  "Death's Dance"
  ],
  "pool": [
   "Giant's Belt",
@@ -43,8 +43,9 @@
   "Riftmaker",
   "Overlord's Bloodmail",
   "Unending Despair",
-  "Jak'Sho, The Protean",
   "Warmog's Armor",
-  "Spirit Visage"
+  "Jak'Sho, The Protean",
+  "Spirit Visage",
+  "Death's Dance"
  ]
 }

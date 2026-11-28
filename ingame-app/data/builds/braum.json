@@ -19,20 +19,20 @@
  "fourth": [
   "Jak'Sho, The Protean",
   "Frozen Heart",
-  "Winter's Approach",
-  "Randuin's Omen"
+  "Randuin's Omen",
+  "Winter's Approach"
  ],
  "fifth": [
   "Jak'Sho, The Protean",
-  "Frozen Heart",
   "Winter's Approach",
+  "Frozen Heart",
   "Hollow Radiance"
  ],
  "sixth": [
   "Frozen Heart",
+  "Knight's Vow",
   "Jak'Sho, The Protean",
-  "Force of Nature",
-  "Knight's Vow"
+  "Force of Nature"
  ],
  "pool": [
   "Giant's Belt",
@@ -43,10 +43,10 @@
   "Warmog's Armor",
   "Jak'Sho, The Protean",
   "Frozen Heart",
-  "Winter's Approach",
   "Randuin's Omen",
+  "Winter's Approach",
   "Hollow Radiance",
-  "Force of Nature",
-  "Knight's Vow"
+  "Knight's Vow",
+  "Force of Nature"
  ]
 }
